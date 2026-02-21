@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Navigation from '@/components/Navigation'
@@ -13,6 +14,8 @@ const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair'
 })
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata: Metadata = {
   title: {
@@ -47,6 +50,31 @@ export const metadata: Metadata = {
   },
 }
 
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'OpenMedicare',
+  url: 'https://www.openmedicare.org',
+  description: 'Professional data journalism tracking Medicare physician spending. Analyzing billions in Medicare payments to bring transparency to healthcare spending.',
+  logo: 'https://www.openmedicare.org/logo.png',
+  sameAs: [],
+}
+
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'OpenMedicare',
+  url: 'https://www.openmedicare.org',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://www.openmedicare.org/lookup?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -55,15 +83,32 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Analytics placeholder */}
+        {/* JSON-LD Structured Data */}
         <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Google Analytics will be added here
-              console.log('Google Analytics placeholder');
-            `,
-          }}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        {/* Google Analytics */}
+        {GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_ID}');
+              `}
+            </Script>
+          </>
+        )}
       </head>
       <body className={`${inter.variable} ${playfair.variable} font-sans bg-gray-50 text-gray-900 antialiased`}>
         <Navigation />
