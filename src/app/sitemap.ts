@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'medicare-provider-lookup-guide',
     'most-expensive-medicare-procedures',
     'medicare-spending-by-state',
+    'specialty-pay-gap',
   ]
 
   const staticPages = [
