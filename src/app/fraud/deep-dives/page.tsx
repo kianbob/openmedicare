@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import ShareFinding from '@/components/ShareFinding'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -126,6 +127,8 @@ export default function DeepDives() {
           Detailed profiles of the 20 highest-risk <strong>individual</strong> providers in our watchlist.
           Organizations like LabCorp and Quest are excluded — these are the people behind the billing.
         </p>
+
+        <ShareFinding stat="990x specialty median" description="One nurse practitioner billed $12.1M — 990 times the specialty median for COVID test billing" url="/fraud/deep-dives" />
 
         {loading ? (
           <div className="text-center py-20 text-gray-500">Loading provider profiles...</div>

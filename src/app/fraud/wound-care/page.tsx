@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import ShareFinding from '@/components/ShareFinding'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency } from '@/lib/format'
 
@@ -50,6 +51,8 @@ export default function WoundCare() {
           <strong> #1 target</strong> in Medicare fraud enforcement. The DOJ&apos;s largest-ever healthcare fraud
           takedown focused heavily on this sector.
         </p>
+
+        <ShareFinding stat="$14.6B" description="Largest healthcare fraud takedown in US history — wound care was the #1 target" url="/fraud/wound-care" />
 
         {/* Context boxes */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">

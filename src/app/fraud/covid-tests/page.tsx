@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import ShareFinding from '@/components/ShareFinding'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -68,6 +69,8 @@ export default function CovidTests() {
           HCPCS code K1034 — a temporary code for COVID-19 specimen collection — became one of the
           biggest fraud vectors in Medicare history.
         </p>
+
+        <ShareFinding stat="$12.1M" description="in COVID tests billed by a single nurse practitioner through code K1034" url="/fraud/covid-tests" />
 
         {/* Context */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10">

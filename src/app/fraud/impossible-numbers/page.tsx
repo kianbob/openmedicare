@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import ShareFinding from '@/components/ShareFinding'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -69,6 +70,8 @@ export default function ImpossibleNumbers() {
           Could one person really do this? We calculate services per working day for every individual
           provider and flag those with physically questionable volumes.
         </p>
+
+        <ShareFinding stat="413 services per day" description="Could one person really do this? We flagged providers with physically impossible billing volumes" url="/fraud/impossible-numbers" />
 
         {/* The Math */}
         <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-6 mb-10">
