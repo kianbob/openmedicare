@@ -28,6 +28,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'ten-year-explosion',
     'geographic-inequality',
     'drug-money',
+    'medicare-fraud-2025',
+    'how-much-does-medicare-pay',
+    'medicare-provider-lookup-guide',
+    'most-expensive-medicare-procedures',
+    'medicare-spending-by-state',
   ]
 
   const staticPages = [
