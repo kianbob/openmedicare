@@ -1,0 +1,59 @@
+{
+  "npi": "1234567890",
+  "name": "Dr. Sarah Johnson",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "address": {
+    "street": "123 Medical Center Dr",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90210"
+  },
+  "totalPayments": 2850000,
+  "totalServices": 12500,
+  "beneficiaries": 3200,
+  "years": [2019, 2020, 2021, 2022, 2023],
+  "yearlyData": [
+    { "year": 2019, "payments": 520000, "services": 2100, "beneficiaries": 580 },
+    { "year": 2020, "payments": 485000, "services": 1950, "beneficiaries": 540 },
+    { "year": 2021, "payments": 580000, "services": 2400, "beneficiaries": 650 },
+    { "year": 2022, "payments": 615000, "services": 2650, "beneficiaries": 720 },
+    { "year": 2023, "payments": 650000, "services": 3400, "beneficiaries": 710 }
+  ],
+  "topProcedures": [
+    { 
+      "code": "93307", 
+      "description": "Echocardiography, transthoracic", 
+      "services": 1250, 
+      "payments": 425000, 
+      "avgCost": 340 
+    },
+    { 
+      "code": "93306", 
+      "description": "Echocardiography, complete", 
+      "services": 980, 
+      "payments": 295000, 
+      "avgCost": 301 
+    },
+    { 
+      "code": "99213", 
+      "description": "Office visit, established patient", 
+      "services": 2100, 
+      "payments": 180000, 
+      "avgCost": 86 
+    }
+  ],
+  "markupRatio": 2.4,
+  "peerComparison": {
+    "specialty": "Cardiology",
+    "percentile": 75,
+    "medianPayment": 485000
+  },
+  "riskFlags": [
+    {
+      "type": "High Markup",
+      "description": "Charges 2.4x more than Medicare pays (specialty average: 1.8x)",
+      "severity": "medium"
+    }
+  ]
+}
