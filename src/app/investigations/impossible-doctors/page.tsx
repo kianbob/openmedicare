@@ -224,9 +224,23 @@ export default function ImpossibleDoctorsPage() {
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What the Data Reveals</h2>
+              <div className="bg-red-50 border border-red-200 rounded-lg p-6 my-6">
+                <h3 className="text-lg font-semibold text-red-900 mb-3">Impossible Numbers: The Full Picture</h3>
+                <ul className="space-y-2 text-red-800">
+                  <li>• <strong>{formatNumber(1139881)} providers</strong> analyzed across our fraud detection system</li>
+                  <li>• <strong>{formatNumber(4636)} providers</strong> flagged with impossible billing volumes</li>
+                  <li>• <strong>#1: Madhavi Rayapudi</strong> — {formatNumber(9862)} services per working day</li>
+                </ul>
+                <div className="mt-3">
+                  <Link href="/fraud/impossible-numbers" className="text-red-700 hover:underline text-sm font-medium">
+                    See the full impossible numbers list →
+                  </Link>
+                </div>
+              </div>
               <p>
-                Our analysis of 10 years of CMS Medicare data identified a small but significant number of
-                individual providers (not organizations) whose billing volumes defy physical constraints.
+                Our analysis of {formatNumber(1139881)} Medicare providers identified <strong>{formatNumber(4636)}</strong> individual
+                providers (not organizations) whose billing volumes defy physical constraints. The most extreme
+                case: <strong>Madhavi Rayapudi</strong>, who averaged {formatNumber(9862)} services per working day.
                 These providers share common characteristics:
               </p>
               <ul className="list-disc pl-6 space-y-2">

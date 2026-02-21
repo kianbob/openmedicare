@@ -259,6 +259,26 @@ export default function WhereMedicareDollarGoesPage() {
 
         <article className="prose prose-lg max-w-none">
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
+            Office vs. Facility: Where Care Happens
+          </h2>
+          <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-6 my-6 not-prose">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
+              <div>
+                <p className="text-3xl font-bold text-indigo-700">{formatCurrency(558000000000)}</p>
+                <p className="text-sm text-indigo-600">Office settings (65%)</p>
+              </div>
+              <div>
+                <p className="text-3xl font-bold text-purple-700">{formatCurrency(297000000000)}</p>
+                <p className="text-sm text-purple-600">Facility settings (35%)</p>
+              </div>
+            </div>
+            <p className="text-sm text-indigo-800 mt-3 text-center">
+              Nearly two-thirds of all Medicare Part B spending occurs in office settings.{' '}
+              <Link href="/place-of-service" className="underline font-medium">See the full place-of-service breakdown →</Link>
+            </p>
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
             The Office Visit Foundation
           </h2>
           <p className="text-gray-700 mb-4">

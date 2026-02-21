@@ -177,10 +177,26 @@ export default function WoundCareCrisisPage() {
               </ul>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What Our Data Shows</h2>
+              <div className="bg-red-50 border border-red-200 rounded-lg p-6 my-6">
+                <h3 className="text-lg font-semibold text-red-900 mb-3">Wound Care by the Numbers</h3>
+                <ul className="space-y-2 text-red-800">
+                  <li>• <strong>{formatCurrency(5530000000)}</strong> — Total wound care billing across Medicare</li>
+                  <li>• <strong>Top code: 11042</strong> (debridement) — {formatCurrency(1090000000)}</li>
+                  <li>• <strong>500 providers</strong> tracked in our wound care database</li>
+                  <li>• <strong>Ira Denny, NP</strong> — billed {formatCurrency(135000000)} for just 90 patients ({formatCurrency(1500000)} per patient)</li>
+                </ul>
+                <div className="mt-3">
+                  <Link href="/fraud/wound-care" className="text-red-700 hover:underline text-sm font-medium">
+                    Explore the full wound care fraud tracker →
+                  </Link>
+                </div>
+              </div>
               <p>
-                Across 10 years of Medicare data, we identified a pattern of wound care billing that concentrates
-                among a relatively small number of providers who bill at volumes and markups far exceeding their
-                peers. The characteristics of these outlier providers include:
+                Across 10 years of Medicare data, <strong>{formatCurrency(5530000000)}</strong> flowed through wound care
+                billing codes. We identified a pattern of billing that concentrates among a relatively small number
+                of providers who bill at volumes and markups far exceeding their peers. The most extreme case:
+                nurse practitioner <strong>Ira Denny</strong>, who billed {formatCurrency(135000000)} for just 90
+                patients — an average of {formatCurrency(1500000)} per patient. The characteristics of these outlier providers include:
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Skin substitute billing volumes in the 99th percentile</li>

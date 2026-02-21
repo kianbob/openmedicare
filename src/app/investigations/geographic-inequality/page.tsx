@@ -76,6 +76,18 @@ export default function GeographicInequalityPage() {
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Geography of Medicare Money</h2>
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6 not-prose">
+            <h3 className="text-lg font-semibold text-blue-900 mb-3">City-Level Analysis</h3>
+            <p className="text-blue-800 mb-2">
+              Our geographic analysis of 500 cities reveals <strong>Houston</strong> as the #1 Medicare city
+              at <strong>{formatCurrency(9240000000)}</strong> in total billing — more than many entire states.
+            </p>
+            <div className="mt-3">
+              <Link href="/geographic" className="text-blue-700 hover:underline text-sm font-medium">
+                Explore the full geographic breakdown →
+              </Link>
+            </div>
+          </div>
           <p className="text-gray-700 mb-4">
             Medicare is a federal program with uniform rules. But the money flows very differently depending
             on geography. Florida, California, New Jersey, and Nevada consistently top the charts for

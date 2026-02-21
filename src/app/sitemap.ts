@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'two-trillion-writeoff',
     '9862-services-per-day',
     'houston-medicare-capital',
+    'three-providers',
   ]
 
   const staticPages = [
@@ -69,6 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/your-medicare-dollar',
     '/methodology',
     ...investigationSlugs.map(s => `/investigations/${s}`),
+    '/api-docs',
     '/search',
     // State comparison pages
     ...['ca-vs-tx','ca-vs-ny','fl-vs-tx','ny-vs-fl','ca-vs-fl','tx-vs-ny','pa-vs-oh','il-vs-ca','ga-vs-fl','nc-vs-va','mi-vs-oh','nj-vs-ny','wa-vs-ca','az-vs-ca','ma-vs-ny','tn-vs-ga','md-vs-va','co-vs-az','mn-vs-wi','or-vs-wa','in-vs-oh','mo-vs-il','sc-vs-nc','al-vs-ga','ky-vs-tn','la-vs-tx','ok-vs-tx','ct-vs-ny','ut-vs-co','nv-vs-az'].map(s => `/states/compare/${s}`),

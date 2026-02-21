@@ -131,10 +131,11 @@ export default function CovidTestSchemePage() {
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
                 <h3 className="text-lg font-semibold text-blue-900 mb-3">Key Numbers</h3>
                 <ul className="space-y-2 text-blue-800">
+                  <li>• <strong>{formatCurrency(2840000000)}</strong> — total K1034 COVID test billing in Medicare</li>
                   <li>• <strong>{formatCurrency(1700000000)}</strong> charged in 2023 COVID healthcare fraud enforcement</li>
                   <li>• <strong>~$12/test</strong> — K1034 reimbursement rate</li>
-                  <li>• <strong>{formatCurrency(12100000)}</strong> — largest individual K1034 biller in our dataset</li>
-                  <li>• <strong>990x</strong> — how much that biller exceeded the specialty median</li>
+                  <li>• <strong>500 providers</strong> tracked in our COVID test billing database</li>
+                  <li>• <strong>{formatCurrency(75800000)}</strong> — #1 biller (VRA Enterprises, Tampa)</li>
                   <li>• <strong>413 services/day</strong> — the physical impossibility threshold</li>
                 </ul>
               </div>
@@ -149,9 +150,23 @@ export default function CovidTestSchemePage() {
               </ol>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What Our Data Shows</h2>
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
+                <h3 className="text-lg font-semibold text-blue-900 mb-3">COVID Test Billing: The Full Picture</h3>
+                <ul className="space-y-2 text-blue-800">
+                  <li>• <strong>{formatCurrency(2840000000)}</strong> — Total K1034 COVID test billing across Medicare</li>
+                  <li>• <strong>500 providers</strong> tracked in our COVID test billing database</li>
+                  <li>• <strong>#1 biller: VRA Enterprises</strong> (Tampa pharmacy) — {formatCurrency(75800000)}</li>
+                </ul>
+                <div className="mt-3">
+                  <Link href="/fraud/covid-tests" className="text-blue-700 hover:underline text-sm font-medium">
+                    Explore the full COVID test billing tracker →
+                  </Link>
+                </div>
+              </div>
               <p>
                 Our analysis of CMS Medicare Provider Utilization and Payment Data reveals a cluster of providers
-                with extreme K1034 billing volumes concentrated in Southern California. The statistical profile
+                with extreme K1034 billing volumes. Across the entire program, <strong>{formatCurrency(2840000000)}</strong> was
+                billed through K1034 — a staggering sum for a code that reimburses ~$12 per test. The statistical profile
                 of these providers shows:
               </p>
               <ul className="list-disc pl-6 space-y-2">

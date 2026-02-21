@@ -144,10 +144,15 @@ export default function OfficeVisitEconomyPage() {
           <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-amber-900 font-medium text-lg">⚠️ The Upcoding Red Flag</p>
             <p className="text-amber-800 mt-2">
-              If just 10% of 99214 visits were actually 99213-level encounters that were
+              Our upcoding analysis confirms: the national 99214-to-99213 ratio is <strong>1.44</strong>, with
+              <strong> 53.2%</strong> of all E/M visits now coded as 99214. Over the past decade, the 99214 share
+              rose from <strong>41.5% to 52.8%</strong>. If just 10% of 99214 visits were actually 99213-level encounters that were
               &quot;upcoded,&quot; the cost to Medicare would be approximately
               <strong> {formatCurrency(974725328 * 0.1 * (72.68 - 49.50))}</strong> in
               overpayments over the analysis period.
+            </p>
+            <p className="text-amber-700 mt-2 text-sm">
+              <Link href="/fraud/upcoding" className="underline font-medium">Explore the full upcoding analysis →</Link>
             </p>
           </div>
 

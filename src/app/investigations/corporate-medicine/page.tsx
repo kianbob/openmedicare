@@ -52,11 +52,12 @@ export default function CorporateMedicinePage() {
           <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-purple-900 font-medium text-lg">Key Finding</p>
             <p className="text-purple-800 mt-2">
-              Among Medicare&apos;s top 1,000 billers, <strong>545 are organizations</strong> and only
-              455 are individuals. Laboratory Corporation of America alone collected
+              Across all of Medicare, <strong>{formatNumber(85627)} organizations</strong> and <strong>{formatNumber(1640000)} individuals</strong> bill
+              the program. Organizations average <strong>{formatCurrency(1870000)}</strong> per provider — compared to
+              just <strong>{formatCurrency(424000)}</strong> for individuals. Among the top 1,000 billers,{' '}
+              <strong>545 are organizations</strong> and only 455 are individuals. Laboratory Corporation of America alone collected
               <strong> {formatCurrency(labCorpTotal)}</strong> across multiple state entities,
               while Quest Diagnostics received <strong>{formatCurrency(questTotal)}</strong>.
-              Clinical laboratories dominate the organizational billing landscape.
             </p>
           </div>
 

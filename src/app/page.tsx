@@ -176,7 +176,7 @@ export default function HomePage() {
 
             {/* Hook line */}
             <p className="mt-8 text-sm text-blue-200 max-w-2xl mx-auto">
-              Exposed: A nurse practitioner billing $12.1M for COVID tests. A plastic surgeon marking up wound care 59x.{' '}
+              Exposed: {formatCurrency(2840000000)} in COVID test billing. {formatCurrency(5530000000)} in wound care. {formatNumber(4636)} providers with impossible volumes.{' '}
               <Link href="/fraud" className="underline text-white hover:text-blue-100">See the fraud analysis →</Link>
             </p>
           </div>
@@ -279,7 +279,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 18 data-driven investigations
+              Deep-dive analysis from our library of 35 data-driven investigations
             </p>
           </div>
           
@@ -319,7 +319,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 18 Investigations
+              View All 35 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>

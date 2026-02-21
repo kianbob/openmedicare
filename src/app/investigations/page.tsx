@@ -15,17 +15,17 @@ export const metadata: Metadata = {
 }
 
 const featuredInvestigation = {
-  title: 'The Medicare Markup Machine',
-  description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling',
-  href: '/investigations/markup-machine',
-  category: 'Deep Dive',
-  readTime: '15 min read',
-  publishedAt: '2024-02-15',
-  excerpt: 'Our analysis of 10 years of Medicare data reveals a systematic pattern of inflated charges across healthcare specialties. While Medicare caps actual payments, providers continue submitting charges 2-3 times higher than reimbursement rates.',
+  title: 'Three Providers, Three Red Flags',
+  description: 'Inside Medicare\'s most suspicious billing patterns — a $12.1M COVID test biller, a Beverly Hills wound care surgeon, and an anti-aging spa doctor',
+  href: '/investigations/three-providers',
+  category: 'Featured Investigation',
+  readTime: '20 min read',
+  publishedAt: '2026-02-21',
+  excerpt: 'A nurse practitioner billed $12.1M in COVID tests in one year. A Beverly Hills plastic surgeon billed $28.9M — 90% wound care. An anti-aging spa doctor\'s billing exploded 24x overnight. Three providers. Three statistical anomalies. Three sets of questions.',
   keyFindings: [
-    'Providers submitted $892 billion in charges but received $297 billion in actual payments',
-    'Orthopedic surgeons show the highest markup ratios at 3.2x Medicare payments',
-    'Rural providers markup charges 15% higher than urban counterparts'
+    'Merry Taheri (NPI 1184886178): $12.1M from COVID tests, 4,132 services/day, risk score 96/100',
+    'Som Kohanzadeh (NPI 1952575342): $28.9M total, 90.3% wound care, billing grew 770x over decade',
+    'Tatiana Sharahy (NPI 1598889248): Billing exploded 24x in one year, 1,884 services/day'
   ],
 }
 

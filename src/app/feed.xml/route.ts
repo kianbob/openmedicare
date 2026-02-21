@@ -5,6 +5,12 @@ const baseUrl = 'https://www.openmedicare.org'
 const items = [
   // Investigations
   {
+    title: 'Three Providers, Three Red Flags: Inside Medicare\'s Most Suspicious Billing Patterns',
+    description: 'A nurse practitioner billing $12.1M in COVID tests. A Beverly Hills plastic surgeon billing $28.9M in wound care. An anti-aging spa doctor whose billing exploded 24x in one year. Three providers, three statistical anomalies.',
+    link: '/investigations/three-providers',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
     title: 'The $2.1 Trillion Writeoff: Why Doctors Charge 4x What They Get Paid',
     description: 'Over 10 years, providers submitted $3.22 trillion in charges. Medicare paid $854.8 billion. The other $2.14 trillion was written off. The biggest hidden number in healthcare.',
     link: '/investigations/two-trillion-writeoff',

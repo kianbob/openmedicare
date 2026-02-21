@@ -93,9 +93,10 @@ export default function MarkupMachinePage() {
             <div className="bg-medicare-primary/10 border-l-4 border-medicare-primary p-6 mb-8">
               <h3 className="font-semibold text-medicare-dark mb-3">Key Findings</h3>
               <ul className="space-y-2 text-gray-800">
-                <li>• Providers submitted $892 billion in charges but received $297 billion in actual payments (2.8x markup)</li>
+                <li>• Providers submitted <strong>{formatCurrency(3220000000000)}</strong> in total charges but Medicare paid just <strong>{formatCurrency(854800000000)}</strong> (from allowed amount of {formatCurrency(1090000000000)})</li>
+                <li>• <strong>66.3%</strong> of all charges written off — <strong>{formatCurrency(2140000000000)}</strong> in phantom billing</li>
+                <li>• <strong>{formatCurrency(233000000000)}</strong> coinsurance gap between allowed amounts and actual payments</li>
                 <li>• Orthopedic surgeons show the highest markup ratios at 3.2x Medicare reimbursement rates</li>
-                <li>• Rural providers markup charges 15% higher than their urban counterparts</li>
                 <li>• The gap between charges and payments has widened by 35% over the past decade</li>
               </ul>
             </div>
@@ -103,9 +104,11 @@ export default function MarkupMachinePage() {
             {/* Article Content */}
             <div className="prose prose-lg prose-gray max-w-none">
               <p className="lead">
-                Every year, healthcare providers across America submit nearly $900 billion in charges to Medicare. 
-                But Medicare only pays out about $300 billion of that amount. The difference — a staggering $600 billion — 
-                represents one of the most significant yet overlooked aspects of American healthcare: the Medicare markup machine.
+                Over the past decade, healthcare providers across America submitted <strong>{formatCurrency(3220000000000)}</strong> in
+                charges to Medicare. Medicare allowed {formatCurrency(1090000000000)} and actually paid out
+                just {formatCurrency(854800000000)}. The difference — a staggering {formatCurrency(2140000000000)} written
+                off, plus a {formatCurrency(233000000000)} coinsurance gap — represents one of the most significant yet
+                overlooked aspects of American healthcare: the Medicare markup machine.
               </p>
 
               <p>
