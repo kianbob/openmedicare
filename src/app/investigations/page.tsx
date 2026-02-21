@@ -7,7 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 14 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -26,7 +26,6 @@ const featuredInvestigation = {
     'Orthopedic surgeons show the highest markup ratios at 3.2x Medicare payments',
     'Rural providers markup charges 15% higher than urban counterparts'
   ],
-  isFeatured: true
 }
 
 const investigations = [
@@ -69,19 +68,92 @@ const investigations = [
   {
     title: 'The Specialty Pay Gap',
     description: 'How procedure-based specialties dominate Medicare spending',
-    href: '/investigations/specialty-pay-gap',
+    href: '/investigations/specialty-gap',
     category: 'Analysis',
     readTime: '11 min read',
     publishedAt: '2024-01-15',
     excerpt: 'Primary care physicians earn a fraction of what specialists make from Medicare, creating incentives that may distort healthcare delivery and access to basic services.'
-  }
+  },
+  // New investigations
+  {
+    title: 'The Anesthesia Markup',
+    description: 'Why anesthesia charges are among the most inflated in Medicare — and who profits',
+    href: '/investigations/anesthesia-markup',
+    category: 'Analysis',
+    readTime: '10 min read',
+    publishedAt: '2024-02-18',
+    excerpt: 'Anesthesia services consistently show some of the highest charge-to-payment ratios in Medicare. We investigate the providers and practices behind the markup.'
+  },
+  {
+    title: 'Medicare\'s Biggest Spenders',
+    description: 'A data-driven look at the providers collecting the most from Medicare',
+    href: '/investigations/medicare-biggest-spenders',
+    category: 'Investigation',
+    readTime: '14 min read',
+    publishedAt: '2024-02-17',
+    excerpt: 'Who receives the most Medicare money? Our analysis reveals the organizations and individuals at the top of Medicare\'s payment hierarchy.'
+  },
+  {
+    title: 'The State Spending Divide',
+    description: 'Why Medicare costs vary wildly across state lines',
+    href: '/investigations/state-spending-divide',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2024-02-16',
+    excerpt: 'Medicare spending per beneficiary varies by more than 2x across states. We map the divide and explore what drives regional differences in healthcare costs.'
+  },
+  {
+    title: 'Corporate Medicine',
+    description: 'How large healthcare organizations dominate Medicare billing',
+    href: '/investigations/corporate-medicine',
+    category: 'Deep Dive',
+    readTime: '16 min read',
+    publishedAt: '2024-02-14',
+    excerpt: 'The rise of corporate healthcare entities has reshaped Medicare spending. We trace the growth of organizational billing and what it means for patients.'
+  },
+  {
+    title: 'The Office Visit Economy',
+    description: 'Office visits are Medicare\'s bread and butter — here\'s what the data shows',
+    href: '/investigations/office-visit-economy',
+    category: 'Analysis',
+    readTime: '9 min read',
+    publishedAt: '2024-02-12',
+    excerpt: 'Evaluation and management codes account for the largest share of Medicare spending. We break down the economics of the humble office visit.'
+  },
+  {
+    title: 'Pandemic Recovery',
+    description: 'How Medicare spending rebounded — and what changed permanently',
+    href: '/investigations/pandemic-recovery',
+    category: 'Analysis',
+    readTime: '11 min read',
+    publishedAt: '2024-02-08',
+    excerpt: 'After the COVID-19 crash, Medicare spending recovered — but the landscape shifted. Telehealth persisted, some specialties boomed, and others never fully recovered.'
+  },
+  {
+    title: 'Eye Care Billions',
+    description: 'Ophthalmology\'s outsized share of Medicare spending',
+    href: '/investigations/eye-care-billions',
+    category: 'Investigation',
+    readTime: '13 min read',
+    publishedAt: '2024-02-03',
+    excerpt: 'Eye care is one of Medicare\'s largest spending categories. We investigate the procedures, providers, and drug costs driving billions in ophthalmology payments.'
+  },
+  {
+    title: 'Where Your Medicare Dollar Goes',
+    description: 'A comprehensive breakdown of Medicare spending flows',
+    href: '/investigations/where-medicare-dollar-goes',
+    category: 'Deep Dive',
+    readTime: '10 min read',
+    publishedAt: '2024-01-30',
+    excerpt: 'For every dollar Medicare spends, where does it actually go? We trace the flow of Medicare payments across specialties, procedures, and geographies.'
+  },
 ]
 
 const categories = [
   { name: 'All', count: investigations.length + 1 },
-  { name: 'Deep Dive', count: 3 },
-  { name: 'Analysis', count: 3 },
-  { name: 'Investigation', count: 1 }
+  { name: 'Deep Dive', count: investigations.filter(i => i.category === 'Deep Dive').length + 1 },
+  { name: 'Analysis', count: investigations.filter(i => i.category === 'Analysis').length },
+  { name: 'Investigation', count: investigations.filter(i => i.category === 'Investigation').length },
 ]
 
 export default function InvestigationsPage() {
@@ -101,7 +173,7 @@ export default function InvestigationsPage() {
             Investigations
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Data-driven investigative reporting on Medicare spending patterns, healthcare fraud, and transparency. 
+            {investigations.length + 1} data-driven investigations on Medicare spending patterns, healthcare fraud, and transparency. 
             Our team analyzes billions in Medicare payments to uncover stories that matter.
           </p>
         </div>
@@ -182,7 +254,7 @@ export default function InvestigationsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {investigations.map((investigation) => (
             <article 
-              key={investigation.title} 
+              key={investigation.href} 
               className="bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow overflow-hidden"
             >
               <div className="p-8">
@@ -280,7 +352,7 @@ export default function InvestigationsPage() {
 
         {/* Source Citation */}
         <SourceCitation 
-          lastUpdated="February 2024"
+          lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
             'Medicare Provider Utilization and Payment Data (2014-2023)',
