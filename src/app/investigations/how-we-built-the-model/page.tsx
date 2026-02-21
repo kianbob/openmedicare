@@ -42,8 +42,8 @@ export default function HowWeBuiltTheModelPage() {
         title="How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers"
         description="A technical deep-dive into building a supervised Random Forest model trained on 96M rows of Medicare billing data and 8,300+ confirmed fraud labels."
         url="https://www.openmedicare.org/investigations/how-we-built-the-model"
-        datePublished={publishedDate}
-        dateModified={publishedDate}
+        publishedDate={publishedDate}
+        modifiedDate={publishedDate}
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
