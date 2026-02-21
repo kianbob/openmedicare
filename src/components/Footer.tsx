@@ -51,6 +51,7 @@ const navigation = [
       { name: 'About OpenMedicare', href: '/about' },
       { name: 'Methodology', href: '/methodology' },
       { name: 'Investigations', href: '/investigations' },
+      { name: 'API Docs', href: '/api-docs' },
       { name: 'Updates', href: '/updates' },
     ],
   },
