@@ -171,7 +171,7 @@ export default function FraudMapPage() {
             for suspicious billing patterns across {totalStatesWithFlags} states.
           </p>
           <div className="mt-4">
-            <ShareButtons title="Medicare Fraud Map" />
+            <ShareButtons title="Medicare Fraud Map" url="https://openmedicare.vercel.app/fraud/map" />
           </div>
         </div>
 
