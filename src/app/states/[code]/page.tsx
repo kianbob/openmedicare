@@ -327,6 +327,42 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
                 <div className="font-medium text-blue-600">Beverly Hills Billing →</div>
               </Link>
             )}
+            {code === 'CA' && (
+              <Link href="/investigations/beverly-hills-wound-care" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">Beverly Hills Wound Care →</div>
+              </Link>
+            )}
+            {(code === 'CA' || code === 'FL') && (
+              <Link href="/investigations/florida-california-fraud" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">The Fraud Belt: CA &amp; FL →</div>
+              </Link>
+            )}
+            {code === 'FL' && (
+              <Link href="/investigations/covid-test-scheme" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">COVID Test Gold Rush →</div>
+              </Link>
+            )}
+            {(code === 'NY' || code === 'NJ') && (
+              <Link href="/investigations/florida-california-fraud" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">The Fraud Belt →</div>
+              </Link>
+            )}
+            <Link href="/investigations/state-spending-divide" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Investigation</div>
+              <div className="font-medium text-blue-600">The State Spending Divide →</div>
+            </Link>
+            <Link href="/fraud" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Analysis</div>
+              <div className="font-medium text-blue-600">Fraud Analysis Hub →</div>
+            </Link>
+            <Link href="/investigations/internal-medicine-crisis" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Investigation</div>
+              <div className="font-medium text-blue-600">Internal Medicine: Fraud Ground Zero →</div>
+            </Link>
           </div>
         </div>
 

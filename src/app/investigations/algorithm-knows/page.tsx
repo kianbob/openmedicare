@@ -514,6 +514,29 @@ export default function AlgorithmKnowsPage() {
                     </p>
                   </Link>
                 </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4 not-prose">
+                  <Link href="/investigations/internal-medicine-crisis" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">Internal Medicine: Ground Zero</div>
+                    <p className="text-xs text-gray-600">Why 53% of flagged providers share one specialty</p>
+                  </Link>
+                  <Link href="/investigations/florida-california-fraud" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">The Fraud Belt</div>
+                    <p className="text-xs text-gray-600">CA & FL lead with 56 flags each</p>
+                  </Link>
+                  <Link href="/investigations/impossible-doctors" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">The Impossible Doctors</div>
+                    <p className="text-xs text-gray-600">400+ services per working day</p>
+                  </Link>
+                  <Link href="/investigations/medicare-fraud-2025" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">Medicare Fraud in 2025</div>
+                    <p className="text-xs text-gray-600">DOJ&apos;s $14.6B enforcement action</p>
+                  </Link>
+                </div>
+                <div className="mt-4 not-prose">
+                  <p className="text-sm text-gray-600">
+                    Explore: <Link href="/fraud" className="text-medicare-primary hover:underline">Fraud Analysis Hub</Link> · <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline">Full Watchlist</Link> · <Link href="/fraud/still-out-there" className="text-medicare-primary hover:underline">ML Results</Link> · <Link href="/specialties/internal-medicine" className="text-medicare-primary hover:underline">Internal Medicine</Link> · <Link href="/states" className="text-medicare-primary hover:underline">Browse States</Link>
+                  </p>
+                </div>
               </div>
             </div>
           </div>

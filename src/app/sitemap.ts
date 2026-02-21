@@ -54,6 +54,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'internal-medicine-crisis',
     'florida-california-fraud',
     'million-dollar-flagged',
+    'california-medicare-fraud',
+    'florida-medicare-fraud',
+    'new-york-medicare-fraud',
   ]
 
   const staticPages = [

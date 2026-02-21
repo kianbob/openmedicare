@@ -289,6 +289,56 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
               <div className="text-sm text-gray-500">Analysis</div>
               <div className="font-medium text-blue-600">Markup Analysis →</div>
             </Link>
+            {slug === 'internal-medicine' && (
+              <Link href="/investigations/internal-medicine-crisis" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">Internal Medicine: Fraud Ground Zero →</div>
+              </Link>
+            )}
+            {slug === 'internal-medicine' && (
+              <Link href="/investigations/office-visit-economy" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">The Office Visit Economy →</div>
+              </Link>
+            )}
+            {slug === 'family-practice' && (
+              <Link href="/investigations/internal-medicine-crisis" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">Primary Care &amp; Fraud Patterns →</div>
+              </Link>
+            )}
+            {slug === 'ophthalmology' && (
+              <Link href="/investigations/eye-care-billions" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">The Billion-Dollar Eye Care Industry →</div>
+              </Link>
+            )}
+            {slug === 'nurse-practitioner' && (
+              <Link href="/investigations/nurse-practitioner-boom" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">The Nurse Practitioner Boom →</div>
+              </Link>
+            )}
+            {(slug === 'dermatology' || slug === 'plastic-and-reconstructive-surgery') && (
+              <Link href="/investigations/wound-care-crisis" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">The Wound Care Industrial Complex →</div>
+              </Link>
+            )}
+            {slug === 'diagnostic-radiology' && (
+              <Link href="/investigations/lab-corp-quest-duopoly" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">The Lab Corp-Quest Duopoly →</div>
+              </Link>
+            )}
+            <Link href="/fraud" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Analysis</div>
+              <div className="font-medium text-blue-600">Fraud Analysis Hub →</div>
+            </Link>
+            <Link href="/investigations/specialty-pay-gap" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Investigation</div>
+              <div className="font-medium text-blue-600">The Specialty Pay Gap →</div>
+            </Link>
           </div>
         </div>
 

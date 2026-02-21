@@ -36,6 +36,25 @@ const items = [
     link: '/investigations/million-dollar-flagged',
     pubDate: '2026-02-21T00:00:00.000Z',
   },
+  // State-Specific Fraud Investigations
+  {
+    title: "California's Medicare Fraud Problem: 56 AI-Flagged Providers and $47M in Payments",
+    description: 'California has 56 AI-flagged Medicare providers — tied #1 with Florida. Internal Medicine dominates, Los Angeles is the epicenter, and billing patterns match convicted fraudsters.',
+    link: '/investigations/california-medicare-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: "Florida's Medicare Fraud Epidemic: 56 AI-Flagged Providers Billing $52M",
+    description: 'Florida has 56 AI-flagged Medicare providers tied #1 with California. South Florida remains the historic epicenter of Medicare fraud in the United States.',
+    link: '/investigations/florida-medicare-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: "New York's Hidden Medicare Fraud: 39 AI-Flagged Providers",
+    description: 'New York has 39 AI-flagged Medicare providers — #3 nationally. Brooklyn and Queens are historic fraud hotspots with a diverse specialty mix.',
+    link: '/investigations/new-york-medicare-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // LANDMARK Investigation
   {
     title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',

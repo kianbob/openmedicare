@@ -212,6 +212,12 @@ export default function CovidTestSchemePage() {
                 <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">🧮 Impossible Numbers</Link>
                 <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">📰 The Impossible Doctors</Link>
                 <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
+                <Link href="/investigations/telehealth-explosion" className="text-medicare-primary hover:underline text-sm">📱 The Telehealth Explosion</Link>
+                <Link href="/investigations/data-predicted-fraud" className="text-medicare-primary hover:underline text-sm">🏆 Our Data Predicted Fraud</Link>
+                <Link href="/investigations/genetic-testing-fraud" className="text-medicare-primary hover:underline text-sm">🧬 Genetic Testing Fraud</Link>
+                <Link href="/investigations/medicare-fraud-2025" className="text-medicare-primary hover:underline text-sm">⚖️ Medicare Fraud in 2025</Link>
+                <Link href="/states/FL" className="text-medicare-primary hover:underline text-sm">🗺️ Florida Medicare Data</Link>
+                <Link href="/states/CA" className="text-medicare-primary hover:underline text-sm">🗺️ California Medicare Data</Link>
               </div>
             </div>
 
