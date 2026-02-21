@@ -1,0 +1,127 @@
+{
+  "name": "Boston Public Health Commission",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Boston",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 6439381.68,
+      "total_services": 68476,
+      "total_beneficiaries": 4,
+      "avg_submitted": 365.61,
+      "avg_paid": 94.04
+    },
+    {
+      "year": 2015,
+      "total_payments": 6364919.62,
+      "total_services": 64746,
+      "total_beneficiaries": 4,
+      "avg_submitted": 379.82,
+      "avg_paid": 98.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 6380219.63,
+      "total_services": 63254,
+      "total_beneficiaries": 4,
+      "avg_submitted": 388.28,
+      "avg_paid": 100.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 6175816.53,
+      "total_services": 54589,
+      "total_beneficiaries": 4,
+      "avg_submitted": 431.4,
+      "avg_paid": 113.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 6392758.11,
+      "total_services": 55000,
+      "total_beneficiaries": 4,
+      "avg_submitted": 436.26,
+      "avg_paid": 116.23
+    },
+    {
+      "year": 2019,
+      "total_payments": 6271769.79,
+      "total_services": 53678,
+      "total_beneficiaries": 4,
+      "avg_submitted": 475.78,
+      "avg_paid": 116.84
+    },
+    {
+      "year": 2020,
+      "total_payments": 5701337.58,
+      "total_services": 47069,
+      "total_beneficiaries": 4,
+      "avg_submitted": 496.21,
+      "avg_paid": 121.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 6218276.1,
+      "total_services": 52348,
+      "total_beneficiaries": 4,
+      "avg_submitted": 501.32,
+      "avg_paid": 118.79
+    },
+    {
+      "year": 2022,
+      "total_payments": 6078267.37,
+      "total_services": 60800,
+      "total_beneficiaries": 4,
+      "avg_submitted": 408.27,
+      "avg_paid": 99.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 5875492.94,
+      "total_services": 50814,
+      "total_beneficiaries": 4,
+      "avg_submitted": 436.77,
+      "avg_paid": 115.63
+    }
+  ],
+  "overall": {
+    "total_payments": 61898239.35,
+    "total_services": 570774,
+    "total_beneficiaries": 40,
+    "avg_markup_ratio": 3.94,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 153788,
+      "payments": 50546390.25,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 21216,
+      "payments": 8281176.66,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 394484,
+      "payments": 2344497.99,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1286,
+      "payments": 726174.45,
+      "avg_markup": 3.65
+    }
+  ]
+}

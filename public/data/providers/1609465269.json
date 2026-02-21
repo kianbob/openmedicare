@@ -1,0 +1,106 @@
+{
+  "name": "Oklahoma Spine Surgery Center",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Oklahoma City",
+  "state": "OK",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 1699697.04,
+      "total_services": 267,
+      "total_beneficiaries": 2,
+      "avg_submitted": 32779.23,
+      "avg_paid": 6365.91
+    },
+    {
+      "year": 2022,
+      "total_payments": 2848371.61,
+      "total_services": 445,
+      "total_beneficiaries": 4,
+      "avg_submitted": 20108.12,
+      "avg_paid": 6400.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 6792710.36,
+      "total_services": 1006,
+      "total_beneficiaries": 9,
+      "avg_submitted": 17653.87,
+      "avg_paid": 6752.2
+    }
+  ],
+  "overall": {
+    "total_payments": 11340779.01,
+    "total_services": 1718,
+    "total_beneficiaries": 15,
+    "avg_markup_ratio": 3.13,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "63685",
+      "description": "Insertion of spinal neurostimulator generator or receiver",
+      "services": 362,
+      "payments": 6464079.33,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "63650",
+      "description": "Insertion of spinal neurostimulator electrode array through skin",
+      "services": 1160,
+      "payments": 4015922.98,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "62362",
+      "description": "Insertion of programmable spinal canal drug infusion pump",
+      "services": 35,
+      "payments": 350349.59,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "64590",
+      "description": "Insertion of peripheral or gastric neurostimulator generator",
+      "services": 14,
+      "payments": 198504.18,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "64555",
+      "description": "Insertion of peripheral nerve neurostimulator electrode through skin",
+      "services": 38,
+      "payments": 155762.45,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "63688",
+      "description": "Removal or revision of neurostimulator generator or receiver",
+      "services": 35,
+      "payments": 52892.78,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "63663",
+      "description": "Revision of spinal neurostimulator electrode array using fluoroscopic guidance",
+      "services": 16,
+      "payments": 47535.84,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "62350",
+      "description": "Insertion, revision, or repositioning of spinal canal tube for medication administration",
+      "services": 28,
+      "payments": 37108.15,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "63661",
+      "description": "Insertion of spinal neurostimulator electrode array using fluoroscopic guidance",
+      "services": 30,
+      "payments": 18623.71,
+      "avg_markup": 5.52
+    }
+  ]
+}

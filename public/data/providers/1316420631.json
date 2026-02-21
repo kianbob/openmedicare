@@ -1,0 +1,142 @@
+{
+  "name": "Eric Ogari",
+  "credentials": "FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Goodyear",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 9424.48,
+      "total_services": 344,
+      "total_beneficiaries": 7,
+      "avg_submitted": 144.91,
+      "avg_paid": 27.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 9056.44,
+      "total_services": 156,
+      "total_beneficiaries": 4,
+      "avg_submitted": 226.77,
+      "avg_paid": 58.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 15258.54,
+      "total_services": 281,
+      "total_beneficiaries": 6,
+      "avg_submitted": 208.45,
+      "avg_paid": 54.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 6928621.5,
+      "total_services": 9114,
+      "total_beneficiaries": 6,
+      "avg_submitted": 974.71,
+      "avg_paid": 760.22
+    }
+  ],
+  "overall": {
+    "total_payments": 6962360.96,
+    "total_services": 9895,
+    "total_beneficiaries": 23,
+    "avg_markup_ratio": 1.3,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 8760,
+      "payments": 6911244.71,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 302,
+      "payments": 20406.74,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 298,
+      "payments": 16286.74,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 64,
+      "payments": 5365.18,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "15274",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, each additional 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 57,
+      "payments": 3087.12,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 118,
+      "payments": 2271.69,
+      "avg_markup": 9.09
+    },
+    {
+      "code": "99202",
+      "description": "New patient outpatient visit, total time 15-29 minutes",
+      "services": 25,
+      "payments": 1456.61,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 29,
+      "payments": 1061.01,
+      "avg_markup": 5.53
+    },
+    {
+      "code": "87804",
+      "description": "Detection test by immunoassay with direct visual observation for influenza virus",
+      "services": 26,
+      "payments": 424.64,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 101,
+      "payments": 303.0,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "87880",
+      "description": "Detection test by immunoassay with direct visual observation for streptococcus, group a (strep)",
+      "services": 11,
+      "payments": 178.2,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "81003",
+      "description": "Automated urinalysis test",
+      "services": 68,
+      "payments": 150.18,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "81002",
+      "description": "Urinalysis, manual test",
+      "services": 36,
+      "payments": 125.14,
+      "avg_markup": 2.59
+    }
+  ]
+}

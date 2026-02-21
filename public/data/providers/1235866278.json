@@ -1,0 +1,77 @@
+{
+  "name": "Coastal Ambulance Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Hyannis",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 252391.89,
+      "total_services": 8916,
+      "total_beneficiaries": 5,
+      "avg_submitted": 275.86,
+      "avg_paid": 28.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 5078802.52,
+      "total_services": 162184,
+      "total_beneficiaries": 6,
+      "avg_submitted": 286.99,
+      "avg_paid": 31.32
+    }
+  ],
+  "overall": {
+    "total_payments": 5331194.41,
+    "total_services": 171100,
+    "total_beneficiaries": 11,
+    "avg_markup_ratio": 9.19,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 14771,
+      "payments": 3193945.86,
+      "avg_markup": 9.94
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 153322,
+      "payments": 997153.64,
+      "avg_markup": 8.46
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1848,
+      "payments": 677840.5,
+      "avg_markup": 7.5
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 669,
+      "payments": 286460.91,
+      "avg_markup": 7.59
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 404,
+      "payments": 111676.53,
+      "avg_markup": 10.67
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 86,
+      "payments": 64116.97,
+      "avg_markup": 5.7
+    }
+  ]
+}

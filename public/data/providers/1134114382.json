@@ -1,0 +1,239 @@
+{
+  "name": "Mark Wieland",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Mountain View",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1339320.99,
+      "total_services": 12895,
+      "total_beneficiaries": 17,
+      "avg_submitted": 198.61,
+      "avg_paid": 103.86
+    },
+    {
+      "year": 2015,
+      "total_payments": 1420474.78,
+      "total_services": 13343,
+      "total_beneficiaries": 18,
+      "avg_submitted": 223.04,
+      "avg_paid": 106.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 1511593.21,
+      "total_services": 12397,
+      "total_beneficiaries": 17,
+      "avg_submitted": 256.66,
+      "avg_paid": 121.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 1595355.45,
+      "total_services": 11816,
+      "total_beneficiaries": 17,
+      "avg_submitted": 338.45,
+      "avg_paid": 135.02
+    },
+    {
+      "year": 2018,
+      "total_payments": 2192489.63,
+      "total_services": 14469,
+      "total_beneficiaries": 16,
+      "avg_submitted": 392.85,
+      "avg_paid": 151.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 2783302.76,
+      "total_services": 16044,
+      "total_beneficiaries": 15,
+      "avg_submitted": 451.24,
+      "avg_paid": 173.48
+    },
+    {
+      "year": 2020,
+      "total_payments": 2917535.36,
+      "total_services": 14000,
+      "total_beneficiaries": 14,
+      "avg_submitted": 549.9,
+      "avg_paid": 208.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 3253691.71,
+      "total_services": 14820,
+      "total_beneficiaries": 16,
+      "avg_submitted": 580.2,
+      "avg_paid": 219.55
+    },
+    {
+      "year": 2022,
+      "total_payments": 3072715.15,
+      "total_services": 15116,
+      "total_beneficiaries": 15,
+      "avg_submitted": 578.97,
+      "avg_paid": 203.28
+    },
+    {
+      "year": 2023,
+      "total_payments": 3089298.23,
+      "total_services": 29992,
+      "total_beneficiaries": 14,
+      "avg_submitted": 308.99,
+      "avg_paid": 103.0
+    }
+  ],
+  "overall": {
+    "total_payments": 23175777.27,
+    "total_services": 154892,
+    "total_beneficiaries": 159,
+    "avg_markup_ratio": 2.59,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 14103,
+      "payments": 10226310.45,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 22045,
+      "payments": 5750736.29,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 15488,
+      "payments": 1475083.62,
+      "avg_markup": 6.64
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 13541,
+      "payments": 1410782.14,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 17369,
+      "payments": 1388524.54,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 27461,
+      "payments": 1072366.5,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 17822,
+      "payments": 492300.04,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 5100,
+      "payments": 269092.82,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 1861,
+      "payments": 189001.38,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1180,
+      "payments": 156573.15,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 6519,
+      "payments": 150393.21,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 2156,
+      "payments": 130832.99,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "67228",
+      "description": "Laser destruction of leaking retinal blood vessels, 1 or more sessions",
+      "services": 173,
+      "payments": 91578.54,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 1291,
+      "payments": 67341.19,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 434,
+      "payments": 56673.83,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using a laser",
+      "services": 173,
+      "payments": 55751.97,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 2015,
+      "payments": 50204.08,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "92201",
+      "description": "Extended exam of the back part of the eye with retinal drawing",
+      "services": 1461,
+      "payments": 31925.76,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 68,
+      "payments": 31798.53,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane from the retina",
+      "services": 14,
+      "payments": 15047.8,
+      "avg_markup": 1.86
+    }
+  ]
+}

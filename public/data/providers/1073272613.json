@@ -1,0 +1,62 @@
+{
+  "name": "West Coast Medical Labs Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Manteca",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 12247001.15,
+      "total_services": 331715,
+      "total_beneficiaries": 4,
+      "avg_submitted": 127.45,
+      "avg_paid": 36.92
+    }
+  ],
+  "overall": {
+    "total_payments": 12247001.15,
+    "total_services": 331715,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 3.45,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 64727,
+      "payments": 4757434.5,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 136695,
+      "payments": 3142618.05,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 64658,
+      "payments": 2621881.9,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 64620,
+      "payments": 1583190.0,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "87636",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19) and influenza virus types a and b",
+      "services": 1015,
+      "payments": 141876.7,
+      "avg_markup": 1.67
+    }
+  ]
+}

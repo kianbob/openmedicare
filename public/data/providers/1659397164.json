@@ -1,0 +1,148 @@
+{
+  "name": "Mayo Clinic Ambulance",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Rochester",
+  "state": "MN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 6505607.47,
+      "total_services": 221900,
+      "total_beneficiaries": 7,
+      "avg_submitted": 127.79,
+      "avg_paid": 29.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 6870135.86,
+      "total_services": 240770,
+      "total_beneficiaries": 7,
+      "avg_submitted": 126.3,
+      "avg_paid": 28.53
+    },
+    {
+      "year": 2016,
+      "total_payments": 7060942.64,
+      "total_services": 245831,
+      "total_beneficiaries": 7,
+      "avg_submitted": 131.37,
+      "avg_paid": 28.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 7093257.56,
+      "total_services": 257522,
+      "total_beneficiaries": 7,
+      "avg_submitted": 129.73,
+      "avg_paid": 27.54
+    },
+    {
+      "year": 2018,
+      "total_payments": 7073647.18,
+      "total_services": 256684,
+      "total_beneficiaries": 7,
+      "avg_submitted": 133.55,
+      "avg_paid": 27.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 8529216.31,
+      "total_services": 302131,
+      "total_beneficiaries": 7,
+      "avg_submitted": 145.07,
+      "avg_paid": 28.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 8362988.85,
+      "total_services": 294654,
+      "total_beneficiaries": 7,
+      "avg_submitted": 148.66,
+      "avg_paid": 28.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 8534905.77,
+      "total_services": 314307,
+      "total_beneficiaries": 7,
+      "avg_submitted": 147.62,
+      "avg_paid": 27.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 8407436.95,
+      "total_services": 284106,
+      "total_beneficiaries": 7,
+      "avg_submitted": 159.17,
+      "avg_paid": 29.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 8531593.0,
+      "total_services": 244229,
+      "total_beneficiaries": 7,
+      "avg_submitted": 190.78,
+      "avg_paid": 34.93
+    }
+  ],
+  "overall": {
+    "total_payments": 76969731.59,
+    "total_services": 2662134,
+    "total_beneficiaries": 70,
+    "avg_markup_ratio": 5.0,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 99316,
+      "payments": 34839917.64,
+      "avg_markup": 5.53
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 74547,
+      "payments": 21921711.34,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 2476735,
+      "payments": 16457996.02,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 2584,
+      "payments": 1306127.55,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1659,
+      "payments": 1002236.12,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 4175,
+      "payments": 772181.12,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 3118,
+      "payments": 669561.78,
+      "avg_markup": 6.14
+    }
+  ]
+}

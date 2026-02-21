@@ -1,0 +1,94 @@
+{
+  "name": "Arlene Bautista",
+  "credentials": "FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Tucson",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 1237.93,
+      "total_services": 41,
+      "total_beneficiaries": 2,
+      "avg_submitted": 33.29,
+      "avg_paid": 30.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 6637.05,
+      "total_services": 343,
+      "total_beneficiaries": 1,
+      "avg_submitted": 39.0,
+      "avg_paid": 19.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 12139.4,
+      "total_services": 645,
+      "total_beneficiaries": 1,
+      "avg_submitted": 39.0,
+      "avg_paid": 18.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 16410.4,
+      "total_services": 863,
+      "total_beneficiaries": 1,
+      "avg_submitted": 39.0,
+      "avg_paid": 19.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 16845816.95,
+      "total_services": 21475,
+      "total_beneficiaries": 2,
+      "avg_submitted": 1000.68,
+      "avg_paid": 784.44
+    }
+  ],
+  "overall": {
+    "total_payments": 16882241.73,
+    "total_services": 23367,
+    "total_beneficiaries": 7,
+    "avg_markup_ratio": 1.28,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 21343,
+      "payments": 16838663.87,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99211",
+      "description": "Office or other outpatient visit for the evaluation and management of established patient that may not require presence of healthcare professional",
+      "services": 1851,
+      "payments": 35186.85,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "15274",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, each additional 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 132,
+      "payments": 7153.08,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 18,
+      "payments": 864.18,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 23,
+      "payments": 373.75,
+      "avg_markup": 1.29
+    }
+  ]
+}

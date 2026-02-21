@@ -1,0 +1,48 @@
+{
+  "name": "Rainbow Lab Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 15118939.88,
+      "total_services": 183080,
+      "total_beneficiaries": 3,
+      "avg_submitted": 109.27,
+      "avg_paid": 82.58
+    }
+  ],
+  "overall": {
+    "total_payments": 15118939.88,
+    "total_services": 183080,
+    "total_beneficiaries": 3,
+    "avg_markup_ratio": 1.32,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 79086,
+      "payments": 11054641.08,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "86328",
+      "description": "Test for detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antibody, qualitative or semiquantitative",
+      "services": 78273,
+      "payments": 3472973.01,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 25721,
+      "payments": 591325.79,
+      "avg_markup": 1.74
+    }
+  ]
+}

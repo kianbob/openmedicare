@@ -1,0 +1,239 @@
+{
+  "name": "Andrew Gordon",
+  "credentials": "M.D.",
+  "specialty": "Neurology",
+  "city": "Lake Barrington",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 221381.74,
+      "total_services": 2863,
+      "total_beneficiaries": 22,
+      "avg_submitted": 272.37,
+      "avg_paid": 77.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 195385.65,
+      "total_services": 2731,
+      "total_beneficiaries": 22,
+      "avg_submitted": 259.81,
+      "avg_paid": 71.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 201005.73,
+      "total_services": 2540,
+      "total_beneficiaries": 19,
+      "avg_submitted": 289.28,
+      "avg_paid": 79.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 254714.37,
+      "total_services": 3125,
+      "total_beneficiaries": 18,
+      "avg_submitted": 318.39,
+      "avg_paid": 81.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 228750.04,
+      "total_services": 7468,
+      "total_beneficiaries": 18,
+      "avg_submitted": 110.82,
+      "avg_paid": 30.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 368023.48,
+      "total_services": 12258,
+      "total_beneficiaries": 21,
+      "avg_submitted": 121.35,
+      "avg_paid": 30.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 575693.69,
+      "total_services": 17571,
+      "total_beneficiaries": 18,
+      "avg_submitted": 135.33,
+      "avg_paid": 32.76
+    },
+    {
+      "year": 2021,
+      "total_payments": 915243.93,
+      "total_services": 28162,
+      "total_beneficiaries": 17,
+      "avg_submitted": 184.19,
+      "avg_paid": 32.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 904329.43,
+      "total_services": 26443,
+      "total_beneficiaries": 17,
+      "avg_submitted": 185.65,
+      "avg_paid": 34.2
+    },
+    {
+      "year": 2023,
+      "total_payments": 3554718.91,
+      "total_services": 43813,
+      "total_beneficiaries": 21,
+      "avg_submitted": 224.5,
+      "avg_paid": 81.13
+    }
+  ],
+  "overall": {
+    "total_payments": 7419246.97,
+    "total_services": 146974,
+    "total_beneficiaries": 193,
+    "avg_markup_ratio": 3.75,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J1303",
+      "description": "Injection, ravulizumab-cwvz, 10 mg",
+      "services": 15210,
+      "payments": 2594449.3,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "J1569",
+      "description": "Injection, immune globulin, (gammagard liquid), non-lyophilized, (e.g., liquid), 500 mg",
+      "services": 63600,
+      "payments": 2164130.57,
+      "avg_markup": 5.88
+    },
+    {
+      "code": "J1561",
+      "description": "Injection, immune globulin, (gamunex-c/gammaked), non-lyophilized (e.g., liquid), 500 mg",
+      "services": 16900,
+      "payments": 546091.34,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 4383,
+      "payments": 354475.73,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "95886",
+      "description": "Needle measurement of electrical activity in arm or leg muscles, complete study",
+      "services": 4310,
+      "payments": 337548.08,
+      "avg_markup": 4.41
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 2005,
+      "payments": 238359.71,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "95910",
+      "description": "Nerve conduction, 7-8 studies",
+      "services": 880,
+      "payments": 135122.23,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "70553",
+      "description": "Mri scan of brain before and after contrast",
+      "services": 446,
+      "payments": 130846.87,
+      "avg_markup": 8.24
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 741,
+      "payments": 121883.09,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 1822,
+      "payments": 103156.08,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "70551",
+      "description": "Mri scan of brain without contrast",
+      "services": 496,
+      "payments": 90289.21,
+      "avg_markup": 6.57
+    },
+    {
+      "code": "95911",
+      "description": "Nerve conduction, 9-10 studies",
+      "services": 452,
+      "payments": 83754.49,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "95913",
+      "description": "Nerve conduction, 13 or more studies",
+      "services": 250,
+      "payments": 60384.2,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound of both sides of head and neck blood flow",
+      "services": 354,
+      "payments": 57047.88,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "95819",
+      "description": "Measurement of brain wave activity (eeg), awake and asleep",
+      "services": 225,
+      "payments": 51977.67,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "72148",
+      "description": "Mri scan of lower spinal canal without contrast",
+      "services": 285,
+      "payments": 50519.49,
+      "avg_markup": 6.51
+    },
+    {
+      "code": "70544",
+      "description": "Mri scan of blood vessels of head without contrast",
+      "services": 174,
+      "payments": 38924.86,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "95912",
+      "description": "Nerve conduction, 11-12 studies",
+      "services": 183,
+      "payments": 38177.74,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "96366",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, each additional hour",
+      "services": 2019,
+      "payments": 34664.43,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 178,
+      "payments": 30535.98,
+      "avg_markup": 2.18
+    }
+  ]
+}

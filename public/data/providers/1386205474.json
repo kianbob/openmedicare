@@ -1,0 +1,199 @@
+{
+  "name": "My Clinical Lab Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Sunrise",
+  "state": "FL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 31535.21,
+      "total_services": 4026,
+      "total_beneficiaries": 27,
+      "avg_submitted": 12.3,
+      "avg_paid": 7.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 1848366.78,
+      "total_services": 155626,
+      "total_beneficiaries": 91,
+      "avg_submitted": 18.16,
+      "avg_paid": 11.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 2934006.73,
+      "total_services": 254283,
+      "total_beneficiaries": 108,
+      "avg_submitted": 18.89,
+      "avg_paid": 11.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 3492768.29,
+      "total_services": 258560,
+      "total_beneficiaries": 109,
+      "avg_submitted": 21.79,
+      "avg_paid": 13.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 3304956.5,
+      "total_services": 272672,
+      "total_beneficiaries": 117,
+      "avg_submitted": 19.36,
+      "avg_paid": 12.12
+    }
+  ],
+  "overall": {
+    "total_payments": 11611633.51,
+    "total_services": 945167,
+    "total_beneficiaries": 452,
+    "avg_markup_ratio": 1.6,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 22001,
+      "payments": 1749986.5,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "P9604",
+      "description": "Travel allowance one way in connection with medically necessary laboratory specimen collection drawn from home bound or nursing home bound patient; prorated trip charge",
+      "services": 152231,
+      "payments": 1589623.82,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "87186",
+      "description": "Evaluation of antimicrobial drug (antibiotic, antifungal, antiviral), microdilution or agar dilution",
+      "services": 112374,
+      "payments": 963189.69,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 36036,
+      "payments": 599195.4,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "G2024",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]) from an individual in a snf or by a laboratory on behalf of a hha, any specimen source",
+      "services": 20492,
+      "payments": 518725.1,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 48368,
+      "payments": 505418.08,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 16949,
+      "payments": 496234.72,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 36581,
+      "payments": 484955.8,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 62459,
+      "payments": 480146.21,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 15607,
+      "payments": 386801.25,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 78739,
+      "payments": 345610.93,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin b-12) level",
+      "services": 21317,
+      "payments": 318036.42,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 29933,
+      "payments": 287773.26,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 6716,
+      "payments": 231845.52,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level, serum",
+      "services": 15024,
+      "payments": 218615.43,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "87086",
+      "description": "Bacterial colony count, urine",
+      "services": 18622,
+      "payments": 148774.35,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "87633",
+      "description": "Detection test for multiple types of respiratory virus",
+      "services": 357,
+      "payments": 148181.64,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "86769",
+      "description": "Measure of severe acute respiratory syndrome coronavirus 2 (covid-19) antibody",
+      "services": 3410,
+      "payments": 143068.58,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals (calcium, total)",
+      "services": 12166,
+      "payments": 102005.48,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement, total",
+      "services": 5288,
+      "payments": 96258.98,
+      "avg_markup": 1.77
+    }
+  ]
+}

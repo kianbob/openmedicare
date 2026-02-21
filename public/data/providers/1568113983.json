@@ -1,0 +1,126 @@
+{
+  "name": "Lori Case",
+  "credentials": "FAMILY NP",
+  "specialty": "Nurse Practitioner",
+  "city": "Hazlehurst",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 29725.18,
+      "total_services": 647,
+      "total_beneficiaries": 3,
+      "avg_submitted": 126.37,
+      "avg_paid": 45.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 4175710.92,
+      "total_services": 5357,
+      "total_beneficiaries": 11,
+      "avg_submitted": 1101.66,
+      "avg_paid": 779.49
+    }
+  ],
+  "overall": {
+    "total_payments": 4205436.1,
+    "total_services": 6004,
+    "total_beneficiaries": 14,
+    "avg_markup_ratio": 1.42,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "Q4236",
+      "description": "Carepatch, per square centimeter",
+      "services": 2658,
+      "payments": 2790304.62,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "Q4205",
+      "description": "Membrane graft or membrane wrap, per square centimeter",
+      "services": 1150,
+      "payments": 1300107.21,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 800,
+      "payments": 58640.82,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "11045",
+      "description": "Removal of skin and tissue, each additional 20.0 sq cm or less",
+      "services": 979,
+      "payments": 23899.3,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "15275",
+      "description": "Application of skin substitute graft to wound of face, scalp, eyelids, mouth, neck, ears, around eyes, genitals, hands, feet, fingers, or toes, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 138,
+      "payments": 12971.25,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "11043",
+      "description": "Removal of muscle and/or tissue, 20.0 sq cm or less",
+      "services": 49,
+      "payments": 6656.4,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 34,
+      "payments": 3007.27,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 15 minutes",
+      "services": 63,
+      "payments": 2813.28,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 49,
+      "payments": 2426.37,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 33,
+      "payments": 2195.82,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 14,
+      "payments": 1099.6,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "87426",
+      "description": "Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus",
+      "services": 20,
+      "payments": 834.08,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99347",
+      "description": "Residence visit for established patient with straightforward medical decision making, per day, if using time, at least 15 minutes",
+      "services": 17,
+      "payments": 480.08,
+      "avg_markup": 2.83
+    }
+  ]
+}

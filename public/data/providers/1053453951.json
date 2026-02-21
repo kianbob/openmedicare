@@ -1,0 +1,134 @@
+{
+  "name": "Westmed Ambulance Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Compton",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4970181.03,
+      "total_services": 70451,
+      "total_beneficiaries": 5,
+      "avg_submitted": 276.23,
+      "avg_paid": 70.55
+    },
+    {
+      "year": 2015,
+      "total_payments": 5401739.23,
+      "total_services": 71182,
+      "total_beneficiaries": 5,
+      "avg_submitted": 308.33,
+      "avg_paid": 75.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 5490966.01,
+      "total_services": 71202,
+      "total_beneficiaries": 5,
+      "avg_submitted": 325.1,
+      "avg_paid": 77.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 6298829.57,
+      "total_services": 77208,
+      "total_beneficiaries": 4,
+      "avg_submitted": 396.3,
+      "avg_paid": 81.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 7285375.02,
+      "total_services": 84164,
+      "total_beneficiaries": 4,
+      "avg_submitted": 460.84,
+      "avg_paid": 86.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 7516520.0,
+      "total_services": 83026,
+      "total_beneficiaries": 4,
+      "avg_submitted": 514.32,
+      "avg_paid": 90.53
+    },
+    {
+      "year": 2020,
+      "total_payments": 5821343.41,
+      "total_services": 62762,
+      "total_beneficiaries": 4,
+      "avg_submitted": 552.35,
+      "avg_paid": 92.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 5413144.99,
+      "total_services": 62660,
+      "total_beneficiaries": 4,
+      "avg_submitted": 518.61,
+      "avg_paid": 86.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 5996478.15,
+      "total_services": 74160,
+      "total_beneficiaries": 4,
+      "avg_submitted": 475.14,
+      "avg_paid": 80.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 6284219.48,
+      "total_services": 69527,
+      "total_beneficiaries": 4,
+      "avg_submitted": 562.29,
+      "avg_paid": 90.39
+    }
+  ],
+  "overall": {
+    "total_payments": 60478796.89,
+    "total_services": 726342,
+    "total_beneficiaries": 43,
+    "avg_markup_ratio": 5.26,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 104017,
+      "payments": 40865172.11,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 47883,
+      "payments": 15465595.51,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 573034,
+      "payments": 3403368.96,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1272,
+      "payments": 718416.53,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 136,
+      "payments": 26243.77,
+      "avg_markup": 4.7
+    }
+  ]
+}

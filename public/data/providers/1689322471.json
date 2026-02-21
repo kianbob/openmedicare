@@ -1,0 +1,42 @@
+{
+  "name": "Chicago Care Lab Services Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 23375210.88,
+      "total_services": 1987688,
+      "total_beneficiaries": 1,
+      "avg_submitted": 15.0,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 33354974.24,
+      "total_services": 2836332,
+      "total_beneficiaries": 1,
+      "avg_submitted": 15.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 56730185.12,
+    "total_services": 4824020,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.28,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 4824020,
+      "payments": 56730185.12,
+      "avg_markup": 1.28
+    }
+  ]
+}

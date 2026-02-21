@@ -1,0 +1,239 @@
+{
+  "name": "Edmund Tai",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "Mountain View",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2449581.0,
+      "total_services": 215404,
+      "total_beneficiaries": 160,
+      "avg_submitted": 50.44,
+      "avg_paid": 11.37
+    },
+    {
+      "year": 2015,
+      "total_payments": 2617056.92,
+      "total_services": 222682,
+      "total_beneficiaries": 164,
+      "avg_submitted": 50.4,
+      "avg_paid": 11.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 3144557.58,
+      "total_services": 270996,
+      "total_beneficiaries": 175,
+      "avg_submitted": 45.82,
+      "avg_paid": 11.6
+    },
+    {
+      "year": 2017,
+      "total_payments": 3198809.03,
+      "total_services": 296854,
+      "total_beneficiaries": 174,
+      "avg_submitted": 42.91,
+      "avg_paid": 10.78
+    },
+    {
+      "year": 2018,
+      "total_payments": 3586330.26,
+      "total_services": 284321,
+      "total_beneficiaries": 178,
+      "avg_submitted": 49.71,
+      "avg_paid": 12.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 3595295.34,
+      "total_services": 320581,
+      "total_beneficiaries": 165,
+      "avg_submitted": 48.96,
+      "avg_paid": 11.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 3520684.28,
+      "total_services": 268484,
+      "total_beneficiaries": 168,
+      "avg_submitted": 54.71,
+      "avg_paid": 13.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 4018266.03,
+      "total_services": 312880,
+      "total_beneficiaries": 168,
+      "avg_submitted": 55.05,
+      "avg_paid": 12.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 3785145.78,
+      "total_services": 305449,
+      "total_beneficiaries": 174,
+      "avg_submitted": 54.43,
+      "avg_paid": 12.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 3823863.04,
+      "total_services": 303639,
+      "total_beneficiaries": 171,
+      "avg_submitted": 58.65,
+      "avg_paid": 12.59
+    }
+  ],
+  "overall": {
+    "total_payments": 33739589.26,
+    "total_services": 2801290,
+    "total_beneficiaries": 1697,
+    "avg_markup_ratio": 4.25,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J9271",
+      "description": "Injection, pembrolizumab, 1 mg",
+      "services": 61610,
+      "payments": 2491703.45,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 137373,
+      "payments": 1912389.78,
+      "avg_markup": 5.56
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 162367,
+      "payments": 1877095.76,
+      "avg_markup": 5.52
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 469000,
+      "payments": 1669518.06,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 86130,
+      "payments": 1668172.18,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 178449,
+      "payments": 1593134.52,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 17985,
+      "payments": 1457525.25,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 109966,
+      "payments": 1215730.95,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 31148,
+      "payments": 1067507.33,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals (calcium, total)",
+      "services": 93011,
+      "payments": 867375.66,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "J9144",
+      "description": "Injection, daratumumab, 10 mg and hyaluronidase-fihj",
+      "services": 22140,
+      "payments": 817746.92,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 16112,
+      "payments": 744734.41,
+      "avg_markup": 5.2
+    },
+    {
+      "code": "J1745",
+      "description": "Injection, infliximab, excludes biosimilar, 10 mg",
+      "services": 11894,
+      "payments": 599251.95,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement, total",
+      "services": 25059,
+      "payments": 524287.91,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "J1568",
+      "description": "Injection, immune globulin, (octagam), intravenous, non-lyophilized (e.g., liquid), 500 mg",
+      "services": 14620,
+      "payments": 427927.45,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 129,
+      "payments": 426308.71,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin b-12) level",
+      "services": 24560,
+      "payments": 421515.51,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "87086",
+      "description": "Bacterial colony count, urine",
+      "services": 44446,
+      "payments": 411612.94,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 571,
+      "payments": 378282.84,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 2550,
+      "payments": 376018.36,
+      "avg_markup": 4.7
+    }
+  ]
+}

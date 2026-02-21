@@ -1,0 +1,48 @@
+{
+  "name": "Safeena Enterprises Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 8588560.52,
+      "total_services": 101886,
+      "total_beneficiaries": 3,
+      "avg_submitted": 110.99,
+      "avg_paid": 84.3
+    }
+  ],
+  "overall": {
+    "total_payments": 8588560.52,
+    "total_services": 101886,
+    "total_beneficiaries": 3,
+    "avg_markup_ratio": 1.32,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 45204,
+      "payments": 6318615.12,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "86328",
+      "description": "Test for detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antibody, qualitative or semiquantitative",
+      "services": 45222,
+      "payments": 2006480.0,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 11460,
+      "payments": 263465.4,
+      "avg_markup": 1.74
+    }
+  ]
+}

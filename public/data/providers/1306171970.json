@@ -1,0 +1,231 @@
+{
+  "name": "Loren Jack",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Spokane",
+  "state": "WA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 181549.25,
+      "total_services": 1796,
+      "total_beneficiaries": 12,
+      "avg_submitted": 251.29,
+      "avg_paid": 101.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 741649.64,
+      "total_services": 4758,
+      "total_beneficiaries": 16,
+      "avg_submitted": 376.69,
+      "avg_paid": 155.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 1157915.58,
+      "total_services": 5970,
+      "total_beneficiaries": 17,
+      "avg_submitted": 441.5,
+      "avg_paid": 193.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 1628743.31,
+      "total_services": 7167,
+      "total_beneficiaries": 18,
+      "avg_submitted": 517.16,
+      "avg_paid": 227.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 2856023.54,
+      "total_services": 10659,
+      "total_beneficiaries": 19,
+      "avg_submitted": 602.13,
+      "avg_paid": 267.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 2625973.67,
+      "total_services": 9335,
+      "total_beneficiaries": 20,
+      "avg_submitted": 634.43,
+      "avg_paid": 281.3
+    },
+    {
+      "year": 2021,
+      "total_payments": 2606501.3,
+      "total_services": 9356,
+      "total_beneficiaries": 16,
+      "avg_submitted": 622.41,
+      "avg_paid": 278.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 3152224.96,
+      "total_services": 13964,
+      "total_beneficiaries": 17,
+      "avg_submitted": 520.57,
+      "avg_paid": 225.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 3354306.88,
+      "total_services": 50592,
+      "total_beneficiaries": 18,
+      "avg_submitted": 148.05,
+      "avg_paid": 66.3
+    }
+  ],
+  "overall": {
+    "total_payments": 18304888.13,
+    "total_services": 113597,
+    "total_beneficiaries": 153,
+    "avg_markup_ratio": 2.27,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 15940,
+      "payments": 11692825.87,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 7500,
+      "payments": 1833188.58,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 43920,
+      "payments": 1275150.58,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 12667,
+      "payments": 1110113.03,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 18088,
+      "payments": 537701.66,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 293,
+      "payments": 269591.65,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 3969,
+      "payments": 249507.11,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 2652,
+      "payments": 232234.84,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1331,
+      "payments": 154727.19,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 2207,
+      "payments": 136680.07,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 130,
+      "payments": 127334.71,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 131,
+      "payments": 124915.66,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "J0179",
+      "description": "Injection, brolucizumab-dbll, 1 mg",
+      "services": 330,
+      "payments": 82755.63,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 1140,
+      "payments": 71321.78,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 197,
+      "payments": 67480.4,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 91,
+      "payments": 65453.14,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 32,
+      "payments": 55525.11,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 348,
+      "payments": 35102.51,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 574,
+      "payments": 33352.91,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "67113",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 30,
+      "payments": 31031.36,
+      "avg_markup": 3.21
+    }
+  ]
+}

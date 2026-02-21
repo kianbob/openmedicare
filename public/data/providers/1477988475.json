@@ -1,0 +1,129 @@
+{
+  "name": "Sheeba Mathai",
+  "credentials": "FNP-BC",
+  "specialty": "Nurse Practitioner",
+  "city": "Frisco",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 2592.32,
+      "total_services": 77,
+      "total_beneficiaries": 3,
+      "avg_submitted": 43.71,
+      "avg_paid": 33.67
+    },
+    {
+      "year": 2016,
+      "total_payments": 2955.56,
+      "total_services": 77,
+      "total_beneficiaries": 4,
+      "avg_submitted": 65.49,
+      "avg_paid": 38.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 1428.37,
+      "total_services": 45,
+      "total_beneficiaries": 2,
+      "avg_submitted": 57.19,
+      "avg_paid": 31.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 10143.39,
+      "total_services": 144,
+      "total_beneficiaries": 4,
+      "avg_submitted": 203.51,
+      "avg_paid": 70.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 16207673.76,
+      "total_services": 1377269,
+      "total_beneficiaries": 5,
+      "avg_submitted": 23.88,
+      "avg_paid": 11.77
+    }
+  ],
+  "overall": {
+    "total_payments": 16224793.4,
+    "total_services": 1377612,
+    "total_beneficiaries": 18,
+    "avg_markup_ratio": 2.03,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1376911,
+      "payments": 16189870.57,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 168,
+      "payments": 12767.57,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 174,
+      "payments": 8142.04,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 92,
+      "payments": 5757.89,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 70,
+      "payments": 2403.38,
+      "avg_markup": 13.28
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 58,
+      "payments": 2254.14,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 13,
+      "payments": 1414.05,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 68,
+      "payments": 1106.36,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 39,
+      "payments": 917.8,
+      "avg_markup": 15.87
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 19,
+      "payments": 159.6,
+      "avg_markup": 1.79
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Jami Gorton",
+  "credentials": "AGNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Windsor",
+  "state": "CO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 138562.61,
+      "total_services": 1825,
+      "total_beneficiaries": 10,
+      "avg_submitted": 173.4,
+      "avg_paid": 75.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 147912.97,
+      "total_services": 2130,
+      "total_beneficiaries": 10,
+      "avg_submitted": 167.15,
+      "avg_paid": 69.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 10310111.07,
+      "total_services": 14457,
+      "total_beneficiaries": 9,
+      "avg_submitted": 928.68,
+      "avg_paid": 713.16
+    }
+  ],
+  "overall": {
+    "total_payments": 10596586.65,
+    "total_services": 18412,
+    "total_beneficiaries": 29,
+    "avg_markup_ratio": 1.33,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 12998,
+      "payments": 10204481.78,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 1838,
+      "payments": 98955.94,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 667,
+      "payments": 78412.14,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 800,
+      "payments": 73674.72,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99498",
+      "description": "Advance care planning, each additional 30 minutes",
+      "services": 1222,
+      "payments": 60064.58,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99337",
+      "description": "Established patient custodial care facility, group care, or assisted living visit, typically 1 hour",
+      "services": 304,
+      "payments": 39278.28,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99358",
+      "description": "Extended patient service without direct patient contact, first hour",
+      "services": 246,
+      "payments": 18522.0,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99345",
+      "description": "Residence visit for new patient with high level of medical decision making, per day, if using time, at least 75 minutes",
+      "services": 49,
+      "payments": 6411.98,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 57,
+      "payments": 6077.35,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99359",
+      "description": "Extended patient service without direct patient contact, each additional 30 minutes",
+      "services": 136,
+      "payments": 4948.75,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 21,
+      "payments": 2838.41,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 20,
+      "payments": 1796.4,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "G0318",
+      "description": "Prolonged home or residence evaluation and management service(s) beyond the total time for the primary service (when the primary service has been selected using time on the date of the primary service); each additional 15 minutes by the physician or qualif",
+      "services": 38,
+      "payments": 796.48,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "G0317",
+      "description": "Prolonged nursing facility evaluation and management service(s) beyond the total time for the primary service (when the primary service has been selected using time on the date of the primary service); each additional 15 minutes by the physician or qualifi",
+      "services": 16,
+      "payments": 327.84,
+      "avg_markup": 2.2
+    }
+  ]
+}

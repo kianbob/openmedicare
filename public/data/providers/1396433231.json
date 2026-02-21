@@ -1,0 +1,76 @@
+{
+  "name": "Pacific Medical Labs",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Torrance",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 7312017.04,
+      "total_services": 145127,
+      "total_beneficiaries": 6,
+      "avg_submitted": 120.39,
+      "avg_paid": 50.38
+    }
+  ],
+  "overall": {
+    "total_payments": 7312017.04,
+    "total_services": 145127,
+    "total_beneficiaries": 6,
+    "avg_markup_ratio": 2.39,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 43269,
+      "payments": 3180271.5,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "0240U",
+      "description": "Respiratory infectious agent detection by rna for severe acute respiratory syndrome coronavirus 2 (covid-19), influenza a, and influenza b) in upper respiratory specimen, each reported as detected or not detected",
+      "services": 14370,
+      "payments": 2008638.6,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 43253,
+      "payments": 1059698.5,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 43290,
+      "payments": 995237.1,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "87502",
+      "description": "Detection test by nucleic acid for multiple types influenza virus",
+      "services": 372,
+      "payments": 34923.36,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 201,
+      "payments": 28095.78,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "87400",
+      "description": "Detection test by immunoassay technique for influenza virus",
+      "services": 372,
+      "payments": 5152.2,
+      "avg_markup": 7.23
+    }
+  ]
+}

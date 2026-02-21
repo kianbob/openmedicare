@@ -1,0 +1,120 @@
+{
+  "name": "Shoreline Diagnostics Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Irvine",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 143422.47,
+      "total_services": 3433,
+      "total_beneficiaries": 4,
+      "avg_submitted": 103.46,
+      "avg_paid": 41.78
+    },
+    {
+      "year": 2022,
+      "total_payments": 7666453.74,
+      "total_services": 189338,
+      "total_beneficiaries": 5,
+      "avg_submitted": 103.01,
+      "avg_paid": 40.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 6166333.92,
+      "total_services": 143979,
+      "total_beneficiaries": 5,
+      "avg_submitted": 109.28,
+      "avg_paid": 42.83
+    }
+  ],
+  "overall": {
+    "total_payments": 13976210.13,
+    "total_services": 336750,
+    "total_beneficiaries": 14,
+    "avg_markup_ratio": 2.55,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 109996,
+      "payments": 8104035.14,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 109711,
+      "payments": 2694440.5,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 97791,
+      "payments": 2254418.08,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 14929,
+      "payments": 750619.04,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 2314,
+      "payments": 81134.42,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "87426",
+      "description": "Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus",
+      "services": 1101,
+      "payments": 38149.41,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 196,
+      "payments": 28449.06,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "87486",
+      "description": "Detection test by nucleic acid for chlamydia pneumoniae, amplified probe technique",
+      "services": 178,
+      "payments": 6241.12,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "87498",
+      "description": "Detection test by nucleic acid for enterovirus (intestinal virus), amplified probe technique",
+      "services": 178,
+      "payments": 6241.12,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "87541",
+      "description": "Detection test by nucleic acid for legionella pneumophila (water borne bacteria), amplified probe technique",
+      "services": 178,
+      "payments": 6241.12,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "87640",
+      "description": "Detection test by nucleic acid for staphylococcus aureus (bacteria), amplified probe technique",
+      "services": 178,
+      "payments": 6241.12,
+      "avg_markup": 2.5
+    }
+  ]
+}

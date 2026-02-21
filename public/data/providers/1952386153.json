@@ -1,0 +1,239 @@
+{
+  "name": "Cataldo Ambulance Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Somerville",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 13342379.04,
+      "total_services": 298914,
+      "total_beneficiaries": 7,
+      "avg_submitted": 245.63,
+      "avg_paid": 44.64
+    },
+    {
+      "year": 2015,
+      "total_payments": 14174834.29,
+      "total_services": 312290,
+      "total_beneficiaries": 7,
+      "avg_submitted": 242.45,
+      "avg_paid": 45.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 14543646.26,
+      "total_services": 343172,
+      "total_beneficiaries": 7,
+      "avg_submitted": 238.05,
+      "avg_paid": 42.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 15056906.96,
+      "total_services": 357430,
+      "total_beneficiaries": 7,
+      "avg_submitted": 252.02,
+      "avg_paid": 42.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 15912796.56,
+      "total_services": 368530,
+      "total_beneficiaries": 7,
+      "avg_submitted": 270.49,
+      "avg_paid": 43.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 14190739.89,
+      "total_services": 307749,
+      "total_beneficiaries": 7,
+      "avg_submitted": 301.27,
+      "avg_paid": 46.11
+    },
+    {
+      "year": 2020,
+      "total_payments": 12991799.23,
+      "total_services": 273347,
+      "total_beneficiaries": 7,
+      "avg_submitted": 311.41,
+      "avg_paid": 47.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 11587015.96,
+      "total_services": 242526,
+      "total_beneficiaries": 11,
+      "avg_submitted": 300.57,
+      "avg_paid": 47.78
+    },
+    {
+      "year": 2022,
+      "total_payments": 11038750.89,
+      "total_services": 193189,
+      "total_beneficiaries": 15,
+      "avg_submitted": 329.12,
+      "avg_paid": 57.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 11560087.57,
+      "total_services": 173786,
+      "total_beneficiaries": 18,
+      "avg_submitted": 352.44,
+      "avg_paid": 66.52
+    }
+  ],
+  "overall": {
+    "total_payments": 134398956.65,
+    "total_services": 2870933,
+    "total_beneficiaries": 93,
+    "avg_markup_ratio": 5.92,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 119271,
+      "payments": 45002093.95,
+      "avg_markup": 5.5
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 140724,
+      "payments": 44964287.75,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 134756,
+      "payments": 25460761.75,
+      "avg_markup": 6.67
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 2457234,
+      "payments": 14270318.93,
+      "avg_markup": 10.32
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 8408,
+      "payments": 1962090.01,
+      "avg_markup": 7.73
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 2454,
+      "payments": 1534171.23,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1713,
+      "payments": 937549.67,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "0124A",
+      "description": "Adm sarscv2 bvl 30mcg/.3ml a",
+      "services": 1646,
+      "payments": 73681.73,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "0134A",
+      "description": "Adm sarscv2 bvl 50mcg/.5ml a",
+      "services": 1333,
+      "payments": 59599.49,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "90694",
+      "description": "Influenza vaccine, quadrivalent inactivated, 0.5 ml dosage",
+      "services": 431,
+      "payments": 30694.75,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 760,
+      "payments": 27746.34,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 604,
+      "payments": 20367.04,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 765,
+      "payments": 14966.79,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "0054A",
+      "description": "Adm sarscv2 30mcg trs-sucr b",
+      "services": 183,
+      "payments": 8197.7,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "91322",
+      "description": "Sarscov2 vac 50 mcg/0.5ml im",
+      "services": 47,
+      "payments": 6721.0,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "91320",
+      "description": "Sarscv2 vac 30mcg trs-suc im",
+      "services": 52,
+      "payments": 6680.96,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "0064A",
+      "description": "Adm sarscov2 50mcg/0.25mlbst",
+      "services": 114,
+      "payments": 5104.2,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "90480",
+      "description": "Admn sarscov2 vacc 1 dose",
+      "services": 100,
+      "payments": 4513.0,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "90686",
+      "description": "Influenza vaccine, quadrivalent, preservative free, 0.5 ml dosage",
+      "services": 142,
+      "payments": 3011.79,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "0012A",
+      "description": "Adm sarscov2 100mcg/0.5ml2nd",
+      "services": 59,
+      "payments": 2065.72,
+      "avg_markup": 2.86
+    }
+  ]
+}

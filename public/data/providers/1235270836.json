@@ -1,0 +1,239 @@
+{
+  "name": "Vikram Lakireddy",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Merced",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1002029.17,
+      "total_services": 7889,
+      "total_beneficiaries": 27,
+      "avg_submitted": 296.47,
+      "avg_paid": 127.02
+    },
+    {
+      "year": 2015,
+      "total_payments": 1062680.89,
+      "total_services": 8563,
+      "total_beneficiaries": 29,
+      "avg_submitted": 290.83,
+      "avg_paid": 124.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 2046784.3,
+      "total_services": 13774,
+      "total_beneficiaries": 32,
+      "avg_submitted": 327.81,
+      "avg_paid": 148.6
+    },
+    {
+      "year": 2017,
+      "total_payments": 3206110.9,
+      "total_services": 16854,
+      "total_beneficiaries": 33,
+      "avg_submitted": 327.41,
+      "avg_paid": 190.23
+    },
+    {
+      "year": 2018,
+      "total_payments": 2631569.24,
+      "total_services": 15503,
+      "total_beneficiaries": 37,
+      "avg_submitted": 326.47,
+      "avg_paid": 169.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 3852685.32,
+      "total_services": 17943,
+      "total_beneficiaries": 41,
+      "avg_submitted": 417.64,
+      "avg_paid": 214.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 3776953.42,
+      "total_services": 21372,
+      "total_beneficiaries": 41,
+      "avg_submitted": 619.27,
+      "avg_paid": 176.72
+    },
+    {
+      "year": 2021,
+      "total_payments": 4298530.91,
+      "total_services": 50284,
+      "total_beneficiaries": 42,
+      "avg_submitted": 265.72,
+      "avg_paid": 85.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 4255667.97,
+      "total_services": 55865,
+      "total_beneficiaries": 42,
+      "avg_submitted": 216.19,
+      "avg_paid": 76.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 4804060.23,
+      "total_services": 33475,
+      "total_beneficiaries": 40,
+      "avg_submitted": 389.67,
+      "avg_paid": 143.51
+    }
+  ],
+  "overall": {
+    "total_payments": 30937072.35,
+    "total_services": 241522,
+    "total_beneficiaries": 364,
+    "avg_markup_ratio": 2.56,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "78492",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress",
+      "services": 7426,
+      "payments": 8382370.8,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "33285",
+      "description": "Insertion of heart rhythm monitor under skin",
+      "services": 1433,
+      "payments": 5877650.4,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 13047,
+      "payments": 4803704.4,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound of heart with color-depicted blood flow, rate, direction and valve function",
+      "services": 10500,
+      "payments": 1676650.02,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine studies of heart muscle at rest and with stress and spect",
+      "services": 4394,
+      "payments": 1343663.34,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 26113,
+      "payments": 1160884.52,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "93229",
+      "description": "Electrocardiogram (ecg) up to 30 days continuous with transmission of patient triggered events with review and report by health care professional",
+      "services": 1860,
+      "payments": 1134634.57,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 11969,
+      "payments": 1065008.03,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 5775,
+      "payments": 709281.32,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 10370,
+      "payments": 631947.77,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 4895,
+      "payments": 602368.0,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart stress test with electrocardiogram (ecg) with supervision and review by physician",
+      "services": 7589,
+      "payments": 466278.83,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 15109,
+      "payments": 398353.3,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "93298",
+      "description": "Evaluation of cardiac rhythm monitor system, remote up to 30 days",
+      "services": 18838,
+      "payments": 382834.09,
+      "avg_markup": 6.97
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 2172,
+      "payments": 270208.43,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care with moderate level of medical decision making, if using time, at least 75 minutes",
+      "services": 1617,
+      "payments": 265843.29,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of tube in left lower heart chamber and coronary artery for diagnosis with review by radiologist",
+      "services": 1148,
+      "payments": 246187.5,
+      "avg_markup": 7.38
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of pacemaker and upper and lower heart chamber electrode",
+      "services": 468,
+      "payments": 197005.39,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 383,
+      "payments": 188570.72,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "96374",
+      "description": "Injection of drug or substance into vein",
+      "services": 5011,
+      "payments": 170375.97,
+      "avg_markup": 5.97
+    }
+  ]
+}

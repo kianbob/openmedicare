@@ -1,0 +1,129 @@
+{
+  "name": "Hooman Saberinia",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Concord",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 27565.16,
+      "total_services": 429,
+      "total_beneficiaries": 5,
+      "avg_submitted": 227.9,
+      "avg_paid": 64.25
+    },
+    {
+      "year": 2020,
+      "total_payments": 48105.03,
+      "total_services": 648,
+      "total_beneficiaries": 8,
+      "avg_submitted": 235.12,
+      "avg_paid": 74.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 21491.74,
+      "total_services": 318,
+      "total_beneficiaries": 5,
+      "avg_submitted": 239.31,
+      "avg_paid": 67.58
+    },
+    {
+      "year": 2022,
+      "total_payments": 3513417.6,
+      "total_services": 298760,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 9572216.64,
+      "total_services": 813964,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 13182796.17,
+    "total_services": 1114119,
+    "total_beneficiaries": 20,
+    "avg_markup_ratio": 1.04,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1112724,
+      "payments": 13085634.24,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 627,
+      "payments": 38030.28,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 253,
+      "payments": 22661.9,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 222,
+      "payments": 19373.84,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 129,
+      "payments": 4209.03,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 56,
+      "payments": 3460.8,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care on day of discharge",
+      "services": 53,
+      "payments": 3073.76,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 15,
+      "payments": 2433.44,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care, typically 70 minutes",
+      "services": 13,
+      "payments": 2178.77,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 27,
+      "payments": 1740.11,
+      "avg_markup": 3.28
+    }
+  ]
+}

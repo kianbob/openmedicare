@@ -1,0 +1,56 @@
+{
+  "name": "Chicago Laboratory Consultant Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 2746.0,
+      "total_services": 55,
+      "total_beneficiaries": 2,
+      "avg_submitted": 82.24,
+      "avg_paid": 49.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 18400154.64,
+      "total_services": 1564639,
+      "total_beneficiaries": 1,
+      "avg_submitted": 25.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 18402900.64,
+    "total_services": 1564694,
+    "total_beneficiaries": 3,
+    "avg_markup_ratio": 2.13,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1564639,
+      "payments": 18400154.64,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 28,
+      "payments": 2078.25,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 27,
+      "payments": 667.75,
+      "avg_markup": 1.01
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Clarity Testing Services",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Arlington Heights",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 1459189.24,
+      "total_services": 36203,
+      "total_beneficiaries": 4,
+      "avg_submitted": 84.21,
+      "avg_paid": 40.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 5184032.81,
+      "total_services": 134986,
+      "total_beneficiaries": 4,
+      "avg_submitted": 81.91,
+      "avg_paid": 38.4
+    }
+  ],
+  "overall": {
+    "total_payments": 6643222.05,
+    "total_services": 171189,
+    "total_beneficiaries": 8,
+    "avg_markup_ratio": 2.12,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 45457,
+      "payments": 3342736.0,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 61402,
+      "payments": 1412185.14,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 44908,
+      "payments": 1100704.0,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 19422,
+      "payments": 787596.91,
+      "avg_markup": 2.47
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Pasteur Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Encino",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 322214.49,
+      "total_services": 22127,
+      "total_beneficiaries": 52,
+      "avg_submitted": 16.35,
+      "avg_paid": 14.56
+    },
+    {
+      "year": 2015,
+      "total_payments": 70299.15,
+      "total_services": 5616,
+      "total_beneficiaries": 46,
+      "avg_submitted": 14.29,
+      "avg_paid": 12.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 53162.79,
+      "total_services": 7195,
+      "total_beneficiaries": 35,
+      "avg_submitted": 8.39,
+      "avg_paid": 7.39
+    },
+    {
+      "year": 2017,
+      "total_payments": 59325.08,
+      "total_services": 5243,
+      "total_beneficiaries": 39,
+      "avg_submitted": 13.45,
+      "avg_paid": 11.32
+    },
+    {
+      "year": 2018,
+      "total_payments": 95312.28,
+      "total_services": 8334,
+      "total_beneficiaries": 41,
+      "avg_submitted": 13.66,
+      "avg_paid": 11.44
+    },
+    {
+      "year": 2019,
+      "total_payments": 83627.11,
+      "total_services": 7822,
+      "total_beneficiaries": 41,
+      "avg_submitted": 14.1,
+      "avg_paid": 10.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 1380129.9,
+      "total_services": 25190,
+      "total_beneficiaries": 26,
+      "avg_submitted": 146.99,
+      "avg_paid": 54.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 2188283.54,
+      "total_services": 52480,
+      "total_beneficiaries": 5,
+      "avg_submitted": 158.21,
+      "avg_paid": 41.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 8802058.28,
+      "total_services": 216251,
+      "total_beneficiaries": 20,
+      "avg_submitted": 157.4,
+      "avg_paid": 40.7
+    },
+    {
+      "year": 2023,
+      "total_payments": 4397949.6,
+      "total_services": 107821,
+      "total_beneficiaries": 24,
+      "avg_submitted": 144.01,
+      "avg_paid": 40.79
+    }
+  ],
+  "overall": {
+    "total_payments": 17452362.22,
+    "total_services": 458079,
+    "total_beneficiaries": 329,
+    "avg_markup_ratio": 3.57,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 120722,
+      "payments": 9157246.96,
+      "avg_markup": 4.55
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 111976,
+      "payments": 2763856.5,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 78214,
+      "payments": 1806636.1,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "G2024",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]) from an individual in a snf or by a laboratory on behalf of a hha, any specimen source",
+      "services": 41183,
+      "payments": 1043517.57,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 13997,
+      "payments": 709037.92,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 19822,
+      "payments": 678564.87,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 1100,
+      "payments": 153761.94,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "87481",
+      "description": "Detection test for candida species (yeast), amplified probe technique",
+      "services": 2445,
+      "payments": 84076.84,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 2105,
+      "payments": 79867.74,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "U0001",
+      "description": "Cdc 2019 novel coronavirus (2019-ncov) real-time rt-pcr diagnostic panel",
+      "services": 1504,
+      "payments": 54008.64,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 2410,
+      "payments": 51279.93,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, t3 measurement",
+      "services": 2010,
+      "payments": 43211.5,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "87640",
+      "description": "Detection test by nucleic acid for staphylococcus aureus (bacteria), amplified probe technique",
+      "services": 1148,
+      "payments": 39479.35,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "87653",
+      "description": "Detection test by nucleic acid for strep (streptococcus, group b), amplified probe technique",
+      "services": 1127,
+      "payments": 38757.44,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 3694,
+      "payments": 35901.75,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 2621,
+      "payments": 34997.23,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement",
+      "services": 1530,
+      "payments": 34095.89,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "87486",
+      "description": "Detection test by nucleic acid for chlamydia pneumoniae, amplified probe technique",
+      "services": 990,
+      "payments": 34047.15,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "87498",
+      "description": "Detection test by nucleic acid for enterovirus (intestinal virus), amplified probe technique",
+      "services": 990,
+      "payments": 34047.15,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "87581",
+      "description": "Detection test by nucleic acid for mycoplasma pneumoniae (bacteria), amplified probe technique",
+      "services": 988,
+      "payments": 33977.32,
+      "avg_markup": 3.06
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Unic Labs Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 2787.5,
+      "total_services": 88,
+      "total_beneficiaries": 2,
+      "avg_submitted": 62.22,
+      "avg_paid": 31.68
+    },
+    {
+      "year": 2023,
+      "total_payments": 6530139.84,
+      "total_services": 555288,
+      "total_beneficiaries": 1,
+      "avg_submitted": 25.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 6532927.34,
+    "total_services": 555376,
+    "total_beneficiaries": 3,
+    "avg_markup_ratio": 2.13,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 555288,
+      "payments": 6530139.84,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 43,
+      "payments": 1749.11,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 45,
+      "payments": 1038.39,
+      "avg_markup": 2.17
+    }
+  ]
+}

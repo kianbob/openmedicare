@@ -1,0 +1,231 @@
+{
+  "name": "Scott Acker",
+  "credentials": "MD",
+  "specialty": "Pathology",
+  "city": "Alpharetta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 221135.91,
+      "total_services": 4041,
+      "total_beneficiaries": 4,
+      "avg_submitted": 180.0,
+      "avg_paid": 54.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 47549.27,
+      "total_services": 843,
+      "total_beneficiaries": 4,
+      "avg_submitted": 180.6,
+      "avg_paid": 56.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 1344753.91,
+      "total_services": 44287,
+      "total_beneficiaries": 20,
+      "avg_submitted": 46.43,
+      "avg_paid": 30.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 12421616.27,
+      "total_services": 325912,
+      "total_beneficiaries": 24,
+      "avg_submitted": 51.08,
+      "avg_paid": 38.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 10630431.26,
+      "total_services": 311505,
+      "total_beneficiaries": 24,
+      "avg_submitted": 47.5,
+      "avg_paid": 34.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 8086745.75,
+      "total_services": 244675,
+      "total_beneficiaries": 26,
+      "avg_submitted": 47.11,
+      "avg_paid": 33.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 8820967.36,
+      "total_services": 264894,
+      "total_beneficiaries": 30,
+      "avg_submitted": 47.62,
+      "avg_paid": 33.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 5270194.17,
+      "total_services": 172309,
+      "total_beneficiaries": 30,
+      "avg_submitted": 52.47,
+      "avg_paid": 30.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 3805508.93,
+      "total_services": 122488,
+      "total_beneficiaries": 26,
+      "avg_submitted": 65.04,
+      "avg_paid": 31.07
+    }
+  ],
+  "overall": {
+    "total_payments": 50648902.83,
+    "total_services": 1490954,
+    "total_beneficiaries": 188,
+    "avg_markup_ratio": 1.49,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 512275,
+      "payments": 19163524.28,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "88312",
+      "description": "Special stained specimen slides to identify organisms including interpretation and report",
+      "services": 142945,
+      "payments": 11746053.68,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 98637,
+      "payments": 5247762.56,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "87481",
+      "description": "Detection test for candida species (yeast), amplified probe technique",
+      "services": 127056,
+      "payments": 4795489.31,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "88313",
+      "description": "Special stained specimen slides to examine tissue including interpretation and report",
+      "services": 38868,
+      "payments": 2339037.41,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 23290,
+      "payments": 1999152.25,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "87186",
+      "description": "Evaluation of antimicrobial drug (antibiotic, antifungal, antiviral), microdilution or agar dilution",
+      "services": 120690,
+      "payments": 1094305.91,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "87070",
+      "description": "Bacterial culture, any other source except urine, blood or stool, aerobic",
+      "services": 99384,
+      "payments": 909483.79,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "87075",
+      "description": "Bacterial culture, any source, except blood, anaerobic",
+      "services": 78731,
+      "payments": 789447.73,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "87077",
+      "description": "Bacterial culture for aerobic isolates",
+      "services": 86131,
+      "payments": 732441.23,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "87205",
+      "description": "Special gram or giemsa stain for microorganism",
+      "services": 99439,
+      "payments": 440464.09,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 10165,
+      "payments": 254080.0,
+      "avg_markup": 1.0
+    },
+    {
+      "code": "88342",
+      "description": "Special stained specimen slides to examine tissue, initial procedure",
+      "services": 2502,
+      "payments": 199304.5,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "88341",
+      "description": "Special stained specimen slides to examine tissue, each additional procedure",
+      "services": 2512,
+      "payments": 178789.83,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "88307",
+      "description": "Pathology examination of tissue using a microscope, moderately high complexity",
+      "services": 681,
+      "payments": 148705.52,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "88304",
+      "description": "Pathology examination of tissue using a microscope, moderately low complexity",
+      "services": 4547,
+      "payments": 143878.71,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "87101",
+      "description": "Fungal culture (mold or yeast) of skin, hair, or nail",
+      "services": 14529,
+      "payments": 118834.66,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "87147",
+      "description": "Identification of organisms by immunologic analysis, other than immunofluorescence method",
+      "services": 12795,
+      "payments": 73621.11,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "87640",
+      "description": "Detection test by nucleic acid for staphylococcus aureus (bacteria), amplified probe technique",
+      "services": 1908,
+      "payments": 66636.43,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "88173",
+      "description": "Evaluation of fine needle aspirate with interpretation and report",
+      "services": 469,
+      "payments": 57117.0,
+      "avg_markup": 1.38
+    }
+  ]
+}

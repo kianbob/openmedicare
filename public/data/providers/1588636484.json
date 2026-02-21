@@ -1,0 +1,239 @@
+{
+  "name": "Eric Thomas",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Sioux Falls",
+  "state": "SD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1913787.28,
+      "total_services": 11990,
+      "total_beneficiaries": 18,
+      "avg_submitted": 223.64,
+      "avg_paid": 159.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 2353352.11,
+      "total_services": 12640,
+      "total_beneficiaries": 21,
+      "avg_submitted": 265.34,
+      "avg_paid": 186.18
+    },
+    {
+      "year": 2016,
+      "total_payments": 2542175.38,
+      "total_services": 12821,
+      "total_beneficiaries": 17,
+      "avg_submitted": 281.9,
+      "avg_paid": 198.28
+    },
+    {
+      "year": 2017,
+      "total_payments": 2911441.58,
+      "total_services": 13393,
+      "total_beneficiaries": 15,
+      "avg_submitted": 313.93,
+      "avg_paid": 217.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 3198196.28,
+      "total_services": 13993,
+      "total_beneficiaries": 19,
+      "avg_submitted": 335.76,
+      "avg_paid": 228.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 3065543.52,
+      "total_services": 13550,
+      "total_beneficiaries": 16,
+      "avg_submitted": 338.7,
+      "avg_paid": 226.24
+    },
+    {
+      "year": 2020,
+      "total_payments": 2783563.85,
+      "total_services": 11542,
+      "total_beneficiaries": 17,
+      "avg_submitted": 368.13,
+      "avg_paid": 241.17
+    },
+    {
+      "year": 2021,
+      "total_payments": 2732245.47,
+      "total_services": 11643,
+      "total_beneficiaries": 20,
+      "avg_submitted": 362.84,
+      "avg_paid": 234.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 2786205.26,
+      "total_services": 13702,
+      "total_beneficiaries": 19,
+      "avg_submitted": 306.15,
+      "avg_paid": 203.34
+    },
+    {
+      "year": 2023,
+      "total_payments": 3232368.13,
+      "total_services": 30928,
+      "total_beneficiaries": 22,
+      "avg_submitted": 161.97,
+      "avg_paid": 104.51
+    }
+  ],
+  "overall": {
+    "total_payments": 27518878.86,
+    "total_services": 146202,
+    "total_beneficiaries": 184,
+    "avg_markup_ratio": 1.48,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 24960,
+      "payments": 18558226.98,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 25388,
+      "payments": 2077023.72,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 5578,
+      "payments": 1501052.34,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 31798,
+      "payments": 951618.41,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 12294,
+      "payments": 770537.49,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 7413,
+      "payments": 668736.35,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 20400,
+      "payments": 593847.68,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 3101,
+      "payments": 319469.77,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 4454,
+      "payments": 281628.19,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 2244,
+      "payments": 264898.34,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 233,
+      "payments": 224893.04,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 215,
+      "payments": 199261.69,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 215,
+      "payments": 194798.81,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "J2781",
+      "description": "Injection, pegcetacoplan, intravitreal, 1 mg",
+      "services": 1335,
+      "payments": 160681.22,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "67040",
+      "description": "Destruction of eye fluid (vitreous) between lens and retina and all of retina using a laser",
+      "services": 179,
+      "payments": 149249.92,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 1883,
+      "payments": 114481.88,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 199,
+      "payments": 80157.49,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 1494,
+      "payments": 65940.04,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 89,
+      "payments": 59513.78,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 35,
+      "payments": 58359.51,
+      "avg_markup": 1.47
+    }
+  ]
+}

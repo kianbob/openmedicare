@@ -1,0 +1,72 @@
+{
+  "name": "Life Tech, Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Livingston",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 9794.69,
+      "total_services": 342,
+      "total_beneficiaries": 2,
+      "avg_submitted": 73.39,
+      "avg_paid": 28.64
+    },
+    {
+      "year": 2021,
+      "total_payments": 730564.07,
+      "total_services": 28239,
+      "total_beneficiaries": 3,
+      "avg_submitted": 75.82,
+      "avg_paid": 25.87
+    },
+    {
+      "year": 2022,
+      "total_payments": 2755075.05,
+      "total_services": 102713,
+      "total_beneficiaries": 3,
+      "avg_submitted": 61.07,
+      "avg_paid": 26.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 3299777.84,
+      "total_services": 123453,
+      "total_beneficiaries": 3,
+      "avg_submitted": 57.16,
+      "avg_paid": 26.73
+    }
+  ],
+  "overall": {
+    "total_payments": 6795211.65,
+    "total_services": 254747,
+    "total_beneficiaries": 11,
+    "avg_markup_ratio": 2.28,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 21666,
+      "payments": 4483389.4,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 230582,
+      "payments": 1395143.27,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2499,
+      "payments": 916678.99,
+      "avg_markup": 1.92
+    }
+  ]
+}

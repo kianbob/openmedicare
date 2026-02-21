@@ -1,0 +1,42 @@
+{
+  "name": "Prelude Corporation",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Hershey",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 68001.76,
+      "total_services": 184,
+      "total_beneficiaries": 1,
+      "avg_submitted": 5995.0,
+      "avg_paid": 369.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 4922050.98,
+      "total_services": 1046,
+      "total_beneficiaries": 1,
+      "avg_submitted": 5991.25,
+      "avg_paid": 4705.59
+    }
+  ],
+  "overall": {
+    "total_payments": 4990052.74,
+    "total_services": 1230,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.48,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "0295U",
+      "description": "Protein expression profiling by immunohistochemistry of 7 proteins (cox2, foxa1, her2, ki-67, p16, pr, siah2), with 4 clinicopathologic factors (size, age, margin status, palpability), in breast ductal carcinoma in situ tumor tissue, algorithm reported as",
+      "services": 1230,
+      "payments": 4990052.74,
+      "avg_markup": 1.48
+    }
+  ]
+}

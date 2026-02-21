@@ -1,0 +1,78 @@
+{
+  "name": "Universal Genetics Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Monrovia",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 9979.1,
+      "total_services": 172,
+      "total_beneficiaries": 4,
+      "avg_submitted": 126.74,
+      "avg_paid": 58.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 19474.54,
+      "total_services": 371,
+      "total_beneficiaries": 3,
+      "avg_submitted": 127.02,
+      "avg_paid": 52.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 15108930.48,
+      "total_services": 1284778,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 15138384.12,
+    "total_services": 1285321,
+    "total_beneficiaries": 8,
+    "avg_markup_ratio": 1.02,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1284778,
+      "payments": 15108930.48,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "87636",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19) and influenza virus types a and b",
+      "services": 84,
+      "payments": 12149.27,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 126,
+      "payments": 9360.75,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 210,
+      "payments": 4898.37,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 123,
+      "payments": 3045.25,
+      "avg_markup": 2.91
+    }
+  ]
+}

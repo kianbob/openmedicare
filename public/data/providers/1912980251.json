@@ -1,0 +1,79 @@
+{
+  "name": "Community Health Care, Inc.",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Westfield",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 2997235.9,
+      "total_services": 15788,
+      "total_beneficiaries": 2,
+      "avg_submitted": 190.94,
+      "avg_paid": 189.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 5238316.82,
+      "total_services": 25441,
+      "total_beneficiaries": 2,
+      "avg_submitted": 208.13,
+      "avg_paid": 205.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 5380972.33,
+      "total_services": 25778,
+      "total_beneficiaries": 3,
+      "avg_submitted": 216.14,
+      "avg_paid": 208.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 5051155.36,
+      "total_services": 21911,
+      "total_beneficiaries": 4,
+      "avg_submitted": 239.05,
+      "avg_paid": 230.53
+    }
+  ],
+  "overall": {
+    "total_payments": 18667680.41,
+    "total_services": 88918,
+    "total_beneficiaries": 11,
+    "avg_markup_ratio": 1.02,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 82125,
+      "payments": 18250399.4,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 5771,
+      "payments": 214999.23,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 1009,
+      "payments": 200689.28,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "G2172",
+      "description": "All inclusive payment for services related to highly coordinated and integrated opioid use disorder (oud) treatment services furnished for the demonstration project",
+      "services": 13,
+      "payments": 1592.5,
+      "avg_markup": 1.02
+    }
+  ]
+}

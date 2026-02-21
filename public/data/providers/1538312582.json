@@ -1,0 +1,239 @@
+{
+  "name": "John Pitcher",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Albuquerque",
+  "state": "NM",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 121161.65,
+      "total_services": 825,
+      "total_beneficiaries": 14,
+      "avg_submitted": 361.79,
+      "avg_paid": 146.86
+    },
+    {
+      "year": 2015,
+      "total_payments": 925200.68,
+      "total_services": 6075,
+      "total_beneficiaries": 21,
+      "avg_submitted": 352.99,
+      "avg_paid": 152.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 1178874.28,
+      "total_services": 7027,
+      "total_beneficiaries": 17,
+      "avg_submitted": 389.88,
+      "avg_paid": 167.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 1419553.18,
+      "total_services": 6700,
+      "total_beneficiaries": 18,
+      "avg_submitted": 465.92,
+      "avg_paid": 211.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 1723596.26,
+      "total_services": 7689,
+      "total_beneficiaries": 19,
+      "avg_submitted": 436.22,
+      "avg_paid": 224.16
+    },
+    {
+      "year": 2019,
+      "total_payments": 2555477.8,
+      "total_services": 10123,
+      "total_beneficiaries": 18,
+      "avg_submitted": 487.9,
+      "avg_paid": 252.44
+    },
+    {
+      "year": 2020,
+      "total_payments": 2911657.79,
+      "total_services": 10661,
+      "total_beneficiaries": 17,
+      "avg_submitted": 530.69,
+      "avg_paid": 273.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 3834134.99,
+      "total_services": 13786,
+      "total_beneficiaries": 19,
+      "avg_submitted": 545.58,
+      "avg_paid": 278.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 3905492.7,
+      "total_services": 15333,
+      "total_beneficiaries": 19,
+      "avg_submitted": 522.97,
+      "avg_paid": 254.71
+    },
+    {
+      "year": 2023,
+      "total_payments": 5148222.4,
+      "total_services": 71043,
+      "total_beneficiaries": 20,
+      "avg_submitted": 150.38,
+      "avg_paid": 72.47
+    }
+  ],
+  "overall": {
+    "total_payments": 23723371.73,
+    "total_services": 149262,
+    "total_beneficiaries": 182,
+    "avg_markup_ratio": 2.04,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 15093,
+      "payments": 11032021.14,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 24729,
+      "payments": 6294452.94,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 59760,
+      "payments": 1732811.99,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 14802,
+      "payments": 1291606.17,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 5136,
+      "payments": 428900.42,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 2380,
+      "payments": 368935.49,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 159,
+      "payments": 345199.65,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 12018,
+      "payments": 342039.58,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 3883,
+      "payments": 315898.17,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 350,
+      "payments": 273408.55,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "67113",
+      "description": "Complex repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 197,
+      "payments": 189262.71,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2386,
+      "payments": 134808.11,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 143,
+      "payments": 126414.96,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 357,
+      "payments": 116047.06,
+      "avg_markup": 4.98
+    },
+    {
+      "code": "67040",
+      "description": "Destruction of eye fluid (vitreous) between lens and retina and all of retina using a laser",
+      "services": 154,
+      "payments": 109740.46,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 1298,
+      "payments": 74701.81,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 1351,
+      "payments": 70513.67,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 1061,
+      "payments": 68540.76,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 728,
+      "payments": 67782.4,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 34,
+      "payments": 61896.45,
+      "avg_markup": 2.07
+    }
+  ]
+}

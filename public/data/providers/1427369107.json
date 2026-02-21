@@ -1,0 +1,231 @@
+{
+  "name": "James Singer",
+  "credentials": "DO",
+  "specialty": "Ophthalmology",
+  "city": "West Des Moines",
+  "state": "IA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 12438.97,
+      "total_services": 157,
+      "total_beneficiaries": 4,
+      "avg_submitted": 516.4,
+      "avg_paid": 79.23
+    },
+    {
+      "year": 2016,
+      "total_payments": 140445.39,
+      "total_services": 1375,
+      "total_beneficiaries": 18,
+      "avg_submitted": 430.7,
+      "avg_paid": 102.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 995427.18,
+      "total_services": 7018,
+      "total_beneficiaries": 17,
+      "avg_submitted": 452.4,
+      "avg_paid": 141.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 1470954.22,
+      "total_services": 9035,
+      "total_beneficiaries": 17,
+      "avg_submitted": 477.29,
+      "avg_paid": 162.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 2069763.72,
+      "total_services": 10975,
+      "total_beneficiaries": 17,
+      "avg_submitted": 513.16,
+      "avg_paid": 188.59
+    },
+    {
+      "year": 2020,
+      "total_payments": 2367848.0,
+      "total_services": 11333,
+      "total_beneficiaries": 18,
+      "avg_submitted": 553.39,
+      "avg_paid": 208.93
+    },
+    {
+      "year": 2021,
+      "total_payments": 2821941.02,
+      "total_services": 12543,
+      "total_beneficiaries": 18,
+      "avg_submitted": 574.64,
+      "avg_paid": 224.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 3273059.78,
+      "total_services": 29113,
+      "total_beneficiaries": 19,
+      "avg_submitted": 293.81,
+      "avg_paid": 112.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 4088179.76,
+      "total_services": 107975,
+      "total_beneficiaries": 17,
+      "avg_submitted": 82.43,
+      "avg_paid": 37.86
+    }
+  ],
+  "overall": {
+    "total_payments": 17240058.04,
+    "total_services": 189524,
+    "total_beneficiaries": 145,
+    "avg_markup_ratio": 2.59,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 11103,
+      "payments": 8123882.8,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 114240,
+      "payments": 3333516.75,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 6317,
+      "payments": 1623437.55,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 15663,
+      "payments": 1308686.3,
+      "avg_markup": 10.75
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 9503,
+      "payments": 950645.33,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 17067,
+      "payments": 489373.39,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 7030,
+      "payments": 420563.48,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 2034,
+      "payments": 233996.64,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 306,
+      "payments": 202214.01,
+      "avg_markup": 4.98
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1166,
+      "payments": 100334.17,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 758,
+      "payments": 63939.57,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 73,
+      "payments": 59923.59,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 145,
+      "payments": 35483.29,
+      "avg_markup": 8.76
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 473,
+      "payments": 34211.19,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 105,
+      "payments": 32739.85,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 203,
+      "payments": 31110.88,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 54,
+      "payments": 30487.1,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 379,
+      "payments": 23711.95,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 648,
+      "payments": 19674.58,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 111,
+      "payments": 17075.35,
+      "avg_markup": 2.19
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Merry Taheri",
+  "credentials": "MSN FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Torrance",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 12149038.25,
+      "total_services": 1032955,
+      "total_beneficiaries": 3,
+      "avg_submitted": 12.07,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 12149038.25,
+    "total_services": 1032955,
+    "total_beneficiaries": 3,
+    "avg_markup_ratio": 1.03,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1032904,
+      "payments": 12146951.04,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 33,
+      "payments": 1604.56,
+      "avg_markup": 29.33
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 18,
+      "payments": 482.65,
+      "avg_markup": 45.72
+    }
+  ]
+}

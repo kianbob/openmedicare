@@ -1,0 +1,69 @@
+{
+  "name": "Kellie King",
+  "credentials": "APRN",
+  "specialty": "Nurse Practitioner",
+  "city": "Fort Worth",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 5272447.8,
+      "total_services": 6145,
+      "total_beneficiaries": 5,
+      "avg_submitted": 1108.03,
+      "avg_paid": 858.01
+    }
+  ],
+  "overall": {
+    "total_payments": 5272447.8,
+    "total_services": 6145,
+    "total_beneficiaries": 5,
+    "avg_markup_ratio": 1.29,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 5406,
+      "payments": 5225046.3,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 213,
+      "payments": 18267.96,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 134,
+      "payments": 13033.86,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 250,
+      "payments": 12594.33,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99342",
+      "description": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 36,
+      "payments": 1811.73,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "15272",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, each additional 25.0 sq cm of wound 100.0 sq cm or less",
+      "services": 106,
+      "payments": 1693.62,
+      "avg_markup": 4.09
+    }
+  ]
+}

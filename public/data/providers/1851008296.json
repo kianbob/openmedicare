@@ -1,0 +1,62 @@
+{
+  "name": "Fz Medical Group Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Des Plaines",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 15090084.81,
+      "total_services": 233578,
+      "total_beneficiaries": 5,
+      "avg_submitted": 174.02,
+      "avg_paid": 64.6
+    }
+  ],
+  "overall": {
+    "total_payments": 15090084.81,
+    "total_services": 233578,
+    "total_beneficiaries": 5,
+    "avg_markup_ratio": 2.69,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "0240U",
+      "description": "Respiratory infectious agent detection by rna for severe acute respiratory syndrome coronavirus 2 (covid-19), influenza a, and influenza b) in upper respiratory specimen, each reported as detected or not detected",
+      "services": 57159,
+      "payments": 7989685.02,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 58576,
+      "payments": 4305336.0,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 60785,
+      "payments": 1397447.15,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 57030,
+      "payments": 1397235.0,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "87420",
+      "description": "Detection test by immunoassay technique for respiratory syncytial virus (rsv)",
+      "services": 28,
+      "payments": 381.64,
+      "avg_markup": 7.34
+    }
+  ]
+}

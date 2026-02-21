@@ -1,0 +1,70 @@
+{
+  "name": "County Diagnostic Incorporation",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 15279.74,
+      "total_services": 378,
+      "total_beneficiaries": 3,
+      "avg_submitted": 87.57,
+      "avg_paid": 40.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 5210150.4,
+      "total_services": 443040,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 5225430.14,
+    "total_services": 443418,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 1.02,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 443040,
+      "payments": 5210150.4,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 95,
+      "payments": 6982.5,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 94,
+      "payments": 3811.7,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 93,
+      "payments": 2278.5,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 96,
+      "payments": 2207.04,
+      "avg_markup": 2.17
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "David Cupp",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Sacramento",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 455838.2,
+      "total_services": 4422,
+      "total_beneficiaries": 24,
+      "avg_submitted": 223.2,
+      "avg_paid": 103.08
+    },
+    {
+      "year": 2015,
+      "total_payments": 2767407.43,
+      "total_services": 19027,
+      "total_beneficiaries": 28,
+      "avg_submitted": 357.18,
+      "avg_paid": 145.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 3564618.37,
+      "total_services": 23102,
+      "total_beneficiaries": 26,
+      "avg_submitted": 390.7,
+      "avg_paid": 154.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 4754698.04,
+      "total_services": 25599,
+      "total_beneficiaries": 23,
+      "avg_submitted": 489.82,
+      "avg_paid": 185.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 4907740.73,
+      "total_services": 28293,
+      "total_beneficiaries": 24,
+      "avg_submitted": 438.87,
+      "avg_paid": 173.46
+    },
+    {
+      "year": 2019,
+      "total_payments": 4940921.46,
+      "total_services": 28396,
+      "total_beneficiaries": 23,
+      "avg_submitted": 471.13,
+      "avg_paid": 174.0
+    },
+    {
+      "year": 2020,
+      "total_payments": 4344086.12,
+      "total_services": 24465,
+      "total_beneficiaries": 25,
+      "avg_submitted": 537.87,
+      "avg_paid": 177.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 4982214.77,
+      "total_services": 26199,
+      "total_beneficiaries": 26,
+      "avg_submitted": 728.42,
+      "avg_paid": 190.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 4046446.52,
+      "total_services": 23172,
+      "total_beneficiaries": 26,
+      "avg_submitted": 638.98,
+      "avg_paid": 174.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 3777814.74,
+      "total_services": 50461,
+      "total_beneficiaries": 24,
+      "avg_submitted": 259.99,
+      "avg_paid": 74.87
+    }
+  ],
+  "overall": {
+    "total_payments": 38541786.38,
+    "total_services": 253136,
+    "total_beneficiaries": 249,
+    "avg_markup_ratio": 2.99,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 18408,
+      "payments": 13665946.77,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 45046,
+      "payments": 12148984.78,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 28291,
+      "payments": 2631302.22,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 21667,
+      "payments": 2103997.9,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 39815,
+      "payments": 1319594.96,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 39180,
+      "payments": 1137969.33,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 12525,
+      "payments": 1039809.17,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 10196,
+      "payments": 660793.15,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 3605,
+      "payments": 569105.22,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 9900,
+      "payments": 455445.6,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 2917,
+      "payments": 339635.02,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 4297,
+      "payments": 293282.62,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 277,
+      "payments": 262412.27,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 248,
+      "payments": 246286.43,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 410,
+      "payments": 182554.97,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 243,
+      "payments": 171197.91,
+      "avg_markup": 5.59
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 387,
+      "payments": 147264.95,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 158,
+      "payments": 138354.45,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 1593,
+      "payments": 117665.41,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 911,
+      "payments": 112349.33,
+      "avg_markup": 1.84
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Peninsula Surgery Center, Llc",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Redwood City",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 1175368.32,
+      "total_services": 13132,
+      "total_beneficiaries": 4,
+      "avg_submitted": 650.17,
+      "avg_paid": 89.5
+    },
+    {
+      "year": 2023,
+      "total_payments": 2937459.84,
+      "total_services": 66099,
+      "total_beneficiaries": 5,
+      "avg_submitted": 307.08,
+      "avg_paid": 44.44
+    }
+  ],
+  "overall": {
+    "total_payments": 4112828.16,
+    "total_services": 79231,
+    "total_beneficiaries": 9,
+    "avg_markup_ratio": 7.01,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "27447",
+      "description": "Replacement of knee joint, both sides of knee",
+      "services": 208,
+      "payments": 2162123.19,
+      "avg_markup": 7.94
+    },
+    {
+      "code": "27130",
+      "description": "Replacement of thigh bone and hip joint with prosthesis",
+      "services": 178,
+      "payments": 1862152.28,
+      "avg_markup": 6.08
+    },
+    {
+      "code": "C9088",
+      "description": "Instillation, bupivacaine and meloxicam, 1 mg/0.03 mg",
+      "services": 78800,
+      "payments": 43711.76,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "27570",
+      "description": "Manipulation of knee joint under anesthesia",
+      "services": 33,
+      "payments": 26420.57,
+      "avg_markup": 5.2
+    },
+    {
+      "code": "29881",
+      "description": "Removal of knee cartilage using an endoscope",
+      "services": 12,
+      "payments": 18420.36,
+      "avg_markup": 5.04
+    }
+  ]
+}

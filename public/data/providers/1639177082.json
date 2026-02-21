@@ -1,0 +1,239 @@
+{
+  "name": "David Snow",
+  "credentials": "M.D.",
+  "specialty": "Rheumatology",
+  "city": "Delco",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 447506.38,
+      "total_services": 12749,
+      "total_beneficiaries": 29,
+      "avg_submitted": 82.57,
+      "avg_paid": 35.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 486877.89,
+      "total_services": 13097,
+      "total_beneficiaries": 30,
+      "avg_submitted": 125.48,
+      "avg_paid": 37.17
+    },
+    {
+      "year": 2016,
+      "total_payments": 1059815.34,
+      "total_services": 37961,
+      "total_beneficiaries": 31,
+      "avg_submitted": 104.58,
+      "avg_paid": 27.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 1179367.73,
+      "total_services": 42659,
+      "total_beneficiaries": 36,
+      "avg_submitted": 99.66,
+      "avg_paid": 27.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 1673239.34,
+      "total_services": 57046,
+      "total_beneficiaries": 35,
+      "avg_submitted": 83.18,
+      "avg_paid": 29.33
+    },
+    {
+      "year": 2019,
+      "total_payments": 2720855.43,
+      "total_services": 209262,
+      "total_beneficiaries": 36,
+      "avg_submitted": 33.27,
+      "avg_paid": 13.0
+    },
+    {
+      "year": 2020,
+      "total_payments": 3470904.41,
+      "total_services": 307555,
+      "total_beneficiaries": 38,
+      "avg_submitted": 28.19,
+      "avg_paid": 11.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 3693415.6,
+      "total_services": 304637,
+      "total_beneficiaries": 39,
+      "avg_submitted": 31.41,
+      "avg_paid": 12.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 5283900.52,
+      "total_services": 314868,
+      "total_beneficiaries": 37,
+      "avg_submitted": 45.41,
+      "avg_paid": 16.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 3357620.17,
+      "total_services": 348354,
+      "total_beneficiaries": 28,
+      "avg_submitted": 28.47,
+      "avg_paid": 9.64
+    }
+  ],
+  "overall": {
+    "total_payments": 23373502.81,
+    "total_services": 1648188,
+    "total_beneficiaries": 339,
+    "avg_markup_ratio": 2.78,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0129",
+      "description": "Injection, abatacept, 10 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 147162,
+      "payments": 5604767.11,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "J1602",
+      "description": "Injection, golimumab, 1 mg, for intravenous use",
+      "services": 245681,
+      "payments": 3682423.24,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "J0717",
+      "description": "Injection, certolizumab pegol, 1 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 544201,
+      "payments": 3000293.83,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "J1745",
+      "description": "Injection, infliximab, excludes biosimilar, 10 mg",
+      "services": 51051,
+      "payments": 2391284.3,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "J2507",
+      "description": "Injection, pegloticase, 1 mg",
+      "services": 720,
+      "payments": 1713619.09,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "J3111",
+      "description": "Injection, romosozumab-aqqg, 1 mg",
+      "services": 206642,
+      "payments": 1552035.55,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "J3262",
+      "description": "Injection, tocilizumab, 1 mg",
+      "services": 314790,
+      "payments": 1392768.79,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 9960,
+      "payments": 780057.58,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 35370,
+      "payments": 592175.27,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 4700,
+      "payments": 484289.46,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "96401",
+      "description": "Administration of non-hormonal anti-neoplastic chemotherapy under skin or into muscle",
+      "services": 4202,
+      "payments": 243732.26,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "Q5104",
+      "description": "Injection, infliximab-abda, biosimilar, (renflexis), 10 mg",
+      "services": 6140,
+      "payments": 215559.95,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "76881",
+      "description": "Complete ultrasound scan of joint",
+      "services": 3575,
+      "payments": 205652.27,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1758,
+      "payments": 200345.47,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "86235",
+      "description": "Measurement of antibody for assessment of autoimmune disorder, any method",
+      "services": 7720,
+      "payments": 157959.61,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "97112",
+      "description": "Therapy procedure to re-educate brain-to-nerve-to-muscle function, each 15 minutes",
+      "services": 6349,
+      "payments": 133497.12,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 917,
+      "payments": 106091.76,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "97110",
+      "description": "Therapy procedure using exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 5011,
+      "payments": 90665.4,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of fluid from large joint",
+      "services": 1893,
+      "payments": 84374.65,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 1280,
+      "payments": 68445.66,
+      "avg_markup": 2.31
+    }
+  ]
+}

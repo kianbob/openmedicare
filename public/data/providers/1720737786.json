@@ -1,0 +1,56 @@
+{
+  "name": "Vcare Testing Centre Corp.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 42850452.97,
+      "total_services": 3643347,
+      "total_beneficiaries": 3,
+      "avg_submitted": 15.01,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 12849364.08,
+      "total_services": 1092633,
+      "total_beneficiaries": 1,
+      "avg_submitted": 15.04,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 55699817.05,
+    "total_services": 4735980,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 1.28,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 4735744,
+      "payments": 55692349.44,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 115,
+      "payments": 4677.92,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 121,
+      "payments": 2789.69,
+      "avg_markup": 4.34
+    }
+  ]
+}

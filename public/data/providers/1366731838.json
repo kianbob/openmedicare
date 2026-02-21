@@ -1,0 +1,223 @@
+{
+  "name": "Brandon Mancini",
+  "credentials": "M.D.",
+  "specialty": "Radiation Oncology",
+  "city": "Grand Rapids",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 18573.16,
+      "total_services": 381,
+      "total_beneficiaries": 6,
+      "avg_submitted": 115.16,
+      "avg_paid": 48.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 93881.66,
+      "total_services": 1738,
+      "total_beneficiaries": 14,
+      "avg_submitted": 126.72,
+      "avg_paid": 54.02
+    },
+    {
+      "year": 2018,
+      "total_payments": 38299.99,
+      "total_services": 796,
+      "total_beneficiaries": 11,
+      "avg_submitted": 116.28,
+      "avg_paid": 48.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 682967.81,
+      "total_services": 3962,
+      "total_beneficiaries": 22,
+      "avg_submitted": 2560.99,
+      "avg_paid": 172.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 754741.94,
+      "total_services": 4268,
+      "total_beneficiaries": 20,
+      "avg_submitted": 2564.79,
+      "avg_paid": 176.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 637451.85,
+      "total_services": 3687,
+      "total_beneficiaries": 19,
+      "avg_submitted": 2247.67,
+      "avg_paid": 172.89
+    },
+    {
+      "year": 2022,
+      "total_payments": 867273.69,
+      "total_services": 4658,
+      "total_beneficiaries": 11,
+      "avg_submitted": 836.22,
+      "avg_paid": 186.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 4584744.67,
+      "total_services": 23743,
+      "total_beneficiaries": 8,
+      "avg_submitted": 723.6,
+      "avg_paid": 193.1
+    }
+  ],
+  "overall": {
+    "total_payments": 7677934.77,
+    "total_services": 43233,
+    "total_beneficiaries": 111,
+    "avg_markup_ratio": 6.62,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "A9607",
+      "description": "Lutetium lu 177 vipivotide tetraxetan, therapeutic, 1 millicurie",
+      "services": 27138,
+      "payments": 5228817.81,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 2748,
+      "payments": 747150.79,
+      "avg_markup": 21.1
+    },
+    {
+      "code": "77014",
+      "description": "Ct guidance for insertion of radiation therapy fields",
+      "services": 3057,
+      "payments": 280894.69,
+      "avg_markup": 14.95
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatment sessions",
+      "services": 1210,
+      "payments": 178306.63,
+      "avg_markup": 6.24
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 141,
+      "payments": 176387.92,
+      "avg_markup": 6.69
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19 mev",
+      "services": 915,
+      "payments": 176336.61,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "77373",
+      "description": "Stereotactic body radiation therapy 1 or more lesions using imaging guidance",
+      "services": 124,
+      "payments": 114054.73,
+      "avg_markup": 16.11
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10 mev",
+      "services": 581,
+      "payments": 111802.69,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "78832",
+      "description": "Nuclear medicine study, spect imaging with concurrent ct scan, at least 2 areas or separate acquisitions, single day imaging, or single area or acquisition over multiple days",
+      "services": 139,
+      "payments": 86444.78,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "77334",
+      "description": "Design and construction of complex radiation treatment device",
+      "services": 1108,
+      "payments": 82456.38,
+      "avg_markup": 9.9
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 162,
+      "payments": 55736.67,
+      "avg_markup": 6.91
+    },
+    {
+      "code": "77336",
+      "description": "Continuing radiation therapy consultation per week",
+      "services": 842,
+      "payments": 50404.94,
+      "avg_markup": 11.77
+    },
+    {
+      "code": "77290",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 3 or more treatment areas or any number of treatment areas where special treatment is involved",
+      "services": 211,
+      "payments": 48981.44,
+      "avg_markup": 10.0
+    },
+    {
+      "code": "77295",
+      "description": "3d radiation therapy planning",
+      "services": 161,
+      "payments": 48898.8,
+      "avg_markup": 24.38
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 1149,
+      "payments": 48353.02,
+      "avg_markup": 9.14
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 253,
+      "payments": 38067.52,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "77280",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 1 treatment area",
+      "services": 263,
+      "payments": 37116.5,
+      "avg_markup": 9.35
+    },
+    {
+      "code": "77263",
+      "description": "Complex radiation therapy planning",
+      "services": 278,
+      "payments": 36038.83,
+      "avg_markup": 13.76
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 1236,
+      "payments": 24453.84,
+      "avg_markup": 9.05
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 192,
+      "payments": 22011.5,
+      "avg_markup": 2.89
+    }
+  ]
+}

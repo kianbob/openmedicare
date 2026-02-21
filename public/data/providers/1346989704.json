@@ -1,0 +1,91 @@
+{
+  "name": "Chrome Residential, Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Sherman Oaks",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 969804.82,
+      "total_services": 28347,
+      "total_beneficiaries": 7,
+      "avg_submitted": 150.14,
+      "avg_paid": 34.21
+    },
+    {
+      "year": 2023,
+      "total_payments": 4045545.8,
+      "total_services": 37909,
+      "total_beneficiaries": 8,
+      "avg_submitted": 297.1,
+      "avg_paid": 106.72
+    }
+  ],
+  "overall": {
+    "total_payments": 5015350.62,
+    "total_services": 66256,
+    "total_beneficiaries": 15,
+    "avg_markup_ratio": 3.09,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 21991,
+      "payments": 3073901.98,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "87502",
+      "description": "Detection test by nucleic acid for multiple types influenza virus",
+      "services": 14146,
+      "payments": 1328881.84,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "U0002",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc",
+      "services": 4493,
+      "payments": 226251.17,
+      "avg_markup": 5.23
+    },
+    {
+      "code": "87400",
+      "description": "Detection test by immunoassay technique for influenza virus",
+      "services": 14140,
+      "payments": 196068.18,
+      "avg_markup": 7.21
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 4531,
+      "payments": 104327.22,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "82784",
+      "description": "Gammaglobulin (immune system protein) measurement",
+      "services": 6615,
+      "payments": 60380.31,
+      "avg_markup": 6.57
+    },
+    {
+      "code": "86409",
+      "description": "Measurement of neutralizing antibody to severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 303,
+      "payments": 23679.56,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 37,
+      "payments": 1860.36,
+      "avg_markup": 5.17
+    }
+  ]
+}

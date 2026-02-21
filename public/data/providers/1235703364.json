@@ -1,0 +1,69 @@
+{
+  "name": "Coleen Yahl",
+  "credentials": "FNP-C, WCC",
+  "specialty": "Nurse Practitioner",
+  "city": "Peoria",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 4014291.83,
+      "total_services": 4311,
+      "total_beneficiaries": 5,
+      "avg_submitted": 1272.39,
+      "avg_paid": 931.17
+    }
+  ],
+  "overall": {
+    "total_payments": 4014291.83,
+    "total_services": 4311,
+    "total_beneficiaries": 5,
+    "avg_markup_ratio": 1.37,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4236",
+      "description": "Carepatch, per square centimeter",
+      "services": 2971,
+      "payments": 2891875.94,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "Q4205",
+      "description": "Membrane graft or membrane wrap, per square centimeter",
+      "services": 938,
+      "payments": 1091321.67,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 203,
+      "payments": 20452.25,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 98,
+      "payments": 7939.79,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "15272",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, each additional 25.0 sq cm of wound 100.0 sq cm or less",
+      "services": 88,
+      "payments": 1393.7,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 13,
+      "payments": 1308.48,
+      "avg_markup": 3.78
+    }
+  ]
+}

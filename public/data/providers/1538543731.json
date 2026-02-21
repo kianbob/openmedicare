@@ -1,0 +1,88 @@
+{
+  "name": "Exosome Diagnostics, Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Waltham",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 29792.0,
+      "total_services": 40,
+      "total_beneficiaries": 1,
+      "avg_submitted": 795.0,
+      "avg_paid": 744.8
+    },
+    {
+      "year": 2019,
+      "total_payments": 402192.0,
+      "total_services": 540,
+      "total_beneficiaries": 1,
+      "avg_submitted": 795.0,
+      "avg_paid": 744.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 3752204.78,
+      "total_services": 5171,
+      "total_beneficiaries": 2,
+      "avg_submitted": 766.19,
+      "avg_paid": 725.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 4336224.64,
+      "total_services": 6126,
+      "total_beneficiaries": 3,
+      "avg_submitted": 743.17,
+      "avg_paid": 707.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 6349203.44,
+      "total_services": 8474,
+      "total_beneficiaries": 1,
+      "avg_submitted": 893.37,
+      "avg_paid": 749.26
+    },
+    {
+      "year": 2023,
+      "total_payments": 8937346.61,
+      "total_services": 12006,
+      "total_beneficiaries": 1,
+      "avg_submitted": 995.0,
+      "avg_paid": 744.41
+    }
+  ],
+  "overall": {
+    "total_payments": 23806963.47,
+    "total_services": 32357,
+    "total_beneficiaries": 9,
+    "avg_markup_ratio": 1.2,
+    "years_active": 6
+  },
+  "top_procedures": [
+    {
+      "code": "0005U",
+      "description": "Test for detecting genes associated with prostate cancer in urine",
+      "services": 31678,
+      "payments": 23760888.47,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 466,
+      "payments": 40750.0,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 213,
+      "payments": 5325.0,
+      "avg_markup": 1.0
+    }
+  ]
+}

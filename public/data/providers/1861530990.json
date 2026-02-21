@@ -1,0 +1,127 @@
+{
+  "name": "City Of Dallas",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Dallas",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 5365379.07,
+      "total_services": 83394,
+      "total_beneficiaries": 4,
+      "avg_submitted": 165.33,
+      "avg_paid": 64.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 5172555.3,
+      "total_services": 75892,
+      "total_beneficiaries": 4,
+      "avg_submitted": 206.9,
+      "avg_paid": 68.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 5553567.78,
+      "total_services": 82439,
+      "total_beneficiaries": 4,
+      "avg_submitted": 307.37,
+      "avg_paid": 67.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 5971502.86,
+      "total_services": 88952,
+      "total_beneficiaries": 4,
+      "avg_submitted": 314.28,
+      "avg_paid": 67.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 5850036.97,
+      "total_services": 85335,
+      "total_beneficiaries": 4,
+      "avg_submitted": 325.69,
+      "avg_paid": 68.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 5903115.29,
+      "total_services": 84345,
+      "total_beneficiaries": 4,
+      "avg_submitted": 341.55,
+      "avg_paid": 69.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 5074323.56,
+      "total_services": 72591,
+      "total_beneficiaries": 4,
+      "avg_submitted": 378.85,
+      "avg_paid": 69.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 5267329.62,
+      "total_services": 73984,
+      "total_beneficiaries": 4,
+      "avg_submitted": 377.99,
+      "avg_paid": 71.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 5246825.76,
+      "total_services": 70612,
+      "total_beneficiaries": 4,
+      "avg_submitted": 379.62,
+      "avg_paid": 74.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 5316724.36,
+      "total_services": 66175,
+      "total_beneficiaries": 4,
+      "avg_submitted": 380.08,
+      "avg_paid": 80.34
+    }
+  ],
+  "overall": {
+    "total_payments": 54721360.57,
+    "total_services": 783719,
+    "total_beneficiaries": 40,
+    "avg_markup_ratio": 4.51,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 86971,
+      "payments": 30495862.9,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 65575,
+      "payments": 19370234.33,
+      "avg_markup": 5.24
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 628940,
+      "payments": 3738826.72,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 2233,
+      "payments": 1116436.61,
+      "avg_markup": 2.94
+    }
+  ]
+}

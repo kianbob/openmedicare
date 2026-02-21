@@ -1,0 +1,231 @@
+{
+  "name": "Andrew Mcclellan",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Dallas",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 2491.64,
+      "total_services": 86,
+      "total_beneficiaries": 2,
+      "avg_submitted": 147.79,
+      "avg_paid": 28.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 7191.4,
+      "total_services": 236,
+      "total_beneficiaries": 6,
+      "avg_submitted": 155.51,
+      "avg_paid": 30.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 402936.52,
+      "total_services": 1983,
+      "total_beneficiaries": 15,
+      "avg_submitted": 666.66,
+      "avg_paid": 203.2
+    },
+    {
+      "year": 2018,
+      "total_payments": 2573412.16,
+      "total_services": 14121,
+      "total_beneficiaries": 18,
+      "avg_submitted": 605.28,
+      "avg_paid": 182.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 2832462.97,
+      "total_services": 15318,
+      "total_beneficiaries": 21,
+      "avg_submitted": 632.5,
+      "avg_paid": 184.91
+    },
+    {
+      "year": 2020,
+      "total_payments": 3059482.97,
+      "total_services": 14932,
+      "total_beneficiaries": 18,
+      "avg_submitted": 697.4,
+      "avg_paid": 204.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 3310882.33,
+      "total_services": 14828,
+      "total_beneficiaries": 20,
+      "avg_submitted": 766.98,
+      "avg_paid": 223.29
+    },
+    {
+      "year": 2022,
+      "total_payments": 3646098.62,
+      "total_services": 22177,
+      "total_beneficiaries": 21,
+      "avg_submitted": 581.86,
+      "avg_paid": 164.41
+    },
+    {
+      "year": 2023,
+      "total_payments": 4494043.87,
+      "total_services": 58987,
+      "total_beneficiaries": 25,
+      "avg_submitted": 267.63,
+      "avg_paid": 76.19
+    }
+  ],
+  "overall": {
+    "total_payments": 20329002.48,
+    "total_services": 142668,
+    "total_beneficiaries": 146,
+    "avg_markup_ratio": 3.45,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 17237,
+      "payments": 12570215.92,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 53826,
+      "payments": 1566264.9,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 4960,
+      "payments": 1308750.53,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 11354,
+      "payments": 1021603.89,
+      "avg_markup": 12.46
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 19771,
+      "payments": 614938.76,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "J0179",
+      "description": "Injection, brolucizumab-dbll, 1 mg",
+      "services": 2052,
+      "payments": 510634.43,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 4224,
+      "payments": 381451.51,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 176,
+      "payments": 351526.62,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 6429,
+      "payments": 346084.14,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 1820,
+      "payments": 280281.89,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 4282,
+      "payments": 273954.79,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 155,
+      "payments": 138788.49,
+      "avg_markup": 6.37
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 1205,
+      "payments": 132407.83,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2160,
+      "payments": 128262.1,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 69,
+      "payments": 116662.8,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "J2781",
+      "description": "Injection, pegcetacoplan, intravitreal, 1 mg",
+      "services": 902,
+      "payments": 108324.48,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1086,
+      "payments": 93661.84,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 608,
+      "payments": 72323.63,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "67113",
+      "description": "Complex repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 61,
+      "payments": 59279.06,
+      "avg_markup": 6.69
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina, with removal of vitreous fluid",
+      "services": 51,
+      "payments": 47293.72,
+      "avg_markup": 6.47
+    }
+  ]
+}

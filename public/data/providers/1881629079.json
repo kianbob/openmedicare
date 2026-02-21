@@ -1,0 +1,55 @@
+{
+  "name": "Thomas Denmark",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Tulsa",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 5335617.32,
+      "total_services": 4849,
+      "total_beneficiaries": 3,
+      "avg_submitted": 1409.11,
+      "avg_paid": 1100.35
+    }
+  ],
+  "overall": {
+    "total_payments": 5335617.32,
+    "total_services": 4849,
+    "total_beneficiaries": 3,
+    "avg_markup_ratio": 1.28,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4276",
+      "description": "Orion, per square centimeter",
+      "services": 3276,
+      "payments": 3835881.48,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 1455,
+      "payments": 1487969.16,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 92,
+      "payments": 10276.36,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 26,
+      "payments": 1490.32,
+      "avg_markup": 2.11
+    }
+  ]
+}

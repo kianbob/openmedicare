@@ -1,0 +1,239 @@
+{
+  "name": "Daniel Becker",
+  "credentials": "MD",
+  "specialty": "Neurology",
+  "city": "Baltimore",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 42457.89,
+      "total_services": 736,
+      "total_beneficiaries": 12,
+      "avg_submitted": 334.42,
+      "avg_paid": 57.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 52475.29,
+      "total_services": 579,
+      "total_beneficiaries": 10,
+      "avg_submitted": 495.65,
+      "avg_paid": 90.63
+    },
+    {
+      "year": 2016,
+      "total_payments": 59737.33,
+      "total_services": 713,
+      "total_beneficiaries": 10,
+      "avg_submitted": 494.17,
+      "avg_paid": 83.78
+    },
+    {
+      "year": 2017,
+      "total_payments": 1488674.89,
+      "total_services": 3107,
+      "total_beneficiaries": 17,
+      "avg_submitted": 1239.1,
+      "avg_paid": 479.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 1747150.82,
+      "total_services": 26233,
+      "total_beneficiaries": 17,
+      "avg_submitted": 184.57,
+      "avg_paid": 66.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 1717146.82,
+      "total_services": 38939,
+      "total_beneficiaries": 20,
+      "avg_submitted": 123.04,
+      "avg_paid": 44.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 2197941.19,
+      "total_services": 49232,
+      "total_beneficiaries": 15,
+      "avg_submitted": 126.86,
+      "avg_paid": 44.64
+    },
+    {
+      "year": 2021,
+      "total_payments": 2780300.89,
+      "total_services": 60247,
+      "total_beneficiaries": 19,
+      "avg_submitted": 125.99,
+      "avg_paid": 46.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 3629564.27,
+      "total_services": 77696,
+      "total_beneficiaries": 22,
+      "avg_submitted": 124.71,
+      "avg_paid": 46.71
+    },
+    {
+      "year": 2023,
+      "total_payments": 3891503.0,
+      "total_services": 87150,
+      "total_beneficiaries": 23,
+      "avg_submitted": 124.12,
+      "avg_paid": 44.65
+    }
+  ],
+  "overall": {
+    "total_payments": 17606952.39,
+    "total_services": 344632,
+    "total_beneficiaries": 165,
+    "avg_markup_ratio": 2.77,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J2350",
+      "description": "Injection, ocrelizumab, 1 mg",
+      "services": 324000,
+      "payments": 14479487.11,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "J0202",
+      "description": "Injection, alemtuzumab, 1 mg",
+      "services": 1392,
+      "payments": 1601449.29,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 3663,
+      "payments": 430141.53,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 31,
+      "payments": 418636.4,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 1311,
+      "payments": 150945.39,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 405,
+      "payments": 63801.32,
+      "avg_markup": 5.29
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 628,
+      "payments": 48806.35,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "96132",
+      "description": "Evaluation of neuropsychological test, first hour",
+      "services": 446,
+      "payments": 46935.08,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "96415",
+      "description": "Administration of chemotherapy into vein, each additional hour",
+      "services": 1918,
+      "payments": 45882.51,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "95937",
+      "description": "Testing of nerve-muscle junction",
+      "services": 1211,
+      "payments": 35426.35,
+      "avg_markup": 9.64
+    },
+    {
+      "code": "95913",
+      "description": "Nerve conduction, 13 or more studies",
+      "services": 121,
+      "payments": 30494.63,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "G0453",
+      "description": "Continuous intraoperative neurophysiology monitoring, from outside the operating room (remote or nearby), per patient, (attention directed exclusively to one patient) each 15 minutes (list in addition to primary procedure)",
+      "services": 1066,
+      "payments": 29288.27,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "96139",
+      "description": "Administration of psychological or neuropsychological test by technician, each additional 30 minutes",
+      "services": 899,
+      "payments": 26784.23,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "92133",
+      "description": "Imaging of optic nerve",
+      "services": 760,
+      "payments": 22656.41,
+      "avg_markup": 11.74
+    },
+    {
+      "code": "95886",
+      "description": "Needle measurement of electrical activity in arm or leg muscles, complete study",
+      "services": 239,
+      "payments": 19919.56,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 381,
+      "payments": 19582.66,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "95816",
+      "description": "Measurement of brain wave activity (eeg), awake and drowsy",
+      "services": 64,
+      "payments": 17421.36,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "64642",
+      "description": "Injection of chemical for destruction of nerve muscles on arm or leg, 1-4 muscles",
+      "services": 139,
+      "payments": 13933.05,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "95939",
+      "description": "Placement of skin electrodes and measurement of central motor stimulation in arms and legs",
+      "services": 138,
+      "payments": 13855.41,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "96138",
+      "description": "Administration of psychological or neuropsychological test by technician, first 30 minutes",
+      "services": 449,
+      "payments": 13471.67,
+      "avg_markup": 2.67
+    }
+  ]
+}

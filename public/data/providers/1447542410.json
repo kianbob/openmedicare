@@ -1,0 +1,223 @@
+{
+  "name": "Tanuj Banker",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Sarasota",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 3127.3,
+      "total_services": 117,
+      "total_beneficiaries": 3,
+      "avg_submitted": 132.34,
+      "avg_paid": 26.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 1660595.82,
+      "total_services": 8398,
+      "total_beneficiaries": 19,
+      "avg_submitted": 519.26,
+      "avg_paid": 197.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 4902521.9,
+      "total_services": 23585,
+      "total_beneficiaries": 26,
+      "avg_submitted": 541.96,
+      "avg_paid": 207.87
+    },
+    {
+      "year": 2019,
+      "total_payments": 5224064.41,
+      "total_services": 26071,
+      "total_beneficiaries": 25,
+      "avg_submitted": 522.99,
+      "avg_paid": 200.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 6238911.51,
+      "total_services": 30956,
+      "total_beneficiaries": 25,
+      "avg_submitted": 526.89,
+      "avg_paid": 201.54
+    },
+    {
+      "year": 2021,
+      "total_payments": 6372888.87,
+      "total_services": 30931,
+      "total_beneficiaries": 24,
+      "avg_submitted": 542.43,
+      "avg_paid": 206.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 6243766.44,
+      "total_services": 29875,
+      "total_beneficiaries": 24,
+      "avg_submitted": 586.1,
+      "avg_paid": 209.0
+    },
+    {
+      "year": 2023,
+      "total_payments": 7720453.66,
+      "total_services": 62015,
+      "total_beneficiaries": 26,
+      "avg_submitted": 376.87,
+      "avg_paid": 124.49
+    }
+  ],
+  "overall": {
+    "total_payments": 38366329.91,
+    "total_services": 211948,
+    "total_beneficiaries": 172,
+    "avg_markup_ratio": 2.73,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 26692,
+      "payments": 19593350.53,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 37696,
+      "payments": 9129489.88,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 19464,
+      "payments": 1822540.84,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 32100,
+      "payments": 932861.89,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "92242",
+      "description": "Exam of retinal blood vessels and blood vessels between the white part of eye and retina using a special camera after injection of a dye",
+      "services": 4792,
+      "payments": 896465.6,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 7440,
+      "payments": 689218.2,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 7499,
+      "payments": 686349.72,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 8020,
+      "payments": 632523.97,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 17362,
+      "payments": 530516.51,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 7477,
+      "payments": 471105.22,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 1190,
+      "payments": 468402.57,
+      "avg_markup": 5.68
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 14384,
+      "payments": 416600.33,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 5572,
+      "payments": 371160.1,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "Q5128",
+      "description": "Injection, ranibizumab-eqrn (cimerli), biosimilar, 0.1 mg",
+      "services": 1688,
+      "payments": 361575.81,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "92273",
+      "description": "Measurement of retinal and optic nerve function",
+      "services": 2396,
+      "payments": 229939.33,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 5442,
+      "payments": 207004.15,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "92287",
+      "description": "Imaging of front third of eye using a special camera after injection of a dye",
+      "services": 1418,
+      "payments": 162468.78,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "67210",
+      "description": "Destruction of growth of retina using a laser",
+      "services": 313,
+      "payments": 127990.95,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 355,
+      "payments": 123231.66,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 756,
+      "payments": 119523.2,
+      "avg_markup": 2.53
+    }
+  ]
+}

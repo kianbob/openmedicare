@@ -1,0 +1,239 @@
+{
+  "name": "Frederick Min",
+  "credentials": "MD",
+  "specialty": "Hematology",
+  "city": "Silver Spring",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1187694.81,
+      "total_services": 136298,
+      "total_beneficiaries": 30,
+      "avg_submitted": 38.27,
+      "avg_paid": 8.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 793137.16,
+      "total_services": 184002,
+      "total_beneficiaries": 32,
+      "avg_submitted": 21.25,
+      "avg_paid": 4.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 1557421.42,
+      "total_services": 196051,
+      "total_beneficiaries": 34,
+      "avg_submitted": 34.62,
+      "avg_paid": 7.94
+    },
+    {
+      "year": 2017,
+      "total_payments": 1991732.89,
+      "total_services": 211024,
+      "total_beneficiaries": 36,
+      "avg_submitted": 44.42,
+      "avg_paid": 9.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 2177614.38,
+      "total_services": 211209,
+      "total_beneficiaries": 38,
+      "avg_submitted": 46.51,
+      "avg_paid": 10.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 3601987.37,
+      "total_services": 312242,
+      "total_beneficiaries": 53,
+      "avg_submitted": 49.86,
+      "avg_paid": 11.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 2337994.95,
+      "total_services": 290562,
+      "total_beneficiaries": 48,
+      "avg_submitted": 37.9,
+      "avg_paid": 8.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 2851047.25,
+      "total_services": 326025,
+      "total_beneficiaries": 51,
+      "avg_submitted": 39.04,
+      "avg_paid": 8.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 4202656.82,
+      "total_services": 364236,
+      "total_beneficiaries": 52,
+      "avg_submitted": 52.76,
+      "avg_paid": 11.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 3176289.2,
+      "total_services": 286395,
+      "total_beneficiaries": 52,
+      "avg_submitted": 53.23,
+      "avg_paid": 11.09
+    }
+  ],
+  "overall": {
+    "total_payments": 23877576.25,
+    "total_services": 2518044,
+    "total_beneficiaries": 426,
+    "avg_markup_ratio": 4.56,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 67112,
+      "payments": 3982727.24,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "J9271",
+      "description": "Injection, pembrolizumab, 1 mg",
+      "services": 84400,
+      "payments": 3490766.61,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 758,
+      "payments": 2418289.42,
+      "avg_markup": 4.88
+    },
+    {
+      "code": "J0881",
+      "description": "Injection, darbepoetin alfa, 1 microgram (non-esrd use)",
+      "services": 691350,
+      "payments": 1979605.88,
+      "avg_markup": 7.07
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 97560,
+      "payments": 1566455.97,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 15187,
+      "payments": 1469308.41,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "J9299",
+      "description": "Injection, nivolumab, 1 mg",
+      "services": 45800,
+      "payments": 1061391.23,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "J9144",
+      "description": "Injection, daratumumab, 10 mg and hyaluronidase-fihj",
+      "services": 24669,
+      "payments": 906517.96,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 6637,
+      "payments": 866156.22,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "J1568",
+      "description": "Injection, immune globulin, (octagam), intravenous, non-lyophilized (e.g., liquid), 500 mg",
+      "services": 21460,
+      "payments": 669313.8,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "Q5107",
+      "description": "Injection, bevacizumab-awwb, biosimilar, (mvasi), 10 mg",
+      "services": 17878,
+      "payments": 623568.35,
+      "avg_markup": 5.33
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 6332,
+      "payments": 440161.61,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "Q5118",
+      "description": "Injection, bevacizumab-bvzr, biosimilar, (zirabev), 10 mg",
+      "services": 12745,
+      "payments": 331751.4,
+      "avg_markup": 6.38
+    },
+    {
+      "code": "J2469",
+      "description": "Injection, palonosetron hcl, 25 mcg",
+      "services": 25801,
+      "payments": 269640.87,
+      "avg_markup": 11.47
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 3707,
+      "payments": 240430.99,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 372,
+      "payments": 204891.59,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 23047,
+      "payments": 204321.71,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "J1453",
+      "description": "Injection, fosaprepitant, 1 mg",
+      "services": 148650,
+      "payments": 190601.9,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "96367",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, additional sequential infusion, 1 hour or less",
+      "services": 6082,
+      "payments": 173784.7,
+      "avg_markup": 5.32
+    },
+    {
+      "code": "J9041",
+      "description": "Injection, bortezomib, 0.1 mg",
+      "services": 7162,
+      "payments": 165865.49,
+      "avg_markup": 5.35
+    }
+  ]
+}

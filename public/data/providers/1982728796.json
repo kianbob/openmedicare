@@ -1,0 +1,239 @@
+{
+  "name": "Brian Dicarlo",
+  "credentials": "MD",
+  "specialty": "Medical Oncology",
+  "city": "San Luis Obispo",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 132837.24,
+      "total_services": 1454,
+      "total_beneficiaries": 6,
+      "avg_submitted": 171.37,
+      "avg_paid": 91.36
+    },
+    {
+      "year": 2015,
+      "total_payments": 155607.46,
+      "total_services": 1742,
+      "total_beneficiaries": 6,
+      "avg_submitted": 164.68,
+      "avg_paid": 89.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 162317.04,
+      "total_services": 1820,
+      "total_beneficiaries": 5,
+      "avg_submitted": 162.43,
+      "avg_paid": 89.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 174271.17,
+      "total_services": 1974,
+      "total_beneficiaries": 7,
+      "avg_submitted": 225.26,
+      "avg_paid": 88.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 166960.89,
+      "total_services": 2007,
+      "total_beneficiaries": 5,
+      "avg_submitted": 239.58,
+      "avg_paid": 83.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 2227288.09,
+      "total_services": 75225,
+      "total_beneficiaries": 28,
+      "avg_submitted": 155.35,
+      "avg_paid": 29.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 2411558.08,
+      "total_services": 227163,
+      "total_beneficiaries": 37,
+      "avg_submitted": 72.48,
+      "avg_paid": 10.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 2987415.68,
+      "total_services": 179752,
+      "total_beneficiaries": 36,
+      "avg_submitted": 108.82,
+      "avg_paid": 16.62
+    },
+    {
+      "year": 2022,
+      "total_payments": 3133383.1,
+      "total_services": 164311,
+      "total_beneficiaries": 36,
+      "avg_submitted": 121.1,
+      "avg_paid": 19.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 4739688.09,
+      "total_services": 250151,
+      "total_beneficiaries": 41,
+      "avg_submitted": 126.11,
+      "avg_paid": 18.95
+    }
+  ],
+  "overall": {
+    "total_payments": 16291326.84,
+    "total_services": 905599,
+    "total_beneficiaries": 207,
+    "avg_markup_ratio": 6.19,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J9271",
+      "description": "Injection, pembrolizumab, 1 mg",
+      "services": 133012,
+      "payments": 5551012.27,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "J9299",
+      "description": "Injection, nivolumab, 1 mg",
+      "services": 125350,
+      "payments": 2865854.78,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "J9144",
+      "description": "Injection, daratumumab, 10 mg and hyaluronidase-fihj",
+      "services": 30240,
+      "payments": 1146273.01,
+      "avg_markup": 5.21
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 60244,
+      "payments": 1024600.21,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 11227,
+      "payments": 997078.44,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 3902,
+      "payments": 523907.3,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 4275,
+      "payments": 500138.31,
+      "avg_markup": 8.59
+    },
+    {
+      "code": "Q5118",
+      "description": "Injection, bevacizumab-bvzr, biosimilar, (zirabev), 10 mg",
+      "services": 15235,
+      "payments": 493375.28,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "Q5108",
+      "description": "Injection, pegfilgrastim-jmdb, biosimilar, (fulphila), 0.5 mg",
+      "services": 1980,
+      "payments": 445162.65,
+      "avg_markup": 6.09
+    },
+    {
+      "code": "J9355",
+      "description": "Injection, trastuzumab, 10 mg",
+      "services": 3890,
+      "payments": 325920.91,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 4936,
+      "payments": 314346.13,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 78,
+      "payments": 253506.22,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 1098,
+      "payments": 183908.39,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "J0881",
+      "description": "Injection, darbepoetin alfa, 1 microgram (non-esrd use)",
+      "services": 68020,
+      "payments": 177504.25,
+      "avg_markup": 7.66
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 2142,
+      "payments": 159241.1,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 2454,
+      "payments": 142795.21,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "J2506",
+      "description": "Injection, pegfilgrastim, excludes biosimilar, 0.5 mg",
+      "services": 1586,
+      "payments": 137418.02,
+      "avg_markup": 18.32
+    },
+    {
+      "code": "Q5119",
+      "description": "Injection, rituximab-pvvr, biosimilar, (ruxience), 10 mg",
+      "services": 4990,
+      "payments": 132920.07,
+      "avg_markup": 8.33
+    },
+    {
+      "code": "J9217",
+      "description": "Leuprolide acetate (for depot suspension), 7.5 mg",
+      "services": 766,
+      "payments": 109191.86,
+      "avg_markup": 27.43
+    },
+    {
+      "code": "96417",
+      "description": "Administration of additional new drug or substance into vein, 1 hour or less",
+      "services": 1553,
+      "payments": 91300.0,
+      "avg_markup": 10.55
+    }
+  ]
+}

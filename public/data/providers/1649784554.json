@@ -1,0 +1,69 @@
+{
+  "name": "Ngozi Ladokun",
+  "credentials": "FNP-C",
+  "specialty": "Nurse Practitioner",
+  "city": "Porter",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 2941675.4,
+      "total_services": 3659,
+      "total_beneficiaries": 6,
+      "avg_submitted": 1051.45,
+      "avg_paid": 803.96
+    }
+  ],
+  "overall": {
+    "total_payments": 2941675.4,
+    "total_services": 3659,
+    "total_beneficiaries": 6,
+    "avg_markup_ratio": 1.31,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 2966,
+      "payments": 2888310.34,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 240,
+      "payments": 20045.67,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 135,
+      "payments": 13626.72,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 237,
+      "payments": 11810.41,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 51,
+      "payments": 6327.42,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99342",
+      "description": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 30,
+      "payments": 1554.84,
+      "avg_markup": 2.7
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Elizabeth Fleming",
+  "credentials": "NP",
+  "specialty": "Nurse Practitioner",
+  "city": "Florham Park",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 27044.95,
+      "total_services": 615,
+      "total_beneficiaries": 7,
+      "avg_submitted": 95.55,
+      "avg_paid": 43.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 24055.23,
+      "total_services": 503,
+      "total_beneficiaries": 6,
+      "avg_submitted": 101.34,
+      "avg_paid": 47.82
+    },
+    {
+      "year": 2016,
+      "total_payments": 29829.94,
+      "total_services": 752,
+      "total_beneficiaries": 7,
+      "avg_submitted": 109.1,
+      "avg_paid": 39.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 28225.01,
+      "total_services": 536,
+      "total_beneficiaries": 6,
+      "avg_submitted": 149.27,
+      "avg_paid": 52.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 30102.66,
+      "total_services": 614,
+      "total_beneficiaries": 7,
+      "avg_submitted": 139.5,
+      "avg_paid": 49.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 32852.85,
+      "total_services": 619,
+      "total_beneficiaries": 7,
+      "avg_submitted": 168.21,
+      "avg_paid": 53.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 21761.8,
+      "total_services": 469,
+      "total_beneficiaries": 9,
+      "avg_submitted": 164.22,
+      "avg_paid": 46.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 145430.23,
+      "total_services": 29832,
+      "total_beneficiaries": 18,
+      "avg_submitted": 14.13,
+      "avg_paid": 4.87
+    },
+    {
+      "year": 2022,
+      "total_payments": 3234633.43,
+      "total_services": 282925,
+      "total_beneficiaries": 34,
+      "avg_submitted": 27.76,
+      "avg_paid": 11.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 2923369.94,
+      "total_services": 312566,
+      "total_beneficiaries": 35,
+      "avg_submitted": 23.57,
+      "avg_paid": 9.35
+    }
+  ],
+  "overall": {
+    "total_payments": 6497306.04,
+    "total_services": 629431,
+    "total_beneficiaries": 136,
+    "avg_markup_ratio": 2.49,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J9271",
+      "description": "Injection, pembrolizumab, 1 mg",
+      "services": 47600,
+      "payments": 2027506.94,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "J9144",
+      "description": "Injection, daratumumab, 10 mg and hyaluronidase-fihj",
+      "services": 43560,
+      "payments": 1620050.37,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 34560,
+      "payments": 586801.57,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "J1561",
+      "description": "Injection, immune globulin, (gamunex-c/gammaked), non-lyophilized (e.g., liquid), 500 mg",
+      "services": 8280,
+      "payments": 302185.86,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "Q5115",
+      "description": "Injection, rituximab-abbs, biosimilar, (truxima), 10 mg",
+      "services": 7420,
+      "payments": 291157.59,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "J0881",
+      "description": "Injection, darbepoetin alfa, 1 microgram (non-esrd use)",
+      "services": 109475,
+      "payments": 268107.15,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "J2506",
+      "description": "Injection, pegfilgrastim, excludes biosimilar, 0.5 mg",
+      "services": 2413,
+      "payments": 250732.59,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 1870,
+      "payments": 197582.76,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "J1439",
+      "description": "Injection, ferric carboxymaltose, 1 mg",
+      "services": 204752,
+      "payments": 179443.14,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 2129,
+      "payments": 177004.0,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "Q5111",
+      "description": "Injection, pegfilgrastim-cbqv (udenyca), biosimilar, 0.5 mg",
+      "services": 1104,
+      "payments": 132690.53,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 445,
+      "payments": 51171.87,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 786,
+      "payments": 44187.19,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 779,
+      "payments": 40190.42,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "J0185",
+      "description": "Injection, aprepitant, 1 mg",
+      "services": 28210,
+      "payments": 37525.32,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "96375",
+      "description": "Injection of additional new drug or substance into vein",
+      "services": 2578,
+      "payments": 31450.82,
+      "avg_markup": 8.44
+    },
+    {
+      "code": "G0498",
+      "description": "Chemotherapy administration, intravenous infusion technique; initiation of infusion in the office/clinic setting using office/clinic pump/supplies, with continuation of the infusion in the community setting (e.g., home, domiciliary, rest home or assisted l",
+      "services": 221,
+      "payments": 29006.26,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "96417",
+      "description": "Administration of additional new drug or substance into vein, 1 hour or less",
+      "services": 520,
+      "payments": 26708.38,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "96401",
+      "description": "Administration of non-hormonal anti-neoplastic chemotherapy under skin or into muscle",
+      "services": 418,
+      "payments": 25007.16,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "96372",
+      "description": "Injection of drug or substance under skin or into muscle",
+      "services": 1931,
+      "payments": 20387.27,
+      "avg_markup": 6.82
+    }
+  ]
+}

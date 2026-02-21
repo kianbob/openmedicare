@@ -1,0 +1,191 @@
+{
+  "name": "Owen Ellington",
+  "credentials": "M.D, J.D.",
+  "specialty": "Internal Medicine",
+  "city": "Humble",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 33833.43,
+      "total_services": 401,
+      "total_beneficiaries": 3,
+      "avg_submitted": 180.37,
+      "avg_paid": 84.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 4978534.65,
+      "total_services": 13204,
+      "total_beneficiaries": 11,
+      "avg_submitted": 544.89,
+      "avg_paid": 377.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 17823168.59,
+      "total_services": 37374,
+      "total_beneficiaries": 15,
+      "avg_submitted": 650.85,
+      "avg_paid": 476.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 11515083.54,
+      "total_services": 18235,
+      "total_beneficiaries": 14,
+      "avg_submitted": 841.38,
+      "avg_paid": 631.48
+    }
+  ],
+  "overall": {
+    "total_payments": 34350620.21,
+    "total_services": 69214,
+    "total_beneficiaries": 43,
+    "avg_markup_ratio": 1.37,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "Q4253",
+      "description": "Zenith amniotic membrane, per square centimeter",
+      "services": 24203,
+      "payments": 17034638.72,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 7526,
+      "payments": 7735070.02,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4247",
+      "description": "Amniotext patch, per square centimeter",
+      "services": 4590,
+      "payments": 2466488.75,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "Q4252",
+      "description": "Vendaje, per square centimeter",
+      "services": 1217,
+      "payments": 1989919.5,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "Q4162",
+      "description": "Woundex flow, bioskin flow, 0.5 cc",
+      "services": 898,
+      "payments": 1521104.24,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 8528,
+      "payments": 892732.07,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "Q4205",
+      "description": "Membrane graft or membrane wrap, per square centimeter",
+      "services": 3232,
+      "payments": 878845.44,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 8871,
+      "payments": 568372.1,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "Q4217",
+      "description": "Woundfix, biowound, woundfix plus, biowound plus, woundfix xplus or biowound xplus, per square centimeter",
+      "services": 1148,
+      "payments": 550178.2,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 1666,
+      "payments": 204271.12,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "Q4188",
+      "description": "Amnioarmor, per square centimeter",
+      "services": 270,
+      "payments": 201096.0,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99342",
+      "description": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 1636,
+      "payments": 94917.18,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "11000",
+      "description": "Removal of inflamed or infected skin, up to 10% of body surface",
+      "services": 1725,
+      "payments": 65918.99,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 1678,
+      "payments": 58228.24,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "15275",
+      "description": "Application of skin substitute graft to wound of face, scalp, eyelids, mouth, neck, ears, around eyes, genitals, hands, feet, fingers, or toes, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 278,
+      "payments": 35370.58,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "11721",
+      "description": "Removal of fingernails or toenails, 6 or more nails",
+      "services": 648,
+      "payments": 21068.24,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "15272",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, each additional 25.0 sq cm of wound 100.0 sq cm or less",
+      "services": 504,
+      "payments": 9842.27,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "87641",
+      "description": "Detection test by nucleic acid for staphylococcus aureus, methicillin resistant (mrsa bacteria), amplified probe technique",
+      "services": 128,
+      "payments": 4441.82,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "87500",
+      "description": "Detection test by nucleic acid for vancomycin resistance strep (vre), amplified probe technique",
+      "services": 125,
+      "payments": 4338.65,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "87640",
+      "description": "Detection test by nucleic acid for staphylococcus aureus (bacteria), amplified probe technique",
+      "services": 124,
+      "payments": 4303.91,
+      "avg_markup": 1.73
+    }
+  ]
+}

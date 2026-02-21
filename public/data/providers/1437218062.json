@@ -1,0 +1,148 @@
+{
+  "name": "Montgomery County Hospital District",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Conroe",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2800697.41,
+      "total_services": 79817,
+      "total_beneficiaries": 4,
+      "avg_submitted": 122.5,
+      "avg_paid": 35.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 3026389.09,
+      "total_services": 88580,
+      "total_beneficiaries": 4,
+      "avg_submitted": 127.4,
+      "avg_paid": 34.17
+    },
+    {
+      "year": 2016,
+      "total_payments": 3082467.43,
+      "total_services": 88843,
+      "total_beneficiaries": 5,
+      "avg_submitted": 113.02,
+      "avg_paid": 34.7
+    },
+    {
+      "year": 2017,
+      "total_payments": 3561149.7,
+      "total_services": 106356,
+      "total_beneficiaries": 7,
+      "avg_submitted": 66.64,
+      "avg_paid": 33.48
+    },
+    {
+      "year": 2018,
+      "total_payments": 3761058.71,
+      "total_services": 116442,
+      "total_beneficiaries": 7,
+      "avg_submitted": 62.91,
+      "avg_paid": 32.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 3990153.29,
+      "total_services": 125681,
+      "total_beneficiaries": 7,
+      "avg_submitted": 61.07,
+      "avg_paid": 31.75
+    },
+    {
+      "year": 2020,
+      "total_payments": 3654836.11,
+      "total_services": 109964,
+      "total_beneficiaries": 7,
+      "avg_submitted": 68.7,
+      "avg_paid": 33.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 3642641.7,
+      "total_services": 103185,
+      "total_beneficiaries": 4,
+      "avg_submitted": 89.09,
+      "avg_paid": 35.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 4011455.36,
+      "total_services": 107022,
+      "total_beneficiaries": 4,
+      "avg_submitted": 95.5,
+      "avg_paid": 37.48
+    },
+    {
+      "year": 2023,
+      "total_payments": 4417914.37,
+      "total_services": 111273,
+      "total_beneficiaries": 4,
+      "avg_submitted": 102.17,
+      "avg_paid": 39.7
+    }
+  ],
+  "overall": {
+    "total_payments": 35948763.17,
+    "total_services": 1037163,
+    "total_beneficiaries": 53,
+    "avg_markup_ratio": 2.55,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 73476,
+      "payments": 24710929.61,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 944734,
+      "payments": 5695634.25,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 13031,
+      "payments": 3685095.35,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 2397,
+      "payments": 1166184.28,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 2870,
+      "payments": 499646.77,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 501,
+      "payments": 103764.95,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 154,
+      "payments": 87507.96,
+      "avg_markup": 1.92
+    }
+  ]
+}

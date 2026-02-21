@@ -1,0 +1,128 @@
+{
+  "name": "Orange Toxicology Lab Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "San Bernardino",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 28371.44,
+      "total_services": 1789,
+      "total_beneficiaries": 3,
+      "avg_submitted": 157.68,
+      "avg_paid": 15.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 199811.98,
+      "total_services": 2609,
+      "total_beneficiaries": 3,
+      "avg_submitted": 166.22,
+      "avg_paid": 76.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 1147679.95,
+      "total_services": 92443,
+      "total_beneficiaries": 3,
+      "avg_submitted": 18.46,
+      "avg_paid": 12.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 14149153.7,
+      "total_services": 1193554,
+      "total_beneficiaries": 4,
+      "avg_submitted": 15.47,
+      "avg_paid": 11.85
+    }
+  ],
+  "overall": {
+    "total_payments": 15525017.07,
+    "total_services": 1290395,
+    "total_beneficiaries": 13,
+    "avg_markup_ratio": 1.35,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1280105,
+      "payments": 15054034.8,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 1797,
+      "payments": 132231.0,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 530,
+      "payments": 130823.14,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 1586,
+      "payments": 55652.74,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 1794,
+      "payments": 44002.5,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 1802,
+      "payments": 41475.63,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug, by chemistry analyzers",
+      "services": 447,
+      "payments": 27776.58,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 499,
+      "payments": 25089.72,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "86003",
+      "description": "Measurement of antibody (ige) to allergic substance",
+      "services": 1650,
+      "payments": 8613.0,
+      "avg_markup": 16.28
+    },
+    {
+      "code": "87641",
+      "description": "Detection test by nucleic acid for staphylococcus aureus, methicillin resistant (mrsa bacteria), amplified probe technique",
+      "services": 122,
+      "payments": 4280.98,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "82785",
+      "description": "Ige (immune system protein) level",
+      "services": 63,
+      "payments": 1036.98,
+      "avg_markup": 4.86
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Gina Palacios",
+  "credentials": "FNP-C",
+  "specialty": "Nurse Practitioner",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 27019432.83,
+      "total_services": 34398,
+      "total_beneficiaries": 2,
+      "avg_submitted": 1002.0,
+      "avg_paid": 785.49
+    }
+  ],
+  "overall": {
+    "total_payments": 27019432.83,
+    "total_services": 34398,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.28,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 34236,
+      "payments": 27010658.91,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "15274",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, each additional 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 162,
+      "payments": 8773.92,
+      "avg_markup": 1.64
+    }
+  ]
+}

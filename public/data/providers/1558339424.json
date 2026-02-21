@@ -1,0 +1,223 @@
+{
+  "name": "Premier Surgery Center",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Concord",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2778075.04,
+      "total_services": 4194,
+      "total_beneficiaries": 28,
+      "avg_submitted": 3311.83,
+      "avg_paid": 662.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 3010035.18,
+      "total_services": 4637,
+      "total_beneficiaries": 29,
+      "avg_submitted": 3283.81,
+      "avg_paid": 649.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 3549449.56,
+      "total_services": 5006,
+      "total_beneficiaries": 35,
+      "avg_submitted": 3355.49,
+      "avg_paid": 709.04
+    },
+    {
+      "year": 2017,
+      "total_payments": 5766972.98,
+      "total_services": 5684,
+      "total_beneficiaries": 33,
+      "avg_submitted": 3649.16,
+      "avg_paid": 1014.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 5094771.67,
+      "total_services": 5160,
+      "total_beneficiaries": 37,
+      "avg_submitted": 3747.54,
+      "avg_paid": 987.36
+    },
+    {
+      "year": 2019,
+      "total_payments": 5067205.06,
+      "total_services": 5293,
+      "total_beneficiaries": 33,
+      "avg_submitted": 3715.06,
+      "avg_paid": 957.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 1825337.54,
+      "total_services": 2103,
+      "total_beneficiaries": 22,
+      "avg_submitted": 3445.17,
+      "avg_paid": 867.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 3446342.12,
+      "total_services": 4341,
+      "total_beneficiaries": 29,
+      "avg_submitted": 4790.12,
+      "avg_paid": 793.91
+    }
+  ],
+  "overall": {
+    "total_payments": 30538189.15,
+    "total_services": 36418,
+    "total_beneficiaries": 246,
+    "avg_markup_ratio": 4.38,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of prosthetic lens",
+      "services": 6309,
+      "payments": 6591889.51,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "36902",
+      "description": "Insertion of needle and/or tube into hemodialysis circuit and balloon dilation of dialysis segment with review by radiologist",
+      "services": 1740,
+      "payments": 4601251.42,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "63650",
+      "description": "Insertion of spinal neurostimulator electrode array through skin",
+      "services": 552,
+      "payments": 2532265.76,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "63685",
+      "description": "Insertion of spinal neurostimulator pulse generator or receiver",
+      "services": 120,
+      "payments": 2515065.2,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "64483",
+      "description": "Injection of anesthetic and/or steroid drug into sacral spine nerve root using imaging guidance, single level",
+      "services": 6111,
+      "payments": 2056312.41,
+      "avg_markup": 7.88
+    },
+    {
+      "code": "45380",
+      "description": "Biopsy of large bowel using a flexible endoscope",
+      "services": 2699,
+      "payments": 1169209.85,
+      "avg_markup": 7.83
+    },
+    {
+      "code": "43239",
+      "description": "Biopsy of esophagus, stomach, and/or upper small bowel using a flexible endoscope",
+      "services": 2685,
+      "payments": 947556.2,
+      "avg_markup": 8.96
+    },
+    {
+      "code": "64635",
+      "description": "Destruction of lower or sacral spinal facet joint nerves using imaging guidance, single facet joint",
+      "services": 1163,
+      "payments": 888831.72,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "45385",
+      "description": "Removal of polyps or growths of large bowel using an endoscope with mechanical snare",
+      "services": 1458,
+      "payments": 704960.53,
+      "avg_markup": 7.04
+    },
+    {
+      "code": "0191T",
+      "description": "Internal insertion of eye fluid drainage device",
+      "services": 256,
+      "payments": 626948.26,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "36903",
+      "description": "Insertion of needle and/or tube into hemodialysis circuit and insertion of stent in dialysis segment with review by radiologist",
+      "services": 90,
+      "payments": 579348.63,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "64493",
+      "description": "Injection of lower or sacral spine facet joint using imaging guidance, single level",
+      "services": 1628,
+      "payments": 575786.61,
+      "avg_markup": 6.92
+    },
+    {
+      "code": "36905",
+      "description": "Removal and/or dissolving of blood clot in hemodialysis circuit and balloon dilation of dialysis segment with imaging review by radiologist, with balloon tube",
+      "services": 102,
+      "payments": 544628.76,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "66982",
+      "description": "Complex removal of cataract with insertion of prosthetic lens",
+      "services": 510,
+      "payments": 532574.28,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "45384",
+      "description": "Removal of polyps or growths of large bowel using a flexible endoscope with electrical cautery",
+      "services": 1145,
+      "payments": 501139.56,
+      "avg_markup": 7.02
+    },
+    {
+      "code": "64633",
+      "description": "Destruction of upper or middle spinal facet joint nerves using imaging guidance, single facet joint",
+      "services": 461,
+      "payments": 370099.89,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using a laser",
+      "services": 1274,
+      "payments": 344635.75,
+      "avg_markup": 6.28
+    },
+    {
+      "code": "45390",
+      "description": "Removal of large bowel tissue using a flexible endoscope",
+      "services": 326,
+      "payments": 327693.96,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "29827",
+      "description": "Repair of shoulder rotator cuff using an endoscope",
+      "services": 118,
+      "payments": 280845.1,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "C1822",
+      "description": "Generator, neurostimulator (implantable), high frequency, with rechargeable battery and charging system",
+      "services": 13,
+      "payments": 276261.14,
+      "avg_markup": 1.28
+    }
+  ]
+}

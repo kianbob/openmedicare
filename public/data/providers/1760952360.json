@@ -1,0 +1,191 @@
+{
+  "name": "Mary Huntly",
+  "credentials": "NP",
+  "specialty": "Nurse Practitioner",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 15764.12,
+      "total_services": 148,
+      "total_beneficiaries": 5,
+      "avg_submitted": 238.37,
+      "avg_paid": 106.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 119448.23,
+      "total_services": 1010,
+      "total_beneficiaries": 11,
+      "avg_submitted": 254.45,
+      "avg_paid": 118.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 2531466.39,
+      "total_services": 5390,
+      "total_beneficiaries": 14,
+      "avg_submitted": 650.74,
+      "avg_paid": 469.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 6865278.05,
+      "total_services": 8505,
+      "total_beneficiaries": 13,
+      "avg_submitted": 1061.48,
+      "avg_paid": 807.2
+    }
+  ],
+  "overall": {
+    "total_payments": 9531956.79,
+    "total_services": 15053,
+    "total_beneficiaries": 43,
+    "avg_markup_ratio": 1.35,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 5130,
+      "payments": 5330630.16,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "Q4253",
+      "description": "Zenith amniotic membrane, per square centimeter",
+      "services": 4978,
+      "payments": 3707391.38,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 1766,
+      "payments": 201036.9,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 843,
+      "payments": 63718.43,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99345",
+      "description": "Residence visit for new patient with high level of medical decision making, per day, if using time, at least 75 minutes",
+      "services": 275,
+      "payments": 33520.04,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 321,
+      "payments": 32799.53,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services for problem of high complexity",
+      "services": 150,
+      "payments": 27448.29,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99483",
+      "description": "Assessment of and care planning for impaired thought processing, typically 50 minutes",
+      "services": 140,
+      "payments": 25941.83,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99337",
+      "description": "Established patient custodial care facility, group care, or assisted living visit, typically 1 hour",
+      "services": 180,
+      "payments": 22813.51,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99442",
+      "description": "Telephone medical discussion with physician, 11-20 minutes",
+      "services": 344,
+      "payments": 17068.7,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 122,
+      "payments": 13695.35,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 90,
+      "payments": 13112.71,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 180,
+      "payments": 10036.12,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 66,
+      "payments": 7539.1,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99443",
+      "description": "Telephone medical discussion with physician, 21-30 minutes",
+      "services": 107,
+      "payments": 6699.53,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99328",
+      "description": "New patient custodial care facility, group care, or assisted living visit, typically 75 minutes",
+      "services": 35,
+      "payments": 3885.22,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 57,
+      "payments": 3032.72,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "G0181",
+      "description": "Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow",
+      "services": 39,
+      "payments": 2864.21,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "96130",
+      "description": "Evaluation of psychological test, first hour",
+      "services": 28,
+      "payments": 2297.64,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "G0180",
+      "description": "Physician or allowed practitioner certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians and",
+      "services": 47,
+      "payments": 1692.3,
+      "avg_markup": 2.27
+    }
+  ]
+}

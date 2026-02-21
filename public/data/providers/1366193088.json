@@ -1,0 +1,70 @@
+{
+  "name": "Biodx Labs",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Coppell",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 26011.75,
+      "total_services": 641,
+      "total_beneficiaries": 2,
+      "avg_submitted": 70.25,
+      "avg_paid": 40.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 15120167.32,
+      "total_services": 97634,
+      "total_beneficiaries": 2,
+      "avg_submitted": 500.05,
+      "avg_paid": 154.87
+    }
+  ],
+  "overall": {
+    "total_payments": 15146179.07,
+    "total_services": 98275,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 3.23,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 84544,
+      "payments": 11817560.32,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "87913",
+      "description": "Genotype analysis of severe acute respiratory syndrome coronavirus 2 (covid-19) by nucleic acid for identification of mutations in targeted regions",
+      "services": 13090,
+      "payments": 3302607.0,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 215,
+      "payments": 15861.75,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 211,
+      "payments": 5188.25,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 215,
+      "payments": 4961.75,
+      "avg_markup": 1.3
+    }
+  ]
+}

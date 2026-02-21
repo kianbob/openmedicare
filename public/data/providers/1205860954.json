@@ -1,0 +1,239 @@
+{
+  "name": "Amy Mcmullen",
+  "credentials": "M.D.",
+  "specialty": "Medical Oncology",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 365515.99,
+      "total_services": 22429,
+      "total_beneficiaries": 21,
+      "avg_submitted": 63.0,
+      "avg_paid": 16.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 572283.11,
+      "total_services": 33998,
+      "total_beneficiaries": 24,
+      "avg_submitted": 62.13,
+      "avg_paid": 16.83
+    },
+    {
+      "year": 2016,
+      "total_payments": 413277.22,
+      "total_services": 27599,
+      "total_beneficiaries": 23,
+      "avg_submitted": 53.21,
+      "avg_paid": 14.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 571705.52,
+      "total_services": 52873,
+      "total_beneficiaries": 23,
+      "avg_submitted": 35.81,
+      "avg_paid": 10.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 1533222.15,
+      "total_services": 82149,
+      "total_beneficiaries": 30,
+      "avg_submitted": 65.29,
+      "avg_paid": 18.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 1506432.8,
+      "total_services": 107301,
+      "total_beneficiaries": 33,
+      "avg_submitted": 48.47,
+      "avg_paid": 14.04
+    },
+    {
+      "year": 2020,
+      "total_payments": 2068296.82,
+      "total_services": 123041,
+      "total_beneficiaries": 32,
+      "avg_submitted": 58.39,
+      "avg_paid": 16.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 1556289.43,
+      "total_services": 107128,
+      "total_beneficiaries": 31,
+      "avg_submitted": 40.85,
+      "avg_paid": 14.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 2633682.2,
+      "total_services": 157696,
+      "total_beneficiaries": 33,
+      "avg_submitted": 45.52,
+      "avg_paid": 16.7
+    },
+    {
+      "year": 2023,
+      "total_payments": 3546254.71,
+      "total_services": 148043,
+      "total_beneficiaries": 33,
+      "avg_submitted": 57.03,
+      "avg_paid": 23.95
+    }
+  ],
+  "overall": {
+    "total_payments": 14766959.95,
+    "total_services": 862257,
+    "total_beneficiaries": 283,
+    "avg_markup_ratio": 3.02,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J9271",
+      "description": "Injection, pembrolizumab, 1 mg",
+      "services": 131539,
+      "payments": 4866022.95,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 146915,
+      "payments": 2239290.01,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "J9144",
+      "description": "Injection, daratumumab, 10 mg and hyaluronidase-fihj",
+      "services": 57960,
+      "payments": 2159272.51,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 392,
+      "payments": 1216341.39,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 8607,
+      "payments": 779453.3,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 4582,
+      "payments": 571960.44,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 5686,
+      "payments": 391990.89,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 2404,
+      "payments": 303500.22,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "J2469",
+      "description": "Injection, palonosetron hcl, 25 mcg",
+      "services": 25983,
+      "payments": 202508.72,
+      "avg_markup": 9.42
+    },
+    {
+      "code": "Q5106",
+      "description": "Injection, epoetin alfa-epbx, biosimilar, (retacrit) (for non-esrd use), 1000 units",
+      "services": 21960,
+      "payments": 149313.94,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "Q5107",
+      "description": "Injection, bevacizumab-awwb, biosimilar, (mvasi), 10 mg",
+      "services": 5330,
+      "payments": 147140.21,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 871,
+      "payments": 147128.47,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "J1439",
+      "description": "Injection, ferric carboxymaltose, 1 mg",
+      "services": 160650,
+      "payments": 138513.68,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "96367",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, additional sequential infusion, 1 hour or less",
+      "services": 5017,
+      "payments": 136193.38,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "J1453",
+      "description": "Injection, fosaprepitant, 1 mg",
+      "services": 119400,
+      "payments": 121794.38,
+      "avg_markup": 5.97
+    },
+    {
+      "code": "96401",
+      "description": "Administration of non-hormonal anti-neoplastic chemotherapy under skin or into muscle",
+      "services": 1715,
+      "payments": 118903.51,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 10829,
+      "payments": 96625.04,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "96372",
+      "description": "Injection of drug or substance under skin or into muscle",
+      "services": 5599,
+      "payments": 89282.8,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "J2506",
+      "description": "Injection, pegfilgrastim, excludes biosimilar, 0.5 mg",
+      "services": 648,
+      "payments": 82816.41,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "96417",
+      "description": "Administration of additional new drug or substance into vein, 1 hour or less",
+      "services": 1285,
+      "payments": 77351.69,
+      "avg_markup": 2.67
+    }
+  ]
+}

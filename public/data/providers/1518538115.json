@@ -1,0 +1,120 @@
+{
+  "name": "Sydney Peralta",
+  "credentials": "FNP-C",
+  "specialty": "Nurse Practitioner",
+  "city": "Paris",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 4303.44,
+      "total_services": 73,
+      "total_beneficiaries": 1,
+      "avg_submitted": 120.0,
+      "avg_paid": 58.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 9637.35,
+      "total_services": 214,
+      "total_beneficiaries": 4,
+      "avg_submitted": 112.99,
+      "avg_paid": 45.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 5088302.97,
+      "total_services": 5949,
+      "total_beneficiaries": 7,
+      "avg_submitted": 1282.48,
+      "avg_paid": 855.32
+    }
+  ],
+  "overall": {
+    "total_payments": 5102243.76,
+    "total_services": 6236,
+    "total_beneficiaries": 12,
+    "avg_markup_ratio": 1.5,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 4303,
+      "payments": 4349361.83,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "Q4236",
+      "description": "Carepatch, per square centimeter",
+      "services": 750,
+      "payments": 687034.17,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 185,
+      "payments": 16982.21,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 330,
+      "payments": 16409.52,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 229,
+      "payments": 12184.67,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "15275",
+      "description": "Application of skin substitute graft to wound of face, scalp, eyelids, mouth, neck, ears, around eyes, genitals, hands, feet, fingers, or toes, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 83,
+      "payments": 8524.25,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "15852",
+      "description": "Dressing change under anesthesia",
+      "services": 248,
+      "payments": 5457.85,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 50,
+      "payments": 4533.14,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 21,
+      "payments": 1425.51,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "J1040",
+      "description": "Injection, methylprednisolone acetate, 80 mg",
+      "services": 20,
+      "payments": 170.66,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "96372",
+      "description": "Injection of drug or substance under skin or into muscle",
+      "services": 17,
+      "payments": 159.95,
+      "avg_markup": 4.78
+    }
+  ]
+}

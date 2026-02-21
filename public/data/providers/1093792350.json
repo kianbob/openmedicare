@@ -1,0 +1,239 @@
+{
+  "name": "Mayo Collaborative Services, Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Rochester",
+  "state": "MN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3369189.56,
+      "total_services": 115602,
+      "total_beneficiaries": 198,
+      "avg_submitted": 147.42,
+      "avg_paid": 29.14
+    },
+    {
+      "year": 2015,
+      "total_payments": 3174126.6,
+      "total_services": 100721,
+      "total_beneficiaries": 203,
+      "avg_submitted": 161.37,
+      "avg_paid": 31.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 3251680.18,
+      "total_services": 105519,
+      "total_beneficiaries": 203,
+      "avg_submitted": 164.51,
+      "avg_paid": 30.82
+    },
+    {
+      "year": 2017,
+      "total_payments": 3106497.04,
+      "total_services": 94216,
+      "total_beneficiaries": 189,
+      "avg_submitted": 181.36,
+      "avg_paid": 32.97
+    },
+    {
+      "year": 2018,
+      "total_payments": 3872057.52,
+      "total_services": 102519,
+      "total_beneficiaries": 195,
+      "avg_submitted": 207.27,
+      "avg_paid": 37.77
+    },
+    {
+      "year": 2019,
+      "total_payments": 4163873.18,
+      "total_services": 112127,
+      "total_beneficiaries": 204,
+      "avg_submitted": 218.54,
+      "avg_paid": 37.14
+    },
+    {
+      "year": 2020,
+      "total_payments": 12953464.69,
+      "total_services": 210548,
+      "total_beneficiaries": 222,
+      "avg_submitted": 171.46,
+      "avg_paid": 61.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 13944921.25,
+      "total_services": 303347,
+      "total_beneficiaries": 239,
+      "avg_submitted": 135.19,
+      "avg_paid": 45.97
+    },
+    {
+      "year": 2022,
+      "total_payments": 9204956.42,
+      "total_services": 202180,
+      "total_beneficiaries": 257,
+      "avg_submitted": 192.08,
+      "avg_paid": 45.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 6500943.22,
+      "total_services": 133856,
+      "total_beneficiaries": 235,
+      "avg_submitted": 255.41,
+      "avg_paid": 48.57
+    }
+  ],
+  "overall": {
+    "total_payments": 63541709.66,
+    "total_services": 1480635,
+    "total_beneficiaries": 2145,
+    "avg_markup_ratio": 4.15,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 193292,
+      "payments": 16517553.61,
+      "avg_markup": 1.0
+    },
+    {
+      "code": "81528",
+      "description": "Gene analysis (colorectal cancer)",
+      "services": 6672,
+      "payments": 3323992.13,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 102424,
+      "payments": 2455567.68,
+      "avg_markup": 1.0
+    },
+    {
+      "code": "81206",
+      "description": "Translocation analysis (bcr/abl1) major breakpoint",
+      "services": 9500,
+      "payments": 1648552.33,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "81450",
+      "description": "Targeted genomic sequence analysis panel of dna or combine dna and rna of 5-50 genes associated with blood and lymphatic system disorders",
+      "services": 2115,
+      "payments": 1583434.31,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "88341",
+      "description": "Special stained specimen slides to examine tissue, each additional procedure",
+      "services": 44477,
+      "payments": 1418796.45,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "88350",
+      "description": "Antibody evaluation, each additional single antibody stain procedure",
+      "services": 25441,
+      "payments": 1152545.09,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "81455",
+      "description": "Targeted genomic sequence analysis panel of dna or combine dna and rna of 51 or greater genes associated with blood and lymphatic system disorders",
+      "services": 294,
+      "payments": 841983.87,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "88271",
+      "description": "Dna testing for genetic defects",
+      "services": 36701,
+      "payments": 836034.04,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "88237",
+      "description": "Tissue culture for tumor disorders of bone marrow and blood cells",
+      "services": 5524,
+      "payments": 825548.22,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "88323",
+      "description": "Surgical pathology consultation and report on referred material requiring preparation of slides",
+      "services": 11491,
+      "payments": 823411.76,
+      "avg_markup": 6.27
+    },
+    {
+      "code": "88325",
+      "description": "Surgical pathology consultation and report, comprehensive",
+      "services": 5964,
+      "payments": 822306.45,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "88321",
+      "description": "Surgical pathology consultation and report on referred slides prepared elsewhere",
+      "services": 9831,
+      "payments": 743969.17,
+      "avg_markup": 6.87
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 19076,
+      "payments": 733221.71,
+      "avg_markup": 6.84
+    },
+    {
+      "code": "G0480",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 6743,
+      "payments": 708902.26,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "81376",
+      "description": "Hla class ii typing low resolution one locus",
+      "services": 5667,
+      "payments": 698093.54,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "88264",
+      "description": "Chromosome analysis for genetic defects, analyze 20-25 cells",
+      "services": 4665,
+      "payments": 694779.69,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 19811,
+      "payments": 680573.32,
+      "avg_markup": 7.7
+    },
+    {
+      "code": "88185",
+      "description": "Flow cytometry technique for dna or cell analysis, each additional marker",
+      "services": 29582,
+      "payments": 644216.34,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "87799",
+      "description": "Detection test by nucleic acid for organism, quantification",
+      "services": 13024,
+      "payments": 612947.67,
+      "avg_markup": 9.15
+    }
+  ]
+}

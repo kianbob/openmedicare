@@ -1,0 +1,239 @@
+{
+  "name": "Richard Jones",
+  "credentials": "MD",
+  "specialty": "Rheumatology",
+  "city": "Northport",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 5241946.37,
+      "total_services": 332975,
+      "total_beneficiaries": 67,
+      "avg_submitted": 33.26,
+      "avg_paid": 15.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 6245413.2,
+      "total_services": 405420,
+      "total_beneficiaries": 65,
+      "avg_submitted": 30.39,
+      "avg_paid": 15.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 4800608.27,
+      "total_services": 328079,
+      "total_beneficiaries": 64,
+      "avg_submitted": 27.6,
+      "avg_paid": 14.63
+    },
+    {
+      "year": 2017,
+      "total_payments": 5085453.63,
+      "total_services": 325261,
+      "total_beneficiaries": 61,
+      "avg_submitted": 26.6,
+      "avg_paid": 15.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 5989969.88,
+      "total_services": 372966,
+      "total_beneficiaries": 57,
+      "avg_submitted": 27.88,
+      "avg_paid": 16.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 5738291.02,
+      "total_services": 370195,
+      "total_beneficiaries": 59,
+      "avg_submitted": 28.55,
+      "avg_paid": 15.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 5302589.66,
+      "total_services": 355064,
+      "total_beneficiaries": 57,
+      "avg_submitted": 28.92,
+      "avg_paid": 14.93
+    },
+    {
+      "year": 2021,
+      "total_payments": 4314015.28,
+      "total_services": 315501,
+      "total_beneficiaries": 55,
+      "avg_submitted": 27.99,
+      "avg_paid": 13.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 4240974.79,
+      "total_services": 367376,
+      "total_beneficiaries": 49,
+      "avg_submitted": 25.08,
+      "avg_paid": 11.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 3836257.54,
+      "total_services": 330275,
+      "total_beneficiaries": 43,
+      "avg_submitted": 25.52,
+      "avg_paid": 11.62
+    }
+  ],
+  "overall": {
+    "total_payments": 50795519.64,
+    "total_services": 3503112,
+    "total_beneficiaries": 577,
+    "avg_markup_ratio": 1.95,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J1745",
+      "description": "Injection, infliximab, excludes biosimilar, 10 mg",
+      "services": 206719,
+      "payments": 10678068.29,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "J0129",
+      "description": "Injection, abatacept, 10 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 153800,
+      "payments": 5538802.63,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "J3262",
+      "description": "Injection, tocilizumab, 1 mg",
+      "services": 1339297,
+      "payments": 4942942.91,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 312061,
+      "payments": 4419829.79,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "J0717",
+      "description": "Injection, certolizumab pegol, 1 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 829400,
+      "payments": 4418078.09,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 54400,
+      "payments": 3777762.56,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 5375,
+      "payments": 3242063.17,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "J1602",
+      "description": "Injection, golimumab, 1 mg, for intravenous use",
+      "services": 167681,
+      "payments": 2754287.66,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 25960,
+      "payments": 1924249.0,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "J0490",
+      "description": "Injection, belimumab, 10 mg",
+      "services": 57499,
+      "payments": 1912116.35,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 12098,
+      "payments": 1175033.13,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "J1459",
+      "description": "Injection, immune globulin (privigen), intravenous, non-lyophilized (e.g., liquid), 500 mg",
+      "services": 32910,
+      "payments": 966407.9,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 6477,
+      "payments": 323730.17,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 25843,
+      "payments": 312366.62,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 8103,
+      "payments": 285225.62,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "J3111",
+      "description": "Injection, romosozumab-aqqg, 1 mg",
+      "services": 36750,
+      "payments": 283378.27,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "76881",
+      "description": "Complete ultrasound scan of joint",
+      "services": 4189,
+      "payments": 277884.13,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "96415",
+      "description": "Administration of chemotherapy into vein, each additional hour",
+      "services": 11073,
+      "payments": 231272.33,
+      "avg_markup": 5.75
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 23869,
+      "payments": 216268.17,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1749,
+      "payments": 189830.42,
+      "avg_markup": 1.79
+    }
+  ]
+}

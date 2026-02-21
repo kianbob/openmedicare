@@ -1,0 +1,91 @@
+{
+  "name": "Advance Lab Company",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 777162.86,
+      "total_services": 281794,
+      "total_beneficiaries": 6,
+      "avg_submitted": 11.28,
+      "avg_paid": 2.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 14603271.06,
+      "total_services": 1321229,
+      "total_beneficiaries": 1,
+      "avg_submitted": 14.06,
+      "avg_paid": 11.05
+    }
+  ],
+  "overall": {
+    "total_payments": 15380433.92,
+    "total_services": 1603023,
+    "total_beneficiaries": 7,
+    "avg_markup_ratio": 1.41,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1321229,
+      "payments": 14603271.06,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "P9603",
+      "description": "Travel allowance one way in connection with medically necessary laboratory specimen collection drawn from home bound or nursing home bound patient; prorated miles actually travelled",
+      "services": 268908,
+      "payments": 277120.64,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 3165,
+      "payments": 235208.25,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "87426",
+      "description": "Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus",
+      "services": 3165,
+      "payments": 110805.87,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 3148,
+      "payments": 77981.5,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 3149,
+      "payments": 73211.17,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "P9604",
+      "description": "Travel allowance one way in connection with medically necessary laboratory specimen collection drawn from home bound or nursing home bound patient; prorated trip charge",
+      "services": 248,
+      "payments": 2557.12,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "G2024",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]) from an individual in a snf or by a laboratory on behalf of a hha, any specimen source",
+      "services": 11,
+      "payments": 278.31,
+      "avg_markup": 1.98
+    }
+  ]
+}

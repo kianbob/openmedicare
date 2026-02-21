@@ -1,0 +1,239 @@
+{
+  "name": "John Croker",
+  "credentials": "ARNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Orange City",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 25959.82,
+      "total_services": 392,
+      "total_beneficiaries": 7,
+      "avg_submitted": 188.97,
+      "avg_paid": 66.22
+    },
+    {
+      "year": 2015,
+      "total_payments": 29642.15,
+      "total_services": 411,
+      "total_beneficiaries": 11,
+      "avg_submitted": 162.44,
+      "avg_paid": 72.12
+    },
+    {
+      "year": 2016,
+      "total_payments": 2035.63,
+      "total_services": 56,
+      "total_beneficiaries": 2,
+      "avg_submitted": 169.17,
+      "avg_paid": 36.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 161976.6,
+      "total_services": 2023,
+      "total_beneficiaries": 9,
+      "avg_submitted": 169.14,
+      "avg_paid": 80.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 381255.57,
+      "total_services": 4678,
+      "total_beneficiaries": 17,
+      "avg_submitted": 170.27,
+      "avg_paid": 81.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 173939.66,
+      "total_services": 2370,
+      "total_beneficiaries": 13,
+      "avg_submitted": 162.52,
+      "avg_paid": 73.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 162739.77,
+      "total_services": 2862,
+      "total_beneficiaries": 19,
+      "avg_submitted": 132.23,
+      "avg_paid": 56.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 173793.88,
+      "total_services": 2725,
+      "total_beneficiaries": 17,
+      "avg_submitted": 153.92,
+      "avg_paid": 63.78
+    },
+    {
+      "year": 2022,
+      "total_payments": 4566377.82,
+      "total_services": 8686,
+      "total_beneficiaries": 13,
+      "avg_submitted": 802.53,
+      "avg_paid": 525.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 5961163.79,
+      "total_services": 9869,
+      "total_beneficiaries": 18,
+      "avg_submitted": 802.91,
+      "avg_paid": 604.03
+    }
+  ],
+  "overall": {
+    "total_payments": 11638884.69,
+    "total_services": 34072,
+    "total_beneficiaries": 126,
+    "avg_markup_ratio": 1.49,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "Q4253",
+      "description": "Zenith amniotic membrane, per square centimeter",
+      "services": 11059,
+      "payments": 7791203.06,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 2222,
+      "payments": 2421449.07,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 4812,
+      "payments": 387249.62,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99336",
+      "description": "Established patient custodial care facility, group care, or assisted living visit, typically 40 minutes",
+      "services": 2561,
+      "payments": 217710.27,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99335",
+      "description": "Established patient custodial care facility, group care, or assisted living visit, typically 25 minutes",
+      "services": 3277,
+      "payments": 191227.09,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 1765,
+      "payments": 84869.19,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "G0181",
+      "description": "Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow",
+      "services": 1177,
+      "payments": 81976.81,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 513,
+      "payments": 58827.29,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 463,
+      "payments": 49055.75,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 870,
+      "payments": 47108.79,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 422,
+      "payments": 43359.1,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 573,
+      "payments": 39494.12,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 825,
+      "payments": 33649.42,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "11043",
+      "description": "Removal of muscle and/or tissue, 20.0 sq cm or less",
+      "services": 201,
+      "payments": 31215.23,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99345",
+      "description": "Residence visit for new patient with high level of medical decision making, per day, if using time, at least 75 minutes",
+      "services": 146,
+      "payments": 20789.74,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 447,
+      "payments": 20183.89,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99327",
+      "description": "New patient custodial care facility, group care, or assisted living visit, typically 1 hour",
+      "services": 138,
+      "payments": 16112.92,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 435,
+      "payments": 13538.47,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99204",
+      "description": "New patient outpatient visit, total time 45-59 minutes",
+      "services": 136,
+      "payments": 12507.06,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 307,
+      "payments": 10675.08,
+      "avg_markup": 1.44
+    }
+  ]
+}

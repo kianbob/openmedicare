@@ -1,0 +1,239 @@
+{
+  "name": "Quality Healthcare Management Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4319702.03,
+      "total_services": 332415,
+      "total_beneficiaries": 134,
+      "avg_submitted": 54.24,
+      "avg_paid": 12.99
+    },
+    {
+      "year": 2015,
+      "total_payments": 3959634.89,
+      "total_services": 298535,
+      "total_beneficiaries": 138,
+      "avg_submitted": 52.28,
+      "avg_paid": 13.26
+    },
+    {
+      "year": 2016,
+      "total_payments": 5063427.93,
+      "total_services": 333221,
+      "total_beneficiaries": 147,
+      "avg_submitted": 70.78,
+      "avg_paid": 15.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 6596877.6,
+      "total_services": 290906,
+      "total_beneficiaries": 149,
+      "avg_submitted": 132.38,
+      "avg_paid": 22.68
+    },
+    {
+      "year": 2018,
+      "total_payments": 5204164.13,
+      "total_services": 269580,
+      "total_beneficiaries": 146,
+      "avg_submitted": 117.02,
+      "avg_paid": 19.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 5055852.54,
+      "total_services": 266263,
+      "total_beneficiaries": 152,
+      "avg_submitted": 125.81,
+      "avg_paid": 18.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 4695831.24,
+      "total_services": 263576,
+      "total_beneficiaries": 165,
+      "avg_submitted": 106.13,
+      "avg_paid": 17.82
+    },
+    {
+      "year": 2021,
+      "total_payments": 5465490.1,
+      "total_services": 302043,
+      "total_beneficiaries": 162,
+      "avg_submitted": 105.84,
+      "avg_paid": 18.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 5335289.74,
+      "total_services": 318200,
+      "total_beneficiaries": 167,
+      "avg_submitted": 97.18,
+      "avg_paid": 16.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 4806599.69,
+      "total_services": 311118,
+      "total_beneficiaries": 170,
+      "avg_submitted": 92.23,
+      "avg_paid": 15.45
+    }
+  ],
+  "overall": {
+    "total_payments": 50502869.89,
+    "total_services": 2985857,
+    "total_beneficiaries": 1530,
+    "avg_markup_ratio": 5.55,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 34256,
+      "payments": 8295378.62,
+      "avg_markup": 9.18
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 108800,
+      "payments": 3733716.62,
+      "avg_markup": 4.78
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 143881,
+      "payments": 2804527.85,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 153746,
+      "payments": 2038582.75,
+      "avg_markup": 5.72
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 192017,
+      "payments": 2027669.38,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin b-12) level",
+      "services": 114595,
+      "payments": 2003628.05,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "P9604",
+      "description": "Travel allowance one way in connection with medically necessary laboratory specimen collection drawn from home bound or nursing home bound patient; prorated trip charge",
+      "services": 105937,
+      "payments": 1905181.81,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 193256,
+      "payments": 1754470.25,
+      "avg_markup": 4.83
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level, serum",
+      "services": 96658,
+      "payments": 1633609.27,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 134337,
+      "payments": 1498689.52,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 15695,
+      "payments": 1239555.5,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug, by chemistry analyzers",
+      "services": 16791,
+      "payments": 1180899.53,
+      "avg_markup": 5.66
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 59308,
+      "payments": 925872.13,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical), free",
+      "services": 83513,
+      "payments": 870098.7,
+      "avg_markup": 8.63
+    },
+    {
+      "code": "86769",
+      "description": "Measure of severe acute respiratory syndrome coronavirus 2 (covid-19) antibody",
+      "services": 19990,
+      "payments": 839090.44,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 20243,
+      "payments": 834774.68,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "82652",
+      "description": "Dihydroxyvitamin d, 1, 25 level",
+      "services": 15593,
+      "payments": 723006.36,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement, total",
+      "services": 33417,
+      "payments": 718045.71,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, t3 measurement, free",
+      "services": 35094,
+      "payments": 683231.06,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 3174,
+      "payments": 613252.47,
+      "avg_markup": 8.88
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "name": "Brooke Nesmith",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Wichita",
+  "state": "KS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 3919.48,
+      "total_services": 93,
+      "total_beneficiaries": 2,
+      "avg_submitted": 144.19,
+      "avg_paid": 42.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 178165.42,
+      "total_services": 1457,
+      "total_beneficiaries": 15,
+      "avg_submitted": 368.51,
+      "avg_paid": 122.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 1025625.56,
+      "total_services": 7905,
+      "total_beneficiaries": 19,
+      "avg_submitted": 413.37,
+      "avg_paid": 129.74
+    },
+    {
+      "year": 2019,
+      "total_payments": 2245652.14,
+      "total_services": 12441,
+      "total_beneficiaries": 19,
+      "avg_submitted": 466.68,
+      "avg_paid": 180.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 2699319.31,
+      "total_services": 12559,
+      "total_beneficiaries": 17,
+      "avg_submitted": 507.36,
+      "avg_paid": 214.93
+    },
+    {
+      "year": 2021,
+      "total_payments": 3615236.86,
+      "total_services": 14644,
+      "total_beneficiaries": 20,
+      "avg_submitted": 567.09,
+      "avg_paid": 246.87
+    },
+    {
+      "year": 2022,
+      "total_payments": 3534125.59,
+      "total_services": 13628,
+      "total_beneficiaries": 17,
+      "avg_submitted": 615.7,
+      "avg_paid": 259.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 3721843.99,
+      "total_services": 34631,
+      "total_beneficiaries": 17,
+      "avg_submitted": 256.15,
+      "avg_paid": 107.47
+    }
+  ],
+  "overall": {
+    "total_payments": 17023888.35,
+    "total_services": 97358,
+    "total_beneficiaries": 126,
+    "avg_markup_ratio": 2.44,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 12188,
+      "payments": 8824817.95,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 18753,
+      "payments": 4738037.49,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 11557,
+      "payments": 993881.13,
+      "avg_markup": 9.6
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 22140,
+      "payments": 641880.56,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 14824,
+      "payments": 416004.41,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 5550,
+      "payments": 326336.38,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1585,
+      "payments": 179288.41,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 2325,
+      "payments": 149797.69,
+      "avg_markup": 5.72
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 2463,
+      "payments": 143816.45,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 133,
+      "payments": 111892.02,
+      "avg_markup": 4.75
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 126,
+      "payments": 107813.67,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 851,
+      "payments": 70352.32,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 659,
+      "payments": 46577.19,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 1065,
+      "payments": 42723.21,
+      "avg_markup": 7.53
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 223,
+      "payments": 31456.1,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 259,
+      "payments": 26763.64,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 363,
+      "payments": 25182.44,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 244,
+      "payments": 21406.23,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 133,
+      "payments": 20853.61,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 60,
+      "payments": 20562.93,
+      "avg_markup": 5.98
+    }
+  ]
+}

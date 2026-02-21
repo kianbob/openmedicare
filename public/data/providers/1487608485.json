@@ -1,0 +1,93 @@
+{
+  "name": "Spectrum Health Systems, Inc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Worcester",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 6831321.85,
+      "total_services": 32353,
+      "total_beneficiaries": 5,
+      "avg_submitted": 246.83,
+      "avg_paid": 211.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 6795594.87,
+      "total_services": 30906,
+      "total_beneficiaries": 5,
+      "avg_submitted": 251.11,
+      "avg_paid": 219.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 6562388.46,
+      "total_services": 30167,
+      "total_beneficiaries": 5,
+      "avg_submitted": 248.93,
+      "avg_paid": 217.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 6041209.59,
+      "total_services": 24441,
+      "total_beneficiaries": 5,
+      "avg_submitted": 284.41,
+      "avg_paid": 247.18
+    }
+  ],
+  "overall": {
+    "total_payments": 26230514.77,
+    "total_services": 117867,
+    "total_beneficiaries": 20,
+    "avg_markup_ratio": 1.15,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 109256,
+      "payments": 25488313.55,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 2520,
+      "payments": 468654.85,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 4770,
+      "payments": 173501.18,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 552,
+      "payments": 65746.51,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "G2080",
+      "description": "Each additional 30 minutes of counseling in a week of medication assisted treatment, (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 721,
+      "payments": 24553.25,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 48,
+      "payments": 9745.43,
+      "avg_markup": 1.23
+    }
+  ]
+}

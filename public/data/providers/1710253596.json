@@ -1,0 +1,72 @@
+{
+  "name": "Pacific Edge Diagnostics Usa Ltd.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Hummelstown",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1514003.6,
+      "total_services": 1993,
+      "total_beneficiaries": 2,
+      "avg_submitted": 2995.0,
+      "avg_paid": 759.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 4255719.2,
+      "total_services": 5605,
+      "total_beneficiaries": 2,
+      "avg_submitted": 2995.0,
+      "avg_paid": 759.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 5571537.15,
+      "total_services": 7432,
+      "total_beneficiaries": 2,
+      "avg_submitted": 2999.35,
+      "avg_paid": 749.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 6749682.61,
+      "total_services": 9067,
+      "total_beneficiaries": 3,
+      "avg_submitted": 2995.0,
+      "avg_paid": 744.42
+    }
+  ],
+  "overall": {
+    "total_payments": 18090942.56,
+    "total_services": 24097,
+    "total_beneficiaries": 9,
+    "avg_markup_ratio": 3.99,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "0012M",
+      "description": "Molecular pathology test for genetic analysis of bladder tumor (cxbladder detect)",
+      "services": 16365,
+      "payments": 12284856.21,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "0013M",
+      "description": "Molecular pathology test for genetic analysis of recurrent bladder tumor (cxbladder monitor)",
+      "services": 7427,
+      "payments": 5579692.63,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "0363U",
+      "description": "Onc urthl mrna 5 gen alg",
+      "services": 305,
+      "payments": 226393.72,
+      "avg_markup": 4.03
+    }
+  ]
+}

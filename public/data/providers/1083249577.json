@@ -1,0 +1,191 @@
+{
+  "name": "Mayo Clinic",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Rochester",
+  "state": "MN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 3417300.82,
+      "total_services": 201895,
+      "total_beneficiaries": 204,
+      "avg_submitted": 21.68,
+      "avg_paid": 16.93
+    },
+    {
+      "year": 2021,
+      "total_payments": 15634509.68,
+      "total_services": 966531,
+      "total_beneficiaries": 325,
+      "avg_submitted": 19.3,
+      "avg_paid": 16.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 14259549.36,
+      "total_services": 910748,
+      "total_beneficiaries": 328,
+      "avg_submitted": 91.12,
+      "avg_paid": 15.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 12215816.99,
+      "total_services": 875640,
+      "total_beneficiaries": 338,
+      "avg_submitted": 96.07,
+      "avg_paid": 13.95
+    }
+  ],
+  "overall": {
+    "total_payments": 45527176.85,
+    "total_services": 2954814,
+    "total_beneficiaries": 1195,
+    "avg_markup_ratio": 4.18,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 84095,
+      "payments": 6491520.06,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 72454,
+      "payments": 1721396.49,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "81528",
+      "description": "Gene analysis (colorectal cancer)",
+      "services": 3309,
+      "payments": 1663439.18,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 197539,
+      "payments": 1512305.04,
+      "avg_markup": 6.1
+    },
+    {
+      "code": "86833",
+      "description": "Assessment of antibody to human leukocyte antigens (hla) with high definition qualitative panel for identification of antibody specificities, hla class ii",
+      "services": 4629,
+      "payments": 1370671.41,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "86832",
+      "description": "Assessment of antibody to human leukocyte antigens (hla) with high definition qualitative panel for identification of antibody specificities, hla class i",
+      "services": 4630,
+      "payments": 1365557.39,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 67339,
+      "payments": 1118507.9,
+      "avg_markup": 5.6
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 219928,
+      "payments": 1010257.47,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 91561,
+      "payments": 952742.57,
+      "avg_markup": 7.09
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 17319,
+      "payments": 669604.72,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 50299,
+      "payments": 663592.48,
+      "avg_markup": 5.94
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 22355,
+      "payments": 652369.42,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement, total",
+      "services": 34236,
+      "payments": 621790.15,
+      "avg_markup": 5.68
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals (calcium, total)",
+      "services": 73009,
+      "payments": 609742.41,
+      "avg_markup": 7.4
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 14308,
+      "payments": 578065.56,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 9811,
+      "payments": 538235.22,
+      "avg_markup": 4.92
+    },
+    {
+      "code": "88185",
+      "description": "Flow cytometry technique for dna or cell analysis, each additional marker",
+      "services": 29012,
+      "payments": 532639.59,
+      "avg_markup": 5.37
+    },
+    {
+      "code": "82565",
+      "description": "Blood creatinine level",
+      "services": 102350,
+      "payments": 517815.15,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "86235",
+      "description": "Measurement of antibody for assessment of autoimmune disorder, any method",
+      "services": 29266,
+      "payments": 515215.06,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "82784",
+      "description": "Gammaglobulin (immune system protein) measurement",
+      "services": 55789,
+      "payments": 512860.08,
+      "avg_markup": 6.71
+    }
+  ]
+}

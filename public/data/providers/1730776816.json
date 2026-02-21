@@ -1,0 +1,92 @@
+{
+  "name": "Novant Health New Hanover Regional Medical Center Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Wilmington",
+  "state": "NC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 4980107.26,
+      "total_services": 170030,
+      "total_beneficiaries": 7,
+      "avg_submitted": 110.18,
+      "avg_paid": 29.29
+    },
+    {
+      "year": 2022,
+      "total_payments": 5314651.7,
+      "total_services": 176278,
+      "total_beneficiaries": 7,
+      "avg_submitted": 112.47,
+      "avg_paid": 30.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 6066127.78,
+      "total_services": 198585,
+      "total_beneficiaries": 7,
+      "avg_submitted": 116.22,
+      "avg_paid": 30.55
+    }
+  ],
+  "overall": {
+    "total_payments": 16360886.74,
+    "total_services": 544893,
+    "total_beneficiaries": 21,
+    "avg_markup_ratio": 3.77,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 17172,
+      "payments": 6099682.98,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 18572,
+      "payments": 3365741.37,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 497518,
+      "payments": 3283448.25,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5803,
+      "payments": 1731601.4,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 4229,
+      "payments": 958921.17,
+      "avg_markup": 5.16
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1021,
+      "payments": 623410.01,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 578,
+      "payments": 298081.56,
+      "avg_markup": 3.02
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Ramzi Khairallah",
+  "credentials": "MD",
+  "specialty": "Rheumatology",
+  "city": "Syracuse",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 794925.14,
+      "total_services": 60281,
+      "total_beneficiaries": 38,
+      "avg_submitted": 23.73,
+      "avg_paid": 13.19
+    },
+    {
+      "year": 2015,
+      "total_payments": 1069868.63,
+      "total_services": 63638,
+      "total_beneficiaries": 39,
+      "avg_submitted": 27.64,
+      "avg_paid": 16.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 1381528.55,
+      "total_services": 90268,
+      "total_beneficiaries": 38,
+      "avg_submitted": 29.79,
+      "avg_paid": 15.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 2115329.77,
+      "total_services": 106786,
+      "total_beneficiaries": 41,
+      "avg_submitted": 37.67,
+      "avg_paid": 19.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 2360634.83,
+      "total_services": 103402,
+      "total_beneficiaries": 42,
+      "avg_submitted": 46.83,
+      "avg_paid": 22.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 2306694.17,
+      "total_services": 120595,
+      "total_beneficiaries": 42,
+      "avg_submitted": 43.16,
+      "avg_paid": 19.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 2977920.48,
+      "total_services": 144140,
+      "total_beneficiaries": 41,
+      "avg_submitted": 42.29,
+      "avg_paid": 20.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 3137709.02,
+      "total_services": 158762,
+      "total_beneficiaries": 47,
+      "avg_submitted": 41.67,
+      "avg_paid": 19.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 3028297.7,
+      "total_services": 177611,
+      "total_beneficiaries": 40,
+      "avg_submitted": 37.93,
+      "avg_paid": 17.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 2987167.36,
+      "total_services": 175937,
+      "total_beneficiaries": 40,
+      "avg_submitted": 39.56,
+      "avg_paid": 16.98
+    }
+  ],
+  "overall": {
+    "total_payments": 22160075.65,
+    "total_services": 1201420,
+    "total_beneficiaries": 408,
+    "avg_markup_ratio": 2.09,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J1745",
+      "description": "Injection, infliximab, excludes biosimilar, 10 mg",
+      "services": 178075,
+      "payments": 8033846.96,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "J0129",
+      "description": "Injection, abatacept, 10 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 109591,
+      "payments": 4051162.62,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "J3262",
+      "description": "Injection, tocilizumab, 1 mg",
+      "services": 606874,
+      "payments": 2336887.06,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 29540,
+      "payments": 2062681.82,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "J1602",
+      "description": "Injection, golimumab, 1 mg, for intravenous use",
+      "services": 94288,
+      "payments": 1303480.91,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 12379,
+      "payments": 980634.94,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "J0490",
+      "description": "Injection, belimumab, 10 mg",
+      "services": 20069,
+      "payments": 738756.73,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 5800,
+      "payments": 583901.01,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 711,
+      "payments": 488622.72,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "Q5103",
+      "description": "Injection, infliximab-dyyb, biosimilar, (inflectra), 10 mg",
+      "services": 6917,
+      "payments": 213851.56,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 3742,
+      "payments": 195756.21,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 12129,
+      "payments": 107535.26,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "96415",
+      "description": "Administration of chemotherapy into vein, each additional hour",
+      "services": 4552,
+      "payments": 100305.53,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 812,
+      "payments": 96327.43,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "86235",
+      "description": "Measurement of antibody for assessment of autoimmune disorder, any method",
+      "services": 5251,
+      "payments": 95808.42,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "86140",
+      "description": "Measurement c-reactive protein for detection of infection or inflammation",
+      "services": 12146,
+      "payments": 64051.98,
+      "avg_markup": 4.74
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 1065,
+      "payments": 53089.53,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "84460",
+      "description": "Liver enzyme (sgpt), level",
+      "services": 11668,
+      "payments": 52183.21,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "84450",
+      "description": "Liver enzyme (sgot), level",
+      "services": 11852,
+      "payments": 52060.94,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "82565",
+      "description": "Blood creatinine level",
+      "services": 11901,
+      "payments": 51914.8,
+      "avg_markup": 3.44
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "name": "University Of Washington",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Seattle",
+  "state": "WA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4470621.07,
+      "total_services": 116002,
+      "total_beneficiaries": 4,
+      "avg_submitted": 212.53,
+      "avg_paid": 38.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 5099024.06,
+      "total_services": 121410,
+      "total_beneficiaries": 4,
+      "avg_submitted": 236.22,
+      "avg_paid": 42.0
+    },
+    {
+      "year": 2016,
+      "total_payments": 5790695.03,
+      "total_services": 145382,
+      "total_beneficiaries": 4,
+      "avg_submitted": 235.29,
+      "avg_paid": 39.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 5836607.52,
+      "total_services": 131148,
+      "total_beneficiaries": 3,
+      "avg_submitted": 257.54,
+      "avg_paid": 44.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 6740846.05,
+      "total_services": 171907,
+      "total_beneficiaries": 3,
+      "avg_submitted": 240.15,
+      "avg_paid": 39.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 6424135.52,
+      "total_services": 162874,
+      "total_beneficiaries": 3,
+      "avg_submitted": 277.88,
+      "avg_paid": 39.44
+    },
+    {
+      "year": 2020,
+      "total_payments": 4755896.81,
+      "total_services": 106009,
+      "total_beneficiaries": 4,
+      "avg_submitted": 311.97,
+      "avg_paid": 44.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 7073795.88,
+      "total_services": 133023,
+      "total_beneficiaries": 4,
+      "avg_submitted": 356.01,
+      "avg_paid": 53.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 7433650.17,
+      "total_services": 152964,
+      "total_beneficiaries": 3,
+      "avg_submitted": 324.09,
+      "avg_paid": 48.6
+    },
+    {
+      "year": 2023,
+      "total_payments": 7284954.04,
+      "total_services": 172005,
+      "total_beneficiaries": 4,
+      "avg_submitted": 288.99,
+      "avg_paid": 42.35
+    }
+  ],
+  "overall": {
+    "total_payments": 60910226.15,
+    "total_services": 1412724,
+    "total_beneficiaries": 36,
+    "avg_markup_ratio": 6.36,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 7411,
+      "payments": 29608501.69,
+      "avg_markup": 4.81
+    },
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 3306,
+      "payments": 11190976.87,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 1025692,
+      "payments": 10154199.61,
+      "avg_markup": 11.8
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 376315,
+      "payments": 9956547.97,
+      "avg_markup": 6.91
+    }
+  ]
+}

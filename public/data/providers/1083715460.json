@@ -1,0 +1,127 @@
+{
+  "name": "New York City Health And Hospitals Corporation",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 25393223.04,
+      "total_services": 245240,
+      "total_beneficiaries": 4,
+      "avg_submitted": 265.01,
+      "avg_paid": 103.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 24003717.67,
+      "total_services": 229359,
+      "total_beneficiaries": 4,
+      "avg_submitted": 264.66,
+      "avg_paid": 104.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 23315802.2,
+      "total_services": 222418,
+      "total_beneficiaries": 4,
+      "avg_submitted": 265.6,
+      "avg_paid": 104.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 20060753.12,
+      "total_services": 190116,
+      "total_beneficiaries": 4,
+      "avg_submitted": 284.42,
+      "avg_paid": 105.52
+    },
+    {
+      "year": 2018,
+      "total_payments": 22264342.28,
+      "total_services": 210602,
+      "total_beneficiaries": 4,
+      "avg_submitted": 289.98,
+      "avg_paid": 105.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 21354077.77,
+      "total_services": 199411,
+      "total_beneficiaries": 4,
+      "avg_submitted": 285.63,
+      "avg_paid": 107.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 19376375.48,
+      "total_services": 167925,
+      "total_beneficiaries": 4,
+      "avg_submitted": 299.18,
+      "avg_paid": 115.39
+    },
+    {
+      "year": 2021,
+      "total_payments": 19534856.05,
+      "total_services": 173092,
+      "total_beneficiaries": 4,
+      "avg_submitted": 334.29,
+      "avg_paid": 112.86
+    },
+    {
+      "year": 2022,
+      "total_payments": 18663762.21,
+      "total_services": 153449,
+      "total_beneficiaries": 4,
+      "avg_submitted": 348.47,
+      "avg_paid": 121.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 19945495.65,
+      "total_services": 157375,
+      "total_beneficiaries": 4,
+      "avg_submitted": 416.25,
+      "avg_paid": 126.74
+    }
+  ],
+  "overall": {
+    "total_payments": 213912405.47,
+    "total_services": 1948987,
+    "total_beneficiaries": 40,
+    "avg_markup_ratio": 2.73,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 396078,
+      "payments": 131478383.99,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 177917,
+      "payments": 70587681.59,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 1368563,
+      "payments": 8099752.72,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 6429,
+      "payments": 3746587.18,
+      "avg_markup": 2.5
+    }
+  ]
+}

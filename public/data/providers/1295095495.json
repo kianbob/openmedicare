@@ -1,0 +1,215 @@
+{
+  "name": "Nikila Kumar",
+  "credentials": "M.D.",
+  "specialty": "Rheumatology",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 5301.66,
+      "total_services": 84,
+      "total_beneficiaries": 2,
+      "avg_submitted": 159.64,
+      "avg_paid": 63.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 25008.07,
+      "total_services": 311,
+      "total_beneficiaries": 5,
+      "avg_submitted": 209.4,
+      "avg_paid": 80.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 639270.75,
+      "total_services": 50122,
+      "total_beneficiaries": 36,
+      "avg_submitted": 30.39,
+      "avg_paid": 12.75
+    },
+    {
+      "year": 2020,
+      "total_payments": 2651165.36,
+      "total_services": 230926,
+      "total_beneficiaries": 48,
+      "avg_submitted": 26.42,
+      "avg_paid": 11.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 2086641.97,
+      "total_services": 174490,
+      "total_beneficiaries": 43,
+      "avg_submitted": 28.46,
+      "avg_paid": 11.96
+    },
+    {
+      "year": 2022,
+      "total_payments": 2915710.08,
+      "total_services": 248133,
+      "total_beneficiaries": 49,
+      "avg_submitted": 31.51,
+      "avg_paid": 11.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 3003888.18,
+      "total_services": 236153,
+      "total_beneficiaries": 47,
+      "avg_submitted": 34.45,
+      "avg_paid": 12.72
+    }
+  ],
+  "overall": {
+    "total_payments": 11326986.07,
+    "total_services": 940219,
+    "total_beneficiaries": 230,
+    "avg_markup_ratio": 2.53,
+    "years_active": 7
+  },
+  "top_procedures": [
+    {
+      "code": "J0129",
+      "description": "Injection, abatacept, 10 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 50104,
+      "payments": 1911057.06,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "J3262",
+      "description": "Injection, tocilizumab, 1 mg",
+      "services": 386198,
+      "payments": 1691989.29,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 84184,
+      "payments": 1423358.39,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 18560,
+      "payments": 1263004.16,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "J1602",
+      "description": "Injection, golimumab, 1 mg, for intravenous use",
+      "services": 90991,
+      "payments": 1079742.5,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "J1745",
+      "description": "Injection, infliximab, excludes biosimilar, 10 mg",
+      "services": 24501,
+      "payments": 817376.83,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "J0717",
+      "description": "Injection, certolizumab pegol, 1 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 134000,
+      "payments": 681707.32,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "Q5104",
+      "description": "Injection, infliximab-abda, biosimilar, (renflexis), 10 mg",
+      "services": 14597,
+      "payments": 526223.25,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 5834,
+      "payments": 503233.49,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "J3111",
+      "description": "Injection, romosozumab-aqqg, 1 mg",
+      "services": 36750,
+      "payments": 283720.48,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 1932,
+      "payments": 194335.54,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 563,
+      "payments": 87209.92,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "J7328",
+      "description": "Hyaluronan or derivative, gelsyn-3, for intra-articular injection, 0.1 mg",
+      "services": 42840,
+      "payments": 72672.08,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 1303,
+      "payments": 67850.03,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "Q5121",
+      "description": "Injection, infliximab-axxq, biosimilar, (avsola), 10 mg",
+      "services": 2490,
+      "payments": 66759.81,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "20611",
+      "description": "Aspiration and/or injection of fluid large joint using ultrasound guidance",
+      "services": 910,
+      "payments": 58161.98,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 5368,
+      "payments": 56310.06,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "96401",
+      "description": "Administration of non-hormonal anti-neoplastic chemotherapy under skin or into muscle",
+      "services": 810,
+      "payments": 43604.56,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 4739,
+      "payments": 36592.67,
+      "avg_markup": 4.53
+    },
+    {
+      "code": "86480",
+      "description": "Tuberculosis test, gamma interferon",
+      "services": 566,
+      "payments": 34735.64,
+      "avg_markup": 2.61
+    }
+  ]
+}

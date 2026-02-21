@@ -1,0 +1,239 @@
+{
+  "name": "Robert Gelfand",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1651228.56,
+      "total_services": 96195,
+      "total_beneficiaries": 35,
+      "avg_submitted": 51.35,
+      "avg_paid": 17.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 1904538.8,
+      "total_services": 129163,
+      "total_beneficiaries": 31,
+      "avg_submitted": 43.91,
+      "avg_paid": 14.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 1474749.42,
+      "total_services": 80574,
+      "total_beneficiaries": 28,
+      "avg_submitted": 44.1,
+      "avg_paid": 18.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 1299493.12,
+      "total_services": 65573,
+      "total_beneficiaries": 31,
+      "avg_submitted": 55.21,
+      "avg_paid": 19.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 1805840.38,
+      "total_services": 136605,
+      "total_beneficiaries": 34,
+      "avg_submitted": 42.76,
+      "avg_paid": 13.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 2019160.31,
+      "total_services": 176678,
+      "total_beneficiaries": 38,
+      "avg_submitted": 60.49,
+      "avg_paid": 11.43
+    },
+    {
+      "year": 2020,
+      "total_payments": 1928483.98,
+      "total_services": 165240,
+      "total_beneficiaries": 36,
+      "avg_submitted": 59.33,
+      "avg_paid": 11.67
+    },
+    {
+      "year": 2021,
+      "total_payments": 2294063.04,
+      "total_services": 202187,
+      "total_beneficiaries": 39,
+      "avg_submitted": 57.82,
+      "avg_paid": 11.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 2669220.48,
+      "total_services": 233345,
+      "total_beneficiaries": 35,
+      "avg_submitted": 59.48,
+      "avg_paid": 11.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 4246713.2,
+      "total_services": 353005,
+      "total_beneficiaries": 40,
+      "avg_submitted": 57.17,
+      "avg_paid": 12.03
+    }
+  ],
+  "overall": {
+    "total_payments": 21293491.29,
+    "total_services": 1638565,
+    "total_beneficiaries": 347,
+    "avg_markup_ratio": 4.22,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 245920,
+      "payments": 3818347.59,
+      "avg_markup": 5.72
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 802,
+      "payments": 2390761.57,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "J3111",
+      "description": "Injection, romosozumab-aqqg, 1 mg",
+      "services": 256200,
+      "payments": 1943962.79,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "J1561",
+      "description": "Injection, immune globulin, (gamunex-c/gammaked), non-lyophilized (e.g., liquid), 500 mg",
+      "services": 46120,
+      "payments": 1708377.85,
+      "avg_markup": 4.29
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 2696,
+      "payments": 1675328.74,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "J0517",
+      "description": "Injection, benralizumab, 1 mg",
+      "services": 9150,
+      "payments": 1156077.1,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 13080,
+      "payments": 965749.39,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "J9144",
+      "description": "Injection, daratumumab, 10 mg and hyaluronidase-fihj",
+      "services": 18720,
+      "payments": 709633.88,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "J0885",
+      "description": "Injection, epoetin alfa, (for non-esrd use), 1000 units",
+      "services": 71064,
+      "payments": 640326.12,
+      "avg_markup": 6.53
+    },
+    {
+      "code": "J9041",
+      "description": "Injection, bortezomib, 0.1 mg",
+      "services": 20082,
+      "payments": 513183.44,
+      "avg_markup": 10.72
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 3796,
+      "payments": 484345.57,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "J1568",
+      "description": "Injection, immune globulin, (octagam), intravenous, non-lyophilized (e.g., liquid), 500 mg",
+      "services": 16130,
+      "payments": 475900.18,
+      "avg_markup": 5.96
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 7889,
+      "payments": 343614.57,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "J2469",
+      "description": "Injection, palonosetron hcl, 25 mcg",
+      "services": 28177,
+      "payments": 340690.77,
+      "avg_markup": 5.58
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 3093,
+      "payments": 311316.13,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 4456,
+      "payments": 301813.47,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "Q5115",
+      "description": "Injection, rituximab-abbs, biosimilar, (truxima), 10 mg",
+      "services": 6680,
+      "payments": 279008.83,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 4296,
+      "payments": 277518.88,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "J9264",
+      "description": "Injection, paclitaxel protein-bound particles, 1 mg",
+      "services": 35000,
+      "payments": 267279.59,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "Q5106",
+      "description": "Injection, epoetin alfa-epbx, biosimilar, (retacrit) (for non-esrd use), 1000 units",
+      "services": 40041,
+      "payments": 263450.95,
+      "avg_markup": 6.67
+    }
+  ]
+}

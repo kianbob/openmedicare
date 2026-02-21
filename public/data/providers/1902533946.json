@@ -1,0 +1,84 @@
+{
+  "name": "Coastal Ems Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Hyannis",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 197676.67,
+      "total_services": 2274,
+      "total_beneficiaries": 3,
+      "avg_submitted": 673.13,
+      "avg_paid": 86.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 2940025.73,
+      "total_services": 37065,
+      "total_beneficiaries": 7,
+      "avg_submitted": 575.94,
+      "avg_paid": 79.32
+    }
+  ],
+  "overall": {
+    "total_payments": 3137702.4,
+    "total_services": 39339,
+    "total_beneficiaries": 10,
+    "avg_markup_ratio": 7.29,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 3349,
+      "payments": 1504901.07,
+      "avg_markup": 7.23
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3571,
+      "payments": 1350976.72,
+      "avg_markup": 7.27
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 32306,
+      "payments": 219635.31,
+      "avg_markup": 8.09
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 63,
+      "payments": 41089.51,
+      "avg_markup": 5.9
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 15,
+      "payments": 11769.18,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 19,
+      "payments": 5519.31,
+      "avg_markup": 10.16
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 16,
+      "payments": 3811.3,
+      "avg_markup": 9.03
+    }
+  ]
+}

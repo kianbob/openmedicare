@@ -1,0 +1,42 @@
+{
+  "name": "Meds To You Llc",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "Indianapolis",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 2206281.84,
+      "total_services": 187617,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 16832887.68,
+      "total_services": 1431368,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 19039169.52,
+    "total_services": 1618985,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.02,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 1618985,
+      "payments": 19039169.52,
+      "avg_markup": 1.02
+    }
+  ]
+}

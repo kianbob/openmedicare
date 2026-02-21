@@ -1,0 +1,239 @@
+{
+  "name": "Gregory Maggass",
+  "credentials": "MD",
+  "specialty": "Radiation Oncology",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 695604.78,
+      "total_services": 3849,
+      "total_beneficiaries": 23,
+      "avg_submitted": 544.19,
+      "avg_paid": 180.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 920474.74,
+      "total_services": 4960,
+      "total_beneficiaries": 20,
+      "avg_submitted": 707.04,
+      "avg_paid": 185.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 744214.29,
+      "total_services": 4098,
+      "total_beneficiaries": 23,
+      "avg_submitted": 728.52,
+      "avg_paid": 181.6
+    },
+    {
+      "year": 2017,
+      "total_payments": 1078833.43,
+      "total_services": 5651,
+      "total_beneficiaries": 22,
+      "avg_submitted": 726.14,
+      "avg_paid": 190.91
+    },
+    {
+      "year": 2018,
+      "total_payments": 806684.62,
+      "total_services": 4095,
+      "total_beneficiaries": 30,
+      "avg_submitted": 756.24,
+      "avg_paid": 196.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 845965.32,
+      "total_services": 4249,
+      "total_beneficiaries": 27,
+      "avg_submitted": 776.2,
+      "avg_paid": 199.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 500782.96,
+      "total_services": 2536,
+      "total_beneficiaries": 18,
+      "avg_submitted": 761.4,
+      "avg_paid": 197.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 739780.1,
+      "total_services": 3717,
+      "total_beneficiaries": 19,
+      "avg_submitted": 772.4,
+      "avg_paid": 199.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 2616574.78,
+      "total_services": 10643,
+      "total_beneficiaries": 22,
+      "avg_submitted": 717.56,
+      "avg_paid": 245.85
+    },
+    {
+      "year": 2023,
+      "total_payments": 4040720.67,
+      "total_services": 21062,
+      "total_beneficiaries": 21,
+      "avg_submitted": 500.54,
+      "avg_paid": 191.85
+    }
+  ],
+  "overall": {
+    "total_payments": 12989635.69,
+    "total_services": 64860,
+    "total_beneficiaries": 225,
+    "avg_markup_ratio": 3.24,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A9607",
+      "description": "Lutetium lu 177 vipivotide tetraxetan, therapeutic, 1 millicurie",
+      "services": 24263,
+      "payments": 4659574.33,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 8339,
+      "payments": 2329005.57,
+      "avg_markup": 5.72
+    },
+    {
+      "code": "77014",
+      "description": "Ct guidance for insertion of radiation therapy fields",
+      "services": 10279,
+      "payments": 954769.86,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "77301",
+      "description": "High precision radiation therapy planning",
+      "services": 564,
+      "payments": 830653.09,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "A9699",
+      "description": "Radiopharmaceutical, therapeutic, not otherwise classified",
+      "services": 16,
+      "payments": 607756.8,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatment sessions",
+      "services": 3443,
+      "payments": 503997.87,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "77373",
+      "description": "Cranial lesion surgery using radiation over multiple sessions",
+      "services": 315,
+      "payments": 315092.13,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "77290",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 3 or more treatment areas or any number of treatment areas where special treatment is involved",
+      "services": 761,
+      "payments": 297096.19,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of radiation treatment device for high precision radiation therapy",
+      "services": 602,
+      "payments": 227050.32,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19 mev",
+      "services": 1158,
+      "payments": 225445.0,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "77418",
+      "description": "Intensity modulated radiation treatment delivery per session",
+      "services": 729,
+      "payments": 221721.14,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "77336",
+      "description": "Continuing radiation therapy consultation per week",
+      "services": 3548,
+      "payments": 218053.87,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10 mev",
+      "services": 1081,
+      "payments": 211915.86,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "77280",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 1 treatment area",
+      "services": 782,
+      "payments": 165831.48,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 894,
+      "payments": 144451.66,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "55874",
+      "description": "Injection of biodegradable material next to prostate",
+      "services": 51,
+      "payments": 135943.87,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 2225,
+      "payments": 113452.12,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "77263",
+      "description": "Complex radiation therapy planning",
+      "services": 825,
+      "payments": 104995.6,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "77334",
+      "description": "Design and construction of complex radiation treatment device",
+      "services": 929,
+      "payments": 95906.79,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "77470",
+      "description": "Special radiation treatment",
+      "services": 620,
+      "payments": 69838.57,
+      "avg_markup": 7.1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Medtech Lab Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Skokie",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 2195.66,
+      "total_services": 54,
+      "total_beneficiaries": 1,
+      "avg_submitted": 95.83,
+      "avg_paid": 40.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 10100334.72,
+      "total_services": 858872,
+      "total_beneficiaries": 1,
+      "avg_submitted": 25.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 10102530.38,
+    "total_services": 858926,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 2.13,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 858872,
+      "payments": 10100334.72,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 18,
+      "payments": 1333.5,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 18,
+      "payments": 444.5,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 18,
+      "payments": 417.66,
+      "avg_markup": 2.15
+    }
+  ]
+}

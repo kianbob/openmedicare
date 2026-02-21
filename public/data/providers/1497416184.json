@@ -1,0 +1,91 @@
+{
+  "name": "Surany Thompson",
+  "credentials": "",
+  "specialty": "Nurse Practitioner",
+  "city": "Boca Raton",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 8019.83,
+      "total_services": 91,
+      "total_beneficiaries": 1,
+      "avg_submitted": 141.58,
+      "avg_paid": 88.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 4249459.14,
+      "total_services": 6903,
+      "total_beneficiaries": 7,
+      "avg_submitted": 820.69,
+      "avg_paid": 615.6
+    }
+  ],
+  "overall": {
+    "total_payments": 4257478.97,
+    "total_services": 6994,
+    "total_beneficiaries": 8,
+    "avg_markup_ratio": 1.33,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "Q4282",
+      "description": "Cygnus dual, per square centimeter",
+      "services": 3619,
+      "payments": 3945260.02,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 2752,
+      "payments": 236555.94,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 213,
+      "payments": 26380.69,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "15002",
+      "description": "Preparation of skin graft site of trunk, arms, or legs, 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 81,
+      "payments": 19802.12,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 176,
+      "payments": 16456.97,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 79,
+      "payments": 8109.12,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 50,
+      "payments": 2857.5,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 24,
+      "payments": 2056.61,
+      "avg_markup": 2.07
+    }
+  ]
+}

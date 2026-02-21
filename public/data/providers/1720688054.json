@@ -1,0 +1,71 @@
+{
+  "name": "Foundation Medicine, Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Cambridge",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 65729398.25,
+      "total_services": 24892,
+      "total_beneficiaries": 3,
+      "avg_submitted": 4409.72,
+      "avg_paid": 2640.58
+    },
+    {
+      "year": 2022,
+      "total_payments": 86855760.63,
+      "total_services": 34323,
+      "total_beneficiaries": 4,
+      "avg_submitted": 4292.08,
+      "avg_paid": 2530.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 79745434.85,
+      "total_services": 31432,
+      "total_beneficiaries": 4,
+      "avg_submitted": 4335.45,
+      "avg_paid": 2537.08
+    }
+  ],
+  "overall": {
+    "total_payments": 232330593.73,
+    "total_services": 90647,
+    "total_beneficiaries": 11,
+    "avg_markup_ratio": 1.69,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "0037U",
+      "description": "Dna gene analysis of 324 genes in solid organ tumor tissue",
+      "services": 45782,
+      "payments": 157951552.14,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "0239U",
+      "description": "Gene analysis of 311 or more genes associated with solid organ cancer in cell-free dna, targeted sequence panel",
+      "services": 20187,
+      "payments": 69727041.08,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "81479",
+      "description": "Molecular pathology procedure",
+      "services": 1027,
+      "payments": 2950195.55,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "88360",
+      "description": "Microscopic genetic analysis of tumor, manual",
+      "services": 23651,
+      "payments": 1701804.96,
+      "avg_markup": 2.81
+    }
+  ]
+}

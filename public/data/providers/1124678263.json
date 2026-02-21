@@ -1,0 +1,80 @@
+{
+  "name": "Vector Remote Care, Llc",
+  "credentials": "",
+  "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+  "city": "Long Island City",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 547612.39,
+      "total_services": 5349,
+      "total_beneficiaries": 2,
+      "avg_submitted": 145.27,
+      "avg_paid": 102.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 3719859.56,
+      "total_services": 38573,
+      "total_beneficiaries": 2,
+      "avg_submitted": 137.68,
+      "avg_paid": 96.44
+    },
+    {
+      "year": 2021,
+      "total_payments": 4949942.83,
+      "total_services": 51798,
+      "total_beneficiaries": 2,
+      "avg_submitted": 140.32,
+      "avg_paid": 95.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 6742853.88,
+      "total_services": 73337,
+      "total_beneficiaries": 2,
+      "avg_submitted": 146.39,
+      "avg_paid": 91.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 3510900.1,
+      "total_services": 94209,
+      "total_beneficiaries": 2,
+      "avg_submitted": 148.46,
+      "avg_paid": 37.27
+    }
+  ],
+  "overall": {
+    "total_payments": 19471168.76,
+    "total_services": 263266,
+    "total_beneficiaries": 10,
+    "avg_markup_ratio": 1.96,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 97961,
+      "payments": 15494012.07,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "93296",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system or implantable defibrillator system, remote up to 90 days",
+      "services": 163035,
+      "payments": 3505424.47,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "93299",
+      "description": "Remote evaluations of implantable heart and blood vessel monitor or loop recorder system with technician analysis, review, and report, up to 30 days",
+      "services": 2270,
+      "payments": 471732.22,
+      "avg_markup": 1.32
+    }
+  ]
+}

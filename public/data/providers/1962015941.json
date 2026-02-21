@@ -1,0 +1,113 @@
+{
+  "name": "Jamie Kate Adoc",
+  "credentials": "",
+  "specialty": "Nurse Practitioner",
+  "city": "Santa Monica",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 10578.13,
+      "total_services": 425,
+      "total_beneficiaries": 1,
+      "avg_submitted": 39.0,
+      "avg_paid": 24.89
+    },
+    {
+      "year": 2022,
+      "total_payments": 49756.64,
+      "total_services": 2155,
+      "total_beneficiaries": 3,
+      "avg_submitted": 41.47,
+      "avg_paid": 23.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 4748158.65,
+      "total_services": 6599,
+      "total_beneficiaries": 9,
+      "avg_submitted": 941.58,
+      "avg_paid": 719.53
+    }
+  ],
+  "overall": {
+    "total_payments": 4808493.42,
+    "total_services": 9179,
+    "total_beneficiaries": 13,
+    "avg_markup_ratio": 1.31,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "Q4236",
+      "description": "Carepatch, per square centimeter",
+      "services": 3334,
+      "payments": 3193327.83,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4188",
+      "description": "Amnioarmor, per square centimeter",
+      "services": 1444,
+      "payments": 1075491.2,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4281",
+      "description": "Barrera sl or barrera dl, per square centimeter",
+      "services": 304,
+      "payments": 369420.8,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99211",
+      "description": "Office or other outpatient visit for the evaluation and management of established patient that may not require presence of healthcare professional",
+      "services": 2549,
+      "payments": 57722.32,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 538,
+      "payments": 52220.4,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 528,
+      "payments": 27988.8,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 191,
+      "payments": 21646.56,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99342",
+      "description": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 113,
+      "payments": 5986.26,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "11000",
+      "description": "Removal of inflamed or infected skin, up to 10% of body surface",
+      "services": 107,
+      "payments": 3471.4,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "15272",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, each additional 25.0 sq cm of wound 100.0 sq cm or less",
+      "services": 71,
+      "payments": 1217.85,
+      "avg_markup": 2.8
+    }
+  ]
+}

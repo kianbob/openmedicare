@@ -1,0 +1,162 @@
+{
+  "name": "Armstrong Ambulance Service",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Arlington",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 5807337.1,
+      "total_services": 177328,
+      "total_beneficiaries": 7,
+      "avg_submitted": 198.77,
+      "avg_paid": 32.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 5752037.35,
+      "total_services": 165643,
+      "total_beneficiaries": 7,
+      "avg_submitted": 214.56,
+      "avg_paid": 34.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 5321893.92,
+      "total_services": 165214,
+      "total_beneficiaries": 7,
+      "avg_submitted": 201.46,
+      "avg_paid": 32.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 5131244.42,
+      "total_services": 161029,
+      "total_beneficiaries": 7,
+      "avg_submitted": 199.17,
+      "avg_paid": 31.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 5686534.06,
+      "total_services": 179615,
+      "total_beneficiaries": 7,
+      "avg_submitted": 231.88,
+      "avg_paid": 31.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 5204024.11,
+      "total_services": 165804,
+      "total_beneficiaries": 7,
+      "avg_submitted": 242.3,
+      "avg_paid": 31.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 4225813.99,
+      "total_services": 129862,
+      "total_beneficiaries": 7,
+      "avg_submitted": 245.39,
+      "avg_paid": 32.54
+    },
+    {
+      "year": 2021,
+      "total_payments": 4818750.01,
+      "total_services": 139790,
+      "total_beneficiaries": 9,
+      "avg_submitted": 303.57,
+      "avg_paid": 34.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 4419603.12,
+      "total_services": 111794,
+      "total_beneficiaries": 7,
+      "avg_submitted": 331.39,
+      "avg_paid": 39.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 4562506.94,
+      "total_services": 100772,
+      "total_beneficiaries": 7,
+      "avg_submitted": 351.98,
+      "avg_paid": 45.28
+    }
+  ],
+  "overall": {
+    "total_payments": 50929745.02,
+    "total_services": 1496851,
+    "total_beneficiaries": 72,
+    "avg_markup_ratio": 7.16,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 102916,
+      "payments": 20169893.0,
+      "avg_markup": 7.42
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 41144,
+      "payments": 13641837.45,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 1328438,
+      "payments": 7694824.16,
+      "avg_markup": 8.77
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 18037,
+      "payments": 7068208.54,
+      "avg_markup": 7.49
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1552,
+      "payments": 1033404.68,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 3527,
+      "payments": 862172.71,
+      "avg_markup": 8.46
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 797,
+      "payments": 443797.66,
+      "avg_markup": 5.86
+    },
+    {
+      "code": "0012A",
+      "description": "Adm sarscov2 100mcg/0.5ml2nd",
+      "services": 216,
+      "payments": 9730.73,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "0011A",
+      "description": "Adm sarscov2 100mcg/0.5ml1st",
+      "services": 224,
+      "payments": 5876.1,
+      "avg_markup": 2.86
+    }
+  ]
+}

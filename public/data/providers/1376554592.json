@@ -1,0 +1,127 @@
+{
+  "name": "City Of Chicago",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 15310342.16,
+      "total_services": 139694,
+      "total_beneficiaries": 4,
+      "avg_submitted": 353.45,
+      "avg_paid": 109.6
+    },
+    {
+      "year": 2015,
+      "total_payments": 14186304.77,
+      "total_services": 125654,
+      "total_beneficiaries": 4,
+      "avg_submitted": 359.43,
+      "avg_paid": 112.9
+    },
+    {
+      "year": 2016,
+      "total_payments": 13720824.01,
+      "total_services": 123588,
+      "total_beneficiaries": 4,
+      "avg_submitted": 356.31,
+      "avg_paid": 111.02
+    },
+    {
+      "year": 2017,
+      "total_payments": 12840746.46,
+      "total_services": 112629,
+      "total_beneficiaries": 4,
+      "avg_submitted": 356.54,
+      "avg_paid": 114.01
+    },
+    {
+      "year": 2018,
+      "total_payments": 12539200.16,
+      "total_services": 107004,
+      "total_beneficiaries": 4,
+      "avg_submitted": 364.8,
+      "avg_paid": 117.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 10685471.69,
+      "total_services": 88785,
+      "total_beneficiaries": 4,
+      "avg_submitted": 361.99,
+      "avg_paid": 120.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 10969656.0,
+      "total_services": 89541,
+      "total_beneficiaries": 4,
+      "avg_submitted": 902.41,
+      "avg_paid": 122.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 11490111.58,
+      "total_services": 95715,
+      "total_beneficiaries": 4,
+      "avg_submitted": 872.49,
+      "avg_paid": 120.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 11471472.22,
+      "total_services": 93844,
+      "total_beneficiaries": 4,
+      "avg_submitted": 1031.73,
+      "avg_paid": 122.24
+    },
+    {
+      "year": 2023,
+      "total_payments": 12199890.22,
+      "total_services": 90984,
+      "total_beneficiaries": 4,
+      "avg_submitted": 1020.05,
+      "avg_paid": 134.09
+    }
+  ],
+  "overall": {
+    "total_payments": 125414019.27,
+    "total_services": 1067438,
+    "total_beneficiaries": 40,
+    "avg_markup_ratio": 4.81,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 262409,
+      "payments": 93075381.09,
+      "avg_markup": 4.98
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 87899,
+      "payments": 25581803.49,
+      "avg_markup": 4.56
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 712155,
+      "payments": 4212358.57,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 4975,
+      "payments": 2544476.12,
+      "avg_markup": 3.53
+    }
+  ]
+}

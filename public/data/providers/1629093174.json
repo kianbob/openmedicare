@@ -1,0 +1,100 @@
+{
+  "name": "Linda Bankovich",
+  "credentials": "DPT",
+  "specialty": "Physical Therapist in Private Practice",
+  "city": "Apo",
+  "state": "AE",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 59353.1,
+      "total_services": 3154,
+      "total_beneficiaries": 5,
+      "avg_submitted": 41.78,
+      "avg_paid": 18.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 36239.17,
+      "total_services": 1977,
+      "total_beneficiaries": 3,
+      "avg_submitted": 40.84,
+      "avg_paid": 18.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 24533.85,
+      "total_services": 1253,
+      "total_beneficiaries": 2,
+      "avg_submitted": 41.18,
+      "avg_paid": 19.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 9753638.16,
+      "total_services": 829391,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 9873764.28,
+    "total_services": 835775,
+    "total_beneficiaries": 11,
+    "avg_markup_ratio": 1.03,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 829391,
+      "payments": 9753638.16,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "97110",
+      "description": "Therapeutic exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 4208,
+      "payments": 79614.01,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "97112",
+      "description": "Therapeutic procedure to re-educate brain-to-nerve-to-muscle function, each 15 minutes",
+      "services": 937,
+      "payments": 21845.43,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "97140",
+      "description": "Manual (physical) therapy techniques to 1 or more regions, each 15 minutes",
+      "services": 635,
+      "payments": 11027.15,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "97116",
+      "description": "Walking training to 1 or more areas, each 15 minutes",
+      "services": 207,
+      "payments": 3414.61,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "G0283",
+      "description": "Electrical stimulation (unattended), to one or more areas for indication(s) other than wound care, as part of a therapy plan of care",
+      "services": 374,
+      "payments": 2898.28,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "97001",
+      "description": "Physical therapy evaluation",
+      "services": 23,
+      "payments": 1326.64,
+      "avg_markup": 1.99
+    }
+  ]
+}

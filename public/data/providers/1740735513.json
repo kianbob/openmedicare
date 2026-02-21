@@ -1,0 +1,132 @@
+{
+  "name": "Prisma Health-Upstate",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Greenville",
+  "state": "SC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 365576.02,
+      "total_services": 20538,
+      "total_beneficiaries": 6,
+      "avg_submitted": 32.1,
+      "avg_paid": 17.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 1523636.81,
+      "total_services": 89621,
+      "total_beneficiaries": 7,
+      "avg_submitted": 30.5,
+      "avg_paid": 17.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 1935470.06,
+      "total_services": 105057,
+      "total_beneficiaries": 7,
+      "avg_submitted": 32.83,
+      "avg_paid": 18.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 2082740.72,
+      "total_services": 110778,
+      "total_beneficiaries": 7,
+      "avg_submitted": 45.03,
+      "avg_paid": 18.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 2558518.27,
+      "total_services": 120447,
+      "total_beneficiaries": 7,
+      "avg_submitted": 48.02,
+      "avg_paid": 21.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 3716850.75,
+      "total_services": 153487,
+      "total_beneficiaries": 7,
+      "avg_submitted": 52.29,
+      "avg_paid": 24.22
+    },
+    {
+      "year": 2022,
+      "total_payments": 4058388.68,
+      "total_services": 150677,
+      "total_beneficiaries": 7,
+      "avg_submitted": 55.87,
+      "avg_paid": 26.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 4526974.05,
+      "total_services": 156466,
+      "total_beneficiaries": 7,
+      "avg_submitted": 55.43,
+      "avg_paid": 28.93
+    }
+  ],
+  "overall": {
+    "total_payments": 20768155.36,
+    "total_services": 907071,
+    "total_beneficiaries": 55,
+    "avg_markup_ratio": 2.06,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 35333,
+      "payments": 6285192.74,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 844382,
+      "payments": 5677027.4,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 14053,
+      "payments": 4838465.62,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 7649,
+      "payments": 2260876.16,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 4095,
+      "payments": 864704.75,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 794,
+      "payments": 460341.0,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 765,
+      "payments": 381547.69,
+      "avg_markup": 1.86
+    }
+  ]
+}

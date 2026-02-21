@@ -1,0 +1,83 @@
+{
+  "name": "Collin Perri",
+  "credentials": "",
+  "specialty": "Physician Assistant",
+  "city": "Spokane",
+  "state": "WA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 3763960.51,
+      "total_services": 3617,
+      "total_beneficiaries": 8,
+      "avg_submitted": 1359.85,
+      "avg_paid": 1040.63
+    }
+  ],
+  "overall": {
+    "total_payments": 3763960.51,
+    "total_services": 3617,
+    "total_beneficiaries": 8,
+    "avg_markup_ratio": 1.31,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4205",
+      "description": "Membrane graft or membrane wrap, per square centimeter",
+      "services": 3258,
+      "payments": 3732442.59,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "15275",
+      "description": "Application of skin substitute graft to wound of face, scalp, eyelids, mouth, neck, ears, around eyes, genitals, hands, feet, fingers, or toes, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 133,
+      "payments": 14344.05,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 71,
+      "payments": 6904.31,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit with moderate level of medical decision making",
+      "services": 66,
+      "payments": 5130.67,
+      "avg_markup": 8.71
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit with high level of medical decision making",
+      "services": 15,
+      "payments": 1743.75,
+      "avg_markup": 8.71
+    },
+    {
+      "code": "97597",
+      "description": "Removal of tissue from wound, 20.0 sq cm or less",
+      "services": 28,
+      "payments": 1536.64,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 25,
+      "payments": 956.0,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99283",
+      "description": "Emergency department visit with low level of medical decision making",
+      "services": 21,
+      "payments": 902.5,
+      "avg_markup": 10.59
+    }
+  ]
+}

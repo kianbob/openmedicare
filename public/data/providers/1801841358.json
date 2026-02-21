@@ -1,0 +1,223 @@
+{
+  "name": "Michael Mcginnis",
+  "credentials": "M.D.",
+  "specialty": "Pathology",
+  "city": "Hollister",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 2600.51,
+      "total_services": 106,
+      "total_beneficiaries": 3,
+      "avg_submitted": 113.87,
+      "avg_paid": 24.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 30455.44,
+      "total_services": 969,
+      "total_beneficiaries": 9,
+      "avg_submitted": 139.42,
+      "avg_paid": 31.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 30577.83,
+      "total_services": 902,
+      "total_beneficiaries": 9,
+      "avg_submitted": 143.0,
+      "avg_paid": 33.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 30009.92,
+      "total_services": 889,
+      "total_beneficiaries": 9,
+      "avg_submitted": 142.97,
+      "avg_paid": 33.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 39241.24,
+      "total_services": 1041,
+      "total_beneficiaries": 16,
+      "avg_submitted": 154.51,
+      "avg_paid": 37.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 60568.62,
+      "total_services": 1496,
+      "total_beneficiaries": 13,
+      "avg_submitted": 158.27,
+      "avg_paid": 40.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 762752.08,
+      "total_services": 9906,
+      "total_beneficiaries": 15,
+      "avg_submitted": 151.12,
+      "avg_paid": 77.0
+    },
+    {
+      "year": 2023,
+      "total_payments": 4160950.68,
+      "total_services": 55344,
+      "total_beneficiaries": 18,
+      "avg_submitted": 161.44,
+      "avg_paid": 75.18
+    }
+  ],
+  "overall": {
+    "total_payments": 5117156.32,
+    "total_services": 70653,
+    "total_beneficiaries": 92,
+    "avg_markup_ratio": 2.2,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 17649,
+      "payments": 1616593.18,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "88312",
+      "description": "Special stained specimen slides to identify organisms including interpretation and report",
+      "services": 12516,
+      "payments": 1161827.46,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "88381",
+      "description": "Preparation of specimen, manual",
+      "services": 3085,
+      "payments": 525414.16,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 9810,
+      "payments": 489921.24,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "88313",
+      "description": "Special stained specimen slides to examine tissue including interpretation and report",
+      "services": 6225,
+      "payments": 421858.19,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "87799",
+      "description": "Detection test by nucleic acid for organism, quantification",
+      "services": 7050,
+      "payments": 295856.55,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "G0452",
+      "description": "Molecular pathology procedure; physician interpretation and report",
+      "services": 5676,
+      "payments": 214088.54,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 1274,
+      "payments": 150263.73,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 1963,
+      "payments": 67504.55,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 789,
+      "payments": 41381.97,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "88341",
+      "description": "Special stained specimen slides to examine tissue, each additional procedure",
+      "services": 687,
+      "payments": 17756.01,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "99451",
+      "description": "Telephone, internet, or electronic health record assessment and management with written report by consulting physician, at least 5 minutes",
+      "services": 676,
+      "payments": 16968.66,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "88307",
+      "description": "Pathology examination of tissue using a microscope, moderately high complexity",
+      "services": 202,
+      "payments": 15159.76,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "88173",
+      "description": "Evaluation of fine needle aspirate with interpretation and report",
+      "services": 172,
+      "payments": 10842.82,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99211",
+      "description": "Office or other outpatient visit for the evaluation and management of established patient that may not require presence of healthcare professional",
+      "services": 412,
+      "payments": 9023.43,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "80502",
+      "description": "Comprehensive, clinical pathology consultation",
+      "services": 132,
+      "payments": 8267.46,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "88177",
+      "description": "Pap test, evaluation of fine needle aspirate, immediate, each additional evaluation episode",
+      "services": 368,
+      "payments": 7419.67,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "88342",
+      "description": "Special stained specimen slides to examine tissue, initial procedure",
+      "services": 231,
+      "payments": 7394.17,
+      "avg_markup": 5.5
+    },
+    {
+      "code": "87640",
+      "description": "Detection test by nucleic acid for staphylococcus aureus (bacteria), amplified probe technique",
+      "services": 151,
+      "payments": 5192.89,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "87651",
+      "description": "Detection test by nucleic acid for strep (streptococcus, group a), amplified probe technique",
+      "services": 151,
+      "payments": 5192.89,
+      "avg_markup": 1.31
+    }
+  ]
+}

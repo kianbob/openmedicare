@@ -1,0 +1,70 @@
+{
+  "name": "Cipher Global Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Warrenville",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 301363.58,
+      "total_services": 7647,
+      "total_beneficiaries": 4,
+      "avg_submitted": 113.74,
+      "avg_paid": 39.41
+    },
+    {
+      "year": 2023,
+      "total_payments": 45105969.89,
+      "total_services": 3831438,
+      "total_beneficiaries": 4,
+      "avg_submitted": 15.05,
+      "avg_paid": 11.77
+    }
+  ],
+  "overall": {
+    "total_payments": 45407333.47,
+    "total_services": 3839085,
+    "total_beneficiaries": 8,
+    "avg_markup_ratio": 1.29,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 3829498,
+      "payments": 45029533.7,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 2638,
+      "payments": 194193.75,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 2616,
+      "payments": 64190.75,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 2651,
+      "payments": 61044.4,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "87426",
+      "description": "Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus",
+      "services": 1682,
+      "payments": 58370.87,
+      "avg_markup": 2.83
+    }
+  ]
+}

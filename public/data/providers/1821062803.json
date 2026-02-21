@@ -1,0 +1,239 @@
+{
+  "name": "Michael Osman",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Sterling",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1337935.29,
+      "total_services": 17821,
+      "total_beneficiaries": 17,
+      "avg_submitted": 160.44,
+      "avg_paid": 75.08
+    },
+    {
+      "year": 2015,
+      "total_payments": 1363856.58,
+      "total_services": 18542,
+      "total_beneficiaries": 18,
+      "avg_submitted": 162.98,
+      "avg_paid": 73.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 1527727.1,
+      "total_services": 19801,
+      "total_beneficiaries": 19,
+      "avg_submitted": 168.79,
+      "avg_paid": 77.15
+    },
+    {
+      "year": 2017,
+      "total_payments": 1692084.71,
+      "total_services": 21353,
+      "total_beneficiaries": 20,
+      "avg_submitted": 170.8,
+      "avg_paid": 79.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 1794312.94,
+      "total_services": 21084,
+      "total_beneficiaries": 17,
+      "avg_submitted": 177.38,
+      "avg_paid": 85.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 2404365.52,
+      "total_services": 22487,
+      "total_beneficiaries": 17,
+      "avg_submitted": 204.3,
+      "avg_paid": 106.92
+    },
+    {
+      "year": 2020,
+      "total_payments": 2348117.18,
+      "total_services": 17039,
+      "total_beneficiaries": 19,
+      "avg_submitted": 280.69,
+      "avg_paid": 137.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 2788086.82,
+      "total_services": 18379,
+      "total_beneficiaries": 16,
+      "avg_submitted": 397.04,
+      "avg_paid": 151.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 2826372.13,
+      "total_services": 18089,
+      "total_beneficiaries": 17,
+      "avg_submitted": 532.49,
+      "avg_paid": 156.25
+    },
+    {
+      "year": 2023,
+      "total_payments": 3158430.4,
+      "total_services": 23260,
+      "total_beneficiaries": 15,
+      "avg_submitted": 591.91,
+      "avg_paid": 135.79
+    }
+  ],
+  "overall": {
+    "total_payments": 21241288.67,
+    "total_services": 197855,
+    "total_beneficiaries": 175,
+    "avg_markup_ratio": 2.67,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 13373,
+      "payments": 9721078.58,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 41686,
+      "payments": 4030621.6,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 13617,
+      "payments": 1199568.2,
+      "avg_markup": 5.59
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 31018,
+      "payments": 1048373.81,
+      "avg_markup": 5.32
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 12621,
+      "payments": 1002979.35,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 37508,
+      "payments": 758345.57,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 2611,
+      "payments": 708116.21,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 8725,
+      "payments": 457918.34,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 1197,
+      "payments": 429619.71,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 895,
+      "payments": 338967.5,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "67210",
+      "description": "Destruction of growth of retina using a laser",
+      "services": 725,
+      "payments": 304055.16,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 3514,
+      "payments": 206177.66,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "92202",
+      "description": "Extended exam of the back part of the eye with optic nerve drawing",
+      "services": 14337,
+      "payments": 186080.65,
+      "avg_markup": 6.36
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1465,
+      "payments": 181330.74,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 5340,
+      "payments": 154492.17,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 2563,
+      "payments": 140326.78,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 884,
+      "payments": 79765.69,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane from the retina",
+      "services": 52,
+      "payments": 57217.94,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 2242,
+      "payments": 49884.73,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "92201",
+      "description": "Extended exam of the back part of the eye with retinal drawing",
+      "services": 2433,
+      "payments": 48732.13,
+      "avg_markup": 4.34
+    }
+  ]
+}

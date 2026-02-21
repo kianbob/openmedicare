@@ -1,0 +1,223 @@
+{
+  "name": "Scott Cooper",
+  "credentials": "PA-C",
+  "specialty": "Physician Assistant",
+  "city": "Ardmore",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 5444.4,
+      "total_services": 192,
+      "total_beneficiaries": 2,
+      "avg_submitted": 92.21,
+      "avg_paid": 28.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 597.31,
+      "total_services": 45,
+      "total_beneficiaries": 2,
+      "avg_submitted": 46.38,
+      "avg_paid": 13.27
+    },
+    {
+      "year": 2018,
+      "total_payments": 3258.18,
+      "total_services": 119,
+      "total_beneficiaries": 3,
+      "avg_submitted": 79.11,
+      "avg_paid": 27.38
+    },
+    {
+      "year": 2019,
+      "total_payments": 15268.0,
+      "total_services": 777,
+      "total_beneficiaries": 10,
+      "avg_submitted": 60.8,
+      "avg_paid": 19.65
+    },
+    {
+      "year": 2020,
+      "total_payments": 40952.91,
+      "total_services": 492,
+      "total_beneficiaries": 3,
+      "avg_submitted": 392.99,
+      "avg_paid": 83.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 54684.34,
+      "total_services": 2521,
+      "total_beneficiaries": 18,
+      "avg_submitted": 52.37,
+      "avg_paid": 21.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 947900.26,
+      "total_services": 1793,
+      "total_beneficiaries": 11,
+      "avg_submitted": 688.35,
+      "avg_paid": 528.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 4371448.92,
+      "total_services": 5721,
+      "total_beneficiaries": 8,
+      "avg_submitted": 1004.19,
+      "avg_paid": 764.11
+    }
+  ],
+  "overall": {
+    "total_payments": 5439554.32,
+    "total_services": 11660,
+    "total_beneficiaries": 57,
+    "avg_markup_ratio": 1.36,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "A2001",
+      "description": "Innovamatrix ac, per square centimeter",
+      "services": 2974,
+      "payments": 2472172.44,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 1716,
+      "payments": 1816182.79,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4253",
+      "description": "Zenith amniotic membrane, per square centimeter",
+      "services": 1230,
+      "payments": 928420.26,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 1019,
+      "payments": 47234.01,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit, problem with significant threat to life or function",
+      "services": 276,
+      "payments": 30086.84,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 295,
+      "payments": 27845.9,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 310,
+      "payments": 25326.26,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "15275",
+      "description": "Application of skin substitute graft to wound of face, scalp, eyelids, mouth, neck, ears, around eyes, genitals, hands, feet, fingers, or toes, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 167,
+      "payments": 16646.0,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 167,
+      "payments": 13241.8,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 185,
+      "payments": 12542.46,
+      "avg_markup": 4.81
+    },
+    {
+      "code": "87428",
+      "description": "Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus and influenza",
+      "services": 142,
+      "payments": 8095.33,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 135,
+      "payments": 6380.51,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "87880",
+      "description": "Detection test by immunoassay with direct visual observation for streptococcus, group a (strep)",
+      "services": 298,
+      "payments": 4901.52,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "87426",
+      "description": "Elisa detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 106,
+      "payments": 4794.38,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "87804",
+      "description": "Detection test by immunoassay for influenza virus",
+      "services": 257,
+      "payments": 4224.97,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "96372",
+      "description": "Injection of drug or substance under skin or into muscle",
+      "services": 414,
+      "payments": 3578.81,
+      "avg_markup": 5.27
+    },
+    {
+      "code": "99283",
+      "description": "Emergency department visit, moderately severe problem",
+      "services": 93,
+      "payments": 2951.25,
+      "avg_markup": 6.84
+    },
+    {
+      "code": "99343",
+      "description": "New patient home visit, typically 45 minutes",
+      "services": 34,
+      "payments": 2691.5,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "J0561",
+      "description": "Injection, penicillin g benzathine, 100,000 units",
+      "services": 192,
+      "payments": 2206.2,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 21,
+      "payments": 1978.62,
+      "avg_markup": 2.12
+    }
+  ]
+}

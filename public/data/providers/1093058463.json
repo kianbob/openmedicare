@@ -1,0 +1,191 @@
+{
+  "name": "Laura Purdy",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Calabasas",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 45322.73,
+      "total_services": 1028,
+      "total_beneficiaries": 13,
+      "avg_submitted": 120.82,
+      "avg_paid": 44.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 1059328.08,
+      "total_services": 24149,
+      "total_beneficiaries": 41,
+      "avg_submitted": 95.22,
+      "avg_paid": 43.87
+    },
+    {
+      "year": 2022,
+      "total_payments": 1030465.86,
+      "total_services": 27475,
+      "total_beneficiaries": 40,
+      "avg_submitted": 93.45,
+      "avg_paid": 37.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 3716545.11,
+      "total_services": 283651,
+      "total_beneficiaries": 10,
+      "avg_submitted": 25.12,
+      "avg_paid": 13.1
+    }
+  ],
+  "overall": {
+    "total_payments": 5851661.78,
+    "total_services": 336303,
+    "total_beneficiaries": 104,
+    "avg_markup_ratio": 2.07,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 274305,
+      "payments": 3225824.16,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 11814,
+      "payments": 579225.77,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 5999,
+      "payments": 263574.53,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 3122,
+      "payments": 254612.85,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "98976",
+      "description": "Device supply with scheduled recording and transmission for remote monitoring of respiratory system, per 30 days",
+      "services": 4900,
+      "payments": 216684.01,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 4435,
+      "payments": 200856.32,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1573,
+      "payments": 180307.63,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99453",
+      "description": "Remote monitoring of physiologic parameters, initial set-up and patient education on use of equipment",
+      "services": 4748,
+      "payments": 84140.48,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "0064A",
+      "description": "Adm sarscov2 50mcg/0.25mlbst",
+      "services": 2209,
+      "payments": 82328.24,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99458",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, each additional 20 minutes",
+      "services": 2265,
+      "payments": 80384.45,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 484,
+      "payments": 75133.06,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "90694",
+      "description": "Influenza virus vaccine, quadrivalent (aiiv4), inactivated, adjuvanted, preservative free, for injection into muscle, 0.5 ml dosage",
+      "services": 1061,
+      "payments": 69366.73,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "90662",
+      "description": "Influenza vaccine split virus, preservative free",
+      "services": 1034,
+      "payments": 67209.58,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "0013A",
+      "description": "Adm sarscov2 100mcg/0.5ml3rd",
+      "services": 1355,
+      "payments": 51119.39,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "87426",
+      "description": "Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus",
+      "services": 1263,
+      "payments": 44588.26,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 847,
+      "payments": 43428.97,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2422,
+      "payments": 41633.33,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "0031A",
+      "description": "Adm sarscov2 vac ad26 .5ml",
+      "services": 1078,
+      "payments": 39197.48,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "0003A",
+      "description": "Adm sarscov2 30mcg/0.3ml 3rd",
+      "services": 847,
+      "payments": 31731.25,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "98980",
+      "description": "Remote therapeutic monitoring treatment management services by physician or other qualified health care professional, first 20 minutes per calendar month",
+      "services": 577,
+      "payments": 24279.74,
+      "avg_markup": 2.38
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "name": "Saman Fakheri",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Northridge",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 477262.96,
+      "total_services": 11385,
+      "total_beneficiaries": 21,
+      "avg_submitted": 188.56,
+      "avg_paid": 41.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 675837.52,
+      "total_services": 6769,
+      "total_beneficiaries": 28,
+      "avg_submitted": 279.01,
+      "avg_paid": 99.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 972257.58,
+      "total_services": 7606,
+      "total_beneficiaries": 22,
+      "avg_submitted": 346.93,
+      "avg_paid": 127.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 1052935.77,
+      "total_services": 8798,
+      "total_beneficiaries": 23,
+      "avg_submitted": 361.08,
+      "avg_paid": 119.68
+    },
+    {
+      "year": 2019,
+      "total_payments": 1542186.05,
+      "total_services": 12746,
+      "total_beneficiaries": 24,
+      "avg_submitted": 345.97,
+      "avg_paid": 120.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 1538792.39,
+      "total_services": 13910,
+      "total_beneficiaries": 31,
+      "avg_submitted": 305.06,
+      "avg_paid": 110.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 2340495.98,
+      "total_services": 18511,
+      "total_beneficiaries": 29,
+      "avg_submitted": 296.1,
+      "avg_paid": 126.44
+    },
+    {
+      "year": 2022,
+      "total_payments": 3236106.81,
+      "total_services": 21248,
+      "total_beneficiaries": 28,
+      "avg_submitted": 404.09,
+      "avg_paid": 152.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 3179732.97,
+      "total_services": 18605,
+      "total_beneficiaries": 35,
+      "avg_submitted": 491.39,
+      "avg_paid": 170.91
+    }
+  ],
+  "overall": {
+    "total_payments": 15015608.03,
+    "total_services": 119578,
+    "total_beneficiaries": 241,
+    "avg_markup_ratio": 2.78,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 9864,
+      "payments": 1818557.82,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound of heart with color-depicted blood flow, rate, direction and valve function",
+      "services": 12264,
+      "payments": 1501148.68,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 50 minutes",
+      "services": 16556,
+      "payments": 1476526.92,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "78492",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress",
+      "services": 1042,
+      "payments": 1372640.46,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 2738,
+      "payments": 1117316.73,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound of both sides of head and neck blood flow",
+      "services": 4874,
+      "payments": 858189.16,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 8808,
+      "payments": 853572.2,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 6182,
+      "payments": 844214.43,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care with moderate level of medical decision making, if using time, at least 75 minutes",
+      "services": 4532,
+      "payments": 752839.63,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "93229",
+      "description": "Electrocardiogram (ecg) up to 30 days continuous with transmission of patient triggered events with review and report by health care professional",
+      "services": 663,
+      "payments": 499920.94,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound of leg arteries or artery grafts",
+      "services": 1990,
+      "payments": 459893.75,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "78431",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress with concurrent ct scan",
+      "services": 264,
+      "payments": 449597.28,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "93978",
+      "description": "Complete ultrasound of aorta, vena cava, groin vessels or bypass grafts",
+      "services": 2506,
+      "payments": 400133.38,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 35 minutes",
+      "services": 5847,
+      "payments": 361043.89,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 2062,
+      "payments": 342681.73,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 6897,
+      "payments": 306061.34,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine studies of heart muscle at rest and with stress and spect",
+      "services": 761,
+      "payments": 286548.09,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound study of arm or leg veins with compression and maneuvers",
+      "services": 2005,
+      "payments": 286329.03,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound of heart with continuous electrocardiogram (ecg) during rest, exercise and/or drug induced stress with review and report",
+      "services": 924,
+      "payments": 194735.15,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart stress test with electrocardiogram (ecg) with supervision and review by physician",
+      "services": 2004,
+      "payments": 120848.8,
+      "avg_markup": 5.36
+    }
+  ]
+}

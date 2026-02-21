@@ -1,0 +1,239 @@
+{
+  "name": "Lance Scott",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Oklahoma City",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 547570.5,
+      "total_services": 7457,
+      "total_beneficiaries": 19,
+      "avg_submitted": 209.15,
+      "avg_paid": 73.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 716142.94,
+      "total_services": 8064,
+      "total_beneficiaries": 19,
+      "avg_submitted": 241.32,
+      "avg_paid": 88.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 834925.76,
+      "total_services": 9826,
+      "total_beneficiaries": 19,
+      "avg_submitted": 247.01,
+      "avg_paid": 84.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 1005351.54,
+      "total_services": 10786,
+      "total_beneficiaries": 18,
+      "avg_submitted": 267.22,
+      "avg_paid": 93.21
+    },
+    {
+      "year": 2018,
+      "total_payments": 1321903.48,
+      "total_services": 11913,
+      "total_beneficiaries": 20,
+      "avg_submitted": 298.64,
+      "avg_paid": 110.96
+    },
+    {
+      "year": 2019,
+      "total_payments": 1683590.72,
+      "total_services": 11200,
+      "total_beneficiaries": 15,
+      "avg_submitted": 385.06,
+      "avg_paid": 150.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 1795222.91,
+      "total_services": 10444,
+      "total_beneficiaries": 18,
+      "avg_submitted": 443.8,
+      "avg_paid": 171.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 2232621.85,
+      "total_services": 12755,
+      "total_beneficiaries": 18,
+      "avg_submitted": 454.46,
+      "avg_paid": 175.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 2561798.28,
+      "total_services": 21489,
+      "total_beneficiaries": 22,
+      "avg_submitted": 303.31,
+      "avg_paid": 119.21
+    },
+    {
+      "year": 2023,
+      "total_payments": 3707662.54,
+      "total_services": 70252,
+      "total_beneficiaries": 18,
+      "avg_submitted": 138.57,
+      "avg_paid": 52.78
+    }
+  ],
+  "overall": {
+    "total_payments": 16406790.52,
+    "total_services": 174186,
+    "total_beneficiaries": 186,
+    "avg_markup_ratio": 2.64,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 7788,
+      "payments": 5736299.79,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 10603,
+      "payments": 2317671.66,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 63480,
+      "payments": 1851621.82,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 16866,
+      "payments": 1326718.53,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 13954,
+      "payments": 987259.26,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 8961,
+      "payments": 761243.34,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 22474,
+      "payments": 664539.59,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 9844,
+      "payments": 563863.75,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 331,
+      "payments": 513468.51,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 7809,
+      "payments": 280836.96,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2487,
+      "payments": 275877.58,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 457,
+      "payments": 173947.81,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "Q5128",
+      "description": "Injection, ranibizumab-eqrn (cimerli), biosimilar, 0.1 mg",
+      "services": 774,
+      "payments": 168345.58,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 140,
+      "payments": 129632.31,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 327,
+      "payments": 111038.6,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 1082,
+      "payments": 107765.53,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 253,
+      "payments": 87200.94,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach with removal of internal limiting membrane of retina",
+      "services": 69,
+      "payments": 61037.88,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "Q5124",
+      "description": "Injection, ranibizumab-nuna, biosimilar, (byooviz), 0.1 mg",
+      "services": 315,
+      "payments": 50449.16,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "J2781",
+      "description": "Injection, pegcetacoplan, intravitreal, 1 mg",
+      "services": 375,
+      "payments": 45135.25,
+      "avg_markup": 2.55
+    }
+  ]
+}

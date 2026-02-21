@@ -1,0 +1,115 @@
+{
+  "name": "Alpha Diagnostics, Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Burlington",
+  "state": "NC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 22737.12,
+      "total_services": 128,
+      "total_beneficiaries": 2,
+      "avg_submitted": 299.63,
+      "avg_paid": 177.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 32637.0,
+      "total_services": 205,
+      "total_beneficiaries": 2,
+      "avg_submitted": 299.54,
+      "avg_paid": 159.2
+    },
+    {
+      "year": 2021,
+      "total_payments": 38794.94,
+      "total_services": 962,
+      "total_beneficiaries": 4,
+      "avg_submitted": 193.83,
+      "avg_paid": 40.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 50338.97,
+      "total_services": 1279,
+      "total_beneficiaries": 3,
+      "avg_submitted": 189.6,
+      "avg_paid": 39.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 10969315.53,
+      "total_services": 279152,
+      "total_beneficiaries": 6,
+      "avg_submitted": 51.88,
+      "avg_paid": 39.3
+    }
+  ],
+  "overall": {
+    "total_payments": 11113823.56,
+    "total_services": 281726,
+    "total_beneficiaries": 17,
+    "avg_markup_ratio": 1.35,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 59763,
+      "payments": 4393225.5,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "86328",
+      "description": "Test for detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antibody, qualitative or semiquantitative",
+      "services": 59144,
+      "payments": 2624219.28,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "87426",
+      "description": "Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus",
+      "services": 59517,
+      "payments": 2060596.13,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 59750,
+      "payments": 1464088.5,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 42520,
+      "payments": 500035.2,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 190,
+      "payments": 45976.2,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 699,
+      "payments": 16284.83,
+      "avg_markup": 8.56
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 143,
+      "payments": 9397.92,
+      "avg_markup": 4.55
+    }
+  ]
+}

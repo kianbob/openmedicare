@@ -1,0 +1,57 @@
+{
+  "name": "Pharmaneek Inc",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "Indianapolis",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 2778.21,
+      "total_services": 67,
+      "total_beneficiaries": 1,
+      "avg_submitted": 82.77,
+      "avg_paid": 41.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 25742.15,
+      "total_services": 661,
+      "total_beneficiaries": 1,
+      "avg_submitted": 95.0,
+      "avg_paid": 38.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 6229366.16,
+      "total_services": 527831,
+      "total_beneficiaries": 2,
+      "avg_submitted": 12.14,
+      "avg_paid": 11.8
+    }
+  ],
+  "overall": {
+    "total_payments": 6257886.52,
+    "total_services": 528559,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 1.03,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 526960,
+      "payments": 6195003.36,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G0108",
+      "description": "Diabetes outpatient self-management training services, individual, per 30 minutes",
+      "services": 1599,
+      "payments": 62883.16,
+      "avg_markup": 2.4
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Tiffany Lopez",
+  "credentials": "NP",
+  "specialty": "Nurse Practitioner",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 60653.28,
+      "total_services": 928,
+      "total_beneficiaries": 6,
+      "avg_submitted": 242.34,
+      "avg_paid": 65.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 892.52,
+      "total_services": 20,
+      "total_beneficiaries": 1,
+      "avg_submitted": 208.0,
+      "avg_paid": 44.63
+    },
+    {
+      "year": 2020,
+      "total_payments": 7396.87,
+      "total_services": 69,
+      "total_beneficiaries": 3,
+      "avg_submitted": 311.76,
+      "avg_paid": 107.2
+    },
+    {
+      "year": 2021,
+      "total_payments": 20459.01,
+      "total_services": 239,
+      "total_beneficiaries": 5,
+      "avg_submitted": 264.48,
+      "avg_paid": 85.6
+    },
+    {
+      "year": 2023,
+      "total_payments": 5249668.11,
+      "total_services": 5466,
+      "total_beneficiaries": 6,
+      "avg_submitted": 1342.68,
+      "avg_paid": 960.42
+    }
+  ],
+  "overall": {
+    "total_payments": 5339069.79,
+    "total_services": 6722,
+    "total_beneficiaries": 21,
+    "avg_markup_ratio": 1.43,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "Q4236",
+      "description": "Carepatch, per square centimeter",
+      "services": 5160,
+      "payments": 5219439.19,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 544,
+      "payments": 31994.66,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 160,
+      "payments": 17628.81,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 140,
+      "payments": 12087.38,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 133,
+      "payments": 10012.48,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 173,
+      "payments": 9502.78,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "15275",
+      "description": "Application of skin substitute graft to wound of face, scalp, eyelids, mouth, neck, ears, around eyes, genitals, hands, feet, fingers, or toes, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 85,
+      "payments": 9129.06,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 58,
+      "payments": 5866.81,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 29,
+      "payments": 5374.87,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 37,
+      "payments": 4277.25,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99443",
+      "description": "Telephone medical discussion with physician, 21-30 minutes",
+      "services": 52,
+      "payments": 3587.56,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 43,
+      "payments": 2838.75,
+      "avg_markup": 5.8
+    },
+    {
+      "code": "99345",
+      "description": "Residence visit for new patient with high level of medical decision making, per day, if using time, at least 75 minutes",
+      "services": 20,
+      "payments": 2717.66,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 44,
+      "payments": 2637.4,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 44,
+      "payments": 1975.13,
+      "avg_markup": 3.52
+    }
+  ]
+}

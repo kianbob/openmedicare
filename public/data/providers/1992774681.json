@@ -1,0 +1,239 @@
+{
+  "name": "Daniel Taheri",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 875802.73,
+      "total_services": 13064,
+      "total_beneficiaries": 38,
+      "avg_submitted": 150.4,
+      "avg_paid": 67.04
+    },
+    {
+      "year": 2015,
+      "total_payments": 841556.61,
+      "total_services": 7448,
+      "total_beneficiaries": 35,
+      "avg_submitted": 232.36,
+      "avg_paid": 112.99
+    },
+    {
+      "year": 2016,
+      "total_payments": 818030.46,
+      "total_services": 7499,
+      "total_beneficiaries": 38,
+      "avg_submitted": 267.06,
+      "avg_paid": 109.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 945920.09,
+      "total_services": 9853,
+      "total_beneficiaries": 33,
+      "avg_submitted": 314.05,
+      "avg_paid": 96.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 1328408.15,
+      "total_services": 24640,
+      "total_beneficiaries": 40,
+      "avg_submitted": 185.46,
+      "avg_paid": 53.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 1317692.95,
+      "total_services": 24968,
+      "total_beneficiaries": 48,
+      "avg_submitted": 193.21,
+      "avg_paid": 52.78
+    },
+    {
+      "year": 2020,
+      "total_payments": 713358.15,
+      "total_services": 13687,
+      "total_beneficiaries": 35,
+      "avg_submitted": 197.02,
+      "avg_paid": 52.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 423625.0,
+      "total_services": 4151,
+      "total_beneficiaries": 28,
+      "avg_submitted": 365.72,
+      "avg_paid": 102.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 209139.51,
+      "total_services": 3126,
+      "total_beneficiaries": 23,
+      "avg_submitted": 256.55,
+      "avg_paid": 66.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 3312874.83,
+      "total_services": 22017,
+      "total_beneficiaries": 43,
+      "avg_submitted": 504.01,
+      "avg_paid": 150.47
+    }
+  ],
+  "overall": {
+    "total_payments": 10786408.48,
+    "total_services": 130453,
+    "total_beneficiaries": 361,
+    "avg_markup_ratio": 3.18,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "17311",
+      "description": "Removal and microscopic exam of growth of head, neck, hands, feet, or genitals, 1-5 tissue blocks",
+      "services": 2141,
+      "payments": 1025691.15,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 17402,
+      "payments": 1004261.04,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "77280",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 1 treatment area",
+      "services": 3572,
+      "payments": 840549.7,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "77600",
+      "description": "Use of externally generated heat to increase temperature of cancer cell, heating to depths 4.0 cm or less",
+      "services": 1758,
+      "payments": 819030.42,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of precancer skin growth, 15 or more growths",
+      "services": 4793,
+      "payments": 603967.4,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "17312",
+      "description": "Removal and microscopic exam of growth of head, neck, hands, feet, or genitals, each additional stage, 1-5 tissue blocks",
+      "services": 1698,
+      "payments": 542462.23,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "G6001",
+      "description": "Ultrasonic guidance for placement of radiation therapy fields",
+      "services": 2935,
+      "payments": 464148.11,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "0394T",
+      "description": "High dose rate electronic brachytherapy, external",
+      "services": 3412,
+      "payments": 455160.8,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 4207,
+      "payments": 353151.07,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 4022,
+      "payments": 307488.24,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "0182T",
+      "description": "High dose rate electronic brachytherapy",
+      "services": 204,
+      "payments": 298203.68,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of skin growth, 1-14 growths",
+      "services": 3373,
+      "payments": 277636.59,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "Q4131",
+      "description": "Epifix or epicord, per square centimeter",
+      "services": 2125,
+      "payments": 268652.0,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of precancer skin growth, 1 growth",
+      "services": 6593,
+      "payments": 257058.84,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "11102",
+      "description": "Biopsy of related skin growth, first growth",
+      "services": 3687,
+      "payments": 241985.08,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "13121",
+      "description": "Complicated repair of wound of scalp, arms, or legs, 2.6-7.5 cm",
+      "services": 951,
+      "payments": 231671.62,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "17313",
+      "description": "Removal and microscopic exam of growth of trunk, arms, or legs, 1-5 tissue blocks",
+      "services": 472,
+      "payments": 218976.91,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 3110,
+      "payments": 216005.41,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "13101",
+      "description": "Complicated repair of wound of trunk, 2.6-7.5 cm",
+      "services": 632,
+      "payments": 164634.71,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "11301",
+      "description": "Shaving of skin growth of body, arms, or legs, 0.6-1.0 cm",
+      "services": 2275,
+      "payments": 157001.9,
+      "avg_markup": 3.6
+    }
+  ]
+}

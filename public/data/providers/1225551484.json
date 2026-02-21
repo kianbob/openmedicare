@@ -1,0 +1,112 @@
+{
+  "name": "Bethany Jameson",
+  "credentials": "FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Gilbert",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 3564.05,
+      "total_services": 94,
+      "total_beneficiaries": 4,
+      "avg_submitted": 69.9,
+      "avg_paid": 37.92
+    },
+    {
+      "year": 2023,
+      "total_payments": 49920483.67,
+      "total_services": 50051,
+      "total_beneficiaries": 7,
+      "avg_submitted": 1276.48,
+      "avg_paid": 997.39
+    }
+  ],
+  "overall": {
+    "total_payments": 49924047.72,
+    "total_services": 50145,
+    "total_beneficiaries": 11,
+    "avg_markup_ratio": 1.28,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 39987,
+      "payments": 42318310.09,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4253",
+      "description": "Zenith amniotic membrane, per square centimeter",
+      "services": 8228,
+      "payments": 6123952.05,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4205",
+      "description": "Membrane graft or membrane wrap, per square centimeter",
+      "services": 1252,
+      "payments": 1438031.59,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "15274",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, each additional 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 308,
+      "payments": 16433.11,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "15273",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 114,
+      "payments": 15653.93,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 68,
+      "payments": 6649.51,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "15272",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, each additional 25.0 sq cm of wound 100.0 sq cm or less",
+      "services": 94,
+      "payments": 1453.39,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 29,
+      "payments": 1250.48,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 17,
+      "payments": 875.34,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 18,
+      "payments": 838.53,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 30,
+      "payments": 599.7,
+      "avg_markup": 1.3
+    }
+  ]
+}

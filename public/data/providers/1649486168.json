@@ -1,0 +1,239 @@
+{
+  "name": "Rajiv Agarwal",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Humble",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 464508.19,
+      "total_services": 37124,
+      "total_beneficiaries": 31,
+      "avg_submitted": 57.72,
+      "avg_paid": 12.51
+    },
+    {
+      "year": 2015,
+      "total_payments": 517782.48,
+      "total_services": 39243,
+      "total_beneficiaries": 31,
+      "avg_submitted": 63.97,
+      "avg_paid": 13.19
+    },
+    {
+      "year": 2016,
+      "total_payments": 430389.61,
+      "total_services": 29577,
+      "total_beneficiaries": 31,
+      "avg_submitted": 69.32,
+      "avg_paid": 14.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 630952.56,
+      "total_services": 31799,
+      "total_beneficiaries": 28,
+      "avg_submitted": 76.74,
+      "avg_paid": 19.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 793965.82,
+      "total_services": 21101,
+      "total_beneficiaries": 40,
+      "avg_submitted": 131.15,
+      "avg_paid": 37.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 1016681.91,
+      "total_services": 6514,
+      "total_beneficiaries": 20,
+      "avg_submitted": 569.07,
+      "avg_paid": 156.08
+    },
+    {
+      "year": 2020,
+      "total_payments": 2169205.81,
+      "total_services": 49130,
+      "total_beneficiaries": 33,
+      "avg_submitted": 182.02,
+      "avg_paid": 44.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 3514014.48,
+      "total_services": 53136,
+      "total_beneficiaries": 41,
+      "avg_submitted": 276.02,
+      "avg_paid": 66.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 3842689.24,
+      "total_services": 57784,
+      "total_beneficiaries": 46,
+      "avg_submitted": 269.04,
+      "avg_paid": 66.5
+    },
+    {
+      "year": 2023,
+      "total_payments": 3255983.45,
+      "total_services": 49960,
+      "total_beneficiaries": 41,
+      "avg_submitted": 265.04,
+      "avg_paid": 65.17
+    }
+  ],
+  "overall": {
+    "total_payments": 16636173.55,
+    "total_services": 375368,
+    "total_beneficiaries": 342,
+    "avg_markup_ratio": 4.09,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "78431",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress with concurrent ct scan",
+      "services": 2279,
+      "payments": 4393348.19,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 3292,
+      "payments": 2014277.64,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "93229",
+      "description": "Electrocardiogram (ecg) up to 30 days continuous with transmission of patient triggered events with review and report by health care professional",
+      "services": 2606,
+      "payments": 1616205.88,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 14631,
+      "payments": 1309310.78,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "78492",
+      "description": "Multiple nuclear medicine studies of blood flow in heart muscle at rest and with stress",
+      "services": 930,
+      "payments": 958032.52,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 15139,
+      "payments": 686697.28,
+      "avg_markup": 9.82
+    },
+    {
+      "code": "36482",
+      "description": "Chemical destruction of first incompetent vein of arm or leg using imaging guidance",
+      "services": 388,
+      "payments": 579950.48,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound of heart with color-depicted blood flow, rate, direction and valve function",
+      "services": 4055,
+      "payments": 541420.34,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine studies of heart muscle at rest and with stress and spect",
+      "services": 1134,
+      "payments": 417014.43,
+      "avg_markup": 4.92
+    },
+    {
+      "code": "36465",
+      "description": "Injection of chemical agent into single incompetent vein of leg using ultrasound guidance",
+      "services": 332,
+      "payments": 386446.4,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "78434",
+      "description": "Nuclear medicine study of heart muscle blood flow by pet",
+      "services": 2262,
+      "payments": 334546.27,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 2095,
+      "payments": 256324.27,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound of leg arteries or artery grafts",
+      "services": 1297,
+      "payments": 247037.16,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound of both sides of head and neck blood flow",
+      "services": 1715,
+      "payments": 238803.79,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart stress test with electrocardiogram (ecg) with supervision and review by physician",
+      "services": 4359,
+      "payments": 230563.75,
+      "avg_markup": 6.71
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound study of arm or leg veins with compression and maneuvers",
+      "services": 1715,
+      "payments": 228718.95,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "G0166",
+      "description": "External counterpulsation, per treatment session",
+      "services": 2409,
+      "payments": 213652.29,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "75574",
+      "description": "Ct scan of blood vessels and grafts of heart with contrast",
+      "services": 863,
+      "payments": 213167.81,
+      "avg_markup": 5.88
+    },
+    {
+      "code": "74174",
+      "description": "Ct scan of blood vessels of abdomen and pelvis with contrast",
+      "services": 550,
+      "payments": 167272.53,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 35 minutes",
+      "services": 2736,
+      "payments": 158009.44,
+      "avg_markup": 3.47
+    }
+  ]
+}

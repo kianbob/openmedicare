@@ -1,0 +1,210 @@
+{
+  "name": "Nicholas Bai",
+  "credentials": "PA",
+  "specialty": "Physician Assistant",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 222065.11,
+      "total_services": 2237,
+      "total_beneficiaries": 11,
+      "avg_submitted": 163.03,
+      "avg_paid": 99.27
+    },
+    {
+      "year": 2016,
+      "total_payments": 23150.66,
+      "total_services": 179,
+      "total_beneficiaries": 2,
+      "avg_submitted": 371.79,
+      "avg_paid": 129.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 51778.25,
+      "total_services": 366,
+      "total_beneficiaries": 4,
+      "avg_submitted": 441.97,
+      "avg_paid": 141.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 52952.87,
+      "total_services": 495,
+      "total_beneficiaries": 4,
+      "avg_submitted": 311.94,
+      "avg_paid": 106.98
+    },
+    {
+      "year": 2019,
+      "total_payments": 103784.27,
+      "total_services": 925,
+      "total_beneficiaries": 4,
+      "avg_submitted": 312.64,
+      "avg_paid": 112.2
+    },
+    {
+      "year": 2020,
+      "total_payments": 200972.79,
+      "total_services": 1622,
+      "total_beneficiaries": 4,
+      "avg_submitted": 331.74,
+      "avg_paid": 123.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 1588284.91,
+      "total_services": 7251,
+      "total_beneficiaries": 5,
+      "avg_submitted": 402.12,
+      "avg_paid": 219.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 11529986.54,
+      "total_services": 22399,
+      "total_beneficiaries": 7,
+      "avg_submitted": 692.53,
+      "avg_paid": 514.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 5966113.79,
+      "total_services": 11414,
+      "total_beneficiaries": 8,
+      "avg_submitted": 798.27,
+      "avg_paid": 522.7
+    }
+  ],
+  "overall": {
+    "total_payments": 19739089.19,
+    "total_services": 46888,
+    "total_beneficiaries": 49,
+    "avg_markup_ratio": 1.47,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "Q4253",
+      "description": "Zenith amniotic membrane, per square centimeter",
+      "services": 15736,
+      "payments": 10683750.82,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "Q4248",
+      "description": "Dermacyte amniotic membrane allograft, per square centimeter",
+      "services": 4302,
+      "payments": 3487524.93,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "Q4217",
+      "description": "Woundfix, biowound, woundfix plus, biowound plus, woundfix xplus or biowound xplus, per square centimeter",
+      "services": 6412,
+      "payments": 2658139.81,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "11043",
+      "description": "Removal of muscle and/or tissue, 20.0 sq cm or less",
+      "services": 9024,
+      "payments": 1538876.32,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "Q4259",
+      "description": "Celera dual layer or celera dual membrane, per square centimeter",
+      "services": 730,
+      "payments": 576326.27,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 4775,
+      "payments": 417113.36,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "11046",
+      "description": "Removal of muscle and/or tissue, each additional 20.0 sq cm or less",
+      "services": 2672,
+      "payments": 141578.02,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 1492,
+      "payments": 124888.44,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 404,
+      "payments": 35229.25,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "49450",
+      "description": "Replacement of stomach or large bowel tube using fluoroscopic guidance with contrast, accessed through the skin",
+      "services": 56,
+      "payments": 27483.58,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "11045",
+      "description": "Removal of skin and tissue, each additional 20.0 sq cm or less",
+      "services": 916,
+      "payments": 26922.84,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99343",
+      "description": "New patient home visit, typically 45 minutes",
+      "services": 61,
+      "payments": 5503.38,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 46,
+      "payments": 5195.55,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 164,
+      "payments": 4869.32,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 58,
+      "payments": 3975.64,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99342",
+      "description": "New patient home visit, typically 30 minutes",
+      "services": 19,
+      "payments": 1082.74,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "17250",
+      "description": "Application of chemical agent to excessive wound tissue",
+      "services": 21,
+      "payments": 628.92,
+      "avg_markup": 1.67
+    }
+  ]
+}

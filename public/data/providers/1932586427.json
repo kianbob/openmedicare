@@ -1,0 +1,231 @@
+{
+  "name": "Acutis Diagnostics Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Hicksville",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 33969.03,
+      "total_services": 1650,
+      "total_beneficiaries": 8,
+      "avg_submitted": 101.38,
+      "avg_paid": 20.59
+    },
+    {
+      "year": 2016,
+      "total_payments": 860045.56,
+      "total_services": 7433,
+      "total_beneficiaries": 9,
+      "avg_submitted": 822.49,
+      "avg_paid": 115.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 3716478.05,
+      "total_services": 57152,
+      "total_beneficiaries": 9,
+      "avg_submitted": 394.15,
+      "avg_paid": 65.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 4987994.87,
+      "total_services": 28107,
+      "total_beneficiaries": 10,
+      "avg_submitted": 1112.64,
+      "avg_paid": 177.46
+    },
+    {
+      "year": 2019,
+      "total_payments": 4083577.56,
+      "total_services": 24522,
+      "total_beneficiaries": 10,
+      "avg_submitted": 1012.0,
+      "avg_paid": 166.53
+    },
+    {
+      "year": 2020,
+      "total_payments": 17762702.6,
+      "total_services": 161982,
+      "total_beneficiaries": 14,
+      "avg_submitted": 244.0,
+      "avg_paid": 109.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 14700197.75,
+      "total_services": 266956,
+      "total_beneficiaries": 24,
+      "avg_submitted": 114.99,
+      "avg_paid": 55.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 8198172.26,
+      "total_services": 160969,
+      "total_beneficiaries": 27,
+      "avg_submitted": 113.04,
+      "avg_paid": 50.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 5211356.76,
+      "total_services": 115547,
+      "total_beneficiaries": 36,
+      "avg_submitted": 112.5,
+      "avg_paid": 45.1
+    }
+  ],
+  "overall": {
+    "total_payments": 59554494.44,
+    "total_services": 824318,
+    "total_beneficiaries": 147,
+    "avg_markup_ratio": 3.13,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 317191,
+      "payments": 27188937.75,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 28678,
+      "payments": 6981158.83,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 32565,
+      "payments": 6318652.91,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 112504,
+      "payments": 3893158.31,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 148849,
+      "payments": 3707085.0,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 17394,
+      "payments": 2609160.22,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "G0480",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 20039,
+      "payments": 2248054.97,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug, by chemistry analyzers",
+      "services": 32935,
+      "payments": 2097972.25,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "87633",
+      "description": "Detection test for multiple types of respiratory virus",
+      "services": 4183,
+      "payments": 1733952.08,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "87481",
+      "description": "Detection test for candida species (yeast), amplified probe technique",
+      "services": 19821,
+      "payments": 685069.13,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 7267,
+      "payments": 365219.82,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "87640",
+      "description": "Detection test by nucleic acid for staphylococcus aureus (bacteria), amplified probe technique",
+      "services": 8630,
+      "payments": 298523.16,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "87653",
+      "description": "Detection test by nucleic acid for strep (streptococcus, group b), amplified probe technique",
+      "services": 7392,
+      "payments": 255026.61,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "87651",
+      "description": "Detection test by nucleic acid for strep (streptococcus, group a), amplified probe technique",
+      "services": 5931,
+      "payments": 205289.55,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "87631",
+      "description": "Detection test by nucleic acid for multiple types of respiratory virus, multiple types or subtypes, 3-5 targets",
+      "services": 1388,
+      "payments": 194909.54,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "87507",
+      "description": "Detection test by nucleic acid for digestive tract pathogen, multiple types or subtypes, 12-25 targets",
+      "services": 370,
+      "payments": 155309.39,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 14263,
+      "payments": 97880.73,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "83986",
+      "description": "Body fluid pH level",
+      "services": 14314,
+      "payments": 64286.62,
+      "avg_markup": 7.5
+    },
+    {
+      "code": "87581",
+      "description": "Detection test by nucleic acid for mycoplasma pneumoniae (bacteria), amplified probe technique",
+      "services": 1702,
+      "payments": 59442.63,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "87486",
+      "description": "Detection test by nucleic acid for chlamydia pneumoniae, amplified probe technique",
+      "services": 1544,
+      "payments": 53982.41,
+      "avg_markup": 2.86
+    }
+  ]
+}

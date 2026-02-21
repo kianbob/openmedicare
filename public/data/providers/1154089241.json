@@ -1,0 +1,56 @@
+{
+  "name": "Fast Lab Technologies Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 5875.78,
+      "total_services": 218,
+      "total_beneficiaries": 3,
+      "avg_submitted": 118.58,
+      "avg_paid": 26.95
+    },
+    {
+      "year": 2023,
+      "total_payments": 9348517.68,
+      "total_services": 219529,
+      "total_beneficiaries": 2,
+      "avg_submitted": 325.0,
+      "avg_paid": 42.58
+    }
+  ],
+  "overall": {
+    "total_payments": 9354393.46,
+    "total_services": 219747,
+    "total_beneficiaries": 5,
+    "avg_markup_ratio": 7.63,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 173649,
+      "payments": 7041466.95,
+      "avg_markup": 8.01
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 45918,
+      "payments": 2308757.04,
+      "avg_markup": 6.46
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 180,
+      "payments": 4169.47,
+      "avg_markup": 3.24
+    }
+  ]
+}

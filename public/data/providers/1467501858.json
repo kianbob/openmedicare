@@ -1,0 +1,239 @@
+{
+  "name": "David Hoch",
+  "credentials": "M.D.",
+  "specialty": "Clinical Cardiac Electrophysiology",
+  "city": "Roslyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1393553.22,
+      "total_services": 38290,
+      "total_beneficiaries": 41,
+      "avg_submitted": 268.57,
+      "avg_paid": 36.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 1847256.54,
+      "total_services": 45381,
+      "total_beneficiaries": 43,
+      "avg_submitted": 304.62,
+      "avg_paid": 40.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 3158773.12,
+      "total_services": 56845,
+      "total_beneficiaries": 47,
+      "avg_submitted": 334.73,
+      "avg_paid": 55.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 3666827.23,
+      "total_services": 62257,
+      "total_beneficiaries": 43,
+      "avg_submitted": 329.1,
+      "avg_paid": 58.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 4144110.17,
+      "total_services": 66940,
+      "total_beneficiaries": 43,
+      "avg_submitted": 364.5,
+      "avg_paid": 61.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 5216354.86,
+      "total_services": 72636,
+      "total_beneficiaries": 40,
+      "avg_submitted": 506.83,
+      "avg_paid": 71.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 6429388.18,
+      "total_services": 69476,
+      "total_beneficiaries": 42,
+      "avg_submitted": 695.48,
+      "avg_paid": 92.54
+    },
+    {
+      "year": 2021,
+      "total_payments": 7806563.09,
+      "total_services": 86667,
+      "total_beneficiaries": 38,
+      "avg_submitted": 715.34,
+      "avg_paid": 90.08
+    },
+    {
+      "year": 2022,
+      "total_payments": 7995304.28,
+      "total_services": 88406,
+      "total_beneficiaries": 41,
+      "avg_submitted": 800.41,
+      "avg_paid": 90.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 4578680.24,
+      "total_services": 84928,
+      "total_beneficiaries": 42,
+      "avg_submitted": 875.5,
+      "avg_paid": 53.91
+    }
+  ],
+  "overall": {
+    "total_payments": 46236810.93,
+    "total_services": 671826,
+    "total_beneficiaries": 420,
+    "avg_markup_ratio": 8.22,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 70276,
+      "payments": 12629059.81,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "93299",
+      "description": "Remote evaluations of implantable heart and blood vessel monitor or loop recorder system with technician analysis, review, and report, up to 30 days",
+      "services": 37708,
+      "payments": 7980241.29,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "33285",
+      "description": "Insertion of heart rhythm monitor under skin",
+      "services": 1523,
+      "payments": 5980839.3,
+      "avg_markup": 12.53
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 34497,
+      "payments": 3537147.67,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report only",
+      "services": 217304,
+      "payments": 1622633.3,
+      "avg_markup": 4.74
+    },
+    {
+      "code": "93298",
+      "description": "Evaluation of cardiac rhythm monitor system, remote up to 30 days",
+      "services": 60800,
+      "payments": 1453987.62,
+      "avg_markup": 27.14
+    },
+    {
+      "code": "93297",
+      "description": "Evaluation of implantable heart and blood vessel monitoring system, remote up to 30 days",
+      "services": 51537,
+      "payments": 1206440.18,
+      "avg_markup": 16.37
+    },
+    {
+      "code": "93296",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system or implantable defibrillator system, remote up to 90 days",
+      "services": 47170,
+      "payments": 1103673.3,
+      "avg_markup": 15.71
+    },
+    {
+      "code": "93620",
+      "description": "Insertion of catheters for recording and pacing of right heart chambers rhythm and induction of abnormal rhythm",
+      "services": 1733,
+      "payments": 1097269.25,
+      "avg_markup": 9.46
+    },
+    {
+      "code": "93295",
+      "description": "Evaluation of single, dual, or multiple lead implantable defibrillator system, remote up to 90 days",
+      "services": 23718,
+      "payments": 1071368.53,
+      "avg_markup": 12.08
+    },
+    {
+      "code": "93656",
+      "description": "Comprehensive electrophysiologic evaluation with catheter destruction of abnormality causing atrial fibrillation (uncoordinated contraction of upper chambers of heart) by pulmonary vein isolation",
+      "services": 864,
+      "payments": 978826.91,
+      "avg_markup": 20.65
+    },
+    {
+      "code": "93653",
+      "description": "Comprehensive electrophysiologic evaluation with catheter destruction of abnormality of upper chamber of heart causing supraventricular tachycardia (rapid heart rate)",
+      "services": 874,
+      "payments": 741975.7,
+      "avg_markup": 17.12
+    },
+    {
+      "code": "93294",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system, remote up to 90 days",
+      "services": 23798,
+      "payments": 631943.8,
+      "avg_markup": 10.25
+    },
+    {
+      "code": "93655",
+      "description": "Insertion of catheters and destruction of tissue to treat abnormal heart rhythm",
+      "services": 1321,
+      "payments": 533056.98,
+      "avg_markup": 17.19
+    },
+    {
+      "code": "93000",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report",
+      "services": 36698,
+      "payments": 520669.9,
+      "avg_markup": 8.17
+    },
+    {
+      "code": "93657",
+      "description": "Destruction of tissue of upper heart chamber through tube to treat abnormal heart rhythm",
+      "services": 1254,
+      "payments": 505633.41,
+      "avg_markup": 17.64
+    },
+    {
+      "code": "93609",
+      "description": "Insertion of tube in upper and/or lower heart chambers to record and identify origin of abnormal heart rhythm",
+      "services": 1669,
+      "payments": 467135.28,
+      "avg_markup": 9.63
+    },
+    {
+      "code": "93280",
+      "description": "Programming of dual lead pacemaker system",
+      "services": 7738,
+      "payments": 456021.86,
+      "avg_markup": 6.41
+    },
+    {
+      "code": "93282",
+      "description": "Programming of single lead implantable defibrillator system",
+      "services": 6217,
+      "payments": 378275.79,
+      "avg_markup": 5.85
+    },
+    {
+      "code": "93291",
+      "description": "Evaluation of cardiac rhythm monitor system",
+      "services": 6697,
+      "payments": 303694.73,
+      "avg_markup": 11.21
+    }
+  ]
+}

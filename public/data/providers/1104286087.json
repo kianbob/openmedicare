@@ -1,0 +1,132 @@
+{
+  "name": "Etmc Ems",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Tyler",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 2731967.39,
+      "total_services": 84403,
+      "total_beneficiaries": 4,
+      "avg_submitted": 49.78,
+      "avg_paid": 32.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 7578453.04,
+      "total_services": 302351,
+      "total_beneficiaries": 7,
+      "avg_submitted": 39.81,
+      "avg_paid": 25.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 7097056.08,
+      "total_services": 284137,
+      "total_beneficiaries": 7,
+      "avg_submitted": 39.98,
+      "avg_paid": 24.98
+    },
+    {
+      "year": 2019,
+      "total_payments": 7547024.89,
+      "total_services": 290215,
+      "total_beneficiaries": 7,
+      "avg_submitted": 41.33,
+      "avg_paid": 26.0
+    },
+    {
+      "year": 2020,
+      "total_payments": 7104940.91,
+      "total_services": 270215,
+      "total_beneficiaries": 7,
+      "avg_submitted": 41.22,
+      "avg_paid": 26.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 7148641.47,
+      "total_services": 251649,
+      "total_beneficiaries": 7,
+      "avg_submitted": 46.08,
+      "avg_paid": 28.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 6944624.16,
+      "total_services": 233643,
+      "total_beneficiaries": 7,
+      "avg_submitted": 89.32,
+      "avg_paid": 29.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 7363052.93,
+      "total_services": 240325,
+      "total_beneficiaries": 7,
+      "avg_submitted": 125.42,
+      "avg_paid": 30.64
+    }
+  ],
+  "overall": {
+    "total_payments": 53515760.87,
+    "total_services": 1956938,
+    "total_beneficiaries": 53,
+    "avg_markup_ratio": 2.12,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 88380,
+      "payments": 29764828.41,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 1821973,
+      "payments": 12891229.06,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 14126,
+      "payments": 3953020.99,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 20920,
+      "payments": 3743118.18,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 9202,
+      "payments": 1997497.13,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 2071,
+      "payments": 1009794.44,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 266,
+      "payments": 156272.66,
+      "avg_markup": 1.73
+    }
+  ]
+}

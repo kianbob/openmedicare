@@ -1,0 +1,239 @@
+{
+  "name": "Julie Bell",
+  "credentials": "MD",
+  "specialty": "Pathology",
+  "city": "Vero Beach",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 49940.21,
+      "total_services": 1619,
+      "total_beneficiaries": 16,
+      "avg_submitted": 144.69,
+      "avg_paid": 30.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 61800.96,
+      "total_services": 2079,
+      "total_beneficiaries": 20,
+      "avg_submitted": 117.33,
+      "avg_paid": 29.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 58444.08,
+      "total_services": 1949,
+      "total_beneficiaries": 17,
+      "avg_submitted": 114.66,
+      "avg_paid": 29.99
+    },
+    {
+      "year": 2017,
+      "total_payments": 58565.73,
+      "total_services": 1900,
+      "total_beneficiaries": 19,
+      "avg_submitted": 122.75,
+      "avg_paid": 30.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 57722.02,
+      "total_services": 1977,
+      "total_beneficiaries": 17,
+      "avg_submitted": 133.04,
+      "avg_paid": 29.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 181303.42,
+      "total_services": 6184,
+      "total_beneficiaries": 20,
+      "avg_submitted": 125.57,
+      "avg_paid": 29.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 127041.64,
+      "total_services": 4366,
+      "total_beneficiaries": 18,
+      "avg_submitted": 152.92,
+      "avg_paid": 29.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 108303.4,
+      "total_services": 3802,
+      "total_beneficiaries": 24,
+      "avg_submitted": 177.14,
+      "avg_paid": 28.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 1995072.22,
+      "total_services": 203499,
+      "total_beneficiaries": 93,
+      "avg_submitted": 24.04,
+      "avg_paid": 9.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 3286606.06,
+      "total_services": 313060,
+      "total_beneficiaries": 114,
+      "avg_submitted": 23.71,
+      "avg_paid": 10.5
+    }
+  ],
+  "overall": {
+    "total_payments": 5984799.74,
+    "total_services": 540435,
+    "total_beneficiaries": 358,
+    "avg_markup_ratio": 2.61,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 66806,
+      "payments": 687377.31,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 97570,
+      "payments": 574505.95,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 29607,
+      "payments": 486535.01,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 34597,
+      "payments": 451481.01,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 52916,
+      "payments": 400691.91,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 12697,
+      "payments": 382317.5,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 11943,
+      "payments": 344855.49,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 6485,
+      "payments": 261704.98,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 24494,
+      "payments": 231624.86,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin b-12) level",
+      "services": 11967,
+      "payments": 175892.84,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "88341",
+      "description": "Special stained specimen slides to examine tissue, each additional procedure",
+      "services": 5741,
+      "payments": 129030.17,
+      "avg_markup": 6.8
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement, total",
+      "services": 6709,
+      "payments": 120209.62,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 8445,
+      "payments": 111984.26,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "88307",
+      "description": "Pathology examination of tissue using a microscope, moderately high complexity",
+      "services": 1583,
+      "payments": 105557.39,
+      "avg_markup": 5.29
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals (calcium, total)",
+      "services": 12742,
+      "payments": 105017.89,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical), free",
+      "services": 11644,
+      "payments": 102320.41,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level, serum",
+      "services": 4972,
+      "payments": 71316.46,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "88342",
+      "description": "Special stained specimen slides to examine tissue, initial procedure",
+      "services": 2363,
+      "payments": 67246.41,
+      "avg_markup": 6.49
+    },
+    {
+      "code": "83550",
+      "description": "Iron binding capacity",
+      "services": 7533,
+      "payments": 64059.0,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "81001",
+      "description": "Manual urinalysis test with examination using microscope, automated",
+      "services": 19210,
+      "payments": 59362.96,
+      "avg_markup": 2.27
+    }
+  ]
+}

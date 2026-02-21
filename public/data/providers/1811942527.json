@@ -1,0 +1,239 @@
+{
+  "name": "David Johnson",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "West Columbia",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2534785.92,
+      "total_services": 13829,
+      "total_beneficiaries": 14,
+      "avg_submitted": 408.74,
+      "avg_paid": 183.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 3458669.56,
+      "total_services": 16676,
+      "total_beneficiaries": 14,
+      "avg_submitted": 457.27,
+      "avg_paid": 207.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 3552184.94,
+      "total_services": 16609,
+      "total_beneficiaries": 17,
+      "avg_submitted": 472.51,
+      "avg_paid": 213.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 4222109.1,
+      "total_services": 18166,
+      "total_beneficiaries": 13,
+      "avg_submitted": 525.83,
+      "avg_paid": 232.42
+    },
+    {
+      "year": 2018,
+      "total_payments": 3992600.38,
+      "total_services": 18689,
+      "total_beneficiaries": 11,
+      "avg_submitted": 486.9,
+      "avg_paid": 213.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 3977281.28,
+      "total_services": 20212,
+      "total_beneficiaries": 11,
+      "avg_submitted": 470.78,
+      "avg_paid": 196.78
+    },
+    {
+      "year": 2020,
+      "total_payments": 3736557.63,
+      "total_services": 18068,
+      "total_beneficiaries": 9,
+      "avg_submitted": 506.49,
+      "avg_paid": 206.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 3417225.5,
+      "total_services": 14574,
+      "total_beneficiaries": 11,
+      "avg_submitted": 586.22,
+      "avg_paid": 234.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 2948768.89,
+      "total_services": 11658,
+      "total_beneficiaries": 10,
+      "avg_submitted": 668.46,
+      "avg_paid": 252.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 2953136.67,
+      "total_services": 10507,
+      "total_beneficiaries": 12,
+      "avg_submitted": 842.96,
+      "avg_paid": 281.06
+    }
+  ],
+  "overall": {
+    "total_payments": 34793319.87,
+    "total_services": 158988,
+    "total_beneficiaries": 122,
+    "avg_markup_ratio": 2.4,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 78935,
+      "payments": 22142938.47,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 11440,
+      "payments": 8163450.54,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 18667,
+      "payments": 1565391.99,
+      "avg_markup": 11.6
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 28653,
+      "payments": 832220.49,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 6757,
+      "payments": 553278.95,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 8209,
+      "payments": 480670.42,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 2261,
+      "payments": 257285.23,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "Q5128",
+      "description": "Injection, ranibizumab-eqrn (cimerli), biosimilar, 0.1 mg",
+      "services": 944,
+      "payments": 205399.25,
+      "avg_markup": 5.95
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 132,
+      "payments": 115781.66,
+      "avg_markup": 6.11
+    },
+    {
+      "code": "92235",
+      "description": "Imaging of blood vessels in back of eye using fluorescein dye",
+      "services": 1593,
+      "payments": 115514.16,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "67210",
+      "description": "Destruction of growth of retina using a laser",
+      "services": 253,
+      "payments": 96787.14,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 46,
+      "payments": 82933.94,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 169,
+      "payments": 79025.71,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "67040",
+      "description": "Laser destruction of eye fluid (vitreous) between the lens and retina",
+      "services": 24,
+      "payments": 21830.63,
+      "avg_markup": 6.99
+    },
+    {
+      "code": "67113",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 15,
+      "payments": 19504.95,
+      "avg_markup": 5.35
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 342,
+      "payments": 18041.63,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 167,
+      "payments": 16877.69,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "76512",
+      "description": "2d ultrasound scan of eye tissue and structures",
+      "services": 251,
+      "payments": 12167.47,
+      "avg_markup": 8.38
+    },
+    {
+      "code": "67145",
+      "description": "Preventive retinal detachment treatment by heat or laser, 1 or more sessions",
+      "services": 26,
+      "payments": 10168.61,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "67515",
+      "description": "Injection of medication or substance into membrane covering eyeball",
+      "services": 32,
+      "payments": 2341.2,
+      "avg_markup": 3.06
+    }
+  ]
+}

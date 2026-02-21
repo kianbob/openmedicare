@@ -1,0 +1,42 @@
+{
+  "name": "Groveway Pharmacy, Inc.",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "Humble",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 4042077.95,
+      "total_services": 343715,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 6682584.72,
+      "total_services": 568247,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 10724662.67,
+    "total_services": 911962,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.02,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 911962,
+      "payments": 10724662.67,
+      "avg_markup": 1.02
+    }
+  ]
+}

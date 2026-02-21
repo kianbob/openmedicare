@@ -1,0 +1,41 @@
+{
+  "name": "Elisabeth Balken",
+  "credentials": "FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Mesa",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 23280165.83,
+      "total_services": 29665,
+      "total_beneficiaries": 2,
+      "avg_submitted": 1001.09,
+      "avg_paid": 784.77
+    }
+  ],
+  "overall": {
+    "total_payments": 23280165.83,
+    "total_services": 29665,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.28,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 29496,
+      "payments": 23271012.79,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "15274",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, each additional 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 169,
+      "payments": 9153.04,
+      "avg_markup": 1.64
+    }
+  ]
+}

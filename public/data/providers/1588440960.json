@@ -1,0 +1,48 @@
+{
+  "name": "Gp Diagnostics",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Miami",
+  "state": "FL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 4118103.34,
+      "total_services": 35603,
+      "total_beneficiaries": 3,
+      "avg_submitted": 173.06,
+      "avg_paid": 115.67
+    }
+  ],
+  "overall": {
+    "total_payments": 4118103.34,
+    "total_services": 35603,
+    "total_beneficiaries": 3,
+    "avg_markup_ratio": 1.5,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "0240U",
+      "description": "Respiratory infectious agent detection by rna for severe acute respiratory syndrome coronavirus 2 (covid-19), influenza a, and influenza b) in upper respiratory specimen, each reported as detected or not detected",
+      "services": 25926,
+      "payments": 3623936.28,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "U0002",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc",
+      "services": 9592,
+      "payments": 482285.76,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "87636",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19) and influenza virus types a and b",
+      "services": 85,
+      "payments": 11881.3,
+      "avg_markup": 1.43
+    }
+  ]
+}

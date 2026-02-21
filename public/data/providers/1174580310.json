@@ -1,0 +1,239 @@
+{
+  "name": "Elena Flagg",
+  "credentials": "M.D.",
+  "specialty": "Rheumatology",
+  "city": "Williamsburg",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2180569.08,
+      "total_services": 65486,
+      "total_beneficiaries": 34,
+      "avg_submitted": 70.45,
+      "avg_paid": 33.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 3191561.64,
+      "total_services": 132064,
+      "total_beneficiaries": 35,
+      "avg_submitted": 46.82,
+      "avg_paid": 24.17
+    },
+    {
+      "year": 2016,
+      "total_payments": 4018417.86,
+      "total_services": 195778,
+      "total_beneficiaries": 34,
+      "avg_submitted": 38.78,
+      "avg_paid": 20.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 4405010.93,
+      "total_services": 197077,
+      "total_beneficiaries": 38,
+      "avg_submitted": 42.39,
+      "avg_paid": 22.35
+    },
+    {
+      "year": 2018,
+      "total_payments": 5245198.49,
+      "total_services": 254473,
+      "total_beneficiaries": 38,
+      "avg_submitted": 38.73,
+      "avg_paid": 20.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 6678424.98,
+      "total_services": 371547,
+      "total_beneficiaries": 40,
+      "avg_submitted": 36.12,
+      "avg_paid": 17.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 4500959.43,
+      "total_services": 290051,
+      "total_beneficiaries": 31,
+      "avg_submitted": 31.61,
+      "avg_paid": 15.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 4521070.77,
+      "total_services": 341673,
+      "total_beneficiaries": 29,
+      "avg_submitted": 29.13,
+      "avg_paid": 13.23
+    },
+    {
+      "year": 2022,
+      "total_payments": 4134909.66,
+      "total_services": 310292,
+      "total_beneficiaries": 30,
+      "avg_submitted": 32.07,
+      "avg_paid": 13.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 3754067.14,
+      "total_services": 276059,
+      "total_beneficiaries": 27,
+      "avg_submitted": 31.72,
+      "avg_paid": 13.6
+    }
+  ],
+  "overall": {
+    "total_payments": 42630189.98,
+    "total_services": 2434500,
+    "total_beneficiaries": 336,
+    "avg_markup_ratio": 2.06,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J1745",
+      "description": "Injection, infliximab, excludes biosimilar, 10 mg",
+      "services": 260416,
+      "payments": 13120680.01,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "J0129",
+      "description": "Injection, abatacept, 10 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 325826,
+      "payments": 11832517.81,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "J0717",
+      "description": "Injection, certolizumab pegol, 1 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 650600,
+      "payments": 3580546.02,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 236705,
+      "payments": 3458247.07,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "J3262",
+      "description": "Injection, tocilizumab, 1 mg",
+      "services": 779576,
+      "payments": 3055704.48,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 15247,
+      "payments": 1239868.57,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 10081,
+      "payments": 1088948.19,
+      "avg_markup": 5.36
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 1650,
+      "payments": 1055286.23,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "J3245",
+      "description": "Injection, tildrakizumab, 1 mg",
+      "services": 9500,
+      "payments": 1034778.61,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 9930,
+      "payments": 738219.86,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "J1602",
+      "description": "Injection, golimumab, 1 mg, for intravenous use",
+      "services": 45253,
+      "payments": 623730.13,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "96401",
+      "description": "Administration of non-hormonal anti-neoplastic chemotherapy under skin or into muscle",
+      "services": 3676,
+      "payments": 216668.16,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "96372",
+      "description": "Injection of drug or substance under skin or into muscle",
+      "services": 13629,
+      "payments": 193231.06,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 3427,
+      "payments": 180118.33,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 17903,
+      "payments": 161432.42,
+      "avg_markup": 4.55
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of fluid from large joint",
+      "services": 2985,
+      "payments": 134570.87,
+      "avg_markup": 4.24
+    },
+    {
+      "code": "77080",
+      "description": "Dxa bone density measurement of hip, pelvis, spine",
+      "services": 3237,
+      "payments": 130988.84,
+      "avg_markup": 4.94
+    },
+    {
+      "code": "96415",
+      "description": "Administration of chemotherapy into vein, each additional hour",
+      "services": 5469,
+      "payments": 126213.11,
+      "avg_markup": 7.58
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 816,
+      "payments": 99064.74,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "J7321",
+      "description": "Hyaluronan or derivative, hyalgan, supartz or visco-3, for intra-articular injection, per dose",
+      "services": 1229,
+      "payments": 80073.84,
+      "avg_markup": 4.22
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "S K Diagnostics Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 21892742.82,
+      "total_services": 1861246,
+      "total_beneficiaries": 5,
+      "avg_submitted": 25.01,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 21385183.68,
+      "total_services": 1818468,
+      "total_beneficiaries": 1,
+      "avg_submitted": 25.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 43277926.5,
+    "total_services": 3679714,
+    "total_beneficiaries": 6,
+    "avg_markup_ratio": 2.13,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 3679570,
+      "payments": 43271743.2,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 40,
+      "payments": 2958.0,
+      "avg_markup": 4.73
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 44,
+      "payments": 1796.79,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 32,
+      "payments": 739.51,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 28,
+      "payments": 689.0,
+      "avg_markup": 4.06
+    }
+  ]
+}

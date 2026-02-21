@@ -1,0 +1,70 @@
+{
+  "name": "Sh Diagnostics Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 134363.0,
+      "total_services": 3316,
+      "total_beneficiaries": 1,
+      "avg_submitted": 63.87,
+      "avg_paid": 40.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 4526951.22,
+      "total_services": 58127,
+      "total_beneficiaries": 5,
+      "avg_submitted": 105.32,
+      "avg_paid": 77.88
+    }
+  ],
+  "overall": {
+    "total_payments": 4661314.22,
+    "total_services": 61443,
+    "total_beneficiaries": 6,
+    "avg_markup_ratio": 1.36,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 19817,
+      "payments": 2770020.26,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "86328",
+      "description": "Test for detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antibody, qualitative or semiquantitative",
+      "services": 19807,
+      "payments": 878836.59,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 10063,
+      "payments": 739630.5,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 10063,
+      "payments": 231348.37,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 1693,
+      "payments": 41478.5,
+      "avg_markup": 1.64
+    }
+  ]
+}

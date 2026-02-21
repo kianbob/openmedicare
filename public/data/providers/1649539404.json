@@ -1,0 +1,223 @@
+{
+  "name": "Esther Kim",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Santa Ana",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 731.29,
+      "total_services": 31,
+      "total_beneficiaries": 1,
+      "avg_submitted": 120.0,
+      "avg_paid": 23.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 5870.17,
+      "total_services": 84,
+      "total_beneficiaries": 5,
+      "avg_submitted": 457.98,
+      "avg_paid": 69.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 63255.07,
+      "total_services": 610,
+      "total_beneficiaries": 11,
+      "avg_submitted": 288.11,
+      "avg_paid": 103.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 897313.62,
+      "total_services": 6542,
+      "total_beneficiaries": 18,
+      "avg_submitted": 335.3,
+      "avg_paid": 137.16
+    },
+    {
+      "year": 2020,
+      "total_payments": 1462909.22,
+      "total_services": 7522,
+      "total_beneficiaries": 21,
+      "avg_submitted": 445.4,
+      "avg_paid": 194.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 1884053.63,
+      "total_services": 9613,
+      "total_beneficiaries": 20,
+      "avg_submitted": 434.14,
+      "avg_paid": 195.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 3083804.96,
+      "total_services": 16781,
+      "total_beneficiaries": 16,
+      "avg_submitted": 417.01,
+      "avg_paid": 183.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 4155330.57,
+      "total_services": 41605,
+      "total_beneficiaries": 24,
+      "avg_submitted": 230.87,
+      "avg_paid": 99.88
+    }
+  ],
+  "overall": {
+    "total_payments": 11553268.53,
+    "total_services": 82788,
+    "total_beneficiaries": 116,
+    "avg_markup_ratio": 2.3,
+    "years_active": 8
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 9510,
+      "payments": 6827386.9,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 25740,
+      "payments": 748763.81,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 2657,
+      "payments": 687010.59,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 6032,
+      "payments": 641692.01,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 6502,
+      "payments": 626082.04,
+      "avg_markup": 11.41
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 12189,
+      "payments": 420823.98,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 168,
+      "payments": 310616.14,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "92201",
+      "description": "Extended exam of the back part of the eye with retinal drawing",
+      "services": 8840,
+      "payments": 183813.76,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1787,
+      "payments": 170627.09,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 909,
+      "payments": 158987.42,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 994,
+      "payments": 156552.27,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 1029,
+      "payments": 107688.0,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "J2781",
+      "description": "Injection, pegcetacoplan, intravitreal, 1 mg",
+      "services": 750,
+      "payments": 90270.5,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 669,
+      "payments": 88716.4,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 77,
+      "payments": 76314.4,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 409,
+      "payments": 49964.51,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 141,
+      "payments": 48270.57,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 1468,
+      "payments": 32803.92,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "76512",
+      "description": "2d ultrasound scan of eye tissue and structures",
+      "services": 463,
+      "payments": 20515.1,
+      "avg_markup": 6.7
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 782,
+      "payments": 19067.09,
+      "avg_markup": 3.69
+    }
+  ]
+}

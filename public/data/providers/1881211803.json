@@ -1,0 +1,62 @@
+{
+  "name": "Shelita Banks",
+  "credentials": "MSN APRN FNP-C",
+  "specialty": "Nurse Practitioner",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 6664461.22,
+      "total_services": 6564,
+      "total_beneficiaries": 5,
+      "avg_submitted": 1303.9,
+      "avg_paid": 1015.3
+    }
+  ],
+  "overall": {
+    "total_payments": 6664461.22,
+    "total_services": 6564,
+    "total_beneficiaries": 5,
+    "avg_markup_ratio": 1.28,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 6098,
+      "payments": 6629932.38,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 177,
+      "payments": 15234.25,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 89,
+      "payments": 9143.45,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 175,
+      "payments": 8858.64,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99342",
+      "description": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 25,
+      "payments": 1292.5,
+      "avg_markup": 2.71
+    }
+  ]
+}

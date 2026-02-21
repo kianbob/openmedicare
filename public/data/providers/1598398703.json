@@ -1,0 +1,191 @@
+{
+  "name": "Blandon Sorrell",
+  "credentials": "NP",
+  "specialty": "Nurse Practitioner",
+  "city": "Hammond",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 404387.66,
+      "total_services": 2170,
+      "total_beneficiaries": 8,
+      "avg_submitted": 328.65,
+      "avg_paid": 186.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 2040298.8,
+      "total_services": 8377,
+      "total_beneficiaries": 13,
+      "avg_submitted": 515.64,
+      "avg_paid": 243.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 4190398.32,
+      "total_services": 8446,
+      "total_beneficiaries": 11,
+      "avg_submitted": 868.21,
+      "avg_paid": 496.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 6185351.73,
+      "total_services": 8459,
+      "total_beneficiaries": 12,
+      "avg_submitted": 1133.89,
+      "avg_paid": 731.22
+    }
+  ],
+  "overall": {
+    "total_payments": 12820436.51,
+    "total_services": 27452,
+    "total_beneficiaries": 44,
+    "avg_markup_ratio": 1.71,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 5001,
+      "payments": 4917506.59,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "Q4253",
+      "description": "Zenith amniotic membrane, per square centimeter",
+      "services": 5656,
+      "payments": 4144520.74,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "Q4254",
+      "description": "Novafix dl, per square centimeter",
+      "services": 5260,
+      "payments": 2069324.9,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "Q4197",
+      "description": "Puraply xt, per square centimeter",
+      "services": 6025,
+      "payments": 1266350.0,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 951,
+      "payments": 76832.14,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 931,
+      "payments": 66936.82,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 572,
+      "payments": 65768.21,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "15275",
+      "description": "Application of skin substitute graft to wound of face, scalp, eyelids, mouth, neck, ears, around eyes, genitals, hands, feet, fingers, or toes, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 397,
+      "payments": 39806.49,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 337,
+      "payments": 31385.17,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "11043",
+      "description": "Removal of muscle and/or tissue, 20.0 sq cm or less",
+      "services": 194,
+      "payments": 29029.56,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "11045",
+      "description": "Removal of skin and tissue, each additional 20.0 sq cm or less",
+      "services": 859,
+      "payments": 22982.13,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 246,
+      "payments": 20285.72,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 167,
+      "payments": 17936.58,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "11047",
+      "description": "Removal of skin and bone",
+      "services": 121,
+      "payments": 10337.64,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "11044",
+      "description": "Removal of bone, 20.0 sq cm or less",
+      "services": 50,
+      "payments": 10256.43,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 135,
+      "payments": 7423.99,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "11046",
+      "description": "Removal of muscle and/or tissue, each additional 20.0 sq cm or less",
+      "services": 118,
+      "payments": 5845.1,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 38,
+      "payments": 4436.88,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 50,
+      "payments": 2720.66,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "15272",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, each additional 25.0 sq cm of wound 100.0 sq cm or less",
+      "services": 149,
+      "payments": 2440.88,
+      "avg_markup": 2.85
+    }
+  ]
+}

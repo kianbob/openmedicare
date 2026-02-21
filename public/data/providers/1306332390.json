@@ -1,0 +1,121 @@
+{
+  "name": "Virag",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Indianapolis",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1305.0,
+      "total_services": 37,
+      "total_beneficiaries": 2,
+      "avg_submitted": 41.08,
+      "avg_paid": 35.27
+    },
+    {
+      "year": 2021,
+      "total_payments": 8926.96,
+      "total_services": 236,
+      "total_beneficiaries": 7,
+      "avg_submitted": 45.09,
+      "avg_paid": 37.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 2027.38,
+      "total_services": 42,
+      "total_beneficiaries": 1,
+      "avg_submitted": 88.91,
+      "avg_paid": 48.27
+    },
+    {
+      "year": 2023,
+      "total_payments": 7661404.8,
+      "total_services": 651552,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 7673664.14,
+    "total_services": 651867,
+    "total_beneficiaries": 11,
+    "avg_markup_ratio": 1.02,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 651552,
+      "payments": 7661404.8,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "90694",
+      "description": "Influenza vaccine, quadrivalent inactivated, 0.5 ml dosage",
+      "services": 62,
+      "payments": 4097.6,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "0004A",
+      "description": "Fee covid-19 vac 1 res",
+      "services": 39,
+      "payments": 1451.19,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0031A",
+      "description": "Adm sarscov2 vac ad26 .5ml",
+      "services": 38,
+      "payments": 1413.98,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 67,
+      "payments": 1240.68,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 27,
+      "payments": 1004.67,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0064A",
+      "description": "Fee covid-19 vac 7 res",
+      "services": 24,
+      "payments": 893.04,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0013A",
+      "description": "Fee covid-19 vac 2 booster",
+      "services": 23,
+      "payments": 855.83,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "0003A",
+      "description": "Fee covid-19 vac 1 booster",
+      "services": 22,
+      "payments": 818.62,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0011A",
+      "description": "Adm sarscov2 100mcg/0.5ml1st",
+      "services": 13,
+      "payments": 483.73,
+      "avg_markup": 1.21
+    }
+  ]
+}

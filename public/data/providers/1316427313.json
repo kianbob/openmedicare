@@ -1,0 +1,199 @@
+{
+  "name": "Josue Moran",
+  "credentials": "APRN",
+  "specialty": "Nurse Practitioner",
+  "city": "Miami",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 47730.43,
+      "total_services": 698,
+      "total_beneficiaries": 9,
+      "avg_submitted": 140.51,
+      "avg_paid": 68.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 142060.4,
+      "total_services": 2211,
+      "total_beneficiaries": 16,
+      "avg_submitted": 131.33,
+      "avg_paid": 64.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 394796.36,
+      "total_services": 6957,
+      "total_beneficiaries": 16,
+      "avg_submitted": 117.63,
+      "avg_paid": 56.75
+    },
+    {
+      "year": 2022,
+      "total_payments": 620960.08,
+      "total_services": 10324,
+      "total_beneficiaries": 17,
+      "avg_submitted": 123.55,
+      "avg_paid": 60.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 7411585.55,
+      "total_services": 12190,
+      "total_beneficiaries": 18,
+      "avg_submitted": 1044.44,
+      "avg_paid": 608.01
+    }
+  ],
+  "overall": {
+    "total_payments": 8617132.82,
+    "total_services": 32380,
+    "total_beneficiaries": 76,
+    "avg_markup_ratio": 1.77,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 3902,
+      "payments": 4170040.79,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "Q4276",
+      "description": "Orion, per square centimeter",
+      "services": 2372,
+      "payments": 2777384.48,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 6813,
+      "payments": 577847.37,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "11045",
+      "description": "Removal of skin and tissue, each additional 20.0 sq cm or less",
+      "services": 6646,
+      "payments": 202795.77,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 1979,
+      "payments": 145195.74,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "11043",
+      "description": "Removal of muscle and/or tissue, 20.0 sq cm or less",
+      "services": 777,
+      "payments": 127931.01,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99347",
+      "description": "Residence visit for established patient with straightforward medical decision making, per day, if using time, at least 15 minutes",
+      "services": 2509,
+      "payments": 91552.45,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 15 minutes",
+      "services": 1387,
+      "payments": 69575.7,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 35 minutes",
+      "services": 1238,
+      "payments": 66173.65,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 50 minutes",
+      "services": 746,
+      "payments": 58120.53,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 417,
+      "payments": 51999.58,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 397,
+      "payments": 48657.62,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99334",
+      "description": "Established patient custodial care facility, group care, or assisted living visit, typically 15 minutes",
+      "services": 1049,
+      "payments": 45701.0,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "11046",
+      "description": "Removal of muscle and/or tissue, each additional 20.0 sq cm or less",
+      "services": 636,
+      "payments": 35776.17,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care with moderate level of medical decision making, if using time, at least 75 minutes",
+      "services": 172,
+      "payments": 24294.74,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 207,
+      "payments": 22314.09,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 229,
+      "payments": 21066.6,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital care with straightforward or low-level medical decision making, if using time, at least 55 minutes",
+      "services": 193,
+      "payments": 19674.25,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 272,
+      "payments": 16365.26,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99327",
+      "description": "New patient custodial care facility, group care, or assisted living visit, typically 1 hour",
+      "services": 82,
+      "payments": 10711.15,
+      "avg_markup": 1.91
+    }
+  ]
+}

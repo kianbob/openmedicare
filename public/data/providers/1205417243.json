@@ -1,0 +1,55 @@
+{
+  "name": "City And County Of Honolulu",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Honolulu",
+  "state": "HI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 3277503.0,
+      "total_services": 40280,
+      "total_beneficiaries": 4,
+      "avg_submitted": 405.17,
+      "avg_paid": 81.37
+    }
+  ],
+  "overall": {
+    "total_payments": 3277503.0,
+    "total_services": 40280,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 4.98,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 5823,
+      "payments": 2586220.29,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1054,
+      "payments": 390678.6,
+      "avg_markup": 5.38
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 33295,
+      "payments": 231232.96,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 108,
+      "payments": 69371.15,
+      "avg_markup": 3.49
+    }
+  ]
+}

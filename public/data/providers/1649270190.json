@@ -1,0 +1,239 @@
+{
+  "name": "Bob Wodecki",
+  "credentials": "MD",
+  "specialty": "Rheumatology",
+  "city": "Statesville",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1979100.28,
+      "total_services": 107161,
+      "total_beneficiaries": 64,
+      "avg_submitted": 53.93,
+      "avg_paid": 18.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 2268816.12,
+      "total_services": 120730,
+      "total_beneficiaries": 59,
+      "avg_submitted": 50.43,
+      "avg_paid": 18.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 2431605.18,
+      "total_services": 113084,
+      "total_beneficiaries": 56,
+      "avg_submitted": 52.8,
+      "avg_paid": 21.5
+    },
+    {
+      "year": 2017,
+      "total_payments": 2566962.33,
+      "total_services": 108841,
+      "total_beneficiaries": 61,
+      "avg_submitted": 56.59,
+      "avg_paid": 23.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 2718611.78,
+      "total_services": 104510,
+      "total_beneficiaries": 63,
+      "avg_submitted": 60.17,
+      "avg_paid": 26.01
+    },
+    {
+      "year": 2019,
+      "total_payments": 3016758.3,
+      "total_services": 169222,
+      "total_beneficiaries": 60,
+      "avg_submitted": 43.33,
+      "avg_paid": 17.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 3140532.43,
+      "total_services": 162509,
+      "total_beneficiaries": 54,
+      "avg_submitted": 45.96,
+      "avg_paid": 19.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 3234258.04,
+      "total_services": 162065,
+      "total_beneficiaries": 58,
+      "avg_submitted": 48.73,
+      "avg_paid": 19.96
+    },
+    {
+      "year": 2022,
+      "total_payments": 3384929.15,
+      "total_services": 204517,
+      "total_beneficiaries": 60,
+      "avg_submitted": 44.67,
+      "avg_paid": 16.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 3119287.37,
+      "total_services": 232266,
+      "total_beneficiaries": 60,
+      "avg_submitted": 40.75,
+      "avg_paid": 13.43
+    }
+  ],
+  "overall": {
+    "total_payments": 27860860.98,
+    "total_services": 1484905,
+    "total_beneficiaries": 595,
+    "avg_markup_ratio": 2.57,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J1745",
+      "description": "Injection, infliximab, excludes biosimilar, 10 mg",
+      "services": 119190,
+      "payments": 6068460.1,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "J0129",
+      "description": "Injection, abatacept, 10 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 123623,
+      "payments": 4565306.21,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 64979,
+      "payments": 4515387.8,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "J3262",
+      "description": "Injection, tocilizumab, 1 mg",
+      "services": 803466,
+      "payments": 3094806.18,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 4390,
+      "payments": 2699553.96,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "J1602",
+      "description": "Injection, golimumab, 1 mg, for intravenous use",
+      "services": 102929,
+      "payments": 1274896.1,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 11541,
+      "payments": 893034.01,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 7259,
+      "payments": 738595.38,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 40305,
+      "payments": 615875.35,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 10273,
+      "payments": 525587.12,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of fluid from large joint",
+      "services": 7677,
+      "payments": 344724.51,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "96415",
+      "description": "Administration of chemotherapy into vein, each additional hour",
+      "services": 5438,
+      "payments": 119209.81,
+      "avg_markup": 8.75
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",
+      "services": 2344,
+      "payments": 117511.8,
+      "avg_markup": 5.29
+    },
+    {
+      "code": "86235",
+      "description": "Measurement of antibody for assessment of autoimmune disorder, any method",
+      "services": 5545,
+      "payments": 116708.8,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 12780,
+      "payments": 116514.93,
+      "avg_markup": 8.32
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1000,
+      "payments": 113325.71,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 2186,
+      "payments": 74352.33,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "J7332",
+      "description": "Hyaluronan or derivative, triluron, for intra-articular injection, 1 mg",
+      "services": 4723,
+      "payments": 73912.63,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "86481",
+      "description": "Tuberculosis test, enumeration of t-cells",
+      "services": 749,
+      "payments": 73870.75,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "J7321",
+      "description": "Hyaluronan or derivative, hyalgan, supartz or visco-3, for intra-articular injection, per dose",
+      "services": 1087,
+      "payments": 71914.99,
+      "avg_markup": 5.52
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Trifecta Pharmacy Llc",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "The Woodlands",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 445139.52,
+      "total_services": 37852,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 7927886.4,
+      "total_services": 674140,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 8373025.92,
+    "total_services": 711992,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.02,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 711992,
+      "payments": 8373025.92,
+      "avg_markup": 1.02
+    }
+  ]
+}

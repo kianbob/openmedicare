@@ -1,0 +1,70 @@
+{
+  "name": "Covigen Medtox Lab Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Elizabeth",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 10062.5,
+      "total_services": 285,
+      "total_beneficiaries": 3,
+      "avg_submitted": 141.05,
+      "avg_paid": 35.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 10361783.04,
+      "total_services": 881104,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 10371845.54,
+    "total_services": 881389,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 1.02,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 881104,
+      "payments": 10361783.04,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 80,
+      "payments": 5911.5,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 80,
+      "payments": 1849.26,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 71,
+      "payments": 1748.75,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "P9604",
+      "description": "Travel allowance one way in connection with medically necessary laboratory specimen collection drawn from home bound or nursing home bound patient; prorated trip charge",
+      "services": 54,
+      "payments": 552.99,
+      "avg_markup": 4.88
+    }
+  ]
+}

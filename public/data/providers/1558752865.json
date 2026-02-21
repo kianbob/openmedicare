@@ -1,0 +1,112 @@
+{
+  "name": "Amer Homsi",
+  "credentials": "",
+  "specialty": "Internal Medicine",
+  "city": "Ogden",
+  "state": "UT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 457290.09,
+      "total_services": 5484,
+      "total_beneficiaries": 10,
+      "avg_submitted": 104.43,
+      "avg_paid": 83.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 3880843.29,
+      "total_services": 54046,
+      "total_beneficiaries": 8,
+      "avg_submitted": 92.14,
+      "avg_paid": 71.81
+    }
+  ],
+  "overall": {
+    "total_payments": 4338133.38,
+    "total_services": 59530,
+    "total_beneficiaries": 18,
+    "avg_markup_ratio": 1.28,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services for two or more chronic conditions, each additional 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 46374,
+      "payments": 2764464.81,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services for two or more chronic conditions, first 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 10080,
+      "payments": 1130979.31,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 938,
+      "payments": 165620.98,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services for problem of high complexity",
+      "services": 600,
+      "payments": 142385.97,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 334,
+      "payments": 46151.15,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 450,
+      "payments": 43064.0,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 390,
+      "payments": 20478.64,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services for problem of at least moderate complexity",
+      "services": 116,
+      "payments": 19150.44,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "G0442",
+      "description": "Annual alcohol misuse screening, 15 minutes",
+      "services": 142,
+      "payments": 2923.78,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 91,
+      "payments": 1838.2,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 15,
+      "payments": 1076.1,
+      "avg_markup": 1.58
+    }
+  ]
+}

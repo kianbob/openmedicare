@@ -1,0 +1,56 @@
+{
+  "name": "Maxcare Diagnostics",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Irving",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 3136.0,
+      "total_services": 64,
+      "total_beneficiaries": 1,
+      "avg_submitted": 150.0,
+      "avg_paid": 49.0
+    },
+    {
+      "year": 2023,
+      "total_payments": 13637216.36,
+      "total_services": 97562,
+      "total_beneficiaries": 1,
+      "avg_submitted": 500.0,
+      "avg_paid": 139.78
+    }
+  ],
+  "overall": {
+    "total_payments": 13640352.36,
+    "total_services": 97626,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 3.58,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 97562,
+      "payments": 13637216.36,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 32,
+      "payments": 2352.0,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 32,
+      "payments": 784.0,
+      "avg_markup": 3.06
+    }
+  ]
+}

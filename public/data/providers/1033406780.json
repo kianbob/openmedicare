@@ -1,0 +1,231 @@
+{
+  "name": "Daniel Learned",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Santa Barbara",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 449.96,
+      "total_services": 11,
+      "total_beneficiaries": 1,
+      "avg_submitted": 185.0,
+      "avg_paid": 40.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 7017.77,
+      "total_services": 178,
+      "total_beneficiaries": 6,
+      "avg_submitted": 209.78,
+      "avg_paid": 39.43
+    },
+    {
+      "year": 2017,
+      "total_payments": 146662.96,
+      "total_services": 1848,
+      "total_beneficiaries": 12,
+      "avg_submitted": 222.61,
+      "avg_paid": 79.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 717309.73,
+      "total_services": 5630,
+      "total_beneficiaries": 17,
+      "avg_submitted": 324.73,
+      "avg_paid": 127.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 1097583.63,
+      "total_services": 7808,
+      "total_beneficiaries": 19,
+      "avg_submitted": 354.67,
+      "avg_paid": 140.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 1352476.66,
+      "total_services": 8401,
+      "total_beneficiaries": 18,
+      "avg_submitted": 399.38,
+      "avg_paid": 160.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 3262141.98,
+      "total_services": 17755,
+      "total_beneficiaries": 17,
+      "avg_submitted": 446.48,
+      "avg_paid": 183.73
+    },
+    {
+      "year": 2022,
+      "total_payments": 3758871.49,
+      "total_services": 19632,
+      "total_beneficiaries": 21,
+      "avg_submitted": 479.18,
+      "avg_paid": 191.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 5100825.52,
+      "total_services": 40072,
+      "total_beneficiaries": 22,
+      "avg_submitted": 346.37,
+      "avg_paid": 127.29
+    }
+  ],
+  "overall": {
+    "total_payments": 15443339.7,
+    "total_services": 101335,
+    "total_beneficiaries": 133,
+    "avg_markup_ratio": 2.57,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 20958,
+      "payments": 5158215.81,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 7135,
+      "payments": 5019806.74,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 8538,
+      "payments": 917938.38,
+      "avg_markup": 9.06
+    },
+    {
+      "code": "Q5128",
+      "description": "Injection, ranibizumab-eqrn (cimerli), biosimilar, 0.1 mg",
+      "services": 3646,
+      "payments": 800316.67,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 20460,
+      "payments": 592411.07,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 622,
+      "payments": 526595.87,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 6843,
+      "payments": 496639.39,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 13645,
+      "payments": 458004.48,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 4285,
+      "payments": 445616.82,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 1099,
+      "payments": 172906.86,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1346,
+      "payments": 171422.41,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 2888,
+      "payments": 100040.97,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 729,
+      "payments": 87765.28,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 1179,
+      "payments": 79289.59,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 794,
+      "payments": 71925.42,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "92287",
+      "description": "Imaging of front third of eye using a special camera after injection of a dye",
+      "services": 383,
+      "payments": 48399.68,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 48,
+      "payments": 42788.26,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "92202",
+      "description": "Extended exam of the back part of the eye with optic nerve drawing",
+      "services": 2911,
+      "payments": 36210.5,
+      "avg_markup": 15.98
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 43,
+      "payments": 30917.47,
+      "avg_markup": 6.34
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 1357,
+      "payments": 30235.7,
+      "avg_markup": 3.37
+    }
+  ]
+}

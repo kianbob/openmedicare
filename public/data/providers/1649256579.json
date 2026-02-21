@@ -1,0 +1,239 @@
+{
+  "name": "Allan Thornton",
+  "credentials": "M.D.",
+  "specialty": "Radiation Oncology",
+  "city": "Hampton",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1831436.04,
+      "total_services": 6580,
+      "total_beneficiaries": 15,
+      "avg_submitted": 1286.47,
+      "avg_paid": 278.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 1474462.75,
+      "total_services": 4162,
+      "total_beneficiaries": 16,
+      "avg_submitted": 2309.63,
+      "avg_paid": 354.27
+    },
+    {
+      "year": 2016,
+      "total_payments": 963832.42,
+      "total_services": 3226,
+      "total_beneficiaries": 14,
+      "avg_submitted": 1953.51,
+      "avg_paid": 298.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 528348.21,
+      "total_services": 2403,
+      "total_beneficiaries": 12,
+      "avg_submitted": 1327.66,
+      "avg_paid": 219.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 1714349.76,
+      "total_services": 6013,
+      "total_beneficiaries": 17,
+      "avg_submitted": 1837.26,
+      "avg_paid": 285.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 1964662.44,
+      "total_services": 6699,
+      "total_beneficiaries": 19,
+      "avg_submitted": 1982.08,
+      "avg_paid": 293.28
+    },
+    {
+      "year": 2020,
+      "total_payments": 2534455.87,
+      "total_services": 8137,
+      "total_beneficiaries": 16,
+      "avg_submitted": 2072.41,
+      "avg_paid": 311.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 3043955.58,
+      "total_services": 9771,
+      "total_beneficiaries": 19,
+      "avg_submitted": 1984.74,
+      "avg_paid": 311.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 3262996.48,
+      "total_services": 10320,
+      "total_beneficiaries": 19,
+      "avg_submitted": 2020.07,
+      "avg_paid": 316.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 3333955.57,
+      "total_services": 10283,
+      "total_beneficiaries": 18,
+      "avg_submitted": 2209.6,
+      "avg_paid": 324.22
+    }
+  ],
+  "overall": {
+    "total_payments": 20652455.12,
+    "total_services": 67594,
+    "total_beneficiaries": 165,
+    "avg_markup_ratio": 6.38,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "77522",
+      "description": "Simple proton beam radiation treatment with compensation",
+      "services": 17258,
+      "payments": 11410418.8,
+      "avg_markup": 6.7
+    },
+    {
+      "code": "77523",
+      "description": "Intermediate proton beam radiation treatment",
+      "services": 5038,
+      "payments": 3497201.83,
+      "avg_markup": 6.46
+    },
+    {
+      "code": "77525",
+      "description": "Complex proton beam radiation treatment",
+      "services": 2273,
+      "payments": 1784670.54,
+      "avg_markup": 6.83
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 19851,
+      "payments": 1179203.26,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatment sessions",
+      "services": 3857,
+      "payments": 575762.75,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "77334",
+      "description": "Design and construction of complex radiation treatment device",
+      "services": 4767,
+      "payments": 495054.83,
+      "avg_markup": 5.58
+    },
+    {
+      "code": "77336",
+      "description": "Continuing radiation therapy consultation per week",
+      "services": 4300,
+      "payments": 273659.08,
+      "avg_markup": 4.92
+    },
+    {
+      "code": "77290",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 3 or more treatment areas or any number of treatment areas where special treatment is involved",
+      "services": 693,
+      "payments": 269586.42,
+      "avg_markup": 5.24
+    },
+    {
+      "code": "77280",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 1 treatment area",
+      "services": 1105,
+      "payments": 239564.94,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "77301",
+      "description": "High precision radiation therapy planning",
+      "services": 146,
+      "payments": 212948.83,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "77295",
+      "description": "3d radiation therapy planning",
+      "services": 520,
+      "payments": 198808.29,
+      "avg_markup": 5.16
+    },
+    {
+      "code": "77421",
+      "description": "X-ray guidance for radiation therapy delivery",
+      "services": 2904,
+      "payments": 165703.24,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 1916,
+      "payments": 99852.44,
+      "avg_markup": 5.12
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 321,
+      "payments": 51329.72,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "77263",
+      "description": "Complex radiation therapy planning",
+      "services": 293,
+      "payments": 38538.62,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 563,
+      "payments": 31465.0,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "77307",
+      "description": "Radiation therapy plan",
+      "services": 112,
+      "payments": 24976.17,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 202,
+      "payments": 24675.15,
+      "avg_markup": 5.43
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 730,
+      "payments": 23384.8,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 248,
+      "payments": 20526.65,
+      "avg_markup": 3.64
+    }
+  ]
+}

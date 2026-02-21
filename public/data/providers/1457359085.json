@@ -1,0 +1,239 @@
+{
+  "name": "Matthew Wood",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Lincoln",
+  "state": "NE",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3521333.05,
+      "total_services": 14447,
+      "total_beneficiaries": 17,
+      "avg_submitted": 435.59,
+      "avg_paid": 243.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 3338721.37,
+      "total_services": 13736,
+      "total_beneficiaries": 18,
+      "avg_submitted": 492.37,
+      "avg_paid": 243.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 3366181.99,
+      "total_services": 14559,
+      "total_beneficiaries": 20,
+      "avg_submitted": 453.79,
+      "avg_paid": 231.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 3619172.98,
+      "total_services": 15472,
+      "total_beneficiaries": 21,
+      "avg_submitted": 449.22,
+      "avg_paid": 233.92
+    },
+    {
+      "year": 2018,
+      "total_payments": 3065855.9,
+      "total_services": 14362,
+      "total_beneficiaries": 20,
+      "avg_submitted": 436.32,
+      "avg_paid": 213.47
+    },
+    {
+      "year": 2019,
+      "total_payments": 2799505.1,
+      "total_services": 13389,
+      "total_beneficiaries": 20,
+      "avg_submitted": 430.08,
+      "avg_paid": 209.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 2744244.94,
+      "total_services": 15133,
+      "total_beneficiaries": 22,
+      "avg_submitted": 419.96,
+      "avg_paid": 181.34
+    },
+    {
+      "year": 2021,
+      "total_payments": 3112359.41,
+      "total_services": 14891,
+      "total_beneficiaries": 20,
+      "avg_submitted": 418.3,
+      "avg_paid": 209.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 3393133.82,
+      "total_services": 30114,
+      "total_beneficiaries": 19,
+      "avg_submitted": 228.26,
+      "avg_paid": 112.68
+    },
+    {
+      "year": 2023,
+      "total_payments": 3931000.45,
+      "total_services": 86674,
+      "total_beneficiaries": 22,
+      "avg_submitted": 91.4,
+      "avg_paid": 45.35
+    }
+  ],
+  "overall": {
+    "total_payments": 32891509.01,
+    "total_services": 232777,
+    "total_beneficiaries": 199,
+    "avg_markup_ratio": 2.01,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 28804,
+      "payments": 21608196.98,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 90300,
+      "payments": 2631650.54,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 28844,
+      "payments": 2184661.34,
+      "avg_markup": 5.96
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 24968,
+      "payments": 2121873.66,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 11115,
+      "payments": 1272602.88,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 29384,
+      "payments": 866121.87,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 5800,
+      "payments": 503657.81,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 3348,
+      "payments": 312994.64,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 1894,
+      "payments": 202620.85,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 187,
+      "payments": 159990.78,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 3455,
+      "payments": 123516.84,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 128,
+      "payments": 107898.75,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 346,
+      "payments": 107245.17,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "67210",
+      "description": "Destruction of growth of retina using a laser",
+      "services": 282,
+      "payments": 107067.58,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 96,
+      "payments": 87967.61,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 50,
+      "payments": 86867.2,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using a laser",
+      "services": 365,
+      "payments": 81610.8,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 173,
+      "payments": 50456.95,
+      "avg_markup": 8.23
+    },
+    {
+      "code": "J0179",
+      "description": "Injection, brolucizumab-dbll, 1 mg",
+      "services": 216,
+      "payments": 43212.47,
+      "avg_markup": 9.5
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 280,
+      "payments": 30475.02,
+      "avg_markup": 2.52
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Pejman Dalaie",
+  "credentials": "M.D.",
+  "specialty": "Nuclear Medicine",
+  "city": "Forest Hills",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 1037390.05,
+      "total_services": 1582,
+      "total_beneficiaries": 6,
+      "avg_submitted": 2573.38,
+      "avg_paid": 655.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 3635850.93,
+      "total_services": 7438,
+      "total_beneficiaries": 9,
+      "avg_submitted": 2032.67,
+      "avg_paid": 488.82
+    }
+  ],
+  "overall": {
+    "total_payments": 4673240.98,
+    "total_services": 9020,
+    "total_beneficiaries": 15,
+    "avg_markup_ratio": 4.11,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study from skull base to mid-thigh with ct scan",
+      "services": 1836,
+      "payments": 2778242.34,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "A9595",
+      "description": "Piflufolastat f-18, diagnostic, 1 millicurie",
+      "services": 2036,
+      "payments": 977179.27,
+      "avg_markup": 5.4
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 1533,
+      "payments": 580119.79,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "A9596",
+      "description": "Gallium ga-68 gozetotide, diagnostic, (illuccix), 1 millicurie",
+      "services": 344,
+      "payments": 250566.4,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "A9587",
+      "description": "Gallium ga-68, dotatate, diagnostic, 0.1 millicurie",
+      "services": 1566,
+      "payments": 79398.82,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "82947",
+      "description": "Blood glucose (sugar) level",
+      "services": 1414,
+      "payments": 5428.5,
+      "avg_markup": 13.02
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 241,
+      "payments": 1729.56,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99211",
+      "description": "Office or other outpatient visit for the evaluation and management of established patient that may not require presence of healthcare professional",
+      "services": 14,
+      "payments": 261.24,
+      "avg_markup": 5.36
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 21,
+      "payments": 159.81,
+      "avg_markup": 19.71
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 15,
+      "payments": 155.25,
+      "avg_markup": 5.8
+    }
+  ]
+}

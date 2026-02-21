@@ -1,0 +1,239 @@
+{
+  "name": "Michael Johnson",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Charleston",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 682683.88,
+      "total_services": 12910,
+      "total_beneficiaries": 14,
+      "avg_submitted": 237.27,
+      "avg_paid": 52.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 545711.36,
+      "total_services": 12185,
+      "total_beneficiaries": 11,
+      "avg_submitted": 242.78,
+      "avg_paid": 44.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 541329.61,
+      "total_services": 11663,
+      "total_beneficiaries": 12,
+      "avg_submitted": 286.31,
+      "avg_paid": 46.41
+    },
+    {
+      "year": 2017,
+      "total_payments": 558374.87,
+      "total_services": 12471,
+      "total_beneficiaries": 10,
+      "avg_submitted": 269.09,
+      "avg_paid": 44.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 507697.34,
+      "total_services": 11306,
+      "total_beneficiaries": 18,
+      "avg_submitted": 277.35,
+      "avg_paid": 44.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 589060.86,
+      "total_services": 11587,
+      "total_beneficiaries": 16,
+      "avg_submitted": 297.03,
+      "avg_paid": 50.84
+    },
+    {
+      "year": 2020,
+      "total_payments": 802557.09,
+      "total_services": 6390,
+      "total_beneficiaries": 9,
+      "avg_submitted": 355.62,
+      "avg_paid": 125.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 1761491.16,
+      "total_services": 10836,
+      "total_beneficiaries": 14,
+      "avg_submitted": 403.84,
+      "avg_paid": 162.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 2137455.56,
+      "total_services": 10679,
+      "total_beneficiaries": 17,
+      "avg_submitted": 516.38,
+      "avg_paid": 200.16
+    },
+    {
+      "year": 2023,
+      "total_payments": 2954012.16,
+      "total_services": 13686,
+      "total_beneficiaries": 20,
+      "avg_submitted": 564.25,
+      "avg_paid": 215.84
+    }
+  ],
+  "overall": {
+    "total_payments": 11080373.89,
+    "total_services": 113713,
+    "total_beneficiaries": 141,
+    "avg_markup_ratio": 3.54,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 4592,
+      "payments": 3237541.1,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 10382,
+      "payments": 2537753.95,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 25068,
+      "payments": 1828963.65,
+      "avg_markup": 7.22
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 13794,
+      "payments": 784952.81,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 26718,
+      "payments": 584241.39,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "Q5128",
+      "description": "Injection, ranibizumab-eqrn (cimerli), biosimilar, 0.1 mg",
+      "services": 2155,
+      "payments": 461832.88,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 10425,
+      "payments": 453171.19,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 341,
+      "payments": 302199.11,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 11921,
+      "payments": 206456.58,
+      "avg_markup": 12.67
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 2599,
+      "payments": 203816.5,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 1600,
+      "payments": 104786.61,
+      "avg_markup": 7.14
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 1093,
+      "payments": 87575.3,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "J2781",
+      "description": "Injection, pegcetacoplan, intravitreal, 1 mg",
+      "services": 645,
+      "payments": 77632.56,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 39,
+      "payments": 69161.86,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 305,
+      "payments": 32694.95,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina, with removal of vitreous fluid",
+      "services": 32,
+      "payments": 27751.79,
+      "avg_markup": 6.76
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 69,
+      "payments": 21575.24,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "76512",
+      "description": "2d ultrasound scan of eye tissue and structures",
+      "services": 481,
+      "payments": 17401.66,
+      "avg_markup": 7.64
+    },
+    {
+      "code": "99426",
+      "description": "Principal care management services for a single high-risk disease, first 30 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 354,
+      "payments": 16584.9,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "67515",
+      "description": "Injection of drug or substance into membrane covering eyeball",
+      "services": 211,
+      "payments": 10741.65,
+      "avg_markup": 2.53
+    }
+  ]
+}

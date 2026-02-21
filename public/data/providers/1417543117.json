@@ -1,0 +1,62 @@
+{
+  "name": "Carlos Ching",
+  "credentials": "FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 62941990.93,
+      "total_services": 69121,
+      "total_beneficiaries": 4,
+      "avg_submitted": 1168.13,
+      "avg_paid": 910.61
+    }
+  ],
+  "overall": {
+    "total_payments": 62941990.93,
+    "total_services": 69121,
+    "total_beneficiaries": 4,
+    "avg_markup_ratio": 1.28,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4262",
+      "description": "Dual layer impax membrane, per square centimeter",
+      "services": 68310,
+      "payments": 62886994.92,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "15274",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, each additional 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 414,
+      "payments": 22313.92,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "15273",
+      "description": "Skin substitute graft to wound 100.0 sq cm or more of trunk, arms, or legs, 100.0 sq cm or 1% body area for infants and children, or less",
+      "services": 125,
+      "payments": 20225.06,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 97,
+      "payments": 9685.03,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "15272",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, each additional 25.0 sq cm of wound 100.0 sq cm or less",
+      "services": 175,
+      "payments": 2772.0,
+      "avg_markup": 1.64
+    }
+  ]
+}

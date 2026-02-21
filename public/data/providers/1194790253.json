@@ -1,0 +1,239 @@
+{
+  "name": "Scott Gasiorek",
+  "credentials": "M.D.",
+  "specialty": "Radiation Oncology",
+  "city": "Sebring",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 933994.12,
+      "total_services": 5967,
+      "total_beneficiaries": 24,
+      "avg_submitted": 1076.01,
+      "avg_paid": 156.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 1435616.24,
+      "total_services": 9670,
+      "total_beneficiaries": 23,
+      "avg_submitted": 1035.15,
+      "avg_paid": 148.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 887303.79,
+      "total_services": 5958,
+      "total_beneficiaries": 23,
+      "avg_submitted": 681.57,
+      "avg_paid": 148.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 107770.62,
+      "total_services": 1637,
+      "total_beneficiaries": 13,
+      "avg_submitted": 283.68,
+      "avg_paid": 65.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 366564.81,
+      "total_services": 2568,
+      "total_beneficiaries": 10,
+      "avg_submitted": 696.37,
+      "avg_paid": 142.74
+    },
+    {
+      "year": 2019,
+      "total_payments": 721237.81,
+      "total_services": 3989,
+      "total_beneficiaries": 16,
+      "avg_submitted": 1028.5,
+      "avg_paid": 180.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 4311343.29,
+      "total_services": 16628,
+      "total_beneficiaries": 21,
+      "avg_submitted": 1618.08,
+      "avg_paid": 259.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 3989785.47,
+      "total_services": 14272,
+      "total_beneficiaries": 21,
+      "avg_submitted": 1774.94,
+      "avg_paid": 279.55
+    },
+    {
+      "year": 2022,
+      "total_payments": 3994338.2,
+      "total_services": 15203,
+      "total_beneficiaries": 21,
+      "avg_submitted": 1743.29,
+      "avg_paid": 262.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 2971007.19,
+      "total_services": 13030,
+      "total_beneficiaries": 23,
+      "avg_submitted": 1553.32,
+      "avg_paid": 228.01
+    }
+  ],
+  "overall": {
+    "total_payments": 19718961.54,
+    "total_services": 88922,
+    "total_beneficiaries": 195,
+    "avg_markup_ratio": 6.38,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "77523",
+      "description": "Intermediate proton beam radiation treatment",
+      "services": 12825,
+      "payments": 10871137.5,
+      "avg_markup": 6.3
+    },
+    {
+      "code": "77014",
+      "description": "Ct guidance for insertion of radiation therapy fields",
+      "services": 29670,
+      "payments": 1549997.65,
+      "avg_markup": 6.47
+    },
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 4847,
+      "payments": 1443148.62,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "77301",
+      "description": "High precision radiation therapy planning",
+      "services": 727,
+      "payments": 699812.57,
+      "avg_markup": 6.12
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatment sessions",
+      "services": 4135,
+      "payments": 645499.41,
+      "avg_markup": 5.6
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10 mev",
+      "services": 2986,
+      "payments": 603372.07,
+      "avg_markup": 5.35
+    },
+    {
+      "code": "77373",
+      "description": "Cranial lesion surgery using radiation over multiple sessions",
+      "services": 622,
+      "payments": 556774.44,
+      "avg_markup": 8.36
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 10137,
+      "payments": 451334.25,
+      "avg_markup": 6.14
+    },
+    {
+      "code": "G6017",
+      "description": "Intra-fraction localization and tracking of target or patient motion during delivery of radiation therapy (eg,3d positional tracking, gating, 3d surface tracking), each fraction of treatment",
+      "services": 4478,
+      "payments": 320710.24,
+      "avg_markup": 7.02
+    },
+    {
+      "code": "77418",
+      "description": "Intensity modulated radiation treatment delivery per session",
+      "services": 876,
+      "payments": 281919.02,
+      "avg_markup": 6.22
+    },
+    {
+      "code": "55874",
+      "description": "Injection of biodegradable material next to prostate",
+      "services": 114,
+      "payments": 280746.3,
+      "avg_markup": 7.65
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of radiation treatment device for high precision radiation therapy",
+      "services": 1033,
+      "payments": 244645.54,
+      "avg_markup": 6.31
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 4332,
+      "payments": 213321.73,
+      "avg_markup": 6.17
+    },
+    {
+      "code": "77336",
+      "description": "Continuing radiation therapy consultation per week",
+      "services": 2785,
+      "payments": 182388.35,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "G0340",
+      "description": "Image-guided robotic linear accelerator-based stereotactic radiosurgery, delivery including collimator changes and custom plugging, fractionated treatment, all lesions, per session, second through fifth sessions, maximum five sessions per course of treatme",
+      "services": 153,
+      "payments": 167196.38,
+      "avg_markup": 19.6
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19 mev",
+      "services": 776,
+      "payments": 159054.39,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "77334",
+      "description": "Design and construction of complex radiation treatment device",
+      "services": 1793,
+      "payments": 138759.31,
+      "avg_markup": 5.58
+    },
+    {
+      "code": "77290",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 3 or more treatment areas or any number of treatment areas where special treatment is involved",
+      "services": 454,
+      "payments": 135918.59,
+      "avg_markup": 5.9
+    },
+    {
+      "code": "77280",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 1 treatment area",
+      "services": 525,
+      "payments": 91974.53,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "77263",
+      "description": "Complex radiation therapy planning",
+      "services": 677,
+      "payments": 89983.92,
+      "avg_markup": 5.66
+    }
+  ]
+}

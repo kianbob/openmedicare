@@ -1,0 +1,239 @@
+{
+  "name": "Samuel Slomowitz",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 37455.39,
+      "total_services": 933,
+      "total_beneficiaries": 9,
+      "avg_submitted": 107.31,
+      "avg_paid": 40.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 242229.99,
+      "total_services": 52957,
+      "total_beneficiaries": 21,
+      "avg_submitted": 16.18,
+      "avg_paid": 4.57
+    },
+    {
+      "year": 2016,
+      "total_payments": 334521.17,
+      "total_services": 59013,
+      "total_beneficiaries": 22,
+      "avg_submitted": 15.86,
+      "avg_paid": 5.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 416235.98,
+      "total_services": 76371,
+      "total_beneficiaries": 27,
+      "avg_submitted": 15.49,
+      "avg_paid": 5.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 1202027.45,
+      "total_services": 96049,
+      "total_beneficiaries": 33,
+      "avg_submitted": 53.38,
+      "avg_paid": 12.51
+    },
+    {
+      "year": 2019,
+      "total_payments": 2972796.67,
+      "total_services": 222344,
+      "total_beneficiaries": 37,
+      "avg_submitted": 80.87,
+      "avg_paid": 13.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 2934635.81,
+      "total_services": 325018,
+      "total_beneficiaries": 39,
+      "avg_submitted": 56.81,
+      "avg_paid": 9.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 2685476.45,
+      "total_services": 319386,
+      "total_beneficiaries": 39,
+      "avg_submitted": 61.93,
+      "avg_paid": 8.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 2344176.43,
+      "total_services": 233661,
+      "total_beneficiaries": 41,
+      "avg_submitted": 73.48,
+      "avg_paid": 10.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 3432151.44,
+      "total_services": 271084,
+      "total_beneficiaries": 38,
+      "avg_submitted": 87.81,
+      "avg_paid": 12.66
+    }
+  ],
+  "overall": {
+    "total_payments": 16601706.78,
+    "total_services": 1656816,
+    "total_beneficiaries": 306,
+    "avg_markup_ratio": 6.35,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J9271",
+      "description": "Injection, pembrolizumab, 1 mg",
+      "services": 90801,
+      "payments": 3707494.02,
+      "avg_markup": 4.74
+    },
+    {
+      "code": "J9299",
+      "description": "Injection, nivolumab, 1 mg",
+      "services": 111681,
+      "payments": 2578623.4,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 14635,
+      "payments": 1419924.69,
+      "avg_markup": 6.52
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 81184,
+      "payments": 1289222.77,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "J0881",
+      "description": "Injection, darbepoetin alfa, 1 microgram (non-esrd use)",
+      "services": 414500,
+      "payments": 1154540.27,
+      "avg_markup": 7.18
+    },
+    {
+      "code": "J1561",
+      "description": "Injection, immune globulin, (gamunex-c/gammaked), non-lyophilized (e.g., liquid), 500 mg",
+      "services": 23600,
+      "payments": 861949.27,
+      "avg_markup": 4.64
+    },
+    {
+      "code": "J9312",
+      "description": "Injection, rituximab, 10 mg",
+      "services": 9642,
+      "payments": 717878.14,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 5585,
+      "payments": 704039.01,
+      "avg_markup": 7.01
+    },
+    {
+      "code": "Q5108",
+      "description": "Injection, pegfilgrastim-jmdb (fulphila), biosimilar, 0.5 mg",
+      "services": 2328,
+      "payments": 468330.99,
+      "avg_markup": 6.86
+    },
+    {
+      "code": "Q5119",
+      "description": "Injection, rituximab-pvvr, biosimilar, (ruxience), 10 mg",
+      "services": 9380,
+      "payments": 341614.39,
+      "avg_markup": 6.1
+    },
+    {
+      "code": "Q5118",
+      "description": "Injection, bevacizumab-bvzr, biosimilar, (zirabev), 10 mg",
+      "services": 10780,
+      "payments": 300111.82,
+      "avg_markup": 5.94
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 4038,
+      "payments": 262828.04,
+      "avg_markup": 5.27
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 3780,
+      "payments": 240579.35,
+      "avg_markup": 5.03
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 56,
+      "payments": 153446.0,
+      "avg_markup": 5.63
+    },
+    {
+      "code": "J9041",
+      "description": "Injection, bortezomib (velcade), 0.1 mg",
+      "services": 4235,
+      "payments": 148706.92,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 16698,
+      "payments": 143180.13,
+      "avg_markup": 5.76
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 809,
+      "payments": 139904.77,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 50 minutes",
+      "services": 1560,
+      "payments": 137163.62,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care with moderate level of medical decision making, if using time, at least 75 minutes",
+      "services": 808,
+      "payments": 134293.32,
+      "avg_markup": 4.54
+    },
+    {
+      "code": "J1439",
+      "description": "Injection, ferric carboxymaltose, 1 mg",
+      "services": 132750,
+      "payments": 109798.75,
+      "avg_markup": 2.96
+    }
+  ]
+}

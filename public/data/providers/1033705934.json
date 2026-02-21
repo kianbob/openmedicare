@@ -1,0 +1,113 @@
+{
+  "name": "Mercy Health - Life Flight Network Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Toledo",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 3467001.77,
+      "total_services": 126110,
+      "total_beneficiaries": 10,
+      "avg_submitted": 155.8,
+      "avg_paid": 27.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 3294890.05,
+      "total_services": 124973,
+      "total_beneficiaries": 9,
+      "avg_submitted": 149.91,
+      "avg_paid": 26.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 3283260.54,
+      "total_services": 130777,
+      "total_beneficiaries": 9,
+      "avg_submitted": 135.84,
+      "avg_paid": 25.11
+    }
+  ],
+  "overall": {
+    "total_payments": 10045152.36,
+    "total_services": 381860,
+    "total_beneficiaries": 28,
+    "avg_markup_ratio": 5.59,
+    "years_active": 3
+  },
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 1335,
+      "payments": 3243060.09,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 332597,
+      "payments": 2293971.13,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 9409,
+      "payments": 1725078.29,
+      "avg_markup": 5.0
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 32935,
+      "payments": 941506.68,
+      "avg_markup": 8.57
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 2341,
+      "payments": 831807.13,
+      "avg_markup": 5.32
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2176,
+      "payments": 493069.02,
+      "avg_markup": 7.34
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 388,
+      "payments": 235869.67,
+      "avg_markup": 6.01
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 548,
+      "payments": 163697.07,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 115,
+      "payments": 60377.46,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 16,
+      "payments": 56715.82,
+      "avg_markup": 7.33
+    }
+  ]
+}

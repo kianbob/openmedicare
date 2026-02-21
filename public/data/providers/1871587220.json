@@ -1,0 +1,239 @@
+{
+  "name": "Raja Devanathan",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Hobart",
+  "state": "IN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 573860.29,
+      "total_services": 17323,
+      "total_beneficiaries": 31,
+      "avg_submitted": 85.34,
+      "avg_paid": 33.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 567498.62,
+      "total_services": 17173,
+      "total_beneficiaries": 27,
+      "avg_submitted": 83.78,
+      "avg_paid": 33.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 502587.22,
+      "total_services": 14573,
+      "total_beneficiaries": 27,
+      "avg_submitted": 83.22,
+      "avg_paid": 34.49
+    },
+    {
+      "year": 2017,
+      "total_payments": 531516.02,
+      "total_services": 14918,
+      "total_beneficiaries": 27,
+      "avg_submitted": 84.57,
+      "avg_paid": 35.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 696856.98,
+      "total_services": 19777,
+      "total_beneficiaries": 28,
+      "avg_submitted": 80.89,
+      "avg_paid": 35.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 1123115.99,
+      "total_services": 27895,
+      "total_beneficiaries": 28,
+      "avg_submitted": 82.69,
+      "avg_paid": 40.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 1374809.99,
+      "total_services": 35832,
+      "total_beneficiaries": 28,
+      "avg_submitted": 73.87,
+      "avg_paid": 38.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 1710272.92,
+      "total_services": 48042,
+      "total_beneficiaries": 28,
+      "avg_submitted": 66.08,
+      "avg_paid": 35.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 2226205.93,
+      "total_services": 62869,
+      "total_beneficiaries": 28,
+      "avg_submitted": 65.65,
+      "avg_paid": 35.41
+    },
+    {
+      "year": 2023,
+      "total_payments": 3046969.68,
+      "total_services": 106739,
+      "total_beneficiaries": 32,
+      "avg_submitted": 50.11,
+      "avg_paid": 28.55
+    }
+  ],
+  "overall": {
+    "total_payments": 12353693.64,
+    "total_services": 365141,
+    "total_beneficiaries": 284,
+    "avg_markup_ratio": 1.99,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J2357",
+      "description": "Injection, omalizumab, 5 mg",
+      "services": 150001,
+      "payments": 4169569.68,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "J2182",
+      "description": "Injection, mepolizumab, 1 mg",
+      "services": 104000,
+      "payments": 2388858.22,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "J0517",
+      "description": "Injection, benralizumab, 1 mg",
+      "services": 16741,
+      "payments": 2221873.83,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 35 minutes",
+      "services": 16577,
+      "payments": 901858.62,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "J2356",
+      "description": "Injection, tezepelumab-ekko, 1 mg",
+      "services": 31710,
+      "payments": 455277.84,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 8521,
+      "payments": 439916.0,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital care with straightforward or low-level medical decision making, if using time, at least 55 minutes",
+      "services": 2549,
+      "payments": 251770.69,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 1208,
+      "payments": 177561.37,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 3644,
+      "payments": 127941.56,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes",
+      "services": 3926,
+      "payments": 116034.64,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care with moderate level of medical decision making, if using time, at least 75 minutes",
+      "services": 771,
+      "payments": 113967.17,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 50 minutes",
+      "services": 1358,
+      "payments": 106305.66,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "96372",
+      "description": "Injection of drug or substance under skin or into muscle",
+      "services": 7724,
+      "payments": 100623.23,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 596,
+      "payments": 95107.75,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 562,
+      "payments": 92459.7,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "96401",
+      "description": "Administration of non-hormonal anti-neoplastic chemotherapy under skin or into muscle",
+      "services": 1254,
+      "payments": 63886.91,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "94729",
+      "description": "Test to examine how well the lungs exchange gases",
+      "services": 1757,
+      "payments": 57806.34,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient outpatient visit, total time 30-39 minutes",
+      "services": 668,
+      "payments": 50415.72,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "94060",
+      "description": "Test to measure expiratory airflow and volume changes before and after medication administration",
+      "services": 1302,
+      "payments": 49091.08,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99442",
+      "description": "Telephone medical discussion with physician, 11-20 minutes",
+      "services": 795,
+      "payments": 42811.69,
+      "avg_markup": 2.4
+    }
+  ]
+}

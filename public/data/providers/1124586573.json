@@ -1,0 +1,101 @@
+{
+  "name": "Courtney Williams",
+  "credentials": "",
+  "specialty": "Nurse Practitioner",
+  "city": "Westminster",
+  "state": "CO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 1376.64,
+      "total_services": 66,
+      "total_beneficiaries": 1,
+      "avg_submitted": 66.0,
+      "avg_paid": 20.86
+    },
+    {
+      "year": 2020,
+      "total_payments": 14616.72,
+      "total_services": 530,
+      "total_beneficiaries": 5,
+      "avg_submitted": 89.83,
+      "avg_paid": 27.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 17434.88,
+      "total_services": 643,
+      "total_beneficiaries": 5,
+      "avg_submitted": 87.44,
+      "avg_paid": 27.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 565582.05,
+      "total_services": 47595,
+      "total_beneficiaries": 5,
+      "avg_submitted": 12.68,
+      "avg_paid": 11.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 4081037.55,
+      "total_services": 346826,
+      "total_beneficiaries": 3,
+      "avg_submitted": 12.04,
+      "avg_paid": 11.77
+    }
+  ],
+  "overall": {
+    "total_payments": 4680047.84,
+    "total_services": 395660,
+    "total_beneficiaries": 19,
+    "avg_markup_ratio": 1.04,
+    "years_active": 5
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 393721,
+      "payments": 4629994.32,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "97110",
+      "description": "Therapy procedure using exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 1327,
+      "payments": 25211.86,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "20553",
+      "description": "Injection of trigger points, 3 or more muscles",
+      "services": 476,
+      "payments": 19921.49,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 59,
+      "payments": 2804.04,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "72100",
+      "description": "X-ray of lower and sacral spine, 2-3 views",
+      "services": 42,
+      "payments": 1144.62,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "72040",
+      "description": "X-ray of upper spine, 2-3 views",
+      "services": 35,
+      "payments": 971.51,
+      "avg_markup": 2.41
+    }
+  ]
+}

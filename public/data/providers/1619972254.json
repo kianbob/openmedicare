@@ -1,0 +1,239 @@
+{
+  "name": "Compunet Clinical Laboratories Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Moraine",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 7716592.24,
+      "total_services": 637096,
+      "total_beneficiaries": 227,
+      "avg_submitted": 106.83,
+      "avg_paid": 12.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 7093609.25,
+      "total_services": 590163,
+      "total_beneficiaries": 220,
+      "avg_submitted": 106.93,
+      "avg_paid": 12.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 7896507.89,
+      "total_services": 655142,
+      "total_beneficiaries": 226,
+      "avg_submitted": 106.24,
+      "avg_paid": 12.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 7998071.64,
+      "total_services": 657797,
+      "total_beneficiaries": 231,
+      "avg_submitted": 106.65,
+      "avg_paid": 12.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 7518093.59,
+      "total_services": 616353,
+      "total_beneficiaries": 221,
+      "avg_submitted": 87.77,
+      "avg_paid": 12.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 6978496.93,
+      "total_services": 626894,
+      "total_beneficiaries": 235,
+      "avg_submitted": 46.42,
+      "avg_paid": 11.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 8397711.49,
+      "total_services": 666273,
+      "total_beneficiaries": 243,
+      "avg_submitted": 47.83,
+      "avg_paid": 12.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 8506325.17,
+      "total_services": 689939,
+      "total_beneficiaries": 239,
+      "avg_submitted": 34.81,
+      "avg_paid": 12.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 7660779.35,
+      "total_services": 702791,
+      "total_beneficiaries": 249,
+      "avg_submitted": 29.94,
+      "avg_paid": 10.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 7725842.54,
+      "total_services": 688715,
+      "total_beneficiaries": 233,
+      "avg_submitted": 44.38,
+      "avg_paid": 11.22
+    }
+  ],
+  "overall": {
+    "total_payments": 77492030.09,
+    "total_services": 6531163,
+    "total_beneficiaries": 2324,
+    "avg_markup_ratio": 5.96,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 687012,
+      "payments": 7819088.82,
+      "avg_markup": 6.37
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 336024,
+      "payments": 6576880.8,
+      "avg_markup": 6.8
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 475319,
+      "payments": 6463349.55,
+      "avg_markup": 6.42
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 581439,
+      "payments": 5155184.76,
+      "avg_markup": 5.39
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 942469,
+      "payments": 3350159.27,
+      "avg_markup": 5.51
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 90345,
+      "payments": 3035218.91,
+      "avg_markup": 6.06
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 247982,
+      "payments": 2776697.51,
+      "avg_markup": 7.9
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 30983,
+      "payments": 2701142.86,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 38821,
+      "payments": 1815162.72,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement, total",
+      "services": 76790,
+      "payments": 1626640.49,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical), free",
+      "services": 155665,
+      "payments": 1621356.98,
+      "avg_markup": 7.41
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals (calcium, total)",
+      "services": 167812,
+      "payments": 1474166.45,
+      "avg_markup": 6.9
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin b-12) level",
+      "services": 68720,
+      "payments": 1194542.0,
+      "avg_markup": 5.63
+    },
+    {
+      "code": "87086",
+      "description": "Bacterial colony count, urine",
+      "services": 108035,
+      "payments": 1017004.54,
+      "avg_markup": 7.5
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 63928,
+      "payments": 1005683.73,
+      "avg_markup": 5.95
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 39862,
+      "payments": 846961.59,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level, serum",
+      "services": 42037,
+      "payments": 712260.58,
+      "avg_markup": 5.4
+    },
+    {
+      "code": "80069",
+      "description": "Kidney function blood test panel",
+      "services": 74578,
+      "payments": 701213.02,
+      "avg_markup": 6.88
+    },
+    {
+      "code": "87088",
+      "description": "Bacterial urine culture",
+      "services": 68815,
+      "payments": 653967.19,
+      "avg_markup": 6.22
+    },
+    {
+      "code": "87186",
+      "description": "Evaluation of antimicrobial drug (antibiotic, antifungal, antiviral), microdilution or agar dilution",
+      "services": 60784,
+      "payments": 582778.75,
+      "avg_markup": 6.2
+    }
+  ]
+}

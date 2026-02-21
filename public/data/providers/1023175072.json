@@ -1,0 +1,93 @@
+{
+  "name": "Habit Opco, Llc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Springfield",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 11388197.49,
+      "total_services": 64331,
+      "total_beneficiaries": 5,
+      "avg_submitted": 179.27,
+      "avg_paid": 177.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 12609953.06,
+      "total_services": 80285,
+      "total_beneficiaries": 6,
+      "avg_submitted": 160.49,
+      "avg_paid": 157.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 11631986.92,
+      "total_services": 72898,
+      "total_beneficiaries": 6,
+      "avg_submitted": 168.23,
+      "avg_paid": 159.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 11042910.14,
+      "total_services": 65871,
+      "total_beneficiaries": 6,
+      "avg_submitted": 174.04,
+      "avg_paid": 167.64
+    }
+  ],
+  "overall": {
+    "total_payments": 46673047.61,
+    "total_services": 283385,
+    "total_beneficiaries": 23,
+    "avg_markup_ratio": 1.03,
+    "years_active": 4
+  },
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 183008,
+      "payments": 39916038.51,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 20086,
+      "payments": 3383657.66,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 76714,
+      "payments": 2825690.76,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 1725,
+      "payments": 197008.01,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 1098,
+      "payments": 186516.59,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "G2172",
+      "description": "All inclusive payment for services related to highly coordinated and integrated opioid use disorder (oud) treatment services furnished for the demonstration project",
+      "services": 754,
+      "payments": 164136.08,
+      "avg_markup": 1.04
+    }
+  ]
+}

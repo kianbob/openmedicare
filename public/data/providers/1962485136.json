@@ -1,0 +1,239 @@
+{
+  "name": "Central Iowa Hospital Corporation",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Ankeny",
+  "state": "IA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1444731.13,
+      "total_services": 100090,
+      "total_beneficiaries": 150,
+      "avg_submitted": 52.38,
+      "avg_paid": 14.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 1784801.7,
+      "total_services": 117296,
+      "total_beneficiaries": 168,
+      "avg_submitted": 52.55,
+      "avg_paid": 15.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 2980020.0,
+      "total_services": 187790,
+      "total_beneficiaries": 183,
+      "avg_submitted": 55.17,
+      "avg_paid": 15.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 4019855.63,
+      "total_services": 256233,
+      "total_beneficiaries": 185,
+      "avg_submitted": 54.96,
+      "avg_paid": 15.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 4019416.33,
+      "total_services": 256625,
+      "total_beneficiaries": 188,
+      "avg_submitted": 54.94,
+      "avg_paid": 15.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 3309491.57,
+      "total_services": 246358,
+      "total_beneficiaries": 180,
+      "avg_submitted": 52.39,
+      "avg_paid": 13.43
+    },
+    {
+      "year": 2020,
+      "total_payments": 3673856.43,
+      "total_services": 229419,
+      "total_beneficiaries": 169,
+      "avg_submitted": 56.29,
+      "avg_paid": 16.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 3666817.42,
+      "total_services": 246320,
+      "total_beneficiaries": 180,
+      "avg_submitted": 56.04,
+      "avg_paid": 14.89
+    },
+    {
+      "year": 2022,
+      "total_payments": 3207568.17,
+      "total_services": 239067,
+      "total_beneficiaries": 171,
+      "avg_submitted": 55.01,
+      "avg_paid": 13.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 2965964.61,
+      "total_services": 236209,
+      "total_beneficiaries": 181,
+      "avg_submitted": 53.19,
+      "avg_paid": 12.56
+    }
+  ],
+  "overall": {
+    "total_payments": 31072522.99,
+    "total_services": 2115407,
+    "total_beneficiaries": 1755,
+    "avg_markup_ratio": 3.71,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 149790,
+      "payments": 1993234.43,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (tsh)",
+      "services": 101372,
+      "payments": 1918410.57,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 20531,
+      "payments": 1743247.0,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals (calcium, total)",
+      "services": 164815,
+      "payments": 1567288.56,
+      "avg_markup": 6.84
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 126695,
+      "payments": 1496144.98,
+      "avg_markup": 7.22
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin d-3 level",
+      "services": 40085,
+      "payments": 1385341.63,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+      "services": 138008,
+      "payments": 1205395.76,
+      "avg_markup": 5.49
+    },
+    {
+      "code": "87507",
+      "description": "Detection test by nucleic acid for digestive tract pathogen, multiple types or subtypes, 12-25 targets",
+      "services": 2403,
+      "payments": 1192113.21,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "87086",
+      "description": "Bacterial colony count, urine",
+      "services": 89931,
+      "payments": 839492.78,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin a1c level",
+      "services": 70894,
+      "payments": 782482.31,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "86832",
+      "description": "Assessment of antibody to human leukocyte antigens (hla) with high definition qualitative panel for identification of antibody specificities, hla class i",
+      "services": 2683,
+      "payments": 727261.51,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "86833",
+      "description": "Assessment of antibody to human leukocyte antigens (hla) with high definition qualitative panel for identification of antibody specificities, hla class ii",
+      "services": 2673,
+      "payments": 715747.85,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 13014,
+      "payments": 609163.1,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 14130,
+      "payments": 588263.46,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "87186",
+      "description": "Evaluation of antimicrobial drug (antibiotic, antifungal, antiviral), microdilution or agar dilution",
+      "services": 48761,
+      "payments": 493178.97,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "87077",
+      "description": "Bacterial culture for aerobic isolates",
+      "services": 51950,
+      "payments": 466562.0,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin b-12) level",
+      "services": 23572,
+      "payments": 403014.32,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 98936,
+      "payments": 360295.31,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 16865,
+      "payments": 356411.0,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "G0145",
+      "description": "Screening cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation, with screening by automated system and manual rescreening under physician supervision",
+      "services": 10228,
+      "payments": 329048.03,
+      "avg_markup": 2.11
+    }
+  ]
+}

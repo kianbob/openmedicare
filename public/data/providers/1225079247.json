@@ -1,0 +1,239 @@
+{
+  "name": "Tao Ho",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Dallas",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 101662.52,
+      "total_services": 1309,
+      "total_beneficiaries": 12,
+      "avg_submitted": 148.12,
+      "avg_paid": 77.66
+    },
+    {
+      "year": 2015,
+      "total_payments": 91257.06,
+      "total_services": 1509,
+      "total_beneficiaries": 8,
+      "avg_submitted": 121.71,
+      "avg_paid": 60.48
+    },
+    {
+      "year": 2016,
+      "total_payments": 106922.14,
+      "total_services": 1286,
+      "total_beneficiaries": 10,
+      "avg_submitted": 215.84,
+      "avg_paid": 83.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 44084.21,
+      "total_services": 1179,
+      "total_beneficiaries": 9,
+      "avg_submitted": 109.57,
+      "avg_paid": 37.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 191597.83,
+      "total_services": 3385,
+      "total_beneficiaries": 19,
+      "avg_submitted": 161.53,
+      "avg_paid": 56.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 265348.42,
+      "total_services": 4264,
+      "total_beneficiaries": 18,
+      "avg_submitted": 168.29,
+      "avg_paid": 62.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 534331.09,
+      "total_services": 8922,
+      "total_beneficiaries": 17,
+      "avg_submitted": 157.13,
+      "avg_paid": 59.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 374916.31,
+      "total_services": 7253,
+      "total_beneficiaries": 13,
+      "avg_submitted": 133.37,
+      "avg_paid": 51.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 1493012.71,
+      "total_services": 25132,
+      "total_beneficiaries": 14,
+      "avg_submitted": 155.16,
+      "avg_paid": 59.41
+    },
+    {
+      "year": 2023,
+      "total_payments": 4250055.44,
+      "total_services": 70638,
+      "total_beneficiaries": 12,
+      "avg_submitted": 157.02,
+      "avg_paid": 60.17
+    }
+  ],
+  "overall": {
+    "total_payments": 7453187.73,
+    "total_services": 124877,
+    "total_beneficiaries": 132,
+    "avg_markup_ratio": 2.6,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services for two or more chronic conditions, each additional 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 58567,
+      "payments": 3094369.67,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services for two or more chronic conditions, first 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 18349,
+      "payments": 1804334.87,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "G0179",
+      "description": "Physician or allowed practitioner re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians a",
+      "services": 14767,
+      "payments": 447115.29,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 9155,
+      "payments": 392973.19,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services for problem of high complexity",
+      "services": 1558,
+      "payments": 276483.9,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "G0180",
+      "description": "Physician or allowed practitioner certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians and",
+      "services": 6431,
+      "payments": 253416.14,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 2421,
+      "payments": 226220.02,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 1047,
+      "payments": 131329.08,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 939,
+      "payments": 125172.24,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 3302,
+      "payments": 116480.46,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1353,
+      "payments": 71008.44,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "G0506",
+      "description": "Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service)",
+      "services": 1657,
+      "payments": 68519.07,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 409,
+      "payments": 66614.04,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 693,
+      "payments": 56946.05,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 799,
+      "payments": 56169.5,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 746,
+      "payments": 41869.61,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services for problem of at least moderate complexity",
+      "services": 236,
+      "payments": 29059.94,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 168,
+      "payments": 26356.07,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 318,
+      "payments": 26020.86,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 184,
+      "payments": 23898.7,
+      "avg_markup": 2.01
+    }
+  ]
+}

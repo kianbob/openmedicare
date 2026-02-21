@@ -1,0 +1,239 @@
+{
+  "name": "Thomas Harper",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Louisville",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 850881.04,
+      "total_services": 12202,
+      "total_beneficiaries": 15,
+      "avg_submitted": 191.59,
+      "avg_paid": 69.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 936469.38,
+      "total_services": 14402,
+      "total_beneficiaries": 12,
+      "avg_submitted": 176.71,
+      "avg_paid": 65.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 1254849.14,
+      "total_services": 15329,
+      "total_beneficiaries": 15,
+      "avg_submitted": 204.36,
+      "avg_paid": 81.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 1791599.99,
+      "total_services": 17570,
+      "total_beneficiaries": 14,
+      "avg_submitted": 242.42,
+      "avg_paid": 101.97
+    },
+    {
+      "year": 2018,
+      "total_payments": 2148591.82,
+      "total_services": 18458,
+      "total_beneficiaries": 15,
+      "avg_submitted": 268.92,
+      "avg_paid": 116.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 2423960.38,
+      "total_services": 17681,
+      "total_beneficiaries": 13,
+      "avg_submitted": 304.71,
+      "avg_paid": 137.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 2395081.21,
+      "total_services": 15778,
+      "total_beneficiaries": 14,
+      "avg_submitted": 335.81,
+      "avg_paid": 151.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 2531398.69,
+      "total_services": 16422,
+      "total_beneficiaries": 11,
+      "avg_submitted": 336.93,
+      "avg_paid": 154.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 2687900.8,
+      "total_services": 14525,
+      "total_beneficiaries": 12,
+      "avg_submitted": 399.74,
+      "avg_paid": 185.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 3270000.47,
+      "total_services": 28663,
+      "total_beneficiaries": 12,
+      "avg_submitted": 241.37,
+      "avg_paid": 114.08
+    }
+  ],
+  "overall": {
+    "total_payments": 20290732.92,
+    "total_services": 171030,
+    "total_beneficiaries": 133,
+    "avg_markup_ratio": 2.28,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 16584,
+      "payments": 12108733.25,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 37973,
+      "payments": 3182230.34,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 24291,
+      "payments": 1858466.34,
+      "avg_markup": 6.38
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 39405,
+      "payments": 1088066.62,
+      "avg_markup": 5.12
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 15125,
+      "payments": 740438.42,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 13562,
+      "payments": 392229.57,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 306,
+      "payments": 264244.58,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "92004",
+      "description": "New patient complete exam of visual system",
+      "services": 2042,
+      "payments": 202616.14,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 96,
+      "payments": 91590.94,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 126,
+      "payments": 81780.31,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "J3300",
+      "description": "Injection, triamcinolone acetonide, preservative free, 1 mg",
+      "services": 18777,
+      "payments": 55849.11,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach",
+      "services": 53,
+      "payments": 48462.24,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 1352,
+      "payments": 46843.3,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 203,
+      "payments": 30905.59,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 518,
+      "payments": 29503.69,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "J2781",
+      "description": "Injection, pegcetacoplan, intravitreal, 1 mg",
+      "services": 225,
+      "payments": 27081.15,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "67040",
+      "description": "Laser destruction of eye fluid (vitreous) between the lens and retina",
+      "services": 23,
+      "payments": 17175.97,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 113,
+      "payments": 5887.75,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 113,
+      "payments": 5485.93,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 31,
+      "payments": 4254.59,
+      "avg_markup": 2.06
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "James Brown",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Jackson",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 227296.79,
+      "total_services": 1656,
+      "total_beneficiaries": 13,
+      "avg_submitted": 333.98,
+      "avg_paid": 137.26
+    },
+    {
+      "year": 2015,
+      "total_payments": 2539386.3,
+      "total_services": 12939,
+      "total_beneficiaries": 23,
+      "avg_submitted": 543.04,
+      "avg_paid": 196.26
+    },
+    {
+      "year": 2016,
+      "total_payments": 3613317.87,
+      "total_services": 18404,
+      "total_beneficiaries": 24,
+      "avg_submitted": 557.62,
+      "avg_paid": 196.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 4575778.48,
+      "total_services": 21742,
+      "total_beneficiaries": 23,
+      "avg_submitted": 600.82,
+      "avg_paid": 210.46
+    },
+    {
+      "year": 2018,
+      "total_payments": 5310417.03,
+      "total_services": 23183,
+      "total_beneficiaries": 20,
+      "avg_submitted": 654.02,
+      "avg_paid": 229.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 5728143.52,
+      "total_services": 23115,
+      "total_beneficiaries": 24,
+      "avg_submitted": 718.48,
+      "avg_paid": 247.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 4358212.36,
+      "total_services": 15395,
+      "total_beneficiaries": 19,
+      "avg_submitted": 832.68,
+      "avg_paid": 283.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 5349052.34,
+      "total_services": 19739,
+      "total_beneficiaries": 19,
+      "avg_submitted": 794.19,
+      "avg_paid": 270.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 4963381.5,
+      "total_services": 18766,
+      "total_beneficiaries": 16,
+      "avg_submitted": 800.19,
+      "avg_paid": 264.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 5366802.85,
+      "total_services": 21644,
+      "total_beneficiaries": 18,
+      "avg_submitted": 783.68,
+      "avg_paid": 247.96
+    }
+  ],
+  "overall": {
+    "total_payments": 42031789.04,
+    "total_services": 176583,
+    "total_beneficiaries": 199,
+    "avg_markup_ratio": 2.93,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 43865,
+      "payments": 32236429.64,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 11270,
+      "payments": 3086556.71,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 28401,
+      "payments": 2297224.06,
+      "avg_markup": 7.47
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 42622,
+      "payments": 1154230.39,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 14327,
+      "payments": 737506.71,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 5788,
+      "payments": 329330.35,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 2851,
+      "payments": 314839.77,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 3444,
+      "payments": 226446.56,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 351,
+      "payments": 211225.1,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, 30-44 minutes",
+      "services": 2596,
+      "payments": 180009.68,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 201,
+      "payments": 179173.14,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 2211,
+      "payments": 151421.02,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 1583,
+      "payments": 126502.02,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 1993,
+      "payments": 112801.21,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "67113",
+      "description": "Complex repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 107,
+      "payments": 104381.2,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach with removal of internal limiting membrane of retina",
+      "services": 118,
+      "payments": 98484.15,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane of retina",
+      "services": 103,
+      "payments": 86722.56,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 2107,
+      "payments": 80059.98,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "67228",
+      "description": "Laser destruction of leaking retinal blood vessels, 1 or more sessions",
+      "services": 159,
+      "payments": 48092.96,
+      "avg_markup": 6.12
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 1621,
+      "payments": 46911.74,
+      "avg_markup": 2.42
+    }
+  ]
+}

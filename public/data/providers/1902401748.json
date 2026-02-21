@@ -1,0 +1,63 @@
+{
+  "name": "Landmark Surgical Suites, Llc",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Jeffersonville",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 3207043.15,
+      "total_services": 508,
+      "total_beneficiaries": 4,
+      "avg_submitted": 74862.99,
+      "avg_paid": 6313.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 4172304.48,
+      "total_services": 613,
+      "total_beneficiaries": 3,
+      "avg_submitted": 78301.79,
+      "avg_paid": 6806.37
+    }
+  ],
+  "overall": {
+    "total_payments": 7379347.63,
+    "total_services": 1121,
+    "total_beneficiaries": 7,
+    "avg_markup_ratio": 11.66,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "27130",
+      "description": "Replacement of thigh bone and hip joint with prosthesis",
+      "services": 520,
+      "payments": 3517296.95,
+      "avg_markup": 12.67
+    },
+    {
+      "code": "27447",
+      "description": "Replacement of knee joint, both sides of knee",
+      "services": 404,
+      "payments": 2693571.9,
+      "avg_markup": 11.38
+    },
+    {
+      "code": "27446",
+      "description": "Replacement of knee joint on side of knee",
+      "services": 178,
+      "payments": 1168097.23,
+      "avg_markup": 9.23
+    },
+    {
+      "code": "76000",
+      "description": "Imaging guidance for procedure, 60 minutes or less",
+      "services": 19,
+      "payments": 381.55,
+      "avg_markup": 79.68
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "J's Pharmacy Llc",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "Wilsonville",
+  "state": "AL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 2130676.8,
+      "total_services": 181180,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 28805837.76,
+      "total_services": 2449490,
+      "total_beneficiaries": 1,
+      "avg_submitted": 12.0,
+      "avg_paid": 11.76
+    }
+  ],
+  "overall": {
+    "total_payments": 30936514.56,
+    "total_services": 2630670,
+    "total_beneficiaries": 2,
+    "avg_markup_ratio": 1.02,
+    "years_active": 2
+  },
+  "top_procedures": [
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 2630670,
+      "payments": 30936514.56,
+      "avg_markup": 1.02
+    }
+  ]
+}

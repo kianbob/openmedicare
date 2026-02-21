@@ -1,0 +1,76 @@
+{
+  "name": "Brooke Heying",
+  "credentials": "PA",
+  "specialty": "Physician Assistant",
+  "city": "Rancho Cucamonga",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 3455122.37,
+      "total_services": 3921,
+      "total_beneficiaries": 6,
+      "avg_submitted": 1146.99,
+      "avg_paid": 881.18
+    }
+  ],
+  "overall": {
+    "total_payments": 3455122.37,
+    "total_services": 3921,
+    "total_beneficiaries": 6,
+    "avg_markup_ratio": 1.3,
+    "years_active": 1
+  },
+  "top_procedures": [
+    {
+      "code": "Q4281",
+      "description": "Barrera sl or barrera dl, per square centimeter",
+      "services": 2228,
+      "payments": 2707465.6,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "Q4188",
+      "description": "Amnioarmor, per square centimeter",
+      "services": 918,
+      "payments": 683726.4,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue, 20.0 sq cm or less",
+      "services": 250,
+      "payments": 24090.45,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "15271",
+      "description": "Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",
+      "services": 201,
+      "payments": 22913.41,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 250,
+      "payments": 13432.31,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99342",
+      "description": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 47,
+      "payments": 2559.6,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "11000",
+      "description": "Removal of inflamed or infected skin, up to 10% of body surface",
+      "services": 27,
+      "payments": 934.6,
+      "avg_markup": 3.18
+    }
+  ]
+}

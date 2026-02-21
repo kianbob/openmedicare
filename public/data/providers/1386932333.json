@@ -1,0 +1,231 @@
+{
+  "name": "Michael Hood",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Edmond",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 1005499.68,
+      "total_services": 2735,
+      "total_beneficiaries": 10,
+      "avg_submitted": 862.44,
+      "avg_paid": 367.64
+    },
+    {
+      "year": 2016,
+      "total_payments": 2033180.94,
+      "total_services": 5636,
+      "total_beneficiaries": 16,
+      "avg_submitted": 900.0,
+      "avg_paid": 360.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 599413.83,
+      "total_services": 2483,
+      "total_beneficiaries": 19,
+      "avg_submitted": 716.8,
+      "avg_paid": 241.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 2659987.41,
+      "total_services": 13425,
+      "total_beneficiaries": 21,
+      "avg_submitted": 634.23,
+      "avg_paid": 198.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 1177290.91,
+      "total_services": 7344,
+      "total_beneficiaries": 16,
+      "avg_submitted": 392.98,
+      "avg_paid": 160.31
+    },
+    {
+      "year": 2020,
+      "total_payments": 1445680.0,
+      "total_services": 7872,
+      "total_beneficiaries": 17,
+      "avg_submitted": 396.29,
+      "avg_paid": 183.65
+    },
+    {
+      "year": 2021,
+      "total_payments": 2090127.22,
+      "total_services": 10664,
+      "total_beneficiaries": 20,
+      "avg_submitted": 418.4,
+      "avg_paid": 196.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 2723334.93,
+      "total_services": 15316,
+      "total_beneficiaries": 20,
+      "avg_submitted": 433.53,
+      "avg_paid": 177.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 3522564.05,
+      "total_services": 37001,
+      "total_beneficiaries": 22,
+      "avg_submitted": 193.09,
+      "avg_paid": 95.2
+    }
+  ],
+  "overall": {
+    "total_payments": 17257078.97,
+    "total_services": 102476,
+    "total_beneficiaries": 161,
+    "avg_markup_ratio": 2.43,
+    "years_active": 9
+  },
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 15719,
+      "payments": 11473309.46,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 12774,
+      "payments": 1094500.95,
+      "avg_markup": 5.48
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 3630,
+      "payments": 1051169.54,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 26280,
+      "payments": 766937.38,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "92014",
+      "description": "Established patient complete exam of visual system",
+      "services": 6929,
+      "payments": 580343.89,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "92134",
+      "description": "Imaging of retina",
+      "services": 16454,
+      "payments": 464482.82,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 5322,
+      "payments": 300609.15,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 2541,
+      "payments": 293633.8,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "92012",
+      "description": "Established patient problem focused exam of visual system",
+      "services": 4158,
+      "payments": 239084.75,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane of retina with removal of internal limiting membrane of retina",
+      "services": 350,
+      "payments": 212507.88,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 1302,
+      "payments": 200762.21,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "67145",
+      "description": "Photocoagulation treatment to prevent detachment of retina",
+      "services": 484,
+      "payments": 138398.75,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina with drainage and removal of eye fluid between lens and retina",
+      "services": 165,
+      "payments": 99583.4,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "67228",
+      "description": "Destruction of leaking blood vessels of retina using laser",
+      "services": 323,
+      "payments": 79580.16,
+      "avg_markup": 8.17
+    },
+    {
+      "code": "67113",
+      "description": "Complex repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 79,
+      "payments": 48381.57,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 1120,
+      "payments": 35060.49,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "92235",
+      "description": "Exam of retinal blood vessels using a special camera after injection of a dye",
+      "services": 451,
+      "payments": 34874.56,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "92201",
+      "description": "Extended exam of the back part of the eye with retinal drawing",
+      "services": 1915,
+      "payments": 34146.28,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between lens and retina",
+      "services": 74,
+      "payments": 20068.51,
+      "avg_markup": 7.76
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 54,
+      "payments": 19572.72,
+      "avg_markup": 3.78
+    }
+  ]
+}

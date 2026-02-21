@@ -1,0 +1,239 @@
+{
+  "name": "John Waples",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "Huntsville",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 6771927.64,
+      "total_services": 652383,
+      "total_beneficiaries": 84,
+      "avg_submitted": 29.63,
+      "avg_paid": 10.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 6664662.59,
+      "total_services": 809010,
+      "total_beneficiaries": 86,
+      "avg_submitted": 24.88,
+      "avg_paid": 8.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 6987702.62,
+      "total_services": 723595,
+      "total_beneficiaries": 90,
+      "avg_submitted": 27.9,
+      "avg_paid": 9.66
+    },
+    {
+      "year": 2017,
+      "total_payments": 6249049.57,
+      "total_services": 538150,
+      "total_beneficiaries": 77,
+      "avg_submitted": 32.96,
+      "avg_paid": 11.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 8099836.97,
+      "total_services": 681469,
+      "total_beneficiaries": 86,
+      "avg_submitted": 36.83,
+      "avg_paid": 11.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 8674518.34,
+      "total_services": 721920,
+      "total_beneficiaries": 84,
+      "avg_submitted": 39.78,
+      "avg_paid": 12.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 7309072.84,
+      "total_services": 673162,
+      "total_beneficiaries": 84,
+      "avg_submitted": 38.56,
+      "avg_paid": 10.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 7940260.63,
+      "total_services": 518278,
+      "total_beneficiaries": 80,
+      "avg_submitted": 53.33,
+      "avg_paid": 15.32
+    },
+    {
+      "year": 2022,
+      "total_payments": 8170458.38,
+      "total_services": 490554,
+      "total_beneficiaries": 82,
+      "avg_submitted": 63.85,
+      "avg_paid": 16.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 9638056.8,
+      "total_services": 542635,
+      "total_beneficiaries": 79,
+      "avg_submitted": 68.5,
+      "avg_paid": 17.76
+    }
+  ],
+  "overall": {
+    "total_payments": 76505546.38,
+    "total_services": 6351156,
+    "total_beneficiaries": 832,
+    "avg_markup_ratio": 3.31,
+    "years_active": 10
+  },
+  "top_procedures": [
+    {
+      "code": "J9299",
+      "description": "Injection, nivolumab, 1 mg",
+      "services": 391120,
+      "payments": 8675794.88,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 2529,
+      "payments": 7648080.68,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "J9271",
+      "description": "Injection, pembrolizumab, 1 mg",
+      "services": 166800,
+      "payments": 6931155.01,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "J0897",
+      "description": "Injection, denosumab, 1 mg",
+      "services": 438480,
+      "payments": 6427470.39,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 75581,
+      "payments": 4207636.33,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 6653,
+      "payments": 3879437.53,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "J1568",
+      "description": "Injection, immune globulin, (octagam), intravenous, non-lyophilized (e.g., liquid), 500 mg",
+      "services": 91031,
+      "payments": 2780606.51,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 16193,
+      "payments": 1754425.01,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "J0881",
+      "description": "Injection, darbepoetin alfa, 1 microgram (non-esrd use)",
+      "services": 587420,
+      "payments": 1693377.35,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 19436,
+      "payments": 1578504.19,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "J9264",
+      "description": "Injection, paclitaxel protein-bound particles, 1 mg",
+      "services": 187800,
+      "payments": 1536228.48,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "96413",
+      "description": "Administration of chemotherapy into vein, 1 hour or less",
+      "services": 15691,
+      "payments": 1523848.18,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "J1561",
+      "description": "Injection, immune globulin, (gamunex-c/gammaked), non-lyophilized (e.g., liquid), 500 mg",
+      "services": 41300,
+      "payments": 1364673.76,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "G9678",
+      "description": "Oncology care model (ocm) monthly enhanced oncology services (meos) payment for ocm enhanced services. g9678 payments may only be made to ocm practitioners for ocm beneficiaries for the furnishment of enhanced services as defined in the ocm participation a",
+      "services": 8478,
+      "payments": 1336237.14,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "J1930",
+      "description": "Injection, lanreotide, 1 mg",
+      "services": 24120,
+      "payments": 1186133.41,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "J9355",
+      "description": "Injection, trastuzumab, 10 mg",
+      "services": 15623,
+      "payments": 1156411.48,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "J9173",
+      "description": "Injection, durvalumab, 10 mg",
+      "services": 18386,
+      "payments": 1124597.9,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "J9041",
+      "description": "Injection, bortezomib, 0.1 mg",
+      "services": 35858,
+      "payments": 1070614.57,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "J2353",
+      "description": "Injection, octreotide, depot form for intramuscular injection, 1 mg",
+      "services": 7580,
+      "payments": 961158.3,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "J9144",
+      "description": "Injection, daratumumab, 10 mg and hyaluronidase-fihj",
+      "services": 23040,
+      "payments": 867752.27,
+      "avg_markup": 3.45
+    }
+  ]
+}
