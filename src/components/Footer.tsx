@@ -45,6 +45,8 @@ const navigation = [
       { name: 'Fraud Watchlist', href: '/fraud/watchlist' },
       { name: 'Deep Dives', href: '/fraud/deep-dives' },
       { name: 'Report Fraud', href: '/fraud/report' },
+      { name: 'Fraud by State', href: '/states/CA/fraud-risk' },
+      { name: 'Fraud by Specialty', href: '/specialties/internal-medicine/fraud-risk' },
     ],
   },
   {

@@ -93,6 +93,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   } catch {}
 
+  // State fraud risk pages
+  try {
+    const statesData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'states.json'), 'utf-8'))
+    ;(statesData.states || []).forEach((s: { state: string }) => {
+      dynamicRoutes.push({ url: `${baseUrl}/states/${s.state}/fraud-risk`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
+    })
+  } catch {}
+
+  // Specialty fraud risk pages (top 30)
+  try {
+    const specData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'specialties.json'), 'utf-8'))
+    const specs = (specData.specialties || []).sort((a: { total_payments: number }, b: { total_payments: number }) => b.total_payments - a.total_payments).slice(0, 30)
+    specs.forEach((s: { specialty_slug: string }) => {
+      dynamicRoutes.push({ url: `${baseUrl}/specialties/${s.specialty_slug}/fraud-risk`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 })
+    })
+  } catch {}
+
+  // Procedure cost pages (top 100 by file size)
+  try {
+    const procDir2 = path.join(process.cwd(), 'public', 'data', 'procedures')
+    const procFiles = fs.readdirSync(procDir2).filter(f => f.endsWith('.json'))
+    const withSize = procFiles.map(f => ({ name: f, size: fs.statSync(path.join(procDir2, f)).size }))
+    withSize.sort((a, b) => b.size - a.size)
+    withSize.slice(0, 100).forEach(f => {
+      dynamicRoutes.push({ url: `${baseUrl}/procedures/${f.name.replace('.json', '')}/cost`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 })
+    })
+  } catch {}
+
   // Top providers (limit to keep sitemap reasonable)
   try {
     const provDir = path.join(process.cwd(), 'public', 'data', 'providers')
