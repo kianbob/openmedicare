@@ -152,7 +152,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
             <div className="flex-1">
               <h1 className="text-4xl font-bold text-gray-900 font-playfair mb-2">
-                {providerData.name}, {providerData.credentials}
+                {providerData.credentials ? `${providerData.name}, ${providerData.credentials}` : providerData.name}
               </h1>
               <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-6">
                 <div className="flex items-center">
