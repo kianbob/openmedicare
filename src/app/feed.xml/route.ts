@@ -174,6 +174,30 @@ const items = [
     link: '/investigations/medicare-spending-by-state',
     pubDate: '2026-02-21T00:00:00.000Z',
   },
+  {
+    title: 'Two Companies Control America\'s Lab Testing — and Bill Medicare Billions',
+    description: 'LabCorp and Quest Diagnostics: 37 NPIs, $14 billion, and 25% of all clinical lab payments.',
+    link: '/investigations/lab-corp-quest-duopoly',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Telehealth Explosion: How COVID Changed Medicare Forever',
+    description: 'COVID forced CMS to allow telehealth billing. Medicare crashed 10% in 2020 then rebounded. Telehealth is here to stay.',
+    link: '/investigations/telehealth-explosion',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Rise of the Nurse Practitioner: Medicare\'s Fastest-Growing Workforce',
+    description: '1.2 million NP records, $31.5 billion in payments. Average NP bills $26K vs ophthalmologist at $384K.',
+    link: '/investigations/nurse-practitioner-boom',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Beverly Hills: America\'s Most Expensive ZIP Code for Medicare',
+    description: 'Beverly Hills providers bill Medicare at rates far exceeding the national average. Plastic surgeons billing wound care in 90210.',
+    link: '/investigations/beverly-hills-billing',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // Fraud pages
   {
     title: 'Medicare Fraud Analysis Hub',

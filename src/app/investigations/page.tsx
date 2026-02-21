@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 27 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 31 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -264,6 +264,42 @@ const investigations = [
     readTime: '12 min read',
     publishedAt: '2026-02-21',
     excerpt: 'California leads total spending at $93B, but Florida leads per-provider at $121K. The gap between highest and lowest per-provider spending is more than 7x.'
+  },
+  {
+    title: 'Two Companies Control America\'s Lab Testing — and Bill Medicare Billions',
+    description: 'LabCorp and Quest Diagnostics: 37 NPIs, $14 billion, and 25% of all clinical lab payments',
+    href: '/investigations/lab-corp-quest-duopoly',
+    category: 'Investigation',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'LabCorp and Quest Diagnostics operate 37 NPIs across the country, billing Medicare $14 billion over 10 years. Together they handle 25% of all clinical laboratory billing. Is this efficiency or monopoly?'
+  },
+  {
+    title: 'The Telehealth Explosion: How COVID Changed Medicare Forever',
+    description: 'Medicare spending crashed 10% in 2020, then telehealth rewrote the rules',
+    href: '/investigations/telehealth-explosion',
+    category: 'Investigation',
+    readTime: '13 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'COVID forced CMS to allow telehealth billing overnight. Medicare spending crashed 10% in 2020 then rebounded past pre-pandemic levels. Telehealth is here to stay — but is it saving money or enabling fraud?'
+  },
+  {
+    title: 'The Rise of the Nurse Practitioner: Medicare\'s Fastest-Growing Workforce',
+    description: '1.2 million NP records, $31.5 billion in payments, and a scope-of-practice war',
+    href: '/investigations/nurse-practitioner-boom',
+    category: 'Investigation',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Nurse practitioners are 11.4% of all Medicare providers but average just $26K in payments. Some NPs bill millions. The scope of practice debate meets Medicare data.'
+  },
+  {
+    title: 'Beverly Hills: America\'s Most Expensive ZIP Code for Medicare',
+    description: 'Plastic surgeons billing wound care, ambulatory surgery centers, and the luxury ZIP code effect',
+    href: '/investigations/beverly-hills-billing',
+    category: 'Investigation',
+    readTime: '13 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Beverly Hills providers bill Medicare at rates far exceeding the national average. Plastic surgeons billing wound care, ambulatory surgery centers, and the luxury ZIP code effect.'
   },
 ]
 

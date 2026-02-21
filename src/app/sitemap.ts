@@ -34,6 +34,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'most-expensive-medicare-procedures',
     'medicare-spending-by-state',
     'specialty-pay-gap',
+    'lab-corp-quest-duopoly',
+    'telehealth-explosion',
+    'nurse-practitioner-boom',
+    'beverly-hills-billing',
   ]
 
   const staticPages = [
