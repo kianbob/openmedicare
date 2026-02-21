@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon, ShieldCheckIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import fs from 'fs'
 import path from 'path'
@@ -743,6 +744,7 @@ export default function DataPredictedFraudPage() {
                 title="Our Data Predicted It: How Statistical Analysis Flagged Providers Before the DOJ Did"
                 url="https://www.openmedicare.org/investigations/data-predicted-fraud"
               />
+              <SourceCitation />
             </div>
           </div>
         </article>

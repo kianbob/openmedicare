@@ -143,7 +143,7 @@ export default function ImpossibleServicesPage() {
 
         {/* Related */}
         <div className="bg-gray-50 rounded-lg p-6 mb-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">🧮 The Impossible Doctors</Link>
             <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">📊 Impossible Numbers Data</Link>
