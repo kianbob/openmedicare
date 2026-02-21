@@ -1,142 +1,259 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import ShareFinding from '@/components/ShareFinding'
 import SourceCitation from '@/components/SourceCitation'
-import { formatCurrency } from '@/lib/format'
+import { formatCurrency, formatNumber } from '@/lib/format'
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Legend } from 'recharts'
 
-interface UpcodingData {
-  providers?: Array<{ npi: number; name: string; ratio_99214_99213: number; total_payments: number }>
+interface Provider {
+  npi: string
+  name: string
+  specialty: string
+  city: string
+  state: string
+  svc_99211: number
+  svc_99212: number
+  svc_99213: number
+  svc_99214: number
+  svc_99215: number
+  total_em: number
+  em_payments: number
+  upcode_ratio: number
+  pct_99214: number
+  pct_99215: number
 }
 
+interface YearlyTrend {
+  year: number
+  svc_99214: number
+  svc_99213: number
+  svc_99215: number
+  total_em: number
+  pct_99214: number
+  ratio_14_to_13: number
+}
+
+interface UpcodingData {
+  national_ratio: number
+  total_providers_analyzed: number
+  national_pct_99214: number
+  suspicious_providers: Provider[]
+  yearly_trends: YearlyTrend[]
+}
+
+type SortKey = 'name' | 'specialty' | 'city' | 'state' | 'total_em' | 'em_payments' | 'pct_99214' | 'upcode_ratio'
+
 export default function Upcoding() {
-  const [upcodingData, setUpcodingData] = useState<UpcodingData | null>(null)
-  const [dataAvailable, setDataAvailable] = useState(false)
+  const [data, setData] = useState<UpcodingData | null>(null)
+  const [search, setSearch] = useState('')
+  const [sortKey, setSortKey] = useState<SortKey>('pct_99214')
+  const [sortAsc, setSortAsc] = useState(false)
 
   useEffect(() => {
     fetch('/data/upcoding.json')
-      .then(r => { if (!r.ok) throw new Error('not found'); return r.json() })
-      .then(data => { setUpcodingData(data); setDataAvailable(true) })
-      .catch(() => setDataAvailable(false))
+      .then(r => r.json())
+      .then(setData)
+      .catch(() => {})
   }, [])
+
+  const filteredProviders = useMemo(() => {
+    if (!data) return []
+    const q = search.toLowerCase()
+    let list = data.suspicious_providers.slice(0, 50)
+    if (q) {
+      list = list.filter(p =>
+        p.name.toLowerCase().includes(q) ||
+        p.specialty.toLowerCase().includes(q) ||
+        p.city.toLowerCase().includes(q) ||
+        p.state.toLowerCase().includes(q)
+      )
+    }
+    list.sort((a, b) => {
+      const av = a[sortKey], bv = b[sortKey]
+      if (typeof av === 'number' && typeof bv === 'number') return sortAsc ? av - bv : bv - av
+      return sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av))
+    })
+    return list
+  }, [data, search, sortKey, sortAsc])
+
+  const handleSort = (key: SortKey) => {
+    if (sortKey === key) setSortAsc(!sortAsc)
+    else { setSortKey(key); setSortAsc(false) }
+  }
+
+  const sortIcon = (key: SortKey) => sortKey === key ? (sortAsc ? ' ↑' : ' ↓') : ''
+
+  if (!data) {
+    return (
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="text-gray-500">Loading upcoding data...</div>
+      </div>
+    )
+  }
+
+  const cahill = data.suspicious_providers.find(p => p.name.toLowerCase().includes('cahill'))
 
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ name: 'Fraud Analysis', href: '/fraud' }, { name: 'Upcoding' }]} />
 
-        <h1 className="text-4xl font-bold font-serif text-gray-900 mt-6 mb-4">Upcoding Detector</h1>
+        <h1 className="text-4xl font-bold font-serif text-gray-900 mt-6 mb-4">Upcoding Detector: 53.2% of Visits Coded at Higher Rate</h1>
         <p className="text-xl text-gray-600 mb-8 max-w-3xl">
-          Upcoding — billing for a more expensive service than was actually provided — is the most common
-          form of Medicare fraud. Two office visit codes alone account for <strong>{formatCurrency(117700000000)}</strong> in Medicare spending.
+          Nationally, 99214 is billed <strong>44% more often</strong> than 99213. Some doctors code <strong>100%</strong> of
+          office visits at the higher-paying level — every single visit, every single patient.
         </p>
 
-        {/* Explanation */}
+        <ShareFinding stat="100%" description="Some doctors code every single office visit at the higher rate" url="/fraud/upcoding" />
+
+        {/* Key Stats */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          <div className="bg-red-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-red-700">{data.national_ratio.toFixed(2)}</div>
+            <div className="text-sm text-gray-600">National 99214:99213 Ratio</div>
+          </div>
+          <div className="bg-orange-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-orange-700">{data.national_pct_99214}%</div>
+            <div className="text-sm text-gray-600">E/M Visits Coded 99214</div>
+          </div>
+          <div className="bg-blue-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-blue-700">{formatNumber(data.total_providers_analyzed)}</div>
+            <div className="text-sm text-gray-600">Providers Analyzed</div>
+          </div>
+          <div className="bg-purple-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-purple-700">{formatNumber(data.suspicious_providers.length)}</div>
+            <div className="text-sm text-gray-600">Suspicious Providers</div>
+          </div>
+        </div>
+
+        {/* How Upcoding Works */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10">
           <h2 className="text-lg font-semibold text-blue-900 mb-4">How Upcoding Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-lg p-4 border border-blue-100">
               <div className="flex items-center gap-3 mb-3">
                 <Link href="/procedures/99213" className="text-2xl font-mono font-bold text-blue-600 hover:underline">99213</Link>
-                <span className="text-sm text-gray-500">Established patient, low complexity</span>
+                <span className="text-sm text-gray-500">Low complexity visit</span>
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-1">$49.50</div>
-              <div className="text-sm text-gray-500">Average Medicare payment per visit</div>
-              <div className="mt-3 text-xs text-gray-600">
-                Typical 15-minute visit for a straightforward problem — common cold, medication refill, blood pressure check.
-              </div>
+              <div className="text-3xl font-bold text-gray-900 mb-1">~$49.50</div>
+              <div className="text-sm text-gray-500">15-min visit — cold, refill, BP check</div>
             </div>
             <div className="bg-white rounded-lg p-4 border border-orange-200">
               <div className="flex items-center gap-3 mb-3">
                 <Link href="/procedures/99214" className="text-2xl font-mono font-bold text-orange-600 hover:underline">99214</Link>
-                <span className="text-sm text-gray-500">Established patient, moderate complexity</span>
+                <span className="text-sm text-gray-500">Moderate complexity visit</span>
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-1">$72.68</div>
-              <div className="text-sm text-gray-500">Average Medicare payment per visit</div>
-              <div className="mt-3 text-xs text-gray-600">
-                Typical 25-minute visit for a more complex problem — managing multiple conditions, adjusting treatment plans.
-              </div>
+              <div className="text-3xl font-bold text-gray-900 mb-1">~$72.68</div>
+              <div className="text-sm text-gray-500">25-min visit — managing multiple conditions</div>
             </div>
           </div>
-          <div className="mt-4 bg-white rounded-lg p-4 border border-red-200">
-            <div className="text-center">
-              <div className="text-sm text-gray-500 mb-1">The upcoding premium per visit</div>
-              <div className="text-3xl font-bold text-red-600">+$23.18 per visit</div>
-              <div className="text-sm text-gray-500 mt-1">
-                A 47% increase for billing 99214 instead of 99213. At scale, this adds up to billions.
-              </div>
-            </div>
+          <div className="mt-4 bg-white rounded-lg p-4 border border-red-200 text-center">
+            <div className="text-sm text-gray-500 mb-1">The upcoding premium per visit</div>
+            <div className="text-3xl font-bold text-red-600">+$23.18 per visit (47% more)</div>
+            <div className="text-sm text-gray-500 mt-1">At scale, this adds up to billions in overcharges.</div>
           </div>
         </div>
 
-        {/* National scale */}
-        <div className="mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">The Scale of the Problem</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <div className="bg-gray-50 rounded-lg p-6 text-center">
-              <div className="text-3xl font-bold text-gray-900 mb-2">{formatCurrency(117700000000)}</div>
-              <div className="text-sm text-gray-600 font-medium">Combined 99213 + 99214 Spending</div>
-              <div className="text-xs text-gray-400 mt-1">These two codes alone: 13.8% of all Medicare physician payments</div>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-6 text-center">
-              <div className="text-3xl font-bold text-gray-900 mb-2">47%</div>
-              <div className="text-sm text-gray-600 font-medium">Payment Premium</div>
-              <div className="text-xs text-gray-400 mt-1">99214 pays 47% more than 99213 per visit</div>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-6 text-center">
-              <div className="text-3xl font-bold text-orange-600 mb-2">?</div>
-              <div className="text-sm text-gray-600 font-medium">Providers with Abnormal Ratios</div>
-              <div className="text-xs text-gray-400 mt-1">Analysis in progress</div>
-            </div>
-          </div>
-        </div>
-
-        {/* What to look for */}
-        <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 mb-10">
-          <h2 className="text-lg font-semibold text-orange-900 mb-3">What Does Upcoding Look Like?</h2>
-          <div className="text-sm text-orange-800 space-y-2">
-            <p><strong>Normal pattern:</strong> Most practices bill a mix of 99213 and 99214, with ratios varying by specialty. Primary care typically has a higher share of 99213; specialists tend toward 99214.</p>
-            <p><strong>Red flag:</strong> A provider who bills 99214 for 95%+ of office visits, especially if their peers in the same specialty average 60%. This suggests they may be routinely coding visits at a higher level than warranted.</p>
-            <p><strong>How it works:</strong> The difference between 99213 and 99214 is subjective — it depends on the &quot;complexity&quot; of medical decision-making. This subjectivity makes it easy to justify upcoding and hard to detect.</p>
-          </div>
-        </div>
-
-        {/* Data or coming soon */}
-        {dataAvailable && upcodingData?.providers ? (
-          <div className="mb-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Provider-Level Analysis</h2>
-            <p className="text-gray-600">Detailed upcoding data loaded.</p>
-          </div>
-        ) : (
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 text-center mb-10">
-            <div className="text-4xl mb-3">📊</div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Provider-Level Analysis Coming Soon</h3>
-            <p className="text-sm text-gray-600 max-w-md mx-auto">
-              We&apos;re calculating 99214/99213 ratios for every provider in our dataset and comparing them to
-              specialty benchmarks. Check back soon for the complete upcoding leaderboard.
+        {/* Thomas Cahill Callout */}
+        {cahill && (
+          <div className="bg-red-50 border-2 border-red-300 rounded-lg p-6 mb-10">
+            <h2 className="text-lg font-bold text-red-900 mb-3">🚨 Thomas Cahill — 100% Upcoded</h2>
+            <p className="text-sm text-red-800 mb-4">
+              A cardiologist in O&apos;Fallon, IL coded <strong>every single one</strong> of his {cahill.total_em} office visits
+              as 99214. Zero 99213s, zero 99212s. That&apos;s {formatCurrency(cahill.em_payments)} in E/M payments — all at the higher rate.
             </p>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div>
+                <div className="text-xl font-bold text-red-800">{cahill.pct_99214}%</div>
+                <div className="text-xs text-gray-500">Coded as 99214</div>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900">{cahill.total_em}</div>
+                <div className="text-xs text-gray-500">Total E/M Visits</div>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900">{formatCurrency(cahill.em_payments)}</div>
+                <div className="text-xs text-gray-500">E/M Payments</div>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900">{cahill.specialty}</div>
+                <div className="text-xs text-gray-500">{cahill.city}, {cahill.state}</div>
+              </div>
+            </div>
           </div>
         )}
 
-        {/* Related Fraud Analysis */}
-        <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
-          <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Fraud Analysis</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Enhanced Watchlist — See who else is flagged</Link>
-            <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">🧮 Impossible Numbers — Volume-based anomalies</Link>
-            <Link href="/fraud/deep-dives" className="text-medicare-primary hover:underline text-sm">🔍 Deep Dive Profiles — Individual provider analysis</Link>
-            <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
-            <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
-          </div>
+        {/* 10-Year Trend */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">99214 Share of E/M Visits Over 10 Years</h2>
+        <div className="bg-gray-50 rounded-lg p-4 mb-10" style={{ height: 400 }}>
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={data.yearly_trends} margin={{ top: 10, right: 30, left: 20, bottom: 10 }}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="year" />
+              <YAxis domain={[40, 55]} tickFormatter={(v: any) => `${v}%`} fontSize={11} />
+              <Tooltip formatter={(v: any, name: string) => name === 'pct_99214' ? `${v}%` : v} />
+              <Legend />
+              <Line type="monotone" dataKey="pct_99214" stroke="#ef4444" strokeWidth={2} name="% Coded 99214" dot={{ r: 3 }} />
+            </LineChart>
+          </ResponsiveContainer>
         </div>
 
+        {/* Top 50 Suspicious Providers */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Top 50 Suspicious Providers (Ratio = 999 means 0 claims for 99213)</h2>
+        <input
+          type="text"
+          placeholder="Search by name, specialty, city, or state..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          className="w-full md:w-96 mb-4 px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <div className="overflow-x-auto mb-10">
+          <table className="min-w-full text-sm">
+            <thead>
+              <tr className="bg-gray-100 text-left">
+                <th className="px-3 py-2 font-semibold">#</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('name')}>Name{sortIcon('name')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('specialty')}>Specialty{sortIcon('specialty')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('city')}>City{sortIcon('city')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('state')}>State{sortIcon('state')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer text-right" onClick={() => handleSort('total_em')}>E/M Visits{sortIcon('total_em')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer text-right" onClick={() => handleSort('pct_99214')}>% 99214{sortIcon('pct_99214')}</th>
+                <th className="px-3 py-2 font-semibold text-right">% 99215</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer text-right" onClick={() => handleSort('em_payments')}>Payments{sortIcon('em_payments')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredProviders.map((p, i) => (
+                <tr key={p.npi} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-3 py-2 text-gray-500">{i + 1}</td>
+                  <td className="px-3 py-2 font-medium">
+                    <Link href={`/providers/${p.npi}`} className="text-medicare-primary hover:underline">{p.name}</Link>
+                  </td>
+                  <td className="px-3 py-2 text-gray-600">{p.specialty}</td>
+                  <td className="px-3 py-2 text-gray-600">{p.city}</td>
+                  <td className="px-3 py-2 text-gray-600">{p.state}</td>
+                  <td className="px-3 py-2 text-right">{formatNumber(p.total_em)}</td>
+                  <td className="px-3 py-2 text-right font-bold" style={{ color: p.pct_99214 >= 95 ? '#dc2626' : p.pct_99214 >= 80 ? '#ea580c' : '#374151' }}>
+                    {p.pct_99214.toFixed(1)}%
+                  </td>
+                  <td className="px-3 py-2 text-right">{p.pct_99215.toFixed(1)}%</td>
+                  <td className="px-3 py-2 text-right font-mono">{formatCurrency(p.em_payments)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {/* Disclaimer */}
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
           <p className="text-sm text-yellow-800">
             <strong>Disclaimer:</strong> These are statistical flags based on publicly available CMS data, not accusations of fraud.
             A high 99214/99213 ratio may reflect legitimate patient complexity. Report suspected fraud:
-            <a href="tel:1-800-447-8477" className="underline font-medium ml-1">1-800-HHS-TIPS</a>.
+            <a href="tel:1-800-447-8477" className="underline font-medium ml-1">1-800-HHS-TIPS</a> (1-800-447-8477).
           </p>
         </div>
 
