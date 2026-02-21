@@ -20,27 +20,47 @@ const keyStats = {
   latestYear: 2023
 }
 
+const datasetJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Medicare Provider Utilization and Payment Data',
+  description: 'Comprehensive analysis of Medicare physician spending across 10 years (2014-2023), covering provider payments, procedure costs, specialty breakdowns, and geographic trends derived from CMS public data.',
+  creator: {
+    '@type': 'Organization',
+    name: 'Centers for Medicare & Medicaid Services (CMS)',
+    url: 'https://www.cms.gov',
+  },
+  temporalCoverage: '2014/2023',
+  license: 'https://www.usa.gov/government-works',
+  url: 'https://www.openmedicare.org',
+  distribution: {
+    '@type': 'DataDownload',
+    encodingFormat: 'application/json',
+    contentUrl: 'https://www.openmedicare.org/downloads',
+  },
+}
+
 const featuredInvestigations = [
   {
     title: 'The Medicare Markup Machine',
-    description: 'How doctors charge $100 billion more than Medicare actually pays them',
+    description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling',
     href: '/investigations/markup-machine',
-    category: 'Analysis',
-    readTime: '8 min read'
+    category: 'Deep Dive',
+    readTime: '15 min read'
   },
   {
-    title: 'Medicare\'s Biggest Billers',
-    description: 'The 100 providers who received the most Medicare payments in 2023',
-    href: '/investigations/biggest-billers',
-    category: 'Investigation',
-    readTime: '12 min read'
-  },
-  {
-    title: 'COVID\'s Impact on Medicare',
-    description: 'How the pandemic shifted $50 billion in Medicare spending patterns',
-    href: '/investigations/covid-impact',
+    title: 'Where Your Medicare Dollar Goes',
+    description: 'A comprehensive breakdown of how Medicare spending flows through the healthcare system',
+    href: '/investigations/where-medicare-dollar-goes',
     category: 'Analysis',
     readTime: '10 min read'
+  },
+  {
+    title: 'The State Spending Divide',
+    description: 'Why Medicare costs vary wildly across state lines — and what it means for patients',
+    href: '/investigations/state-spending-divide',
+    category: 'Investigation',
+    readTime: '12 min read'
   }
 ]
 
@@ -74,6 +94,12 @@ const keyNumbers = [
 export default function HomePage() {
   return (
     <div className="min-h-screen">
+      {/* Dataset JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }}
+      />
+
       {/* Hero Section */}
       <div className="bg-gradient-to-b from-medicare-primary to-medicare-dark text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
@@ -162,7 +188,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis and data-driven journalism
+              Deep-dive analysis from our library of 14 data-driven investigations
             </p>
           </div>
           
@@ -202,30 +228,56 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All Investigations
+              View All 14 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>
       </div>
 
-      {/* Quick Access Section */}
+      {/* Explore the Data */}
       <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
-              Quick Access
+              Explore the Data
             </h2>
             <p className="text-lg text-gray-600">
-              Jump into the data that matters most
+              Dive into Medicare spending from every angle
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/providers" className="group bg-blue-50 hover:bg-blue-100 rounded-lg p-6 transition-colors">
+              <div className="text-blue-600 text-2xl mb-3">👨‍⚕️</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-800">Providers</h3>
+              <p className="text-sm text-gray-600">Search 2,000+ top Medicare providers with full payment histories</p>
+            </Link>
+
+            <Link href="/procedures" className="group bg-purple-50 hover:bg-purple-100 rounded-lg p-6 transition-colors">
+              <div className="text-purple-600 text-2xl mb-3">🏥</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-purple-800">Procedures</h3>
+              <p className="text-sm text-gray-600">500 most common procedures with costs and provider data</p>
+            </Link>
+
+            <Link href="/states" className="group bg-green-50 hover:bg-green-100 rounded-lg p-6 transition-colors">
+              <div className="text-green-600 text-2xl mb-3">🗺️</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-green-800">States</h3>
+              <p className="text-sm text-gray-600">Compare Medicare spending across all 50 states and territories</p>
+            </Link>
+
+            <Link href="/specialties" className="group bg-amber-50 hover:bg-amber-100 rounded-lg p-6 transition-colors">
+              <div className="text-amber-600 text-2xl mb-3">🩺</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-amber-800">Specialties</h3>
+              <p className="text-sm text-gray-600">105 medical specialties with spending breakdowns</p>
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
             <Link href="/watchlist" className="group bg-red-50 hover:bg-red-100 rounded-lg p-6 transition-colors">
               <div className="text-red-600 text-2xl mb-3">🚨</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-red-800">Fraud Watchlist</h3>
-              <p className="text-sm text-gray-600">High-risk providers flagged by our analysis</p>
+              <p className="text-sm text-gray-600">500 providers flagged for billing anomalies</p>
             </Link>
             
             <Link href="/markup" className="group bg-orange-50 hover:bg-orange-100 rounded-lg p-6 transition-colors">
@@ -244,6 +296,15 @@ export default function HomePage() {
               <div className="text-green-600 text-2xl mb-3">🧮</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-green-800">Cost Calculator</h3>
               <p className="text-sm text-gray-600">Estimate Medicare procedure costs</p>
+            </Link>
+          </div>
+
+          <div className="text-center mt-8">
+            <Link 
+              href="/downloads"
+              className="inline-flex items-center text-medicare-primary hover:text-medicare-dark font-medium"
+            >
+              Download Raw Data →
             </Link>
           </div>
         </div>
