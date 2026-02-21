@@ -22,6 +22,7 @@ const navigation = [
       { name: 'Fraud Overview', href: '/fraud' },
       { name: 'Fraud Watchlist', href: '/fraud/watchlist' },
       { name: 'Deep Dive Profiles', href: '/fraud/deep-dives' },
+      { name: 'Still Out There', href: '/fraud/still-out-there' },
       { name: 'Impossible Numbers', href: '/fraud/impossible-numbers' },
       { name: 'Report Fraud', href: '/fraud/report' },
     ],

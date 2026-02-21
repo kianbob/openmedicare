@@ -84,6 +84,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/fraud',
     '/fraud/watchlist',
     '/fraud/deep-dives',
+    '/fraud/still-out-there',
     '/fraud/covid-tests',
     '/fraud/wound-care',
     '/fraud/upcoding',

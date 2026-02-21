@@ -29,6 +29,7 @@ const navigation = [
       { name: 'Fraud Overview', href: '/fraud', desc: 'Hub for all fraud analysis' },
       { name: 'Fraud Watchlist', href: '/fraud/watchlist', desc: '500 flagged providers' },
       { name: 'Deep Dive Profiles', href: '/fraud/deep-dives', desc: 'Top 20 most suspicious' },
+      { name: 'Still Out There', href: '/fraud/still-out-there', desc: 'ML-flagged providers' },
       { name: 'Impossible Numbers', href: '/fraud/impossible-numbers', desc: '400+ services/day?' },
       { name: 'Report Fraud', href: '/fraud/report', desc: 'OIG hotline & resources' },
     ],

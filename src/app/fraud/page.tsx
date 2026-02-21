@@ -82,6 +82,13 @@ const fraudPages = [
     color: 'purple',
   },
   {
+    title: 'Still Out There',
+    description: 'Our ML model trained on 8,300+ confirmed fraudsters identifies providers who bill like criminals but haven\'t been caught yet.',
+    href: '/fraud/still-out-there',
+    icon: '🤖',
+    color: 'indigo',
+  },
+  {
     title: 'COVID Test Billing',
     description: `${formatCurrency(totalCovidPayments)} billed for COVID tests via HCPCS K1034. Who billed millions for questionable COVID tests during the pandemic?`,
     href: '/fraud/covid-tests',
