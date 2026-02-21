@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useMemo } from 'react'
+import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
@@ -251,6 +252,17 @@ export default function YourMedicareDollarPage() {
             <p className="text-3xl font-bold text-gray-900">10</p>
             <p className="mt-1 text-sm text-gray-500">Years of Data (2014–2023)</p>
           </div>
+        </div>
+
+        {/* Fraud callout */}
+        <div className="mt-12 rounded-xl bg-red-50 border border-red-200 p-6">
+          <h2 className="text-lg font-bold text-gray-900">💰 How Much Goes to Fraud?</h2>
+          <p className="mt-2 text-sm text-gray-700">
+            Our AI model flagged 500 providers who received over <strong>$400M in Medicare payments</strong> — and many have never been investigated.
+          </p>
+          <Link href="/fraud/still-out-there" className="mt-3 inline-flex items-center text-sm font-medium text-red-700 hover:text-red-800">
+            See the AI-flagged providers →
+          </Link>
         </div>
 
         <div className="mt-12">

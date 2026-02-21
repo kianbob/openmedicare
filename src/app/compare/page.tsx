@@ -447,6 +447,17 @@ export default function ComparePage() {
           </div>
         )}
 
+        {/* ML Analysis link */}
+        <div className="mt-12 rounded-xl bg-gray-50 border border-gray-200 p-5 flex items-center justify-between flex-wrap gap-3">
+          <div>
+            <p className="text-sm font-semibold text-gray-900">🤖 Want to see which providers our AI flagged?</p>
+            <p className="text-xs text-gray-500 mt-1">ML model scored 1.72M providers — 500 flagged for fraud risk</p>
+          </div>
+          <Link href="/fraud/still-out-there" className="text-sm font-medium text-blue-600 hover:text-blue-700 whitespace-nowrap">
+            View ML Results →
+          </Link>
+        </div>
+
         <div className="mt-12">
           <ShareButtons url="https://www.openmedicare.org/compare" title="Compare Medicare Data" />
         </div>

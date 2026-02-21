@@ -320,6 +320,20 @@ export default function DeepDives() {
           </div>
         )}
 
+        {/* See Also: AI-Powered Analysis */}
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-8 mb-8">
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">🤖 See Also: AI-Powered Analysis</h2>
+          <p className="text-sm text-gray-600 mb-3">Our machine learning model scored 1.72M providers and flagged 500 for fraud risk.</p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/fraud/still-out-there" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+              🔬 ML Model Results: 500 Flagged Providers →
+            </Link>
+            <Link href="/investigations/algorithm-knows" className="inline-flex items-center px-4 py-2 bg-white border border-blue-300 text-blue-700 rounded-lg text-sm font-medium hover:bg-blue-50 transition-colors">
+              📰 The Algorithm Knows →
+            </Link>
+          </div>
+        </div>
+
         {/* Related Fraud Analysis */}
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8 mb-8">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Fraud Analysis</h2>

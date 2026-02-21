@@ -218,6 +218,16 @@ export default function FraudWatchlist() {
           </>
         )}
 
+        {/* ML Model CTA */}
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-8 mb-4 flex items-center justify-between flex-wrap gap-3">
+          <p className="text-sm text-gray-700">
+            🤖 <strong>Looking for AI-flagged providers?</strong> Our ML model scored 1.72M providers and flagged 500 with 83% accuracy.
+          </p>
+          <Link href="/fraud/still-out-there" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors whitespace-nowrap">
+            See ML Model Results →
+          </Link>
+        </div>
+
         {/* Related Fraud Analysis */}
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8 mb-8">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Fraud Analysis</h2>
