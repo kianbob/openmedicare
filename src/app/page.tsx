@@ -57,6 +57,13 @@ const datasetJsonLd = {
 
 const featuredInvestigations = [
   {
+    title: 'The Algorithm Knows',
+    description: 'How AI detects Medicare fraud before humans do — and what it means for healthcare oversight',
+    href: '/investigations/algorithm-knows',
+    category: '🤖 AI Analysis',
+    readTime: '15 min read'
+  },
+  {
     title: 'The Medicare Markup Machine',
     description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling',
     href: '/investigations/markup-machine',
@@ -299,7 +306,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 43 data-driven investigations
+              Deep-dive analysis from our library of 44 data-driven investigations
             </p>
           </div>
           
@@ -339,7 +346,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 43 Investigations
+              View All 44 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>

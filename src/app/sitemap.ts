@@ -49,6 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'data-predicted-fraud',
     'still-out-there',
     'genetic-testing-fraud',
+    'algorithm-knows',
   ]
 
   const staticPages = [

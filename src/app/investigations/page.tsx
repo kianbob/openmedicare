@@ -8,13 +8,28 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 41 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 44 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
 }
 
 const featuredInvestigations = [
+  {
+    title: 'The Algorithm Knows: How AI Detects Medicare Fraud Before Humans Do',
+    description: 'Our AI systems are finding fraud patterns that traditional auditing misses — and the implications for Medicare oversight are staggering.',
+    href: '/investigations/algorithm-knows',
+    category: '🤖 AI Analysis',
+    readTime: '15 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Machine learning models trained on Medicare billing data can detect fraud patterns invisible to human auditors. Our latest AI analysis reveals how algorithmic detection is reshaping healthcare oversight.',
+    keyFindings: [
+      'AI models detect fraud patterns months before traditional audits',
+      'Algorithmic analysis covers 1.7M+ providers simultaneously',
+      'Pattern recognition identifies coordinated billing schemes',
+      'False positive rates continue to improve with more training data',
+    ],
+  },
   {
     title: 'Our Data Predicted It: Statistical Analysis Flagged Providers Before the DOJ Did',
     description: 'We flagged 500 providers. The DOJ charged 324 people in $14.6B of fraud. Multiple of our top-flagged providers were among them.',

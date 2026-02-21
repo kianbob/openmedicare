@@ -3,6 +3,13 @@ import { NextResponse } from 'next/server'
 const baseUrl = 'https://www.openmedicare.org'
 
 const items = [
+  // AI Analysis
+  {
+    title: 'The Algorithm Knows: How AI Detects Medicare Fraud Before Humans Do',
+    description: 'Our AI systems are finding fraud patterns that traditional auditing misses. Machine learning models trained on Medicare billing data reveal how algorithmic detection is reshaping healthcare oversight.',
+    link: '/investigations/algorithm-knows',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // LANDMARK Investigation
   {
     title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',
