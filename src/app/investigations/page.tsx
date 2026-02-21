@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 36 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 41 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -393,6 +393,24 @@ const investigations = [
     readTime: '13 min read',
     publishedAt: '2026-02-21',
     excerpt: 'Beverly Hills providers bill Medicare at rates far exceeding the national average. Plastic surgeons billing wound care, ambulatory surgery centers, and the luxury ZIP code effect.'
+  },
+  {
+    title: 'The Medicare Markup Machine',
+    description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling',
+    href: '/investigations/markup-machine',
+    category: 'Deep Dive',
+    readTime: '15 min read',
+    publishedAt: '2024-02-15',
+    excerpt: 'Providers submit charges that average 2.4x what Medicare actually pays. The gap between submitted and paid amounts reveals a hidden $100 billion markup built into the system.'
+  },
+  {
+    title: 'The Specialty Pay Gap (Extended)',
+    description: 'An expanded analysis of Medicare specialty compensation disparities',
+    href: '/investigations/specialty-pay-gap',
+    category: 'Analysis',
+    readTime: '12 min read',
+    publishedAt: '2024-01-10',
+    excerpt: 'An expanded deep-dive into how Medicare compensation varies across specialties — from nurse practitioners averaging $26K to ophthalmologists at $384K.'
   },
 ]
 

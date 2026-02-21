@@ -318,7 +318,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                   {servicesPerDay > 200 ? ' — physically unusual for an individual practitioner' : ''}
                 </p>
                 <p className="text-sm text-gray-600 mt-1">
-                  Based on {formatNumber(overall.total_services)} total services over {overall.years_active} years (250 working days/year).{' '}
+                  Based on {formatNumber(overall.total_services)} total services over {overall.years_active} {overall.years_active === 1 ? 'year' : 'years'} (250 working days/year).{' '}
                   <Link href="/fraud/impossible-numbers" className="text-blue-600 hover:text-blue-800 underline">
                     Learn about impossible service volumes →
                   </Link>
@@ -393,7 +393,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                 </div>
                 <div className="flex items-center">
                   <CalendarDaysIcon className="h-5 w-5 mr-2" />
-                  <span>{overall.years_active} years of data</span>
+                  <span>{overall.years_active} {overall.years_active === 1 ? 'year' : 'years'} of data</span>
                 </div>
                 {raw.entity_type && (
                   <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">{raw.entity_type}</span>
@@ -458,7 +458,8 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           className="mb-8"
         />
 
-        {/* Payment & Services Trend Charts */}
+        {/* Payment & Services Trend Charts — only show if multiple years */}
+        {yearly.length > 1 && (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           <TrendChart
             data={yearly.map(y => ({ year: y.year, payments: y.total_payments }))}
@@ -475,6 +476,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             height={350}
           />
         </div>
+        )}
 
         {/* Submitted vs Paid — the markup gap over time */}
         {yearly.length > 0 && yearly[0].avg_submitted != null && (
