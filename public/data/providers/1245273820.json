@@ -1,0 +1,194 @@
+{
+  "name": "Edwin Choi",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1845482.43,
+    "total_services": 71563,
+    "total_beneficiaries": 9102,
+    "avg_markup_ratio": 58.51,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 112347.3,
+      "total_services": 4357,
+      "total_beneficiaries": 554,
+      "avg_submitted": 68.14,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2015,
+      "total_payments": 134372.03,
+      "total_services": 5211,
+      "total_beneficiaries": 663,
+      "avg_submitted": 55.75,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 109659.09,
+      "total_services": 4252,
+      "total_beneficiaries": 541,
+      "avg_submitted": 88.15,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2017,
+      "total_payments": 120251.56,
+      "total_services": 4663,
+      "total_beneficiaries": 593,
+      "avg_submitted": 74.17,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2018,
+      "total_payments": 139825.93,
+      "total_services": 5422,
+      "total_beneficiaries": 690,
+      "avg_submitted": 83.39,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2019,
+      "total_payments": 131467.13,
+      "total_services": 5098,
+      "total_beneficiaries": 648,
+      "avg_submitted": 89.75,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2020,
+      "total_payments": 151971.04,
+      "total_services": 5893,
+      "total_beneficiaries": 750,
+      "avg_submitted": 59.68,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 160348.28,
+      "total_services": 6218,
+      "total_beneficiaries": 791,
+      "avg_submitted": 69.08,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2022,
+      "total_payments": 185124.9,
+      "total_services": 7179,
+      "total_beneficiaries": 913,
+      "avg_submitted": 56.89,
+      "avg_paid": 25.79
+    },
+    {
+      "year": 2023,
+      "total_payments": 158604.6,
+      "total_services": 6150,
+      "total_beneficiaries": 782,
+      "avg_submitted": 86.84,
+      "avg_paid": 25.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 18684,
+      "payments": 481816.73,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 5672,
+      "payments": 146275.11,
+      "avg_markup": 4.89
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 4120,
+      "payments": 106245.22,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 1606,
+      "payments": 41406.53,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 2275,
+      "payments": 58678.08,
+      "avg_markup": 5.31
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 4779,
+      "payments": 123234.4,
+      "avg_markup": 5.55
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 1809,
+      "payments": 46659.95,
+      "avg_markup": 5.84
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 1966,
+      "payments": 50712.53,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 3182,
+      "payments": 82066.47,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 1870,
+      "payments": 48211.49,
+      "avg_markup": 5.58
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 80,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "61x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 58.5x (specialty median: 3.2x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "27x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "150x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

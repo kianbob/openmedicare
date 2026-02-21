@@ -1,0 +1,194 @@
+{
+  "name": "Eric Vessels",
+  "credentials": "M.D.",
+  "specialty": "Anesthesiology",
+  "city": "Glasgow",
+  "state": "KY",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 304079.64,
+    "total_services": 6837,
+    "total_beneficiaries": 2752,
+    "avg_markup_ratio": 94.76,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 20521.6,
+      "total_services": 461,
+      "total_beneficiaries": 186,
+      "avg_submitted": 72.5,
+      "avg_paid": 44.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 17345.25,
+      "total_services": 390,
+      "total_beneficiaries": 157,
+      "avg_submitted": 120.44,
+      "avg_paid": 44.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 21761.42,
+      "total_services": 489,
+      "total_beneficiaries": 197,
+      "avg_submitted": 118.9,
+      "avg_paid": 44.5
+    },
+    {
+      "year": 2017,
+      "total_payments": 19254.6,
+      "total_services": 433,
+      "total_beneficiaries": 174,
+      "avg_submitted": 107.91,
+      "avg_paid": 44.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 20659.41,
+      "total_services": 465,
+      "total_beneficiaries": 187,
+      "avg_submitted": 97.6,
+      "avg_paid": 44.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 27640.36,
+      "total_services": 621,
+      "total_beneficiaries": 250,
+      "avg_submitted": 100.08,
+      "avg_paid": 44.51
+    },
+    {
+      "year": 2020,
+      "total_payments": 27396.96,
+      "total_services": 616,
+      "total_beneficiaries": 248,
+      "avg_submitted": 163.29,
+      "avg_paid": 44.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 25238.27,
+      "total_services": 567,
+      "total_beneficiaries": 228,
+      "avg_submitted": 149.46,
+      "avg_paid": 44.51
+    },
+    {
+      "year": 2022,
+      "total_payments": 30717.37,
+      "total_services": 691,
+      "total_beneficiaries": 278,
+      "avg_submitted": 154.5,
+      "avg_paid": 44.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 28710.94,
+      "total_services": 646,
+      "total_beneficiaries": 260,
+      "avg_submitted": 99.87,
+      "avg_paid": 44.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 1513,
+      "payments": 67313.77,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 470,
+      "payments": 20919.08,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 552,
+      "payments": 24567.73,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 219,
+      "payments": 9729.09,
+      "avg_markup": 5.18
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 207,
+      "payments": 9183.8,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 444,
+      "payments": 19723.55,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 232,
+      "payments": 10306.43,
+      "avg_markup": 4
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 111,
+      "payments": 4934.12,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 197,
+      "payments": 8774.45,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 310,
+      "payments": 13793.35,
+      "avg_markup": 1.69
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 72,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "29x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 94.8x (specialty median: 12.0x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "26x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "61x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

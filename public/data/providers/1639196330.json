@@ -1,0 +1,194 @@
+{
+  "name": "Jayanthi Ramadurai",
+  "credentials": "MD",
+  "specialty": "Medical Oncology",
+  "city": "Burbank",
+  "state": "IL",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 2477958.63,
+    "total_services": 160176,
+    "total_beneficiaries": 2573,
+    "avg_markup_ratio": 32,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 154916.21,
+      "total_services": 10014,
+      "total_beneficiaries": 161,
+      "avg_submitted": 52.42,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 183529.01,
+      "total_services": 11863,
+      "total_beneficiaries": 191,
+      "avg_submitted": 43.74,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 149982.48,
+      "total_services": 9695,
+      "total_beneficiaries": 156,
+      "avg_submitted": 58.5,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 201741.24,
+      "total_services": 13041,
+      "total_beneficiaries": 209,
+      "avg_submitted": 40.18,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 186209.26,
+      "total_services": 12037,
+      "total_beneficiaries": 193,
+      "avg_submitted": 50.58,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2019,
+      "total_payments": 193696.57,
+      "total_services": 12521,
+      "total_beneficiaries": 201,
+      "avg_submitted": 55.4,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 246557.91,
+      "total_services": 15938,
+      "total_beneficiaries": 256,
+      "avg_submitted": 48.36,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 224071.84,
+      "total_services": 14484,
+      "total_beneficiaries": 233,
+      "avg_submitted": 46.63,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 253416.3,
+      "total_services": 16381,
+      "total_beneficiaries": 263,
+      "avg_submitted": 53.11,
+      "avg_paid": 15.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 267724.58,
+      "total_services": 17306,
+      "total_beneficiaries": 278,
+      "avg_submitted": 27.11,
+      "avg_paid": 15.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 48634,
+      "payments": 752376.76,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 5281,
+      "payments": 81699.09,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 8458,
+      "payments": 130849.08,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 6538,
+      "payments": 101151.71,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 8358,
+      "payments": 129299.47,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 8086,
+      "payments": 125095.66,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 6660,
+      "payments": 103025.27,
+      "avg_markup": 5.64
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 4852,
+      "payments": 75055.29,
+      "avg_markup": 5.49
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 6806,
+      "payments": 105296.48,
+      "avg_markup": 5.13
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 3194,
+      "payments": 49408.28,
+      "avg_markup": 2.11
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 73,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "54x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 32.0x (specialty median: 4.3x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "9x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "300x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

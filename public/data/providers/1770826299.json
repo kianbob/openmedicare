@@ -1,0 +1,194 @@
+{
+  "name": "John Gardner",
+  "credentials": "",
+  "specialty": "Anesthesiology",
+  "city": "Franklin",
+  "state": "KY",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 266241.98,
+    "total_services": 6066,
+    "total_beneficiaries": 2531,
+    "avg_markup_ratio": 104.09,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 17671.57,
+      "total_services": 403,
+      "total_beneficiaries": 168,
+      "avg_submitted": 125.86,
+      "avg_paid": 43.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 17746.58,
+      "total_services": 404,
+      "total_beneficiaries": 169,
+      "avg_submitted": 74.22,
+      "avg_paid": 43.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 19854.02,
+      "total_services": 452,
+      "total_beneficiaries": 189,
+      "avg_submitted": 84.77,
+      "avg_paid": 43.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 20211.32,
+      "total_services": 460,
+      "total_beneficiaries": 192,
+      "avg_submitted": 167.34,
+      "avg_paid": 43.94
+    },
+    {
+      "year": 2018,
+      "total_payments": 17811.28,
+      "total_services": 406,
+      "total_beneficiaries": 169,
+      "avg_submitted": 159.34,
+      "avg_paid": 43.87
+    },
+    {
+      "year": 2019,
+      "total_payments": 22509.14,
+      "total_services": 513,
+      "total_beneficiaries": 214,
+      "avg_submitted": 100.75,
+      "avg_paid": 43.88
+    },
+    {
+      "year": 2020,
+      "total_payments": 21195.82,
+      "total_services": 483,
+      "total_beneficiaries": 201,
+      "avg_submitted": 109.28,
+      "avg_paid": 43.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 25656.95,
+      "total_services": 585,
+      "total_beneficiaries": 244,
+      "avg_submitted": 92.12,
+      "avg_paid": 43.86
+    },
+    {
+      "year": 2022,
+      "total_payments": 27265.63,
+      "total_services": 621,
+      "total_beneficiaries": 259,
+      "avg_submitted": 95.66,
+      "avg_paid": 43.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 23346.14,
+      "total_services": 532,
+      "total_beneficiaries": 222,
+      "avg_submitted": 87.73,
+      "avg_paid": 43.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 1546,
+      "payments": 67849.74,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 153,
+      "payments": 6727.93,
+      "avg_markup": 4.29
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 328,
+      "payments": 14382.06,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 287,
+      "payments": 12616.95,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 205,
+      "payments": 8975.83,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 323,
+      "payments": 14169.57,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 300,
+      "payments": 13167.79,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 264,
+      "payments": 11568.8,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 341,
+      "payments": 14966.83,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 187,
+      "payments": 8210.47,
+      "avg_markup": 3.16
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 72,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "25x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 104.1x (specialty median: 12.0x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "24x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "54x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

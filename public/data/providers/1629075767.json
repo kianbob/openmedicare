@@ -1,0 +1,194 @@
+{
+  "name": "Itzhak Haimovic",
+  "credentials": "M.D.",
+  "specialty": "Neurology",
+  "city": "Great Neck",
+  "state": "NY",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1218712.6,
+    "total_services": 27005,
+    "total_beneficiaries": 6732,
+    "avg_markup_ratio": 41.23,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 63291.63,
+      "total_services": 1402,
+      "total_beneficiaries": 350,
+      "avg_submitted": 108.43,
+      "avg_paid": 45.14
+    },
+    {
+      "year": 2015,
+      "total_payments": 83257.75,
+      "total_services": 1845,
+      "total_beneficiaries": 460,
+      "avg_submitted": 136.72,
+      "avg_paid": 45.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 76924.45,
+      "total_services": 1705,
+      "total_beneficiaries": 425,
+      "avg_submitted": 134.89,
+      "avg_paid": 45.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 95630.12,
+      "total_services": 2119,
+      "total_beneficiaries": 528,
+      "avg_submitted": 93,
+      "avg_paid": 45.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 91071.34,
+      "total_services": 2018,
+      "total_beneficiaries": 503,
+      "avg_submitted": 152.72,
+      "avg_paid": 45.13
+    },
+    {
+      "year": 2019,
+      "total_payments": 86864.18,
+      "total_services": 1925,
+      "total_beneficiaries": 480,
+      "avg_submitted": 83.14,
+      "avg_paid": 45.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 109425.23,
+      "total_services": 2425,
+      "total_beneficiaries": 604,
+      "avg_submitted": 104.37,
+      "avg_paid": 45.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 100131.43,
+      "total_services": 2219,
+      "total_beneficiaries": 553,
+      "avg_submitted": 155.98,
+      "avg_paid": 45.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 126321.67,
+      "total_services": 2799,
+      "total_beneficiaries": 698,
+      "avg_submitted": 145.96,
+      "avg_paid": 45.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 129149,
+      "total_services": 2862,
+      "total_beneficiaries": 713,
+      "avg_submitted": 106.11,
+      "avg_paid": 45.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 8839,
+      "payments": 398916.33,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 1534,
+      "payments": 69244.16,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 589,
+      "payments": 26559.32,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 1988,
+      "payments": 89727.66,
+      "avg_markup": 5.62
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 1516,
+      "payments": 68416.85,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 975,
+      "payments": 44001.34,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 1380,
+      "payments": 62288.74,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 526,
+      "payments": 23745.56,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 723,
+      "payments": 32623.2,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 1144,
+      "payments": 51621.69,
+      "avg_markup": 2.71
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 74,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "33x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 41.2x (specialty median: 3.8x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "24x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "68x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

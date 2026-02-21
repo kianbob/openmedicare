@@ -1,0 +1,194 @@
+{
+  "name": "Jamie Burton",
+  "credentials": "MD",
+  "specialty": "Hematology",
+  "city": "Little Rock",
+  "state": "AR",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 2826186.52,
+    "total_services": 170135,
+    "total_beneficiaries": 6568,
+    "avg_markup_ratio": 14.94,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 178613.8,
+      "total_services": 10752,
+      "total_beneficiaries": 415,
+      "avg_submitted": 42.63,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 192277.3,
+      "total_services": 11575,
+      "total_beneficiaries": 447,
+      "avg_submitted": 28.06,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 167998.38,
+      "total_services": 10113,
+      "total_beneficiaries": 390,
+      "avg_submitted": 30.49,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2017,
+      "total_payments": 230431.03,
+      "total_services": 13872,
+      "total_beneficiaries": 536,
+      "avg_submitted": 58.75,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 212520.43,
+      "total_services": 12794,
+      "total_beneficiaries": 494,
+      "avg_submitted": 52.31,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 260639.14,
+      "total_services": 15690,
+      "total_beneficiaries": 606,
+      "avg_submitted": 29.43,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 254992.71,
+      "total_services": 15350,
+      "total_beneficiaries": 593,
+      "avg_submitted": 63.15,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 276038.16,
+      "total_services": 16617,
+      "total_beneficiaries": 642,
+      "avg_submitted": 63.57,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 302706.55,
+      "total_services": 18223,
+      "total_beneficiaries": 703,
+      "avg_submitted": 44.18,
+      "avg_paid": 16.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 271018.85,
+      "total_services": 16315,
+      "total_beneficiaries": 630,
+      "avg_submitted": 33.76,
+      "avg_paid": 16.61
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 54790,
+      "payments": 910145.63,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 11375,
+      "payments": 188960.1,
+      "avg_markup": 5.76
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 8968,
+      "payments": 148963.99,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 8887,
+      "payments": 147620.09,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 5605,
+      "payments": 93109.66,
+      "avg_markup": 5.54
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 8696,
+      "payments": 144449.63,
+      "avg_markup": 5.62
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 7452,
+      "payments": 123787.07,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 5812,
+      "payments": 96543.75,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 2295,
+      "payments": 38131.28,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 4216,
+      "payments": 70033.87,
+      "avg_markup": 3.83
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 74,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "92x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 14.9x (specialty median: 3.8x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "36x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "449x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

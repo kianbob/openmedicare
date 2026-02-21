@@ -1,0 +1,194 @@
+{
+  "name": "Cost Less Senior Services Inc",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "Gig Harbor",
+  "state": "WA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 663591.91,
+    "total_services": 13477,
+    "total_beneficiaries": 10626,
+    "avg_markup_ratio": 1539.77,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 34827.49,
+      "total_services": 707,
+      "total_beneficiaries": 558,
+      "avg_submitted": 120.36,
+      "avg_paid": 49.26
+    },
+    {
+      "year": 2015,
+      "total_payments": 36861.04,
+      "total_services": 749,
+      "total_beneficiaries": 590,
+      "avg_submitted": 171.81,
+      "avg_paid": 49.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 46881.81,
+      "total_services": 952,
+      "total_beneficiaries": 751,
+      "avg_submitted": 111.73,
+      "avg_paid": 49.25
+    },
+    {
+      "year": 2017,
+      "total_payments": 52742.09,
+      "total_services": 1071,
+      "total_beneficiaries": 845,
+      "avg_submitted": 82.68,
+      "avg_paid": 49.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 45174.75,
+      "total_services": 917,
+      "total_beneficiaries": 723,
+      "avg_submitted": 164.01,
+      "avg_paid": 49.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 50907.53,
+      "total_services": 1034,
+      "total_beneficiaries": 815,
+      "avg_submitted": 130.26,
+      "avg_paid": 49.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 54709.14,
+      "total_services": 1111,
+      "total_beneficiaries": 876,
+      "avg_submitted": 183.95,
+      "avg_paid": 49.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 60869.07,
+      "total_services": 1236,
+      "total_beneficiaries": 975,
+      "avg_submitted": 106.63,
+      "avg_paid": 49.25
+    },
+    {
+      "year": 2022,
+      "total_payments": 64940.17,
+      "total_services": 1319,
+      "total_beneficiaries": 1040,
+      "avg_submitted": 98.63,
+      "avg_paid": 49.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 58852.99,
+      "total_services": 1195,
+      "total_beneficiaries": 942,
+      "avg_submitted": 162.07,
+      "avg_paid": 49.25
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 3280,
+      "payments": 161511.6,
+      "avg_markup": 4.56
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 872,
+      "payments": 42945.9,
+      "avg_markup": 5.27
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 1007,
+      "payments": 49584.9,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 388,
+      "payments": 19080.01,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 463,
+      "payments": 22795.29,
+      "avg_markup": 5.52
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 706,
+      "payments": 34757.53,
+      "avg_markup": 5.36
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 325,
+      "payments": 15981.83,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 254,
+      "payments": 12511.74,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 638,
+      "payments": 31429.23,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 573,
+      "payments": 28227.7,
+      "avg_markup": 4.84
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 78,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "47x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 1539.8x (specialty median: 1.3x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "52x specialty median beneficiaries",
+        "severity": "high"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "48x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Howard Mango",
+  "credentials": "",
+  "specialty": "Audiologist",
+  "city": "Newport Beach",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1010016.14,
+    "total_services": 25911,
+    "total_beneficiaries": 7939,
+    "avg_markup_ratio": 13.31,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 68721.29,
+      "total_services": 1763,
+      "total_beneficiaries": 540,
+      "avg_submitted": 105.61,
+      "avg_paid": 38.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 67557.03,
+      "total_services": 1733,
+      "total_beneficiaries": 531,
+      "avg_submitted": 155.35,
+      "avg_paid": 38.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 62820.65,
+      "total_services": 1612,
+      "total_beneficiaries": 494,
+      "avg_submitted": 70.13,
+      "avg_paid": 38.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 76884.08,
+      "total_services": 1972,
+      "total_beneficiaries": 604,
+      "avg_submitted": 68.8,
+      "avg_paid": 38.99
+    },
+    {
+      "year": 2018,
+      "total_payments": 78322.17,
+      "total_services": 2009,
+      "total_beneficiaries": 616,
+      "avg_submitted": 111.51,
+      "avg_paid": 38.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 75241.75,
+      "total_services": 1930,
+      "total_beneficiaries": 591,
+      "avg_submitted": 146.54,
+      "avg_paid": 38.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 85751.06,
+      "total_services": 2200,
+      "total_beneficiaries": 674,
+      "avg_submitted": 100.38,
+      "avg_paid": 38.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 79806.79,
+      "total_services": 2047,
+      "total_beneficiaries": 627,
+      "avg_submitted": 101.66,
+      "avg_paid": 38.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 89718.96,
+      "total_services": 2302,
+      "total_beneficiaries": 705,
+      "avg_submitted": 121.47,
+      "avg_paid": 38.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 101000.87,
+      "total_services": 2591,
+      "total_beneficiaries": 794,
+      "avg_submitted": 110.3,
+      "avg_paid": 38.98
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 7214,
+      "payments": 281205.37,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 1736,
+      "payments": 67666.11,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 1090,
+      "payments": 42505.85,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 550,
+      "payments": 21422.67,
+      "avg_markup": 5.3
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 638,
+      "payments": 24862.83,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 1820,
+      "payments": 70954.02,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 1390,
+      "payments": 54180.17,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 1018,
+      "payments": 39687.1,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 535,
+      "payments": 20873.49,
+      "avg_markup": 5.54
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 338,
+      "payments": 13181.36,
+      "avg_markup": 2.05
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 77,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "232x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 13.3x (specialty median: 4.0x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "40x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "125x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

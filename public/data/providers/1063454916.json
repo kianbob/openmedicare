@@ -1,0 +1,194 @@
+{
+  "name": "Joseph Silverstein",
+  "credentials": "P.A.",
+  "specialty": "Physician Assistant",
+  "city": "Inglewood",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 948964.7,
+    "total_services": 14663,
+    "total_beneficiaries": 7326,
+    "avg_markup_ratio": 17.43,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 59917.96,
+      "total_services": 926,
+      "total_beneficiaries": 463,
+      "avg_submitted": 197.3,
+      "avg_paid": 64.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 52958.27,
+      "total_services": 818,
+      "total_beneficiaries": 409,
+      "avg_submitted": 211.5,
+      "avg_paid": 64.74
+    },
+    {
+      "year": 2016,
+      "total_payments": 59547.73,
+      "total_services": 920,
+      "total_beneficiaries": 460,
+      "avg_submitted": 148.05,
+      "avg_paid": 64.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 71678.79,
+      "total_services": 1108,
+      "total_beneficiaries": 553,
+      "avg_submitted": 163.04,
+      "avg_paid": 64.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 83549.51,
+      "total_services": 1291,
+      "total_beneficiaries": 645,
+      "avg_submitted": 158.55,
+      "avg_paid": 64.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 72053.06,
+      "total_services": 1113,
+      "total_beneficiaries": 556,
+      "avg_submitted": 247.42,
+      "avg_paid": 64.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 86972.85,
+      "total_services": 1344,
+      "total_beneficiaries": 671,
+      "avg_submitted": 212.35,
+      "avg_paid": 64.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 80166.45,
+      "total_services": 1239,
+      "total_beneficiaries": 619,
+      "avg_submitted": 114.78,
+      "avg_paid": 64.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 81504.22,
+      "total_services": 1259,
+      "total_beneficiaries": 629,
+      "avg_submitted": 144.96,
+      "avg_paid": 64.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 100929.38,
+      "total_services": 1560,
+      "total_beneficiaries": 779,
+      "avg_submitted": 180.29,
+      "avg_paid": 64.7
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 2965,
+      "payments": 191861.31,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 1249,
+      "payments": 80826.14,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 844,
+      "payments": 54616.54,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 1239,
+      "payments": 80199.65,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 962,
+      "payments": 62280.72,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 921,
+      "payments": 59635.04,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 798,
+      "payments": 51659.57,
+      "avg_markup": 5.16
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 339,
+      "payments": 21937.83,
+      "avg_markup": 5.39
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 688,
+      "payments": 44504.07,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 582,
+      "payments": 37644.03,
+      "avg_markup": 2.72
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 72,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "80x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 17.4x (specialty median: 4.5x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "46x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "72x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

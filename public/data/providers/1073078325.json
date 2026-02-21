@@ -1,0 +1,194 @@
+{
+  "name": "Staywell Pharmacy Corp",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "Palatine",
+  "state": "IL",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 2092681.24,
+    "total_services": 177737,
+    "total_beneficiaries": 12329,
+    "avg_markup_ratio": 3.63,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 143575.79,
+      "total_services": 12194,
+      "total_beneficiaries": 846,
+      "avg_submitted": 18.04,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2015,
+      "total_payments": 133819.64,
+      "total_services": 11366,
+      "total_beneficiaries": 788,
+      "avg_submitted": 32.62,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 162645.12,
+      "total_services": 13814,
+      "total_beneficiaries": 958,
+      "avg_submitted": 43.43,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 141125.6,
+      "total_services": 11986,
+      "total_beneficiaries": 831,
+      "avg_submitted": 42.26,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 149316.51,
+      "total_services": 12682,
+      "total_beneficiaries": 880,
+      "avg_submitted": 43.13,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2019,
+      "total_payments": 189175.17,
+      "total_services": 16067,
+      "total_beneficiaries": 1115,
+      "avg_submitted": 22.57,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 166334.67,
+      "total_services": 14127,
+      "total_beneficiaries": 980,
+      "avg_submitted": 20.52,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2021,
+      "total_payments": 204805.56,
+      "total_services": 17395,
+      "total_beneficiaries": 1207,
+      "avg_submitted": 27.34,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2022,
+      "total_payments": 188813.64,
+      "total_services": 16036,
+      "total_beneficiaries": 1112,
+      "avg_submitted": 27.05,
+      "avg_paid": 11.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 197722.89,
+      "total_services": 16793,
+      "total_beneficiaries": 1165,
+      "avg_submitted": 37.29,
+      "avg_paid": 11.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 43401,
+      "payments": 511002.13,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 15708,
+      "payments": 184948.64,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 11990,
+      "payments": 141170.34,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 5675,
+      "payments": 66813.01,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 4325,
+      "payments": 50918.63,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 9262,
+      "payments": 109050.1,
+      "avg_markup": 5.75
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 10427,
+      "payments": 122773.4,
+      "avg_markup": 5.37
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 9560,
+      "payments": 112562.09,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 5828,
+      "payments": 68624.74,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 3430,
+      "payments": 40390.05,
+      "avg_markup": 5.14
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 75,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "148x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 3.6x (specialty median: 1.3x)",
+        "severity": "medium"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "60x specialty median beneficiaries",
+        "severity": "high"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "639x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

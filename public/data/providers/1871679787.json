@@ -1,0 +1,194 @@
+{
+  "name": "Kevin Mochizuki",
+  "credentials": "PH.D. D.ABNM",
+  "specialty": "Audiologist",
+  "city": "Salt Lake City",
+  "state": "UT",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 319822.27,
+    "total_services": 9017,
+    "total_beneficiaries": 3773,
+    "avg_markup_ratio": 101.94,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 19704.25,
+      "total_services": 556,
+      "total_beneficiaries": 232,
+      "avg_submitted": 93.55,
+      "avg_paid": 35.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 23045.2,
+      "total_services": 650,
+      "total_beneficiaries": 272,
+      "avg_submitted": 106.81,
+      "avg_paid": 35.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 22138.57,
+      "total_services": 624,
+      "total_beneficiaries": 261,
+      "avg_submitted": 57.69,
+      "avg_paid": 35.48
+    },
+    {
+      "year": 2017,
+      "total_payments": 26319.11,
+      "total_services": 742,
+      "total_beneficiaries": 310,
+      "avg_submitted": 114.56,
+      "avg_paid": 35.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 28575.35,
+      "total_services": 806,
+      "total_beneficiaries": 337,
+      "avg_submitted": 61.45,
+      "avg_paid": 35.45
+    },
+    {
+      "year": 2019,
+      "total_payments": 29698.65,
+      "total_services": 837,
+      "total_beneficiaries": 350,
+      "avg_submitted": 126.9,
+      "avg_paid": 35.48
+    },
+    {
+      "year": 2020,
+      "total_payments": 28866.37,
+      "total_services": 814,
+      "total_beneficiaries": 341,
+      "avg_submitted": 61.82,
+      "avg_paid": 35.46
+    },
+    {
+      "year": 2021,
+      "total_payments": 31937.61,
+      "total_services": 900,
+      "total_beneficiaries": 377,
+      "avg_submitted": 66.89,
+      "avg_paid": 35.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 26935.3,
+      "total_services": 759,
+      "total_beneficiaries": 318,
+      "avg_submitted": 91.52,
+      "avg_paid": 35.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 28284.56,
+      "total_services": 797,
+      "total_beneficiaries": 334,
+      "avg_submitted": 134.6,
+      "avg_paid": 35.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 2002,
+      "payments": 70993.6,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 541,
+      "payments": 19179.91,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 523,
+      "payments": 18542.75,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 448,
+      "payments": 15885.74,
+      "avg_markup": 5.9
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 305,
+      "payments": 10835.99,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 531,
+      "payments": 18853.28,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 519,
+      "payments": 18408.48,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 537,
+      "payments": 19033.36,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 372,
+      "payments": 13189.76,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 112,
+      "payments": 3960.27,
+      "avg_markup": 4.97
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 75,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "73x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 101.9x (specialty median: 4.0x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "19x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "44x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

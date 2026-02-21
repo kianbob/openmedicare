@@ -1,0 +1,194 @@
+{
+  "name": "Hoang Nguyen",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Fountain Valley",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1473572.91,
+    "total_services": 51316,
+    "total_beneficiaries": 5349,
+    "avg_markup_ratio": 33.72,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 100608.31,
+      "total_services": 3504,
+      "total_beneficiaries": 365,
+      "avg_submitted": 58.82,
+      "avg_paid": 28.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 101792.2,
+      "total_services": 3545,
+      "total_beneficiaries": 370,
+      "avg_submitted": 80.46,
+      "avg_paid": 28.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 100543.66,
+      "total_services": 3501,
+      "total_beneficiaries": 365,
+      "avg_submitted": 114.21,
+      "avg_paid": 28.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 120173.16,
+      "total_services": 4185,
+      "total_beneficiaries": 436,
+      "avg_submitted": 70.46,
+      "avg_paid": 28.72
+    },
+    {
+      "year": 2018,
+      "total_payments": 123156.82,
+      "total_services": 4289,
+      "total_beneficiaries": 447,
+      "avg_submitted": 46.48,
+      "avg_paid": 28.71
+    },
+    {
+      "year": 2019,
+      "total_payments": 117163.69,
+      "total_services": 4080,
+      "total_beneficiaries": 425,
+      "avg_submitted": 105.2,
+      "avg_paid": 28.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 132919.75,
+      "total_services": 4629,
+      "total_beneficiaries": 482,
+      "avg_submitted": 101.97,
+      "avg_paid": 28.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 144118.84,
+      "total_services": 5019,
+      "total_beneficiaries": 523,
+      "avg_submitted": 98.83,
+      "avg_paid": 28.71
+    },
+    {
+      "year": 2022,
+      "total_payments": 150472.92,
+      "total_services": 5240,
+      "total_beneficiaries": 546,
+      "avg_submitted": 78.54,
+      "avg_paid": 28.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 129341.27,
+      "total_services": 4504,
+      "total_beneficiaries": 470,
+      "avg_submitted": 45.97,
+      "avg_paid": 28.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 14044,
+      "payments": 403294.71,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 2790,
+      "payments": 80114.21,
+      "avg_markup": 5.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 2140,
+      "payments": 61454.17,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 3731,
+      "payments": 107124.34,
+      "avg_markup": 5.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 1982,
+      "payments": 56906.89,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 2576,
+      "payments": 73967.64,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 2535,
+      "payments": 72787.37,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 1002,
+      "payments": 28762.21,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 667,
+      "payments": 19150.04,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 2395,
+      "payments": 68778.86,
+      "avg_markup": 2.47
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 73,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "33x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 33.7x (specialty median: 3.3x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "14x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "86x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

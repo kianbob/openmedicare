@@ -1,0 +1,194 @@
+{
+  "name": "Ednan Sheikh",
+  "credentials": "MD",
+  "specialty": "Anesthesiology",
+  "city": "Clifton",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 589517.01,
+    "total_services": 9889,
+    "total_beneficiaries": 994,
+    "avg_markup_ratio": 171.65,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 39471.31,
+      "total_services": 662,
+      "total_beneficiaries": 67,
+      "avg_submitted": 119.76,
+      "avg_paid": 59.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 39757.44,
+      "total_services": 667,
+      "total_beneficiaries": 67,
+      "avg_submitted": 90.37,
+      "avg_paid": 59.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 42764.41,
+      "total_services": 717,
+      "total_beneficiaries": 72,
+      "avg_submitted": 175.16,
+      "avg_paid": 59.64
+    },
+    {
+      "year": 2017,
+      "total_payments": 42490.95,
+      "total_services": 713,
+      "total_beneficiaries": 72,
+      "avg_submitted": 213.12,
+      "avg_paid": 59.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 41568.45,
+      "total_services": 697,
+      "total_beneficiaries": 70,
+      "avg_submitted": 130.25,
+      "avg_paid": 59.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 52800.33,
+      "total_services": 886,
+      "total_beneficiaries": 89,
+      "avg_submitted": 141.43,
+      "avg_paid": 59.59
+    },
+    {
+      "year": 2020,
+      "total_payments": 48107.65,
+      "total_services": 807,
+      "total_beneficiaries": 81,
+      "avg_submitted": 172.29,
+      "avg_paid": 59.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 49099.27,
+      "total_services": 824,
+      "total_beneficiaries": 83,
+      "avg_submitted": 172.94,
+      "avg_paid": 59.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 55128.41,
+      "total_services": 925,
+      "total_beneficiaries": 93,
+      "avg_submitted": 95.45,
+      "avg_paid": 59.6
+    },
+    {
+      "year": 2023,
+      "total_payments": 58757.72,
+      "total_services": 986,
+      "total_beneficiaries": 99,
+      "avg_submitted": 186.55,
+      "avg_paid": 59.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 2332,
+      "payments": 139029.2,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 555,
+      "payments": 33105.6,
+      "avg_markup": 5.62
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 290,
+      "payments": 17283.81,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 218,
+      "payments": 12972,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 367,
+      "payments": 21889.7,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 626,
+      "payments": 37313.07,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 252,
+      "payments": 15029.34,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 501,
+      "payments": 29892.31,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 607,
+      "payments": 36173.98,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 387,
+      "payments": 23068.38,
+      "avg_markup": 4.16
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 74,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "55x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 171.6x (specialty median: 12.0x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "9x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "88x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

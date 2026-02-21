@@ -1,0 +1,194 @@
+{
+  "name": "Richard Falivena",
+  "credentials": "D.O.",
+  "specialty": "General Surgery",
+  "city": "Cape May Court House",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 207178.26,
+    "total_services": 31280,
+    "total_beneficiaries": 10764,
+    "avg_markup_ratio": 27.12,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 12653.51,
+      "total_services": 1910,
+      "total_beneficiaries": 657,
+      "avg_submitted": 22.99,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 13783.01,
+      "total_services": 2081,
+      "total_beneficiaries": 716,
+      "avg_submitted": 24.02,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2016,
+      "total_payments": 13181.83,
+      "total_services": 1990,
+      "total_beneficiaries": 685,
+      "avg_submitted": 21.17,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 14362.8,
+      "total_services": 2169,
+      "total_beneficiaries": 746,
+      "avg_submitted": 17.38,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 17010.11,
+      "total_services": 2568,
+      "total_beneficiaries": 884,
+      "avg_submitted": 25.72,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 19447.97,
+      "total_services": 2936,
+      "total_beneficiaries": 1010,
+      "avg_submitted": 14.01,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 20430.91,
+      "total_services": 3085,
+      "total_beneficiaries": 1061,
+      "avg_submitted": 19.2,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 21149.08,
+      "total_services": 3193,
+      "total_beneficiaries": 1099,
+      "avg_submitted": 18.09,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2022,
+      "total_payments": 17049.06,
+      "total_services": 2574,
+      "total_beneficiaries": 886,
+      "avg_submitted": 10.25,
+      "avg_paid": 6.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 19750.54,
+      "total_services": 2982,
+      "total_beneficiaries": 1026,
+      "avg_submitted": 26.48,
+      "avg_paid": 6.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 10874,
+      "payments": 72022.33,
+      "avg_markup": 5.64
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 2395,
+      "payments": 15864.66,
+      "avg_markup": 5.7
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 1123,
+      "payments": 7434.86,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 1446,
+      "payments": 9575.95,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 1601,
+      "payments": 10603.17,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 844,
+      "payments": 5587.1,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 796,
+      "payments": 5273.54,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 936,
+      "payments": 6198.83,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 443,
+      "payments": 2936.44,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 727,
+      "payments": 4812.36,
+      "avg_markup": 5.63
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 73,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "11x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 27.1x (specialty median: 3.8x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "72x specialty median beneficiaries",
+        "severity": "high"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "164x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}
