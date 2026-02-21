@@ -64,7 +64,7 @@ export default function DrugSpendingPage() {
         )}
 
         {/* Top Drugs */}
-        {data.top_drugs && data.top_drugs.length > 0 && (
+        {data.top_drug_codes && data.top_drug_codes.length > 0 && (
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Top Drugs by Medicare Spending</h2>
             <div className="overflow-x-auto">
@@ -79,7 +79,7 @@ export default function DrugSpendingPage() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-100">
-                  {data.top_drugs.slice(0, 30).map((d: any, i: number) => (
+                  {data.top_drug_codes.slice(0, 30).map((d: any, i: number) => (
                     <tr key={d.code} className="hover:bg-blue-50">
                       <td className="px-4 py-2 text-gray-500 text-sm">{i + 1}</td>
                       <td className="px-4 py-2 font-mono text-blue-600 font-medium">{d.code}</td>
