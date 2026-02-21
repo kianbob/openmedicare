@@ -1,0 +1,188 @@
+{
+  "npi": "1801834544",
+  "name": "Anton Melnyk",
+  "credentials": "MD,FACP",
+  "specialty": "Hematology-Oncology",
+  "city": "Abilene",
+  "state": "TX",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 1413835.03,
+    "total_services": 193993,
+    "total_beneficiaries": 6588,
+    "avg_markup_ratio": 20.17,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 98968.45,
+      "total_services": 13580,
+      "total_beneficiaries": 461,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 107451.46,
+      "total_services": 14743,
+      "total_beneficiaries": 501,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 115934.47,
+      "total_services": 15907,
+      "total_beneficiaries": 540,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2017,
+      "total_payments": 124417.48,
+      "total_services": 17071,
+      "total_beneficiaries": 580,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 132900.49,
+      "total_services": 18235,
+      "total_beneficiaries": 619,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2019,
+      "total_payments": 141383.5,
+      "total_services": 19399,
+      "total_beneficiaries": 659,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 149866.51,
+      "total_services": 20563,
+      "total_beneficiaries": 698,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 158349.52,
+      "total_services": 21727,
+      "total_beneficiaries": 738,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2022,
+      "total_payments": 166832.53,
+      "total_services": 22891,
+      "total_beneficiaries": 777,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 175315.54,
+      "total_services": 24055,
+      "total_beneficiaries": 817,
+      "avg_submitted": 147.04,
+      "avg_paid": 7.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 66233,
+      "payments": 482707.53,
+      "avg_markup": 21.79
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 33116,
+      "payments": 241353.76,
+      "avg_markup": 19.98
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 22078,
+      "payments": 160902.51,
+      "avg_markup": 23.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 16558,
+      "payments": 120676.88,
+      "avg_markup": 20.51
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 13247,
+      "payments": 96541.51,
+      "avg_markup": 19.73
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 11039,
+      "payments": 80451.25,
+      "avg_markup": 18.35
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 9462,
+      "payments": 68958.22,
+      "avg_markup": 19.84
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 8279,
+      "payments": 60338.44,
+      "avg_markup": 21.18
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 7359,
+      "payments": 53634.17,
+      "avg_markup": 20.16
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 6623,
+      "payments": 48270.75,
+      "avg_markup": 23.32
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "22x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 20.2x (specialty median: 4.0x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "16x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "232x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

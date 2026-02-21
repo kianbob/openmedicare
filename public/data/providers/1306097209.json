@@ -1,0 +1,188 @@
+{
+  "npi": "1306097209",
+  "name": "Jun Sun",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "Clinton",
+  "state": "MD",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 1567184.37,
+    "total_services": 225681,
+    "total_beneficiaries": 6383,
+    "avg_markup_ratio": 20.12,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 109702.91,
+      "total_services": 15798,
+      "total_beneficiaries": 447,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2015,
+      "total_payments": 119106.01,
+      "total_services": 17152,
+      "total_beneficiaries": 485,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 128509.12,
+      "total_services": 18506,
+      "total_beneficiaries": 523,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2017,
+      "total_payments": 137912.22,
+      "total_services": 19860,
+      "total_beneficiaries": 562,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2018,
+      "total_payments": 147315.33,
+      "total_services": 21214,
+      "total_beneficiaries": 600,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2019,
+      "total_payments": 156718.44,
+      "total_services": 22568,
+      "total_beneficiaries": 638,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 166121.54,
+      "total_services": 23922,
+      "total_beneficiaries": 677,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 175524.65,
+      "total_services": 25276,
+      "total_beneficiaries": 715,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 184927.76,
+      "total_services": 26630,
+      "total_beneficiaries": 753,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 194330.86,
+      "total_services": 27984,
+      "total_beneficiaries": 791,
+      "avg_submitted": 139.63,
+      "avg_paid": 6.94
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 77051,
+      "payments": 535063.62,
+      "avg_markup": 19.03
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 38526,
+      "payments": 267531.81,
+      "avg_markup": 17.06
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 25684,
+      "payments": 178354.54,
+      "avg_markup": 17.86
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 19263,
+      "payments": 133765.91,
+      "avg_markup": 20.82
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 15410,
+      "payments": 107012.72,
+      "avg_markup": 18.46
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 12842,
+      "payments": 89177.27,
+      "avg_markup": 17.28
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 11007,
+      "payments": 76437.66,
+      "avg_markup": 21.47
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 9631,
+      "payments": 66882.95,
+      "avg_markup": 23.58
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 8561,
+      "payments": 59451.51,
+      "avg_markup": 16.22
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 7705,
+      "payments": 53506.36,
+      "avg_markup": 21.52
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "24x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 20.1x (specialty median: 4.0x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "15x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "270x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

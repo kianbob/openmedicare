@@ -1,0 +1,188 @@
+{
+  "npi": "1609984368",
+  "name": "Kewen Jauss",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "Little Rock",
+  "state": "AR",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 2790989.09,
+    "total_services": 305534,
+    "total_beneficiaries": 9808,
+    "avg_markup_ratio": 14.54,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 195369.24,
+      "total_services": 21387,
+      "total_beneficiaries": 687,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 212115.17,
+      "total_services": 23221,
+      "total_beneficiaries": 745,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 228861.11,
+      "total_services": 25054,
+      "total_beneficiaries": 804,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2017,
+      "total_payments": 245607.04,
+      "total_services": 26887,
+      "total_beneficiaries": 863,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 262352.97,
+      "total_services": 28720,
+      "total_beneficiaries": 922,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2019,
+      "total_payments": 279098.91,
+      "total_services": 30553,
+      "total_beneficiaries": 981,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 295844.84,
+      "total_services": 32387,
+      "total_beneficiaries": 1040,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 312590.78,
+      "total_services": 34220,
+      "total_beneficiaries": 1098,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 329336.71,
+      "total_services": 36053,
+      "total_beneficiaries": 1157,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 346082.65,
+      "total_services": 37886,
+      "total_beneficiaries": 1216,
+      "avg_submitted": 132.75,
+      "avg_paid": 9.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 104315,
+      "payments": 952891.55,
+      "avg_markup": 15.37
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 52157,
+      "payments": 476445.77,
+      "avg_markup": 14.65
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 34772,
+      "payments": 317630.52,
+      "avg_markup": 13.66
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 26079,
+      "payments": 238222.89,
+      "avg_markup": 11.76
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 20863,
+      "payments": 190578.31,
+      "avg_markup": 13.26
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 17386,
+      "payments": 158815.26,
+      "avg_markup": 15.57
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 14902,
+      "payments": 136127.36,
+      "avg_markup": 13.41
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 13039,
+      "payments": 119111.44,
+      "avg_markup": 17.31
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 11591,
+      "payments": 105876.84,
+      "avg_markup": 16.63
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 10431,
+      "payments": 95289.15,
+      "avg_markup": 15.96
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "43x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 14.5x (specialty median: 4.0x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "23x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "365x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

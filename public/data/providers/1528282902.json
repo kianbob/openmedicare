@@ -1,0 +1,188 @@
+{
+  "npi": "1528282902",
+  "name": "Lisa Houk",
+  "credentials": "FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Pilot Point",
+  "state": "TX",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 289237.01,
+    "total_services": 55856,
+    "total_beneficiaries": 3248,
+    "avg_markup_ratio": 20.66,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 20246.59,
+      "total_services": 3910,
+      "total_beneficiaries": 227,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 21982.01,
+      "total_services": 4245,
+      "total_beneficiaries": 247,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2016,
+      "total_payments": 23717.43,
+      "total_services": 4580,
+      "total_beneficiaries": 266,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2017,
+      "total_payments": 25452.86,
+      "total_services": 4915,
+      "total_beneficiaries": 286,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 27188.28,
+      "total_services": 5250,
+      "total_beneficiaries": 305,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 28923.7,
+      "total_services": 5586,
+      "total_beneficiaries": 325,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 30659.12,
+      "total_services": 5921,
+      "total_beneficiaries": 344,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2021,
+      "total_payments": 32394.55,
+      "total_services": 6256,
+      "total_beneficiaries": 364,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 34129.97,
+      "total_services": 6591,
+      "total_beneficiaries": 383,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 35865.39,
+      "total_services": 6926,
+      "total_beneficiaries": 403,
+      "avg_submitted": 107.02,
+      "avg_paid": 5.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 19070,
+      "payments": 98750.48,
+      "avg_markup": 20.99
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 9535,
+      "payments": 49375.24,
+      "avg_markup": 21.24
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 6357,
+      "payments": 32916.83,
+      "avg_markup": 19.03
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 4768,
+      "payments": 24687.62,
+      "avg_markup": 20.54
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 3814,
+      "payments": 19750.1,
+      "avg_markup": 24.47
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 3178,
+      "payments": 16458.41,
+      "avg_markup": 21.09
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 2724,
+      "payments": 14107.21,
+      "avg_markup": 22.93
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 2384,
+      "payments": 12343.81,
+      "avg_markup": 24.67
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 2119,
+      "payments": 10972.28,
+      "avg_markup": 16.89
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 1907,
+      "payments": 9875.05,
+      "avg_markup": 22.2
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "24x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 20.7x (specialty median: 3.7x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "22x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "259x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

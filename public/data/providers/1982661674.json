@@ -1,0 +1,188 @@
+{
+  "npi": "1982661674",
+  "name": "Shubhada Shrikhande",
+  "credentials": "MD",
+  "specialty": "Medical Oncology",
+  "city": "Austin",
+  "state": "TX",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 893486.3,
+    "total_services": 104488,
+    "total_beneficiaries": 5374,
+    "avg_markup_ratio": 24.4,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 62544.04,
+      "total_services": 7314,
+      "total_beneficiaries": 376,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2015,
+      "total_payments": 67904.96,
+      "total_services": 7941,
+      "total_beneficiaries": 408,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 73265.88,
+      "total_services": 8568,
+      "total_beneficiaries": 441,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 78626.79,
+      "total_services": 9195,
+      "total_beneficiaries": 473,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 83987.71,
+      "total_services": 9822,
+      "total_beneficiaries": 505,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 89348.63,
+      "total_services": 10449,
+      "total_beneficiaries": 537,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 94709.55,
+      "total_services": 11076,
+      "total_beneficiaries": 570,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 100070.47,
+      "total_services": 11703,
+      "total_beneficiaries": 602,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2022,
+      "total_payments": 105431.38,
+      "total_services": 12330,
+      "total_beneficiaries": 634,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 110792.3,
+      "total_services": 12957,
+      "total_beneficiaries": 666,
+      "avg_submitted": 208.62,
+      "avg_paid": 8.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 35674,
+      "payments": 305051.55,
+      "avg_markup": 22.41
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 17837,
+      "payments": 152525.77,
+      "avg_markup": 27.87
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 11891,
+      "payments": 101683.85,
+      "avg_markup": 29.14
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 8918,
+      "payments": 76262.89,
+      "avg_markup": 24.83
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 7135,
+      "payments": 61010.31,
+      "avg_markup": 27.22
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 5946,
+      "payments": 50841.92,
+      "avg_markup": 23.3
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 5096,
+      "payments": 43578.79,
+      "avg_markup": 26.19
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 4459,
+      "payments": 38131.44,
+      "avg_markup": 24.44
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 3964,
+      "payments": 33894.62,
+      "avg_markup": 20.19
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 3567,
+      "payments": 30505.15,
+      "avg_markup": 28.91
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "20x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 24.4x (specialty median: 4.3x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "20x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "196x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

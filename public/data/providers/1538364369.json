@@ -1,0 +1,188 @@
+{
+  "npi": "1538364369",
+  "name": "Paul Littman",
+  "credentials": "D.O.",
+  "specialty": "Obstetrics & Gynecology",
+  "city": "Hackettstown",
+  "state": "NJ",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 346612.35,
+    "total_services": 5830,
+    "total_beneficiaries": 3239,
+    "avg_markup_ratio": 9.66,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 24262.86,
+      "total_services": 408,
+      "total_beneficiaries": 227,
+      "avg_submitted": 574.48,
+      "avg_paid": 59.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 26342.54,
+      "total_services": 443,
+      "total_beneficiaries": 246,
+      "avg_submitted": 574.38,
+      "avg_paid": 59.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 28422.21,
+      "total_services": 478,
+      "total_beneficiaries": 266,
+      "avg_submitted": 574.38,
+      "avg_paid": 59.46
+    },
+    {
+      "year": 2017,
+      "total_payments": 30501.89,
+      "total_services": 513,
+      "total_beneficiaries": 285,
+      "avg_submitted": 574.38,
+      "avg_paid": 59.46
+    },
+    {
+      "year": 2018,
+      "total_payments": 32581.56,
+      "total_services": 548,
+      "total_beneficiaries": 304,
+      "avg_submitted": 574.38,
+      "avg_paid": 59.46
+    },
+    {
+      "year": 2019,
+      "total_payments": 34661.24,
+      "total_services": 583,
+      "total_beneficiaries": 324,
+      "avg_submitted": 574.29,
+      "avg_paid": 59.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 36740.91,
+      "total_services": 618,
+      "total_beneficiaries": 343,
+      "avg_submitted": 574.29,
+      "avg_paid": 59.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 38820.58,
+      "total_services": 653,
+      "total_beneficiaries": 363,
+      "avg_submitted": 574.29,
+      "avg_paid": 59.45
+    },
+    {
+      "year": 2022,
+      "total_payments": 40900.26,
+      "total_services": 688,
+      "total_beneficiaries": 382,
+      "avg_submitted": 574.29,
+      "avg_paid": 59.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 42979.93,
+      "total_services": 723,
+      "total_beneficiaries": 402,
+      "avg_submitted": 574.29,
+      "avg_paid": 59.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 1990,
+      "payments": 118339.4,
+      "avg_markup": 11.13
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 995,
+      "payments": 59169.7,
+      "avg_markup": 9.64
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 663,
+      "payments": 39446.47,
+      "avg_markup": 8.46
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 498,
+      "payments": 29584.85,
+      "avg_markup": 9.72
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 398,
+      "payments": 23667.88,
+      "avg_markup": 10.42
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 332,
+      "payments": 19723.23,
+      "avg_markup": 10.01
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 284,
+      "payments": 16905.63,
+      "avg_markup": 8.08
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 249,
+      "payments": 14792.43,
+      "avg_markup": 10.58
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 221,
+      "payments": 13148.82,
+      "avg_markup": 8.44
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 199,
+      "payments": 11833.94,
+      "avg_markup": 9.05
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "73x specialty median spending",
+      "severity": "high"
+    },
+    "high_markup": {
+      "description": "Markup 9.7x (specialty median: 3.1x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "43x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "68x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

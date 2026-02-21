@@ -1,0 +1,188 @@
+{
+  "npi": "1194019075",
+  "name": "Sasha Davis",
+  "credentials": "MD",
+  "specialty": "Medical Oncology",
+  "city": "Tyler",
+  "state": "TX",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 1207909.03,
+    "total_services": 88902,
+    "total_beneficiaries": 3705,
+    "avg_markup_ratio": 23.18,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 84553.63,
+      "total_services": 6223,
+      "total_beneficiaries": 259,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 91801.09,
+      "total_services": 6757,
+      "total_beneficiaries": 282,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2016,
+      "total_payments": 99048.54,
+      "total_services": 7290,
+      "total_beneficiaries": 304,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 106295.99,
+      "total_services": 7823,
+      "total_beneficiaries": 326,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 113543.45,
+      "total_services": 8357,
+      "total_beneficiaries": 348,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2019,
+      "total_payments": 120790.9,
+      "total_services": 8890,
+      "total_beneficiaries": 371,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2020,
+      "total_payments": 128038.36,
+      "total_services": 9424,
+      "total_beneficiaries": 393,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2021,
+      "total_payments": 135285.81,
+      "total_services": 9957,
+      "total_beneficiaries": 415,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 142533.27,
+      "total_services": 10490,
+      "total_beneficiaries": 437,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 149780.72,
+      "total_services": 11024,
+      "total_beneficiaries": 459,
+      "avg_submitted": 315.02,
+      "avg_paid": 13.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 30353,
+      "payments": 412400.86,
+      "avg_markup": 20.53
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 15176,
+      "payments": 206200.43,
+      "avg_markup": 25.46
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 10118,
+      "payments": 137466.95,
+      "avg_markup": 26.47
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 7588,
+      "payments": 103100.22,
+      "avg_markup": 26.05
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 6071,
+      "payments": 82480.17,
+      "avg_markup": 25.61
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 5059,
+      "payments": 68733.48,
+      "avg_markup": 25.9
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 4336,
+      "payments": 58914.41,
+      "avg_markup": 21.36
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 3794,
+      "payments": 51550.11,
+      "avg_markup": 25.62
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 3373,
+      "payments": 45822.32,
+      "avg_markup": 20.11
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 3035,
+      "payments": 41240.09,
+      "avg_markup": 22.54
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "26x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 23.2x (specialty median: 4.3x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "14x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "166x specialty median services",
+      "severity": "medium"
+    }
+  }
+}
