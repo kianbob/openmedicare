@@ -184,7 +184,7 @@ export default function AboutPage() {
         {/* Source Citation */}
         <div className="mt-8">
           <SourceCitation 
-            lastUpdated="February 2024"
+            lastUpdated="February 2026 (data through 2023, the latest CMS release)"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
               'Medicare Provider Utilization and Payment Data (2014-2023)',
