@@ -1,13 +1,22 @@
 import Link from 'next/link'
+import fs from 'fs'
+import path from 'path'
 import { ArrowRightIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import SourceCitation from '@/components/SourceCitation'
 
-// Mock data for homepage stats - will be replaced with real data
+function loadStats() {
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'stats.json'), 'utf-8')
+    return JSON.parse(raw)
+  } catch { return null }
+}
+
+const realStats = loadStats()
 const keyStats = {
-  totalPayments: 892000000000, // $892 billion
-  totalProviders: 1200000, // 1.2 million
-  yearsOfData: 10,
+  totalPayments: realStats?.total_payments || 854842324155,
+  totalProviders: realStats?.total_providers || 1721798,
+  yearsOfData: realStats?.years_covered?.length || 10,
   latestYear: 2023
 }
 
