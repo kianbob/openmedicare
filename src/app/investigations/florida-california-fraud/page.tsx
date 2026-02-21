@@ -104,9 +104,9 @@ export default function FloridaCaliforniaFraudPage() {
             <div className="prose prose-lg max-w-none">
               {/* The Hook */}
               <p className="text-xl text-gray-700 leading-relaxed mb-8 font-medium">
-                If Medicare fraud had a geography, it would look like a sun belt. California and Florida — tied at
-                56 flagged providers each — account for <strong>22.4%</strong> of all AI-flagged providers. Add New York,
-                Texas, and New Jersey, and five states account for <strong>{top5Total} of 500 flags ({((top5Total / 500) * 100).toFixed(1)}%)</strong>.
+                If Medicare fraud had a geography, it would look like a sun belt. <Link href="/states/CA" className="text-medicare-primary hover:underline font-semibold">California</Link> and <Link href="/states/FL" className="text-medicare-primary hover:underline font-semibold">Florida</Link> — tied at
+                56 flagged providers each — account for <strong>22.4%</strong> of all <Link href="/fraud/still-out-there" className="text-medicare-primary hover:underline">AI-flagged providers</Link>. Add <Link href="/states/NY" className="text-medicare-primary hover:underline">New York</Link>,
+                <Link href="/states/TX" className="text-medicare-primary hover:underline">Texas</Link>, and <Link href="/states/NJ" className="text-medicare-primary hover:underline">New Jersey</Link>, and five states account for <strong>{top5Total} of 500 flags ({((top5Total / 500) * 100).toFixed(1)}%)</strong>.
               </p>
 
               <p>
@@ -184,9 +184,9 @@ export default function FloridaCaliforniaFraudPage() {
               </h2>
 
               <p>
-                California&apos;s 56 flagged providers are heavily concentrated in Southern California — particularly
+                <Link href="/states/CA" className="text-medicare-primary hover:underline">California&apos;s</Link> 56 flagged providers are heavily concentrated in Southern California — particularly
                 Los Angeles County and Orange County. This mirrors DOJ enforcement patterns: the Central District
-                of California (covering LA) is consistently among the top districts for Medicare fraud prosecutions.
+                of California (covering LA) is consistently among the top districts for <Link href="/fraud" className="text-medicare-primary hover:underline">Medicare fraud</Link> prosecutions.
               </p>
 
               <div className="space-y-4 my-8 not-prose">
@@ -224,10 +224,10 @@ export default function FloridaCaliforniaFraudPage() {
               </h2>
 
               <p>
-                South Florida has been called the &quot;Medicare fraud capital of the world&quot; by federal prosecutors.
+                South <Link href="/states/FL" className="text-medicare-primary hover:underline">Florida</Link> has been called the &quot;Medicare fraud capital of the world&quot; by federal prosecutors.
                 Our data confirms it. Of Florida&apos;s 56 flagged providers, the majority cluster in Miami-Dade,
-                Broward, and Palm Beach counties — the same tri-county area that has produced the largest fraud
-                takedowns in DOJ history.
+                Broward, and Palm Beach counties — the same tri-county area that has produced the largest <Link href="/investigations/medicare-fraud-2025" className="text-medicare-primary hover:underline">fraud
+                takedowns</Link> in DOJ history.
               </p>
 
               <p>

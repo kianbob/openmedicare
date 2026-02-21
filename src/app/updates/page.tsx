@@ -13,7 +13,25 @@ export const metadata: Metadata = {
 const updates = [
   {
     date: 'February 21, 2026',
+    highlight: true,
     items: [
+      {
+        title: 'AI Fraud Detection Model v2',
+        description: 'Trained on 2,198 confirmed fraudsters, analyzed 1.72M providers, flagged 500 high-risk. Our ML model now combines anomaly detection, peer comparison, and known-fraud pattern matching for the most comprehensive risk scoring in Medicare transparency.',
+        tags: ['AI/ML', 'Major'],
+        link: '/fraud',
+      },
+      {
+        title: '4 New Investigation Articles Published',
+        description: 'New deep dives into Medicare billing anomalies, including AI-flagged provider clusters and emerging fraud patterns identified by our v2 model.',
+        tags: ['Investigations'],
+        link: '/investigations',
+      },
+      {
+        title: 'Provider Pages Upgraded with AI Risk Assessment',
+        description: 'Every provider page now features ML-powered risk scores, anomaly breakdowns, and peer comparison charts. See exactly why a provider was flagged.',
+        tags: ['AI/ML', 'Enhancement'],
+      },
       {
         title: 'Fraud Analysis Section Launched',
         description: '8 fraud pages including upcoding detection, COVID test tracker, wound care watchlist, impossible numbers analysis, deep-dive profiles, and the fraud reporting hub.',
@@ -21,7 +39,7 @@ const updates = [
         link: '/fraud',
       },
       {
-        title: '3 New Investigation Articles',
+        title: '3 Investigation Articles',
         description: 'Published "The COVID Test Gold Rush," "The Wound Care Industrial Complex," and "The Impossible Doctors" — deep dives into the most egregious billing patterns in Medicare.',
         tags: ['Investigations'],
         link: '/investigations',
@@ -74,6 +92,8 @@ const tagColors: Record<string, string> = {
   'Analysis': 'bg-indigo-100 text-indigo-700',
   'Launch': 'bg-amber-100 text-amber-700',
   'Data': 'bg-gray-100 text-gray-700',
+  'AI/ML': 'bg-fuchsia-100 text-fuchsia-700',
+  'Major': 'bg-red-100 text-red-800 font-semibold',
 }
 
 export default function UpdatesPage() {
@@ -96,7 +116,7 @@ export default function UpdatesPage() {
               <div key={group.date}>
                 {/* Date marker */}
                 <div className="relative flex items-center mb-6">
-                  <div className="w-9 h-9 rounded-full bg-medicare-primary flex items-center justify-center z-10">
+                  <div className={`w-9 h-9 rounded-full flex items-center justify-center z-10 ${(group as any).highlight ? 'bg-medicare-primary ring-4 ring-medicare-light' : 'bg-medicare-primary'}`}>
                     <div className="w-3 h-3 rounded-full bg-white" />
                   </div>
                   <h2 className="ml-4 text-lg font-bold text-gray-900">{group.date}</h2>

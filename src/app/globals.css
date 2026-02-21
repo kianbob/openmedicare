@@ -13,3 +13,59 @@
     font-family: var(--font-family-playfair);
   }
 }
+
+@media print {
+  nav,
+  footer,
+  .no-print,
+  button,
+  [role="navigation"] {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #555;
+  }
+
+  nav a[href]::after,
+  footer a[href]::after {
+    content: none;
+  }
+
+  article,
+  main {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  img, table, figure {
+    page-break-inside: avoid;
+  }
+
+  .shadow-sm, .shadow-md, .shadow-lg {
+    box-shadow: none !important;
+  }
+
+  .border {
+    border-color: #ccc !important;
+  }
+}
