@@ -429,7 +429,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 48 data-driven investigations
+              Deep-dive analysis from our library of 51 data-driven investigations
             </p>
           </div>
           

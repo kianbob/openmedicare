@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 48 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 51 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -480,6 +480,33 @@ const investigations = [
     readTime: '10 min read',
     publishedAt: '2026-02-21',
     excerpt: '47 providers flagged by our AI model each billed Medicare over $1 million. Combined, they collected over $93 million in taxpayer money — while matching the billing patterns of convicted fraudsters.'
+  },
+  {
+    title: "California's Medicare Fraud Problem: 56 AI-Flagged Providers and $47M in Payments",
+    description: '56 California providers flagged by our AI model billed $47M in suspicious Medicare payments.',
+    href: '/investigations/california-medicare-fraud',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '56 California providers flagged by our AI fraud detection model billed Medicare $47 million. From Los Angeles clinics to Bay Area labs, these providers match the billing patterns of previously convicted fraudsters.'
+  },
+  {
+    title: "Florida's Medicare Fraud Epidemic: 56 AI-Flagged Providers Billing $52M",
+    description: '56 Florida providers flagged for fraud patterns billed Medicare $52M.',
+    href: '/investigations/florida-medicare-fraud',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: "Florida has long been America's Medicare fraud capital. Our AI model flagged 56 providers billing $52 million in suspicious patterns — from Miami's notorious medical corridors to Tampa Bay clinics."
+  },
+  {
+    title: "New York's Hidden Medicare Fraud: 39 AI-Flagged Providers",
+    description: '39 New York providers flagged by our AI model for suspicious Medicare billing patterns.',
+    href: '/investigations/new-york-medicare-fraud',
+    category: 'Investigation',
+    readTime: '11 min read',
+    publishedAt: '2026-02-21',
+    excerpt: "39 New York providers were flagged by our AI fraud detection model for billing patterns that match convicted fraudsters. From Brooklyn clinics to Manhattan specialists, these providers warrant closer scrutiny."
   },
 ]
 
