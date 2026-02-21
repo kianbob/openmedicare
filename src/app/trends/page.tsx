@@ -62,19 +62,19 @@ export default function TrendsPage() {
         {/* Payment Trends */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Total Medicare Payments</h2>
-          <TrendChart data={data.map(y => ({ year: y.year, value: y.total_payments }))} label="Total Payments" prefix="$" />
+          <TrendChart xDataKey="year" yDataKey="value" data={data.map(y => ({ year: y.year, value: y.total_payments }))} />
         </div>
 
         {/* Provider Count */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Provider Count Over Time</h2>
-          <TrendChart data={data.map(y => ({ year: y.year, value: y.total_providers }))} label="Providers" />
+          <TrendChart xDataKey="year" yDataKey="value" data={data.map(y => ({ year: y.year, value: y.total_providers }))} />
         </div>
 
         {/* Services */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Total Services</h2>
-          <TrendChart data={data.map(y => ({ year: y.year, value: y.total_services }))} label="Services" />
+          <TrendChart xDataKey="year" yDataKey="value" data={data.map(y => ({ year: y.year, value: y.total_services }))} />
         </div>
 
         {/* Year-by-Year Table */}

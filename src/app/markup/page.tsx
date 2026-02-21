@@ -152,7 +152,7 @@ export default function MarkupAnalysisPage() {
         {tab === 'trends' && data.yearly_trends && (
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Markup Over Time</h2>
-            <TrendChart data={data.yearly_trends.map((y: any) => ({ year: y.year, value: y.avg_markup }))} label="Avg Markup Ratio" suffix="x" />
+            <TrendChart xDataKey="year" yDataKey="value" data={data.yearly_trends.map((y: any) => ({ year: y.year, value: y.avg_markup }))} />
             <div className="mt-6">
               <h3 className="text-lg font-bold text-gray-900 mb-3">Excess Charges by Year</h3>
               <div className="overflow-x-auto">

@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
-import { TrendChart, BarChart } from '@/components/Charts'
+import { TrendChart } from '@/components/Charts'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 const STATE_NAMES: Record<string, string> = {
@@ -57,7 +57,7 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
         {data.yearly_trends && data.yearly_trends.length > 1 && (
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Spending Trends (2014-2023)</h2>
-            <TrendChart data={data.yearly_trends.map((y: { year: number; payments: number }) => ({ year: y.year, value: y.payments }))} label="Total Payments" prefix="$" />
+            <TrendChart xDataKey="year" yDataKey="value" data={data.yearly_trends.map((y: { year: number; payments: number }) => ({ year: y.year, value: y.payments }))} />
           </div>
         )}
 
