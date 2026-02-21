@@ -8,11 +8,44 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 34 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 36 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
 }
+
+const featuredInvestigations = [
+  {
+    title: 'The Arizona Wound Care Ring',
+    description: '$514 million billed by 23 nurse practitioners for just 2,974 patients — with identical 1.28x markup ratios',
+    href: '/investigations/arizona-wound-care-ring',
+    category: 'Featured Investigation',
+    readTime: '18 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '23 nurse practitioners in the Phoenix metro area billed Medicare $514.3 million for skin substitute products. Only 2,974 patients. Top biller: $1.5 million per patient. All share a nearly identical 1.28x markup ratio — suggesting coordinated billing.',
+    keyFindings: [
+      'Ira Denny (Surprise, AZ): $135.2M for 90 patients — $1,501,784 per patient',
+      'Jorge Kinds (Phoenix, AZ): $123.8M for 97 patients — $1,276,209 per patient',
+      'All top 7 billers share an identical 1.28x markup ratio',
+      'Arizona bills $73,182 per wound care patient vs. California\'s $3,341',
+    ],
+  },
+  {
+    title: 'Beverly Hills Plastic Surgeons Billing Medicare for Wound Care',
+    description: 'Cosmetic surgeons marketing facelifts — but billing Medicare $45.6 million in wound care',
+    href: '/investigations/beverly-hills-wound-care',
+    category: 'Featured Investigation',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '3 Beverly Hills plastic surgeons and 1 physician assistant billed Medicare $45.6 million — with 83-95% of billing in wound care, not cosmetic surgery. One co-founded the "Wound Institutes of America."',
+    keyFindings: [
+      'Johnson Lee: $22.5M (89% wound care, 81.4% drugs)',
+      'Som Kohanzadeh: $14.7M (90.3% wound care, co-founded "Wound Institutes of America")',
+      'Beverly Hills — one of America\'s wealthiest ZIP codes — is an unusual wound care hub',
+      'DOJ\'s 2025 takedown specifically targeted this billing pattern',
+    ],
+  },
+]
 
 const featuredInvestigation = {
   title: 'Three Providers, Three Red Flags',
@@ -320,6 +353,24 @@ const investigations = [
     excerpt: 'Nurse practitioners are 11.4% of all Medicare providers but average just $26K in payments. Some NPs bill millions. The scope of practice debate meets Medicare data.'
   },
   {
+    title: 'The Oncology Drug Pipeline',
+    description: 'How cancer doctors bill millions in drug costs — 532 oncologists with impossible volumes',
+    href: '/investigations/oncology-drug-pipeline',
+    category: 'Investigation',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '24 oncologists with >80% drug billing and >$5M each — $171M combined. Oncology has the most impossible-volume providers of any specialty: 532 out of ~1,100. The ASP+6% formula incentivizes expensive drugs.'
+  },
+  {
+    title: 'Florida\'s Fraud Factory',
+    description: '185 impossible providers billing $573M — more than California and Texas combined',
+    href: '/investigations/florida-infectious-disease',
+    category: 'Investigation',
+    readTime: '13 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Florida has 185 individual providers billing 400+ services per day — 17% of the national total from one state. From Fort Walton Beach to The Villages, small cities harbor impossible billing volumes.'
+  },
+  {
     title: 'Beverly Hills: America\'s Most Expensive ZIP Code for Medicare',
     description: 'Plastic surgeons billing wound care, ambulatory surgery centers, and the luxury ZIP code effect',
     href: '/investigations/beverly-hills-billing',
@@ -358,6 +409,65 @@ export default function InvestigationsPage() {
             Our team analyzes billions in Medicare payments to uncover stories that matter.
           </p>
         </div>
+
+        {/* NEW Featured Investigations */}
+        {featuredInvestigations.map((fi) => (
+          <div key={fi.href} className="bg-gradient-to-r from-red-700 to-red-900 rounded-lg shadow-lg text-white mb-8">
+            <div className="p-8 lg:p-12">
+              <div className="flex items-center mb-4">
+                <FireIcon className="h-6 w-6 mr-2" />
+                <span className="text-sm font-medium bg-white/20 px-3 py-1 rounded-full">
+                  🔥 New Investigation
+                </span>
+              </div>
+              
+              <h2 className="text-3xl lg:text-4xl font-bold font-playfair mb-4">
+                {fi.title}
+              </h2>
+              
+              <p className="text-xl text-red-100 mb-6 max-w-4xl">
+                {fi.description}
+              </p>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                <div>
+                  <p className="text-red-100 mb-4">
+                    {fi.excerpt}
+                  </p>
+                  
+                  <div className="flex items-center gap-4 text-sm text-red-200">
+                    <div className="flex items-center">
+                      <ClockIcon className="h-4 w-4 mr-1" />
+                      {fi.readTime}
+                    </div>
+                    <span>•</span>
+                    <span>{new Date(fi.publishedAt).toLocaleDateString()}</span>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-white mb-3">Key Findings:</h3>
+                  <ul className="space-y-2 text-red-100">
+                    {fi.keyFindings.map((finding, index) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-red-300 mr-2">•</span>
+                        <span className="text-sm">{finding}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              
+              <Link 
+                href={fi.href}
+                className="inline-flex items-center px-8 py-3 bg-white text-red-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+              >
+                Read Full Investigation
+                <ArrowRightIcon className="ml-2 h-5 w-5" />
+              </Link>
+            </div>
+          </div>
+        ))}
 
         {/* Featured Investigation */}
         <div className="bg-gradient-to-r from-medicare-primary to-medicare-dark rounded-lg shadow-lg text-white mb-12">

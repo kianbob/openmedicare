@@ -3,11 +3,36 @@ import { NextResponse } from 'next/server'
 const baseUrl = 'https://www.openmedicare.org'
 
 const items = [
+  // NEW Flagship Investigations
+  {
+    title: 'The Arizona Wound Care Ring: $514 Million Billed by 23 Nurse Practitioners for 2,974 Patients',
+    description: '23 nurse practitioners in Phoenix billed Medicare $514.3 million for skin substitutes — for just 2,974 patients. Top biller: $1.5M per patient. All share an identical 1.28x markup ratio.',
+    link: '/investigations/arizona-wound-care-ring',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Beverly Hills Plastic Surgeons Billing Medicare for Wound Care: A $45 Million Question',
+    description: '3 Beverly Hills plastic surgeons and 1 PA billed Medicare $45.6M — with 83-95% in wound care, not cosmetic surgery. One co-founded the "Wound Institutes of America."',
+    link: '/investigations/beverly-hills-wound-care',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // Investigations
   {
     title: 'Three Providers, Three Red Flags: Inside Medicare\'s Most Suspicious Billing Patterns',
     description: 'A nurse practitioner billing $12.1M in COVID tests. A Beverly Hills plastic surgeon billing $28.9M in wound care. An anti-aging spa doctor whose billing exploded 24x in one year. Three providers, three statistical anomalies.',
     link: '/investigations/three-providers',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Oncology Drug Pipeline: How Cancer Doctors Bill Millions in Drug Costs',
+    description: '24 oncologists with >80% drug billing and >$5M each — $171M combined. Oncology has 532 impossible-volume providers, nearly half the national total.',
+    link: '/investigations/oncology-drug-pipeline',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Florida\'s Fraud Factory: 185 Impossible Providers Billing $573M',
+    description: 'Florida leads the nation with 185 providers billing 400+ services per day — more than California and Texas combined. From Fort Walton Beach to The Villages.',
+    link: '/investigations/florida-infectious-disease',
     pubDate: '2026-02-21T00:00:00.000Z',
   },
   {

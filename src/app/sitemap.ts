@@ -42,6 +42,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '9862-services-per-day',
     'houston-medicare-capital',
     'three-providers',
+    'oncology-drug-pipeline',
+    'florida-infectious-disease',
+    'arizona-wound-care-ring',
+    'beverly-hills-wound-care',
   ]
 
   const staticPages = [
