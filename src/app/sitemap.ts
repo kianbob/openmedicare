@@ -23,6 +23,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'covid-test-scheme',
     'wound-care-crisis',
     'impossible-doctors',
+    'medicare-millionaires',
+    'specialty-monopoly',
+    'ten-year-explosion',
+    'geographic-inequality',
+    'drug-money',
   ]
 
   const staticPages = [

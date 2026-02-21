@@ -7,7 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 17 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 22 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -173,6 +173,51 @@ const investigations = [
     readTime: '12 min read',
     publishedAt: '2026-02-18',
     excerpt: 'Individual providers billing 400+ services per day — a new patient every 72 seconds for 8 hours straight. Either these are the fastest doctors in America, or something else is going on.'
+  },
+  {
+    title: 'Medicare\'s Millionaire Club',
+    description: 'The 1% who bill the most — and the average family doctor earns $55K',
+    href: '/investigations/medicare-millionaires',
+    category: 'Investigation',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'The average family doctor earns $55K from Medicare. These providers bill $10M+. Inside the millionaire club: 1,000 providers who collected billions from Medicare over the past decade.'
+  },
+  {
+    title: 'The Specialty Monopoly',
+    description: 'Where Medicare money really goes — 5 specialties control 33% of all spending',
+    href: '/investigations/specialty-monopoly',
+    category: 'Deep Dive',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Just 5 specialties account for 33% of all Medicare spending. Clinical labs earn $1.9M per provider while nurse practitioners average $26K. The specialty you choose determines your Medicare income.'
+  },
+  {
+    title: 'The 10-Year Explosion',
+    description: 'How Medicare spending grew 20% in a decade — and where it\'s heading by 2030',
+    href: '/investigations/ten-year-explosion',
+    category: 'Analysis',
+    readTime: '13 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Medicare spending grew from $78B to $94B in 10 years. COVID crashed it 10% in 2020, then it rebounded past pre-pandemic levels. At this rate, we\'re heading toward $110B+ by 2030.'
+  },
+  {
+    title: 'ZIP Code Lottery',
+    description: 'Why your Medicare costs depend on where you live — a 7x gap across states',
+    href: '/investigations/geographic-inequality',
+    category: 'Investigation',
+    readTime: '15 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Medicare pays $121K per provider in Florida but $18K in Puerto Rico. Urban providers earn $20K more than rural ones. Miami-Dade is the Medicare fraud capital of America.'
+  },
+  {
+    title: 'Follow the Drug Money',
+    description: 'Medicare\'s pharmaceutical pipeline: $94 billion and one $19.7B eye drug',
+    href: '/investigations/drug-money',
+    category: 'Investigation',
+    readTime: '16 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'One eye injection drug — aflibercept — has cost Medicare $19.7 billion. Drug spending\'s share nearly doubled from 8% to 15%. The pharmaceutical pipeline keeps growing.'
   },
 ]
 

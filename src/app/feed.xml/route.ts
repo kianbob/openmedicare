@@ -113,6 +113,36 @@ const items = [
     link: '/investigations/impossible-doctors',
     pubDate: '2026-02-18T00:00:00.000Z',
   },
+  {
+    title: 'Medicare\'s Millionaire Club: The 1% Who Bill the Most',
+    description: 'The average family doctor earns $55K from Medicare. These providers bill $10M+. Inside the 1,000 providers who collected billions.',
+    link: '/investigations/medicare-millionaires',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Specialty Monopoly: Where Medicare Money Really Goes',
+    description: '5 specialties account for 33% of all Medicare spending. Clinical labs earn $1.9M per provider while nurse practitioners average $26K.',
+    link: '/investigations/specialty-monopoly',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The 10-Year Explosion: How Medicare Spending Grew by $15 Billion',
+    description: 'Medicare spending grew 20% in 10 years. COVID crashed it, then it rebounded past pre-pandemic levels. At this rate, $110B+ by 2030.',
+    link: '/investigations/ten-year-explosion',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'ZIP Code Lottery: Why Your Medicare Costs Depend on Where You Live',
+    description: 'Medicare pays $121K per provider in Florida but $18K in Puerto Rico. A 7x gap within the same federal program.',
+    link: '/investigations/geographic-inequality',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Follow the Drug Money: Medicare\'s Pharmaceutical Pipeline',
+    description: 'One eye injection drug costs Medicare $19.7B. Drug spending\'s share nearly doubled from 8% to 15% in a decade.',
+    link: '/investigations/drug-money',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // Fraud pages
   {
     title: 'Medicare Fraud Analysis Hub',
