@@ -1,179 +1,290 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import ShareFinding from '@/components/ShareFinding'
 import SourceCitation from '@/components/SourceCitation'
-import { formatCurrency } from '@/lib/format'
+import { formatCurrency, formatNumber } from '@/lib/format'
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Legend } from 'recharts'
 
-interface WoundCareData {
-  providers?: Array<{ npi: number; name: string; total_payments: number }>
+interface Provider {
+  npi: string
+  name: string
+  specialty: string
+  city: string
+  state: string
+  skin_substitute_payments: number
+  debridement_payments: number
+  hyperbaric_payments: number
+  total_wound_payments: number
+  total_services: number
+  total_beneficiaries: number
+  markup_ratio: number
 }
 
-const caseStudy = {
-  name: 'Som Kohanzadeh',
-  npi: 1952575342,
-  credentials: 'MD',
-  specialty: 'Plastic and Reconstructive Surgery',
-  location: 'Beverly Hills, CA',
-  totalPayments: 14722228,
-  avgMarkup: 59.12,
-  riskScore: 92,
-  procedures: [
-    { code: 'Q4158', name: 'Kerecis Omega3 Wound (skin substitute)', note: 'Fish-skin graft product, premium pricing' },
-    { code: 'Q4196', name: 'PuraPly AM/XT (skin substitute)', note: 'Antimicrobial wound matrix' },
-    { code: 'G0277', name: 'Hyperbaric oxygen therapy', note: 'Expensive adjunct wound treatment' },
-    { code: '11043', name: 'Debridement (muscle/bone)', note: 'Billed at 63.7x markup vs specialty median' },
-  ],
+interface CodeRow {
+  code: string
+  description: string
+  payments: number
+  services: number
+  providers: number
+  avg_markup: number
 }
+
+interface YearlyTrend {
+  year: number
+  payments: number
+  providers: number
+  services: number
+}
+
+interface WoundData {
+  total_wound_payments: number
+  top_providers: Provider[]
+  top_codes: CodeRow[]
+  yearly_trends: YearlyTrend[]
+}
+
+type SortKey = 'name' | 'specialty' | 'city' | 'state' | 'total_wound_payments' | 'total_services' | 'total_beneficiaries' | 'markup_ratio'
 
 export default function WoundCare() {
-  const [woundData, setWoundData] = useState<WoundCareData | null>(null)
-  const [dataAvailable, setDataAvailable] = useState(false)
+  const [data, setData] = useState<WoundData | null>(null)
+  const [search, setSearch] = useState('')
+  const [sortKey, setSortKey] = useState<SortKey>('total_wound_payments')
+  const [sortAsc, setSortAsc] = useState(false)
 
   useEffect(() => {
     fetch('/data/wound-care.json')
-      .then(r => { if (!r.ok) throw new Error('not found'); return r.json() })
-      .then(data => { setWoundData(data); setDataAvailable(true) })
-      .catch(() => setDataAvailable(false))
+      .then(r => r.json())
+      .then(setData)
+      .catch(() => {})
   }, [])
+
+  const filteredProviders = useMemo(() => {
+    if (!data) return []
+    const q = search.toLowerCase()
+    let list = data.top_providers.slice(0, 50)
+    if (q) {
+      list = list.filter(p =>
+        p.name.toLowerCase().includes(q) ||
+        p.specialty.toLowerCase().includes(q) ||
+        p.city.toLowerCase().includes(q) ||
+        p.state.toLowerCase().includes(q)
+      )
+    }
+    list.sort((a, b) => {
+      const av = a[sortKey], bv = b[sortKey]
+      if (typeof av === 'number' && typeof bv === 'number') return sortAsc ? av - bv : bv - av
+      return sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av))
+    })
+    return list
+  }, [data, search, sortKey, sortAsc])
+
+  const handleSort = (key: SortKey) => {
+    if (sortKey === key) setSortAsc(!sortAsc)
+    else { setSortKey(key); setSortAsc(false) }
+  }
+
+  const sortIcon = (key: SortKey) => sortKey === key ? (sortAsc ? ' ↑' : ' ↓') : ''
+
+  if (!data) {
+    return (
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="text-gray-500">Loading wound care data...</div>
+      </div>
+    )
+  }
+
+  const iraDenny = data.top_providers[0]
+  const somK = data.top_providers.find(p => p.name.toLowerCase().includes('kohanzadeh'))
 
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ name: 'Fraud Analysis', href: '/fraud' }, { name: 'Wound Care' }]} />
 
-        <h1 className="text-4xl font-bold font-serif text-gray-900 mt-6 mb-4">Wound Care Fraud Watchlist</h1>
+        <h1 className="text-4xl font-bold font-serif text-gray-900 mt-6 mb-4">Wound Care: $5.53 Billion Over 10 Years</h1>
         <p className="text-xl text-gray-600 mb-8 max-w-3xl">
-          Wound care — particularly skin substitutes and related treatments — has become the
-          <strong> #1 target</strong> in Medicare fraud enforcement. The DOJ&apos;s largest-ever healthcare fraud
-          takedown focused heavily on this sector.
+          Skin substitutes and wound care have become the <strong>#1 target</strong> in Medicare fraud enforcement.
+          One nurse practitioner billed <strong>$135.2 million</strong> for just <strong>90 patients</strong> — that&apos;s $1.5 million per patient.
         </p>
 
-        <ShareFinding stat="$14.6B" description="Largest healthcare fraud takedown in US history — wound care was the #1 target" url="/fraud/wound-care" />
+        <ShareFinding stat="$1.5M per patient" description="One nurse practitioner billed $135M for 90 patients" url="/fraud/wound-care" />
 
-        {/* Context boxes */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-          <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-            <h2 className="text-lg font-semibold text-red-900 mb-3">🏛️ DOJ Takedown: $14.6 Billion</h2>
-            <p className="text-sm text-red-800 mb-3">
-              In June 2025, the Department of Justice announced its <strong>largest-ever healthcare fraud enforcement action</strong>,
-              involving $14.6 billion in alleged fraud. Wound care and skin substitutes were a central focus.
-            </p>
-            <p className="text-sm text-red-800">
-              Charges targeted providers who billed for expensive skin substitute products (some costing $1,000+ per application)
-              on patients who didn&apos;t need them — or didn&apos;t receive them at all.
-            </p>
+        {/* Key Stats */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          <div className="bg-red-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-red-700">{formatCurrency(data.total_wound_payments)}</div>
+            <div className="text-sm text-gray-600">Total Wound Care Billing</div>
           </div>
-
-          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
-            <h2 className="text-lg font-semibold text-orange-900 mb-3">⚠️ OIG Warning on Skin Substitutes</h2>
-            <p className="text-sm text-orange-800 mb-3">
-              The HHS Office of Inspector General has specifically called skin substitutes <strong>&quot;particularly
-              vulnerable to fraud&quot;</strong> due to their high reimbursement rates and subjective medical necessity criteria.
-            </p>
-            <p className="text-sm text-orange-800">
-              The <strong>$45 million Vohra Wound Physicians settlement</strong> demonstrated how wound care companies
-              can systematically overtreat patients in nursing homes for profit.
-            </p>
+          <div className="bg-orange-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-orange-700">10 Years</div>
+            <div className="text-sm text-gray-600">2014–2023</div>
+          </div>
+          <div className="bg-blue-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-blue-700">{data.top_codes.length}</div>
+            <div className="text-sm text-gray-600">Wound Care Codes</div>
+          </div>
+          <div className="bg-purple-50 rounded-lg p-5 text-center">
+            <div className="text-2xl font-bold text-purple-700">{formatNumber(data.top_providers.length)}</div>
+            <div className="text-sm text-gray-600">Top Providers Analyzed</div>
           </div>
         </div>
 
-        {/* Case Study */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Case Study: {caseStudy.name}</h2>
-        <div className="border border-orange-200 rounded-lg overflow-hidden mb-10">
-          <div className="bg-orange-50 px-6 py-4">
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <div>
-                <h3 className="text-xl font-bold text-gray-900">
-                  <Link href={`/providers/${caseStudy.npi}`} className="hover:text-medicare-primary">{caseStudy.name}</Link>
-                  <span className="text-sm text-gray-500 ml-2">{caseStudy.credentials}</span>
-                </h3>
-                <div className="text-sm text-gray-600">{caseStudy.specialty} · {caseStudy.location}</div>
-              </div>
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-orange-100 text-orange-800 border border-orange-200">
-                Risk: {caseStudy.riskScore}/100
-              </span>
+        {/* Case Study: Ira Denny */}
+        <div className="bg-red-50 border-2 border-red-300 rounded-lg p-6 mb-6">
+          <h2 className="text-xl font-bold text-red-900 mb-3">🚨 Case Study: Ira Denny — $1.5M Per Patient</h2>
+          <p className="text-sm text-red-800 mb-4">
+            A nurse practitioner in Surprise, AZ billed Medicare <strong>{formatCurrency(iraDenny.total_wound_payments)}</strong> for
+            skin substitutes — for only <strong>{iraDenny.total_beneficiaries} beneficiaries</strong>. That works out to <strong>{formatCurrency(iraDenny.total_wound_payments / iraDenny.total_beneficiaries)}</strong> per patient.
+            All of the billing was in skin substitutes with zero debridement and zero hyperbaric oxygen.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div>
+              <div className="text-xl font-bold text-red-800">{formatCurrency(iraDenny.total_wound_payments)}</div>
+              <div className="text-xs text-gray-500">Total Wound Payments</div>
             </div>
-          </div>
-          <div className="px-6 py-6">
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
-              <div>
-                <div className="text-2xl font-bold text-gray-900">{formatCurrency(caseStudy.totalPayments)}</div>
-                <div className="text-xs text-gray-500">Total Medicare Payments</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-orange-600">{caseStudy.avgMarkup}x</div>
-                <div className="text-xs text-gray-500">Average Markup</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-gray-900">#2</div>
-                <div className="text-xs text-gray-500">On Our Watchlist</div>
-              </div>
+            <div>
+              <div className="text-xl font-bold text-gray-900">{iraDenny.total_beneficiaries}</div>
+              <div className="text-xs text-gray-500">Beneficiaries</div>
             </div>
-
-            <h4 className="text-sm font-semibold text-gray-700 mb-3">Key Wound Care Billing Codes</h4>
-            <div className="space-y-3">
-              {caseStudy.procedures.map(proc => (
-                <div key={proc.code} className="flex items-start gap-3 bg-gray-50 rounded p-3">
-                  <Link href={`/procedures/${proc.code}`} className="text-medicare-primary hover:underline font-mono font-bold text-sm whitespace-nowrap">
-                    {proc.code}
-                  </Link>
-                  <div>
-                    <div className="text-sm font-medium text-gray-900">{proc.name}</div>
-                    <div className="text-xs text-gray-500">{proc.note}</div>
-                  </div>
-                </div>
-              ))}
+            <div>
+              <div className="text-xl font-bold text-gray-900">{formatNumber(iraDenny.total_services)}</div>
+              <div className="text-xs text-gray-500">Services</div>
             </div>
-
-            <div className="mt-6 bg-red-50 border border-red-200 rounded p-4">
-              <h4 className="text-sm font-semibold text-red-800 mb-1">Why This Pattern Matters</h4>
-              <p className="text-sm text-red-700">
-                A Beverly Hills plastic surgeon billing $14.7M in Medicare — primarily through wound care products
-                and debridement at 59x markup — fits the exact pattern the DOJ targeted in its $14.6B takedown.
-                Skin substitute codes like Q4158 and Q4196 are among the most expensive per-application Medicare
-                reimbursements, and debridement at 63.7x the specialty median is an extreme outlier.
-              </p>
+            <div>
+              <div className="text-xl font-bold text-gray-900">{iraDenny.markup_ratio}x</div>
+              <div className="text-xs text-gray-500">Markup Ratio</div>
             </div>
           </div>
         </div>
 
-        {/* Extended data or coming soon */}
-        {dataAvailable && woundData ? (
-          <div className="mb-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Full Wound Care Analysis</h2>
-            <p className="text-gray-600">Detailed wound care billing data loaded.</p>
-          </div>
-        ) : (
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 text-center mb-10">
-            <div className="text-4xl mb-3">🩹</div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Full Wound Care Analysis Coming Soon</h3>
-            <p className="text-sm text-gray-600 max-w-md mx-auto">
-              We&apos;re processing skin substitute billing data (Q-codes) across all providers.
-              Check back soon for the complete wound care fraud leaderboard.
+        {/* Case Study: Som Kohanzadeh */}
+        {somK && (
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 mb-10">
+            <h2 className="text-lg font-semibold text-orange-900 mb-3">📋 Case Study: Som Kohanzadeh — Beverly Hills Plastic Surgeon</h2>
+            <p className="text-sm text-orange-800 mb-4">
+              A plastic surgeon billing {formatCurrency(somK.total_wound_payments)} in wound care products — fitting the exact pattern
+              the DOJ targeted in its $14.6B healthcare fraud takedown.
             </p>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div>
+                <div className="text-xl font-bold text-orange-800">{formatCurrency(somK.total_wound_payments)}</div>
+                <div className="text-xs text-gray-500">Total Wound Payments</div>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900">{somK.total_beneficiaries}</div>
+                <div className="text-xs text-gray-500">Beneficiaries</div>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900">{formatNumber(somK.total_services)}</div>
+                <div className="text-xs text-gray-500">Services</div>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900">{somK.markup_ratio}x</div>
+                <div className="text-xs text-gray-500">Markup Ratio</div>
+              </div>
+            </div>
           </div>
         )}
 
-        {/* Related Fraud Analysis */}
-        <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
-          <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Fraud Analysis</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/fraud/deep-dives" className="text-medicare-primary hover:underline text-sm">🔍 Deep Dive Profiles — Detailed provider breakdowns</Link>
-            <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Enhanced Watchlist — 500 flagged providers</Link>
-            <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline text-sm">📊 Upcoding Detector — Billing code manipulation</Link>
-            <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
-            <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
-          </div>
+        {/* 10-Year Trend */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">10-Year Trend: Wound Care Spending</h2>
+        <div className="bg-gray-50 rounded-lg p-4 mb-10" style={{ height: 400 }}>
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={data.yearly_trends} margin={{ top: 10, right: 30, left: 20, bottom: 10 }}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="year" />
+              <YAxis tickFormatter={(v: any) => formatCurrency(v)} fontSize={11} />
+              <Tooltip formatter={(v: any) => formatCurrency(v)} />
+              <Legend />
+              <Line type="monotone" dataKey="payments" stroke="#ef4444" strokeWidth={2} name="Payments" dot={{ r: 3 }} />
+            </LineChart>
+          </ResponsiveContainer>
         </div>
 
+        {/* Top 50 Providers */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Top 50 Wound Care Providers</h2>
+        <input
+          type="text"
+          placeholder="Search by name, specialty, city, or state..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          className="w-full md:w-96 mb-4 px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <div className="overflow-x-auto mb-10">
+          <table className="min-w-full text-sm">
+            <thead>
+              <tr className="bg-gray-100 text-left">
+                <th className="px-3 py-2 font-semibold">#</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('name')}>Name{sortIcon('name')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('specialty')}>Specialty{sortIcon('specialty')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('city')}>City{sortIcon('city')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer" onClick={() => handleSort('state')}>State{sortIcon('state')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer text-right" onClick={() => handleSort('total_wound_payments')}>Payments{sortIcon('total_wound_payments')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer text-right" onClick={() => handleSort('total_services')}>Services{sortIcon('total_services')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer text-right" onClick={() => handleSort('total_beneficiaries')}>Beneficiaries{sortIcon('total_beneficiaries')}</th>
+                <th className="px-3 py-2 font-semibold cursor-pointer text-right" onClick={() => handleSort('markup_ratio')}>Markup{sortIcon('markup_ratio')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredProviders.map((p, i) => (
+                <tr key={p.npi} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-3 py-2 text-gray-500">{i + 1}</td>
+                  <td className="px-3 py-2 font-medium">
+                    <Link href={`/providers/${p.npi}`} className="text-medicare-primary hover:underline">{p.name}</Link>
+                  </td>
+                  <td className="px-3 py-2 text-gray-600">{p.specialty}</td>
+                  <td className="px-3 py-2 text-gray-600">{p.city}</td>
+                  <td className="px-3 py-2 text-gray-600">{p.state}</td>
+                  <td className="px-3 py-2 text-right font-mono font-medium">{formatCurrency(p.total_wound_payments)}</td>
+                  <td className="px-3 py-2 text-right">{formatNumber(p.total_services)}</td>
+                  <td className="px-3 py-2 text-right">{formatNumber(p.total_beneficiaries)}</td>
+                  <td className="px-3 py-2 text-right">{p.markup_ratio}x</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {/* Top Wound Care Codes */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Top Wound Care Codes ({data.top_codes.length})</h2>
+        <div className="overflow-x-auto mb-10">
+          <table className="min-w-full text-sm">
+            <thead>
+              <tr className="bg-gray-100 text-left">
+                <th className="px-3 py-2 font-semibold">#</th>
+                <th className="px-3 py-2 font-semibold">Code</th>
+                <th className="px-3 py-2 font-semibold">Description</th>
+                <th className="px-3 py-2 font-semibold text-right">Payments</th>
+                <th className="px-3 py-2 font-semibold text-right">Services</th>
+                <th className="px-3 py-2 font-semibold text-right">Avg Markup</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.top_codes.map((c, i) => (
+                <tr key={c.code} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-3 py-2 text-gray-500">{i + 1}</td>
+                  <td className="px-3 py-2 font-mono font-bold">
+                    <Link href={`/procedures/${c.code}`} className="text-medicare-primary hover:underline">{c.code}</Link>
+                  </td>
+                  <td className="px-3 py-2 text-gray-600 max-w-xs truncate">{c.description}</td>
+                  <td className="px-3 py-2 text-right font-mono">{formatCurrency(c.payments)}</td>
+                  <td className="px-3 py-2 text-right">{formatNumber(c.services)}</td>
+                  <td className="px-3 py-2 text-right">{c.avg_markup}x</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {/* Disclaimer */}
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
           <p className="text-sm text-yellow-800">
             <strong>Disclaimer:</strong> These are statistical flags based on publicly available CMS data, not accusations of fraud.
-            Report suspected fraud: <a href="tel:1-800-447-8477" className="underline font-medium">1-800-HHS-TIPS</a>.
+            Report suspected fraud: <a href="tel:1-800-447-8477" className="underline font-medium">1-800-HHS-TIPS</a> (1-800-447-8477).
           </p>
         </div>
 
