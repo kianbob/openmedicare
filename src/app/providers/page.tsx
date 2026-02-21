@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import { MagnifyingGlassIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
-import { formatCurrency, formatNumber } from '@/lib/format'
+import { formatCurrency, formatNumber, toTitleCase } from '@/lib/format'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 
@@ -18,8 +18,9 @@ interface Provider {
   beneficiaries: number
   avgMarkup?: number
   riskScore?: number
-  fraudProbability?: number
   isFlagged?: boolean
+  fraudProbability?: number
+  topRiskFactors?: string[]
 }
 
 interface WatchlistEntry {
@@ -33,9 +34,15 @@ interface WatchlistEntry {
   total_payments: number
 }
 
-interface MLEntry {
+interface MLFlagged {
   npi: string
+  name: string
+  specialty: string
+  state: string
   fraud_probability: number
+  top_risk_factors: string[]
+  markup_ratio: number
+  total_payments: number
 }
 
 const specialties = [
@@ -43,6 +50,7 @@ const specialties = [
   'Cardiology',
   'Dermatology',
   'Emergency Medicine',
+  'Endocrinology',
   'Family Medicine',
   'Family Practice',
   'Internal Medicine',
@@ -50,6 +58,7 @@ const specialties = [
   'Oncology',
   'Ophthalmology',
   'Orthopedic Surgery',
+  'Physical Medicine and Rehabilitation',
   'Radiology',
   'Surgery'
 ]
@@ -72,10 +81,11 @@ export default function ProvidersPage() {
   const [selectedSpecialty, setSelectedSpecialty] = useState('All Specialties')
   const [selectedState, setSelectedState] = useState('All States')
   const [showFlaggedOnly, setShowFlaggedOnly] = useState(false)
+  const [showMLFlagged, setShowMLFlagged] = useState(false)
   const [sortBy, setSortBy] = useState<SortField>('totalPayments')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc')
   const [currentPage, setCurrentPage] = useState(1)
-  const itemsPerPage = 25
+  const [itemsPerPage, setItemsPerPage] = useState(25)
 
   useEffect(() => {
     const loadData = async () => {
@@ -90,8 +100,8 @@ export default function ProvidersPage() {
         const watchMap = new Map(watchlist.map(w => [String(w.npi), w]))
 
         const mlData = mlRes.ok ? await mlRes.json() : { still_out_there: [] }
-        const mlMap = new Map<string, number>(
-          (mlData.still_out_there || []).map((p: MLEntry) => [String(p.npi), p.fraud_probability])
+        const mlMap = new Map<string, MLFlagged>(
+          (mlData.still_out_there || []).map((p: MLFlagged) => [String(p.npi), p])
         )
 
         if (provRes.ok) {
@@ -99,7 +109,7 @@ export default function ProvidersPage() {
           const mapped = (data.providers || data).map((p: any) => {
             const npiStr = String(p.npi)
             const wl = watchMap.get(npiStr)
-            const fraudProb = mlMap.get(npiStr)
+            const ml = mlMap.get(npiStr)
             return {
               npi: npiStr,
               name: p.name,
@@ -109,10 +119,11 @@ export default function ProvidersPage() {
               totalPayments: p.total_payments ?? p.totalPayments,
               totalServices: p.total_services ?? p.totalServices,
               beneficiaries: p.total_beneficiaries ?? p.beneficiaries,
-              avgMarkup: wl?.avg_markup,
+              avgMarkup: ml?.markup_ratio ?? wl?.avg_markup,
               riskScore: wl?.risk_score,
-              fraudProbability: fraudProb,
-              isFlagged: !!wl || fraudProb !== undefined,
+              isFlagged: !!wl,
+              fraudProbability: ml?.fraud_probability,
+              topRiskFactors: ml?.top_risk_factors,
             }
           })
           setProviders(mapped)
@@ -133,14 +144,14 @@ export default function ProvidersPage() {
         provider.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         provider.npi.includes(searchTerm) ||
         provider.city.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        provider.specialty.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        provider.state.toLowerCase().includes(searchTerm.toLowerCase())
+        provider.specialty.toLowerCase().includes(searchTerm.toLowerCase())
       const matchesSpecialty = selectedSpecialty === 'All Specialties' || provider.specialty === selectedSpecialty
       const matchesState = selectedState === 'All States' || provider.state === selectedState
       const matchesFlagged = !showFlaggedOnly || provider.isFlagged
-      return matchesSearch && matchesSpecialty && matchesState && matchesFlagged
+      const matchesML = !showMLFlagged || (provider.fraudProbability != null && provider.fraudProbability > 0.5)
+      return matchesSearch && matchesSpecialty && matchesState && matchesFlagged && matchesML
     })
-  }, [providers, searchTerm, selectedSpecialty, selectedState, showFlaggedOnly])
+  }, [providers, searchTerm, selectedSpecialty, selectedState, showFlaggedOnly, showMLFlagged])
 
   const sortedProviders = useMemo(() => {
     return [...filteredProviders].sort((a, b) => {
@@ -173,11 +184,13 @@ export default function ProvidersPage() {
     })
   }, [filteredProviders, sortBy, sortOrder])
 
+  // Pagination
   const totalPages = Math.ceil(sortedProviders.length / itemsPerPage)
   const startIndex = (currentPage - 1) * itemsPerPage
   const paginatedProviders = sortedProviders.slice(startIndex, startIndex + itemsPerPage)
 
-  useEffect(() => { setCurrentPage(1) }, [searchTerm, selectedSpecialty, selectedState, showFlaggedOnly, sortBy, sortOrder])
+  // Reset page when filters change
+  useEffect(() => { setCurrentPage(1) }, [searchTerm, selectedSpecialty, selectedState, showFlaggedOnly, showMLFlagged, sortBy, sortOrder])
 
   const handleSort = (field: SortField) => {
     if (sortBy === field) {
@@ -191,6 +204,24 @@ export default function ProvidersPage() {
   const SortArrow = ({ field }: { field: SortField }) =>
     sortBy === field ? <span className="ml-1">{sortOrder === 'asc' ? '↑' : '↓'}</span> : null
 
+  const flaggedCount = providers.filter(p => p.isFlagged).length
+  const mlFlaggedCount = providers.filter(p => p.fraudProbability != null && p.fraudProbability > 0.5).length
+
+  // Pagination range with ellipsis
+  const getPageRange = () => {
+    const range: (number | string)[] = []
+    const delta = 2
+    const left = Math.max(2, currentPage - delta)
+    const right = Math.min(totalPages - 1, currentPage + delta)
+
+    range.push(1)
+    if (left > 2) range.push('...')
+    for (let i = left; i <= right; i++) range.push(i)
+    if (right < totalPages - 1) range.push('...')
+    if (totalPages > 1) range.push(totalPages)
+    return range
+  }
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -201,8 +232,6 @@ export default function ProvidersPage() {
       </div>
     )
   }
-
-  const flaggedCount = providers.filter(p => p.isFlagged).length
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -224,6 +253,29 @@ export default function ProvidersPage() {
           </p>
         </div>
 
+        {/* Summary Cards */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+            <div className="text-sm font-medium text-gray-500">Total Providers</div>
+            <div className="text-2xl font-bold text-gray-900 mt-1">{formatNumber(providers.length)}</div>
+          </div>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+            <div className="text-sm font-medium text-gray-500">Total Payments</div>
+            <div className="text-2xl font-bold text-gray-900 mt-1">{formatCurrency(providers.reduce((s, p) => s + p.totalPayments, 0))}</div>
+          </div>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+            <div className="text-sm font-medium text-gray-500">Watchlist Flagged</div>
+            <div className="text-2xl font-bold text-orange-600 mt-1">{flaggedCount}</div>
+          </div>
+          <div className="bg-white rounded-xl shadow-sm border border-red-200 p-5 bg-red-50/50">
+            <div className="text-sm font-medium text-red-600 flex items-center gap-1">
+              <ExclamationTriangleIcon className="h-4 w-4" />
+              AI-Flagged (ML v2)
+            </div>
+            <div className="text-2xl font-bold text-red-700 mt-1">{mlFlaggedCount}</div>
+          </div>
+        </div>
+
         {/* Search and Filters */}
         <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -240,7 +292,7 @@ export default function ProvidersPage() {
                   id="search"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  placeholder="Search by name, NPI, city, specialty, or state..."
+                  placeholder="Search by name, NPI, city, or specialty..."
                   className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-medicare-primary focus:border-medicare-primary"
                 />
               </div>
@@ -280,28 +332,38 @@ export default function ProvidersPage() {
           </div>
           
           <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 flex-wrap">
               <p className="text-sm text-gray-600">
                 Showing {formatNumber(sortedProviders.length)} of {formatNumber(providers.length)} providers
               </p>
               <button
-                onClick={() => setShowFlaggedOnly(!showFlaggedOnly)}
+                onClick={() => { setShowFlaggedOnly(!showFlaggedOnly); setShowMLFlagged(false) }}
                 className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
                   showFlaggedOnly
+                    ? 'bg-orange-100 text-orange-800 border border-orange-300'
+                    : 'bg-gray-100 text-gray-700 border border-gray-300 hover:bg-orange-50 hover:text-orange-700'
+                }`}
+              >
+                ⚠️ Watchlist ({flaggedCount})
+              </button>
+              <button
+                onClick={() => { setShowMLFlagged(!showMLFlagged); setShowFlaggedOnly(false) }}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                  showMLFlagged
                     ? 'bg-red-100 text-red-800 border border-red-300'
                     : 'bg-gray-100 text-gray-700 border border-gray-300 hover:bg-red-50 hover:text-red-700'
                 }`}
               >
                 <ExclamationTriangleIcon className="h-4 w-4" />
-                AI-Flagged Only ({flaggedCount})
+                AI-Flagged Only ({mlFlaggedCount})
               </button>
             </div>
 
-            <div className="flex items-center gap-2 flex-wrap">
+            <div className="flex items-center gap-2">
               <span className="text-sm text-gray-500">Sort by:</span>
               {([
                 ['totalPayments', 'Payments'],
-                ['fraudProbability', 'Fraud Prob.'],
+                ['fraudProbability', 'Fraud Prob'],
                 ['riskScore', 'Risk Score'],
                 ['avgMarkup', 'Markup'],
                 ['name', 'Name'],
@@ -361,7 +423,7 @@ export default function ProvidersPage() {
                     className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                     onClick={() => handleSort('fraudProbability')}
                   >
-                    Fraud Prob. <SortArrow field="fraudProbability" />
+                    Fraud Prob <SortArrow field="fraudProbability" />
                   </th>
                   <th 
                     scope="col" 
@@ -374,16 +436,22 @@ export default function ProvidersPage() {
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
                 {paginatedProviders.map((provider) => (
-                  <tr key={provider.npi} className={`hover:bg-gray-50 ${provider.isFlagged ? 'bg-red-50/30' : ''}`}>
+                  <tr key={provider.npi} className={`hover:bg-gray-50 ${
+                    provider.fraudProbability && provider.fraudProbability > 0.8 ? 'bg-red-50/40' :
+                    provider.isFlagged ? 'bg-orange-50/30' : ''
+                  }`}>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div>
-                        <div className="text-sm font-medium text-gray-900">
+                        <div className="text-sm font-medium text-gray-900 flex items-center gap-1.5">
                           <Link 
                             href={`/providers/${provider.npi}`}
                             className="text-medicare-primary hover:text-medicare-dark hover:underline"
                           >
                             {provider.name}
                           </Link>
+                          {provider.fraudProbability && provider.fraudProbability > 0.8 && (
+                            <ExclamationTriangleIcon className="h-4 w-4 text-red-500" title="High fraud probability" />
+                          )}
                         </div>
                         <div className="text-sm text-gray-500">NPI: {provider.npi}</div>
                       </div>
@@ -401,11 +469,11 @@ export default function ProvidersPage() {
                       {provider.avgMarkup ? `${provider.avgMarkup.toFixed(1)}x` : '—'}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-center">
-                      {provider.fraudProbability !== undefined ? (
-                        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold ${
+                      {provider.fraudProbability != null ? (
+                        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
                           provider.fraudProbability >= 0.9 ? 'bg-red-100 text-red-800' :
-                          provider.fraudProbability >= 0.7 ? 'bg-orange-100 text-orange-800' :
-                          provider.fraudProbability >= 0.5 ? 'bg-yellow-100 text-yellow-800' :
+                          provider.fraudProbability >= 0.8 ? 'bg-orange-100 text-orange-800' :
+                          provider.fraudProbability >= 0.7 ? 'bg-yellow-100 text-yellow-800' :
                           'bg-blue-100 text-blue-800'
                         }`}>
                           {(provider.fraudProbability * 100).toFixed(0)}%
@@ -454,14 +522,23 @@ export default function ProvidersPage() {
                 </button>
               </div>
               <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
-                <div>
+                <div className="flex items-center gap-4">
                   <p className="text-sm text-gray-700">
                     Showing <span className="font-medium">{startIndex + 1}</span> to{' '}
                     <span className="font-medium">
                       {Math.min(startIndex + itemsPerPage, sortedProviders.length)}
                     </span>{' '}
-                    of <span className="font-medium">{sortedProviders.length}</span> results
+                    of <span className="font-medium">{formatNumber(sortedProviders.length)}</span> results
                   </p>
+                  <select
+                    value={itemsPerPage}
+                    onChange={(e) => { setItemsPerPage(Number(e.target.value)); setCurrentPage(1) }}
+                    className="text-sm border border-gray-300 rounded px-2 py-1"
+                  >
+                    {[25, 50, 100].map(n => (
+                      <option key={n} value={n}>{n} per page</option>
+                    ))}
+                  </select>
                 </div>
                 <div>
                   <nav className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px">
@@ -470,30 +547,33 @@ export default function ProvidersPage() {
                       disabled={currentPage === 1}
                       className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:opacity-50"
                     >
-                      Previous
+                      ←
                     </button>
-                    {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                      const pageNumber = i + 1
-                      return (
+                    {getPageRange().map((page, idx) => (
+                      typeof page === 'string' ? (
+                        <span key={`ellipsis-${idx}`} className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-400">
+                          …
+                        </span>
+                      ) : (
                         <button
-                          key={pageNumber}
-                          onClick={() => setCurrentPage(pageNumber)}
+                          key={page}
+                          onClick={() => setCurrentPage(page)}
                           className={`relative inline-flex items-center px-4 py-2 border text-sm font-medium ${
-                            currentPage === pageNumber
+                            currentPage === page
                               ? 'z-10 bg-medicare-primary border-medicare-primary text-white'
                               : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'
                           }`}
                         >
-                          {pageNumber}
+                          {page}
                         </button>
                       )
-                    })}
+                    ))}
                     <button
                       onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                       disabled={currentPage === totalPages}
                       className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:opacity-50"
                     >
-                      Next
+                      →
                     </button>
                   </nav>
                 </div>
