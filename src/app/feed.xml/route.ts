@@ -17,6 +17,25 @@ const items = [
     link: '/investigations/algorithm-knows',
     pubDate: '2026-02-21T00:00:00.000Z',
   },
+  // ML-Focused Investigations
+  {
+    title: 'Why Internal Medicine Is Ground Zero for Medicare Fraud',
+    description: '263 of 500 AI-flagged providers (53%) are Internal Medicine. High-volume billing, broad procedure codes, and easy-to-pad office visits make IM the #1 specialty for fraud-pattern matches.',
+    link: '/investigations/internal-medicine-crisis',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Fraud Belt: Why California and Florida Lead Medicare Fraud',
+    description: 'CA and FL tied at 56 flagged providers each (22.4% of all flags). Combined with NY, TX, and NJ, five states account for over half of all suspicious billing patterns.',
+    link: '/investigations/florida-california-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Million-Dollar Club: 47 AI-Flagged Providers Who Billed Over $1M Each',
+    description: '47 providers flagged by our AI model each billed Medicare over $1 million. Combined: $93M in taxpayer money while matching convicted fraudster billing patterns.',
+    link: '/investigations/million-dollar-flagged',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // LANDMARK Investigation
   {
     title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',

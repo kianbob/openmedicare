@@ -51,6 +51,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'genetic-testing-fraud',
     'algorithm-knows',
     'how-we-built-the-model',
+    'internal-medicine-crisis',
+    'florida-california-fraud',
+    'million-dollar-flagged',
   ]
 
   const staticPages = [
