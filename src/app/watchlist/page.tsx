@@ -7,86 +7,34 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
+interface Flag {
+  type: string
+  description: string
+  severity: string
+}
+
 interface WatchlistProvider {
-  npi: string
+  npi: number
   name: string
+  credentials: string
   specialty: string
   city: string
   state: string
-  riskScore: number
-  totalPayments: number
-  riskFlags: string[]
-  flagCount: number
-  primaryConcern: string
+  total_payments: number
+  total_services: number
+  total_beneficiaries: number
+  avg_markup: number
+  risk_score: number
+  flags: Flag[]
 }
-
-// Mock data - will be replaced with real data from /data/watchlist.json
-const mockWatchlistData: WatchlistProvider[] = [
-  {
-    npi: '1234567890',
-    name: 'Dr. Robert Williams',
-    specialty: 'Orthopedic Surgery',
-    city: 'Miami',
-    state: 'FL',
-    riskScore: 95,
-    totalPayments: 8500000,
-    riskFlags: ['Extreme Markup', 'Outlier Volume', 'Geographic Anomaly'],
-    flagCount: 3,
-    primaryConcern: 'Charges 4.2x Medicare rates'
-  },
-  {
-    npi: '1234567891',
-    name: 'Dr. Sarah Chen',
-    specialty: 'Cardiology',
-    city: 'Houston',
-    state: 'TX',
-    riskScore: 88,
-    totalPayments: 6200000,
-    riskFlags: ['High Markup', 'Unusual Procedures'],
-    flagCount: 2,
-    primaryConcern: 'Performs rare procedures at 10x normal rate'
-  },
-  {
-    npi: '1234567892',
-    name: 'Dr. Michael Rodriguez',
-    specialty: 'Ophthalmology',
-    city: 'Los Angeles',
-    state: 'CA',
-    riskScore: 82,
-    totalPayments: 4800000,
-    riskFlags: ['Volume Outlier', 'Peer Deviation'],
-    flagCount: 2,
-    primaryConcern: 'Treats 5x more patients than specialty average'
-  },
-  {
-    npi: '1234567893',
-    name: 'Dr. Jennifer Davis',
-    specialty: 'Radiology',
-    city: 'Phoenix',
-    state: 'AZ',
-    riskScore: 79,
-    totalPayments: 3900000,
-    riskFlags: ['Geographic Concentration', 'Billing Pattern'],
-    flagCount: 2,
-    primaryConcern: 'All patients from single ZIP code'
-  }
-]
-
-const riskCategories = [
-  { name: 'All Risk Levels', min: 0, max: 100, count: mockWatchlistData.length, color: 'gray' },
-  { name: 'Extreme Risk (90+)', min: 90, max: 100, count: 1, color: 'red' },
-  { name: 'High Risk (80-89)', min: 80, max: 89, count: 2, color: 'orange' },
-  { name: 'Medium Risk (70-79)', min: 70, max: 79, count: 1, color: 'yellow' },
-  { name: 'Lower Risk (60-69)', min: 60, max: 69, count: 0, color: 'blue' }
-]
 
 export default function WatchlistPage() {
   const [providers, setProviders] = useState<WatchlistProvider[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
-  const [selectedRiskLevel, setSelectedRiskLevel] = useState('All Risk Levels')
+  const [selectedRiskLevel, setSelectedRiskLevel] = useState('all')
   const [selectedSpecialty, setSelectedSpecialty] = useState('All Specialties')
-  const [sortBy, setSortBy] = useState('riskScore')
+  const [sortBy, setSortBy] = useState<keyof WatchlistProvider>('risk_score')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc')
 
   useEffect(() => {
@@ -94,19 +42,15 @@ export default function WatchlistPage() {
       try {
         const response = await fetch('/data/watchlist.json')
         if (response.ok) {
-          const data = await response.json()
+          const data: WatchlistProvider[] = await response.json()
           setProviders(data)
-        } else {
-          setProviders(mockWatchlistData)
         }
       } catch (error) {
         console.error('Error loading watchlist data:', error)
-        setProviders(mockWatchlistData)
       } finally {
         setLoading(false)
       }
     }
-
     loadWatchlistData()
   }, [])
 
@@ -124,34 +68,57 @@ export default function WatchlistPage() {
     return 'LOWER'
   }
 
-  // Filter providers
+  const getSeverityColor = (severity: string) => {
+    if (severity === 'high') return 'bg-red-100 text-red-700'
+    if (severity === 'medium') return 'bg-yellow-100 text-yellow-700'
+    return 'bg-blue-100 text-blue-700'
+  }
+
+  const riskRanges = [
+    { key: 'all', label: 'All Risk Levels', min: 0, max: 100, color: 'gray' },
+    { key: 'extreme', label: 'Extreme Risk (90+)', min: 90, max: 100, color: 'red' },
+    { key: 'high', label: 'High Risk (80-89)', min: 80, max: 89, color: 'orange' },
+    { key: 'medium', label: 'Medium Risk (70-79)', min: 70, max: 79, color: 'yellow' },
+    { key: 'lower', label: 'Lower Risk (<70)', min: 0, max: 69, color: 'blue' },
+  ]
+
+  const riskCounts = riskRanges.map(r => ({
+    ...r,
+    count: r.key === 'all'
+      ? providers.length
+      : providers.filter(p => p.risk_score >= r.min && p.risk_score <= r.max).length,
+  }))
+
   const filteredProviders = providers.filter(provider => {
-    const matchesSearch = provider.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         provider.npi.includes(searchTerm) ||
-                         provider.city.toLowerCase().includes(searchTerm.toLowerCase())
-    
-    const riskCategory = riskCategories.find(cat => cat.name === selectedRiskLevel)
-    const matchesRisk = selectedRiskLevel === 'All Risk Levels' || 
-                       (riskCategory && provider.riskScore >= riskCategory.min && provider.riskScore <= riskCategory.max)
-    
+    const term = searchTerm.toLowerCase()
+    const matchesSearch = !searchTerm ||
+      provider.name.toLowerCase().includes(term) ||
+      String(provider.npi).includes(term) ||
+      provider.city.toLowerCase().includes(term) ||
+      provider.specialty.toLowerCase().includes(term) ||
+      provider.state.toLowerCase().includes(term)
+
+    const range = riskRanges.find(r => r.key === selectedRiskLevel)!
+    const matchesRisk = selectedRiskLevel === 'all' ||
+      (provider.risk_score >= range.min && provider.risk_score <= range.max)
+
     const matchesSpecialty = selectedSpecialty === 'All Specialties' || provider.specialty === selectedSpecialty
-    
+
     return matchesSearch && matchesRisk && matchesSpecialty
   })
 
-  // Sort providers
   const sortedProviders = [...filteredProviders].sort((a, b) => {
-    const aValue = a[sortBy as keyof WatchlistProvider] as number
-    const bValue = b[sortBy as keyof WatchlistProvider] as number
-    
-    if (sortOrder === 'asc') {
-      return aValue > bValue ? 1 : -1
-    } else {
-      return aValue < bValue ? 1 : -1
+    const aVal = a[sortBy]
+    const bVal = b[sortBy]
+    if (typeof aVal === 'string' && typeof bVal === 'string') {
+      return sortOrder === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal)
     }
+    const aNum = Number(aVal)
+    const bNum = Number(bVal)
+    return sortOrder === 'asc' ? aNum - bNum : bNum - aNum
   })
 
-  const specialties = ['All Specialties', ...Array.from(new Set(providers.map(p => p.specialty)))]
+  const specialties = ['All Specialties', ...Array.from(new Set(providers.map(p => p.specialty))).sort()]
 
   if (loading) {
     return (
@@ -167,7 +134,7 @@ export default function WatchlistPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumbs 
+        <Breadcrumbs
           items={[
             { name: 'Analysis', href: '/watchlist' },
             { name: 'Fraud Watchlist' }
@@ -179,12 +146,12 @@ export default function WatchlistPage() {
         <div className="mb-8">
           <div className="flex items-center mb-4">
             <ShieldExclamationIcon className="h-8 w-8 text-red-500 mr-3" />
-            <h1 className="text-4xl font-bold text-gray-900 font-playfair">
+            <h1 className="text-4xl font-bold text-gray-900 font-serif">
               Medicare Fraud Watchlist
             </h1>
           </div>
           <p className="text-xl text-gray-600 mb-6">
-            Providers flagged by our statistical analysis for potential billing irregularities, 
+            {formatNumber(providers.length)} providers flagged by our statistical analysis for potential billing irregularities,
             unusual patterns, or outlier behavior that may warrant further investigation.
           </p>
 
@@ -195,8 +162,8 @@ export default function WatchlistPage() {
               <div>
                 <h3 className="font-semibold text-red-900 mb-2">Important Disclaimer</h3>
                 <p className="text-red-800 text-sm">
-                  <strong>These are statistical risk flags, not fraud accusations.</strong> High risk scores may reflect 
-                  legitimate factors like patient complexity, specialty care, or regional practices. This analysis 
+                  <strong>These are statistical risk flags, not fraud accusations.</strong> High risk scores may reflect
+                  legitimate factors like patient complexity, specialty care, or regional practices. This analysis
                   identifies patterns that may warrant further investigation by appropriate authorities.
                 </p>
               </div>
@@ -206,13 +173,13 @@ export default function WatchlistPage() {
 
         {/* Risk Level Summary */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-          {riskCategories.map((category) => (
-            <div 
-              key={category.name}
+          {riskCounts.map((category) => (
+            <div
+              key={category.key}
               className={`bg-white rounded-lg shadow-sm p-4 cursor-pointer transition-all ${
-                selectedRiskLevel === category.name ? 'ring-2 ring-medicare-primary' : 'hover:shadow-md'
+                selectedRiskLevel === category.key ? 'ring-2 ring-medicare-primary' : 'hover:shadow-md'
               }`}
-              onClick={() => setSelectedRiskLevel(category.name)}
+              onClick={() => setSelectedRiskLevel(category.key)}
             >
               <div className="text-center">
                 <div className={`text-2xl font-bold mb-2 ${
@@ -225,7 +192,7 @@ export default function WatchlistPage() {
                   {category.count}
                 </div>
                 <div className="text-xs font-medium text-gray-600">
-                  {category.name.replace(' (', '\n(')}
+                  {category.label}
                 </div>
               </div>
             </div>
@@ -248,7 +215,7 @@ export default function WatchlistPage() {
                   id="search"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  placeholder="Search by name, NPI, or city..."
+                  placeholder="Search by name, NPI, city, state, or specialty..."
                   className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-medicare-primary focus:border-medicare-primary"
                 />
               </div>
@@ -279,19 +246,23 @@ export default function WatchlistPage() {
                 value={`${sortBy}-${sortOrder}`}
                 onChange={(e) => {
                   const [field, order] = e.target.value.split('-')
-                  setSortBy(field)
+                  setSortBy(field as keyof WatchlistProvider)
                   setSortOrder(order as 'asc' | 'desc')
                 }}
                 className="block w-full px-3 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-medicare-primary focus:border-medicare-primary"
               >
-                <option value="riskScore-desc">Risk Score (High to Low)</option>
-                <option value="riskScore-asc">Risk Score (Low to High)</option>
-                <option value="totalPayments-desc">Total Payments (High to Low)</option>
-                <option value="totalPayments-asc">Total Payments (Low to High)</option>
+                <option value="risk_score-desc">Risk Score (High to Low)</option>
+                <option value="risk_score-asc">Risk Score (Low to High)</option>
+                <option value="total_payments-desc">Total Payments (High to Low)</option>
+                <option value="total_payments-asc">Total Payments (Low to High)</option>
+                <option value="avg_markup-desc">Markup (High to Low)</option>
+                <option value="avg_markup-asc">Markup (Low to High)</option>
+                <option value="total_services-desc">Services (High to Low)</option>
+                <option value="name-asc">Name (A-Z)</option>
               </select>
             </div>
           </div>
-          
+
           <div className="mt-4 flex items-center justify-between text-sm text-gray-600">
             <div>
               Showing {sortedProviders.length} of {providers.length} providers
@@ -300,7 +271,7 @@ export default function WatchlistPage() {
               <FunnelIcon className="h-4 w-4 mr-1" />
               Active filters: {[
                 searchTerm && 'Search',
-                selectedRiskLevel !== 'All Risk Levels' && 'Risk Level',
+                selectedRiskLevel !== 'all' && 'Risk Level',
                 selectedSpecialty !== 'All Specialties' && 'Specialty'
               ].filter(Boolean).join(', ') || 'None'}
             </div>
@@ -320,10 +291,13 @@ export default function WatchlistPage() {
                     Risk Score
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Primary Concern
+                    Total Payments
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Total Payments
+                    Markup
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Services / Beneficiaries
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Risk Flags
@@ -336,44 +310,58 @@ export default function WatchlistPage() {
                     <td className="px-6 py-4">
                       <div>
                         <div className="text-sm font-medium text-gray-900">
-                          <Link 
+                          <Link
                             href={`/providers/${provider.npi}`}
                             className="text-medicare-primary hover:text-medicare-dark hover:underline"
                           >
                             {provider.name}
+                            {provider.credentials && `, ${provider.credentials}`}
                           </Link>
                         </div>
                         <div className="text-sm text-gray-500">
-                          {provider.specialty} • {provider.city}, {provider.state}
+                          {provider.specialty}
                         </div>
-                        <div className="text-xs text-gray-400">NPI: {provider.npi}</div>
+                        <div className="text-xs text-gray-400">
+                          {provider.city}, {provider.state} &middot; NPI: {provider.npi}
+                        </div>
                       </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      <div className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border ${getRiskColor(provider.riskScore)}`}>
+                      <div className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border ${getRiskColor(provider.risk_score)}`}>
                         <ExclamationTriangleIcon className="h-4 w-4 mr-1" />
-                        {provider.riskScore} - {getRiskLabel(provider.riskScore)}
+                        {provider.risk_score} - {getRiskLabel(provider.risk_score)}
                       </div>
                     </td>
-                    <td className="px-6 py-4">
-                      <div className="text-sm text-gray-900">{provider.primaryConcern}</div>
-                    </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                      {formatCurrency(provider.totalPayments)}
+                      {formatCurrency(provider.total_payments)}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                        provider.avg_markup >= 6 ? 'bg-red-100 text-red-800' :
+                        provider.avg_markup >= 4 ? 'bg-yellow-100 text-yellow-800' :
+                        'bg-green-100 text-green-800'
+                      }`}>
+                        {provider.avg_markup.toFixed(1)}x
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                      <div>{formatNumber(provider.total_services)} services</div>
+                      <div className="text-xs text-gray-400">{formatNumber(provider.total_beneficiaries)} beneficiaries</div>
                     </td>
                     <td className="px-6 py-4">
                       <div className="flex flex-wrap gap-1">
-                        {provider.riskFlags.slice(0, 2).map((flag, index) => (
-                          <span 
+                        {provider.flags.slice(0, 2).map((flag, index) => (
+                          <span
                             key={index}
-                            className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
+                            className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${getSeverityColor(flag.severity)}`}
+                            title={flag.description}
                           >
-                            {flag}
+                            {flag.description.length > 30 ? flag.description.slice(0, 30) + '...' : flag.description}
                           </span>
                         ))}
-                        {provider.riskFlags.length > 2 && (
+                        {provider.flags.length > 2 && (
                           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-200 text-gray-600">
-                            +{provider.riskFlags.length - 2} more
+                            +{provider.flags.length - 2} more
                           </span>
                         )}
                       </div>
@@ -387,27 +375,27 @@ export default function WatchlistPage() {
 
         {/* Methodology */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 font-serif mb-6">
             Risk Scoring Methodology
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Statistical Analysis</h3>
               <p className="text-gray-700 mb-4">
-                Our risk scoring algorithm analyzes multiple factors to identify providers whose billing 
+                Our risk scoring algorithm analyzes multiple factors to identify providers whose billing
                 patterns deviate significantly from their peers:
               </p>
-              
+
               <ul className="text-gray-700 space-y-2">
-                <li>• <strong>Markup Analysis:</strong> Charges vs. payments compared to specialty peers</li>
-                <li>• <strong>Volume Outliers:</strong> Service volume significantly above/below normal ranges</li>
-                <li>• <strong>Geographic Patterns:</strong> Unusual patient geographic concentration</li>
-                <li>• <strong>Procedure Mix:</strong> Atypical procedure combinations or frequencies</li>
-                <li>• <strong>Peer Comparison:</strong> Performance vs. similar providers in same region</li>
+                <li>&bull; <strong>Markup Analysis:</strong> Charges vs. payments compared to specialty peers</li>
+                <li>&bull; <strong>Volume Outliers:</strong> Service volume significantly above/below normal ranges</li>
+                <li>&bull; <strong>Geographic Patterns:</strong> Unusual patient geographic concentration</li>
+                <li>&bull; <strong>Procedure Mix:</strong> Atypical procedure combinations or frequencies</li>
+                <li>&bull; <strong>Peer Comparison:</strong> Performance vs. similar providers in same region</li>
               </ul>
             </div>
-            
+
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Risk Score Ranges</h3>
               <div className="space-y-3">
@@ -433,7 +421,7 @@ export default function WatchlistPage() {
         </div>
 
         {/* Source Citation */}
-        <SourceCitation 
+        <SourceCitation
           lastUpdated="February 2024"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
