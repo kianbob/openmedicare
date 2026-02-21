@@ -8,6 +8,16 @@ const nextConfig: NextConfig = {
         destination: '/investigations/specialty-gap',
         permanent: true,
       },
+      {
+        source: '/watchlist',
+        destination: '/fraud/watchlist',
+        permanent: true,
+      },
+      {
+        source: '/markup-analysis',
+        destination: '/markup',
+        permanent: true,
+      },
     ]
   },
 };

@@ -17,47 +17,41 @@ const navigation = [
     ],
   },
   {
-    name: 'Analysis',
+    name: 'Fraud Analysis',
     items: [
-      { name: 'Watchlist', href: '/watchlist' },
+      { name: 'Fraud Overview', href: '/fraud' },
+      { name: 'Fraud Watchlist', href: '/fraud/watchlist' },
+      { name: 'Deep Dive Profiles', href: '/fraud/deep-dives' },
+      { name: 'Impossible Numbers', href: '/fraud/impossible-numbers' },
+      { name: 'Report Fraud', href: '/fraud/report' },
+    ],
+  },
+  {
+    name: 'Data & Analysis',
+    items: [
+      { name: 'Spending Trends', href: '/trends' },
       { name: 'Markup Analysis', href: '/markup' },
       { name: 'Drug Spending', href: '/drug-spending' },
       { name: 'Rural vs Urban', href: '/rural-urban' },
-      { name: 'Place of Service', href: '/place-of-service' },
-      { name: 'Geographic', href: '/geographic' },
-      { name: 'Cost Adjustment', href: '/cost-adjustment' },
-      { name: 'Payment Gap', href: '/payment-gap' },
-      { name: 'Utilization', href: '/utilization' },
+      { name: 'Downloads', href: '/downloads' },
     ],
   },
   {
     name: 'Tools',
     items: [
       { name: 'Provider Lookup', href: '/lookup' },
-      { name: 'Compare Providers', href: '/compare' },
+      { name: 'Compare', href: '/compare' },
       { name: 'Cost Calculator', href: '/calculator' },
       { name: 'Your Medicare Dollar', href: '/your-medicare-dollar' },
     ],
   },
   {
-    name: 'Fraud Analysis',
-    items: [
-      { name: 'Fraud Overview', href: '/fraud' },
-      { name: 'Fraud Watchlist', href: '/fraud/watchlist' },
-      { name: 'Deep Dives', href: '/fraud/deep-dives' },
-      { name: 'Report Fraud', href: '/fraud/report' },
-      { name: 'Fraud by State', href: '/states/CA/fraud-risk' },
-      { name: 'Fraud by Specialty', href: '/specialties/internal-medicine/fraud-risk' },
-    ],
-  },
-  {
     name: 'About',
     items: [
-      { name: 'About Us', href: '/about' },
-      { name: 'Data Downloads', href: '/downloads' },
+      { name: 'About OpenMedicare', href: '/about' },
+      { name: 'Methodology', href: '/methodology' },
       { name: 'Investigations', href: '/investigations' },
       { name: 'Updates', href: '/updates' },
-      { name: 'Methodology', href: '/methodology' },
     ],
   },
 ]
@@ -69,8 +63,8 @@ export default function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8">
+        <div className="xl:grid xl:grid-cols-6 xl:gap-8">
+          <div className="xl:col-span-1 space-y-8">
             <div>
               <Link href="/" className="text-2xl font-bold text-white font-playfair">
                 OpenMedicare
@@ -78,35 +72,26 @@ export default function Footer() {
               <p className="mt-4 text-sm leading-6 text-gray-300">
                 Follow the Money in Medicare
               </p>
-              <p className="mt-2 text-sm leading-6 text-gray-300">
-                Professional data journalism tracking Medicare physician spending across 10 years (2014-2023).
-              </p>
             </div>
             <div>
               <h3 className="text-sm font-semibold leading-6 text-white">Sister Sites</h3>
-              <ul role="list" className="mt-6 space-y-4">
+              <ul role="list" className="mt-4 space-y-3">
                 {sisterSites.map((site) => (
                   <li key={site.name}>
-                    <a
-                      href={site.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm leading-6 text-gray-300 hover:text-white"
-                    >
-                      <span className="font-medium">{site.name}</span>
-                      <span className="block text-xs text-gray-400">{site.description}</span>
+                    <a href={site.href} target="_blank" rel="noopener noreferrer" className="text-sm leading-6 text-gray-300 hover:text-white">
+                      {site.name}
                     </a>
                   </li>
                 ))}
               </ul>
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">{navigation[0].name}</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation[0].items.map((item) => (
+          <div className="mt-16 xl:mt-0 xl:col-span-5 grid grid-cols-2 md:grid-cols-5 gap-8">
+            {navigation.map((section) => (
+              <div key={section.name}>
+                <h3 className="text-sm font-semibold leading-6 text-white">{section.name}</h3>
+                <ul role="list" className="mt-4 space-y-3">
+                  {section.items.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
@@ -115,61 +100,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">{navigation[1].name}</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation[1].items.map((item) => (
-                    <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">{navigation[2].name}</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation[2].items.map((item) => (
-                    <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">{navigation[3].name}</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation[3].items.map((item) => (
-                    <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="mt-10 xl:mt-0">
-            <div className="md:grid md:grid-cols-1 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">{navigation[4].name}</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation[4].items.map((item) => (
-                    <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
