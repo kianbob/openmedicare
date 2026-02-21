@@ -49,6 +49,9 @@ interface RawProvider {
   }
   top_procedures: TopProcedure[]
   fraud_profile?: boolean
+  enforcement_status?: string
+  enforcement_details?: string
+  enforcement_source?: string
   fraud_context?: string
   notes?: string
   external_links?: ExternalLink[]
@@ -262,7 +265,41 @@ export default async function ProviderDetailPage({ params }: PageProps) {
               </div>
             </div>
           </div>
-        ) : (
+        ) : null}
+
+        {/* Enforcement Status Banner */}
+        {raw.enforcement_status && raw.enforcement_status !== 'NO_CHARGES' && (
+          <div className={`rounded-lg border-2 p-6 mb-8 ${
+            raw.enforcement_status === 'CHARGED' ? 'bg-red-100 border-red-500' :
+            raw.enforcement_status === 'SETTLED' ? 'bg-orange-100 border-orange-500' :
+            raw.enforcement_status === 'DISPUTED' ? 'bg-yellow-100 border-yellow-500' :
+            'bg-gray-100 border-gray-400'
+          }`}>
+            <div className="flex items-start gap-3">
+              <span className="text-2xl">{
+                raw.enforcement_status === 'CHARGED' ? '🚨' :
+                raw.enforcement_status === 'SETTLED' ? '⚖️' :
+                raw.enforcement_status === 'DISPUTED' ? '❓' : '📋'
+              }</span>
+              <div>
+                <h2 className="text-lg font-bold text-gray-900 mb-1">
+                  {raw.enforcement_status === 'CHARGED' && 'Federal Charges Filed'}
+                  {raw.enforcement_status === 'SETTLED' && 'Federal Settlement'}
+                  {raw.enforcement_status === 'DISPUTED' && 'Billing Disputed'}
+                </h2>
+                <p className="text-sm text-gray-800 mb-2">{raw.enforcement_details}</p>
+                {raw.enforcement_source && (
+                  <a href={raw.enforcement_source} target="_blank" rel="noopener noreferrer"
+                    className="text-sm text-blue-700 hover:text-blue-900 underline">
+                    View DOJ source →
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {!watchlistEntry && (
           <div className="flex items-center gap-2 mb-6 text-green-700">
             <ShieldCheckIcon className="h-5 w-5" />
             <span className="text-sm font-medium">✓ No flags detected</span>

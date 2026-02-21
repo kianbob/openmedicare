@@ -6,7 +6,12 @@
   "state": "CA",
   "entity_type": "Individual",
   "fraud_profile": true,
-  "external_links": [{"label": "Campaign Website", "url": "https://merrytaheri4assembly.com/"}],
+  "external_links": [
+    {
+      "label": "Campaign Website",
+      "url": "https://merrytaheri4assembly.com/"
+    }
+  ],
   "notes": "Running for California State Assembly District 69. DNP from UCSF. 24+ years in emergency nursing. Campaign describes 'front lines' COVID work. Medicare billing: 100% COVID tests (K1034), $12.1M in single year.",
   "fraud_context": "4,132 services per day. 127,936 beneficiaries. 100% of billing from one code (K1034 COVID tests). Specialty z-score: 23.06 (23 standard deviations above median). Only active for 1 year in dataset.",
   "services_per_day": 4131.8,
@@ -50,5 +55,8 @@
       "payments": 482.65,
       "avg_markup": 45.72
     }
-  ]
+  ],
+  "enforcement_status": "DISPUTED",
+  "enforcement_details": "Claims NPI was used fraudulently by others to bill COVID tests (WTHR news report). Running for CA State Assembly. No charges filed.",
+  "enforcement_source": "https://www.wthr.com/article/news/investigations/13-investigates/taxpayers-targeted-covid-19-test-kit-fraud-pandemic-health-emergency-medicare-indiana-report/531-0830d270-fec1-4a5d-92d8-810693abc418"
 }

@@ -6,7 +6,12 @@
   "state": "NJ",
   "entity_type": "Individual",
   "fraud_profile": true,
-  "external_links": [{"label": "XBody Health & Wellness Spa", "url": "https://xbodyus.com/tatiana-sharahy-md/"}],
+  "external_links": [
+    {
+      "label": "XBody Health & Wellness Spa",
+      "url": "https://xbodyus.com/tatiana-sharahy-md/"
+    }
+  ],
   "notes": "Medical Director at XBody Health, Wellness & Spa in Wayne, NJ. Anti-aging medicine specialist. 'Top Doctor 2019' for Internal and Integrative Medicine. Specializes in Lyme disease, MINT threads, carboxytherapy, peptide treatments.",
   "fraud_context": "96.7% COVID test billing in 2023. 1,884 services per day. Anti-aging spa doctor billing $5.7M in COVID tests. Also bills EEGs, nerve conduction, trigger points, ultrasonic guidance — unusual for internal medicine. Billing jumped from $0.2M to $5.7M (28x increase) in one year.",
   "services_per_day": 1884.2,
@@ -86,7 +91,7 @@
     },
     {
       "year": 2023,
-      "total_payments": 5663224.0,
+      "total_payments": 5663224,
       "total_services": 471040,
       "total_beneficiaries": 29872,
       "avg_submitted": 15.78,
@@ -241,5 +246,7 @@
       "payments": 34611.06,
       "avg_markup": 7.61
     }
-  ]
+  ],
+  "enforcement_status": "NO_CHARGES",
+  "enforcement_details": "No enforcement action found. WebMD reviews from patients report receiving unsolicited COVID test kits. Anti-aging spa doctor with $5.7M in COVID test billing."
 }
