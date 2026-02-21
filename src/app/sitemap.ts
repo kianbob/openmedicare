@@ -47,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'arizona-wound-care-ring',
     'beverly-hills-wound-care',
     'data-predicted-fraud',
+    'still-out-there',
   ]
 
   const staticPages = [

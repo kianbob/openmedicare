@@ -60,6 +60,21 @@ const featuredInvestigations = [
       'DOJ\'s 2025 takedown specifically targeted this billing pattern',
     ],
   },
+  {
+    title: 'Still Out There: The Providers Who Bill Like Criminals',
+    description: 'Our AI trained on 8,300+ confirmed fraudsters found providers with identical billing patterns still collecting from Medicare.',
+    href: '/investigations/still-out-there',
+    category: '🤖 ML Investigation',
+    readTime: '10 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'We trained a machine learning model on every confirmed Medicare fraudster — DOJ indictments, HHS OIG exclusions, FCA settlements. Then we ran it on 1.7 million active providers. The results were sobering.',
+    keyFindings: [
+      'Model trained on 8,300+ confirmed fraudsters from LEIE + DOJ + FCA',
+      'Hundreds of providers match convicted criminal billing patterns',
+      'Previously validated: our algorithm flagged providers before DOJ charged them',
+      'Key features: services-per-day, code concentration, specialty deviation',
+    ],
+  },
 ]
 
 const investigations = [
