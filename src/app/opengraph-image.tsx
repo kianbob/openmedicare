@@ -56,7 +56,7 @@ export default async function Image() {
               marginTop: '8px',
             }}
           >
-            23 Investigations · 500 Flagged Providers · 3,100+ Pages of Data
+            43 Investigations · 500 Flagged Providers · 8,300+ Fraud Labels · 89 Pages
           </div>
           <div
             style={{
