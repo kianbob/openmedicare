@@ -245,7 +245,7 @@
       "name": "Quantum Pathology, Llc",
       "specialty": "Clinical Laboratory",
       "services": 52783,
-      "payments": 3053131.0
+      "payments": 3053131
     },
     {
       "npi": 1811346414,
@@ -918,5 +918,60 @@
       "services": 56705130,
       "providers": 35573
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 4,
+    "total_flagged_payments": 2146486.79,
+    "top_flagged_providers": [
+      {
+        "npi": "1396192738",
+        "name": "Sarah Bashiruddin",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9173,
+        "total_payments": 844565.46,
+        "total_services": 12875,
+        "risk_rank": 133,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1528024643",
+        "name": "Stephen Levine",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8942,
+        "total_payments": 250524.53,
+        "total_services": 4222,
+        "risk_rank": 370,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1689665929",
+        "name": "Robert Singer",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8769,
+        "total_payments": 484238.42,
+        "total_services": 6941,
+        "risk_rank": 467,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1285714519",
+        "name": "Alberto Sobrado",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8692,
+        "total_payments": 567158.38,
+        "total_services": 11144,
+        "risk_rank": 444,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      }
+    ]
+  }
 }

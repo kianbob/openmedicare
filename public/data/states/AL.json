@@ -918,5 +918,72 @@
       "services": 47020132,
       "providers": 16645
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 8,
+    "total_flagged_payments": 6989889.17,
+    "top_flagged_providers": [
+      {
+        "npi": "1265676688",
+        "name": "Arrtie Pisaturo",
+        "specialty": "Physical Medicine and Rehabilitation",
+        "fraud_probability": 0.9515,
+        "total_payments": 1036012.94,
+        "total_services": 21830,
+        "risk_rank": 11,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1023102126",
+        "name": "Daniel Ortiz",
+        "specialty": "Otolaryngology",
+        "fraud_probability": 0.9364,
+        "total_payments": 949996.93,
+        "total_services": 25802,
+        "risk_rank": 26,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1881784296",
+        "name": "Ramdas Kamath",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9258,
+        "total_payments": 1030829.2,
+        "total_services": 14955,
+        "risk_rank": 105,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1255713327",
+        "name": "Omer Iqbal",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8928,
+        "total_payments": 1326495.25,
+        "total_services": 23046,
+        "risk_rank": 365,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1326059494",
+        "name": "Nicholas Pantaleone",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8787,
+        "total_payments": 122152.1,
+        "total_services": 3521,
+        "risk_rank": 395,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

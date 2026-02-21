@@ -70,7 +70,7 @@
       "name": "Cardionet, Llc",
       "specialty": "Independent Diagnostic Testing Facility (IDTF)",
       "services": 75002,
-      "payments": 10969678.0
+      "payments": 10969678
     },
     {
       "npi": 1962804088,
@@ -624,7 +624,7 @@
       "code": "99308",
       "description": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 15 minutes",
       "services": 393541,
-      "payments": 21117324.0,
+      "payments": 21117324,
       "providers": 1477
     },
     {
@@ -918,5 +918,73 @@
       "services": 110691006,
       "providers": 58065
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 17,
+    "total_flagged_payments": 10450929.21,
+    "top_flagged_providers": [
+      {
+        "npi": "1427163427",
+        "name": "Lilia Gorovits",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9463,
+        "total_payments": 716667.38,
+        "total_services": 16962,
+        "risk_rank": 7,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1013010271",
+        "name": "Peter Tanzer",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9205,
+        "total_payments": 698372.28,
+        "total_services": 15768,
+        "risk_rank": 127,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1083610810",
+        "name": "Stuart Hartman",
+        "specialty": "Physical Medicine and Rehabilitation",
+        "fraud_probability": 0.9165,
+        "total_payments": 1257821.77,
+        "total_services": 21682,
+        "risk_rank": 142,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1396732764",
+        "name": "Michael Greenberg",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9119,
+        "total_payments": 535783.78,
+        "total_services": 12848,
+        "risk_rank": 193,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1114016284",
+        "name": "Allan Davis",
+        "specialty": "Medical Oncology",
+        "fraud_probability": 0.9081,
+        "total_payments": 245973.93,
+        "total_services": 6636,
+        "risk_rank": 139,
+        "top_risk_factors": [
+          "High services/patient",
+          "Volume-driven pattern"
+        ]
+      }
+    ]
+  }
 }

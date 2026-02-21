@@ -119,7 +119,7 @@
       "name": "Cei Physicians Psc Llc",
       "specialty": "Ambulatory Surgical Center",
       "services": 5580,
-      "payments": 4066065.0
+      "payments": 4066065
     },
     {
       "npi": 1710374467,
@@ -838,7 +838,7 @@
     },
     {
       "specialty": "Pulmonary Disease",
-      "payments": 26323691.0,
+      "payments": 26323691,
       "providers": 441
     },
     {
@@ -918,5 +918,72 @@
       "services": 68484692,
       "providers": 47844
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 31,
+    "total_flagged_payments": 20653899.68,
+    "top_flagged_providers": [
+      {
+        "npi": "1982671186",
+        "name": "Natwarlal Jethva",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9455,
+        "total_payments": 1318336,
+        "total_services": 24643,
+        "risk_rank": 15,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1730171919",
+        "name": "M Lali",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9408,
+        "total_payments": 637017.52,
+        "total_services": 14091,
+        "risk_rank": 30,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1780654996",
+        "name": "Osama Al-Samkari",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9346,
+        "total_payments": 368352.18,
+        "total_services": 7420,
+        "risk_rank": 48,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1861482184",
+        "name": "Basel Yanes",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9329,
+        "total_payments": 1149694.28,
+        "total_services": 19575,
+        "risk_rank": 51,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1992800601",
+        "name": "Robert Miller",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9287,
+        "total_payments": 330373.92,
+        "total_services": 5925,
+        "risk_rank": 85,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

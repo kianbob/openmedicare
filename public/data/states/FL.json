@@ -484,7 +484,7 @@
       "code": "88305",
       "description": "Pathology examination of tissue using a microscope, intermediate complexity",
       "services": 1988873,
-      "payments": 81633621.0,
+      "payments": 81633621,
       "providers": 978
     },
     {
@@ -828,7 +828,7 @@
     },
     {
       "specialty": "Pulmonary Disease",
-      "payments": 108463585.0,
+      "payments": 108463585,
       "providers": 711
     },
     {
@@ -918,5 +918,72 @@
       "services": 286685832,
       "providers": 77006
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 56,
+    "total_flagged_payments": 52639253.75,
+    "top_flagged_providers": [
+      {
+        "npi": "1871556290",
+        "name": "Jay Berger",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9528,
+        "total_payments": 748188.53,
+        "total_services": 12839,
+        "risk_rank": 14,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1609929405",
+        "name": "Michael Hernandez",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9508,
+        "total_payments": 1210736.85,
+        "total_services": 21727,
+        "risk_rank": 9,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1639175128",
+        "name": "Ingrid Zumaran",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9413,
+        "total_payments": 1194158.68,
+        "total_services": 17879,
+        "risk_rank": 29,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1922160308",
+        "name": "Syed Zaidi",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9409,
+        "total_payments": 784176.29,
+        "total_services": 15147,
+        "risk_rank": 31,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1720062342",
+        "name": "Lionel Gatien",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9333,
+        "total_payments": 800259.91,
+        "total_services": 13558,
+        "risk_rank": 68,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

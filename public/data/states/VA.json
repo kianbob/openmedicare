@@ -728,7 +728,7 @@
     },
     {
       "specialty": "Nurse Practitioner",
-      "payments": 133151740.0,
+      "payments": 133151740,
       "providers": 4635
     },
     {
@@ -918,5 +918,74 @@
       "services": 73668209,
       "providers": 29945
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 5,
+    "total_flagged_payments": 3263588.58,
+    "top_flagged_providers": [
+      {
+        "npi": "1689649832",
+        "name": "Daniel Mccready",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9144,
+        "total_payments": 1658295.3,
+        "total_services": 37342,
+        "risk_rank": 93,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1285636894",
+        "name": "Redouane Goulmamine",
+        "specialty": "Physical Medicine and Rehabilitation",
+        "fraud_probability": 0.9056,
+        "total_payments": 433154.12,
+        "total_services": 10010,
+        "risk_rank": 126,
+        "top_risk_factors": [
+          "High services/patient",
+          "Extreme volume",
+          "Volume-driven pattern"
+        ]
+      },
+      {
+        "npi": "1366542508",
+        "name": "Phillip Dennis",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8985,
+        "total_payments": 401493.6,
+        "total_services": 8877,
+        "risk_rank": 225,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1053473298",
+        "name": "William Naylor",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8909,
+        "total_payments": 132072,
+        "total_services": 2643,
+        "risk_rank": 420,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1790770030",
+        "name": "Harold Blumenthal",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8828,
+        "total_payments": 638573.56,
+        "total_services": 11017,
+        "risk_rank": 408,
+        "top_risk_factors": [
+          "High services/patient"
+        ]
+      }
+    ]
+  }
 }

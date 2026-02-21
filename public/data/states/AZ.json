@@ -84,7 +84,7 @@
       "name": "Genetic Technological Innovations, Llc",
       "specialty": "Clinical Laboratory",
       "services": 653413,
-      "payments": 21523706.0
+      "payments": 21523706
     },
     {
       "npi": 1285292334,
@@ -217,7 +217,7 @@
       "name": "Pisa Asc Holdco Llc",
       "specialty": "Ambulatory Surgical Center",
       "services": 4796,
-      "payments": 4605690.0
+      "payments": 4605690
     },
     {
       "npi": 1114182888,
@@ -561,7 +561,7 @@
       "code": "17311",
       "description": "Removal and microscopic exam of growth of head, neck, hands, feet, or genitals, 1-5 tissue blocks",
       "services": 32663,
-      "payments": 14827434.0,
+      "payments": 14827434,
       "providers": 100
     },
     {
@@ -918,5 +918,75 @@
       "services": 73561760,
       "providers": 24018
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 11,
+    "total_flagged_payments": 9132641.5,
+    "top_flagged_providers": [
+      {
+        "npi": "1891808028",
+        "name": "Duan Copeland",
+        "specialty": "Geriatric Medicine",
+        "fraud_probability": 0.9195,
+        "total_payments": 1084758.07,
+        "total_services": 27761,
+        "risk_rank": 91,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1669413274",
+        "name": "Guy Cary",
+        "specialty": "Neurology",
+        "fraud_probability": 0.9088,
+        "total_payments": 187920.58,
+        "total_services": 3223,
+        "risk_rank": 202,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1144330366",
+        "name": "Paul Hanson",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8922,
+        "total_payments": 760372.93,
+        "total_services": 12922,
+        "risk_rank": 293,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1407881717",
+        "name": "Clarence Clark",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8914,
+        "total_payments": 1570108.8,
+        "total_services": 40296,
+        "risk_rank": 215,
+        "top_risk_factors": [
+          "High services/patient",
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1497890255",
+        "name": "Devin Mikles",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.891,
+        "total_payments": 436641.09,
+        "total_services": 8284,
+        "risk_rank": 286,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

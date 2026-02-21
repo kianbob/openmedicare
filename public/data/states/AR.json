@@ -91,7 +91,7 @@
       "name": "Stephen Divers",
       "specialty": "Medical Oncology",
       "services": 331724,
-      "payments": 3892943.0
+      "payments": 3892943
     },
     {
       "npi": 1447583406,
@@ -217,7 +217,7 @@
       "name": "John King",
       "specialty": "Ophthalmology",
       "services": 48843,
-      "payments": 2758458.0
+      "payments": 2758458
     },
     {
       "npi": 1356312466,
@@ -918,5 +918,38 @@
       "services": 30044301,
       "providers": 10175
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 2,
+    "total_flagged_payments": 3607476.34,
+    "top_flagged_providers": [
+      {
+        "npi": "1699758011",
+        "name": "Ching-Shan Lin",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9249,
+        "total_payments": 756292.71,
+        "total_services": 18069,
+        "risk_rank": 128,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1538491360",
+        "name": "Adam Sewell",
+        "specialty": "Anesthesiology",
+        "fraud_probability": 0.9004,
+        "total_payments": 2851183.63,
+        "total_services": 43890,
+        "risk_rank": 241,
+        "top_risk_factors": [
+          "7-figure billing",
+          "Multi-million billing",
+          "Volume-driven pattern"
+        ]
+      }
+    ]
+  }
 }

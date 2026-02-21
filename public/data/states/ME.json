@@ -77,7 +77,7 @@
       "name": "Jackie Nguyen",
       "specialty": "Ophthalmology",
       "services": 28508,
-      "payments": 1795894.0
+      "payments": 1795894
     },
     {
       "npi": 1447465737,
@@ -878,7 +878,7 @@
     },
     {
       "year": 2017,
-      "payments": 296418823.0,
+      "payments": 296418823,
       "services": 7938245,
       "providers": 6340
     },
@@ -918,5 +918,24 @@
       "services": 6133944,
       "providers": 6424
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 1,
+    "total_flagged_payments": 983184.5,
+    "top_flagged_providers": [
+      {
+        "npi": "1053593962",
+        "name": "Karen Saylor",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.944,
+        "total_payments": 983184.5,
+        "total_services": 20364,
+        "risk_rank": 32,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

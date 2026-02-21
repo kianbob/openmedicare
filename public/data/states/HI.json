@@ -322,7 +322,7 @@
       "name": "Pacific Endoscopy Center Llc",
       "specialty": "Ambulatory Surgical Center",
       "services": 1265,
-      "payments": 476471.0
+      "payments": 476471
     },
     {
       "npi": 1356385793,
@@ -350,7 +350,7 @@
       "name": "Maui Diagnostic Imaging Llc",
       "specialty": "Independent Diagnostic Testing Facility (IDTF)",
       "services": 49929,
-      "payments": 469136.0
+      "payments": 469136
     }
   ],
   "top_procedures": [
@@ -491,7 +491,7 @@
       "code": "G0439",
       "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
       "services": 19651,
-      "payments": 2109600.0,
+      "payments": 2109600,
       "providers": 261
     },
     {
@@ -918,5 +918,37 @@
       "services": 5866257,
       "providers": 3989
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 2,
+    "total_flagged_payments": 957617.63,
+    "top_flagged_providers": [
+      {
+        "npi": "1639545528",
+        "name": "Christopher Dubuque",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9195,
+        "total_payments": 776760.57,
+        "total_services": 12944,
+        "risk_rank": 106,
+        "top_risk_factors": [
+          "High services/patient",
+          "Volume-driven pattern"
+        ]
+      },
+      {
+        "npi": "1134206329",
+        "name": "Victoria Wang",
+        "specialty": "Allergy/Immunology",
+        "fraud_probability": 0.9182,
+        "total_payments": 180857.06,
+        "total_services": 3693,
+        "risk_rank": 99,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

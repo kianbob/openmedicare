@@ -70,7 +70,7 @@
       "name": "John Kitchens",
       "specialty": "Ophthalmology",
       "services": 33225,
-      "payments": 3518138.0
+      "payments": 3518138
     },
     {
       "npi": 1346440583,
@@ -512,7 +512,7 @@
       "code": "A0428",
       "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
       "services": 42194,
-      "payments": 7969446.0,
+      "payments": 7969446,
       "providers": 113
     },
     {
@@ -918,5 +918,73 @@
       "services": 27697168,
       "providers": 17628
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 10,
+    "total_flagged_payments": 9363925.43,
+    "top_flagged_providers": [
+      {
+        "npi": "1811004542",
+        "name": "Amjad Faheem",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9315,
+        "total_payments": 563469.96,
+        "total_services": 16732,
+        "risk_rank": 43,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1437190287",
+        "name": "Indu Malik",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9136,
+        "total_payments": 591836.11,
+        "total_services": 14500,
+        "risk_rank": 123,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1659329340",
+        "name": "Mohammad Jawed",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9121,
+        "total_payments": 2109163.61,
+        "total_services": 38900,
+        "risk_rank": 206,
+        "top_risk_factors": [
+          "7-figure billing",
+          "Multi-million billing"
+        ]
+      },
+      {
+        "npi": "1932112042",
+        "name": "Paul Dunn",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9065,
+        "total_payments": 336123.89,
+        "total_services": 9156,
+        "risk_rank": 229,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1982713699",
+        "name": "Joseph Daugherty",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8949,
+        "total_payments": 148143.91,
+        "total_services": 2528,
+        "risk_rank": 252,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

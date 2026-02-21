@@ -343,7 +343,7 @@
       "name": "Rama Suresh",
       "specialty": "Medical Oncology",
       "services": 162623,
-      "payments": 2079927.0
+      "payments": 2079927
     },
     {
       "npi": 1891759569,
@@ -414,7 +414,7 @@
       "code": "J9271",
       "description": "Injection, pembrolizumab, 1 mg",
       "services": 515203,
-      "payments": 22088439.0,
+      "payments": 22088439,
       "providers": 44
     },
     {
@@ -918,5 +918,73 @@
       "services": 39779098,
       "providers": 23117
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 12,
+    "total_flagged_payments": 6825964.2,
+    "top_flagged_providers": [
+      {
+        "npi": "1093807497",
+        "name": "Sudhirkumar Shah",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9532,
+        "total_payments": 724716.33,
+        "total_services": 13044,
+        "risk_rank": 8,
+        "top_risk_factors": [
+          "Volume-driven pattern"
+        ]
+      },
+      {
+        "npi": "1356310395",
+        "name": "Yusuf Chaudhry",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9487,
+        "total_payments": 1065015.82,
+        "total_services": 16622,
+        "risk_rank": 13,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1073892477",
+        "name": "Sangmin Ahn",
+        "specialty": "Physical Medicine and Rehabilitation",
+        "fraud_probability": 0.9435,
+        "total_payments": 1007834.14,
+        "total_services": 17693,
+        "risk_rank": 20,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1255307526",
+        "name": "Chul Kim",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9301,
+        "total_payments": 690627.77,
+        "total_services": 16680,
+        "risk_rank": 45,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1710931878",
+        "name": "James Cesar",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9181,
+        "total_payments": 261823.87,
+        "total_services": 6460,
+        "risk_rank": 67,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

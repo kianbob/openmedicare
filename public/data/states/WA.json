@@ -918,5 +918,72 @@
       "services": 37972922,
       "providers": 25873
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 5,
+    "total_flagged_payments": 2987609.43,
+    "top_flagged_providers": [
+      {
+        "npi": "1336451798",
+        "name": "Azar Sadeghalvad",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9209,
+        "total_payments": 379574.98,
+        "total_services": 6492,
+        "risk_rank": 82,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1891703997",
+        "name": "Mark Maiocco",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9001,
+        "total_payments": 546470.1,
+        "total_services": 10917,
+        "risk_rank": 161,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1255365839",
+        "name": "Daniel Graves",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8941,
+        "total_payments": 1263731.51,
+        "total_services": 24523,
+        "risk_rank": 427,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1699732578",
+        "name": "Teackle Martin",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8876,
+        "total_payments": 144554.77,
+        "total_services": 2755,
+        "risk_rank": 476,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1295789659",
+        "name": "Roger Olsen",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8771,
+        "total_payments": 653278.08,
+        "total_services": 15998,
+        "risk_rank": 390,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

@@ -273,7 +273,7 @@
       "name": "Eric Weichel",
       "specialty": "Ophthalmology",
       "services": 24815,
-      "payments": 4131851.0
+      "payments": 4131851
     },
     {
       "npi": 1174718456,
@@ -308,7 +308,7 @@
       "name": "Daniel Becker",
       "specialty": "Neurology",
       "services": 87150,
-      "payments": 3891503.0
+      "payments": 3891503
     },
     {
       "npi": 1073584439,
@@ -358,7 +358,7 @@
       "code": "99214",
       "description": "Established patient office or other outpatient visit, 30-39 minutes",
       "services": 2904537,
-      "payments": 247489830.0,
+      "payments": 247489830,
       "providers": 10274
     },
     {
@@ -918,5 +918,72 @@
       "services": 72945136,
       "providers": 24406
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 9,
+    "total_flagged_payments": 6249864.36,
+    "top_flagged_providers": [
+      {
+        "npi": "1518934298",
+        "name": "Kin Wun",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9432,
+        "total_payments": 592200.85,
+        "total_services": 10258,
+        "risk_rank": 22,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1053708073",
+        "name": "Sibat Khwaja",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8979,
+        "total_payments": 816681.86,
+        "total_services": 11943,
+        "risk_rank": 301,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1467454843",
+        "name": "Samuel Beitler",
+        "specialty": "Podiatry",
+        "fraud_probability": 0.8932,
+        "total_payments": 1298055.44,
+        "total_services": 26009,
+        "risk_rank": 253,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1306871959",
+        "name": "Ashok Chatterjee",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8898,
+        "total_payments": 231369.66,
+        "total_services": 4174,
+        "risk_rank": 406,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1215921788",
+        "name": "Jayantilal Patel",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8864,
+        "total_payments": 199866.02,
+        "total_services": 3080,
+        "risk_rank": 389,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

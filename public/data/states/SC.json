@@ -203,7 +203,7 @@
       "name": "Midlands Orthopaedics Surgery Center, Llc",
       "specialty": "Ambulatory Surgical Center",
       "services": 48369,
-      "payments": 3496972.0
+      "payments": 3496972
     },
     {
       "npi": 1033186713,
@@ -713,7 +713,7 @@
     },
     {
       "specialty": "Nurse Practitioner",
-      "payments": 138340016.0,
+      "payments": 138340016,
       "providers": 3274
     },
     {
@@ -758,7 +758,7 @@
     },
     {
       "specialty": "Physician Assistant",
-      "payments": 55203127.0,
+      "payments": 55203127,
       "providers": 1565
     },
     {
@@ -918,5 +918,73 @@
       "services": 50610844,
       "providers": 18943
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 7,
+    "total_flagged_payments": 6881826.75,
+    "top_flagged_providers": [
+      {
+        "npi": "1255378568",
+        "name": "Lloyd Miller",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9446,
+        "total_payments": 683288.06,
+        "total_services": 10586,
+        "risk_rank": 17,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1306855143",
+        "name": "Blake Moore",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9173,
+        "total_payments": 1709683.27,
+        "total_services": 34404,
+        "risk_rank": 100,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1679542492",
+        "name": "Robert Ringel",
+        "specialty": "Neurology",
+        "fraud_probability": 0.9028,
+        "total_payments": 1443723.72,
+        "total_services": 24376,
+        "risk_rank": 188,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1659352003",
+        "name": "William King",
+        "specialty": "Geriatric Medicine",
+        "fraud_probability": 0.8925,
+        "total_payments": 312554.13,
+        "total_services": 6484,
+        "risk_rank": 313,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1871551804",
+        "name": "Christopher Rubel",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8875,
+        "total_payments": 1882432.37,
+        "total_services": 46676,
+        "risk_rank": 401,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      }
+    ]
+  }
 }

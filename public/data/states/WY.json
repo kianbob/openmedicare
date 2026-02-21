@@ -182,7 +182,7 @@
       "name": "Guardian Flight Llc",
       "specialty": "Ambulance Service Provider",
       "services": 16422,
-      "payments": 554555.0
+      "payments": 554555
     },
     {
       "npi": 1336202704,
@@ -400,7 +400,7 @@
       "code": "97112",
       "description": "Therapy procedure to re-educate brain-to-nerve-to-muscle function, each 15 minutes",
       "services": 138466,
-      "payments": 2975862.0,
+      "payments": 2975862,
       "providers": 282
     },
     {
@@ -918,5 +918,25 @@
       "services": 4163761,
       "providers": 2159
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 1,
+    "total_flagged_payments": 1038162.41,
+    "top_flagged_providers": [
+      {
+        "npi": "1639177769",
+        "name": "Michael Strahan",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9144,
+        "total_payments": 1038162.41,
+        "total_services": 23914,
+        "risk_rank": 116,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      }
+    ]
+  }
 }

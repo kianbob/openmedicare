@@ -56,7 +56,7 @@
       "name": "Chinedu Okeke",
       "specialty": "General Practice",
       "services": 2833,
-      "payments": 1193171.0
+      "payments": 1193171
     },
     {
       "npi": 1003835034,
@@ -918,5 +918,48 @@
       "services": 4430232,
       "providers": 3704
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 3,
+    "total_flagged_payments": 1390736.88,
+    "top_flagged_providers": [
+      {
+        "npi": "1114999497",
+        "name": "Margarita Kullick",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9327,
+        "total_payments": 720112.3,
+        "total_services": 13123,
+        "risk_rank": 59,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1558339044",
+        "name": "Robert Dibble",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.882,
+        "total_payments": 79275.64,
+        "total_services": 1587,
+        "risk_rank": 272,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1780775346",
+        "name": "Simeon Obeng",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8818,
+        "total_payments": 591348.94,
+        "total_services": 8067,
+        "risk_rank": 393,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

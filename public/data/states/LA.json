@@ -70,7 +70,7 @@
       "name": "Pafford Emergency Medical Services, Inc.",
       "specialty": "Ambulance Service Provider",
       "services": 171703,
-      "payments": 4592367.0
+      "payments": 4592367
     },
     {
       "npi": 1578846598,
@@ -140,7 +140,7 @@
       "name": "Charles Lyon",
       "specialty": "Ophthalmology",
       "services": 18035,
-      "payments": 2605500.0
+      "payments": 2605500
     },
     {
       "npi": 1104497700,
@@ -918,5 +918,74 @@
       "services": 30718748,
       "providers": 16140
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 8,
+    "total_flagged_payments": 4713779.72,
+    "top_flagged_providers": [
+      {
+        "npi": "1720028616",
+        "name": "Robert Ewing",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9265,
+        "total_payments": 882512.63,
+        "total_services": 15149,
+        "risk_rank": 97,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1407155070",
+        "name": "Reagan Bonin",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8945,
+        "total_payments": 213377.79,
+        "total_services": 3439,
+        "risk_rank": 309,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1508943176",
+        "name": "Juan Medina",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8904,
+        "total_payments": 321909.68,
+        "total_services": 6585,
+        "risk_rank": 256,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1215984547",
+        "name": "Oluwatoyin Olatinwo",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8902,
+        "total_payments": 454061.33,
+        "total_services": 9353,
+        "risk_rank": 260,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1356334890",
+        "name": "Raghavendra Narra",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8848,
+        "total_payments": 414016.28,
+        "total_services": 7950,
+        "risk_rank": 212,
+        "top_risk_factors": [
+          "High services/patient",
+          "Extreme volume",
+          "Volume-driven pattern"
+        ]
+      }
+    ]
+  }
 }

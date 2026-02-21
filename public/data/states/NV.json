@@ -918,5 +918,61 @@
       "services": 27121409,
       "providers": 8793
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 4,
+    "total_flagged_payments": 2845146.05,
+    "top_flagged_providers": [
+      {
+        "npi": "1598765984",
+        "name": "Gregory Bryan",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9227,
+        "total_payments": 353086.83,
+        "total_services": 6723,
+        "risk_rank": 71,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1932168846",
+        "name": "Mark Burroff",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.91,
+        "total_payments": 443191.33,
+        "total_services": 7087,
+        "risk_rank": 157,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1699953513",
+        "name": "Avi Ostrowsky",
+        "specialty": "Endocrinology",
+        "fraud_probability": 0.891,
+        "total_payments": 1529311.56,
+        "total_services": 25287,
+        "risk_rank": 258,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1467430504",
+        "name": "Newton Yco",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8799,
+        "total_payments": 519556.33,
+        "total_services": 10769,
+        "risk_rank": 486,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      }
+    ]
+  }
 }

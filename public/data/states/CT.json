@@ -491,7 +491,7 @@
       "code": "92014",
       "description": "Established patient complete exam of visual system",
       "services": 117704,
-      "payments": 10842740.0,
+      "payments": 10842740,
       "providers": 583
     },
     {
@@ -918,5 +918,60 @@
       "services": 20118656,
       "providers": 16663
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 4,
+    "total_flagged_payments": 3353350.61,
+    "top_flagged_providers": [
+      {
+        "npi": "1619934296",
+        "name": "Peter Jones",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.952,
+        "total_payments": 1024564.17,
+        "total_services": 28801,
+        "risk_rank": 21,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1922360585",
+        "name": "Lawrence Giove",
+        "specialty": "Hematology-Oncology",
+        "fraud_probability": 0.9098,
+        "total_payments": 807969.85,
+        "total_services": 13752,
+        "risk_rank": 268,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1295843613",
+        "name": "Robert Shapiro",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9098,
+        "total_payments": 538986.79,
+        "total_services": 14803,
+        "risk_rank": 132,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1366420184",
+        "name": "Qaiyum Mujtaba",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9063,
+        "total_payments": 981829.8,
+        "total_services": 15824,
+        "risk_rank": 232,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

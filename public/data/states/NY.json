@@ -84,7 +84,7 @@
       "name": "Richmond County Ambulance Service, Inc",
       "specialty": "Ambulance Service Provider",
       "services": 210358,
-      "payments": 12100532.0
+      "payments": 12100532
     },
     {
       "npi": 1255468328,
@@ -624,14 +624,14 @@
       "code": "99205",
       "description": "New patient office or other outpatient visit, 60-74 minutes",
       "services": 154496,
-      "payments": 27093360.0,
+      "payments": 27093360,
       "providers": 4262
     },
     {
       "code": "90960",
       "description": "Dialysis services, 4 or more physician visits per month (20 years or older)",
       "services": 84667,
-      "payments": 25647945.0,
+      "payments": 25647945,
       "providers": 437
     },
     {
@@ -918,5 +918,73 @@
       "services": 163319798,
       "providers": 80484
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 39,
+    "total_flagged_payments": 30659844.63,
+    "top_flagged_providers": [
+      {
+        "npi": "1265990097",
+        "name": "Natalia Maximovsky",
+        "specialty": "Nurse Practitioner",
+        "fraud_probability": 0.9427,
+        "total_payments": 1649701.2,
+        "total_services": 28329,
+        "risk_rank": 34,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1568402386",
+        "name": "Norman Haywood",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9424,
+        "total_payments": 694884.71,
+        "total_services": 12036,
+        "risk_rank": 18,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1396849733",
+        "name": "Jack Goldman",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9422,
+        "total_payments": 573350.28,
+        "total_services": 15242,
+        "risk_rank": 25,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1649379934",
+        "name": "Mark Dashevskiy",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9378,
+        "total_payments": 1342386.43,
+        "total_services": 20684,
+        "risk_rank": 38,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1225126279",
+        "name": "Dunstan Pulle",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9296,
+        "total_payments": 272785.98,
+        "total_services": 4933,
+        "risk_rank": 80,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

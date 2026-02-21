@@ -435,7 +435,7 @@
       "code": "J9271",
       "description": "Injection, pembrolizumab, 1 mg",
       "services": 1413512,
-      "payments": 60365323.0,
+      "payments": 60365323,
       "providers": 107
     },
     {
@@ -918,5 +918,72 @@
       "services": 145639880,
       "providers": 47277
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 30,
+    "total_flagged_payments": 24314100.27,
+    "top_flagged_providers": [
+      {
+        "npi": "1972524510",
+        "name": "Frank Leung",
+        "specialty": "Endocrinology",
+        "fraud_probability": 0.9575,
+        "total_payments": 601845.96,
+        "total_services": 13871,
+        "risk_rank": 4,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1407865975",
+        "name": "Pandisseril Alexander",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9485,
+        "total_payments": 796985.8,
+        "total_services": 13178,
+        "risk_rank": 19,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1871505917",
+        "name": "Bhagavatlal Morker",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9344,
+        "total_payments": 830818.27,
+        "total_services": 18800,
+        "risk_rank": 190,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1265430409",
+        "name": "Devang Dharia",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9292,
+        "total_payments": 673505.08,
+        "total_services": 10742,
+        "risk_rank": 55,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1902892490",
+        "name": "Gary Lewison",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9278,
+        "total_payments": 678642.93,
+        "total_services": 13142,
+        "risk_rank": 46,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      }
+    ]
+  }
 }

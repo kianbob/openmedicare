@@ -848,7 +848,7 @@
     },
     {
       "specialty": "Podiatry",
-      "payments": 10663437.0,
+      "payments": 10663437,
       "providers": 112
     },
     {
@@ -918,5 +918,72 @@
       "services": 32797140,
       "providers": 12842
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 7,
+    "total_flagged_payments": 3066118.18,
+    "top_flagged_providers": [
+      {
+        "npi": "1134172083",
+        "name": "Maximo Fernan",
+        "specialty": "Pulmonary Disease",
+        "fraud_probability": 0.936,
+        "total_payments": 760224.76,
+        "total_services": 15030,
+        "risk_rank": 33,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1538153986",
+        "name": "Roger Kinney",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9102,
+        "total_payments": 431737.8,
+        "total_services": 12906,
+        "risk_rank": 120,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1689672644",
+        "name": "James Brixey",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9071,
+        "total_payments": 104613.31,
+        "total_services": 2264,
+        "risk_rank": 191,
+        "top_risk_factors": [
+          "Volume-driven pattern"
+        ]
+      },
+      {
+        "npi": "1255322111",
+        "name": "Robert Love",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8954,
+        "total_payments": 820455.99,
+        "total_services": 24776,
+        "risk_rank": 226,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1013406099",
+        "name": "Nazanin Hesami",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8878,
+        "total_payments": 128281.39,
+        "total_services": 2825,
+        "risk_rank": 358,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

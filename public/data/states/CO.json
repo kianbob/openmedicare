@@ -252,7 +252,7 @@
       "name": "Lone Tree Surgery Center, Llc",
       "specialty": "Ambulatory Surgical Center",
       "services": 3099,
-      "payments": 2342311.0
+      "payments": 2342311
     },
     {
       "npi": 1093004806,
@@ -308,7 +308,7 @@
       "name": "Matthew Asano",
       "specialty": "Ophthalmology",
       "services": 21564,
-      "payments": 2034036.0
+      "payments": 2034036
     },
     {
       "npi": 1508862624,
@@ -596,7 +596,7 @@
       "code": "88305",
       "description": "Pathology examination of tissue using a microscope, intermediate complexity",
       "services": 250783,
-      "payments": 8918777.0,
+      "payments": 8918777,
       "providers": 228
     },
     {
@@ -918,5 +918,60 @@
       "services": 37843571,
       "providers": 20218
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 4,
+    "total_flagged_payments": 1322796.27,
+    "top_flagged_providers": [
+      {
+        "npi": "1952397374",
+        "name": "Corinne Laurance",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9364,
+        "total_payments": 389613.84,
+        "total_services": 7925,
+        "risk_rank": 37,
+        "top_risk_factors": [
+          "Volume-driven pattern"
+        ]
+      },
+      {
+        "npi": "1770018749",
+        "name": "Anna Larionova",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.911,
+        "total_payments": 249715.26,
+        "total_services": 4985,
+        "risk_rank": 154,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1801917000",
+        "name": "Marion Schmucker",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9105,
+        "total_payments": 483526.25,
+        "total_services": 9020,
+        "risk_rank": 179,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1720192149",
+        "name": "Alexander Szabo",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.897,
+        "total_payments": 199940.92,
+        "total_services": 4664,
+        "risk_rank": 205,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

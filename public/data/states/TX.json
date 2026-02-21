@@ -407,7 +407,7 @@
       "code": "A0427",
       "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
       "services": 290420,
-      "payments": 114996604.0,
+      "payments": 114996604,
       "providers": 432
     },
     {
@@ -631,14 +631,14 @@
       "code": "45385",
       "description": "Removal of polyps or growths of large bowel using an endoscope with mechanical snare",
       "services": 105085,
-      "payments": 29796404.0,
+      "payments": 29796404,
       "providers": 1129
     },
     {
       "code": "J2778",
       "description": "Injection, ranibizumab, 0.1 mg",
       "services": 161503,
-      "payments": 29007157.0,
+      "payments": 29007157,
       "providers": 84
     },
     {
@@ -848,7 +848,7 @@
     },
     {
       "specialty": "Physical Medicine and Rehabilitation",
-      "payments": 71840160.0,
+      "payments": 71840160,
       "providers": 567
     },
     {
@@ -918,5 +918,74 @@
       "services": 217132905,
       "providers": 78270
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 36,
+    "total_flagged_payments": 26694847.43,
+    "top_flagged_providers": [
+      {
+        "npi": "1922055037",
+        "name": "Thilo Burzlaff",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9367,
+        "total_payments": 609814.84,
+        "total_services": 12319,
+        "risk_rank": 36,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1275535973",
+        "name": "Rajanikant Usgaonker",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9349,
+        "total_payments": 460875.1,
+        "total_services": 13284,
+        "risk_rank": 28,
+        "top_risk_factors": [
+          "High services/patient"
+        ]
+      },
+      {
+        "npi": "1790772275",
+        "name": "Jose Perez",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9262,
+        "total_payments": 1404900.19,
+        "total_services": 25407,
+        "risk_rank": 60,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1811096993",
+        "name": "Welton Hill",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9251,
+        "total_payments": 471854.96,
+        "total_services": 10997,
+        "risk_rank": 62,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1558439505",
+        "name": "Bhupatrai Vachhani",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9246,
+        "total_payments": 1014643.4,
+        "total_services": 18605,
+        "risk_rank": 111,
+        "top_risk_factors": [
+          "7-figure billing",
+          "Volume-driven pattern"
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
       "name": "Quest Diagnostics Incorporated",
       "specialty": "Clinical Laboratory",
       "services": 9239022,
-      "payments": 111157094.0
+      "payments": 111157094
     },
     {
       "npi": 1134277494,
@@ -161,7 +161,7 @@
       "name": "Tatiana Sharahy",
       "specialty": "Internal Medicine",
       "services": 471040,
-      "payments": 5663224.0
+      "payments": 5663224
     },
     {
       "npi": 1750373908,
@@ -449,7 +449,7 @@
       "code": "99215",
       "description": "Established patient office or other outpatient visit, 40-54 minutes",
       "services": 328991,
-      "payments": 44968528.0,
+      "payments": 44968528,
       "providers": 3745
     },
     {
@@ -918,5 +918,74 @@
       "services": 117720261,
       "providers": 36541
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 33,
+    "total_flagged_payments": 22613646.8,
+    "top_flagged_providers": [
+      {
+        "npi": "1063460939",
+        "name": "John Daconti",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9488,
+        "total_payments": 546970.91,
+        "total_services": 13328,
+        "risk_rank": 5,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1396858635",
+        "name": "Vivienne Matalon",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9474,
+        "total_payments": 813122.26,
+        "total_services": 13084,
+        "risk_rank": 23,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1821086216",
+        "name": "Steven Park",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9471,
+        "total_payments": 996022.4,
+        "total_services": 20444,
+        "risk_rank": 24,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1437130028",
+        "name": "Ellioth Fishkin",
+        "specialty": "Medical Oncology",
+        "fraud_probability": 0.9399,
+        "total_payments": 1415950.9,
+        "total_services": 43803,
+        "risk_rank": 40,
+        "top_risk_factors": [
+          "High services/patient",
+          "7-figure billing",
+          "Volume-driven pattern"
+        ]
+      },
+      {
+        "npi": "1144518457",
+        "name": "Kimberly Salwitz",
+        "specialty": "Hematology-Oncology",
+        "fraud_probability": 0.937,
+        "total_payments": 1652204.99,
+        "total_services": 31656,
+        "risk_rank": 50,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      }
+    ]
+  }
 }

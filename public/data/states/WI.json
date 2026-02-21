@@ -231,7 +231,7 @@
       "name": "Gold Cross Ambulance Service Inc",
       "specialty": "Ambulance Service Provider",
       "services": 31977,
-      "payments": 1429237.0
+      "payments": 1429237
     },
     {
       "npi": 1376860668,
@@ -918,5 +918,37 @@
       "services": 25798991,
       "providers": 24405
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 2,
+    "total_flagged_payments": 1264158.12,
+    "top_flagged_providers": [
+      {
+        "npi": "1235271958",
+        "name": "Edward Cooney",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9063,
+        "total_payments": 751915.17,
+        "total_services": 13382,
+        "risk_rank": 218,
+        "top_risk_factors": [
+          "High markup ratio",
+          "Extreme markup"
+        ]
+      },
+      {
+        "npi": "1679648356",
+        "name": "Sumit Verma",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8808,
+        "total_payments": 512242.95,
+        "total_services": 7825,
+        "risk_rank": 280,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

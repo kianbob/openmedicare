@@ -918,5 +918,72 @@
       "services": 69409395,
       "providers": 33154
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 11,
+    "total_flagged_payments": 11863065.51,
+    "top_flagged_providers": [
+      {
+        "npi": "1346237096",
+        "name": "Edd Jones",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.947,
+        "total_payments": 795844.18,
+        "total_services": 18608,
+        "risk_rank": 10,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1770540015",
+        "name": "James Walker",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.924,
+        "total_payments": 755886.23,
+        "total_services": 16540,
+        "risk_rank": 66,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1982693560",
+        "name": "Janet Griffin",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9179,
+        "total_payments": 504981.73,
+        "total_services": 15024,
+        "risk_rank": 172,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1730128638",
+        "name": "William Eyzaguirre",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9163,
+        "total_payments": 725493.1,
+        "total_services": 23768,
+        "risk_rank": 98,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1902148539",
+        "name": "Adam Pettigrew",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9006,
+        "total_payments": 1019256.4,
+        "total_services": 16918,
+        "risk_rank": 279,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      }
+    ]
+  }
 }

@@ -793,7 +793,7 @@
     },
     {
       "specialty": "Hospitalist",
-      "payments": 38806309.0,
+      "payments": 38806309,
       "providers": 882
     },
     {
@@ -918,5 +918,72 @@
       "services": 86899919,
       "providers": 40231
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 13,
+    "total_flagged_payments": 9219567.32,
+    "top_flagged_providers": [
+      {
+        "npi": "1801824545",
+        "name": "Miriam Fernz",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9361,
+        "total_payments": 1131798.85,
+        "total_services": 23069,
+        "risk_rank": 27,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1457356768",
+        "name": "James Long",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9277,
+        "total_payments": 776451.88,
+        "total_services": 14145,
+        "risk_rank": 167,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1366436024",
+        "name": "Mohamed Osman",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9198,
+        "total_payments": 263052.95,
+        "total_services": 5061,
+        "risk_rank": 79,
+        "top_risk_factors": [
+          "Volume-driven pattern"
+        ]
+      },
+      {
+        "npi": "1497717342",
+        "name": "Enrique Marana",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9054,
+        "total_payments": 671051.32,
+        "total_services": 13214,
+        "risk_rank": 211,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1538254388",
+        "name": "Steven Landau",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9024,
+        "total_payments": 219418.99,
+        "total_services": 4700,
+        "risk_rank": 148,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

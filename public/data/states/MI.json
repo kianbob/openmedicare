@@ -773,7 +773,7 @@
     },
     {
       "specialty": "Dermatology",
-      "payments": 46642140.0,
+      "payments": 46642140,
       "providers": 340
     },
     {
@@ -918,5 +918,72 @@
       "services": 51597989,
       "providers": 39654
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 30,
+    "total_flagged_payments": 27915282.47,
+    "top_flagged_providers": [
+      {
+        "npi": "1992151401",
+        "name": "Naiff Ali",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9461,
+        "total_payments": 784558.69,
+        "total_services": 12456,
+        "risk_rank": 16,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1912298654",
+        "name": "Learie Yuille",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9339,
+        "total_payments": 967910.59,
+        "total_services": 12817,
+        "risk_rank": 41,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1114968419",
+        "name": "Fakhruddin Attar",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9239,
+        "total_payments": 589384.78,
+        "total_services": 10128,
+        "risk_rank": 94,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1467567909",
+        "name": "Abdul Choudhry",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9227,
+        "total_payments": 666825.48,
+        "total_services": 13473,
+        "risk_rank": 78,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1619992088",
+        "name": "Leonides Dizon",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9227,
+        "total_payments": 1142945.32,
+        "total_services": 15179,
+        "risk_rank": 77,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      }
+    ]
+  }
 }

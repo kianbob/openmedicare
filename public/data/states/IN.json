@@ -582,7 +582,7 @@
       "code": "91322",
       "description": "Sarscov2 vac 50 mcg/0.5ml im",
       "services": 66085,
-      "payments": 9304160.0,
+      "payments": 9304160,
       "providers": 663
     },
     {
@@ -918,5 +918,73 @@
       "services": 40270321,
       "providers": 24665
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 8,
+    "total_flagged_payments": 6428872.47,
+    "top_flagged_providers": [
+      {
+        "npi": "1194756411",
+        "name": "Michael Cozzi",
+        "specialty": "Anesthesiology",
+        "fraud_probability": 0.9429,
+        "total_payments": 1662835.67,
+        "total_services": 25541,
+        "risk_rank": 3,
+        "top_risk_factors": [
+          "High markup ratio",
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1700885498",
+        "name": "Stephen Kennedy",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9172,
+        "total_payments": 639512.52,
+        "total_services": 10516,
+        "risk_rank": 153,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1689755886",
+        "name": "Raymundo Billena",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9112,
+        "total_payments": 68229.36,
+        "total_services": 1242,
+        "risk_rank": 224,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1295766467",
+        "name": "Ifeanyi Anigbo",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9004,
+        "total_payments": 853011.32,
+        "total_services": 16493,
+        "risk_rank": 330,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1982639712",
+        "name": "Larry Williams",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8968,
+        "total_payments": 635524.93,
+        "total_services": 17929,
+        "risk_rank": 230,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      }
+    ]
+  }
 }

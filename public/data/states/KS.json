@@ -147,7 +147,7 @@
       "name": "Phu Truong",
       "specialty": "Hematology-Oncology",
       "services": 370398,
-      "payments": 4064504.0
+      "payments": 4064504
     },
     {
       "npi": 1225070717,
@@ -442,7 +442,7 @@
       "code": "99204",
       "description": "New patient office or other outpatient visit, 45-59 minutes",
       "services": 112927,
-      "payments": 11643570.0,
+      "payments": 11643570,
       "providers": 1934
     },
     {
@@ -918,5 +918,24 @@
       "services": 30999508,
       "providers": 11485
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 1,
+    "total_flagged_payments": 80136.23,
+    "top_flagged_providers": [
+      {
+        "npi": "1922006592",
+        "name": "Anwarul Siddiqui",
+        "specialty": "Neurology",
+        "fraud_probability": 0.9028,
+        "total_payments": 80136.23,
+        "total_services": 1327,
+        "risk_rank": 160,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

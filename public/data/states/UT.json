@@ -203,7 +203,7 @@
       "name": "Tyler Hobbs",
       "specialty": "Nurse Practitioner",
       "services": 376489,
-      "payments": 1855023.0
+      "payments": 1855023
     },
     {
       "npi": 1922012582,
@@ -393,7 +393,7 @@
       "code": "J2777",
       "description": "Injection, faricimab-svoa, 0.1 mg",
       "services": 432545,
-      "payments": 12573640.0,
+      "payments": 12573640,
       "providers": 24
     },
     {
@@ -540,7 +540,7 @@
       "code": "J2323",
       "description": "Injection, natalizumab, 1 mg",
       "services": 208282,
-      "payments": 3708444.0,
+      "payments": 3708444,
       "providers": 5
     },
     {
@@ -884,7 +884,7 @@
     },
     {
       "year": 2018,
-      "payments": 519737286.0,
+      "payments": 519737286,
       "services": 11946247,
       "providers": 7717
     },
@@ -918,5 +918,24 @@
       "services": 13312601,
       "providers": 9395
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 1,
+    "total_flagged_payments": 861784.05,
+    "top_flagged_providers": [
+      {
+        "npi": "1700814803",
+        "name": "Kimberly Beck",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9137,
+        "total_payments": 861784.05,
+        "total_services": 11679,
+        "risk_rank": 162,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

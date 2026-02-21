@@ -918,5 +918,72 @@
       "services": 64364886,
       "providers": 27495
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 14,
+    "total_flagged_payments": 11724446.24,
+    "top_flagged_providers": [
+      {
+        "npi": "1457444366",
+        "name": "Niladri Panda",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9356,
+        "total_payments": 574348.24,
+        "total_services": 12851,
+        "risk_rank": 35,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1396710794",
+        "name": "Mary Mcdonald",
+        "specialty": "Physical Medicine and Rehabilitation",
+        "fraud_probability": 0.9228,
+        "total_payments": 757447.23,
+        "total_services": 14371,
+        "risk_rank": 86,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1780600874",
+        "name": "James Williamson",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9062,
+        "total_payments": 591634.03,
+        "total_services": 14382,
+        "risk_rank": 217,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1790770378",
+        "name": "Ralph Ruckle",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.9029,
+        "total_payments": 244104.47,
+        "total_services": 5254,
+        "risk_rank": 209,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1811969157",
+        "name": "Gregory Vandeven",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8975,
+        "total_payments": 618089.04,
+        "total_services": 14466,
+        "risk_rank": 237,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

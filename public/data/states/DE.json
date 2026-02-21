@@ -718,7 +718,7 @@
     },
     {
       "specialty": "Cardiology",
-      "payments": 28082899.0,
+      "payments": 28082899,
       "providers": 72
     },
     {
@@ -918,5 +918,24 @@
       "services": 11808552,
       "providers": 4560
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 1,
+    "total_flagged_payments": 1055578.58,
+    "top_flagged_providers": [
+      {
+        "npi": "1568803575",
+        "name": "Haresh Sampathkumar",
+        "specialty": "Physical Medicine and Rehabilitation",
+        "fraud_probability": 0.9172,
+        "total_payments": 1055578.58,
+        "total_services": 15276,
+        "risk_rank": 151,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      }
+    ]
+  }
 }

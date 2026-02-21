@@ -91,7 +91,7 @@
       "name": "Ambry Genetics Corporation",
       "specialty": "Clinical Laboratory",
       "services": 23175,
-      "payments": 40813240.0
+      "payments": 40813240
     },
     {
       "npi": 1043344435,
@@ -210,7 +210,7 @@
       "name": "Biognomics Lab, Llc",
       "specialty": "Clinical Laboratory",
       "services": 1394450,
-      "payments": 16398732.0
+      "payments": 16398732
     },
     {
       "npi": 1245494517,
@@ -738,7 +738,7 @@
     },
     {
       "specialty": "Diagnostic Radiology",
-      "payments": 434485314.0,
+      "payments": 434485314,
       "providers": 3206
     },
     {
@@ -918,5 +918,72 @@
       "services": 268124174,
       "providers": 93498
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 56,
+    "total_flagged_payments": 53488289.99,
+    "top_flagged_providers": [
+      {
+        "npi": "1245366558",
+        "name": "Tuan Duong",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9558,
+        "total_payments": 516519.08,
+        "total_services": 11362,
+        "risk_rank": 6,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1710092481",
+        "name": "Robert Butler",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9514,
+        "total_payments": 990016.44,
+        "total_services": 21796,
+        "risk_rank": 44,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1083140172",
+        "name": "Jeremy Lam",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9469,
+        "total_payments": 799288.62,
+        "total_services": 18294,
+        "risk_rank": 12,
+        "top_risk_factors": [
+          "High markup ratio"
+        ]
+      },
+      {
+        "npi": "1164613899",
+        "name": "Alla Liberstein",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9369,
+        "total_payments": 677657.26,
+        "total_services": 16854,
+        "risk_rank": 42,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1497783591",
+        "name": "Mahesh Shah",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9341,
+        "total_payments": 637382.7,
+        "total_services": 10179,
+        "risk_rank": 49,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

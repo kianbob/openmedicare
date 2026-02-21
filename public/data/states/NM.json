@@ -918,5 +918,36 @@
       "services": 10220412,
       "providers": 6312
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 2,
+    "total_flagged_payments": 874768.83,
+    "top_flagged_providers": [
+      {
+        "npi": "1578675765",
+        "name": "David Aday",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8756,
+        "total_payments": 614209.58,
+        "total_services": 11745,
+        "risk_rank": 415,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1396806006",
+        "name": "Bradley Kanode",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8635,
+        "total_payments": 260559.24,
+        "total_services": 4554,
+        "risk_rank": 484,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }

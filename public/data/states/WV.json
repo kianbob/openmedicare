@@ -547,7 +547,7 @@
       "code": "27447",
       "description": "Replacement of knee joint, both sides of knee",
       "services": 2529,
-      "payments": 2737519.0,
+      "payments": 2737519,
       "providers": 71
     },
     {
@@ -918,5 +918,72 @@
       "services": 8874011,
       "providers": 6983
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_model_version": "2.0",
+    "flagged_provider_count": 7,
+    "total_flagged_payments": 4467214.5,
+    "top_flagged_providers": [
+      {
+        "npi": "1659378743",
+        "name": "Ramesh Thimmiah",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.9592,
+        "total_payments": 788667.95,
+        "total_services": 15021,
+        "risk_rank": 1,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1104867811",
+        "name": "Eugenio Menez",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.911,
+        "total_payments": 345362.39,
+        "total_services": 6526,
+        "risk_rank": 117,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1750490371",
+        "name": "Vinodrai Lakhani",
+        "specialty": "Internal Medicine",
+        "fraud_probability": 0.8966,
+        "total_payments": 559039.43,
+        "total_services": 14118,
+        "risk_rank": 207,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      },
+      {
+        "npi": "1770595043",
+        "name": "William Earley",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8943,
+        "total_payments": 1481303.33,
+        "total_services": 15240,
+        "risk_rank": 250,
+        "top_risk_factors": [
+          "7-figure billing"
+        ]
+      },
+      {
+        "npi": "1215963806",
+        "name": "Luis Soriano",
+        "specialty": "Family Practice",
+        "fraud_probability": 0.8884,
+        "total_payments": 323886.49,
+        "total_services": 7113,
+        "risk_rank": 355,
+        "top_risk_factors": [
+          "Matches confirmed fraud profile"
+        ]
+      }
+    ]
+  }
 }
