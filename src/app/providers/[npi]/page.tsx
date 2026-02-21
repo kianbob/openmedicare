@@ -27,6 +27,11 @@ interface TopProcedure {
   avg_markup: number
 }
 
+interface ExternalLink {
+  label: string
+  url: string
+}
+
 interface RawProvider {
   name: string
   credentials: string
@@ -43,6 +48,13 @@ interface RawProvider {
     years_active: number
   }
   top_procedures: TopProcedure[]
+  fraud_profile?: boolean
+  fraud_context?: string
+  notes?: string
+  external_links?: ExternalLink[]
+  services_per_day?: number
+  covid_share_pct?: number
+  wound_share_pct?: number
 }
 
 interface WatchlistEntry {
@@ -275,6 +287,51 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                 </p>
               </div>
             </div>
+          </div>
+        )}
+
+        {/* Fraud Analysis Profile */}
+        {raw.fraud_profile && (
+          <div className="bg-indigo-50 border-2 border-indigo-300 rounded-xl p-6 mb-8">
+            <h2 className="text-2xl font-bold text-indigo-900 font-playfair mb-4">🔍 Fraud Analysis Profile</h2>
+            
+            {raw.fraud_context && (
+              <div className="bg-white border border-indigo-200 rounded-lg p-4 mb-4">
+                <h3 className="font-semibold text-indigo-800 mb-2">Key Findings</h3>
+                <p className="text-gray-800">{raw.fraud_context}</p>
+              </div>
+            )}
+
+            {raw.services_per_day && (
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-sm font-medium text-indigo-800">📊 Services per working day:</span>
+                <span className="text-lg font-bold text-red-700">{formatNumber(raw.services_per_day)}</span>
+              </div>
+            )}
+
+            {raw.notes && (
+              <div className="bg-white border border-indigo-200 rounded-lg p-4 mb-4">
+                <h3 className="font-semibold text-indigo-800 mb-2">Background</h3>
+                <p className="text-gray-700 text-sm">{raw.notes}</p>
+              </div>
+            )}
+
+            {raw.external_links && raw.external_links.length > 0 && (
+              <div className="mb-4">
+                <h3 className="font-semibold text-indigo-800 mb-2">External Links</h3>
+                <div className="flex flex-wrap gap-3">
+                  {raw.external_links.map((link, i) => (
+                    <a key={i} href={link.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-3 py-1.5 bg-white border border-indigo-200 rounded-lg text-sm text-blue-700 hover:bg-indigo-100 transition-colors">
+                      {link.label} ↗
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <Link href="/investigations/three-providers" className="inline-flex items-center text-sm font-medium text-indigo-700 hover:text-indigo-900 underline">
+              Read the full investigation: Three Providers, $47M →
+            </Link>
           </div>
         )}
 

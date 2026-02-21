@@ -5,6 +5,12 @@
   "city": "Ridgewood",
   "state": "NJ",
   "entity_type": "Individual",
+  "fraud_profile": true,
+  "external_links": [{"label": "XBody Health & Wellness Spa", "url": "https://xbodyus.com/tatiana-sharahy-md/"}],
+  "notes": "Medical Director at XBody Health, Wellness & Spa in Wayne, NJ. Anti-aging medicine specialist. 'Top Doctor 2019' for Internal and Integrative Medicine. Specializes in Lyme disease, MINT threads, carboxytherapy, peptide treatments.",
+  "fraud_context": "96.7% COVID test billing in 2023. 1,884 services per day. Anti-aging spa doctor billing $5.7M in COVID tests. Also bills EEGs, nerve conduction, trigger points, ultrasonic guidance — unusual for internal medicine. Billing jumped from $0.2M to $5.7M (28x increase) in one year.",
+  "services_per_day": 1884.2,
+  "covid_share_pct": 96.7,
   "yearly_payments": [
     {
       "year": 2014,
@@ -82,7 +88,7 @@
       "year": 2023,
       "total_payments": 5663224.0,
       "total_services": 471040,
-      "total_beneficiaries": 26,
+      "total_beneficiaries": 29872,
       "avg_submitted": 15.78,
       "avg_paid": 12.02
     }
@@ -90,7 +96,7 @@
   "overall": {
     "total_payments": 7976627.82,
     "total_services": 521819,
-    "total_beneficiaries": 216,
+    "total_beneficiaries": 29872,
     "avg_markup_ratio": 3.34,
     "years_active": 10
   },

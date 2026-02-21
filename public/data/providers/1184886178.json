@@ -5,12 +5,18 @@
   "city": "Torrance",
   "state": "CA",
   "entity_type": "Individual",
+  "fraud_profile": true,
+  "external_links": [{"label": "Campaign Website", "url": "https://merrytaheri4assembly.com/"}],
+  "notes": "Running for California State Assembly District 69. DNP from UCSF. 24+ years in emergency nursing. Campaign describes 'front lines' COVID work. Medicare billing: 100% COVID tests (K1034), $12.1M in single year.",
+  "fraud_context": "4,132 services per day. 127,936 beneficiaries. 100% of billing from one code (K1034 COVID tests). Specialty z-score: 23.06 (23 standard deviations above median). Only active for 1 year in dataset.",
+  "services_per_day": 4131.8,
+  "covid_share_pct": 100,
   "yearly_payments": [
     {
       "year": 2023,
       "total_payments": 12149038.25,
       "total_services": 1032955,
-      "total_beneficiaries": 3,
+      "total_beneficiaries": 127936,
       "avg_submitted": 12.07,
       "avg_paid": 11.76
     }
@@ -18,7 +24,7 @@
   "overall": {
     "total_payments": 12149038.25,
     "total_services": 1032955,
-    "total_beneficiaries": 3,
+    "total_beneficiaries": 127936,
     "avg_markup_ratio": 1.03,
     "years_active": 1
   },
