@@ -9,8 +9,8 @@ interface SourceCitationProps {
 
 const defaultSources = [
   'Centers for Medicare & Medicaid Services (CMS)',
-  'Medicare Provider Utilization and Payment Data',
-  'Medicare Part B National Summary Data'
+  'Medicare Provider Utilization and Payment Data (2014-2023)',
+  'CMS National Health Expenditure Data'
 ]
 
 export default function SourceCitation({ 

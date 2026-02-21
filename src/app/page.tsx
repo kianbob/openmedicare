@@ -64,9 +64,9 @@ const keyNumbers = [
     icon: '📊'
   },
   {
-    label: 'Latest Data',
+    label: 'Latest CMS Release',
     value: keyStats.latestYear.toString(),
-    sublabel: 'Most recent year',
+    sublabel: 'Most recent available',
     icon: '🆕'
   }
 ]
@@ -252,7 +252,7 @@ export default function HomePage() {
       {/* Source Citation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <SourceCitation 
-          lastUpdated="February 2024"
+          lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
             'Medicare Provider Utilization and Payment Data (2014-2023)',
