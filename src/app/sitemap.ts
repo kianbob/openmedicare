@@ -62,6 +62,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/your-medicare-dollar',
     '/methodology',
     ...investigationSlugs.map(s => `/investigations/${s}`),
+    '/search',
+    // State comparison pages
+    ...['ca-vs-tx','ca-vs-ny','fl-vs-tx','ny-vs-fl','ca-vs-fl','tx-vs-ny','pa-vs-oh','il-vs-ca','ga-vs-fl','nc-vs-va','mi-vs-oh','nj-vs-ny','wa-vs-ca','az-vs-ca','ma-vs-ny','tn-vs-ga','md-vs-va','co-vs-az','mn-vs-wi','or-vs-wa','in-vs-oh','mo-vs-il','sc-vs-nc','al-vs-ga','ky-vs-tn','la-vs-tx','ok-vs-tx','ct-vs-ny','ut-vs-co','nv-vs-az'].map(s => `/states/compare/${s}`),
+    // Specialty comparison pages
+    ...['internal-medicine-vs-family-practice','cardiology-vs-internal-medicine','ophthalmology-vs-optometry','orthopedic-surgery-vs-physical-therapy','dermatology-vs-plastic-surgery','emergency-medicine-vs-internal-medicine','neurology-vs-psychiatry','general-surgery-vs-orthopedic-surgery','radiology-vs-diagnostic-radiology','anesthesiology-vs-nurse-anesthetist','urology-vs-nephrology','pulmonary-disease-vs-internal-medicine','oncology-vs-hematology','gastroenterology-vs-internal-medicine','rheumatology-vs-internal-medicine'].map(s => `/specialties/compare/${s}`),
     '/fraud',
     '/fraud/watchlist',
     '/fraud/deep-dives',

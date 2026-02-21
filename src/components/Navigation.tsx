@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { ChevronDownIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { ChevronDownIcon, Bars3Icon, XMarkIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   {
@@ -179,6 +179,11 @@ export default function Navigation() {
               </div>
             ))}
           </div>
+
+          {/* Search icon */}
+          <Link href="/search" className="ml-2 p-2 text-gray-500 hover:text-medicare-primary rounded-md hover:bg-gray-50 transition-colors" aria-label="Search">
+            <MagnifyingGlassIcon className="h-5 w-5" />
+          </Link>
 
           {/* Mobile menu button */}
           <div className="flex lg:hidden">
