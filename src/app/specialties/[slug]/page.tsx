@@ -80,6 +80,37 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
           className="mb-8"
         />
 
+        {/* ML v2 Flagged Providers */}
+        {mlSpecProviders.length > 0 && (
+          <div className="bg-purple-50 border-2 border-purple-300 rounded-xl p-6 mb-8">
+            <div className="flex items-start gap-3 mb-4">
+              <span className="text-2xl">⚠️</span>
+              <div>
+                <h2 className="text-xl font-serif font-bold text-gray-900">
+                  {mlSpecProviders.length} AI-Flagged {data.specialty} Provider{mlSpecProviders.length !== 1 ? 's' : ''}
+                </h2>
+                <p className="text-sm text-gray-600">Providers in this specialty flagged by the ML v2 fraud detection model</p>
+              </div>
+            </div>
+            <div className="space-y-3 mb-4">
+              {mlSpecProviders.slice(0, 3).map((p: any) => (
+                <div key={p.npi} className="flex items-center justify-between bg-white rounded-lg border border-purple-200 px-4 py-3">
+                  <div>
+                    <Link href={`/providers/${p.npi}`} className="text-blue-600 hover:text-blue-800 font-medium">{p.name}</Link>
+                    <span className="text-sm text-gray-500 ml-2">{p.state}</span>
+                  </div>
+                  <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-purple-100 text-purple-800">
+                    {(p.fraud_probability * 100).toFixed(1)}%
+                  </span>
+                </div>
+              ))}
+            </div>
+            <Link href="/fraud/still-out-there" className="text-sm font-medium text-purple-700 hover:text-purple-900 underline">
+              View all ML-flagged providers →
+            </Link>
+          </div>
+        )}
+
         {/* Summary Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
