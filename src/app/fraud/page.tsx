@@ -82,6 +82,13 @@ const fraudPages = [
     color: 'purple',
   },
   {
+    title: 'Top 100 Flagged Providers',
+    description: 'The 100 Medicare providers with the highest AI-predicted fraud probability, ranked by our ML model trained on 2,198 confirmed fraudsters.',
+    href: '/fraud/top-100',
+    icon: '🏆',
+    color: 'red',
+  },
+  {
     title: 'Still Out There',
     description: 'Our ML model scored 1.7M providers against 2,198 confirmed fraudsters. 500 scored above 86% match. AUC: 0.83.',
     href: '/fraud/still-out-there',

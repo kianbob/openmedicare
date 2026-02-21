@@ -26,6 +26,7 @@ const navigation = [
     name: 'Fraud',
     href: '/fraud',
     children: [
+      { name: '🏆 Top 100 Flagged', href: '/fraud/top-100', desc: 'Highest fraud probability' },
       { name: '🤖 Still Out There (AI)', href: '/fraud/still-out-there', desc: '500 ML-flagged providers' },
       { name: 'Fraud Overview', href: '/fraud', desc: 'Hub for all fraud analysis' },
       { name: 'Fraud Watchlist', href: '/fraud/watchlist', desc: '500 flagged providers' },
