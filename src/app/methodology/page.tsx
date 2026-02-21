@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
@@ -103,6 +104,35 @@ export default function MethodologyPage() {
                 whether actual fraud has occurred.
               </p>
             </div>
+          </section>
+
+          <section className="mt-10">
+            <h2 className="font-serif text-2xl font-bold text-gray-900">Supervised Fraud Detection (ML v2)</h2>
+            <p>
+              In addition to our statistical approach, we developed a <strong>supervised machine learning model</strong> trained
+              on confirmed fraudsters — providers who have been indicted by the DOJ, excluded by the HHS OIG
+              (<a href="https://oig.hhs.gov/exclusions/" className="text-medicare-primary hover:underline">LEIE database</a>),
+              or who settled False Claims Act cases. This gives us over 8,300 real positive labels.
+            </p>
+            <p className="mt-3">
+              The model (Random Forest classifier) learns what billing patterns caught fraudsters share, then
+              scores all 1.7 million active providers on how closely they resemble confirmed criminals. The result
+              is a &quot;fraud match probability&quot; — not proof of fraud, but a measure of how similar a provider&apos;s
+              billing looks to people who were actually convicted.
+            </p>
+            <p className="mt-3">
+              This approach was validated when our earlier statistical analysis{' '}
+              <Link href="/investigations/data-predicted-fraud" className="text-medicare-primary hover:underline">
+                flagged providers before the DOJ charged them
+              </Link>
+              . The supervised model builds on this by learning directly from the ground truth of confirmed fraud.
+            </p>
+            <p className="mt-3">
+              Results are available on our{' '}
+              <Link href="/fraud/still-out-there" className="text-medicare-primary hover:underline">
+                &quot;Still Out There&quot; page
+              </Link>.
+            </p>
           </section>
 
           <section className="mt-10">
