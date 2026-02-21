@@ -7,7 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 14 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 17 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -146,6 +146,33 @@ const investigations = [
     readTime: '10 min read',
     publishedAt: '2024-01-30',
     excerpt: 'For every dollar Medicare spends, where does it actually go? We trace the flow of Medicare payments across specialties, procedures, and geographies.'
+  },
+  {
+    title: 'The COVID Test Gold Rush',
+    description: 'How Medicare lost billions to K1034 fraud — one $12 test at a time',
+    href: '/investigations/covid-test-scheme',
+    category: 'Investigation',
+    readTime: '14 min read',
+    publishedAt: '2026-02-20',
+    excerpt: 'K1034 was created for COVID OTC tests at ~$12 each. Some providers billed millions. Merry Taheri, a single nurse practitioner in Torrance, CA, billed $12.1M — 990x the specialty median.'
+  },
+  {
+    title: 'The Wound Care Industrial Complex',
+    description: 'Medicare\'s most vulnerable program: skin substitutes, debridement markups, and the DOJ\'s largest-ever takedown',
+    href: '/investigations/wound-care-crisis',
+    category: 'Investigation',
+    readTime: '16 min read',
+    publishedAt: '2026-02-19',
+    excerpt: 'HHS-OIG calls skin substitutes "particularly vulnerable to fraud." The DOJ\'s $14.6B takedown targeted wound care. We follow the money from Beverly Hills to the DOJ.'
+  },
+  {
+    title: 'The Impossible Doctors',
+    description: 'When the math doesn\'t add up: providers billing 400+ services per day',
+    href: '/investigations/impossible-doctors',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-18',
+    excerpt: 'Individual providers billing 400+ services per day — a new patient every 72 seconds for 8 hours straight. Either these are the fastest doctors in America, or something else is going on.'
   },
 ]
 
