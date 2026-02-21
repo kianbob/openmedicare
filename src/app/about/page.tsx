@@ -213,11 +213,9 @@ export default function AboutPage() {
               <p className="text-gray-700 mb-4">
                 We welcome feedback, corrections, and story tips from healthcare professionals, researchers, and the public.
               </p>
-              <div className="space-y-2 text-gray-700">
-                <p><strong>Email:</strong> <a href="mailto:contact@openmedicare.org" className="text-medicare-primary hover:underline">contact@openmedicare.org</a></p>
-                <p><strong>Tips:</strong> <a href="mailto:tips@openmedicare.org" className="text-medicare-primary hover:underline">tips@openmedicare.org</a></p>
-                <p><strong>Technical Issues:</strong> <a href="mailto:support@openmedicare.org" className="text-medicare-primary hover:underline">support@openmedicare.org</a></p>
-              </div>
+              <p className="text-gray-700">
+                Use our <a href="/fraud/report" className="text-medicare-primary hover:underline font-medium">fraud reporting page</a> or reach out via our <a href="https://github.com/kianbob/openmedicare" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">GitHub repository</a>.
+              </p>
             </div>
           </section>
 

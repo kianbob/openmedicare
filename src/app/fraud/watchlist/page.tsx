@@ -90,6 +90,8 @@ export default function FraudWatchlist() {
       })
   }, [enriched, tab, search, stateFilter, specialtyFilter, sortKey, sortDir])
 
+  const [showAll, setShowAll] = useState(false)
+
   const states = useMemo(() => [...new Set(enriched.map(p => p.state))].sort(), [enriched])
   const specialties = useMemo(() => [...new Set(enriched.map(p => p.specialty))].sort(), [enriched])
   const individualCount = useMemo(() => enriched.filter(p => p.entity_type !== 'Organization').length, [enriched])
@@ -174,7 +176,7 @@ export default function FraudWatchlist() {
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
-                  {filtered.slice(0, 100).map(p => (
+                  {filtered.slice(0, showAll ? filtered.length : 50).map(p => (
                     <tr key={p.npi} className="hover:bg-gray-50">
                       <td className="px-4 py-3">
                         <Link href={`/providers/${p.npi}`} className="text-sm font-medium text-medicare-primary hover:underline">
@@ -202,8 +204,16 @@ export default function FraudWatchlist() {
                 </tbody>
               </table>
             </div>
-            {filtered.length > 100 && (
-              <p className="text-sm text-gray-500 mt-4 text-center">Showing first 100 of {filtered.length} results. Use filters to narrow down.</p>
+            {filtered.length > 50 && (
+              <div className="text-center mt-4">
+                <button
+                  onClick={() => setShowAll(s => !s)}
+                  className="px-6 py-2 bg-medicare-primary text-white rounded-lg hover:bg-medicare-dark transition-colors text-sm font-medium"
+                >
+                  {showAll ? 'Show First 50' : `Show All ${filtered.length}`}
+                </button>
+                {!showAll && <p className="text-sm text-gray-500 mt-2">Showing 50 of {filtered.length} results</p>}
+              </div>
             )}
           </>
         )}

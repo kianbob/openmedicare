@@ -76,6 +76,27 @@ const featuredInvestigations = [
     href: '/investigations/state-spending-divide',
     category: 'Investigation',
     readTime: '12 min read'
+  },
+  {
+    title: 'Our Data Predicted It',
+    description: 'Our fraud algorithm flagged the same providers the DOJ spent years investigating',
+    href: '/investigations/data-predicted-fraud',
+    category: 'Investigation',
+    readTime: '22 min read'
+  },
+  {
+    title: 'The $2.1 Trillion Writeoff',
+    description: 'Why doctors charge 4× what they get paid — and where $2.14 trillion in charges vanish',
+    href: '/investigations/two-trillion-writeoff',
+    category: 'Deep Dive',
+    readTime: '15 min read'
+  },
+  {
+    title: 'The COVID Test Gold Rush',
+    description: 'How Medicare lost billions to K1034 fraud — one $12 test at a time',
+    href: '/investigations/covid-test-scheme',
+    category: 'Investigation',
+    readTime: '14 min read'
   }
 ]
 
@@ -283,7 +304,7 @@ export default function HomePage() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredInvestigations.map((article) => (
               <article key={article.title} className="bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow">
                 <div className="p-6">
@@ -412,13 +433,13 @@ export default function HomePage() {
             <Link href="/payment-gap" className="group bg-yellow-50 hover:bg-yellow-100 rounded-lg p-6 transition-colors">
               <div className="text-yellow-600 text-2xl mb-3">💸</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-yellow-800">Payment Gap</h3>
-              <p className="text-sm text-gray-600">Charged vs allowed vs paid</p>
+              <p className="text-sm text-gray-600">How much doctors charge vs. what Medicare allows vs. what gets paid — the hidden gap in every bill</p>
             </Link>
 
             <Link href="/utilization" className="group bg-violet-50 hover:bg-violet-100 rounded-lg p-6 transition-colors">
               <div className="text-violet-600 text-2xl mb-3">🏥</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-violet-800">Utilization</h3>
-              <p className="text-sm text-gray-600">Individual vs corporate providers</p>
+              <p className="text-sm text-gray-600">Service volume patterns — who bills the most per beneficiary and how organizations compare to solo providers</p>
             </Link>
           </div>
 

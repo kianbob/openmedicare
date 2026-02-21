@@ -89,9 +89,8 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
 
         {/* Yearly Trends Chart */}
         {yearly.length > 1 && (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Spending Trends (2014-2023)</h2>
-            <TrendChart xDataKey="year" yDataKey="value" data={yearly.map((y: { year: number; payments: number }) => ({ year: y.year, value: y.payments }))} />
+          <div className="mb-8">
+            <TrendChart title="Spending Trends (2014-2023)" xDataKey="year" yDataKey="value" data={yearly.map((y: { year: number; payments: number }) => ({ year: y.year, value: y.payments }))} />
           </div>
         )}
 
