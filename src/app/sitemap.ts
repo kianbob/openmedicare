@@ -38,6 +38,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'telehealth-explosion',
     'nurse-practitioner-boom',
     'beverly-hills-billing',
+    'two-trillion-writeoff',
+    '9862-services-per-day',
+    'houston-medicare-capital',
   ]
 
   const staticPages = [

@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 31 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 34 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -30,6 +30,33 @@ const featuredInvestigation = {
 }
 
 const investigations = [
+  {
+    title: 'The $2.1 Trillion Writeoff',
+    description: 'Why doctors charge 4x what they get paid — and where $2.14 trillion in Medicare charges vanish',
+    href: '/investigations/two-trillion-writeoff',
+    category: 'Investigation',
+    readTime: '15 min read',
+    publishedAt: '2026-02-25',
+    excerpt: 'Over 10 years, providers submitted $3.22 trillion in charges to Medicare. Medicare paid $854.8 billion. The other $2.14 trillion — 66.3% — was written off. This is the biggest hidden number in healthcare.'
+  },
+  {
+    title: '9,862 Services Per Day: The Most Impossible Doctor in America',
+    description: 'One provider billed 2.47 million Medicare services in 2023 — one every 2.9 seconds',
+    href: '/investigations/9862-services-per-day',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-24',
+    excerpt: 'Madhavi Rayapudi, an infectious disease specialist in Georgia, billed Medicare for 2,465,495 services in a single year. That\'s 9,862 per working day. The math doesn\'t add up.'
+  },
+  {
+    title: 'Houston: America\'s Medicare Capital',
+    description: '$9.24 billion in Medicare spending — more than most states',
+    href: '/investigations/houston-medicare-capital',
+    category: 'Analysis',
+    readTime: '10 min read',
+    publishedAt: '2026-02-23',
+    excerpt: 'Houston leads the nation with $9.24 billion in Medicare spending across 19,925 providers. The Texas Medical Center effect makes the Bayou City America\'s healthcare billing capital.'
+  },
   {
     title: 'Medicare\'s Biggest Billers',
     description: 'The 100 providers who received the most Medicare payments in 2023',

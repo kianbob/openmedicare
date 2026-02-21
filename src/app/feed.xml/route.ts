@@ -5,6 +5,24 @@ const baseUrl = 'https://www.openmedicare.org'
 const items = [
   // Investigations
   {
+    title: 'The $2.1 Trillion Writeoff: Why Doctors Charge 4x What They Get Paid',
+    description: 'Over 10 years, providers submitted $3.22 trillion in charges. Medicare paid $854.8 billion. The other $2.14 trillion was written off. The biggest hidden number in healthcare.',
+    link: '/investigations/two-trillion-writeoff',
+    pubDate: '2026-02-25T00:00:00.000Z',
+  },
+  {
+    title: '9,862 Services Per Day: The Most Impossible Doctor in America',
+    description: 'One provider billed Medicare for 2.47 million services in 2023 — that\'s 9,862 per working day, or one every 2.9 seconds for 8 hours straight.',
+    link: '/investigations/9862-services-per-day',
+    pubDate: '2026-02-24T00:00:00.000Z',
+  },
+  {
+    title: 'Houston: America\'s Medicare Capital',
+    description: 'Houston leads the nation with $9.24 billion in Medicare spending — more than most states. The Texas Medical Center effect explained.',
+    link: '/investigations/houston-medicare-capital',
+    pubDate: '2026-02-23T00:00:00.000Z',
+  },
+  {
     title: 'The Medicare Markup Machine',
     description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling',
     link: '/investigations/markup-machine',
