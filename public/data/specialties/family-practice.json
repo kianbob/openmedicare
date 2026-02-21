@@ -527,7 +527,7 @@
     {
       "code": "90662",
       "description": "Influenza vaccine split virus, preservative free",
-      "payments": 61301181.0,
+      "payments": 61301181,
       "services": 871344,
       "providers": 17933
     },
@@ -1163,5 +1163,46 @@
       "services": 93310859,
       "providers": 78514
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 135,
+    "ml_flagged_payments": 85408566.94,
+    "top_flagged": [
+      {
+        "npi": "1346237096",
+        "name": "Edd Jones",
+        "state": "GA",
+        "fraud_probability": 0.947,
+        "total_payments": 795844.18
+      },
+      {
+        "npi": "1992151401",
+        "name": "Naiff Ali",
+        "state": "MI",
+        "fraud_probability": 0.9461,
+        "total_payments": 784558.69
+      },
+      {
+        "npi": "1568402386",
+        "name": "Norman Haywood",
+        "state": "NY",
+        "fraud_probability": 0.9424,
+        "total_payments": 694884.71
+      },
+      {
+        "npi": "1649379934",
+        "name": "Mark Dashevskiy",
+        "state": "NY",
+        "fraud_probability": 0.9378,
+        "total_payments": 1342386.43
+      },
+      {
+        "npi": "1922055037",
+        "name": "Thilo Burzlaff",
+        "state": "TX",
+        "fraud_probability": 0.9367,
+        "total_payments": 609814.84
+      }
+    ]
+  }
 }

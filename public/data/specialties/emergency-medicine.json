@@ -376,7 +376,7 @@
       "name": "Garrett Bomba",
       "city": "Lawrence",
       "state": "MA",
-      "payments": 513620.0,
+      "payments": 513620,
       "services": 34201,
       "beneficiaries": 3354
     },
@@ -1147,7 +1147,7 @@
     },
     {
       "year": 2021,
-      "payments": 2096791518.0,
+      "payments": 2096791518,
       "services": 22071674,
       "providers": 45090
     },
@@ -1163,5 +1163,46 @@
       "services": 21772107,
       "providers": 47236
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 6,
+    "ml_flagged_payments": 3687924.79,
+    "top_flagged": [
+      {
+        "npi": "1326095746",
+        "name": "John Head",
+        "state": "FL",
+        "fraud_probability": 0.896,
+        "total_payments": 747827.27
+      },
+      {
+        "npi": "1679515126",
+        "name": "Joseph Eipe",
+        "state": "CA",
+        "fraud_probability": 0.8937,
+        "total_payments": 893997.56
+      },
+      {
+        "npi": "1194754424",
+        "name": "David Vermillion",
+        "state": "TX",
+        "fraud_probability": 0.8787,
+        "total_payments": 552974.92
+      },
+      {
+        "npi": "1396743324",
+        "name": "John Mcintyre",
+        "state": "PA",
+        "fraud_probability": 0.8652,
+        "total_payments": 624789.72
+      },
+      {
+        "npi": "1225247455",
+        "name": "Bradley Blappert",
+        "state": "LA",
+        "fraud_probability": 0.8629,
+        "total_payments": 394720.65
+      }
+    ]
+  }
 }

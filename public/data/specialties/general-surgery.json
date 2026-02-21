@@ -1009,5 +1009,18 @@
       "services": 7894930,
       "providers": 19058
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 1,
+    "ml_flagged_payments": 840150.99,
+    "top_flagged": [
+      {
+        "npi": "1003220625",
+        "name": "Kelechi Azuogu",
+        "state": "TX",
+        "fraud_probability": 0.9132,
+        "total_payments": 840150.99
+      }
+    ]
+  }
 }

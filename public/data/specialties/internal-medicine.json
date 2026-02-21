@@ -88,7 +88,7 @@
       "name": "Tatiana Sharahy",
       "city": "Ridgewood",
       "state": "NJ",
-      "payments": 5663224.0,
+      "payments": 5663224,
       "services": 471040,
       "beneficiaries": 29872
     },
@@ -1163,5 +1163,46 @@
       "services": 136564575,
       "providers": 88702
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 263,
+    "ml_flagged_payments": 198226908.94,
+    "top_flagged": [
+      {
+        "npi": "1659378743",
+        "name": "Ramesh Thimmiah",
+        "state": "WV",
+        "fraud_probability": 0.9592,
+        "total_payments": 788667.95
+      },
+      {
+        "npi": "1245366558",
+        "name": "Tuan Duong",
+        "state": "CA",
+        "fraud_probability": 0.9558,
+        "total_payments": 516519.08
+      },
+      {
+        "npi": "1871637157",
+        "name": "Willie Lucas",
+        "state": "MS",
+        "fraud_probability": 0.9551,
+        "total_payments": 1017050.3
+      },
+      {
+        "npi": "1093807497",
+        "name": "Sudhirkumar Shah",
+        "state": "MO",
+        "fraud_probability": 0.9532,
+        "total_payments": 724716.33
+      },
+      {
+        "npi": "1871556290",
+        "name": "Jay Berger",
+        "state": "FL",
+        "fraud_probability": 0.9528,
+        "total_payments": 748188.53
+      }
+    ]
+  }
 }

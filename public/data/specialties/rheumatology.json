@@ -1003,7 +1003,7 @@
     },
     {
       "state": "MT",
-      "payments": 6147104.0,
+      "payments": 6147104,
       "providers": 12
     },
     {
@@ -1128,5 +1128,25 @@
       "services": 146104198,
       "providers": 4906
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 2,
+    "ml_flagged_payments": 2040755.36,
+    "top_flagged": [
+      {
+        "npi": "1306958350",
+        "name": "Harris Mcilwain",
+        "state": "FL",
+        "fraud_probability": 0.9096,
+        "total_payments": 1031762.41
+      },
+      {
+        "npi": "1013938646",
+        "name": "Suman Thakker",
+        "state": "CA",
+        "fraud_probability": 0.8938,
+        "total_payments": 1008992.95
+      }
+    ]
+  }
 }

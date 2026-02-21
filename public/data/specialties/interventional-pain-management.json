@@ -302,7 +302,7 @@
       "name": "Jerod Shaw",
       "state": "TX",
       "services": 13074,
-      "payments": 727472.0
+      "payments": 727472
     },
     {
       "npi": 1043521198,
@@ -969,5 +969,25 @@
       "services": 6350130,
       "providers": 1478
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 2,
+    "ml_flagged_payments": 3952526.96,
+    "top_flagged": [
+      {
+        "npi": "1588647630",
+        "name": "John Hunt",
+        "state": "FL",
+        "fraud_probability": 0.8853,
+        "total_payments": 3057807.48
+      },
+      {
+        "npi": "1902917164",
+        "name": "Jianping Sun",
+        "state": "TN",
+        "fraud_probability": 0.8731,
+        "total_payments": 894719.49
+      }
+    ]
+  }
 }

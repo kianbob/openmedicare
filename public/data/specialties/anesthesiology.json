@@ -492,7 +492,7 @@
     {
       "code": "99213",
       "description": "Established patient office or other outpatient visit, 20-29 minutes",
-      "payments": 27175952.0,
+      "payments": 27175952,
       "services": 430036,
       "providers": 1903
     },
@@ -1168,5 +1168,39 @@
       "services": 12475376,
       "providers": 34189
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 4,
+    "ml_flagged_payments": 6746888.15,
+    "top_flagged": [
+      {
+        "npi": "1194756411",
+        "name": "Michael Cozzi",
+        "state": "IN",
+        "fraud_probability": 0.9429,
+        "total_payments": 1662835.67
+      },
+      {
+        "npi": "1760417786",
+        "name": "Richard Smith",
+        "state": "FL",
+        "fraud_probability": 0.9094,
+        "total_payments": 1052602
+      },
+      {
+        "npi": "1538491360",
+        "name": "Adam Sewell",
+        "state": "AR",
+        "fraud_probability": 0.9004,
+        "total_payments": 2851183.63
+      },
+      {
+        "npi": "1720494537",
+        "name": "Nathan Lamborn",
+        "state": "KY",
+        "fraud_probability": 0.8894,
+        "total_payments": 1180266.86
+      }
+    ]
+  }
 }

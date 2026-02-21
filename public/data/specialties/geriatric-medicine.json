@@ -979,5 +979,46 @@
       "services": 2723428,
       "providers": 1824
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 5,
+    "ml_flagged_payments": 4766270.53,
+    "top_flagged": [
+      {
+        "npi": "1891808028",
+        "name": "Duan Copeland",
+        "state": "AZ",
+        "fraud_probability": 0.9195,
+        "total_payments": 1084758.07
+      },
+      {
+        "npi": "1508824111",
+        "name": "Peter Norvid",
+        "state": "IL",
+        "fraud_probability": 0.9176,
+        "total_payments": 1850588.93
+      },
+      {
+        "npi": "1952520306",
+        "name": "Susan Singer",
+        "state": "MO",
+        "fraud_probability": 0.9035,
+        "total_payments": 532266.88
+      },
+      {
+        "npi": "1659352003",
+        "name": "William King",
+        "state": "SC",
+        "fraud_probability": 0.8925,
+        "total_payments": 312554.13
+      },
+      {
+        "npi": "1770843054",
+        "name": "Ming Li",
+        "state": "CA",
+        "fraud_probability": 0.886,
+        "total_payments": 986102.52
+      }
+    ]
+  }
 }

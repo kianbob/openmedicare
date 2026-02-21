@@ -492,7 +492,7 @@
     {
       "code": "99309",
       "description": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes",
-      "payments": 60150811.0,
+      "payments": 60150811,
       "services": 852820,
       "providers": 1889
     },
@@ -893,7 +893,7 @@
     },
     {
       "state": "SC",
-      "payments": 55203127.0,
+      "payments": 55203127,
       "providers": 1565
     },
     {
@@ -1163,5 +1163,25 @@
       "services": 62733670,
       "providers": 94996
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 2,
+    "ml_flagged_payments": 2617475.7,
+    "top_flagged": [
+      {
+        "npi": "1720081532",
+        "name": "Kelly Smart",
+        "state": "TN",
+        "fraud_probability": 0.8877,
+        "total_payments": 1357141.03
+      },
+      {
+        "npi": "1467946277",
+        "name": "Jessica Fulk",
+        "state": "NC",
+        "fraud_probability": 0.8769,
+        "total_payments": 1260334.68
+      }
+    ]
+  }
 }

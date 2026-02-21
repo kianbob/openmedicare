@@ -267,7 +267,7 @@
       "name": "Fred Mcleod",
       "state": "AL",
       "services": 27543,
-      "payments": 751066.0
+      "payments": 751066
     },
     {
       "npi": 1437461878,
@@ -999,5 +999,18 @@
       "services": 11644425,
       "providers": 8513
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 1,
+    "ml_flagged_payments": 949996.93,
+    "top_flagged": [
+      {
+        "npi": "1023102126",
+        "name": "Daniel Ortiz",
+        "state": "AL",
+        "fraud_probability": 0.9364,
+        "total_payments": 949996.93
+      }
+    ]
+  }
 }

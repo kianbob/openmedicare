@@ -419,7 +419,7 @@
       "code": "99233",
       "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 50 minutes",
       "services": 59947,
-      "payments": 5831919.0
+      "payments": 5831919
     },
     {
       "code": "99222",
@@ -994,5 +994,46 @@
       "services": 14146751,
       "providers": 6160
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 5,
+    "ml_flagged_payments": 3537347.68,
+    "top_flagged": [
+      {
+        "npi": "1972524510",
+        "name": "Frank Leung",
+        "state": "IL",
+        "fraud_probability": 0.9575,
+        "total_payments": 601845.96
+      },
+      {
+        "npi": "1649365396",
+        "name": "John Degroote",
+        "state": "MS",
+        "fraud_probability": 0.936,
+        "total_payments": 539197.37
+      },
+      {
+        "npi": "1245232131",
+        "name": "Upendra Shah",
+        "state": "IL",
+        "fraud_probability": 0.9158,
+        "total_payments": 638900.33
+      },
+      {
+        "npi": "1932195476",
+        "name": "Jeffrey Bodwin",
+        "state": "CA",
+        "fraud_probability": 0.8997,
+        "total_payments": 228092.47
+      },
+      {
+        "npi": "1699953513",
+        "name": "Avi Ostrowsky",
+        "state": "NV",
+        "fraud_probability": 0.891,
+        "total_payments": 1529311.56
+      }
+    ]
+  }
 }

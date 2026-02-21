@@ -268,7 +268,7 @@
       "name": "Andrew Weber",
       "city": "Panama City",
       "state": "FL",
-      "payments": 4521044.0,
+      "payments": 4521044,
       "services": 396759,
       "beneficiaries": 10553
     },
@@ -412,7 +412,7 @@
       "name": "Phu Truong",
       "city": "Wichita",
       "state": "KS",
-      "payments": 4064504.0,
+      "payments": 4064504,
       "services": 370398,
       "beneficiaries": 7115
     },
@@ -1131,5 +1131,46 @@
       "services": 214556712,
       "providers": 8675
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 9,
+    "ml_flagged_payments": 10616653.64,
+    "top_flagged": [
+      {
+        "npi": "1144518457",
+        "name": "Kimberly Salwitz",
+        "state": "NJ",
+        "fraud_probability": 0.937,
+        "total_payments": 1652204.99
+      },
+      {
+        "npi": "1922360585",
+        "name": "Lawrence Giove",
+        "state": "CT",
+        "fraud_probability": 0.9098,
+        "total_payments": 807969.85
+      },
+      {
+        "npi": "1063411684",
+        "name": "Sultanali Alidina",
+        "state": "CA",
+        "fraud_probability": 0.9064,
+        "total_payments": 761233.64
+      },
+      {
+        "npi": "1689782708",
+        "name": "Fariborz Mortazavi",
+        "state": "CA",
+        "fraud_probability": 0.9005,
+        "total_payments": 2763458.78
+      },
+      {
+        "npi": "1336585132",
+        "name": "Lai Xu",
+        "state": "IL",
+        "fraud_probability": 0.8997,
+        "total_payments": 934410.35
+      }
+    ]
+  }
 }

@@ -176,7 +176,7 @@
       "name": "Arif Hussain",
       "state": "IN",
       "services": 12257,
-      "payments": 865362.0
+      "payments": 865362
     },
     {
       "npi": 1740556679,
@@ -527,7 +527,7 @@
       "code": "K1034",
       "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
       "services": 187800,
-      "payments": 2208528.0
+      "payments": 2208528
     },
     {
       "code": "99205",
@@ -679,7 +679,7 @@
     },
     {
       "state": "AZ",
-      "payments": 18199661.0,
+      "payments": 18199661,
       "providers": 77
     },
     {
@@ -979,5 +979,46 @@
       "services": 8528793,
       "providers": 2710
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 5,
+    "ml_flagged_payments": 6405150.8,
+    "top_flagged": [
+      {
+        "npi": "1720269525",
+        "name": "Joseph Oei",
+        "state": "TX",
+        "fraud_probability": 0.9078,
+        "total_payments": 1814881.72
+      },
+      {
+        "npi": "1609214253",
+        "name": "Danish Ali",
+        "state": "FL",
+        "fraud_probability": 0.8879,
+        "total_payments": 2020595.55
+      },
+      {
+        "npi": "1144281080",
+        "name": "Kevin Fitzgerald",
+        "state": "MI",
+        "fraud_probability": 0.8753,
+        "total_payments": 1445184.69
+      },
+      {
+        "npi": "1154314490",
+        "name": "Henry Okonneh",
+        "state": "NC",
+        "fraud_probability": 0.8692,
+        "total_payments": 552299.41
+      },
+      {
+        "npi": "1093772717",
+        "name": "Theron Grover",
+        "state": "MI",
+        "fraud_probability": 0.8616,
+        "total_payments": 572189.43
+      }
+    ]
+  }
 }

@@ -689,7 +689,7 @@
     },
     {
       "state": "NC",
-      "payments": 38806309.0,
+      "payments": 38806309,
       "providers": 882
     },
     {
@@ -924,7 +924,7 @@
     },
     {
       "state": "AP",
-      "payments": 3202.0,
+      "payments": 3202,
       "providers": 1
     }
   ],
@@ -977,5 +977,18 @@
       "services": 12291970,
       "providers": 19105
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 1,
+    "ml_flagged_payments": 891063.68,
+    "top_flagged": [
+      {
+        "npi": "1467832691",
+        "name": "Muhammad Ahmad",
+        "state": "IL",
+        "fraud_probability": 0.8988,
+        "total_payments": 891063.68
+      }
+    ]
+  }
 }

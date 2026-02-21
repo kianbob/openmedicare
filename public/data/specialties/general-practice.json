@@ -141,7 +141,7 @@
       "name": "Chinedu Okeke",
       "state": "DC",
       "services": 2833,
-      "payments": 1193171.0
+      "payments": 1193171
     },
     {
       "npi": 1619300241,
@@ -155,7 +155,7 @@
       "name": "Emmanuel Kuyinu",
       "state": "TX",
       "services": 9842,
-      "payments": 1176281.0
+      "payments": 1176281
     },
     {
       "npi": 1245261114,
@@ -669,7 +669,7 @@
     },
     {
       "state": "FL",
-      "payments": 34530611.0,
+      "payments": 34530611,
       "providers": 751
     },
     {
@@ -709,7 +709,7 @@
     },
     {
       "state": "MI",
-      "payments": 5464704.0,
+      "payments": 5464704,
       "providers": 95
     },
     {
@@ -789,7 +789,7 @@
     },
     {
       "state": "MO",
-      "payments": 1538318.0,
+      "payments": 1538318,
       "providers": 37
     },
     {
@@ -984,5 +984,32 @@
       "services": 6065720,
       "providers": 3391
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 3,
+    "ml_flagged_payments": 6904662.3,
+    "top_flagged": [
+      {
+        "npi": "1235176637",
+        "name": "Ramon Madrid",
+        "state": "MI",
+        "fraud_probability": 0.892,
+        "total_payments": 1570167.08
+      },
+      {
+        "npi": "1548547243",
+        "name": "Adolfo Cotter",
+        "state": "MI",
+        "fraud_probability": 0.8862,
+        "total_payments": 1559822.03
+      },
+      {
+        "npi": "1316291925",
+        "name": "Edwin Yau",
+        "state": "CA",
+        "fraud_probability": 0.8676,
+        "total_payments": 3774673.2
+      }
+    ]
+  }
 }

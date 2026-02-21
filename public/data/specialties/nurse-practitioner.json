@@ -187,7 +187,7 @@
       "name": "Philana Mcdonald",
       "city": "Atascadero",
       "state": "CA",
-      "payments": 6877248.0,
+      "payments": 6877248,
       "services": 584800,
       "beneficiaries": 72657
     },
@@ -878,7 +878,7 @@
     },
     {
       "state": "SC",
-      "payments": 138340016.0,
+      "payments": 138340016,
       "providers": 3274
     },
     {
@@ -888,7 +888,7 @@
     },
     {
       "state": "VA",
-      "payments": 133151740.0,
+      "payments": 133151740,
       "providers": 4635
     },
     {
@@ -1168,5 +1168,25 @@
       "services": 127122925,
       "providers": 174679
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 2,
+    "ml_flagged_payments": 3496981.44,
+    "top_flagged": [
+      {
+        "npi": "1265990097",
+        "name": "Natalia Maximovsky",
+        "state": "NY",
+        "fraud_probability": 0.9427,
+        "total_payments": 1649701.2
+      },
+      {
+        "npi": "1174918585",
+        "name": "John Adeiza",
+        "state": "CA",
+        "fraud_probability": 0.8915,
+        "total_payments": 1847280.24
+      }
+    ]
+  }
 }

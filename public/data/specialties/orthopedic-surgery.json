@@ -534,7 +534,7 @@
     {
       "code": "73562",
       "description": "X-ray of knee, 3 views",
-      "payments": 24066163.0,
+      "payments": 24066163,
       "services": 839058,
       "providers": 6735
     },
@@ -1102,7 +1102,7 @@
     },
     {
       "year": 2016,
-      "payments": 2162231953.0,
+      "payments": 2162231953,
       "services": 40595159,
       "providers": 20737
     },
@@ -1148,5 +1148,32 @@
       "services": 42670909,
       "providers": 20699
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 3,
+    "ml_flagged_payments": 4523773.25,
+    "top_flagged": [
+      {
+        "npi": "1427046382",
+        "name": "Cyril Raben",
+        "state": "OH",
+        "fraud_probability": 0.9265,
+        "total_payments": 1933454.8
+      },
+      {
+        "npi": "1992088652",
+        "name": "John Fleming",
+        "state": "CA",
+        "fraud_probability": 0.9091,
+        "total_payments": 2442851.91
+      },
+      {
+        "npi": "1942439583",
+        "name": "Ashok Gowda",
+        "state": "MD",
+        "fraud_probability": 0.8856,
+        "total_payments": 147466.53
+      }
+    ]
+  }
 }

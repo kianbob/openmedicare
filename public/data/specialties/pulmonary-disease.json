@@ -331,7 +331,7 @@
       "name": "Kristyn Sayball",
       "city": "North Chesterfield",
       "state": "VA",
-      "payments": 819294.0,
+      "payments": 819294,
       "services": 23420,
       "beneficiaries": 1893
     },
@@ -813,7 +813,7 @@
     },
     {
       "state": "FL",
-      "payments": 108463585.0,
+      "payments": 108463585,
       "providers": 711
     },
     {
@@ -853,7 +853,7 @@
     },
     {
       "state": "OH",
-      "payments": 26323691.0,
+      "payments": 26323691,
       "providers": 441
     },
     {
@@ -1143,5 +1143,39 @@
       "services": 14095267,
       "providers": 10381
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 4,
+    "ml_flagged_payments": 3808964.61,
+    "top_flagged": [
+      {
+        "npi": "1134172083",
+        "name": "Maximo Fernan",
+        "state": "OK",
+        "fraud_probability": 0.936,
+        "total_payments": 760224.76
+      },
+      {
+        "npi": "1053344283",
+        "name": "Ravi Malpani",
+        "state": "OK",
+        "fraud_probability": 0.8848,
+        "total_payments": 435175.86
+      },
+      {
+        "npi": "1356357875",
+        "name": "Prakash Palimar",
+        "state": "TX",
+        "fraud_probability": 0.8744,
+        "total_payments": 1043405.93
+      },
+      {
+        "npi": "1558344606",
+        "name": "William Schulte",
+        "state": "AL",
+        "fraud_probability": 0.8735,
+        "total_payments": 1570158.05
+      }
+    ]
+  }
 }

@@ -183,7 +183,7 @@
       "name": "Laurie Welton",
       "state": "FL",
       "services": 625042,
-      "payments": 865923.0
+      "payments": 865923
     },
     {
       "npi": 1689610990,
@@ -984,5 +984,46 @@
       "services": 39024048,
       "providers": 6052
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 9,
+    "ml_flagged_payments": 9280668.13,
+    "top_flagged": [
+      {
+        "npi": "1811989635",
+        "name": "James Greenman",
+        "state": "NJ",
+        "fraud_probability": 0.9003,
+        "total_payments": 834988.44
+      },
+      {
+        "npi": "1104257211",
+        "name": "Jaime Catala",
+        "state": "FL",
+        "fraud_probability": 0.8942,
+        "total_payments": 1482438.35
+      },
+      {
+        "npi": "1023118486",
+        "name": "Hon Yu",
+        "state": "CA",
+        "fraud_probability": 0.8865,
+        "total_payments": 2532195.2
+      },
+      {
+        "npi": "1285785139",
+        "name": "Dean Rackleff",
+        "state": "FL",
+        "fraud_probability": 0.8858,
+        "total_payments": 966650.74
+      },
+      {
+        "npi": "1740682624",
+        "name": "Arturo Pascual",
+        "state": "NY",
+        "fraud_probability": 0.8827,
+        "total_payments": 813306.24
+      }
+    ]
+  }
 }

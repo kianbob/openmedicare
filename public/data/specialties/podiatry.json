@@ -730,7 +730,7 @@
     {
       "code": "Q4204",
       "description": "Xwrap, per square centimeter",
-      "payments": 5122203.0,
+      "payments": 5122203,
       "services": 4810,
       "providers": 3
     },
@@ -938,7 +938,7 @@
     },
     {
       "state": "OK",
-      "payments": 10663437.0,
+      "payments": 10663437,
       "providers": 112
     },
     {
@@ -1143,5 +1143,46 @@
       "services": 27983946,
       "providers": 15192
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 6,
+    "ml_flagged_payments": 7821077.3,
+    "top_flagged": [
+      {
+        "npi": "1740240969",
+        "name": "Amannda Richline",
+        "state": "NJ",
+        "fraud_probability": 0.909,
+        "total_payments": 1577691.22
+      },
+      {
+        "npi": "1467454843",
+        "name": "Samuel Beitler",
+        "state": "MD",
+        "fraud_probability": 0.8932,
+        "total_payments": 1298055.44
+      },
+      {
+        "npi": "1770500357",
+        "name": "Kimberly Daley",
+        "state": "NJ",
+        "fraud_probability": 0.8859,
+        "total_payments": 1403160.16
+      },
+      {
+        "npi": "1538143854",
+        "name": "Daryoush Zafar",
+        "state": "FL",
+        "fraud_probability": 0.8782,
+        "total_payments": 1642088.65
+      },
+      {
+        "npi": "1063458404",
+        "name": "Michael Price",
+        "state": "FL",
+        "fraud_probability": 0.8749,
+        "total_payments": 1129371.2
+      }
+    ]
+  }
 }

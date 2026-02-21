@@ -716,7 +716,7 @@
     {
       "code": "77401",
       "description": "Superficial and/or low voltage radiation treatment delivery",
-      "payments": 8766637.0,
+      "payments": 8766637,
       "services": 275186,
       "providers": 342
     },
@@ -888,7 +888,7 @@
     },
     {
       "state": "MI",
-      "payments": 46642140.0,
+      "payments": 46642140,
       "providers": 340
     },
     {
@@ -1143,5 +1143,18 @@
       "services": 47840092,
       "providers": 12160
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 1,
+    "ml_flagged_payments": 927763.08,
+    "top_flagged": [
+      {
+        "npi": "1225060601",
+        "name": "Oliver Drabkin",
+        "state": "IL",
+        "fraud_probability": 0.8684,
+        "total_payments": 927763.08
+      }
+    ]
+  }
 }

@@ -22,7 +22,7 @@
       "name": "Nicholas Manolitsis",
       "state": "IL",
       "services": 155585,
-      "payments": 1776413.0
+      "payments": 1776413
     },
     {
       "npi": 1902973043,
@@ -253,14 +253,14 @@
       "name": "Atul Bhat",
       "state": "MA",
       "services": 22689,
-      "payments": 882903.0
+      "payments": 882903
     },
     {
       "npi": 1457332181,
       "name": "Matthew Raymond",
       "state": "CT",
       "services": 83889,
-      "payments": 877030.0
+      "payments": 877030
     },
     {
       "npi": 1477595973,
@@ -337,7 +337,7 @@
       "name": "Stephen Ng",
       "state": "CA",
       "services": 87253,
-      "payments": 793822.0
+      "payments": 793822
     },
     {
       "npi": 1295001493,
@@ -674,7 +674,7 @@
     },
     {
       "state": "TX",
-      "payments": 71840160.0,
+      "payments": 71840160,
       "providers": 567
     },
     {
@@ -979,5 +979,46 @@
       "services": 24341248,
       "providers": 8103
     }
-  ]
+  ],
+  "fraud_summary": {
+    "ml_flagged_count": 18,
+    "ml_flagged_payments": 22619410.87,
+    "top_flagged": [
+      {
+        "npi": "1265676688",
+        "name": "Arrtie Pisaturo",
+        "state": "AL",
+        "fraud_probability": 0.9515,
+        "total_payments": 1036012.94
+      },
+      {
+        "npi": "1073892477",
+        "name": "Sangmin Ahn",
+        "state": "MO",
+        "fraud_probability": 0.9435,
+        "total_payments": 1007834.14
+      },
+      {
+        "npi": "1033503255",
+        "name": "Nathaniel Montag",
+        "state": "NJ",
+        "fraud_probability": 0.9234,
+        "total_payments": 930666.92
+      },
+      {
+        "npi": "1396710794",
+        "name": "Mary Mcdonald",
+        "state": "TN",
+        "fraud_probability": 0.9228,
+        "total_payments": 757447.23
+      },
+      {
+        "npi": "1285014126",
+        "name": "Araj Sidki",
+        "state": "NY",
+        "fraud_probability": 0.9178,
+        "total_payments": 945144.89
+      }
+    ]
+  }
 }
