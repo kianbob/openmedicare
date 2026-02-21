@@ -2,59 +2,54 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
+import Link from 'next/link'
 import { ExclamationTriangleIcon, MapPinIcon, UserIcon, CalendarDaysIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { TrendChart, BarChart } from '@/components/Charts'
-import { formatCurrency, formatNumber, formatPercent, toTitleCase } from '@/lib/format'
+import { formatCurrency, formatNumber } from '@/lib/format'
 
-interface ProviderData {
-  npi: string
+interface YearlyPayment {
+  year: number
+  total_payments: number
+  total_services: number
+  total_beneficiaries: number
+  avg_submitted: number
+  avg_paid: number
+}
+
+interface TopProcedure {
+  code: string
+  description: string
+  services: number
+  payments: number
+  avg_markup: number
+}
+
+interface RawProvider {
   name: string
   credentials: string
   specialty: string
-  address: {
-    street: string
-    city: string
-    state: string
-    zip: string
+  city: string
+  state: string
+  entity_type: string
+  yearly_payments: YearlyPayment[]
+  overall: {
+    total_payments: number
+    total_services: number
+    total_beneficiaries: number
+    avg_markup_ratio: number
+    years_active: number
   }
-  totalPayments: number
-  totalServices: number
-  beneficiaries: number
-  years: number[]
-  yearlyData: Array<{
-    year: number
-    payments: number
-    services: number
-    beneficiaries: number
-  }>
-  topProcedures: Array<{
-    code: string
-    description: string
-    services: number
-    payments: number
-    avgCost: number
-  }>
-  markupRatio: number
-  peerComparison: {
-    specialty: string
-    percentile: number
-    medianPayment: number
-  }
-  riskFlags: Array<{
-    type: string
-    description: string
-    severity: 'low' | 'medium' | 'high'
-  }>
+  top_procedures: TopProcedure[]
 }
 
 interface PageProps {
   params: Promise<{ npi: string }>
 }
 
-function loadProviderFile(npi: string): any | null {
+function loadProviderFile(npi: string): RawProvider | null {
   try {
     const filePath = path.join(process.cwd(), 'public', 'data', 'providers', `${npi}.json`)
     if (fs.existsSync(filePath)) {
@@ -77,57 +72,8 @@ function loadSpecialtiesData(): any[] {
   return []
 }
 
-function toProviderData(npi: string, raw: any): ProviderData {
-  const overall = raw.overall || {}
-  const yearlyPayments = raw.yearly_payments || []
-  const totalBeneficiaries = yearlyPayments.reduce((sum: number, y: any) => sum + (y.total_beneficiaries || 0), 0)
-
-  // Compute peer comparison from specialties data
-  const specialties = loadSpecialtiesData()
-  const specData = specialties.find((s: any) => s.specialty === raw.specialty)
-  let percentile = 0
-  let medianPayment = 0
-  if (specData) {
-    medianPayment = specData.avg_payment_per_provider || 0
-    const providerTotal = overall.total_payments || 0
-    // Estimate percentile: if provider is above median, scale 50-100; below, scale 0-50
-    if (medianPayment > 0) {
-      const ratio = providerTotal / medianPayment
-      if (ratio >= 1) {
-        percentile = Math.min(99, Math.round(50 + 50 * (1 - 1 / ratio)))
-      } else {
-        percentile = Math.max(1, Math.round(50 * ratio))
-      }
-    }
-  }
-
-  return {
-    npi,
-    name: raw.name || 'Unknown Provider',
-    credentials: raw.credentials || '',
-    specialty: raw.specialty || 'Unknown',
-    address: { street: '', city: raw.city || '', state: raw.state || '', zip: '' },
-    totalPayments: overall.total_payments || 0,
-    totalServices: overall.total_services || 0,
-    beneficiaries: totalBeneficiaries,
-    years: yearlyPayments.map((y: any) => y.year),
-    yearlyData: yearlyPayments.map((y: any) => ({
-      year: y.year,
-      payments: y.total_payments || 0,
-      services: y.total_services || 0,
-      beneficiaries: y.total_beneficiaries || 0,
-    })),
-    topProcedures: (raw.top_procedures || []).map((p: any) => ({
-      code: p.code,
-      description: p.description || p.code,
-      services: p.services || 0,
-      payments: p.payments || 0,
-      avgCost: p.services ? (p.payments / p.services) : 0,
-    })),
-    markupRatio: overall.avg_markup_ratio || 0,
-    peerComparison: { specialty: raw.specialty || '', percentile, medianPayment },
-    riskFlags: [],
-  }
+function slugifySpecialty(specialty: string): string {
+  return specialty.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -137,45 +83,45 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   
   return {
     title: `${providerName} (NPI: ${npi}) — OpenMedicare`,
-    description: `Medicare payment details for ${providerName}. View total payments, procedures, and peer comparisons.`,
+    description: `Medicare payment details for ${providerName}. View ${raw ? formatCurrency(raw.overall.total_payments) : ''} in total payments, top procedures, markup analysis, and year-over-year trends.`,
     alternates: { canonical: `/providers/${npi}` },
   }
 }
 
-async function loadProviderData(npi: string): Promise<ProviderData | null> {
-  const raw = loadProviderFile(npi)
-  if (!raw) return null
-  return toProviderData(npi, raw)
-}
-
 export default async function ProviderDetailPage({ params }: PageProps) {
   const { npi } = await params
-  
-  const providerData = await loadProviderData(npi)
-  
-  if (!providerData) {
-    notFound()
-  }
+  const raw = loadProviderFile(npi)
+  if (!raw) notFound()
 
-  const getSeverityColor = (severity: string) => {
-    switch (severity) {
-      case 'high':
-        return 'bg-red-100 text-red-800 border-red-200'
-      case 'medium':
-        return 'bg-yellow-100 text-yellow-800 border-yellow-200'
-      default:
-        return 'bg-gray-100 text-gray-800 border-gray-200'
+  const overall = raw.overall
+  const yearly = raw.yearly_payments || []
+  const topProcs = raw.top_procedures || []
+  const totalBeneficiaries = yearly.reduce((sum, y) => sum + (y.total_beneficiaries || 0), 0)
+
+  // Peer comparison
+  const specialties = loadSpecialtiesData()
+  const specData = specialties.find((s: any) => s.specialty === raw.specialty)
+  let percentile = 0
+  let medianPayment = 0
+  if (specData) {
+    medianPayment = specData.avg_payment_per_provider || 0
+    if (medianPayment > 0) {
+      const ratio = overall.total_payments / medianPayment
+      percentile = ratio >= 1
+        ? Math.min(99, Math.round(50 + 50 * (1 - 1 / ratio)))
+        : Math.max(1, Math.round(50 * ratio))
     }
   }
+
+  const specialtySlug = slugifySpecialty(raw.specialty)
 
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs 
           items={[
-            { name: 'Explore', href: '/providers' },
             { name: 'Providers', href: '/providers' },
-            { name: providerData.name }
+            { name: raw.name }
           ]}
           className="mb-8"
         />
@@ -185,41 +131,52 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
             <div className="flex-1">
               <h1 className="text-4xl font-bold text-gray-900 font-playfair mb-2">
-                {providerData.credentials ? `${providerData.name}, ${providerData.credentials}` : providerData.name}
+                {raw.credentials ? `${raw.name}, ${raw.credentials}` : raw.name}
               </h1>
               <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-6">
                 <div className="flex items-center">
                   <UserIcon className="h-5 w-5 mr-2" />
-                  <span>NPI: {providerData.npi}</span>
+                  <span>NPI: {npi}</span>
                 </div>
                 <div className="flex items-center">
                   <MapPinIcon className="h-5 w-5 mr-2" />
-                  <span>{providerData.address.city}, {providerData.address.state}</span>
+                  <Link href={`/states/${raw.state}`} className="text-blue-600 hover:text-blue-800">
+                    {raw.city}, {raw.state}
+                  </Link>
                 </div>
                 <div className="flex items-center">
                   <CalendarDaysIcon className="h-5 w-5 mr-2" />
-                  <span>{providerData.years.length} years of data</span>
+                  <span>{overall.years_active} years of data</span>
                 </div>
+                {raw.entity_type && (
+                  <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">{raw.entity_type}</span>
+                )}
               </div>
               
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                 <div>
                   <div className="text-3xl font-bold text-medicare-primary">
-                    {formatCurrency(providerData.totalPayments)}
+                    {formatCurrency(overall.total_payments)}
                   </div>
                   <div className="text-sm text-gray-600">Total Medicare Payments</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">
-                    {formatNumber(providerData.beneficiaries)}
+                    {formatNumber(totalBeneficiaries)}
                   </div>
-                  <div className="text-sm text-gray-600">Medicare Beneficiaries</div>
+                  <div className="text-sm text-gray-600">Total Beneficiaries</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">
-                    {formatNumber(providerData.totalServices)}
+                    {formatNumber(overall.total_services)}
                   </div>
                   <div className="text-sm text-gray-600">Total Services</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-orange-600">
+                    {overall.avg_markup_ratio}x
+                  </div>
+                  <div className="text-sm text-gray-600">Avg Markup Ratio</div>
                 </div>
               </div>
             </div>
@@ -227,60 +184,37 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             <div className="mt-6 lg:mt-0 lg:ml-8">
               <div className="bg-gray-50 rounded-lg p-6 min-w-[200px]">
                 <h3 className="font-semibold text-gray-900 mb-4">Specialty</h3>
-                <p className="text-lg font-medium text-medicare-primary mb-4">
-                  {providerData.specialty}
-                </p>
+                <Link href={`/specialties/${specialtySlug}`} className="text-lg font-medium text-medicare-primary hover:text-medicare-dark mb-4 block">
+                  {raw.specialty}
+                </Link>
                 
-                <h4 className="font-semibold text-gray-900 mb-2">Peer Comparison</h4>
-                <p className="text-sm text-gray-600">
-                  {providerData.peerComparison.percentile}th percentile in {providerData.peerComparison.specialty}
-                </p>
-                <p className="text-xs text-gray-500 mt-1">
-                  Specialty median: {formatCurrency(providerData.peerComparison.medianPayment)}
-                </p>
+                {medianPayment > 0 && (
+                  <>
+                    <h4 className="font-semibold text-gray-900 mb-2">Peer Comparison</h4>
+                    <p className="text-sm text-gray-600">
+                      {percentile}th percentile in {raw.specialty}
+                    </p>
+                    <p className="text-xs text-gray-500 mt-1">
+                      Specialty median: {formatCurrency(medianPayment)}
+                    </p>
+                  </>
+                )}
               </div>
             </div>
           </div>
         </div>
 
-        {/* Risk Flags */}
-        {providerData.riskFlags.length > 0 && (
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
-              Risk Analysis
-            </h2>
-            <div className="space-y-3">
-              {providerData.riskFlags.map((flag, index) => (
-                <div 
-                  key={index}
-                  className={`border rounded-lg p-4 ${getSeverityColor(flag.severity)}`}
-                >
-                  <div className="flex items-start">
-                    <ExclamationTriangleIcon className="h-5 w-5 mt-0.5 mr-3 flex-shrink-0" />
-                    <div>
-                      <h3 className="font-semibold mb-1">{flag.type}</h3>
-                      <p className="text-sm">{flag.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
+        {/* Payment & Services Trend Charts */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-          {/* Payment Trends */}
           <TrendChart
-            data={providerData.yearlyData}
+            data={yearly.map(y => ({ year: y.year, payments: y.total_payments }))}
             xDataKey="year"
             yDataKey="payments"
             title="Annual Medicare Payments"
             height={350}
           />
-
-          {/* Services Trends */}
           <TrendChart
-            data={providerData.yearlyData}
+            data={yearly.map(y => ({ year: y.year, services: y.total_services }))}
             xDataKey="year"
             yDataKey="services"
             title="Annual Services Provided"
@@ -288,60 +222,95 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           />
         </div>
 
-        {/* Top Procedures */}
-        <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-6">
-            Top Procedures (2023)
-          </h2>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-200">
-              <thead>
-                <tr>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Procedure
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Services
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Total Payments
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Avg Cost
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
-                {providerData.topProcedures.map((procedure) => (
-                  <tr key={procedure.code}>
-                    <td className="px-6 py-4">
-                      <div>
-                        <div className="text-sm font-medium text-gray-900">
-                          {procedure.description}
-                        </div>
-                        <div className="text-sm text-gray-500">
-                          Code: {procedure.code}
-                        </div>
-                      </div>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      {formatNumber(procedure.services)}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                      {formatCurrency(procedure.payments)}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      {formatCurrency(procedure.avgCost)}
-                    </td>
+        {/* Submitted vs Paid — the markup gap over time */}
+        {yearly.length > 0 && yearly[0].avg_submitted != null && (
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-2">Submitted Charges vs. Medicare Payments</h2>
+            <p className="text-sm text-gray-500 mb-4">Average per-service amounts submitted by the provider compared to what Medicare actually paid — the gap represents the markup.</p>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Year</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Avg Submitted</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Avg Paid</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Markup Ratio</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Gap per Service</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Total Payments</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Services</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Beneficiaries</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody className="bg-white divide-y divide-gray-200">
+                  {yearly.map((y) => {
+                    const ratio = y.avg_paid > 0 ? (y.avg_submitted / y.avg_paid) : 0
+                    const gap = y.avg_submitted - y.avg_paid
+                    return (
+                      <tr key={y.year} className="hover:bg-blue-50">
+                        <td className="px-4 py-2 font-medium text-gray-900">{y.year}</td>
+                        <td className="px-4 py-2 text-right text-red-600 font-medium">{formatCurrency(y.avg_submitted)}</td>
+                        <td className="px-4 py-2 text-right text-green-600 font-medium">{formatCurrency(y.avg_paid)}</td>
+                        <td className="px-4 py-2 text-right text-orange-600">{ratio.toFixed(2)}x</td>
+                        <td className="px-4 py-2 text-right text-gray-600">{formatCurrency(gap)}</td>
+                        <td className="px-4 py-2 text-right font-medium">{formatCurrency(y.total_payments)}</td>
+                        <td className="px-4 py-2 text-right text-gray-600">{formatNumber(y.total_services)}</td>
+                        <td className="px-4 py-2 text-right text-gray-600">{formatNumber(y.total_beneficiaries)}</td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
+            </div>
           </div>
-        </div>
+        )}
+
+        {/* Top Procedures */}
+        {topProcs.length > 0 && (
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-6">
+              Top Procedures ({topProcs.length})
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Code</th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Services</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Payments</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Avg/Service</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Markup</th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-gray-200">
+                  {topProcs.map((proc) => (
+                    <tr key={proc.code} className="hover:bg-blue-50">
+                      <td className="px-4 py-2">
+                        <Link href={`/procedures/${proc.code}`} className="text-blue-600 hover:text-blue-800 font-mono font-medium">
+                          {proc.code}
+                        </Link>
+                      </td>
+                      <td className="px-4 py-2 text-sm text-gray-700">{proc.description}</td>
+                      <td className="px-4 py-2 text-right text-gray-600">{formatNumber(proc.services)}</td>
+                      <td className="px-4 py-2 text-right font-medium">{formatCurrency(proc.payments)}</td>
+                      <td className="px-4 py-2 text-right text-gray-600">
+                        {proc.services > 0 ? formatCurrency(proc.payments / proc.services) : '—'}
+                      </td>
+                      <td className="px-4 py-2 text-right">
+                        <span className={`${proc.avg_markup > 3 ? 'text-red-600' : proc.avg_markup > 2 ? 'text-orange-600' : 'text-gray-600'} font-medium`}>
+                          {proc.avg_markup.toFixed(2)}x
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
 
         {/* Markup Analysis */}
-        <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-6">
             Markup Analysis
           </h2>
@@ -351,32 +320,35 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                 Charge-to-Payment Ratio
               </h3>
               <div className="text-4xl font-bold text-medicare-primary mb-2">
-                {providerData.markupRatio}x
+                {overall.avg_markup_ratio}x
               </div>
               <p className="text-sm text-gray-600 mb-4">
-                This provider submits charges {providerData.markupRatio} times higher than what Medicare actually pays.
+                This provider submits charges {overall.avg_markup_ratio} times higher than what Medicare actually pays.
               </p>
               
               <div className="bg-gray-50 rounded-lg p-4">
                 <h4 className="font-semibold text-gray-900 mb-2">What This Means</h4>
                 <p className="text-sm text-gray-600">
-                  A markup ratio of {providerData.markupRatio}x means for every $100 Medicare pays, 
-                  this provider initially charges ${(providerData.markupRatio * 100).toFixed(0)}. 
-                  This is {providerData.markupRatio > 2 ? 'higher' : 'lower'} than the specialty average.
+                  A markup ratio of {overall.avg_markup_ratio}x means for every $100 Medicare pays, 
+                  this provider initially charges ${(overall.avg_markup_ratio * 100).toFixed(0)}. 
+                  This is {overall.avg_markup_ratio > 2 ? 'higher' : 'lower'} than the national average.
                 </p>
               </div>
             </div>
             
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                Address Information
+                Location
               </h3>
               <div className="space-y-2 text-gray-700">
                 <div className="flex items-start">
                   <MapPinIcon className="h-5 w-5 text-gray-400 mr-2 mt-0.5" />
                   <div>
-                    <p>{providerData.address.street}</p>
-                    <p>{providerData.address.city}, {providerData.address.state} {providerData.address.zip}</p>
+                    <p>
+                      <Link href={`/states/${raw.state}`} className="text-blue-600 hover:text-blue-800">
+                        {raw.city}, {raw.state}
+                      </Link>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -392,28 +364,44 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Actions */}
+        {/* Related Links */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">Related</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href={`/states/${raw.state}`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">State</div>
+              <div className="font-medium text-blue-600">All providers in {raw.state} →</div>
+            </Link>
+            <Link href={`/specialties/${specialtySlug}`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Specialty</div>
+              <div className="font-medium text-blue-600">{raw.specialty} →</div>
+            </Link>
+            <Link href="/watchlist" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Analysis</div>
+              <div className="font-medium text-blue-600">Fraud Watchlist →</div>
+            </Link>
+          </div>
+        </div>
+
+        {/* Share & Source */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Share This Provider
-              </h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Share This Provider</h3>
               <p className="text-sm text-gray-600 mb-4 sm:mb-0">
-                Share this provider's Medicare payment information
+                Share this provider&apos;s Medicare payment information
               </p>
             </div>
             <ShareButtons
-              url={`/providers/${providerData.npi}`}
-              title={`${providerData.name} - Medicare Provider`}
-              description={`Medicare payment details for ${providerData.name}, ${providerData.specialty} in ${providerData.address.city}, ${providerData.address.state}`}
+              url={`/providers/${npi}`}
+              title={`${raw.name} - Medicare Provider`}
+              description={`Medicare payment details for ${raw.name}, ${raw.specialty} in ${raw.city}, ${raw.state}`}
             />
           </div>
         </div>
 
-        {/* Source Citation */}
         <SourceCitation 
-          lastUpdated="February 2024"
+          lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
             'Medicare Provider Utilization and Payment Data (2014-2023)',
