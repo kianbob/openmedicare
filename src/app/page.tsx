@@ -151,7 +151,19 @@ export default function HomePage() {
                 Read Investigations
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
               </Link>
+              <Link 
+                href="/start"
+                className="inline-flex items-center px-8 py-4 border border-white/50 text-lg font-medium rounded-md text-blue-100 hover:bg-white/10 transition-colors"
+              >
+                Start Here →
+              </Link>
             </div>
+
+            {/* Hook line */}
+            <p className="mt-8 text-sm text-blue-200 max-w-2xl mx-auto">
+              Exposed: A nurse practitioner billing $12.1M for COVID tests. A plastic surgeon marking up wound care 59x.{' '}
+              <Link href="/fraud" className="underline text-white hover:text-blue-100">See the fraud analysis →</Link>
+            </p>
           </div>
         </div>
       </div>
@@ -183,8 +195,56 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Featured Investigations */}
+      {/* What We Found */}
       <div className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
+              What We Found
+            </h2>
+            <p className="text-lg text-gray-600">
+              The most striking discoveries from our analysis
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                stat: '413 services/day',
+                description: 'One nurse practitioner averaged 413 Medicare services per working day',
+                href: '/fraud/impossible-numbers',
+              },
+              {
+                stat: '59× markup',
+                description: 'A Beverly Hills surgeon charges 59 times what Medicare pays for wound care',
+                href: '/fraud/wound-care',
+              },
+              {
+                stat: '$19.7 Billion',
+                description: "One eye injection drug costs Medicare more than most agencies' budgets",
+                href: '/investigations/eye-care-billions',
+              },
+              {
+                stat: '3.77×',
+                description: 'On average, doctors charge nearly 4 times what Medicare actually pays them',
+                href: '/markup',
+              },
+            ].map((finding) => (
+              <Link
+                key={finding.stat}
+                href={finding.href}
+                className="group bg-white rounded-lg border-l-4 border-l-medicare-primary border border-gray-200 p-6 hover:shadow-lg transition-shadow"
+              >
+                <div className="text-3xl font-bold text-medicare-primary mb-3">{finding.stat}</div>
+                <p className="text-sm text-gray-600 group-hover:text-gray-900">{finding.description}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Featured Investigations */}
+      <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
