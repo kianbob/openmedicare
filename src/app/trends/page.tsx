@@ -38,7 +38,7 @@ export default function TrendsPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'Spending Trends', href: '/trends' }]} />
+        <Breadcrumbs items={[{ name: 'Spending Trends', href: '/trends' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Spending Trends</h1>
           <p className="text-lg text-gray-600">A decade of Medicare provider payments — from {earliest?.year} to {latest?.year}.</p>
@@ -47,10 +47,10 @@ export default function TrendsPage() {
         {/* Key Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
           {[
-            { label: `Total (${latest?.year})`, value: formatCurrency(latest?.total_payments || 0), color: 'blue' },
-            { label: '10-Year Growth', value: `${growth}%`, color: 'green' },
-            { label: 'COVID Impact (2020)', value: covidDip ? `${covidDip}%` : 'N/A', color: 'red' },
-            { label: `Providers (${latest?.year})`, value: formatNumber(latest?.total_providers || 0), color: 'purple' },
+            { name: `Total (${latest?.year})`, value: formatCurrency(latest?.total_payments || 0), color: 'blue' },
+            { name: '10-Year Growth', value: `${growth}%`, color: 'green' },
+            { name: 'COVID Impact (2020)', value: covidDip ? `${covidDip}%` : 'N/A', color: 'red' },
+            { name: `Providers (${latest?.year})`, value: formatNumber(latest?.total_providers || 0), color: 'purple' },
           ].map(s => (
             <div key={s.label} className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
               <div className="text-sm text-gray-500 mb-1">{s.label}</div>

@@ -26,7 +26,7 @@ export default function RuralUrbanPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'Rural vs Urban', href: '/rural-urban' }]} />
+        <Breadcrumbs items={[{ name: 'Rural vs Urban', href: '/rural-urban' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Rural vs Urban Medicare Spending</h1>
           <p className="text-lg text-gray-600">How Medicare spending differs between rural and urban areas — examining access, pricing, and provider distribution.</p>

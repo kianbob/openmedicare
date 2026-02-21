@@ -59,7 +59,7 @@ export default function StatesPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'States', href: '/states' }]} />
+        <Breadcrumbs items={[{ name: 'States', href: '/states' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Spending by State</h1>
           <p className="text-lg text-gray-600">Explore Medicare provider payments across all 50 states and territories. Data covers 2014-2023.</p>

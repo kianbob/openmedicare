@@ -40,7 +40,7 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'Specialties', href: '/specialties' }, { label: data.specialty, href: `/specialties/${slug}` }]} />
+        <Breadcrumbs items={[{ name: 'Specialties', href: '/specialties' }, { name: data.specialty, href: `/specialties/${slug}` }]} />
 
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-2">{data.specialty}</h1>

@@ -48,7 +48,7 @@ export default function SpecialtiesPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'Specialties', href: '/specialties' }]} />
+        <Breadcrumbs items={[{ name: 'Specialties', href: '/specialties' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Spending by Specialty</h1>
           <p className="text-lg text-gray-600">Compare Medicare payments across all medical specialties. Click any specialty for top providers, procedures, and 10-year trends.</p>

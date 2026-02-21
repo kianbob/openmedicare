@@ -25,7 +25,7 @@ export default function DrugSpendingPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'Drug Spending', href: '/drug-spending' }]} />
+        <Breadcrumbs items={[{ name: 'Drug Spending', href: '/drug-spending' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Drug Spending</h1>
           <p className="text-lg text-gray-600">Analyzing prescription drug payments in Medicare — which drugs cost the most and how drug spending is growing over time.</p>

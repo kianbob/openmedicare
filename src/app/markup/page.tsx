@@ -32,7 +32,7 @@ export default function MarkupAnalysisPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'Markup Analysis', href: '/markup' }]} />
+        <Breadcrumbs items={[{ name: 'Markup Analysis', href: '/markup' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">The Medicare Markup Machine</h1>
           <p className="text-lg text-gray-600">Medicare providers submit charges far exceeding what Medicare actually pays. This analysis reveals who charges the most and where the biggest markups occur.</p>

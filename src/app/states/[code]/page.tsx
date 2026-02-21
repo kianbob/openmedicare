@@ -46,7 +46,7 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'States', href: '/states' }, { label: name, href: `/states/${code}` }]} />
+        <Breadcrumbs items={[{ name: 'States', href: '/states' }, { name: name, href: `/states/${code}` }]} />
         
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-2">{name} Medicare Spending</h1>

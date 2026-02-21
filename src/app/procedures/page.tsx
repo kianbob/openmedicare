@@ -55,7 +55,7 @@ export default function ProceduresPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ label: 'Procedures', href: '/procedures' }]} />
+        <Breadcrumbs items={[{ name: 'Procedures', href: '/procedures' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Procedure Explorer</h1>
           <p className="text-lg text-gray-600">Browse the top 500 procedures and drugs by Medicare spending. Click any code for detailed provider and geographic breakdowns.</p>
