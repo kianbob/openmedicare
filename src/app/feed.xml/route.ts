@@ -3,6 +3,19 @@ import { NextResponse } from 'next/server'
 const baseUrl = 'https://openmedicare.vercel.app'
 
 const items = [
+  // NP Fraud and Pain Management
+  {
+    title: 'Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk',
+    description: 'NPs are the fastest-growing Medicare provider type — and emerging as a new fraud vector. Our AI flagged NPs billing $1.6M+ with 95% fraud probability while operating under less oversight than physicians.',
+    link: '/investigations/nurse-practitioners-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: "The Opioid Connection: Pain Management Providers in Medicare's Fraud Data",
+    description: 'Pain management is a known fraud vector tied to the opioid crisis. Our AI flagged 7 providers billing up to $3M each — including one with 64,000 services. FL, TX, and MI lead the pattern.',
+    link: '/investigations/pain-management-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // Technical Deep-Dive
   {
     title: 'How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers',

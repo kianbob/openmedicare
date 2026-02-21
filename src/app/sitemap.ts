@@ -57,6 +57,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'california-medicare-fraud',
     'florida-medicare-fraud',
     'new-york-medicare-fraud',
+    'nurse-practitioners-fraud',
+    'pain-management-fraud',
   ]
 
   const staticPages = [
