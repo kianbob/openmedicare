@@ -12,7 +12,7 @@ interface GlossaryTerm {
   related?: string[]
 }
 
-const glossaryTerms: GlossaryTerm[] = [
+const glossaryTerms = ([
   { term: 'Area Under Curve', abbreviation: 'AUC', definition: 'A model accuracy metric measuring how well the algorithm distinguishes between fraudulent and legitimate providers. Our model achieves 0.83 AUC, meaning 83% discrimination accuracy. A score of 0.5 would be random chance; 1.0 would be perfect.', category: 'model', related: ['Random Forest', 'Fraud Probability'] },
   { term: 'Allowed Amount', definition: 'The maximum amount Medicare has determined is appropriate for a given service. This is typically less than the provider\'s submitted charge but more than the actual payment after cost-sharing.', category: 'billing', related: ['Markup Ratio', 'Submitted Charges'] },
   { term: 'Beneficiary', definition: 'A person enrolled in and receiving benefits from Medicare. Also referred to as a Medicare patient. Each beneficiary has a unique identifier (not the same as the provider\'s NPI).', category: 'medicare', related: ['Services Per Beneficiary'] },
@@ -48,7 +48,7 @@ const glossaryTerms: GlossaryTerm[] = [
   { term: 'Fraud Watchlist', definition: 'Our curated list of 500 providers flagged by the machine learning model as having the highest probability of fraudulent billing patterns. Updated with each data release. Not an accusation — a starting point for investigation.', category: 'fraud', related: ['Risk Rank', 'Fraud Probability'] },
   { term: 'Whistleblower', definition: 'An individual, often a healthcare worker, who reports suspected Medicare fraud. Protected under the False Claims Act and eligible for a percentage of recovered funds. The HHS OIG hotline (1-800-HHS-TIPS) accepts anonymous reports.', category: 'fraud', related: ['False Claims Act', 'HHS OIG'] },
   { term: 'Z-Score', definition: 'A statistical measure indicating how many standard deviations a value is from the mean. In our analysis, providers with billing z-scores above 3.0 in multiple categories are flagged for further review.', category: 'model', related: ['Outlier Detection', 'Peer Comparison'] },
-].sort((a, b) => a.term.localeCompare(b.term))
+] as GlossaryTerm[]).sort((a, b) => a.term.localeCompare(b.term))
 
 const categoryColors: Record<string, { bg: string; text: string; label: string }> = {
   medicare: { bg: 'bg-blue-100', text: 'text-blue-800', label: 'Medicare' },

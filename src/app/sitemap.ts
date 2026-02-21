@@ -81,6 +81,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/utilization',
     '/your-medicare-dollar',
     '/methodology',
+    '/glossary',
+    '/data-sources',
     ...investigationSlugs.map(s => `/investigations/${s}`),
     '/api-docs',
     '/search',

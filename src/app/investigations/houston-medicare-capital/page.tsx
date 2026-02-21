@@ -142,6 +142,12 @@ export default function HoustonMedicareCapitalPage() {
             <Link href="/investigations/medicare-spending-by-state" className="text-medicare-primary hover:underline text-sm">📊 Spending by State</Link>
             <Link href="/states/TX" className="text-medicare-primary hover:underline text-sm">📍 Texas Medicare Data</Link>
             <Link href="/geographic" className="text-medicare-primary hover:underline text-sm">📊 Geographic Analysis</Link>
+            <Link href="/investigations/florida-california-fraud" className="text-medicare-primary hover:underline text-sm">🔴 The Fraud Belt: CA & FL</Link>
+            <Link href="/investigations/state-spending-divide" className="text-medicare-primary hover:underline text-sm">💰 State Spending Divide</Link>
+            <Link href="/investigations/biggest-billers" className="text-medicare-primary hover:underline text-sm">🏥 Biggest Medicare Billers</Link>
+            <Link href="/investigations/rural-price-tag" className="text-medicare-primary hover:underline text-sm">🌾 The Rural Price Tag</Link>
+            <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🚨 Fraud Analysis Hub</Link>
+            <Link href="/specialties" className="text-medicare-primary hover:underline text-sm">🩺 Browse Specialties</Link>
           </div>
         </div>
 

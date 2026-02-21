@@ -235,6 +235,12 @@ export default function WoundCareCrisisPage() {
                 <Link href="/fraud/deep-dives" className="text-medicare-primary hover:underline text-sm">🔍 Deep Dive Profiles</Link>
                 <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">📰 The Impossible Doctors</Link>
                 <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
+                <Link href="/investigations/arizona-wound-care-ring" className="text-medicare-primary hover:underline text-sm">🩹 Arizona Wound Care Ring</Link>
+                <Link href="/investigations/beverly-hills-wound-care" className="text-medicare-primary hover:underline text-sm">💎 Beverly Hills Wound Care</Link>
+                <Link href="/investigations/beverly-hills-billing" className="text-medicare-primary hover:underline text-sm">📈 Beverly Hills Billing</Link>
+                <Link href="/investigations/medicare-fraud-2025" className="text-medicare-primary hover:underline text-sm">⚖️ Medicare Fraud in 2025</Link>
+                <Link href="/states/AZ" className="text-medicare-primary hover:underline text-sm">🗺️ Arizona Medicare Data</Link>
+                <Link href="/states/CA" className="text-medicare-primary hover:underline text-sm">🗺️ California Medicare Data</Link>
               </div>
             </div>
 

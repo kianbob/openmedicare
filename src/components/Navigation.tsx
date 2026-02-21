@@ -74,6 +74,8 @@ const navigation = [
     children: [
       { name: 'About OpenMedicare', href: '/about', desc: 'Our mission' },
       { name: 'Methodology', href: '/methodology', desc: 'How we analyze the data' },
+      { name: 'Glossary', href: '/glossary', desc: 'Medicare & fraud terms A-Z' },
+      { name: 'Data Sources', href: '/data-sources', desc: 'Where our data comes from' },
       { name: 'Updates', href: '/updates', desc: 'What\'s new' },
     ],
   },

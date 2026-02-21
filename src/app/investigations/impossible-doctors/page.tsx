@@ -286,6 +286,12 @@ export default function ImpossibleDoctorsPage() {
                 <Link href="/investigations/covid-test-scheme" className="text-medicare-primary hover:underline text-sm">📰 The COVID Test Gold Rush</Link>
                 <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Enhanced Watchlist</Link>
                 <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
+                <Link href="/investigations/internal-medicine-crisis" className="text-medicare-primary hover:underline text-sm">🏥 Internal Medicine: Ground Zero</Link>
+                <Link href="/investigations/florida-california-fraud" className="text-medicare-primary hover:underline text-sm">🔴 The Fraud Belt: CA & FL</Link>
+                <Link href="/investigations/data-predicted-fraud" className="text-medicare-primary hover:underline text-sm">🏆 Our Data Predicted Fraud</Link>
+                <Link href="/investigations/9862-services-per-day" className="text-medicare-primary hover:underline text-sm">📊 9,862 Services Per Day</Link>
+                <Link href="/specialties/internal-medicine" className="text-medicare-primary hover:underline text-sm">🩺 Internal Medicine Data</Link>
+                <Link href="/states/FL" className="text-medicare-primary hover:underline text-sm">🗺️ Florida Medicare Data</Link>
               </div>
             </div>
 

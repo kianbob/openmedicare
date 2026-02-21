@@ -178,6 +178,20 @@ export default function MethodologyPage() {
           </section>
         </div>
 
+        <div className="mt-12 rounded-xl border border-gray-200 bg-gray-50 p-6">
+          <h2 className="font-serif text-xl font-bold text-gray-900">Learn More</h2>
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link href="/glossary" className="rounded-lg border border-gray-200 bg-white p-4 hover:border-medicare-primary hover:bg-blue-50 transition-colors">
+              <div className="text-sm font-semibold text-gray-900">📖 Glossary</div>
+              <div className="text-xs text-gray-500 mt-1">Every Medicare and fraud detection term defined, A-Z</div>
+            </Link>
+            <Link href="/data-sources" className="rounded-lg border border-gray-200 bg-white p-4 hover:border-medicare-primary hover:bg-blue-50 transition-colors">
+              <div className="text-sm font-semibold text-gray-900">📊 Data Sources</div>
+              <div className="text-xs text-gray-500 mt-1">Where our data comes from, how fresh it is, and what it contains</div>
+            </Link>
+          </div>
+        </div>
+
         <div className="mt-12">
           <ShareButtons
             url="https://openmedicare.vercel.app/methodology"

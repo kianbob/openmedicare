@@ -101,12 +101,12 @@ export default function InternalMedicineCrisisPage() {
               <p className="text-xl text-gray-700 leading-relaxed mb-8 font-medium">
                 When we trained a machine learning model on 8,300+ convicted Medicare fraudsters and asked it to find
                 500 active providers with matching billing patterns, we expected the results to span dozens of specialties.
-                Instead, one specialty dominated everything: <strong>Internal Medicine</strong>.
+                Instead, one specialty dominated everything: <strong><Link href="/specialties/internal-medicine" className="text-medicare-primary hover:underline">Internal Medicine</Link></strong>.
               </p>
 
               <p>
-                263 of the 500 flagged providers — <strong>52.6%</strong> — are internists. The next closest specialty,
-                Family Practice, accounts for 135 (27%). Together, these two primary care specialties make up nearly
+                263 of the <Link href="/fraud/still-out-there" className="text-medicare-primary hover:underline">500 flagged providers</Link> — <strong>52.6%</strong> — are internists. The next closest specialty,
+                <Link href="/specialties/family-practice" className="text-medicare-primary hover:underline">Family Practice</Link>, accounts for 135 (27%). Together, these two primary care specialties make up nearly
                 80% of all AI-flagged providers. Every other medical specialty combined accounts for the remaining 20%.
               </p>
 
@@ -203,7 +203,7 @@ export default function InternalMedicineCrisisPage() {
               <p>
                 The two most common billing codes in all of Medicare are 99213 (established patient, low complexity)
                 and 99214 (established patient, moderate complexity). Together, they account for over <strong>$50 billion</strong> in
-                annual Medicare payments.
+                annual Medicare payments. Our <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline">upcoding detector</Link> tracks these patterns nationally.
               </p>
 
               <p>
@@ -407,6 +407,29 @@ export default function InternalMedicineCrisisPage() {
                       47 AI-flagged providers who each billed Medicare over $1 million.
                     </p>
                   </Link>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4 not-prose">
+                  <Link href="/investigations/impossible-doctors" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">The Impossible Doctors</div>
+                    <p className="text-xs text-gray-600">Providers billing 400+ services per day</p>
+                  </Link>
+                  <Link href="/investigations/office-visit-economy" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">The Office Visit Economy</div>
+                    <p className="text-xs text-gray-600">How E&M codes drive Medicare spending</p>
+                  </Link>
+                  <Link href="/investigations/specialty-monopoly" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">The Specialty Monopoly</div>
+                    <p className="text-xs text-gray-600">How a few specialties dominate Medicare</p>
+                  </Link>
+                  <Link href="/investigations/nurse-practitioner-boom" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">The NP Boom</div>
+                    <p className="text-xs text-gray-600">How nurse practitioners are reshaping primary care billing</p>
+                  </Link>
+                </div>
+                <div className="mt-4 not-prose">
+                  <p className="text-sm text-gray-600">
+                    Explore: <Link href="/specialties/internal-medicine" className="text-medicare-primary hover:underline">Internal Medicine data</Link> · <Link href="/specialties/family-practice" className="text-medicare-primary hover:underline">Family Practice data</Link> · <Link href="/fraud" className="text-medicare-primary hover:underline">Fraud Analysis Hub</Link> · <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline">Upcoding Detector</Link> · <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline">Full Watchlist</Link>
+                  </p>
                 </div>
               </div>
             </div>

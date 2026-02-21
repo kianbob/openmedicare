@@ -281,6 +281,12 @@ export default function TelehealthExplosionPage() {
                 <Link href="/investigations/pandemic-recovery" className="text-medicare-primary hover:underline text-sm">📈 Pandemic Recovery</Link>
                 <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">⏰ The Impossible Doctors</Link>
                 <Link href="/investigations/ten-year-explosion" className="text-medicare-primary hover:underline text-sm">💥 The 10-Year Explosion</Link>
+                <Link href="/investigations/genetic-testing-fraud" className="text-medicare-primary hover:underline text-sm">🧬 Genetic Testing Fraud</Link>
+                <Link href="/investigations/internal-medicine-crisis" className="text-medicare-primary hover:underline text-sm">🏥 Internal Medicine Crisis</Link>
+                <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🚨 Fraud Analysis Hub</Link>
+                <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">🧮 Impossible Billing Numbers</Link>
+                <Link href="/specialties" className="text-medicare-primary hover:underline text-sm">🩺 Browse Specialties</Link>
+                <Link href="/states" className="text-medicare-primary hover:underline text-sm">🗺️ Browse by State</Link>
               </div>
             </div>
 

@@ -315,6 +315,12 @@ export default function BeverlyHillsBillingPage() {
                 <Link href="/investigations/geographic-inequality" className="text-medicare-primary hover:underline text-sm">🗺️ ZIP Code Lottery</Link>
                 <Link href="/investigations/medicare-millionaires" className="text-medicare-primary hover:underline text-sm">💰 Medicare&apos;s Millionaire Club</Link>
                 <Link href="/investigations/markup-machine" className="text-medicare-primary hover:underline text-sm">🔧 The Markup Machine</Link>
+                <Link href="/investigations/beverly-hills-wound-care" className="text-medicare-primary hover:underline text-sm">💎 Beverly Hills Wound Care</Link>
+                <Link href="/investigations/data-predicted-fraud" className="text-medicare-primary hover:underline text-sm">🏆 Our Data Predicted Fraud</Link>
+                <Link href="/states/CA" className="text-medicare-primary hover:underline text-sm">🗺️ California Medicare Data</Link>
+                <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🚨 Fraud Analysis Hub</Link>
+                <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">📋 Fraud Watchlist</Link>
+                <Link href="/markup" className="text-medicare-primary hover:underline text-sm">📈 Markup Analysis Tool</Link>
               </div>
             </div>
 

@@ -300,8 +300,8 @@ export default function FloridaCaliforniaFraudPage() {
 
               <p>
                 The states where Medicare fraud concentrates are the same states where Medicare <em>money</em> concentrates.
-                California and Florida are the #1 and #2 states for total Medicare spending. New York is #3. Texas is #4.
-                Fraud doesn&apos;t go where oversight is weakest — it goes where the money is deepest.
+                California and Florida are the #1 and #2 states for <Link href="/investigations/medicare-spending-by-state" className="text-medicare-primary hover:underline">total Medicare spending</Link>. New York is #3. Texas is #4.
+                Fraud doesn&apos;t go where oversight is weakest — it goes where the money is deepest. And the specialty most affected? <Link href="/specialties/internal-medicine" className="text-medicare-primary hover:underline">Internal Medicine</Link> — which accounts for over half of all flagged providers.
               </p>
 
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
@@ -368,6 +368,29 @@ export default function FloridaCaliforniaFraudPage() {
                       47 AI-flagged providers who each billed Medicare over $1 million.
                     </p>
                   </Link>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4 not-prose">
+                  <Link href="/investigations/houston-medicare-capital" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">Houston: Medicare Fraud Capital</div>
+                    <p className="text-xs text-gray-600">Texas&apos;s role in the fraud belt</p>
+                  </Link>
+                  <Link href="/investigations/florida-infectious-disease" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">Florida&apos;s Fraud Factory</div>
+                    <p className="text-xs text-gray-600">185 impossible providers in the Sunshine State</p>
+                  </Link>
+                  <Link href="/investigations/beverly-hills-billing" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">Beverly Hills Billing</div>
+                    <p className="text-xs text-gray-600">California&apos;s most extreme billing patterns</p>
+                  </Link>
+                  <Link href="/investigations/data-predicted-fraud" className="block bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors no-underline">
+                    <div className="text-sm font-bold text-gray-900">Our Data Predicted Fraud</div>
+                    <p className="text-xs text-gray-600">We flagged providers before the DOJ did</p>
+                  </Link>
+                </div>
+                <div className="mt-4 not-prose">
+                  <p className="text-sm text-gray-600">
+                    Explore state-level data: <Link href="/states/CA" className="text-medicare-primary hover:underline">California</Link> · <Link href="/states/FL" className="text-medicare-primary hover:underline">Florida</Link> · <Link href="/states/NY" className="text-medicare-primary hover:underline">New York</Link> · <Link href="/states/TX" className="text-medicare-primary hover:underline">Texas</Link> · <Link href="/states/NJ" className="text-medicare-primary hover:underline">New Jersey</Link> | <Link href="/fraud" className="text-medicare-primary hover:underline">Fraud Analysis Hub</Link> | <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline">Full Watchlist</Link>
+                  </p>
                 </div>
               </div>
             </div>
