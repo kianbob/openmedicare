@@ -116,6 +116,21 @@ export default function StatesPage() {
           </div>
         )}
 
+        {/* Related Reading */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Reading</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <Link href="/investigations/medicare-spending-by-state" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <div className="font-medium text-blue-600">Medicare Spending by State: A Complete Breakdown</div>
+              <div className="text-sm text-gray-500">Every state ranked with analysis of why spending varies</div>
+            </Link>
+            <Link href="/investigations/geographic-inequality" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <div className="font-medium text-blue-600">ZIP Code Lottery</div>
+              <div className="text-sm text-gray-500">Why your Medicare costs depend on where you live</div>
+            </Link>
+          </div>
+        </div>
+
         <SourceCitation />
       </div>
     </main>

@@ -116,6 +116,21 @@ export default function ProceduresPage() {
           </div>
         )}
 
+        {/* Related Reading */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Reading</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <Link href="/investigations/most-expensive-medicare-procedures" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <div className="font-medium text-blue-600">The Most Expensive Medicare Procedures in 2023</div>
+              <div className="text-sm text-gray-500">Top 20 by total payments and average cost per service</div>
+            </Link>
+            <Link href="/investigations/office-visit-economy" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <div className="font-medium text-blue-600">The Office Visit Economy</div>
+              <div className="text-sm text-gray-500">Medicare&apos;s bread and butter — the data behind E&amp;M codes</div>
+            </Link>
+          </div>
+        </div>
+
         <SourceCitation />
       </div>
     </main>
