@@ -66,6 +66,43 @@ export default function AboutPage() {
             </div>
           </section>
 
+          {/* What Makes Us Different */}
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
+              What Makes Us Different
+            </h2>
+            <div className="prose prose-lg text-gray-700 max-w-none">
+              <p>
+                Most Medicare transparency sites rely on pre-aggregated summaries or filtered snapshots. We analyze the <strong>raw CMS provider-level data</strong> — over 96 million rows spanning 10 years — to build our own indexes, risk scores, and trend analysis from the ground up. This means we catch patterns that summary data obscures: billing anomalies within specialties, geographic outliers, providers whose volumes defy mathematical possibility, and markup patterns that only emerge when you compare individual providers against their peers.
+              </p>
+            </div>
+          </section>
+
+          {/* Data Coverage */}
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
+              Data Coverage
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <div className="text-2xl font-bold text-medicare-primary">96M+</div>
+                <div className="text-sm text-gray-600">Data rows analyzed</div>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <div className="text-2xl font-bold text-medicare-primary">10 years</div>
+                <div className="text-sm text-gray-600">2014–2023</div>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <div className="text-2xl font-bold text-medicare-primary">1.72M</div>
+                <div className="text-sm text-gray-600">Providers tracked</div>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <div className="text-2xl font-bold text-medicare-primary">500</div>
+                <div className="text-sm text-gray-600">HCPCS codes tracked</div>
+              </div>
+            </div>
+          </section>
+
           {/* Methodology */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
@@ -88,7 +125,7 @@ export default function AboutPage() {
                 <li><strong>Markup Analysis:</strong> Comparing submitted charges to actual Medicare payments to identify billing patterns</li>
                 <li><strong>Peer Comparison:</strong> Benchmarking providers against others in similar specialties and geographic areas</li>
                 <li><strong>Trend Analysis:</strong> Tracking spending changes over the 10-year dataset to identify patterns</li>
-                <li><strong>Risk Scoring:</strong> Flagging statistical outliers that may warrant further investigation</li>
+                <li><strong>Risk Scoring:</strong> Our composite risk scores combine four signals: statistical deviation from specialty peers, markup ratio analysis, volume anomalies (services per day), and beneficiary concentration patterns. Providers are flagged when multiple indicators exceed peer-adjusted thresholds.</li>
                 <li><strong>Geographic Analysis:</strong> Examining rural vs urban spending patterns and state-level variations</li>
               </ul>
 
@@ -151,6 +188,19 @@ export default function AboutPage() {
                   <p className="text-gray-600 text-sm">{site.description}</p>
                 </div>
               ))}
+            </div>
+          </section>
+
+          {/* Report Fraud */}
+          <section className="mb-12">
+            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-2">See Something Suspicious?</h2>
+              <p className="text-gray-700 mb-4">
+                If you&apos;re a healthcare worker, patient, or researcher who has spotted potential Medicare fraud or abuse, we want to hear from you.
+              </p>
+              <a href="/fraud/report" className="inline-flex items-center px-4 py-2 bg-red-600 text-white font-medium rounded-md hover:bg-red-700 transition-colors text-sm">
+                Report Fraud →
+              </a>
             </div>
           </section>
 

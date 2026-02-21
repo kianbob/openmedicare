@@ -66,28 +66,28 @@ const featuredInvestigations = [
 
 const keyNumbers = [
   {
-    label: 'Total Medicare Payments',
-    value: formatCurrency(keyStats.totalPayments),
-    sublabel: '2014-2023',
-    icon: '💰'
+    value: '$3.77×',
+    label: 'Average markup ratio',
+    sublabel: 'Doctors charge nearly 4× what Medicare pays',
+    icon: '📈'
   },
   {
-    label: 'Healthcare Providers',
-    value: formatNumber(keyStats.totalProviders),
-    sublabel: 'Tracked in database',
-    icon: '👩‍⚕️'
+    value: '500',
+    label: 'Providers flagged',
+    sublabel: 'For statistical billing anomalies',
+    icon: '🚨'
   },
   {
-    label: 'Years of Data',
-    value: keyStats.yearsOfData.toString(),
-    sublabel: '2014-2023',
+    value: '10 years',
+    label: 'Of Medicare data',
+    sublabel: 'Payment data analyzed (2014-2023)',
     icon: '📊'
   },
   {
-    label: 'Latest CMS Release',
-    value: keyStats.latestYear.toString(),
-    sublabel: 'Most recent available',
-    icon: '🆕'
+    value: formatCurrency(keyStats.totalPayments),
+    label: 'Total payments',
+    sublabel: 'In our database',
+    icon: '💰'
   }
 ]
 
@@ -104,6 +104,9 @@ export default function HomePage() {
       <div className="bg-gradient-to-b from-medicare-primary to-medicare-dark text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center">
+            <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/20 text-blue-100 mb-6">
+              Data through 2023 · Updated February 2026
+            </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
               Follow the Money in Medicare
             </h1>
@@ -188,7 +191,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 14 data-driven investigations
+              Deep-dive analysis from our library of 18 data-driven investigations
             </p>
           </div>
           
@@ -228,7 +231,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 14 Investigations
+              View All 18 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>
@@ -382,6 +385,20 @@ export default function HomePage() {
               <ArrowRightIcon className="ml-2 h-5 w-5" />
             </Link>
           </div>
+        </div>
+      </div>
+
+      {/* Open Data Network */}
+      <div className="py-8 bg-gray-100 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-sm text-gray-500">
+            Part of the Open Data Network:{' '}
+            <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">OpenMedicaid</a>
+            {' · '}
+            <a href="https://www.openfeds.org" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">OpenFeds</a>
+            {' · '}
+            <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">OpenSpending</a>
+          </p>
         </div>
       </div>
 

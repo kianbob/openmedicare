@@ -183,6 +183,70 @@ export default function DownloadsPage() {
           </div>
         </div>
 
+        {/* Fraud & Analysis Downloads */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
+            <DocumentChartBarIcon className="h-5 w-5 text-red-600 mr-2" />
+            Fraud Analysis Downloads
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">Watchlist data and fraud feature datasets.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="border border-gray-200 rounded-lg p-4">
+              <h3 className="font-semibold text-gray-900 mb-1">Fraud Watchlist (CSV)</h3>
+              <p className="text-sm text-gray-600 mb-3">500 flagged providers with risk scores, flags, specialty, state, and total payments.</p>
+              <a href="/downloads/watchlist-summary.csv" download className="inline-flex items-center px-3 py-1.5 border border-red-600 text-sm font-medium rounded-md text-red-700 hover:bg-red-600 hover:text-white transition-colors">
+                <ArrowDownTrayIcon className="h-4 w-4 mr-1" />
+                Download
+              </a>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
+              <h3 className="font-semibold text-gray-900 mb-1">Fraud Feature Matrix (CSV)</h3>
+              <p className="text-sm text-gray-600 mb-3">Full feature set for each watchlist provider — markup ratios, services/day, peer z-scores, and more.</p>
+              <span className="inline-flex items-center px-3 py-1.5 text-sm font-medium text-gray-400">Coming Soon</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Coming Soon */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-2">🚧 Coming Soon</h2>
+          <p className="text-sm text-gray-500 mb-4">Datasets currently being generated via our Colab pipeline.</p>
+          <ul className="space-y-3 text-sm text-gray-700">
+            <li className="flex items-start"><span className="text-gray-400 mr-2">•</span>Full provider payment history CSVs (all 1.72M providers)</li>
+            <li className="flex items-start"><span className="text-gray-400 mr-2">•</span>Procedure-level time series (500 HCPCS codes, 10 years)</li>
+            <li className="flex items-start"><span className="text-gray-400 mr-2">•</span>Fraud feature matrix with ML-ready columns</li>
+            <li className="flex items-start"><span className="text-gray-400 mr-2">•</span>Geographic spending heatmap data (zip code level)</li>
+          </ul>
+        </div>
+
+        {/* Data Dictionary */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">📖 Data Dictionary</h2>
+          <p className="text-sm text-gray-500 mb-4">Key fields used across our datasets.</p>
+          <div className="overflow-x-auto">
+            <table className="min-w-full text-sm">
+              <thead>
+                <tr className="border-b border-gray-200 text-left">
+                  <th className="py-2 pr-4 font-semibold text-gray-900">Field</th>
+                  <th className="py-2 pr-4 font-semibold text-gray-900">Type</th>
+                  <th className="py-2 font-semibold text-gray-900">Description</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                <tr><td className="py-2 pr-4 font-mono text-xs">npi</td><td className="py-2 pr-4 text-gray-500">string</td><td className="py-2 text-gray-600">National Provider Identifier (unique 10-digit ID)</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">total_payments</td><td className="py-2 pr-4 text-gray-500">number</td><td className="py-2 text-gray-600">Sum of Medicare payments across all years</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">total_charged</td><td className="py-2 pr-4 text-gray-500">number</td><td className="py-2 text-gray-600">Sum of submitted charges (what provider billed)</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">markup_ratio</td><td className="py-2 pr-4 text-gray-500">number</td><td className="py-2 text-gray-600">Charged ÷ Paid — how much more than Medicare rate</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">total_services</td><td className="py-2 pr-4 text-gray-500">number</td><td className="py-2 text-gray-600">Total service line items billed</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">total_beneficiaries</td><td className="py-2 pr-4 text-gray-500">number</td><td className="py-2 text-gray-600">Unique Medicare patients served</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">risk_score</td><td className="py-2 pr-4 text-gray-500">number</td><td className="py-2 text-gray-600">Composite fraud risk score (0-100, watchlist only)</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">specialty</td><td className="py-2 pr-4 text-gray-500">string</td><td className="py-2 text-gray-600">CMS-assigned provider specialty</td></tr>
+                <tr><td className="py-2 pr-4 font-mono text-xs">hcpcs_code</td><td className="py-2 pr-4 text-gray-500">string</td><td className="py-2 text-gray-600">Healthcare Common Procedure Coding System code</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
           <h2 className="text-xl font-bold text-gray-900 mb-3">Original CMS Source Data</h2>
           <p className="text-gray-600 mb-4">Our data is derived from the CMS Medicare Provider Utilization and Payment dataset. You can access the original source files directly from CMS:</p>

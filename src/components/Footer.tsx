@@ -53,6 +53,7 @@ const navigation = [
       { name: 'About Us', href: '/about' },
       { name: 'Data Downloads', href: '/downloads' },
       { name: 'Investigations', href: '/investigations' },
+      { name: 'Updates', href: '/updates' },
     ],
   },
 ]
