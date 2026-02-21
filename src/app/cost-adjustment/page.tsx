@@ -155,7 +155,7 @@ export default function CostAdjustmentPage() {
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="year" />
                     <YAxis tickFormatter={(v: number) => formatCurrency(v)} />
-                    <Tooltip formatter={(v: number) => formatCurrency(v)} />
+                    <Tooltip formatter={(v: any) => formatCurrency(v)} />
                     <Legend />
                     <Line type="monotone" dataKey="actual_payments" name="Actual" stroke="#dc2626" strokeWidth={2} />
                     <Line type="monotone" dataKey="standardized_payments" name="Standardized" stroke="#16a34a" strokeWidth={2} />

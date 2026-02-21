@@ -93,7 +93,7 @@ export default function PlaceOfServicePage() {
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="year" />
                     <YAxis tickFormatter={(v: number) => formatCurrency(v)} />
-                    <Tooltip formatter={(v: number) => formatCurrency(v)} />
+                    <Tooltip formatter={(v: any) => formatCurrency(v)} />
                     <Legend />
                     <Line type="monotone" dataKey="Office" stroke="#2563eb" strokeWidth={2} />
                     <Line type="monotone" dataKey="Facility" stroke="#ea580c" strokeWidth={2} />

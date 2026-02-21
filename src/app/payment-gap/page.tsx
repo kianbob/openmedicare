@@ -95,7 +95,7 @@ export default function PaymentGapPage() {
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="year" />
                     <YAxis tickFormatter={(v: number) => formatCurrency(v)} />
-                    <Tooltip formatter={(v: number) => formatCurrency(v)} />
+                    <Tooltip formatter={(v: any) => formatCurrency(v)} />
                     <Legend />
                     <Line type="monotone" dataKey="total_charged" name="Charged" stroke="#dc2626" strokeWidth={2} />
                     <Line type="monotone" dataKey="total_allowed" name="Allowed" stroke="#eab308" strokeWidth={2} />
