@@ -7,6 +7,12 @@ import { ChevronDownIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outli
 
 const navigation = [
   {
+    name: 'Start Here',
+    href: '/start',
+    children: [],
+    highlight: true,
+  },
+  {
     name: 'Explore',
     href: '/providers',
     children: [
@@ -40,7 +46,7 @@ const navigation = [
       { name: 'Markup Analysis', href: '/markup', desc: 'Charged vs paid' },
       { name: 'Drug Spending', href: '/drug-spending', desc: 'Pharmaceutical pipeline' },
       { name: 'Rural vs Urban', href: '/rural-urban', desc: 'Geographic divide' },
-      { name: 'Deep Analysis', href: '/place-of-service', desc: 'Place of service, cost adjustment & more' },
+      { name: 'Deep Analysis', href: '/analysis', desc: 'All 9 analysis pages' },
       { name: 'Downloads', href: '/downloads', desc: 'Raw data & CSVs' },
     ],
   },
@@ -160,9 +166,11 @@ export default function Navigation() {
                   <Link
                     href={item.href}
                     className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
-                      pathname?.startsWith(item.href)
-                        ? 'text-medicare-primary bg-blue-50'
-                        : 'text-gray-700 hover:text-medicare-primary hover:bg-gray-50'
+                      (item as any).highlight
+                        ? 'text-medicare-primary bg-blue-50 border border-medicare-primary/30 hover:bg-blue-100'
+                        : pathname?.startsWith(item.href)
+                          ? 'text-medicare-primary bg-blue-50'
+                          : 'text-gray-700 hover:text-medicare-primary hover:bg-gray-50'
                     }`}
                   >
                     {item.name}
