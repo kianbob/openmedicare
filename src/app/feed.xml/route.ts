@@ -143,6 +143,37 @@ const items = [
     link: '/investigations/drug-money',
     pubDate: '2026-02-21T00:00:00.000Z',
   },
+  // SEO-targeted articles
+  {
+    title: 'Medicare Fraud in 2025: The Biggest Cases and What\'s Changed',
+    description: 'DOJ\'s $14.6B takedown, 324 defendants, and $6.8B in False Claims Act recoveries. The biggest year for Medicare fraud enforcement.',
+    link: '/investigations/medicare-fraud-2025',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'How Much Does Medicare Actually Pay Doctors?',
+    description: 'Average Medicare payment per provider by specialty: from $26K for nurse practitioners to $384K for ophthalmologists.',
+    link: '/investigations/how-much-does-medicare-pay',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'How to Look Up Your Doctor\'s Medicare Billing',
+    description: 'Step-by-step guide to searching Medicare provider data. What the numbers mean and what to look for.',
+    link: '/investigations/medicare-provider-lookup-guide',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Most Expensive Medicare Procedures in 2023',
+    description: 'Top 20 procedures by total payments and average cost per service. Office visits vs. drug injections.',
+    link: '/investigations/most-expensive-medicare-procedures',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Medicare Spending by State: A Complete Breakdown',
+    description: 'Every state ranked by total Medicare spending, per-provider payments, and markup ratios.',
+    link: '/investigations/medicare-spending-by-state',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // Fraud pages
   {
     title: 'Medicare Fraud Analysis Hub',
