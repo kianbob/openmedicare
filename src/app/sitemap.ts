@@ -48,6 +48,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/cost-adjustment',
     '/payment-gap',
     '/utilization',
+    '/your-medicare-dollar',
+    '/methodology',
     ...investigationSlugs.map(s => `/investigations/${s}`),
     '/fraud',
     '/fraud/watchlist',
@@ -98,6 +100,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const statesData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'states.json'), 'utf-8'))
     ;(statesData.states || []).forEach((s: { state: string }) => {
       dynamicRoutes.push({ url: `${baseUrl}/states/${s.state}/fraud-risk`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
+      dynamicRoutes.push({ url: `${baseUrl}/states/${s.state}/compare`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
     })
   } catch {}
 

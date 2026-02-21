@@ -36,6 +36,7 @@ const navigation = [
       { name: 'Provider Lookup', href: '/lookup' },
       { name: 'Compare Providers', href: '/compare' },
       { name: 'Cost Calculator', href: '/calculator' },
+      { name: 'Your Medicare Dollar', href: '/your-medicare-dollar' },
     ],
   },
   {
@@ -56,6 +57,7 @@ const navigation = [
       { name: 'Data Downloads', href: '/downloads' },
       { name: 'Investigations', href: '/investigations' },
       { name: 'Updates', href: '/updates' },
+      { name: 'Methodology', href: '/methodology' },
     ],
   },
 ]
