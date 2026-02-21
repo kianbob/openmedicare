@@ -1,8 +1,8 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
-import { MagnifyingGlassIcon, FunnelIcon } from '@heroicons/react/24/outline'
+import { MagnifyingGlassIcon, FunnelIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import { formatCurrency, formatNumber, toTitleCase } from '@/lib/format'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
@@ -16,43 +16,21 @@ interface Provider {
   totalPayments: number
   totalServices: number
   beneficiaries: number
+  avgMarkup?: number
   riskScore?: number
+  isFlagged?: boolean
 }
 
-// Mock data - will be replaced with real data from /data/top-providers.json
-const mockProviders: Provider[] = [
-  {
-    npi: '1234567890',
-    name: 'Dr. Sarah Johnson',
-    specialty: 'Cardiology',
-    city: 'Los Angeles',
-    state: 'CA',
-    totalPayments: 2850000,
-    totalServices: 12500,
-    beneficiaries: 3200
-  },
-  {
-    npi: '1234567891',
-    name: 'Dr. Michael Chen',
-    specialty: 'Orthopedic Surgery',
-    city: 'Houston',
-    state: 'TX',
-    totalPayments: 3200000,
-    totalServices: 8900,
-    beneficiaries: 2800,
-    riskScore: 85
-  },
-  {
-    npi: '1234567892',
-    name: 'Dr. Emily Rodriguez',
-    specialty: 'Internal Medicine',
-    city: 'Chicago',
-    state: 'IL',
-    totalPayments: 1800000,
-    totalServices: 18500,
-    beneficiaries: 4100
-  }
-]
+interface WatchlistEntry {
+  npi: number
+  risk_score: number
+  name: string
+  specialty: string
+  state: string
+  city: string
+  avg_markup: number
+  total_payments: number
+}
 
 const specialties = [
   'All Specialties',
@@ -78,79 +56,111 @@ const states = [
   'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'
 ]
 
+type SortField = 'totalPayments' | 'riskScore' | 'avgMarkup' | 'name'
+
 export default function ProvidersPage() {
   const [providers, setProviders] = useState<Provider[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedSpecialty, setSelectedSpecialty] = useState('All Specialties')
   const [selectedState, setSelectedState] = useState('All States')
-  const [sortBy, setSortBy] = useState('totalPayments')
+  const [showFlaggedOnly, setShowFlaggedOnly] = useState(false)
+  const [sortBy, setSortBy] = useState<SortField>('totalPayments')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc')
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 25
 
   useEffect(() => {
-    // Load provider data
-    const loadProviders = async () => {
+    const loadData = async () => {
       try {
-        const response = await fetch('/data/top-providers.json')
-        if (response.ok) {
-          const data = await response.json()
-          const mapped = (data.providers || data).map((p: any) => ({
-            npi: p.npi,
-            name: p.name,
-            specialty: p.specialty,
-            city: p.city,
-            state: p.state,
-            totalPayments: p.total_payments ?? p.totalPayments,
-            totalServices: p.total_services ?? p.totalServices,
-            beneficiaries: p.total_beneficiaries ?? p.beneficiaries,
-            riskScore: p.risk_score ?? p.riskScore,
-          }))
+        const [provRes, watchRes] = await Promise.all([
+          fetch('/data/top-providers.json'),
+          fetch('/data/watchlist.json'),
+        ])
+
+        const watchlist: WatchlistEntry[] = watchRes.ok ? await watchRes.json() : []
+        const watchMap = new Map(watchlist.map(w => [String(w.npi), w]))
+
+        if (provRes.ok) {
+          const data = await provRes.json()
+          const mapped = (data.providers || data).map((p: any) => {
+            const npiStr = String(p.npi)
+            const wl = watchMap.get(npiStr)
+            return {
+              npi: npiStr,
+              name: p.name,
+              specialty: p.specialty,
+              city: p.city,
+              state: p.state,
+              totalPayments: p.total_payments ?? p.totalPayments,
+              totalServices: p.total_services ?? p.totalServices,
+              beneficiaries: p.total_beneficiaries ?? p.beneficiaries,
+              avgMarkup: wl?.avg_markup,
+              riskScore: wl?.risk_score,
+              isFlagged: !!wl,
+            }
+          })
           setProviders(mapped)
-        } else {
-          // Fallback to mock data if file doesn't exist yet
-          setProviders(mockProviders)
         }
       } catch (error) {
         console.error('Error loading providers:', error)
-        setProviders(mockProviders)
       } finally {
         setLoading(false)
       }
     }
 
-    loadProviders()
+    loadData()
   }, [])
 
-  // Filter and sort providers
-  const filteredProviders = providers.filter(provider => {
-    const matchesSearch = provider.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         provider.npi.includes(searchTerm) ||
-                         provider.city.toLowerCase().includes(searchTerm.toLowerCase())
-    const matchesSpecialty = selectedSpecialty === 'All Specialties' || provider.specialty === selectedSpecialty
-    const matchesState = selectedState === 'All States' || provider.state === selectedState
-    
-    return matchesSearch && matchesSpecialty && matchesState
-  })
+  const filteredProviders = useMemo(() => {
+    return providers.filter(provider => {
+      const matchesSearch = searchTerm === '' ||
+        provider.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        provider.npi.includes(searchTerm) ||
+        provider.city.toLowerCase().includes(searchTerm.toLowerCase())
+      const matchesSpecialty = selectedSpecialty === 'All Specialties' || provider.specialty === selectedSpecialty
+      const matchesState = selectedState === 'All States' || provider.state === selectedState
+      const matchesFlagged = !showFlaggedOnly || provider.isFlagged
+      return matchesSearch && matchesSpecialty && matchesState && matchesFlagged
+    })
+  }, [providers, searchTerm, selectedSpecialty, selectedState, showFlaggedOnly])
 
-  const sortedProviders = [...filteredProviders].sort((a, b) => {
-    const aValue = a[sortBy as keyof Provider] as number
-    const bValue = b[sortBy as keyof Provider] as number
-    
-    if (sortOrder === 'asc') {
-      return aValue > bValue ? 1 : -1
-    } else {
-      return aValue < bValue ? 1 : -1
-    }
-  })
+  const sortedProviders = useMemo(() => {
+    return [...filteredProviders].sort((a, b) => {
+      let aVal: number | string
+      let bVal: number | string
+
+      switch (sortBy) {
+        case 'name':
+          aVal = a.name.toLowerCase()
+          bVal = b.name.toLowerCase()
+          return sortOrder === 'asc' ? (aVal < bVal ? -1 : 1) : (aVal > bVal ? -1 : 1)
+        case 'riskScore':
+          aVal = a.riskScore ?? -1
+          bVal = b.riskScore ?? -1
+          break
+        case 'avgMarkup':
+          aVal = a.avgMarkup ?? -1
+          bVal = b.avgMarkup ?? -1
+          break
+        default:
+          aVal = a.totalPayments
+          bVal = b.totalPayments
+      }
+
+      return sortOrder === 'asc' ? (aVal as number) - (bVal as number) : (bVal as number) - (aVal as number)
+    })
+  }, [filteredProviders, sortBy, sortOrder])
 
   // Pagination
   const totalPages = Math.ceil(sortedProviders.length / itemsPerPage)
   const startIndex = (currentPage - 1) * itemsPerPage
   const paginatedProviders = sortedProviders.slice(startIndex, startIndex + itemsPerPage)
 
-  const handleSort = (field: string) => {
+  // Reset page when filters change
+  useEffect(() => { setCurrentPage(1) }, [searchTerm, selectedSpecialty, selectedState, showFlaggedOnly, sortBy, sortOrder])
+
+  const handleSort = (field: SortField) => {
     if (sortBy === field) {
       setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
     } else {
@@ -158,6 +168,9 @@ export default function ProvidersPage() {
       setSortOrder('desc')
     }
   }
+
+  const SortArrow = ({ field }: { field: SortField }) =>
+    sortBy === field ? <span className="ml-1">{sortOrder === 'asc' ? '↑' : '↓'}</span> : null
 
   if (loading) {
     return (
@@ -169,6 +182,8 @@ export default function ProvidersPage() {
       </div>
     )
   }
+
+  const flaggedCount = providers.filter(p => p.isFlagged).length
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -248,17 +263,45 @@ export default function ProvidersPage() {
             </div>
           </div>
           
-          <div className="mt-4 flex items-center justify-between">
-            <p className="text-sm text-gray-600">
-              Showing {formatNumber(sortedProviders.length)} of {formatNumber(providers.length)} providers
-            </p>
-            <div className="flex items-center space-x-2">
-              <FunnelIcon className="h-4 w-4 text-gray-400" />
-              <span className="text-sm text-gray-600">Filters applied: {[
-                searchTerm && 'Search',
-                selectedSpecialty !== 'All Specialties' && 'Specialty',
-                selectedState !== 'All States' && 'State'
-              ].filter(Boolean).join(', ') || 'None'}</span>
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <p className="text-sm text-gray-600">
+                Showing {formatNumber(sortedProviders.length)} of {formatNumber(providers.length)} providers
+              </p>
+              <button
+                onClick={() => setShowFlaggedOnly(!showFlaggedOnly)}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                  showFlaggedOnly
+                    ? 'bg-red-100 text-red-800 border border-red-300'
+                    : 'bg-gray-100 text-gray-700 border border-gray-300 hover:bg-red-50 hover:text-red-700'
+                }`}
+              >
+                <ExclamationTriangleIcon className="h-4 w-4" />
+                Fraud Flagged ({flaggedCount})
+              </button>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-gray-500">Sort by:</span>
+              {([
+                ['totalPayments', 'Payments'],
+                ['riskScore', 'Risk Score'],
+                ['avgMarkup', 'Markup'],
+                ['name', 'Name'],
+              ] as [SortField, string][]).map(([field, label]) => (
+                <button
+                  key={field}
+                  onClick={() => handleSort(field)}
+                  className={`px-2.5 py-1 rounded text-xs font-medium transition-colors ${
+                    sortBy === field
+                      ? 'bg-medicare-primary text-white'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  }`}
+                >
+                  {label}
+                  <SortArrow field={field} />
+                </button>
+              ))}
             </div>
           </div>
         </div>
@@ -274,16 +317,9 @@ export default function ProvidersPage() {
                     className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                     onClick={() => handleSort('name')}
                   >
-                    Provider Name
-                    {sortBy === 'name' && (
-                      <span className="ml-1">{sortOrder === 'asc' ? '↑' : '↓'}</span>
-                    )}
+                    Provider Name <SortArrow field="name" />
                   </th>
-                  <th 
-                    scope="col" 
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSort('specialty')}
-                  >
+                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Specialty
                   </th>
                   <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -291,32 +327,30 @@ export default function ProvidersPage() {
                   </th>
                   <th 
                     scope="col" 
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                    className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                     onClick={() => handleSort('totalPayments')}
                   >
-                    Total Payments
-                    {sortBy === 'totalPayments' && (
-                      <span className="ml-1">{sortOrder === 'asc' ? '↑' : '↓'}</span>
-                    )}
+                    Total Payments <SortArrow field="totalPayments" />
                   </th>
                   <th 
                     scope="col" 
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSort('beneficiaries')}
+                    className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                    onClick={() => handleSort('avgMarkup')}
                   >
-                    Beneficiaries
-                    {sortBy === 'beneficiaries' && (
-                      <span className="ml-1">{sortOrder === 'asc' ? '↑' : '↓'}</span>
-                    )}
+                    Markup <SortArrow field="avgMarkup" />
                   </th>
-                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Risk
+                  <th 
+                    scope="col" 
+                    className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                    onClick={() => handleSort('riskScore')}
+                  >
+                    Risk Score <SortArrow field="riskScore" />
                   </th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
                 {paginatedProviders.map((provider) => (
-                  <tr key={provider.npi} className="hover:bg-gray-50">
+                  <tr key={provider.npi} className={`hover:bg-gray-50 ${provider.isFlagged ? 'bg-red-50/30' : ''}`}>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div>
                         <div className="text-sm font-medium text-gray-900">
@@ -336,23 +370,24 @@ export default function ProvidersPage() {
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                       {provider.city}, {provider.state}
                     </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right">
                       {formatCurrency(provider.totalPayments)}
                     </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {formatNumber(provider.beneficiaries)}
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-gray-600">
+                      {provider.avgMarkup ? `${provider.avgMarkup.toFixed(1)}x` : '—'}
                     </td>
-                    <td className="px-6 py-4 whitespace-nowrap">
+                    <td className="px-6 py-4 whitespace-nowrap text-center">
                       {provider.riskScore ? (
                         <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-                          provider.riskScore >= 80 ? 'bg-red-100 text-red-800' :
-                          provider.riskScore >= 60 ? 'bg-yellow-100 text-yellow-800' :
-                          'bg-green-100 text-green-800'
+                          provider.riskScore >= 90 ? 'bg-red-100 text-red-800' :
+                          provider.riskScore >= 80 ? 'bg-orange-100 text-orange-800' :
+                          provider.riskScore >= 70 ? 'bg-yellow-100 text-yellow-800' :
+                          'bg-blue-100 text-blue-800'
                         }`}>
                           {provider.riskScore}
                         </span>
                       ) : (
-                        <span className="text-gray-400 text-sm">-</span>
+                        <span className="text-gray-400 text-sm">—</span>
                       )}
                     </td>
                   </tr>

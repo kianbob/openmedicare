@@ -252,6 +252,18 @@ export default function DeepDives() {
           </div>
         )}
 
+        {/* Related Fraud Analysis */}
+        <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8 mb-8">
+          <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Fraud Analysis</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Enhanced Watchlist — Full 500-provider list</Link>
+            <Link href="/fraud/wound-care" className="text-medicare-primary hover:underline text-sm">🩹 Wound Care — DOJ&apos;s #1 fraud target</Link>
+            <Link href="/fraud/covid-tests" className="text-medicare-primary hover:underline text-sm">🦠 COVID Test Billing — K1034 abuse</Link>
+            <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
+            <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
+          </div>
+        </div>
+
         {/* Disclaimer */}
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-8">
           <p className="text-sm text-yellow-800">

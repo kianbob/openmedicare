@@ -155,6 +155,18 @@ export default function WoundCare() {
           </div>
         )}
 
+        {/* Related Fraud Analysis */}
+        <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+          <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Fraud Analysis</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <Link href="/fraud/deep-dives" className="text-medicare-primary hover:underline text-sm">🔍 Deep Dive Profiles — Detailed provider breakdowns</Link>
+            <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Enhanced Watchlist — 500 flagged providers</Link>
+            <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline text-sm">📊 Upcoding Detector — Billing code manipulation</Link>
+            <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
+            <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
+          </div>
+        </div>
+
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
           <p className="text-sm text-yellow-800">
             <strong>Disclaimer:</strong> These are statistical flags based on publicly available CMS data, not accusations of fraud.
