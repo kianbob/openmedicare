@@ -52,8 +52,8 @@ export default function TrendsPage() {
             { name: 'COVID Impact (2020)', value: covidDip ? `${covidDip}%` : 'N/A', color: 'red' },
             { name: `Providers (${latest?.year})`, value: formatNumber(latest?.total_providers || 0), color: 'purple' },
           ].map(s => (
-            <div key={s.label} className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
-              <div className="text-sm text-gray-500 mb-1">{s.label}</div>
+            <div key={s.name} className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+              <div className="text-sm text-gray-500 mb-1">{s.name}</div>
               <div className={`text-2xl font-bold text-${s.color}-600`}>{s.value}</div>
             </div>
           ))}
