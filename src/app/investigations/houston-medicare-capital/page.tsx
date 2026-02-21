@@ -43,7 +43,7 @@ export default function HoustonMedicareCapitalPage() {
 
           <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-purple-900 font-medium text-lg">Key Finding</p>
-            <p className="text-purple-800 mt-2">Houston, Texas leads the nation with <strong>{formatCurrency(houston.total_payments || 9240000000)}</strong> in Medicare spending — more than most entire states. Its <strong>{formatNumber(houston.providers || 19925)}</strong> providers average <strong>{formatCurrency(houston.per_provider || 463750)}</strong> each.</p>
+            <p className="text-purple-800 mt-2">Houston, Texas leads the nation with <strong>{formatCurrency(houston.total_payments || 9240000000)}</strong> in Medicare spending — more than most entire states. Its <strong>{formatNumber(houston.providers || 19925)}</strong> providers average <strong>{formatCurrency(houston.avg_payment_per_provider || 463750)}</strong> each.</p>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Numbers</h2>
@@ -65,12 +65,12 @@ export default function HoustonMedicareCapitalPage() {
           </div>
           <div className="bg-white p-5 rounded-xl shadow-sm border">
             <p className="text-sm text-gray-500">Per Provider</p>
-            <p className="text-2xl font-bold text-green-700">{formatCurrency(houston.per_provider || 463750)}</p>
+            <p className="text-2xl font-bold text-green-700">{formatCurrency(houston.avg_payment_per_provider || 463750)}</p>
           </div>
         </div>
 
         <article className="prose prose-lg max-w-none">
-          <p className="text-gray-700 mb-4">That per-provider average of {formatCurrency(houston.per_provider || 463750)} is well above the national average — meaning Houston providers don&apos;t just outnumber other cities, they bill more per person too.</p>
+          <p className="text-gray-700 mb-4">That per-provider average of {formatCurrency(houston.avg_payment_per_provider || 463750)} is well above the national average — meaning Houston providers don&apos;t just outnumber other cities, they bill more per person too.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Why Houston?</h2>
           <p className="text-gray-700 mb-4">Three factors converge to make Houston the Medicare capital:</p>
@@ -104,7 +104,7 @@ export default function HoustonMedicareCapitalPage() {
                     <td className="px-4 py-2 text-gray-600">{c.state}</td>
                     <td className="px-4 py-2 text-right font-medium">{formatCurrency(c.total_payments)}</td>
                     <td className="px-4 py-2 text-right">{formatNumber(c.providers)}</td>
-                    <td className="px-4 py-2 text-right">{formatCurrency(c.per_provider)}</td>
+                    <td className="px-4 py-2 text-right">{formatCurrency(c.avg_payment_per_provider)}</td>
                     <td className="px-4 py-2 text-right">{c.markup_ratio}x</td>
                   </tr>
                 ))}

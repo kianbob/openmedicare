@@ -195,7 +195,7 @@ export default function Upcoding() {
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="year" />
               <YAxis domain={[40, 55]} tickFormatter={(v: any) => `${v}%`} fontSize={11} />
-              <Tooltip formatter={(v: any, name: string) => name === 'pct_99214' ? `${v}%` : v} />
+              <Tooltip formatter={(v: any, name: any) => name === 'pct_99214' ? `${v}%` : v} />
               <Legend />
               <Line type="monotone" dataKey="pct_99214" stroke="#ef4444" strokeWidth={2} name="% Coded 99214" dot={{ r: 3 }} />
             </LineChart>
