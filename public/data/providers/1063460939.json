@@ -4,7 +4,7 @@
   "specialty": "Internal Medicine",
   "city": "Newark",
   "state": "NJ",
-  "entity_type": "Individual",
+  "entity_type": "I",
   "yearly_payments": [
     {
       "year": 2014,
@@ -165,5 +165,13 @@
     "risk_factors": [
       "Matches confirmed fraud profile"
     ]
-  }
+  },
+  "overall": {
+    "total_payments": 546971,
+    "total_services": 13329,
+    "total_beneficiaries": 4581,
+    "avg_markup_ratio": 2.15,
+    "years_active": 10
+  },
+  "npi": "1063460939"
 }

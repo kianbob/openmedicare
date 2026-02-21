@@ -4,7 +4,7 @@
   "specialty": "Internal Medicine",
   "city": "Philadelphia",
   "state": "PA",
-  "entity_type": "Individual",
+  "entity_type": "I",
   "yearly_payments": [
     {
       "year": 2014,
@@ -165,5 +165,13 @@
     "risk_factors": [
       "Matches confirmed fraud profile"
     ]
-  }
+  },
+  "overall": {
+    "total_payments": 716667,
+    "total_services": 16962,
+    "total_beneficiaries": 5663,
+    "avg_markup_ratio": 2.21,
+    "years_active": 10
+  },
+  "npi": "1427163427"
 }

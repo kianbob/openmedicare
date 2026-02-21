@@ -4,7 +4,7 @@
   "specialty": "Endocrinology",
   "city": "Chicago",
   "state": "IL",
-  "entity_type": "Individual",
+  "entity_type": "I",
   "yearly_payments": [
     {
       "year": 2014,
@@ -165,5 +165,13 @@
     "risk_factors": [
       "Matches confirmed fraud profile"
     ]
-  }
+  },
+  "overall": {
+    "total_payments": 601846,
+    "total_services": 13871,
+    "total_beneficiaries": 4228,
+    "avg_markup_ratio": 2.3,
+    "years_active": 10
+  },
+  "npi": "1972524510"
 }

@@ -4,7 +4,7 @@
   "specialty": "Family Practice",
   "city": "Atlanta",
   "state": "GA",
-  "entity_type": "Individual",
+  "entity_type": "I",
   "yearly_payments": [
     {
       "year": 2014,
@@ -165,5 +165,13 @@
     "risk_factors": [
       "Matches confirmed fraud profile"
     ]
-  }
+  },
+  "overall": {
+    "total_payments": 795844,
+    "total_services": 18609,
+    "total_beneficiaries": 7057,
+    "avg_markup_ratio": 1.93,
+    "years_active": 10
+  },
+  "npi": "1346237096"
 }

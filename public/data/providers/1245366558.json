@@ -4,7 +4,7 @@
   "specialty": "Internal Medicine",
   "city": "Garden Grove",
   "state": "CA",
-  "entity_type": "Individual",
+  "entity_type": "I",
   "yearly_payments": [
     {
       "year": 2014,
@@ -165,5 +165,13 @@
     "risk_factors": [
       "Matches confirmed fraud profile"
     ]
-  }
+  },
+  "overall": {
+    "total_payments": 516519,
+    "total_services": 11362,
+    "total_beneficiaries": 4221,
+    "avg_markup_ratio": 2.25,
+    "years_active": 10
+  },
+  "npi": "1245366558"
 }

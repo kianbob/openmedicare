@@ -4,7 +4,7 @@
   "specialty": "Internal Medicine",
   "city": "Charleston",
   "state": "WV",
-  "entity_type": "Individual",
+  "entity_type": "I",
   "yearly_payments": [
     {
       "year": 2014,
@@ -165,5 +165,13 @@
     "risk_factors": [
       "Matches confirmed fraud profile"
     ]
-  }
+  },
+  "overall": {
+    "total_payments": 788668,
+    "total_services": 15021,
+    "total_beneficiaries": 6143,
+    "avg_markup_ratio": 2.28,
+    "years_active": 10
+  },
+  "npi": "1659378743"
 }

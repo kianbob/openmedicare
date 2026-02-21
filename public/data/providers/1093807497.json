@@ -4,7 +4,7 @@
   "specialty": "Internal Medicine",
   "city": "St. Louis",
   "state": "MO",
-  "entity_type": "Individual",
+  "entity_type": "I",
   "yearly_payments": [
     {
       "year": 2014,
@@ -165,5 +165,13 @@
     "risk_factors": [
       "Volume-driven pattern"
     ]
-  }
+  },
+  "overall": {
+    "total_payments": 724716,
+    "total_services": 13044,
+    "total_beneficiaries": 4067,
+    "avg_markup_ratio": 1.99,
+    "years_active": 10
+  },
+  "npi": "1093807497"
 }
