@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer base {
   :root {
@@ -13,32 +11,26 @@
   }
 }
 
-@layer utilities {
-  .text-medicare-primary {
-    color: #1a73e8;
-  }
-  
-  .text-medicare-dark {
-    color: #0d47a1;
-  }
-  
-  .bg-medicare-primary {
-    background-color: #1a73e8;
-  }
-  
-  .bg-medicare-dark {
-    background-color: #0d47a1;
-  }
-  
-  .border-medicare-primary {
-    border-color: #1a73e8;
-  }
-  
-  .hover\:bg-medicare-dark:hover {
-    background-color: #0d47a1;
-  }
-  
-  .hover\:text-medicare-primary:hover {
-    color: #1a73e8;
-  }
+@utility text-medicare-primary {
+  color: #1a73e8;
+}
+
+@utility text-medicare-dark {
+  color: #0d47a1;
+}
+
+@utility bg-medicare-primary {
+  background-color: #1a73e8;
+}
+
+@utility bg-medicare-dark {
+  background-color: #0d47a1;
+}
+
+@utility border-medicare-primary {
+  border-color: #1a73e8;
+}
+
+@utility font-playfair {
+  font-family: var(--font-playfair);
 }
