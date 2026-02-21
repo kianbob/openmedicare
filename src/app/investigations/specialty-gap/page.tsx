@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -155,6 +156,17 @@ export default function SpecialtyGapPage() {
             Until the payment gap narrows, America&apos;s primary care crisis will continue to deepen — and the patients who need basic, preventive healthcare the most will be the ones who suffer.
           </p>
         </article>
+
+        {/* Related */}
+        <div className="bg-gray-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/specialty-monopoly" className="text-medicare-primary hover:underline text-sm">🏛️ The Specialty Monopoly</Link>
+            <Link href="/investigations/how-much-does-medicare-pay" className="text-medicare-primary hover:underline text-sm">💰 How Much Does Medicare Pay?</Link>
+            <Link href="/investigations/specialty-pay-gap" className="text-medicare-primary hover:underline text-sm">📊 Specialty Pay Gap Extended</Link>
+            <Link href="/specialties" className="text-medicare-primary hover:underline text-sm">🩺 Browse All Specialties</Link>
+          </div>
+        </div>
 
         <ShareButtons url="https://www.openmedicare.org/investigations/specialty-gap" title="The Specialty Pay Gap — OpenMedicare" />
         <SourceCitation />

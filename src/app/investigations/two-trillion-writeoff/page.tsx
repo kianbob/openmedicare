@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -210,6 +211,17 @@ export default function TwoTrillionWriteoffPage() {
           <p className="text-gray-700 mb-4">Every year, the gap grows wider. In 2023, providers charged {formatCurrency(yearly_trends?.[yearly_trends.length - 1]?.total_charged || 0)} and collected {formatCurrency(yearly_trends?.[yearly_trends.length - 1]?.total_paid || 0)}. That&apos;s a {yearly_trends?.[yearly_trends.length - 1]?.writeoff_pct || 68}% writeoff rate — the highest on record.</p>
           <p className="text-gray-700 mb-8">Until we fix the underlying incentives that reward inflated pricing, the fictional charges will keep climbing, the writeoffs will keep growing, and the gap between what healthcare &quot;costs&quot; and what it actually costs will remain America&apos;s biggest hidden number.</p>
         </article>
+
+        {/* Related */}
+        <div className="bg-gray-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/markup-machine" className="text-medicare-primary hover:underline text-sm">📈 The Markup Machine</Link>
+            <Link href="/investigations/where-medicare-dollar-goes" className="text-medicare-primary hover:underline text-sm">💵 Where Your Dollar Goes</Link>
+            <Link href="/markup" className="text-medicare-primary hover:underline text-sm">📊 Markup Analysis Data</Link>
+            <Link href="/payment-gap" className="text-medicare-primary hover:underline text-sm">📊 Payment Gap Data</Link>
+          </div>
+        </div>
 
         <ShareButtons url="https://www.openmedicare.org/investigations/two-trillion-writeoff" title="The $2.1 Trillion Writeoff — OpenMedicare" />
         <SourceCitation />

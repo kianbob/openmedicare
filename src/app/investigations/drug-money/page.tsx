@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -231,6 +232,17 @@ export default function DrugMoneyPage() {
         </div>
 
         <div className="mt-8">
+        {/* Related */}
+        <div className="bg-gray-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/drug-pipeline" className="text-medicare-primary hover:underline text-sm">💊 The Drug Pipeline</Link>
+            <Link href="/investigations/oncology-drug-pipeline" className="text-medicare-primary hover:underline text-sm">🔬 Oncology Drug Pipeline</Link>
+            <Link href="/investigations/eye-care-billions" className="text-medicare-primary hover:underline text-sm">👁️ Eye Care Billions</Link>
+            <Link href="/drug-spending" className="text-medicare-primary hover:underline text-sm">📊 Drug Spending Data</Link>
+          </div>
+        </div>
+
           <ShareButtons url="https://www.openmedicare.org/investigations/drug-money" title="Follow the Drug Money — OpenMedicare" />
         </div>
         <SourceCitation />

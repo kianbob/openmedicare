@@ -284,6 +284,18 @@ export default function BeverlyHillsWoundCarePage() {
 
             {/* Share */}
             <div className="mt-10 pt-8 border-t border-gray-200">
+        {/* Related */}
+        <div className="bg-gray-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/arizona-wound-care-ring" className="text-medicare-primary hover:underline text-sm">🩹 Arizona Wound Care Ring</Link>
+            <Link href="/investigations/wound-care-crisis" className="text-medicare-primary hover:underline text-sm">🩹 Wound Care Crisis</Link>
+            <Link href="/investigations/beverly-hills-billing" className="text-medicare-primary hover:underline text-sm">💎 Beverly Hills Billing</Link>
+            <Link href="/states/CA" className="text-medicare-primary hover:underline text-sm">📍 California Medicare Data</Link>
+            <Link href="/fraud/wound-care" className="text-medicare-primary hover:underline text-sm">📊 Wound Care Watchlist</Link>
+          </div>
+        </div>
+
               <ShareButtons
                 url="/investigations/beverly-hills-wound-care"
                 title="Beverly Hills Plastic Surgeons Billing Medicare for Wound Care"

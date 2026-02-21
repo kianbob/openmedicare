@@ -192,6 +192,17 @@ export default function SpecialtyMonopolyPage() {
         </article>
 
         <div className="mt-8">
+        {/* Related */}
+        <div className="bg-gray-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/specialty-gap" className="text-medicare-primary hover:underline text-sm">📊 The Specialty Pay Gap</Link>
+            <Link href="/investigations/how-much-does-medicare-pay" className="text-medicare-primary hover:underline text-sm">💰 How Much Does Medicare Pay?</Link>
+            <Link href="/investigations/nurse-practitioner-boom" className="text-medicare-primary hover:underline text-sm">👩‍⚕️ Nurse Practitioner Boom</Link>
+            <Link href="/specialties" className="text-medicare-primary hover:underline text-sm">🩺 Browse All Specialties</Link>
+          </div>
+        </div>
+
           <ShareButtons url="https://www.openmedicare.org/investigations/specialty-monopoly" title="The Specialty Monopoly — OpenMedicare" />
         </div>
         <SourceCitation />

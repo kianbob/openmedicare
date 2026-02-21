@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -139,6 +140,17 @@ export default function ImpossibleServicesPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Bottom Line</h2>
           <p className="text-gray-700 mb-8">Either these are data errors, billing structure artifacts, or something extraordinary is happening. In any case, {formatNumber(top?.total_services || 2465495)} services from a single provider in a single year deserves scrutiny. The data is public. The math is simple. And the questions remain unanswered.</p>
         </article>
+
+        {/* Related */}
+        <div className="bg-gray-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">🧮 The Impossible Doctors</Link>
+            <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">📊 Impossible Numbers Data</Link>
+            <Link href="/investigations/data-predicted-fraud" className="text-medicare-primary hover:underline text-sm">🏆 Our Data Predicted Fraud</Link>
+            <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
+          </div>
+        </div>
 
         <ShareButtons url="https://www.openmedicare.org/investigations/9862-services-per-day" title="9,862 Services Per Day — OpenMedicare" />
         <SourceCitation />
