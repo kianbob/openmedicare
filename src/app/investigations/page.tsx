@@ -79,6 +79,15 @@ const featuredInvestigations = [
 
 const investigations = [
   {
+    title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',
+    description: 'Former NFL player convicted in $328M scheme. Genetic testing fraud is one of Medicare\'s fastest-growing problems.',
+    href: '/investigations/genetic-testing-fraud',
+    category: '🔴 Breaking',
+    readTime: '8 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Keith J. Gray was convicted Thursday for a $328M genetic testing fraud scheme. But his case is just one symptom — genetic testing has become one of Medicare\'s most exploited billing categories.'
+  },
+  {
     title: 'The $2.1 Trillion Writeoff',
     description: 'Why doctors charge 4x what they get paid — and where $2.14 trillion in Medicare charges vanish',
     href: '/investigations/two-trillion-writeoff',

@@ -300,7 +300,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 42 data-driven investigations
+              Deep-dive analysis from our library of 43 data-driven investigations
             </p>
           </div>
           
@@ -340,7 +340,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 42 Investigations
+              View All 43 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>

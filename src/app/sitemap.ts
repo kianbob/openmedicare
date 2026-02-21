@@ -48,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'beverly-hills-wound-care',
     'data-predicted-fraud',
     'still-out-there',
+    'genetic-testing-fraud',
   ]
 
   const staticPages = [
