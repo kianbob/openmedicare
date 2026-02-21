@@ -219,12 +219,12 @@ export default function DeepDives() {
                           <FraudBadge
                             label="Svc/Day"
                             value={formatNumber(p.fraud.services_per_day)}
-                            color={p.fraud.services_per_day >= 200 ? 'bg-red-100' : p.fraud.services_per_day >= 50 ? 'bg-orange-100' : 'bg-gray-100'}
+                            color={(p.fraud?.services_per_day ?? 0) >= 200 ? 'bg-red-100' : (p.fraud?.services_per_day ?? 0) >= 50 ? 'bg-orange-100' : 'bg-gray-100'}
                           />
                           <FraudBadge
                             label="Patients/Day"
                             value={formatNumber(p.fraud.beneficiaries_per_day)}
-                            color={p.fraud.beneficiaries_per_day >= 100 ? 'bg-red-100' : 'bg-gray-100'}
+                            color={(p.fraud?.beneficiaries_per_day ?? 0) >= 100 ? 'bg-red-100' : 'bg-gray-100'}
                           />
                           <FraudBadge
                             label="Upcode Ratio"
@@ -241,7 +241,7 @@ export default function DeepDives() {
                             value={(p.fraud.specialty_zscore || 0).toFixed(1)}
                             color={(p.fraud.specialty_zscore || 0) >= 5 ? 'bg-red-100' : (p.fraud.specialty_zscore || 0) >= 3 ? 'bg-orange-100' : 'bg-gray-100'}
                           />
-                          {p.fraud.covid_share_pct > 0 && (
+                          {(p.fraud?.covid_share_pct ?? 0) > 0 && (
                             <FraudBadge label="COVID %" value={(p.fraud.covid_share_pct || 0).toFixed(1) + '%'} color={(p.fraud.covid_share_pct || 0) >= 50 ? 'bg-red-100' : 'bg-blue-100'} />
                           )}
                           {(p.fraud.wound_share_pct || 0) > 0 && (
