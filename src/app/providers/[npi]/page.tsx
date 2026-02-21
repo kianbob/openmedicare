@@ -66,8 +66,41 @@ function loadProviderFile(npi: string): any | null {
   return null
 }
 
+function loadSpecialtiesData(): any[] {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'data', 'specialties.json')
+    if (fs.existsSync(filePath)) {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+      return data.specialties || []
+    }
+  } catch {}
+  return []
+}
+
 function toProviderData(npi: string, raw: any): ProviderData {
   const overall = raw.overall || {}
+  const yearlyPayments = raw.yearly_payments || []
+  const totalBeneficiaries = yearlyPayments.reduce((sum: number, y: any) => sum + (y.total_beneficiaries || 0), 0)
+
+  // Compute peer comparison from specialties data
+  const specialties = loadSpecialtiesData()
+  const specData = specialties.find((s: any) => s.specialty === raw.specialty)
+  let percentile = 0
+  let medianPayment = 0
+  if (specData) {
+    medianPayment = specData.avg_payment_per_provider || 0
+    const providerTotal = overall.total_payments || 0
+    // Estimate percentile: if provider is above median, scale 50-100; below, scale 0-50
+    if (medianPayment > 0) {
+      const ratio = providerTotal / medianPayment
+      if (ratio >= 1) {
+        percentile = Math.min(99, Math.round(50 + 50 * (1 - 1 / ratio)))
+      } else {
+        percentile = Math.max(1, Math.round(50 * ratio))
+      }
+    }
+  }
+
   return {
     npi,
     name: raw.name || 'Unknown Provider',
@@ -76,9 +109,9 @@ function toProviderData(npi: string, raw: any): ProviderData {
     address: { street: '', city: raw.city || '', state: raw.state || '', zip: '' },
     totalPayments: overall.total_payments || 0,
     totalServices: overall.total_services || 0,
-    beneficiaries: overall.total_beneficiaries || 0,
-    years: (raw.yearly_payments || []).map((y: any) => y.year),
-    yearlyData: (raw.yearly_payments || []).map((y: any) => ({
+    beneficiaries: totalBeneficiaries,
+    years: yearlyPayments.map((y: any) => y.year),
+    yearlyData: yearlyPayments.map((y: any) => ({
       year: y.year,
       payments: y.total_payments || 0,
       services: y.total_services || 0,
@@ -92,7 +125,7 @@ function toProviderData(npi: string, raw: any): ProviderData {
       avgCost: p.services ? (p.payments / p.services) : 0,
     })),
     markupRatio: overall.avg_markup_ratio || 0,
-    peerComparison: { specialty: raw.specialty || '', percentile: 0, medianPayment: 0 },
+    peerComparison: { specialty: raw.specialty || '', percentile, medianPayment },
     riskFlags: [],
   }
 }
