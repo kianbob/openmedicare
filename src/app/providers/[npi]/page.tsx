@@ -7,6 +7,7 @@ import { ExclamationTriangleIcon, MapPinIcon, UserIcon, CalendarDaysIcon, Shield
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import AIOverview from '@/components/AIOverview'
 import { TrendChart, BarChart } from '@/components/Charts'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -449,6 +450,13 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             </div>
           </div>
         </div>
+
+        {/* AI Overview */}
+        <AIOverview
+          type="provider"
+          data={{ provider: raw, watchlistEntry, percentile, medianPayment, specData }}
+          className="mb-8"
+        />
 
         {/* Payment & Services Trend Charts */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">

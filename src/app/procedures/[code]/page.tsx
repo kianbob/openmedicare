@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import AIOverview from '@/components/AIOverview'
 import { TrendChart } from '@/components/Charts'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -56,6 +57,13 @@ export default async function ProcedureDetailPage({ params }: { params: Promise<
             </p>
           )}
         </div>
+
+        {/* AI Overview */}
+        <AIOverview
+          type="procedure"
+          data={{ procedureData: data }}
+          className="mb-8"
+        />
 
         {/* Yearly Trends Chart */}
         {yearly.length > 1 && (

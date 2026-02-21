@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import AIOverview from '@/components/AIOverview'
 import { TrendChart } from '@/components/Charts'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -60,6 +61,13 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-2">{name} Medicare Spending</h1>
           <p className="text-lg text-gray-600">Medicare provider payments and utilization data for {name} ({code})</p>
         </div>
+
+        {/* AI Overview */}
+        <AIOverview
+          type="state"
+          data={{ stateData: data, stateName: name, code }}
+          className="mb-8"
+        />
 
         {/* Summary Stats */}
         {yearly.length > 0 && (

@@ -6,8 +6,18 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import AIOverview from '@/components/AIOverview'
 import { TrendChart } from '@/components/Charts'
 import { formatCurrency, formatNumber } from '@/lib/format'
+
+function loadSpecialtiesSummary(slug: string): any {
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'specialties.json'), 'utf-8')
+    const data = JSON.parse(raw)
+    const specialties = data.specialties || []
+    return specialties.find((s: any) => s.specialty_slug === slug) || null
+  } catch { return null }
+}
 
 function loadSpecialty(slug: string) {
   try {
@@ -37,6 +47,7 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
   const data = loadSpecialty(slug)
   if (!data) notFound()
 
+  const summaryData = loadSpecialtiesSummary(slug)
   const yearly = data.yearly_trends || []
   const totalPayments = yearly.reduce((s: number, y: { payments: number }) => s + y.payments, 0)
 
@@ -49,6 +60,13 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-2">{data.specialty}</h1>
           <p className="text-lg text-gray-600">Medicare spending analysis for {data.specialty} providers</p>
         </div>
+
+        {/* AI Overview */}
+        <AIOverview
+          type="specialty"
+          data={{ specialtyData: data, summaryData }}
+          className="mb-8"
+        />
 
         {/* Summary Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
