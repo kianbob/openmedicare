@@ -94,7 +94,7 @@ export default function CalculatorPage() {
                       className="w-16 px-2 py-1 border border-gray-300 rounded text-center" />
                   </div>
                   <div className="text-right min-w-[80px] font-bold">{formatCurrency(s.avg_payment_per_service * s.qty)}</div>
-                  <button onClick={() => removeProcedure(s.code)} className="text-red-500 hover:text-red-700 text-lg">×</button>
+                  <button onClick={() => removeProcedure(s.code)} className="text-red-500 hover:text-red-700 text-lg" aria-label={`Remove ${s.code}`}>×</button>
                 </div>
               ))}
             </div>
