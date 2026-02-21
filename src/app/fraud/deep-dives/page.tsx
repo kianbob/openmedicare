@@ -49,8 +49,21 @@ interface ProviderDetail {
   top_procedures?: Procedure[]
 }
 
+interface FraudFeature {
+  npi: string
+  services_per_day: number
+  beneficiaries_per_day: number
+  covid_share_pct: number
+  wound_share_pct: number
+  drug_share_pct: number
+  upcode_ratio: number
+  code_concentration: number
+  specialty_zscore: number
+}
+
 interface EnrichedProvider extends WatchlistProvider {
   detail?: ProviderDetail
+  fraud?: FraudFeature
 }
 
 const flagExplanations: Record<string, string> = {
@@ -78,6 +91,15 @@ function RiskGauge({ score }: { score: number }) {
   )
 }
 
+function FraudBadge({ label, value, color }: { label: string; value: string; color: string }) {
+  return (
+    <div className={`rounded px-2 py-1 text-center ${color}`}>
+      <div className="text-sm font-bold">{value}</div>
+      <div className="text-[10px] text-gray-600">{label}</div>
+    </div>
+  )
+}
+
 export default function DeepDives() {
   const [providers, setProviders] = useState<EnrichedProvider[]>([])
   const [loading, setLoading] = useState(true)
@@ -85,8 +107,18 @@ export default function DeepDives() {
   useEffect(() => {
     async function load() {
       try {
-        const watchlistRes = await fetch('/data/watchlist.json')
+        const [watchlistRes, fraudRes] = await Promise.all([
+          fetch('/data/watchlist.json'),
+          fetch('/data/fraud-features.json'),
+        ])
         const watchlist: WatchlistProvider[] = await watchlistRes.json()
+        const fraudData: { providers: FraudFeature[] } = await fraudRes.json()
+
+        // Build NPI lookup from fraud features
+        const fraudMap = new Map<string, FraudFeature>()
+        for (const f of fraudData.providers) {
+          fraudMap.set(String(f.npi), f)
+        }
 
         // Filter to individuals only (heuristic) and take top 20 by risk_score
         const individuals = watchlist
@@ -94,15 +126,16 @@ export default function DeepDives() {
           .sort((a, b) => b.risk_score - a.risk_score)
           .slice(0, 20)
 
-        // Fetch detail files in parallel
+        // Fetch detail files in parallel, cross-reference with fraud features
         const enriched = await Promise.all(individuals.map(async (p) => {
+          const fraud = fraudMap.get(String(p.npi))
           try {
             const res = await fetch(`/data/providers/${p.npi}.json`)
-            if (!res.ok) return { ...p }
+            if (!res.ok) return { ...p, fraud }
             const detail: ProviderDetail = await res.json()
-            return { ...p, detail }
+            return { ...p, detail, fraud }
           } catch {
-            return { ...p }
+            return { ...p, fraud }
           }
         }))
 
@@ -115,8 +148,6 @@ export default function DeepDives() {
     load()
   }, [])
 
-  const servicesPerDay = (total: number) => Math.round(total / 10 / 250)
-
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -124,8 +155,8 @@ export default function DeepDives() {
 
         <h1 className="text-4xl font-bold font-serif text-gray-900 mt-6 mb-4">Fraud Deep Dive Profiles</h1>
         <p className="text-lg text-gray-600 mb-8 max-w-3xl">
-          Detailed profiles of the 20 highest-risk <strong>individual</strong> providers in our watchlist.
-          Organizations like LabCorp and Quest are excluded — these are the people behind the billing.
+          Detailed profiles of the 20 highest-risk <strong>individual</strong> providers in our watchlist,
+          enriched with fraud feature data including impossible volumes, upcoding ratios, and billing concentration.
         </p>
 
         <ShareFinding stat="990x specialty median" description="One nurse practitioner billed $12.1M — 990 times the specialty median for COVID test billing" url="/fraud/deep-dives" />
@@ -180,11 +211,45 @@ export default function DeepDives() {
                       </div>
                     </div>
 
-                    {p.total_services > 0 && (
-                      <div className="bg-red-50 border border-red-200 rounded p-3 mb-6">
-                        <div className="text-sm font-medium text-red-800">
-                          ≈ {servicesPerDay(p.total_services)} services per working day
-                          {servicesPerDay(p.total_services) > 100 && ' ⚠️ Physically questionable'}
+                    {/* Fraud Features from fraud-features.json */}
+                    {p.fraud && (
+                      <div className="mb-6">
+                        <h4 className="text-sm font-semibold text-gray-700 mb-3">Fraud Feature Analysis</h4>
+                        <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+                          <FraudBadge
+                            label="Svc/Day"
+                            value={formatNumber(p.fraud.services_per_day)}
+                            color={p.fraud.services_per_day >= 200 ? 'bg-red-100' : p.fraud.services_per_day >= 50 ? 'bg-orange-100' : 'bg-gray-100'}
+                          />
+                          <FraudBadge
+                            label="Patients/Day"
+                            value={formatNumber(p.fraud.beneficiaries_per_day)}
+                            color={p.fraud.beneficiaries_per_day >= 100 ? 'bg-red-100' : 'bg-gray-100'}
+                          />
+                          <FraudBadge
+                            label="Upcode Ratio"
+                            value={p.fraud.upcode_ratio > 0 ? p.fraud.upcode_ratio.toFixed(1) + 'x' : 'N/A'}
+                            color={p.fraud.upcode_ratio >= 5 ? 'bg-red-100' : p.fraud.upcode_ratio >= 2 ? 'bg-orange-100' : 'bg-gray-100'}
+                          />
+                          <FraudBadge
+                            label="Code Concentration"
+                            value={(p.fraud.code_concentration * 100).toFixed(0) + '%'}
+                            color={p.fraud.code_concentration >= 0.8 ? 'bg-red-100' : p.fraud.code_concentration >= 0.5 ? 'bg-orange-100' : 'bg-gray-100'}
+                          />
+                          <FraudBadge
+                            label="Specialty Z-Score"
+                            value={p.fraud.specialty_zscore.toFixed(1)}
+                            color={p.fraud.specialty_zscore >= 5 ? 'bg-red-100' : p.fraud.specialty_zscore >= 3 ? 'bg-orange-100' : 'bg-gray-100'}
+                          />
+                          {p.fraud.covid_share_pct > 0 && (
+                            <FraudBadge label="COVID %" value={p.fraud.covid_share_pct.toFixed(1) + '%'} color={p.fraud.covid_share_pct >= 50 ? 'bg-red-100' : 'bg-blue-100'} />
+                          )}
+                          {p.fraud.wound_share_pct > 0 && (
+                            <FraudBadge label="Wound %" value={p.fraud.wound_share_pct.toFixed(1) + '%'} color={p.fraud.wound_share_pct >= 50 ? 'bg-red-100' : 'bg-purple-100'} />
+                          )}
+                          {p.fraud.drug_share_pct > 0 && (
+                            <FraudBadge label="Drug %" value={p.fraud.drug_share_pct.toFixed(1) + '%'} color={p.fraud.drug_share_pct >= 50 ? 'bg-red-100' : 'bg-teal-100'} />
+                          )}
                         </div>
                       </div>
                     )}
@@ -262,6 +327,7 @@ export default function DeepDives() {
             <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Enhanced Watchlist — Full 500-provider list</Link>
             <Link href="/fraud/wound-care" className="text-medicare-primary hover:underline text-sm">🩹 Wound Care — DOJ&apos;s #1 fraud target</Link>
             <Link href="/fraud/covid-tests" className="text-medicare-primary hover:underline text-sm">🦠 COVID Test Billing — K1034 abuse</Link>
+            <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">🧮 Impossible Numbers — 4,636 flagged providers</Link>
             <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
             <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
           </div>
