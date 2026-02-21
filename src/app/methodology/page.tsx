@@ -180,7 +180,7 @@ export default function MethodologyPage() {
 
         <div className="mt-12">
           <ShareButtons
-            url="https://www.openmedicare.org/methodology"
+            url="https://openmedicare.vercel.app/methodology"
             title="OpenMedicare Methodology"
             description="How we analyze Medicare data — transparent methodology and responsible disclosure"
           />

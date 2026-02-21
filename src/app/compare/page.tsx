@@ -459,7 +459,7 @@ export default function ComparePage() {
         </div>
 
         <div className="mt-12">
-          <ShareButtons url="https://www.openmedicare.org/compare" title="Compare Medicare Data" />
+          <ShareButtons url="https://openmedicare.vercel.app/compare" title="Compare Medicare Data" />
         </div>
         <div className="mt-8">
           <SourceCitation />

@@ -11,7 +11,7 @@ interface ShareFindingProps {
 export default function ShareFinding({ stat, description, url }: ShareFindingProps) {
   const [copied, setCopied] = useState(false)
 
-  const fullUrl = `https://www.openmedicare.org${url}`
+  const fullUrl = `https://openmedicare.vercel.app${url}`
   const shareText = `${stat} — ${description}\n\nExplore the data: ${fullUrl}`
   const encodedText = encodeURIComponent(`${stat} — ${description}`)
   const encodedUrl = encodeURIComponent(fullUrl)

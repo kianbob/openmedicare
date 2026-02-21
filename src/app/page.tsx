@@ -47,11 +47,11 @@ const datasetJsonLd = {
   },
   temporalCoverage: '2014/2023',
   license: 'https://www.usa.gov/government-works',
-  url: 'https://www.openmedicare.org',
+  url: 'https://openmedicare.vercel.app',
   distribution: {
     '@type': 'DataDownload',
     encodingFormat: 'application/json',
-    contentUrl: 'https://www.openmedicare.org/downloads',
+    contentUrl: 'https://openmedicare.vercel.app/downloads',
   },
 }
 

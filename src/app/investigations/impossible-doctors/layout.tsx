@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Impossible Doctors: Providers Billing More Services Than Hours in a Day',
     description: 'Medicare providers billing physically impossible volumes — some over 1,000 services per working day.',
-    url: 'https://www.openmedicare.org/investigations/impossible-doctors',
+    url: 'https://openmedicare.vercel.app/investigations/impossible-doctors',
   },
 }
 

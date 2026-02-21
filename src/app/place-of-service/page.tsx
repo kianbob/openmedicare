@@ -200,7 +200,7 @@ export default function PlaceOfServicePage() {
               </div>
             </div>
 
-            <ShareButtons title="Office vs Facility: Where Medicare Money Flows" url="https://www.openmedicare.org/place-of-service" />
+            <ShareButtons title="Office vs Facility: Where Medicare Money Flows" url="https://openmedicare.vercel.app/place-of-service" />
           </>
         )}
 

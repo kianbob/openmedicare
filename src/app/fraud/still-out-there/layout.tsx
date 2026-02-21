@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     title: 'Still Out There — 500 ML-Flagged Medicare Providers',
     description:
       'A supervised ML model trained on 2,198 confirmed fraudsters identified 500 unflagged providers whose billing patterns match known fraud.',
-    url: 'https://www.openmedicare.org/fraud/still-out-there',
+    url: 'https://openmedicare.vercel.app/fraud/still-out-there',
     siteName: 'OpenMedicare',
     type: 'article',
     images: [
       {
-        url: 'https://www.openmedicare.org/og/still-out-there.png',
+        url: 'https://openmedicare.vercel.app/og/still-out-there.png',
         width: 1200,
         height: 630,
         alt: 'Still Out There: 500 ML-Flagged Medicare Providers',

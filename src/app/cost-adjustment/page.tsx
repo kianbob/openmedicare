@@ -198,7 +198,7 @@ export default function CostAdjustmentPage() {
               </div>
             </div>
 
-            <ShareButtons title="The Geographic Cost Gap" url="https://www.openmedicare.org/cost-adjustment" />
+            <ShareButtons title="The Geographic Cost Gap" url="https://openmedicare.vercel.app/cost-adjustment" />
           </>
         )}
 

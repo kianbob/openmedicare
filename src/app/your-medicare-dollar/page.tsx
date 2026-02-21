@@ -267,7 +267,7 @@ export default function YourMedicareDollarPage() {
 
         <div className="mt-12">
           <ShareButtons
-            url="https://www.openmedicare.org/your-medicare-dollar"
+            url="https://openmedicare.vercel.app/your-medicare-dollar"
             title="Where Does Your Medicare Dollar Go?"
             description="Interactive breakdown of Medicare spending by specialty"
           />

@@ -200,7 +200,7 @@ export default function PaymentGapPage() {
               </div>
             </div>
 
-            <ShareButtons title="The Three-Way Payment Gap" url="https://www.openmedicare.org/payment-gap" />
+            <ShareButtons title="The Three-Way Payment Gap" url="https://openmedicare.vercel.app/payment-gap" />
           </>
         )}
 

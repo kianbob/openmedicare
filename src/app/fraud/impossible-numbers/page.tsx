@@ -248,7 +248,7 @@ export default function ImpossibleNumbers() {
           </p>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/fraud/impossible-numbers" title="Impossible Numbers" />
+        <ShareButtons url="https://openmedicare.vercel.app/fraud/impossible-numbers" title="Impossible Numbers" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)']} lastUpdated="February 2026" />
         </div>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Our Data Predicted It: Statistical Analysis Flagged Providers Before the DOJ Did',
     description: 'We flagged 500 providers. The DOJ charged 324 people in $14.6B of fraud. Multiple of our top-flagged providers were among them.',
-    url: 'https://www.openmedicare.org/investigations/data-predicted-fraud',
+    url: 'https://openmedicare.vercel.app/investigations/data-predicted-fraud',
   },
 }
 
@@ -744,7 +744,7 @@ export default function DataPredictedFraudPage() {
             <div className="mt-12 pt-8 border-t border-gray-200">
               <ShareButtons
                 title="Our Data Predicted It: How Statistical Analysis Flagged Providers Before the DOJ Did"
-                url="https://www.openmedicare.org/investigations/data-predicted-fraud"
+                url="https://openmedicare.vercel.app/investigations/data-predicted-fraud"
               />
               <SourceCitation />
             </div>

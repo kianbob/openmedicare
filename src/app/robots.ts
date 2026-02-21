@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
         '/data/providers/', // Don't crawl individual provider data files
       ],
     },
-    sitemap: 'https://www.openmedicare.org/sitemap.xml',
+    sitemap: 'https://openmedicare.vercel.app/sitemap.xml',
   }
 }

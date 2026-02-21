@@ -278,7 +278,7 @@ export default function CovidTests() {
           </p>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/fraud/covid-tests" title="COVID Test Billing Tracker" />
+        <ShareButtons url="https://openmedicare.vercel.app/fraud/covid-tests" title="COVID Test Billing Tracker" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2022-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

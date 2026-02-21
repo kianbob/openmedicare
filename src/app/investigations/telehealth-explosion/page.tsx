@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Telehealth Explosion: How COVID Changed Medicare Forever',
     description: 'Medicare spending crashed 10% in 2020, providers dropped by 8,000, then everything changed.',
-    url: 'https://www.openmedicare.org/investigations/telehealth-explosion',
+    url: 'https://openmedicare.vercel.app/investigations/telehealth-explosion',
   },
 }
 
@@ -285,7 +285,7 @@ export default function TelehealthExplosionPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.org/investigations/telehealth-explosion"
+              url="https://openmedicare.vercel.app/investigations/telehealth-explosion"
               title="The Telehealth Explosion: How COVID Changed Medicare Forever"
             />
 

@@ -65,7 +65,7 @@ export default async function Image() {
               marginTop: '32px',
             }}
           >
-            www.openmedicare.org
+            openmedicare.vercel.app
           </div>
         </div>
       </div>

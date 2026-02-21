@@ -404,7 +404,7 @@ export default function AnesthesiaMarkupPage() {
         </article>
 
         <ShareButtons
-          url="https://www.openmedicare.org/investigations/anesthesia-markup"
+          url="https://openmedicare.vercel.app/investigations/anesthesia-markup"
           title="The Anesthesia Markup Scandal"
         />
         <SourceCitation />

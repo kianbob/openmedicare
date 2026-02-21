@@ -420,7 +420,7 @@ export default function WhereMedicareDollarGoesPage() {
         </article>
 
         <ShareButtons
-          url="https://www.openmedicare.org/investigations/where-medicare-dollar-goes"
+          url="https://openmedicare.vercel.app/investigations/where-medicare-dollar-goes"
           title="Where Your Medicare Dollar Goes"
         />
         <SourceCitation />

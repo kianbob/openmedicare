@@ -309,7 +309,7 @@ export default function CorporateMedicinePage() {
         </article>
 
         <ShareButtons
-          url="https://www.openmedicare.org/investigations/corporate-medicine"
+          url="https://openmedicare.vercel.app/investigations/corporate-medicine"
           title="The Rise of Corporate Medicine"
         />
         <SourceCitation />

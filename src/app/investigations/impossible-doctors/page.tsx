@@ -290,7 +290,7 @@ export default function ImpossibleDoctorsPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.org/investigations/impossible-doctors"
+              url="https://openmedicare.vercel.app/investigations/impossible-doctors"
               title="The Impossible Doctors"
             />
 

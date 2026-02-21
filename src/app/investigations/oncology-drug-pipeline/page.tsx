@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Oncology Drug Pipeline: How Cancer Doctors Bill Millions in Drug Costs',
     description: '24 oncologists with >80% drug billing and >$5M each — $171M combined.',
-    url: 'https://www.openmedicare.org/investigations/oncology-drug-pipeline',
+    url: 'https://openmedicare.vercel.app/investigations/oncology-drug-pipeline',
   },
 }
 
@@ -264,7 +264,7 @@ export default function OncologyDrugPipelinePage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.org/investigations/oncology-drug-pipeline"
+              url="https://openmedicare.vercel.app/investigations/oncology-drug-pipeline"
               title="The Oncology Drug Pipeline"
             />
 

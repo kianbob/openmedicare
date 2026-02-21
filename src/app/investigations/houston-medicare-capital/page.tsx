@@ -145,7 +145,7 @@ export default function HoustonMedicareCapitalPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/houston-medicare-capital" title="Houston: America's Medicare Capital" />
+        <ShareButtons url="https://openmedicare.vercel.app/investigations/houston-medicare-capital" title="Houston: America's Medicare Capital" />
         <SourceCitation />
       </div>
     </main>

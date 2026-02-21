@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Beverly Hills Plastic Surgeons Billing Medicare for Wound Care: A $45 Million Question',
     description: 'Cosmetic surgeons marketing facelifts and breast augmentation — but billing Medicare almost entirely for wound care products.',
-    url: 'https://www.openmedicare.org/investigations/beverly-hills-wound-care',
+    url: 'https://openmedicare.vercel.app/investigations/beverly-hills-wound-care',
   },
 }
 

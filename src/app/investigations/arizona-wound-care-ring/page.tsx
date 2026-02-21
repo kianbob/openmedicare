@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Arizona Wound Care Ring: $514 Million Billed by 23 NPs for 2,974 Patients',
     description: '$514.3 million in skin substitute billing. 2,974 patients. $173,000 per patient average. A nearly identical 1.28x markup across 23 providers in Phoenix.',
-    url: 'https://www.openmedicare.org/investigations/arizona-wound-care-ring',
+    url: 'https://openmedicare.vercel.app/investigations/arizona-wound-care-ring',
   },
 }
 

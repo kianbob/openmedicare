@@ -11,13 +11,13 @@ export default function InvestigationsLayout({
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.openmedicare.org',
+        item: 'https://openmedicare.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Investigations',
-        item: 'https://www.openmedicare.org/investigations',
+        item: 'https://openmedicare.vercel.app/investigations',
       },
     ],
   }

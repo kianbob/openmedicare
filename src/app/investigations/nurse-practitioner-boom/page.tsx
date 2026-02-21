@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Rise of the Nurse Practitioner: Medicare\'s Fastest-Growing Workforce',
     description: '1.2 million NP billing records, $31.5 billion in payments, and a workforce reshaping American healthcare.',
-    url: 'https://www.openmedicare.org/investigations/nurse-practitioner-boom',
+    url: 'https://openmedicare.vercel.app/investigations/nurse-practitioner-boom',
   },
 }
 
@@ -320,7 +320,7 @@ export default function NursePractitionerBoomPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.org/investigations/nurse-practitioner-boom"
+              url="https://openmedicare.vercel.app/investigations/nurse-practitioner-boom"
               title="The Rise of the Nurse Practitioner"
             />
 

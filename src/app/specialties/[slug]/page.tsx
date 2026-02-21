@@ -292,7 +292,7 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
           </div>
         </div>
 
-        <ShareButtons url={`https://www.openmedicare.org/specialties/${slug}`} title={`${data.specialty} Medicare Spending — OpenMedicare`} />
+        <ShareButtons url={`https://openmedicare.vercel.app/specialties/${slug}`} title={`${data.specialty} Medicare Spending — OpenMedicare`} />
         <SourceCitation lastUpdated="February 2026 (data through 2023, the latest CMS release)" />
       </div>
     </main>
