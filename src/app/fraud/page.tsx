@@ -7,6 +7,7 @@ import NewsletterCTA from '@/components/NewsletterCTA'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
   title: 'Medicare Fraud Analysis Hub — OpenMedicare',
@@ -19,45 +20,91 @@ export const metadata: Metadata = {
   },
 }
 
+function loadJson(filename: string) {
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', filename), 'utf-8')
+    return JSON.parse(raw)
+  } catch {
+    return null
+  }
+}
+
+const covidData = loadJson('covid-test-billing.json')
+const woundData = loadJson('wound-care.json')
+const fraudData = loadJson('fraud-features.json')
+const upcodeData = loadJson('upcoding.json')
+
+const totalCovidPayments = covidData?.total_covid_payments ?? 0
+const totalWoundPayments = woundData?.total_wound_payments ?? 0
+const totalImpossible = fraudData?.total_impossible ?? 0
+const nationalPct99214 = upcodeData?.national_pct_99214 ?? 0
+
+function loadWatchlistStats() {
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'watchlist.json'), 'utf-8')
+    const providers = JSON.parse(raw) as { specialty: string; state: string; risk_score: number }[]
+
+    const specCount: Record<string, number> = {}
+    const stateCount: Record<string, number> = {}
+    for (const p of providers) {
+      specCount[p.specialty] = (specCount[p.specialty] || 0) + 1
+      stateCount[p.state] = (stateCount[p.state] || 0) + 1
+    }
+
+    const topSpecialties = Object.entries(specCount)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+    const topStates = Object.entries(stateCount)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+
+    return { topSpecialties, topStates, total: providers.length }
+  } catch {
+    return { topSpecialties: [], topStates: [], total: 500 }
+  }
+}
+
+const watchlistStats = loadWatchlistStats()
+
 const fraudPages = [
   {
     title: 'Enhanced Watchlist',
-    description: '500 providers flagged for billing anomalies — separated by individuals vs organizations, with inline flag details and color-coded risk scores.',
+    description: `${formatNumber(watchlistStats.total)} providers flagged for billing anomalies — separated by individuals vs organizations, with inline flag details and color-coded risk scores.`,
     href: '/fraud/watchlist',
     icon: '🚨',
     color: 'red',
   },
   {
     title: 'Deep Dive Profiles',
-    description: 'Detailed fraud profiles for the top 20 highest-risk individual providers. Payment breakdowns, flag explanations, and peer comparisons.',
+    description: 'Detailed fraud profiles for the top 20 highest-risk individual providers. Payment breakdowns, flag explanations, and fraud feature analysis.',
     href: '/fraud/deep-dives',
     icon: '🔍',
     color: 'purple',
   },
   {
     title: 'COVID Test Billing',
-    description: 'How HCPCS code K1034 became a massive fraud vector during the pandemic — and who billed millions for questionable COVID tests.',
+    description: `${formatCurrency(totalCovidPayments)} billed for COVID tests via HCPCS K1034. Who billed millions for questionable COVID tests during the pandemic?`,
     href: '/fraud/covid-tests',
     icon: '🦠',
     color: 'green',
   },
   {
     title: 'Wound Care Watchlist',
-    description: 'The DOJ\'s largest-ever healthcare fraud takedown ($14.6B) targeted wound care. We track the skin substitute billing pipeline.',
+    description: `${formatCurrency(totalWoundPayments)} in wound care billing. The DOJ's largest-ever healthcare fraud takedown targeted skin substitute schemes.`,
     href: '/fraud/wound-care',
     icon: '🩹',
     color: 'orange',
   },
   {
     title: 'Upcoding Detector',
-    description: 'Office visit codes 99213 vs 99214 account for $117.7B in Medicare spending. Who\'s billing the higher code more than their peers?',
+    description: `${nationalPct99214}% of E&M visits billed as 99214 nationally. Office visit codes 99213 vs 99214 account for $117.7B in Medicare spending.`,
     href: '/fraud/upcoding',
     icon: '📊',
     color: 'blue',
   },
   {
     title: 'Impossible Numbers',
-    description: 'Some providers bill for 400+ services per working day. Could one person really do that? We show the math.',
+    description: `${formatNumber(totalImpossible)} providers flagged with physically impossible billing volumes. The worst: 9,862 services per working day.`,
     href: '/fraud/impossible-numbers',
     icon: '🧮',
     color: 'indigo',
@@ -115,34 +162,6 @@ const jsonLd = [
   },
 ]
 
-function loadWatchlistStats() {
-  try {
-    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'watchlist.json'), 'utf-8')
-    const providers = JSON.parse(raw) as { specialty: string; state: string; risk_score: number }[]
-    
-    // Top specialties by count
-    const specCount: Record<string, number> = {}
-    const stateCount: Record<string, number> = {}
-    for (const p of providers) {
-      specCount[p.specialty] = (specCount[p.specialty] || 0) + 1
-      stateCount[p.state] = (stateCount[p.state] || 0) + 1
-    }
-    
-    const topSpecialties = Object.entries(specCount)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 5)
-    const topStates = Object.entries(stateCount)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 5)
-    
-    return { topSpecialties, topStates }
-  } catch {
-    return { topSpecialties: [], topStates: [] }
-  }
-}
-
-const watchlistStats = loadWatchlistStats()
-
 function BarChart({ data, title, color }: { data: [string, number][]; title: string; color: string }) {
   const max = Math.max(...data.map(d => d[1]), 1)
   return (
@@ -186,7 +205,7 @@ export default function FraudHub() {
           <p className="text-xl text-gray-600 max-w-3xl mb-8">
             The U.S. loses an estimated <strong>$100 billion or more</strong> to Medicare fraud every year.
             We analyzed <strong>$854.8 billion</strong> in Medicare physician payments across 10 years and flagged
-            <strong> 500 providers</strong> with statistical anomalies that warrant closer scrutiny.
+            <strong> {formatNumber(watchlistStats.total)} providers</strong> with statistical anomalies that warrant closer scrutiny.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mb-8">
             This isn&apos;t about accusations — it&apos;s about transparency. Every dollar lost to fraud is a dollar
@@ -194,22 +213,27 @@ export default function FraudHub() {
             that human reviewers and investigators can evaluate.
           </p>
 
-          {/* Key Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
-            <div className="bg-red-50 rounded-lg p-6 text-center">
-              <div className="text-4xl font-bold text-red-700 mb-2">$100B+</div>
-              <div className="text-sm text-red-600 font-medium">Lost to Medicare Fraud Annually</div>
-              <div className="text-xs text-gray-500 mt-1">National Health Care Anti-Fraud Association estimate</div>
+          {/* Key Stats — real data */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
+            <div className="bg-red-50 rounded-lg p-5 text-center">
+              <div className="text-3xl font-bold text-red-700 mb-1">{formatCurrency(totalCovidPayments)}</div>
+              <div className="text-sm text-red-600 font-medium">COVID Test Billing</div>
+              <div className="text-xs text-gray-500 mt-1">K1034 claims (2020-2023)</div>
             </div>
-            <div className="bg-blue-50 rounded-lg p-6 text-center">
-              <div className="text-4xl font-bold text-blue-700 mb-2">500</div>
-              <div className="text-sm text-blue-600 font-medium">Providers Flagged by Our Analysis</div>
-              <div className="text-xs text-gray-500 mt-1">Statistical outliers across multiple dimensions</div>
+            <div className="bg-orange-50 rounded-lg p-5 text-center">
+              <div className="text-3xl font-bold text-orange-700 mb-1">{formatCurrency(totalWoundPayments)}</div>
+              <div className="text-sm text-orange-600 font-medium">Wound Care Billing</div>
+              <div className="text-xs text-gray-500 mt-1">Skin substitutes + debridement</div>
             </div>
-            <div className="bg-green-50 rounded-lg p-6 text-center">
-              <div className="text-4xl font-bold text-green-700 mb-2">$854.8B</div>
-              <div className="text-sm text-green-600 font-medium">Total Medicare Spending Analyzed</div>
-              <div className="text-xs text-gray-500 mt-1">2014–2023 CMS physician payment data</div>
+            <div className="bg-indigo-50 rounded-lg p-5 text-center">
+              <div className="text-3xl font-bold text-indigo-700 mb-1">{formatNumber(totalImpossible)}</div>
+              <div className="text-sm text-indigo-600 font-medium">Impossible Providers</div>
+              <div className="text-xs text-gray-500 mt-1">Physically questionable volumes</div>
+            </div>
+            <div className="bg-blue-50 rounded-lg p-5 text-center">
+              <div className="text-3xl font-bold text-blue-700 mb-1">{nationalPct99214}%</div>
+              <div className="text-sm text-blue-600 font-medium">Upcoding Rate</div>
+              <div className="text-xs text-gray-500 mt-1">National 99214 share of E&M visits</div>
             </div>
           </div>
         </div>
