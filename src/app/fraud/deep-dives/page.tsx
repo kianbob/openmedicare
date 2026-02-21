@@ -198,7 +198,7 @@ export default function DeepDives() {
                         <div className="text-xs text-gray-500">Total Payments (10yr)</div>
                       </div>
                       <div className="bg-gray-50 rounded p-3">
-                        <div className="text-2xl font-bold text-gray-900">{p.avg_markup.toFixed(1)}x</div>
+                        <div className="text-2xl font-bold text-gray-900">{(p.avg_markup || 0).toFixed(1)}x</div>
                         <div className="text-xs text-gray-500">Average Markup</div>
                       </div>
                       <div className="bg-gray-50 rounded p-3">
@@ -228,27 +228,27 @@ export default function DeepDives() {
                           />
                           <FraudBadge
                             label="Upcode Ratio"
-                            value={p.fraud.upcode_ratio > 0 ? p.fraud.upcode_ratio.toFixed(1) + 'x' : 'N/A'}
-                            color={p.fraud.upcode_ratio >= 5 ? 'bg-red-100' : p.fraud.upcode_ratio >= 2 ? 'bg-orange-100' : 'bg-gray-100'}
+                            value={(p.fraud.upcode_ratio || 0) > 0 ? (p.fraud.upcode_ratio || 0).toFixed(1) + 'x' : 'N/A'}
+                            color={(p.fraud.upcode_ratio || 0) >= 5 ? 'bg-red-100' : (p.fraud.upcode_ratio || 0) >= 2 ? 'bg-orange-100' : 'bg-gray-100'}
                           />
                           <FraudBadge
                             label="Code Concentration"
-                            value={(p.fraud.code_concentration * 100).toFixed(0) + '%'}
-                            color={p.fraud.code_concentration >= 0.8 ? 'bg-red-100' : p.fraud.code_concentration >= 0.5 ? 'bg-orange-100' : 'bg-gray-100'}
+                            value={((p.fraud.code_concentration || 0) * 100).toFixed(0) + '%'}
+                            color={(p.fraud.code_concentration || 0) >= 0.8 ? 'bg-red-100' : (p.fraud.code_concentration || 0) >= 0.5 ? 'bg-orange-100' : 'bg-gray-100'}
                           />
                           <FraudBadge
                             label="Specialty Z-Score"
-                            value={p.fraud.specialty_zscore.toFixed(1)}
-                            color={p.fraud.specialty_zscore >= 5 ? 'bg-red-100' : p.fraud.specialty_zscore >= 3 ? 'bg-orange-100' : 'bg-gray-100'}
+                            value={(p.fraud.specialty_zscore || 0).toFixed(1)}
+                            color={(p.fraud.specialty_zscore || 0) >= 5 ? 'bg-red-100' : (p.fraud.specialty_zscore || 0) >= 3 ? 'bg-orange-100' : 'bg-gray-100'}
                           />
                           {p.fraud.covid_share_pct > 0 && (
-                            <FraudBadge label="COVID %" value={p.fraud.covid_share_pct.toFixed(1) + '%'} color={p.fraud.covid_share_pct >= 50 ? 'bg-red-100' : 'bg-blue-100'} />
+                            <FraudBadge label="COVID %" value={(p.fraud.covid_share_pct || 0).toFixed(1) + '%'} color={(p.fraud.covid_share_pct || 0) >= 50 ? 'bg-red-100' : 'bg-blue-100'} />
                           )}
-                          {p.fraud.wound_share_pct > 0 && (
-                            <FraudBadge label="Wound %" value={p.fraud.wound_share_pct.toFixed(1) + '%'} color={p.fraud.wound_share_pct >= 50 ? 'bg-red-100' : 'bg-purple-100'} />
+                          {(p.fraud.wound_share_pct || 0) > 0 && (
+                            <FraudBadge label="Wound %" value={(p.fraud.wound_share_pct || 0).toFixed(1) + '%'} color={(p.fraud.wound_share_pct || 0) >= 50 ? 'bg-red-100' : 'bg-purple-100'} />
                           )}
-                          {p.fraud.drug_share_pct > 0 && (
-                            <FraudBadge label="Drug %" value={p.fraud.drug_share_pct.toFixed(1) + '%'} color={p.fraud.drug_share_pct >= 50 ? 'bg-red-100' : 'bg-teal-100'} />
+                          {(p.fraud.drug_share_pct || 0) > 0 && (
+                            <FraudBadge label="Drug %" value={(p.fraud.drug_share_pct || 0).toFixed(1) + '%'} color={(p.fraud.drug_share_pct || 0) >= 50 ? 'bg-red-100' : 'bg-teal-100'} />
                           )}
                         </div>
                       </div>
