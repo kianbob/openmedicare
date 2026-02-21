@@ -1,0 +1,157 @@
+{
+  "npi": "1699759324",
+  "last_name": "Funk",
+  "first_name": "Mark",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Atlanta",
+  "state": "GA",
+  "overall": {
+    "total_payments": 235242,
+    "total_services": 5920,
+    "total_beneficiaries": 1948,
+    "avg_markup_ratio": 1.9
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 12539,
+      "services": 591,
+      "beneficiaries": 157
+    },
+    {
+      "year": 2015,
+      "payments": 15103,
+      "services": 661,
+      "beneficiaries": 189
+    },
+    {
+      "year": 2016,
+      "payments": 15823,
+      "services": 498,
+      "beneficiaries": 216
+    },
+    {
+      "year": 2017,
+      "payments": 18411,
+      "services": 619,
+      "beneficiaries": 229
+    },
+    {
+      "year": 2018,
+      "payments": 18229,
+      "services": 627,
+      "beneficiaries": 212
+    },
+    {
+      "year": 2019,
+      "payments": 21315,
+      "services": 554,
+      "beneficiaries": 201
+    },
+    {
+      "year": 2020,
+      "payments": 22196,
+      "services": 540,
+      "beneficiaries": 161
+    },
+    {
+      "year": 2021,
+      "payments": 24047,
+      "services": 608,
+      "beneficiaries": 233
+    },
+    {
+      "year": 2022,
+      "payments": 24669,
+      "services": 554,
+      "beneficiaries": 172
+    },
+    {
+      "year": 2023,
+      "payments": 27659,
+      "services": 691,
+      "beneficiaries": 207
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 42771,
+      "services": 1076,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 38494,
+      "services": 969,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 34217,
+      "services": 861,
+      "markup_ratio": 1.62
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 29940,
+      "services": 753,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 25663,
+      "services": 646,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 21386,
+      "services": 538,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 17109,
+      "services": 431,
+      "markup_ratio": 1.76
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 12831,
+      "services": 323,
+      "markup_ratio": 1.68
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 8554,
+      "services": 215,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4277,
+      "services": 108,
+      "markup_ratio": 1.81
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.885,
+    "ml_v2_rank": 248,
+    "risk_factors": [
+      "Volume-driven pattern"
+    ]
+  }
+}

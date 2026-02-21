@@ -1,0 +1,157 @@
+{
+  "npi": "1407155070",
+  "last_name": "Bonin",
+  "first_name": "Reagan",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "New Orleans",
+  "state": "LA",
+  "overall": {
+    "total_payments": 213378,
+    "total_services": 3439,
+    "total_beneficiaries": 1704,
+    "avg_markup_ratio": 2.12
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 10844,
+      "services": 284,
+      "beneficiaries": 188
+    },
+    {
+      "year": 2015,
+      "payments": 12159,
+      "services": 363,
+      "beneficiaries": 166
+    },
+    {
+      "year": 2016,
+      "payments": 14816,
+      "services": 326,
+      "beneficiaries": 146
+    },
+    {
+      "year": 2017,
+      "payments": 15178,
+      "services": 369,
+      "beneficiaries": 197
+    },
+    {
+      "year": 2018,
+      "payments": 17535,
+      "services": 308,
+      "beneficiaries": 159
+    },
+    {
+      "year": 2019,
+      "payments": 17803,
+      "services": 323,
+      "beneficiaries": 200
+    },
+    {
+      "year": 2020,
+      "payments": 19830,
+      "services": 358,
+      "beneficiaries": 188
+    },
+    {
+      "year": 2021,
+      "payments": 22096,
+      "services": 385,
+      "beneficiaries": 142
+    },
+    {
+      "year": 2022,
+      "payments": 22459,
+      "services": 335,
+      "beneficiaries": 161
+    },
+    {
+      "year": 2023,
+      "payments": 23842,
+      "services": 288,
+      "beneficiaries": 190
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 38796,
+      "services": 625,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 34916,
+      "services": 563,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 31037,
+      "services": 500,
+      "markup_ratio": 2.35
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 27157,
+      "services": 438,
+      "markup_ratio": 2.31
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 23278,
+      "services": 375,
+      "markup_ratio": 2.49
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 19398,
+      "services": 313,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 15518,
+      "services": 250,
+      "markup_ratio": 2.51
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 11639,
+      "services": 188,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 7759,
+      "services": 125,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3880,
+      "services": 63,
+      "markup_ratio": 2.38
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8945,
+    "ml_v2_rank": 309,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

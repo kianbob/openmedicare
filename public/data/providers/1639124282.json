@@ -1,0 +1,157 @@
+{
+  "npi": "1639124282",
+  "last_name": "Liebig",
+  "first_name": "Carl",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Charleston",
+  "state": "WV",
+  "overall": {
+    "total_payments": 186606,
+    "total_services": 4544,
+    "total_beneficiaries": 2015,
+    "avg_markup_ratio": 2.11
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 10821,
+      "services": 541,
+      "beneficiaries": 193
+    },
+    {
+      "year": 2015,
+      "payments": 11353,
+      "services": 502,
+      "beneficiaries": 240
+    },
+    {
+      "year": 2016,
+      "payments": 12037,
+      "services": 500,
+      "beneficiaries": 176
+    },
+    {
+      "year": 2017,
+      "payments": 13471,
+      "services": 472,
+      "beneficiaries": 205
+    },
+    {
+      "year": 2018,
+      "payments": 15771,
+      "services": 364,
+      "beneficiaries": 233
+    },
+    {
+      "year": 2019,
+      "payments": 15628,
+      "services": 498,
+      "beneficiaries": 165
+    },
+    {
+      "year": 2020,
+      "payments": 17938,
+      "services": 527,
+      "beneficiaries": 212
+    },
+    {
+      "year": 2021,
+      "payments": 18135,
+      "services": 405,
+      "beneficiaries": 177
+    },
+    {
+      "year": 2022,
+      "payments": 20429,
+      "services": 426,
+      "beneficiaries": 167
+    },
+    {
+      "year": 2023,
+      "payments": 21879,
+      "services": 378,
+      "beneficiaries": 231
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 33928,
+      "services": 826,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 30536,
+      "services": 744,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 27143,
+      "services": 661,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 23750,
+      "services": 578,
+      "markup_ratio": 2.45
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 20357,
+      "services": 496,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 16964,
+      "services": 413,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 13571,
+      "services": 330,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 10179,
+      "services": 248,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 6786,
+      "services": 165,
+      "markup_ratio": 2.25
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3393,
+      "services": 83,
+      "markup_ratio": 2.1
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8872,
+    "ml_v2_rank": 364,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

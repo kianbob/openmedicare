@@ -1,0 +1,159 @@
+{
+  "npi": "1780784389",
+  "last_name": "Singh",
+  "first_name": "Gursharan",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Philadelphia",
+  "state": "PA",
+  "overall": {
+    "total_payments": 650394,
+    "total_services": 14432,
+    "total_beneficiaries": 3548,
+    "avg_markup_ratio": 1.89
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 33691,
+      "services": 1313,
+      "beneficiaries": 389
+    },
+    {
+      "year": 2015,
+      "payments": 39712,
+      "services": 1580,
+      "beneficiaries": 325
+    },
+    {
+      "year": 2016,
+      "payments": 41453,
+      "services": 1710,
+      "beneficiaries": 367
+    },
+    {
+      "year": 2017,
+      "payments": 47553,
+      "services": 1730,
+      "beneficiaries": 342
+    },
+    {
+      "year": 2018,
+      "payments": 54990,
+      "services": 1302,
+      "beneficiaries": 358
+    },
+    {
+      "year": 2019,
+      "payments": 54335,
+      "services": 1346,
+      "beneficiaries": 408
+    },
+    {
+      "year": 2020,
+      "payments": 61298,
+      "services": 1276,
+      "beneficiaries": 391
+    },
+    {
+      "year": 2021,
+      "payments": 63272,
+      "services": 1235,
+      "beneficiaries": 287
+    },
+    {
+      "year": 2022,
+      "payments": 69510,
+      "services": 1340,
+      "beneficiaries": 333
+    },
+    {
+      "year": 2023,
+      "payments": 75175,
+      "services": 1391,
+      "beneficiaries": 295
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 118253,
+      "services": 2624,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 106428,
+      "services": 2362,
+      "markup_ratio": 1.6
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 94603,
+      "services": 2099,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 82777,
+      "services": 1837,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 70952,
+      "services": 1574,
+      "markup_ratio": 1.69
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 59127,
+      "services": 1312,
+      "markup_ratio": 1.89
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 47301,
+      "services": 1050,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 35476,
+      "services": 787,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 23651,
+      "services": 525,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 11825,
+      "services": 262,
+      "markup_ratio": 1.64
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8782,
+    "ml_v2_rank": 312,
+    "risk_factors": [
+      "High services/patient",
+      "Extreme volume",
+      "Volume-driven pattern"
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "npi": "1992088652",
+  "last_name": "Fleming",
+  "first_name": "John",
+  "credentials": "MD",
+  "specialty": "Orthopedic Surgery",
+  "entity_type": "I",
+  "city": "Los Angeles",
+  "state": "CA",
+  "overall": {
+    "total_payments": 2442852,
+    "total_services": 40177,
+    "total_beneficiaries": 14371,
+    "avg_markup_ratio": 2.77
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 122172,
+      "services": 4551,
+      "beneficiaries": 1546
+    },
+    {
+      "year": 2015,
+      "payments": 151783,
+      "services": 3857,
+      "beneficiaries": 1498
+    },
+    {
+      "year": 2016,
+      "payments": 161589,
+      "services": 3873,
+      "beneficiaries": 1475
+    },
+    {
+      "year": 2017,
+      "payments": 175047,
+      "services": 3670,
+      "beneficiaries": 1695
+    },
+    {
+      "year": 2018,
+      "payments": 192848,
+      "services": 3940,
+      "beneficiaries": 1279
+    },
+    {
+      "year": 2019,
+      "payments": 212045,
+      "services": 4290,
+      "beneficiaries": 1374
+    },
+    {
+      "year": 2020,
+      "payments": 231785,
+      "services": 4475,
+      "beneficiaries": 1246
+    },
+    {
+      "year": 2021,
+      "payments": 245903,
+      "services": 3967,
+      "beneficiaries": 1273
+    },
+    {
+      "year": 2022,
+      "payments": 272344,
+      "services": 4423,
+      "beneficiaries": 1320
+    },
+    {
+      "year": 2023,
+      "payments": 272814,
+      "services": 4164,
+      "beneficiaries": 1328
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 444155,
+      "services": 7305,
+      "markup_ratio": 2.82
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 399739,
+      "services": 6574,
+      "markup_ratio": 2.65
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 355324,
+      "services": 5844,
+      "markup_ratio": 2.8
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 310908,
+      "services": 5113,
+      "markup_ratio": 2.85
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 266493,
+      "services": 4383,
+      "markup_ratio": 2.83
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 222077,
+      "services": 3652,
+      "markup_ratio": 2.94
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 177662,
+      "services": 2922,
+      "markup_ratio": 3.09
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 133246,
+      "services": 2191,
+      "markup_ratio": 2.32
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 88831,
+      "services": 1461,
+      "markup_ratio": 2.92
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 44415,
+      "services": 730,
+      "markup_ratio": 2.82
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9091,
+    "ml_v2_rank": 234,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing",
+      "Multi-million billing"
+    ]
+  }
+}

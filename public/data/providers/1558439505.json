@@ -1,0 +1,158 @@
+{
+  "npi": "1558439505",
+  "last_name": "Vachhani",
+  "first_name": "Bhupatrai",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Houston",
+  "state": "TX",
+  "overall": {
+    "total_payments": 1014643,
+    "total_services": 18605,
+    "total_beneficiaries": 5964,
+    "avg_markup_ratio": 1.89
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 52111,
+      "services": 1917,
+      "beneficiaries": 686
+    },
+    {
+      "year": 2015,
+      "payments": 59740,
+      "services": 1974,
+      "beneficiaries": 607
+    },
+    {
+      "year": 2016,
+      "payments": 67696,
+      "services": 1795,
+      "beneficiaries": 705
+    },
+    {
+      "year": 2017,
+      "payments": 73403,
+      "services": 2011,
+      "beneficiaries": 601
+    },
+    {
+      "year": 2018,
+      "payments": 83839,
+      "services": 2196,
+      "beneficiaries": 620
+    },
+    {
+      "year": 2019,
+      "payments": 89733,
+      "services": 1895,
+      "beneficiaries": 672
+    },
+    {
+      "year": 2020,
+      "payments": 91936,
+      "services": 1877,
+      "beneficiaries": 696
+    },
+    {
+      "year": 2021,
+      "payments": 102625,
+      "services": 1853,
+      "beneficiaries": 714
+    },
+    {
+      "year": 2022,
+      "payments": 111017,
+      "services": 1669,
+      "beneficiaries": 559
+    },
+    {
+      "year": 2023,
+      "payments": 119590,
+      "services": 1521,
+      "beneficiaries": 500
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 184481,
+      "services": 3383,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 166033,
+      "services": 3044,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 147584,
+      "services": 2706,
+      "markup_ratio": 1.59
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 129136,
+      "services": 2368,
+      "markup_ratio": 2.15
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 110688,
+      "services": 2030,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 92240,
+      "services": 1691,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 73792,
+      "services": 1353,
+      "markup_ratio": 2.22
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 55344,
+      "services": 1015,
+      "markup_ratio": 2.25
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 36896,
+      "services": 677,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 18448,
+      "services": 338,
+      "markup_ratio": 1.72
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9246,
+    "ml_v2_rank": 111,
+    "risk_factors": [
+      "7-figure billing",
+      "Volume-driven pattern"
+    ]
+  }
+}

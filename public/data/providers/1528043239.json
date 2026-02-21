@@ -1,0 +1,157 @@
+{
+  "npi": "1528043239",
+  "last_name": "Reddy",
+  "first_name": "Madadi",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Birmingham",
+  "state": "AL",
+  "overall": {
+    "total_payments": 312201,
+    "total_services": 7709,
+    "total_beneficiaries": 2755,
+    "avg_markup_ratio": 2.04
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 16773,
+      "services": 739,
+      "beneficiaries": 317
+    },
+    {
+      "year": 2015,
+      "payments": 18676,
+      "services": 664,
+      "beneficiaries": 254
+    },
+    {
+      "year": 2016,
+      "payments": 21187,
+      "services": 855,
+      "beneficiaries": 236
+    },
+    {
+      "year": 2017,
+      "payments": 22180,
+      "services": 860,
+      "beneficiaries": 290
+    },
+    {
+      "year": 2018,
+      "payments": 26436,
+      "services": 798,
+      "beneficiaries": 252
+    },
+    {
+      "year": 2019,
+      "payments": 26212,
+      "services": 847,
+      "beneficiaries": 311
+    },
+    {
+      "year": 2020,
+      "payments": 30582,
+      "services": 714,
+      "beneficiaries": 324
+    },
+    {
+      "year": 2021,
+      "payments": 32426,
+      "services": 821,
+      "beneficiaries": 300
+    },
+    {
+      "year": 2022,
+      "payments": 34026,
+      "services": 803,
+      "beneficiaries": 234
+    },
+    {
+      "year": 2023,
+      "payments": 36059,
+      "services": 846,
+      "beneficiaries": 313
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 56764,
+      "services": 1402,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 51087,
+      "services": 1261,
+      "markup_ratio": 1.73
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 45411,
+      "services": 1121,
+      "markup_ratio": 2.38
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 39735,
+      "services": 981,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 34058,
+      "services": 841,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 28382,
+      "services": 701,
+      "markup_ratio": 1.66
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 22706,
+      "services": 561,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 17029,
+      "services": 420,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 11353,
+      "services": 280,
+      "markup_ratio": 2.31
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 5676,
+      "services": 140,
+      "markup_ratio": 2.13
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8623,
+    "ml_v2_rank": 459,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

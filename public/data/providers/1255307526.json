@@ -1,0 +1,157 @@
+{
+  "npi": "1255307526",
+  "last_name": "Kim",
+  "first_name": "Chul",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "St. Louis",
+  "state": "MO",
+  "overall": {
+    "total_payments": 690628,
+    "total_services": 16680,
+    "total_beneficiaries": 6684,
+    "avg_markup_ratio": 1.9
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 37583,
+      "services": 1678,
+      "beneficiaries": 789
+    },
+    {
+      "year": 2015,
+      "payments": 44814,
+      "services": 1984,
+      "beneficiaries": 636
+    },
+    {
+      "year": 2016,
+      "payments": 46000,
+      "services": 1960,
+      "beneficiaries": 738
+    },
+    {
+      "year": 2017,
+      "payments": 49298,
+      "services": 1730,
+      "beneficiaries": 680
+    },
+    {
+      "year": 2018,
+      "payments": 57512,
+      "services": 1679,
+      "beneficiaries": 738
+    },
+    {
+      "year": 2019,
+      "payments": 62124,
+      "services": 1722,
+      "beneficiaries": 632
+    },
+    {
+      "year": 2020,
+      "payments": 64422,
+      "services": 1580,
+      "beneficiaries": 603
+    },
+    {
+      "year": 2021,
+      "payments": 67217,
+      "services": 1548,
+      "beneficiaries": 654
+    },
+    {
+      "year": 2022,
+      "payments": 71736,
+      "services": 1936,
+      "beneficiaries": 655
+    },
+    {
+      "year": 2023,
+      "payments": 76913,
+      "services": 1822,
+      "beneficiaries": 624
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 125569,
+      "services": 3033,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 113012,
+      "services": 2729,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 100455,
+      "services": 2426,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 87898,
+      "services": 2123,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 75341,
+      "services": 1820,
+      "markup_ratio": 1.64
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 62784,
+      "services": 1516,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 50227,
+      "services": 1213,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 37671,
+      "services": 910,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 25114,
+      "services": 607,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 12557,
+      "services": 303,
+      "markup_ratio": 2.23
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9301,
+    "ml_v2_rank": 45,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

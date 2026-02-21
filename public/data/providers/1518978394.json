@@ -1,0 +1,157 @@
+{
+  "npi": "1518978394",
+  "last_name": "Mendiratta",
+  "first_name": "Kanwar",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Detroit",
+  "state": "MI",
+  "overall": {
+    "total_payments": 604880,
+    "total_services": 13887,
+    "total_beneficiaries": 6634,
+    "avg_markup_ratio": 1.78
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 30765,
+      "services": 1640,
+      "beneficiaries": 628
+    },
+    {
+      "year": 2015,
+      "payments": 38878,
+      "services": 1537,
+      "beneficiaries": 693
+    },
+    {
+      "year": 2016,
+      "payments": 39223,
+      "services": 1483,
+      "beneficiaries": 788
+    },
+    {
+      "year": 2017,
+      "payments": 46613,
+      "services": 1117,
+      "beneficiaries": 767
+    },
+    {
+      "year": 2018,
+      "payments": 46813,
+      "services": 1555,
+      "beneficiaries": 774
+    },
+    {
+      "year": 2019,
+      "payments": 51154,
+      "services": 1283,
+      "beneficiaries": 791
+    },
+    {
+      "year": 2020,
+      "payments": 57466,
+      "services": 1155,
+      "beneficiaries": 593
+    },
+    {
+      "year": 2021,
+      "payments": 59762,
+      "services": 1648,
+      "beneficiaries": 725
+    },
+    {
+      "year": 2022,
+      "payments": 66225,
+      "services": 1298,
+      "beneficiaries": 779
+    },
+    {
+      "year": 2023,
+      "payments": 68488,
+      "services": 1553,
+      "beneficiaries": 727
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 109978,
+      "services": 2525,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 98980,
+      "services": 2272,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 87983,
+      "services": 2020,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 76985,
+      "services": 1767,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 65987,
+      "services": 1515,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 54989,
+      "services": 1262,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 43991,
+      "services": 1010,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 32993,
+      "services": 757,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 21996,
+      "services": 505,
+      "markup_ratio": 1.58
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 10998,
+      "services": 252,
+      "markup_ratio": 1.94
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9086,
+    "ml_v2_rank": 88,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

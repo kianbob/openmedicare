@@ -1,0 +1,157 @@
+{
+  "npi": "1265873566",
+  "last_name": "Chandar",
+  "first_name": "Manisha",
+  "credentials": "MD",
+  "specialty": "Hematology-Oncology",
+  "entity_type": "I",
+  "city": "Phoenix",
+  "state": "AZ",
+  "overall": {
+    "total_payments": 1008213,
+    "total_services": 11798,
+    "total_beneficiaries": 6008,
+    "avg_markup_ratio": 2.47
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 51603,
+      "services": 969,
+      "beneficiaries": 719
+    },
+    {
+      "year": 2015,
+      "payments": 60450,
+      "services": 1264,
+      "beneficiaries": 710
+    },
+    {
+      "year": 2016,
+      "payments": 64020,
+      "services": 1264,
+      "beneficiaries": 502
+    },
+    {
+      "year": 2017,
+      "payments": 72475,
+      "services": 1130,
+      "beneficiaries": 490
+    },
+    {
+      "year": 2018,
+      "payments": 82575,
+      "services": 1132,
+      "beneficiaries": 525
+    },
+    {
+      "year": 2019,
+      "payments": 87618,
+      "services": 1136,
+      "beneficiaries": 651
+    },
+    {
+      "year": 2020,
+      "payments": 94594,
+      "services": 1131,
+      "beneficiaries": 583
+    },
+    {
+      "year": 2021,
+      "payments": 103762,
+      "services": 1378,
+      "beneficiaries": 624
+    },
+    {
+      "year": 2022,
+      "payments": 110524,
+      "services": 1233,
+      "beneficiaries": 600
+    },
+    {
+      "year": 2023,
+      "payments": 119104,
+      "services": 1161,
+      "beneficiaries": 618
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 183311,
+      "services": 2145,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 164980,
+      "services": 1931,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 146649,
+      "services": 1716,
+      "markup_ratio": 2.62
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 128318,
+      "services": 1502,
+      "markup_ratio": 2.59
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 109987,
+      "services": 1287,
+      "markup_ratio": 2.02
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 91656,
+      "services": 1073,
+      "markup_ratio": 2.84
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 73325,
+      "services": 858,
+      "markup_ratio": 2.93
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 54993,
+      "services": 644,
+      "markup_ratio": 2.15
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 36662,
+      "services": 429,
+      "markup_ratio": 2.35
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 18331,
+      "services": 215,
+      "markup_ratio": 2.42
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8902,
+    "ml_v2_rank": 354,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

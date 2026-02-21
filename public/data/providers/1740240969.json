@@ -1,0 +1,157 @@
+{
+  "npi": "1740240969",
+  "last_name": "Richline",
+  "first_name": "Amannda",
+  "credentials": "MD",
+  "specialty": "Podiatry",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 1577691,
+    "total_services": 34637,
+    "total_beneficiaries": 14571,
+    "avg_markup_ratio": 1.64
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 81896,
+      "services": 3466,
+      "beneficiaries": 1176
+    },
+    {
+      "year": 2015,
+      "payments": 98238,
+      "services": 4143,
+      "beneficiaries": 1584
+    },
+    {
+      "year": 2016,
+      "payments": 109843,
+      "services": 2857,
+      "beneficiaries": 1734
+    },
+    {
+      "year": 2017,
+      "payments": 119470,
+      "services": 3816,
+      "beneficiaries": 1588
+    },
+    {
+      "year": 2018,
+      "payments": 121767,
+      "services": 3873,
+      "beneficiaries": 1204
+    },
+    {
+      "year": 2019,
+      "payments": 132378,
+      "services": 3533,
+      "beneficiaries": 1557
+    },
+    {
+      "year": 2020,
+      "payments": 146543,
+      "services": 3004,
+      "beneficiaries": 1710
+    },
+    {
+      "year": 2021,
+      "payments": 154023,
+      "services": 3750,
+      "beneficiaries": 1354
+    },
+    {
+      "year": 2022,
+      "payments": 172843,
+      "services": 3885,
+      "beneficiaries": 1585
+    },
+    {
+      "year": 2023,
+      "payments": 178768,
+      "services": 3043,
+      "beneficiaries": 1314
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 286853,
+      "services": 6298,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 258168,
+      "services": 5668,
+      "markup_ratio": 1.69
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 229482,
+      "services": 5038,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 200797,
+      "services": 4408,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 172112,
+      "services": 3779,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 143426,
+      "services": 3149,
+      "markup_ratio": 1.35
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 114741,
+      "services": 2519,
+      "markup_ratio": 1.7
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 86056,
+      "services": 1889,
+      "markup_ratio": 1.57
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 57371,
+      "services": 1260,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 28685,
+      "services": 630,
+      "markup_ratio": 1.8
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.909,
+    "ml_v2_rank": 113,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

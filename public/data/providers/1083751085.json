@@ -1,0 +1,157 @@
+{
+  "npi": "1083751085",
+  "last_name": "Fares",
+  "first_name": "Abdelkader",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Detroit",
+  "state": "MI",
+  "overall": {
+    "total_payments": 296637,
+    "total_services": 4771,
+    "total_beneficiaries": 2254,
+    "avg_markup_ratio": 2.05
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 15542,
+      "services": 546,
+      "beneficiaries": 201
+    },
+    {
+      "year": 2015,
+      "payments": 18275,
+      "services": 468,
+      "beneficiaries": 211
+    },
+    {
+      "year": 2016,
+      "payments": 20367,
+      "services": 403,
+      "beneficiaries": 193
+    },
+    {
+      "year": 2017,
+      "payments": 22287,
+      "services": 543,
+      "beneficiaries": 240
+    },
+    {
+      "year": 2018,
+      "payments": 22827,
+      "services": 436,
+      "beneficiaries": 244
+    },
+    {
+      "year": 2019,
+      "payments": 27075,
+      "services": 476,
+      "beneficiaries": 262
+    },
+    {
+      "year": 2020,
+      "payments": 27289,
+      "services": 420,
+      "beneficiaries": 251
+    },
+    {
+      "year": 2021,
+      "payments": 28702,
+      "services": 544,
+      "beneficiaries": 265
+    },
+    {
+      "year": 2022,
+      "payments": 30753,
+      "services": 440,
+      "beneficiaries": 241
+    },
+    {
+      "year": 2023,
+      "payments": 34748,
+      "services": 399,
+      "beneficiaries": 246
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 53934,
+      "services": 867,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 48541,
+      "services": 781,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 43147,
+      "services": 694,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 37754,
+      "services": 607,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 32360,
+      "services": 520,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 26967,
+      "services": 434,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 21574,
+      "services": 347,
+      "markup_ratio": 2.32
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 16180,
+      "services": 260,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 10787,
+      "services": 173,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 5393,
+      "services": 87,
+      "markup_ratio": 1.82
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8712,
+    "ml_v2_rank": 384,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

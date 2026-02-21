@@ -1,0 +1,158 @@
+{
+  "npi": "1720081532",
+  "last_name": "Smart",
+  "first_name": "Kelly",
+  "credentials": "PA",
+  "specialty": "Physician Assistant",
+  "entity_type": "I",
+  "city": "Nashville",
+  "state": "TN",
+  "overall": {
+    "total_payments": 1357141,
+    "total_services": 28397,
+    "total_beneficiaries": 8063,
+    "avg_markup_ratio": 2.13
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 74928,
+      "services": 2299,
+      "beneficiaries": 851
+    },
+    {
+      "year": 2015,
+      "payments": 77697,
+      "services": 2894,
+      "beneficiaries": 963
+    },
+    {
+      "year": 2016,
+      "payments": 92453,
+      "services": 3031,
+      "beneficiaries": 673
+    },
+    {
+      "year": 2017,
+      "payments": 102742,
+      "services": 3309,
+      "beneficiaries": 916
+    },
+    {
+      "year": 2018,
+      "payments": 114670,
+      "services": 3078,
+      "beneficiaries": 814
+    },
+    {
+      "year": 2019,
+      "payments": 119665,
+      "services": 2547,
+      "beneficiaries": 942
+    },
+    {
+      "year": 2020,
+      "payments": 130392,
+      "services": 2966,
+      "beneficiaries": 682
+    },
+    {
+      "year": 2021,
+      "payments": 135070,
+      "services": 2993,
+      "beneficiaries": 892
+    },
+    {
+      "year": 2022,
+      "payments": 150178,
+      "services": 3398,
+      "beneficiaries": 792
+    },
+    {
+      "year": 2023,
+      "payments": 155733,
+      "services": 3222,
+      "beneficiaries": 938
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 246753,
+      "services": 5163,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 222078,
+      "services": 4647,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 197402,
+      "services": 4130,
+      "markup_ratio": 2.33
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 172727,
+      "services": 3614,
+      "markup_ratio": 1.88
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 148052,
+      "services": 3098,
+      "markup_ratio": 2.48
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 123376,
+      "services": 2582,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 98701,
+      "services": 2065,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 74026,
+      "services": 1549,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 49351,
+      "services": 1033,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 24675,
+      "services": 516,
+      "markup_ratio": 2.17
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8877,
+    "ml_v2_rank": 223,
+    "risk_factors": [
+      "High services/patient",
+      "7-figure billing"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1114999497",
+  "last_name": "Kullick",
+  "first_name": "Margarita",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Washington",
+  "state": "DC",
+  "overall": {
+    "total_payments": 720112,
+    "total_services": 13123,
+    "total_beneficiaries": 4857,
+    "avg_markup_ratio": 1.82
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 38858,
+      "services": 1513,
+      "beneficiaries": 552
+    },
+    {
+      "year": 2015,
+      "payments": 41937,
+      "services": 1199,
+      "beneficiaries": 551
+    },
+    {
+      "year": 2016,
+      "payments": 49227,
+      "services": 1410,
+      "beneficiaries": 436
+    },
+    {
+      "year": 2017,
+      "payments": 56066,
+      "services": 1163,
+      "beneficiaries": 429
+    },
+    {
+      "year": 2018,
+      "payments": 60476,
+      "services": 1384,
+      "beneficiaries": 513
+    },
+    {
+      "year": 2019,
+      "payments": 65058,
+      "services": 1526,
+      "beneficiaries": 503
+    },
+    {
+      "year": 2020,
+      "payments": 66980,
+      "services": 1230,
+      "beneficiaries": 412
+    },
+    {
+      "year": 2021,
+      "payments": 75393,
+      "services": 1346,
+      "beneficiaries": 553
+    },
+    {
+      "year": 2022,
+      "payments": 76875,
+      "services": 1286,
+      "beneficiaries": 576
+    },
+    {
+      "year": 2023,
+      "payments": 80484,
+      "services": 1089,
+      "beneficiaries": 559
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 130930,
+      "services": 2386,
+      "markup_ratio": 1.68
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 117837,
+      "services": 2147,
+      "markup_ratio": 1.58
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 104744,
+      "services": 1909,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 91651,
+      "services": 1670,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 78558,
+      "services": 1432,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 65465,
+      "services": 1193,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 52372,
+      "services": 954,
+      "markup_ratio": 1.54
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 39279,
+      "services": 716,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 26186,
+      "services": 477,
+      "markup_ratio": 1.66
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 13093,
+      "services": 239,
+      "markup_ratio": 1.77
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9327,
+    "ml_v2_rank": 59,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

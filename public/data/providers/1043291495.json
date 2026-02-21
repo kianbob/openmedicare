@@ -1,0 +1,158 @@
+{
+  "npi": "1043291495",
+  "last_name": "Miller",
+  "first_name": "Craig",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 2021205,
+    "total_services": 41293,
+    "total_beneficiaries": 18749,
+    "avg_markup_ratio": 1.9
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 106792,
+      "services": 4280,
+      "beneficiaries": 2005
+    },
+    {
+      "year": 2015,
+      "payments": 119991,
+      "services": 4282,
+      "beneficiaries": 1513
+    },
+    {
+      "year": 2016,
+      "payments": 131051,
+      "services": 3951,
+      "beneficiaries": 1600
+    },
+    {
+      "year": 2017,
+      "payments": 152032,
+      "services": 3814,
+      "beneficiaries": 2070
+    },
+    {
+      "year": 2018,
+      "payments": 162285,
+      "services": 4773,
+      "beneficiaries": 1892
+    },
+    {
+      "year": 2019,
+      "payments": 169492,
+      "services": 4096,
+      "beneficiaries": 1920
+    },
+    {
+      "year": 2020,
+      "payments": 189293,
+      "services": 3778,
+      "beneficiaries": 2019
+    },
+    {
+      "year": 2021,
+      "payments": 208683,
+      "services": 3922,
+      "beneficiaries": 1859
+    },
+    {
+      "year": 2022,
+      "payments": 213527,
+      "services": 4060,
+      "beneficiaries": 1563
+    },
+    {
+      "year": 2023,
+      "payments": 238352,
+      "services": 3887,
+      "beneficiaries": 2128
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 367492,
+      "services": 7508,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 330743,
+      "services": 6757,
+      "markup_ratio": 1.89
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 293993,
+      "services": 6006,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 257244,
+      "services": 5255,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 220495,
+      "services": 4505,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 183746,
+      "services": 3754,
+      "markup_ratio": 1.56
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 146997,
+      "services": 3003,
+      "markup_ratio": 1.72
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 110248,
+      "services": 2252,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 73498,
+      "services": 1502,
+      "markup_ratio": 1.81
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 36749,
+      "services": 751,
+      "markup_ratio": 2.22
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8688,
+    "ml_v2_rank": 466,
+    "risk_factors": [
+      "7-figure billing",
+      "Multi-million billing"
+    ]
+  }
+}

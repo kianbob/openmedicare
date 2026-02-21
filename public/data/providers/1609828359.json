@@ -1,0 +1,158 @@
+{
+  "npi": "1609828359",
+  "last_name": "Khan",
+  "first_name": "Noor",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "New York",
+  "state": "NY",
+  "overall": {
+    "total_payments": 1436776,
+    "total_services": 19242,
+    "total_beneficiaries": 6065,
+    "avg_markup_ratio": 1.85
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 76482,
+      "services": 1932,
+      "beneficiaries": 679
+    },
+    {
+      "year": 2015,
+      "payments": 89516,
+      "services": 2203,
+      "beneficiaries": 510
+    },
+    {
+      "year": 2016,
+      "payments": 101189,
+      "services": 2255,
+      "beneficiaries": 612
+    },
+    {
+      "year": 2017,
+      "payments": 108050,
+      "services": 1990,
+      "beneficiaries": 638
+    },
+    {
+      "year": 2018,
+      "payments": 121384,
+      "services": 1960,
+      "beneficiaries": 489
+    },
+    {
+      "year": 2019,
+      "payments": 130696,
+      "services": 1604,
+      "beneficiaries": 657
+    },
+    {
+      "year": 2020,
+      "payments": 132993,
+      "services": 1984,
+      "beneficiaries": 727
+    },
+    {
+      "year": 2021,
+      "payments": 145291,
+      "services": 1710,
+      "beneficiaries": 715
+    },
+    {
+      "year": 2022,
+      "payments": 154157,
+      "services": 2057,
+      "beneficiaries": 660
+    },
+    {
+      "year": 2023,
+      "payments": 165747,
+      "services": 2127,
+      "beneficiaries": 615
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 261232,
+      "services": 3499,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 235109,
+      "services": 3149,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 208986,
+      "services": 2799,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 182862,
+      "services": 2449,
+      "markup_ratio": 1.9
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 156739,
+      "services": 2099,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 130616,
+      "services": 1749,
+      "markup_ratio": 1.89
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 104493,
+      "services": 1399,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 78370,
+      "services": 1050,
+      "markup_ratio": 1.6
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 52246,
+      "services": 700,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 26123,
+      "services": 350,
+      "markup_ratio": 2.01
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8848,
+    "ml_v2_rank": 299,
+    "risk_factors": [
+      "7-figure billing",
+      "Volume-driven pattern"
+    ]
+  }
+}

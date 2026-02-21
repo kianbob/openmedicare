@@ -1,0 +1,157 @@
+{
+  "npi": "1669456158",
+  "last_name": "Nwabara",
+  "first_name": "Okechi",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Indianapolis",
+  "state": "IN",
+  "overall": {
+    "total_payments": 1740954,
+    "total_services": 31922,
+    "total_beneficiaries": 15500,
+    "avg_markup_ratio": 2.18
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 98816,
+      "services": 3197,
+      "beneficiaries": 1618
+    },
+    {
+      "year": 2015,
+      "payments": 103630,
+      "services": 3752,
+      "beneficiaries": 1286
+    },
+    {
+      "year": 2016,
+      "payments": 114821,
+      "services": 3360,
+      "beneficiaries": 1666
+    },
+    {
+      "year": 2017,
+      "payments": 130984,
+      "services": 3568,
+      "beneficiaries": 1770
+    },
+    {
+      "year": 2018,
+      "payments": 135126,
+      "services": 2935,
+      "beneficiaries": 1498
+    },
+    {
+      "year": 2019,
+      "payments": 145341,
+      "services": 2800,
+      "beneficiaries": 1300
+    },
+    {
+      "year": 2020,
+      "payments": 162876,
+      "services": 2593,
+      "beneficiaries": 1646
+    },
+    {
+      "year": 2021,
+      "payments": 176728,
+      "services": 3349,
+      "beneficiaries": 1372
+    },
+    {
+      "year": 2022,
+      "payments": 190286,
+      "services": 3827,
+      "beneficiaries": 1658
+    },
+    {
+      "year": 2023,
+      "payments": 198411,
+      "services": 3190,
+      "beneficiaries": 1426
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 316537,
+      "services": 5804,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 284883,
+      "services": 5224,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 253230,
+      "services": 4643,
+      "markup_ratio": 1.8
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 221576,
+      "services": 4063,
+      "markup_ratio": 2.6
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 189922,
+      "services": 3482,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 158269,
+      "services": 2902,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 126615,
+      "services": 2322,
+      "markup_ratio": 2.24
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 94961,
+      "services": 1741,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 63307,
+      "services": 1161,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 31654,
+      "services": 580,
+      "markup_ratio": 2.53
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.881,
+    "ml_v2_rank": 392,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

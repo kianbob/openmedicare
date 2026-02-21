@@ -1,0 +1,157 @@
+{
+  "npi": "1861471484",
+  "last_name": "Roberts",
+  "first_name": "William",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Columbus",
+  "state": "OH",
+  "overall": {
+    "total_payments": 276906,
+    "total_services": 3926,
+    "total_beneficiaries": 1503,
+    "avg_markup_ratio": 1.67
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 14876,
+      "services": 388,
+      "beneficiaries": 154
+    },
+    {
+      "year": 2015,
+      "payments": 17330,
+      "services": 421,
+      "beneficiaries": 165
+    },
+    {
+      "year": 2016,
+      "payments": 18642,
+      "services": 341,
+      "beneficiaries": 121
+    },
+    {
+      "year": 2017,
+      "payments": 19393,
+      "services": 332,
+      "beneficiaries": 133
+    },
+    {
+      "year": 2018,
+      "payments": 21845,
+      "services": 407,
+      "beneficiaries": 121
+    },
+    {
+      "year": 2019,
+      "payments": 24997,
+      "services": 321,
+      "beneficiaries": 134
+    },
+    {
+      "year": 2020,
+      "payments": 25032,
+      "services": 332,
+      "beneficiaries": 177
+    },
+    {
+      "year": 2021,
+      "payments": 28147,
+      "services": 453,
+      "beneficiaries": 140
+    },
+    {
+      "year": 2022,
+      "payments": 28759,
+      "services": 446,
+      "beneficiaries": 138
+    },
+    {
+      "year": 2023,
+      "payments": 31053,
+      "services": 351,
+      "beneficiaries": 143
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 50347,
+      "services": 714,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 45312,
+      "services": 642,
+      "markup_ratio": 1.45
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 40277,
+      "services": 571,
+      "markup_ratio": 1.36
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 35243,
+      "services": 500,
+      "markup_ratio": 1.75
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 30208,
+      "services": 428,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 25173,
+      "services": 357,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 20139,
+      "services": 286,
+      "markup_ratio": 1.49
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 15104,
+      "services": 214,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 10069,
+      "services": 143,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 5035,
+      "services": 71,
+      "markup_ratio": 1.86
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8595,
+    "ml_v2_rank": 493,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1578675765",
+  "last_name": "Aday",
+  "first_name": "David",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Albuquerque",
+  "state": "NM",
+  "overall": {
+    "total_payments": 614210,
+    "total_services": 11745,
+    "total_beneficiaries": 4366,
+    "avg_markup_ratio": 2.29
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 34632,
+      "services": 1055,
+      "beneficiaries": 456
+    },
+    {
+      "year": 2015,
+      "payments": 39314,
+      "services": 989,
+      "beneficiaries": 521
+    },
+    {
+      "year": 2016,
+      "payments": 40111,
+      "services": 1060,
+      "beneficiaries": 431
+    },
+    {
+      "year": 2017,
+      "payments": 44233,
+      "services": 1299,
+      "beneficiaries": 437
+    },
+    {
+      "year": 2018,
+      "payments": 50058,
+      "services": 1208,
+      "beneficiaries": 472
+    },
+    {
+      "year": 2019,
+      "payments": 54601,
+      "services": 1197,
+      "beneficiaries": 385
+    },
+    {
+      "year": 2020,
+      "payments": 58484,
+      "services": 1249,
+      "beneficiaries": 403
+    },
+    {
+      "year": 2021,
+      "payments": 64043,
+      "services": 1228,
+      "beneficiaries": 351
+    },
+    {
+      "year": 2022,
+      "payments": 64194,
+      "services": 1327,
+      "beneficiaries": 461
+    },
+    {
+      "year": 2023,
+      "payments": 69286,
+      "services": 1141,
+      "beneficiaries": 491
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 111674,
+      "services": 2135,
+      "markup_ratio": 2.45
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 100507,
+      "services": 1922,
+      "markup_ratio": 2.15
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 89340,
+      "services": 1708,
+      "markup_ratio": 2.56
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 78172,
+      "services": 1495,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 67005,
+      "services": 1281,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 55837,
+      "services": 1068,
+      "markup_ratio": 2.11
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 44670,
+      "services": 854,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 33502,
+      "services": 641,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 22335,
+      "services": 427,
+      "markup_ratio": 2.45
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 11167,
+      "services": 214,
+      "markup_ratio": 2.5
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8756,
+    "ml_v2_rank": 415,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

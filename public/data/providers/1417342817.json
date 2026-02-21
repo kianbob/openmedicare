@@ -1,0 +1,157 @@
+{
+  "npi": "1417342817",
+  "last_name": "Karl Velasco",
+  "first_name": "Jon",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 502150,
+    "total_services": 10286,
+    "total_beneficiaries": 4381,
+    "avg_markup_ratio": 2.25
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 27050,
+      "services": 840,
+      "beneficiaries": 453
+    },
+    {
+      "year": 2015,
+      "payments": 28586,
+      "services": 1140,
+      "beneficiaries": 389
+    },
+    {
+      "year": 2016,
+      "payments": 35107,
+      "services": 961,
+      "beneficiaries": 479
+    },
+    {
+      "year": 2017,
+      "payments": 37148,
+      "services": 911,
+      "beneficiaries": 406
+    },
+    {
+      "year": 2018,
+      "payments": 42284,
+      "services": 1186,
+      "beneficiaries": 514
+    },
+    {
+      "year": 2019,
+      "payments": 44022,
+      "services": 1128,
+      "beneficiaries": 495
+    },
+    {
+      "year": 2020,
+      "payments": 47862,
+      "services": 1122,
+      "beneficiaries": 505
+    },
+    {
+      "year": 2021,
+      "payments": 50641,
+      "services": 956,
+      "beneficiaries": 472
+    },
+    {
+      "year": 2022,
+      "payments": 54467,
+      "services": 1167,
+      "beneficiaries": 381
+    },
+    {
+      "year": 2023,
+      "payments": 58734,
+      "services": 1168,
+      "beneficiaries": 460
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 91300,
+      "services": 1870,
+      "markup_ratio": 2.67
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 82170,
+      "services": 1683,
+      "markup_ratio": 2.62
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 73040,
+      "services": 1496,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 63910,
+      "services": 1309,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 54780,
+      "services": 1122,
+      "markup_ratio": 2.37
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 45650,
+      "services": 935,
+      "markup_ratio": 2.21
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 36520,
+      "services": 748,
+      "markup_ratio": 2.63
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 27390,
+      "services": 561,
+      "markup_ratio": 2.31
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 18260,
+      "services": 374,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 9130,
+      "services": 187,
+      "markup_ratio": 1.81
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8761,
+    "ml_v2_rank": 347,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "npi": "1265990097",
+  "last_name": "Maximovsky",
+  "first_name": "Natalia",
+  "credentials": "NP",
+  "specialty": "Nurse Practitioner",
+  "entity_type": "I",
+  "city": "New York",
+  "state": "NY",
+  "overall": {
+    "total_payments": 1649701,
+    "total_services": 28329,
+    "total_beneficiaries": 10857,
+    "avg_markup_ratio": 2.57
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 85178,
+      "services": 3130,
+      "beneficiaries": 1210
+    },
+    {
+      "year": 2015,
+      "payments": 101653,
+      "services": 2320,
+      "beneficiaries": 998
+    },
+    {
+      "year": 2016,
+      "payments": 116627,
+      "services": 3301,
+      "beneficiaries": 870
+    },
+    {
+      "year": 2017,
+      "payments": 119159,
+      "services": 3049,
+      "beneficiaries": 1163
+    },
+    {
+      "year": 2018,
+      "payments": 137869,
+      "services": 2825,
+      "beneficiaries": 904
+    },
+    {
+      "year": 2019,
+      "payments": 147520,
+      "services": 2699,
+      "beneficiaries": 878
+    },
+    {
+      "year": 2020,
+      "payments": 149107,
+      "services": 3022,
+      "beneficiaries": 1112
+    },
+    {
+      "year": 2021,
+      "payments": 173129,
+      "services": 3368,
+      "beneficiaries": 960
+    },
+    {
+      "year": 2022,
+      "payments": 182253,
+      "services": 2977,
+      "beneficiaries": 1302
+    },
+    {
+      "year": 2023,
+      "payments": 186264,
+      "services": 3381,
+      "beneficiaries": 905
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 299946,
+      "services": 5151,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 269951,
+      "services": 4636,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 239957,
+      "services": 4121,
+      "markup_ratio": 2.42
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 209962,
+      "services": 3606,
+      "markup_ratio": 2.51
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 179967,
+      "services": 3090,
+      "markup_ratio": 2.09
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 149973,
+      "services": 2575,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 119978,
+      "services": 2060,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 89984,
+      "services": 1545,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 59989,
+      "services": 1030,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 29995,
+      "services": 515,
+      "markup_ratio": 2.68
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9427,
+    "ml_v2_rank": 34,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing"
+    ]
+  }
+}

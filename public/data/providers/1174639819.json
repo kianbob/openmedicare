@@ -1,0 +1,159 @@
+{
+  "npi": "1174639819",
+  "last_name": "Hurtado",
+  "first_name": "Hillary",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "New York",
+  "state": "NY",
+  "overall": {
+    "total_payments": 1840376,
+    "total_services": 26568,
+    "total_beneficiaries": 7119,
+    "avg_markup_ratio": 1.79
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 106520,
+      "services": 3086,
+      "beneficiaries": 574
+    },
+    {
+      "year": 2015,
+      "payments": 116079,
+      "services": 2578,
+      "beneficiaries": 829
+    },
+    {
+      "year": 2016,
+      "payments": 127917,
+      "services": 2225,
+      "beneficiaries": 595
+    },
+    {
+      "year": 2017,
+      "payments": 136677,
+      "services": 2758,
+      "beneficiaries": 822
+    },
+    {
+      "year": 2018,
+      "payments": 147551,
+      "services": 2354,
+      "beneficiaries": 787
+    },
+    {
+      "year": 2019,
+      "payments": 155637,
+      "services": 2525,
+      "beneficiaries": 781
+    },
+    {
+      "year": 2020,
+      "payments": 177177,
+      "services": 2132,
+      "beneficiaries": 655
+    },
+    {
+      "year": 2021,
+      "payments": 186068,
+      "services": 2892,
+      "beneficiaries": 740
+    },
+    {
+      "year": 2022,
+      "payments": 191305,
+      "services": 2285,
+      "beneficiaries": 674
+    },
+    {
+      "year": 2023,
+      "payments": 209910,
+      "services": 2681,
+      "beneficiaries": 826
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 334614,
+      "services": 4831,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 301152,
+      "services": 4347,
+      "markup_ratio": 1.54
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 267691,
+      "services": 3864,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 234230,
+      "services": 3381,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 200768,
+      "services": 2898,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 167307,
+      "services": 2415,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 133846,
+      "services": 1932,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 100384,
+      "services": 1449,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 66923,
+      "services": 966,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 33461,
+      "services": 483,
+      "markup_ratio": 1.56
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9127,
+    "ml_v2_rank": 102,
+    "risk_factors": [
+      "High services/patient",
+      "7-figure billing",
+      "Volume-driven pattern"
+    ]
+  }
+}

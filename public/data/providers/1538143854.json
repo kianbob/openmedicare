@@ -1,0 +1,157 @@
+{
+  "npi": "1538143854",
+  "last_name": "Zafar",
+  "first_name": "Daryoush",
+  "credentials": "MD",
+  "specialty": "Podiatry",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 1642089,
+    "total_services": 29871,
+    "total_beneficiaries": 12926,
+    "avg_markup_ratio": 2.03
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 86078,
+      "services": 2410,
+      "beneficiaries": 1163
+    },
+    {
+      "year": 2015,
+      "payments": 96250,
+      "services": 2612,
+      "beneficiaries": 1338
+    },
+    {
+      "year": 2016,
+      "payments": 111823,
+      "services": 2783,
+      "beneficiaries": 1209
+    },
+    {
+      "year": 2017,
+      "payments": 117135,
+      "services": 2584,
+      "beneficiaries": 1551
+    },
+    {
+      "year": 2018,
+      "payments": 136937,
+      "services": 2949,
+      "beneficiaries": 1345
+    },
+    {
+      "year": 2019,
+      "payments": 148241,
+      "services": 3200,
+      "beneficiaries": 1074
+    },
+    {
+      "year": 2020,
+      "payments": 159735,
+      "services": 3177,
+      "beneficiaries": 1459
+    },
+    {
+      "year": 2021,
+      "payments": 166461,
+      "services": 2749,
+      "beneficiaries": 1082
+    },
+    {
+      "year": 2022,
+      "payments": 181484,
+      "services": 3419,
+      "beneficiaries": 1270
+    },
+    {
+      "year": 2023,
+      "payments": 187464,
+      "services": 2513,
+      "beneficiaries": 1370
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 298562,
+      "services": 5431,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 268705,
+      "services": 4888,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 238849,
+      "services": 4345,
+      "markup_ratio": 2.24
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 208993,
+      "services": 3802,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 179137,
+      "services": 3259,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 149281,
+      "services": 2716,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 119425,
+      "services": 2172,
+      "markup_ratio": 2.02
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 89568,
+      "services": 1629,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 59712,
+      "services": 1086,
+      "markup_ratio": 2.4
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 29856,
+      "services": 543,
+      "markup_ratio": 2.22
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8782,
+    "ml_v2_rank": 275,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

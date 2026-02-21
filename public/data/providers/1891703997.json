@@ -1,0 +1,157 @@
+{
+  "npi": "1891703997",
+  "last_name": "Maiocco",
+  "first_name": "Mark",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Seattle",
+  "state": "WA",
+  "overall": {
+    "total_payments": 546470,
+    "total_services": 10917,
+    "total_beneficiaries": 5596,
+    "avg_markup_ratio": 2.41
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 31089,
+      "services": 1046,
+      "beneficiaries": 474
+    },
+    {
+      "year": 2015,
+      "payments": 35078,
+      "services": 1214,
+      "beneficiaries": 666
+    },
+    {
+      "year": 2016,
+      "payments": 38942,
+      "services": 874,
+      "beneficiaries": 589
+    },
+    {
+      "year": 2017,
+      "payments": 41540,
+      "services": 1301,
+      "beneficiaries": 506
+    },
+    {
+      "year": 2018,
+      "payments": 42808,
+      "services": 1086,
+      "beneficiaries": 486
+    },
+    {
+      "year": 2019,
+      "payments": 46538,
+      "services": 1178,
+      "beneficiaries": 499
+    },
+    {
+      "year": 2020,
+      "payments": 51138,
+      "services": 1287,
+      "beneficiaries": 584
+    },
+    {
+      "year": 2021,
+      "payments": 53922,
+      "services": 1186,
+      "beneficiaries": 652
+    },
+    {
+      "year": 2022,
+      "payments": 59553,
+      "services": 1223,
+      "beneficiaries": 623
+    },
+    {
+      "year": 2023,
+      "payments": 61425,
+      "services": 945,
+      "beneficiaries": 555
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 99358,
+      "services": 1985,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 89422,
+      "services": 1786,
+      "markup_ratio": 2.21
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 79487,
+      "services": 1588,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 69551,
+      "services": 1389,
+      "markup_ratio": 2.29
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 59615,
+      "services": 1191,
+      "markup_ratio": 2.64
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 49679,
+      "services": 992,
+      "markup_ratio": 2.16
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 39743,
+      "services": 794,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 29807,
+      "services": 595,
+      "markup_ratio": 2.53
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 19872,
+      "services": 397,
+      "markup_ratio": 2.83
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 9936,
+      "services": 198,
+      "markup_ratio": 2.76
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9001,
+    "ml_v2_rank": 161,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

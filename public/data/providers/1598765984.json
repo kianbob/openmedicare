@@ -1,0 +1,157 @@
+{
+  "npi": "1598765984",
+  "last_name": "Bryan",
+  "first_name": "Gregory",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Las Vegas",
+  "state": "NV",
+  "overall": {
+    "total_payments": 353087,
+    "total_services": 6723,
+    "total_beneficiaries": 2416,
+    "avg_markup_ratio": 2.03
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 18192,
+      "services": 657,
+      "beneficiaries": 283
+    },
+    {
+      "year": 2015,
+      "payments": 21366,
+      "services": 584,
+      "beneficiaries": 285
+    },
+    {
+      "year": 2016,
+      "payments": 24440,
+      "services": 566,
+      "beneficiaries": 214
+    },
+    {
+      "year": 2017,
+      "payments": 24788,
+      "services": 807,
+      "beneficiaries": 277
+    },
+    {
+      "year": 2018,
+      "payments": 28233,
+      "services": 804,
+      "beneficiaries": 276
+    },
+    {
+      "year": 2019,
+      "payments": 30927,
+      "services": 705,
+      "beneficiaries": 283
+    },
+    {
+      "year": 2020,
+      "payments": 33555,
+      "services": 796,
+      "beneficiaries": 267
+    },
+    {
+      "year": 2021,
+      "payments": 35417,
+      "services": 694,
+      "beneficiaries": 210
+    },
+    {
+      "year": 2022,
+      "payments": 36565,
+      "services": 676,
+      "beneficiaries": 278
+    },
+    {
+      "year": 2023,
+      "payments": 40367,
+      "services": 720,
+      "beneficiaries": 225
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 64198,
+      "services": 1222,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 57778,
+      "services": 1100,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 51358,
+      "services": 978,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 44938,
+      "services": 856,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 38519,
+      "services": 733,
+      "markup_ratio": 2.27
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 32099,
+      "services": 611,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 25679,
+      "services": 489,
+      "markup_ratio": 2.21
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 19259,
+      "services": 367,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 12840,
+      "services": 244,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6420,
+      "services": 122,
+      "markup_ratio": 2.38
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9227,
+    "ml_v2_rank": 71,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

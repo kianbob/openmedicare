@@ -1,0 +1,157 @@
+{
+  "npi": "1033503255",
+  "last_name": "Montag",
+  "first_name": "Nathaniel",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 930667,
+    "total_services": 11757,
+    "total_beneficiaries": 4555,
+    "avg_markup_ratio": 2.31
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 52991,
+      "services": 1404,
+      "beneficiaries": 467
+    },
+    {
+      "year": 2015,
+      "payments": 55712,
+      "services": 1142,
+      "beneficiaries": 442
+    },
+    {
+      "year": 2016,
+      "payments": 60561,
+      "services": 1241,
+      "beneficiaries": 392
+    },
+    {
+      "year": 2017,
+      "payments": 70357,
+      "services": 1360,
+      "beneficiaries": 411
+    },
+    {
+      "year": 2018,
+      "payments": 78760,
+      "services": 991,
+      "beneficiaries": 509
+    },
+    {
+      "year": 2019,
+      "payments": 82483,
+      "services": 1329,
+      "beneficiaries": 471
+    },
+    {
+      "year": 2020,
+      "payments": 86284,
+      "services": 1014,
+      "beneficiaries": 434
+    },
+    {
+      "year": 2021,
+      "payments": 93379,
+      "services": 1214,
+      "beneficiaries": 382
+    },
+    {
+      "year": 2022,
+      "payments": 98972,
+      "services": 971,
+      "beneficiaries": 391
+    },
+    {
+      "year": 2023,
+      "payments": 109665,
+      "services": 1214,
+      "beneficiaries": 507
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 169212,
+      "services": 2138,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 152291,
+      "services": 1924,
+      "markup_ratio": 2.21
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 135370,
+      "services": 1710,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 118449,
+      "services": 1496,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 101527,
+      "services": 1283,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 84606,
+      "services": 1069,
+      "markup_ratio": 2.49
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 67685,
+      "services": 855,
+      "markup_ratio": 2.52
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 50764,
+      "services": 641,
+      "markup_ratio": 2.57
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 33842,
+      "services": 428,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 16921,
+      "services": 214,
+      "markup_ratio": 2.01
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9234,
+    "ml_v2_rank": 112,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

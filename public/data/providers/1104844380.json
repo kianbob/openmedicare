@@ -1,0 +1,157 @@
+{
+  "npi": "1104844380",
+  "last_name": "Aiello",
+  "first_name": "Joseph",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Los Angeles",
+  "state": "CA",
+  "overall": {
+    "total_payments": 979453,
+    "total_services": 25328,
+    "total_beneficiaries": 7026,
+    "avg_markup_ratio": 2.2
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 55258,
+      "services": 2038,
+      "beneficiaries": 815
+    },
+    {
+      "year": 2015,
+      "payments": 58144,
+      "services": 2148,
+      "beneficiaries": 703
+    },
+    {
+      "year": 2016,
+      "payments": 68724,
+      "services": 2954,
+      "beneficiaries": 758
+    },
+    {
+      "year": 2017,
+      "payments": 70762,
+      "services": 2821,
+      "beneficiaries": 748
+    },
+    {
+      "year": 2018,
+      "payments": 82216,
+      "services": 3004,
+      "beneficiaries": 643
+    },
+    {
+      "year": 2019,
+      "payments": 86098,
+      "services": 2505,
+      "beneficiaries": 724
+    },
+    {
+      "year": 2020,
+      "payments": 90874,
+      "services": 2375,
+      "beneficiaries": 615
+    },
+    {
+      "year": 2021,
+      "payments": 98389,
+      "services": 2166,
+      "beneficiaries": 769
+    },
+    {
+      "year": 2022,
+      "payments": 108711,
+      "services": 2090,
+      "beneficiaries": 709
+    },
+    {
+      "year": 2023,
+      "payments": 115644,
+      "services": 2856,
+      "beneficiaries": 638
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 178082,
+      "services": 4605,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 160274,
+      "services": 4145,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 142466,
+      "services": 3684,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 124658,
+      "services": 3224,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 106849,
+      "services": 2763,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 89041,
+      "services": 2303,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 71233,
+      "services": 1842,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 53425,
+      "services": 1382,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 35616,
+      "services": 921,
+      "markup_ratio": 2.53
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 17808,
+      "services": 461,
+      "markup_ratio": 1.87
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9057,
+    "ml_v2_rank": 249,
+    "risk_factors": [
+      "High services/patient"
+    ]
+  }
+}

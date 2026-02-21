@@ -1,0 +1,159 @@
+{
+  "npi": "1023118486",
+  "last_name": "Yu",
+  "first_name": "Hon",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "entity_type": "I",
+  "city": "Los Angeles",
+  "state": "CA",
+  "overall": {
+    "total_payments": 2532195,
+    "total_services": 29115,
+    "total_beneficiaries": 6978,
+    "avg_markup_ratio": 2.07
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 144859,
+      "services": 2838,
+      "beneficiaries": 748
+    },
+    {
+      "year": 2015,
+      "payments": 160971,
+      "services": 2396,
+      "beneficiaries": 558
+    },
+    {
+      "year": 2016,
+      "payments": 179899,
+      "services": 3350,
+      "beneficiaries": 602
+    },
+    {
+      "year": 2017,
+      "payments": 177756,
+      "services": 2552,
+      "beneficiaries": 665
+    },
+    {
+      "year": 2018,
+      "payments": 214400,
+      "services": 2732,
+      "beneficiaries": 738
+    },
+    {
+      "year": 2019,
+      "payments": 220248,
+      "services": 3352,
+      "beneficiaries": 759
+    },
+    {
+      "year": 2020,
+      "payments": 232118,
+      "services": 2557,
+      "beneficiaries": 621
+    },
+    {
+      "year": 2021,
+      "payments": 261803,
+      "services": 3468,
+      "beneficiaries": 803
+    },
+    {
+      "year": 2022,
+      "payments": 267229,
+      "services": 3402,
+      "beneficiaries": 777
+    },
+    {
+      "year": 2023,
+      "payments": 293865,
+      "services": 2733,
+      "beneficiaries": 654
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 460399,
+      "services": 5294,
+      "markup_ratio": 2.16
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 414359,
+      "services": 4764,
+      "markup_ratio": 1.68
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 368319,
+      "services": 4235,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 322279,
+      "services": 3706,
+      "markup_ratio": 1.66
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 276239,
+      "services": 3176,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 230200,
+      "services": 2647,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 184160,
+      "services": 2117,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 138120,
+      "services": 1588,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 92080,
+      "services": 1059,
+      "markup_ratio": 2.42
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 46040,
+      "services": 529,
+      "markup_ratio": 2.45
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8865,
+    "ml_v2_rank": 283,
+    "risk_factors": [
+      "High services/patient",
+      "7-figure billing",
+      "Multi-million billing"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1912992751",
+  "last_name": "Tomazic",
+  "first_name": "David",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Philadelphia",
+  "state": "PA",
+  "overall": {
+    "total_payments": 237673,
+    "total_services": 4545,
+    "total_beneficiaries": 1608,
+    "avg_markup_ratio": 1.75
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 12945,
+      "services": 462,
+      "beneficiaries": 191
+    },
+    {
+      "year": 2015,
+      "payments": 15124,
+      "services": 533,
+      "beneficiaries": 186
+    },
+    {
+      "year": 2016,
+      "payments": 16018,
+      "services": 430,
+      "beneficiaries": 133
+    },
+    {
+      "year": 2017,
+      "payments": 17780,
+      "services": 450,
+      "beneficiaries": 191
+    },
+    {
+      "year": 2018,
+      "payments": 19672,
+      "services": 397,
+      "beneficiaries": 191
+    },
+    {
+      "year": 2019,
+      "payments": 19953,
+      "services": 535,
+      "beneficiaries": 185
+    },
+    {
+      "year": 2020,
+      "payments": 22942,
+      "services": 511,
+      "beneficiaries": 189
+    },
+    {
+      "year": 2021,
+      "payments": 24355,
+      "services": 405,
+      "beneficiaries": 183
+    },
+    {
+      "year": 2022,
+      "payments": 24759,
+      "services": 384,
+      "beneficiaries": 149
+    },
+    {
+      "year": 2023,
+      "payments": 26341,
+      "services": 473,
+      "beneficiaries": 140
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 43213,
+      "services": 826,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 38892,
+      "services": 744,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 34571,
+      "services": 661,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 30249,
+      "services": 578,
+      "markup_ratio": 1.58
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 25928,
+      "services": 496,
+      "markup_ratio": 1.48
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 21607,
+      "services": 413,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 17285,
+      "services": 331,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 12964,
+      "services": 248,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 8643,
+      "services": 165,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4321,
+      "services": 83,
+      "markup_ratio": 1.7
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.882,
+    "ml_v2_rank": 329,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

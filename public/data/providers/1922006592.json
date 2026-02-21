@@ -1,0 +1,157 @@
+{
+  "npi": "1922006592",
+  "last_name": "Siddiqui",
+  "first_name": "Anwarul",
+  "credentials": "MD",
+  "specialty": "Neurology",
+  "entity_type": "I",
+  "city": "Wichita",
+  "state": "KS",
+  "overall": {
+    "total_payments": 80136,
+    "total_services": 1327,
+    "total_beneficiaries": 484,
+    "avg_markup_ratio": 2.12
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 4089,
+      "services": 124,
+      "beneficiaries": 46
+    },
+    {
+      "year": 2015,
+      "payments": 4722,
+      "services": 115,
+      "beneficiaries": 57
+    },
+    {
+      "year": 2016,
+      "payments": 5310,
+      "services": 110,
+      "beneficiaries": 47
+    },
+    {
+      "year": 2017,
+      "payments": 5773,
+      "services": 153,
+      "beneficiaries": 54
+    },
+    {
+      "year": 2018,
+      "payments": 6365,
+      "services": 137,
+      "beneficiaries": 44
+    },
+    {
+      "year": 2019,
+      "payments": 7098,
+      "services": 148,
+      "beneficiaries": 49
+    },
+    {
+      "year": 2020,
+      "payments": 7687,
+      "services": 123,
+      "beneficiaries": 42
+    },
+    {
+      "year": 2021,
+      "payments": 8331,
+      "services": 138,
+      "beneficiaries": 43
+    },
+    {
+      "year": 2022,
+      "payments": 8762,
+      "services": 151,
+      "beneficiaries": 58
+    },
+    {
+      "year": 2023,
+      "payments": 9082,
+      "services": 111,
+      "beneficiaries": 47
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 14570,
+      "services": 241,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 13113,
+      "services": 217,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 11656,
+      "services": 193,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 10199,
+      "services": 169,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 8742,
+      "services": 145,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 7285,
+      "services": 121,
+      "markup_ratio": 2.15
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 5828,
+      "services": 97,
+      "markup_ratio": 2.43
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 4371,
+      "services": 72,
+      "markup_ratio": 2.31
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 2914,
+      "services": 48,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 1457,
+      "services": 24,
+      "markup_ratio": 2.11
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9028,
+    "ml_v2_rank": 160,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

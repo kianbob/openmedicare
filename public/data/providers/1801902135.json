@@ -1,0 +1,157 @@
+{
+  "npi": "1801902135",
+  "last_name": "Rankin",
+  "first_name": "Wendell",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "St. Louis",
+  "state": "MO",
+  "overall": {
+    "total_payments": 196306,
+    "total_services": 4374,
+    "total_beneficiaries": 1764,
+    "avg_markup_ratio": 2.12
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 11052,
+      "services": 465,
+      "beneficiaries": 161
+    },
+    {
+      "year": 2015,
+      "payments": 12632,
+      "services": 386,
+      "beneficiaries": 203
+    },
+    {
+      "year": 2016,
+      "payments": 12514,
+      "services": 450,
+      "beneficiaries": 154
+    },
+    {
+      "year": 2017,
+      "payments": 14943,
+      "services": 454,
+      "beneficiaries": 188
+    },
+    {
+      "year": 2018,
+      "payments": 15520,
+      "services": 450,
+      "beneficiaries": 144
+    },
+    {
+      "year": 2019,
+      "payments": 17605,
+      "services": 408,
+      "beneficiaries": 152
+    },
+    {
+      "year": 2020,
+      "payments": 18871,
+      "services": 362,
+      "beneficiaries": 164
+    },
+    {
+      "year": 2021,
+      "payments": 20226,
+      "services": 501,
+      "beneficiaries": 204
+    },
+    {
+      "year": 2022,
+      "payments": 20303,
+      "services": 389,
+      "beneficiaries": 194
+    },
+    {
+      "year": 2023,
+      "payments": 22062,
+      "services": 359,
+      "beneficiaries": 192
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 35692,
+      "services": 795,
+      "markup_ratio": 1.86
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 32123,
+      "services": 716,
+      "markup_ratio": 2.41
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 28554,
+      "services": 636,
+      "markup_ratio": 2.47
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 24984,
+      "services": 557,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 21415,
+      "services": 477,
+      "markup_ratio": 2.43
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 17846,
+      "services": 398,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 14277,
+      "services": 318,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 10708,
+      "services": 239,
+      "markup_ratio": 2.47
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 7138,
+      "services": 159,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3569,
+      "services": 80,
+      "markup_ratio": 1.96
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8924,
+    "ml_v2_rank": 219,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

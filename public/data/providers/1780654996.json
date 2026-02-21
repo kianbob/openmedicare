@@ -1,0 +1,157 @@
+{
+  "npi": "1780654996",
+  "last_name": "Al-Samkari",
+  "first_name": "Osama",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Columbus",
+  "state": "OH",
+  "overall": {
+    "total_payments": 368352,
+    "total_services": 7420,
+    "total_beneficiaries": 3070,
+    "avg_markup_ratio": 2.13
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 21208,
+      "services": 620,
+      "beneficiaries": 303
+    },
+    {
+      "year": 2015,
+      "payments": 23654,
+      "services": 768,
+      "beneficiaries": 312
+    },
+    {
+      "year": 2016,
+      "payments": 24154,
+      "services": 694,
+      "beneficiaries": 307
+    },
+    {
+      "year": 2017,
+      "payments": 26616,
+      "services": 771,
+      "beneficiaries": 288
+    },
+    {
+      "year": 2018,
+      "payments": 30436,
+      "services": 735,
+      "beneficiaries": 288
+    },
+    {
+      "year": 2019,
+      "payments": 32710,
+      "services": 763,
+      "beneficiaries": 314
+    },
+    {
+      "year": 2020,
+      "payments": 33403,
+      "services": 753,
+      "beneficiaries": 363
+    },
+    {
+      "year": 2021,
+      "payments": 38100,
+      "services": 621,
+      "beneficiaries": 270
+    },
+    {
+      "year": 2022,
+      "payments": 40437,
+      "services": 812,
+      "beneficiaries": 300
+    },
+    {
+      "year": 2023,
+      "payments": 42215,
+      "services": 839,
+      "beneficiaries": 306
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 66973,
+      "services": 1349,
+      "markup_ratio": 2.47
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 60276,
+      "services": 1214,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 53578,
+      "services": 1079,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 46881,
+      "services": 944,
+      "markup_ratio": 1.72
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 40184,
+      "services": 809,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 33487,
+      "services": 675,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 26789,
+      "services": 540,
+      "markup_ratio": 2.45
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 20092,
+      "services": 405,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 13395,
+      "services": 270,
+      "markup_ratio": 2.45
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6697,
+      "services": 135,
+      "markup_ratio": 2.49
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9346,
+    "ml_v2_rank": 48,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

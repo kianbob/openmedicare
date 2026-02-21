@@ -1,0 +1,157 @@
+{
+  "npi": "1679542492",
+  "last_name": "Ringel",
+  "first_name": "Robert",
+  "credentials": "MD",
+  "specialty": "Neurology",
+  "entity_type": "I",
+  "city": "Charleston",
+  "state": "SC",
+  "overall": {
+    "total_payments": 1443724,
+    "total_services": 24376,
+    "total_beneficiaries": 11136,
+    "avg_markup_ratio": 1.88
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 83742,
+      "services": 2537,
+      "beneficiaries": 1042
+    },
+    {
+      "year": 2015,
+      "payments": 91455,
+      "services": 2114,
+      "beneficiaries": 958
+    },
+    {
+      "year": 2016,
+      "payments": 103464,
+      "services": 2815,
+      "beneficiaries": 1143
+    },
+    {
+      "year": 2017,
+      "payments": 111458,
+      "services": 2818,
+      "beneficiaries": 1024
+    },
+    {
+      "year": 2018,
+      "payments": 114904,
+      "services": 2589,
+      "beneficiaries": 986
+    },
+    {
+      "year": 2019,
+      "payments": 122990,
+      "services": 2860,
+      "beneficiaries": 1206
+    },
+    {
+      "year": 2020,
+      "payments": 140570,
+      "services": 2238,
+      "beneficiaries": 1307
+    },
+    {
+      "year": 2021,
+      "payments": 147519,
+      "services": 2389,
+      "beneficiaries": 988
+    },
+    {
+      "year": 2022,
+      "payments": 160775,
+      "services": 2900,
+      "beneficiaries": 956
+    },
+    {
+      "year": 2023,
+      "payments": 168782,
+      "services": 2325,
+      "beneficiaries": 995
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 262495,
+      "services": 4432,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 236246,
+      "services": 3989,
+      "markup_ratio": 2.11
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 209996,
+      "services": 3546,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 183747,
+      "services": 3102,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 157497,
+      "services": 2659,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 131248,
+      "services": 2216,
+      "markup_ratio": 1.9
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 104998,
+      "services": 1773,
+      "markup_ratio": 1.59
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 78749,
+      "services": 1330,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 52499,
+      "services": 886,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 26250,
+      "services": 443,
+      "markup_ratio": 2.1
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9028,
+    "ml_v2_rank": 188,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

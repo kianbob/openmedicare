@@ -1,0 +1,157 @@
+{
+  "npi": "1265676688",
+  "last_name": "Pisaturo",
+  "first_name": "Arrtie",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "entity_type": "I",
+  "city": "Birmingham",
+  "state": "AL",
+  "overall": {
+    "total_payments": 1036013,
+    "total_services": 21830,
+    "total_beneficiaries": 9062,
+    "avg_markup_ratio": 2.29
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 59128,
+      "services": 1988,
+      "beneficiaries": 927
+    },
+    {
+      "year": 2015,
+      "payments": 62937,
+      "services": 2040,
+      "beneficiaries": 984
+    },
+    {
+      "year": 2016,
+      "payments": 69198,
+      "services": 2367,
+      "beneficiaries": 837
+    },
+    {
+      "year": 2017,
+      "payments": 74616,
+      "services": 2108,
+      "beneficiaries": 1001
+    },
+    {
+      "year": 2018,
+      "payments": 83076,
+      "services": 2258,
+      "beneficiaries": 732
+    },
+    {
+      "year": 2019,
+      "payments": 89124,
+      "services": 1864,
+      "beneficiaries": 910
+    },
+    {
+      "year": 2020,
+      "payments": 101114,
+      "services": 1969,
+      "beneficiaries": 914
+    },
+    {
+      "year": 2021,
+      "payments": 104371,
+      "services": 2211,
+      "beneficiaries": 1031
+    },
+    {
+      "year": 2022,
+      "payments": 111965,
+      "services": 2576,
+      "beneficiaries": 915
+    },
+    {
+      "year": 2023,
+      "payments": 115930,
+      "services": 2562,
+      "beneficiaries": 832
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 188366,
+      "services": 3969,
+      "markup_ratio": 2.55
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 169529,
+      "services": 3572,
+      "markup_ratio": 2.41
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 150693,
+      "services": 3175,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 131856,
+      "services": 2778,
+      "markup_ratio": 1.9
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 113020,
+      "services": 2381,
+      "markup_ratio": 2.51
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 94183,
+      "services": 1985,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 75346,
+      "services": 1588,
+      "markup_ratio": 2.5
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 56510,
+      "services": 1191,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 37673,
+      "services": 794,
+      "markup_ratio": 2.73
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 18837,
+      "services": 397,
+      "markup_ratio": 2.53
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9515,
+    "ml_v2_rank": 11,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

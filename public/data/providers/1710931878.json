@@ -1,0 +1,157 @@
+{
+  "npi": "1710931878",
+  "last_name": "Cesar",
+  "first_name": "James",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "St. Louis",
+  "state": "MO",
+  "overall": {
+    "total_payments": 261824,
+    "total_services": 6460,
+    "total_beneficiaries": 2211,
+    "avg_markup_ratio": 2.15
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 13964,
+      "services": 598,
+      "beneficiaries": 243
+    },
+    {
+      "year": 2015,
+      "payments": 15029,
+      "services": 742,
+      "beneficiaries": 224
+    },
+    {
+      "year": 2016,
+      "payments": 17890,
+      "services": 604,
+      "beneficiaries": 193
+    },
+    {
+      "year": 2017,
+      "payments": 18879,
+      "services": 527,
+      "beneficiaries": 205
+    },
+    {
+      "year": 2018,
+      "payments": 22173,
+      "services": 635,
+      "beneficiaries": 199
+    },
+    {
+      "year": 2019,
+      "payments": 22316,
+      "services": 679,
+      "beneficiaries": 243
+    },
+    {
+      "year": 2020,
+      "payments": 24282,
+      "services": 614,
+      "beneficiaries": 230
+    },
+    {
+      "year": 2021,
+      "payments": 27386,
+      "services": 562,
+      "beneficiaries": 254
+    },
+    {
+      "year": 2022,
+      "payments": 27386,
+      "services": 606,
+      "beneficiaries": 182
+    },
+    {
+      "year": 2023,
+      "payments": 30571,
+      "services": 645,
+      "beneficiaries": 209
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 47604,
+      "services": 1175,
+      "markup_ratio": 2.43
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 42844,
+      "services": 1057,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 38083,
+      "services": 940,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 33323,
+      "services": 822,
+      "markup_ratio": 2.42
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 28563,
+      "services": 705,
+      "markup_ratio": 2.27
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 23802,
+      "services": 587,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 19042,
+      "services": 470,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 14281,
+      "services": 352,
+      "markup_ratio": 2.16
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 9521,
+      "services": 235,
+      "markup_ratio": 1.89
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4760,
+      "services": 117,
+      "markup_ratio": 1.84
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9181,
+    "ml_v2_rank": 67,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

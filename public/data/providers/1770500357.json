@@ -1,0 +1,157 @@
+{
+  "npi": "1770500357",
+  "last_name": "Daley",
+  "first_name": "Kimberly",
+  "credentials": "MD",
+  "specialty": "Podiatry",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 1403160,
+    "total_services": 39253,
+    "total_beneficiaries": 14947,
+    "avg_markup_ratio": 1.62
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 76406,
+      "services": 4505,
+      "beneficiaries": 1354
+    },
+    {
+      "year": 2015,
+      "payments": 80430,
+      "services": 4283,
+      "beneficiaries": 1208
+    },
+    {
+      "year": 2016,
+      "payments": 93665,
+      "services": 3518,
+      "beneficiaries": 1355
+    },
+    {
+      "year": 2017,
+      "payments": 100173,
+      "services": 4535,
+      "beneficiaries": 1437
+    },
+    {
+      "year": 2018,
+      "payments": 117677,
+      "services": 3943,
+      "beneficiaries": 1708
+    },
+    {
+      "year": 2019,
+      "payments": 123204,
+      "services": 3803,
+      "beneficiaries": 1276
+    },
+    {
+      "year": 2020,
+      "payments": 133179,
+      "services": 3555,
+      "beneficiaries": 1639
+    },
+    {
+      "year": 2021,
+      "payments": 146137,
+      "services": 3329,
+      "beneficiaries": 1679
+    },
+    {
+      "year": 2022,
+      "payments": 155596,
+      "services": 3192,
+      "beneficiaries": 1761
+    },
+    {
+      "year": 2023,
+      "payments": 161310,
+      "services": 4345,
+      "beneficiaries": 1728
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 255120,
+      "services": 7137,
+      "markup_ratio": 1.43
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 229608,
+      "services": 6423,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 204096,
+      "services": 5710,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 178584,
+      "services": 4996,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 153072,
+      "services": 4282,
+      "markup_ratio": 1.57
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 127560,
+      "services": 3568,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 102048,
+      "services": 2855,
+      "markup_ratio": 1.42
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 76536,
+      "services": 2141,
+      "markup_ratio": 1.64
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 51024,
+      "services": 1427,
+      "markup_ratio": 1.36
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 25512,
+      "services": 714,
+      "markup_ratio": 1.63
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8859,
+    "ml_v2_rank": 316,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

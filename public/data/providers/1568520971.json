@@ -1,0 +1,157 @@
+{
+  "npi": "1568520971",
+  "last_name": "Mane",
+  "first_name": "Nelson",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 1465601,
+    "total_services": 19432,
+    "total_beneficiaries": 10812,
+    "avg_markup_ratio": 2.47
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 79549,
+      "services": 2180,
+      "beneficiaries": 914
+    },
+    {
+      "year": 2015,
+      "payments": 86874,
+      "services": 2102,
+      "beneficiaries": 1113
+    },
+    {
+      "year": 2016,
+      "payments": 93171,
+      "services": 2170,
+      "beneficiaries": 1055
+    },
+    {
+      "year": 2017,
+      "payments": 104716,
+      "services": 2159,
+      "beneficiaries": 1009
+    },
+    {
+      "year": 2018,
+      "payments": 117431,
+      "services": 2055,
+      "beneficiaries": 936
+    },
+    {
+      "year": 2019,
+      "payments": 127455,
+      "services": 2232,
+      "beneficiaries": 1082
+    },
+    {
+      "year": 2020,
+      "payments": 135416,
+      "services": 2147,
+      "beneficiaries": 1019
+    },
+    {
+      "year": 2021,
+      "payments": 144360,
+      "services": 1959,
+      "beneficiaries": 904
+    },
+    {
+      "year": 2022,
+      "payments": 152490,
+      "services": 1715,
+      "beneficiaries": 1026
+    },
+    {
+      "year": 2023,
+      "payments": 161469,
+      "services": 1618,
+      "beneficiaries": 989
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 266473,
+      "services": 3533,
+      "markup_ratio": 2.91
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 239826,
+      "services": 3180,
+      "markup_ratio": 2.76
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 213178,
+      "services": 2826,
+      "markup_ratio": 2.87
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 186531,
+      "services": 2473,
+      "markup_ratio": 2.71
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 159884,
+      "services": 2120,
+      "markup_ratio": 2.64
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 133236,
+      "services": 1767,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 106589,
+      "services": 1413,
+      "markup_ratio": 2.75
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 79942,
+      "services": 1060,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 53295,
+      "services": 707,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 26647,
+      "services": 353,
+      "markup_ratio": 2.02
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9048,
+    "ml_v2_rank": 213,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

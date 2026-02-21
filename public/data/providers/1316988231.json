@@ -1,0 +1,157 @@
+{
+  "npi": "1316988231",
+  "last_name": "Arana",
+  "first_name": "Enrique",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 212240,
+    "total_services": 3995,
+    "total_beneficiaries": 1482,
+    "avg_markup_ratio": 2.3
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 11212,
+      "services": 411,
+      "beneficiaries": 138
+    },
+    {
+      "year": 2015,
+      "payments": 12298,
+      "services": 383,
+      "beneficiaries": 148
+    },
+    {
+      "year": 2016,
+      "payments": 14463,
+      "services": 374,
+      "beneficiaries": 172
+    },
+    {
+      "year": 2017,
+      "payments": 15024,
+      "services": 386,
+      "beneficiaries": 130
+    },
+    {
+      "year": 2018,
+      "payments": 16932,
+      "services": 368,
+      "beneficiaries": 127
+    },
+    {
+      "year": 2019,
+      "payments": 18601,
+      "services": 408,
+      "beneficiaries": 170
+    },
+    {
+      "year": 2020,
+      "payments": 19748,
+      "services": 337,
+      "beneficiaries": 135
+    },
+    {
+      "year": 2021,
+      "payments": 20673,
+      "services": 456,
+      "beneficiaries": 170
+    },
+    {
+      "year": 2022,
+      "payments": 22854,
+      "services": 405,
+      "beneficiaries": 137
+    },
+    {
+      "year": 2023,
+      "payments": 25088,
+      "services": 420,
+      "beneficiaries": 149
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 38589,
+      "services": 726,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 34730,
+      "services": 654,
+      "markup_ratio": 2.22
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 30871,
+      "services": 581,
+      "markup_ratio": 2.7
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 27012,
+      "services": 508,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 23153,
+      "services": 436,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 19295,
+      "services": 363,
+      "markup_ratio": 2.56
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 15436,
+      "services": 291,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 11577,
+      "services": 218,
+      "markup_ratio": 1.91
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 7718,
+      "services": 145,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3859,
+      "services": 73,
+      "markup_ratio": 2.19
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8769,
+    "ml_v2_rank": 426,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

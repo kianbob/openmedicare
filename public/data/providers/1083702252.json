@@ -1,0 +1,157 @@
+{
+  "npi": "1083702252",
+  "last_name": "Britton",
+  "first_name": "Matthew",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Atlanta",
+  "state": "GA",
+  "overall": {
+    "total_payments": 354323,
+    "total_services": 7196,
+    "total_beneficiaries": 3058,
+    "avg_markup_ratio": 2.93
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 18645,
+      "services": 713,
+      "beneficiaries": 291
+    },
+    {
+      "year": 2015,
+      "payments": 22133,
+      "services": 702,
+      "beneficiaries": 307
+    },
+    {
+      "year": 2016,
+      "payments": 23253,
+      "services": 654,
+      "beneficiaries": 306
+    },
+    {
+      "year": 2017,
+      "payments": 26421,
+      "services": 798,
+      "beneficiaries": 253
+    },
+    {
+      "year": 2018,
+      "payments": 29941,
+      "services": 766,
+      "beneficiaries": 299
+    },
+    {
+      "year": 2019,
+      "payments": 31773,
+      "services": 840,
+      "beneficiaries": 261
+    },
+    {
+      "year": 2020,
+      "payments": 34449,
+      "services": 721,
+      "beneficiaries": 358
+    },
+    {
+      "year": 2021,
+      "payments": 35893,
+      "services": 806,
+      "beneficiaries": 313
+    },
+    {
+      "year": 2022,
+      "payments": 37946,
+      "services": 793,
+      "beneficiaries": 272
+    },
+    {
+      "year": 2023,
+      "payments": 39770,
+      "services": 760,
+      "beneficiaries": 357
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 64422,
+      "services": 1308,
+      "markup_ratio": 2.71
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 57980,
+      "services": 1178,
+      "markup_ratio": 3.17
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 51538,
+      "services": 1047,
+      "markup_ratio": 2.96
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 45096,
+      "services": 916,
+      "markup_ratio": 2.99
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 38653,
+      "services": 785,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 32211,
+      "services": 654,
+      "markup_ratio": 3.28
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 25769,
+      "services": 523,
+      "markup_ratio": 2.84
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 19327,
+      "services": 393,
+      "markup_ratio": 2.54
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 12884,
+      "services": 262,
+      "markup_ratio": 3.45
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6442,
+      "services": 131,
+      "markup_ratio": 2.64
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.858,
+    "ml_v2_rank": 491,
+    "risk_factors": [
+      "High markup ratio"
+    ]
+  }
+}

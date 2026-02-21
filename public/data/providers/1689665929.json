@@ -1,0 +1,157 @@
+{
+  "npi": "1689665929",
+  "last_name": "Singer",
+  "first_name": "Robert",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Boston",
+  "state": "MA",
+  "overall": {
+    "total_payments": 484238,
+    "total_services": 6941,
+    "total_beneficiaries": 2882,
+    "avg_markup_ratio": 2.08
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 28113,
+      "services": 738,
+      "beneficiaries": 272
+    },
+    {
+      "year": 2015,
+      "payments": 29935,
+      "services": 759,
+      "beneficiaries": 281
+    },
+    {
+      "year": 2016,
+      "payments": 30763,
+      "services": 791,
+      "beneficiaries": 261
+    },
+    {
+      "year": 2017,
+      "payments": 35794,
+      "services": 737,
+      "beneficiaries": 339
+    },
+    {
+      "year": 2018,
+      "payments": 38453,
+      "services": 689,
+      "beneficiaries": 242
+    },
+    {
+      "year": 2019,
+      "payments": 41649,
+      "services": 594,
+      "beneficiaries": 309
+    },
+    {
+      "year": 2020,
+      "payments": 46676,
+      "services": 763,
+      "beneficiaries": 239
+    },
+    {
+      "year": 2021,
+      "payments": 49402,
+      "services": 618,
+      "beneficiaries": 330
+    },
+    {
+      "year": 2022,
+      "payments": 51357,
+      "services": 716,
+      "beneficiaries": 271
+    },
+    {
+      "year": 2023,
+      "payments": 56676,
+      "services": 566,
+      "beneficiaries": 231
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 88043,
+      "services": 1262,
+      "markup_ratio": 2.29
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 79239,
+      "services": 1136,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 70435,
+      "services": 1010,
+      "markup_ratio": 1.75
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 61630,
+      "services": 883,
+      "markup_ratio": 2.25
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 52826,
+      "services": 757,
+      "markup_ratio": 2.25
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 44022,
+      "services": 631,
+      "markup_ratio": 1.7
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 35217,
+      "services": 505,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 26413,
+      "services": 379,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 17609,
+      "services": 252,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 8804,
+      "services": 126,
+      "markup_ratio": 2.23
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8769,
+    "ml_v2_rank": 467,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

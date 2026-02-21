@@ -1,0 +1,157 @@
+{
+  "npi": "1215963806",
+  "last_name": "Soriano",
+  "first_name": "Luis",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Charleston",
+  "state": "WV",
+  "overall": {
+    "total_payments": 323886,
+    "total_services": 7113,
+    "total_beneficiaries": 2848,
+    "avg_markup_ratio": 1.57
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 18713,
+      "services": 828,
+      "beneficiaries": 289
+    },
+    {
+      "year": 2015,
+      "payments": 19084,
+      "services": 633,
+      "beneficiaries": 289
+    },
+    {
+      "year": 2016,
+      "payments": 21905,
+      "services": 660,
+      "beneficiaries": 278
+    },
+    {
+      "year": 2017,
+      "payments": 24169,
+      "services": 679,
+      "beneficiaries": 342
+    },
+    {
+      "year": 2018,
+      "payments": 27041,
+      "services": 601,
+      "beneficiaries": 337
+    },
+    {
+      "year": 2019,
+      "payments": 28717,
+      "services": 639,
+      "beneficiaries": 306
+    },
+    {
+      "year": 2020,
+      "payments": 29527,
+      "services": 782,
+      "beneficiaries": 297
+    },
+    {
+      "year": 2021,
+      "payments": 33208,
+      "services": 829,
+      "beneficiaries": 296
+    },
+    {
+      "year": 2022,
+      "payments": 34598,
+      "services": 690,
+      "beneficiaries": 261
+    },
+    {
+      "year": 2023,
+      "payments": 36267,
+      "services": 693,
+      "beneficiaries": 337
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 58888,
+      "services": 1293,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 53000,
+      "services": 1164,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 47111,
+      "services": 1035,
+      "markup_ratio": 1.58
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 41222,
+      "services": 905,
+      "markup_ratio": 1.81
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 35333,
+      "services": 776,
+      "markup_ratio": 1.48
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 29444,
+      "services": 647,
+      "markup_ratio": 1.48
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 23555,
+      "services": 517,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 17667,
+      "services": 388,
+      "markup_ratio": 1.56
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 11778,
+      "services": 259,
+      "markup_ratio": 1.68
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 5889,
+      "services": 129,
+      "markup_ratio": 1.51
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8884,
+    "ml_v2_rank": 355,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

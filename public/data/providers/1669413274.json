@@ -1,0 +1,157 @@
+{
+  "npi": "1669413274",
+  "last_name": "Cary",
+  "first_name": "Guy",
+  "credentials": "MD",
+  "specialty": "Neurology",
+  "entity_type": "I",
+  "city": "Phoenix",
+  "state": "AZ",
+  "overall": {
+    "total_payments": 187921,
+    "total_services": 3223,
+    "total_beneficiaries": 1477,
+    "avg_markup_ratio": 2.12
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 9819,
+      "services": 309,
+      "beneficiaries": 122
+    },
+    {
+      "year": 2015,
+      "payments": 11753,
+      "services": 343,
+      "beneficiaries": 163
+    },
+    {
+      "year": 2016,
+      "payments": 12284,
+      "services": 360,
+      "beneficiaries": 174
+    },
+    {
+      "year": 2017,
+      "payments": 14599,
+      "services": 279,
+      "beneficiaries": 152
+    },
+    {
+      "year": 2018,
+      "payments": 14790,
+      "services": 321,
+      "beneficiaries": 123
+    },
+    {
+      "year": 2019,
+      "payments": 17196,
+      "services": 356,
+      "beneficiaries": 170
+    },
+    {
+      "year": 2020,
+      "payments": 18187,
+      "services": 374,
+      "beneficiaries": 165
+    },
+    {
+      "year": 2021,
+      "payments": 19334,
+      "services": 348,
+      "beneficiaries": 168
+    },
+    {
+      "year": 2022,
+      "payments": 20874,
+      "services": 319,
+      "beneficiaries": 135
+    },
+    {
+      "year": 2023,
+      "payments": 21504,
+      "services": 316,
+      "beneficiaries": 140
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 34167,
+      "services": 586,
+      "markup_ratio": 2.38
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 30751,
+      "services": 527,
+      "markup_ratio": 2.29
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 27334,
+      "services": 469,
+      "markup_ratio": 2.4
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 23917,
+      "services": 410,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 20500,
+      "services": 352,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 17084,
+      "services": 293,
+      "markup_ratio": 1.72
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 13667,
+      "services": 234,
+      "markup_ratio": 2.09
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 10250,
+      "services": 176,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 6833,
+      "services": 117,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3417,
+      "services": 59,
+      "markup_ratio": 1.92
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9088,
+    "ml_v2_rank": 202,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

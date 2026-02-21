@@ -1,0 +1,157 @@
+{
+  "npi": "1003993528",
+  "last_name": "Tweel",
+  "first_name": "Charles",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Columbus",
+  "state": "OH",
+  "overall": {
+    "total_payments": 190686,
+    "total_services": 3258,
+    "total_beneficiaries": 1373,
+    "avg_markup_ratio": 2.05
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 10380,
+      "services": 291,
+      "beneficiaries": 130
+    },
+    {
+      "year": 2015,
+      "payments": 11284,
+      "services": 363,
+      "beneficiaries": 153
+    },
+    {
+      "year": 2016,
+      "payments": 12547,
+      "services": 269,
+      "beneficiaries": 145
+    },
+    {
+      "year": 2017,
+      "payments": 14099,
+      "services": 291,
+      "beneficiaries": 114
+    },
+    {
+      "year": 2018,
+      "payments": 15097,
+      "services": 267,
+      "beneficiaries": 163
+    },
+    {
+      "year": 2019,
+      "payments": 17291,
+      "services": 381,
+      "beneficiaries": 117
+    },
+    {
+      "year": 2020,
+      "payments": 17707,
+      "services": 352,
+      "beneficiaries": 136
+    },
+    {
+      "year": 2021,
+      "payments": 19545,
+      "services": 297,
+      "beneficiaries": 118
+    },
+    {
+      "year": 2022,
+      "payments": 20725,
+      "services": 347,
+      "beneficiaries": 110
+    },
+    {
+      "year": 2023,
+      "payments": 22351,
+      "services": 312,
+      "beneficiaries": 124
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 34670,
+      "services": 592,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 31203,
+      "services": 533,
+      "markup_ratio": 2.09
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 27736,
+      "services": 474,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 24269,
+      "services": 415,
+      "markup_ratio": 2.25
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 20802,
+      "services": 355,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 17335,
+      "services": 296,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 13868,
+      "services": 237,
+      "markup_ratio": 2.3
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 10401,
+      "services": 178,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 6934,
+      "services": 118,
+      "markup_ratio": 1.7
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3467,
+      "services": 59,
+      "markup_ratio": 2.4
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9063,
+    "ml_v2_rank": 182,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1508977612",
+  "last_name": "Seth",
+  "first_name": "Lalit",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "New York",
+  "state": "NY",
+  "overall": {
+    "total_payments": 228404,
+    "total_services": 4143,
+    "total_beneficiaries": 1877,
+    "avg_markup_ratio": 2.26
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 11529,
+      "services": 448,
+      "beneficiaries": 216
+    },
+    {
+      "year": 2015,
+      "payments": 14255,
+      "services": 400,
+      "beneficiaries": 184
+    },
+    {
+      "year": 2016,
+      "payments": 16059,
+      "services": 372,
+      "beneficiaries": 166
+    },
+    {
+      "year": 2017,
+      "payments": 16039,
+      "services": 445,
+      "beneficiaries": 152
+    },
+    {
+      "year": 2018,
+      "payments": 18603,
+      "services": 354,
+      "beneficiaries": 204
+    },
+    {
+      "year": 2019,
+      "payments": 19045,
+      "services": 414,
+      "beneficiaries": 198
+    },
+    {
+      "year": 2020,
+      "payments": 21904,
+      "services": 390,
+      "beneficiaries": 219
+    },
+    {
+      "year": 2021,
+      "payments": 22497,
+      "services": 339,
+      "beneficiaries": 185
+    },
+    {
+      "year": 2022,
+      "payments": 24713,
+      "services": 349,
+      "beneficiaries": 187
+    },
+    {
+      "year": 2023,
+      "payments": 26652,
+      "services": 412,
+      "beneficiaries": 188
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 41528,
+      "services": 753,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 37375,
+      "services": 678,
+      "markup_ratio": 2.09
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 33222,
+      "services": 603,
+      "markup_ratio": 2.61
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 29070,
+      "services": 527,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 24917,
+      "services": 452,
+      "markup_ratio": 2.65
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 20764,
+      "services": 377,
+      "markup_ratio": 2.67
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 16611,
+      "services": 301,
+      "markup_ratio": 2.51
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 12458,
+      "services": 226,
+      "markup_ratio": 1.9
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 8306,
+      "services": 151,
+      "markup_ratio": 2.62
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4153,
+      "services": 75,
+      "markup_ratio": 2.4
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9108,
+    "ml_v2_rank": 147,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1619934296",
+  "last_name": "Jones",
+  "first_name": "Peter",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Hartford",
+  "state": "CT",
+  "overall": {
+    "total_payments": 1024564,
+    "total_services": 28801,
+    "total_beneficiaries": 10700,
+    "avg_markup_ratio": 2.31
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 56102,
+      "services": 3376,
+      "beneficiaries": 1186
+    },
+    {
+      "year": 2015,
+      "payments": 59743,
+      "services": 3170,
+      "beneficiaries": 1256
+    },
+    {
+      "year": 2016,
+      "payments": 66988,
+      "services": 3032,
+      "beneficiaries": 888
+    },
+    {
+      "year": 2017,
+      "payments": 72416,
+      "services": 2317,
+      "beneficiaries": 954
+    },
+    {
+      "year": 2018,
+      "payments": 78881,
+      "services": 3057,
+      "beneficiaries": 883
+    },
+    {
+      "year": 2019,
+      "payments": 91835,
+      "services": 2529,
+      "beneficiaries": 968
+    },
+    {
+      "year": 2020,
+      "payments": 99543,
+      "services": 2724,
+      "beneficiaries": 991
+    },
+    {
+      "year": 2021,
+      "payments": 102248,
+      "services": 3068,
+      "beneficiaries": 922
+    },
+    {
+      "year": 2022,
+      "payments": 106485,
+      "services": 2498,
+      "beneficiaries": 939
+    },
+    {
+      "year": 2023,
+      "payments": 117591,
+      "services": 3397,
+      "beneficiaries": 922
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 186284,
+      "services": 5237,
+      "markup_ratio": 2.69
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 167656,
+      "services": 4713,
+      "markup_ratio": 2.48
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 149028,
+      "services": 4189,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 130399,
+      "services": 3666,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 111771,
+      "services": 3142,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 93142,
+      "services": 2618,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 74514,
+      "services": 2095,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 55885,
+      "services": 1571,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 37257,
+      "services": 1047,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 18628,
+      "services": 524,
+      "markup_ratio": 2.03
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.952,
+    "ml_v2_rank": 21,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1801933023",
+  "last_name": "Paulin",
+  "first_name": "Cesar",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 150786,
+    "total_services": 3135,
+    "total_beneficiaries": 926,
+    "avg_markup_ratio": 1.77
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 8449,
+      "services": 371,
+      "beneficiaries": 86
+    },
+    {
+      "year": 2015,
+      "payments": 8684,
+      "services": 334,
+      "beneficiaries": 84
+    },
+    {
+      "year": 2016,
+      "payments": 10350,
+      "services": 257,
+      "beneficiaries": 109
+    },
+    {
+      "year": 2017,
+      "payments": 11535,
+      "services": 276,
+      "beneficiaries": 93
+    },
+    {
+      "year": 2018,
+      "payments": 11855,
+      "services": 343,
+      "beneficiaries": 82
+    },
+    {
+      "year": 2019,
+      "payments": 12695,
+      "services": 358,
+      "beneficiaries": 102
+    },
+    {
+      "year": 2020,
+      "payments": 14159,
+      "services": 304,
+      "beneficiaries": 90
+    },
+    {
+      "year": 2021,
+      "payments": 14851,
+      "services": 367,
+      "beneficiaries": 85
+    },
+    {
+      "year": 2022,
+      "payments": 16015,
+      "services": 259,
+      "beneficiaries": 92
+    },
+    {
+      "year": 2023,
+      "payments": 17740,
+      "services": 254,
+      "beneficiaries": 81
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 27416,
+      "services": 570,
+      "markup_ratio": 1.91
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 24674,
+      "services": 513,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 21932,
+      "services": 456,
+      "markup_ratio": 1.73
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 19191,
+      "services": 399,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 16449,
+      "services": 342,
+      "markup_ratio": 1.53
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 13708,
+      "services": 285,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 10966,
+      "services": 228,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 8225,
+      "services": 171,
+      "markup_ratio": 2.09
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 5483,
+      "services": 114,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 2742,
+      "services": 57,
+      "markup_ratio": 1.9
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8964,
+    "ml_v2_rank": 282,
+    "risk_factors": [
+      "Volume-driven pattern"
+    ]
+  }
+}

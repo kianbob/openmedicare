@@ -1,0 +1,158 @@
+{
+  "npi": "1346262185",
+  "last_name": "Hsu",
+  "first_name": "Juichih",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Baltimore",
+  "state": "MD",
+  "overall": {
+    "total_payments": 1741831,
+    "total_services": 54733,
+    "total_beneficiaries": 18381,
+    "avg_markup_ratio": 2.87
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 101577,
+      "services": 5093,
+      "beneficiaries": 1682
+    },
+    {
+      "year": 2015,
+      "payments": 111653,
+      "services": 6352,
+      "beneficiaries": 1906
+    },
+    {
+      "year": 2016,
+      "payments": 113801,
+      "services": 4595,
+      "beneficiaries": 1693
+    },
+    {
+      "year": 2017,
+      "payments": 135947,
+      "services": 4902,
+      "beneficiaries": 1809
+    },
+    {
+      "year": 2018,
+      "payments": 136327,
+      "services": 4960,
+      "beneficiaries": 1996
+    },
+    {
+      "year": 2019,
+      "payments": 155223,
+      "services": 4937,
+      "beneficiaries": 1972
+    },
+    {
+      "year": 2020,
+      "payments": 159325,
+      "services": 5716,
+      "beneficiaries": 1776
+    },
+    {
+      "year": 2021,
+      "payments": 179170,
+      "services": 4935,
+      "beneficiaries": 2042
+    },
+    {
+      "year": 2022,
+      "payments": 183538,
+      "services": 6229,
+      "beneficiaries": 1845
+    },
+    {
+      "year": 2023,
+      "payments": 198315,
+      "services": 5188,
+      "beneficiaries": 2204
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 316697,
+      "services": 9951,
+      "markup_ratio": 3.31
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 285027,
+      "services": 8956,
+      "markup_ratio": 3.21
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 253357,
+      "services": 7961,
+      "markup_ratio": 2.85
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 221688,
+      "services": 6966,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 190018,
+      "services": 5971,
+      "markup_ratio": 3.17
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 158348,
+      "services": 4976,
+      "markup_ratio": 2.67
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 126679,
+      "services": 3981,
+      "markup_ratio": 2.85
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 95009,
+      "services": 2985,
+      "markup_ratio": 2.41
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 63339,
+      "services": 1990,
+      "markup_ratio": 2.72
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 31670,
+      "services": 995,
+      "markup_ratio": 2.32
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8647,
+    "ml_v2_rank": 403,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing"
+    ]
+  }
+}

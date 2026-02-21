@@ -1,0 +1,157 @@
+{
+  "npi": "1164439303",
+  "last_name": "Thomas",
+  "first_name": "Fred",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Houston",
+  "state": "TX",
+  "overall": {
+    "total_payments": 332119,
+    "total_services": 6805,
+    "total_beneficiaries": 3208,
+    "avg_markup_ratio": 2.1
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 19027,
+      "services": 549,
+      "beneficiaries": 306
+    },
+    {
+      "year": 2015,
+      "payments": 19876,
+      "services": 651,
+      "beneficiaries": 306
+    },
+    {
+      "year": 2016,
+      "payments": 22097,
+      "services": 705,
+      "beneficiaries": 317
+    },
+    {
+      "year": 2017,
+      "payments": 23439,
+      "services": 551,
+      "beneficiaries": 294
+    },
+    {
+      "year": 2018,
+      "payments": 26887,
+      "services": 624,
+      "beneficiaries": 327
+    },
+    {
+      "year": 2019,
+      "payments": 27717,
+      "services": 716,
+      "beneficiaries": 301
+    },
+    {
+      "year": 2020,
+      "payments": 30673,
+      "services": 623,
+      "beneficiaries": 368
+    },
+    {
+      "year": 2021,
+      "payments": 32620,
+      "services": 627,
+      "beneficiaries": 327
+    },
+    {
+      "year": 2022,
+      "payments": 36122,
+      "services": 618,
+      "beneficiaries": 303
+    },
+    {
+      "year": 2023,
+      "payments": 38389,
+      "services": 694,
+      "beneficiaries": 379
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 60385,
+      "services": 1237,
+      "markup_ratio": 2.38
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 54347,
+      "services": 1114,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 48308,
+      "services": 990,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 42270,
+      "services": 866,
+      "markup_ratio": 2.27
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 36231,
+      "services": 742,
+      "markup_ratio": 1.68
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 30193,
+      "services": 619,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 24154,
+      "services": 495,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 18116,
+      "services": 371,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 12077,
+      "services": 247,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6039,
+      "services": 124,
+      "markup_ratio": 2.3
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8967,
+    "ml_v2_rank": 296,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

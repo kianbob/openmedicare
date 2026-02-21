@@ -1,0 +1,157 @@
+{
+  "npi": "1518934298",
+  "last_name": "Wun",
+  "first_name": "Kin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Baltimore",
+  "state": "MD",
+  "overall": {
+    "total_payments": 592201,
+    "total_services": 10258,
+    "total_beneficiaries": 4005,
+    "avg_markup_ratio": 1.8
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 34175,
+      "services": 968,
+      "beneficiaries": 360
+    },
+    {
+      "year": 2015,
+      "payments": 36685,
+      "services": 1206,
+      "beneficiaries": 464
+    },
+    {
+      "year": 2016,
+      "payments": 40570,
+      "services": 1214,
+      "beneficiaries": 392
+    },
+    {
+      "year": 2017,
+      "payments": 43784,
+      "services": 952,
+      "beneficiaries": 472
+    },
+    {
+      "year": 2018,
+      "payments": 47616,
+      "services": 1172,
+      "beneficiaries": 467
+    },
+    {
+      "year": 2019,
+      "payments": 53099,
+      "services": 951,
+      "beneficiaries": 442
+    },
+    {
+      "year": 2020,
+      "payments": 54890,
+      "services": 1173,
+      "beneficiaries": 388
+    },
+    {
+      "year": 2021,
+      "payments": 58656,
+      "services": 861,
+      "beneficiaries": 325
+    },
+    {
+      "year": 2022,
+      "payments": 62483,
+      "services": 1188,
+      "beneficiaries": 349
+    },
+    {
+      "year": 2023,
+      "payments": 66283,
+      "services": 999,
+      "beneficiaries": 442
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 107673,
+      "services": 1865,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 96906,
+      "services": 1679,
+      "markup_ratio": 1.81
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 86138,
+      "services": 1492,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 75371,
+      "services": 1306,
+      "markup_ratio": 1.48
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 64604,
+      "services": 1119,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 53836,
+      "services": 933,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 43069,
+      "services": 746,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 32302,
+      "services": 560,
+      "markup_ratio": 1.73
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 21535,
+      "services": 373,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 10767,
+      "services": 187,
+      "markup_ratio": 1.54
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9432,
+    "ml_v2_rank": 22,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

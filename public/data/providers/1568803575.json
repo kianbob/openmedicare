@@ -1,0 +1,157 @@
+{
+  "npi": "1568803575",
+  "last_name": "Sampathkumar",
+  "first_name": "Haresh",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "entity_type": "I",
+  "city": "Wilmington",
+  "state": "DE",
+  "overall": {
+    "total_payments": 1055579,
+    "total_services": 15276,
+    "total_beneficiaries": 6838,
+    "avg_markup_ratio": 2.36
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 58594,
+      "services": 1686,
+      "beneficiaries": 720
+    },
+    {
+      "year": 2015,
+      "payments": 60568,
+      "services": 1701,
+      "beneficiaries": 694
+    },
+    {
+      "year": 2016,
+      "payments": 73988,
+      "services": 1610,
+      "beneficiaries": 805
+    },
+    {
+      "year": 2017,
+      "payments": 77797,
+      "services": 1592,
+      "beneficiaries": 733
+    },
+    {
+      "year": 2018,
+      "payments": 81860,
+      "services": 1547,
+      "beneficiaries": 744
+    },
+    {
+      "year": 2019,
+      "payments": 88501,
+      "services": 1714,
+      "beneficiaries": 626
+    },
+    {
+      "year": 2020,
+      "payments": 100566,
+      "services": 1446,
+      "beneficiaries": 730
+    },
+    {
+      "year": 2021,
+      "payments": 103222,
+      "services": 1262,
+      "beneficiaries": 802
+    },
+    {
+      "year": 2022,
+      "payments": 116248,
+      "services": 1639,
+      "beneficiaries": 706
+    },
+    {
+      "year": 2023,
+      "payments": 123404,
+      "services": 1475,
+      "beneficiaries": 664
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 191923,
+      "services": 2777,
+      "markup_ratio": 2.11
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 172731,
+      "services": 2500,
+      "markup_ratio": 2.67
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 153539,
+      "services": 2222,
+      "markup_ratio": 2.74
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 134346,
+      "services": 1944,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 115154,
+      "services": 1666,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 95962,
+      "services": 1389,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 76769,
+      "services": 1111,
+      "markup_ratio": 2.47
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 57577,
+      "services": 833,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 38385,
+      "services": 555,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 19192,
+      "services": 278,
+      "markup_ratio": 2.49
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9172,
+    "ml_v2_rank": 151,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

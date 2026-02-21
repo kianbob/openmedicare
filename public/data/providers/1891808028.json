@@ -1,0 +1,158 @@
+{
+  "npi": "1891808028",
+  "last_name": "Copeland",
+  "first_name": "Duan",
+  "credentials": "MD",
+  "specialty": "Geriatric Medicine",
+  "entity_type": "I",
+  "city": "Phoenix",
+  "state": "AZ",
+  "overall": {
+    "total_payments": 1084758,
+    "total_services": 27761,
+    "total_beneficiaries": 8496,
+    "avg_markup_ratio": 2.6
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 59409,
+      "services": 2840,
+      "beneficiaries": 813
+    },
+    {
+      "year": 2015,
+      "payments": 70422,
+      "services": 2391,
+      "beneficiaries": 843
+    },
+    {
+      "year": 2016,
+      "payments": 74228,
+      "services": 2683,
+      "beneficiaries": 956
+    },
+    {
+      "year": 2017,
+      "payments": 76537,
+      "services": 2223,
+      "beneficiaries": 808
+    },
+    {
+      "year": 2018,
+      "payments": 90176,
+      "services": 2553,
+      "beneficiaries": 803
+    },
+    {
+      "year": 2019,
+      "payments": 96158,
+      "services": 2395,
+      "beneficiaries": 860
+    },
+    {
+      "year": 2020,
+      "payments": 105850,
+      "services": 3273,
+      "beneficiaries": 899
+    },
+    {
+      "year": 2021,
+      "payments": 112031,
+      "services": 3134,
+      "beneficiaries": 1016
+    },
+    {
+      "year": 2022,
+      "payments": 116452,
+      "services": 3322,
+      "beneficiaries": 695
+    },
+    {
+      "year": 2023,
+      "payments": 126737,
+      "services": 3249,
+      "beneficiaries": 993
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 197229,
+      "services": 5047,
+      "markup_ratio": 2.22
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 177506,
+      "services": 4543,
+      "markup_ratio": 2.4
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 157783,
+      "services": 4038,
+      "markup_ratio": 3.12
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 138060,
+      "services": 3533,
+      "markup_ratio": 2.61
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 118337,
+      "services": 3028,
+      "markup_ratio": 2.44
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 98614,
+      "services": 2524,
+      "markup_ratio": 2.58
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 78891,
+      "services": 2019,
+      "markup_ratio": 3.04
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 59169,
+      "services": 1514,
+      "markup_ratio": 2.15
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 39446,
+      "services": 1009,
+      "markup_ratio": 3.03
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 19723,
+      "services": 505,
+      "markup_ratio": 2.64
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9195,
+    "ml_v2_rank": 91,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing"
+    ]
+  }
+}

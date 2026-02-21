@@ -1,0 +1,157 @@
+{
+  "npi": "1487659603",
+  "last_name": "Schorr",
+  "first_name": "Jay",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 237297,
+    "total_services": 4335,
+    "total_beneficiaries": 1730,
+    "avg_markup_ratio": 1.85
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 13832,
+      "services": 504,
+      "beneficiaries": 204
+    },
+    {
+      "year": 2015,
+      "payments": 14270,
+      "services": 477,
+      "beneficiaries": 179
+    },
+    {
+      "year": 2016,
+      "payments": 16446,
+      "services": 378,
+      "beneficiaries": 173
+    },
+    {
+      "year": 2017,
+      "payments": 17403,
+      "services": 463,
+      "beneficiaries": 175
+    },
+    {
+      "year": 2018,
+      "payments": 19846,
+      "services": 440,
+      "beneficiaries": 186
+    },
+    {
+      "year": 2019,
+      "payments": 21690,
+      "services": 437,
+      "beneficiaries": 206
+    },
+    {
+      "year": 2020,
+      "payments": 21499,
+      "services": 353,
+      "beneficiaries": 160
+    },
+    {
+      "year": 2021,
+      "payments": 24690,
+      "services": 495,
+      "beneficiaries": 157
+    },
+    {
+      "year": 2022,
+      "payments": 24874,
+      "services": 392,
+      "beneficiaries": 194
+    },
+    {
+      "year": 2023,
+      "payments": 26899,
+      "services": 489,
+      "beneficiaries": 171
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 43145,
+      "services": 788,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 38830,
+      "services": 709,
+      "markup_ratio": 1.88
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 34516,
+      "services": 631,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 30201,
+      "services": 552,
+      "markup_ratio": 1.8
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 25887,
+      "services": 473,
+      "markup_ratio": 1.55
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 21572,
+      "services": 394,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 17258,
+      "services": 315,
+      "markup_ratio": 1.86
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 12943,
+      "services": 236,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 8629,
+      "services": 158,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4314,
+      "services": 79,
+      "markup_ratio": 1.96
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8604,
+    "ml_v2_rank": 375,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1356361158",
+  "last_name": "Palumbo",
+  "first_name": "Remigio",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 462686,
+    "total_services": 9846,
+    "total_beneficiaries": 4728,
+    "avg_markup_ratio": 2.23
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 23242,
+      "services": 1010,
+      "beneficiaries": 511
+    },
+    {
+      "year": 2015,
+      "payments": 28851,
+      "services": 1133,
+      "beneficiaries": 433
+    },
+    {
+      "year": 2016,
+      "payments": 31625,
+      "services": 838,
+      "beneficiaries": 507
+    },
+    {
+      "year": 2017,
+      "payments": 34882,
+      "services": 1163,
+      "beneficiaries": 488
+    },
+    {
+      "year": 2018,
+      "payments": 37397,
+      "services": 880,
+      "beneficiaries": 442
+    },
+    {
+      "year": 2019,
+      "payments": 38591,
+      "services": 1042,
+      "beneficiaries": 546
+    },
+    {
+      "year": 2020,
+      "payments": 41666,
+      "services": 948,
+      "beneficiaries": 562
+    },
+    {
+      "year": 2021,
+      "payments": 45668,
+      "services": 1042,
+      "beneficiaries": 531
+    },
+    {
+      "year": 2022,
+      "payments": 51001,
+      "services": 1107,
+      "beneficiaries": 475
+    },
+    {
+      "year": 2023,
+      "payments": 52643,
+      "services": 1134,
+      "beneficiaries": 533
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 84125,
+      "services": 1790,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 75712,
+      "services": 1611,
+      "markup_ratio": 2.45
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 67300,
+      "services": 1432,
+      "markup_ratio": 2.29
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 58887,
+      "services": 1253,
+      "markup_ratio": 2.61
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 50475,
+      "services": 1074,
+      "markup_ratio": 2.5
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 42062,
+      "services": 895,
+      "markup_ratio": 2.55
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 33650,
+      "services": 716,
+      "markup_ratio": 2.63
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 25237,
+      "services": 537,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 16825,
+      "services": 358,
+      "markup_ratio": 1.88
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 8412,
+      "services": 179,
+      "markup_ratio": 2.12
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8978,
+    "ml_v2_rank": 341,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

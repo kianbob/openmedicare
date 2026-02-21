@@ -1,0 +1,158 @@
+{
+  "npi": "1386664498",
+  "last_name": "Peterson",
+  "first_name": "Sofia",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Los Angeles",
+  "state": "CA",
+  "overall": {
+    "total_payments": 1165421,
+    "total_services": 19826,
+    "total_beneficiaries": 9609,
+    "avg_markup_ratio": 2.83
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 67356,
+      "services": 2205,
+      "beneficiaries": 866
+    },
+    {
+      "year": 2015,
+      "payments": 66046,
+      "services": 1846,
+      "beneficiaries": 967
+    },
+    {
+      "year": 2016,
+      "payments": 82312,
+      "services": 1597,
+      "beneficiaries": 774
+    },
+    {
+      "year": 2017,
+      "payments": 84599,
+      "services": 2050,
+      "beneficiaries": 864
+    },
+    {
+      "year": 2018,
+      "payments": 97623,
+      "services": 2329,
+      "beneficiaries": 912
+    },
+    {
+      "year": 2019,
+      "payments": 103312,
+      "services": 2241,
+      "beneficiaries": 1041
+    },
+    {
+      "year": 2020,
+      "payments": 109303,
+      "services": 2217,
+      "beneficiaries": 1055
+    },
+    {
+      "year": 2021,
+      "payments": 115853,
+      "services": 2207,
+      "beneficiaries": 1051
+    },
+    {
+      "year": 2022,
+      "payments": 128154,
+      "services": 2168,
+      "beneficiaries": 807
+    },
+    {
+      "year": 2023,
+      "payments": 130550,
+      "services": 1848,
+      "beneficiaries": 1151
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 211895,
+      "services": 3605,
+      "markup_ratio": 3.2
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 190705,
+      "services": 3244,
+      "markup_ratio": 2.41
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 169516,
+      "services": 2884,
+      "markup_ratio": 2.7
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 148326,
+      "services": 2523,
+      "markup_ratio": 3.1
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 127137,
+      "services": 2163,
+      "markup_ratio": 2.51
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 105947,
+      "services": 1802,
+      "markup_ratio": 2.29
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 84758,
+      "services": 1442,
+      "markup_ratio": 3.09
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 63568,
+      "services": 1081,
+      "markup_ratio": 3.33
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 42379,
+      "services": 721,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 21189,
+      "services": 360,
+      "markup_ratio": 2.58
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8926,
+    "ml_v2_rank": 367,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing"
+    ]
+  }
+}

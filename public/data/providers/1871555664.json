@@ -1,0 +1,157 @@
+{
+  "npi": "1871555664",
+  "last_name": "Gupta",
+  "first_name": "Rajendra",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 1923287,
+    "total_services": 23914,
+    "total_beneficiaries": 11293,
+    "avg_markup_ratio": 1.67
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 101300,
+      "services": 2679,
+      "beneficiaries": 972
+    },
+    {
+      "year": 2015,
+      "payments": 118817,
+      "services": 2596,
+      "beneficiaries": 1308
+    },
+    {
+      "year": 2016,
+      "payments": 127100,
+      "services": 2836,
+      "beneficiaries": 1257
+    },
+    {
+      "year": 2017,
+      "payments": 139506,
+      "services": 2089,
+      "beneficiaries": 1105
+    },
+    {
+      "year": 2018,
+      "payments": 158419,
+      "services": 2628,
+      "beneficiaries": 1243
+    },
+    {
+      "year": 2019,
+      "payments": 164418,
+      "services": 2449,
+      "beneficiaries": 1025
+    },
+    {
+      "year": 2020,
+      "payments": 175450,
+      "services": 2843,
+      "beneficiaries": 917
+    },
+    {
+      "year": 2021,
+      "payments": 192007,
+      "services": 2719,
+      "beneficiaries": 1191
+    },
+    {
+      "year": 2022,
+      "payments": 198994,
+      "services": 2715,
+      "beneficiaries": 928
+    },
+    {
+      "year": 2023,
+      "payments": 221503,
+      "services": 2547,
+      "beneficiaries": 996
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 349689,
+      "services": 4348,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 314720,
+      "services": 3913,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 279751,
+      "services": 3478,
+      "markup_ratio": 1.42
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 244782,
+      "services": 3044,
+      "markup_ratio": 1.75
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 209813,
+      "services": 2609,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 174844,
+      "services": 2174,
+      "markup_ratio": 1.47
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 139875,
+      "services": 1739,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 104907,
+      "services": 1304,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 69938,
+      "services": 870,
+      "markup_ratio": 1.64
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 34969,
+      "services": 435,
+      "markup_ratio": 1.35
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9134,
+    "ml_v2_rank": 177,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

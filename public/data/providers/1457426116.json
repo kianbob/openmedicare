@@ -1,0 +1,157 @@
+{
+  "npi": "1457426116",
+  "last_name": "Richardson-Price",
+  "first_name": "Marla",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 923249,
+    "total_services": 14634,
+    "total_beneficiaries": 6524,
+    "avg_markup_ratio": 1.69
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 53072,
+      "services": 1705,
+      "beneficiaries": 528
+    },
+    {
+      "year": 2015,
+      "payments": 52663,
+      "services": 1382,
+      "beneficiaries": 700
+    },
+    {
+      "year": 2016,
+      "payments": 61947,
+      "services": 1207,
+      "beneficiaries": 553
+    },
+    {
+      "year": 2017,
+      "payments": 67454,
+      "services": 1572,
+      "beneficiaries": 658
+    },
+    {
+      "year": 2018,
+      "payments": 75648,
+      "services": 1638,
+      "beneficiaries": 739
+    },
+    {
+      "year": 2019,
+      "payments": 83105,
+      "services": 1606,
+      "beneficiaries": 648
+    },
+    {
+      "year": 2020,
+      "payments": 85290,
+      "services": 1261,
+      "beneficiaries": 591
+    },
+    {
+      "year": 2021,
+      "payments": 96357,
+      "services": 1450,
+      "beneficiaries": 781
+    },
+    {
+      "year": 2022,
+      "payments": 100425,
+      "services": 1230,
+      "beneficiaries": 538
+    },
+    {
+      "year": 2023,
+      "payments": 107478,
+      "services": 1590,
+      "beneficiaries": 691
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 167863,
+      "services": 2661,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 151077,
+      "services": 2395,
+      "markup_ratio": 1.46
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 134291,
+      "services": 2129,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 117504,
+      "services": 1863,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 100718,
+      "services": 1596,
+      "markup_ratio": 1.8
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 83932,
+      "services": 1330,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 67145,
+      "services": 1064,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 50359,
+      "services": 798,
+      "markup_ratio": 1.74
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 33573,
+      "services": 532,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 16786,
+      "services": 266,
+      "markup_ratio": 1.77
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9222,
+    "ml_v2_rank": 83,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

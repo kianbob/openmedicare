@@ -1,0 +1,157 @@
+{
+  "npi": "1154359255",
+  "last_name": "Digioia",
+  "first_name": "John",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 334251,
+    "total_services": 7068,
+    "total_beneficiaries": 2687,
+    "avg_markup_ratio": 1.5
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 17940,
+      "services": 640,
+      "beneficiaries": 218
+    },
+    {
+      "year": 2015,
+      "payments": 20823,
+      "services": 783,
+      "beneficiaries": 285
+    },
+    {
+      "year": 2016,
+      "payments": 23889,
+      "services": 619,
+      "beneficiaries": 217
+    },
+    {
+      "year": 2017,
+      "payments": 25989,
+      "services": 772,
+      "beneficiaries": 238
+    },
+    {
+      "year": 2018,
+      "payments": 26111,
+      "services": 607,
+      "beneficiaries": 275
+    },
+    {
+      "year": 2019,
+      "payments": 29849,
+      "services": 778,
+      "beneficiaries": 215
+    },
+    {
+      "year": 2020,
+      "payments": 31346,
+      "services": 778,
+      "beneficiaries": 277
+    },
+    {
+      "year": 2021,
+      "payments": 32418,
+      "services": 617,
+      "beneficiaries": 265
+    },
+    {
+      "year": 2022,
+      "payments": 36873,
+      "services": 720,
+      "beneficiaries": 228
+    },
+    {
+      "year": 2023,
+      "payments": 39333,
+      "services": 665,
+      "beneficiaries": 230
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 60773,
+      "services": 1285,
+      "markup_ratio": 1.53
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 54696,
+      "services": 1157,
+      "markup_ratio": 1.56
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 48618,
+      "services": 1028,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 42541,
+      "services": 900,
+      "markup_ratio": 1.26
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 36464,
+      "services": 771,
+      "markup_ratio": 1.43
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 30386,
+      "services": 643,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 24309,
+      "services": 514,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 18232,
+      "services": 386,
+      "markup_ratio": 1.31
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 12155,
+      "services": 257,
+      "markup_ratio": 1.29
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6077,
+      "services": 129,
+      "markup_ratio": 1.44
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8602,
+    "ml_v2_rank": 489,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1831227941",
+  "last_name": "Leung",
+  "first_name": "Samuel",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 319699,
+    "total_services": 5501,
+    "total_beneficiaries": 1707,
+    "avg_markup_ratio": 1.89
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 17076,
+      "services": 531,
+      "beneficiaries": 190
+    },
+    {
+      "year": 2015,
+      "payments": 20022,
+      "services": 540,
+      "beneficiaries": 176
+    },
+    {
+      "year": 2016,
+      "payments": 22819,
+      "services": 656,
+      "beneficiaries": 188
+    },
+    {
+      "year": 2017,
+      "payments": 24710,
+      "services": 621,
+      "beneficiaries": 147
+    },
+    {
+      "year": 2018,
+      "payments": 25020,
+      "services": 491,
+      "beneficiaries": 145
+    },
+    {
+      "year": 2019,
+      "payments": 28486,
+      "services": 647,
+      "beneficiaries": 195
+    },
+    {
+      "year": 2020,
+      "payments": 29953,
+      "services": 654,
+      "beneficiaries": 145
+    },
+    {
+      "year": 2021,
+      "payments": 32069,
+      "services": 491,
+      "beneficiaries": 151
+    },
+    {
+      "year": 2022,
+      "payments": 34191,
+      "services": 445,
+      "beneficiaries": 148
+    },
+    {
+      "year": 2023,
+      "payments": 37151,
+      "services": 442,
+      "beneficiaries": 144
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 58127,
+      "services": 1000,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 52314,
+      "services": 900,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 46502,
+      "services": 800,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 40689,
+      "services": 700,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 34876,
+      "services": 600,
+      "markup_ratio": 1.59
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 29064,
+      "services": 500,
+      "markup_ratio": 1.7
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 23251,
+      "services": 400,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 17438,
+      "services": 300,
+      "markup_ratio": 1.66
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 11625,
+      "services": 200,
+      "markup_ratio": 1.6
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 5813,
+      "services": 100,
+      "markup_ratio": 2.15
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8885,
+    "ml_v2_rank": 200,
+    "risk_factors": [
+      "Volume-driven pattern"
+    ]
+  }
+}

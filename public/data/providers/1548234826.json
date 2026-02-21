@@ -1,0 +1,158 @@
+{
+  "npi": "1548234826",
+  "last_name": "Cyleman",
+  "first_name": "Nabil",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Nashville",
+  "state": "TN",
+  "overall": {
+    "total_payments": 1270481,
+    "total_services": 39039,
+    "total_beneficiaries": 13818,
+    "avg_markup_ratio": 2.81
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 65060,
+      "services": 4222,
+      "beneficiaries": 1432
+    },
+    {
+      "year": 2015,
+      "payments": 74023,
+      "services": 4065,
+      "beneficiaries": 1560
+    },
+    {
+      "year": 2016,
+      "payments": 86949,
+      "services": 3402,
+      "beneficiaries": 1282
+    },
+    {
+      "year": 2017,
+      "payments": 91742,
+      "services": 4539,
+      "beneficiaries": 1515
+    },
+    {
+      "year": 2018,
+      "payments": 99005,
+      "services": 4320,
+      "beneficiaries": 1554
+    },
+    {
+      "year": 2019,
+      "payments": 106105,
+      "services": 3668,
+      "beneficiaries": 1179
+    },
+    {
+      "year": 2020,
+      "payments": 115531,
+      "services": 4662,
+      "beneficiaries": 1225
+    },
+    {
+      "year": 2021,
+      "payments": 130567,
+      "services": 3169,
+      "beneficiaries": 1540
+    },
+    {
+      "year": 2022,
+      "payments": 139198,
+      "services": 3779,
+      "beneficiaries": 1430
+    },
+    {
+      "year": 2023,
+      "payments": 144779,
+      "services": 3685,
+      "beneficiaries": 1420
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 230997,
+      "services": 7098,
+      "markup_ratio": 2.62
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 207897,
+      "services": 6388,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 184797,
+      "services": 5678,
+      "markup_ratio": 2.94
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 161698,
+      "services": 4969,
+      "markup_ratio": 2.73
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 138598,
+      "services": 4259,
+      "markup_ratio": 2.81
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 115498,
+      "services": 3549,
+      "markup_ratio": 3.08
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 92399,
+      "services": 2839,
+      "markup_ratio": 2.66
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 69299,
+      "services": 2129,
+      "markup_ratio": 2.63
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 46199,
+      "services": 1420,
+      "markup_ratio": 2.73
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 23100,
+      "services": 710,
+      "markup_ratio": 3.03
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8886,
+    "ml_v2_rank": 238,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing"
+    ]
+  }
+}

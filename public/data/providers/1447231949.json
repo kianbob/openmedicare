@@ -1,0 +1,158 @@
+{
+  "npi": "1447231949",
+  "last_name": "Goswami",
+  "first_name": "Atul",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Columbus",
+  "state": "OH",
+  "overall": {
+    "total_payments": 2451313,
+    "total_services": 49671,
+    "total_beneficiaries": 17517,
+    "avg_markup_ratio": 1.96
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 123041,
+      "services": 5581,
+      "beneficiaries": 1936
+    },
+    {
+      "year": 2015,
+      "payments": 141393,
+      "services": 4971,
+      "beneficiaries": 1778
+    },
+    {
+      "year": 2016,
+      "payments": 169219,
+      "services": 5945,
+      "beneficiaries": 1714
+    },
+    {
+      "year": 2017,
+      "payments": 189897,
+      "services": 5364,
+      "beneficiaries": 1900
+    },
+    {
+      "year": 2018,
+      "payments": 202627,
+      "services": 4958,
+      "beneficiaries": 1546
+    },
+    {
+      "year": 2019,
+      "payments": 220998,
+      "services": 4659,
+      "beneficiaries": 1801
+    },
+    {
+      "year": 2020,
+      "payments": 227197,
+      "services": 4845,
+      "beneficiaries": 2090
+    },
+    {
+      "year": 2021,
+      "payments": 242342,
+      "services": 4258,
+      "beneficiaries": 1940
+    },
+    {
+      "year": 2022,
+      "payments": 268225,
+      "services": 5810,
+      "beneficiaries": 2060
+    },
+    {
+      "year": 2023,
+      "payments": 287276,
+      "services": 4628,
+      "beneficiaries": 2044
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 445693,
+      "services": 9031,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 401124,
+      "services": 8128,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 356555,
+      "services": 7225,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 311985,
+      "services": 6322,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 267416,
+      "services": 5419,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 222847,
+      "services": 4516,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 178277,
+      "services": 3612,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 133708,
+      "services": 2709,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 89139,
+      "services": 1806,
+      "markup_ratio": 2.33
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 44569,
+      "services": 903,
+      "markup_ratio": 2.23
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9261,
+    "ml_v2_rank": 54,
+    "risk_factors": [
+      "7-figure billing",
+      "Multi-million billing"
+    ]
+  }
+}

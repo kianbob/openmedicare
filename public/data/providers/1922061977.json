@@ -1,0 +1,157 @@
+{
+  "npi": "1922061977",
+  "last_name": "Adegbile",
+  "first_name": "Gideon",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Columbus",
+  "state": "OH",
+  "overall": {
+    "total_payments": 218956,
+    "total_services": 4199,
+    "total_beneficiaries": 1877,
+    "avg_markup_ratio": 1.78
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 12116,
+      "services": 386,
+      "beneficiaries": 176
+    },
+    {
+      "year": 2015,
+      "payments": 12998,
+      "services": 467,
+      "beneficiaries": 223
+    },
+    {
+      "year": 2016,
+      "payments": 15446,
+      "services": 384,
+      "beneficiaries": 222
+    },
+    {
+      "year": 2017,
+      "payments": 16878,
+      "services": 458,
+      "beneficiaries": 170
+    },
+    {
+      "year": 2018,
+      "payments": 18415,
+      "services": 356,
+      "beneficiaries": 209
+    },
+    {
+      "year": 2019,
+      "payments": 19116,
+      "services": 398,
+      "beneficiaries": 191
+    },
+    {
+      "year": 2020,
+      "payments": 21116,
+      "services": 349,
+      "beneficiaries": 191
+    },
+    {
+      "year": 2021,
+      "payments": 22519,
+      "services": 388,
+      "beneficiaries": 225
+    },
+    {
+      "year": 2022,
+      "payments": 23101,
+      "services": 369,
+      "beneficiaries": 156
+    },
+    {
+      "year": 2023,
+      "payments": 24629,
+      "services": 457,
+      "beneficiaries": 150
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 39810,
+      "services": 763,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 35829,
+      "services": 687,
+      "markup_ratio": 1.48
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 31848,
+      "services": 611,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 27867,
+      "services": 534,
+      "markup_ratio": 1.62
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 23886,
+      "services": 458,
+      "markup_ratio": 2.02
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 19905,
+      "services": 382,
+      "markup_ratio": 1.45
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 15924,
+      "services": 305,
+      "markup_ratio": 1.9
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 11943,
+      "services": 229,
+      "markup_ratio": 1.51
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 7962,
+      "services": 153,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3981,
+      "services": 76,
+      "markup_ratio": 1.92
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9207,
+    "ml_v2_rank": 95,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

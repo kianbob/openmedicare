@@ -1,0 +1,157 @@
+{
+  "npi": "1063458404",
+  "last_name": "Price",
+  "first_name": "Michael",
+  "credentials": "MD",
+  "specialty": "Podiatry",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 1129371,
+    "total_services": 18672,
+    "total_beneficiaries": 9132,
+    "avg_markup_ratio": 1.8
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 63152,
+      "services": 1634,
+      "beneficiaries": 1017
+    },
+    {
+      "year": 2015,
+      "payments": 66413,
+      "services": 1787,
+      "beneficiaries": 747
+    },
+    {
+      "year": 2016,
+      "payments": 80534,
+      "services": 1838,
+      "beneficiaries": 970
+    },
+    {
+      "year": 2017,
+      "payments": 79689,
+      "services": 2150,
+      "beneficiaries": 1038
+    },
+    {
+      "year": 2018,
+      "payments": 90909,
+      "services": 2031,
+      "beneficiaries": 1040
+    },
+    {
+      "year": 2019,
+      "payments": 102742,
+      "services": 1577,
+      "beneficiaries": 942
+    },
+    {
+      "year": 2020,
+      "payments": 108140,
+      "services": 1551,
+      "beneficiaries": 945
+    },
+    {
+      "year": 2021,
+      "payments": 117493,
+      "services": 2150,
+      "beneficiaries": 1063
+    },
+    {
+      "year": 2022,
+      "payments": 117680,
+      "services": 2124,
+      "beneficiaries": 1078
+    },
+    {
+      "year": 2023,
+      "payments": 126567,
+      "services": 2193,
+      "beneficiaries": 1082
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 205340,
+      "services": 3395,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 184806,
+      "services": 3055,
+      "markup_ratio": 1.51
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 164272,
+      "services": 2716,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 143738,
+      "services": 2376,
+      "markup_ratio": 1.58
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 123204,
+      "services": 2037,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 102670,
+      "services": 1697,
+      "markup_ratio": 1.56
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 82136,
+      "services": 1358,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 61602,
+      "services": 1018,
+      "markup_ratio": 1.8
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 41068,
+      "services": 679,
+      "markup_ratio": 1.8
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 20534,
+      "services": 339,
+      "markup_ratio": 1.8
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8749,
+    "ml_v2_rank": 371,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1407865975",
+  "last_name": "Alexander",
+  "first_name": "Pandisseril",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 796986,
+    "total_services": 13178,
+    "total_beneficiaries": 6211,
+    "avg_markup_ratio": 2.58
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 44614,
+      "services": 1139,
+      "beneficiaries": 709
+    },
+    {
+      "year": 2015,
+      "payments": 48786,
+      "services": 1512,
+      "beneficiaries": 521
+    },
+    {
+      "year": 2016,
+      "payments": 51966,
+      "services": 1143,
+      "beneficiaries": 534
+    },
+    {
+      "year": 2017,
+      "payments": 61008,
+      "services": 1454,
+      "beneficiaries": 569
+    },
+    {
+      "year": 2018,
+      "payments": 67076,
+      "services": 1338,
+      "beneficiaries": 582
+    },
+    {
+      "year": 2019,
+      "payments": 67750,
+      "services": 1318,
+      "beneficiaries": 611
+    },
+    {
+      "year": 2020,
+      "payments": 74971,
+      "services": 1075,
+      "beneficiaries": 524
+    },
+    {
+      "year": 2021,
+      "payments": 77202,
+      "services": 1550,
+      "beneficiaries": 588
+    },
+    {
+      "year": 2022,
+      "payments": 87052,
+      "services": 1386,
+      "beneficiaries": 552
+    },
+    {
+      "year": 2023,
+      "payments": 91217,
+      "services": 1514,
+      "beneficiaries": 707
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 144907,
+      "services": 2396,
+      "markup_ratio": 3.04
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 130416,
+      "services": 2156,
+      "markup_ratio": 2.96
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 115925,
+      "services": 1917,
+      "markup_ratio": 2.92
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 101435,
+      "services": 1677,
+      "markup_ratio": 2.16
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 86944,
+      "services": 1438,
+      "markup_ratio": 3.07
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 72453,
+      "services": 1198,
+      "markup_ratio": 2.65
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 57963,
+      "services": 958,
+      "markup_ratio": 2.84
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 43472,
+      "services": 719,
+      "markup_ratio": 2.91
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 28981,
+      "services": 479,
+      "markup_ratio": 2.79
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 14491,
+      "services": 240,
+      "markup_ratio": 2.14
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9485,
+    "ml_v2_rank": 19,
+    "risk_factors": [
+      "High markup ratio"
+    ]
+  }
+}

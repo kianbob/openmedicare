@@ -1,0 +1,159 @@
+{
+  "npi": "1235125535",
+  "last_name": "Pierce",
+  "first_name": "Warren",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 2802980,
+    "total_services": 58496,
+    "total_beneficiaries": 24204,
+    "avg_markup_ratio": 2.55
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 160588,
+      "services": 4951,
+      "beneficiaries": 2901
+    },
+    {
+      "year": 2015,
+      "payments": 174636,
+      "services": 6342,
+      "beneficiaries": 2803
+    },
+    {
+      "year": 2016,
+      "payments": 193387,
+      "services": 4814,
+      "beneficiaries": 1947
+    },
+    {
+      "year": 2017,
+      "payments": 198719,
+      "services": 6741,
+      "beneficiaries": 2553
+    },
+    {
+      "year": 2018,
+      "payments": 233231,
+      "services": 5708,
+      "beneficiaries": 2259
+    },
+    {
+      "year": 2019,
+      "payments": 254239,
+      "services": 6259,
+      "beneficiaries": 2425
+    },
+    {
+      "year": 2020,
+      "payments": 275455,
+      "services": 6426,
+      "beneficiaries": 2034
+    },
+    {
+      "year": 2021,
+      "payments": 280332,
+      "services": 4993,
+      "beneficiaries": 2884
+    },
+    {
+      "year": 2022,
+      "payments": 300761,
+      "services": 5898,
+      "beneficiaries": 2727
+    },
+    {
+      "year": 2023,
+      "payments": 318499,
+      "services": 6734,
+      "beneficiaries": 2350
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 509633,
+      "services": 10636,
+      "markup_ratio": 2.64
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 458669,
+      "services": 9572,
+      "markup_ratio": 2.58
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 407706,
+      "services": 8509,
+      "markup_ratio": 2.93
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 356743,
+      "services": 7445,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 305780,
+      "services": 6381,
+      "markup_ratio": 2.95
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 254816,
+      "services": 5318,
+      "markup_ratio": 2.33
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 203853,
+      "services": 4254,
+      "markup_ratio": 3.04
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 152890,
+      "services": 3191,
+      "markup_ratio": 2.54
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 101927,
+      "services": 2127,
+      "markup_ratio": 2.59
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 50963,
+      "services": 1064,
+      "markup_ratio": 2.83
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8736,
+    "ml_v2_rank": 336,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing",
+      "Multi-million billing"
+    ]
+  }
+}

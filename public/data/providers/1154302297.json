@@ -1,0 +1,157 @@
+{
+  "npi": "1154302297",
+  "last_name": "Grochowska",
+  "first_name": "Eugenia",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 180473,
+    "total_services": 3445,
+    "total_beneficiaries": 1528,
+    "avg_markup_ratio": 2.08
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 9354,
+      "services": 320,
+      "beneficiaries": 151
+    },
+    {
+      "year": 2015,
+      "payments": 11264,
+      "services": 379,
+      "beneficiaries": 147
+    },
+    {
+      "year": 2016,
+      "payments": 12608,
+      "services": 394,
+      "beneficiaries": 140
+    },
+    {
+      "year": 2017,
+      "payments": 13332,
+      "services": 360,
+      "beneficiaries": 165
+    },
+    {
+      "year": 2018,
+      "payments": 15241,
+      "services": 366,
+      "beneficiaries": 153
+    },
+    {
+      "year": 2019,
+      "payments": 15609,
+      "services": 316,
+      "beneficiaries": 150
+    },
+    {
+      "year": 2020,
+      "payments": 17181,
+      "services": 341,
+      "beneficiaries": 183
+    },
+    {
+      "year": 2021,
+      "payments": 18283,
+      "services": 405,
+      "beneficiaries": 183
+    },
+    {
+      "year": 2022,
+      "payments": 19705,
+      "services": 359,
+      "beneficiaries": 150
+    },
+    {
+      "year": 2023,
+      "payments": 20006,
+      "services": 390,
+      "beneficiaries": 170
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 32813,
+      "services": 626,
+      "markup_ratio": 2.42
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 29532,
+      "services": 564,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 26251,
+      "services": 501,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 22969,
+      "services": 438,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 19688,
+      "services": 376,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 16407,
+      "services": 313,
+      "markup_ratio": 2.49
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 13125,
+      "services": 251,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 9844,
+      "services": 188,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 6563,
+      "services": 125,
+      "markup_ratio": 2.38
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3281,
+      "services": 63,
+      "markup_ratio": 2.19
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9064,
+    "ml_v2_rank": 208,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

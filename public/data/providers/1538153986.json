@@ -1,0 +1,157 @@
+{
+  "npi": "1538153986",
+  "last_name": "Kinney",
+  "first_name": "Roger",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Oklahoma City",
+  "state": "OK",
+  "overall": {
+    "total_payments": 431738,
+    "total_services": 12906,
+    "total_beneficiaries": 4000,
+    "avg_markup_ratio": 2.08
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 24472,
+      "services": 1232,
+      "beneficiaries": 372
+    },
+    {
+      "year": 2015,
+      "payments": 27203,
+      "services": 1538,
+      "beneficiaries": 353
+    },
+    {
+      "year": 2016,
+      "payments": 28810,
+      "services": 1442,
+      "beneficiaries": 359
+    },
+    {
+      "year": 2017,
+      "payments": 30373,
+      "services": 1194,
+      "beneficiaries": 368
+    },
+    {
+      "year": 2018,
+      "payments": 35211,
+      "services": 1451,
+      "beneficiaries": 371
+    },
+    {
+      "year": 2019,
+      "payments": 36841,
+      "services": 1389,
+      "beneficiaries": 402
+    },
+    {
+      "year": 2020,
+      "payments": 41867,
+      "services": 1207,
+      "beneficiaries": 455
+    },
+    {
+      "year": 2021,
+      "payments": 43783,
+      "services": 1515,
+      "beneficiaries": 458
+    },
+    {
+      "year": 2022,
+      "payments": 47875,
+      "services": 1288,
+      "beneficiaries": 408
+    },
+    {
+      "year": 2023,
+      "payments": 48168,
+      "services": 1110,
+      "beneficiaries": 474
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 78498,
+      "services": 2347,
+      "markup_ratio": 2.49
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 70648,
+      "services": 2112,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 62798,
+      "services": 1877,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 54948,
+      "services": 1643,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 47099,
+      "services": 1408,
+      "markup_ratio": 2.32
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 39249,
+      "services": 1173,
+      "markup_ratio": 2.3
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 31399,
+      "services": 939,
+      "markup_ratio": 1.99
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 23549,
+      "services": 704,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 15700,
+      "services": 469,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 7850,
+      "services": 235,
+      "markup_ratio": 1.83
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9102,
+    "ml_v2_rank": 120,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

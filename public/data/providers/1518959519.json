@@ -1,0 +1,157 @@
+{
+  "npi": "1518959519",
+  "last_name": "Moorhead",
+  "first_name": "Colin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Columbus",
+  "state": "OH",
+  "overall": {
+    "total_payments": 1168840,
+    "total_services": 20308,
+    "total_beneficiaries": 6789,
+    "avg_markup_ratio": 1.87
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 61799,
+      "services": 2022,
+      "beneficiaries": 597
+    },
+    {
+      "year": 2015,
+      "payments": 68295,
+      "services": 2274,
+      "beneficiaries": 620
+    },
+    {
+      "year": 2016,
+      "payments": 78950,
+      "services": 1889,
+      "beneficiaries": 607
+    },
+    {
+      "year": 2017,
+      "payments": 85040,
+      "services": 2079,
+      "beneficiaries": 701
+    },
+    {
+      "year": 2018,
+      "payments": 91352,
+      "services": 1712,
+      "beneficiaries": 613
+    },
+    {
+      "year": 2019,
+      "payments": 102398,
+      "services": 1706,
+      "beneficiaries": 714
+    },
+    {
+      "year": 2020,
+      "payments": 105338,
+      "services": 1931,
+      "beneficiaries": 651
+    },
+    {
+      "year": 2021,
+      "payments": 118217,
+      "services": 1999,
+      "beneficiaries": 731
+    },
+    {
+      "year": 2022,
+      "payments": 124387,
+      "services": 2183,
+      "beneficiaries": 804
+    },
+    {
+      "year": 2023,
+      "payments": 131617,
+      "services": 1923,
+      "beneficiaries": 771
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 212516,
+      "services": 3692,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 191265,
+      "services": 3323,
+      "markup_ratio": 2.02
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 170013,
+      "services": 2954,
+      "markup_ratio": 1.53
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 148761,
+      "services": 2585,
+      "markup_ratio": 1.73
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 127510,
+      "services": 2215,
+      "markup_ratio": 2.09
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 106258,
+      "services": 1846,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 85007,
+      "services": 1477,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 63755,
+      "services": 1108,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 42503,
+      "services": 738,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 21252,
+      "services": 369,
+      "markup_ratio": 1.9
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9154,
+    "ml_v2_rank": 122,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

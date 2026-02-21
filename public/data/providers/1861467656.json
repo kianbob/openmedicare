@@ -1,0 +1,158 @@
+{
+  "npi": "1861467656",
+  "last_name": "Chang",
+  "first_name": "Patrick",
+  "credentials": "MD",
+  "specialty": "Allergy/Immunology",
+  "entity_type": "I",
+  "city": "Phoenix",
+  "state": "AZ",
+  "overall": {
+    "total_payments": 2517227,
+    "total_services": 39323,
+    "total_beneficiaries": 17510,
+    "avg_markup_ratio": 1.88
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 127393,
+      "services": 3714,
+      "beneficiaries": 1823
+    },
+    {
+      "year": 2015,
+      "payments": 145909,
+      "services": 4190,
+      "beneficiaries": 1815
+    },
+    {
+      "year": 2016,
+      "payments": 160555,
+      "services": 3828,
+      "beneficiaries": 1928
+    },
+    {
+      "year": 2017,
+      "payments": 184423,
+      "services": 3654,
+      "beneficiaries": 1515
+    },
+    {
+      "year": 2018,
+      "payments": 198637,
+      "services": 3193,
+      "beneficiaries": 1540
+    },
+    {
+      "year": 2019,
+      "payments": 221960,
+      "services": 3839,
+      "beneficiaries": 1987
+    },
+    {
+      "year": 2020,
+      "payments": 231889,
+      "services": 3746,
+      "beneficiaries": 1716
+    },
+    {
+      "year": 2021,
+      "payments": 262560,
+      "services": 4313,
+      "beneficiaries": 1972
+    },
+    {
+      "year": 2022,
+      "payments": 265053,
+      "services": 4650,
+      "beneficiaries": 1866
+    },
+    {
+      "year": 2023,
+      "payments": 293275,
+      "services": 4535,
+      "beneficiaries": 1848
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 457678,
+      "services": 7150,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 411910,
+      "services": 6435,
+      "markup_ratio": 1.54
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 366142,
+      "services": 5720,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 320374,
+      "services": 5005,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 274607,
+      "services": 4290,
+      "markup_ratio": 1.74
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 228839,
+      "services": 3575,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 183071,
+      "services": 2860,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 137303,
+      "services": 2145,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 91536,
+      "services": 1430,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 45768,
+      "services": 715,
+      "markup_ratio": 1.61
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8794,
+    "ml_v2_rank": 413,
+    "risk_factors": [
+      "7-figure billing",
+      "Multi-million billing"
+    ]
+  }
+}

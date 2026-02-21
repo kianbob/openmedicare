@@ -1,0 +1,159 @@
+{
+  "npi": "1437130028",
+  "last_name": "Fishkin",
+  "first_name": "Ellioth",
+  "credentials": "MD",
+  "specialty": "Medical Oncology",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 1415951,
+    "total_services": 43803,
+    "total_beneficiaries": 11270,
+    "avg_markup_ratio": 1.88
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 74489,
+      "services": 4162,
+      "beneficiaries": 905
+    },
+    {
+      "year": 2015,
+      "payments": 84197,
+      "services": 4823,
+      "beneficiaries": 1056
+    },
+    {
+      "year": 2016,
+      "payments": 100826,
+      "services": 3719,
+      "beneficiaries": 1181
+    },
+    {
+      "year": 2017,
+      "payments": 106227,
+      "services": 3711,
+      "beneficiaries": 1270
+    },
+    {
+      "year": 2018,
+      "payments": 115131,
+      "services": 3644,
+      "beneficiaries": 1293
+    },
+    {
+      "year": 2019,
+      "payments": 126469,
+      "services": 4680,
+      "beneficiaries": 1149
+    },
+    {
+      "year": 2020,
+      "payments": 135165,
+      "services": 4455,
+      "beneficiaries": 936
+    },
+    {
+      "year": 2021,
+      "payments": 143252,
+      "services": 3773,
+      "beneficiaries": 1146
+    },
+    {
+      "year": 2022,
+      "payments": 153095,
+      "services": 4100,
+      "beneficiaries": 1111
+    },
+    {
+      "year": 2023,
+      "payments": 156174,
+      "services": 3971,
+      "beneficiaries": 1189
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 257446,
+      "services": 7964,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 231701,
+      "services": 7168,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 205956,
+      "services": 6371,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 180212,
+      "services": 5575,
+      "markup_ratio": 1.59
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 154467,
+      "services": 4779,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 128723,
+      "services": 3982,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 102978,
+      "services": 3186,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 77234,
+      "services": 2389,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 51489,
+      "services": 1593,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 25745,
+      "services": 796,
+      "markup_ratio": 1.94
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9399,
+    "ml_v2_rank": 40,
+    "risk_factors": [
+      "High services/patient",
+      "7-figure billing",
+      "Volume-driven pattern"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1700814803",
+  "last_name": "Beck",
+  "first_name": "Kimberly",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Salt Lake City",
+  "state": "UT",
+  "overall": {
+    "total_payments": 861784,
+    "total_services": 11679,
+    "total_beneficiaries": 4711,
+    "avg_markup_ratio": 1.85
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 47704,
+      "services": 940,
+      "beneficiaries": 463
+    },
+    {
+      "year": 2015,
+      "payments": 50073,
+      "services": 1122,
+      "beneficiaries": 549
+    },
+    {
+      "year": 2016,
+      "payments": 58370,
+      "services": 1357,
+      "beneficiaries": 459
+    },
+    {
+      "year": 2017,
+      "payments": 64359,
+      "services": 1305,
+      "beneficiaries": 555
+    },
+    {
+      "year": 2018,
+      "payments": 72882,
+      "services": 940,
+      "beneficiaries": 436
+    },
+    {
+      "year": 2019,
+      "payments": 73710,
+      "services": 1080,
+      "beneficiaries": 556
+    },
+    {
+      "year": 2020,
+      "payments": 81594,
+      "services": 948,
+      "beneficiaries": 547
+    },
+    {
+      "year": 2021,
+      "payments": 87953,
+      "services": 1020,
+      "beneficiaries": 524
+    },
+    {
+      "year": 2022,
+      "payments": 93461,
+      "services": 1389,
+      "beneficiaries": 536
+    },
+    {
+      "year": 2023,
+      "payments": 100075,
+      "services": 1054,
+      "beneficiaries": 483
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 156688,
+      "services": 2123,
+      "markup_ratio": 2.07
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 141019,
+      "services": 1911,
+      "markup_ratio": 1.74
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 125350,
+      "services": 1699,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 109682,
+      "services": 1486,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 94013,
+      "services": 1274,
+      "markup_ratio": 1.81
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 78344,
+      "services": 1062,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 62675,
+      "services": 849,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 47006,
+      "services": 637,
+      "markup_ratio": 1.86
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 31338,
+      "services": 425,
+      "markup_ratio": 1.62
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 15669,
+      "services": 212,
+      "markup_ratio": 1.8
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9137,
+    "ml_v2_rank": 162,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

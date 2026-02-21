@@ -1,0 +1,158 @@
+{
+  "npi": "1518995927",
+  "last_name": "Rasheed",
+  "first_name": "Rafath",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 854206,
+    "total_services": 13902,
+    "total_beneficiaries": 3880,
+    "avg_markup_ratio": 1.74
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 43362,
+      "services": 1576,
+      "beneficiaries": 321
+    },
+    {
+      "year": 2015,
+      "payments": 50791,
+      "services": 1406,
+      "beneficiaries": 456
+    },
+    {
+      "year": 2016,
+      "payments": 59393,
+      "services": 1351,
+      "beneficiaries": 348
+    },
+    {
+      "year": 2017,
+      "payments": 66729,
+      "services": 1483,
+      "beneficiaries": 451
+    },
+    {
+      "year": 2018,
+      "payments": 69966,
+      "services": 1387,
+      "beneficiaries": 350
+    },
+    {
+      "year": 2019,
+      "payments": 76490,
+      "services": 1465,
+      "beneficiaries": 366
+    },
+    {
+      "year": 2020,
+      "payments": 83198,
+      "services": 1347,
+      "beneficiaries": 377
+    },
+    {
+      "year": 2021,
+      "payments": 86643,
+      "services": 1532,
+      "beneficiaries": 451
+    },
+    {
+      "year": 2022,
+      "payments": 92021,
+      "services": 1289,
+      "beneficiaries": 414
+    },
+    {
+      "year": 2023,
+      "payments": 100325,
+      "services": 1292,
+      "beneficiaries": 399
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 155310,
+      "services": 2528,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 139779,
+      "services": 2275,
+      "markup_ratio": 1.64
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 124248,
+      "services": 2022,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 108717,
+      "services": 1769,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 93186,
+      "services": 1517,
+      "markup_ratio": 1.41
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 77655,
+      "services": 1264,
+      "markup_ratio": 1.52
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 62124,
+      "services": 1011,
+      "markup_ratio": 1.9
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 46593,
+      "services": 758,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 31062,
+      "services": 506,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 15531,
+      "services": 253,
+      "markup_ratio": 1.8
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8762,
+    "ml_v2_rank": 456,
+    "risk_factors": [
+      "High services/patient",
+      "Volume-driven pattern"
+    ]
+  }
+}

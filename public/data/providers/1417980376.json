@@ -1,0 +1,157 @@
+{
+  "npi": "1417980376",
+  "last_name": "Gill",
+  "first_name": "Zeba",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Houston",
+  "state": "TX",
+  "overall": {
+    "total_payments": 691738,
+    "total_services": 11367,
+    "total_beneficiaries": 5635,
+    "avg_markup_ratio": 2.06
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 36804,
+      "services": 1341,
+      "beneficiaries": 672
+    },
+    {
+      "year": 2015,
+      "payments": 39477,
+      "services": 1121,
+      "beneficiaries": 559
+    },
+    {
+      "year": 2016,
+      "payments": 49347,
+      "services": 1036,
+      "beneficiaries": 676
+    },
+    {
+      "year": 2017,
+      "payments": 52075,
+      "services": 923,
+      "beneficiaries": 466
+    },
+    {
+      "year": 2018,
+      "payments": 54946,
+      "services": 1146,
+      "beneficiaries": 598
+    },
+    {
+      "year": 2019,
+      "payments": 62876,
+      "services": 1349,
+      "beneficiaries": 611
+    },
+    {
+      "year": 2020,
+      "payments": 62468,
+      "services": 1208,
+      "beneficiaries": 595
+    },
+    {
+      "year": 2021,
+      "payments": 71022,
+      "services": 1033,
+      "beneficiaries": 644
+    },
+    {
+      "year": 2022,
+      "payments": 76225,
+      "services": 1350,
+      "beneficiaries": 549
+    },
+    {
+      "year": 2023,
+      "payments": 77450,
+      "services": 1188,
+      "beneficiaries": 528
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 125770,
+      "services": 2067,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 113193,
+      "services": 1860,
+      "markup_ratio": 1.76
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 100616,
+      "services": 1653,
+      "markup_ratio": 1.86
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 88039,
+      "services": 1447,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 75462,
+      "services": 1240,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 62885,
+      "services": 1033,
+      "markup_ratio": 2.22
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 50308,
+      "services": 827,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 37731,
+      "services": 620,
+      "markup_ratio": 2.02
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 25154,
+      "services": 413,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 12577,
+      "services": 207,
+      "markup_ratio": 2.06
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9198,
+    "ml_v2_rank": 58,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

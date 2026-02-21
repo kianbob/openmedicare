@@ -1,0 +1,157 @@
+{
+  "npi": "1497890255",
+  "last_name": "Mikles",
+  "first_name": "Devin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Phoenix",
+  "state": "AZ",
+  "overall": {
+    "total_payments": 436641,
+    "total_services": 8284,
+    "total_beneficiaries": 3288,
+    "avg_markup_ratio": 2.37
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 23440,
+      "services": 942,
+      "beneficiaries": 299
+    },
+    {
+      "year": 2015,
+      "payments": 25512,
+      "services": 827,
+      "beneficiaries": 324
+    },
+    {
+      "year": 2016,
+      "payments": 28934,
+      "services": 672,
+      "beneficiaries": 298
+    },
+    {
+      "year": 2017,
+      "payments": 34030,
+      "services": 914,
+      "beneficiaries": 264
+    },
+    {
+      "year": 2018,
+      "payments": 35869,
+      "services": 859,
+      "beneficiaries": 366
+    },
+    {
+      "year": 2019,
+      "payments": 36536,
+      "services": 978,
+      "beneficiaries": 367
+    },
+    {
+      "year": 2020,
+      "payments": 39978,
+      "services": 758,
+      "beneficiaries": 280
+    },
+    {
+      "year": 2021,
+      "payments": 44270,
+      "services": 780,
+      "beneficiaries": 278
+    },
+    {
+      "year": 2022,
+      "payments": 48403,
+      "services": 757,
+      "beneficiaries": 331
+    },
+    {
+      "year": 2023,
+      "payments": 49173,
+      "services": 779,
+      "beneficiaries": 268
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 79389,
+      "services": 1506,
+      "markup_ratio": 2.27
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 71450,
+      "services": 1356,
+      "markup_ratio": 2.69
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 63511,
+      "services": 1205,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 55573,
+      "services": 1054,
+      "markup_ratio": 1.94
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 47634,
+      "services": 904,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 39695,
+      "services": 753,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 31756,
+      "services": 602,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 23817,
+      "services": 452,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 15878,
+      "services": 301,
+      "markup_ratio": 2.63
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 7939,
+      "services": 151,
+      "markup_ratio": 2.69
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.891,
+    "ml_v2_rank": 286,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

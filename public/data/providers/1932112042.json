@@ -1,0 +1,157 @@
+{
+  "npi": "1932112042",
+  "last_name": "Dunn",
+  "first_name": "Paul",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Louisville",
+  "state": "KY",
+  "overall": {
+    "total_payments": 336124,
+    "total_services": 9156,
+    "total_beneficiaries": 3895,
+    "avg_markup_ratio": 2.08
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 19133,
+      "services": 1002,
+      "beneficiaries": 319
+    },
+    {
+      "year": 2015,
+      "payments": 19836,
+      "services": 1025,
+      "beneficiaries": 366
+    },
+    {
+      "year": 2016,
+      "payments": 22653,
+      "services": 798,
+      "beneficiaries": 343
+    },
+    {
+      "year": 2017,
+      "payments": 25056,
+      "services": 1010,
+      "beneficiaries": 411
+    },
+    {
+      "year": 2018,
+      "payments": 27249,
+      "services": 942,
+      "beneficiaries": 376
+    },
+    {
+      "year": 2019,
+      "payments": 28015,
+      "services": 939,
+      "beneficiaries": 348
+    },
+    {
+      "year": 2020,
+      "payments": 31284,
+      "services": 740,
+      "beneficiaries": 411
+    },
+    {
+      "year": 2021,
+      "payments": 33867,
+      "services": 914,
+      "beneficiaries": 456
+    },
+    {
+      "year": 2022,
+      "payments": 35064,
+      "services": 1049,
+      "beneficiaries": 366
+    },
+    {
+      "year": 2023,
+      "payments": 38159,
+      "services": 1094,
+      "beneficiaries": 320
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 61113,
+      "services": 1665,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 55002,
+      "services": 1498,
+      "markup_ratio": 1.9
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 48891,
+      "services": 1332,
+      "markup_ratio": 1.85
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 42779,
+      "services": 1165,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 36668,
+      "services": 999,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 30557,
+      "services": 832,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 24445,
+      "services": 666,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 18334,
+      "services": 499,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 12223,
+      "services": 333,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6111,
+      "services": 166,
+      "markup_ratio": 2.08
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9065,
+    "ml_v2_rank": 229,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

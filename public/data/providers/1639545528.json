@@ -1,0 +1,158 @@
+{
+  "npi": "1639545528",
+  "last_name": "Dubuque",
+  "first_name": "Christopher",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Honolulu",
+  "state": "HI",
+  "overall": {
+    "total_payments": 776761,
+    "total_services": 12944,
+    "total_beneficiaries": 3461,
+    "avg_markup_ratio": 1.57
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 41306,
+      "services": 1451,
+      "beneficiaries": 312
+    },
+    {
+      "year": 2015,
+      "payments": 49206,
+      "services": 1060,
+      "beneficiaries": 386
+    },
+    {
+      "year": 2016,
+      "payments": 55555,
+      "services": 1205,
+      "beneficiaries": 377
+    },
+    {
+      "year": 2017,
+      "payments": 54663,
+      "services": 1477,
+      "beneficiaries": 293
+    },
+    {
+      "year": 2018,
+      "payments": 64436,
+      "services": 1179,
+      "beneficiaries": 305
+    },
+    {
+      "year": 2019,
+      "payments": 65550,
+      "services": 1200,
+      "beneficiaries": 281
+    },
+    {
+      "year": 2020,
+      "payments": 75216,
+      "services": 1445,
+      "beneficiaries": 303
+    },
+    {
+      "year": 2021,
+      "payments": 79566,
+      "services": 1164,
+      "beneficiaries": 359
+    },
+    {
+      "year": 2022,
+      "payments": 84937,
+      "services": 1346,
+      "beneficiaries": 377
+    },
+    {
+      "year": 2023,
+      "payments": 88009,
+      "services": 1106,
+      "beneficiaries": 402
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 141229,
+      "services": 2353,
+      "markup_ratio": 1.69
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 127106,
+      "services": 2118,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 112983,
+      "services": 1883,
+      "markup_ratio": 1.53
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 98860,
+      "services": 1647,
+      "markup_ratio": 1.49
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 84738,
+      "services": 1412,
+      "markup_ratio": 1.55
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 70615,
+      "services": 1177,
+      "markup_ratio": 1.72
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 56492,
+      "services": 941,
+      "markup_ratio": 1.38
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 42369,
+      "services": 706,
+      "markup_ratio": 1.51
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 28246,
+      "services": 471,
+      "markup_ratio": 1.39
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 14123,
+      "services": 235,
+      "markup_ratio": 1.81
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9195,
+    "ml_v2_rank": 106,
+    "risk_factors": [
+      "High services/patient",
+      "Volume-driven pattern"
+    ]
+  }
+}

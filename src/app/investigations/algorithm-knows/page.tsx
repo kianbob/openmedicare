@@ -410,7 +410,7 @@ export default function AlgorithmKnowsPage() {
                 More importantly: <strong>we&apos;ve already seen it work in the real world.</strong> Several providers
                 flagged by earlier versions of our model were subsequently charged by the DOJ — months or years
                 after our analysis identified them. We documented these cases in{' '}
-                <Link href="/investigations/our-data-predicted-it" className="text-medicare-primary hover:underline font-semibold">
+                <Link href="/investigations/data-predicted-fraud" className="text-medicare-primary hover:underline font-semibold">
                   &ldquo;Our Data Predicted It&rdquo;
                 </Link>.
               </p>
@@ -487,7 +487,7 @@ export default function AlgorithmKnowsPage() {
                 <h2 className="text-2xl font-serif font-bold text-gray-900 mb-6">Related Investigations</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <Link
-                    href="/investigations/our-data-predicted-it"
+                    href="/investigations/data-predicted-fraud"
                     className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
                   >
                     <div className="text-sm font-bold text-gray-900 mb-1">Our Data Predicted It</div>

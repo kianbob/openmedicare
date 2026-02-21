@@ -1,0 +1,157 @@
+{
+  "npi": "1578628582",
+  "last_name": "Berberian",
+  "first_name": "Bruce",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 859439,
+    "total_services": 14786,
+    "total_beneficiaries": 4673,
+    "avg_markup_ratio": 1.57
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 46264,
+      "services": 1216,
+      "beneficiaries": 397
+    },
+    {
+      "year": 2015,
+      "payments": 53106,
+      "services": 1469,
+      "beneficiaries": 448
+    },
+    {
+      "year": 2016,
+      "payments": 58395,
+      "services": 1312,
+      "beneficiaries": 504
+    },
+    {
+      "year": 2017,
+      "payments": 65901,
+      "services": 1700,
+      "beneficiaries": 411
+    },
+    {
+      "year": 2018,
+      "payments": 69310,
+      "services": 1631,
+      "beneficiaries": 416
+    },
+    {
+      "year": 2019,
+      "payments": 72491,
+      "services": 1256,
+      "beneficiaries": 436
+    },
+    {
+      "year": 2020,
+      "payments": 82491,
+      "services": 1241,
+      "beneficiaries": 465
+    },
+    {
+      "year": 2021,
+      "payments": 86066,
+      "services": 1489,
+      "beneficiaries": 453
+    },
+    {
+      "year": 2022,
+      "payments": 93953,
+      "services": 1293,
+      "beneficiaries": 467
+    },
+    {
+      "year": 2023,
+      "payments": 96778,
+      "services": 1400,
+      "beneficiaries": 416
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 156262,
+      "services": 2688,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 140636,
+      "services": 2420,
+      "markup_ratio": 1.53
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 125009,
+      "services": 2151,
+      "markup_ratio": 1.43
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 109383,
+      "services": 1882,
+      "markup_ratio": 1.61
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 93757,
+      "services": 1613,
+      "markup_ratio": 1.3
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 78131,
+      "services": 1344,
+      "markup_ratio": 1.41
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 62505,
+      "services": 1075,
+      "markup_ratio": 1.43
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 46879,
+      "services": 807,
+      "markup_ratio": 1.44
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 31252,
+      "services": 538,
+      "markup_ratio": 1.29
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 15626,
+      "services": 269,
+      "markup_ratio": 1.42
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9267,
+    "ml_v2_rank": 69,
+    "risk_factors": [
+      "Volume-driven pattern"
+    ]
+  }
+}

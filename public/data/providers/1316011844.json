@@ -1,0 +1,157 @@
+{
+  "npi": "1316011844",
+  "last_name": "Biddix",
+  "first_name": "Jerry",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Houston",
+  "state": "TX",
+  "overall": {
+    "total_payments": 294117,
+    "total_services": 7110,
+    "total_beneficiaries": 2926,
+    "avg_markup_ratio": 1.89
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 15330,
+      "services": 706,
+      "beneficiaries": 255
+    },
+    {
+      "year": 2015,
+      "payments": 17800,
+      "services": 852,
+      "beneficiaries": 332
+    },
+    {
+      "year": 2016,
+      "payments": 19750,
+      "services": 667,
+      "beneficiaries": 259
+    },
+    {
+      "year": 2017,
+      "payments": 22827,
+      "services": 782,
+      "beneficiaries": 298
+    },
+    {
+      "year": 2018,
+      "payments": 24844,
+      "services": 665,
+      "beneficiaries": 273
+    },
+    {
+      "year": 2019,
+      "payments": 26219,
+      "services": 745,
+      "beneficiaries": 350
+    },
+    {
+      "year": 2020,
+      "payments": 27932,
+      "services": 676,
+      "beneficiaries": 336
+    },
+    {
+      "year": 2021,
+      "payments": 29354,
+      "services": 579,
+      "beneficiaries": 275
+    },
+    {
+      "year": 2022,
+      "payments": 30668,
+      "services": 621,
+      "beneficiaries": 259
+    },
+    {
+      "year": 2023,
+      "payments": 34297,
+      "services": 757,
+      "beneficiaries": 256
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 53476,
+      "services": 1293,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 48128,
+      "services": 1163,
+      "markup_ratio": 2.09
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 42781,
+      "services": 1034,
+      "markup_ratio": 1.8
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 37433,
+      "services": 905,
+      "markup_ratio": 1.66
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 32086,
+      "services": 776,
+      "markup_ratio": 1.55
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 26738,
+      "services": 646,
+      "markup_ratio": 1.89
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 21390,
+      "services": 517,
+      "markup_ratio": 2.16
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 16043,
+      "services": 388,
+      "markup_ratio": 1.58
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 10695,
+      "services": 259,
+      "markup_ratio": 1.74
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 5348,
+      "services": 129,
+      "markup_ratio": 1.93
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8762,
+    "ml_v2_rank": 429,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

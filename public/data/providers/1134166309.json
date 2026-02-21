@@ -1,0 +1,157 @@
+{
+  "npi": "1134166309",
+  "last_name": "Braverman",
+  "first_name": "Gerald",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 96740,
+    "total_services": 2045,
+    "total_beneficiaries": 845,
+    "avg_markup_ratio": 1.68
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 5113,
+      "services": 177,
+      "beneficiaries": 95
+    },
+    {
+      "year": 2015,
+      "payments": 5929,
+      "services": 241,
+      "beneficiaries": 92
+    },
+    {
+      "year": 2016,
+      "payments": 6861,
+      "services": 216,
+      "beneficiaries": 87
+    },
+    {
+      "year": 2017,
+      "payments": 6922,
+      "services": 177,
+      "beneficiaries": 79
+    },
+    {
+      "year": 2018,
+      "payments": 7485,
+      "services": 222,
+      "beneficiaries": 82
+    },
+    {
+      "year": 2019,
+      "payments": 8442,
+      "services": 203,
+      "beneficiaries": 96
+    },
+    {
+      "year": 2020,
+      "payments": 9074,
+      "services": 174,
+      "beneficiaries": 99
+    },
+    {
+      "year": 2021,
+      "payments": 9971,
+      "services": 186,
+      "beneficiaries": 98
+    },
+    {
+      "year": 2022,
+      "payments": 10272,
+      "services": 234,
+      "beneficiaries": 85
+    },
+    {
+      "year": 2023,
+      "payments": 11142,
+      "services": 205,
+      "beneficiaries": 73
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 17589,
+      "services": 372,
+      "markup_ratio": 1.51
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 15830,
+      "services": 335,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 14071,
+      "services": 297,
+      "markup_ratio": 1.59
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 12312,
+      "services": 260,
+      "markup_ratio": 1.4
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 10553,
+      "services": 223,
+      "markup_ratio": 1.47
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 8795,
+      "services": 186,
+      "markup_ratio": 1.53
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 7036,
+      "services": 149,
+      "markup_ratio": 1.62
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 5277,
+      "services": 112,
+      "markup_ratio": 1.46
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 3518,
+      "services": 74,
+      "markup_ratio": 1.76
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 1759,
+      "services": 37,
+      "markup_ratio": 1.38
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8933,
+    "ml_v2_rank": 274,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

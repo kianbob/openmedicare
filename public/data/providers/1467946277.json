@@ -1,0 +1,158 @@
+{
+  "npi": "1467946277",
+  "last_name": "Fulk",
+  "first_name": "Jessica",
+  "credentials": "PA",
+  "specialty": "Physician Assistant",
+  "entity_type": "I",
+  "city": "Charlotte",
+  "state": "NC",
+  "overall": {
+    "total_payments": 1260335,
+    "total_services": 20609,
+    "total_beneficiaries": 5822,
+    "avg_markup_ratio": 2.01
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 68599,
+      "services": 1742,
+      "beneficiaries": 588
+    },
+    {
+      "year": 2015,
+      "payments": 77000,
+      "services": 2195,
+      "beneficiaries": 649
+    },
+    {
+      "year": 2016,
+      "payments": 80356,
+      "services": 2462,
+      "beneficiaries": 524
+    },
+    {
+      "year": 2017,
+      "payments": 88503,
+      "services": 2196,
+      "beneficiaries": 600
+    },
+    {
+      "year": 2018,
+      "payments": 96641,
+      "services": 2343,
+      "beneficiaries": 631
+    },
+    {
+      "year": 2019,
+      "payments": 107782,
+      "services": 1679,
+      "beneficiaries": 510
+    },
+    {
+      "year": 2020,
+      "payments": 116578,
+      "services": 2077,
+      "beneficiaries": 635
+    },
+    {
+      "year": 2021,
+      "payments": 130126,
+      "services": 2021,
+      "beneficiaries": 686
+    },
+    {
+      "year": 2022,
+      "payments": 132227,
+      "services": 1710,
+      "beneficiaries": 684
+    },
+    {
+      "year": 2023,
+      "payments": 147461,
+      "services": 1672,
+      "beneficiaries": 566
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 229152,
+      "services": 3747,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 206237,
+      "services": 3372,
+      "markup_ratio": 1.91
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 183321,
+      "services": 2998,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 160406,
+      "services": 2623,
+      "markup_ratio": 2.38
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 137491,
+      "services": 2248,
+      "markup_ratio": 1.79
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 114576,
+      "services": 1874,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 91661,
+      "services": 1499,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 68746,
+      "services": 1124,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 45830,
+      "services": 749,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 22915,
+      "services": 375,
+      "markup_ratio": 1.91
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8769,
+    "ml_v2_rank": 360,
+    "risk_factors": [
+      "High services/patient",
+      "7-figure billing"
+    ]
+  }
+}

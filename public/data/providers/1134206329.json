@@ -1,0 +1,157 @@
+{
+  "npi": "1134206329",
+  "last_name": "Wang",
+  "first_name": "Victoria",
+  "credentials": "MD",
+  "specialty": "Allergy/Immunology",
+  "entity_type": "I",
+  "city": "Honolulu",
+  "state": "HI",
+  "overall": {
+    "total_payments": 180857,
+    "total_services": 3693,
+    "total_beneficiaries": 1632,
+    "avg_markup_ratio": 1.78
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 10263,
+      "services": 434,
+      "beneficiaries": 195
+    },
+    {
+      "year": 2015,
+      "payments": 10511,
+      "services": 364,
+      "beneficiaries": 172
+    },
+    {
+      "year": 2016,
+      "payments": 12091,
+      "services": 355,
+      "beneficiaries": 150
+    },
+    {
+      "year": 2017,
+      "payments": 13744,
+      "services": 363,
+      "beneficiaries": 176
+    },
+    {
+      "year": 2018,
+      "payments": 14417,
+      "services": 413,
+      "beneficiaries": 136
+    },
+    {
+      "year": 2019,
+      "payments": 15729,
+      "services": 416,
+      "beneficiaries": 173
+    },
+    {
+      "year": 2020,
+      "payments": 16800,
+      "services": 368,
+      "beneficiaries": 160
+    },
+    {
+      "year": 2021,
+      "payments": 18654,
+      "services": 430,
+      "beneficiaries": 148
+    },
+    {
+      "year": 2022,
+      "payments": 19634,
+      "services": 418,
+      "beneficiaries": 147
+    },
+    {
+      "year": 2023,
+      "payments": 21149,
+      "services": 348,
+      "beneficiaries": 140
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 32883,
+      "services": 671,
+      "markup_ratio": 1.7
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 29595,
+      "services": 604,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 26306,
+      "services": 537,
+      "markup_ratio": 1.47
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 23018,
+      "services": 470,
+      "markup_ratio": 2.06
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 19730,
+      "services": 403,
+      "markup_ratio": 1.49
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 16442,
+      "services": 336,
+      "markup_ratio": 1.7
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 13153,
+      "services": 269,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 9865,
+      "services": 201,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 6577,
+      "services": 134,
+      "markup_ratio": 1.62
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 3288,
+      "services": 67,
+      "markup_ratio": 1.76
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9182,
+    "ml_v2_rank": 99,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

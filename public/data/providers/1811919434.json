@@ -1,0 +1,157 @@
+{
+  "npi": "1811919434",
+  "last_name": "Shelanski",
+  "first_name": "Sharon",
+  "credentials": "MD",
+  "specialty": "Allergy/Immunology",
+  "entity_type": "I",
+  "city": "Philadelphia",
+  "state": "PA",
+  "overall": {
+    "total_payments": 235240,
+    "total_services": 6478,
+    "total_beneficiaries": 1964,
+    "avg_markup_ratio": 2.29
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 13149,
+      "services": 610,
+      "beneficiaries": 204
+    },
+    {
+      "year": 2015,
+      "payments": 13922,
+      "services": 732,
+      "beneficiaries": 206
+    },
+    {
+      "year": 2016,
+      "payments": 14958,
+      "services": 715,
+      "beneficiaries": 183
+    },
+    {
+      "year": 2017,
+      "payments": 16988,
+      "services": 557,
+      "beneficiaries": 163
+    },
+    {
+      "year": 2018,
+      "payments": 18837,
+      "services": 542,
+      "beneficiaries": 224
+    },
+    {
+      "year": 2019,
+      "payments": 21033,
+      "services": 635,
+      "beneficiaries": 180
+    },
+    {
+      "year": 2020,
+      "payments": 21294,
+      "services": 702,
+      "beneficiaries": 215
+    },
+    {
+      "year": 2021,
+      "payments": 23974,
+      "services": 603,
+      "beneficiaries": 181
+    },
+    {
+      "year": 2022,
+      "payments": 24774,
+      "services": 748,
+      "beneficiaries": 201
+    },
+    {
+      "year": 2023,
+      "payments": 27707,
+      "services": 554,
+      "beneficiaries": 160
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 42771,
+      "services": 1178,
+      "markup_ratio": 2.13
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 38494,
+      "services": 1060,
+      "markup_ratio": 2.7
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 34217,
+      "services": 942,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 29940,
+      "services": 824,
+      "markup_ratio": 2.59
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 25663,
+      "services": 707,
+      "markup_ratio": 2.75
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 21385,
+      "services": 589,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 17108,
+      "services": 471,
+      "markup_ratio": 2.49
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 12831,
+      "services": 353,
+      "markup_ratio": 2.17
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 8554,
+      "services": 236,
+      "markup_ratio": 2.28
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4277,
+      "services": 118,
+      "markup_ratio": 1.84
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8755,
+    "ml_v2_rank": 278,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "npi": "1861482184",
+  "last_name": "Yanes",
+  "first_name": "Basel",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Columbus",
+  "state": "OH",
+  "overall": {
+    "total_payments": 1149694,
+    "total_services": 19575,
+    "total_beneficiaries": 6360,
+    "avg_markup_ratio": 2.23
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 64556,
+      "services": 1867,
+      "beneficiaries": 665
+    },
+    {
+      "year": 2015,
+      "payments": 70623,
+      "services": 1815,
+      "beneficiaries": 754
+    },
+    {
+      "year": 2016,
+      "payments": 75838,
+      "services": 1777,
+      "beneficiaries": 602
+    },
+    {
+      "year": 2017,
+      "payments": 81411,
+      "services": 2273,
+      "beneficiaries": 577
+    },
+    {
+      "year": 2018,
+      "payments": 92756,
+      "services": 1651,
+      "beneficiaries": 579
+    },
+    {
+      "year": 2019,
+      "payments": 100398,
+      "services": 1729,
+      "beneficiaries": 737
+    },
+    {
+      "year": 2020,
+      "payments": 111058,
+      "services": 2030,
+      "beneficiaries": 762
+    },
+    {
+      "year": 2021,
+      "payments": 116779,
+      "services": 2100,
+      "beneficiaries": 566
+    },
+    {
+      "year": 2022,
+      "payments": 127274,
+      "services": 1945,
+      "beneficiaries": 586
+    },
+    {
+      "year": 2023,
+      "payments": 134182,
+      "services": 1702,
+      "beneficiaries": 759
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 209035,
+      "services": 3559,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 188132,
+      "services": 3203,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 167228,
+      "services": 2847,
+      "markup_ratio": 1.86
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 146325,
+      "services": 2491,
+      "markup_ratio": 2.53
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 125421,
+      "services": 2135,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 104518,
+      "services": 1780,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 83614,
+      "services": 1424,
+      "markup_ratio": 1.84
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 62711,
+      "services": 1068,
+      "markup_ratio": 1.93
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 41807,
+      "services": 712,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 20904,
+      "services": 356,
+      "markup_ratio": 1.99
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9329,
+    "ml_v2_rank": 51,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

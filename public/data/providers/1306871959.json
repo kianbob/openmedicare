@@ -1,0 +1,157 @@
+{
+  "npi": "1306871959",
+  "last_name": "Chatterjee",
+  "first_name": "Ashok",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Baltimore",
+  "state": "MD",
+  "overall": {
+    "total_payments": 231370,
+    "total_services": 4174,
+    "total_beneficiaries": 1690,
+    "avg_markup_ratio": 1.93
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 13246,
+      "services": 444,
+      "beneficiaries": 148
+    },
+    {
+      "year": 2015,
+      "payments": 13133,
+      "services": 360,
+      "beneficiaries": 193
+    },
+    {
+      "year": 2016,
+      "payments": 15913,
+      "services": 448,
+      "beneficiaries": 166
+    },
+    {
+      "year": 2017,
+      "payments": 18093,
+      "services": 347,
+      "beneficiaries": 152
+    },
+    {
+      "year": 2018,
+      "payments": 18778,
+      "services": 443,
+      "beneficiaries": 171
+    },
+    {
+      "year": 2019,
+      "payments": 19777,
+      "services": 368,
+      "beneficiaries": 151
+    },
+    {
+      "year": 2020,
+      "payments": 21613,
+      "services": 452,
+      "beneficiaries": 178
+    },
+    {
+      "year": 2021,
+      "payments": 22373,
+      "services": 493,
+      "beneficiaries": 145
+    },
+    {
+      "year": 2022,
+      "payments": 24026,
+      "services": 416,
+      "beneficiaries": 159
+    },
+    {
+      "year": 2023,
+      "payments": 26312,
+      "services": 383,
+      "beneficiaries": 153
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 42067,
+      "services": 759,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 37860,
+      "services": 683,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 33654,
+      "services": 607,
+      "markup_ratio": 1.58
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 29447,
+      "services": 531,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 25240,
+      "services": 455,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 21034,
+      "services": 379,
+      "markup_ratio": 2.27
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 16827,
+      "services": 304,
+      "markup_ratio": 2.27
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 12620,
+      "services": 228,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 8413,
+      "services": 152,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4207,
+      "services": 76,
+      "markup_ratio": 1.99
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8898,
+    "ml_v2_rank": 406,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

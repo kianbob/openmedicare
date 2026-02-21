@@ -1,0 +1,157 @@
+{
+  "npi": "1194754424",
+  "last_name": "Vermillion",
+  "first_name": "David",
+  "credentials": "MD",
+  "specialty": "Emergency Medicine",
+  "entity_type": "I",
+  "city": "Houston",
+  "state": "TX",
+  "overall": {
+    "total_payments": 552975,
+    "total_services": 11136,
+    "total_beneficiaries": 5391,
+    "avg_markup_ratio": 2.48
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 29070,
+      "services": 1022,
+      "beneficiaries": 542
+    },
+    {
+      "year": 2015,
+      "payments": 31865,
+      "services": 1066,
+      "beneficiaries": 449
+    },
+    {
+      "year": 2016,
+      "payments": 37977,
+      "services": 1185,
+      "beneficiaries": 459
+    },
+    {
+      "year": 2017,
+      "payments": 39879,
+      "services": 1242,
+      "beneficiaries": 445
+    },
+    {
+      "year": 2018,
+      "payments": 45504,
+      "services": 1087,
+      "beneficiaries": 532
+    },
+    {
+      "year": 2019,
+      "payments": 50427,
+      "services": 952,
+      "beneficiaries": 621
+    },
+    {
+      "year": 2020,
+      "payments": 53147,
+      "services": 1292,
+      "beneficiaries": 594
+    },
+    {
+      "year": 2021,
+      "payments": 56310,
+      "services": 901,
+      "beneficiaries": 627
+    },
+    {
+      "year": 2022,
+      "payments": 59250,
+      "services": 1089,
+      "beneficiaries": 595
+    },
+    {
+      "year": 2023,
+      "payments": 65322,
+      "services": 1159,
+      "beneficiaries": 622
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 100541,
+      "services": 2025,
+      "markup_ratio": 2.87
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 90487,
+      "services": 1822,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 80433,
+      "services": 1620,
+      "markup_ratio": 2.8
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 70379,
+      "services": 1417,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 60325,
+      "services": 1215,
+      "markup_ratio": 2.92
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 50270,
+      "services": 1012,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 40216,
+      "services": 810,
+      "markup_ratio": 2.81
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 30162,
+      "services": 607,
+      "markup_ratio": 2.44
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 20108,
+      "services": 405,
+      "markup_ratio": 2.7
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 10054,
+      "services": 202,
+      "markup_ratio": 2.36
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8787,
+    "ml_v2_rank": 289,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

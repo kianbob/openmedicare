@@ -1,0 +1,158 @@
+{
+  "npi": "1124466073",
+  "last_name": "Kao",
+  "first_name": "Daniel",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "entity_type": "I",
+  "city": "New York",
+  "state": "NY",
+  "overall": {
+    "total_payments": 806575,
+    "total_services": 23515,
+    "total_beneficiaries": 3818,
+    "avg_markup_ratio": 2.23
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 44516,
+      "services": 2518,
+      "beneficiaries": 413
+    },
+    {
+      "year": 2015,
+      "payments": 50028,
+      "services": 2538,
+      "beneficiaries": 448
+    },
+    {
+      "year": 2016,
+      "payments": 54086,
+      "services": 2318,
+      "beneficiaries": 308
+    },
+    {
+      "year": 2017,
+      "payments": 61031,
+      "services": 1887,
+      "beneficiaries": 421
+    },
+    {
+      "year": 2018,
+      "payments": 64811,
+      "services": 1912,
+      "beneficiaries": 444
+    },
+    {
+      "year": 2019,
+      "payments": 69105,
+      "services": 2692,
+      "beneficiaries": 427
+    },
+    {
+      "year": 2020,
+      "payments": 72847,
+      "services": 2233,
+      "beneficiaries": 334
+    },
+    {
+      "year": 2021,
+      "payments": 80729,
+      "services": 2500,
+      "beneficiaries": 333
+    },
+    {
+      "year": 2022,
+      "payments": 83706,
+      "services": 2198,
+      "beneficiaries": 377
+    },
+    {
+      "year": 2023,
+      "payments": 93269,
+      "services": 2080,
+      "beneficiaries": 317
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 146650,
+      "services": 4275,
+      "markup_ratio": 1.88
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 131985,
+      "services": 3848,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 117320,
+      "services": 3420,
+      "markup_ratio": 2.41
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 102655,
+      "services": 2993,
+      "markup_ratio": 2.58
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 87990,
+      "services": 2565,
+      "markup_ratio": 2.59
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 73325,
+      "services": 2138,
+      "markup_ratio": 2.48
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 58660,
+      "services": 1710,
+      "markup_ratio": 2.57
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 43995,
+      "services": 1283,
+      "markup_ratio": 2.6
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 29330,
+      "services": 855,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 14665,
+      "services": 428,
+      "markup_ratio": 2.29
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8777,
+    "ml_v2_rank": 325,
+    "risk_factors": [
+      "High services/patient",
+      "Extreme volume"
+    ]
+  }
+}

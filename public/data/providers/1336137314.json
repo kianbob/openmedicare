@@ -1,0 +1,157 @@
+{
+  "npi": "1336137314",
+  "last_name": "Nemeth",
+  "first_name": "Steven",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 801416,
+    "total_services": 22204,
+    "total_beneficiaries": 8448,
+    "avg_markup_ratio": 2.7
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 43401,
+      "services": 2543,
+      "beneficiaries": 775
+    },
+    {
+      "year": 2015,
+      "payments": 50853,
+      "services": 2558,
+      "beneficiaries": 871
+    },
+    {
+      "year": 2016,
+      "payments": 52649,
+      "services": 2021,
+      "beneficiaries": 865
+    },
+    {
+      "year": 2017,
+      "payments": 58796,
+      "services": 1808,
+      "beneficiaries": 961
+    },
+    {
+      "year": 2018,
+      "payments": 67658,
+      "services": 2221,
+      "beneficiaries": 999
+    },
+    {
+      "year": 2019,
+      "payments": 73005,
+      "services": 2599,
+      "beneficiaries": 1004
+    },
+    {
+      "year": 2020,
+      "payments": 78692,
+      "services": 1913,
+      "beneficiaries": 850
+    },
+    {
+      "year": 2021,
+      "payments": 79026,
+      "services": 2293,
+      "beneficiaries": 902
+    },
+    {
+      "year": 2022,
+      "payments": 84798,
+      "services": 2648,
+      "beneficiaries": 691
+    },
+    {
+      "year": 2023,
+      "payments": 93183,
+      "services": 2135,
+      "beneficiaries": 950
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 145712,
+      "services": 4037,
+      "markup_ratio": 2.27
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 131141,
+      "services": 3633,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 116570,
+      "services": 3230,
+      "markup_ratio": 2.97
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 101998,
+      "services": 2826,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 87427,
+      "services": 2422,
+      "markup_ratio": 3.2
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 72856,
+      "services": 2019,
+      "markup_ratio": 2.81
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 58285,
+      "services": 1615,
+      "markup_ratio": 2.65
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 43714,
+      "services": 1211,
+      "markup_ratio": 2.69
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 29142,
+      "services": 807,
+      "markup_ratio": 2.98
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 14571,
+      "services": 404,
+      "markup_ratio": 2.83
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8906,
+    "ml_v2_rank": 203,
+    "risk_factors": [
+      "High markup ratio"
+    ]
+  }
+}

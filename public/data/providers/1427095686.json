@@ -1,0 +1,158 @@
+{
+  "npi": "1427095686",
+  "last_name": "Yu",
+  "first_name": "Kyi",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "New York",
+  "state": "NY",
+  "overall": {
+    "total_payments": 336208,
+    "total_services": 5689,
+    "total_beneficiaries": 1574,
+    "avg_markup_ratio": 1.92
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 19221,
+      "services": 544,
+      "beneficiaries": 133
+    },
+    {
+      "year": 2015,
+      "payments": 21560,
+      "services": 680,
+      "beneficiaries": 134
+    },
+    {
+      "year": 2016,
+      "payments": 22153,
+      "services": 548,
+      "beneficiaries": 153
+    },
+    {
+      "year": 2017,
+      "payments": 26157,
+      "services": 596,
+      "beneficiaries": 185
+    },
+    {
+      "year": 2018,
+      "payments": 25867,
+      "services": 543,
+      "beneficiaries": 161
+    },
+    {
+      "year": 2019,
+      "payments": 30644,
+      "services": 639,
+      "beneficiaries": 172
+    },
+    {
+      "year": 2020,
+      "payments": 31353,
+      "services": 623,
+      "beneficiaries": 133
+    },
+    {
+      "year": 2021,
+      "payments": 33493,
+      "services": 584,
+      "beneficiaries": 126
+    },
+    {
+      "year": 2022,
+      "payments": 35787,
+      "services": 491,
+      "beneficiaries": 144
+    },
+    {
+      "year": 2023,
+      "payments": 37310,
+      "services": 542,
+      "beneficiaries": 139
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 61129,
+      "services": 1034,
+      "markup_ratio": 1.97
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 55016,
+      "services": 931,
+      "markup_ratio": 1.77
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 48903,
+      "services": 827,
+      "markup_ratio": 1.81
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 42790,
+      "services": 724,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 36677,
+      "services": 621,
+      "markup_ratio": 2.21
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 30564,
+      "services": 517,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 24451,
+      "services": 414,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 18339,
+      "services": 310,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 12226,
+      "services": 207,
+      "markup_ratio": 1.55
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6113,
+      "services": 103,
+      "markup_ratio": 1.85
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8793,
+    "ml_v2_rank": 284,
+    "risk_factors": [
+      "High services/patient",
+      "Volume-driven pattern"
+    ]
+  }
+}

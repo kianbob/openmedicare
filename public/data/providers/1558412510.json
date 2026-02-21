@@ -1,0 +1,157 @@
+{
+  "npi": "1558412510",
+  "last_name": "Chaudhri",
+  "first_name": "Aftab",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "New York",
+  "state": "NY",
+  "overall": {
+    "total_payments": 373238,
+    "total_services": 6630,
+    "total_beneficiaries": 2596,
+    "avg_markup_ratio": 1.98
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 18695,
+      "services": 550,
+      "beneficiaries": 262
+    },
+    {
+      "year": 2015,
+      "payments": 23158,
+      "services": 570,
+      "beneficiaries": 265
+    },
+    {
+      "year": 2016,
+      "payments": 24415,
+      "services": 556,
+      "beneficiaries": 251
+    },
+    {
+      "year": 2017,
+      "payments": 26423,
+      "services": 594,
+      "beneficiaries": 253
+    },
+    {
+      "year": 2018,
+      "payments": 29690,
+      "services": 656,
+      "beneficiaries": 251
+    },
+    {
+      "year": 2019,
+      "payments": 33145,
+      "services": 723,
+      "beneficiaries": 271
+    },
+    {
+      "year": 2020,
+      "payments": 35861,
+      "services": 771,
+      "beneficiaries": 266
+    },
+    {
+      "year": 2021,
+      "payments": 38862,
+      "services": 578,
+      "beneficiaries": 230
+    },
+    {
+      "year": 2022,
+      "payments": 39284,
+      "services": 572,
+      "beneficiaries": 275
+    },
+    {
+      "year": 2023,
+      "payments": 41084,
+      "services": 686,
+      "beneficiaries": 268
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 67862,
+      "services": 1205,
+      "markup_ratio": 2.1
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 61075,
+      "services": 1085,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 54289,
+      "services": 964,
+      "markup_ratio": 1.68
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 47503,
+      "services": 844,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 40717,
+      "services": 723,
+      "markup_ratio": 1.71
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 33931,
+      "services": 603,
+      "markup_ratio": 1.76
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 27145,
+      "services": 482,
+      "markup_ratio": 2.08
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 20358,
+      "services": 362,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 13572,
+      "services": 241,
+      "markup_ratio": 1.68
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 6786,
+      "services": 121,
+      "markup_ratio": 1.73
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9245,
+    "ml_v2_rank": 74,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

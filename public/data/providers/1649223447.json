@@ -1,0 +1,157 @@
+{
+  "npi": "1649223447",
+  "last_name": "Keesara",
+  "first_name": "Ramesh",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Nashville",
+  "state": "TN",
+  "overall": {
+    "total_payments": 433197,
+    "total_services": 11719,
+    "total_beneficiaries": 4653,
+    "avg_markup_ratio": 2.01
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 23436,
+      "services": 1360,
+      "beneficiaries": 446
+    },
+    {
+      "year": 2015,
+      "payments": 27343,
+      "services": 1050,
+      "beneficiaries": 445
+    },
+    {
+      "year": 2016,
+      "payments": 28418,
+      "services": 1120,
+      "beneficiaries": 553
+    },
+    {
+      "year": 2017,
+      "payments": 33837,
+      "services": 1276,
+      "beneficiaries": 377
+    },
+    {
+      "year": 2018,
+      "payments": 33270,
+      "services": 957,
+      "beneficiaries": 462
+    },
+    {
+      "year": 2019,
+      "payments": 38255,
+      "services": 1076,
+      "beneficiaries": 433
+    },
+    {
+      "year": 2020,
+      "payments": 40326,
+      "services": 1067,
+      "beneficiaries": 373
+    },
+    {
+      "year": 2021,
+      "payments": 44739,
+      "services": 1192,
+      "beneficiaries": 392
+    },
+    {
+      "year": 2022,
+      "payments": 47692,
+      "services": 1048,
+      "beneficiaries": 528
+    },
+    {
+      "year": 2023,
+      "payments": 50422,
+      "services": 1370,
+      "beneficiaries": 538
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 78763,
+      "services": 2131,
+      "markup_ratio": 1.75
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 70887,
+      "services": 1918,
+      "markup_ratio": 2.18
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 63010,
+      "services": 1705,
+      "markup_ratio": 1.72
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 55134,
+      "services": 1492,
+      "markup_ratio": 2.38
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 47258,
+      "services": 1278,
+      "markup_ratio": 1.69
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 39382,
+      "services": 1065,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 31505,
+      "services": 852,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 23629,
+      "services": 639,
+      "markup_ratio": 1.62
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 15753,
+      "services": 426,
+      "markup_ratio": 2.37
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 7876,
+      "services": 213,
+      "markup_ratio": 2.34
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8772,
+    "ml_v2_rank": 385,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

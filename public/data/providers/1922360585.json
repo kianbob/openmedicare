@@ -1,0 +1,157 @@
+{
+  "npi": "1922360585",
+  "last_name": "Giove",
+  "first_name": "Lawrence",
+  "credentials": "MD",
+  "specialty": "Hematology-Oncology",
+  "entity_type": "I",
+  "city": "Hartford",
+  "state": "CT",
+  "overall": {
+    "total_payments": 807970,
+    "total_services": 13752,
+    "total_beneficiaries": 5078,
+    "avg_markup_ratio": 2.24
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 44090,
+      "services": 1318,
+      "beneficiaries": 520
+    },
+    {
+      "year": 2015,
+      "payments": 47870,
+      "services": 1490,
+      "beneficiaries": 443
+    },
+    {
+      "year": 2016,
+      "payments": 51881,
+      "services": 1171,
+      "beneficiaries": 537
+    },
+    {
+      "year": 2017,
+      "payments": 61827,
+      "services": 1348,
+      "beneficiaries": 558
+    },
+    {
+      "year": 2018,
+      "payments": 65135,
+      "services": 1105,
+      "beneficiaries": 473
+    },
+    {
+      "year": 2019,
+      "payments": 71143,
+      "services": 1385,
+      "beneficiaries": 560
+    },
+    {
+      "year": 2020,
+      "payments": 73830,
+      "services": 1195,
+      "beneficiaries": 407
+    },
+    {
+      "year": 2021,
+      "payments": 84042,
+      "services": 1472,
+      "beneficiaries": 483
+    },
+    {
+      "year": 2022,
+      "payments": 87018,
+      "services": 1549,
+      "beneficiaries": 508
+    },
+    {
+      "year": 2023,
+      "payments": 95158,
+      "services": 1581,
+      "beneficiaries": 490
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 146904,
+      "services": 2500,
+      "markup_ratio": 2.64
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 132213,
+      "services": 2250,
+      "markup_ratio": 2.63
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 117523,
+      "services": 2000,
+      "markup_ratio": 2.66
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 102833,
+      "services": 1750,
+      "markup_ratio": 2.65
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 88142,
+      "services": 1500,
+      "markup_ratio": 1.91
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 73452,
+      "services": 1250,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 58761,
+      "services": 1000,
+      "markup_ratio": 2.51
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 44071,
+      "services": 750,
+      "markup_ratio": 2.37
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 29381,
+      "services": 500,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 14690,
+      "services": 250,
+      "markup_ratio": 2.07
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9098,
+    "ml_v2_rank": 268,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

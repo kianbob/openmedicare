@@ -1,0 +1,157 @@
+{
+  "npi": "1396710794",
+  "last_name": "Mcdonald",
+  "first_name": "Mary",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "entity_type": "I",
+  "city": "Nashville",
+  "state": "TN",
+  "overall": {
+    "total_payments": 757447,
+    "total_services": 14371,
+    "total_beneficiaries": 5285,
+    "avg_markup_ratio": 2.69
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 43730,
+      "services": 1459,
+      "beneficiaries": 620
+    },
+    {
+      "year": 2015,
+      "payments": 47622,
+      "services": 1511,
+      "beneficiaries": 543
+    },
+    {
+      "year": 2016,
+      "payments": 51592,
+      "services": 1195,
+      "beneficiaries": 596
+    },
+    {
+      "year": 2017,
+      "payments": 57238,
+      "services": 1713,
+      "beneficiaries": 452
+    },
+    {
+      "year": 2018,
+      "payments": 62086,
+      "services": 1375,
+      "beneficiaries": 571
+    },
+    {
+      "year": 2019,
+      "payments": 68033,
+      "services": 1508,
+      "beneficiaries": 452
+    },
+    {
+      "year": 2020,
+      "payments": 68538,
+      "services": 1602,
+      "beneficiaries": 495
+    },
+    {
+      "year": 2021,
+      "payments": 78084,
+      "services": 1647,
+      "beneficiaries": 628
+    },
+    {
+      "year": 2022,
+      "payments": 81050,
+      "services": 1355,
+      "beneficiaries": 474
+    },
+    {
+      "year": 2023,
+      "payments": 84900,
+      "services": 1152,
+      "beneficiaries": 608
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 137718,
+      "services": 2613,
+      "markup_ratio": 2.99
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 123946,
+      "services": 2352,
+      "markup_ratio": 2.39
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 110174,
+      "services": 2090,
+      "markup_ratio": 2.56
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 96402,
+      "services": 1829,
+      "markup_ratio": 2.29
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 82631,
+      "services": 1568,
+      "markup_ratio": 3.11
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 68859,
+      "services": 1306,
+      "markup_ratio": 2.44
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 55087,
+      "services": 1045,
+      "markup_ratio": 2.5
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 41315,
+      "services": 784,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 27544,
+      "services": 523,
+      "markup_ratio": 3.01
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 13772,
+      "services": 261,
+      "markup_ratio": 2.66
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9228,
+    "ml_v2_rank": 86,
+    "risk_factors": [
+      "High markup ratio"
+    ]
+  }
+}

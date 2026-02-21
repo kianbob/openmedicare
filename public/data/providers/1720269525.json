@@ -1,0 +1,158 @@
+{
+  "npi": "1720269525",
+  "last_name": "Oei",
+  "first_name": "Joseph",
+  "credentials": "MD",
+  "specialty": "Pain Management",
+  "entity_type": "I",
+  "city": "Houston",
+  "state": "TX",
+  "overall": {
+    "total_payments": 1814882,
+    "total_services": 25672,
+    "total_beneficiaries": 8704,
+    "avg_markup_ratio": 2.77
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 101548,
+      "services": 2079,
+      "beneficiaries": 826
+    },
+    {
+      "year": 2015,
+      "payments": 111051,
+      "services": 2820,
+      "beneficiaries": 921
+    },
+    {
+      "year": 2016,
+      "payments": 120439,
+      "services": 2208,
+      "beneficiaries": 918
+    },
+    {
+      "year": 2017,
+      "payments": 132597,
+      "services": 2339,
+      "beneficiaries": 724
+    },
+    {
+      "year": 2018,
+      "payments": 154075,
+      "services": 2550,
+      "beneficiaries": 760
+    },
+    {
+      "year": 2019,
+      "payments": 161461,
+      "services": 3079,
+      "beneficiaries": 977
+    },
+    {
+      "year": 2020,
+      "payments": 175076,
+      "services": 2582,
+      "beneficiaries": 706
+    },
+    {
+      "year": 2021,
+      "payments": 176607,
+      "services": 2704,
+      "beneficiaries": 885
+    },
+    {
+      "year": 2022,
+      "payments": 193337,
+      "services": 2366,
+      "beneficiaries": 880
+    },
+    {
+      "year": 2023,
+      "payments": 212214,
+      "services": 2123,
+      "beneficiaries": 999
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 329978,
+      "services": 4668,
+      "markup_ratio": 2.34
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 296981,
+      "services": 4201,
+      "markup_ratio": 2.37
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 263983,
+      "services": 3734,
+      "markup_ratio": 2.89
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 230985,
+      "services": 3267,
+      "markup_ratio": 2.47
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 197987,
+      "services": 2801,
+      "markup_ratio": 2.23
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 164989,
+      "services": 2334,
+      "markup_ratio": 2.77
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 131991,
+      "services": 1867,
+      "markup_ratio": 2.55
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 98994,
+      "services": 1400,
+      "markup_ratio": 3.04
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 65996,
+      "services": 934,
+      "markup_ratio": 3.3
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 32998,
+      "services": 467,
+      "markup_ratio": 2.72
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9078,
+    "ml_v2_rank": 176,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing"
+    ]
+  }
+}

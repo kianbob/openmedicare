@@ -1,0 +1,157 @@
+{
+  "npi": "1568548345",
+  "last_name": "Bradford",
+  "first_name": "Arthur",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Charlotte",
+  "state": "NC",
+  "overall": {
+    "total_payments": 1448316,
+    "total_services": 17486,
+    "total_beneficiaries": 6934,
+    "avg_markup_ratio": 1.9
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 75506,
+      "services": 1633,
+      "beneficiaries": 791
+    },
+    {
+      "year": 2015,
+      "payments": 87554,
+      "services": 1754,
+      "beneficiaries": 573
+    },
+    {
+      "year": 2016,
+      "payments": 92646,
+      "services": 1756,
+      "beneficiaries": 597
+    },
+    {
+      "year": 2017,
+      "payments": 103285,
+      "services": 1517,
+      "beneficiaries": 695
+    },
+    {
+      "year": 2018,
+      "payments": 121145,
+      "services": 2057,
+      "beneficiaries": 779
+    },
+    {
+      "year": 2019,
+      "payments": 130780,
+      "services": 1535,
+      "beneficiaries": 778
+    },
+    {
+      "year": 2020,
+      "payments": 131791,
+      "services": 1911,
+      "beneficiaries": 666
+    },
+    {
+      "year": 2021,
+      "payments": 149603,
+      "services": 2080,
+      "beneficiaries": 744
+    },
+    {
+      "year": 2022,
+      "payments": 157232,
+      "services": 2046,
+      "beneficiaries": 719
+    },
+    {
+      "year": 2023,
+      "payments": 171099,
+      "services": 2039,
+      "beneficiaries": 812
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 263330,
+      "services": 3179,
+      "markup_ratio": 2.02
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 236997,
+      "services": 2861,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 210664,
+      "services": 2543,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 184331,
+      "services": 2225,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 157998,
+      "services": 1908,
+      "markup_ratio": 2.16
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 131665,
+      "services": 1590,
+      "markup_ratio": 2.01
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 105332,
+      "services": 1272,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 78999,
+      "services": 954,
+      "markup_ratio": 2.24
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 52666,
+      "services": 636,
+      "markup_ratio": 2.04
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 26333,
+      "services": 318,
+      "markup_ratio": 1.97
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8737,
+    "ml_v2_rank": 443,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

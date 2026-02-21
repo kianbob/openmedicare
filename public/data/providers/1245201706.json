@@ -1,0 +1,157 @@
+{
+  "npi": "1245201706",
+  "last_name": "Corey",
+  "first_name": "Donald",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Philadelphia",
+  "state": "PA",
+  "overall": {
+    "total_payments": 804029,
+    "total_services": 10212,
+    "total_beneficiaries": 4575,
+    "avg_markup_ratio": 1.8
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 43012,
+      "services": 1015,
+      "beneficiaries": 488
+    },
+    {
+      "year": 2015,
+      "payments": 50509,
+      "services": 1138,
+      "beneficiaries": 533
+    },
+    {
+      "year": 2016,
+      "payments": 53237,
+      "services": 971,
+      "beneficiaries": 370
+    },
+    {
+      "year": 2017,
+      "payments": 62146,
+      "services": 997,
+      "beneficiaries": 410
+    },
+    {
+      "year": 2018,
+      "payments": 65545,
+      "services": 917,
+      "beneficiaries": 453
+    },
+    {
+      "year": 2019,
+      "payments": 68000,
+      "services": 1102,
+      "beneficiaries": 515
+    },
+    {
+      "year": 2020,
+      "payments": 78356,
+      "services": 1021,
+      "beneficiaries": 544
+    },
+    {
+      "year": 2021,
+      "payments": 80842,
+      "services": 1007,
+      "beneficiaries": 431
+    },
+    {
+      "year": 2022,
+      "payments": 89622,
+      "services": 1009,
+      "beneficiaries": 401
+    },
+    {
+      "year": 2023,
+      "payments": 93503,
+      "services": 1038,
+      "beneficiaries": 498
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 146187,
+      "services": 1857,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 131568,
+      "services": 1671,
+      "markup_ratio": 1.96
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 116950,
+      "services": 1485,
+      "markup_ratio": 1.51
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 102331,
+      "services": 1300,
+      "markup_ratio": 1.78
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 87712,
+      "services": 1114,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 73094,
+      "services": 928,
+      "markup_ratio": 2.12
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 58475,
+      "services": 743,
+      "markup_ratio": 1.98
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 43856,
+      "services": 557,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 29237,
+      "services": 371,
+      "markup_ratio": 1.48
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 14619,
+      "services": 186,
+      "markup_ratio": 1.91
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8948,
+    "ml_v2_rank": 192,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

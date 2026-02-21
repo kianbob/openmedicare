@@ -1,0 +1,158 @@
+{
+  "npi": "1336585132",
+  "last_name": "Xu",
+  "first_name": "Lai",
+  "credentials": "MD",
+  "specialty": "Hematology-Oncology",
+  "entity_type": "I",
+  "city": "Chicago",
+  "state": "IL",
+  "overall": {
+    "total_payments": 934410,
+    "total_services": 21936,
+    "total_beneficiaries": 8294,
+    "avg_markup_ratio": 3.23
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 46835,
+      "services": 1778,
+      "beneficiaries": 914
+    },
+    {
+      "year": 2015,
+      "payments": 52953,
+      "services": 1855,
+      "beneficiaries": 782
+    },
+    {
+      "year": 2016,
+      "payments": 64573,
+      "services": 2087,
+      "beneficiaries": 664
+    },
+    {
+      "year": 2017,
+      "payments": 66358,
+      "services": 1892,
+      "beneficiaries": 872
+    },
+    {
+      "year": 2018,
+      "payments": 73422,
+      "services": 2357,
+      "beneficiaries": 823
+    },
+    {
+      "year": 2019,
+      "payments": 80574,
+      "services": 2579,
+      "beneficiaries": 952
+    },
+    {
+      "year": 2020,
+      "payments": 87554,
+      "services": 2261,
+      "beneficiaries": 780
+    },
+    {
+      "year": 2021,
+      "payments": 92983,
+      "services": 2040,
+      "beneficiaries": 772
+    },
+    {
+      "year": 2022,
+      "payments": 98388,
+      "services": 2345,
+      "beneficiaries": 800
+    },
+    {
+      "year": 2023,
+      "payments": 109158,
+      "services": 2417,
+      "beneficiaries": 853
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 169893,
+      "services": 3988,
+      "markup_ratio": 3.13
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 152904,
+      "services": 3590,
+      "markup_ratio": 3.14
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 135914,
+      "services": 3191,
+      "markup_ratio": 3.32
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 118925,
+      "services": 2792,
+      "markup_ratio": 3.59
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 101936,
+      "services": 2393,
+      "markup_ratio": 3.48
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 84946,
+      "services": 1994,
+      "markup_ratio": 3.7
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 67957,
+      "services": 1595,
+      "markup_ratio": 3.21
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 50968,
+      "services": 1197,
+      "markup_ratio": 3.73
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 33979,
+      "services": 798,
+      "markup_ratio": 3.36
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 16989,
+      "services": 399,
+      "markup_ratio": 3.4
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8997,
+    "ml_v2_rank": 246,
+    "risk_factors": [
+      "High markup ratio",
+      "Extreme markup"
+    ]
+  }
+}

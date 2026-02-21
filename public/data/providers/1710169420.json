@@ -1,0 +1,158 @@
+{
+  "npi": "1710169420",
+  "last_name": "Coleman",
+  "first_name": "Robert",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Jackson",
+  "state": "MS",
+  "overall": {
+    "total_payments": 2286469,
+    "total_services": 35936,
+    "total_beneficiaries": 15566,
+    "avg_markup_ratio": 2.22
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 127407,
+      "services": 3469,
+      "beneficiaries": 1517
+    },
+    {
+      "year": 2015,
+      "payments": 148159,
+      "services": 3508,
+      "beneficiaries": 1328
+    },
+    {
+      "year": 2016,
+      "payments": 161390,
+      "services": 3961,
+      "beneficiaries": 1553
+    },
+    {
+      "year": 2017,
+      "payments": 178972,
+      "services": 4252,
+      "beneficiaries": 1736
+    },
+    {
+      "year": 2018,
+      "payments": 188697,
+      "services": 3589,
+      "beneficiaries": 1719
+    },
+    {
+      "year": 2019,
+      "payments": 206454,
+      "services": 3558,
+      "beneficiaries": 1759
+    },
+    {
+      "year": 2020,
+      "payments": 224238,
+      "services": 3342,
+      "beneficiaries": 1465
+    },
+    {
+      "year": 2021,
+      "payments": 229612,
+      "services": 3844,
+      "beneficiaries": 1635
+    },
+    {
+      "year": 2022,
+      "payments": 236458,
+      "services": 3637,
+      "beneficiaries": 1585
+    },
+    {
+      "year": 2023,
+      "payments": 255623,
+      "services": 3025,
+      "beneficiaries": 1570
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 415722,
+      "services": 6534,
+      "markup_ratio": 2.62
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 374149,
+      "services": 5880,
+      "markup_ratio": 2.37
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 332577,
+      "services": 5227,
+      "markup_ratio": 2
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 291005,
+      "services": 4574,
+      "markup_ratio": 2.26
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 249433,
+      "services": 3920,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 207861,
+      "services": 3267,
+      "markup_ratio": 2.16
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 166289,
+      "services": 2614,
+      "markup_ratio": 2.02
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 124716,
+      "services": 1960,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 83144,
+      "services": 1307,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 41572,
+      "services": 653,
+      "markup_ratio": 2.1
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9141,
+    "ml_v2_rank": 107,
+    "risk_factors": [
+      "7-figure billing",
+      "Multi-million billing"
+    ]
+  }
+}

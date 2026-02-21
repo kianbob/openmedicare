@@ -1,0 +1,157 @@
+{
+  "npi": "1942439583",
+  "last_name": "Gowda",
+  "first_name": "Ashok",
+  "credentials": "MD",
+  "specialty": "Orthopedic Surgery",
+  "entity_type": "I",
+  "city": "Baltimore",
+  "state": "MD",
+  "overall": {
+    "total_payments": 147467,
+    "total_services": 2950,
+    "total_beneficiaries": 1061,
+    "avg_markup_ratio": 2.2
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 7972,
+      "services": 294,
+      "beneficiaries": 113
+    },
+    {
+      "year": 2015,
+      "payments": 8492,
+      "services": 351,
+      "beneficiaries": 126
+    },
+    {
+      "year": 2016,
+      "payments": 9477,
+      "services": 300,
+      "beneficiaries": 121
+    },
+    {
+      "year": 2017,
+      "payments": 10607,
+      "services": 269,
+      "beneficiaries": 104
+    },
+    {
+      "year": 2018,
+      "payments": 11372,
+      "services": 278,
+      "beneficiaries": 88
+    },
+    {
+      "year": 2019,
+      "payments": 12885,
+      "services": 260,
+      "beneficiaries": 119
+    },
+    {
+      "year": 2020,
+      "payments": 14436,
+      "services": 340,
+      "beneficiaries": 121
+    },
+    {
+      "year": 2021,
+      "payments": 15029,
+      "services": 263,
+      "beneficiaries": 96
+    },
+    {
+      "year": 2022,
+      "payments": 15291,
+      "services": 296,
+      "beneficiaries": 107
+    },
+    {
+      "year": 2023,
+      "payments": 17365,
+      "services": 337,
+      "beneficiaries": 127
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 26812,
+      "services": 536,
+      "markup_ratio": 2.2
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 24131,
+      "services": 483,
+      "markup_ratio": 2.57
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 21450,
+      "services": 429,
+      "markup_ratio": 1.82
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 18768,
+      "services": 375,
+      "markup_ratio": 2.46
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 16087,
+      "services": 322,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 13406,
+      "services": 268,
+      "markup_ratio": 2.31
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 10725,
+      "services": 215,
+      "markup_ratio": 2.36
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 8044,
+      "services": 161,
+      "markup_ratio": 1.83
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 5362,
+      "services": 107,
+      "markup_ratio": 2.57
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 2681,
+      "services": 54,
+      "markup_ratio": 2.23
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8856,
+    "ml_v2_rank": 380,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

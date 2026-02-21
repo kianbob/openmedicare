@@ -1,0 +1,157 @@
+{
+  "npi": "1467454843",
+  "last_name": "Beitler",
+  "first_name": "Samuel",
+  "credentials": "MD",
+  "specialty": "Podiatry",
+  "entity_type": "I",
+  "city": "Baltimore",
+  "state": "MD",
+  "overall": {
+    "total_payments": 1298055,
+    "total_services": 26009,
+    "total_beneficiaries": 9830,
+    "avg_markup_ratio": 1.56
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 72808,
+      "services": 2168,
+      "beneficiaries": 1015
+    },
+    {
+      "year": 2015,
+      "payments": 76765,
+      "services": 2106,
+      "beneficiaries": 1097
+    },
+    {
+      "year": 2016,
+      "payments": 86190,
+      "services": 2803,
+      "beneficiaries": 1073
+    },
+    {
+      "year": 2017,
+      "payments": 97515,
+      "services": 2266,
+      "beneficiaries": 1091
+    },
+    {
+      "year": 2018,
+      "payments": 103707,
+      "services": 2759,
+      "beneficiaries": 952
+    },
+    {
+      "year": 2019,
+      "payments": 109255,
+      "services": 2316,
+      "beneficiaries": 820
+    },
+    {
+      "year": 2020,
+      "payments": 118893,
+      "services": 2836,
+      "beneficiaries": 1173
+    },
+    {
+      "year": 2021,
+      "payments": 128591,
+      "services": 2827,
+      "beneficiaries": 862
+    },
+    {
+      "year": 2022,
+      "payments": 136724,
+      "services": 2242,
+      "beneficiaries": 1034
+    },
+    {
+      "year": 2023,
+      "payments": 150943,
+      "services": 3010,
+      "beneficiaries": 1073
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 236010,
+      "services": 4729,
+      "markup_ratio": 1.54
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 212409,
+      "services": 4256,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 188808,
+      "services": 3783,
+      "markup_ratio": 1.41
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 165207,
+      "services": 3310,
+      "markup_ratio": 1.64
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 141606,
+      "services": 2837,
+      "markup_ratio": 1.8
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 118005,
+      "services": 2364,
+      "markup_ratio": 1.51
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 94404,
+      "services": 1892,
+      "markup_ratio": 1.59
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 70803,
+      "services": 1419,
+      "markup_ratio": 1.67
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 47202,
+      "services": 946,
+      "markup_ratio": 1.53
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 23601,
+      "services": 473,
+      "markup_ratio": 1.79
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8932,
+    "ml_v2_rank": 253,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

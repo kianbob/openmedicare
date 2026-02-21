@@ -1,0 +1,157 @@
+{
+  "npi": "1124047428",
+  "last_name": "Desai",
+  "first_name": "Akshay",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "entity_type": "I",
+  "city": "Miami",
+  "state": "FL",
+  "overall": {
+    "total_payments": 800698,
+    "total_services": 20247,
+    "total_beneficiaries": 6529,
+    "avg_markup_ratio": 2.58
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 44090,
+      "services": 1809,
+      "beneficiaries": 730
+    },
+    {
+      "year": 2015,
+      "payments": 45614,
+      "services": 2088,
+      "beneficiaries": 566
+    },
+    {
+      "year": 2016,
+      "payments": 53128,
+      "services": 2283,
+      "beneficiaries": 762
+    },
+    {
+      "year": 2017,
+      "payments": 61794,
+      "services": 2268,
+      "beneficiaries": 620
+    },
+    {
+      "year": 2018,
+      "payments": 62080,
+      "services": 1882,
+      "beneficiaries": 698
+    },
+    {
+      "year": 2019,
+      "payments": 68976,
+      "services": 1754,
+      "beneficiaries": 575
+    },
+    {
+      "year": 2020,
+      "payments": 72541,
+      "services": 1703,
+      "beneficiaries": 563
+    },
+    {
+      "year": 2021,
+      "payments": 81223,
+      "services": 1805,
+      "beneficiaries": 766
+    },
+    {
+      "year": 2022,
+      "payments": 87837,
+      "services": 1999,
+      "beneficiaries": 719
+    },
+    {
+      "year": 2023,
+      "payments": 93973,
+      "services": 2092,
+      "beneficiaries": 715
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 145581,
+      "services": 3681,
+      "markup_ratio": 2.15
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 131023,
+      "services": 3313,
+      "markup_ratio": 2.19
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 116465,
+      "services": 2945,
+      "markup_ratio": 2.21
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 101907,
+      "services": 2577,
+      "markup_ratio": 2.31
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 87349,
+      "services": 2209,
+      "markup_ratio": 2.88
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 72791,
+      "services": 1841,
+      "markup_ratio": 2.95
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 58233,
+      "services": 1473,
+      "markup_ratio": 2.75
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 43674,
+      "services": 1104,
+      "markup_ratio": 2.72
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 29116,
+      "services": 736,
+      "markup_ratio": 2.33
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 14558,
+      "services": 368,
+      "markup_ratio": 3.06
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9223,
+    "ml_v2_rank": 194,
+    "risk_factors": [
+      "High markup ratio"
+    ]
+  }
+}

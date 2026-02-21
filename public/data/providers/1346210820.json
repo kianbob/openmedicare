@@ -1,0 +1,157 @@
+{
+  "npi": "1346210820",
+  "last_name": "Dornfeld",
+  "first_name": "David",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "entity_type": "I",
+  "city": "Newark",
+  "state": "NJ",
+  "overall": {
+    "total_payments": 1016476,
+    "total_services": 24603,
+    "total_beneficiaries": 9754,
+    "avg_markup_ratio": 2.16
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 54527,
+      "services": 2038,
+      "beneficiaries": 1145
+    },
+    {
+      "year": 2015,
+      "payments": 60064,
+      "services": 2398,
+      "beneficiaries": 976
+    },
+    {
+      "year": 2016,
+      "payments": 72784,
+      "services": 2129,
+      "beneficiaries": 831
+    },
+    {
+      "year": 2017,
+      "payments": 77546,
+      "services": 2353,
+      "beneficiaries": 977
+    },
+    {
+      "year": 2018,
+      "payments": 84158,
+      "services": 2887,
+      "beneficiaries": 1120
+    },
+    {
+      "year": 2019,
+      "payments": 92913,
+      "services": 2847,
+      "beneficiaries": 807
+    },
+    {
+      "year": 2020,
+      "payments": 97374,
+      "services": 2570,
+      "beneficiaries": 1078
+    },
+    {
+      "year": 2021,
+      "payments": 105619,
+      "services": 2637,
+      "beneficiaries": 1038
+    },
+    {
+      "year": 2022,
+      "payments": 112965,
+      "services": 2400,
+      "beneficiaries": 1167
+    },
+    {
+      "year": 2023,
+      "payments": 113378,
+      "services": 2324,
+      "beneficiaries": 1111
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 184814,
+      "services": 4473,
+      "markup_ratio": 2.49
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 166332,
+      "services": 4026,
+      "markup_ratio": 2.32
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 147851,
+      "services": 3579,
+      "markup_ratio": 2.33
+    },
+    {
+      "hcpcs_code": "99395",
+      "description": "Preventive visit, 18-39 years",
+      "payments": 129370,
+      "services": 3131,
+      "markup_ratio": 2.32
+    },
+    {
+      "hcpcs_code": "99396",
+      "description": "Preventive visit, 40-64 years",
+      "payments": 110888,
+      "services": 2684,
+      "markup_ratio": 1.95
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 92407,
+      "services": 2237,
+      "markup_ratio": 2.45
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 73926,
+      "services": 1789,
+      "markup_ratio": 2.37
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 55444,
+      "services": 1342,
+      "markup_ratio": 2.49
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 36963,
+      "services": 895,
+      "markup_ratio": 1.87
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 18481,
+      "services": 447,
+      "markup_ratio": 2.2
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.8859,
+    "ml_v2_rank": 373,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

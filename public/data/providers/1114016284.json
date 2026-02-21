@@ -1,0 +1,158 @@
+{
+  "npi": "1114016284",
+  "last_name": "Davis",
+  "first_name": "Allan",
+  "credentials": "MD",
+  "specialty": "Medical Oncology",
+  "entity_type": "I",
+  "city": "Philadelphia",
+  "state": "PA",
+  "overall": {
+    "total_payments": 245974,
+    "total_services": 6636,
+    "total_beneficiaries": 1776,
+    "avg_markup_ratio": 1.92
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "payments": 13798,
+      "services": 770,
+      "beneficiaries": 157
+    },
+    {
+      "year": 2015,
+      "payments": 15488,
+      "services": 724,
+      "beneficiaries": 148
+    },
+    {
+      "year": 2016,
+      "payments": 15606,
+      "services": 566,
+      "beneficiaries": 211
+    },
+    {
+      "year": 2017,
+      "payments": 17937,
+      "services": 599,
+      "beneficiaries": 154
+    },
+    {
+      "year": 2018,
+      "payments": 19793,
+      "services": 573,
+      "beneficiaries": 204
+    },
+    {
+      "year": 2019,
+      "payments": 21576,
+      "services": 598,
+      "beneficiaries": 195
+    },
+    {
+      "year": 2020,
+      "payments": 22274,
+      "services": 601,
+      "beneficiaries": 213
+    },
+    {
+      "year": 2021,
+      "payments": 25764,
+      "services": 699,
+      "beneficiaries": 194
+    },
+    {
+      "year": 2022,
+      "payments": 25782,
+      "services": 561,
+      "beneficiaries": 187
+    },
+    {
+      "year": 2023,
+      "payments": 28244,
+      "services": 747,
+      "beneficiaries": 176
+    }
+  ],
+  "top_procedures": [
+    {
+      "hcpcs_code": "99213",
+      "description": "Office visit, established patient, low complexity",
+      "payments": 44723,
+      "services": 1207,
+      "markup_ratio": 1.92
+    },
+    {
+      "hcpcs_code": "99214",
+      "description": "Office visit, established patient, moderate complexity",
+      "payments": 40250,
+      "services": 1086,
+      "markup_ratio": 2.14
+    },
+    {
+      "hcpcs_code": "99215",
+      "description": "Office visit, established patient, high complexity",
+      "payments": 35778,
+      "services": 965,
+      "markup_ratio": 2.25
+    },
+    {
+      "hcpcs_code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "payments": 31306,
+      "services": 845,
+      "markup_ratio": 2.05
+    },
+    {
+      "hcpcs_code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "payments": 26834,
+      "services": 724,
+      "markup_ratio": 1.63
+    },
+    {
+      "hcpcs_code": "93000",
+      "description": "Electrocardiogram, complete",
+      "payments": 22361,
+      "services": 603,
+      "markup_ratio": 1.65
+    },
+    {
+      "hcpcs_code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "payments": 17889,
+      "services": 483,
+      "markup_ratio": 2.03
+    },
+    {
+      "hcpcs_code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "payments": 13417,
+      "services": 362,
+      "markup_ratio": 1.69
+    },
+    {
+      "hcpcs_code": "85025",
+      "description": "Complete blood count with differential",
+      "payments": 8945,
+      "services": 241,
+      "markup_ratio": 2.24
+    },
+    {
+      "hcpcs_code": "36415",
+      "description": "Venipuncture for blood draw",
+      "payments": 4472,
+      "services": 121,
+      "markup_ratio": 1.68
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9081,
+    "ml_v2_rank": 139,
+    "risk_factors": [
+      "High services/patient",
+      "Volume-driven pattern"
+    ]
+  }
+}
