@@ -112,13 +112,23 @@ export default function MethodologyPage() {
               In addition to our statistical approach, we developed a <strong>supervised machine learning model</strong> trained
               on confirmed fraudsters — providers who have been indicted by the DOJ, excluded by the HHS OIG
               (<a href="https://oig.hhs.gov/exclusions/" className="text-medicare-primary hover:underline">LEIE database</a>),
-              or who settled False Claims Act cases. This gives us over 8,300 real positive labels.
+              or who settled False Claims Act cases.
             </p>
+
+            <h3 className="text-xl font-semibold text-gray-800 mt-6">Model Details</h3>
+            <ul>
+              <li><strong>Algorithm:</strong> Random Forest classifier</li>
+              <li><strong>Training labels:</strong> 2,198 confirmed fraudsters (LEIE exclusions + DOJ charges)</li>
+              <li><strong>Providers scored:</strong> 1,719,625 active Medicare providers</li>
+              <li><strong>AUC:</strong> 0.83 — the model correctly ranks a random fraudster above a random legitimate provider 83% of the time</li>
+              <li><strong>Flagged:</strong> 500 providers scored above the 86% fraud-match threshold</li>
+            </ul>
+
             <p className="mt-3">
-              The model (Random Forest classifier) learns what billing patterns caught fraudsters share, then
-              scores all 1.7 million active providers on how closely they resemble confirmed criminals. The result
-              is a &quot;fraud match probability&quot; — not proof of fraud, but a measure of how similar a provider&apos;s
-              billing looks to people who were actually convicted.
+              The model learns what billing patterns caught fraudsters share — volume anomalies, markup ratios,
+              specialty concentration, geographic signals, beneficiary patterns — then scores every active provider
+              on how closely they resemble confirmed criminals. The result is a &quot;fraud match probability&quot; —
+              not proof of fraud, but a statistical measure of resemblance to convicted providers.
             </p>
             <p className="mt-3">
               This approach was validated when our earlier statistical analysis{' '}

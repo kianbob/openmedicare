@@ -19,6 +19,12 @@ function loadSpecialtiesSummary(slug: string): any {
   } catch { return null }
 }
 
+function loadMlV2Results(): any {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'ml-v2-results.json'), 'utf-8'))
+  } catch { return null }
+}
+
 function loadSpecialty(slug: string) {
   try {
     const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'specialties', `${slug}.json`), 'utf-8')
@@ -48,6 +54,12 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
   if (!data) notFound()
 
   const summaryData = loadSpecialtiesSummary(slug)
+
+  // ML v2 flagged providers in this specialty
+  const mlData = loadMlV2Results()
+  const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+  const mlSpecProviders = mlData?.still_out_there?.filter((p: any) => slugify(p.specialty) === slug) || []
+
   const yearly = data.yearly_trends || []
   const totalPayments = yearly.reduce((s: number, y: { payments: number }) => s + y.payments, 0)
 

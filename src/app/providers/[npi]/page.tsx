@@ -125,6 +125,27 @@ function loadTopProviders(): TopProvider[] {
   return []
 }
 
+interface MlFlaggedProvider {
+  npi: string
+  name: string
+  specialty: string
+  state: string
+  fraud_probability: number
+  total_payments: number
+  risk_rank: number
+  top_risk_factors: string[]
+}
+
+function loadMlV2Results(): { still_out_there: MlFlaggedProvider[] } | null {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'data', 'ml-v2-results.json')
+    if (fs.existsSync(filePath)) {
+      return JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+    }
+  } catch {}
+  return null
+}
+
 function loadSpecialtiesData(): any[] {
   try {
     const filePath = path.join(process.cwd(), 'public', 'data', 'specialties.json')
@@ -185,6 +206,10 @@ export default async function ProviderDetailPage({ params }: PageProps) {
   const yearly = raw.yearly_payments || []
   const topProcs = raw.top_procedures || []
   const totalBeneficiaries = yearly.reduce((sum, y) => sum + (y.total_beneficiaries || 0), 0)
+
+  // ML v2 fraud model check
+  const mlData = loadMlV2Results()
+  const mlMatch = mlData?.still_out_there?.find(p => String(p.npi) === npi) || null
 
   // Watchlist check
   const watchlist = loadWatchlist()
@@ -267,6 +292,42 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             </div>
           </div>
         ) : null}
+
+        {/* ML v2 AI Fraud Match Badge */}
+        {mlMatch && (
+          <div className="rounded-lg border-2 border-purple-400 bg-purple-50 p-6 mb-8">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl flex-shrink-0">⚠️</span>
+              <div className="flex-1">
+                <div className="flex flex-wrap items-center gap-3 mb-3">
+                  <h2 className="text-xl font-bold text-gray-900">AI Fraud Match</h2>
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-purple-100 text-purple-800 border border-purple-300">
+                    {(mlMatch.fraud_probability * 100).toFixed(1)}% probability
+                  </span>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-700">
+                    Rank #{mlMatch.risk_rank}
+                  </span>
+                </div>
+                {mlMatch.top_risk_factors && mlMatch.top_risk_factors.length > 0 && (
+                  <ul className="space-y-1 mb-4">
+                    {mlMatch.top_risk_factors.map((factor: string, i: number) => (
+                      <li key={i} className="text-sm text-gray-800 flex items-start gap-2">
+                        <span className="inline-block w-2 h-2 rounded-full mt-1.5 flex-shrink-0 bg-purple-500" />
+                        {factor}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                <Link href="/fraud/still-out-there" className="text-sm font-medium text-purple-700 hover:text-purple-900 underline">
+                  View all ML-flagged providers →
+                </Link>
+                <p className="text-xs text-gray-600 italic mt-2">
+                  ML model prediction — not an accusation of fraud
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Enforcement Status Banner */}
         {raw.enforcement_status && raw.enforcement_status !== 'NO_CHARGES' && (

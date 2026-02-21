@@ -83,7 +83,7 @@ const fraudPages = [
   },
   {
     title: 'Still Out There',
-    description: 'Our ML model trained on 8,300+ confirmed fraudsters identifies providers who bill like criminals but haven\'t been caught yet.',
+    description: 'Our ML model scored 1.7M providers against 2,198 confirmed fraudsters. 500 scored above 86% match. AUC: 0.83.',
     href: '/fraud/still-out-there',
     icon: '🤖',
     color: 'indigo',

@@ -18,6 +18,12 @@ function slugifySpecialty(specialty: string): string {
   return specialty.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 }
 
+function loadMlV2Results(): any {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'ml-v2-results.json'), 'utf-8'))
+  } catch { return null }
+}
+
 function loadState(code: string) {
   try {
     const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'states', `${code}.json`), 'utf-8')
@@ -52,6 +58,10 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
     : (data.top_providers?.reduce((s: number, p: { payments: number }) => s + p.payments, 0) || 0)
   const totalProviders = yearly.length > 0 ? yearly[yearly.length - 1]?.providers || 0 : 0
 
+  // ML v2 flagged providers in this state
+  const mlData = loadMlV2Results()
+  const mlStateProviders = mlData?.still_out_there?.filter((p: any) => p.state === code) || []
+
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
@@ -68,6 +78,37 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
           data={{ stateData: data, stateName: name, code }}
           className="mb-8"
         />
+
+        {/* ML v2 Flagged Providers */}
+        {mlStateProviders.length > 0 && (
+          <div className="bg-purple-50 border-2 border-purple-300 rounded-xl p-6 mb-8">
+            <div className="flex items-start gap-3 mb-4">
+              <span className="text-2xl">⚠️</span>
+              <div>
+                <h2 className="text-xl font-serif font-bold text-gray-900">
+                  {mlStateProviders.length} AI-Flagged Provider{mlStateProviders.length !== 1 ? 's' : ''} in {name}
+                </h2>
+                <p className="text-sm text-gray-600">Providers in this state flagged by the ML v2 fraud detection model</p>
+              </div>
+            </div>
+            <div className="space-y-3 mb-4">
+              {mlStateProviders.slice(0, 3).map((p: any) => (
+                <div key={p.npi} className="flex items-center justify-between bg-white rounded-lg border border-purple-200 px-4 py-3">
+                  <div>
+                    <Link href={`/providers/${p.npi}`} className="text-blue-600 hover:text-blue-800 font-medium">{p.name}</Link>
+                    <span className="text-sm text-gray-500 ml-2">{p.specialty}</span>
+                  </div>
+                  <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-purple-100 text-purple-800">
+                    {(p.fraud_probability * 100).toFixed(1)}%
+                  </span>
+                </div>
+              ))}
+            </div>
+            <Link href="/fraud/still-out-there" className="text-sm font-medium text-purple-700 hover:text-purple-900 underline">
+              View all ML-flagged providers →
+            </Link>
+          </div>
+        )}
 
         {/* Summary Stats */}
         {yearly.length > 0 && (

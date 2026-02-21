@@ -143,6 +143,32 @@ export default function AboutPage() {
             </div>
           </section>
 
+          {/* ML Fraud Detection */}
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
+              Machine Learning Fraud Detection
+            </h2>
+            <div className="prose prose-lg text-gray-700 max-w-none">
+              <p>
+                Beyond statistical outlier detection, we built a <strong>supervised machine learning model</strong> (Random Forest classifier) trained on real confirmed fraudsters. Our training labels come from two sources:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>HHS-OIG LEIE Exclusions:</strong> Providers excluded from federal healthcare programs for fraud, abuse, or other misconduct</li>
+                <li><strong>DOJ Criminal Charges:</strong> Providers indicted or convicted in federal Medicare fraud cases</li>
+              </ul>
+              <p>
+                Combined, these sources give us <strong>2,198 confirmed positive labels</strong> for training. The model learns the billing patterns these fraudsters share — volume anomalies, markup ratios, specialty concentration, geographic signals — and scores all 1,719,625 active Medicare providers on how closely they resemble confirmed criminals.
+              </p>
+              <p>
+                <strong>Results:</strong> The model achieves an <strong>AUC of 0.83</strong>, meaning it correctly ranks a random fraudster above a random legitimate provider 83% of the time. 500 providers scored above the 86% match threshold and are featured on our{' '}
+                <a href="/fraud/still-out-there" className="text-medicare-primary hover:underline">&quot;Still Out There&quot;</a> page.
+              </p>
+              <p>
+                As with all our analysis, a high ML score is not an accusation — it identifies providers whose billing patterns statistically resemble those of confirmed criminals, warranting further review.
+              </p>
+            </div>
+          </section>
+
           {/* Independence Statement */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
