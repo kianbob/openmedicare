@@ -1,0 +1,169 @@
+{
+  "name": "Edd Jones",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Atlanta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 47750.65,
+      "total_services": 1116,
+      "total_beneficiaries": 423,
+      "avg_submitted": 82.76,
+      "avg_paid": 42.79
+    },
+    {
+      "year": 2015,
+      "total_payments": 55709.09,
+      "total_services": 1303,
+      "total_beneficiaries": 494,
+      "avg_submitted": 82.68,
+      "avg_paid": 42.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 63667.53,
+      "total_services": 1489,
+      "total_beneficiaries": 565,
+      "avg_submitted": 82.7,
+      "avg_paid": 42.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 71625.98,
+      "total_services": 1675,
+      "total_beneficiaries": 635,
+      "avg_submitted": 82.7,
+      "avg_paid": 42.76
+    },
+    {
+      "year": 2018,
+      "total_payments": 79584.42,
+      "total_services": 1861,
+      "total_beneficiaries": 706,
+      "avg_submitted": 82.7,
+      "avg_paid": 42.76
+    },
+    {
+      "year": 2019,
+      "total_payments": 79584.42,
+      "total_services": 1861,
+      "total_beneficiaries": 706,
+      "avg_submitted": 82.7,
+      "avg_paid": 42.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 87542.86,
+      "total_services": 2047,
+      "total_beneficiaries": 776,
+      "avg_submitted": 82.72,
+      "avg_paid": 42.77
+    },
+    {
+      "year": 2021,
+      "total_payments": 95501.3,
+      "total_services": 2233,
+      "total_beneficiaries": 847,
+      "avg_submitted": 82.72,
+      "avg_paid": 42.77
+    },
+    {
+      "year": 2022,
+      "total_payments": 103459.74,
+      "total_services": 2419,
+      "total_beneficiaries": 917,
+      "avg_submitted": 82.72,
+      "avg_paid": 42.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 111418.19,
+      "total_services": 2605,
+      "total_beneficiaries": 988,
+      "avg_submitted": 82.72,
+      "avg_paid": 42.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 minutes",
+      "services": 4094,
+      "payments": 175085.72,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 minutes",
+      "services": 3349,
+      "payments": 143251.95,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 minutes",
+      "services": 2605,
+      "payments": 111418.19,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1861,
+      "payments": 79584.42,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 1489,
+      "payments": 63667.53,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 minutes",
+      "services": 1303,
+      "payments": 55709.09,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "90715",
+      "description": "Tdap vaccine",
+      "services": 1116,
+      "payments": 47750.65,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99395",
+      "description": "Preventive visit, established patient, 18-39 years",
+      "services": 930,
+      "payments": 39792.21,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99396",
+      "description": "Preventive visit, established patient, 40-64 years",
+      "services": 930,
+      "payments": 39792.21,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "36415",
+      "description": "Collection of venous blood by venipuncture",
+      "services": 930,
+      "payments": 39792.21,
+      "avg_markup": 2.18
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.947,
+    "ml_v2_rank": 10,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

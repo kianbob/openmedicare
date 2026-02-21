@@ -1,0 +1,169 @@
+{
+  "name": "Michael Hernandez",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Miami",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 72644.21,
+      "total_services": 1304,
+      "total_beneficiaries": 390,
+      "avg_submitted": 118.33,
+      "avg_paid": 55.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 84751.58,
+      "total_services": 1521,
+      "total_beneficiaries": 455,
+      "avg_submitted": 118.35,
+      "avg_paid": 55.72
+    },
+    {
+      "year": 2016,
+      "total_payments": 96858.95,
+      "total_services": 1738,
+      "total_beneficiaries": 520,
+      "avg_submitted": 118.37,
+      "avg_paid": 55.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 108966.32,
+      "total_services": 1955,
+      "total_beneficiaries": 585,
+      "avg_submitted": 118.39,
+      "avg_paid": 55.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 121073.69,
+      "total_services": 2173,
+      "total_beneficiaries": 650,
+      "avg_submitted": 118.35,
+      "avg_paid": 55.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 121073.69,
+      "total_services": 2173,
+      "total_beneficiaries": 650,
+      "avg_submitted": 118.35,
+      "avg_paid": 55.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 133181.05,
+      "total_services": 2390,
+      "total_beneficiaries": 715,
+      "avg_submitted": 118.35,
+      "avg_paid": 55.72
+    },
+    {
+      "year": 2021,
+      "total_payments": 145288.42,
+      "total_services": 2607,
+      "total_beneficiaries": 780,
+      "avg_submitted": 118.37,
+      "avg_paid": 55.73
+    },
+    {
+      "year": 2022,
+      "total_payments": 157395.79,
+      "total_services": 2825,
+      "total_beneficiaries": 845,
+      "avg_submitted": 118.35,
+      "avg_paid": 55.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 169503.16,
+      "total_services": 3042,
+      "total_beneficiaries": 910,
+      "avg_submitted": 118.35,
+      "avg_paid": 55.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 minutes",
+      "services": 4780,
+      "payments": 266362.11,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 minutes",
+      "services": 3911,
+      "payments": 217932.63,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 minutes",
+      "services": 3042,
+      "payments": 169503.16,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2173,
+      "payments": 121073.69,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1738,
+      "payments": 96858.95,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1521,
+      "payments": 84751.58,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1304,
+      "payments": 72644.21,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 1086,
+      "payments": 60536.84,
+      "avg_markup": 2
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 1086,
+      "payments": 60536.84,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 minutes",
+      "services": 1086,
+      "payments": 60536.84,
+      "avg_markup": 2.41
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9508,
+    "ml_v2_rank": 9,
+    "risk_factors": [
+      "7-figure billing"
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Frank Leung",
+  "credentials": "MD",
+  "specialty": "Endocrinology",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 36110.76,
+      "total_services": 832,
+      "total_beneficiaries": 254,
+      "avg_submitted": 92.44,
+      "avg_paid": 43.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 42129.22,
+      "total_services": 971,
+      "total_beneficiaries": 296,
+      "avg_submitted": 92.42,
+      "avg_paid": 43.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 48147.68,
+      "total_services": 1110,
+      "total_beneficiaries": 338,
+      "avg_submitted": 92.4,
+      "avg_paid": 43.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 54166.14,
+      "total_services": 1248,
+      "total_beneficiaries": 380,
+      "avg_submitted": 92.44,
+      "avg_paid": 43.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 60184.6,
+      "total_services": 1387,
+      "total_beneficiaries": 423,
+      "avg_submitted": 92.42,
+      "avg_paid": 43.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 60184.6,
+      "total_services": 1387,
+      "total_beneficiaries": 423,
+      "avg_submitted": 92.42,
+      "avg_paid": 43.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 66203.06,
+      "total_services": 1526,
+      "total_beneficiaries": 465,
+      "avg_submitted": 92.4,
+      "avg_paid": 43.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 72221.52,
+      "total_services": 1665,
+      "total_beneficiaries": 507,
+      "avg_submitted": 92.4,
+      "avg_paid": 43.38
+    },
+    {
+      "year": 2022,
+      "total_payments": 78239.97,
+      "total_services": 1803,
+      "total_beneficiaries": 550,
+      "avg_submitted": 92.42,
+      "avg_paid": 43.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 84258.43,
+      "total_services": 1942,
+      "total_beneficiaries": 592,
+      "avg_submitted": 92.42,
+      "avg_paid": 43.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 minutes",
+      "services": 3052,
+      "payments": 132406.11,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 minutes",
+      "services": 2497,
+      "payments": 108332.27,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 minutes",
+      "services": 1942,
+      "payments": 84258.43,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1c level",
+      "services": 1387,
+      "payments": 60184.6,
+      "avg_markup": 2
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 1110,
+      "payments": 48147.68,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "84443",
+      "description": "Thyroid stimulating hormone (TSH)",
+      "services": 971,
+      "payments": 42129.22,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin blood test",
+      "services": 832,
+      "payments": 36110.76,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "80061",
+      "description": "Lipid panel",
+      "services": 694,
+      "payments": 30092.3,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "36415",
+      "description": "Collection of venous blood by venipuncture",
+      "services": 694,
+      "payments": 30092.3,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office visit, minimal",
+      "services": 694,
+      "payments": 30092.3,
+      "avg_markup": 2.04
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9575,
+    "ml_v2_rank": 4,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}

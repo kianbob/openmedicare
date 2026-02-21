@@ -1,0 +1,169 @@
+{
+  "name": "Tuan Duong",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Garden Grove",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 30991.14,
+      "total_services": 682,
+      "total_beneficiaries": 253,
+      "avg_submitted": 102.47,
+      "avg_paid": 45.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 36156.34,
+      "total_services": 795,
+      "total_beneficiaries": 295,
+      "avg_submitted": 102.56,
+      "avg_paid": 45.48
+    },
+    {
+      "year": 2016,
+      "total_payments": 41321.53,
+      "total_services": 909,
+      "total_beneficiaries": 338,
+      "avg_submitted": 102.51,
+      "avg_paid": 45.46
+    },
+    {
+      "year": 2017,
+      "total_payments": 46486.72,
+      "total_services": 1023,
+      "total_beneficiaries": 380,
+      "avg_submitted": 102.47,
+      "avg_paid": 45.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 51651.91,
+      "total_services": 1136,
+      "total_beneficiaries": 422,
+      "avg_submitted": 102.53,
+      "avg_paid": 45.47
+    },
+    {
+      "year": 2019,
+      "total_payments": 51651.91,
+      "total_services": 1136,
+      "total_beneficiaries": 422,
+      "avg_submitted": 102.53,
+      "avg_paid": 45.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 56817.1,
+      "total_services": 1250,
+      "total_beneficiaries": 464,
+      "avg_submitted": 102.49,
+      "avg_paid": 45.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 61982.29,
+      "total_services": 1363,
+      "total_beneficiaries": 507,
+      "avg_submitted": 102.53,
+      "avg_paid": 45.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 67147.48,
+      "total_services": 1477,
+      "total_beneficiaries": 549,
+      "avg_submitted": 102.51,
+      "avg_paid": 45.46
+    },
+    {
+      "year": 2023,
+      "total_payments": 72312.67,
+      "total_services": 1591,
+      "total_beneficiaries": 591,
+      "avg_submitted": 102.49,
+      "avg_paid": 45.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 minutes",
+      "services": 2500,
+      "payments": 113634.2,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 minutes",
+      "services": 2045,
+      "payments": 92973.43,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 minutes",
+      "services": 1591,
+      "payments": 72312.67,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1136,
+      "payments": 51651.91,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 909,
+      "payments": 41321.53,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 795,
+      "payments": 36156.34,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 682,
+      "payments": 30991.14,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 568,
+      "payments": 25825.95,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 568,
+      "payments": 25825.95,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 minutes",
+      "services": 568,
+      "payments": 25825.95,
+      "avg_markup": 2.4
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9558,
+    "ml_v2_rank": 6,
+    "risk_factors": [
+      "Matches confirmed fraud profile"
+    ]
+  }
+}
