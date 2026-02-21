@@ -7,7 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 22 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 27 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -218,6 +218,51 @@ const investigations = [
     readTime: '16 min read',
     publishedAt: '2026-02-21',
     excerpt: 'One eye injection drug — aflibercept — has cost Medicare $19.7 billion. Drug spending\'s share nearly doubled from 8% to 15%. The pharmaceutical pipeline keeps growing.'
+  },
+  {
+    title: 'Medicare Fraud in 2025: The Biggest Cases and What\'s Changed',
+    description: 'DOJ\'s $14.6B takedown, 324 defendants, and $6.8B in False Claims Act recoveries',
+    href: '/investigations/medicare-fraud-2025',
+    category: 'Investigation',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '2025 was the biggest year for Medicare fraud enforcement in history. The DOJ charged 324 defendants in a $14.6 billion takedown while False Claims Act recoveries hit a record $6.8 billion.'
+  },
+  {
+    title: 'How Much Does Medicare Actually Pay Doctors?',
+    description: 'Average Medicare payment per provider by specialty — from $26K to $384K',
+    href: '/investigations/how-much-does-medicare-pay',
+    category: 'Analysis',
+    readTime: '11 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'The range is enormous: from $26K for nurse practitioners to $384K for ophthalmologists. We break down the fee schedule, markup ratios, and how Medicare compares to private insurance.'
+  },
+  {
+    title: 'How to Look Up Your Doctor\'s Medicare Billing',
+    description: 'A step-by-step guide to searching Medicare provider data',
+    href: '/investigations/medicare-provider-lookup-guide',
+    category: 'Analysis',
+    readTime: '8 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Search by name or NPI, understand payment data, read provider profiles, and learn what fraud flags mean. A complete guide to using OpenMedicare\'s provider lookup tool.'
+  },
+  {
+    title: 'The Most Expensive Medicare Procedures in 2023',
+    description: 'Top 20 procedures by total payments and average cost per service',
+    href: '/investigations/most-expensive-medicare-procedures',
+    category: 'Analysis',
+    readTime: '10 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Office visits dominate by volume at $73B, but drug injections cost thousands per service. Aflibercept, chemotherapy, and cardiac procedures lead per-unit costs.'
+  },
+  {
+    title: 'Medicare Spending by State: A Complete Breakdown',
+    description: 'Every state ranked by total spending, per-provider payments, and markup ratios',
+    href: '/investigations/medicare-spending-by-state',
+    category: 'Analysis',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'California leads total spending at $93B, but Florida leads per-provider at $121K. The gap between highest and lowest per-provider spending is more than 7x.'
   },
 ]
 
