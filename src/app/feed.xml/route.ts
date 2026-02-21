@@ -3,6 +3,13 @@ import { NextResponse } from 'next/server'
 const baseUrl = 'https://openmedicare.vercel.app'
 
 const items = [
+  // Technical Deep-Dive
+  {
+    title: 'How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers',
+    description: 'Technical deep-dive: supervised Random Forest trained on 96M rows of Medicare data and 8,300+ confirmed fraud labels from LEIE/DOJ. AUC 0.83, feature engineering, and lessons learned.',
+    link: '/investigations/how-we-built-the-model',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // AI Analysis
   {
     title: 'The Algorithm Knows: How AI Detects Medicare Fraud Before Humans Do',

@@ -50,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'still-out-there',
     'genetic-testing-fraud',
     'algorithm-knows',
+    'how-we-built-the-model',
   ]
 
   const staticPages = [

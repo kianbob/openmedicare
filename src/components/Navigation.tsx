@@ -26,10 +26,10 @@ const navigation = [
     name: 'Fraud',
     href: '/fraud',
     children: [
+      { name: '🤖 Still Out There (AI)', href: '/fraud/still-out-there', desc: '500 ML-flagged providers' },
       { name: 'Fraud Overview', href: '/fraud', desc: 'Hub for all fraud analysis' },
       { name: 'Fraud Watchlist', href: '/fraud/watchlist', desc: '500 flagged providers' },
       { name: 'Deep Dive Profiles', href: '/fraud/deep-dives', desc: 'Top 20 most suspicious' },
-      { name: 'Still Out There', href: '/fraud/still-out-there', desc: 'ML-flagged providers' },
       { name: 'Impossible Numbers', href: '/fraud/impossible-numbers', desc: '400+ services/day?' },
       { name: 'Report Fraud', href: '/fraud/report', desc: 'OIG hotline & resources' },
     ],
@@ -37,7 +37,14 @@ const navigation = [
   {
     name: 'Investigations',
     href: '/investigations',
-    children: [],
+    children: [
+      { name: '🤖 The Algorithm Knows', href: '/investigations/algorithm-knows', desc: 'How AI detects Medicare fraud' },
+      { name: 'How We Built the Model', href: '/investigations/how-we-built-the-model', desc: 'ML methodology deep dive' },
+      { name: 'Internal Medicine Crisis', href: '/investigations/internal-medicine-crisis', desc: 'Why this specialty leads fraud' },
+      { name: 'Florida & California Fraud', href: '/investigations/florida-california-fraud', desc: 'Two states, one pattern' },
+      { name: 'Million Dollar Flagged', href: '/investigations/million-dollar-flagged', desc: 'The biggest billers flagged' },
+      { name: 'All Investigations', href: '/investigations', desc: 'Full investigation library' },
+    ],
   },
   {
     name: 'Data',

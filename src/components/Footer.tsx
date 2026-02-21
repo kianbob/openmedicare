@@ -14,27 +14,29 @@ const navigation = [
       { name: 'Procedures', href: '/procedures' },
       { name: 'States', href: '/states' },
       { name: 'Specialties', href: '/specialties' },
+      { name: 'Search', href: '/search' },
     ],
   },
   {
     name: 'Fraud Analysis',
     items: [
+      { name: 'Still Out There (AI)', href: '/fraud/still-out-there' },
       { name: 'Fraud Overview', href: '/fraud' },
       { name: 'Fraud Watchlist', href: '/fraud/watchlist' },
       { name: 'Deep Dive Profiles', href: '/fraud/deep-dives' },
-      { name: 'Still Out There', href: '/fraud/still-out-there' },
       { name: 'Impossible Numbers', href: '/fraud/impossible-numbers' },
       { name: 'Report Fraud', href: '/fraud/report' },
     ],
   },
   {
-    name: 'Data & Analysis',
+    name: 'Investigations',
     items: [
-      { name: 'Spending Trends', href: '/trends' },
-      { name: 'Markup Analysis', href: '/markup' },
-      { name: 'Drug Spending', href: '/drug-spending' },
-      { name: 'Rural vs Urban', href: '/rural-urban' },
-      { name: 'Downloads', href: '/downloads' },
+      { name: 'The Algorithm Knows', href: '/investigations/algorithm-knows' },
+      { name: 'How We Built the Model', href: '/investigations/how-we-built-the-model' },
+      { name: 'Internal Medicine Crisis', href: '/investigations/internal-medicine-crisis' },
+      { name: 'Florida & California Fraud', href: '/investigations/florida-california-fraud' },
+      { name: 'Million Dollar Flagged', href: '/investigations/million-dollar-flagged' },
+      { name: 'All Investigations', href: '/investigations' },
     ],
   },
   {
@@ -44,6 +46,7 @@ const navigation = [
       { name: 'Compare', href: '/compare' },
       { name: 'Cost Calculator', href: '/calculator' },
       { name: 'Your Medicare Dollar', href: '/your-medicare-dollar' },
+      { name: 'Downloads', href: '/downloads' },
     ],
   },
   {
@@ -51,7 +54,6 @@ const navigation = [
     items: [
       { name: 'About OpenMedicare', href: '/about' },
       { name: 'Methodology', href: '/methodology' },
-      { name: 'Investigations', href: '/investigations' },
       { name: 'API Docs', href: '/api-docs' },
       { name: 'Updates', href: '/updates' },
     ],
@@ -113,8 +115,16 @@ export default function Footer() {
             <div className="mb-4">
               <strong>Disclaimer:</strong> This site is an independent journalism project. Data analysis and editorial content are not affiliated with or endorsed by CMS or any government agency. All spending figures are based on publicly available Medicare payment records.
             </div>
+            <div className="mb-4">
+              <strong>Sister Sites:</strong>{' '}
+              <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenMedicaid</a>
+              {' · '}
+              <a href="https://www.openfeds.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenFeds</a>
+              {' · '}
+              <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSpending</a>
+            </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
-              <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism.</p>
+              <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
               <div className="mt-2 sm:mt-0">
                 <Link href="/about" className="hover:text-white">Methodology</Link>
                 <span className="mx-2">•</span>

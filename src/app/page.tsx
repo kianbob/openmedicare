@@ -7,6 +7,26 @@ import SourceCitation from '@/components/SourceCitation'
 import StateHeatmap from '@/components/StateHeatmap'
 import NewsletterCTA from '@/components/NewsletterCTA'
 
+function loadTopFlagged() {
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'ml-v2-results.json'), 'utf-8')
+    const data = JSON.parse(raw)
+    const providers = data.still_out_there || []
+    // Top 5 by risk rank
+    const top5 = providers.sort((a: any, b: any) => a.risk_rank - b.risk_rank).slice(0, 5)
+    // Fraud by state counts
+    const stateCounts: Record<string, number> = {}
+    providers.forEach((p: any) => { stateCounts[p.state] = (stateCounts[p.state] || 0) + 1 })
+    const topStates = Object.entries(stateCounts)
+      .sort((a, b) => (b[1] as number) - (a[1] as number))
+      .slice(0, 5)
+      .map(([state, count]) => ({ state, count }))
+    return { top5, topStates, totalFlagged: providers.length }
+  } catch { return { top5: [], topStates: [], totalFlagged: 0 } }
+}
+
+const mlData = loadTopFlagged()
+
 function loadStates() {
   try {
     const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'states.json'), 'utf-8')
@@ -153,9 +173,12 @@ export default function HomePage() {
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
               Follow the Money in Medicare
             </h1>
-            <p className="text-xl sm:text-2xl text-blue-100 mb-8 max-w-4xl mx-auto">
-              Professional data journalism tracking Medicare physician spending across 10 years (2014-2023). 
-              Explore {formatCurrency(keyStats.totalPayments)} in payments to {formatNumber(keyStats.totalProviders)} providers.
+            <p className="text-xl sm:text-2xl text-blue-100 mb-4 max-w-4xl mx-auto">
+              AI trained on 8,300+ convicted fraudsters analyzed 1.7 million Medicare providers.
+            </p>
+            <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
+              Explore {formatCurrency(keyStats.totalPayments)} in payments across 10 years of data (2014-2023). 
+              Our ML model flagged 500 providers who bill like convicted criminals.
             </p>
             
             {/* Search CTA */}
@@ -281,6 +304,92 @@ export default function HomePage() {
                 <p className="text-sm text-gray-600 group-hover:text-gray-900">{finding.description}</p>
               </Link>
             ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Top AI-Flagged Providers */}
+      {mlData.top5.length > 0 && (
+        <div className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
+                🤖 Top AI-Flagged Providers
+              </h2>
+              <p className="text-lg text-gray-600">
+                Highest fraud probability scores from our ML model trained on confirmed fraudsters
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+              {mlData.top5.map((provider: any) => (
+                <Link
+                  key={provider.npi}
+                  href={`/providers/${provider.npi}`}
+                  className="bg-white border border-red-200 rounded-lg p-5 hover:shadow-lg hover:border-red-400 transition-all group"
+                >
+                  <div className="text-xs font-mono text-red-600 mb-1">#{provider.risk_rank}</div>
+                  <div className="font-semibold text-gray-900 group-hover:text-red-700 mb-1 text-sm leading-tight">{provider.name}</div>
+                  <div className="text-xs text-gray-500 mb-3">{provider.specialty} · {provider.state}</div>
+                  <div className="text-2xl font-bold text-red-600 mb-1">
+                    {(provider.fraud_probability * 100).toFixed(1)}%
+                  </div>
+                  <div className="text-xs text-gray-500">fraud probability</div>
+                  <div className="mt-2 pt-2 border-t border-gray-100 text-xs text-gray-600">
+                    {formatCurrency(provider.total_payments)} payments
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+            {/* Fraud by State - Top 5 */}
+            <div className="bg-red-50 rounded-lg p-6">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">🗺️ Most AI-Flagged Providers by State</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
+                {mlData.topStates.map((s: any) => (
+                  <Link key={s.state} href={`/states/${s.state}`} className="text-center bg-white rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <div className="text-2xl font-bold text-red-600">{s.count}</div>
+                    <div className="text-sm font-medium text-gray-900">{s.state}</div>
+                    <div className="text-xs text-gray-500">flagged providers</div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center mt-8">
+              <Link
+                href="/fraud/still-out-there"
+                className="inline-flex items-center px-6 py-3 bg-red-600 text-white font-medium rounded-md hover:bg-red-700 transition-colors"
+              >
+                View All {mlData.totalFlagged} Flagged Providers
+                <ArrowRightIcon className="ml-2 h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Latest Investigation */}
+      <div className="py-16 bg-indigo-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-indigo-700 text-indigo-100 mb-6">
+              Latest Investigation
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold font-playfair mb-4">
+              The Algorithm Knows
+            </h2>
+            <p className="text-lg text-indigo-200 mb-8">
+              How AI detects Medicare fraud before humans do — and what it means for healthcare oversight. 
+              Our model identified patterns invisible to traditional audits.
+            </p>
+            <Link
+              href="/investigations/algorithm-knows"
+              className="inline-flex items-center px-8 py-4 bg-white text-indigo-900 font-medium rounded-md hover:bg-indigo-50 transition-colors"
+            >
+              Read the Investigation
+              <ArrowRightIcon className="ml-2 h-5 w-5" />
+            </Link>
           </div>
         </div>
       </div>
