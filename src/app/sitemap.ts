@@ -46,6 +46,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/payment-gap',
     '/utilization',
     ...investigationSlugs.map(s => `/investigations/${s}`),
+    '/fraud',
+    '/fraud/watchlist',
+    '/fraud/deep-dives',
+    '/fraud/covid-tests',
+    '/fraud/wound-care',
+    '/fraud/upcoding',
+    '/fraud/impossible-numbers',
+    '/fraud/report',
   ]
 
   const staticRoutes: MetadataRoute.Sitemap = staticPages.map((p) => ({

@@ -32,6 +32,20 @@ const navigation = [
     ],
   },
   {
+    name: 'Fraud Analysis',
+    href: '#',
+    children: [
+      { name: 'Overview', href: '/fraud' },
+      { name: 'Watchlist', href: '/fraud/watchlist' },
+      { name: 'Deep Dives', href: '/fraud/deep-dives' },
+      { name: 'COVID Tests', href: '/fraud/covid-tests' },
+      { name: 'Wound Care', href: '/fraud/wound-care' },
+      { name: 'Upcoding', href: '/fraud/upcoding' },
+      { name: 'Impossible Numbers', href: '/fraud/impossible-numbers' },
+      { name: 'Report Fraud', href: '/fraud/report' },
+    ],
+  },
+  {
     name: 'Investigations',
     href: '/investigations',
     children: [],

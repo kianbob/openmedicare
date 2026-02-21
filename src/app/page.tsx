@@ -342,6 +342,49 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* Fraud Analysis CTA */}
+      <div className="py-16 bg-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
+              🚨 Fraud Analysis
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              We flagged 500 providers with statistical billing anomalies. Explore deep-dive profiles,
+              COVID test fraud, wound care schemes, upcoding patterns, and impossible billing volumes.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <Link href="/fraud/watchlist" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="text-red-600 text-2xl mb-3">🔍</div>
+              <h3 className="font-semibold text-gray-900 mb-2">500 Flagged Providers</h3>
+              <p className="text-sm text-gray-600">Search and filter the full watchlist with risk scores, flags, and payment data</p>
+            </Link>
+            <Link href="/fraud/deep-dives" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="text-purple-600 text-2xl mb-3">📋</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Deep Dive Profiles</h3>
+              <p className="text-sm text-gray-600">Detailed fraud analysis of the 20 highest-risk individual providers</p>
+            </Link>
+            <Link href="/fraud/impossible-numbers" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="text-indigo-600 text-2xl mb-3">🧮</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Impossible Numbers</h3>
+              <p className="text-sm text-gray-600">Providers billing 400+ services per working day — could one person do this?</p>
+            </Link>
+          </div>
+
+          <div className="text-center">
+            <Link
+              href="/fraud"
+              className="inline-flex items-center px-8 py-4 bg-red-600 text-white font-medium rounded-md hover:bg-red-700 transition-colors"
+            >
+              Explore Fraud Analysis Hub
+              <ArrowRightIcon className="ml-2 h-5 w-5" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* Source Citation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <SourceCitation 

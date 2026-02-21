@@ -39,6 +39,15 @@ const navigation = [
     ],
   },
   {
+    name: 'Fraud Analysis',
+    items: [
+      { name: 'Fraud Overview', href: '/fraud' },
+      { name: 'Fraud Watchlist', href: '/fraud/watchlist' },
+      { name: 'Deep Dives', href: '/fraud/deep-dives' },
+      { name: 'Report Fraud', href: '/fraud/report' },
+    ],
+  },
+  {
     name: 'About',
     items: [
       { name: 'About Us', href: '/about' },
@@ -131,6 +140,22 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-white">{navigation[3].name}</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation[3].items.map((item) => (
+                    <li key={item.name}>
+                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="mt-10 xl:mt-0">
+            <div className="md:grid md:grid-cols-1 md:gap-8">
+              <div>
+                <h3 className="text-sm font-semibold leading-6 text-white">{navigation[4].name}</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {navigation[4].items.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
