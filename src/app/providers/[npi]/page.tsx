@@ -168,6 +168,63 @@ function getRiskScoreColor(score: number): { bg: string; text: string; border: s
   return { bg: 'bg-blue-100', text: 'text-blue-800', border: 'border-blue-300' }
 }
 
+function getSpecialtyIcon(specialty: string): string {
+  const s = specialty.toLowerCase()
+  if (s.includes('cardio') || s.includes('heart')) return '❤️'
+  if (s.includes('dermat')) return '🧴'
+  if (s.includes('ophthal') || s.includes('optom') || s.includes('eye')) return '👁️'
+  if (s.includes('ortho') || s.includes('bone') || s.includes('physical')) return '🦴'
+  if (s.includes('neuro') || s.includes('brain')) return '🧠'
+  if (s.includes('pediatr') || s.includes('child')) return '👶'
+  if (s.includes('psych') || s.includes('mental')) return '🧠'
+  if (s.includes('surg')) return '🔪'
+  if (s.includes('radiol') || s.includes('imaging')) return '📡'
+  if (s.includes('oncol') || s.includes('cancer')) return '🎗️'
+  if (s.includes('emergency')) return '🚑'
+  if (s.includes('anesthes')) return '💉'
+  if (s.includes('internal') || s.includes('family') || s.includes('general')) return '🩺'
+  if (s.includes('pulmon') || s.includes('lung')) return '🫁'
+  if (s.includes('gastro')) return '🏥'
+  if (s.includes('urol')) return '🏥'
+  if (s.includes('endocrin') || s.includes('diabet')) return '💊'
+  if (s.includes('dent')) return '🦷'
+  if (s.includes('nurse') || s.includes('nursing')) return '👩‍⚕️'
+  if (s.includes('lab') || s.includes('pathol')) return '🔬'
+  if (s.includes('chiroprac')) return '🤲'
+  if (s.includes('podiat') || s.includes('foot')) return '🦶'
+  return '⚕️'
+}
+
+function getSpecialtyColor(specialty: string): { bg: string; border: string; text: string; accent: string } {
+  const s = specialty.toLowerCase()
+  if (s.includes('cardio')) return { bg: 'from-red-600 to-red-800', border: 'border-red-400', text: 'text-red-100', accent: 'bg-red-500' }
+  if (s.includes('neuro') || s.includes('psych')) return { bg: 'from-purple-600 to-purple-800', border: 'border-purple-400', text: 'text-purple-100', accent: 'bg-purple-500' }
+  if (s.includes('ortho') || s.includes('physical')) return { bg: 'from-blue-600 to-blue-800', border: 'border-blue-400', text: 'text-blue-100', accent: 'bg-blue-500' }
+  if (s.includes('surg')) return { bg: 'from-slate-600 to-slate-800', border: 'border-slate-400', text: 'text-slate-100', accent: 'bg-slate-500' }
+  if (s.includes('oncol')) return { bg: 'from-amber-600 to-amber-800', border: 'border-amber-400', text: 'text-amber-100', accent: 'bg-amber-500' }
+  if (s.includes('dermat')) return { bg: 'from-pink-600 to-pink-800', border: 'border-pink-400', text: 'text-pink-100', accent: 'bg-pink-500' }
+  if (s.includes('ophthal')) return { bg: 'from-cyan-600 to-cyan-800', border: 'border-cyan-400', text: 'text-cyan-100', accent: 'bg-cyan-500' }
+  return { bg: 'from-teal-600 to-teal-800', border: 'border-teal-400', text: 'text-teal-100', accent: 'bg-teal-500' }
+}
+
+function getCredentialBadge(credentials: string): { label: string; color: string } | null {
+  if (!credentials) return null
+  const c = credentials.toUpperCase().replace(/[.,]/g, '').trim()
+  if (c.includes('MD') || c === 'M.D.') return { label: 'MD', color: 'bg-blue-600' }
+  if (c.includes('DO') || c === 'D.O.') return { label: 'DO', color: 'bg-indigo-600' }
+  if (c.includes('NP') || c.includes('APRN') || c.includes('CNP')) return { label: 'NP', color: 'bg-green-600' }
+  if (c.includes('PA')) return { label: 'PA', color: 'bg-teal-600' }
+  if (c.includes('DPM')) return { label: 'DPM', color: 'bg-orange-600' }
+  if (c.includes('OD')) return { label: 'OD', color: 'bg-cyan-600' }
+  if (c.includes('DDS') || c.includes('DMD')) return { label: 'DDS', color: 'bg-pink-600' }
+  if (c.includes('PHD')) return { label: 'PhD', color: 'bg-purple-600' }
+  if (c.includes('DC')) return { label: 'DC', color: 'bg-amber-600' }
+  if (c.includes('RN') || c.includes('CNS')) return { label: 'RN', color: 'bg-emerald-600' }
+  if (c.includes('PT') || c.includes('DPT')) return { label: 'PT', color: 'bg-sky-600' }
+  if (c.includes('OT')) return { label: 'OT', color: 'bg-violet-600' }
+  return { label: credentials.split(/[,\s]/)[0], color: 'bg-gray-600' }
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { npi } = await params
   const raw = loadProviderFile(npi)
@@ -245,17 +302,194 @@ export default async function ProviderDetailPage({ params }: PageProps) {
   }
 
   const specialtySlug = slugifySpecialty(raw.specialty)
+  const specColor = getSpecialtyColor(raw.specialty)
+  const specIcon = getSpecialtyIcon(raw.specialty)
+  const credBadge = getCredentialBadge(raw.credentials)
+
+  // Compute specialty rank among peers
+  let specialtyRank = 0
+  let specialtyTotal = 0
+  try {
+    const allSameSpecialty = topProviders.filter(p => p.specialty === raw.specialty)
+    specialtyTotal = allSameSpecialty.length
+    const sorted = [...allSameSpecialty].sort((a, b) => b.total_payments - a.total_payments)
+    const idx = sorted.findIndex(p => String(p.npi) === npi)
+    specialtyRank = idx >= 0 ? idx + 1 : 0
+  } catch {}
+
+  // Detect dramatic yearly payment changes
+  let biggestYoyIncrease: { year: number; pctChange: number } | null = null
+  try {
+    for (let i = 1; i < yearly.length; i++) {
+      if (yearly[i - 1].total_payments > 0) {
+        const pct = ((yearly[i].total_payments - yearly[i - 1].total_payments) / yearly[i - 1].total_payments) * 100
+        if (!biggestYoyIncrease || pct > biggestYoyIncrease.pctChange) {
+          biggestYoyIncrease = { year: yearly[i].year, pctChange: pct }
+        }
+      }
+    }
+    if (biggestYoyIncrease && biggestYoyIncrease.pctChange < 50) biggestYoyIncrease = null
+  } catch {}
+
+  // Key findings
+  const keyFindings: string[] = []
+  try {
+    keyFindings.push(`Billed ${formatCurrency(overall.total_payments)} over ${overall.years_active} year${overall.years_active === 1 ? '' : 's'}`)
+    if (overall.avg_markup_ratio > 1.5) {
+      keyFindings.push(`${overall.avg_markup_ratio}x markup ratio${overall.avg_markup_ratio > 2 ? ' (above median)' : ''}`)
+    }
+    if (mlMatch) {
+      keyFindings.push(`AI fraud probability: ${(mlMatch.fraud_probability * 100).toFixed(1)}%`)
+    }
+    if (watchlistEntry) {
+      keyFindings.push(`Risk score: ${watchlistEntry.risk_score} — flagged for review`)
+    }
+    if (percentile >= 90) {
+      keyFindings.push(`${percentile}th percentile in ${raw.specialty} by payments`)
+    }
+    if (isIndividual && servicesPerDay > 50) {
+      keyFindings.push(`${formatNumber(servicesPerDay)} services/day — ${servicesPerDay > 200 ? 'physically implausible' : 'unusually high'}`)
+    }
+    if (biggestYoyIncrease) {
+      keyFindings.push(`Payments surged ${biggestYoyIncrease.pctChange.toFixed(0)}% in ${biggestYoyIncrease.year}`)
+    }
+    const highMarkupProcs = topProcs.filter(p => p.avg_markup > 3)
+    if (highMarkupProcs.length > 0) {
+      keyFindings.push(`${highMarkupProcs.length} procedure${highMarkupProcs.length > 1 ? 's' : ''} with >3x markup`)
+    }
+  } catch {}
+
+  // Max procedure payment for bar chart scaling
+  const maxProcPayment = topProcs.length > 0 ? Math.max(...topProcs.map(p => p.payments)) : 0
 
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Hero Header */}
+      <div className={`bg-gradient-to-r ${specColor.bg} relative overflow-hidden`}>
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full -translate-y-1/2 translate-x-1/3" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-white rounded-full translate-y-1/2 -translate-x-1/3" />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 relative">
+          <Breadcrumbs 
+            items={[
+              { name: 'Providers', href: '/providers' },
+              { name: raw.name }
+            ]}
+            className="mb-6 [&_a]:text-white/70 [&_a:hover]:text-white [&_span]:text-white/50 [&_li]:text-white/90"
+          />
+          <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-4xl">{specIcon}</span>
+                <div className="flex items-center gap-2 flex-wrap">
+                  {credBadge && (
+                    <span className={`${credBadge.color} text-white text-sm font-bold px-3 py-1 rounded-full shadow-lg`}>
+                      {credBadge.label}
+                    </span>
+                  )}
+                  {raw.entity_type && (
+                    <span className="bg-white/20 text-white/90 text-xs px-2 py-1 rounded-full backdrop-blur-sm">
+                      {raw.entity_type}
+                    </span>
+                  )}
+                </div>
+              </div>
+              <h1 className="text-4xl lg:text-5xl font-bold text-white font-playfair mb-3 drop-shadow-sm">
+                {raw.credentials ? `${raw.name}, ${raw.credentials}` : raw.name}
+              </h1>
+              <div className="flex flex-wrap items-center gap-4 text-white/80 mb-6 text-sm">
+                <div className="flex items-center">
+                  <UserIcon className="h-4 w-4 mr-1.5" />
+                  <span>NPI: {npi}</span>
+                </div>
+                <div className="flex items-center">
+                  <MapPinIcon className="h-4 w-4 mr-1.5" />
+                  <Link href={`/states/${raw.state}`} className="text-white hover:text-white/90 underline decoration-white/40">
+                    {raw.city}, {raw.state}
+                  </Link>
+                </div>
+                <div className="flex items-center">
+                  <CalendarDaysIcon className="h-4 w-4 mr-1.5" />
+                  <span>{overall.years_active} {overall.years_active === 1 ? 'year' : 'years'} of data</span>
+                </div>
+                <Link href={`/specialties/${specialtySlug}`} className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm hover:bg-white/30 transition-colors">
+                  {raw.specialty}
+                </Link>
+              </div>
+              {/* Hero stats */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                {[
+                  { value: formatCurrency(overall.total_payments), label: 'Total Payments', highlight: true },
+                  { value: formatNumber(totalBeneficiaries), label: 'Beneficiaries' },
+                  { value: formatNumber(overall.total_services), label: 'Services' },
+                  { value: `${overall.avg_markup_ratio}x`, label: 'Markup Ratio' },
+                ].map((stat, i) => (
+                  <div key={i} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                    <div className={`text-2xl lg:text-3xl font-bold ${stat.highlight ? 'text-white' : 'text-white/90'}`}>
+                      {stat.value}
+                    </div>
+                    <div className="text-sm text-white/70">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* Peer comparison sidebar */}
+            {medianPayment > 0 && (
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 min-w-[240px] border border-white/20">
+                <h3 className="font-semibold text-white mb-3 text-sm uppercase tracking-wider">Peer Comparison</h3>
+                <div className="text-4xl font-bold text-white mb-1">{percentile}<span className="text-lg text-white/70">th</span></div>
+                <div className="text-sm text-white/70 mb-4">percentile in specialty</div>
+                {/* Visual comparison bar */}
+                <div className="space-y-3">
+                  <div>
+                    <div className="flex justify-between text-xs text-white/70 mb-1">
+                      <span>This provider</span>
+                      <span>{formatCurrency(overall.total_payments)}</span>
+                    </div>
+                    <div className="h-3 bg-white/20 rounded-full overflow-hidden">
+                      <div className="h-full bg-white rounded-full" style={{ width: `${Math.min(100, (overall.total_payments / Math.max(overall.total_payments, medianPayment * 2)) * 100)}%` }} />
+                    </div>
+                  </div>
+                  <div>
+                    <div className="flex justify-between text-xs text-white/70 mb-1">
+                      <span>Specialty median</span>
+                      <span>{formatCurrency(medianPayment)}</span>
+                    </div>
+                    <div className="h-3 bg-white/20 rounded-full overflow-hidden">
+                      <div className="h-full bg-white/50 rounded-full" style={{ width: `${Math.min(100, (medianPayment / Math.max(overall.total_payments, medianPayment * 2)) * 100)}%` }} />
+                    </div>
+                  </div>
+                </div>
+                {specialtyRank > 0 && (
+                  <div className="mt-4 pt-3 border-t border-white/20 text-sm text-white/80">
+                    Rank <span className="font-bold text-white">#{specialtyRank}</span> of {specialtyTotal} in specialty
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumbs 
-          items={[
-            { name: 'Providers', href: '/providers' },
-            { name: raw.name }
-          ]}
-          className="mb-8"
-        />
+
+        {/* Key Findings Summary */}
+        {keyFindings.length > 0 && (
+          <div className="bg-white rounded-xl shadow-md border-l-4 border-medicare-primary p-6 -mt-6 relative z-10 mb-8">
+            <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+              <span className="text-xl">📋</span> Key Findings
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {keyFindings.slice(0, 6).map((finding, i) => (
+                <div key={i} className="flex items-start gap-2 text-sm">
+                  <span className="mt-0.5 w-5 h-5 flex items-center justify-center rounded-full bg-blue-100 text-blue-700 font-bold text-xs flex-shrink-0">{i + 1}</span>
+                  <span className="text-gray-800">{finding}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Fraud Flag Banner */}
         {watchlistEntry ? (
@@ -293,35 +527,77 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         ) : null}
 
-        {/* ML v2 AI Fraud Match Badge */}
+        {/* AI Risk Assessment Card (ML v2) */}
         {mlMatch && (
-          <div className="rounded-lg border-2 border-purple-400 bg-purple-50 p-6 mb-8">
+          <div className="rounded-xl border-2 border-purple-300 bg-gradient-to-br from-purple-50 to-white p-6 mb-8 shadow-sm">
             <div className="flex items-start gap-4">
-              <span className="text-3xl flex-shrink-0">⚠️</span>
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-2xl">
+                🤖
+              </div>
               <div className="flex-1">
-                <div className="flex flex-wrap items-center gap-3 mb-3">
-                  <h2 className="text-xl font-bold text-gray-900">AI Fraud Match</h2>
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-purple-100 text-purple-800 border border-purple-300">
-                    {(mlMatch.fraud_probability * 100).toFixed(1)}% probability
-                  </span>
+                <div className="flex flex-wrap items-center gap-3 mb-4">
+                  <h2 className="text-xl font-bold text-gray-900">AI Risk Assessment</h2>
                   <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-700">
-                    Rank #{mlMatch.risk_rank}
+                    Rank #{mlMatch.risk_rank} of 500
                   </span>
                 </div>
+
+                {/* Fraud probability gauge */}
+                <div className="mb-5">
+                  <div className="flex items-baseline gap-2 mb-2">
+                    <span className="text-3xl font-bold text-purple-900">{(mlMatch.fraud_probability * 100).toFixed(1)}%</span>
+                    <span className="text-sm text-gray-600">fraud probability</span>
+                  </div>
+                  <div className="relative h-5 rounded-full overflow-hidden bg-gradient-to-r from-green-400 via-yellow-400 via-orange-400 to-red-500">
+                    <div className="absolute inset-0 bg-black/10" />
+                    {/* Pointer */}
+                    <div 
+                      className="absolute top-0 h-full w-1 bg-white shadow-lg border border-gray-800 rounded"
+                      style={{ left: `${Math.min(99, mlMatch.fraud_probability * 100)}%` }}
+                    />
+                  </div>
+                  <div className="flex justify-between text-xs text-gray-500 mt-1">
+                    <span>Low risk</span>
+                    <span>Medium</span>
+                    <span>High risk</span>
+                  </div>
+                </div>
+
+                {/* Risk factors */}
                 {mlMatch.top_risk_factors && mlMatch.top_risk_factors.length > 0 && (
-                  <ul className="space-y-1 mb-4">
-                    {mlMatch.top_risk_factors.map((factor: string, i: number) => (
-                      <li key={i} className="text-sm text-gray-800 flex items-start gap-2">
-                        <span className="inline-block w-2 h-2 rounded-full mt-1.5 flex-shrink-0 bg-purple-500" />
-                        {factor}
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="mb-4">
+                    <h3 className="text-sm font-semibold text-gray-700 mb-2">Risk Factors</h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {mlMatch.top_risk_factors.map((factor: string, i: number) => (
+                        <div key={i} className="flex items-start gap-2 text-sm text-gray-800 bg-purple-50 rounded-lg px-3 py-2">
+                          <span className="inline-block w-2 h-2 rounded-full mt-1.5 flex-shrink-0 bg-purple-500" />
+                          {factor}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 )}
-                <Link href="/fraud/still-out-there" className="text-sm font-medium text-purple-700 hover:text-purple-900 underline">
-                  View all ML-flagged providers →
-                </Link>
-                <p className="text-xs text-gray-600 italic mt-2">
+
+                {/* What this means */}
+                <div className="bg-gray-50 rounded-lg p-4 mb-3">
+                  <h3 className="text-sm font-semibold text-gray-700 mb-1">What this means</h3>
+                  <p className="text-sm text-gray-600">
+                    Our machine learning model analyzed billing patterns, service volumes, markup ratios, and peer comparisons 
+                    to estimate a {(mlMatch.fraud_probability * 100).toFixed(1)}% probability that this provider&apos;s billing patterns 
+                    are consistent with known fraud cases. This is ranked #{mlMatch.risk_rank} out of 500 highest-risk providers analyzed.
+                    This is a statistical prediction, not a determination of fraud.
+                  </p>
+                </div>
+
+                <div className="flex flex-wrap gap-4">
+                  <Link href="/fraud/still-out-there" className="text-sm font-medium text-purple-700 hover:text-purple-900 underline">
+                    View all ML-flagged providers →
+                  </Link>
+                  <Link href="/fraud/methodology" className="text-sm font-medium text-gray-600 hover:text-gray-800 underline">
+                    Methodology →
+                  </Link>
+                </div>
+                <p className="text-xs text-gray-500 italic mt-2">
                   ML model prediction — not an accusation of fraud
                 </p>
               </div>
@@ -361,7 +637,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         )}
 
-        {!watchlistEntry && (
+        {!watchlistEntry && !mlMatch && (
           <div className="flex items-center gap-2 mb-6 text-green-700">
             <ShieldCheckIcon className="h-5 w-5" />
             <span className="text-sm font-medium">✓ No flags detected</span>
@@ -434,84 +710,6 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         )}
 
-        {/* Provider Header */}
-        <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
-          <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
-            <div className="flex-1">
-              <h1 className="text-4xl font-bold text-gray-900 font-playfair mb-2">
-                {raw.credentials ? `${raw.name}, ${raw.credentials}` : raw.name}
-              </h1>
-              <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-6">
-                <div className="flex items-center">
-                  <UserIcon className="h-5 w-5 mr-2" />
-                  <span>NPI: {npi}</span>
-                </div>
-                <div className="flex items-center">
-                  <MapPinIcon className="h-5 w-5 mr-2" />
-                  <Link href={`/states/${raw.state}`} className="text-blue-600 hover:text-blue-800">
-                    {raw.city}, {raw.state}
-                  </Link>
-                </div>
-                <div className="flex items-center">
-                  <CalendarDaysIcon className="h-5 w-5 mr-2" />
-                  <span>{overall.years_active} {overall.years_active === 1 ? 'year' : 'years'} of data</span>
-                </div>
-                {raw.entity_type && (
-                  <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">{raw.entity_type}</span>
-                )}
-              </div>
-              
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
-                <div>
-                  <div className="text-3xl font-bold text-medicare-primary">
-                    {formatCurrency(overall.total_payments)}
-                  </div>
-                  <div className="text-sm text-gray-600">Total Medicare Payments</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-gray-900">
-                    {formatNumber(totalBeneficiaries)}
-                  </div>
-                  <div className="text-sm text-gray-600">Total Beneficiaries</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-gray-900">
-                    {formatNumber(overall.total_services)}
-                  </div>
-                  <div className="text-sm text-gray-600">Total Services</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-orange-600">
-                    {overall.avg_markup_ratio}x
-                  </div>
-                  <div className="text-sm text-gray-600">Avg Markup Ratio</div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="mt-6 lg:mt-0 lg:ml-8">
-              <div className="bg-gray-50 rounded-lg p-6 min-w-[200px]">
-                <h3 className="font-semibold text-gray-900 mb-4">Specialty</h3>
-                <Link href={`/specialties/${specialtySlug}`} className="text-lg font-medium text-medicare-primary hover:text-medicare-dark mb-4 block">
-                  {raw.specialty}
-                </Link>
-                
-                {medianPayment > 0 && (
-                  <>
-                    <h4 className="font-semibold text-gray-900 mb-2">Peer Comparison</h4>
-                    <p className="text-sm text-gray-600">
-                      {percentile}th percentile in {raw.specialty}
-                    </p>
-                    <p className="text-xs text-gray-500 mt-1">
-                      Specialty median: {formatCurrency(medianPayment)}
-                    </p>
-                  </>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* AI Overview */}
         <AIOverview
           type="provider"
@@ -521,22 +719,57 @@ export default async function ProviderDetailPage({ params }: PageProps) {
 
         {/* Payment & Services Trend Charts — only show if multiple years */}
         {yearly.length > 1 && (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-          <TrendChart
-            data={yearly.map(y => ({ year: y.year, payments: y.total_payments }))}
-            xDataKey="year"
-            yDataKey="payments"
-            title="Annual Medicare Payments"
-            height={350}
-          />
-          <TrendChart
-            data={yearly.map(y => ({ year: y.year, services: y.total_services }))}
-            xDataKey="year"
-            yDataKey="services"
-            title="Annual Services Provided"
-            height={350}
-          />
-        </div>
+          <>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-4">
+              <TrendChart
+                data={yearly.map(y => ({ year: y.year, payments: y.total_payments }))}
+                xDataKey="year"
+                yDataKey="payments"
+                title="Annual Medicare Payments"
+                height={350}
+              />
+              <TrendChart
+                data={yearly.map(y => ({ year: y.year, services: y.total_services }))}
+                xDataKey="year"
+                yDataKey="services"
+                title="Annual Services Provided"
+                height={350}
+              />
+            </div>
+            {/* Avg Payment Per Service trend */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-4">
+              <TrendChart
+                data={yearly.map(y => ({ year: y.year, avg_per_service: y.total_services > 0 ? Math.round(y.total_payments / y.total_services * 100) / 100 : 0 }))}
+                xDataKey="year"
+                yDataKey="avg_per_service"
+                title="Avg Payment per Service"
+                height={300}
+              />
+              {yearly[0]?.avg_submitted != null && (
+                <TrendChart
+                  data={yearly.map(y => ({ year: y.year, markup: y.avg_paid > 0 ? Math.round((y.avg_submitted / y.avg_paid) * 100) / 100 : 0 }))}
+                  xDataKey="year"
+                  yDataKey="markup"
+                  title="Markup Ratio Over Time"
+                  height={300}
+                />
+              )}
+            </div>
+            {/* Call out dramatic changes */}
+            {biggestYoyIncrease && (
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8 flex items-start gap-3">
+                <span className="text-xl">📈</span>
+                <div>
+                  <p className="font-medium text-amber-900">
+                    Notable: Payments increased {biggestYoyIncrease.pctChange.toFixed(0)}% in {biggestYoyIncrease.year}
+                  </p>
+                  <p className="text-sm text-amber-700">
+                    Year-over-year payment surges can indicate changes in practice volume, new services, or billing pattern shifts.
+                  </p>
+                </div>
+              </div>
+            )}
+          </>
         )}
 
         {/* Submitted vs Paid — the markup gap over time */}
@@ -581,48 +814,90 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         )}
 
-        {/* Top Procedures */}
+        {/* Top Procedures — Visual Bar Chart + Table */}
         {topProcs.length > 0 && (
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-6">
               Top Procedures ({topProcs.length})
             </h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead>
-                  <tr>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Code</th>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
-                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Services</th>
-                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Payments</th>
-                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Avg/Service</th>
-                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Markup</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {topProcs.map((proc) => (
-                    <tr key={proc.code} className="hover:bg-blue-50">
-                      <td className="px-4 py-2">
-                        <Link href={`/procedures/${proc.code}`} className="text-blue-600 hover:text-blue-800 font-mono font-medium">
+            {/* Visual bar chart */}
+            <div className="space-y-3 mb-8">
+              {topProcs.map((proc) => {
+                const pct = maxProcPayment > 0 ? (proc.payments / maxProcPayment) * 100 : 0
+                const isHighMarkup = proc.avg_markup > 3
+                return (
+                  <div key={proc.code} className={`rounded-lg p-3 ${isHighMarkup ? 'bg-red-50 border border-red-200' : 'bg-gray-50'}`}>
+                    <div className="flex items-center justify-between mb-1">
+                      <div className="flex items-center gap-2">
+                        <Link href={`/procedures/${proc.code}`} className="text-blue-600 hover:text-blue-800 font-mono font-medium text-sm">
                           {proc.code}
                         </Link>
-                      </td>
-                      <td className="px-4 py-2 text-sm text-gray-700">{proc.description}</td>
-                      <td className="px-4 py-2 text-right text-gray-600">{formatNumber(proc.services)}</td>
-                      <td className="px-4 py-2 text-right font-medium">{formatCurrency(proc.payments)}</td>
-                      <td className="px-4 py-2 text-right text-gray-600">
-                        {proc.services > 0 ? formatCurrency(proc.payments / proc.services) : '—'}
-                      </td>
-                      <td className="px-4 py-2 text-right">
-                        <span className={`${proc.avg_markup > 3 ? 'text-red-600' : proc.avg_markup > 2 ? 'text-orange-600' : 'text-gray-600'} font-medium`}>
-                          {proc.avg_markup.toFixed(2)}x
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+                        <span className="text-sm text-gray-700 truncate max-w-xs">{proc.description}</span>
+                        {isHighMarkup && (
+                          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-100 text-red-700 border border-red-300">
+                            ⚠ {proc.avg_markup.toFixed(1)}x markup
+                          </span>
+                        )}
+                      </div>
+                      <span className="text-sm font-semibold text-gray-900 whitespace-nowrap ml-2">{formatCurrency(proc.payments)}</span>
+                    </div>
+                    <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
+                      <div
+                        className={`h-full rounded-full transition-all ${isHighMarkup ? 'bg-red-500' : 'bg-blue-500'}`}
+                        style={{ width: `${pct}%` }}
+                      />
+                    </div>
+                    <div className="flex gap-4 mt-1 text-xs text-gray-500">
+                      <span>{formatNumber(proc.services)} services</span>
+                      <span>{proc.services > 0 ? formatCurrency(proc.payments / proc.services) : '—'}/svc</span>
+                      <span className={proc.avg_markup > 3 ? 'text-red-600 font-semibold' : ''}>{proc.avg_markup.toFixed(2)}x markup</span>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
+            {/* Collapsible full table */}
+            <details className="group">
+              <summary className="cursor-pointer text-sm text-blue-600 hover:text-blue-800 font-medium">
+                Show detailed table ▾
+              </summary>
+              <div className="overflow-x-auto mt-4">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead>
+                    <tr>
+                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Code</th>
+                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                      <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Services</th>
+                      <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Payments</th>
+                      <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Avg/Service</th>
+                      <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Markup</th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {topProcs.map((proc) => (
+                      <tr key={proc.code} className={`hover:bg-blue-50 ${proc.avg_markup > 3 ? 'bg-red-50' : ''}`}>
+                        <td className="px-4 py-2">
+                          <Link href={`/procedures/${proc.code}`} className="text-blue-600 hover:text-blue-800 font-mono font-medium">
+                            {proc.code}
+                          </Link>
+                        </td>
+                        <td className="px-4 py-2 text-sm text-gray-700">{proc.description}</td>
+                        <td className="px-4 py-2 text-right text-gray-600">{formatNumber(proc.services)}</td>
+                        <td className="px-4 py-2 text-right font-medium">{formatCurrency(proc.payments)}</td>
+                        <td className="px-4 py-2 text-right text-gray-600">
+                          {proc.services > 0 ? formatCurrency(proc.payments / proc.services) : '—'}
+                        </td>
+                        <td className="px-4 py-2 text-right">
+                          <span className={`${proc.avg_markup > 3 ? 'text-red-600' : proc.avg_markup > 2 ? 'text-orange-600' : 'text-gray-600'} font-medium`}>
+                            {proc.avg_markup.toFixed(2)}x
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </details>
           </div>
         )}
 
@@ -681,7 +956,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Similar Providers */}
+        {/* Similar Providers with visual comparison */}
         {similarProviders.length > 0 && (
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-2">
@@ -690,45 +965,80 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             <p className="text-sm text-gray-500 mb-6">
               Other {raw.specialty} providers in {raw.state} for peer comparison.
             </p>
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead>
-                  <tr>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Provider</th>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Location</th>
-                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Total Payments</th>
-                    <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {similarProviders.map((p) => {
-                    const isFlagged = watchlistNpis.has(String(p.npi))
-                    return (
-                      <tr key={p.npi} className="hover:bg-blue-50">
-                        <td className="px-4 py-3">
-                          <Link href={`/providers/${p.npi}`} className="text-blue-600 hover:text-blue-800 font-medium">
-                            {p.credentials ? `${p.name}, ${p.credentials}` : p.name}
-                          </Link>
-                        </td>
-                        <td className="px-4 py-3 text-sm text-gray-600">{p.city}, {p.state}</td>
-                        <td className="px-4 py-3 text-right font-medium text-gray-900">{formatCurrency(p.total_payments)}</td>
-                        <td className="px-4 py-3 text-center">
-                          {isFlagged ? (
-                            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
-                              ⚠️ Flagged
-                            </span>
-                          ) : (
-                            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                              ✓ Clear
-                            </span>
-                          )}
-                        </td>
-                      </tr>
-                    )
-                  })}
-                </tbody>
-              </table>
+            {/* Visual comparison */}
+            <div className="space-y-3 mb-6">
+              {/* Current provider bar */}
+              <div className="flex items-center gap-3">
+                <div className="w-48 text-sm font-semibold text-gray-900 truncate">{raw.name} (you)</div>
+                <div className="flex-1 h-6 bg-gray-100 rounded-full overflow-hidden">
+                  <div className="h-full bg-blue-600 rounded-full" style={{ width: `${Math.min(100, (overall.total_payments / Math.max(overall.total_payments, ...similarProviders.map(p => p.total_payments))) * 100)}%` }} />
+                </div>
+                <div className="w-24 text-right text-sm font-medium">{formatCurrency(overall.total_payments)}</div>
+              </div>
+              {similarProviders.map((p) => {
+                const maxP = Math.max(overall.total_payments, ...similarProviders.map(sp => sp.total_payments))
+                const isFlagged = watchlistNpis.has(String(p.npi))
+                return (
+                  <div key={p.npi} className="flex items-center gap-3">
+                    <div className="w-48 text-sm text-gray-700 truncate">
+                      <Link href={`/providers/${p.npi}`} className="text-blue-600 hover:text-blue-800">
+                        {p.credentials ? `${p.name}, ${p.credentials}` : p.name}
+                      </Link>
+                      {isFlagged && <span className="ml-1 text-xs text-red-600">⚠️</span>}
+                    </div>
+                    <div className="flex-1 h-6 bg-gray-100 rounded-full overflow-hidden">
+                      <div className="h-full bg-gray-400 rounded-full" style={{ width: `${(p.total_payments / maxP) * 100}%` }} />
+                    </div>
+                    <div className="w-24 text-right text-sm text-gray-600">{formatCurrency(p.total_payments)}</div>
+                  </div>
+                )
+              })}
             </div>
+
+            <details className="group">
+              <summary className="cursor-pointer text-sm text-blue-600 hover:text-blue-800 font-medium">
+                Show detailed table ▾
+              </summary>
+              <div className="overflow-x-auto mt-4">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead>
+                    <tr>
+                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Provider</th>
+                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Location</th>
+                      <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Total Payments</th>
+                      <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {similarProviders.map((p) => {
+                      const isFlagged = watchlistNpis.has(String(p.npi))
+                      return (
+                        <tr key={p.npi} className="hover:bg-blue-50">
+                          <td className="px-4 py-3">
+                            <Link href={`/providers/${p.npi}`} className="text-blue-600 hover:text-blue-800 font-medium">
+                              {p.credentials ? `${p.name}, ${p.credentials}` : p.name}
+                            </Link>
+                          </td>
+                          <td className="px-4 py-3 text-sm text-gray-600">{p.city}, {p.state}</td>
+                          <td className="px-4 py-3 text-right font-medium text-gray-900">{formatCurrency(p.total_payments)}</td>
+                          <td className="px-4 py-3 text-center">
+                            {isFlagged ? (
+                              <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
+                                ⚠️ Flagged
+                              </span>
+                            ) : (
+                              <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                ✓ Clear
+                              </span>
+                            )}
+                          </td>
+                        </tr>
+                      )
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </details>
           </div>
         )}
 
