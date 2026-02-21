@@ -320,7 +320,7 @@ export default function NursePractitionerBoomPage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/nurse-practitioner-boom"
-              title="The Rise of the Nurse Practitioner — OpenMedicare"
+              title="The Rise of the Nurse Practitioner"
             />
 
             <div className="mt-6">

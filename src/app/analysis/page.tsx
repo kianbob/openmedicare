@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Deep Analysis | OpenMedicare',
+  title: 'Deep Analysis',
   description: 'In-depth medicare data analysis and medicare spending analysis. Explore place of service, geographic patterns, cost adjustments, payment gaps, utilization, markup, drug spending, rural vs urban divides, and 10-year trends across 96 million rows of CMS data.',
 }
 

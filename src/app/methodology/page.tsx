@@ -5,7 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Methodology — How We Analyze Medicare Data | OpenMedicare',
+  title: 'Methodology — How We Analyze Medicare Data',
   description: 'Transparent explanation of our data sources, risk score calculations, limitations, and responsible disclosure practices.',
 }
 

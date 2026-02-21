@@ -313,7 +313,7 @@ export default function LabCorpQuestDuopolyPage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/lab-corp-quest-duopoly"
-              title="Two Companies Control America's Lab Testing — OpenMedicare"
+              title="Two Companies Control America's Lab Testing"
             />
 
             <div className="mt-6">

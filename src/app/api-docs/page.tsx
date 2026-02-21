@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { CodeBracketIcon, GlobeAltIcon, ShieldCheckIcon, ClockIcon, DocumentTextIcon } from '@heroicons/react/24/outline'
 
 export const metadata: Metadata = {
-  title: 'API Documentation — OpenMedicare',
+  title: 'API Documentation',
   description: 'Access Medicare spending data via static JSON endpoints. Free, open data API for journalists, researchers, and developers. No authentication required.',
 }
 

@@ -5,7 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'How to Look Up Your Doctor\'s Medicare Billing — OpenMedicare',
+  title: 'How to Look Up Your Doctor\'s Medicare Billing',
   description: 'Step-by-step guide to looking up any doctor\'s Medicare billing history. Search by name or NPI, understand payment data, and spot fraud red flags.',
   keywords: ['medicare provider lookup', 'look up doctor medicare', 'medicare doctor search', 'NPI lookup', 'medicare billing lookup', 'find doctor medicare payments'],
   openGraph: {

@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Rise of Corporate Medicine — OpenMedicare',
+  title: 'The Rise of Corporate Medicine',
   description: 'Organizations now outnumber individuals among Medicare\'s top billers. Lab corporations alone collect billions annually.',
 }
 
@@ -309,7 +309,7 @@ export default function CorporateMedicinePage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/corporate-medicine"
-          title="The Rise of Corporate Medicine — OpenMedicare"
+          title="The Rise of Corporate Medicine"
         />
         <SourceCitation />
       </div>

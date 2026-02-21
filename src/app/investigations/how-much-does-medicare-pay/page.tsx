@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'How Much Does Medicare Actually Pay Doctors? — OpenMedicare',
+  title: 'How Much Does Medicare Actually Pay Doctors?',
   description: 'Average Medicare payment per provider by specialty: from $26K for nurse practitioners to $384K for ophthalmologists. See the full breakdown with real data.',
   keywords: ['how much does medicare pay doctors', 'medicare reimbursement rates', 'medicare payment by specialty', 'medicare fee schedule', 'doctor medicare pay'],
   openGraph: {

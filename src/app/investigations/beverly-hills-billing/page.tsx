@@ -319,7 +319,7 @@ export default function BeverlyHillsBillingPage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/beverly-hills-billing"
-              title="Beverly Hills: America's Most Expensive ZIP Code for Medicare — OpenMedicare"
+              title="Beverly Hills: America's Most Expensive ZIP Code for Medicare"
             />
 
             <div className="mt-6">

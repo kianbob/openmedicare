@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Where Does Your Medicare Dollar Go? — OpenMedicare',
+  title: 'Where Does Your Medicare Dollar Go?',
   description: 'Interactive breakdown of how Medicare spends your tax dollars.',
   openGraph: {
-    title: 'Where Does Your Medicare Dollar Go? — OpenMedicare',
+    title: 'Where Does Your Medicare Dollar Go?',
     description: 'Interactive breakdown of how Medicare spends your tax dollars.',
   },
 }

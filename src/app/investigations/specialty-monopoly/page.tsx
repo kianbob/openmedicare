@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Specialty Monopoly: Where Medicare Money Really Goes — OpenMedicare',
+  title: 'The Specialty Monopoly: Where Medicare Money Really Goes',
   description: '5 specialties account for 33% of all Medicare spending. Inside the concentration of $854 billion in healthcare payments.',
   openGraph: {
     title: 'The Specialty Monopoly: Where Medicare Money Really Goes',
@@ -203,7 +203,7 @@ export default function SpecialtyMonopolyPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.org/investigations/specialty-monopoly" title="The Specialty Monopoly — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/specialty-monopoly" title="The Specialty Monopoly" />
         </div>
         <SourceCitation />
       </div>

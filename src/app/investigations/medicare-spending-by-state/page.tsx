@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'Medicare Spending by State: A Complete Breakdown — OpenMedicare',
+  title: 'Medicare Spending by State: A Complete Breakdown',
   description: 'Full state-by-state breakdown of Medicare spending. California leads with $93B total, but Florida leads per-provider at $121K. Sortable table of all 54 states and territories.',
   keywords: ['medicare spending by state', 'medicare costs by state', 'medicare payments by state', 'state medicare spending', 'medicare state comparison'],
   openGraph: {

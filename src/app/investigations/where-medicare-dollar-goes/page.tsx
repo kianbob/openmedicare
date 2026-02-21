@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'Where Your Medicare Dollar Goes — OpenMedicare',
+  title: 'Where Your Medicare Dollar Goes',
   description: 'Breaking down $854.8 billion in Medicare Part B spending: office visits, surgeries, drugs, diagnostics, and more.',
 }
 
@@ -418,7 +418,7 @@ export default function WhereMedicareDollarGoesPage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/where-medicare-dollar-goes"
-          title="Where Your Medicare Dollar Goes — OpenMedicare"
+          title="Where Your Medicare Dollar Goes"
         />
         <SourceCitation />
       </div>

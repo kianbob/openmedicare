@@ -239,7 +239,7 @@ export default function WoundCareCrisisPage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/wound-care-crisis"
-              title="The Wound Care Industrial Complex — OpenMedicare"
+              title="The Wound Care Industrial Complex"
             />
 
             <div className="mt-6">

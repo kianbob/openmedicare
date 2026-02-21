@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Provider Lookup — OpenMedicare',
+  title: 'Medicare Provider Lookup',
   description: 'Look up any Medicare provider by NPI. Billing history, fraud flags, and peer comparison.',
   openGraph: {
-    title: 'Medicare Provider Lookup — OpenMedicare',
+    title: 'Medicare Provider Lookup',
     description: 'Look up any Medicare provider by NPI. Billing history, fraud flags, and peer comparison.',
   },
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Compare Providers — OpenMedicare',
+  title: 'Compare Providers',
   description: 'Compare Medicare providers side by side — payments, services, specialties, and more.',
 }
 

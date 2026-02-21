@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The $117 Billion Office Visit Economy — OpenMedicare',
+  title: 'The $117 Billion Office Visit Economy',
   description: 'Two billing codes — 99213 and 99214 — account for $117.6 billion in Medicare payments. The upcoding concern is real.',
 }
 
@@ -299,7 +299,7 @@ export default function OfficeVisitEconomyPage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/office-visit-economy"
-          title="The $117 Billion Office Visit Economy — OpenMedicare"
+          title="The $117 Billion Office Visit Economy"
         />
         <SourceCitation />
       </div>

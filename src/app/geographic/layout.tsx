@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Geographic Medicare Spending — OpenMedicare',
+  title: 'Geographic Medicare Spending',
   description: 'Regional variation in Medicare spending. Which states and cities spend the most per beneficiary?',
   openGraph: {
-    title: 'Geographic Medicare Spending — OpenMedicare',
+    title: 'Geographic Medicare Spending',
     description: 'Regional variation in Medicare spending. Which states and cities spend the most per beneficiary?',
   },
 }

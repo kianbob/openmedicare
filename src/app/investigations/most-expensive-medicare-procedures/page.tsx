@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Most Expensive Medicare Procedures in 2023 — OpenMedicare',
+  title: 'The Most Expensive Medicare Procedures in 2023',
   description: 'Top 20 most expensive Medicare procedures by total payments and average cost per service. From office visits to aflibercept injections and chemotherapy.',
   keywords: ['most expensive medicare procedures', 'medicare procedure costs', 'expensive medical procedures medicare', 'medicare billing codes', 'HCPCS codes medicare'],
   openGraph: {

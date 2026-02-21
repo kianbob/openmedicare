@@ -264,7 +264,7 @@ export default function OncologyDrugPipelinePage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/oncology-drug-pipeline"
-              title="The Oncology Drug Pipeline — OpenMedicare"
+              title="The Oncology Drug Pipeline"
             />
 
             <div className="mt-6">

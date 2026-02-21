@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Follow the Drug Money: Medicare's Pharmaceutical Pipeline — OpenMedicare",
+  title: "Follow the Drug Money: Medicare's Pharmaceutical Pipeline",
   description: 'One eye injection drug costs Medicare $19.7 billion. Drug spending doubled its share from 8% to 15% in a decade. Follow the money.',
   openGraph: {
     title: "Follow the Drug Money: Medicare's Pharmaceutical Pipeline",
@@ -243,7 +243,7 @@ export default function DrugMoneyPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.org/investigations/drug-money" title="Follow the Drug Money — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/drug-money" title="Follow the Drug Money" />
         </div>
         <SourceCitation />
       </div>

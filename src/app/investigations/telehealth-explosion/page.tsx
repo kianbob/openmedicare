@@ -285,7 +285,7 @@ export default function TelehealthExplosionPage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/telehealth-explosion"
-              title="The Telehealth Explosion: How COVID Changed Medicare Forever — OpenMedicare"
+              title="The Telehealth Explosion: How COVID Changed Medicare Forever"
             />
 
             <div className="mt-6">

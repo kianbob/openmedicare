@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Anesthesia Markup Scandal — OpenMedicare',
+  title: 'The Anesthesia Markup Scandal',
   description: 'Anesthesiologists charge 15.6x what Medicare actually pays — the highest markup among major medical specialties. An investigation into why.',
 }
 
@@ -404,7 +404,7 @@ export default function AnesthesiaMarkupPage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/anesthesia-markup"
-          title="The Anesthesia Markup Scandal — OpenMedicare"
+          title="The Anesthesia Markup Scandal"
         />
         <SourceCitation />
       </div>

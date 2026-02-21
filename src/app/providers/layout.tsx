@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Provider Directory — OpenMedicare',
+  title: 'Medicare Provider Directory',
   description: 'Search 1.72 million Medicare providers. Payment data, fraud flags, and peer comparisons from 10 years of CMS data.',
   openGraph: {
-    title: 'Medicare Provider Directory — OpenMedicare',
+    title: 'Medicare Provider Directory',
     description: 'Search 1.72 million Medicare providers. Payment data, fraud flags, and peer comparisons from 10 years of CMS data.',
   },
 }

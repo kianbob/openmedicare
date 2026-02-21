@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Impossible Numbers — OpenMedicare',
+  title: 'Impossible Numbers',
   description: "Providers billing physically impossible volumes — 400+ services per day as a single practitioner. The math doesn't add up.",
   alternates: { canonical: '/fraud/impossible-numbers' },
 }

@@ -1,3 +1,4 @@
+import ArticleJsonLd from "@/components/ArticleJsonLd"
 import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -5,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Still Out There: The Providers Who Bill Like Criminals — OpenMedicare',
+  title: 'Still Out There: The Providers Who Bill Like Criminals',
   description: 'Our AI model trained on 8,300+ confirmed Medicare fraudsters found hundreds of providers with identical billing patterns who haven\'t been caught. Here\'s what the algorithm sees.',
   openGraph: {
     title: 'Still Out There: The Providers Who Bill Like Criminals',
@@ -18,6 +19,7 @@ export default function StillOutThereArticle() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <ArticleJsonLd title="Still Out There: The Providers Who Bill Like Criminals" description="AI trained on 8300+ confirmed fraudsters finds providers with identical patterns" url="/investigations/still-out-there" publishedDate="2026-02-21" />
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: 'Still Out There' }]} />
 
         <article className="prose prose-lg max-w-none">
@@ -151,7 +153,7 @@ export default function StillOutThereArticle() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/still-out-there" title="Still Out There: The Providers Who Bill Like Criminals — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/still-out-there" title="Still Out There: The Providers Who Bill Like Criminals" />
         <div className="mt-6">
           <SourceCitation sources={[
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',

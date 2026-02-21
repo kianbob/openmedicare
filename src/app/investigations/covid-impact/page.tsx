@@ -9,7 +9,7 @@ import { TrendChart } from '@/components/Charts'
 import { formatCurrency } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "COVID's Impact on Medicare Spending — OpenMedicare",
+  title: "COVID's Impact on Medicare Spending",
   description: 'How the pandemic caused a 10% drop in Medicare payments in 2020 and reshaped spending patterns.',
 }
 
@@ -103,7 +103,7 @@ export default function CovidImpactPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/covid-impact" title="COVID's Impact on Medicare — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/covid-impact" title="COVID's Impact on Medicare" />
         <SourceCitation />
       </div>
     </main>

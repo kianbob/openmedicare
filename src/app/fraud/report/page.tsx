@@ -5,7 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Report Medicare Fraud — OpenMedicare',
+  title: 'Report Medicare Fraud',
   description: 'How to report Medicare fraud. OIG hotline, False Claims Act whistleblower rewards, and what counts as fraud.',
   alternates: { canonical: '/fraud/report' },
 }
@@ -149,7 +149,7 @@ export default function ReportFraud() {
           </Link>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/fraud/report" title="Report Medicare Fraud — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/fraud/report" title="Report Medicare Fraud" />
         <div className="mt-6">
           <SourceCitation
             sources={['HHS Office of Inspector General', 'Department of Justice, Civil Division', 'False Claims Act (31 U.S.C. §§ 3729–3733)']}

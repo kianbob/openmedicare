@@ -647,7 +647,7 @@ export default function ThreeProvidersPage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/three-providers"
-              title="Three Providers, Three Red Flags — OpenMedicare"
+              title="Three Providers, Three Red Flags"
             />
 
             <div className="mt-6">

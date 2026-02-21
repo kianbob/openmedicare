@@ -299,7 +299,7 @@ export default function FloridaInfectiousDiseasePage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/florida-infectious-disease"
-              title="Florida's Fraud Factory — OpenMedicare"
+              title="Florida's Fraud Factory"
             />
 
             <div className="mt-6">

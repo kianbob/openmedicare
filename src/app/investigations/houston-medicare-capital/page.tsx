@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Houston: America's Medicare Capital — OpenMedicare",
+  title: "Houston: America's Medicare Capital",
   description: 'Houston leads the nation with $9.24 billion in Medicare spending — more than most states. Why the Bayou City dominates American healthcare billing.',
   openGraph: {
     title: "Houston: America's Medicare Capital",
@@ -144,7 +144,7 @@ export default function HoustonMedicareCapitalPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/houston-medicare-capital" title="Houston: America's Medicare Capital — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/houston-medicare-capital" title="Houston: America's Medicare Capital" />
         <SourceCitation />
       </div>
     </main>

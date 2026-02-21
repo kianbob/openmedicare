@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Medicare Drug Pipeline — OpenMedicare',
+  title: 'The Medicare Drug Pipeline',
   description: 'How prescription drug spending in Medicare grew from 11% to nearly 15% of total payments — and which drugs are driving it.',
 }
 
@@ -86,7 +86,7 @@ export default function DrugPipelinePage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/drug-pipeline" title="The Medicare Drug Pipeline — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/drug-pipeline" title="The Medicare Drug Pipeline" />
         <SourceCitation />
       </div>
     </main>

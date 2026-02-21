@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
-  title: 'Updates & Changelog — OpenMedicare',
+  title: 'Updates & Changelog',
   description: 'Timeline of new features, data releases, and investigations on OpenMedicare.',
   alternates: {
     canonical: '/updates',

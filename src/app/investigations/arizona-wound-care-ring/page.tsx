@@ -1,3 +1,4 @@
+import ArticleJsonLd from "@/components/ArticleJsonLd"
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
@@ -82,6 +83,7 @@ export default function ArizonaWoundCareRingPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <ArticleJsonLd title="The Arizona Wound Care Ring" description="$514M billed by 23 nurse practitioners for 2,974 patients" url="/investigations/arizona-wound-care-ring" publishedDate="2026-02-21" />
         <Breadcrumbs
           items={[
             { name: 'Investigations', href: '/investigations' },

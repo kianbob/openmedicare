@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The 10-Year Explosion: How Medicare Spending Grew by $15 Billion — OpenMedicare',
+  title: 'The 10-Year Explosion: How Medicare Spending Grew by $15 Billion',
   description: 'Medicare spending grew 20% in 10 years — from $78B to $94B. COVID crashed it, then it rebounded past pre-pandemic levels. Where is it heading?',
   openGraph: {
     title: 'The 10-Year Explosion: How Medicare Spending Grew by $15 Billion',
@@ -218,7 +218,7 @@ export default function TenYearExplosionPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.org/investigations/ten-year-explosion" title="The 10-Year Explosion — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/ten-year-explosion" title="The 10-Year Explosion" />
         </div>
         <SourceCitation />
       </div>

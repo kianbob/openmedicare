@@ -153,16 +153,14 @@ export default function HomePage() {
             
             {/* Search CTA */}
             <div className="max-w-md mx-auto mb-12">
-              <div className="relative">
+              <Link href="/search" className="block relative group">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" />
                 </div>
-                <input
-                  type="text"
-                  placeholder="Search providers, procedures, or locations..."
-                  className="block w-full pl-10 pr-3 py-4 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-2 focus:ring-white focus:border-white text-lg"
-                />
-              </div>
+                <div className="block w-full pl-10 pr-3 py-4 border border-gray-300 rounded-lg leading-5 bg-white text-gray-500 text-lg text-left group-hover:ring-2 group-hover:ring-white transition-all">
+                  Search providers, procedures, or locations...
+                </div>
+              </Link>
               <Link 
                 href="/lookup"
                 className="inline-block mt-4 text-blue-100 hover:text-white underline text-sm"
@@ -386,7 +384,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
-            <Link href="/watchlist" className="group bg-red-50 hover:bg-red-100 rounded-lg p-6 transition-colors">
+            <Link href="/fraud/watchlist" className="group bg-red-50 hover:bg-red-100 rounded-lg p-6 transition-colors">
               <div className="text-red-600 text-2xl mb-3">🚨</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-red-800">Fraud Watchlist</h3>
               <p className="text-sm text-gray-600">500 providers flagged for billing anomalies</p>

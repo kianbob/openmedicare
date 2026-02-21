@@ -1,3 +1,4 @@
+import ArticleJsonLd from "@/components/ArticleJsonLd"
 import type { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
@@ -8,7 +9,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Medicare's Millionaire Club: The 1% Who Bill the Most — OpenMedicare",
+  title: "Medicare's Millionaire Club: The 1% Who Bill the Most",
   description: 'The average family doctor earns $55K from Medicare. These providers bill $10M+. Inside the millionaire club of Medicare billing.',
   openGraph: {
     title: "Medicare's Millionaire Club: The 1% Who Bill the Most",
@@ -71,6 +72,7 @@ export default function MedicareMillionairesPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
+        <ArticleJsonLd title="Medicare Millionaires" description="Providers who received over $10M from Medicare in a single year" url="/investigations/medicare-millionaires" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: "Medicare's Millionaire Club", href: '/investigations/medicare-millionaires' }
@@ -243,7 +245,7 @@ export default function MedicareMillionairesPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.org/investigations/medicare-millionaires" title="Medicare's Millionaire Club — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/medicare-millionaires" title="Medicare's Millionaire Club" />
         </div>
         <SourceCitation />
       </div>

@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Medicare's Most Expensive Doctors — OpenMedicare",
+  title: "Medicare's Most Expensive Doctors",
   description: 'The top individual providers billing Medicare collect hundreds of millions each. Who are they, and why do they receive so much?',
 }
 
@@ -292,7 +292,7 @@ export default function MedicareBiggestSpendersPage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/medicare-biggest-spenders"
-          title="Medicare's Most Expensive Doctors — OpenMedicare"
+          title="Medicare's Most Expensive Doctors"
         />
         <SourceCitation />
       </div>

@@ -10,11 +10,11 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'Medicare Fraud Analysis Hub — OpenMedicare',
+  title: 'Medicare Fraud Analysis Hub',
   description: 'Explore Medicare fraud patterns detected in $854.8B of physician payment data. Analysis of upcoding, COVID test billing, wound care schemes, and more.',
   alternates: { canonical: '/fraud' },
   openGraph: {
-    title: 'Medicare Fraud Analysis Hub — OpenMedicare',
+    title: 'Medicare Fraud Analysis Hub',
     description: 'Explore Medicare fraud patterns detected in $854.8B of physician payment data. Analysis of upcoding, COVID test billing, wound care schemes, and more.',
     url: 'https://www.openmedicare.org/fraud',
   },
@@ -340,7 +340,7 @@ export default function FraudHub() {
         </div>
 
         <div className="flex flex-wrap items-center gap-4 mb-8">
-          <ShareButtons url="https://www.openmedicare.org/fraud" title="Medicare Fraud Analysis Hub — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/fraud" title="Medicare Fraud Analysis Hub" />
         </div>
 
         <div className="mb-8">

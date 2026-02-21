@@ -1,3 +1,4 @@
+import ArticleJsonLd from "@/components/ArticleJsonLd"
 import type { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
@@ -8,7 +9,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Medicare's Biggest Billers — OpenMedicare",
+  title: "Medicare's Biggest Billers",
   description: 'The 100 providers who received the most Medicare payments in 2023. Lab corporations dominate the top spots.',
 }
 
@@ -26,6 +27,7 @@ export default function BiggestBillersPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
+        <ArticleJsonLd title="The Biggest Billers in Medicare" description="The top 100 highest-paid Medicare providers and what they bill for" url="/investigations/biggest-billers" publishedDate="2026-02-21" />
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: "Medicare's Biggest Billers", href: '/investigations/biggest-billers' }]} />
 
         <article className="prose prose-lg max-w-none">
@@ -86,7 +88,7 @@ export default function BiggestBillersPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/biggest-billers" title="Medicare's Biggest Billers — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/biggest-billers" title="Medicare's Biggest Billers" />
         <SourceCitation />
       </div>
     </main>

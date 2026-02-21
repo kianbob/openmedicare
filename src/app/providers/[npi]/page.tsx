@@ -152,7 +152,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const raw = loadProviderFile(npi)
   const providerName = raw?.name || `Provider ${npi}`
   
-  const title = `${providerName} — Medicare Billing Profile | OpenMedicare`
+  const title = `${providerName} — Medicare Billing Profile`
   const description = raw
     ? `${providerName} (${raw.specialty}) in ${raw.city}, ${raw.state} — ${formatCurrency(raw.overall.total_payments)} in Medicare payments. View billing patterns, procedures, and peer comparisons.`
     : `Medicare payment details for provider ${npi}.`

@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Rural Price Tag — OpenMedicare',
+  title: 'The Rural Price Tag',
   description: 'How Medicare spending differs dramatically between rural and urban America — fewer providers, lower prices, but access gaps.',
 }
 
@@ -84,7 +84,7 @@ export default function RuralPriceTagPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/rural-price-tag" title="The Rural Price Tag — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/rural-price-tag" title="The Rural Price Tag" />
         <SourceCitation />
       </div>
     </main>

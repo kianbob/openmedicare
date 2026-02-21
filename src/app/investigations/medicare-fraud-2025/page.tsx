@@ -1,3 +1,4 @@
+import ArticleJsonLd from "@/components/ArticleJsonLd"
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -5,7 +6,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Medicare Fraud in 2025: The Biggest Cases and What\'s Changed — OpenMedicare',
+  title: 'Medicare Fraud in 2025: The Biggest Cases and What\'s Changed',
   description: 'The DOJ\'s $14.6B takedown, $6.8B in False Claims Act recoveries, and a wound care crackdown — 2025 is a record year for Medicare fraud enforcement. See what our data shows.',
   keywords: ['medicare fraud 2025', 'medicare fraud cases', 'DOJ medicare', 'false claims act medicare', 'medicare fraud crackdown'],
   openGraph: {
@@ -21,6 +22,7 @@ export default function MedicareFraud2025Page() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
+        <ArticleJsonLd title="Medicare Fraud in 2025" description="The state of Medicare fraud enforcement and what the data reveals" url="/investigations/medicare-fraud-2025" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'Medicare Fraud in 2025' }

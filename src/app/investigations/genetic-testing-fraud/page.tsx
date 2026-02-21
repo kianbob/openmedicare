@@ -1,3 +1,4 @@
+import ArticleJsonLd from "@/components/ArticleJsonLd"
 import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -5,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs — OpenMedicare',
+  title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',
   description: 'A former NFL player just got convicted for a $328M genetic testing fraud scheme. But the problem is much bigger — genetic testing has become one of Medicare\'s most exploited billing categories.',
   openGraph: {
     title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',
@@ -18,6 +19,7 @@ export default function GeneticTestingFraud() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <ArticleJsonLd title="The $328M Genetic Testing Scam" description="Former NFL player convicted in genetic testing fraud scheme" url="/investigations/genetic-testing-fraud" publishedDate="2026-02-21" />
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: 'Genetic Testing Fraud' }]} />
 
         <article className="prose prose-lg max-w-none">
@@ -167,7 +169,7 @@ export default function GeneticTestingFraud() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/genetic-testing-fraud" title="The $328M Genetic Testing Scam — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/genetic-testing-fraud" title="The $328M Genetic Testing Scam" />
         <div className="mt-6">
           <SourceCitation sources={[
             'DOJ Press Release: Former NFL Player Convicted (Feb 21, 2026)',

@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Medicare's Pandemic Recovery — OpenMedicare",
+  title: "Medicare's Pandemic Recovery",
   description: 'Medicare spending crashed 10% in 2020, then surged past pre-pandemic levels by 2023. The recovery reshaped healthcare delivery.',
 }
 
@@ -272,7 +272,7 @@ export default function PandemicRecoveryPage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/pandemic-recovery"
-          title="Medicare's Pandemic Recovery — OpenMedicare"
+          title="Medicare's Pandemic Recovery"
         />
         <SourceCitation />
       </div>

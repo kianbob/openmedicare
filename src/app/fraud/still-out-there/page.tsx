@@ -243,7 +243,7 @@ export default function StillOutThere() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/fraud/still-out-there" title="Still Out There: AI-Flagged Medicare Providers — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/fraud/still-out-there" title="Still Out There: AI-Flagged Medicare Providers" />
         <div className="mt-6">
           <SourceCitation sources={[
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',

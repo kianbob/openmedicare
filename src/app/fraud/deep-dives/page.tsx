@@ -342,7 +342,7 @@ export default function DeepDives() {
           </p>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/fraud/deep-dives" title="Fraud Deep Dive Profiles — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/fraud/deep-dives" title="Fraud Deep Dive Profiles" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

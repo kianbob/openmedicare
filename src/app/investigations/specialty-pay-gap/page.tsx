@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Specialty Pay Gap — OpenMedicare',
+  title: 'The Specialty Pay Gap',
   description: 'How Medicare payments vary dramatically across medical specialties — from anesthesiologists earning 15x markups to primary care providers.',
 }
 
@@ -119,7 +119,7 @@ export default function SpecialtyPayGapPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/specialty-pay-gap" title="The Specialty Pay Gap — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/specialty-pay-gap" title="The Specialty Pay Gap" />
         <SourceCitation />
       </div>
     </main>

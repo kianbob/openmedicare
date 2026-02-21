@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Billion-Dollar Eye Care Industry — OpenMedicare',
+  title: 'The Billion-Dollar Eye Care Industry',
   description: 'Aflibercept alone costs Medicare $19.7 billion. Combined with cataracts and other procedures, eye care is one of the costliest corners of Medicare.',
 }
 
@@ -307,7 +307,7 @@ export default function EyeCareBillionsPage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/eye-care-billions"
-          title="The Billion-Dollar Eye Care Industry — OpenMedicare"
+          title="The Billion-Dollar Eye Care Industry"
         />
         <SourceCitation />
       </div>

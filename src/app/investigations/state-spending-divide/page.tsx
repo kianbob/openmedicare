@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The State Spending Divide — OpenMedicare',
+  title: 'The State Spending Divide',
   description: 'California receives $93.2 billion from Medicare while Wyoming gets $1.1 billion. Explore the massive geographic disparities in Medicare spending.',
 }
 
@@ -285,7 +285,7 @@ export default function StateSpendingDividePage() {
 
         <ShareButtons
           url="https://www.openmedicare.org/investigations/state-spending-divide"
-          title="The State Spending Divide — OpenMedicare"
+          title="The State Spending Divide"
         />
         <SourceCitation />
       </div>

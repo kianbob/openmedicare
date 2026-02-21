@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "ZIP Code Lottery: Why Your Medicare Costs Depend on Where You Live — OpenMedicare",
+  title: "ZIP Code Lottery: Why Your Medicare Costs Depend on Where You Live",
   description: 'Medicare pays $121K per provider in Florida but $18K in Puerto Rico. The same system, wildly different costs, depending on your state.',
   openGraph: {
     title: "ZIP Code Lottery: Why Your Medicare Costs Depend on Where You Live",
@@ -259,7 +259,7 @@ export default function GeographicInequalityPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.org/investigations/geographic-inequality" title="ZIP Code Lottery — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/geographic-inequality" title="ZIP Code Lottery" />
         </div>
         <SourceCitation />
       </div>

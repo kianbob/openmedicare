@@ -216,7 +216,7 @@ export default function CovidTestSchemePage() {
 
             <ShareButtons
               url="https://www.openmedicare.org/investigations/covid-test-scheme"
-              title="The COVID Test Gold Rush — OpenMedicare"
+              title="The COVID Test Gold Rush"
             />
 
             <div className="mt-6">

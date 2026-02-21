@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The $2.1 Trillion Writeoff: Why Doctors Charge 4x What They Get Paid — OpenMedicare',
+  title: 'The $2.1 Trillion Writeoff: Why Doctors Charge 4x What They Get Paid',
   description: 'Doctors submitted $3.22 trillion in charges to Medicare over 10 years. Medicare allowed $1.09 trillion. The other $2.14 trillion — 66.3% — was simply written off.',
   openGraph: {
     title: 'The $2.1 Trillion Writeoff',
@@ -223,7 +223,7 @@ export default function TwoTrillionWriteoffPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.org/investigations/two-trillion-writeoff" title="The $2.1 Trillion Writeoff — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/two-trillion-writeoff" title="The $2.1 Trillion Writeoff" />
         <SourceCitation />
       </div>
     </main>
