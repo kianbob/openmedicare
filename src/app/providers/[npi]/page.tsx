@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import fs from 'fs'
+import path from 'path'
 import { ExclamationTriangleIcon, MapPinIcon, UserIcon, CalendarDaysIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
@@ -48,102 +50,69 @@ interface ProviderData {
   }>
 }
 
-// Mock data - will be replaced with real data from /data/providers/{npi}.json
-const mockProviderData: ProviderData = {
-  npi: '1234567890',
-  name: 'Dr. Sarah Johnson',
-  credentials: 'MD',
-  specialty: 'Cardiology',
-  address: {
-    street: '123 Medical Center Dr',
-    city: 'Los Angeles',
-    state: 'CA',
-    zip: '90210'
-  },
-  totalPayments: 2850000,
-  totalServices: 12500,
-  beneficiaries: 3200,
-  years: [2019, 2020, 2021, 2022, 2023],
-  yearlyData: [
-    { year: 2019, payments: 520000, services: 2100, beneficiaries: 580 },
-    { year: 2020, payments: 485000, services: 1950, beneficiaries: 540 },
-    { year: 2021, payments: 580000, services: 2400, beneficiaries: 650 },
-    { year: 2022, payments: 615000, services: 2650, beneficiaries: 720 },
-    { year: 2023, payments: 650000, services: 3400, beneficiaries: 710 }
-  ],
-  topProcedures: [
-    { 
-      code: '93307', 
-      description: 'Echocardiography, transthoracic', 
-      services: 1250, 
-      payments: 425000, 
-      avgCost: 340 
-    },
-    { 
-      code: '93306', 
-      description: 'Echocardiography, complete', 
-      services: 980, 
-      payments: 295000, 
-      avgCost: 301 
-    },
-    { 
-      code: '99213', 
-      description: 'Office visit, established patient', 
-      services: 2100, 
-      payments: 180000, 
-      avgCost: 86 
-    }
-  ],
-  markupRatio: 2.4,
-  peerComparison: {
-    specialty: 'Cardiology',
-    percentile: 75,
-    medianPayment: 485000
-  },
-  riskFlags: [
-    {
-      type: 'High Markup',
-      description: 'Charges 2.4x more than Medicare pays (specialty average: 1.8x)',
-      severity: 'medium'
-    }
-  ]
-}
-
 interface PageProps {
   params: Promise<{ npi: string }>
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { npi } = await params
-  
-  // In a real app, you'd fetch the provider data here
-  const providerName = 'Dr. Sarah Johnson' // This would come from the API
-  
-  return {
-    title: `${providerName} (NPI: ${npi})`,
-    description: `Medicare payment details for ${providerName}. View total payments, procedures, and peer comparisons.`,
-    alternates: {
-      canonical: `/providers/${npi}`,
-    },
-  }
-}
-
-async function loadProviderData(npi: string): Promise<ProviderData | null> {
+function loadProviderFile(npi: string): any | null {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/data/providers/${npi}.json`)
-    if (response.ok) {
-      return response.json()
+    const filePath = path.join(process.cwd(), 'public', 'data', 'providers', `${npi}.json`)
+    if (fs.existsSync(filePath)) {
+      return JSON.parse(fs.readFileSync(filePath, 'utf-8'))
     }
   } catch (error) {
     console.error('Error loading provider data:', error)
   }
-  
-  // Return mock data if real data isn't available yet
-  if (npi === '1234567890') {
-    return mockProviderData
-  }
-  
   return null
+}
+
+function toProviderData(npi: string, raw: any): ProviderData {
+  const overall = raw.overall || {}
+  return {
+    npi,
+    name: raw.name || 'Unknown Provider',
+    credentials: raw.credentials || '',
+    specialty: raw.specialty || 'Unknown',
+    address: { street: '', city: raw.city || '', state: raw.state || '', zip: '' },
+    totalPayments: overall.total_payments || 0,
+    totalServices: overall.total_services || 0,
+    beneficiaries: overall.total_beneficiaries || 0,
+    years: (raw.yearly_payments || []).map((y: any) => y.year),
+    yearlyData: (raw.yearly_payments || []).map((y: any) => ({
+      year: y.year,
+      payments: y.total_payments || 0,
+      services: y.total_services || 0,
+      beneficiaries: y.total_beneficiaries || 0,
+    })),
+    topProcedures: (raw.top_procedures || []).map((p: any) => ({
+      code: p.code,
+      description: p.description || p.code,
+      services: p.services || 0,
+      payments: p.payments || 0,
+      avgCost: p.services ? (p.payments / p.services) : 0,
+    })),
+    markupRatio: overall.avg_markup_ratio || 0,
+    peerComparison: { specialty: raw.specialty || '', percentile: 0, medianPayment: 0 },
+    riskFlags: [],
+  }
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { npi } = await params
+  const raw = loadProviderFile(npi)
+  const providerName = raw?.name || `Provider ${npi}`
+  
+  return {
+    title: `${providerName} (NPI: ${npi}) — OpenMedicare`,
+    description: `Medicare payment details for ${providerName}. View total payments, procedures, and peer comparisons.`,
+    alternates: { canonical: `/providers/${npi}` },
+  }
+}
+
+async function loadProviderData(npi: string): Promise<ProviderData | null> {
+  const raw = loadProviderFile(npi)
+  if (!raw) return null
+  return toProviderData(npi, raw)
 }
 
 export default async function ProviderDetailPage({ params }: PageProps) {
@@ -424,13 +393,14 @@ export default async function ProviderDetailPage({ params }: PageProps) {
 }
 
 export async function generateStaticParams() {
-  // In production, this would fetch the top 200 provider NPIs
-  // For now, return a few sample NPIs
-  return [
-    { npi: '1234567890' },
-    { npi: '1234567891' },
-    { npi: '1234567892' }
-  ]
+  try {
+    const dir = path.join(process.cwd(), 'public', 'data', 'providers')
+    if (!fs.existsSync(dir)) return []
+    const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).slice(0, 200)
+    return files.map(f => ({ npi: f.replace('.json', '') }))
+  } catch {
+    return []
+  }
 }
 
 export const dynamicParams = true
