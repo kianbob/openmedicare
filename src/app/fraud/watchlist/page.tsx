@@ -29,19 +29,49 @@ interface Provider {
   entity_type?: string
 }
 
+interface MlProvider {
+  npi: string
+  fraud_probability: number
+}
+
 type SortKey = 'risk_score' | 'total_payments' | 'avg_markup' | 'name'
 type SortDir = 'asc' | 'desc'
 type TabType = 'individuals' | 'organizations'
 
 function RiskBadge({ score }: { score: number }) {
-  const color = score >= 90 ? 'bg-red-100 text-red-800 border-red-200'
-    : score >= 75 ? 'bg-orange-100 text-orange-800 border-orange-200'
-    : score >= 60 ? 'bg-yellow-100 text-yellow-800 border-yellow-200'
-    : 'bg-green-100 text-green-800 border-green-200'
+  const bg = score >= 90
+    ? 'bg-red-600 text-white shadow-red-200'
+    : score >= 80
+    ? 'bg-red-100 text-red-800 border border-red-300'
+    : score >= 70
+    ? 'bg-orange-100 text-orange-800 border border-orange-300'
+    : score >= 60
+    ? 'bg-yellow-100 text-yellow-800 border border-yellow-300'
+    : 'bg-green-100 text-green-800 border border-green-300'
   return (
-    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold border ${color}`}>
+    <span className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold shadow-sm ${bg}`}>
       {score}
     </span>
+  )
+}
+
+function RiskBar({ score }: { score: number }) {
+  const color = score >= 90
+    ? 'bg-red-500'
+    : score >= 80
+    ? 'bg-red-400'
+    : score >= 70
+    ? 'bg-orange-400'
+    : score >= 60
+    ? 'bg-yellow-400'
+    : 'bg-green-400'
+  return (
+    <div className="flex items-center gap-2">
+      <div className="w-16 h-2 bg-gray-100 rounded-full overflow-hidden">
+        <div className={`h-full rounded-full ${color}`} style={{ width: `${score}%` }} />
+      </div>
+      <RiskBadge score={score} />
+    </div>
   )
 }
 
@@ -50,8 +80,17 @@ function SeverityDot({ severity }: { severity: string }) {
   return <span className={`inline-block w-2 h-2 rounded-full ${color} mr-1`} />
 }
 
+function AiBadge() {
+  return (
+    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-purple-100 text-purple-700 border border-purple-200 whitespace-nowrap">
+      🤖 AI Flagged
+    </span>
+  )
+}
+
 export default function FraudWatchlist() {
   const [providers, setProviders] = useState<Provider[]>([])
+  const [mlNpis, setMlNpis] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
   const [tab, setTab] = useState<TabType>('individuals')
   const [search, setSearch] = useState('')
@@ -61,20 +100,25 @@ export default function FraudWatchlist() {
   const [specialtyFilter, setSpecialtyFilter] = useState('')
 
   useEffect(() => {
-    fetch('/data/watchlist.json')
-      .then(r => r.json())
-      .then(data => { setProviders(data); setLoading(false) })
-      .catch(() => setLoading(false))
+    Promise.all([
+      fetch('/data/watchlist.json').then(r => r.json()),
+      fetch('/data/ml-v2-results.json').then(r => r.json()).catch(() => ({ still_out_there: [] })),
+    ]).then(([watchlist, ml]) => {
+      setProviders(watchlist)
+      const npis = new Set<string>((ml.still_out_there || []).map((p: MlProvider) => String(p.npi)))
+      setMlNpis(npis)
+      setLoading(false)
+    }).catch(() => setLoading(false))
   }, [])
 
-  // Enrich with entity_type heuristic: orgs typically have "Laboratory", "Holdings", etc in name
   const enriched = useMemo(() => providers.map(p => ({
     ...p,
     entity_type: p.entity_type || (
       /\b(laboratory|holdings|corp|inc|llc|group|health system|hospital|clinic|associates|services|center|imaging|radiology lab)\b/i.test(p.name)
         ? 'Organization' : 'Individual'
-    )
-  })), [providers])
+    ),
+    alsoFlaggedByAi: mlNpis.has(String(p.npi)),
+  })), [providers, mlNpis])
 
   const filtered = useMemo(() => {
     const isOrg = tab === 'organizations'
@@ -96,6 +140,7 @@ export default function FraudWatchlist() {
   const specialties = useMemo(() => [...new Set(enriched.map(p => p.specialty))].sort(), [enriched])
   const individualCount = useMemo(() => enriched.filter(p => p.entity_type !== 'Organization').length, [enriched])
   const orgCount = useMemo(() => enriched.filter(p => p.entity_type === 'Organization').length, [enriched])
+  const aiFlaggedCount = useMemo(() => enriched.filter(p => p.alsoFlaggedByAi).length, [enriched])
 
   function toggleSort(key: SortKey) {
     if (sortKey === key) setSortDir(d => d === 'desc' ? 'asc' : 'desc')
@@ -115,45 +160,70 @@ export default function FraudWatchlist() {
         <Breadcrumbs items={[{ name: 'Fraud Analysis', href: '/fraud' }, { name: 'Watchlist' }]} />
 
         <h1 className="text-4xl font-bold font-serif text-gray-900 mt-6 mb-4">Enhanced Fraud Watchlist</h1>
-        <p className="text-lg text-gray-600 mb-8 max-w-3xl">
-          500 Medicare providers flagged for statistical billing anomalies. Individuals separated from organizations
-          to highlight the truly suspicious patterns vs. large-scale lab operations.
+        <p className="text-lg text-gray-600 mb-6 max-w-3xl">
+          {formatNumber(providers.length)} Medicare providers flagged for statistical billing anomalies. Individuals separated from organizations
+          to highlight truly suspicious patterns vs. large-scale lab operations.
         </p>
 
+        {/* Summary stats strip */}
+        {!loading && (
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+            <div className="bg-gray-50 rounded-lg p-4 text-center border border-gray-200">
+              <div className="text-2xl font-bold text-gray-900">{formatNumber(providers.length)}</div>
+              <div className="text-xs text-gray-500 font-medium">Total Flagged</div>
+            </div>
+            <div className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
+              <div className="text-2xl font-bold text-red-700">{enriched.filter(p => p.risk_score >= 90).length}</div>
+              <div className="text-xs text-red-600 font-medium">Critical Risk (90+)</div>
+            </div>
+            <div className="bg-purple-50 rounded-lg p-4 text-center border border-purple-200">
+              <div className="text-2xl font-bold text-purple-700">{aiFlaggedCount}</div>
+              <div className="text-xs text-purple-600 font-medium">Also AI Flagged</div>
+            </div>
+            <div className="bg-blue-50 rounded-lg p-4 text-center border border-blue-200">
+              <div className="text-2xl font-bold text-blue-700">{states.length}</div>
+              <div className="text-xs text-blue-600 font-medium">States Represented</div>
+            </div>
+          </div>
+        )}
+
         {loading ? (
-          <div className="text-center py-20 text-gray-500">Loading watchlist data...</div>
+          <div className="text-center py-20">
+            <div className="inline-block w-8 h-8 border-4 border-gray-200 border-t-medicare-primary rounded-full animate-spin mb-4" />
+            <div className="text-gray-500">Loading watchlist data...</div>
+          </div>
         ) : (
           <>
             {/* Tabs */}
             <div className="flex border-b border-gray-200 mb-6">
               <button
                 onClick={() => setTab('individuals')}
-                className={`px-6 py-3 text-sm font-medium border-b-2 ${tab === 'individuals' ? 'border-medicare-primary text-medicare-primary' : 'border-transparent text-gray-500 hover:text-gray-700'}`}
+                className={`px-6 py-3 text-sm font-medium border-b-2 transition-colors ${tab === 'individuals' ? 'border-medicare-primary text-medicare-primary' : 'border-transparent text-gray-500 hover:text-gray-700'}`}
               >
                 Individual Providers ({individualCount})
               </button>
               <button
                 onClick={() => setTab('organizations')}
-                className={`px-6 py-3 text-sm font-medium border-b-2 ${tab === 'organizations' ? 'border-medicare-primary text-medicare-primary' : 'border-transparent text-gray-500 hover:text-gray-700'}`}
+                className={`px-6 py-3 text-sm font-medium border-b-2 transition-colors ${tab === 'organizations' ? 'border-medicare-primary text-medicare-primary' : 'border-transparent text-gray-500 hover:text-gray-700'}`}
               >
                 Organizations ({orgCount})
               </button>
             </div>
 
             {/* Filters */}
-            <div className="flex flex-wrap gap-4 mb-6">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 mb-6">
               <input
                 type="text"
                 placeholder="Search name, specialty, or NPI..."
                 value={search}
                 onChange={e => setSearch(e.target.value)}
-                className="px-4 py-2 border border-gray-300 rounded-lg text-sm w-72 focus:ring-2 focus:ring-medicare-primary focus:border-medicare-primary"
+                className="px-4 py-2 border border-gray-300 rounded-lg text-sm w-full sm:w-72 focus:ring-2 focus:ring-medicare-primary focus:border-medicare-primary"
               />
-              <select value={stateFilter} onChange={e => setStateFilter(e.target.value)} className="px-3 py-2 border border-gray-300 rounded-lg text-sm">
+              <select value={stateFilter} onChange={e => setStateFilter(e.target.value)} className="px-3 py-2 border border-gray-300 rounded-lg text-sm w-full sm:w-auto">
                 <option value="">All States</option>
                 {states.map(s => <option key={s} value={s}>{s}</option>)}
               </select>
-              <select value={specialtyFilter} onChange={e => setSpecialtyFilter(e.target.value)} className="px-3 py-2 border border-gray-300 rounded-lg text-sm max-w-xs">
+              <select value={specialtyFilter} onChange={e => setSpecialtyFilter(e.target.value)} className="px-3 py-2 border border-gray-300 rounded-lg text-sm w-full sm:w-auto sm:max-w-xs">
                 <option value="">All Specialties</option>
                 {specialties.map(s => <option key={s} value={s}>{s}</option>)}
               </select>
@@ -161,8 +231,8 @@ export default function FraudWatchlist() {
 
             <div className="text-sm text-gray-500 mb-4">{filtered.length} providers shown</div>
 
-            {/* Table */}
-            <div className="overflow-x-auto">
+            {/* Desktop Table */}
+            <div className="hidden md:block overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-200">
                 <thead className="bg-gray-50">
                   <tr>
@@ -177,17 +247,22 @@ export default function FraudWatchlist() {
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                   {filtered.slice(0, showAll ? filtered.length : 50).map(p => (
-                    <tr key={p.npi} className="hover:bg-gray-50">
+                    <tr key={p.npi} className={`hover:bg-gray-50 transition-colors ${p.risk_score >= 90 ? 'bg-red-50/40' : ''}`}>
                       <td className="px-4 py-3">
-                        <Link href={`/providers/${p.npi}`} className="text-sm font-medium text-medicare-primary hover:underline">
-                          {p.name}
-                        </Link>
-                        {p.credentials && <span className="text-xs text-gray-400 ml-1">{p.credentials}</span>}
+                        <div className="flex flex-col gap-1">
+                          <div>
+                            <Link href={`/providers/${p.npi}`} className="text-sm font-medium text-medicare-primary hover:underline">
+                              {p.name}
+                            </Link>
+                            {p.credentials && <span className="text-xs text-gray-400 ml-1">{p.credentials}</span>}
+                          </div>
+                          {p.alsoFlaggedByAi && <AiBadge />}
+                        </div>
                       </td>
                       <td className="px-4 py-3 text-sm text-gray-600 max-w-[180px] truncate">{p.specialty}</td>
-                      <td className="px-4 py-3 text-sm text-gray-600">{p.city}, {p.state}</td>
-                      <td className="px-4 py-3"><RiskBadge score={p.risk_score} /></td>
-                      <td className="px-4 py-3 text-sm font-medium text-gray-900">{formatCurrency(p.total_payments)}</td>
+                      <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{p.city}, {p.state}</td>
+                      <td className="px-4 py-3"><RiskBar score={p.risk_score} /></td>
+                      <td className="px-4 py-3 text-sm font-medium text-gray-900 whitespace-nowrap">{formatCurrency(p.total_payments)}</td>
                       <td className="px-4 py-3 text-sm text-gray-600">{p.avg_markup.toFixed(1)}x</td>
                       <td className="px-4 py-3">
                         <div className="flex flex-wrap gap-1 max-w-[250px]">
@@ -204,8 +279,43 @@ export default function FraudWatchlist() {
                 </tbody>
               </table>
             </div>
+
+            {/* Mobile Cards */}
+            <div className="md:hidden space-y-3">
+              {filtered.slice(0, showAll ? filtered.length : 50).map(p => (
+                <div key={p.npi} className={`rounded-xl border p-4 ${p.risk_score >= 90 ? 'border-red-200 bg-red-50/40' : 'border-gray-200 bg-white'}`}>
+                  <div className="flex items-start justify-between mb-2">
+                    <div className="flex-1 min-w-0">
+                      <Link href={`/providers/${p.npi}`} className="text-sm font-semibold text-medicare-primary hover:underline block truncate">
+                        {p.name}
+                      </Link>
+                      <div className="text-xs text-gray-500 truncate">{p.specialty}</div>
+                      <div className="text-xs text-gray-400">{p.city}, {p.state}</div>
+                    </div>
+                    <RiskBadge score={p.risk_score} />
+                  </div>
+                  <div className="flex items-center gap-2 mb-2">
+                    {p.alsoFlaggedByAi && <AiBadge />}
+                  </div>
+                  <div className="grid grid-cols-2 gap-2 text-xs mb-2">
+                    <div><span className="text-gray-400">Payments:</span> <span className="font-medium text-gray-900">{formatCurrency(p.total_payments)}</span></div>
+                    <div><span className="text-gray-400">Markup:</span> <span className="font-medium text-gray-900">{p.avg_markup.toFixed(1)}x</span></div>
+                  </div>
+                  <div className="flex flex-wrap gap-1">
+                    {p.flags.slice(0, 3).map((f, i) => (
+                      <span key={i} className="inline-flex items-center text-[10px] bg-gray-100 rounded px-1.5 py-0.5">
+                        <SeverityDot severity={f.severity} />
+                        <span className="truncate max-w-[100px]">{f.description}</span>
+                      </span>
+                    ))}
+                    {p.flags.length > 3 && <span className="text-[10px] text-gray-400">+{p.flags.length - 3} more</span>}
+                  </div>
+                </div>
+              ))}
+            </div>
+
             {filtered.length > 50 && (
-              <div className="text-center mt-4">
+              <div className="text-center mt-6">
                 <button
                   onClick={() => setShowAll(s => !s)}
                   className="px-6 py-2 bg-medicare-primary text-white rounded-lg hover:bg-medicare-dark transition-colors text-sm font-medium"
@@ -219,13 +329,19 @@ export default function FraudWatchlist() {
         )}
 
         {/* ML Model CTA */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-8 mb-4 flex items-center justify-between flex-wrap gap-3">
-          <p className="text-sm text-gray-700">
-            🤖 <strong>Looking for AI-flagged providers?</strong> Our ML model scored 1.72M providers and flagged 500 with 83% accuracy.
-          </p>
-          <Link href="/fraud/still-out-there" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors whitespace-nowrap">
-            See ML Model Results →
-          </Link>
+        <div className="bg-gradient-to-r from-purple-50 to-indigo-50 border border-purple-200 rounded-xl p-6 mt-8 mb-4">
+          <div className="flex items-center justify-between flex-wrap gap-4">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">🤖 Looking for AI-flagged providers?</h3>
+              <p className="text-sm text-gray-600">
+                Our ML model scored 1.72M providers against 2,198 confirmed fraudsters.
+                {aiFlaggedCount > 0 && <span className="font-medium text-purple-700"> {aiFlaggedCount} providers appear on both lists.</span>}
+              </p>
+            </div>
+            <Link href="/fraud/still-out-there" className="inline-flex items-center px-5 py-2.5 bg-purple-600 text-white rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors whitespace-nowrap shadow-sm">
+              See ML Model Results →
+            </Link>
+          </div>
         </div>
 
         {/* Related Fraud Analysis */}

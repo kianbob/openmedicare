@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
-import { MagnifyingGlassIcon, FunnelIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
-import { formatCurrency, formatNumber, toTitleCase } from '@/lib/format'
+import { MagnifyingGlassIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
+import { formatCurrency, formatNumber } from '@/lib/format'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 
@@ -18,6 +18,7 @@ interface Provider {
   beneficiaries: number
   avgMarkup?: number
   riskScore?: number
+  fraudProbability?: number
   isFlagged?: boolean
 }
 
@@ -32,12 +33,18 @@ interface WatchlistEntry {
   total_payments: number
 }
 
+interface MLEntry {
+  npi: string
+  fraud_probability: number
+}
+
 const specialties = [
   'All Specialties',
   'Cardiology',
   'Dermatology',
   'Emergency Medicine',
   'Family Medicine',
+  'Family Practice',
   'Internal Medicine',
   'Neurology',
   'Oncology',
@@ -47,7 +54,7 @@ const specialties = [
   'Surgery'
 ]
 
-const states = [
+const statesList = [
   'All States',
   'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
   'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
@@ -56,7 +63,7 @@ const states = [
   'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'
 ]
 
-type SortField = 'totalPayments' | 'riskScore' | 'avgMarkup' | 'name'
+type SortField = 'totalPayments' | 'riskScore' | 'avgMarkup' | 'name' | 'fraudProbability'
 
 export default function ProvidersPage() {
   const [providers, setProviders] = useState<Provider[]>([])
@@ -73,19 +80,26 @@ export default function ProvidersPage() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const [provRes, watchRes] = await Promise.all([
+        const [provRes, watchRes, mlRes] = await Promise.all([
           fetch('/data/top-providers.json'),
           fetch('/data/watchlist.json'),
+          fetch('/data/ml-v2-results.json'),
         ])
 
         const watchlist: WatchlistEntry[] = watchRes.ok ? await watchRes.json() : []
         const watchMap = new Map(watchlist.map(w => [String(w.npi), w]))
+
+        const mlData = mlRes.ok ? await mlRes.json() : { still_out_there: [] }
+        const mlMap = new Map<string, number>(
+          (mlData.still_out_there || []).map((p: MLEntry) => [String(p.npi), p.fraud_probability])
+        )
 
         if (provRes.ok) {
           const data = await provRes.json()
           const mapped = (data.providers || data).map((p: any) => {
             const npiStr = String(p.npi)
             const wl = watchMap.get(npiStr)
+            const fraudProb = mlMap.get(npiStr)
             return {
               npi: npiStr,
               name: p.name,
@@ -97,7 +111,8 @@ export default function ProvidersPage() {
               beneficiaries: p.total_beneficiaries ?? p.beneficiaries,
               avgMarkup: wl?.avg_markup,
               riskScore: wl?.risk_score,
-              isFlagged: !!wl,
+              fraudProbability: fraudProb,
+              isFlagged: !!wl || fraudProb !== undefined,
             }
           })
           setProviders(mapped)
@@ -117,7 +132,9 @@ export default function ProvidersPage() {
       const matchesSearch = searchTerm === '' ||
         provider.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         provider.npi.includes(searchTerm) ||
-        provider.city.toLowerCase().includes(searchTerm.toLowerCase())
+        provider.city.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        provider.specialty.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        provider.state.toLowerCase().includes(searchTerm.toLowerCase())
       const matchesSpecialty = selectedSpecialty === 'All Specialties' || provider.specialty === selectedSpecialty
       const matchesState = selectedState === 'All States' || provider.state === selectedState
       const matchesFlagged = !showFlaggedOnly || provider.isFlagged
@@ -143,6 +160,10 @@ export default function ProvidersPage() {
           aVal = a.avgMarkup ?? -1
           bVal = b.avgMarkup ?? -1
           break
+        case 'fraudProbability':
+          aVal = a.fraudProbability ?? -1
+          bVal = b.fraudProbability ?? -1
+          break
         default:
           aVal = a.totalPayments
           bVal = b.totalPayments
@@ -152,12 +173,10 @@ export default function ProvidersPage() {
     })
   }, [filteredProviders, sortBy, sortOrder])
 
-  // Pagination
   const totalPages = Math.ceil(sortedProviders.length / itemsPerPage)
   const startIndex = (currentPage - 1) * itemsPerPage
   const paginatedProviders = sortedProviders.slice(startIndex, startIndex + itemsPerPage)
 
-  // Reset page when filters change
   useEffect(() => { setCurrentPage(1) }, [searchTerm, selectedSpecialty, selectedState, showFlaggedOnly, sortBy, sortOrder])
 
   const handleSort = (field: SortField) => {
@@ -208,7 +227,6 @@ export default function ProvidersPage() {
         {/* Search and Filters */}
         <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            {/* Search */}
             <div className="md:col-span-2">
               <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-2">
                 Search Providers
@@ -222,13 +240,12 @@ export default function ProvidersPage() {
                   id="search"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  placeholder="Search by name, NPI, or city..."
+                  placeholder="Search by name, NPI, city, specialty, or state..."
                   className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-medicare-primary focus:border-medicare-primary"
                 />
               </div>
             </div>
 
-            {/* Specialty Filter */}
             <div>
               <label htmlFor="specialty" className="block text-sm font-medium text-gray-700 mb-2">
                 Specialty
@@ -245,7 +262,6 @@ export default function ProvidersPage() {
               </select>
             </div>
 
-            {/* State Filter */}
             <div>
               <label htmlFor="state" className="block text-sm font-medium text-gray-700 mb-2">
                 State
@@ -256,7 +272,7 @@ export default function ProvidersPage() {
                 onChange={(e) => setSelectedState(e.target.value)}
                 className="block w-full px-3 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-medicare-primary focus:border-medicare-primary"
               >
-                {states.map(state => (
+                {statesList.map(state => (
                   <option key={state} value={state}>{state}</option>
                 ))}
               </select>
@@ -277,14 +293,15 @@ export default function ProvidersPage() {
                 }`}
               >
                 <ExclamationTriangleIcon className="h-4 w-4" />
-                Fraud Flagged ({flaggedCount})
+                AI-Flagged Only ({flaggedCount})
               </button>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
               <span className="text-sm text-gray-500">Sort by:</span>
               {([
                 ['totalPayments', 'Payments'],
+                ['fraudProbability', 'Fraud Prob.'],
                 ['riskScore', 'Risk Score'],
                 ['avgMarkup', 'Markup'],
                 ['name', 'Name'],
@@ -342,6 +359,13 @@ export default function ProvidersPage() {
                   <th 
                     scope="col" 
                     className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                    onClick={() => handleSort('fraudProbability')}
+                  >
+                    Fraud Prob. <SortArrow field="fraudProbability" />
+                  </th>
+                  <th 
+                    scope="col" 
+                    className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                     onClick={() => handleSort('riskScore')}
                   >
                     Risk Score <SortArrow field="riskScore" />
@@ -375,6 +399,20 @@ export default function ProvidersPage() {
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-gray-600">
                       {provider.avgMarkup ? `${provider.avgMarkup.toFixed(1)}x` : '—'}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-center">
+                      {provider.fraudProbability !== undefined ? (
+                        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold ${
+                          provider.fraudProbability >= 0.9 ? 'bg-red-100 text-red-800' :
+                          provider.fraudProbability >= 0.7 ? 'bg-orange-100 text-orange-800' :
+                          provider.fraudProbability >= 0.5 ? 'bg-yellow-100 text-yellow-800' :
+                          'bg-blue-100 text-blue-800'
+                        }`}>
+                          {(provider.fraudProbability * 100).toFixed(0)}%
+                        </span>
+                      ) : (
+                        <span className="text-gray-400 text-sm">—</span>
+                      )}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-center">
                       {provider.riskScore ? (
@@ -503,7 +541,6 @@ export default function ProvidersPage() {
           </div>
         </div>
 
-        {/* Source Citation */}
         <div className="mt-8">
           <SourceCitation 
             lastUpdated="February 2024"
