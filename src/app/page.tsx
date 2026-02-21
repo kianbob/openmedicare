@@ -124,6 +124,20 @@ const featuredInvestigations = [
     href: '/investigations/covid-test-scheme',
     category: 'Investigation',
     readTime: '14 min read'
+  },
+  {
+    title: 'Internal Medicine: Ground Zero',
+    description: '53% of all AI-flagged providers share a single specialty — and the structural reasons why',
+    href: '/investigations/internal-medicine-crisis',
+    category: 'ML Investigation',
+    readTime: '15 min read'
+  },
+  {
+    title: 'The Fraud Belt',
+    description: 'California and Florida each have 56 AI-flagged providers. Five states account for half of all flags.',
+    href: '/investigations/florida-california-fraud',
+    category: 'Investigation',
+    readTime: '12 min read'
   }
 ]
 

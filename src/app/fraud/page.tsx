@@ -381,6 +381,18 @@ export default function FraudHub() {
               <div className="font-medium text-blue-600">💎 Beverly Hills Wound Care</div>
               <div className="text-sm text-gray-500">Plastic surgeons billing Medicare $45.6M</div>
             </Link>
+            <Link href="/investigations/internal-medicine-crisis" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🏥 Internal Medicine Crisis</div>
+              <div className="text-sm text-gray-500">Why 53% of flagged providers are internists</div>
+            </Link>
+            <Link href="/investigations/telehealth-explosion" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📱 The Telehealth Explosion</div>
+              <div className="text-sm text-gray-500">How COVID changed Medicare billing forever</div>
+            </Link>
+            <Link href="/investigations/genetic-testing-fraud" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🧬 Genetic Testing Fraud</div>
+              <div className="text-sm text-gray-500">Telehealth-driven testing schemes</div>
+            </Link>
           </div>
           <div className="mt-4 pt-3 border-t border-gray-100">
             <Link href="/investigations" className="text-sm font-medium text-blue-600 hover:text-blue-800">
@@ -404,6 +416,18 @@ export default function FraudHub() {
             </Link>
             <Link href="/analysis" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
               <div className="font-medium text-blue-600 text-sm">Deep Analysis</div>
+            </Link>
+            <Link href="/markup" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">Markup Analysis</div>
+            </Link>
+            <Link href="/geographic" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">Geographic Data</div>
+            </Link>
+            <Link href="/drug-spending" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">Drug Spending</div>
+            </Link>
+            <Link href="/investigations" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">All Investigations</div>
             </Link>
           </div>
         </div>
