@@ -10,6 +10,8 @@ export const metadata: Metadata = {
 }
 
 const endpoints = [
+  { path: '/data/ml-v2-results.json', description: 'ML model v2 fraud detection results — scores, features, and classifications for flagged providers' },
+  { path: '/data/stats.json', description: 'Site-wide summary statistics (provider counts, payment totals, model metrics)' },
   { path: '/data/top-providers.json', description: 'Top 1,000 Medicare providers by payments' },
   { path: '/data/watchlist.json', description: '500 providers flagged for billing anomalies' },
   { path: '/data/states.json', description: 'State-level Medicare spending data' },
@@ -28,6 +30,11 @@ const endpoints = [
   { path: '/data/markup-analysis.json', description: 'Specialty markup ratios' },
   { path: '/data/drug-spending.json', description: 'Drug spending trends' },
   { path: '/data/rural-urban.json', description: 'Rural vs urban analysis' },
+]
+
+const apiEndpoints = [
+  { path: '/api/stats', method: 'GET', description: 'Live JSON stats — total providers, flagged count, payments, model AUC, last updated' },
+  { path: '/api/embed/fraud-stats', method: 'GET', description: 'Embeddable HTML widget showing key fraud stats (use in iframe)' },
 ]
 
 const detailEndpoints = [
@@ -156,6 +163,65 @@ console.log(data.providers.length) // 500 flagged providers`}</pre>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Dynamic API Endpoints */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
+            <GlobeAltIcon className="h-5 w-5 text-green-600 mr-2" />
+            Dynamic API Endpoints
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">Live server-side endpoints returning real-time data.</p>
+          <div className="space-y-4">
+            {apiEndpoints.map((ep) => (
+              <div key={ep.path} className="border border-gray-200 rounded-lg p-4">
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="bg-green-100 text-green-800 text-xs font-mono font-bold px-2 py-0.5 rounded">{ep.method}</span>
+                  <a href={ep.path} className="font-mono text-sm text-medicare-primary hover:underline">{ep.path}</a>
+                </div>
+                <div className="text-sm text-gray-600">{ep.description}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Example: /api/stats response */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Example: /api/stats Response</h2>
+          <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-gray-300 overflow-x-auto">
+            <pre>{`{
+  "total_providers": 1719625,
+  "flagged_providers": 500,
+  "total_payments": 854800000000,
+  "flagged_payments": 400000000,
+  "model_auc": 0.83,
+  "articles": 51,
+  "last_updated": "2026-02-21"
+}`}</pre>
+          </div>
+          <div className="mt-4 text-sm text-gray-600 space-y-1">
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">total_providers</code> — Total unique Medicare providers in dataset (1.72M)</p>
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">flagged_providers</code> — Providers flagged by ML model for billing anomalies</p>
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">total_payments</code> — Total Medicare payments in dollars (2014–2023)</p>
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">flagged_payments</code> — Payments associated with flagged providers</p>
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">model_auc</code> — Area Under ROC Curve for the fraud detection model</p>
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">articles</code> — Number of investigative articles published</p>
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">last_updated</code> — Date of last data refresh (ISO format)</p>
+          </div>
+        </div>
+
+        {/* Embeddable Widget */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Embeddable Widget</h2>
+          <p className="text-sm text-gray-600 mb-4">
+            Embed a live fraud stats card on your site. See the <Link href="/embed" className="text-medicare-primary hover:underline">widget preview page</Link> for a live demo and copy-paste code.
+          </p>
+          <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-green-400 overflow-x-auto">
+            <pre>{`<iframe src="https://openmedicare.vercel.app/api/embed/fraud-stats"
+  width="500" height="180" frameborder="0"
+  style="border:none;border-radius:16px;overflow:hidden;"
+  title="OpenMedicare Fraud Stats"></iframe>`}</pre>
           </div>
         </div>
 
