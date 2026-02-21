@@ -1,14 +1,53 @@
 import type { Metadata } from 'next'
-import { ArrowDownTrayIcon, DocumentChartBarIcon, InformationCircleIcon } from '@heroicons/react/24/outline'
+import fs from 'fs'
+import path from 'path'
+import { ArrowDownTrayIcon, DocumentChartBarIcon, InformationCircleIcon, TableCellsIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Data Downloads — OpenMedicare',
-  description: 'Download Medicare provider payment data, fraud watchlist, spending analysis, and research datasets.',
+  description: 'Download Medicare provider payment data, fraud watchlist, spending analysis, and research datasets in CSV and JSON formats.',
 }
 
-const datasets = [
+function getFileSize(filePath: string): string {
+  try {
+    const fullPath = path.join(process.cwd(), 'public', filePath)
+    const stats = fs.statSync(fullPath)
+    const kb = stats.size / 1024
+    if (kb > 1024) return `${(kb / 1024).toFixed(1)} MB`
+    return `${kb.toFixed(0)} KB`
+  } catch { return '' }
+}
+
+const csvDownloads = [
+  {
+    name: 'Top Providers Summary',
+    description: 'Top 100 Medicare providers by total payments — includes NPI, name, specialty, state, total payments, and services.',
+    path: '/downloads/top-providers-summary.csv',
+    format: 'CSV',
+  },
+  {
+    name: 'State Summary',
+    description: 'All states and territories with total Medicare payments, provider counts, services, and average markup ratios.',
+    path: '/downloads/state-summary.csv',
+    format: 'CSV',
+  },
+  {
+    name: 'Specialty Summary',
+    description: 'All 132 medical specialties with total payments, provider counts, and markup ratios.',
+    path: '/downloads/specialty-summary.csv',
+    format: 'CSV',
+  },
+  {
+    name: 'Fraud Watchlist',
+    description: 'All 500 watchlist providers with risk scores, billing flags, and payment totals.',
+    path: '/downloads/watchlist-summary.csv',
+    format: 'CSV',
+  },
+]
+
+const jsonDatasets = [
   {
     category: 'Core Datasets',
     files: [
@@ -70,27 +109,64 @@ export default function DownloadsPage() {
           </div>
         </div>
 
+        {/* CSV Downloads — Featured */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
+            <TableCellsIcon className="h-5 w-5 text-green-600 mr-2" />
+            CSV Downloads — Ready to Use
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">Pre-formatted CSV files ready for Excel, Google Sheets, or any data tool.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {csvDownloads.map((file) => {
+              const size = getFileSize(file.path)
+              return (
+                <div key={file.name} className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h3 className="font-semibold text-gray-900 mb-1">{file.name}</h3>
+                  <p className="text-sm text-gray-600 mb-3">{file.description}</p>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-medium">{file.format}</span>
+                      {size && <span className="text-xs text-gray-400">{size}</span>}
+                    </div>
+                    <a href={file.path} download className="inline-flex items-center px-3 py-1.5 border border-green-600 text-sm font-medium rounded-md text-green-700 hover:bg-green-600 hover:text-white transition-colors">
+                      <ArrowDownTrayIcon className="h-4 w-4 mr-1" />
+                      Download
+                    </a>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+
+        {/* JSON Datasets */}
         <div className="space-y-8">
-          {datasets.map((category) => (
+          {jsonDatasets.map((category) => (
             <div key={category.category} className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
               <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                 <DocumentChartBarIcon className="h-5 w-5 text-medicare-primary mr-2" />
                 {category.category}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {category.files.map((file) => (
-                  <div key={file.name} className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
-                    <h3 className="font-semibold text-gray-900 mb-1">{file.name}</h3>
-                    <p className="text-sm text-gray-600 mb-3">{file.description}</p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">{file.format}</span>
-                      <a href={file.path} download className="inline-flex items-center px-3 py-1.5 border border-medicare-primary text-sm font-medium rounded-md text-medicare-primary hover:bg-medicare-primary hover:text-white transition-colors">
-                        <ArrowDownTrayIcon className="h-4 w-4 mr-1" />
-                        Download
-                      </a>
+                {category.files.map((file) => {
+                  const size = getFileSize(file.path)
+                  return (
+                    <div key={file.name} className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                      <h3 className="font-semibold text-gray-900 mb-1">{file.name}</h3>
+                      <p className="text-sm text-gray-600 mb-3">{file.description}</p>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">{file.format}</span>
+                          {size && <span className="text-xs text-gray-400">{size}</span>}
+                        </div>
+                        <a href={file.path} download className="inline-flex items-center px-3 py-1.5 border border-medicare-primary text-sm font-medium rounded-md text-medicare-primary hover:bg-medicare-primary hover:text-white transition-colors">
+                          <ArrowDownTrayIcon className="h-4 w-4 mr-1" />
+                          Download
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                })}
               </div>
             </div>
           ))}
