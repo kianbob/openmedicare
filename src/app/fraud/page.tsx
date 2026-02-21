@@ -77,9 +77,47 @@ const colorMap: Record<string, string> = {
   amber: 'bg-amber-50 hover:bg-amber-100 text-amber-800',
 }
 
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'OpenMedicare',
+    url: 'https://www.openmedicare.org',
+    description: 'Open-source Medicare spending transparency and fraud analysis platform',
+    sameAs: ['https://github.com/kianbob/openmedicare'],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: 'Medicare Provider Utilization and Payment Data',
+    description: 'CMS Medicare physician payment data from 2014-2023, covering $854.8 billion in spending across 1.2 million providers',
+    url: 'https://www.openmedicare.org/fraud',
+    license: 'https://www.usa.gov/government-works',
+    creator: { '@type': 'Organization', name: 'Centers for Medicare & Medicaid Services (CMS)' },
+    temporalCoverage: '2014/2023',
+    distribution: {
+      '@type': 'DataDownload',
+      encodingFormat: 'application/json',
+      contentUrl: 'https://www.openmedicare.org/downloads',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Medicare Fraud Analysis Hub',
+    url: 'https://www.openmedicare.org/fraud',
+    description: 'Data-driven fraud detection across $854.8B in Medicare spending. 500 flagged providers, deep-dive profiles, COVID test billing analysis, wound care fraud tracking, and more.',
+    isPartOf: { '@type': 'WebSite', name: 'OpenMedicare', url: 'https://www.openmedicare.org' },
+  },
+]
+
 export default function FraudHub() {
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ name: 'Fraud Analysis' }]} />
 
