@@ -280,6 +280,23 @@ export default function WoundCare() {
           </table>
         </div>
 
+        {/* Related Fraud Analysis */}
+        <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+          <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Fraud Analysis</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Enhanced Watchlist — 500 flagged providers</Link>
+            <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">🧮 Impossible Numbers — Volume anomalies</Link>
+            <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline text-sm">📊 Upcoding Detector — Code-level analysis</Link>
+            <Link href="/fraud/covid-tests" className="text-medicare-primary hover:underline text-sm">🦠 COVID Test Billing — Questionable claims</Link>
+            <Link href="/fraud/deep-dives" className="text-medicare-primary hover:underline text-sm">🔍 Deep Dive Profiles — Top 20 highest-risk</Link>
+            <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
+            <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
+            <Link href="/investigations/wound-care-crisis" className="text-medicare-primary hover:underline text-sm">📰 Wound Care Crisis Investigation</Link>
+            <Link href="/investigations/arizona-wound-care-ring" className="text-medicare-primary hover:underline text-sm">📰 Arizona Wound Care Ring</Link>
+            <Link href="/investigations/beverly-hills-wound-care" className="text-medicare-primary hover:underline text-sm">📰 Beverly Hills Wound Care</Link>
+          </div>
+        </div>
+
         {/* Disclaimer */}
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
           <p className="text-sm text-yellow-800">

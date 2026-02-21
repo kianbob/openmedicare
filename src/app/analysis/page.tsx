@@ -99,6 +99,37 @@ export default function AnalysisPage() {
           ))}
         </div>
 
+        {/* Related */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-12">
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">Also Explore</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <Link href="/fraud" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">🚨 Fraud Hub</div>
+            </Link>
+            <Link href="/investigations" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">📰 Investigations</div>
+            </Link>
+            <Link href="/providers" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">👨‍⚕️ Provider Directory</div>
+            </Link>
+            <Link href="/search" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">🔍 Search</div>
+            </Link>
+            <Link href="/states" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">📍 By State</div>
+            </Link>
+            <Link href="/specialties" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">🩺 By Specialty</div>
+            </Link>
+            <Link href="/procedures" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">📋 Procedures</div>
+            </Link>
+            <Link href="/calculator" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">🧮 Calculator</div>
+            </Link>
+          </div>
+        </div>
+
         <SourceCitation />
       </div>
     </main>

@@ -105,6 +105,32 @@ export default function StartHerePage() {
           </div>
         </div>
 
+        {/* Quick Links */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">
+            Step 6: Browse the Data
+          </h2>
+          <p className="text-gray-600 mb-6">Jump directly into provider, state, specialty, or procedure data.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <Link href="/providers" className="group bg-white rounded-lg border border-gray-200 p-5 text-center hover:shadow-md hover:border-medicare-primary/30 transition-all">
+              <div className="text-2xl mb-2">👨‍⚕️</div>
+              <div className="font-medium text-gray-900 group-hover:text-medicare-primary">Providers</div>
+            </Link>
+            <Link href="/states" className="group bg-white rounded-lg border border-gray-200 p-5 text-center hover:shadow-md hover:border-medicare-primary/30 transition-all">
+              <div className="text-2xl mb-2">📍</div>
+              <div className="font-medium text-gray-900 group-hover:text-medicare-primary">States</div>
+            </Link>
+            <Link href="/specialties" className="group bg-white rounded-lg border border-gray-200 p-5 text-center hover:shadow-md hover:border-medicare-primary/30 transition-all">
+              <div className="text-2xl mb-2">🩺</div>
+              <div className="font-medium text-gray-900 group-hover:text-medicare-primary">Specialties</div>
+            </Link>
+            <Link href="/procedures" className="group bg-white rounded-lg border border-gray-200 p-5 text-center hover:shadow-md hover:border-medicare-primary/30 transition-all">
+              <div className="text-2xl mb-2">📋</div>
+              <div className="font-medium text-gray-900 group-hover:text-medicare-primary">Procedures</div>
+            </Link>
+          </div>
+        </div>
+
         {/* Footer CTA */}
         <div className="text-center bg-white rounded-xl border border-gray-200 p-8">
           <p className="text-gray-600 mb-4">Have a tip? Know about suspicious billing?</p>

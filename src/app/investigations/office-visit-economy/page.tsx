@@ -298,7 +298,7 @@ export default function OfficeVisitEconomyPage() {
         </article>
 
         <ShareButtons
-          url="https://openmedicare.vercel.app/investigations/office-visit-economy"
+          url="https://www.openmedicare.org/investigations/office-visit-economy"
           title="The $117 Billion Office Visit Economy — OpenMedicare"
         />
         <SourceCitation />

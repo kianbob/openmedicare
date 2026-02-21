@@ -183,21 +183,33 @@ export default async function ProcedureDetailPage({ params }: { params: Promise<
           </div>
         )}
 
-        {/* Related Procedures */}
+        {/* Related */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Related</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link href="/procedures" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Browse</div>
-              <div className="font-medium text-blue-600">All Procedures →</div>
+              <div className="font-medium text-blue-600">← All Procedures</div>
+            </Link>
+            <Link href={`/procedures/${code}/cost`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Cost Analysis</div>
+              <div className="font-medium text-blue-600">Cost breakdown for {code} →</div>
             </Link>
             <Link href="/calculator" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Tool</div>
               <div className="font-medium text-blue-600">Cost Calculator →</div>
             </Link>
+            <Link href="/investigations/most-expensive-medicare-procedures" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Investigation</div>
+              <div className="font-medium text-blue-600">Most expensive procedures →</div>
+            </Link>
             <Link href="/investigations/markup-machine" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Investigation</div>
               <div className="font-medium text-blue-600">The Markup Machine →</div>
+            </Link>
+            <Link href="/search" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Search</div>
+              <div className="font-medium text-blue-600">Search providers →</div>
             </Link>
           </div>
         </div>

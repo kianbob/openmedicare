@@ -291,7 +291,7 @@ export default function MedicareBiggestSpendersPage() {
         </article>
 
         <ShareButtons
-          url="https://openmedicare.vercel.app/investigations/medicare-biggest-spenders"
+          url="https://www.openmedicare.org/investigations/medicare-biggest-spenders"
           title="Medicare's Most Expensive Doctors — OpenMedicare"
         />
         <SourceCitation />

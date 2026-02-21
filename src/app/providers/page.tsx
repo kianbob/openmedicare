@@ -464,6 +464,45 @@ export default function ProvidersPage() {
           )}
         </div>
 
+        {/* Related Pages */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Explore More</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <Link href="/search" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🔍 Search Providers</div>
+              <div className="text-sm text-gray-500">Find any provider by name or NPI</div>
+            </Link>
+            <Link href="/fraud/watchlist" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🚨 Fraud Watchlist</div>
+              <div className="text-sm text-gray-500">500 flagged providers</div>
+            </Link>
+            <Link href="/compare" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">⚖️ Compare Providers</div>
+              <div className="text-sm text-gray-500">Side-by-side billing comparison</div>
+            </Link>
+            <Link href="/markup" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📈 Markup Analysis</div>
+              <div className="text-sm text-gray-500">Charges vs. payments</div>
+            </Link>
+            <Link href="/specialties" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🩺 Browse by Specialty</div>
+              <div className="text-sm text-gray-500">All medical specialties</div>
+            </Link>
+            <Link href="/states" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📍 Browse by State</div>
+              <div className="text-sm text-gray-500">State-by-state spending</div>
+            </Link>
+            <Link href="/investigations/medicare-millionaires" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">💰 Medicare Millionaires</div>
+              <div className="text-sm text-gray-500">The 1% who bill the most</div>
+            </Link>
+            <Link href="/trends" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📊 10-Year Trends</div>
+              <div className="text-sm text-gray-500">Spending over time</div>
+            </Link>
+          </div>
+        </div>
+
         {/* Source Citation */}
         <div className="mt-8">
           <SourceCitation 

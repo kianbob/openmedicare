@@ -192,7 +192,7 @@ export default function SpecialtyMonopolyPage() {
         </article>
 
         <div className="mt-8">
-          <ShareButtons url="https://openmedicare.vercel.app/investigations/specialty-monopoly" title="The Specialty Monopoly — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/specialty-monopoly" title="The Specialty Monopoly — OpenMedicare" />
         </div>
         <SourceCitation />
       </div>

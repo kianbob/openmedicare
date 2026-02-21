@@ -397,6 +397,15 @@ const investigations = [
     publishedAt: '2024-01-10',
     excerpt: 'An expanded deep-dive into how Medicare compensation varies across specialties — from nurse practitioners averaging $26K to ophthalmologists at $384K.'
   },
+  {
+    title: 'Three Providers, Three Red Flags',
+    description: 'Inside Medicare\'s most suspicious billing patterns — a COVID test mill, a wound care scheme, and a markup machine',
+    href: '/investigations/three-providers',
+    category: 'Investigation',
+    readTime: '15 min read',
+    publishedAt: '2026-02-15',
+    excerpt: 'A nurse practitioner billing $12.1M in COVID tests. A Beverly Hills plastic surgeon billing $28.9M in wound care. An anti-aging spa doctor with a 197.7x markup. Three providers, three statistical anomalies.'
+  },
 ]
 
 const categories = [
@@ -557,6 +566,37 @@ export default function InvestigationsPage() {
               </div>
             </article>
           ))}
+        </div>
+
+        {/* Related Data Pages */}
+        <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">Explore the Data Behind the Stories</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+            <Link href="/providers" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="text-xl mb-1">👨‍⚕️</div>
+              <div className="font-medium text-blue-600 text-sm">Providers</div>
+            </Link>
+            <Link href="/states" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="text-xl mb-1">📍</div>
+              <div className="font-medium text-blue-600 text-sm">States</div>
+            </Link>
+            <Link href="/specialties" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="text-xl mb-1">🩺</div>
+              <div className="font-medium text-blue-600 text-sm">Specialties</div>
+            </Link>
+            <Link href="/procedures" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="text-xl mb-1">📋</div>
+              <div className="font-medium text-blue-600 text-sm">Procedures</div>
+            </Link>
+            <Link href="/fraud" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="text-xl mb-1">🚨</div>
+              <div className="font-medium text-blue-600 text-sm">Fraud Hub</div>
+            </Link>
+            <Link href="/analysis" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="text-xl mb-1">📊</div>
+              <div className="font-medium text-blue-600 text-sm">Analysis</div>
+            </Link>
+          </div>
         </div>
 
         {/* Newsletter Signup */}

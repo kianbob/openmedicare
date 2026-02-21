@@ -108,7 +108,7 @@ export default function SpecialtyPayGapPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/specialty-pay-gap" title="The Specialty Pay Gap — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/specialty-pay-gap" title="The Specialty Pay Gap — OpenMedicare" />
         <SourceCitation />
       </div>
     </main>

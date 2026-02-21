@@ -127,17 +127,33 @@ export default function StatesPage() {
           </div>
         )}
 
-        {/* Related Reading */}
+        {/* Related Reading & Links */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
-          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Reading</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/investigations/medicare-spending-by-state" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="font-medium text-blue-600">Medicare Spending by State: A Complete Breakdown</div>
-              <div className="text-sm text-gray-500">Every state ranked with analysis of why spending varies</div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Explore More</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link href="/investigations/medicare-spending-by-state" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📊 State Spending Breakdown</div>
+              <div className="text-sm text-gray-500">Every state ranked with analysis</div>
             </Link>
-            <Link href="/investigations/geographic-inequality" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="font-medium text-blue-600">ZIP Code Lottery</div>
-              <div className="text-sm text-gray-500">Why your Medicare costs depend on where you live</div>
+            <Link href="/investigations/geographic-inequality" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📍 ZIP Code Lottery</div>
+              <div className="text-sm text-gray-500">Why costs depend on where you live</div>
+            </Link>
+            <Link href="/investigations/houston-medicare-capital" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🏙️ Houston: Medicare Capital</div>
+              <div className="text-sm text-gray-500">$9.24B — more than most states</div>
+            </Link>
+            <Link href="/fraud/watchlist" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🚨 Fraud Watchlist</div>
+              <div className="text-sm text-gray-500">Flagged providers by state</div>
+            </Link>
+            <Link href="/search" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🔍 Search Providers</div>
+              <div className="text-sm text-gray-500">Find any provider by name</div>
+            </Link>
+            <Link href="/rural-urban" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🌾 Rural vs Urban</div>
+              <div className="text-sm text-gray-500">The geographic divide in Medicare</div>
             </Link>
           </div>
         </div>

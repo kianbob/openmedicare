@@ -100,17 +100,33 @@ export default function SpecialtiesPage() {
           </div>
         )}
 
-        {/* Related Reading */}
+        {/* Related Reading & Links */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-8">
-          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Reading</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/investigations/how-much-does-medicare-pay" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="font-medium text-blue-600">How Much Does Medicare Actually Pay Doctors?</div>
-              <div className="text-sm text-gray-500">Average payments by specialty — from $26K to $384K</div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Explore More</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link href="/investigations/how-much-does-medicare-pay" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">💰 How Much Does Medicare Pay?</div>
+              <div className="text-sm text-gray-500">Average payments from $26K to $384K</div>
             </Link>
-            <Link href="/investigations/specialty-monopoly" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="font-medium text-blue-600">The Specialty Monopoly</div>
-              <div className="text-sm text-gray-500">5 specialties control 33% of all Medicare spending</div>
+            <Link href="/investigations/specialty-monopoly" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🏛️ The Specialty Monopoly</div>
+              <div className="text-sm text-gray-500">5 specialties control 33% of spending</div>
+            </Link>
+            <Link href="/investigations/specialty-pay-gap" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📊 The Specialty Pay Gap</div>
+              <div className="text-sm text-gray-500">Procedure-based vs primary care</div>
+            </Link>
+            <Link href="/fraud/watchlist" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🚨 Fraud Watchlist</div>
+              <div className="text-sm text-gray-500">Flagged providers by specialty</div>
+            </Link>
+            <Link href="/search" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🔍 Search Providers</div>
+              <div className="text-sm text-gray-500">Find any provider by name</div>
+            </Link>
+            <Link href="/markup" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📈 Markup Analysis</div>
+              <div className="text-sm text-gray-500">What doctors charge vs what Medicare pays</div>
             </Link>
           </div>
         </div>

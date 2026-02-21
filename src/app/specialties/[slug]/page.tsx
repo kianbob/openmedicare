@@ -221,14 +221,26 @@ export default async function SpecialtyDetailPage({ params }: { params: Promise<
         {/* Related */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Related</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link href="/specialties" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Browse</div>
-              <div className="font-medium text-blue-600">All Specialties →</div>
+              <div className="font-medium text-blue-600">← All Specialties</div>
+            </Link>
+            <Link href={`/specialties/${slug}/fraud-risk`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Fraud Analysis</div>
+              <div className="font-medium text-blue-600">{data.specialty} fraud risk →</div>
+            </Link>
+            <Link href={`/specialties/compare/${slug}`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Compare</div>
+              <div className="font-medium text-blue-600">Compare {data.specialty} →</div>
             </Link>
             <Link href="/investigations/specialty-gap" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Investigation</div>
               <div className="font-medium text-blue-600">The Specialty Pay Gap →</div>
+            </Link>
+            <Link href="/investigations/specialty-monopoly" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Investigation</div>
+              <div className="font-medium text-blue-600">The Specialty Monopoly →</div>
             </Link>
             <Link href="/markup" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Analysis</div>

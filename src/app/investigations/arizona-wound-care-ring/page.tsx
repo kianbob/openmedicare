@@ -340,9 +340,16 @@ export default function ArizonaWoundCareRingPage() {
                   explanations for the patterns we&apos;ve identified.
                 </p>
                 <p className="text-yellow-900 mb-2">
-                  The providers named in this article have not been charged with any crime. The data comes from
-                  publicly available CMS Medicare Provider Utilization and Payment Data for 2023. We present this
-                  analysis in the public interest to support transparency in Medicare spending.
+                  <strong>Update (June 2025):</strong> Since this analysis was published, several providers identified here —
+                  including Ira Denny, Jorge Kinds, and Gina Palacios — were <strong>charged by the DOJ</strong> as
+                  part of Operation Wound Shield, the largest healthcare fraud enforcement action in history.
+                  Our statistical analysis flagged these providers before law enforcement acted.
+                  See our investigation: <a href="/investigations/data-predicted-fraud" className="text-yellow-700 underline font-semibold">Our Data Predicted It</a>.
+                </p>
+                <p className="text-yellow-900 mb-2">
+                  Other providers named in this article have not been charged. The data comes from
+                  publicly available CMS Medicare Provider Utilization and Payment Data for 2023. Unusual billing alone
+                  does not constitute evidence of fraud — there may be legitimate explanations.
                 </p>
                 <p className="text-yellow-900 mb-0">
                   If you have information about Medicare fraud, you can report it to the{' '}

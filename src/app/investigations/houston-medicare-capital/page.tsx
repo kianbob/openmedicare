@@ -132,7 +132,7 @@ export default function HoustonMedicareCapitalPage() {
           <p className="text-gray-700 mb-8">One thing is clear: if you want to follow the Medicare money, start in Houston.</p>
         </article>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/houston-medicare-capital" title="Houston: America's Medicare Capital — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/houston-medicare-capital" title="Houston: America's Medicare Capital — OpenMedicare" />
         <SourceCitation />
       </div>
     </main>

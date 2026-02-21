@@ -79,7 +79,7 @@ export default function ApiDocsPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Base URL</h2>
           <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-green-400">
-            https://openmedicare.vercel.app/data/
+            https://www.openmedicare.org/data/
           </div>
           <p className="text-sm text-gray-500 mt-3">
             Also available at <code className="bg-gray-100 px-1 py-0.5 rounded text-xs">https://www.openmedicare.org/data/</code>
@@ -93,7 +93,7 @@ export default function ApiDocsPage() {
             <div>
               <h3 className="text-sm font-semibold text-gray-700 mb-2">JavaScript / fetch</h3>
               <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-gray-300 overflow-x-auto">
-                <pre>{`const res = await fetch('https://openmedicare.vercel.app/data/watchlist.json')
+                <pre>{`const res = await fetch('https://www.openmedicare.org/data/watchlist.json')
 const data = await res.json()
 console.log(data.providers.length) // 500 flagged providers`}</pre>
               </div>
@@ -101,13 +101,13 @@ console.log(data.providers.length) // 500 flagged providers`}</pre>
             <div>
               <h3 className="text-sm font-semibold text-gray-700 mb-2">Python</h3>
               <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-gray-300 overflow-x-auto">
-                <pre>{'import requests\ndata = requests.get(\'https://openmedicare.vercel.app/data/states.json\').json()\nfor state in data[\'states\'][:5]:\n    print(state[\'state\'], state[\'total_payments\'])'}</pre>
+                <pre>{'import requests\ndata = requests.get(\'https://www.openmedicare.org/data/states.json\').json()\nfor state in data[\'states\'][:5]:\n    print(state[\'state\'], state[\'total_payments\'])'}</pre>
               </div>
             </div>
             <div>
               <h3 className="text-sm font-semibold text-gray-700 mb-2">cURL</h3>
               <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-gray-300 overflow-x-auto">
-                <pre>{`curl -s https://openmedicare.vercel.app/data/trends.json | jq '.yearly_totals[0]'`}</pre>
+                <pre>{`curl -s https://www.openmedicare.org/data/trends.json | jq '.yearly_totals[0]'`}</pre>
               </div>
             </div>
           </div>

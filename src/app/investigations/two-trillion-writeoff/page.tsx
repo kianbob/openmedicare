@@ -211,7 +211,7 @@ export default function TwoTrillionWriteoffPage() {
           <p className="text-gray-700 mb-8">Until we fix the underlying incentives that reward inflated pricing, the fictional charges will keep climbing, the writeoffs will keep growing, and the gap between what healthcare &quot;costs&quot; and what it actually costs will remain America&apos;s biggest hidden number.</p>
         </article>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/two-trillion-writeoff" title="The $2.1 Trillion Writeoff — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/two-trillion-writeoff" title="The $2.1 Trillion Writeoff — OpenMedicare" />
         <SourceCitation />
       </div>
     </main>

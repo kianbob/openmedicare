@@ -674,18 +674,30 @@ export default async function ProviderDetailPage({ params }: PageProps) {
         {/* Related Links */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">Related</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/providers" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Browse</div>
+              <div className="font-medium text-blue-600">← Back to Provider Directory</div>
+            </Link>
             <Link href={`/states/${raw.state}`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">State</div>
               <div className="font-medium text-blue-600">All providers in {raw.state} →</div>
             </Link>
             <Link href={`/specialties/${specialtySlug}`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Specialty</div>
-              <div className="font-medium text-blue-600">{raw.specialty} →</div>
+              <div className="font-medium text-blue-600">All {raw.specialty} providers →</div>
             </Link>
-            <Link href="/watchlist" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+            <Link href="/compare" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Tool</div>
+              <div className="font-medium text-blue-600">Compare this provider →</div>
+            </Link>
+            <Link href="/fraud/watchlist" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
               <div className="text-sm text-gray-500">Analysis</div>
               <div className="font-medium text-blue-600">Fraud Watchlist →</div>
+            </Link>
+            <Link href="/search" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Search</div>
+              <div className="font-medium text-blue-600">Search all providers →</div>
             </Link>
           </div>
         </div>

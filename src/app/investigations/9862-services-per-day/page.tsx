@@ -140,7 +140,7 @@ export default function ImpossibleServicesPage() {
           <p className="text-gray-700 mb-8">Either these are data errors, billing structure artifacts, or something extraordinary is happening. In any case, {formatNumber(top?.total_services || 2465495)} services from a single provider in a single year deserves scrutiny. The data is public. The math is simple. And the questions remain unanswered.</p>
         </article>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/9862-services-per-day" title="9,862 Services Per Day — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/9862-services-per-day" title="9,862 Services Per Day — OpenMedicare" />
         <SourceCitation />
       </div>
     </main>

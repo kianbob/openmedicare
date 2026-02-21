@@ -206,7 +206,7 @@ export default function TenYearExplosionPage() {
         </div>
 
         <div className="mt-8">
-          <ShareButtons url="https://openmedicare.vercel.app/investigations/ten-year-explosion" title="The 10-Year Explosion — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/ten-year-explosion" title="The 10-Year Explosion — OpenMedicare" />
         </div>
         <SourceCitation />
       </div>

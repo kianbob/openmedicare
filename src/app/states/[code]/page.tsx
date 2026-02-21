@@ -234,6 +234,61 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
           </div>
         )}
 
+        {/* Explore More */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/states" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Browse</div>
+              <div className="font-medium text-blue-600">← All States</div>
+            </Link>
+            <Link href={`/states/${code}/fraud-risk`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Fraud Analysis</div>
+              <div className="font-medium text-blue-600">Fraud risk in {name} →</div>
+            </Link>
+            <Link href={`/states/${code}/compare`} className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Compare</div>
+              <div className="font-medium text-blue-600">Compare {code} to other states →</div>
+            </Link>
+            <Link href="/fraud/watchlist" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Watchlist</div>
+              <div className="font-medium text-blue-600">Flagged providers in {code} →</div>
+            </Link>
+            <Link href="/investigations/medicare-spending-by-state" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Investigation</div>
+              <div className="font-medium text-blue-600">State spending breakdown →</div>
+            </Link>
+            <Link href="/investigations/geographic-inequality" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+              <div className="text-sm text-gray-500">Investigation</div>
+              <div className="font-medium text-blue-600">Geographic inequality →</div>
+            </Link>
+            {code === 'TX' && (
+              <Link href="/investigations/houston-medicare-capital" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">Houston: Medicare Capital →</div>
+              </Link>
+            )}
+            {code === 'FL' && (
+              <Link href="/investigations/florida-infectious-disease" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">Florida&apos;s Fraud Factory →</div>
+              </Link>
+            )}
+            {code === 'AZ' && (
+              <Link href="/investigations/arizona-wound-care-ring" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">Arizona Wound Care Ring →</div>
+              </Link>
+            )}
+            {code === 'CA' && (
+              <Link href="/investigations/beverly-hills-billing" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors">
+                <div className="text-sm text-gray-500">Investigation</div>
+                <div className="font-medium text-blue-600">Beverly Hills Billing →</div>
+              </Link>
+            )}
+          </div>
+        </div>
+
         <ShareButtons url={`https://www.openmedicare.org/states/${code}`} title={`${name} Medicare Spending — OpenMedicare`} />
         <SourceCitation lastUpdated="February 2026 (data through 2023, the latest CMS release)" />
       </div>

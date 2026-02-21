@@ -75,7 +75,7 @@ export default function BiggestBillersPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/biggest-billers" title="Medicare's Biggest Billers — OpenMedicare" />
+        <ShareButtons url="https://www.openmedicare.org/investigations/biggest-billers" title="Medicare's Biggest Billers — OpenMedicare" />
         <SourceCitation />
       </div>
     </main>

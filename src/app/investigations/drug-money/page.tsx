@@ -231,7 +231,7 @@ export default function DrugMoneyPage() {
         </div>
 
         <div className="mt-8">
-          <ShareButtons url="https://openmedicare.vercel.app/investigations/drug-money" title="Follow the Drug Money — OpenMedicare" />
+          <ShareButtons url="https://www.openmedicare.org/investigations/drug-money" title="Follow the Drug Money — OpenMedicare" />
         </div>
         <SourceCitation />
       </div>

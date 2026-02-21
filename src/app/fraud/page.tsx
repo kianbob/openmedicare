@@ -268,6 +268,61 @@ export default function FraudHub() {
           ))}
         </div>
 
+        {/* Related Investigations */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold font-serif text-gray-900 mb-4">Related Investigations</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link href="/investigations/data-predicted-fraud" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🏆 Our Data Predicted Fraud</div>
+              <div className="text-sm text-gray-500">We flagged providers before the DOJ did</div>
+            </Link>
+            <Link href="/investigations/arizona-wound-care-ring" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🩹 Arizona Wound Care Ring</div>
+              <div className="text-sm text-gray-500">$514M billed by 23 nurse practitioners</div>
+            </Link>
+            <Link href="/investigations/impossible-doctors" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🧮 The Impossible Doctors</div>
+              <div className="text-sm text-gray-500">400+ services per day</div>
+            </Link>
+            <Link href="/investigations/medicare-fraud-2025" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">⚖️ Medicare Fraud in 2025</div>
+              <div className="text-sm text-gray-500">DOJ&apos;s $14.6B takedown</div>
+            </Link>
+            <Link href="/investigations/florida-infectious-disease" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">🌴 Florida&apos;s Fraud Factory</div>
+              <div className="text-sm text-gray-500">185 impossible providers</div>
+            </Link>
+            <Link href="/investigations/beverly-hills-wound-care" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">💎 Beverly Hills Wound Care</div>
+              <div className="text-sm text-gray-500">Plastic surgeons billing Medicare $45.6M</div>
+            </Link>
+          </div>
+          <div className="mt-4 pt-3 border-t border-gray-100">
+            <Link href="/investigations" className="text-sm font-medium text-blue-600 hover:text-blue-800">
+              View all investigations →
+            </Link>
+          </div>
+        </div>
+
+        {/* Related Data */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">Related Data</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <Link href="/providers" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">Provider Directory</div>
+            </Link>
+            <Link href="/states" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">Browse by State</div>
+            </Link>
+            <Link href="/specialties" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">Browse by Specialty</div>
+            </Link>
+            <Link href="/analysis" className="text-center p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600 text-sm">Deep Analysis</div>
+            </Link>
+          </div>
+        </div>
+
         {/* Disclaimer */}
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
           <p className="text-sm text-yellow-800">

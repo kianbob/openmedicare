@@ -271,7 +271,7 @@ export default function PandemicRecoveryPage() {
         </article>
 
         <ShareButtons
-          url="https://openmedicare.vercel.app/investigations/pandemic-recovery"
+          url="https://www.openmedicare.org/investigations/pandemic-recovery"
           title="Medicare's Pandemic Recovery — OpenMedicare"
         />
         <SourceCitation />
