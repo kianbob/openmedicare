@@ -1,0 +1,106 @@
+{
+  "name": "Unknown",
+  "credentials": "",
+  "specialty": "Unknown",
+  "city": "",
+  "state": "",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 13470158.59,
+      "total_services": 17287,
+      "total_beneficiaries": 14353,
+      "avg_submitted": 2443.7,
+      "avg_paid": 779.21
+    },
+    {
+      "year": 2022,
+      "total_payments": 15953908.42,
+      "total_services": 20474,
+      "total_beneficiaries": 17000,
+      "avg_submitted": 1906.4,
+      "avg_paid": 779.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 9922206.14,
+      "total_services": 12733,
+      "total_beneficiaries": 10573,
+      "avg_submitted": 1708.42,
+      "avg_paid": 779.25
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, low complexity",
+      "services": 25524,
+      "payments": 13501880.79,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99203",
+      "description": "Office/outpatient visit, new patient",
+      "services": 7165,
+      "payments": 3850679.89,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, moderate complexity",
+      "services": 6821,
+      "payments": 3612378.97,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, high complexity",
+      "services": 2088,
+      "payments": 2412635.63,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count",
+      "services": 2821,
+      "payments": 2234666.3,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for blood collection",
+      "services": 1779,
+      "payments": 1780793.96,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 2062,
+      "payments": 1425181.64,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram with interpretation",
+      "services": 1786,
+      "payments": 1066378.43,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 649,
+      "payments": 926564.52,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection",
+      "services": 451,
+      "payments": 665858.4,
+      "avg_markup": 2.88
+    }
+  ]
+}
