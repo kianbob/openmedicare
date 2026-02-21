@@ -62,21 +62,6 @@ const featuredInvestigations = [
   },
 ]
 
-const featuredInvestigation = {
-  title: 'Three Providers, Three Red Flags',
-  description: 'Inside Medicare\'s most suspicious billing patterns — a $12.1M COVID test biller, a Beverly Hills wound care surgeon, and an anti-aging spa doctor',
-  href: '/investigations/three-providers',
-  category: 'Featured Investigation',
-  readTime: '20 min read',
-  publishedAt: '2026-02-21',
-  excerpt: 'A nurse practitioner billed $12.1M in COVID tests in one year. A Beverly Hills plastic surgeon billed $28.9M — 90% wound care. An anti-aging spa doctor\'s billing exploded 24x overnight. Three providers. Three statistical anomalies. Three sets of questions.',
-  keyFindings: [
-    'Merry Taheri (NPI 1184886178): $12.1M from COVID tests, 4,132 services/day, risk score 96/100',
-    'Som Kohanzadeh (NPI 1952575342): $28.9M total, 90.3% wound care, billing grew 770x over decade',
-    'Tatiana Sharahy (NPI 1598889248): Billing exploded 24x in one year, 1,884 services/day'
-  ],
-}
-
 const investigations = [
   {
     title: 'The $2.1 Trillion Writeoff',
@@ -501,63 +486,6 @@ export default function InvestigationsPage() {
             </div>
           </div>
         ))}
-
-        {/* Featured Investigation */}
-        <div className="bg-gradient-to-r from-medicare-primary to-medicare-dark rounded-lg shadow-lg text-white mb-12">
-          <div className="p-8 lg:p-12">
-            <div className="flex items-center mb-4">
-              <FireIcon className="h-6 w-6 mr-2" />
-              <span className="text-sm font-medium bg-white/20 px-3 py-1 rounded-full">
-                Featured Investigation
-              </span>
-            </div>
-            
-            <h2 className="text-3xl lg:text-4xl font-bold font-playfair mb-4">
-              {featuredInvestigation.title}
-            </h2>
-            
-            <p className="text-xl text-blue-100 mb-6 max-w-4xl">
-              {featuredInvestigation.description}
-            </p>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-              <div>
-                <p className="text-blue-100 mb-4">
-                  {featuredInvestigation.excerpt}
-                </p>
-                
-                <div className="flex items-center gap-4 text-sm text-blue-200">
-                  <div className="flex items-center">
-                    <ClockIcon className="h-4 w-4 mr-1" />
-                    {featuredInvestigation.readTime}
-                  </div>
-                  <span>•</span>
-                  <span>{new Date(featuredInvestigation.publishedAt).toLocaleDateString()}</span>
-                </div>
-              </div>
-              
-              <div>
-                <h3 className="font-semibold text-white mb-3">Key Findings:</h3>
-                <ul className="space-y-2 text-blue-100">
-                  {featuredInvestigation.keyFindings.map((finding, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      <span className="text-sm">{finding}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            
-            <Link 
-              href={featuredInvestigation.href}
-              className="inline-flex items-center px-8 py-3 bg-white text-medicare-primary font-semibold rounded-lg hover:bg-gray-100 transition-colors"
-            >
-              Read Full Investigation
-              <ArrowRightIcon className="ml-2 h-5 w-5" />
-            </Link>
-          </div>
-        </div>
 
         {/* Category Filter */}
         <div className="flex flex-wrap gap-2 mb-8">
