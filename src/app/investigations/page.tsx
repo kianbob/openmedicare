@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 44 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 48 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -444,6 +444,42 @@ const investigations = [
     readTime: '15 min read',
     publishedAt: '2026-02-15',
     excerpt: 'A nurse practitioner billing $12.1M in COVID tests. A Beverly Hills plastic surgeon billing $28.9M in wound care. An anti-aging spa doctor with a 197.7x markup. Three providers, three statistical anomalies.'
+  },
+  {
+    title: 'How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers',
+    description: 'Technical deep-dive: supervised ML fraud detection on 96M rows of Medicare data. Training labels from LEIE + DOJ, Random Forest with AUC 0.83.',
+    href: '/investigations/how-we-built-the-model',
+    category: 'Deep Dive',
+    readTime: '20 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'A technical deep-dive into building a supervised Random Forest model trained on 96M rows of Medicare billing data and 8,300+ confirmed fraud labels from LEIE/DOJ. AUC 0.83, feature engineering, and lessons learned.'
+  },
+  {
+    title: 'Why Internal Medicine Is Ground Zero for Medicare Fraud',
+    description: '53% of all AI-flagged Medicare providers are Internal Medicine. Volume + discretion = opportunity.',
+    href: '/investigations/internal-medicine-crisis',
+    category: 'Analysis',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '263 of 500 AI-flagged providers (53%) are Internal Medicine specialists. High-volume billing, broad procedure codes, and easy-to-pad office visits make IM the #1 specialty for fraud-pattern matches.'
+  },
+  {
+    title: 'The Fraud Belt: Why California and Florida Lead Medicare Fraud',
+    description: 'CA and FL tied at 56 flagged providers each. Fraud follows the sun — and the elderly population.',
+    href: '/investigations/florida-california-fraud',
+    category: 'Analysis',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'California and Florida each have 56 AI-flagged Medicare providers — 22.4% of all flags. Combined with NY, TX, and NJ, five states account for over half of all suspicious billing patterns.'
+  },
+  {
+    title: 'The Million-Dollar Club: 47 AI-Flagged Providers Who Billed Over $1M Each',
+    description: '47 providers flagged for fraud patterns each billed over $1M. Terrance Hughes alone: $5.3M.',
+    href: '/investigations/million-dollar-flagged',
+    category: 'Investigation',
+    readTime: '10 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '47 providers flagged by our AI model each billed Medicare over $1 million. Combined, they collected over $93 million in taxpayer money — while matching the billing patterns of convicted fraudsters.'
   },
 ]
 

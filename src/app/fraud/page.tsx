@@ -418,7 +418,7 @@ export default function FraudHub() {
         </div>
 
         <div className="flex flex-wrap items-center gap-4 mb-8">
-          <ShareButtons url="https://openmedicare.vercel.app/fraud" title="Medicare Fraud Analysis Hub" />
+          <ShareButtons url="https://openmedicare.vercel.app/fraud" title="Medicare Fraud Analysis Hub" description="AI flagged 500 Medicare providers for potential fraud out of 1.72M analyzed. See the data behind the investigation." />
         </div>
 
         <div className="mb-8">

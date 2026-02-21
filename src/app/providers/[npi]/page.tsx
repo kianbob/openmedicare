@@ -351,7 +351,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
       keyFindings.push(`${formatNumber(servicesPerDay)} services/day — ${servicesPerDay > 200 ? 'physically implausible' : 'unusually high'}`)
     }
     if (biggestYoyIncrease) {
-      keyFindings.push(`Payments surged ${biggestYoyIncrease.(pctChange ?? 0).toFixed(0)}% in ${biggestYoyIncrease.year}`)
+      keyFindings.push(`Payments surged ${(biggestYoyIncrease.pctChange ?? 0).toFixed(0)}% in ${biggestYoyIncrease.year}`)
     }
     const highMarkupProcs = topProcs.filter(p => p.avg_markup > 3)
     if (highMarkupProcs.length > 0) {
@@ -761,7 +761,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                 <span className="text-xl">📈</span>
                 <div>
                   <p className="font-medium text-amber-900">
-                    Notable: Payments increased {biggestYoyIncrease.(pctChange ?? 0).toFixed(0)}% in {biggestYoyIncrease.year}
+                    Notable: Payments increased {(biggestYoyIncrease.pctChange ?? 0).toFixed(0)}% in {biggestYoyIncrease.year}
                   </p>
                   <p className="text-sm text-amber-700">
                     Year-over-year payment surges can indicate changes in practice volume, new services, or billing pattern shifts.

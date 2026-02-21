@@ -35,13 +35,24 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://openmedicare.vercel.app',
     title: 'OpenMedicare - Follow the Money in Medicare',
-    description: 'Professional data journalism tracking Medicare physician spending across 10 years (2014-2023).',
+    description: 'AI analyzed 1.72M Medicare providers and flagged 500 for potential fraud. Exposed $854B in spending patterns across 10 years of data.',
     siteName: 'OpenMedicare',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'OpenMedicare - AI-Powered Medicare Fraud Detection',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@thedataproject0',
     creator: '@thedataproject0',
+    title: 'OpenMedicare - Follow the Money in Medicare',
+    description: 'AI analyzed 1.72M Medicare providers and flagged 500 for potential fraud. $854B in spending tracked.',
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
