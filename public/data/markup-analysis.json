@@ -1,62 +1,2054 @@
-[
-  {
-    "specialty": "Orthopedic Surgery",
-    "avgMarkup": 3.2,
-    "totalCharges": 45000000000,
-    "totalPayments": 14000000000,
-    "providerCount": 12500,
-    "topStates": [
-      { "state": "FL", "avgMarkup": 3.8 },
-      { "state": "TX", "avgMarkup": 3.5 },
-      { "state": "CA", "avgMarkup": 3.1 }
-    ]
-  },
-  {
-    "specialty": "Cardiology",
-    "avgMarkup": 2.8,
-    "totalCharges": 38000000000,
-    "totalPayments": 13500000000,
-    "providerCount": 15800,
-    "topStates": [
-      { "state": "NY", "avgMarkup": 3.2 },
-      { "state": "FL", "avgMarkup": 3.0 },
-      { "state": "CA", "avgMarkup": 2.6 }
-    ]
-  },
-  {
-    "specialty": "Ophthalmology",
-    "avgMarkup": 2.6,
-    "totalCharges": 28000000000,
-    "totalPayments": 10800000000,
-    "providerCount": 9200,
-    "topStates": [
-      { "state": "FL", "avgMarkup": 3.1 },
-      { "state": "AZ", "avgMarkup": 2.9 },
-      { "state": "TX", "avgMarkup": 2.7 }
-    ]
-  },
-  {
-    "specialty": "Radiology",
-    "avgMarkup": 2.4,
-    "totalCharges": 52000000000,
-    "totalPayments": 22000000000,
-    "providerCount": 18500,
-    "topStates": [
-      { "state": "CA", "avgMarkup": 2.8 },
-      { "state": "NY", "avgMarkup": 2.6 },
-      { "state": "TX", "avgMarkup": 2.3 }
-    ]
-  },
-  {
-    "specialty": "Internal Medicine",
-    "avgMarkup": 1.9,
-    "totalCharges": 85000000000,
-    "totalPayments": 45000000000,
-    "providerCount": 89000,
-    "topStates": [
-      { "state": "FL", "avgMarkup": 2.2 },
-      { "state": "CA", "avgMarkup": 1.9 },
-      { "state": "TX", "avgMarkup": 1.8 }
-    ]
-  }
-]
+{
+  "generated_at": "2026-02-20",
+  "by_specialty": [
+    {
+      "specialty": "Pharmacy",
+      "avg_markup": 22.45,
+      "total_charges": 630088924.41,
+      "total_payments": 432030297.12,
+      "provider_count": 2960
+    },
+    {
+      "specialty": "Anesthesiology",
+      "avg_markup": 15.59,
+      "total_charges": 8176931596.15,
+      "total_payments": 787765510.94,
+      "provider_count": 34189
+    },
+    {
+      "specialty": "Interventional Pain Management",
+      "avg_markup": 15.02,
+      "total_charges": 1524494529.82,
+      "total_payments": 276436371.54,
+      "provider_count": 1478
+    },
+    {
+      "specialty": "Anesthesiology Assistant",
+      "avg_markup": 14.73,
+      "total_charges": 127829865.22,
+      "total_payments": 8817847.71,
+      "provider_count": 2157
+    },
+    {
+      "specialty": "Certified Registered Nurse Anesthetist (CRNA)",
+      "avg_markup": 13.16,
+      "total_charges": 4285081553.27,
+      "total_payments": 371529614.7,
+      "provider_count": 38387
+    },
+    {
+      "specialty": "Pain Management",
+      "avg_markup": 12.94,
+      "total_charges": 2157959860.65,
+      "total_payments": 387802532.15,
+      "provider_count": 2710
+    },
+    {
+      "specialty": "Radiation Therapy Center",
+      "avg_markup": 11.59,
+      "total_charges": 234110475.11,
+      "total_payments": 26582272.72,
+      "provider_count": 25
+    },
+    {
+      "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+      "avg_markup": 11.25,
+      "total_charges": 5638006435.2,
+      "total_payments": 881305635.66,
+      "provider_count": 1949
+    },
+    {
+      "specialty": "Ambulatory Surgical Center",
+      "avg_markup": 10.34,
+      "total_charges": 26549197646.92,
+      "total_payments": 4298258797.72,
+      "provider_count": 5353
+    },
+    {
+      "specialty": "Pulmonary Disease",
+      "avg_markup": 10.02,
+      "total_charges": 3427060624.91,
+      "total_payments": 991177623.58,
+      "provider_count": 10381
+    },
+    {
+      "specialty": "Medical Oncology",
+      "avg_markup": 9.44,
+      "total_charges": 3348470068.02,
+      "total_payments": 854278267.05,
+      "provider_count": 3632
+    },
+    {
+      "specialty": "Physical Medicine and Rehabilitation",
+      "avg_markup": 8.79,
+      "total_charges": 3695497578.23,
+      "total_payments": 898459747.5,
+      "provider_count": 8103
+    },
+    {
+      "specialty": "Hematology-Oncology",
+      "avg_markup": 8.72,
+      "total_charges": 10644190578.98,
+      "total_payments": 2799274154.61,
+      "provider_count": 8675
+    },
+    {
+      "specialty": "Emergency Medicine",
+      "avg_markup": 8.7,
+      "total_charges": 14881478252.08,
+      "total_payments": 1886988095.78,
+      "provider_count": 47236
+    },
+    {
+      "specialty": "Interventional Radiology",
+      "avg_markup": 7.97,
+      "total_charges": 1591447884.25,
+      "total_payments": 281921851.63,
+      "provider_count": 2306
+    },
+    {
+      "specialty": "Adult Congenital Heart Disease",
+      "avg_markup": 7.71,
+      "total_charges": 7498261.89,
+      "total_payments": 1454172.97,
+      "provider_count": 46
+    },
+    {
+      "specialty": "Cardiac Surgery",
+      "avg_markup": 7.6,
+      "total_charges": 430279193.85,
+      "total_payments": 80637470.75,
+      "provider_count": 1025
+    },
+    {
+      "specialty": "Hematopoietic Cell Transplantation and Cellular Therapy",
+      "avg_markup": 7.46,
+      "total_charges": 58755696.15,
+      "total_payments": 12667787.72,
+      "provider_count": 150
+    },
+    {
+      "specialty": "Gastroenterology",
+      "avg_markup": 7.4,
+      "total_charges": 5971753514.47,
+      "total_payments": 1078158420.69,
+      "provider_count": 14124
+    },
+    {
+      "specialty": "Gynecological Oncology",
+      "avg_markup": 7.28,
+      "total_charges": 225137417.45,
+      "total_payments": 50837516.96,
+      "provider_count": 981
+    },
+    {
+      "specialty": "Diagnostic Radiology",
+      "avg_markup": 7.28,
+      "total_charges": 22728578752.82,
+      "total_payments": 3588175049.49,
+      "provider_count": 31554
+    },
+    {
+      "specialty": "Pathology",
+      "avg_markup": 7.17,
+      "total_charges": 5192621127.2,
+      "total_payments": 1050567427.45,
+      "provider_count": 11952
+    },
+    {
+      "specialty": "Critical Care (Intensivists)",
+      "avg_markup": 7.11,
+      "total_charges": 1038140796.9,
+      "total_payments": 243007287.29,
+      "provider_count": 4642
+    },
+    {
+      "specialty": "Nuclear Medicine",
+      "avg_markup": 7.05,
+      "total_charges": 612458623.03,
+      "total_payments": 154798820.07,
+      "provider_count": 511
+    },
+    {
+      "specialty": "Hematology",
+      "avg_markup": 7.02,
+      "total_charges": 411314521.74,
+      "total_payments": 95533571.87,
+      "provider_count": 873
+    },
+    {
+      "specialty": "Physician Assistant",
+      "avg_markup": 6.6,
+      "total_charges": 11275242246.49,
+      "total_payments": 2340701428.94,
+      "provider_count": 94996
+    },
+    {
+      "specialty": "Neurosurgery",
+      "avg_markup": 6.39,
+      "total_charges": 1887634920.19,
+      "total_payments": 301582091.5,
+      "provider_count": 4793
+    },
+    {
+      "specialty": "Orthopedic Surgery",
+      "avg_markup": 6.34,
+      "total_charges": 10890320093.67,
+      "total_payments": 2116115610.55,
+      "provider_count": 20699
+    },
+    {
+      "specialty": "Sports Medicine",
+      "avg_markup": 6.26,
+      "total_charges": 609040517.27,
+      "total_payments": 131402799.01,
+      "provider_count": 1734
+    },
+    {
+      "specialty": "Thoracic Surgery",
+      "avg_markup": 6.23,
+      "total_charges": 695068002.67,
+      "total_payments": 137525200.96,
+      "provider_count": 2293
+    },
+    {
+      "specialty": "Urology",
+      "avg_markup": 6.23,
+      "total_charges": 4811295931.86,
+      "total_payments": 1185310293.9,
+      "provider_count": 8940
+    },
+    {
+      "specialty": "Undefined Physician type",
+      "avg_markup": 5.98,
+      "total_charges": 97999298.69,
+      "total_payments": 24652797.01,
+      "provider_count": 203
+    },
+    {
+      "specialty": "Hand Surgery",
+      "avg_markup": 5.88,
+      "total_charges": 700227661.99,
+      "total_payments": 147852913.39,
+      "provider_count": 1606
+    },
+    {
+      "specialty": "Radiation Oncology",
+      "avg_markup": 5.87,
+      "total_charges": 6985211510.16,
+      "total_payments": 1317407347.88,
+      "provider_count": 4828
+    },
+    {
+      "specialty": "Vascular Surgery",
+      "avg_markup": 5.8,
+      "total_charges": 2390222740.7,
+      "total_payments": 543876819.01,
+      "provider_count": 3625
+    },
+    {
+      "specialty": "Peripheral Vascular Disease",
+      "avg_markup": 5.79,
+      "total_charges": 70269669.23,
+      "total_payments": 15402663.13,
+      "provider_count": 56
+    },
+    {
+      "specialty": "Neurology",
+      "avg_markup": 5.78,
+      "total_charges": 5010162112.28,
+      "total_payments": 1236764362.37,
+      "provider_count": 15573
+    },
+    {
+      "specialty": "Cardiology",
+      "avg_markup": 5.72,
+      "total_charges": 13624668050.54,
+      "total_payments": 3485495792.48,
+      "provider_count": 19399
+    },
+    {
+      "specialty": "Clinical Cardiac Electrophysiology",
+      "avg_markup": 5.61,
+      "total_charges": 2345456742.09,
+      "total_payments": 500270323.02,
+      "provider_count": 2458
+    },
+    {
+      "specialty": "Osteopathic Manipulative Medicine",
+      "avg_markup": 5.59,
+      "total_charges": 153663817.5,
+      "total_payments": 45809392.77,
+      "provider_count": 628
+    },
+    {
+      "specialty": "Advanced Heart Failure and Transplant Cardiology",
+      "avg_markup": 5.52,
+      "total_charges": 249033740.36,
+      "total_payments": 59589030.97,
+      "provider_count": 783
+    },
+    {
+      "specialty": "Sleep Medicine",
+      "avg_markup": 5.48,
+      "total_charges": 203606657.57,
+      "total_payments": 48765987.81,
+      "provider_count": 777
+    },
+    {
+      "specialty": "Preventive Medicine",
+      "avg_markup": 5.48,
+      "total_charges": 39385833.86,
+      "total_payments": 11993876.3,
+      "provider_count": 236
+    },
+    {
+      "specialty": "General Practice",
+      "avg_markup": 5.44,
+      "total_charges": 692323538.45,
+      "total_payments": 294513053.08,
+      "provider_count": 3390
+    },
+    {
+      "specialty": "Interventional Cardiology",
+      "avg_markup": 5.4,
+      "total_charges": 3411571674.62,
+      "total_payments": 834118082.62,
+      "provider_count": 4410
+    },
+    {
+      "specialty": "Pediatric Medicine",
+      "avg_markup": 5.23,
+      "total_charges": 185905109.07,
+      "total_payments": 55355413.79,
+      "provider_count": 1404
+    },
+    {
+      "specialty": "Surgical Oncology",
+      "avg_markup": 5.23,
+      "total_charges": 175738296.45,
+      "total_payments": 35689169.92,
+      "provider_count": 1109
+    },
+    {
+      "specialty": "Clinical Laboratory",
+      "avg_markup": 5.2,
+      "total_charges": 24039345041.12,
+      "total_payments": 7365997003.21,
+      "provider_count": 3103
+    },
+    {
+      "specialty": "Nurse Practitioner",
+      "avg_markup": 5.2,
+      "total_charges": 18599447310.12,
+      "total_payments": 5693319919.71,
+      "provider_count": 174679
+    },
+    {
+      "specialty": "Plastic and Reconstructive Surgery",
+      "avg_markup": 5.16,
+      "total_charges": 686138867.2,
+      "total_payments": 179988958.75,
+      "provider_count": 3122
+    },
+    {
+      "specialty": "Certified Clinical Nurse Specialist",
+      "avg_markup": 5.11,
+      "total_charges": 117998113.7,
+      "total_payments": 37663615.09,
+      "provider_count": 1417
+    },
+    {
+      "specialty": "General Surgery",
+      "avg_markup": 5.04,
+      "total_charges": 3084146555.79,
+      "total_payments": 735073415.2,
+      "provider_count": 19058
+    },
+    {
+      "specialty": "Colorectal Surgery (Proctology)",
+      "avg_markup": 4.96,
+      "total_charges": 254567411.05,
+      "total_payments": 60711000.82,
+      "provider_count": 1575
+    },
+    {
+      "specialty": "Undersea and Hyperbaric Medicine",
+      "avg_markup": 4.83,
+      "total_charges": 49892093.6,
+      "total_payments": 14120407.25,
+      "provider_count": 122
+    },
+    {
+      "specialty": "Allergy/ Immunology",
+      "avg_markup": 4.76,
+      "total_charges": 774240950.69,
+      "total_payments": 265619478.58,
+      "provider_count": 3118
+    },
+    {
+      "specialty": "Rheumatology",
+      "avg_markup": 4.75,
+      "total_charges": 5700561252.68,
+      "total_payments": 1810040290.28,
+      "provider_count": 4906
+    },
+    {
+      "specialty": "Medical Toxicology",
+      "avg_markup": 4.7,
+      "total_charges": 3569870.0,
+      "total_payments": 802313.71,
+      "provider_count": 35
+    },
+    {
+      "specialty": "Mammography Center",
+      "avg_markup": 4.68,
+      "total_charges": 8129692.81,
+      "total_payments": 1775270.02,
+      "provider_count": 13
+    },
+    {
+      "specialty": "Audiologist",
+      "avg_markup": 4.55,
+      "total_charges": 262158890.84,
+      "total_payments": 51188886.54,
+      "provider_count": 7289
+    },
+    {
+      "specialty": "Family Practice",
+      "avg_markup": 4.53,
+      "total_charges": 12825155313.54,
+      "total_payments": 4361955099.53,
+      "provider_count": 78514
+    },
+    {
+      "specialty": "Internal Medicine",
+      "avg_markup": 4.52,
+      "total_charges": 21319893719.24,
+      "total_payments": 6856444783.23,
+      "provider_count": 88702
+    },
+    {
+      "specialty": "Podiatry",
+      "avg_markup": 4.5,
+      "total_charges": 3713767819.21,
+      "total_payments": 1549738041.98,
+      "provider_count": 15192
+    },
+    {
+      "specialty": "Mass Immunizer Roster Biller",
+      "avg_markup": 4.47,
+      "total_charges": 1666171753.27,
+      "total_payments": 1495738694.89,
+      "provider_count": 28317
+    },
+    {
+      "specialty": "Maxillofacial Surgery",
+      "avg_markup": 4.43,
+      "total_charges": 18329418.31,
+      "total_payments": 5111991.31,
+      "provider_count": 507
+    },
+    {
+      "specialty": "Dentist",
+      "avg_markup": 4.39,
+      "total_charges": 20920430.26,
+      "total_payments": 8083795.0,
+      "provider_count": 172
+    },
+    {
+      "specialty": "Medical Genetics and Genomics",
+      "avg_markup": 4.34,
+      "total_charges": 2341225.12,
+      "total_payments": 468323.44,
+      "provider_count": 53
+    },
+    {
+      "specialty": "Unknown Supplier/Provider Specialty",
+      "avg_markup": 4.33,
+      "total_charges": 752431.25,
+      "total_payments": 182707.6,
+      "provider_count": 21
+    },
+    {
+      "specialty": "Ophthalmology",
+      "avg_markup": 4.31,
+      "total_charges": 23124966618.06,
+      "total_payments": 7246048849.03,
+      "provider_count": 17001
+    },
+    {
+      "specialty": "Otolaryngology",
+      "avg_markup": 4.24,
+      "total_charges": 2554252170.14,
+      "total_payments": 711915423.8,
+      "provider_count": 8512
+    },
+    {
+      "specialty": "Neuropsychiatry",
+      "avg_markup": 4.2,
+      "total_charges": 24246183.99,
+      "total_payments": 6994835.99,
+      "provider_count": 149
+    },
+    {
+      "specialty": "Oral Surgery (Dentist only)",
+      "avg_markup": 4.15,
+      "total_charges": 75405940.62,
+      "total_payments": 26687767.42,
+      "provider_count": 772
+    },
+    {
+      "specialty": "Micrographic Dermatologic Surgery",
+      "avg_markup": 4.13,
+      "total_charges": 670646999.89,
+      "total_payments": 208663368.45,
+      "provider_count": 357
+    },
+    {
+      "specialty": "Obstetrics & Gynecology",
+      "avg_markup": 4.06,
+      "total_charges": 944439795.93,
+      "total_payments": 277186335.39,
+      "provider_count": 17962
+    },
+    {
+      "specialty": "Dermatology",
+      "avg_markup": 3.97,
+      "total_charges": 8503016175.38,
+      "total_payments": 2728498287.82,
+      "provider_count": 12160
+    },
+    {
+      "specialty": "Hospitalist",
+      "avg_markup": 3.9,
+      "total_charges": 3567432546.91,
+      "total_payments": 976212694.16,
+      "provider_count": 19105
+    },
+    {
+      "specialty": "Endocrinology",
+      "avg_markup": 3.84,
+      "total_charges": 1512764324.56,
+      "total_payments": 489711668.7,
+      "provider_count": 6160
+    },
+    {
+      "specialty": "Clinic or Group Practice",
+      "avg_markup": 3.81,
+      "total_charges": 2709571.3,
+      "total_payments": 993038.81,
+      "provider_count": 44
+    },
+    {
+      "specialty": "Addiction Medicine",
+      "avg_markup": 3.8,
+      "total_charges": 18503913.47,
+      "total_payments": 5598703.95,
+      "provider_count": 218
+    },
+    {
+      "specialty": "Infectious Disease",
+      "avg_markup": 3.79,
+      "total_charges": 1485487301.61,
+      "total_payments": 485882609.46,
+      "provider_count": 6052
+    },
+    {
+      "specialty": "Hospice and Palliative Care",
+      "avg_markup": 3.71,
+      "total_charges": 179024464.22,
+      "total_payments": 51327967.95,
+      "provider_count": 1611
+    },
+    {
+      "specialty": "Geriatric Medicine",
+      "avg_markup": 3.63,
+      "total_charges": 513717817.03,
+      "total_payments": 190880916.13,
+      "provider_count": 1824
+    },
+    {
+      "specialty": "Nephrology",
+      "avg_markup": 3.6,
+      "total_charges": 3818141093.58,
+      "total_payments": 1272839888.35,
+      "provider_count": 9172
+    },
+    {
+      "specialty": "Occupational Therapist in Private Practice",
+      "avg_markup": 3.56,
+      "total_charges": 1143379766.37,
+      "total_payments": 362522332.93,
+      "provider_count": 10190
+    },
+    {
+      "specialty": "Physical Therapist in Private Practice",
+      "avg_markup": 3.49,
+      "total_charges": 11143569293.69,
+      "total_payments": 3310404026.81,
+      "provider_count": 73456
+    },
+    {
+      "specialty": "Geriatric Psychiatry",
+      "avg_markup": 3.37,
+      "total_charges": 27301276.54,
+      "total_payments": 8895025.66,
+      "provider_count": 164
+    },
+    {
+      "specialty": "Ambulance Service Provider",
+      "avg_markup": 3.37,
+      "total_charges": 19888193139.54,
+      "total_payments": 4368020104.61,
+      "provider_count": 9332
+    },
+    {
+      "specialty": "Home Infusion Therapy Services",
+      "avg_markup": 3.35,
+      "total_charges": 8857605.73,
+      "total_payments": 2727402.54,
+      "provider_count": 39
+    },
+    {
+      "specialty": "Psychologist, Clinical",
+      "avg_markup": 3.33,
+      "total_charges": 1001887215.44,
+      "total_payments": 404893483.53,
+      "provider_count": 11374
+    },
+    {
+      "specialty": "Psychiatry",
+      "avg_markup": 3.32,
+      "total_charges": 1624096155.9,
+      "total_payments": 576144735.46,
+      "provider_count": 18253
+    },
+    {
+      "specialty": "Certified Nurse Midwife",
+      "avg_markup": 3.17,
+      "total_charges": 5205555.63,
+      "total_payments": 1849279.43,
+      "provider_count": 472
+    },
+    {
+      "specialty": "Licensed Clinical Social Worker",
+      "avg_markup": 3.12,
+      "total_charges": 720645271.97,
+      "total_payments": 275856374.31,
+      "provider_count": 14942
+    },
+    {
+      "specialty": "Optometry",
+      "avg_markup": 3.05,
+      "total_charges": 2218439273.64,
+      "total_payments": 864472886.69,
+      "provider_count": 29720
+    },
+    {
+      "specialty": "Portable X-Ray Supplier",
+      "avg_markup": 3.03,
+      "total_charges": 497611807.72,
+      "total_payments": 203024353.8,
+      "provider_count": 284
+    },
+    {
+      "specialty": "Speech Language Pathologist",
+      "avg_markup": 2.89,
+      "total_charges": 166116867.0,
+      "total_payments": 63887654.42,
+      "provider_count": 2105
+    },
+    {
+      "specialty": "Registered Dietitian or Nutrition Professional",
+      "avg_markup": 2.87,
+      "total_charges": 32448381.72,
+      "total_payments": 11924252.39,
+      "provider_count": 1864
+    },
+    {
+      "specialty": "Chiropractic",
+      "avg_markup": 2.34,
+      "total_charges": 988026744.8,
+      "total_payments": 449568954.12,
+      "provider_count": 32224
+    },
+    {
+      "specialty": "All Other Suppliers",
+      "avg_markup": 1.76,
+      "total_charges": 151633536.98,
+      "total_payments": 83100943.92,
+      "provider_count": 52
+    },
+    {
+      "specialty": "Opioid Treatment Program",
+      "avg_markup": 1.35,
+      "total_charges": 258986953.74,
+      "total_payments": 215144577.12,
+      "provider_count": 842
+    },
+    {
+      "specialty": "Medicare Diabetes Preventive Program",
+      "avg_markup": 1.24,
+      "total_charges": 232078.48,
+      "total_payments": 178534.59,
+      "provider_count": 28
+    },
+    {
+      "specialty": "Centralized Flu",
+      "avg_markup": 1.19,
+      "total_charges": 1065544982.39,
+      "total_payments": 926319972.75,
+      "provider_count": 9351
+    },
+    {
+      "specialty": "Public Health or Welfare Agency",
+      "avg_markup": 1.14,
+      "total_charges": 7900116.48,
+      "total_payments": 7177095.6,
+      "provider_count": 210
+    }
+  ],
+  "by_state": [
+    {
+      "state": "AS",
+      "avg_markup": 19.59,
+      "total_charges": 115558.0,
+      "total_payments": 5989.2
+    },
+    {
+      "state": "AA",
+      "avg_markup": 10.67,
+      "total_charges": 5220211.62,
+      "total_payments": 624739.3
+    },
+    {
+      "state": "AE",
+      "avg_markup": 9.62,
+      "total_charges": 24439992.07,
+      "total_payments": 12672728.8
+    },
+    {
+      "state": "WI",
+      "avg_markup": 9.47,
+      "total_charges": 6392253928.08,
+      "total_payments": 1252699727.14
+    },
+    {
+      "state": "AK",
+      "avg_markup": 8.34,
+      "total_charges": 1181049706.89,
+      "total_payments": 200991522.77
+    },
+    {
+      "state": "NV",
+      "avg_markup": 7.25,
+      "total_charges": 3982411714.77,
+      "total_payments": 950649799.26
+    },
+    {
+      "state": "XX",
+      "avg_markup": 7.17,
+      "total_charges": 8723242.25,
+      "total_payments": 3087659.17
+    },
+    {
+      "state": "TX",
+      "avg_markup": 7.08,
+      "total_charges": 30166120111.59,
+      "total_payments": 7074722445.21
+    },
+    {
+      "state": "GA",
+      "avg_markup": 6.9,
+      "total_charges": 10265234614.6,
+      "total_payments": 2309150410.86
+    },
+    {
+      "state": "NH",
+      "avg_markup": 6.57,
+      "total_charges": 1717333143.2,
+      "total_payments": 354379331.02
+    },
+    {
+      "state": "MS",
+      "avg_markup": 6.55,
+      "total_charges": 3834243483.36,
+      "total_payments": 952835314.64
+    },
+    {
+      "state": "CA",
+      "avg_markup": 6.55,
+      "total_charges": 44266080202.32,
+      "total_payments": 11525458129.84
+    },
+    {
+      "state": "NJ",
+      "avg_markup": 6.46,
+      "total_charges": 16889898435.54,
+      "total_payments": 3851851161.05
+    },
+    {
+      "state": "AZ",
+      "avg_markup": 6.4,
+      "total_charges": 10605536416.23,
+      "total_payments": 3106084518.56
+    },
+    {
+      "state": "IL",
+      "avg_markup": 6.35,
+      "total_charges": 16609663072.76,
+      "total_payments": 4262582798.09
+    },
+    {
+      "state": "NY",
+      "avg_markup": 6.28,
+      "total_charges": 27327551540.63,
+      "total_payments": 6347961612.53
+    },
+    {
+      "state": "SC",
+      "avg_markup": 6.25,
+      "total_charges": 6685147910.83,
+      "total_payments": 1707999820.59
+    },
+    {
+      "state": "MN",
+      "avg_markup": 6.06,
+      "total_charges": 5012894693.55,
+      "total_payments": 1013137384.63
+    },
+    {
+      "state": "LA",
+      "avg_markup": 6.02,
+      "total_charges": 4366992783.52,
+      "total_payments": 1056455691.39
+    },
+    {
+      "state": "WY",
+      "avg_markup": 5.99,
+      "total_charges": 609430475.16,
+      "total_payments": 133801730.76
+    },
+    {
+      "state": "ID",
+      "avg_markup": 5.93,
+      "total_charges": 1306952539.84,
+      "total_payments": 482904561.66
+    },
+    {
+      "state": "MO",
+      "avg_markup": 5.87,
+      "total_charges": 5676713198.45,
+      "total_payments": 1393367760.96
+    },
+    {
+      "state": "CO",
+      "avg_markup": 5.83,
+      "total_charges": 5372616300.42,
+      "total_payments": 1364093318.36
+    },
+    {
+      "state": "AR",
+      "avg_markup": 5.8,
+      "total_charges": 3369053150.49,
+      "total_payments": 905310617.75
+    },
+    {
+      "state": "FL",
+      "avg_markup": 5.76,
+      "total_charges": 33327507500.97,
+      "total_payments": 8883417518.23
+    },
+    {
+      "state": "TN",
+      "avg_markup": 5.76,
+      "total_charges": 8303740561.74,
+      "total_payments": 2021156833.45
+    },
+    {
+      "state": "NC",
+      "avg_markup": 5.76,
+      "total_charges": 10891795115.93,
+      "total_payments": 2692011926.26
+    },
+    {
+      "state": "NM",
+      "avg_markup": 5.68,
+      "total_charges": 1430403706.03,
+      "total_payments": 366545213.83
+    },
+    {
+      "state": "OK",
+      "avg_markup": 5.65,
+      "total_charges": 4070241632.24,
+      "total_payments": 1091806204.2
+    },
+    {
+      "state": "VA",
+      "avg_markup": 5.64,
+      "total_charges": 9398300360.89,
+      "total_payments": 2523700855.4
+    },
+    {
+      "state": "AP",
+      "avg_markup": 5.64,
+      "total_charges": 7628945.56,
+      "total_payments": 1509452.12
+    },
+    {
+      "state": "DE",
+      "avg_markup": 5.6,
+      "total_charges": 1563474943.98,
+      "total_payments": 434203195.66
+    },
+    {
+      "state": "CT",
+      "avg_markup": 5.56,
+      "total_charges": 3529262559.54,
+      "total_payments": 915802642.49
+    },
+    {
+      "state": "AL",
+      "avg_markup": 5.54,
+      "total_charges": 5395088483.15,
+      "total_payments": 1322387435.66
+    },
+    {
+      "state": "MA",
+      "avg_markup": 5.5,
+      "total_charges": 10309303301.95,
+      "total_payments": 2411854763.56
+    },
+    {
+      "state": "OH",
+      "avg_markup": 5.43,
+      "total_charges": 9838234323.15,
+      "total_payments": 2459569135.31
+    },
+    {
+      "state": "ND",
+      "avg_markup": 5.42,
+      "total_charges": 758698343.64,
+      "total_payments": 187953107.02
+    },
+    {
+      "state": "KY",
+      "avg_markup": 5.34,
+      "total_charges": 3627942195.67,
+      "total_payments": 988041392.76
+    },
+    {
+      "state": "KS",
+      "avg_markup": 5.33,
+      "total_charges": 3887134496.16,
+      "total_payments": 981835839.32
+    },
+    {
+      "state": "IN",
+      "avg_markup": 5.3,
+      "total_charges": 6091678498.1,
+      "total_payments": 1548235164.91
+    },
+    {
+      "state": "WA",
+      "avg_markup": 5.21,
+      "total_charges": 5612859774.66,
+      "total_payments": 1523959933.07
+    },
+    {
+      "state": "NE",
+      "avg_markup": 5.2,
+      "total_charges": 2213180596.7,
+      "total_payments": 587394350.55
+    },
+    {
+      "state": "OR",
+      "avg_markup": 5.18,
+      "total_charges": 3224054040.05,
+      "total_payments": 761773924.56
+    },
+    {
+      "state": "WV",
+      "avg_markup": 5.18,
+      "total_charges": 1269390448.0,
+      "total_payments": 347025107.69
+    },
+    {
+      "state": "IA",
+      "avg_markup": 5.08,
+      "total_charges": 2804790055.37,
+      "total_payments": 764787175.24
+    },
+    {
+      "state": "MI",
+      "avg_markup": 5.07,
+      "total_charges": 7042469274.44,
+      "total_payments": 2012782422.31
+    },
+    {
+      "state": "HI",
+      "avg_markup": 5.05,
+      "total_charges": 791793113.0,
+      "total_payments": 222361828.44
+    },
+    {
+      "state": "PA",
+      "avg_markup": 5.02,
+      "total_charges": 13480876845.23,
+      "total_payments": 3755632615.46
+    },
+    {
+      "state": "MD",
+      "avg_markup": 4.98,
+      "total_charges": 9751374147.59,
+      "total_payments": 2706273648.42
+    },
+    {
+      "state": "VT",
+      "avg_markup": 4.97,
+      "total_charges": 399718170.02,
+      "total_payments": 113277020.67
+    },
+    {
+      "state": "VI",
+      "avg_markup": 4.96,
+      "total_charges": 45917724.94,
+      "total_payments": 10677545.27
+    },
+    {
+      "state": "RI",
+      "avg_markup": 4.94,
+      "total_charges": 949712400.88,
+      "total_payments": 235477306.5
+    },
+    {
+      "state": "UT",
+      "avg_markup": 4.83,
+      "total_charges": 2015740152.11,
+      "total_payments": 572222147.8
+    },
+    {
+      "state": "SD",
+      "avg_markup": 4.76,
+      "total_charges": 844800213.56,
+      "total_payments": 235676478.63
+    },
+    {
+      "state": "DC",
+      "avg_markup": 4.64,
+      "total_charges": 797338182.16,
+      "total_payments": 226339395.66
+    },
+    {
+      "state": "ME",
+      "avg_markup": 4.53,
+      "total_charges": 785516256.02,
+      "total_payments": 227567430.34
+    },
+    {
+      "state": "MT",
+      "avg_markup": 4.35,
+      "total_charges": 871121259.68,
+      "total_payments": 250746025.28
+    },
+    {
+      "state": "MP",
+      "avg_markup": 4.33,
+      "total_charges": 2755967.84,
+      "total_payments": 853215.08
+    },
+    {
+      "state": "GU",
+      "avg_markup": 3.78,
+      "total_charges": 48388121.66,
+      "total_payments": 16650234.78
+    },
+    {
+      "state": "FM",
+      "avg_markup": 2.56,
+      "total_charges": 97567.0,
+      "total_payments": 34067.28
+    },
+    {
+      "state": "PR",
+      "avg_markup": 2.11,
+      "total_charges": 124048634.73,
+      "total_payments": 55237463.42
+    }
+  ],
+  "top_markup_providers": [
+    {
+      "npi": 1790818201,
+      "name": "Julian Garcia",
+      "specialty": "Pathology",
+      "state": "CA",
+      "avg_markup": 3638.4,
+      "total_charges": 2595055.0,
+      "total_payments": 820314.87
+    },
+    {
+      "npi": 1326613894,
+      "name": "Ye Olde Shoppe Llc",
+      "specialty": "Pharmacy",
+      "state": "NC",
+      "avg_markup": 2928.63,
+      "total_charges": 500709.89,
+      "total_payments": 128219.39
+    },
+    {
+      "npi": 1396731493,
+      "name": "Salman Sheikh",
+      "specialty": "Pulmonary Disease",
+      "state": "AZ",
+      "avg_markup": 2803.01,
+      "total_charges": 602062.0,
+      "total_payments": 222247.85
+    },
+    {
+      "npi": 1750704896,
+      "name": "Northwest Pharmacy Services Inc",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "WA",
+      "avg_markup": 2793.61,
+      "total_charges": 447672.34,
+      "total_payments": 131301.71
+    },
+    {
+      "npi": 1497089874,
+      "name": "Wael Milyani",
+      "specialty": "Pathology",
+      "state": "GA",
+      "avg_markup": 1830.69,
+      "total_charges": 2378925.0,
+      "total_payments": 769750.52
+    },
+    {
+      "npi": 1073659637,
+      "name": "Cost Less Senior Services Inc",
+      "specialty": "Pharmacy",
+      "state": "WA",
+      "avg_markup": 1539.77,
+      "total_charges": 1243255.67,
+      "total_payments": 663591.91
+    },
+    {
+      "npi": 1730114521,
+      "name": "Frank Luo",
+      "specialty": "Pathology",
+      "state": "CA",
+      "avg_markup": 1252.92,
+      "total_charges": 2401228.45,
+      "total_payments": 751681.04
+    },
+    {
+      "npi": 1659739969,
+      "name": "Jennifer Young",
+      "specialty": "Nurse Practitioner",
+      "state": "TX",
+      "avg_markup": 1229.81,
+      "total_charges": 2232717.81,
+      "total_payments": 276907.57
+    },
+    {
+      "npi": 1801253489,
+      "name": "Dedham Pharmacy & Medical Supply",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "MA",
+      "avg_markup": 1126.0,
+      "total_charges": 203683.5,
+      "total_payments": 155300.42
+    },
+    {
+      "npi": 1447214150,
+      "name": "Stephen Minton",
+      "specialty": "Internal Medicine",
+      "state": "VA",
+      "avg_markup": 1054.01,
+      "total_charges": 170286.0,
+      "total_payments": 113899.98
+    },
+    {
+      "npi": 1346292869,
+      "name": "Deborah Galloway",
+      "specialty": "Neurology",
+      "state": "NY",
+      "avg_markup": 971.3,
+      "total_charges": 1778303.1,
+      "total_payments": 176101.98
+    },
+    {
+      "npi": 1114204534,
+      "name": "Besscription Inc.",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "NY",
+      "avg_markup": 955.63,
+      "total_charges": 124344.67,
+      "total_payments": 105372.47
+    },
+    {
+      "npi": 1538185657,
+      "name": "Michael Simon",
+      "specialty": "Internal Medicine",
+      "state": "NJ",
+      "avg_markup": 900.45,
+      "total_charges": 641029.89,
+      "total_payments": 167247.1
+    },
+    {
+      "npi": 1386607372,
+      "name": "Maria Asesor",
+      "specialty": "Internal Medicine",
+      "state": "VA",
+      "avg_markup": 835.17,
+      "total_charges": 269754.08,
+      "total_payments": 162115.23
+    },
+    {
+      "npi": 1003914045,
+      "name": "Mount Horeb Family Pharmacy Llc",
+      "specialty": "Pharmacy",
+      "state": "WI",
+      "avg_markup": 770.39,
+      "total_charges": 129908.38,
+      "total_payments": 102044.53
+    },
+    {
+      "npi": 1073598280,
+      "name": "Drug Service Care Inc",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "GA",
+      "avg_markup": 728.14,
+      "total_charges": 146227.48,
+      "total_payments": 128501.92
+    },
+    {
+      "npi": 1457495541,
+      "name": "Shannon Business Services, Inc.",
+      "specialty": "Pharmacy",
+      "state": "TX",
+      "avg_markup": 726.02,
+      "total_charges": 157623.99,
+      "total_payments": 137345.29
+    },
+    {
+      "npi": 1508823790,
+      "name": "Lance Kurata",
+      "specialty": "Internal Medicine",
+      "state": "HI",
+      "avg_markup": 655.76,
+      "total_charges": 466881.9,
+      "total_payments": 257057.06
+    },
+    {
+      "npi": 1699774208,
+      "name": "Collier Drug Stores Inc",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "AR",
+      "avg_markup": 566.62,
+      "total_charges": 220183.34,
+      "total_payments": 193372.05
+    },
+    {
+      "npi": 1275870818,
+      "name": "Ocala Pharmacy Llc",
+      "specialty": "Pharmacy",
+      "state": "FL",
+      "avg_markup": 563.67,
+      "total_charges": 189519.23,
+      "total_payments": 152543.57
+    },
+    {
+      "npi": 1578507893,
+      "name": "Dinash Yanamadula",
+      "specialty": "Interventional Pain Management",
+      "state": "NJ",
+      "avg_markup": 558.79,
+      "total_charges": 12974427.93,
+      "total_payments": 247566.24
+    },
+    {
+      "npi": 1164420469,
+      "name": "Katherine Ludington",
+      "specialty": "Cardiology",
+      "state": "CA",
+      "avg_markup": 554.34,
+      "total_charges": 4665288.02,
+      "total_payments": 1177241.86
+    },
+    {
+      "npi": 1447269220,
+      "name": "Edgar Bekteshi",
+      "specialty": "Pulmonary Disease",
+      "state": "AZ",
+      "avg_markup": 531.46,
+      "total_charges": 538420.0,
+      "total_payments": 281116.02
+    },
+    {
+      "npi": 1477518041,
+      "name": "Timothy Bichler",
+      "specialty": "Pulmonary Disease",
+      "state": "AZ",
+      "avg_markup": 494.89,
+      "total_charges": 296163.0,
+      "total_payments": 215908.59
+    },
+    {
+      "npi": 1770527095,
+      "name": "Navdeep Loomba",
+      "specialty": "Interventional Pain Management",
+      "state": "CA",
+      "avg_markup": 479.08,
+      "total_charges": 2020019.8,
+      "total_payments": 316426.44
+    },
+    {
+      "npi": 1326420878,
+      "name": "Emily Kuo",
+      "specialty": "Emergency Medicine",
+      "state": "NY",
+      "avg_markup": 453.65,
+      "total_charges": 419485.0,
+      "total_payments": 134051.51
+    },
+    {
+      "npi": 1861621336,
+      "name": "Mhd-Iyad Saadi",
+      "specialty": "Pulmonary Disease",
+      "state": "AZ",
+      "avg_markup": 447.98,
+      "total_charges": 836155.0,
+      "total_payments": 323170.26
+    },
+    {
+      "npi": 1467423186,
+      "name": "Kioomars Moosazadeh",
+      "specialty": "Physical Medicine and Rehabilitation",
+      "state": "NY",
+      "avg_markup": 447.08,
+      "total_charges": 606418.93,
+      "total_payments": 139202.29
+    },
+    {
+      "npi": 1689611493,
+      "name": "Cleveland Worx Llc",
+      "specialty": "Pharmacy",
+      "state": "TN",
+      "avg_markup": 436.83,
+      "total_charges": 169171.22,
+      "total_payments": 100764.26
+    },
+    {
+      "npi": 1093993263,
+      "name": "Christopher Erickson",
+      "specialty": "Pathology",
+      "state": "CA",
+      "avg_markup": 426.01,
+      "total_charges": 6073450.0,
+      "total_payments": 1291037.98
+    },
+    {
+      "npi": 1760577241,
+      "name": "Chang-Kun Choi",
+      "specialty": "Pulmonary Disease",
+      "state": "AZ",
+      "avg_markup": 404.62,
+      "total_charges": 312976.0,
+      "total_payments": 123342.75
+    },
+    {
+      "npi": 1497869697,
+      "name": "Don's Pharmacy, Inc",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "AR",
+      "avg_markup": 400.95,
+      "total_charges": 145009.84,
+      "total_payments": 138424.08
+    },
+    {
+      "npi": 1376502898,
+      "name": "Laura Dalton",
+      "specialty": "Family Practice",
+      "state": "CA",
+      "avg_markup": 391.73,
+      "total_charges": 273335.0,
+      "total_payments": 108797.98
+    },
+    {
+      "npi": 1861657488,
+      "name": "Nilay Gandhi",
+      "specialty": "Urology",
+      "state": "VA",
+      "avg_markup": 378.78,
+      "total_charges": 2414087.0,
+      "total_payments": 570083.87
+    },
+    {
+      "npi": 1700195138,
+      "name": "Veena Basava",
+      "specialty": "Anesthesiology",
+      "state": "TX",
+      "avg_markup": 365.68,
+      "total_charges": 1984694.0,
+      "total_payments": 173923.88
+    },
+    {
+      "npi": 1922461235,
+      "name": "Tyler Menge",
+      "specialty": "Pathology",
+      "state": "MI",
+      "avg_markup": 352.04,
+      "total_charges": 769278.0,
+      "total_payments": 194044.64
+    },
+    {
+      "npi": 1780762898,
+      "name": "Sanjiv Parikh",
+      "specialty": "Interventional Pain Management",
+      "state": "NJ",
+      "avg_markup": 350.58,
+      "total_charges": 11886600.0,
+      "total_payments": 329569.34
+    },
+    {
+      "npi": 1417943366,
+      "name": "Glenn Kotz",
+      "specialty": "Family Practice",
+      "state": "CO",
+      "avg_markup": 345.59,
+      "total_charges": 767966.0,
+      "total_payments": 141067.11
+    },
+    {
+      "npi": 1710392162,
+      "name": "Gabriel Anders",
+      "specialty": "Pulmonary Disease",
+      "state": "MO",
+      "avg_markup": 333.01,
+      "total_charges": 390150.0,
+      "total_payments": 114801.71
+    },
+    {
+      "npi": 1093006116,
+      "name": "Tao He",
+      "specialty": "Pulmonary Disease",
+      "state": "CA",
+      "avg_markup": 332.87,
+      "total_charges": 3723325.38,
+      "total_payments": 235609.02
+    },
+    {
+      "npi": 1073983144,
+      "name": "Bjrx Pharmacy Ltc Inc",
+      "specialty": "Pharmacy",
+      "state": "CA",
+      "avg_markup": 325.29,
+      "total_charges": 141875.09,
+      "total_payments": 124390.64
+    },
+    {
+      "npi": 1588765986,
+      "name": "Christine Quesenberry Incorporated",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "CA",
+      "avg_markup": 325.21,
+      "total_charges": 139869.61,
+      "total_payments": 118249.94
+    },
+    {
+      "npi": 1669633558,
+      "name": "Mahmud Ibrahim",
+      "specialty": "Physical Medicine and Rehabilitation",
+      "state": "NJ",
+      "avg_markup": 324.64,
+      "total_charges": 2473865.0,
+      "total_payments": 158503.54
+    },
+    {
+      "npi": 1861714677,
+      "name": "Jncm Rx Inc",
+      "specialty": "Pharmacy",
+      "state": "MD",
+      "avg_markup": 324.41,
+      "total_charges": 178496.13,
+      "total_payments": 145163.61
+    },
+    {
+      "npi": 1457408601,
+      "name": "Curtis Thompson",
+      "specialty": "Pathology",
+      "state": "OR",
+      "avg_markup": 322.73,
+      "total_charges": 1869197.0,
+      "total_payments": 443959.18
+    },
+    {
+      "npi": 1003940966,
+      "name": "Jessica Ghaferi",
+      "specialty": "Pathology",
+      "state": "MI",
+      "avg_markup": 317.41,
+      "total_charges": 1084129.0,
+      "total_payments": 270886.49
+    },
+    {
+      "npi": 1952454290,
+      "name": "Joshiah Gordon",
+      "specialty": "Critical Care (Intensivists)",
+      "state": "CO",
+      "avg_markup": 315.28,
+      "total_charges": 621782.0,
+      "total_payments": 232622.13
+    },
+    {
+      "npi": 1407991177,
+      "name": "Sunil Rajan",
+      "specialty": "Pulmonary Disease",
+      "state": "VA",
+      "avg_markup": 311.2,
+      "total_charges": 371144.0,
+      "total_payments": 138180.23
+    },
+    {
+      "npi": 1578548434,
+      "name": "Scott Schleifer",
+      "specialty": "Emergency Medicine",
+      "state": "AZ",
+      "avg_markup": 310.44,
+      "total_charges": 6554615.91,
+      "total_payments": 113492.31
+    },
+    {
+      "npi": 1225402118,
+      "name": "Carmencita Shaw",
+      "specialty": "Nurse Practitioner",
+      "state": "FL",
+      "avg_markup": 304.93,
+      "total_charges": 331610.62,
+      "total_payments": 125640.46
+    },
+    {
+      "npi": 1013077395,
+      "name": "Ariz Mehta",
+      "specialty": "Physical Medicine and Rehabilitation",
+      "state": "NJ",
+      "avg_markup": 303.09,
+      "total_charges": 13006316.93,
+      "total_payments": 1169851.64
+    },
+    {
+      "npi": 1538232384,
+      "name": "Antoine Dakouny",
+      "specialty": "Internal Medicine",
+      "state": "FL",
+      "avg_markup": 302.97,
+      "total_charges": 424475.0,
+      "total_payments": 241844.22
+    },
+    {
+      "npi": 1407997596,
+      "name": "Stephen Pool",
+      "specialty": "Pathology",
+      "state": "OR",
+      "avg_markup": 302.9,
+      "total_charges": 533301.0,
+      "total_payments": 132786.42
+    },
+    {
+      "npi": 1801803937,
+      "name": "Shahin Gharib",
+      "specialty": "Emergency Medicine",
+      "state": "NY",
+      "avg_markup": 294.02,
+      "total_charges": 989050.42,
+      "total_payments": 291615.6
+    },
+    {
+      "npi": 1295786440,
+      "name": "Nishith Gami",
+      "specialty": "Internal Medicine",
+      "state": "NJ",
+      "avg_markup": 293.67,
+      "total_charges": 231941.53,
+      "total_payments": 111419.13
+    },
+    {
+      "npi": 1811921307,
+      "name": "William Schlesinger",
+      "specialty": "Anesthesiology",
+      "state": "NY",
+      "avg_markup": 274.77,
+      "total_charges": 812260.0,
+      "total_payments": 149891.57
+    },
+    {
+      "npi": 1609079540,
+      "name": "Irfan Budhani",
+      "specialty": "Pulmonary Disease",
+      "state": "KY",
+      "avg_markup": 273.42,
+      "total_charges": 373004.0,
+      "total_payments": 123821.26
+    },
+    {
+      "npi": 1063703270,
+      "name": "Samir Nayyar",
+      "specialty": "Orthopedic Surgery",
+      "state": "CA",
+      "avg_markup": 268.59,
+      "total_charges": 527882.93,
+      "total_payments": 196786.45
+    },
+    {
+      "npi": 1588971436,
+      "name": "Bradley Saunders",
+      "specialty": "Orthopedic Surgery",
+      "state": "KS",
+      "avg_markup": 267.49,
+      "total_charges": 628586.54,
+      "total_payments": 150205.23
+    },
+    {
+      "npi": 1124132014,
+      "name": "Christian Galvez-Padilla",
+      "specialty": "General Surgery",
+      "state": "MA",
+      "avg_markup": 265.13,
+      "total_charges": 443678.0,
+      "total_payments": 128771.39
+    },
+    {
+      "npi": 1750816831,
+      "name": "Arfan Qureshi",
+      "specialty": "Physical Medicine and Rehabilitation",
+      "state": "TX",
+      "avg_markup": 263.87,
+      "total_charges": 4678324.8,
+      "total_payments": 285184.52
+    },
+    {
+      "npi": 1598710196,
+      "name": "Preferred Open Mri Ltd",
+      "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+      "state": "IL",
+      "avg_markup": 261.27,
+      "total_charges": 2301966.3,
+      "total_payments": 138048.68
+    },
+    {
+      "npi": 1982312088,
+      "name": "Crystal Schwartzbeck",
+      "specialty": "Nurse Practitioner",
+      "state": "VA",
+      "avg_markup": 249.95,
+      "total_charges": 252493.04,
+      "total_payments": 100409.19
+    },
+    {
+      "npi": 1861747529,
+      "name": "Fatoumata Yanoga",
+      "specialty": "Ophthalmology",
+      "state": "OH",
+      "avg_markup": 249.42,
+      "total_charges": 464996.09,
+      "total_payments": 101317.31
+    },
+    {
+      "npi": 1003867946,
+      "name": "James Ramirez",
+      "specialty": "Pathology",
+      "state": "MI",
+      "avg_markup": 249.23,
+      "total_charges": 580328.0,
+      "total_payments": 148631.58
+    },
+    {
+      "npi": 1164617544,
+      "name": "Warren Spinner",
+      "specialty": "Neurology",
+      "state": "NY",
+      "avg_markup": 249.16,
+      "total_charges": 4932223.64,
+      "total_payments": 478171.82
+    },
+    {
+      "npi": 1366553810,
+      "name": "Herschel Sklaroff",
+      "specialty": "Cardiology",
+      "state": "NY",
+      "avg_markup": 248.6,
+      "total_charges": 336383.0,
+      "total_payments": 167447.41
+    },
+    {
+      "npi": 1477717791,
+      "name": "Michael Rizkalla",
+      "specialty": "Physical Medicine and Rehabilitation",
+      "state": "NJ",
+      "avg_markup": 247.03,
+      "total_charges": 2333529.0,
+      "total_payments": 130900.4
+    },
+    {
+      "npi": 1316334998,
+      "name": "Selorm Takyi",
+      "specialty": "Physical Medicine and Rehabilitation",
+      "state": "NJ",
+      "avg_markup": 242.67,
+      "total_charges": 5667754.9,
+      "total_payments": 367919.06
+    },
+    {
+      "npi": 1194841254,
+      "name": "Abhinav Singh",
+      "specialty": "Internal Medicine",
+      "state": "NM",
+      "avg_markup": 239.59,
+      "total_charges": 2139177.84,
+      "total_payments": 302617.54
+    },
+    {
+      "npi": 1679567812,
+      "name": "Mark Sacher",
+      "specialty": "Anesthesiology",
+      "state": "FL",
+      "avg_markup": 237.58,
+      "total_charges": 437625.0,
+      "total_payments": 111298.55
+    },
+    {
+      "npi": 1598721227,
+      "name": "Mikio Tachibana",
+      "specialty": "Internal Medicine",
+      "state": "CA",
+      "avg_markup": 237.3,
+      "total_charges": 216935.0,
+      "total_payments": 119967.67
+    },
+    {
+      "npi": 1548242399,
+      "name": "Edgar Ramirez",
+      "specialty": "Interventional Pain Management",
+      "state": "FL",
+      "avg_markup": 237.05,
+      "total_charges": 9276031.71,
+      "total_payments": 578699.64
+    },
+    {
+      "npi": 1487635371,
+      "name": "Jessica Spies",
+      "specialty": "Pathology",
+      "state": "OR",
+      "avg_markup": 234.88,
+      "total_charges": 2286586.0,
+      "total_payments": 642370.18
+    },
+    {
+      "npi": 1235108259,
+      "name": "Nassau Open Mri Llc",
+      "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+      "state": "FL",
+      "avg_markup": 230.22,
+      "total_charges": 3202375.0,
+      "total_payments": 254075.18
+    },
+    {
+      "npi": 1013065267,
+      "name": "Chike Onwuka",
+      "specialty": "Internal Medicine",
+      "state": "MD",
+      "avg_markup": 229.7,
+      "total_charges": 722152.0,
+      "total_payments": 371441.93
+    },
+    {
+      "npi": 1619965886,
+      "name": "Jodi Schoenhaus",
+      "specialty": "Podiatry",
+      "state": "FL",
+      "avg_markup": 228.16,
+      "total_charges": 887419.5,
+      "total_payments": 230331.1
+    },
+    {
+      "npi": 1720498223,
+      "name": "Benjamin Mendelsohn",
+      "specialty": "Physical Medicine and Rehabilitation",
+      "state": "FL",
+      "avg_markup": 225.77,
+      "total_charges": 881655.0,
+      "total_payments": 369668.17
+    },
+    {
+      "npi": 1598842098,
+      "name": "Sekuleo Gathers",
+      "specialty": "Emergency Medicine",
+      "state": "NY",
+      "avg_markup": 222.8,
+      "total_charges": 3728456.26,
+      "total_payments": 221576.26
+    },
+    {
+      "npi": 1710131511,
+      "name": "Andrew Skabelund",
+      "specialty": "Pulmonary Disease",
+      "state": "TX",
+      "avg_markup": 222.28,
+      "total_charges": 973943.0,
+      "total_payments": 227228.87
+    },
+    {
+      "npi": 1285817569,
+      "name": "Antoanella Calame",
+      "specialty": "Dermatology",
+      "state": "CA",
+      "avg_markup": 221.73,
+      "total_charges": 3649110.0,
+      "total_payments": 848412.32
+    },
+    {
+      "npi": 1942352315,
+      "name": "Mehrdad Pakdaman",
+      "specialty": "Family Practice",
+      "state": "CA",
+      "avg_markup": 218.93,
+      "total_charges": 2185815.0,
+      "total_payments": 1313836.23
+    },
+    {
+      "npi": 1811074875,
+      "name": "George Green",
+      "specialty": "Internal Medicine",
+      "state": "CA",
+      "avg_markup": 215.21,
+      "total_charges": 381140.0,
+      "total_payments": 212565.34
+    },
+    {
+      "npi": 1427572783,
+      "name": "Riverdale Drugs & Surgical, Inc.",
+      "specialty": "Mass Immunizer Roster Biller",
+      "state": "NY",
+      "avg_markup": 214.1,
+      "total_charges": 202970.93,
+      "total_payments": 110404.86
+    },
+    {
+      "npi": 1902338262,
+      "name": "Amanda Bryan",
+      "specialty": "Internal Medicine",
+      "state": "GA",
+      "avg_markup": 207.05,
+      "total_charges": 205797.0,
+      "total_payments": 109419.66
+    },
+    {
+      "npi": 1518986652,
+      "name": "Carl Smart",
+      "specialty": "Pulmonary Disease",
+      "state": "NC",
+      "avg_markup": 204.69,
+      "total_charges": 446110.0,
+      "total_payments": 104683.73
+    },
+    {
+      "npi": 1801179759,
+      "name": "Amaya Skabelund",
+      "specialty": "Pulmonary Disease",
+      "state": "TX",
+      "avg_markup": 201.35,
+      "total_charges": 602212.0,
+      "total_payments": 131641.78
+    },
+    {
+      "npi": 1598889248,
+      "name": "Tatiana Sharahy",
+      "specialty": "Internal Medicine",
+      "state": "NJ",
+      "avg_markup": 197.67,
+      "total_charges": 7435126.0,
+      "total_payments": 5663224.0
+    },
+    {
+      "npi": 1518960269,
+      "name": "Henry Lee",
+      "specialty": "Diagnostic Radiology",
+      "state": "TX",
+      "avg_markup": 197.01,
+      "total_charges": 7077928.0,
+      "total_payments": 459782.68
+    },
+    {
+      "npi": 1134255888,
+      "name": "Sanaz Hariri",
+      "specialty": "Orthopedic Surgery",
+      "state": "CA",
+      "avg_markup": 196.9,
+      "total_charges": 2942138.0,
+      "total_payments": 565907.92
+    },
+    {
+      "npi": 1780797381,
+      "name": "Huan Le",
+      "specialty": "Pulmonary Disease",
+      "state": "CA",
+      "avg_markup": 196.78,
+      "total_charges": 783925.0,
+      "total_payments": 335584.1
+    },
+    {
+      "npi": 1982650776,
+      "name": "Vincent Bennett",
+      "specialty": "Emergency Medicine",
+      "state": "CA",
+      "avg_markup": 196.13,
+      "total_charges": 2263231.03,
+      "total_payments": 1196308.63
+    },
+    {
+      "npi": 1225439508,
+      "name": "Northridge Outpatient Surgery Center Inc",
+      "specialty": "Ambulatory Surgical Center",
+      "state": "CA",
+      "avg_markup": 195.05,
+      "total_charges": 56781000.0,
+      "total_payments": 929347.69
+    },
+    {
+      "npi": 1346238748,
+      "name": "Devang Padalia",
+      "specialty": "Anesthesiology",
+      "state": "FL",
+      "avg_markup": 194.86,
+      "total_charges": 3218030.0,
+      "total_payments": 204737.2
+    },
+    {
+      "npi": 1902830557,
+      "name": "Robert Polofsky",
+      "specialty": "Family Practice",
+      "state": "NY",
+      "avg_markup": 190.87,
+      "total_charges": 654450.0,
+      "total_payments": 210629.14
+    },
+    {
+      "npi": 1407836232,
+      "name": "John Serpa",
+      "specialty": "Anesthesiology",
+      "state": "FL",
+      "avg_markup": 190.57,
+      "total_charges": 345745.0,
+      "total_payments": 138994.67
+    },
+    {
+      "npi": 1134188824,
+      "name": "Suncoast Open Mri Llc",
+      "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+      "state": "FL",
+      "avg_markup": 185.24,
+      "total_charges": 1567115.0,
+      "total_payments": 142182.5
+    },
+    {
+      "npi": 1053316158,
+      "name": "Bradford Ebright",
+      "specialty": "Family Practice",
+      "state": "MD",
+      "avg_markup": 184.36,
+      "total_charges": 543877.0,
+      "total_payments": 201568.1
+    },
+    {
+      "npi": 1730315508,
+      "name": "Elizabeth Logue",
+      "specialty": "Nurse Practitioner",
+      "state": "CA",
+      "avg_markup": 183.6,
+      "total_charges": 591732.73,
+      "total_payments": 205857.68
+    },
+    {
+      "npi": 1275570301,
+      "name": "Nathaniel Moore",
+      "specialty": "Family Practice",
+      "state": "CO",
+      "avg_markup": 183.34,
+      "total_charges": 1749345.0,
+      "total_payments": 640029.02
+    }
+  ],
+  "yearly_trends": [
+    {
+      "year": 2014,
+      "avg_markup": 4.94,
+      "total_charges": 271768241184.6,
+      "total_payments": 78225934025.68,
+      "markup_dollars": 193542307158.91
+    },
+    {
+      "year": 2015,
+      "avg_markup": 4.93,
+      "total_charges": 286390148763.03,
+      "total_payments": 80617301102.95,
+      "markup_dollars": 205772847660.08
+    },
+    {
+      "year": 2016,
+      "avg_markup": 5.1,
+      "total_charges": 304140153032.03,
+      "total_payments": 82096783986.51,
+      "markup_dollars": 222043369045.52
+    },
+    {
+      "year": 2017,
+      "avg_markup": 5.27,
+      "total_charges": 315713746144.84,
+      "total_payments": 83545663047.04,
+      "markup_dollars": 232168083097.8
+    },
+    {
+      "year": 2018,
+      "avg_markup": 5.41,
+      "total_charges": 328140515372.96,
+      "total_payments": 86005963373.89,
+      "markup_dollars": 242134551999.07
+    },
+    {
+      "year": 2019,
+      "avg_markup": 5.46,
+      "total_charges": 345362231156.34,
+      "total_payments": 89512295633.49,
+      "markup_dollars": 255849935522.86
+    },
+    {
+      "year": 2020,
+      "avg_markup": 5.31,
+      "total_charges": 308130224722.13,
+      "total_payments": 80539388257.52,
+      "markup_dollars": 227590836464.61
+    },
+    {
+      "year": 2021,
+      "avg_markup": 5.86,
+      "total_charges": 342176188005.2,
+      "total_payments": 91535062398.37,
+      "markup_dollars": 250641125606.83
+    },
+    {
+      "year": 2022,
+      "avg_markup": 6.2,
+      "total_charges": 350498559099.02,
+      "total_payments": 89042856516.32,
+      "markup_dollars": 261455702582.7
+    },
+    {
+      "year": 2023,
+      "avg_markup": 5.97,
+      "total_charges": 371191436109.47,
+      "total_payments": 93721075813.28,
+      "markup_dollars": 277470360296.19
+    }
+  ]
+}
