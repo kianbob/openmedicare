@@ -216,6 +216,7 @@ export default function TenYearExplosionPage() {
             <Link href="/investigations/telehealth-explosion" className="text-medicare-primary hover:underline text-sm">📱 Telehealth Explosion</Link>
             <Link href="/trends" className="text-medicare-primary hover:underline text-sm">📊 10-Year Trends Data</Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="text-medicare-primary hover:underline text-sm">💵 Where Your Dollar Goes</Link>
+            <Link href="/your-medicare-dollar" className="text-medicare-primary hover:underline text-sm">🧮 Your Medicare Dollar — Interactive tax calculator</Link>
           </div>
         </div>
 

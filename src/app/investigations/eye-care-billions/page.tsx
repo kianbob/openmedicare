@@ -303,6 +303,10 @@ export default function EyeCareBillionsPage() {
               <h4 className="font-semibold text-blue-600">The Anesthesia Markup Scandal</h4>
               <p className="text-sm text-gray-500 mt-1">The specialty with the highest charge-to-payment ratio</p>
             </Link>
+            <Link href="/drug-spending" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">💊 Drug Spending Analysis</h4>
+              <p className="text-sm text-gray-500 mt-1">Explore Medicare Part B drug spending trends and top drugs by cost</p>
+            </Link>
           </div>
         </article>
 

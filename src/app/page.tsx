@@ -441,6 +441,32 @@ export default function HomePage() {
             </Link>
           </div>
 
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+            <Link href="/your-medicare-dollar" className="group bg-emerald-50 hover:bg-emerald-100 rounded-lg p-6 transition-colors">
+              <div className="text-emerald-600 text-2xl mb-3">💵</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-emerald-800">Your Medicare Dollar</h3>
+              <p className="text-sm text-gray-600">See where your tax dollars go in Medicare</p>
+            </Link>
+
+            <Link href="/drug-spending" className="group bg-pink-50 hover:bg-pink-100 rounded-lg p-6 transition-colors">
+              <div className="text-pink-600 text-2xl mb-3">💊</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-pink-800">Drug Spending</h3>
+              <p className="text-sm text-gray-600">Physician-administered drug costs and trends</p>
+            </Link>
+
+            <Link href="/compare" className="group bg-cyan-50 hover:bg-cyan-100 rounded-lg p-6 transition-colors">
+              <div className="text-cyan-600 text-2xl mb-3">⚡</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-cyan-800">Compare</h3>
+              <p className="text-sm text-gray-600">Side-by-side provider, state & specialty comparisons</p>
+            </Link>
+
+            <Link href="/analysis" className="group bg-slate-50 hover:bg-slate-100 rounded-lg p-6 transition-colors">
+              <div className="text-slate-600 text-2xl mb-3">🔬</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-slate-800">All Analysis Tools</h3>
+              <p className="text-sm text-gray-600">Central hub for all data exploration tools</p>
+            </Link>
+          </div>
+
           <div className="text-center mt-8">
             <Link 
               href="/downloads"

@@ -281,6 +281,8 @@ export default function StateSpendingDividePage() {
               <h4 className="font-semibold text-blue-600">The Anesthesia Markup Scandal</h4>
               <p className="text-sm text-gray-500 mt-1">The specialty with the highest markup ratio</p>
             </Link>
+            <Link href="/your-medicare-dollar" className="text-medicare-primary hover:underline text-sm">💵 Your Medicare Dollar — Interactive tax breakdown</Link>
+           
           </div>
         </article>
 

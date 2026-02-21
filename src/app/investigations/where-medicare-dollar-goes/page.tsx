@@ -414,6 +414,8 @@ export default function WhereMedicareDollarGoesPage() {
               <h4 className="font-semibold text-blue-600">The Markup Machine</h4>
               <p className="text-sm text-gray-500 mt-1">The gap between charges and what Medicare pays</p>
             </Link>
+            <Link href="/your-medicare-dollar" className="text-medicare-primary hover:underline text-sm">💵 Your Medicare Dollar — Interactive tax breakdown</Link>
+           
           </div>
         </article>
 

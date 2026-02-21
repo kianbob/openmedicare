@@ -221,6 +221,7 @@ export default function TwoTrillionWriteoffPage() {
             <Link href="/investigations/where-medicare-dollar-goes" className="text-medicare-primary hover:underline text-sm">💵 Where Your Dollar Goes</Link>
             <Link href="/markup" className="text-medicare-primary hover:underline text-sm">📊 Markup Analysis Data</Link>
             <Link href="/payment-gap" className="text-medicare-primary hover:underline text-sm">📊 Payment Gap Data</Link>
+            <Link href="/your-medicare-dollar" className="text-medicare-primary hover:underline text-sm">💵 Your Medicare Dollar — Interactive tax breakdown</Link>
           </div>
         </div>
 
