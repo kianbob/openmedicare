@@ -43,6 +43,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'OpenMedicare - Follow the Money in Medicare',
     description: 'Professional data journalism tracking Medicare physician spending across 10 years (2014-2023).',
+    site: '@thedataproject0',
+    creator: '@thedataproject0',
   },
   robots: {
     index: true,
