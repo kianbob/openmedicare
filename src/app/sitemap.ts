@@ -40,6 +40,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/lookup',
     '/compare',
     '/calculator',
+    '/place-of-service',
+    '/geographic',
+    '/cost-adjustment',
+    '/payment-gap',
+    '/utilization',
     ...investigationSlugs.map(s => `/investigations/${s}`),
   ]
 

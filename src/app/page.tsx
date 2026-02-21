@@ -299,6 +299,38 @@ export default function HomePage() {
             </Link>
           </div>
 
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-6">
+            <Link href="/place-of-service" className="group bg-indigo-50 hover:bg-indigo-100 rounded-lg p-6 transition-colors">
+              <div className="text-indigo-600 text-2xl mb-3">🏢</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-indigo-800">Place of Service</h3>
+              <p className="text-sm text-gray-600">Office vs facility billing</p>
+            </Link>
+
+            <Link href="/geographic" className="group bg-teal-50 hover:bg-teal-100 rounded-lg p-6 transition-colors">
+              <div className="text-teal-600 text-2xl mb-3">📍</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-teal-800">Geographic</h3>
+              <p className="text-sm text-gray-600">Spending by city & zip code</p>
+            </Link>
+
+            <Link href="/cost-adjustment" className="group bg-rose-50 hover:bg-rose-100 rounded-lg p-6 transition-colors">
+              <div className="text-rose-600 text-2xl mb-3">⚖️</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-rose-800">Cost Adjustment</h3>
+              <p className="text-sm text-gray-600">Geographic payment gaps</p>
+            </Link>
+
+            <Link href="/payment-gap" className="group bg-yellow-50 hover:bg-yellow-100 rounded-lg p-6 transition-colors">
+              <div className="text-yellow-600 text-2xl mb-3">💸</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-yellow-800">Payment Gap</h3>
+              <p className="text-sm text-gray-600">Charged vs allowed vs paid</p>
+            </Link>
+
+            <Link href="/utilization" className="group bg-violet-50 hover:bg-violet-100 rounded-lg p-6 transition-colors">
+              <div className="text-violet-600 text-2xl mb-3">🏥</div>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-violet-800">Utilization</h3>
+              <p className="text-sm text-gray-600">Individual vs corporate providers</p>
+            </Link>
+          </div>
+
           <div className="text-center mt-8">
             <Link 
               href="/downloads"

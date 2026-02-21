@@ -24,6 +24,11 @@ const navigation = [
       { name: 'Drug Spending', href: '/drug-spending' },
       { name: 'Rural vs Urban', href: '/rural-urban' },
       { name: 'Trends', href: '/trends' },
+      { name: 'Place of Service', href: '/place-of-service' },
+      { name: 'Geographic', href: '/geographic' },
+      { name: 'Cost Adjustment', href: '/cost-adjustment' },
+      { name: 'Payment Gap', href: '/payment-gap' },
+      { name: 'Utilization', href: '/utilization' },
     ],
   },
   {
