@@ -8,19 +8,17 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 interface Specialty {
-  specialty: string
-  specialty_slug: string
-  total_payments: number
-  total_services: number
-  total_providers: number
-  payment_share: number
+  specialty: string; specialty_slug: string; total_payments: number
+  total_services: number; total_providers: number; payment_share: number
 }
 
 interface Stats {
-  total_payments: number
-  total_providers: number
-  total_services: number
-  total_beneficiaries: number
+  total_payments: number; total_providers: number; total_services: number; total_beneficiaries: number
+}
+
+interface FlaggedProvider {
+  npi: string; name: string; total_payments: number; fraud_probability: number
+  specialty: string; state: string
 }
 
 const COLORS = [
@@ -33,13 +31,26 @@ const COLORS = [
 export default function YourMedicareDollarPage() {
   const [stats, setStats] = useState<Stats | null>(null)
   const [specialties, setSpecialties] = useState<Specialty[]>([])
+  const [flagged, setFlagged] = useState<FlaggedProvider[]>([])
   const [income, setIncome] = useState<string>('65000')
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   useEffect(() => {
     fetch('/data/stats.json').then(r => r.json()).then(setStats)
     fetch('/data/specialties.json').then(r => r.json()).then(d => setSpecialties(d.specialties || []))
+    fetch('/data/ml-v2-results.json').then(r => r.json()).then(d => setFlagged(d.still_out_there || []))
   }, [])
+
+  const totalFlaggedPayments = useMemo(() => flagged.reduce((s, f) => s + f.total_payments, 0), [flagged])
+
+  const flaggedShare = useMemo(() => {
+    if (!stats || !totalFlaggedPayments) return 0
+    return (totalFlaggedPayments / stats.total_payments) * 100
+  }, [stats, totalFlaggedPayments])
+
+  const flaggedCentsPerDollar = useMemo(() => {
+    return Math.round(flaggedShare) || 1
+  }, [flaggedShare])
 
   const breakdown = useMemo(() => {
     if (!specialties.length || !stats) return []
@@ -49,25 +60,15 @@ export default function YourMedicareDollarPage() {
     const total = stats.total_payments
 
     const items = topN.map((s, i) => ({
-      name: s.specialty,
-      slug: s.specialty_slug,
-      payments: s.total_payments,
-      share: (s.total_payments / total) * 100,
-      cents: Math.round((s.total_payments / total) * 100),
+      name: s.specialty, slug: s.specialty_slug, payments: s.total_payments,
+      share: (s.total_payments / total) * 100, cents: Math.round((s.total_payments / total) * 100),
       color: COLORS[i % COLORS.length],
     }))
 
     if (otherPayments > 0) {
-      items.push({
-        name: 'All Other Specialties',
-        slug: '',
-        payments: otherPayments,
-        share: (otherPayments / total) * 100,
-        cents: Math.round((otherPayments / total) * 100),
-        color: '#6b7280',
-      })
+      items.push({ name: 'All Other Specialties', slug: '', payments: otherPayments,
+        share: (otherPayments / total) * 100, cents: Math.round((otherPayments / total) * 100), color: '#6b7280' })
     }
-
     return items
   }, [specialties, stats])
 
@@ -78,23 +79,21 @@ export default function YourMedicareDollarPage() {
     const employerMatch = num * 0.0145
     const additionalTax = num > 200000 ? (num - 200000) * 0.009 : 0
     return {
-      employee: employeeShare,
-      employer: employerMatch,
-      additional: additionalTax,
+      employee: employeeShare, employer: employerMatch, additional: additionalTax,
       total: employeeShare + employerMatch + additionalTax,
     }
   }, [income])
 
+  const yourFraudShare = useMemo(() => {
+    if (!medicareTax || !flaggedShare) return null
+    return medicareTax.total * (flaggedShare / 100)
+  }, [medicareTax, flaggedShare])
+
   if (!stats || !breakdown.length) {
     return (
-      <div className="min-h-screen bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-16">
-          <div className="animate-pulse space-y-4">
-            <div className="h-8 bg-gray-200 rounded w-1/3" />
-            <div className="h-64 bg-gray-200 rounded" />
-          </div>
-        </div>
-      </div>
+      <div className="min-h-screen bg-white"><div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="animate-pulse space-y-4"><div className="h-8 bg-gray-200 rounded w-1/3" /><div className="h-64 bg-gray-200 rounded" /></div>
+      </div></div>
     )
   }
 
@@ -122,15 +121,11 @@ export default function YourMedicareDollarPage() {
           </p>
           <div className="mt-6 flex flex-col sm:flex-row gap-4 items-start sm:items-end">
             <div>
-              <label htmlFor="income" className="block text-sm font-medium text-gray-700">
-                Your Annual Income
-              </label>
+              <label htmlFor="income" className="block text-sm font-medium text-gray-700">Your Annual Income</label>
               <div className="relative mt-1">
                 <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500">$</span>
                 <input
-                  id="income"
-                  type="text"
-                  value={income}
+                  id="income" type="text" value={income}
                   onChange={(e) => setIncome(e.target.value.replace(/[^0-9.,]/g, ''))}
                   className="block w-full rounded-lg border border-gray-300 bg-white py-2.5 pl-8 pr-4 text-gray-900 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
                   placeholder="65,000"
@@ -166,6 +161,55 @@ export default function YourMedicareDollarPage() {
           )}
         </div>
 
+        {/* Fraud Context Section */}
+        <div className="mt-12 rounded-2xl bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 p-8">
+          <h2 className="text-2xl font-bold text-gray-900">💰 How Much Goes to AI-Flagged Providers?</h2>
+          <p className="mt-2 text-gray-600">
+            Our machine learning model flagged {flagged.length} providers who received {formatCurrency(totalFlaggedPayments)} in Medicare payments — and many have never been investigated.
+          </p>
+
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="rounded-lg bg-white p-5 shadow-sm text-center">
+              <p className="text-sm text-gray-500">Of every $100 in Medicare</p>
+              <p className="text-4xl font-bold text-red-600 mt-1">${flaggedShare.toFixed(2)}</p>
+              <p className="text-xs text-gray-400 mt-1">goes to AI-flagged providers</p>
+            </div>
+            <div className="rounded-lg bg-white p-5 shadow-sm text-center">
+              <p className="text-sm text-gray-500">Total to flagged providers</p>
+              <p className="text-4xl font-bold text-red-600 mt-1">{formatCurrency(totalFlaggedPayments)}</p>
+              <p className="text-xs text-gray-400 mt-1">across {flagged.length} providers</p>
+            </div>
+            {yourFraudShare != null && (
+              <div className="rounded-lg bg-white p-5 shadow-sm text-center border-2 border-red-200">
+                <p className="text-sm text-gray-500">Your tax to flagged providers</p>
+                <p className="text-4xl font-bold text-red-600 mt-1">${yourFraudShare.toFixed(2)}</p>
+                <p className="text-xs text-gray-400 mt-1">of your ${medicareTax?.total.toFixed(2)} annual tax</p>
+              </div>
+            )}
+          </div>
+
+          {/* Visual: $100 bill breakdown */}
+          <div className="mt-6 p-4 bg-white rounded-lg">
+            <p className="text-sm font-medium text-gray-700 mb-3">For every $100 Medicare spends:</p>
+            <div className="flex rounded-lg overflow-hidden h-10">
+              <div className="bg-green-500 flex items-center justify-center text-white text-xs font-bold" style={{ width: `${100 - flaggedShare}%` }}>
+                ${(100 - flaggedShare).toFixed(2)} normal
+              </div>
+              <div className="bg-red-500 flex items-center justify-center text-white text-xs font-bold" style={{ width: `${Math.max(flaggedShare, 3)}%` }}>
+                ${flaggedShare.toFixed(2)}
+              </div>
+            </div>
+            <div className="flex justify-between mt-1 text-xs text-gray-500">
+              <span>✅ Clean providers</span>
+              <span>⚠️ AI-flagged providers</span>
+            </div>
+          </div>
+
+          <Link href="/fraud/still-out-there" className="mt-4 inline-flex items-center text-sm font-medium text-red-700 hover:text-red-800">
+            See all AI-flagged providers →
+          </Link>
+        </div>
+
         {/* Visual Dollar Breakdown */}
         <div className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900">Of Every Dollar Medicare Spends...</h2>
@@ -173,26 +217,15 @@ export default function YourMedicareDollarPage() {
             Here&apos;s how each cent is distributed across the top 15 medical specialties.
           </p>
 
-          {/* Bar visualization */}
           <div className="mt-8 rounded-xl overflow-hidden border border-gray-200">
             <div className="flex h-16">
               {breakdown.map((item, i) => (
-                <div
-                  key={item.name}
-                  className="relative cursor-pointer transition-opacity"
-                  style={{
-                    width: `${item.share}%`,
-                    backgroundColor: item.color,
-                    opacity: hoveredIndex !== null && hoveredIndex !== i ? 0.4 : 1,
-                  }}
-                  onMouseEnter={() => setHoveredIndex(i)}
-                  onMouseLeave={() => setHoveredIndex(null)}
-                  title={`${item.name}: ${item.cents}¢`}
-                >
+                <div key={item.name} className="relative cursor-pointer transition-opacity"
+                  style={{ width: `${item.share}%`, backgroundColor: item.color, opacity: hoveredIndex !== null && hoveredIndex !== i ? 0.4 : 1 }}
+                  onMouseEnter={() => setHoveredIndex(i)} onMouseLeave={() => setHoveredIndex(null)}
+                  title={`${item.name}: ${item.cents}¢`}>
                   {item.share > 4 && (
-                    <span className="absolute inset-0 flex items-center justify-center text-white text-xs font-bold">
-                      {item.cents}¢
-                    </span>
+                    <span className="absolute inset-0 flex items-center justify-center text-white text-xs font-bold">{item.cents}¢</span>
                   )}
                 </div>
               ))}
@@ -201,26 +234,16 @@ export default function YourMedicareDollarPage() {
 
           {hoveredIndex !== null && (
             <div className="mt-4 text-center p-3 rounded-lg bg-gray-50">
-              <span className="font-bold" style={{ color: breakdown[hoveredIndex].color }}>
-                {breakdown[hoveredIndex].name}
-              </span>
+              <span className="font-bold" style={{ color: breakdown[hoveredIndex].color }}>{breakdown[hoveredIndex].name}</span>
               : {breakdown[hoveredIndex].cents}¢ of every dollar ({formatCurrency(breakdown[hoveredIndex].payments)} total)
             </div>
           )}
 
-          {/* Detailed list */}
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-3">
             {breakdown.map((item, i) => (
-              <div
-                key={item.name}
-                className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors cursor-default"
-                onMouseEnter={() => setHoveredIndex(i)}
-                onMouseLeave={() => setHoveredIndex(null)}
-              >
-                <div
-                  className="w-4 h-4 rounded-full flex-shrink-0"
-                  style={{ backgroundColor: item.color }}
-                />
+              <div key={item.name} className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors cursor-default"
+                onMouseEnter={() => setHoveredIndex(i)} onMouseLeave={() => setHoveredIndex(null)}>
+                <div className="w-4 h-4 rounded-full flex-shrink-0" style={{ backgroundColor: item.color }} />
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate">{item.name}</p>
                   <p className="text-xs text-gray-500">{formatCurrency(item.payments)}</p>
@@ -232,6 +255,18 @@ export default function YourMedicareDollarPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Shareable stat card */}
+        <div className="mt-16 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-700 p-8 text-white text-center">
+          <p className="text-sm uppercase tracking-wide opacity-80">Did you know?</p>
+          <p className="text-3xl font-bold mt-2">
+            {medicareTax ? `$${medicareTax.total.toFixed(0)}` : '$1,885'} of your taxes go to Medicare each year
+          </p>
+          <p className="mt-2 opacity-80">
+            {yourFraudShare ? `$${yourFraudShare.toFixed(2)} of that goes to providers flagged by AI for potential fraud` : `${flaggedCentsPerDollar}¢ of every dollar goes to AI-flagged providers`}
+          </p>
+          <p className="mt-4 text-xs opacity-60">Source: OpenMedicare analysis of CMS data (2014–2023)</p>
         </div>
 
         {/* Key stats */}
@@ -254,28 +289,15 @@ export default function YourMedicareDollarPage() {
           </div>
         </div>
 
-        {/* Fraud callout */}
-        <div className="mt-12 rounded-xl bg-red-50 border border-red-200 p-6">
-          <h2 className="text-lg font-bold text-gray-900">💰 How Much Goes to Fraud?</h2>
-          <p className="mt-2 text-sm text-gray-700">
-            Our AI model flagged 500 providers who received over <strong>$400M in Medicare payments</strong> — and many have never been investigated.
-          </p>
-          <Link href="/fraud/still-out-there" className="mt-3 inline-flex items-center text-sm font-medium text-red-700 hover:text-red-800">
-            See the AI-flagged providers →
-          </Link>
-        </div>
-
         <div className="mt-12">
           <ShareButtons
             url="https://openmedicare.vercel.app/your-medicare-dollar"
             title="Where Does Your Medicare Dollar Go?"
-            description="Interactive breakdown of Medicare spending by specialty"
+            description={`$${flaggedShare.toFixed(2)} of every $100 in Medicare goes to AI-flagged providers. See the full breakdown.`}
           />
         </div>
 
-        <div className="mt-8">
-          <SourceCitation />
-        </div>
+        <div className="mt-8"><SourceCitation /></div>
       </div>
     </div>
   )

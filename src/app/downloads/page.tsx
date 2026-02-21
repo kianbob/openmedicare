@@ -58,6 +58,7 @@ const dataCategories: DataCategory[] = [
       { name: 'COVID Test Billing', filename: 'covid-test-billing.json', description: '$2.84B in COVID test (K1034) billing analysis' },
       { name: 'Wound Care', filename: 'wound-care.json', description: '$5.53B in wound care billing analysis' },
       { name: 'Upcoding Detection', filename: 'upcoding.json', description: 'Upcoding detection (99214/99213 ratio analysis)' },
+      { name: 'ML v2 Results', filename: 'ml-v2-results.json', description: 'Machine learning fraud model v2 results — 500 flagged providers with fraud probabilities, risk factors, and markup ratios. Model AUC: 0.83.' },
     ],
   },
   {
@@ -95,6 +96,12 @@ const dictionaryEntries = [
   { field: 'total_beneficiaries', type: 'number', description: 'Unique Medicare patients served' },
   { field: 'hcpcs_code', type: 'string', description: 'Healthcare Common Procedure Coding System code identifying specific services' },
   { field: 'specialty', type: 'string', description: 'CMS-assigned provider specialty classification' },
+  { field: 'fraud_probability', type: 'number', description: 'ML model v2 predicted probability of fraud (0–1). Only present in ml-v2-results.json for flagged providers.' },
+  { field: 'risk_rank', type: 'number', description: 'Rank among flagged providers (1 = highest risk). Only in ml-v2-results.json.' },
+  { field: 'top_risk_factors', type: 'string[]', description: 'Human-readable descriptions of why the provider was flagged (e.g., "Matches confirmed fraud profile")' },
+  { field: 'services_per_bene', type: 'number', description: 'Average services per beneficiary — high values indicate potential over-utilization' },
+  { field: 'avg_markup', type: 'number', description: 'Average markup ratio across all services (watchlist providers)' },
+  { field: 'flags', type: 'object[]', description: 'Array of billing flags with type, description, and severity (watchlist providers)' },
 ]
 
 export default function DownloadsPage() {
