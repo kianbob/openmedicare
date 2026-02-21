@@ -403,6 +403,37 @@ export default function ArizonaWoundCareRingPage() {
               </div>
             </div>
 
+            {/* Related Investigations */}
+            <div className="mt-10 pt-8 border-t border-gray-200">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Related Investigations</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <Link href="/investigations/data-predicted-fraud" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                  <h4 className="font-semibold text-medicare-primary mb-1">Our Data Predicted It</h4>
+                  <p className="text-sm text-gray-600">How our statistical analysis flagged providers before the DOJ charged them</p>
+                </Link>
+                <Link href="/investigations/beverly-hills-wound-care" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                  <h4 className="font-semibold text-medicare-primary mb-1">Beverly Hills Wound Care</h4>
+                  <p className="text-sm text-gray-600">Plastic surgeons billing Medicare for wound care — $45M question</p>
+                </Link>
+                <Link href="/investigations/three-providers" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                  <h4 className="font-semibold text-medicare-primary mb-1">Three Providers, Three Red Flags</h4>
+                  <p className="text-sm text-gray-600">Inside Medicare&apos;s most suspicious billing patterns</p>
+                </Link>
+              </div>
+            </div>
+
+            {/* Key Provider Pages */}
+            <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+              <h4 className="font-semibold text-gray-900 mb-2">View Provider Profiles</h4>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/providers/1255987475" className="text-sm text-medicare-primary hover:underline">Ira Denny (Charged) →</Link>
+                <Link href="/providers/1174182760" className="text-sm text-medicare-primary hover:underline">Jorge Kinds (Charged) →</Link>
+                <Link href="/providers/1275217952" className="text-sm text-medicare-primary hover:underline">Gina Palacios (Charged) →</Link>
+                <Link href="/states/AZ" className="text-sm text-medicare-primary hover:underline">All Arizona Providers →</Link>
+                <Link href="/fraud/watchlist" className="text-sm text-medicare-primary hover:underline">Full Fraud Watchlist →</Link>
+              </div>
+            </div>
+
             {/* Share */}
             <div className="mt-10 pt-8 border-t border-gray-200">
               <ShareButtons
