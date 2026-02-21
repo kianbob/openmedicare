@@ -351,7 +351,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
       keyFindings.push(`${formatNumber(servicesPerDay)} services/day — ${servicesPerDay > 200 ? 'physically implausible' : 'unusually high'}`)
     }
     if (biggestYoyIncrease) {
-      keyFindings.push(`Payments surged ${biggestYoyIncrease.pctChange.toFixed(0)}% in ${biggestYoyIncrease.year}`)
+      keyFindings.push(`Payments surged ${biggestYoyIncrease.(pctChange ?? 0).toFixed(0)}% in ${biggestYoyIncrease.year}`)
     }
     const highMarkupProcs = topProcs.filter(p => p.avg_markup > 3)
     if (highMarkupProcs.length > 0) {
@@ -761,7 +761,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                 <span className="text-xl">📈</span>
                 <div>
                   <p className="font-medium text-amber-900">
-                    Notable: Payments increased {biggestYoyIncrease.pctChange.toFixed(0)}% in {biggestYoyIncrease.year}
+                    Notable: Payments increased {biggestYoyIncrease.(pctChange ?? 0).toFixed(0)}% in {biggestYoyIncrease.year}
                   </p>
                   <p className="text-sm text-amber-700">
                     Year-over-year payment surges can indicate changes in practice volume, new services, or billing pattern shifts.
@@ -800,7 +800,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                         <td className="px-4 py-2 font-medium text-gray-900">{y.year}</td>
                         <td className="px-4 py-2 text-right text-red-600 font-medium">{formatCurrency(y.avg_submitted)}</td>
                         <td className="px-4 py-2 text-right text-green-600 font-medium">{formatCurrency(y.avg_paid)}</td>
-                        <td className="px-4 py-2 text-right text-orange-600">{ratio.toFixed(2)}x</td>
+                        <td className="px-4 py-2 text-right text-orange-600">{(ratio ?? 0).toFixed(2)}x</td>
                         <td className="px-4 py-2 text-right text-gray-600">{formatCurrency(gap)}</td>
                         <td className="px-4 py-2 text-right font-medium">{formatCurrency(y.total_payments)}</td>
                         <td className="px-4 py-2 text-right text-gray-600">{formatNumber(y.total_services)}</td>
@@ -835,7 +835,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                         <span className="text-sm text-gray-700 truncate max-w-xs">{proc.description}</span>
                         {isHighMarkup && (
                           <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-100 text-red-700 border border-red-300">
-                            ⚠ {proc.avg_markup.toFixed(1)}x markup
+                            ⚠ {(proc.avg_markup ?? 0).toFixed(1)}x markup
                           </span>
                         )}
                       </div>
@@ -850,7 +850,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                     <div className="flex gap-4 mt-1 text-xs text-gray-500">
                       <span>{formatNumber(proc.services)} services</span>
                       <span>{proc.services > 0 ? formatCurrency(proc.payments / proc.services) : '—'}/svc</span>
-                      <span className={proc.avg_markup > 3 ? 'text-red-600 font-semibold' : ''}>{proc.avg_markup.toFixed(2)}x markup</span>
+                      <span className={proc.avg_markup > 3 ? 'text-red-600 font-semibold' : ''}>{(proc.avg_markup ?? 0).toFixed(2)}x markup</span>
                     </div>
                   </div>
                 )
@@ -889,7 +889,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                         </td>
                         <td className="px-4 py-2 text-right">
                           <span className={`${proc.avg_markup > 3 ? 'text-red-600' : proc.avg_markup > 2 ? 'text-orange-600' : 'text-gray-600'} font-medium`}>
-                            {proc.avg_markup.toFixed(2)}x
+                            {(proc.avg_markup ?? 0).toFixed(2)}x
                           </span>
                         </td>
                       </tr>
