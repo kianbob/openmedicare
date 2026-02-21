@@ -96,7 +96,18 @@ export default function ProvidersPage() {
         const response = await fetch('/data/top-providers.json')
         if (response.ok) {
           const data = await response.json()
-          setProviders(data)
+          const mapped = (data.providers || data).map((p: any) => ({
+            npi: p.npi,
+            name: p.name,
+            specialty: p.specialty,
+            city: p.city,
+            state: p.state,
+            totalPayments: p.total_payments ?? p.totalPayments,
+            totalServices: p.total_services ?? p.totalServices,
+            beneficiaries: p.total_beneficiaries ?? p.beneficiaries,
+            riskScore: p.risk_score ?? p.riskScore,
+          }))
+          setProviders(mapped)
         } else {
           // Fallback to mock data if file doesn't exist yet
           setProviders(mockProviders)
