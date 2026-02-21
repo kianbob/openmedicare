@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { TrendChart } from '@/components/Charts'
 import { formatCurrency } from '@/lib/format'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: "COVID's Impact on Medicare Spending",

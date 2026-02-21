@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatPercent } from '@/lib/format'
 import fs from 'fs'
 import path from 'path'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Beverly Hills Plastic Surgeons Billing Medicare for Wound Care: A $45 Million Question',

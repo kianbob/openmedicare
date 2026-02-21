@@ -7,6 +7,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Three Providers, Three Red Flags: Inside Medicare\'s Most Suspicious Billing Patterns',

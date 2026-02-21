@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'How to Look Up Your Doctor\'s Medicare Billing',

@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'The $2.1 Trillion Writeoff: Why Doctors Charge 4x What They Get Paid',

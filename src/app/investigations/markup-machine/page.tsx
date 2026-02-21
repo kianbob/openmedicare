@@ -5,6 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { BarChart, LineChart } from '@/components/Charts'
 import { formatCurrency, formatPercent } from '@/lib/format'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'The Medicare Markup Machine',

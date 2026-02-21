@@ -7,6 +7,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Beverly Hills: America\'s Most Expensive ZIP Code for Medicare',
