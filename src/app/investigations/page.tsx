@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 51 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 53 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -390,6 +390,24 @@ const investigations = [
     readTime: '14 min read',
     publishedAt: '2026-02-21',
     excerpt: 'Nurse practitioners are 11.4% of all Medicare providers but average just $26K in payments. Some NPs bill millions. The scope of practice debate meets Medicare data.'
+  },
+  {
+    title: 'Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk',
+    description: 'NPs are the fastest-growing Medicare provider type. Our AI flagged NPs billing $1.6M+ with 95% fraud probability.',
+    href: '/investigations/nurse-practitioners-fraud',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Nurse practitioners are Medicare\'s fastest-growing provider type — and emerging as a new fraud vector. Our AI model flagged NPs billing $1.6M+ while matching convicted fraudster patterns. The oversight gap is real.'
+  },
+  {
+    title: 'The Opioid Connection: Pain Management Providers in Medicare\'s Fraud Data',
+    description: '7 pain management providers flagged by AI — one billing $3M with 64,000 services.',
+    href: '/investigations/pain-management-fraud',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Pain management is a known fraud vector tied to the opioid crisis. Our AI model flagged 7 pain management providers billing up to $3M each — including one with 64,000 services.'
   },
   {
     title: 'The Oncology Drug Pipeline',
