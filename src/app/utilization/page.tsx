@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import Link from 'next/link'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
@@ -163,6 +164,29 @@ export default function UtilizationPage() {
                 <p>The data shows this shift clearly: <strong>organizational providers</strong> are growing their share of Medicare payments faster than individual physicians. When a hospital buys a doctor&apos;s practice, the same services can be billed at higher facility rates, and the practice gains negotiating leverage with insurers.</p>
                 <p>For patients, corporatization is a double-edged sword. Larger organizations can invest in technology, coordinate care better, and offer more services. But consolidation also reduces competition, can increase prices, and may prioritize revenue over the physician-patient relationship.</p>
                 <p>Medicare participation data reveals another dimension: providers who &quot;participate&quot; in Medicare agree to accept Medicare&apos;s approved amount as full payment. Non-participating providers can charge up to 15% more, leaving patients to cover the difference.</p>
+              </div>
+            </div>
+
+            {/* Explore More */}
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Link href="/trends" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Spending Trends</h4>
+                  <p className="text-sm text-gray-500 mt-1">A decade of Medicare spending growth</p>
+                </Link>
+                <Link href="/investigations/corporate-medicine" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Corporate Medicine Investigation</h4>
+                  <p className="text-sm text-gray-500 mt-1">How private equity is reshaping healthcare delivery</p>
+                </Link>
+                <Link href="/investigations/nurse-practitioner-boom" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">The Nurse Practitioner Boom</h4>
+                  <p className="text-sm text-gray-500 mt-1">The fastest-growing provider type in Medicare</p>
+                </Link>
+                <Link href="/investigations/biggest-billers" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Medicare&apos;s Biggest Billers</h4>
+                  <p className="text-sm text-gray-500 mt-1">Which providers collect the most from Medicare</p>
+                </Link>
               </div>
             </div>
 

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import Link from 'next/link'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
@@ -171,6 +172,29 @@ export default function CostAdjustmentPage() {
                 <p>Medicare doesn&apos;t pay the same amount for the same procedure everywhere. Payments are adjusted by <strong>Geographic Practice Cost Indices (GPCIs)</strong> that account for local differences in physician work costs, practice expenses, and malpractice insurance.</p>
                 <p>A cost index above 1.0 means a state&apos;s actual payments exceed what they&apos;d be under a flat national rate. Below 1.0 means they get less. States like Alaska and California have high cost indices due to expensive real estate and labor markets. States in the Deep South tend to have lower indices.</p>
                 <p>The debate: are these adjustments fair? Critics argue they perpetuate inequities — rural states with lower cost of living also tend to have fewer doctors and worse health outcomes, yet they receive less per service. Proponents say it&apos;s simply reflecting the cost of doing business.</p>
+              </div>
+            </div>
+
+            {/* Explore More */}
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Link href="/rural-urban" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Rural vs Urban</h4>
+                  <p className="text-sm text-gray-500 mt-1">The spending and access gap between rural and urban Medicare</p>
+                </Link>
+                <Link href="/place-of-service" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Place of Service</h4>
+                  <p className="text-sm text-gray-500 mt-1">How office vs facility billing changes what Medicare pays</p>
+                </Link>
+                <Link href="/investigations/geographic-inequality" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Geographic Inequality</h4>
+                  <p className="text-sm text-gray-500 mt-1">Where you live determines what Medicare pays for your care</p>
+                </Link>
+                <Link href="/states" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">State Pages</h4>
+                  <p className="text-sm text-gray-500 mt-1">Medicare data for every state</p>
+                </Link>
               </div>
             </div>
 

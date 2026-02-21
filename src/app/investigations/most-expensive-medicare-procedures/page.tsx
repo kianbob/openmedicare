@@ -216,6 +216,17 @@ export default function MostExpensiveProceduresPage() {
           </div>
         </article>
 
+        {/* Related Investigations */}
+        <div className="bg-gray-50 rounded-xl p-6 mt-8 mb-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/office-visit-economy" className="text-medicare-primary hover:underline text-sm">🏢 The $117B Office Visit Economy</Link>
+            <Link href="/investigations/drug-money" className="text-medicare-primary hover:underline text-sm">💊 Follow the Drug Money</Link>
+            <Link href="/investigations/eye-care-billions" className="text-medicare-primary hover:underline text-sm">👁️ The Billion-Dollar Eye Care Industry</Link>
+            <Link href="/procedures" className="text-medicare-primary hover:underline text-sm">📋 Browse All Procedures</Link>
+          </div>
+        </div>
+
         <div className="mt-8">
           <ShareButtons
             url="/investigations/most-expensive-medicare-procedures"

@@ -228,6 +228,17 @@ export default function MedicareProviderLookupGuidePage() {
           </div>
         </article>
 
+        {/* Related Investigations */}
+        <div className="bg-gray-50 rounded-xl p-6 mt-8 mb-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/how-much-does-medicare-pay" className="text-medicare-primary hover:underline text-sm">💰 How Much Does Medicare Pay?</Link>
+            <Link href="/investigations/biggest-billers" className="text-medicare-primary hover:underline text-sm">📊 Medicare&apos;s Biggest Billers</Link>
+            <Link href="/investigations/where-medicare-dollar-goes" className="text-medicare-primary hover:underline text-sm">💵 Where Your Medicare Dollar Goes</Link>
+            <Link href="/providers" className="text-medicare-primary hover:underline text-sm">👨‍⚕️ Provider Directory</Link>
+          </div>
+        </div>
+
         <div className="mt-8">
           <ShareButtons
             url="/investigations/medicare-provider-lookup-guide"

@@ -260,6 +260,17 @@ export default function MedicareSpendingByStatePage() {
           </div>
         </article>
 
+        {/* Related Investigations */}
+        <div className="bg-gray-50 rounded-xl p-6 mt-8 mb-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/state-spending-divide" className="text-medicare-primary hover:underline text-sm">📊 The State Spending Divide</Link>
+            <Link href="/investigations/geographic-inequality" className="text-medicare-primary hover:underline text-sm">📍 ZIP Code Lottery</Link>
+            <Link href="/investigations/rural-price-tag" className="text-medicare-primary hover:underline text-sm">🌾 The Rural Price Tag</Link>
+            <Link href="/states" className="text-medicare-primary hover:underline text-sm">📍 Browse All States</Link>
+          </div>
+        </div>
+
         <div className="mt-8">
           <ShareButtons
             url="/investigations/medicare-spending-by-state"

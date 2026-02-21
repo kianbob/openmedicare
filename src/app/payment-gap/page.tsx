@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import Link from 'next/link'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
@@ -177,6 +178,25 @@ export default function PaymentGapPage() {
                 <p><strong>Allowed:</strong> This is what Medicare determines a service is actually worth, based on the Resource-Based Relative Value Scale (RBRVS). It&apos;s the maximum amount that can be collected for a service from all sources combined.</p>
                 <p><strong>Paid:</strong> This is what Medicare actually sends to the provider — typically 80% of the allowed amount. The remaining 20% is the patient&apos;s responsibility (coinsurance), paid out-of-pocket or by supplemental insurance.</p>
                 <p>The gap between &quot;charged&quot; and &quot;allowed&quot; is a <strong>write-off</strong> — it simply disappears. Providers who accept Medicare assignment agree not to bill patients for this difference. The gap between &quot;allowed&quot; and &quot;paid&quot; represents patient cost-sharing.</p>
+              </div>
+            </div>
+
+            {/* Explore More */}
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Link href="/markup" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Markup Analysis</h4>
+                  <p className="text-sm text-gray-500 mt-1">How charges and payments diverge across the system</p>
+                </Link>
+                <Link href="/investigations/two-trillion-writeoff" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">The Two Trillion Dollar Write-Off</h4>
+                  <p className="text-sm text-gray-500 mt-1">The accounting fiction at the heart of Medicare billing</p>
+                </Link>
+                <Link href="/investigations/markup-machine" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">The Markup Machine</h4>
+                  <p className="text-sm text-gray-500 mt-1">How Medicare charges have diverged from reality</p>
+                </Link>
               </div>
             </div>
 

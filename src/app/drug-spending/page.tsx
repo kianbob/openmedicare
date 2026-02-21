@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import { TrendChart } from '@/components/Charts'
@@ -29,6 +30,13 @@ export default function DrugSpendingPage() {
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Drug Spending</h1>
           <p className="text-lg text-gray-600">Analyzing prescription drug payments in Medicare — which drugs cost the most and how drug spending is growing over time.</p>
+        </div>
+
+        {/* Editorial Context */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <div className="prose max-w-none text-gray-700">
+            <p>Drug spending now accounts for {(stats.latest_year_drug_share || 14.8).toFixed(1)}% of all Medicare payments — up from roughly 11% in 2014. The rise is driven by a wave of expensive specialty drugs, particularly in oncology and ophthalmology. Five drugs alone account for billions in annual spending, and the trend shows no sign of slowing as the pharmaceutical pipeline delivers more targeted (and costlier) therapies.</p>
+          </div>
         </div>
 
         {/* Key Stats */}
@@ -93,6 +101,48 @@ export default function DrugSpendingPage() {
             </div>
           </div>
         )}
+
+        {/* Top 5 Drug Spotlight */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">The Big Five: Medicare&apos;s Costliest Drugs</h2>
+          <div className="space-y-4">
+            {[
+              { name: 'Eylea (Aflibercept)', desc: 'Injected directly into the eye to treat age-related macular degeneration. The single most expensive drug in Medicare, costing billions annually.' },
+              { name: 'Keytruda (Pembrolizumab)', desc: 'A revolutionary immunotherapy for cancer. Used across dozens of tumor types, its Medicare spending has skyrocketed since approval.' },
+              { name: 'Revlimid (Lenalidomide)', desc: 'A critical treatment for multiple myeloma. Patients often take it for years, driving sustained high spending.' },
+              { name: 'Eliquis (Apixaban)', desc: 'A blood thinner prescribed to millions of Medicare beneficiaries to prevent stroke. High volume drives massive total spending.' },
+              { name: 'Imbruvica (Ibrutinib)', desc: 'Used for blood cancers like chronic lymphocytic leukemia. One of the newer targeted therapies reshaping oncology spending.' },
+            ].map((drug) => (
+              <div key={drug.name} className="bg-gray-50 rounded-lg p-4">
+                <h4 className="font-semibold text-gray-900">{drug.name}</h4>
+                <p className="text-sm text-gray-600 mt-1">{drug.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Explore More */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/trends" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">Spending Trends</h4>
+              <p className="text-sm text-gray-500 mt-1">A decade of Medicare spending growth and what drove it</p>
+            </Link>
+            <Link href="/markup" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">Markup Analysis</h4>
+              <p className="text-sm text-gray-500 mt-1">The gap between what providers charge and what Medicare pays</p>
+            </Link>
+            <Link href="/investigations/drug-money" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">Drug Money Investigation</h4>
+              <p className="text-sm text-gray-500 mt-1">Following the money trail in Medicare drug spending</p>
+            </Link>
+            <Link href="/investigations/drug-pipeline" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">Follow the Drug Money</h4>
+              <p className="text-sm text-gray-500 mt-1">The oncology drug pipeline reshaping Medicare spending</p>
+            </Link>
+          </div>
+        </div>
 
         <SourceCitation />
       </div>

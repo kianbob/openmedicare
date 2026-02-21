@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import Link from 'next/link'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
@@ -177,6 +178,25 @@ export default function PlaceOfServicePage() {
                 <p>One of the most controversial aspects of Medicare billing is the <strong>facility fee</strong>. When a doctor performs a procedure in their office, Medicare pays one rate. When the exact same procedure is performed in a hospital outpatient department, Medicare pays significantly more — sometimes double or triple.</p>
                 <p>This &quot;site-of-service differential&quot; was originally designed to account for the higher overhead costs hospitals face. But as hospitals have aggressively acquired physician practices, many procedures that were once done in offices are now billed at the higher facility rate — even when nothing about the care has changed.</p>
                 <p>The result: Medicare (and taxpayers) pay billions more each year for the same services, simply because of where they&apos;re billed from. Patients also pay more, since their copays are calculated as a percentage of the higher facility charge.</p>
+              </div>
+            </div>
+
+            {/* Explore More */}
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <Link href="/cost-adjustment" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Cost Adjustment</h4>
+                  <p className="text-sm text-gray-500 mt-1">How geographic adjustments change what Medicare pays</p>
+                </Link>
+                <Link href="/markup" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">Markup Analysis</h4>
+                  <p className="text-sm text-gray-500 mt-1">The gap between charges and payments across Medicare</p>
+                </Link>
+                <Link href="/investigations/office-visit-economy" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-blue-600">The $117B Office Visit Economy</h4>
+                  <p className="text-sm text-gray-500 mt-1">Two billing codes that dominate all of Medicare spending</p>
+                </Link>
               </div>
             </div>
 

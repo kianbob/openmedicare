@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
@@ -30,6 +31,13 @@ export default function RuralUrbanPage() {
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Rural vs Urban Medicare Spending</h1>
           <p className="text-lg text-gray-600">How Medicare spending differs between rural and urban areas — examining access, pricing, and provider distribution.</p>
+        </div>
+
+        {/* Editorial Context */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <div className="prose max-w-none text-gray-700">
+            <p>The vast majority of Medicare spending flows to urban providers — but rural Americans, who are older and sicker on average, face longer drives, fewer specialists, and hospital closures. This isn&apos;t just a funding gap; it&apos;s an access crisis. Rural providers earn less per service, treat fewer patients, and operate on thinner margins. Understanding this divide is key to any serious conversation about Medicare equity.</p>
+          </div>
         </div>
 
         {/* Side-by-side comparison */}
@@ -104,6 +112,37 @@ export default function RuralUrbanPage() {
             </div>
           </div>
         )}
+
+        {/* What This Means for Patients */}
+        <div className="bg-green-50 rounded-xl p-8 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">What This Means for Patients</h2>
+          <div className="prose max-w-none text-gray-700 space-y-4">
+            <p>For Medicare beneficiaries in rural America, the numbers translate into real consequences. Fewer providers mean longer wait times and farther drives — sometimes hours to see a specialist. Rural hospitals closing at record rates means emergency care is moving further away. And lower per-service payments make it harder for rural practices to recruit new doctors, creating a self-reinforcing cycle of declining access.</p>
+          </div>
+        </div>
+
+        {/* Explore More */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/geographic" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">Geographic Spending</h4>
+              <p className="text-sm text-gray-500 mt-1">See how Medicare spending varies across the country</p>
+            </Link>
+            <Link href="/states" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">State Pages</h4>
+              <p className="text-sm text-gray-500 mt-1">Deep dive into Medicare data for every state</p>
+            </Link>
+            <Link href="/investigations/rural-price-tag" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">The Rural Price Tag</h4>
+              <p className="text-sm text-gray-500 mt-1">What it really costs to deliver healthcare in rural America</p>
+            </Link>
+            <Link href="/investigations/state-spending-divide" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-blue-600">The State Spending Divide</h4>
+              <p className="text-sm text-gray-500 mt-1">Why some states get far more Medicare dollars than others</p>
+            </Link>
+          </div>
+        </div>
 
         <SourceCitation />
       </div>

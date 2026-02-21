@@ -218,6 +218,17 @@ export default function HowMuchDoesMedicarePayPage() {
           </div>
         </article>
 
+        {/* Related Investigations */}
+        <div className="bg-gray-50 rounded-xl p-6 mt-8 mb-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/specialty-pay-gap" className="text-medicare-primary hover:underline text-sm">📊 The Specialty Pay Gap</Link>
+            <Link href="/investigations/specialty-monopoly" className="text-medicare-primary hover:underline text-sm">🏛️ The Specialty Monopoly</Link>
+            <Link href="/investigations/markup-machine" className="text-medicare-primary hover:underline text-sm">📈 The Markup Machine</Link>
+            <Link href="/specialties" className="text-medicare-primary hover:underline text-sm">🩺 Browse All Specialties</Link>
+          </div>
+        </div>
+
         <div className="mt-8">
           <ShareButtons
             url="/investigations/how-much-does-medicare-pay"
