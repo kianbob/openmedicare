@@ -20,6 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pandemic-recovery',
     'eye-care-billions',
     'where-medicare-dollar-goes',
+    'covid-test-scheme',
+    'wound-care-crisis',
+    'impossible-doctors',
   ]
 
   const staticPages = [
