@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
-import { ExclamationTriangleIcon, MapPinIcon, UserIcon, CalendarDaysIcon } from '@heroicons/react/24/outline'
+import { ExclamationTriangleIcon, MapPinIcon, UserIcon, CalendarDaysIcon, ShieldCheckIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
@@ -45,6 +45,33 @@ interface RawProvider {
   top_procedures: TopProcedure[]
 }
 
+interface WatchlistEntry {
+  npi: number
+  name: string
+  risk_score: number
+  flags: { type: string; description: string; severity: string }[]
+  total_payments: number
+  avg_markup: number
+  specialty: string
+  state: string
+  city: string
+  credentials: string
+}
+
+interface TopProvider {
+  npi: string
+  name: string
+  credentials: string
+  specialty: string
+  state: string
+  city: string
+  entity_type: string
+  total_payments: number
+  total_services: number
+  total_beneficiaries: number
+  years_active: number
+}
+
 interface PageProps {
   params: Promise<{ npi: string }>
 }
@@ -59,6 +86,27 @@ function loadProviderFile(npi: string): RawProvider | null {
     console.error('Error loading provider data:', error)
   }
   return null
+}
+
+function loadWatchlist(): WatchlistEntry[] {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'data', 'watchlist.json')
+    if (fs.existsSync(filePath)) {
+      return JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+    }
+  } catch {}
+  return []
+}
+
+function loadTopProviders(): TopProvider[] {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'data', 'top-providers.json')
+    if (fs.existsSync(filePath)) {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+      return data.providers || data
+    }
+  } catch {}
+  return []
 }
 
 function loadSpecialtiesData(): any[] {
@@ -76,15 +124,39 @@ function slugifySpecialty(specialty: string): string {
   return specialty.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 }
 
+function getRiskScoreColor(score: number): { bg: string; text: string; border: string } {
+  if (score >= 90) return { bg: 'bg-red-100', text: 'text-red-800', border: 'border-red-300' }
+  if (score >= 80) return { bg: 'bg-orange-100', text: 'text-orange-800', border: 'border-orange-300' }
+  if (score >= 70) return { bg: 'bg-yellow-100', text: 'text-yellow-800', border: 'border-yellow-300' }
+  return { bg: 'bg-blue-100', text: 'text-blue-800', border: 'border-blue-300' }
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { npi } = await params
   const raw = loadProviderFile(npi)
   const providerName = raw?.name || `Provider ${npi}`
   
+  const title = `${providerName} — Medicare Billing Profile | OpenMedicare`
+  const description = raw
+    ? `${providerName} (${raw.specialty}) in ${raw.city}, ${raw.state} — ${formatCurrency(raw.overall.total_payments)} in Medicare payments. View billing patterns, procedures, and peer comparisons.`
+    : `Medicare payment details for provider ${npi}.`
+  
   return {
-    title: `${providerName} (NPI: ${npi}) — OpenMedicare`,
-    description: `Medicare payment details for ${providerName}. View ${raw ? formatCurrency(raw.overall.total_payments) : ''} in total payments, top procedures, markup analysis, and year-over-year trends.`,
+    title,
+    description,
     alternates: { canonical: `/providers/${npi}` },
+    openGraph: {
+      title,
+      description,
+      url: `/providers/${npi}`,
+      siteName: 'OpenMedicare',
+      type: 'profile',
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
   }
 }
 
@@ -97,6 +169,24 @@ export default async function ProviderDetailPage({ params }: PageProps) {
   const yearly = raw.yearly_payments || []
   const topProcs = raw.top_procedures || []
   const totalBeneficiaries = yearly.reduce((sum, y) => sum + (y.total_beneficiaries || 0), 0)
+
+  // Watchlist check
+  const watchlist = loadWatchlist()
+  const watchlistEntry = watchlist.find(w => String(w.npi) === npi)
+
+  // Services per day calculation (individual providers only)
+  const isIndividual = raw.entity_type !== 'Organization' && raw.entity_type !== 'O'
+  let servicesPerDay = 0
+  if (isIndividual && overall.years_active > 0) {
+    servicesPerDay = Math.round(overall.total_services / overall.years_active / 250)
+  }
+
+  // Similar providers
+  const topProviders = loadTopProviders()
+  const watchlistNpis = new Set(watchlist.map(w => String(w.npi)))
+  const similarProviders = topProviders
+    .filter(p => p.specialty === raw.specialty && p.state === raw.state && String(p.npi) !== npi)
+    .slice(0, 5)
 
   // Peer comparison
   const specialties = loadSpecialtiesData()
@@ -125,6 +215,68 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           ]}
           className="mb-8"
         />
+
+        {/* Fraud Flag Banner */}
+        {watchlistEntry ? (
+          <div className={`rounded-lg border-2 ${getRiskScoreColor(watchlistEntry.risk_score).border} ${getRiskScoreColor(watchlistEntry.risk_score).bg} p-6 mb-8`}>
+            <div className="flex items-start gap-4">
+              <ExclamationTriangleIcon className="h-8 w-8 text-red-600 flex-shrink-0 mt-0.5" />
+              <div className="flex-1">
+                <div className="flex flex-wrap items-center gap-3 mb-3">
+                  <h2 className="text-xl font-bold text-gray-900">⚠️ Flagged for Review</h2>
+                  <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-bold ${getRiskScoreColor(watchlistEntry.risk_score).bg} ${getRiskScoreColor(watchlistEntry.risk_score).text} border ${getRiskScoreColor(watchlistEntry.risk_score).border}`}>
+                    Risk Score: {watchlistEntry.risk_score}
+                  </span>
+                </div>
+                <ul className="space-y-1 mb-4">
+                  {watchlistEntry.flags.map((flag, i) => (
+                    <li key={i} className="text-sm text-gray-800 flex items-start gap-2">
+                      <span className={`inline-block w-2 h-2 rounded-full mt-1.5 flex-shrink-0 ${flag.severity === 'high' ? 'bg-red-500' : flag.severity === 'medium' ? 'bg-orange-500' : 'bg-yellow-500'}`} />
+                      {flag.description}
+                    </li>
+                  ))}
+                </ul>
+                <div className="flex flex-wrap gap-4 mb-3">
+                  <Link href="/fraud/deep-dives" className="text-sm font-medium text-blue-700 hover:text-blue-900 underline">
+                    View Deep Dives →
+                  </Link>
+                  <Link href="/fraud/report" className="text-sm font-medium text-blue-700 hover:text-blue-900 underline">
+                    Report Fraud →
+                  </Link>
+                </div>
+                <p className="text-xs text-gray-600 italic">
+                  Statistical flag only — not an accusation of fraud
+                </p>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="flex items-center gap-2 mb-6 text-green-700">
+            <ShieldCheckIcon className="h-5 w-5" />
+            <span className="text-sm font-medium">✓ No flags detected</span>
+          </div>
+        )}
+
+        {/* Services Per Day Warning */}
+        {isIndividual && servicesPerDay > 50 && (
+          <div className={`rounded-lg border p-4 mb-8 ${servicesPerDay > 200 ? 'bg-red-50 border-red-300' : 'bg-yellow-50 border-yellow-300'}`}>
+            <div className="flex items-start gap-3">
+              <ExclamationTriangleIcon className={`h-6 w-6 flex-shrink-0 ${servicesPerDay > 200 ? 'text-red-600' : 'text-yellow-600'}`} />
+              <div>
+                <p className={`font-medium ${servicesPerDay > 200 ? 'text-red-800' : 'text-yellow-800'}`}>
+                  {servicesPerDay > 200 ? '⚠️ ' : ''}This provider averages {formatNumber(servicesPerDay)} services per working day
+                  {servicesPerDay > 200 ? ' — physically unusual for an individual practitioner' : ''}
+                </p>
+                <p className="text-sm text-gray-600 mt-1">
+                  Based on {formatNumber(overall.total_services)} total services over {overall.years_active} years (250 working days/year).{' '}
+                  <Link href="/fraud/impossible-numbers" className="text-blue-600 hover:text-blue-800 underline">
+                    Learn about impossible service volumes →
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Provider Header */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
@@ -363,6 +515,57 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             </div>
           </div>
         </div>
+
+        {/* Similar Providers */}
+        {similarProviders.length > 0 && (
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-2">
+              Similar Providers
+            </h2>
+            <p className="text-sm text-gray-500 mb-6">
+              Other {raw.specialty} providers in {raw.state} for peer comparison.
+            </p>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Provider</th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Location</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Total Payments</th>
+                    <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-gray-200">
+                  {similarProviders.map((p) => {
+                    const isFlagged = watchlistNpis.has(String(p.npi))
+                    return (
+                      <tr key={p.npi} className="hover:bg-blue-50">
+                        <td className="px-4 py-3">
+                          <Link href={`/providers/${p.npi}`} className="text-blue-600 hover:text-blue-800 font-medium">
+                            {p.credentials ? `${p.name}, ${p.credentials}` : p.name}
+                          </Link>
+                        </td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{p.city}, {p.state}</td>
+                        <td className="px-4 py-3 text-right font-medium text-gray-900">{formatCurrency(p.total_payments)}</td>
+                        <td className="px-4 py-3 text-center">
+                          {isFlagged ? (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
+                              ⚠️ Flagged
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                              ✓ Clear
+                            </span>
+                          )}
+                        </td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
 
         {/* Related Links */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">

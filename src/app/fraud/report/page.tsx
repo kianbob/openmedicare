@@ -6,7 +6,8 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Report Medicare Fraud — OpenMedicare',
-  description: 'How to report Medicare fraud to the OIG, CMS, and state agencies. Learn about the False Claims Act whistleblower program.',
+  description: 'How to report Medicare fraud. OIG hotline, False Claims Act whistleblower rewards, and what counts as fraud.',
+  alternates: { canonical: '/fraud/report' },
 }
 
 export default function ReportFraud() {

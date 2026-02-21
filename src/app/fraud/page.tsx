@@ -7,10 +7,11 @@ import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Medicare Fraud Analysis Hub — OpenMedicare',
-  description: 'Data-driven fraud detection across $854.8B in Medicare spending. 500 flagged providers, deep-dive profiles, COVID test billing analysis, wound care fraud tracking, and more.',
+  description: 'Explore Medicare fraud patterns detected in $854.8B of physician payment data. Analysis of upcoding, COVID test billing, wound care schemes, and more.',
+  alternates: { canonical: '/fraud' },
   openGraph: {
     title: 'Medicare Fraud Analysis Hub — OpenMedicare',
-    description: 'Data-driven fraud detection across $854.8B in Medicare spending.',
+    description: 'Explore Medicare fraud patterns detected in $854.8B of physician payment data. Analysis of upcoding, COVID test billing, wound care schemes, and more.',
     url: 'https://www.openmedicare.org/fraud',
   },
 }
