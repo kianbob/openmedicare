@@ -16,6 +16,21 @@ export const metadata: Metadata = {
 
 const featuredInvestigations = [
   {
+    title: 'Our Data Predicted It: Statistical Analysis Flagged Providers Before the DOJ Did',
+    description: 'We flagged 500 providers. The DOJ charged 324 people in $14.6B of fraud. Multiple of our top-flagged providers were among them.',
+    href: '/investigations/data-predicted-fraud',
+    category: '🏆 Landmark Investigation',
+    readTime: '22 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Our fraud detection algorithm — built entirely from public Medicare data — flagged the same providers that federal investigators spent years pursuing. At least 6 of our flagged providers were subsequently charged by the DOJ, including the entire Arizona wound care ring.',
+    keyFindings: [
+      '500 providers flagged by our algorithm using only public data',
+      '6+ flagged providers subsequently charged by DOJ',
+      'Arizona ring: 5 charged providers we flagged for identical 1.28x markup ratios',
+      'VRA Enterprises: Our #1 COVID test flag settled for $17M with DOJ',
+    ],
+  },
+  {
     title: 'The Arizona Wound Care Ring',
     description: '$514 million billed by 23 nurse practitioners for just 2,974 patients — with identical 1.28x markup ratios',
     href: '/investigations/arizona-wound-care-ring',

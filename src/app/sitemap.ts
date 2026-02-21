@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'florida-infectious-disease',
     'arizona-wound-care-ring',
     'beverly-hills-wound-care',
+    'data-predicted-fraud',
   ]
 
   const staticPages = [

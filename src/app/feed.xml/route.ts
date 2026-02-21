@@ -3,6 +3,13 @@ import { NextResponse } from 'next/server'
 const baseUrl = 'https://www.openmedicare.org'
 
 const items = [
+  // LANDMARK Investigation
+  {
+    title: 'Our Data Predicted It: How Statistical Analysis Flagged Providers Before the DOJ Did',
+    description: 'Our fraud detection algorithm flagged 500 providers. At least 6 were subsequently charged by the DOJ in the largest healthcare fraud takedown in history. The proof that statistical analysis works.',
+    link: '/investigations/data-predicted-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // NEW Flagship Investigations
   {
     title: 'The Arizona Wound Care Ring: $514 Million Billed by 23 Nurse Practitioners for 2,974 Patients',
