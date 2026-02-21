@@ -4,6 +4,20 @@ import path from 'path'
 import { ArrowRightIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import SourceCitation from '@/components/SourceCitation'
+import StateHeatmap from '@/components/StateHeatmap'
+import NewsletterCTA from '@/components/NewsletterCTA'
+
+function loadStates() {
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'states.json'), 'utf-8')
+    const data = JSON.parse(raw)
+    return (data.states || []).map((s: { state: string; total_payments: number }) => ({
+      code: s.state,
+      value: s.total_payments,
+      label: 'Total Payments',
+    }))
+  } catch { return [] }
+}
 
 function loadStats() {
   try {
@@ -12,6 +26,7 @@ function loadStats() {
   } catch { return null }
 }
 
+const stateHeatmapData = loadStates()
 const realStats = loadStats()
 const keyStats = {
   totalPayments: realStats?.total_payments || 854842324155,
@@ -243,6 +258,19 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* State Heatmap */}
+      {stateHeatmapData.length > 0 && (
+        <div className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <StateHeatmap
+              data={stateHeatmapData}
+              title="Medicare Spending by State"
+              linkPrefix="/states"
+            />
+          </div>
+        </div>
+      )}
+
       {/* Featured Investigations */}
       <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -459,6 +487,13 @@ export default function HomePage() {
             {' · '}
             <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">OpenSpending</a>
           </p>
+        </div>
+      </div>
+
+      {/* Newsletter CTA */}
+      <div className="py-16 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterCTA />
         </div>
       </div>
 

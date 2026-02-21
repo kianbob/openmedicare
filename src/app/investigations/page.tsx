@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ClockIcon, ArrowRightIcon, FireIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import NewsletterCTA from '@/components/NewsletterCTA'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
@@ -425,31 +426,8 @@ export default function InvestigationsPage() {
         </div>
 
         {/* Newsletter Signup */}
-        <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
-              Stay Updated
-            </h2>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Get notified when we publish new investigations and analysis. 
-              Our newsletter delivers the latest Medicare transparency stories directly to your inbox.
-            </p>
-            
-            <div className="max-w-md mx-auto flex">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-medicare-primary focus:border-medicare-primary"
-              />
-              <button className="px-6 py-3 bg-medicare-primary text-white font-medium rounded-r-lg hover:bg-medicare-dark transition-colors">
-                Subscribe
-              </button>
-            </div>
-            
-            <p className="text-xs text-gray-500 mt-2">
-              We never share your email. Unsubscribe anytime.
-            </p>
-          </div>
+        <div className="mb-8">
+          <NewsletterCTA />
         </div>
 
         {/* Share Section */}

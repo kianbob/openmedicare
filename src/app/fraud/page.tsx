@@ -1,6 +1,9 @@
+import fs from 'fs'
+import path from 'path'
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
+import NewsletterCTA from '@/components/NewsletterCTA'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
@@ -112,6 +115,59 @@ const jsonLd = [
   },
 ]
 
+function loadWatchlistStats() {
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'watchlist.json'), 'utf-8')
+    const providers = JSON.parse(raw) as { specialty: string; state: string; risk_score: number }[]
+    
+    // Top specialties by count
+    const specCount: Record<string, number> = {}
+    const stateCount: Record<string, number> = {}
+    for (const p of providers) {
+      specCount[p.specialty] = (specCount[p.specialty] || 0) + 1
+      stateCount[p.state] = (stateCount[p.state] || 0) + 1
+    }
+    
+    const topSpecialties = Object.entries(specCount)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+    const topStates = Object.entries(stateCount)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+    
+    return { topSpecialties, topStates }
+  } catch {
+    return { topSpecialties: [], topStates: [] }
+  }
+}
+
+const watchlistStats = loadWatchlistStats()
+
+function BarChart({ data, title, color }: { data: [string, number][]; title: string; color: string }) {
+  const max = Math.max(...data.map(d => d[1]), 1)
+  return (
+    <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+      <h4 className="text-lg font-serif font-bold text-gray-900 mb-4">{title}</h4>
+      <div className="space-y-3">
+        {data.map(([label, value]) => (
+          <div key={label}>
+            <div className="flex justify-between text-sm mb-1">
+              <span className="text-gray-700 truncate mr-2">{label}</span>
+              <span className="font-semibold text-gray-900 shrink-0">{value}</span>
+            </div>
+            <div className="w-full bg-gray-100 rounded-full h-3">
+              <div
+                className="h-3 rounded-full transition-all"
+                style={{ width: `${(value / max) * 100}%`, backgroundColor: color }}
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export default function FraudHub() {
   return (
     <div className="min-h-screen bg-white">
@@ -158,6 +214,18 @@ export default function FraudHub() {
           </div>
         </div>
 
+        {/* Bar Charts */}
+        {(watchlistStats.topSpecialties.length > 0 || watchlistStats.topStates.length > 0) && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+            {watchlistStats.topSpecialties.length > 0 && (
+              <BarChart data={watchlistStats.topSpecialties} title="Top 5 Riskiest Specialties" color="#dc2626" />
+            )}
+            {watchlistStats.topStates.length > 0 && (
+              <BarChart data={watchlistStats.topStates} title="Top 5 States by Flagged Providers" color="#1a73e8" />
+            )}
+          </div>
+        )}
+
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {fraudPages.map((page) => (
@@ -187,6 +255,10 @@ export default function FraudHub() {
 
         <div className="flex flex-wrap items-center gap-4 mb-8">
           <ShareButtons url="https://www.openmedicare.org/fraud" title="Medicare Fraud Analysis Hub — OpenMedicare" />
+        </div>
+
+        <div className="mb-8">
+          <NewsletterCTA />
         </div>
 
         <SourceCitation

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { MapPinIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import StateHeatmap from '@/components/StateHeatmap'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -64,6 +65,16 @@ export default function StatesPage() {
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Spending by State</h1>
           <p className="text-lg text-gray-600">Explore Medicare provider payments across all 50 states and territories. Data covers 2014-2023.</p>
         </div>
+
+        {states.length > 0 && (
+          <div className="mb-8">
+            <StateHeatmap
+              data={states.map(s => ({ code: s.state, value: s.total_payments, label: 'Total Payments' }))}
+              title="Spending by State"
+              linkPrefix="/states"
+            />
+          </div>
+        )}
 
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <div className="relative max-w-md">
