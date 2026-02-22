@@ -17,7 +17,6 @@ interface Provider {
   totalServices: number
   beneficiaries: number
   avgMarkup?: number
-  riskScore?: number
   isFlagged?: boolean
   fraudProbability?: number
   topRiskFactors?: string[]
@@ -72,7 +71,7 @@ const statesList = [
   'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'
 ]
 
-type SortField = 'totalPayments' | 'riskScore' | 'avgMarkup' | 'name' | 'fraudProbability'
+type SortField = 'totalPayments' | 'avgMarkup' | 'name' | 'fraudProbability'
 
 export default function ProvidersPage() {
   const [providers, setProviders] = useState<Provider[]>([])
@@ -106,7 +105,6 @@ export default function ProvidersPage() {
               totalServices: p.total_services ?? p.totalServices ?? 0,
               beneficiaries: p.total_beneficiaries ?? p.beneficiaries ?? 0,
               avgMarkup: p.markup_ratio ?? p.avg_markup ?? 0,
-              riskScore: p.risk_score ?? 0,
               isFlagged: !!p.watchlist,
               fraudProbability: p.fraud_probability ?? undefined,
               topRiskFactors: p.top_risk_factors ?? undefined,
@@ -149,10 +147,6 @@ export default function ProvidersPage() {
           aVal = a.name.toLowerCase()
           bVal = b.name.toLowerCase()
           return sortOrder === 'asc' ? (aVal < bVal ? -1 : 1) : (aVal > bVal ? -1 : 1)
-        case 'riskScore':
-          aVal = a.riskScore ?? -1
-          bVal = b.riskScore ?? -1
-          break
         case 'avgMarkup':
           aVal = a.avgMarkup ?? -1
           bVal = b.avgMarkup ?? -1
@@ -350,7 +344,6 @@ export default function ProvidersPage() {
               {([
                 ['totalPayments', 'Payments'],
                 ['fraudProbability', 'Fraud Prob'],
-                ['riskScore', 'Risk Score'],
                 ['avgMarkup', 'Markup'],
                 ['name', 'Name'],
               ] as [SortField, string][]).map(([field, label]) => (
@@ -411,13 +404,6 @@ export default function ProvidersPage() {
                   >
                     Fraud Prob <SortArrow field="fraudProbability" />
                   </th>
-                  <th 
-                    scope="col" 
-                    className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSort('riskScore')}
-                  >
-                    Risk Score <SortArrow field="riskScore" />
-                  </th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
@@ -452,7 +438,7 @@ export default function ProvidersPage() {
                       {formatCurrency(provider.totalPayments)}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-gray-600">
-                      {provider.avgMarkup ? `${provider.avgMarkup.toFixed(1)}x` : '—'}
+                      {provider.avgMarkup && provider.avgMarkup > 0 ? `${provider.avgMarkup.toFixed(1)}x` : '—'}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-center">
                       {provider.fraudProbability != null ? (
@@ -463,20 +449,6 @@ export default function ProvidersPage() {
                           'bg-blue-100 text-blue-800'
                         }`}>
                           {(provider.fraudProbability * 100).toFixed(0)}%
-                        </span>
-                      ) : (
-                        <span className="text-gray-400 text-sm">—</span>
-                      )}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-center">
-                      {provider.riskScore ? (
-                        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-                          provider.riskScore >= 90 ? 'bg-red-100 text-red-800' :
-                          provider.riskScore >= 80 ? 'bg-orange-100 text-orange-800' :
-                          provider.riskScore >= 70 ? 'bg-yellow-100 text-yellow-800' :
-                          'bg-blue-100 text-blue-800'
-                        }`}>
-                          {provider.riskScore}
                         </span>
                       ) : (
                         <span className="text-gray-400 text-sm">—</span>

@@ -36,7 +36,32 @@ export async function generateMetadata({ params }: { params: Promise<{ code: str
 export default async function ProcedureDetailPage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = await params
   const data = loadProcedure(code)
-  if (!data) notFound()
+
+  if (!data) {
+    return (
+      <main className="min-h-screen bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 py-8">
+          <Breadcrumbs items={[{ name: 'Procedures', href: '/procedures' }, { name: code }]} />
+
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mt-4 text-center">
+            <span className="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full font-mono font-bold text-lg inline-block mb-4">{code}</span>
+            <h1 className="text-2xl font-serif font-bold text-gray-900 mb-3">Procedure Code Not in Our Database</h1>
+            <p className="text-gray-600 mb-6 max-w-lg mx-auto">
+              We have detailed spending data for the top 500 Medicare procedures by total payments. Code <strong>{code}</strong> is not in our top 500.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link href="/procedures" className="inline-flex items-center justify-center px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium transition-colors">
+                Browse Top 500 Procedures
+              </Link>
+              <Link href="/search" className="inline-flex items-center justify-center px-5 py-2.5 bg-white border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 font-medium transition-colors">
+                Search OpenMedicare
+              </Link>
+            </div>
+          </div>
+        </div>
+      </main>
+    )
+  }
 
   const yearly = data.yearly_trends || []
   const totalPayments = yearly.reduce((s: number, y: { payments: number }) => s + y.payments, 0)

@@ -174,7 +174,7 @@ export default function FloridaInfectiousDiseasePage() {
                   {topFLProviders.map((doc, i) => (
                     <tr key={doc.npi} className={`border-b border-gray-100 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
                       <td className="py-2 px-2">
-                        <Link href={`/provider/${doc.npi}`} className="text-medicare-primary hover:underline font-medium text-xs sm:text-sm">
+                        <Link href={`/providers/${doc.npi}`} className="text-medicare-primary hover:underline font-medium text-xs sm:text-sm">
                           {doc.name}
                         </Link>
                       </td>

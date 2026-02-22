@@ -485,35 +485,29 @@ export default function HomePage() {
             <Link href="/providers" className="group bg-blue-50 hover:bg-blue-100 rounded-lg p-6 transition-colors">
               <div className="text-blue-600 text-2xl mb-3">👨‍⚕️</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-800">Providers</h3>
-              <p className="text-sm text-gray-600">Search 2,941 top Medicare providers with full payment histories</p>
+              <p className="text-sm text-gray-600">2,900+ top Medicare providers with payment histories</p>
             </Link>
 
             <Link href="/procedures" className="group bg-purple-50 hover:bg-purple-100 rounded-lg p-6 transition-colors">
               <div className="text-purple-600 text-2xl mb-3">🏥</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-purple-800">Procedures</h3>
-              <p className="text-sm text-gray-600">500 most common procedures with costs and provider data</p>
+              <p className="text-sm text-gray-600">Top 500 procedures with costs and provider data</p>
             </Link>
 
             <Link href="/states" className="group bg-green-50 hover:bg-green-100 rounded-lg p-6 transition-colors">
               <div className="text-green-600 text-2xl mb-3">🗺️</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-green-800">States</h3>
-              <p className="text-sm text-gray-600">Compare Medicare spending across all 50 states and territories</p>
+              <p className="text-sm text-gray-600">All 50 states and territories compared</p>
             </Link>
 
             <Link href="/specialties" className="group bg-amber-50 hover:bg-amber-100 rounded-lg p-6 transition-colors">
               <div className="text-amber-600 text-2xl mb-3">🩺</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-amber-800">Specialties</h3>
-              <p className="text-sm text-gray-600">105 medical specialties with spending breakdowns</p>
+              <p className="text-sm text-gray-600">130+ specialties with spending breakdowns</p>
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
-            <Link href="/fraud/watchlist" className="group bg-red-50 hover:bg-red-100 rounded-lg p-6 transition-colors">
-              <div className="text-red-600 text-2xl mb-3">🚨</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-red-800">Fraud Watchlist</h3>
-              <p className="text-sm text-gray-600">500 providers flagged for billing anomalies</p>
-            </Link>
-            
             <Link href="/markup" className="group bg-orange-50 hover:bg-orange-100 rounded-lg p-6 transition-colors">
               <div className="text-orange-600 text-2xl mb-3">📈</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-orange-800">Markup Analysis</h3>
@@ -525,164 +519,54 @@ export default function HomePage() {
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-800">Spending Trends</h3>
               <p className="text-sm text-gray-600">10-year Medicare spending patterns</p>
             </Link>
-            
-            <Link href="/calculator" className="group bg-green-50 hover:bg-green-100 rounded-lg p-6 transition-colors">
-              <div className="text-green-600 text-2xl mb-3">🧮</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-green-800">Cost Calculator</h3>
-              <p className="text-sm text-gray-600">Estimate Medicare procedure costs</p>
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-6">
-            <Link href="/place-of-service" className="group bg-indigo-50 hover:bg-indigo-100 rounded-lg p-6 transition-colors">
-              <div className="text-indigo-600 text-2xl mb-3">🏢</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-indigo-800">Place of Service</h3>
-              <p className="text-sm text-gray-600">Office vs facility billing</p>
-            </Link>
-
-            <Link href="/geographic" className="group bg-teal-50 hover:bg-teal-100 rounded-lg p-6 transition-colors">
-              <div className="text-teal-600 text-2xl mb-3">📍</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-teal-800">Geographic</h3>
-              <p className="text-sm text-gray-600">Spending by city & zip code</p>
-            </Link>
-
-            <Link href="/cost-adjustment" className="group bg-rose-50 hover:bg-rose-100 rounded-lg p-6 transition-colors">
-              <div className="text-rose-600 text-2xl mb-3">⚖️</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-rose-800">Cost Adjustment</h3>
-              <p className="text-sm text-gray-600">Geographic payment gaps</p>
-            </Link>
-
-            <Link href="/payment-gap" className="group bg-yellow-50 hover:bg-yellow-100 rounded-lg p-6 transition-colors">
-              <div className="text-yellow-600 text-2xl mb-3">💸</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-yellow-800">Payment Gap</h3>
-              <p className="text-sm text-gray-600">How much doctors charge vs. what Medicare allows vs. what gets paid — the hidden gap in every bill</p>
-            </Link>
-
-            <Link href="/utilization" className="group bg-violet-50 hover:bg-violet-100 rounded-lg p-6 transition-colors">
-              <div className="text-violet-600 text-2xl mb-3">🏥</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-violet-800">Utilization</h3>
-              <p className="text-sm text-gray-600">Service volume patterns — who bills the most per beneficiary and how organizations compare to solo providers</p>
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
-            <Link href="/your-medicare-dollar" className="group bg-emerald-50 hover:bg-emerald-100 rounded-lg p-6 transition-colors">
-              <div className="text-emerald-600 text-2xl mb-3">💵</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-emerald-800">Your Medicare Dollar</h3>
-              <p className="text-sm text-gray-600">See where your tax dollars go in Medicare</p>
-            </Link>
 
             <Link href="/drug-spending" className="group bg-pink-50 hover:bg-pink-100 rounded-lg p-6 transition-colors">
               <div className="text-pink-600 text-2xl mb-3">💊</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-pink-800">Drug Spending</h3>
-              <p className="text-sm text-gray-600">Physician-administered drug costs and trends</p>
+              <p className="text-sm text-gray-600">$94B in physician-administered drug costs</p>
             </Link>
-
-            <Link href="/compare" className="group bg-cyan-50 hover:bg-cyan-100 rounded-lg p-6 transition-colors">
-              <div className="text-cyan-600 text-2xl mb-3">⚡</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-cyan-800">Compare</h3>
-              <p className="text-sm text-gray-600">Side-by-side provider, state & specialty comparisons</p>
-            </Link>
-
+            
             <Link href="/analysis" className="group bg-slate-50 hover:bg-slate-100 rounded-lg p-6 transition-colors">
               <div className="text-slate-600 text-2xl mb-3">🔬</div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-slate-800">All Analysis Tools</h3>
-              <p className="text-sm text-gray-600">Central hub for all data exploration tools</p>
-            </Link>
-          </div>
-
-          <div className="text-center mt-8">
-            <Link 
-              href="/downloads"
-              className="inline-flex items-center text-medicare-primary hover:text-medicare-dark font-medium"
-            >
-              Download Raw Data →
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* ML Fraud Model Findings */}
-      <div className="py-16 bg-indigo-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
-              🤖 AI-Powered Fraud Detection
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We trained a Random Forest model on 2,198 confirmed Medicare fraudsters — providers excluded by HHS or charged by the DOJ — then scored every active provider in the country.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-indigo-700 mb-1">1.72M</div>
-              <div className="text-sm text-gray-600">Providers scored</div>
-            </div>
-            <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-indigo-700 mb-1">2,198</div>
-              <div className="text-sm text-gray-600">Confirmed fraudsters used for training</div>
-            </div>
-            <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-red-600 mb-1">500</div>
-              <div className="text-sm text-gray-600">Providers flagged (&gt;86% match)</div>
-            </div>
-            <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-indigo-700 mb-1">0.83</div>
-              <div className="text-sm text-gray-600">Model AUC (accuracy)</div>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <Link
-              href="/fraud/still-out-there"
-              className="inline-flex items-center px-8 py-4 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition-colors"
-            >
-              See the 500 AI-Flagged Providers
-              <ArrowRightIcon className="ml-2 h-5 w-5" />
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-slate-800">All Tools & Data</h3>
+              <p className="text-sm text-gray-600">Calculator, comparisons, downloads, and more</p>
             </Link>
           </div>
         </div>
       </div>
 
       {/* Fraud Analysis CTA */}
-      <div className="py-16 bg-red-50">
+      <div className="py-16 bg-gradient-to-b from-red-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
-              🚨 Fraud Analysis
+              Go Deeper Into the Data
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We flagged 500 providers with statistical billing anomalies. Explore deep-dive profiles,
-              COVID test fraud, wound care schemes, upcoding patterns, and impossible billing volumes.
+              From AI-powered fraud detection to state-level spending breakdowns — every corner of Medicare, analyzed.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <Link href="/fraud/watchlist" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-              <div className="text-red-600 text-2xl mb-3">🔍</div>
-              <h3 className="font-semibold text-gray-900 mb-2">500 Flagged Providers</h3>
-              <p className="text-sm text-gray-600">Search and filter the full watchlist with risk scores, flags, and payment data</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <Link href="/fraud" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="text-red-600 text-2xl mb-3">🚨</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Fraud Analysis Hub</h3>
+              <p className="text-sm text-gray-600">Watchlist, deep dives, impossible billing, wound care schemes</p>
             </Link>
-            <Link href="/fraud/deep-dives" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-              <div className="text-purple-600 text-2xl mb-3">📋</div>
-              <h3 className="font-semibold text-gray-900 mb-2">Deep Dive Profiles</h3>
-              <p className="text-sm text-gray-600">Detailed fraud analysis of the 20 highest-risk individual providers</p>
+            <Link href="/fraud/still-out-there" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="text-indigo-600 text-2xl mb-3">🤖</div>
+              <h3 className="font-semibold text-gray-900 mb-2">500 AI-Flagged</h3>
+              <p className="text-sm text-gray-600">ML model trained on convicted fraudsters flagged 500 active providers</p>
             </Link>
-            <Link href="/fraud/impossible-numbers" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-              <div className="text-indigo-600 text-2xl mb-3">🧮</div>
-              <h3 className="font-semibold text-gray-900 mb-2">Impossible Numbers</h3>
-              <p className="text-sm text-gray-600">Providers billing 400+ services per working day — could one person do this?</p>
+            <Link href="/providers" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="text-blue-600 text-2xl mb-3">👤</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Provider Directory</h3>
+              <p className="text-sm text-gray-600">Browse 2,900+ detailed provider profiles with payment histories</p>
             </Link>
-          </div>
-
-          <div className="text-center">
-            <Link
-              href="/fraud"
-              className="inline-flex items-center px-8 py-4 bg-red-600 text-white font-medium rounded-md hover:bg-red-700 transition-colors"
-            >
-              Explore Fraud Analysis Hub
-              <ArrowRightIcon className="ml-2 h-5 w-5" />
+            <Link href="/investigations" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="text-purple-600 text-2xl mb-3">📰</div>
+              <h3 className="font-semibold text-gray-900 mb-2">64 Investigations</h3>
+              <p className="text-sm text-gray-600">Data-driven stories exposing patterns in Medicare spending</p>
             </Link>
           </div>
         </div>

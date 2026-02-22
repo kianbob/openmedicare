@@ -137,7 +137,7 @@ export default function OncologyDrugPipelinePage() {
                   {topOncologists.map((doc, i) => (
                     <tr key={doc.npi} className={`border-b border-gray-100 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
                       <td className="py-2 px-3">
-                        <Link href={`/provider/${doc.npi}`} className="text-medicare-primary hover:underline font-medium">
+                        <Link href={`/providers/${doc.npi}`} className="text-medicare-primary hover:underline font-medium">
                           {doc.name}
                         </Link>
                       </td>
