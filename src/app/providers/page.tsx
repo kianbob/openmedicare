@@ -90,40 +90,26 @@ export default function ProvidersPage() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const [provRes, watchRes, mlRes] = await Promise.all([
-          fetch('/data/top-providers.json'),
-          fetch('/data/watchlist.json'),
-          fetch('/data/ml-v2-results.json'),
-        ])
-
-        const watchlist: WatchlistEntry[] = watchRes.ok ? await watchRes.json() : []
-        const watchMap = new Map(watchlist.map(w => [String(w.npi), w]))
-
-        const mlData = mlRes.ok ? await mlRes.json() : { still_out_there: [] }
-        const mlMap = new Map<string, MLFlagged>(
-          (mlData.still_out_there || []).map((p: MLFlagged) => [String(p.npi), p])
-        )
+        const provRes = await fetch('/data/all-providers.json')
 
         if (provRes.ok) {
           const data = await provRes.json()
           const mapped = (data.providers || data).map((p: any) => {
             const npiStr = String(p.npi)
-            const wl = watchMap.get(npiStr)
-            const ml = mlMap.get(npiStr)
             return {
               npi: npiStr,
               name: p.name,
               specialty: p.specialty,
               city: p.city,
               state: p.state,
-              totalPayments: p.total_payments ?? p.totalPayments,
-              totalServices: p.total_services ?? p.totalServices,
-              beneficiaries: p.total_beneficiaries ?? p.beneficiaries,
-              avgMarkup: ml?.markup_ratio ?? wl?.avg_markup,
-              riskScore: wl?.risk_score,
-              isFlagged: !!wl,
-              fraudProbability: ml?.fraud_probability,
-              topRiskFactors: ml?.top_risk_factors,
+              totalPayments: p.total_payments ?? p.totalPayments ?? 0,
+              totalServices: p.total_services ?? p.totalServices ?? 0,
+              beneficiaries: p.total_beneficiaries ?? p.beneficiaries ?? 0,
+              avgMarkup: p.markup_ratio ?? p.avg_markup ?? 0,
+              riskScore: p.risk_score ?? 0,
+              isFlagged: !!p.watchlist,
+              fraudProbability: p.fraud_probability ?? undefined,
+              topRiskFactors: p.top_risk_factors ?? undefined,
             }
           })
           setProviders(mapped)
@@ -249,7 +235,7 @@ export default function ProvidersPage() {
             Medicare Providers
           </h1>
           <p className="text-xl text-gray-600">
-            Explore {formatNumber(providers.length)} healthcare providers and their Medicare payments from 2014-2023.
+            Explore {formatNumber(providers.length)} healthcare providers and their Medicare payments from 2014-2023. Includes all watchlisted and AI-flagged providers.
           </p>
         </div>
 
