@@ -1,4 +1,5 @@
 import ArticleJsonLd from "@/components/ArticleJsonLd"
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon, ShieldCheckIcon } from '@heroicons/react/24/outline'
@@ -746,7 +747,7 @@ export default function DataPredictedFraudPage() {
                 title="Our Data Predicted It: How Statistical Analysis Flagged Providers Before the DOJ Did"
                 url="https://openmedicare.vercel.app/investigations/data-predicted-fraud"
               />
-              <SourceCitation />
+            <InvestigationDisclaimer />              <SourceCitation />
             </div>
           </div>
         </article>

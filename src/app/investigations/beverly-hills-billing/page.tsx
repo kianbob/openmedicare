@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
@@ -328,7 +329,7 @@ export default function BeverlyHillsBillingPage() {
               url="https://openmedicare.vercel.app/investigations/beverly-hills-billing"
               title="Beverly Hills: America's Most Expensive ZIP Code for Medicare"
             />
-
+            <InvestigationDisclaimer />
             <div className="mt-6">
               <SourceCitation
                 sources={[

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -302,7 +303,7 @@ export default function BeverlyHillsWoundCarePage() {
                 title="Beverly Hills Plastic Surgeons Billing Medicare for Wound Care"
                 description="3 plastic surgeons in Beverly Hills billed Medicare $45.6M — 83-95% in wound care, not cosmetic surgery."
               />
-            </div>
+            <InvestigationDisclaimer />            </div>
           </div>
         </article>
 

@@ -1,4 +1,5 @@
 import ArticleJsonLd from "@/components/ArticleJsonLd"
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
@@ -443,7 +444,7 @@ export default function ArizonaWoundCareRingPage() {
                 title="The Arizona Wound Care Ring: $514 Million Billed by 23 NPs"
                 description="23 nurse practitioners in Phoenix billed $514M for skin substitutes — for just 2,974 patients."
               />
-            </div>
+            <InvestigationDisclaimer />            </div>
           </div>
         </article>
 

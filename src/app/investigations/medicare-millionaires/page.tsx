@@ -1,4 +1,5 @@
 import ArticleJsonLd from "@/components/ArticleJsonLd"
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import type { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
@@ -246,7 +247,7 @@ export default function MedicareMillionairesPage() {
         </div>
 
           <ShareButtons url="https://openmedicare.vercel.app/investigations/medicare-millionaires" title="Medicare's Millionaire Club" />
-        </div>
+            <InvestigationDisclaimer />        </div>
         <SourceCitation />
       </div>
     </main>

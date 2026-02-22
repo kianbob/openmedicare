@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
@@ -316,7 +317,7 @@ export default function LabCorpQuestDuopolyPage() {
               url="https://openmedicare.vercel.app/investigations/lab-corp-quest-duopoly"
               title="Two Companies Control America's Lab Testing"
             />
-
+            <InvestigationDisclaimer />
             <div className="mt-6">
               <SourceCitation
                 sources={[
