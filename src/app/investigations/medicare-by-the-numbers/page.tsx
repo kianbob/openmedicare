@@ -3,9 +3,9 @@ import fs from 'fs'
 import path from 'path'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
-function loadJson(file: string) {
+function loadJson(filePath: string) {
   try {
-    return JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', file), 'utf-8'))
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'))
   } catch { return null }
 }
 
@@ -57,8 +57,8 @@ function StatCard({ number, label, description, href, color, align }: StatCardPr
 }
 
 export default function MedicareByTheNumbers() {
-  const statesData = loadJson('states.json')
-  const proceduresData = loadJson('procedures.json')
+  const statesData = loadJson(path.join(process.cwd(), 'public/data/states.json'))
+  const proceduresData = loadJson(path.join(process.cwd(), 'public/data/procedures.json'))
 
   const ca = statesData?.states?.find((s: any) => s.state === 'CA')
   const caTotal = ca ? fmt(ca.total_payments) : '$93.2B'

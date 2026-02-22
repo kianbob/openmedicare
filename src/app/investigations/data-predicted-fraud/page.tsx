@@ -69,17 +69,15 @@ interface WatchlistProvider {
   services_per_day?: number
 }
 
-function loadData() {
-  const readJson = (file: string) => {
-    try {
-      return JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', file), 'utf-8'))
-    } catch { return null }
-  }
+function safeParseJson(fullPath: string) {
+  try { return JSON.parse(fs.readFileSync(fullPath, 'utf-8')) } catch { return null }
+}
 
-  const fraudData = readJson('fraud-features.json')
-  const woundData = readJson('wound-care.json')
-  const covidData = readJson('covid-test-billing.json')
-  const watchlistData = readJson('watchlist.json')
+function loadData() {
+  const fraudData = safeParseJson(path.join(process.cwd(), 'public/data/fraud-features.json'))
+  const woundData = safeParseJson(path.join(process.cwd(), 'public/data/wound-care.json'))
+  const covidData = safeParseJson(path.join(process.cwd(), 'public/data/covid-test-billing.json'))
+  const watchlistData = safeParseJson(path.join(process.cwd(), 'public/data/watchlist.json'))
 
   return { fraudData, woundData, covidData, watchlistData }
 }

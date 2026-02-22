@@ -21,19 +21,15 @@ export const metadata: Metadata = {
   },
 }
 
-function loadJson(filename: string) {
-  try {
-    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', filename), 'utf-8')
-    return JSON.parse(raw)
-  } catch {
-    return null
-  }
+function safeRead(p: string) {
+  try { return JSON.parse(fs.readFileSync(p, 'utf-8')) } catch { return null }
 }
 
-const covidData = loadJson('covid-test-billing.json')
-const woundData = loadJson('wound-care.json')
-const fraudData = loadJson('fraud-features.json')
-const upcodeData = loadJson('upcoding.json')
+const dataBase = path.join(process.cwd(), 'public/data')
+const covidData = safeRead(`${dataBase}/covid-test-billing.json`)
+const woundData = safeRead(`${dataBase}/wound-care.json`)
+const fraudData = safeRead(`${dataBase}/fraud-features.json`)
+const upcodeData = safeRead(`${dataBase}/upcoding.json`)
 
 const totalCovidPayments = covidData?.total_covid_payments ?? 0
 const totalWoundPayments = woundData?.total_wound_payments ?? 0

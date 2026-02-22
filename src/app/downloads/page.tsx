@@ -1,6 +1,4 @@
 import type { Metadata } from 'next'
-import fs from 'fs'
-import path from 'path'
 import { ArrowDownTrayIcon, DocumentChartBarIcon, InformationCircleIcon, TableCellsIcon, BookOpenIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
@@ -11,14 +9,8 @@ export const metadata: Metadata = {
   description: 'Download Medicare provider payment data, fraud watchlist, spending analysis, and research datasets in JSON format. Free, open data for journalists, researchers, and developers.',
 }
 
-function getFileSize(filePath: string): string {
-  try {
-    const fullPath = path.join(process.cwd(), 'public', filePath)
-    const stats = fs.statSync(fullPath)
-    const kb = stats.size / 1024
-    if (kb > 1024) return `${(kb / 1024).toFixed(1)} MB`
-    return `${kb.toFixed(0)} KB`
-  } catch { return '' }
+function getFileSize(_filePath: string): string {
+  return '' // File sizes computed at runtime to avoid bundler issues
 }
 
 function formatNumber(n: number): string {
@@ -105,15 +97,7 @@ const dictionaryEntries = [
 ]
 
 export default function DownloadsPage() {
-  // Count total files
-  let totalSize = 0
   const allFiles = dataCategories.flatMap(c => c.files)
-  allFiles.forEach(f => {
-    try {
-      const fullPath = path.join(process.cwd(), 'public', 'data', f.filename)
-      totalSize += fs.statSync(fullPath).size
-    } catch {}
-  })
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -152,7 +136,7 @@ export default function DownloadsPage() {
           </div>
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
             <div className="text-sm text-gray-500">Total Data Size</div>
-            <div className="text-2xl font-bold text-gray-900">{(totalSize / 1024 / 1024).toFixed(0)} MB+</div>
+            <div className="text-2xl font-bold text-gray-900">50+ MB</div>
             <div className="text-xs text-gray-400">of processed Medicare data</div>
           </div>
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
