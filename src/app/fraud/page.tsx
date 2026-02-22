@@ -1,4 +1,5 @@
 import fs from 'fs'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import path from 'path'
 import Link from 'next/link'
 import { Metadata } from 'next'
@@ -193,7 +194,7 @@ function BarChart({ data, title, color }: { data: [string, number][]; title: str
                 className="h-3 rounded-full transition-all"
                 style={{ width: `${(value / max) * 100}%`, backgroundColor: color }}
               />
-            </div>
+            <InvestigationDisclaimer />            </div>
           </div>
         ))}
       </div>

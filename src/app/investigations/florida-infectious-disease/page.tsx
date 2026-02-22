@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -68,7 +69,7 @@ export default function FloridaInfectiousDiseasePage() {
           ]}
           className="mb-8"
         />
-
+            <InvestigationDisclaimer />
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
             {/* Header */}

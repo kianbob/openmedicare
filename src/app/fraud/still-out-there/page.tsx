@@ -1,5 +1,5 @@
 'use client'
-
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -129,7 +129,7 @@ export default function StillOutThere() {
       <div className="bg-gradient-to-r from-gray-900 via-red-950 to-gray-900 text-white py-12 px-4">
         <div className="max-w-7xl mx-auto">
           <Breadcrumbs items={[{ name: 'Fraud Analysis', href: '/fraud' }, { name: 'Still Out There' }]} />
-          <h1 className="text-4xl md:text-5xl font-bold font-serif mt-4 mb-3">Still Out There</h1>
+            <InvestigationDisclaimer />          <h1 className="text-4xl md:text-5xl font-bold font-serif mt-4 mb-3">Still Out There</h1>
           <p className="text-lg text-gray-300 max-w-3xl">
             A supervised ML model trained on <strong className="text-white">2,198 confirmed fraudsters</strong> scored 1.7M Medicare providers. 
             These <strong className="text-red-300">500 unflagged providers</strong> bill like known criminals — but haven't been caught.

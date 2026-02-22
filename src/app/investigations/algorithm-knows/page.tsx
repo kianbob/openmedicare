@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -53,7 +54,7 @@ export default function AlgorithmKnowsPage() {
         publishedDate={publishedDate}
         url="https://openmedicare.vercel.app/investigations/algorithm-knows"
       />
-
+            <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
           items={[

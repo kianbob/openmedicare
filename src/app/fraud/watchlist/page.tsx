@@ -1,5 +1,5 @@
 'use client'
-
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -69,7 +69,7 @@ function RiskBar({ score }: { score: number }) {
     <div className="flex items-center gap-2">
       <div className="w-16 h-2 bg-gray-100 rounded-full overflow-hidden">
         <div className={`h-full rounded-full ${color}`} style={{ width: `${score}%` }} />
-      </div>
+            <InvestigationDisclaimer />      </div>
       <RiskBadge score={score} />
     </div>
   )

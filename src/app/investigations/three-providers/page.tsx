@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
@@ -58,7 +59,7 @@ export default function ThreeProvidersPage() {
           ]}
           className="mb-8"
         />
-
+            <InvestigationDisclaimer />
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
             {/* Header */}

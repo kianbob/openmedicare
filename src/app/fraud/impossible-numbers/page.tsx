@@ -1,5 +1,5 @@
 'use client'
-
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -87,7 +87,7 @@ export default function ImpossibleNumbers() {
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ name: 'Fraud Analysis', href: '/fraud' }, { name: 'Impossible Numbers' }]} />
-
+            <InvestigationDisclaimer />
         <h1 className="text-4xl font-bold font-serif text-gray-900 mt-6 mb-4">Impossible Numbers</h1>
         <p className="text-xl text-gray-600 mb-8 max-w-3xl">
           We calculated services per working day for every provider in Medicare and flagged

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import Link from 'next/link'
 import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -45,7 +46,7 @@ export default function InternalMedicineCrisisPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.org/investigations/internal-medicine-crisis"
       />
-
+            <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
           items={[
