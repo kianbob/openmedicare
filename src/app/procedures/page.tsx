@@ -54,6 +54,7 @@ export default function ProceduresPage() {
     .sort((a, b) => ((a[sortField] || 0) - (b[sortField] || 0)) * (sortDir === 'asc' ? 1 : -1)),
     [procedures, search, sortField, sortDir, drugFilter, highlightMarkup])
 
+  const hasMarkupData = useMemo(() => procedures.some(p => p.markup_ratio != null), [procedures])
   const highMarkupCount = useMemo(() => procedures.filter(p => (p.markup_ratio || 0) > 3).length, [procedures])
   const maxPayments = useMemo(() => Math.max(...procedures.map(p => p.total_payments), 1), [procedures])
 
@@ -92,7 +93,7 @@ export default function ProceduresPage() {
                 <ExclamationTriangleIcon className="h-4 w-4" />
                 High Markup (&gt;3x)
               </div>
-              <div className="text-2xl font-bold text-orange-700 mt-1">{highMarkupCount}</div>
+              <div className="text-2xl font-bold text-orange-700 mt-1">{hasMarkupData ? highMarkupCount : 'N/A'}</div>
             </div>
           </div>
         )}

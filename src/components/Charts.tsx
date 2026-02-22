@@ -43,6 +43,8 @@ interface LineChartProps extends BaseChartProps {
   yDataKey: string
   title?: string
   color?: string
+  valueFormatter?: (value: number) => string
+  tooltipFormatter?: (value: number) => string
 }
 
 interface PieChartProps extends BaseChartProps {
@@ -201,8 +203,23 @@ export function TrendChart({
   yDataKey, 
   title, 
   height = 400,
-  className = ''
+  className = '',
+  valueFormatter,
+  tooltipFormatter,
 }: LineChartProps) {
+  const yTickFormatter = valueFormatter || ((value: number) => formatCurrency(value))
+  const tipFormatter = tooltipFormatter || valueFormatter || ((value: number) => formatCurrency(value))
+
+  const CustomTooltip = ({ active, payload, label }: any) => {
+    if (!active || !payload?.length) return null
+    return (
+      <div className="bg-white p-3 border rounded-lg shadow-lg">
+        <p className="text-sm font-medium text-gray-900">{label}</p>
+        <p className="text-sm text-blue-600 font-semibold">{tipFormatter(payload[0].value)}</p>
+      </div>
+    )
+  }
+
   return (
     <div className={`bg-white rounded-lg shadow-sm border p-6 ${className}`}>
       {title && <h3 className="text-lg font-semibold mb-4 text-gray-900">{title}</h3>}
@@ -217,9 +234,9 @@ export function TrendChart({
           <YAxis 
             stroke="#6b7280"
             fontSize={12}
-            tickFormatter={(value) => formatCurrency(value)}
+            tickFormatter={yTickFormatter}
           />
-          <Tooltip content={<CurrencyTooltip />} />
+          <Tooltip content={<CustomTooltip />} />
           <Line 
             type="monotone" 
             dataKey={yDataKey} 

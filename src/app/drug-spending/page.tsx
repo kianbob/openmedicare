@@ -59,7 +59,7 @@ export default function DrugSpendingPage() {
         {data.yearly_trends && (
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Drug Share of Medicare Spending Over Time</h2>
-            <TrendChart xDataKey="year" yDataKey="value" data={data.yearly_trends.map((y: any) => ({ year: y.year, value: y.drug_share_percentage || 0 }))} />
+            <TrendChart xDataKey="year" yDataKey="value" data={data.yearly_trends.map((y: any) => ({ year: y.year, value: y.drug_payment_share || 0 }))} valueFormatter={(v: number) => `${v.toFixed(1)}%`} tooltipFormatter={(v: number) => `${v.toFixed(2)}%`} />
           </div>
         )}
 
