@@ -115,7 +115,7 @@ export default function DoctorVsAlgorithmPage() {
       <ArticleJsonLd
         title="Your Doctor vs. The Algorithm: What AI Found That Humans Missed"
         description="We trained a machine learning model on confirmed fraud cases and scored 1.7 million Medicare providers."
-        datePublished="2026-02-21"
+        publishedDate="2026-02-21"
         url="https://openmedicare.com/investigations/your-doctor-vs-the-algorithm"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
@@ -130,7 +130,7 @@ export default function DoctorVsAlgorithmPage() {
             Your Doctor vs. The Algorithm: What AI Found That Humans Missed
           </h1>
           <p className="text-gray-500 text-sm mb-2">Published February 2026 · 15 min read</p>
-          <ShareButtons title="Your Doctor vs. The Algorithm" url="/investigations/your-doctor-vs-the-algorithm" />
+          <ShareButtons title="Your Doctor vs. The Algorithm" url="https://openmedicare.vercel.app/investigations/your-doctor-vs-the-algorithm" />
 
           <div className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg mb-8 mt-8 not-prose">
             <p className="text-purple-900 font-medium text-lg">Key Finding</p>
@@ -368,11 +368,7 @@ export default function DoctorVsAlgorithmPage() {
         </article>
 
         <div className="mt-8 mb-12">
-          <SourceCitation
-            title="Medicare Part B Public Use File & HHS-OIG LEIE Database"
-            url="https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners"
-            description="Provider billing features from CMS. Fraud labels from HHS-OIG List of Excluded Individuals/Entities."
-          />
+          <SourceCitation />
         </div>
       </div>
     </main>

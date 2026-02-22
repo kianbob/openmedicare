@@ -95,7 +95,7 @@ export default function CovidGoldRushPage() {
       <ArticleJsonLd
         title="The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever"
         description="When the pandemic hit, COVID testing became the biggest gold rush in Medicare history."
-        datePublished="2026-02-21"
+        publishedDate="2026-02-21"
         url="https://openmedicare.com/investigations/the-covid-gold-rush"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
@@ -110,7 +110,7 @@ export default function CovidGoldRushPage() {
             The COVID Gold Rush: How {formatCurrency(totalPayments)} in Test Billing Changed Medicare Forever
           </h1>
           <p className="text-gray-500 text-sm mb-2">Published February 2026 · 14 min read</p>
-          <ShareButtons title="The COVID Gold Rush" url="/investigations/the-covid-gold-rush" />
+          <ShareButtons title="The COVID Gold Rush" url="https://openmedicare.vercel.app/investigations/the-covid-gold-rush" />
 
           {/* Hero stat */}
           <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-8 mt-8 not-prose">
@@ -357,11 +357,7 @@ export default function CovidGoldRushPage() {
         </article>
 
         <div className="mt-8 mb-12">
-          <SourceCitation
-            title="Medicare Part B Public Use File"
-            url="https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service"
-            description="CMS Medicare Part B Provider Utilization and Payment Data, 2022-2023."
-          />
+          <SourceCitation />
         </div>
       </div>
     </main>

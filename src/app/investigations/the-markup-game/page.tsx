@@ -128,8 +128,8 @@ export default function MarkupGamePage() {
       <ArticleJsonLd
         title="The Markup Game: Why Medicare Pays $100 for a $3 Test"
         description="The $2.1 trillion gap between what providers charge and what Medicare pays."
-        datePublished="2026-02-21"
-        url="https://openmedicare.com/investigations/the-markup-game"
+        publishedDate="2026-02-21"
+        url="https://openmedicare.vercel.app/investigations/the-markup-game"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
@@ -143,7 +143,7 @@ export default function MarkupGamePage() {
             The Markup Game: Why Medicare Pays $100 for a $3 Test
           </h1>
           <p className="text-gray-500 text-sm mb-2">Published February 2026 · 16 min read</p>
-          <ShareButtons title="The Markup Game" url="/investigations/the-markup-game" />
+          <ShareButtons title="The Markup Game" url="https://openmedicare.vercel.app/investigations/the-markup-game" />
 
           <div className="bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-lg mb-8 mt-8 not-prose">
             <p className="text-amber-900 font-medium text-lg">The Bottom Line</p>
@@ -423,11 +423,7 @@ export default function MarkupGamePage() {
         </article>
 
         <div className="mt-8 mb-12">
-          <SourceCitation
-            title="Medicare Part B Public Use Files, 2014-2023"
-            url="https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners"
-            description="Submitted charges, allowed amounts, and payment data from CMS Medicare Physician & Other Practitioners datasets."
-          />
+          <SourceCitation />
         </div>
       </div>
     </main>
