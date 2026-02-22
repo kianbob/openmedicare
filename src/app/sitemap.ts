@@ -59,6 +59,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'new-york-medicare-fraud',
     'nurse-practitioners-fraud',
     'pain-management-fraud',
+    'medicare-costs-by-state-2024',
+    'highest-paid-doctors-medicare',
+    'doge-medicare-fraud',
   ]
 
   const staticPages = [

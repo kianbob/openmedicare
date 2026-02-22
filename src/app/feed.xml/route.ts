@@ -3,6 +3,25 @@ import { NextResponse } from 'next/server'
 const baseUrl = 'https://openmedicare.vercel.app'
 
 const items = [
+  // New SEO articles - Feb 2026
+  {
+    title: 'How Much Does Medicare Cost by State? The Complete 2024 Guide',
+    description: 'State-by-state breakdown of Medicare costs from $854.8B in CMS data. California leads at $81.6B, Wyoming at $813M. Per-provider payments range from $18K to $121K.',
+    link: '/investigations/medicare-costs-by-state-2024',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The Highest-Paid Doctors in Medicare: Who Earns the Most from Taxpayers?',
+    description: 'Ophthalmologists average $384K/yr from Medicare. The top 1% bill $10M+. Data analysis of the specialty pay gap and where high billing becomes suspicious.',
+    link: '/investigations/highest-paid-doctors-medicare',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'What DOGE Should Know About Medicare Fraud: $854B in Data, 500 AI Flags',
+    description: 'The Department of Government Efficiency wants to cut waste. Medicare loses $60B+ to fraud annually. Our AI flagged 500 providers. Here\'s the roadmap.',
+    link: '/investigations/doge-medicare-fraud',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // NP Fraud and Pain Management
   {
     title: 'Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk',
