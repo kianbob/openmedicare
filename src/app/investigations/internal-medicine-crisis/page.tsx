@@ -263,7 +263,7 @@ export default function InternalMedicineCrisisPage() {
                           </span>
                           <span className="text-xs text-gray-500">NPI: {p.npi}</span>
                         </div>
-                        <h4 className="text-lg font-bold text-gray-900">{p.name}</h4>
+                        <h4 className="text-lg font-bold text-gray-900"><Link href={`/providers/${p.npi}`} className="hover:text-medicare-primary">{p.name}</Link></h4>
                         <p className="text-sm text-gray-600">Internal Medicine · {p.state}</p>
                         <p className="text-xs text-gray-500 mt-1">{p.note}</p>
                       </div>

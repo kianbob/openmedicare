@@ -203,7 +203,7 @@ export default function FloridaCaliforniaFraudPage() {
                           <span className="text-xs font-bold text-white bg-blue-600 rounded px-2 py-0.5">CA</span>
                           <span className="text-xs text-gray-500">{p.city} · NPI: {p.npi}</span>
                         </div>
-                        <h4 className="text-lg font-bold text-gray-900">{p.name}</h4>
+                        <h4 className="text-lg font-bold text-gray-900"><Link href={`/providers/${p.npi}`} className="hover:text-medicare-primary">{p.name}</Link></h4>
                         <p className="text-sm text-gray-600">{p.specialty}</p>
                         <p className="text-xs text-gray-500 mt-1">{p.note}</p>
                       </div>
@@ -250,7 +250,7 @@ export default function FloridaCaliforniaFraudPage() {
                           <span className="text-xs font-bold text-white bg-orange-600 rounded px-2 py-0.5">FL</span>
                           <span className="text-xs text-gray-500">{p.city} · NPI: {p.npi}</span>
                         </div>
-                        <h4 className="text-lg font-bold text-gray-900">{p.name}</h4>
+                        <h4 className="text-lg font-bold text-gray-900"><Link href={`/providers/${p.npi}`} className="hover:text-medicare-primary">{p.name}</Link></h4>
                         <p className="text-sm text-gray-600">{p.specialty}</p>
                         <p className="text-xs text-gray-500 mt-1">{p.note}</p>
                       </div>
