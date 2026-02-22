@@ -235,7 +235,7 @@ export default function ProvidersPage() {
             Medicare Providers
           </h1>
           <p className="text-xl text-gray-600">
-            Explore {formatNumber(providers.length)} healthcare providers and their Medicare payments from 2014-2023. Includes all watchlisted and AI-flagged providers.
+            Explore {formatNumber(providers.length)} healthcare providers and their Medicare payments from 2014-2023. Our dataset covers 1.72M providers and $854.8B in total payments — these are the providers we&apos;ve profiled in detail. Includes all watchlisted and AI-flagged providers.
           </p>
         </div>
 
