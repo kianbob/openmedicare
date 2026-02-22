@@ -34,6 +34,8 @@ interface ExternalLink {
 
 interface RawProvider {
   name: string
+  first_name?: string
+  last_name?: string
   credentials: string
   specialty: string
   city: string
