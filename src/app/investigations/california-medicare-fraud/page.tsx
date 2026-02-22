@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "California's Medicare Fraud Problem: 56 AI-Flagged Providers",
     description: 'CA has 56 ML-flagged providers billing $47M+ in Medicare payments. LA dominates the flags.',
-    url: 'https://www.openmedicare.org/investigations/california-medicare-fraud',
+    url: 'https://openmedicare.vercel.app/investigations/california-medicare-fraud',
   },
 }
 
@@ -37,7 +37,7 @@ export default function CaliforniaMedicareFraudPage() {
         title="California's Medicare Fraud Problem: 56 AI-Flagged Providers and $47M in Payments"
         description="California has 56 AI-flagged Medicare providers tied #1 with Florida. LA dominates, Internal Medicine leads, and the patterns match convicted fraudsters."
         publishedDate={publishedDate}
-        url="https://www.openmedicare.org/investigations/california-medicare-fraud"
+        url="https://openmedicare.vercel.app/investigations/california-medicare-fraud"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
