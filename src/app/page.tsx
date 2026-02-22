@@ -84,60 +84,53 @@ const featuredInvestigations = [
     readTime: '15 min read'
   },
   {
-    title: 'The Medicare Markup Machine',
-    description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling',
-    href: '/investigations/markup-machine',
-    category: 'Deep Dive',
-    readTime: '15 min read'
+    title: 'Still Out There',
+    description: 'Our AI trained on 8,300+ confirmed fraudsters found 500 providers with identical billing patterns still collecting from Medicare',
+    href: '/investigations/still-out-there',
+    category: '🚨 ML Investigation',
+    readTime: '18 min read'
   },
   {
-    title: 'Where Your Medicare Dollar Goes',
-    description: 'A comprehensive breakdown of how Medicare spending flows through the healthcare system',
-    href: '/investigations/where-medicare-dollar-goes',
-    category: 'Analysis',
-    readTime: '10 min read'
-  },
-  {
-    title: 'The State Spending Divide',
-    description: 'Why Medicare costs vary wildly across state lines — and what it means for patients',
-    href: '/investigations/state-spending-divide',
+    title: 'The Florida Infectious Disease Ring',
+    description: 'A network of infectious disease providers in Florida billing Medicare millions with suspicious patterns',
+    href: '/investigations/florida-infectious-disease',
     category: 'Investigation',
-    readTime: '12 min read'
+    readTime: '16 min read'
   },
   {
-    title: 'Our Data Predicted It',
-    description: 'Our fraud algorithm flagged the same providers the DOJ spent years investigating',
-    href: '/investigations/data-predicted-fraud',
-    category: 'Investigation',
-    readTime: '22 min read'
-  },
-  {
-    title: 'The $2.1 Trillion Writeoff',
-    description: 'Why doctors charge 4× what they get paid — and where $2.14 trillion in charges vanish',
-    href: '/investigations/two-trillion-writeoff',
-    category: 'Deep Dive',
-    readTime: '15 min read'
-  },
-  {
-    title: 'The COVID Test Gold Rush',
-    description: 'How Medicare lost billions to K1034 fraud — one $12 test at a time',
-    href: '/investigations/covid-test-scheme',
+    title: 'Three Providers, One Pattern',
+    description: 'How three unrelated providers across different states share eerily identical billing fingerprints',
+    href: '/investigations/three-providers',
     category: 'Investigation',
     readTime: '14 min read'
   },
   {
-    title: 'Internal Medicine: Ground Zero',
-    description: '53% of all AI-flagged providers share a single specialty — and the structural reasons why',
-    href: '/investigations/internal-medicine-crisis',
-    category: 'ML Investigation',
+    title: 'The Biggest Billers',
+    description: 'The providers collecting the most from Medicare — and what their billing reveals about the system',
+    href: '/investigations/biggest-billers',
+    category: 'Deep Dive',
     readTime: '15 min read'
   },
   {
-    title: 'The Fraud Belt',
-    description: 'California and Florida each have 56 AI-flagged providers. Five states account for half of all flags.',
-    href: '/investigations/florida-california-fraud',
-    category: 'Investigation',
+    title: 'COVID\'s Impact on Medicare',
+    description: 'How the pandemic reshaped Medicare spending, telehealth, and fraud in ways that persist today',
+    href: '/investigations/covid-impact',
+    category: 'Analysis',
     readTime: '12 min read'
+  },
+  {
+    title: 'The Impossible Doctors',
+    description: 'Providers billing for more services per day than hours in a day — the math doesn\'t add up',
+    href: '/investigations/impossible-doctors',
+    category: '🔍 Investigation',
+    readTime: '14 min read'
+  },
+  {
+    title: 'The Oncology Drug Pipeline',
+    description: 'How cancer drugs became Medicare\'s biggest expense — and who profits from the pipeline',
+    href: '/investigations/oncology-drug-pipeline',
+    category: 'Deep Dive',
+    readTime: '16 min read'
   }
 ]
 
@@ -469,7 +462,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 44 Investigations
+              View All 53 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>
@@ -492,7 +485,7 @@ export default function HomePage() {
             <Link href="/providers" className="group bg-blue-50 hover:bg-blue-100 rounded-lg p-6 transition-colors">
               <div className="text-blue-600 text-2xl mb-3">👨‍⚕️</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-800">Providers</h3>
-              <p className="text-sm text-gray-600">Search 2,000+ top Medicare providers with full payment histories</p>
+              <p className="text-sm text-gray-600">Search 2,941 top Medicare providers with full payment histories</p>
             </Link>
 
             <Link href="/procedures" className="group bg-purple-50 hover:bg-purple-100 rounded-lg p-6 transition-colors">
