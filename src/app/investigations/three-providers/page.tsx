@@ -638,11 +638,9 @@ export default function ThreeProvidersPage() {
             <div className="bg-gray-50 rounded-lg p-6 mb-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                <Link href="/investigations/covid-test-scheme" className="text-medicare-primary hover:underline text-sm">🦠 The COVID Test Gold Rush</Link>
-                <Link href="/investigations/wound-care-crisis" className="text-medicare-primary hover:underline text-sm">🩹 The Wound Care Crisis</Link>
-                <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">🧮 The Impossible Doctors</Link>
-                <Link href="/investigations/beverly-hills-billing" className="text-medicare-primary hover:underline text-sm">💎 Beverly Hills Billing</Link>
-                <Link href="/watchlist" className="text-medicare-primary hover:underline text-sm">📋 Full Risk Watchlist</Link>
+                <Link href="/investigations/arizona-wound-care-ring" className="text-medicare-primary hover:underline text-sm">🏜️ The Arizona Wound Care Ring</Link>
+                <Link href="/investigations/beverly-hills-wound-care" className="text-medicare-primary hover:underline text-sm">💎 Beverly Hills Wound Care</Link>
+                <Link href="/investigations/oncology-drug-pipeline" className="text-medicare-primary hover:underline text-sm">💊 The Oncology Drug Pipeline</Link>
                 <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
               </div>
             </div>

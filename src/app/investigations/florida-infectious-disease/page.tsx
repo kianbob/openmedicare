@@ -292,9 +292,9 @@ export default function FloridaInfectiousDiseasePage() {
             <div className="bg-gray-50 rounded-lg p-6 mb-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <Link href="/investigations/florida-medicare-fraud" className="text-medicare-primary hover:underline text-sm">🌴 Florida&apos;s Medicare Fraud Epidemic</Link>
+                <Link href="/investigations/florida-california-fraud" className="text-medicare-primary hover:underline text-sm">🗺️ The Fraud Belt: CA &amp; FL</Link>
                 <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">🧮 The Impossible Doctors</Link>
-                <Link href="/investigations/geographic-inequality" className="text-medicare-primary hover:underline text-sm">📍 ZIP Code Lottery</Link>
-                <Link href="/investigations/medicare-fraud-2025" className="text-medicare-primary hover:underline text-sm">⚖️ Medicare Fraud in 2025</Link>
                 <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
               </div>
             </div>
