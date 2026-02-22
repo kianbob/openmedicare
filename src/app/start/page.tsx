@@ -10,14 +10,22 @@ export const metadata: Metadata = {
 const sections = [
   {
     step: '1',
+    title: 'Welcome — The Big Picture',
+    href: '/about',
+    description: 'OpenMedicare profiles 2,938 providers across $854.8B in Medicare payments. 500 are ML-flagged for fraud risk. Here\'s what we built and why.',
+    icon: '👋',
+    color: 'bg-amber-50 border-amber-200',
+  },
+  {
+    step: '2',
     title: 'Check Your Doctor',
     href: '/lookup',
-    description: 'Search any Medicare provider and see their billing history, specialty comparison, and risk flags.',
+    description: 'Search any of 2,938 profiled Medicare providers and see their billing history, specialty comparison, and risk flags.',
     icon: '🔍',
     color: 'bg-blue-50 border-blue-200',
   },
   {
-    step: '2',
+    step: '3',
     title: 'Explore the Fraud Analysis',
     href: '/fraud',
     description: 'We flagged 500 providers with statistical billing anomalies. See who\'s billing impossible volumes.',
@@ -25,7 +33,7 @@ const sections = [
     color: 'bg-red-50 border-red-200',
   },
   {
-    step: '3',
+    step: '4',
     title: 'Still Out There',
     href: '/fraud/still-out-there',
     description: 'Our AI model trained on 2,198 confirmed fraudsters found 500 providers who bill like criminals but haven\'t been caught. AUC: 0.83.',
@@ -33,15 +41,15 @@ const sections = [
     color: 'bg-indigo-50 border-indigo-200',
   },
   {
-    step: '4',
+    step: '5',
     title: 'Read Our Investigations',
     href: '/investigations',
-    description: '40+ data-driven articles exploring Medicare spending patterns, from drug money to geographic inequality.',
+    description: '53 data-driven investigations exploring Medicare spending patterns, from drug money to geographic inequality.',
     icon: '📰',
     color: 'bg-purple-50 border-purple-200',
   },
   {
-    step: '5',
+    step: '6',
     title: 'Dive Into the Data',
     href: '/analysis',
     description: 'State-by-state breakdowns, specialty comparisons, 10-year trends, and more.',
@@ -96,7 +104,7 @@ export default function StartHerePage() {
         {/* Interactive Tools */}
         <div className="mb-16">
           <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">
-            Step 6: Interactive Tools
+            Step 7: Interactive Tools
           </h2>
           <p className="text-gray-600 mb-6">Hands-on ways to explore the data yourself.</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -116,7 +124,7 @@ export default function StartHerePage() {
         {/* Quick Links */}
         <div className="mb-16">
           <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">
-            Step 7: Browse the Data
+            Step 8: Browse the Data
           </h2>
           <p className="text-gray-600 mb-6">Jump directly into provider, state, specialty, or procedure data.</p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

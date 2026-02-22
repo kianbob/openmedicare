@@ -125,6 +125,13 @@ const fraudPages = [
     color: 'indigo',
   },
   {
+    title: 'Fraud Map',
+    description: 'Interactive geographic visualization of Medicare fraud hotspots. See where flagged providers cluster across the country.',
+    href: '/fraud/map',
+    icon: '🗺️',
+    color: 'green',
+  },
+  {
     title: 'Report Fraud',
     description: 'How to report Medicare fraud to the OIG, including the False Claims Act whistleblower program (15-30% of recovered funds).',
     href: '/fraud/report',
