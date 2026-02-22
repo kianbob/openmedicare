@@ -116,7 +116,7 @@ export default function DoctorVsAlgorithmPage() {
         title="Your Doctor vs. The Algorithm: What AI Found That Humans Missed"
         description="We trained a machine learning model on confirmed fraud cases and scored 1.7 million Medicare providers."
         publishedDate="2026-02-21"
-        url="https://openmedicare.com/investigations/your-doctor-vs-the-algorithm"
+        url="https://openmedicare.vercel.app/investigations/your-doctor-vs-the-algorithm"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[

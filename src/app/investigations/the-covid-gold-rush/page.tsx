@@ -96,7 +96,7 @@ export default function CovidGoldRushPage() {
         title="The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever"
         description="When the pandemic hit, COVID testing became the biggest gold rush in Medicare history."
         publishedDate="2026-02-21"
-        url="https://openmedicare.com/investigations/the-covid-gold-rush"
+        url="https://openmedicare.vercel.app/investigations/the-covid-gold-rush"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
