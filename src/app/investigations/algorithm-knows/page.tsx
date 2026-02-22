@@ -486,16 +486,7 @@ export default function AlgorithmKnowsPage() {
               {/* Related Investigations */}
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <h2 className="text-2xl font-serif font-bold text-gray-900 mb-6">Related Investigations</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <Link
-                    href="/investigations/data-predicted-fraud"
-                    className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
-                  >
-                    <div className="text-sm font-bold text-gray-900 mb-1">Our Data Predicted It</div>
-                    <p className="text-xs text-gray-600">
-                      Providers our model flagged who were later charged by the DOJ.
-                    </p>
-                  </Link>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <Link
                     href="/investigations/still-out-there"
                     className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
@@ -506,12 +497,21 @@ export default function AlgorithmKnowsPage() {
                     </p>
                   </Link>
                   <Link
-                    href="/investigations/three-providers"
+                    href="/investigations/how-we-built-the-model"
                     className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
                   >
-                    <div className="text-sm font-bold text-gray-900 mb-1">Three Providers, Three Red Flags</div>
+                    <div className="text-sm font-bold text-gray-900 mb-1">How We Built the Model</div>
                     <p className="text-xs text-gray-600">
-                      Deep dives into Medicare&apos;s most suspicious billing patterns.
+                      The ML fraud detection model behind 1.7 million provider analyses.
+                    </p>
+                  </Link>
+                  <Link
+                    href="/investigations/data-predicted-fraud"
+                    className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
+                  >
+                    <div className="text-sm font-bold text-gray-900 mb-1">Our Data Predicted It</div>
+                    <p className="text-xs text-gray-600">
+                      Providers our model flagged who were later charged by the DOJ.
                     </p>
                   </Link>
                 </div>

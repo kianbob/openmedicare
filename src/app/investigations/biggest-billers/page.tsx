@@ -82,8 +82,8 @@ export default function BiggestBillersPage() {
           <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             <Link href="/investigations/medicare-millionaires" className="text-medicare-primary hover:underline text-sm">💰 Medicare Millionaires</Link>
-            <Link href="/investigations/medicare-biggest-spenders" className="text-medicare-primary hover:underline text-sm">📊 Biggest Spenders</Link>
-            <Link href="/providers" className="text-medicare-primary hover:underline text-sm">👨‍⚕️ Provider Directory</Link>
+            <Link href="/investigations/corporate-medicine" className="text-medicare-primary hover:underline text-sm">🏢 The Rise of Corporate Medicine</Link>
+            <Link href="/investigations/markup-machine" className="text-medicare-primary hover:underline text-sm">💲 The Medicare Markup Machine</Link>
             <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline text-sm">🚨 Fraud Watchlist</Link>
           </div>
         </div>

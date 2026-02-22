@@ -97,10 +97,10 @@ export default function CovidImpactPage() {
         <div className="bg-gray-50 rounded-lg p-6 mb-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            <Link href="/investigations/telehealth-explosion" className="text-medicare-primary hover:underline text-sm">📱 The Telehealth Explosion</Link>
-            <Link href="/investigations/pandemic-recovery" className="text-medicare-primary hover:underline text-sm">📈 Pandemic Recovery</Link>
             <Link href="/investigations/covid-test-scheme" className="text-medicare-primary hover:underline text-sm">🦠 COVID Test Gold Rush</Link>
-            <Link href="/fraud/covid-tests" className="text-medicare-primary hover:underline text-sm">📊 COVID Test Billing Data</Link>
+            <Link href="/investigations/nurse-practitioner-boom" className="text-medicare-primary hover:underline text-sm">👩‍⚕️ The Rise of the Nurse Practitioner</Link>
+            <Link href="/investigations/ten-year-explosion" className="text-medicare-primary hover:underline text-sm">📈 The 10-Year Explosion</Link>
+            <Link href="/investigations/telehealth-explosion" className="text-medicare-primary hover:underline text-sm">📱 The Telehealth Explosion</Link>
           </div>
         </div>
 

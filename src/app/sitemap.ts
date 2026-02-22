@@ -88,6 +88,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/methodology',
     '/glossary',
     '/data-sources',
+    '/analysis',
+    '/start',
+    '/updates',
     ...investigationSlugs.map(s => `/investigations/${s}`),
     '/api-docs',
     '/search',
@@ -96,6 +99,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Specialty comparison pages
     ...['internal-medicine-vs-family-practice','cardiology-vs-internal-medicine','ophthalmology-vs-optometry','orthopedic-surgery-vs-physical-therapy','dermatology-vs-plastic-surgery','emergency-medicine-vs-internal-medicine','neurology-vs-psychiatry','general-surgery-vs-orthopedic-surgery','radiology-vs-diagnostic-radiology','anesthesiology-vs-nurse-anesthetist','urology-vs-nephrology','pulmonary-disease-vs-internal-medicine','oncology-vs-hematology','gastroenterology-vs-internal-medicine','rheumatology-vs-internal-medicine'].map(s => `/specialties/compare/${s}`),
     '/fraud',
+    '/fraud/map',
     '/fraud/watchlist',
     '/fraud/deep-dives',
     '/fraud/top-100',
