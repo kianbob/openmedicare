@@ -593,7 +593,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
                   <Link href="/fraud/still-out-there" className="text-sm font-medium text-purple-700 hover:text-purple-900 underline">
                     View all ML-flagged providers →
                   </Link>
-                  <Link href="/fraud/methodology" className="text-sm font-medium text-gray-600 hover:text-gray-800 underline">
+                  <Link href="/methodology" className="text-sm font-medium text-gray-600 hover:text-gray-800 underline">
                     Methodology →
                   </Link>
                 </div>

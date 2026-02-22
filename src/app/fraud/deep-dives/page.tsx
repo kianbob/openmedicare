@@ -86,7 +86,7 @@ function RiskGauge({ score }: { score: number }) {
       </div>
       <div className="w-full bg-gray-200 rounded-full h-3">
         <div className="h-3 rounded-full transition-all" style={{ width: `${pct}%`, backgroundColor: color }} />
-            <InvestigationDisclaimer />      </div>
+      </div>
     </div>
   )
 }

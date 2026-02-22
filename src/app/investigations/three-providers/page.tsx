@@ -112,7 +112,7 @@ export default function ThreeProvidersPage() {
               <p>
                 These three providers were flagged by our statistical analysis of CMS Medicare Provider Utilization and Payment Data
                 spanning 2014–2023. Each sits atop our{' '}
-                <Link href="/watchlist" className="text-medicare-primary hover:underline">risk-scored watchlist</Link>,
+                <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline">risk-scored watchlist</Link>,
                 scoring 96, 92, and 88 out of 100 respectively. Each exhibits billing volumes or patterns that fall far
                 outside the statistical norms for their specialties.
               </p>
