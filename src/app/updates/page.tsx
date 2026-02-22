@@ -17,7 +17,7 @@ const updates = [
     items: [
       {
         title: 'Major Platform Update',
-        description: 'Added investigation disclaimers, unified provider database (2,938 providers), ML fraud model integration (500 AI-flagged providers), dynamic OG images, 53 investigation articles.',
+        description: 'Added investigation disclaimers, unified provider database (2,938 providers), ML fraud model integration (500 AI-flagged providers), dynamic OG images, 64 investigation articles.',
         tags: ['Major', 'Enhancement'],
         link: '/investigations',
       },
