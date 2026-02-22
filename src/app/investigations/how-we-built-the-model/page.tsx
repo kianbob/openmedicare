@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers',
     description: 'Technical deep-dive: supervised ML fraud detection on 96M rows of Medicare data. Training labels from LEIE + DOJ, Random Forest with AUC 0.83.',
-    url: 'https://openmedicare.vercel.app/investigations/how-we-built-the-model',
+    url: 'https://www.openmedicare.com/investigations/how-we-built-the-model',
   },
 }
 
@@ -41,7 +41,7 @@ export default function HowWeBuiltTheModelPage() {
       <ArticleJsonLd
         title="How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers"
         description="A technical deep-dive into building a supervised Random Forest model trained on 96M rows of Medicare billing data and 8,300+ confirmed fraud labels."
-        url="https://openmedicare.vercel.app/investigations/how-we-built-the-model"
+        url="https://www.openmedicare.com/investigations/how-we-built-the-model"
         publishedDate={publishedDate}
         modifiedDate={publishedDate}
       />
@@ -510,7 +510,7 @@ export default function HowWeBuiltTheModelPage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/how-we-built-the-model"
+              url="https://www.openmedicare.com/investigations/how-we-built-the-model"
               title="How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers"
             />
 

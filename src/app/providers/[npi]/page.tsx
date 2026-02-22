@@ -1156,7 +1156,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         </div>
 
-        <SourceCitation 
+        <SourceCitation
           lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
@@ -1164,6 +1164,16 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             'National Plan and Provider Enumeration System (NPPES)'
           ]}
         />
+
+        <p className="text-xs text-gray-400 mt-4">
+          Believe this data is inaccurate?{' '}
+          <a
+            href={`mailto:corrections@openmedicare.com?subject=${encodeURIComponent(`Data correction request: ${provName} (NPI ${npi})`)}`}
+            className="underline hover:text-gray-600"
+          >
+            Dispute this data
+          </a>
+        </p>
       </div>
     </div>
   )

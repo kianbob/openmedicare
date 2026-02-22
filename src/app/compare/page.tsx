@@ -501,7 +501,7 @@ export default function ComparePage() {
           <Link href="/fraud/still-out-there" className="text-sm font-medium text-blue-600 hover:text-blue-700 whitespace-nowrap">View ML Results →</Link>
         </div>
 
-        <div className="mt-12"><ShareButtons url="https://openmedicare.vercel.app/compare" title="Compare Medicare Data" /></div>
+        <div className="mt-12"><ShareButtons url="https://www.openmedicare.com/compare" title="Compare Medicare Data" /></div>
         <div className="mt-8"><SourceCitation /></div>
       </div>
     </div>

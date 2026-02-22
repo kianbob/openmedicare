@@ -246,7 +246,7 @@ export default function MedicareMillionairesPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://openmedicare.vercel.app/investigations/medicare-millionaires" title="Medicare's Millionaire Club" />
+          <ShareButtons url="https://www.openmedicare.com/investigations/medicare-millionaires" title="Medicare's Millionaire Club" />
             <InvestigationDisclaimer />        </div>
         <SourceCitation />
       </div>

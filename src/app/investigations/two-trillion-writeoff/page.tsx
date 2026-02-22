@@ -225,7 +225,7 @@ export default function TwoTrillionWriteoffPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/two-trillion-writeoff" title="The $2.1 Trillion Writeoff" />
+        <ShareButtons url="https://www.openmedicare.com/investigations/two-trillion-writeoff" title="The $2.1 Trillion Writeoff" />
         <SourceCitation />
       </div>
     </main>

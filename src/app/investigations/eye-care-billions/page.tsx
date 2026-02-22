@@ -323,7 +323,7 @@ export default function EyeCareBillionsPage() {
         </article>
 
         <ShareButtons
-          url="https://openmedicare.vercel.app/investigations/eye-care-billions"
+          url="https://www.openmedicare.com/investigations/eye-care-billions"
           title="The Billion-Dollar Eye Care Industry"
         />
         <SourceCitation />

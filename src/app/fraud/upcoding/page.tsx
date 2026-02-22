@@ -260,6 +260,7 @@ export default function Upcoding() {
             <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
             <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
             <Link href="/investigations/office-visit-economy" className="text-medicare-primary hover:underline text-sm">🏥 The Office Visit Economy</Link>
+            <Link href="/methodology" className="text-sm text-blue-700 hover:underline">📊 How we analyze the data →</Link>
           </div>
         </div>
 
@@ -272,7 +273,7 @@ export default function Upcoding() {
           </p>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/fraud/upcoding" title="Upcoding Detector" />
+        <ShareButtons url="https://www.openmedicare.com/fraud/upcoding" title="Upcoding Detector" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

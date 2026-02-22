@@ -104,7 +104,7 @@ export default function CovidImpactPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/covid-impact" title="COVID's Impact on Medicare" />
+        <ShareButtons url="https://www.openmedicare.com/investigations/covid-impact" title="COVID's Impact on Medicare" />
         <SourceCitation />
       </div>
     </main>

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Million-Dollar Club: 47 AI-Flagged Providers Who Billed Over $1M Each',
     description: '47 providers flagged for fraud patterns each billed over $1M. Terrance Hughes alone: $5.3M. Here\'s who they are.',
-    url: 'https://openmedicare.vercel.app/investigations/million-dollar-flagged',
+    url: 'https://www.openmedicare.com/investigations/million-dollar-flagged',
   },
 }
 
@@ -46,7 +46,7 @@ export default function MillionDollarFlaggedPage() {
         title="The Million-Dollar Club: 47 AI-Flagged Providers Who Billed Over $1M Each"
         description="47 providers flagged by our AI model each billed Medicare over $1 million while matching the billing patterns of convicted fraudsters."
         publishedDate={publishedDate}
-        url="https://openmedicare.vercel.app/investigations/million-dollar-flagged"
+        url="https://www.openmedicare.com/investigations/million-dollar-flagged"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

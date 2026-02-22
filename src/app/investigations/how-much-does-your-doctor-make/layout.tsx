@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How Much Does Your Doctor Make From Medicare?',
     description: 'Pick a specialty. See what Medicare actually pays. Based on 10 years of real billing data.',
-    url: 'https://openmedicare.vercel.app/investigations/how-much-does-your-doctor-make',
+    url: 'https://www.openmedicare.com/investigations/how-much-does-your-doctor-make',
   },
 }
 

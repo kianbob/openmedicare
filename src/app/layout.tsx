@@ -28,12 +28,12 @@ export const metadata: Metadata = {
   authors: [{ name: 'OpenMedicare Team' }],
   creator: 'OpenMedicare',
   publisher: 'OpenMedicare',
-  metadataBase: new URL('https://openmedicare.vercel.app'),
+  metadataBase: new URL('https://www.openmedicare.com'),
   alternates: {},
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://openmedicare.vercel.app',
+    url: 'https://www.openmedicare.com',
     title: 'OpenMedicare - Follow the Money in Medicare',
     description: 'AI analyzed 1.72M Medicare providers and flagged 500 for potential fraud. Exposed $854B in spending patterns across 10 years of data.',
     siteName: 'OpenMedicare',
@@ -64,9 +64,9 @@ const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'OpenMedicare',
-  url: 'https://openmedicare.vercel.app',
+  url: 'https://www.openmedicare.com',
   description: 'Professional data journalism tracking Medicare physician spending. Analyzing billions in Medicare payments to bring transparency to healthcare spending.',
-  logo: 'https://openmedicare.vercel.app/logo.png',
+  logo: 'https://www.openmedicare.com/logo.png',
   sameAs: [],
 }
 
@@ -74,12 +74,12 @@ const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'OpenMedicare',
-  url: 'https://openmedicare.vercel.app',
+  url: 'https://www.openmedicare.com',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://openmedicare.vercel.app/search?q={search_term_string}',
+      urlTemplate: 'https://www.openmedicare.com/search?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Opioid Connection: Pain Management Providers in Medicare\'s Fraud Data',
     description: '7 pain management providers flagged by AI — one billing $3M with 64,000 services. The opioid crisis meets Medicare billing data.',
-    url: 'https://openmedicare.vercel.app/investigations/pain-management-fraud',
+    url: 'https://www.openmedicare.com/investigations/pain-management-fraud',
   },
 }
 
@@ -135,7 +135,7 @@ export default function PainManagementFraudPage() {
         title="The Opioid Connection: Pain Management Providers in Medicare's Fraud Data"
         description="Pain management is a known fraud vector tied to the opioid crisis. Our AI flagged 7 providers billing up to $3M each."
         publishedDate={publishedDate}
-        url="https://openmedicare.vercel.app/investigations/pain-management-fraud"
+        url="https://www.openmedicare.com/investigations/pain-management-fraud"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -500,7 +500,7 @@ export default function PainManagementFraudPage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/pain-management-fraud"
+              url="https://www.openmedicare.com/investigations/pain-management-fraud"
               title="The Opioid Connection: Pain Management Providers in Medicare's Fraud Data"
             />
 

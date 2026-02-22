@@ -20,26 +20,26 @@ export default function ArticleJsonLd({
     '@type': 'Article',
     headline: title,
     description,
-    url: `https://openmedicare.vercel.app${url}`,
+    url: `https://www.openmedicare.com${url}`,
     datePublished: publishedDate,
     dateModified: modifiedDate || publishedDate,
     author: {
       '@type': 'Organization',
       name: 'OpenMedicare',
-      url: 'https://openmedicare.vercel.app',
+      url: 'https://www.openmedicare.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'OpenMedicare',
-      url: 'https://openmedicare.vercel.app',
+      url: 'https://www.openmedicare.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://openmedicare.vercel.app/og-image.png',
+        url: 'https://www.openmedicare.com/og-image.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://openmedicare.vercel.app${url}`,
+      '@id': `https://www.openmedicare.com${url}`,
     },
     ...(imageUrl ? { image: imageUrl } : {}),
   }

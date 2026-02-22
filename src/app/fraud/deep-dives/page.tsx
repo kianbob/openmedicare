@@ -338,6 +338,7 @@ export default function DeepDives() {
             <Link href="/fraud/impossible-numbers" className="text-medicare-primary hover:underline text-sm">🧮 Impossible Numbers — 4,636 flagged providers</Link>
             <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline text-sm">⬆️ Upcoding — Billing for services never provided</Link>
             <Link href="/investigations/three-providers" className="text-medicare-primary hover:underline text-sm">🔍 Three Providers, Three Red Flags</Link>
+            <Link href="/methodology" className="text-sm text-blue-700 hover:underline">📊 How we analyze the data →</Link>
           </div>
         </div>
 
@@ -348,7 +349,7 @@ export default function DeepDives() {
           </p>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/fraud/deep-dives" title="The 20 Most Suspicious Medicare Providers" />
+        <ShareButtons url="https://www.openmedicare.com/fraud/deep-dives" title="The 20 Most Suspicious Medicare Providers" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

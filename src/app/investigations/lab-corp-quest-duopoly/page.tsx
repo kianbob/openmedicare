@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Two Companies Control America\'s Lab Testing — and Bill Medicare Billions',
     description: 'LabCorp and Quest Diagnostics: 37 NPIs, $14 billion in Medicare payments, and 25% market share.',
-    url: 'https://openmedicare.vercel.app/investigations/lab-corp-quest-duopoly',
+    url: 'https://www.openmedicare.com/investigations/lab-corp-quest-duopoly',
   },
 }
 
@@ -314,7 +314,7 @@ export default function LabCorpQuestDuopolyPage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/lab-corp-quest-duopoly"
+              url="https://www.openmedicare.com/investigations/lab-corp-quest-duopoly"
               title="Two Companies Control America's Lab Testing"
             />
             <InvestigationDisclaimer />

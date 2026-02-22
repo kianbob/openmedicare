@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Medicare By The Numbers: A Visual Data Story',
     description: '$854.8B spent. 4,636 impossible providers. 500 flagged for fraud. The numbers that tell the story of American healthcare.',
-    url: 'https://openmedicare.vercel.app/investigations/medicare-by-the-numbers',
+    url: 'https://www.openmedicare.com/investigations/medicare-by-the-numbers',
   },
 }
 

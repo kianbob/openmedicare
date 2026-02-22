@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Still Out There: 500 Providers Who Bill Like Convicted Fraudsters',
     description: 'AI trained on 2,198 caught fraudsters finds 500 providers with identical billing patterns still active in Medicare.',
-    url: 'https://openmedicare.vercel.app/investigations/still-out-there',
+    url: 'https://www.openmedicare.com/investigations/still-out-there',
   },
 }
 
@@ -371,7 +371,7 @@ export default function StillOutThereArticle() {
           </div>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/still-out-there" title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" />
+        <ShareButtons url="https://www.openmedicare.com/investigations/still-out-there" title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" />
         <div className="mt-6">
           <SourceCitation sources={[
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',

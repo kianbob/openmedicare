@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://openmedicare.vercel.app'
+  const baseUrl = 'https://www.openmedicare.com'
   
   const investigationSlugs = [
     'markup-machine',

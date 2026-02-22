@@ -85,7 +85,7 @@ export default function RuralPriceTagPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/rural-price-tag" title="The Rural Price Tag" />
+        <ShareButtons url="https://www.openmedicare.com/investigations/rural-price-tag" title="The Rural Price Tag" />
         <SourceCitation />
       </div>
     </main>

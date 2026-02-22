@@ -291,7 +291,7 @@ export default function YourMedicareDollarPage() {
 
         <div className="mt-12">
           <ShareButtons
-            url="https://openmedicare.vercel.app/your-medicare-dollar"
+            url="https://www.openmedicare.com/your-medicare-dollar"
             title="Where Does Your Medicare Dollar Go?"
             description={`$${flaggedShare.toFixed(2)} of every $100 in Medicare goes to AI-flagged providers. See the full breakdown.`}
           />

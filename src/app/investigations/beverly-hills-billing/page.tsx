@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Beverly Hills: America\'s Most Expensive ZIP Code for Medicare',
     description: 'Three providers in our top 1,000 are from Beverly Hills — billing a combined $120M+ to Medicare.',
-    url: 'https://openmedicare.vercel.app/investigations/beverly-hills-billing',
+    url: 'https://www.openmedicare.com/investigations/beverly-hills-billing',
   },
 }
 
@@ -326,7 +326,7 @@ export default function BeverlyHillsBillingPage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/beverly-hills-billing"
+              url="https://www.openmedicare.com/investigations/beverly-hills-billing"
               title="Beverly Hills: America's Most Expensive ZIP Code for Medicare"
             />
             <InvestigationDisclaimer />

@@ -79,7 +79,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
             marginTop: '48px',
           }}
         >
-          openmedicare.vercel.app
+          www.openmedicare.com
         </div>
       </div>
     ),

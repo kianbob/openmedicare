@@ -353,6 +353,7 @@ export default function FraudWatchlist() {
             <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline text-sm">📊 Upcoding Detector — Code-level analysis</Link>
             <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
             <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
+            <Link href="/methodology" className="text-sm text-blue-700 hover:underline">📊 How we analyze the data →</Link>
           </div>
         </div>
 
@@ -365,7 +366,7 @@ export default function FraudWatchlist() {
           </p>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/fraud/watchlist" title="Medicare Fraud Watchlist" />
+        <ShareButtons url="https://www.openmedicare.com/fraud/watchlist" title="Medicare Fraud Watchlist" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

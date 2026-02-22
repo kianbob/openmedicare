@@ -67,11 +67,11 @@ const datasetJsonLd = {
   },
   temporalCoverage: '2014/2023',
   license: 'https://www.usa.gov/government-works',
-  url: 'https://openmedicare.vercel.app',
+  url: 'https://www.openmedicare.com',
   distribution: {
     '@type': 'DataDownload',
     encodingFormat: 'application/json',
-    contentUrl: 'https://openmedicare.vercel.app/downloads',
+    contentUrl: 'https://www.openmedicare.com/downloads',
   },
 }
 
@@ -178,7 +178,7 @@ export default function HomePage() {
               Data through 2023 · Updated February 2026
             </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
-              Follow the Money in Medicare
+              500 Medicare Providers Bill Like Convicted Fraudsters
             </h1>
             <p className="text-xl sm:text-2xl text-blue-100 mb-4 max-w-4xl mx-auto">
               AI trained on 8,300+ convicted fraudsters analyzed 1.7 million Medicare providers.
@@ -208,25 +208,26 @@ export default function HomePage() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                href="/providers"
+              <Link
+                href="/start"
                 className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-medicare-primary bg-white hover:bg-gray-100 transition-colors"
+              >
+                Start Here
+                <ArrowRightIcon className="ml-2 h-5 w-5" />
+              </Link>
+              <Link
+                href="/providers"
+                className="inline-flex items-center px-8 py-4 border border-white text-lg font-medium rounded-md text-white hover:bg-white hover:text-medicare-primary transition-colors"
               >
                 Explore Providers
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
               </Link>
-              <Link 
+              <Link
                 href="/investigations"
                 className="inline-flex items-center px-8 py-4 border border-white text-lg font-medium rounded-md text-white hover:bg-white hover:text-medicare-primary transition-colors"
               >
                 Read Investigations
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
-              </Link>
-              <Link 
-                href="/start"
-                className="inline-flex items-center px-8 py-4 border border-white/50 text-lg font-medium rounded-md text-blue-100 hover:bg-white/10 transition-colors"
-              >
-                Start Here →
               </Link>
             </div>
 

@@ -287,7 +287,7 @@ export default function StateSpendingDividePage() {
         </article>
 
         <ShareButtons
-          url="https://openmedicare.vercel.app/investigations/state-spending-divide"
+          url="https://www.openmedicare.com/investigations/state-spending-divide"
           title="The State Spending Divide"
         />
         <SourceCitation />

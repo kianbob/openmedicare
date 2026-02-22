@@ -70,7 +70,7 @@ export async function GET() {
   </div>
   <div class="footer">
     <span>1.72M providers analyzed · 2014–2023</span>
-    <a href="https://openmedicare.vercel.app" target="_blank">openmedicare.vercel.app</a>
+    <a href="https://www.openmedicare.com" target="_blank">www.openmedicare.com</a>
   </div>
 </div>
 </body>

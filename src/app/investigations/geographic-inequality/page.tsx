@@ -260,7 +260,7 @@ export default function GeographicInequalityPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://openmedicare.vercel.app/investigations/geographic-inequality" title="ZIP Code Lottery" />
+          <ShareButtons url="https://www.openmedicare.com/investigations/geographic-inequality" title="ZIP Code Lottery" />
         </div>
         <SourceCitation />
       </div>

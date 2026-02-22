@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk',
     description: 'NPs are the fastest-growing Medicare provider type. Our AI flagged NPs billing $1.6M+ with 95% fraud probability. The oversight gap is real.',
-    url: 'https://openmedicare.vercel.app/investigations/nurse-practitioners-fraud',
+    url: 'https://www.openmedicare.com/investigations/nurse-practitioners-fraud',
   },
 }
 
@@ -70,7 +70,7 @@ export default function NursePractitionersFraudPage() {
         title="Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk"
         description="Nurse practitioners are Medicare's fastest-growing provider type — and emerging as a new fraud vector with less oversight than physicians."
         publishedDate={publishedDate}
-        url="https://openmedicare.vercel.app/investigations/nurse-practitioners-fraud"
+        url="https://www.openmedicare.com/investigations/nurse-practitioners-fraud"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -395,7 +395,7 @@ export default function NursePractitionersFraudPage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/nurse-practitioners-fraud"
+              url="https://www.openmedicare.com/investigations/nurse-practitioners-fraud"
               title="Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk"
             />
 

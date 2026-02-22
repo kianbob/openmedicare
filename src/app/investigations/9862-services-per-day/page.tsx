@@ -153,7 +153,7 @@ export default function ImpossibleServicesPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/investigations/9862-services-per-day" title="9,862 Services Per Day" />
+        <ShareButtons url="https://www.openmedicare.com/investigations/9862-services-per-day" title="9,862 Services Per Day" />
         <SourceCitation />
       </div>
     </main>

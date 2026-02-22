@@ -238,6 +238,7 @@ export default function ImpossibleNumbers() {
             <Link href="/fraud/upcoding" className="text-medicare-primary hover:underline text-sm">📊 Upcoding Detector — Code-level analysis</Link>
             <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
             <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
+            <Link href="/methodology" className="text-sm text-blue-700 hover:underline">📊 How we analyze the data →</Link>
           </div>
         </div>
 
@@ -248,7 +249,7 @@ export default function ImpossibleNumbers() {
           </p>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/fraud/impossible-numbers" title="Impossible Numbers" />
+        <ShareButtons url="https://www.openmedicare.com/fraud/impossible-numbers" title="Impossible Numbers" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)']} lastUpdated="February 2026" />
         </div>

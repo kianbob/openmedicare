@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Three Providers, Three Red Flags: Inside Medicare\'s Most Suspicious Billing Patterns',
     description: 'A nurse practitioner billing $12.1M in COVID tests. A Beverly Hills plastic surgeon billing $28.9M in wound care. An anti-aging spa doctor with a 197.7x markup.',
-    url: 'https://openmedicare.vercel.app/investigations/three-providers',
+    url: 'https://www.openmedicare.com/investigations/three-providers',
   },
 }
 
@@ -646,7 +646,7 @@ export default function ThreeProvidersPage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/three-providers"
+              url="https://www.openmedicare.com/investigations/three-providers"
               title="Three Providers, Three Red Flags"
             />
 

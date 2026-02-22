@@ -294,6 +294,7 @@ export default function WoundCare() {
             <Link href="/investigations/wound-care-crisis" className="text-medicare-primary hover:underline text-sm">📰 Wound Care Crisis Investigation</Link>
             <Link href="/investigations/arizona-wound-care-ring" className="text-medicare-primary hover:underline text-sm">📰 Arizona Wound Care Ring</Link>
             <Link href="/investigations/beverly-hills-wound-care" className="text-medicare-primary hover:underline text-sm">📰 Beverly Hills Wound Care</Link>
+            <Link href="/methodology" className="text-sm text-blue-700 hover:underline">📊 How we analyze the data →</Link>
           </div>
         </div>
 
@@ -305,7 +306,7 @@ export default function WoundCare() {
           </p>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/fraud/wound-care" title="Wound Care Fraud Watchlist" />
+        <ShareButtons url="https://www.openmedicare.com/fraud/wound-care" title="Wound Care Fraud Watchlist" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'DOJ Healthcare Fraud Enforcement Action (June 2025)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

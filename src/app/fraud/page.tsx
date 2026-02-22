@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Medicare Fraud Analysis Hub',
     description: 'Explore Medicare fraud patterns detected in $854.8B of physician payment data. Analysis of upcoding, COVID test billing, wound care schemes, and more.',
-    url: 'https://openmedicare.vercel.app/fraud',
+    url: 'https://www.openmedicare.com/fraud',
   },
 }
 
@@ -151,7 +151,7 @@ const jsonLd = [
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'OpenMedicare',
-    url: 'https://openmedicare.vercel.app',
+    url: 'https://www.openmedicare.com',
     description: 'Open-source Medicare spending transparency and fraud analysis platform',
     sameAs: ['https://github.com/kianbob/openmedicare'],
   },
@@ -160,23 +160,23 @@ const jsonLd = [
     '@type': 'Dataset',
     name: 'Medicare Provider Utilization and Payment Data',
     description: 'CMS Medicare physician payment data from 2014-2023, covering $854.8 billion in spending across 1.2 million providers',
-    url: 'https://openmedicare.vercel.app/fraud',
+    url: 'https://www.openmedicare.com/fraud',
     license: 'https://www.usa.gov/government-works',
     creator: { '@type': 'Organization', name: 'Centers for Medicare & Medicaid Services (CMS)' },
     temporalCoverage: '2014/2023',
     distribution: {
       '@type': 'DataDownload',
       encodingFormat: 'application/json',
-      contentUrl: 'https://openmedicare.vercel.app/downloads',
+      contentUrl: 'https://www.openmedicare.com/downloads',
     },
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: 'Medicare Fraud Analysis Hub',
-    url: 'https://openmedicare.vercel.app/fraud',
+    url: 'https://www.openmedicare.com/fraud',
     description: 'Data-driven fraud detection across $854.8B in Medicare spending. 500 flagged providers, deep-dive profiles, COVID test billing analysis, wound care fraud tracking, and more.',
-    isPartOf: { '@type': 'WebSite', name: 'OpenMedicare', url: 'https://openmedicare.vercel.app' },
+    isPartOf: { '@type': 'WebSite', name: 'OpenMedicare', url: 'https://www.openmedicare.com' },
   },
 ]
 
@@ -453,7 +453,7 @@ export default function FraudHub() {
         </div>
 
         <div className="flex flex-wrap items-center gap-4 mb-8">
-          <ShareButtons url="https://openmedicare.vercel.app/fraud" title="Medicare Fraud Analysis Hub" description="AI flagged 500 Medicare providers for potential fraud out of 1.72M analyzed. See the data behind the investigation." />
+          <ShareButtons url="https://www.openmedicare.com/fraud" title="Medicare Fraud Analysis Hub" description="AI flagged 500 Medicare providers for potential fraud out of 1.72M analyzed. See the data behind the investigation." />
         </div>
 
         <div className="mb-8">

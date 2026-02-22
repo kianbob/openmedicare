@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-const baseUrl = 'https://openmedicare.vercel.app'
+const baseUrl = 'https://www.openmedicare.com'
 
 const items = [
   // New articles - Feb 21 batch 2

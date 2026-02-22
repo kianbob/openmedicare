@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Why Internal Medicine Is Ground Zero for Medicare Fraud',
     description: '53% of all AI-flagged Medicare providers are Internal Medicine. Volume + discretion = opportunity.',
-    url: 'https://openmedicare.vercel.app/investigations/internal-medicine-crisis',
+    url: 'https://www.openmedicare.com/investigations/internal-medicine-crisis',
   },
 }
 
@@ -44,7 +44,7 @@ export default function InternalMedicineCrisisPage() {
         title="Why Internal Medicine Is Ground Zero for Medicare Fraud"
         description="263 of 500 AI-flagged providers are Internal Medicine — 53% of all flags from a single specialty."
         publishedDate={publishedDate}
-        url="https://openmedicare.vercel.app/investigations/internal-medicine-crisis"
+        url="https://www.openmedicare.com/investigations/internal-medicine-crisis"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

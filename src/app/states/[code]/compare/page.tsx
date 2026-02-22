@@ -210,7 +210,7 @@ export default async function StateComparePage({ params }: { params: Promise<{ c
 
         <div className="mt-12">
           <ShareButtons
-            url={`https://openmedicare.vercel.app/states/${code}/compare`}
+            url={`https://www.openmedicare.com/states/${code}/compare`}
             title={`How ${state.state_name} Medicare Spending Compares`}
           />
         </div>

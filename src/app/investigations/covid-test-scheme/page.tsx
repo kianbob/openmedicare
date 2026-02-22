@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The COVID Test Gold Rush: How Medicare Lost Billions to K1034 Fraud',
     description: 'K1034 was created for COVID OTC tests at ~$12 each. Some providers billed millions.',
-    url: 'https://openmedicare.vercel.app/investigations/covid-test-scheme',
+    url: 'https://www.openmedicare.com/investigations/covid-test-scheme',
   },
 }
 
@@ -222,7 +222,7 @@ export default function CovidTestSchemePage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/covid-test-scheme"
+              url="https://www.openmedicare.com/investigations/covid-test-scheme"
               title="The COVID Test Gold Rush"
             />
 

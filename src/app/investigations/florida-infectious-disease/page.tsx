@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Florida\'s Fraud Factory: 185 Impossible Providers Billing $573M',
     description: 'Florida leads the nation with 185 impossible-volume providers — more than California and Texas combined.',
-    url: 'https://openmedicare.vercel.app/investigations/florida-infectious-disease',
+    url: 'https://www.openmedicare.com/investigations/florida-infectious-disease',
   },
 }
 
@@ -300,7 +300,7 @@ export default function FloridaInfectiousDiseasePage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/florida-infectious-disease"
+              url="https://www.openmedicare.com/investigations/florida-infectious-disease"
               title="Florida's Fraud Factory"
             />
 

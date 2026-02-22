@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Wound Care Industrial Complex: Medicare\'s Most Vulnerable Program',
     description: 'Skin substitutes, debridement markups, and the DOJ\'s largest-ever healthcare fraud takedown.',
-    url: 'https://openmedicare.vercel.app/investigations/wound-care-crisis',
+    url: 'https://www.openmedicare.com/investigations/wound-care-crisis',
   },
 }
 
@@ -245,7 +245,7 @@ export default function WoundCareCrisisPage() {
             </div>
 
             <ShareButtons
-              url="https://openmedicare.vercel.app/investigations/wound-care-crisis"
+              url="https://www.openmedicare.com/investigations/wound-care-crisis"
               title="The Wound Care Industrial Complex"
             />
 

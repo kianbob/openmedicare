@@ -267,6 +267,7 @@ export default function CovidTests() {
             <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
             <Link href="/fraud/report" className="text-medicare-primary hover:underline text-sm">📞 Report Fraud — OIG Hotline</Link>
             <Link href="/investigations/covid-test-scheme" className="text-medicare-primary hover:underline text-sm">📰 COVID Test Gold Rush Investigation</Link>
+            <Link href="/methodology" className="text-sm text-blue-700 hover:underline">📊 How we analyze the data →</Link>
           </div>
         </div>
 
@@ -278,7 +279,7 @@ export default function CovidTests() {
           </p>
         </div>
 
-        <ShareButtons url="https://openmedicare.vercel.app/fraud/covid-tests" title="COVID Test Billing Tracker" />
+        <ShareButtons url="https://www.openmedicare.com/fraud/covid-tests" title="COVID Test Billing Tracker" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2022-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>
