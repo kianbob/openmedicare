@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: 'OpenMedicare',
     images: [
       {
-        url: '/og-image.png',
+        url: '/opengraph-image',
         width: 1200,
         height: 630,
         alt: 'OpenMedicare - AI-Powered Medicare Fraud Detection',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     creator: '@thedataproject0',
     title: 'OpenMedicare - Follow the Money in Medicare',
     description: 'AI analyzed 1.72M Medicare providers and flagged 500 for potential fraud. $854B in spending tracked.',
-    images: ['/og-image.png'],
+    images: ['/opengraph-image'],
   },
   robots: {
     index: true,
