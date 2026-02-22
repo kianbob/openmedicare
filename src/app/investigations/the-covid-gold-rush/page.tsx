@@ -356,7 +356,18 @@ export default function CovidGoldRushPage() {
           </p>
         </article>
 
-        <div className="mt-8 mb-12">
+        <div className="bg-gray-50 rounded-lg p-6 mt-8 mb-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Related Investigations</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <Link href="/investigations/covid-test-scheme" className="text-medicare-primary hover:underline text-sm">🦠 The COVID Test Billing Scheme</Link>
+            <Link href="/fraud/covid-tests" className="text-medicare-primary hover:underline text-sm">📊 COVID Test Billing Data</Link>
+            <Link href="/investigations/the-4636-impossible-doctors" className="text-medicare-primary hover:underline text-sm">🧮 The 4,636 Impossible Doctors</Link>
+            <Link href="/investigations/florida-medicare-fraud" className="text-medicare-primary hover:underline text-sm">🌴 Florida&apos;s Fraud Factory</Link>
+          </div>
+        </div>
+
+        <ShareButtons url="https://openmedicare.vercel.app/investigations/the-covid-gold-rush" title="The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever" />
+        <div className="mt-6">
           <SourceCitation />
         </div>
       </div>
