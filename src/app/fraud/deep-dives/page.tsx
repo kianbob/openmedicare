@@ -259,7 +259,7 @@ export default function DeepDives() {
                       <div className="mb-6">
                         <h4 className="text-sm font-semibold text-gray-700 mb-2">Yearly Payments</h4>
                         <div className="space-y-1">
-                          {Object.entries(p.detail.yearly_payments).sort().map(([year, amt]) => (
+                          {Object.entries(p.detail?.yearly_payments ?? {}).sort().map(([year, amt]) => (
                             <div key={year} className="flex justify-between text-sm">
                               <span className="text-gray-600">{year}</span>
                               <span className="font-medium">{formatCurrency(amt as number)}</span>
@@ -289,7 +289,7 @@ export default function DeepDives() {
                       <div>
                         <h4 className="text-sm font-semibold text-gray-700 mb-2">Top Procedures</h4>
                         <div className="space-y-2">
-                          {p.detail.top_procedures.slice(0, 8).map((proc, i) => (
+                          {p.detail?.top_procedures?.slice(0, 8).map((proc, i) => (
                             <div key={i} className="flex justify-between text-sm border-b border-gray-100 pb-1">
                               <div>
                                 <Link href={`/procedures/${proc.hcpcs_code}`} className="text-medicare-primary hover:underline font-medium">{proc.hcpcs_code}</Link>
