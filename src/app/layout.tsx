@@ -93,6 +93,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google Search Console */}
+        <meta name="google-site-verification" content="pending" />
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"

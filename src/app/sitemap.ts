@@ -68,6 +68,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'the-4636-impossible-doctors',
     'the-covid-gold-rush',
     'your-doctor-vs-the-algorithm',
+    'the-markup-game',
+    'wound-care-americas-billion-dollar-bandage',
   ]
 
   const staticPages = [

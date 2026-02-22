@@ -431,6 +431,18 @@ const items = [
     pubDate: '2026-02-01T00:00:00.000Z',
   },
   {
+    title: 'The Markup Game: How Medicare Pricing Actually Works',
+    description: 'Understanding the complex pricing game between what doctors charge, what Medicare allows, and what actually gets paid.',
+    link: '/investigations/the-markup-game',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Wound Care: America\'s Billion-Dollar Bandage',
+    description: 'How wound care became one of Medicare\'s most expensive — and most fraud-prone — categories.',
+    link: '/investigations/wound-care-americas-billion-dollar-bandage',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
     title: 'Report Medicare Fraud',
     description: 'How to report Medicare fraud. OIG hotline, False Claims Act whistleblower rewards, and what counts as fraud.',
     link: '/fraud/report',
