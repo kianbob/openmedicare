@@ -76,7 +76,7 @@ export default function Footer() {
                 OpenMedicare
               </Link>
               <p className="mt-4 text-sm leading-6 text-gray-300">
-                Follow the Money in Medicare
+                Independent Medicare data journalism
               </p>
             </div>
             <div>

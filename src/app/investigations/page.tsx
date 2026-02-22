@@ -582,11 +582,14 @@ const investigations = [
   },
 ]
 
+const featuredHrefs = new Set(featuredInvestigations.map(fi => fi.href))
+const gridInvestigations = investigations.filter(i => !featuredHrefs.has(i.href))
+
 const categories = [
-  { name: 'All', count: investigations.length + 1 },
-  { name: 'Deep Dive', count: investigations.filter(i => i.category === 'Deep Dive').length + 1 },
-  { name: 'Analysis', count: investigations.filter(i => i.category === 'Analysis').length },
-  { name: 'Investigation', count: investigations.filter(i => i.category === 'Investigation').length },
+  { name: 'All', count: gridInvestigations.length + featuredInvestigations.length },
+  { name: 'Deep Dive', count: gridInvestigations.filter(i => i.category === 'Deep Dive').length + 1 },
+  { name: 'Analysis', count: gridInvestigations.filter(i => i.category === 'Analysis').length },
+  { name: 'Investigation', count: gridInvestigations.filter(i => i.category === 'Investigation').length },
 ]
 
 export default function InvestigationsPage() {
@@ -606,7 +609,7 @@ export default function InvestigationsPage() {
             Investigations
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {investigations.length + 1} data-driven investigations on Medicare spending patterns, healthcare fraud, and transparency. 
+            {gridInvestigations.length + featuredInvestigations.length} data-driven investigations on Medicare spending patterns, healthcare fraud, and transparency. 
             Our team analyzes billions in Medicare payments to uncover stories that matter.
           </p>
         </div>
@@ -687,7 +690,7 @@ export default function InvestigationsPage() {
 
         {/* Investigation Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          {investigations.map((investigation) => (
+          {gridInvestigations.map((investigation) => (
             <article 
               key={investigation.href} 
               className="bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow overflow-hidden"

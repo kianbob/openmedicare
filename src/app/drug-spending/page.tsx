@@ -2,10 +2,15 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
-import { TrendChart } from '@/components/Charts'
 import { formatCurrency, formatNumber } from '@/lib/format'
+
+const TrendChart = dynamic(
+  () => import('@/components/Charts').then(mod => mod.TrendChart),
+  { ssr: false, loading: () => <div className="h-[400px] flex items-center justify-center text-gray-400">Loading chart...</div> }
+)
 
 export default function DrugSpendingPage() {
   const [data, setData] = useState<any>(null)

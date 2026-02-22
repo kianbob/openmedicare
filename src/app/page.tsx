@@ -139,25 +139,29 @@ const keyNumbers = [
     value: '$3.77×',
     label: 'Average markup ratio',
     sublabel: 'Doctors charge nearly 4× what Medicare pays',
-    icon: '📈'
+    icon: '📈',
+    href: '/markup',
   },
   {
     value: '500',
     label: 'AI-flagged providers',
     sublabel: 'ML model trained on confirmed fraudsters',
-    icon: '🤖'
+    icon: '🤖',
+    href: '/fraud/still-out-there',
   },
   {
     value: '10 years',
     label: 'Of Medicare data',
     sublabel: 'Payment data analyzed (2014-2023)',
-    icon: '📊'
+    icon: '📊',
+    href: '/trends',
   },
   {
     value: formatCurrency(keyStats.totalPayments),
     label: 'Total payments',
     sublabel: 'In our database',
-    icon: '💰'
+    icon: '💰',
+    href: '/providers',
   }
 ]
 
@@ -255,14 +259,14 @@ export default function HomePage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {keyNumbers.map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow">
+              <Link key={stat.label} href={stat.href} className="text-center group">
+                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow group-hover:ring-2 group-hover:ring-medicare-primary/30">
                   <div className="text-4xl mb-4">{stat.icon}</div>
                   <div className="text-4xl font-bold text-medicare-primary mb-2">{stat.value}</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">{stat.label}</div>
                   <div className="text-sm text-gray-600">{stat.sublabel}</div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -290,12 +294,12 @@ export default function HomePage() {
               {
                 stat: '59× markup',
                 description: 'A Beverly Hills surgeon charges 59 times what Medicare pays for wound care',
-                href: '/fraud/wound-care',
+                href: '/markup',
               },
               {
                 stat: '$19.7 Billion',
                 description: "One eye injection drug costs Medicare more than most agencies' budgets",
-                href: '/investigations/eye-care-billions',
+                href: '/drug-spending',
               },
               {
                 stat: '3.77×',
@@ -463,7 +467,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 59 Investigations
+              View All 64 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>

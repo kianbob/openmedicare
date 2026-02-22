@@ -343,7 +343,7 @@ export default function ProvidersPage() {
               <span className="text-sm text-gray-500">Sort by:</span>
               {([
                 ['totalPayments', 'Payments'],
-                ['fraudProbability', 'Fraud Prob'],
+                ['fraudProbability', 'Fraud Risk'],
                 ['avgMarkup', 'Markup'],
                 ['name', 'Name'],
               ] as [SortField, string][]).map(([field, label]) => (
@@ -402,7 +402,7 @@ export default function ProvidersPage() {
                     className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                     onClick={() => handleSort('fraudProbability')}
                   >
-                    Fraud Prob <SortArrow field="fraudProbability" />
+                    Fraud Risk <SortArrow field="fraudProbability" />
                   </th>
                 </tr>
               </thead>
