@@ -227,7 +227,7 @@ function getCredentialBadge(credentials: string): { label: string; color: string
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { npi } = await params
   const raw = loadProviderFile(npi)
-  const providerName = raw?.name || `Provider ${npi}`
+  const providerName = raw?.name || (raw?.first_name ? `${raw.first_name} ${raw.last_name || ''}`.trim() : `Provider ${npi}`)
   
   const title = `${providerName} — Medicare Billing Profile`
   const description = raw
@@ -325,7 +325,8 @@ export default async function ProviderDetailPage({ params }: PageProps) {
   const overall = raw.overall
   const yearly = raw.yearly_payments || []
   const topProcs = raw.top_procedures || []
-  const totalBeneficiaries = yearly.reduce((sum, y) => sum + (y.total_beneficiaries || 0), 0)
+  const totalBeneficiaries = yearly.reduce((sum: number, y: any) => sum + (y.total_beneficiaries || y.beneficiaries || 0), 0)
+  const provName = raw.name || (raw.first_name ? `${raw.first_name} ${raw.last_name || ''}`.trim() : `Provider ${npi}`)
 
   // ML v2 fraud model check
   const mlData = loadMlV2Results()
