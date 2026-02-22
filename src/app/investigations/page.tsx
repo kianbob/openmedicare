@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Investigations',
-  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 53 data-driven investigations.',
+  description: 'Deep-dive investigative reporting on Medicare spending patterns, fraud, and healthcare transparency. 59 data-driven investigations.',
   alternates: {
     canonical: '/investigations',
   },
@@ -525,6 +525,60 @@ const investigations = [
     readTime: '11 min read',
     publishedAt: '2026-02-21',
     excerpt: "39 New York providers were flagged by our AI fraud detection model for billing patterns that match convicted fraudsters. From Brooklyn clinics to Manhattan specialists, these providers warrant closer scrutiny."
+  },
+  {
+    title: 'How Much Does Your Doctor Make From Medicare?',
+    description: 'Interactive tool showing real Medicare payment data by specialty over 10 years.',
+    href: '/investigations/how-much-does-your-doctor-make',
+    category: 'Analysis',
+    readTime: '5 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'Select a specialty to see real payment data from 10 years of Medicare records. Interactive explorer of Medicare payments by specialty.'
+  },
+  {
+    title: 'Medicare By The Numbers',
+    description: 'A decade of American healthcare spending, distilled into the numbers that matter most.',
+    href: '/investigations/medicare-by-the-numbers',
+    category: 'Analysis',
+    readTime: '8 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'From $854.8 billion in total spending to 1.7 million providers, the essential statistics that define Medicare Part B over the last decade.'
+  },
+  {
+    title: 'The 10-Year Money Trail: How Medicare Spending Grew from $78B to $94B',
+    description: 'A decade of Medicare Part B data reveals a system that grew 20% while surviving a pandemic.',
+    href: '/investigations/the-10-year-money-trail',
+    category: 'Deep Dive',
+    readTime: '15 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'A decade of Medicare Part B data reveals a system that grew 20% — from $78B to $94B — while surviving a pandemic, absorbing 230,000 new providers, and delivering 400 million more services annually.'
+  },
+  {
+    title: '4,636 Doctors Billing the Impossible: Medicare\'s Phantom Workforce',
+    description: '4,636 providers billed more than 100 services per working day. The numbers demand scrutiny.',
+    href: '/investigations/the-4636-impossible-doctors',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: '4,636 Medicare providers billed more than 100 services per working day — led by Madhavi Rayapudi at 9,862 services/day. Most are drug unit billing, not necessarily fraud, but the numbers demand scrutiny.'
+  },
+  {
+    title: 'The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever',
+    description: 'COVID testing became the biggest gold rush in Medicare history. We tracked every dollar.',
+    href: '/investigations/the-covid-gold-rush',
+    category: 'Investigation',
+    readTime: '12 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'When the pandemic hit, COVID testing became the biggest gold rush in Medicare history. We tracked every dollar — $2.8 billion across 246 million services.'
+  },
+  {
+    title: 'Your Doctor vs. The Algorithm: What AI Found That Humans Missed',
+    description: 'We trained a machine learning model on 2,198 confirmed fraud cases and scored 1.7 million providers.',
+    href: '/investigations/your-doctor-vs-the-algorithm',
+    category: 'Deep Dive',
+    readTime: '14 min read',
+    publishedAt: '2026-02-21',
+    excerpt: 'We trained a machine learning model on 2,198 confirmed fraud cases. It scored 1.7 million providers. Here\'s what it looks for — and what it found.'
   },
 ]
 

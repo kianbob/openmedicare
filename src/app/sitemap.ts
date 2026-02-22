@@ -62,6 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'medicare-costs-by-state-2024',
     'highest-paid-doctors-medicare',
     'doge-medicare-fraud',
+    'how-much-does-your-doctor-make',
+    'medicare-by-the-numbers',
+    'the-10-year-money-trail',
+    'the-4636-impossible-doctors',
+    'the-covid-gold-rush',
+    'your-doctor-vs-the-algorithm',
   ]
 
   const staticPages = [

@@ -3,6 +3,43 @@ import { NextResponse } from 'next/server'
 const baseUrl = 'https://openmedicare.vercel.app'
 
 const items = [
+  // New articles - Feb 21 batch 2
+  {
+    title: 'How Much Does Your Doctor Make From Medicare?',
+    description: 'Select a specialty to see real payment data from 10 years of Medicare records. Interactive tool showing Medicare payments by specialty.',
+    link: '/investigations/how-much-does-your-doctor-make',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Medicare By The Numbers',
+    description: 'A decade of American healthcare spending, distilled into the numbers that matter most.',
+    link: '/investigations/medicare-by-the-numbers',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The 10-Year Money Trail: How Medicare Spending Grew from $78B to $94B',
+    description: 'A decade of Medicare Part B data reveals a system that grew 20% — from $78B to $94B — while surviving a pandemic, absorbing 230,000 new providers, and delivering 400 million more services annually.',
+    link: '/investigations/the-10-year-money-trail',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: '4,636 Doctors Billing the Impossible: Medicare\'s Phantom Workforce',
+    description: '4,636 Medicare providers billed more than 100 services per working day — led by Madhavi Rayapudi at 9,862 services/day. Most are drug unit billing (J-codes), not necessarily fraud, but the numbers demand scrutiny.',
+    link: '/investigations/the-4636-impossible-doctors',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever',
+    description: 'When the pandemic hit, COVID testing became the biggest gold rush in Medicare history. We tracked every dollar — $2.8 billion across 246 million services.',
+    link: '/investigations/the-covid-gold-rush',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
+  {
+    title: 'Your Doctor vs. The Algorithm: What AI Found That Humans Missed',
+    description: 'We trained a machine learning model on 2,198 confirmed fraud cases. It scored 1.7 million providers. Here\'s what it looks for — and what it found.',
+    link: '/investigations/your-doctor-vs-the-algorithm',
+    pubDate: '2026-02-21T00:00:00.000Z',
+  },
   // New SEO articles - Feb 2026
   {
     title: 'How Much Does Medicare Cost by State? The Complete 2024 Guide',
