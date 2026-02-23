@@ -197,7 +197,7 @@ function BarChart({ data, title, color }: { data: [string, number][]; title: str
                 className="h-3 rounded-full transition-all"
                 style={{ width: `${(value / max) * 100}%`, backgroundColor: color }}
               />
-            <InvestigationDisclaimer />            </div>
+            </div>
           </div>
         ))}
       </div>
@@ -341,6 +341,8 @@ export default function FraudHub() {
             )}
           </div>
         )}
+
+        <InvestigationDisclaimer />
 
         {/* Explore the Analysis — Cards */}
         <div className="mb-16">
