@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
   variable: '--font-playfair'
 })
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+const GA_ID = 'G-8VXQC61QX1'
 
 export const metadata: Metadata = {
   title: {
