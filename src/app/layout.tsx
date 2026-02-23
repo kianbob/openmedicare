@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     siteName: 'OpenMedicare',
     images: [
       {
-        url: '/opengraph-image',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'OpenMedicare — AI-Powered Medicare Fraud Detection',
+        alt: 'OpenMedicare — $854.8B in Medicare Exposed',
       },
     ],
   },
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     creator: '@thedataproject0',
     title: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
     description: 'AI scanned 1.72M providers and flagged 500 for fraud patterns. 10 years of data. Search any doctor free.',
-    images: ['/opengraph-image'],
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,

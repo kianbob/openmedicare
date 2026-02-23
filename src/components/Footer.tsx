@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
 const sisterSites = [
-  { name: 'OpenMedicaid', href: 'https://www.openmedicaid.org', description: 'Medicaid spending transparency' },
-  { name: 'OpenFeds', href: 'https://www.openfeds.org', description: 'Federal spending transparency' },
-  { name: 'OpenSpending', href: 'https://www.openspending.us', description: 'Government spending data' },
+  { name: 'OpenMedicaid', href: 'https://www.openmedicaid.org', description: 'Medicaid Spending Tracker' },
+  { name: 'OpenFeds', href: 'https://www.openfeds.org', description: 'Federal Workforce Tracker' },
+  { name: 'OpenSpending', href: 'https://www.openspending.us', description: 'Federal Spending Tracker' },
 ]
 
 const navigation = [
