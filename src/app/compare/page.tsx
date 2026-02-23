@@ -84,7 +84,7 @@ export default function ComparePage() {
       setSpecialties(sp.specialties || [])
       setFlagged(ml.still_out_there || [])
       setLoading(false)
-    })
+    }).catch(() => setLoading(false))
   }, [])
 
   const watchlistMap = useMemo(() => {

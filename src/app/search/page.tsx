@@ -89,7 +89,7 @@ export default function SearchPage() {
       ;(ml.still_out_there || []).forEach((p: FlaggedProvider) => map.set(String(p.npi), p))
       setFlaggedMap(map)
       setLoaded(true)
-    })
+    }).catch(() => setLoaded(true))
   }, [])
 
   const q = query.toLowerCase().trim()
@@ -319,23 +319,73 @@ export default function SearchPage() {
         )}
 
         {!q && loaded && (
-          <div className="space-y-8">
-            <div className="text-center py-8 text-gray-400">
-              <MagnifyingGlassIcon className="h-12 w-12 mx-auto mb-3 text-gray-300" />
-              <p className="text-lg">Start typing to search across all OpenMedicare data</p>
+          <div className="space-y-10">
+            {/* Category Cards */}
+            <div>
+              <h2 className="text-xl font-bold text-gray-900 font-playfair mb-4">Explore Medicare Data</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <Link href="/providers" className="group flex items-start gap-4 p-5 bg-blue-50 rounded-xl border border-blue-100 hover:border-[#1a73e8] hover:shadow-md transition-all">
+                  <span className="text-3xl">👨‍⚕️</span>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 group-hover:text-[#1a73e8]">Providers</h3>
+                    <p className="text-sm text-gray-600 mt-1">Search 1.7M+ Medicare providers by name, NPI, or specialty</p>
+                  </div>
+                </Link>
+                <Link href="/states" className="group flex items-start gap-4 p-5 bg-green-50 rounded-xl border border-green-100 hover:border-green-500 hover:shadow-md transition-all">
+                  <span className="text-3xl">🗺️</span>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 group-hover:text-green-700">States</h3>
+                    <p className="text-sm text-gray-600 mt-1">Compare Medicare spending across all 50 states</p>
+                  </div>
+                </Link>
+                <Link href="/specialties" className="group flex items-start gap-4 p-5 bg-purple-50 rounded-xl border border-purple-100 hover:border-purple-500 hover:shadow-md transition-all">
+                  <span className="text-3xl">🏥</span>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 group-hover:text-purple-700">Specialties</h3>
+                    <p className="text-sm text-gray-600 mt-1">Explore payment patterns across medical specialties</p>
+                  </div>
+                </Link>
+                <Link href="/investigations" className="group flex items-start gap-4 p-5 bg-rose-50 rounded-xl border border-rose-100 hover:border-rose-500 hover:shadow-md transition-all">
+                  <span className="text-3xl">🔍</span>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 group-hover:text-rose-700">Investigations</h3>
+                    <p className="text-sm text-gray-600 mt-1">59 data-driven investigations into Medicare spending</p>
+                  </div>
+                </Link>
+              </div>
+            </div>
+
+            {/* Quick Stats */}
+            <div className="flex flex-wrap justify-center gap-6 py-4">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-[#1a73e8]">1.72M</div>
+                <div className="text-xs text-gray-500">Providers</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-[#1a73e8]">$854.8B</div>
+                <div className="text-xs text-gray-500">Total Spending</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-[#1a73e8]">10 Years</div>
+                <div className="text-xs text-gray-500">2014–2023</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-[#1a73e8]">59</div>
+                <div className="text-xs text-gray-500">Investigations</div>
+              </div>
             </div>
 
             {/* Quick searches */}
             <div>
               <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3 flex items-center gap-2">
-                <FunnelIcon className="h-4 w-4" /> Popular Searches
+                <FunnelIcon className="h-4 w-4" /> Try Searching For
               </h2>
               <div className="flex flex-wrap gap-2">
                 {['California', 'Cardiology', 'Internal Medicine', 'Florida', 'Nurse Practitioner', 'wound care', 'covid', 'fraud'].map(term => (
                   <button
                     key={term}
                     onClick={() => setQuery(term)}
-                    className="px-3 py-1.5 text-sm bg-white border border-gray-200 rounded-full hover:bg-blue-50 hover:border-blue-300 transition-colors text-gray-700"
+                    className="px-3 py-1.5 text-sm bg-white border border-gray-200 rounded-full hover:bg-blue-50 hover:border-[#1a73e8] transition-colors text-gray-700"
                   >
                     {term}
                   </button>
