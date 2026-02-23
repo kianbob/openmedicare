@@ -69,9 +69,79 @@ export default function ProceduresPage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ name: 'Procedures', href: '/procedures' }]} />
         <div className="mb-8">
-          <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Procedure Explorer</h1>
-          <p className="text-lg text-gray-600">Browse the top 500 procedures and drugs by Medicare spending. Click any code for detailed provider and geographic breakdowns.</p>
+          <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Procedure Costs — Search 500 Procedures</h1>
+          <p className="text-lg text-gray-600">How much does Medicare pay for common procedures? Browse the top 500 procedures and drugs by total spending. Click any code for cost breakdowns, provider data, and 10-year trends.</p>
         </div>
+
+        {/* Common Procedures Quick Access */}
+        {procedures.length > 0 && (() => {
+          const common = [
+            { code: '99213', label: 'Office Visit (Est.)' },
+            { code: '99214', label: 'Office Visit (Detailed)' },
+            { code: '99215', label: 'Office Visit (Complex)' },
+            { code: '99232', label: 'Hospital Visit' },
+            { code: '99291', label: 'Critical Care' },
+            { code: '77386', label: 'Radiation Therapy' },
+            { code: 'J1745', label: 'Infliximab' },
+            { code: 'J2506', label: 'Pegfilgrastim' },
+          ].filter(c => procedures.some(p => p.code === c.code))
+          return common.length > 0 ? (
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+              <h2 className="text-lg font-semibold text-blue-900 mb-3">🔥 Most Searched Procedures</h2>
+              <div className="flex flex-wrap gap-2">
+                {common.map(c => (
+                  <Link key={c.code} href={`/procedures/${c.code}`}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-blue-200 rounded-full text-sm font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                    <span className="font-mono">{c.code}</span>
+                    <span className="text-blue-500">·</span>
+                    <span>{c.label}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null
+        })()}
+
+        {/* Cost Comparison */}
+        {procedures.length > 0 && (() => {
+          const sorted = [...procedures].sort((a, b) => b.total_payments - a.total_payments)
+          const top3 = sorted.slice(0, 3)
+          const bottom3 = sorted.filter(p => p.total_payments > 0).slice(-3).reverse()
+          return (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">💰 Most Expensive</h3>
+                {top3.map((p, i) => (
+                  <Link key={p.code} href={`/procedures/${p.code}`} className="flex items-center justify-between py-2 hover:bg-gray-50 rounded px-2 -mx-2 transition-colors">
+                    <div className="flex items-center gap-2">
+                      <span className="text-lg font-bold text-gray-300">#{i+1}</span>
+                      <div>
+                        <span className="font-mono text-sm text-blue-600">{p.code}</span>
+                        <div className="text-xs text-gray-500 truncate max-w-[200px]">{p.description}</div>
+                      </div>
+                    </div>
+                    <span className="font-semibold text-gray-900">{formatCurrency(p.total_payments)}</span>
+                  </Link>
+                ))}
+              </div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">💡 Least Expensive (in Top 500)</h3>
+                {bottom3.map((p, i) => (
+                  <Link key={p.code} href={`/procedures/${p.code}`} className="flex items-center justify-between py-2 hover:bg-gray-50 rounded px-2 -mx-2 transition-colors">
+                    <div className="flex items-center gap-2">
+                      <span className="text-lg font-bold text-gray-300">#{sorted.length - 2 + i}</span>
+                      <div>
+                        <span className="font-mono text-sm text-blue-600">{p.code}</span>
+                        <div className="text-xs text-gray-500 truncate max-w-[200px]">{p.description}</div>
+                      </div>
+                    </div>
+                    <span className="font-semibold text-gray-900">{formatCurrency(p.total_payments)}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })()}
 
         {/* Summary Stats */}
         {procedures.length > 0 && (
