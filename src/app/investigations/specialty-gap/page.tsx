@@ -9,8 +9,8 @@ import { formatCurrency } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Specialty Pay Gap',
-  description: 'Primary care physicians earn a fraction of what specialists receive from Medicare. An analysis of the specialty pay gap and its implications for healthcare access.',
+  title: 'Why Specialists Earn 7x More From Medicare',
+  description: 'Family doctors average $55K from Medicare while ophthalmologists pull $383K. See the 10-year data behind the specialty pay gap.',
 }
 
 interface SpecialtyRow {

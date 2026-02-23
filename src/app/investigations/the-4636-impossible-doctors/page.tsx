@@ -8,11 +8,11 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: '4,636 Doctors Billing the Impossible: Medicare\'s Phantom Workforce | OpenMedicare',
-  description: '4,636 Medicare providers billed more services per day than humanly possible. Top: Madhavi Rayapudi at 9,862/day. But many are drug unit billing, not fraud.',
+  title: '4,636 Doctors Billing 9,862 Services a Day',
+  description: 'One doctor billed 9,862 Medicare services in a single day. We found 4,636 providers with impossible numbers — and the truth behind them.',
   openGraph: {
-    title: '4,636 Doctors Billing the Impossible',
-    description: 'Medicare\'s phantom workforce: providers billing thousands of services per day. The truth is more nuanced than it appears.',
+    title: '4,636 Doctors Billing 9,862 Services a Day',
+    description: 'One doctor billed 9,862 Medicare services in a single day. We found 4,636 providers with impossible numbers — and the truth behind them.',
     type: 'article',
   },
 }

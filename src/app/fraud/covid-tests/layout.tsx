@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'COVID Test Billing Tracker',
-  description: 'Analysis of COVID-19 test billing fraud in Medicare. K1034 code abuse, top billers, and geographic hotspots.',
+  title: '$3.4B in Suspicious COVID Test Claims',
+  description: 'How providers exploited K1034 billing to rake in millions. See the worst offenders, geographic hotspots, and exposed schemes.',
   alternates: { canonical: '/fraud/covid-tests' },
 }
 

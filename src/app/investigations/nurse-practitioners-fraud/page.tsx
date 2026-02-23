@@ -9,13 +9,13 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk | OpenMedicare',
-  description: 'Nurse practitioners are Medicare\'s fastest-growing provider type — and emerging as a new fraud vector. Our AI model flagged NPs billing $1.6M+ while matching convicted fraudster patterns.',
+  title: 'NPs Flagged for Fraud: $1.6M Billed, 94% Match',
+  description: 'AI flagged nurse practitioners billing $1.6M+ with 94.3% fraud probability. NPs face less oversight than MDs — and the gap is growing.',
   keywords: ['nurse practitioner fraud', 'NP Medicare fraud', 'nurse practitioner billing', 'Medicare fraud risk', 'scope of practice fraud', 'NP oversight', 'Natalia Maximovsky', 'nurse practitioner overbilling'],
   alternates: { canonical: '/investigations/nurse-practitioners-fraud' },
   openGraph: {
-    title: 'Nurse Practitioners Under the Microscope: The Fastest-Growing Medicare Fraud Risk',
-    description: 'NPs are the fastest-growing Medicare provider type. Our AI flagged NPs billing $1.6M+ with 95% fraud probability. The oversight gap is real.',
+    title: 'NPs Flagged for Fraud: $1.6M Billed, 94% Match',
+    description: 'AI flagged nurse practitioners billing $1.6M+ with 94.3% fraud probability. NPs face less oversight than MDs — and the gap is growing.',
     url: 'https://www.openmedicare.com/investigations/nurse-practitioners-fraud',
   },
 }

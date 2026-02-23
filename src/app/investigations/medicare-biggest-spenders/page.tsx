@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "Medicare's Most Expensive Doctors",
-  description: 'The top individual providers billing Medicare collect hundreds of millions each. Who are they, and why do they receive so much?',
+  title: "Top 20 Highest-Paid Medicare Doctors Exposed",
+  description: 'One doctor billed $135M over 10 years. See which providers collect the most from Medicare, which specialties dominate, and why 200+ top earners are hidden.',
 }
 
 const topIndividuals = [

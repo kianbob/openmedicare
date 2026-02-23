@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Fraud Watchlist',
-  description: '500 Medicare providers flagged for suspicious billing patterns. Filter by risk score, specialty, state. Statistical analysis of outlier spending.',
+  title: 'Medicare Fraud Watchlist: 500 Flagged',
+  description: '500 Medicare providers ranked by AI fraud risk score. Filter by specialty, state, and anomaly type. See who billed the most — and why it looks wrong.',
   alternates: { canonical: '/fraud/watchlist' },
 }
 

@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Fraud Deep Dive Profiles',
-  description: 'Deep-dive profiles of the most suspicious individual Medicare providers. Risk scores, billing breakdowns, and peer comparisons.',
+  title: 'Deep Dives: 27 Highest-Risk Providers',
+  description: 'Full fraud profiles on Medicare\'s most suspicious billers. Risk scores, peer comparisons, red-flag timelines, and the exposed billing patterns.',
   alternates: { canonical: '/fraud/deep-dives' },
 }
 

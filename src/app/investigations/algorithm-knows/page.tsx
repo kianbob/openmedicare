@@ -9,12 +9,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Algorithm Knows: How AI Trained on 8,300 Convicted Fraudsters Found 500 Doctors Who Look Just Like Them | OpenMedicare',
-  description: 'We fed 10 years of Medicare billing data and 8,300+ confirmed fraud convictions into a machine learning model. It found 500 providers who bill exactly like caught criminals — but haven\'t been caught yet.',
+  title: 'AI Trained on 8,300 Fraudsters Found 500 Matches',
+  description: 'We trained a model on 8,300+ convicted Medicare fraudsters. It flagged 500 active doctors with identical billing patterns — and $400M in payments.',
   alternates: { canonical: '/investigations/algorithm-knows' },
   openGraph: {
-    title: 'The Algorithm Knows: AI Found 500 Doctors Who Bill Like Convicted Fraudsters',
-    description: 'A machine learning model trained on 8,300+ convicted Medicare fraudsters flagged 500 active providers with matching billing patterns. $400M in taxpayer money. Here\'s what the data shows.',
+    title: 'AI Trained on 8,300 Fraudsters Found 500 Matches',
+    description: 'We trained a model on 8,300+ convicted Medicare fraudsters. It flagged 500 active doctors with identical billing patterns — and $400M in payments.',
     url: 'https://www.openmedicare.com/investigations/algorithm-knows',
   },
 }

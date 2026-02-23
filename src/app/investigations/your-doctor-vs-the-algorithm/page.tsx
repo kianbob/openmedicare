@@ -10,11 +10,11 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'Your Doctor vs. The Algorithm: What AI Found That Humans Missed | OpenMedicare',
-  description: 'We trained a machine learning model on 2,198 confirmed fraud cases. It scored 1.7 million providers. Here\'s what it looks for — and what it found.',
+  title: 'Your Doctor vs. the Algorithm: What AI Exposed',
+  description: 'Our ML model trained on 2,198 fraud cases scored 1.7M providers. See the 10 red flags it weighs most and the doctors it flagged.',
   openGraph: {
-    title: 'Your Doctor vs. The Algorithm',
-    description: 'What AI found in Medicare billing that humans missed.',
+    title: 'Your Doctor vs. the Algorithm: What AI Exposed',
+    description: 'Our ML model trained on 2,198 fraud cases scored 1.7M providers. See the 10 red flags it weighs most and the doctors it flagged.',
   },
 }
 

@@ -10,11 +10,11 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Medicare's Millionaire Club: The 1% Who Bill the Most",
-  description: 'The average family doctor earns $55K from Medicare. These providers bill $10M+. Inside the millionaire club of Medicare billing.',
+  title: "Medicare's Top 1%: Who Bills Millions per Year",
+  description: 'The average family doctor earns $55K from Medicare. These providers bill $10M+. See the names, specialties, and billing data behind the top 1%.',
   openGraph: {
-    title: "Medicare's Millionaire Club: The 1% Who Bill the Most",
-    description: 'The average family doctor earns $55K from Medicare. These providers bill $10M+.',
+    title: "Medicare's Top 1%: Who Bills Millions per Year",
+    description: 'The average family doctor earns $55K from Medicare. These providers bill $10M+. See the names, specialties, and billing data behind the top 1%.',
   },
 }
 

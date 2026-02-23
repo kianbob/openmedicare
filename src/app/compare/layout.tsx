@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Compare Providers',
-  description: 'Compare Medicare providers side by side — payments, services, specialties, and more.',
+  title: 'Compare Medicare Providers Side by Side',
+  description: 'Compare any two Medicare doctors head-to-head. See who bills more, treats more patients, and how their payments stack up.',
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

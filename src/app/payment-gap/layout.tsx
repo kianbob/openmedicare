@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Payment Gap Analysis',
-  description: 'The difference between submitted charges and Medicare payments by specialty.',
+  title: 'Payment Gap: What Doctors Bill vs. Get Paid',
+  description: 'Exposed: the gap between what doctors charge and what Medicare actually pays. Compare markups across 70+ specialties with 10 years of data.',
   openGraph: {
-    title: 'Medicare Payment Gap Analysis',
-    description: 'The difference between submitted charges and Medicare payments by specialty.',
+    title: 'Payment Gap: What Doctors Bill vs. Get Paid',
+    description: 'Exposed: the gap between what doctors charge and what Medicare actually pays. Compare markups across 70+ specialties with 10 years of data.',
   },
 }
 

@@ -4,8 +4,8 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'About OpenMedicare',
-  description: 'Learn about OpenMedicare\'s methodology, data sources, and commitment to independent healthcare transparency journalism.',
+  title: 'Our Mission & Methodology',
+  description: 'How we analyze 96M+ rows of raw CMS data to expose Medicare fraud and billing anomalies. Independent, open-source data journalism.',
   alternates: {
     canonical: '/about',
   },

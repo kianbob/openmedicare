@@ -8,13 +8,13 @@ import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "Florida's Medicare Fraud Epidemic: 56 AI-Flagged Providers Billing $52M | OpenMedicare",
-  description: 'Florida has 56 AI-flagged Medicare providers tied #1 with California. South Florida remains the historic epicenter of Medicare fraud in the United States.',
+  title: "56 Providers Flagged for Fraud in Florida's $52M Crisis",
+  description: 'AI flagged 56 Florida Medicare providers billing $52M — tied #1 with California. See who was flagged in South Florida, America\'s fraud capital.',
   keywords: ['Florida Medicare fraud', 'Medicare fraud Miami', 'South Florida healthcare fraud', 'Medicare Fraud Strike Force', 'FL Medicare billing fraud'],
   alternates: { canonical: '/investigations/florida-medicare-fraud' },
   openGraph: {
-    title: "Florida's Medicare Fraud Epidemic: 56 AI-Flagged Providers Billing $52M",
-    description: 'FL has 56 ML-flagged providers billing $52M. South Florida remains America\'s Medicare fraud capital.',
+    title: "56 Providers Flagged for Fraud in Florida's $52M Crisis",
+    description: 'AI flagged 56 Florida Medicare providers billing $52M — tied #1 with California. See who was flagged in South Florida, America\'s fraud capital.',
     url: 'https://www.openmedicare.com/investigations/florida-medicare-fraud',
   },
 }

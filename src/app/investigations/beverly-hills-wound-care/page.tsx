@@ -11,12 +11,12 @@ import path from 'path'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Beverly Hills Plastic Surgeons Billing Medicare for Wound Care: A $45 Million Question',
-  description: '3 Beverly Hills plastic surgeons and 1 physician assistant billed Medicare $45.6 million — with 83-95% of billing in wound care, not cosmetic surgery. An investigation into Medicare wound care billing in America\'s wealthiest ZIP code.',
+  title: '$45M in Wound Care from Beverly Hills Plastic Surgeons',
+  description: '3 Beverly Hills cosmetic surgeons billed Medicare $45.6M — with 83-95% in wound care, not plastic surgery. Inside the 90210 billing anomaly.',
   alternates: { canonical: '/investigations/beverly-hills-wound-care' },
   openGraph: {
-    title: 'Beverly Hills Plastic Surgeons Billing Medicare for Wound Care: A $45 Million Question',
-    description: 'Cosmetic surgeons marketing facelifts and breast augmentation — but billing Medicare almost entirely for wound care products.',
+    title: '$45M in Wound Care from Beverly Hills Plastic Surgeons',
+    description: '3 Beverly Hills cosmetic surgeons billed Medicare $45.6M — with 83-95% in wound care, not plastic surgery. Inside the 90210 billing anomaly.',
     url: 'https://www.openmedicare.com/investigations/beverly-hills-wound-care',
   },
 }

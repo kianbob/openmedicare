@@ -8,12 +8,12 @@ import { formatCurrency } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Wound Care Industrial Complex: Medicare\'s Most Vulnerable Program',
-  description: 'HHS-OIG calls skin substitutes "particularly vulnerable to fraud." DOJ\'s $14.6B takedown targeted wound care. An investigation into Medicare wound care billing.',
+  title: 'The $14.6B Wound Care Fraud Crisis',
+  description: 'DOJ\'s largest-ever healthcare fraud bust targeted wound care. HHS-OIG flagged skin substitutes as "vulnerable to fraud." Inside the scheme.',
   alternates: { canonical: '/investigations/wound-care-crisis' },
   openGraph: {
-    title: 'The Wound Care Industrial Complex: Medicare\'s Most Vulnerable Program',
-    description: 'Skin substitutes, debridement markups, and the DOJ\'s largest-ever healthcare fraud takedown.',
+    title: 'The $14.6B Wound Care Fraud Crisis',
+    description: 'DOJ\'s largest-ever healthcare fraud bust targeted wound care. HHS-OIG flagged skin substitutes as "vulnerable to fraud."',
     url: 'https://www.openmedicare.com/investigations/wound-care-crisis',
   },
 }

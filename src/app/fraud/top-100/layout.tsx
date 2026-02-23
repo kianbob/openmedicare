@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Top 100 AI-Flagged Medicare Providers — Highest Fraud Probability | OpenMedicare',
+  title: 'Top 100 Riskiest Medicare Providers',
   description:
-    'The top 100 Medicare providers most likely to be committing fraud, ranked by AI probability score. ML model trained on 2,198 confirmed fraudsters scored 1.7M providers.',
+    'AI ranked 1.7M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers and their red flags.',
   keywords: [
     'top medicare fraud providers',
     'medicare fraud list',
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/fraud/top-100' },
   openGraph: {
-    title: 'Top 100 AI-Flagged Medicare Providers',
+    title: 'Top 100 Riskiest Medicare Providers',
     description:
-      'The 100 Medicare providers with the highest AI-predicted fraud probability. Trained on 2,198 confirmed fraudsters, scoring 1.7M providers.',
+      'AI ranked 1.7M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers and their red flags.',
     url: 'https://www.openmedicare.com/fraud/top-100',
     siteName: 'OpenMedicare',
     type: 'article',
@@ -26,15 +26,15 @@ export const metadata: Metadata = {
         url: 'https://www.openmedicare.com/og/still-out-there.png',
         width: 1200,
         height: 630,
-        alt: 'Top 100 AI-Flagged Medicare Providers',
+        alt: 'Top 100 Riskiest Medicare Providers',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Top 100 AI-Flagged Medicare Providers',
+    title: 'Top 100 Riskiest Medicare Providers',
     description:
-      'ML model trained on 2,198 confirmed fraudsters ranks the top 100 highest-risk Medicare providers.',
+      'AI ranked 1.7M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers.',
   },
 }
 

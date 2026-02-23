@@ -9,12 +9,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Medicare Spending by State: A Complete Breakdown',
-  description: 'Full state-by-state breakdown of Medicare spending. California leads with $93B total, but Florida leads per-provider at $121K. Sortable table of all 54 states and territories.',
+  title: 'Medicare Spending by State: All 54 Ranked',
+  description: 'California leads at $93B total, but Florida tops per-provider at $121K. See every state and territory ranked by Medicare payments, providers, and markups.',
   keywords: ['medicare spending by state', 'medicare costs by state', 'medicare payments by state', 'state medicare spending', 'medicare state comparison'],
   openGraph: {
-    title: 'Medicare Spending by State: A Complete Breakdown',
-    description: 'Every state ranked by total Medicare spending, per-provider payments, and markup ratios.',
+    title: 'Medicare Spending by State: All 54 Ranked',
+    description: 'California leads at $93B total, but Florida tops per-provider at $121K. See every state and territory ranked by Medicare payments, providers, and markups.',
   },
   alternates: {
     canonical: '/investigations/medicare-spending-by-state',

@@ -5,8 +5,8 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Methodology — How We Analyze Medicare Data',
-  description: 'Transparent explanation of our data sources, risk score calculations, limitations, and responsible disclosure practices.',
+  title: 'Our Methodology: 96M Rows of Medicare Data',
+  description: 'How we turn 96 million Medicare claims into fraud risk scores. Data sources, ML model details, limitations, and responsible disclosure — fully transparent.',
 }
 
 export default function MethodologyPage() {

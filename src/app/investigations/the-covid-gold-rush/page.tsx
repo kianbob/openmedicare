@@ -10,11 +10,11 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever | OpenMedicare',
-  description: 'When the pandemic hit, COVID testing became the biggest gold rush in Medicare history. We tracked every dollar — $2.8 billion across 246 million services.',
+  title: 'The COVID Gold Rush: $2.8B in Test Billing',
+  description: 'Medicare paid $2.8 billion for COVID tests — and most of it went to a handful of states. Inside the biggest billing gold rush in Medicare history.',
   openGraph: {
-    title: 'The COVID Gold Rush',
-    description: 'How $2.8B in COVID test billing changed Medicare forever.',
+    title: 'The COVID Gold Rush: $2.8B in Test Billing',
+    description: 'Medicare paid $2.8 billion for COVID tests — and most of it went to a handful of states. Inside the biggest billing gold rush in Medicare history.',
   },
 }
 

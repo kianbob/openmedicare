@@ -9,11 +9,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The $2.1 Trillion Writeoff: Why Doctors Charge 4x What They Get Paid',
-  description: 'Doctors submitted $3.22 trillion in charges to Medicare over 10 years. Medicare allowed $1.09 trillion. The other $2.14 trillion — 66.3% — was simply written off.',
+  title: 'The $2.1 Trillion Writeoff Nobody Talks About',
+  description: 'Doctors billed Medicare $3.22T over 10 years. Medicare paid $1.09T. The other $2.14T — 66.3% of all charges — vanished. Here\'s why.',
   openGraph: {
-    title: 'The $2.1 Trillion Writeoff',
-    description: 'Why doctors charge 4x what they know Medicare will pay — and where that $2.14 trillion goes.',
+    title: 'The $2.1 Trillion Writeoff Nobody Talks About',
+    description: 'Doctors billed Medicare $3.22T over 10 years. Medicare paid $1.09T. The other $2.14T — 66.3% of all charges — vanished. Here\'s why.',
   },
 }
 

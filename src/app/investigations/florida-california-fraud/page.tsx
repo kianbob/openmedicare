@@ -8,12 +8,12 @@ import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Fraud Belt: Why California and Florida Lead Medicare Fraud | OpenMedicare',
-  description: 'California and Florida each have 56 AI-flagged Medicare providers — 22.4% of all flags. Combined with NY, TX, and NJ, five states account for over half of all suspicious billing patterns.',
+  title: 'The Fraud Belt: 5 States Hold 44% of All Flags',
+  description: 'CA and FL are tied at 56 AI-flagged providers each. Add NY, TX, and NJ and 5 states hold 44% of all Medicare fraud flags. See the data.',
   alternates: { canonical: '/investigations/florida-california-fraud' },
   openGraph: {
-    title: 'The Fraud Belt: Why California and Florida Lead Medicare Fraud',
-    description: 'CA and FL tied at 56 flagged providers each. Fraud follows the sun — and the elderly population.',
+    title: 'The Fraud Belt: 5 States Hold 44% of All Flags',
+    description: 'CA and FL are tied at 56 AI-flagged providers each. Add NY, TX, and NJ and 5 states hold 44% of all Medicare fraud flags. See the data.',
     url: 'https://www.openmedicare.com/investigations/florida-california-fraud',
   },
 }

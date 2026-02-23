@@ -43,8 +43,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const n1 = STATE_NAMES[c1] || c1
   const n2 = STATE_NAMES[c2] || c2
   return {
-    title: `${n1} vs ${n2} Medicare Spending Comparison | OpenMedicare`,
-    description: `Compare Medicare spending between ${n1} and ${n2}: total payments, providers, per-provider spending, markup ratios, and flagged providers.`,
+    title: `${n1} vs ${n2}: Medicare Spending Compared`,
+    description: `${n1} or ${n2} — which state spends more? Compare payments, providers, markups, and flagged providers side by side.`,
   }
 }
 

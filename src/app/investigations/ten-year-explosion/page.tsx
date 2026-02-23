@@ -9,11 +9,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The 10-Year Explosion: How Medicare Spending Grew by $15 Billion',
-  description: 'Medicare spending grew 20% in 10 years — from $78B to $94B. COVID crashed it, then it rebounded past pre-pandemic levels. Where is it heading?',
+  title: 'Medicare\u2019s $15B Spending Surge in 10 Years',
+  description: 'Medicare Part B grew 20% in a decade — from $78B to $94B — adding 237K providers. COVID crashed it, then it roared back to record highs. See where it\u2019s heading.',
   openGraph: {
-    title: 'The 10-Year Explosion: How Medicare Spending Grew by $15 Billion',
-    description: 'Medicare spending grew 20% in 10 years while the system added 237K new providers.',
+    title: 'Medicare\u2019s $15B Spending Surge in 10 Years',
+    description: 'Medicare Part B grew 20% in a decade — from $78B to $94B — adding 237K providers. COVID crashed it, then it roared back to record highs. See where it\u2019s heading.',
   },
 }
 

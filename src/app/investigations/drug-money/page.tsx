@@ -9,11 +9,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "Follow the Drug Money: Medicare's Pharmaceutical Pipeline",
-  description: 'One eye injection drug costs Medicare $19.7 billion. Drug spending doubled its share from 8% to 15% in a decade. Follow the money.',
+  title: '1 Eye Drug Costs Medicare $19.7B: Follow the Money',
+  description: 'Aflibercept alone costs Medicare $19.7B — nearly 3x the NIH cancer budget. Drug spending doubled from 8% to 15% in a decade. See the top 20 drugs.',
   openGraph: {
-    title: "Follow the Drug Money: Medicare's Pharmaceutical Pipeline",
-    description: 'Aflibercept alone costs Medicare $19.7B — more than the entire NIH budget for cancer research.',
+    title: '1 Eye Drug Costs Medicare $19.7B: Follow the Money',
+    description: 'Aflibercept alone costs Medicare $19.7B — nearly 3x the NIH cancer budget. Drug spending doubled from 8% to 15% in a decade. See the top 20 drugs.',
   },
 }
 

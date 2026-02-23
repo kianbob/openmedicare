@@ -58,8 +58,8 @@ export async function generateMetadata({ params }: { params: Promise<{ code: str
   const { code } = await params
   const name = STATE_NAMES[code] || code
   return {
-    title: `Medicare Fraud Risk in ${name} | OpenMedicare`,
-    description: `Explore flagged Medicare providers, fraud hotspots, and billing anomalies in ${name}. Data-driven fraud risk analysis.`,
+    title: `${name} Medicare Fraud Risk: Flagged Providers`,
+    description: `${name} has AI-flagged Medicare providers with suspicious billing. See fraud hotspots, risk scores, and anomaly breakdowns.`,
   }
 }
 

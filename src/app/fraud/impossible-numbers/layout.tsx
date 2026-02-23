@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Impossible Numbers',
-  description: "Providers billing physically impossible volumes — 400+ services per day as a single practitioner. The math doesn't add up.",
+  title: '400+ Services a Day: Impossible Billing',
+  description: 'Some solo Medicare providers claim 400+ services per day — physically impossible. See the most extreme billing volumes exposed by the data.',
   alternates: { canonical: '/fraud/impossible-numbers' },
 }
 

@@ -8,11 +8,11 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Wound Care: America\'s Billion-Dollar Bandage | OpenMedicare',
-  description: '$5.5 billion in Medicare wound care payments. Skin substitutes that cost more than surgery. A Beverly Hills connection. This is America\'s most lucrative bandage.',
+  title: 'Wound Care: America\'s $5.5B Bandage Scheme',
+  description: '$5.5B in Medicare wound care. One nurse billed $135M for 90 patients. Spending surged 1,485% in 9 years. Inside the billion-dollar bandage.',
   openGraph: {
-    title: 'Wound Care: America\'s Billion-Dollar Bandage',
-    description: '$5.5 billion in wound care spending, driven by skin substitutes costing thousands per application.',
+    title: 'Wound Care: America\'s $5.5B Bandage Scheme',
+    description: '$5.5B in Medicare wound care. One nurse billed $135M for 90 patients. Spending surged 1,485% in 9 years.',
     type: 'article',
   },
 }

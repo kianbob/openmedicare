@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Utilization Analysis',
-  description: 'Patterns in Medicare service utilization and how it has changed over time.',
+  title: 'Medicare Utilization Breakdown',
+  description: 'Explore which Medicare services are surging, shrinking, or shifting. 96M+ claims reveal hidden patterns in how care is actually delivered.',
   openGraph: {
-    title: 'Medicare Utilization Analysis',
-    description: 'Patterns in Medicare service utilization and how it has changed over time.',
+    title: 'Medicare Utilization Breakdown | OpenMedicare',
+    description: 'Explore which Medicare services are surging, shrinking, or shifting. 96M+ claims reveal hidden patterns in how care is actually delivered.',
   },
 }
 

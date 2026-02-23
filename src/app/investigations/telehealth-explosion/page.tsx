@@ -10,12 +10,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Telehealth Explosion: How COVID Changed Medicare Forever',
-  description: 'COVID forced CMS to allow telehealth billing. Medicare spending crashed 10% in 2020 then rebounded past pre-pandemic levels. Telehealth is here to stay — but at what cost?',
+  title: 'How Telehealth Broke Medicare Wide Open',
+  description: 'COVID forced CMS to allow telehealth overnight. Spending crashed 10% in 2020, then surged past pre-pandemic highs. Inside the $94B system telehealth rebuilt.',
   alternates: { canonical: '/investigations/telehealth-explosion' },
   openGraph: {
-    title: 'The Telehealth Explosion: How COVID Changed Medicare Forever',
-    description: 'Medicare spending crashed 10% in 2020, providers dropped by 8,000, then everything changed.',
+    title: 'How Telehealth Broke Medicare Wide Open',
+    description: 'COVID forced CMS to allow telehealth overnight. Spending crashed 10% in 2020, then surged past pre-pandemic highs. Inside the $94B system telehealth rebuilt.',
     url: 'https://www.openmedicare.com/investigations/telehealth-explosion',
   },
 }

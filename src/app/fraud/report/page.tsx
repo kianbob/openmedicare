@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Report Medicare Fraud',
-  description: 'How to report Medicare fraud. OIG hotline, False Claims Act whistleblower rewards, and what counts as fraud.',
+  title: 'How to Report Medicare Fraud (Earn 15-30%)',
+  description: 'Step-by-step guide to reporting Medicare fraud. Call 1-800-HHS-TIPS or file online. Whistleblowers earn 15-30% of recovered funds under the False Claims Act.',
   alternates: { canonical: '/fraud/report' },
 }
 

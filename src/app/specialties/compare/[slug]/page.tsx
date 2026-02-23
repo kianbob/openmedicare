@@ -69,8 +69,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const n1 = s1?.specialty || pair[0]
   const n2 = s2?.specialty || pair[1]
   return {
-    title: `${n1} vs ${n2}: Medicare Billing Compared | OpenMedicare`,
-    description: `Compare Medicare billing between ${n1} and ${n2}: total payments, provider counts, per-provider spending, and markup ratios.`,
+    title: `${n1} vs ${n2}: Who Bills Medicare More?`,
+    description: `Head-to-head Medicare comparison: ${n1} vs ${n2}. See which specialty earns more per provider, bills higher markups, and dominates spending.`,
   }
 }
 

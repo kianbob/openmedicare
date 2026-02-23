@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Billion-Dollar Eye Care Industry',
-  description: 'Aflibercept alone costs Medicare $19.7 billion. Combined with cataracts and other procedures, eye care is one of the costliest corners of Medicare.',
+  title: 'Eye Care Costs Medicare $73B — One Drug Is $19.7B',
+  description: 'Aflibercept alone costs Medicare $19.7B. With cataracts and retinal procedures, eye care totals $73B. See the 20 costliest codes and why spending is surging.',
 }
 
 const eyeCareProcedures = [

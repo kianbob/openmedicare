@@ -8,12 +8,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The COVID Test Gold Rush: How Medicare Lost Billions to K1034 Fraud',
-  description: 'K1034 was created for COVID OTC tests at ~$12 each. Some providers billed millions. An investigation into Medicare COVID test billing fraud.',
+  title: '$2.8B in COVID Test Fraud, Exposed',
+  description: 'A $12 test code turned into a billion-dollar grift. One nurse billed 413 services per day. See the providers, the data, and the DOJ response.',
   alternates: { canonical: '/investigations/covid-test-scheme' },
   openGraph: {
-    title: 'The COVID Test Gold Rush: How Medicare Lost Billions to K1034 Fraud',
-    description: 'K1034 was created for COVID OTC tests at ~$12 each. Some providers billed millions.',
+    title: '$2.8B in COVID Test Fraud, Exposed',
+    description: 'A $12 test code turned into a billion-dollar grift. One nurse billed 413 services per day. See the providers, the data, and the DOJ response.',
     url: 'https://www.openmedicare.com/investigations/covid-test-scheme',
   },
 }

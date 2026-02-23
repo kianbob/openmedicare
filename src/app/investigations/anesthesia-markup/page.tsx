@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Anesthesia Markup Scandal',
-  description: 'Anesthesiologists charge 15.6x what Medicare actually pays — the highest markup among major medical specialties. An investigation into why.',
+  title: 'Anesthesiologists Charge 15.6x What Medicare Pays',
+  description: 'They billed $8.2B but Medicare paid $788M. Anesthesiologists have the highest markup of any major specialty — and patients pay the price.',
 }
 
 const topMarkupSpecialties = [

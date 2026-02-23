@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The State Spending Divide',
-  description: 'California receives $93.2 billion from Medicare while Wyoming gets $1.1 billion. Explore the massive geographic disparities in Medicare spending.',
+  title: 'Medicare by State: An 82x Spending Gap',
+  description: 'California gets $93B from Medicare while Wyoming gets $1.1B — an 82x gap. Explore which states spend the most and where markups run highest.',
 }
 
 const topStates = [

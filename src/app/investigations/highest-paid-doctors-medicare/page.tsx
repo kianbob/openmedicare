@@ -7,12 +7,12 @@ import ShareButtons from '@/components/ShareButtons'
 import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 
 export const metadata: Metadata = {
-  title: 'The Highest-Paid Doctors in Medicare: Who Earns the Most from Taxpayers?',
-  description: 'Data analysis of the highest-paid doctors in Medicare. From ophthalmologists billing $20M+ to the specialty pay gap. Based on $854.8B in CMS payment data.',
+  title: 'Top 1% of Medicare Doctors Earn $5M+ Per Year',
+  description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full $854.8B breakdown by specialty.',
   keywords: ['highest paid doctors medicare', 'top medicare earners', 'doctors who bill medicare the most', 'medicare highest paid physicians', 'medicare top billers'],
   openGraph: {
-    title: 'The Highest-Paid Doctors in Medicare: Who Earns the Most from Taxpayers?',
-    description: 'The top 1% of Medicare providers bill more than many hospitals. Data analysis of $854.8B in payments.',
+    title: 'Top 1% of Medicare Doctors Earn $5M+ Per Year',
+    description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full $854.8B breakdown by specialty.',
   },
   alternates: {
     canonical: '/investigations/highest-paid-doctors-medicare',

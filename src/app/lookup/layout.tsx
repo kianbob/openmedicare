@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Provider Lookup',
-  description: 'Look up any Medicare provider by NPI. Billing history, fraud flags, and peer comparison.',
+  title: 'Free Medicare Provider Lookup by NPI',
+  description: 'Search 1.7M+ Medicare providers instantly. See billing history, fraud risk scores, peer comparisons, and 10 years of payment data — all free.',
   openGraph: {
-    title: 'Medicare Provider Lookup',
-    description: 'Look up any Medicare provider by NPI. Billing history, fraud flags, and peer comparison.',
+    title: 'Free Medicare Provider Lookup by NPI',
+    description: 'Search 1.7M+ Medicare providers instantly. See billing history, fraud risk scores, peer comparisons, and 10 years of payment data — all free.',
   },
 }
 

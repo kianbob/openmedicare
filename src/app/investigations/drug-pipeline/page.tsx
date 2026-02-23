@@ -9,8 +9,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Medicare Drug Pipeline',
-  description: 'How prescription drug spending in Medicare grew from 11% to nearly 15% of total payments — and which drugs are driving it.',
+  title: 'Top 30 Drugs Draining Medicare: $94B Exposed',
+  description: 'Medicare drug spending surged from 11% to 15% of total payments. See the 30 costliest drugs — led by a $20B eye injection — and where the money goes.',
 }
 
 function loadDrugs() {

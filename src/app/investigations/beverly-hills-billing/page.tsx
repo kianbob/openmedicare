@@ -11,12 +11,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Beverly Hills: America\'s Most Expensive ZIP Code for Medicare',
-  description: 'Beverly Hills providers bill Medicare at rates far exceeding the national average. Plastic surgeons billing wound care, ambulatory surgery centers, and the luxury ZIP code effect.',
+  title: 'Beverly Hills: Medicare\'s Most Expensive ZIP Code',
+  description: 'Beverly Hills providers bill Medicare at rates far above the national average. $120M+ combined billing reveals the luxury ZIP code effect.',
   alternates: { canonical: '/investigations/beverly-hills-billing' },
   openGraph: {
-    title: 'Beverly Hills: America\'s Most Expensive ZIP Code for Medicare',
-    description: 'Three providers in our top 1,000 are from Beverly Hills — billing a combined $120M+ to Medicare.',
+    title: 'Beverly Hills: Medicare\'s Most Expensive ZIP Code',
+    description: 'Beverly Hills providers bill Medicare at rates far above the national average. $120M+ combined billing reveals the luxury ZIP code effect.',
     url: 'https://www.openmedicare.com/investigations/beverly-hills-billing',
   },
 }

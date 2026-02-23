@@ -8,13 +8,13 @@ import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "New York's Hidden Medicare Fraud: 39 AI-Flagged Providers | OpenMedicare",
-  description: 'New York has 39 AI-flagged Medicare providers — #3 nationally. Brooklyn and Queens are historic fraud hotspots, and the specialty mix includes Physical Medicine and Rehabilitation.',
+  title: "39 AI-Flagged Providers: NY's Hidden Fraud Problem",
+  description: 'New York ranks #3 with 39 AI-flagged Medicare providers billing $30M+. Brooklyn and Queens are the epicenters. See the top 5 flagged providers.',
   keywords: ['New York Medicare fraud', 'Medicare fraud Brooklyn', 'NYC healthcare fraud', 'Medicare fraud Queens', 'NY Medicare billing fraud', 'Physical Medicine fraud'],
   alternates: { canonical: '/investigations/new-york-medicare-fraud' },
   openGraph: {
-    title: "New York's Hidden Medicare Fraud: 39 AI-Flagged Providers",
-    description: 'NY has 39 ML-flagged providers — #3 nationally. Brooklyn and Queens remain historic fraud hotspots.',
+    title: "39 AI-Flagged Providers: NY's Hidden Fraud Problem",
+    description: 'New York ranks #3 with 39 AI-flagged Medicare providers billing $30M+. Brooklyn and Queens are the epicenters. See the top 5 flagged providers.',
     url: 'https://www.openmedicare.com/investigations/new-york-medicare-fraud',
   },
 }

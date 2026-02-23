@@ -9,12 +9,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'How Much Does Medicare Actually Pay Doctors?',
-  description: 'Average Medicare payment per provider by specialty: from $26K for nurse practitioners to $384K for ophthalmologists. See the full breakdown with real data.',
+  title: 'Medicare Pays Doctors $26K to $384K — Full Breakdown',
+  description: 'We analyzed 1.72M providers to reveal what Medicare actually pays each specialty. The 15x gap between the top and bottom will surprise you.',
   keywords: ['how much does medicare pay doctors', 'medicare reimbursement rates', 'medicare payment by specialty', 'medicare fee schedule', 'doctor medicare pay'],
   openGraph: {
-    title: 'How Much Does Medicare Actually Pay Doctors?',
-    description: 'From $26K for NPs to $384K for ophthalmology — the real numbers behind Medicare physician payments.',
+    title: 'Medicare Pays Doctors $26K to $384K — Full Breakdown',
+    description: 'We analyzed 1.72M providers to reveal what Medicare actually pays each specialty. The 15x gap between the top and bottom will surprise you.',
   },
   alternates: {
     canonical: '/investigations/how-much-does-medicare-pay',

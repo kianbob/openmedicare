@@ -9,12 +9,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Most Expensive Medicare Procedures in 2023',
-  description: 'Top 20 most expensive Medicare procedures by total payments and average cost per service. From office visits to aflibercept injections and chemotherapy.',
+  title: '20 Most Expensive Medicare Procedures (2023)',
+  description: 'A $73 office visit costs Medicare more than any drug or surgery. See the top 20 procedures ranked by total spending and per-service cost.',
   keywords: ['most expensive medicare procedures', 'medicare procedure costs', 'expensive medical procedures medicare', 'medicare billing codes', 'HCPCS codes medicare'],
   openGraph: {
-    title: 'The Most Expensive Medicare Procedures in 2023',
-    description: 'Office visits dominate by volume, but what actually costs the most? The data tells a surprising story.',
+    title: '20 Most Expensive Medicare Procedures (2023)',
+    description: 'A $73 office visit costs Medicare more than any drug or surgery. See the top 20 procedures ranked by total spending and per-service cost.',
   },
   alternates: {
     canonical: '/investigations/most-expensive-medicare-procedures',

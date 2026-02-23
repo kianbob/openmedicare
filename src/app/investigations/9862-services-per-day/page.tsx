@@ -9,11 +9,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: '9,862 Services Per Day: The Most Impossible Doctor in America',
-  description: 'One provider billed Medicare for 2.47 million services in 2023. That\'s 9,862 per working day — or one every 2.9 seconds for 8 hours straight.',
+  title: '9,862 Services in 1 Day: Medicare\'s Most Impossible Doctor',
+  description: 'One doctor billed Medicare for 2.47M services in a year — 9,862 per day, or 1 every 2.9 seconds. We broke down the math.',
   openGraph: {
-    title: '9,862 Services Per Day',
-    description: 'The most impossible billing in Medicare — one service every 2.9 seconds, all day, every day.',
+    title: '9,862 Services in 1 Day: Medicare\'s Most Impossible Doctor',
+    description: 'One doctor billed Medicare for 2.47M services in a year — 9,862 per day, or 1 every 2.9 seconds. We broke down the math.',
   },
 }
 

@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Markup Analysis',
-  description: 'The gap between what doctors charge and what Medicare pays across specialties and providers.',
+  title: 'Doctors Charge Up to 10x What Medicare Pays',
+  description: 'See the staggering gap between billed charges and actual payments. Ranked by specialty, state, and provider with yearly trend data.',
   openGraph: {
-    title: 'Medicare Markup Analysis',
-    description: 'The gap between what doctors charge and what Medicare pays across specialties and providers.',
+    title: 'Doctors Charge Up to 10x What Medicare Pays',
+    description: 'See the staggering gap between billed charges and actual payments. Ranked by specialty, state, and provider with yearly trend data.',
   },
 }
 

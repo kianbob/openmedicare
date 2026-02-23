@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How Much Does Your Doctor Make From Medicare? | OpenMedicare',
-  description: 'Look up any medical specialty and see how much Medicare pays providers — average earnings, top earners, and state-by-state breakdowns from 10 years of public data.',
+  title: 'How Much Does Your Doctor Make?',
+  description: 'Look up any specialty to see real Medicare pay data. Average earnings, top billers, and state breakdowns from 10 years of claims.',
   openGraph: {
-    title: 'How Much Does Your Doctor Make From Medicare?',
-    description: 'Pick a specialty. See what Medicare actually pays. Based on 10 years of real billing data.',
+    title: 'How Much Does Your Doctor Make?',
+    description: 'Look up any specialty to see real Medicare pay data. Average earnings, top billers, and state breakdowns from 10 years of claims.',
     url: 'https://www.openmedicare.com/investigations/how-much-does-your-doctor-make',
   },
 }

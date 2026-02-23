@@ -11,12 +11,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Three Providers, Three Red Flags: Inside Medicare\'s Most Suspicious Billing Patterns',
-  description: 'A nurse practitioner billing $12.1M in COVID tests. A Beverly Hills plastic surgeon billing $28.9M in wound care. An anti-aging spa doctor with a 197.7x markup. Three providers, three statistical anomalies.',
+  title: '3 Providers, 3 Red Flags: $55M in Suspicious Bills',
+  description: '$12.1M in COVID tests from one nurse. $28.9M in wound care from a plastic surgeon. $8M from an anti-aging spa. The data behind Medicare\'s wildest outliers.',
   alternates: { canonical: '/investigations/three-providers' },
   openGraph: {
-    title: 'Three Providers, Three Red Flags: Inside Medicare\'s Most Suspicious Billing Patterns',
-    description: 'A nurse practitioner billing $12.1M in COVID tests. A Beverly Hills plastic surgeon billing $28.9M in wound care. An anti-aging spa doctor with a 197.7x markup.',
+    title: '3 Providers, 3 Red Flags: $55M in Suspicious Bills',
+    description: '$12.1M in COVID tests from one nurse. $28.9M in wound care from a plastic surgeon. $8M from an anti-aging spa. The data behind Medicare\'s wildest outliers.',
     url: 'https://www.openmedicare.com/investigations/three-providers',
   },
 }

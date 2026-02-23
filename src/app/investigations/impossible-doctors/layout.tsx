@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Impossible Doctors: Providers Billing More Services Than Hours in a Day',
-  description: 'Some Medicare providers bill for more services in a day than is physically possible. We identified the most extreme cases and what their billing patterns reveal.',
+  title: 'The Impossible Doctors: 400+ Services/Day',
+  description: '4,636 Medicare providers bill more services per day than is physically possible. One billed 9,862. We did the math on every single one.',
   openGraph: {
-    title: 'The Impossible Doctors: Providers Billing More Services Than Hours in a Day',
-    description: 'Medicare providers billing physically impossible volumes — some over 1,000 services per working day.',
+    title: 'The Impossible Doctors: 400+ Services/Day',
+    description: '4,636 Medicare providers bill more services per day than is physically possible. One billed 9,862. We did the math on every single one.',
     url: 'https://www.openmedicare.com/investigations/impossible-doctors',
   },
 }

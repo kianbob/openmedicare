@@ -11,12 +11,12 @@ import fs from 'fs'
 import path from 'path'
 
 export const metadata: Metadata = {
-  title: 'Our Data Predicted It: How Statistical Analysis Flagged Providers Before the DOJ Did',
-  description: 'OpenMedicare\'s fraud detection algorithm flagged 500 providers using public Medicare data. At least 6 were subsequently charged by the DOJ. Here\'s the proof that statistical analysis works.',
+  title: 'We Flagged 500 Providers. The DOJ Agreed.',
+  description: 'Our algorithm flagged 500 suspicious Medicare providers using public data. At least 6 were later charged in a $14.6B DOJ fraud sweep. Here is the proof.',
   alternates: { canonical: '/investigations/data-predicted-fraud' },
   openGraph: {
-    title: 'Our Data Predicted It: Statistical Analysis Flagged Providers Before the DOJ Did',
-    description: 'We flagged 500 providers. The DOJ charged 324 people in $14.6B of fraud. Multiple of our top-flagged providers were among them.',
+    title: 'We Flagged 500 Providers. The DOJ Agreed.',
+    description: 'Our algorithm flagged 500 suspicious Medicare providers using public data. At least 6 were later charged in a $14.6B DOJ fraud sweep. Here is the proof.',
     url: 'https://www.openmedicare.com/investigations/data-predicted-fraud',
   },
 }

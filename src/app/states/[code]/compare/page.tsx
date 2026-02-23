@@ -48,8 +48,8 @@ export async function generateMetadata({ params }: { params: Promise<{ code: str
   const state = states.find(s => s.state === code.toUpperCase())
   const name = state?.state_name || code.toUpperCase()
   return {
-    title: `How ${name} Medicare Spending Compares | OpenMedicare`,
-    description: `Compare ${name}'s Medicare spending, markup ratios, and provider statistics to the national average.`,
+    title: `${name} vs National Average: Medicare Spending`,
+    description: `See how ${name} stacks up: per-provider payments, markup ratios, flagged providers, and more versus the national average.`,
   }
 }
 

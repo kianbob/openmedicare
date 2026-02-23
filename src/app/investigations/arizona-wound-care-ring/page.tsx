@@ -11,12 +11,12 @@ import fs from 'fs'
 import path from 'path'
 
 export const metadata: Metadata = {
-  title: 'The Arizona Wound Care Ring: $514 Million Billed by 23 Nurse Practitioners for 2,974 Patients',
-  description: '23 nurse practitioners in the Phoenix metro area billed Medicare $514.3 million for skin substitute products — for just 2,974 patients. Top billers charged $1.5 million per patient. All share a nearly identical 1.28x markup ratio.',
+  title: '23 Nurse Practitioners Billed $514M for 2,974 Patients',
+  description: '23 Phoenix-area NPs billed Medicare $514M for skin substitutes — $173K per patient. All share an identical 1.28x markup ratio. See the full breakdown.',
   alternates: { canonical: '/investigations/arizona-wound-care-ring' },
   openGraph: {
-    title: 'The Arizona Wound Care Ring: $514 Million Billed by 23 NPs for 2,974 Patients',
-    description: '$514.3 million in skin substitute billing. 2,974 patients. $173,000 per patient average. A nearly identical 1.28x markup across 23 providers in Phoenix.',
+    title: '23 Nurse Practitioners Billed $514M for 2,974 Patients',
+    description: '23 Phoenix-area NPs billed Medicare $514M for skin substitutes — $173K per patient. All share an identical 1.28x markup ratio. See the full breakdown.',
     url: 'https://www.openmedicare.com/investigations/arizona-wound-care-ring',
   },
 }

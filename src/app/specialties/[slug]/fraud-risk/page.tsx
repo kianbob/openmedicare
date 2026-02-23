@@ -60,8 +60,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const spec = specialties.find(s => s.specialty_slug === slug)
   const name = spec?.specialty || slug
   return {
-    title: `Medicare Fraud Risk in ${name} | OpenMedicare`,
-    description: `Fraud risk analysis for ${name} Medicare providers. Flagged providers, common billing anomalies, and markup analysis.`,
+    title: `${name} Fraud Risk: Flagged Medicare Providers`,
+    description: `See which ${name} providers got flagged for billing anomalies. Risk scores, markup ratios, and common red flags exposed.`,
   }
 }
 

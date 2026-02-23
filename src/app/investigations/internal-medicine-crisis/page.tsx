@@ -8,12 +8,12 @@ import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Why Internal Medicine Is Ground Zero for Medicare Fraud | OpenMedicare',
-  description: '263 of 500 AI-flagged providers (53%) are Internal Medicine specialists. High-volume billing, broad procedure codes, and easy-to-pad office visits make IM the #1 specialty for fraud-pattern matches.',
+  title: '53% of AI-Flagged Medicare Providers Share 1 Specialty',
+  description: '263 of 500 AI-flagged providers are Internal Medicine doctors. High volume, broad codes, and subjective visits make it the #1 specialty for fraud-pattern matches.',
   alternates: { canonical: '/investigations/internal-medicine-crisis' },
   openGraph: {
-    title: 'Why Internal Medicine Is Ground Zero for Medicare Fraud',
-    description: '53% of all AI-flagged Medicare providers are Internal Medicine. Volume + discretion = opportunity.',
+    title: '53% of AI-Flagged Medicare Providers Share 1 Specialty',
+    description: '263 of 500 AI-flagged providers are Internal Medicine doctors. High volume, broad codes, and subjective visits make it the #1 specialty for fraud-pattern matches.',
     url: 'https://www.openmedicare.com/investigations/internal-medicine-crisis',
   },
 }

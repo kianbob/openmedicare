@@ -7,12 +7,12 @@ import ShareButtons from '@/components/ShareButtons'
 import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 
 export const metadata: Metadata = {
-  title: 'What DOGE Should Know About Medicare Fraud: $854B in Data, 500 AI Flags',
-  description: 'The Department of Government Efficiency wants to cut waste. Here\'s what $854.8B in Medicare data reveals: 500 AI-flagged providers, $60B+ in estimated fraud, and the patterns DOGE should target first.',
+  title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
+  description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   keywords: ['DOGE medicare', 'DOGE medicare fraud', 'department of government efficiency medicare', 'DOGE healthcare waste', 'elon musk medicare', 'government efficiency medicare'],
   openGraph: {
-    title: 'What DOGE Should Know About Medicare Fraud: $854B in Data, 500 AI Flags',
-    description: 'The Department of Government Efficiency wants to cut waste. Here\'s what the data says about where to start.',
+    title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
+    description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   },
   alternates: {
     canonical: '/investigations/doge-medicare-fraud',

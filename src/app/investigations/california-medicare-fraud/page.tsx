@@ -8,13 +8,13 @@ import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "California's Medicare Fraud Problem: 56 AI-Flagged Providers and $47M in Payments | OpenMedicare",
-  description: 'California has 56 AI-flagged Medicare providers — tied #1 with Florida. Internal Medicine dominates, Los Angeles is the epicenter, and our ML model found patterns matching convicted fraudsters.',
+  title: "56 AI-Flagged Providers in California ($47M)",
+  description: 'California ties Florida at #1 for AI-flagged Medicare providers. LA is the epicenter, Internal Medicine dominates, and billing patterns match convicted fraudsters.',
   keywords: ['California Medicare fraud', 'Medicare fraud Los Angeles', 'CA healthcare fraud', 'Medicare fraud California', 'Southern California Medicare billing', 'Internal Medicine fraud California'],
   alternates: { canonical: '/investigations/california-medicare-fraud' },
   openGraph: {
-    title: "California's Medicare Fraud Problem: 56 AI-Flagged Providers",
-    description: 'CA has 56 ML-flagged providers billing $47M+ in Medicare payments. LA dominates the flags.',
+    title: "56 AI-Flagged Medicare Providers in California",
+    description: 'California ties Florida at #1 for AI-flagged Medicare providers. LA is the epicenter, Internal Medicine dominates, and billing patterns match convicted fraudsters.',
     url: 'https://www.openmedicare.com/investigations/california-medicare-fraud',
   },
 }

@@ -9,11 +9,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "Houston: America's Medicare Capital",
-  description: 'Houston leads the nation with $9.24 billion in Medicare spending — more than most states. Why the Bayou City dominates American healthcare billing.',
+  title: "Houston Spends $9.24B on Medicare — More Than Most States",
+  description: '19,925 providers. $463K per doctor. Houston dominates U.S. Medicare spending thanks to the Texas Medical Center effect. See the top 20 cities ranked.',
   openGraph: {
-    title: "Houston: America's Medicare Capital",
-    description: '$9.24 billion in Medicare spending. 19,925 providers. The Texas Medical Center effect.',
+    title: "Houston Spends $9.24B on Medicare — More Than Most States",
+    description: '19,925 providers. $463K per doctor. Houston dominates U.S. Medicare spending thanks to the Texas Medical Center effect. See the top 20 cities ranked.',
   },
 }
 

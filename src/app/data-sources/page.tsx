@@ -3,8 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
-  title: 'Data Sources — Where Our Medicare Data Comes From | OpenMedicare',
-  description: 'Complete list of data sources powering OpenMedicare, including CMS Medicare claims, HHS OIG exclusions, and DOJ fraud cases with freshness dates and record counts.',
+  title: '5 Data Sources Behind 96M+ Medicare Claims',
+  description: 'Every number verified from public CMS claims, OIG exclusion lists, and DOJ fraud cases. See exactly where our data comes from, how fresh it is, and what it covers.',
 }
 
 const dataSources = [

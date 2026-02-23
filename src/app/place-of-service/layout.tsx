@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Place of Service Analysis',
-  description: 'Where Medicare services are delivered — office, facility, ASC, telehealth.',
+  title: 'Where Medicare Dollars Are Spent',
+  description: 'See how $800B+ in Medicare spending breaks down by setting — office visits, hospitals, ASCs, and telehealth. Interactive charts and data.',
   openGraph: {
-    title: 'Medicare Place of Service Analysis',
-    description: 'Where Medicare services are delivered — office, facility, ASC, telehealth.',
+    title: 'Where Medicare Dollars Are Spent',
+    description: 'See how $800B+ in Medicare spending breaks down by setting — office visits, hospitals, ASCs, and telehealth. Interactive charts and data.',
   },
 }
 

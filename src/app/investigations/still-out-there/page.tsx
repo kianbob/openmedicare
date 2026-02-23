@@ -6,11 +6,11 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Still Out There: 500 Providers Who Bill Like Convicted Fraudsters',
-  description: 'Our ML model trained on 2,198 confirmed Medicare fraudsters scored 1.7 million providers. 500 match fraud patterns with 86%+ probability — totaling $400 million in Medicare payments.',
+  title: '500 Providers Still Billing Like Fraudsters',
+  description: 'ML model trained on 2,198 convicted Medicare fraudsters flags 500 active providers matching fraud patterns at 86%+ probability. $400M in payments exposed.',
   openGraph: {
-    title: 'Still Out There: 500 Providers Who Bill Like Convicted Fraudsters',
-    description: 'AI trained on 2,198 caught fraudsters finds 500 providers with identical billing patterns still active in Medicare.',
+    title: '500 Providers Still Billing Like Fraudsters',
+    description: 'ML model trained on 2,198 convicted Medicare fraudsters flags 500 active providers matching fraud patterns at 86%+ probability. $400M in payments exposed.',
     url: 'https://www.openmedicare.com/investigations/still-out-there',
   },
 }

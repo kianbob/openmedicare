@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The $117 Billion Office Visit Economy',
-  description: 'Two billing codes — 99213 and 99214 — account for $117.6 billion in Medicare payments. The upcoding concern is real.',
+  title: '2 Billing Codes, $117B: The Office Visit Problem',
+  description: 'Codes 99213 and 99214 drive $117.6 billion in Medicare payments. With 99214 billed 1.44x more than 99213, upcoding may cost taxpayers billions.',
 }
 
 const officeVisitCodes = [

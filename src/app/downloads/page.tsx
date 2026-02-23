@@ -5,8 +5,8 @@ import SourceCitation from '@/components/SourceCitation'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Data Downloads',
-  description: 'Download Medicare provider payment data, fraud watchlist, spending analysis, and research datasets in JSON format. Free, open data for journalists, researchers, and developers.',
+  title: 'Free Medicare Data Downloads',
+  description: 'Download 19 Medicare datasets in JSON and CSV. Provider payments, fraud watchlists, ML risk scores, and 10 years of spending trends. CC BY 4.0.',
 }
 
 function getFileSize(_filePath: string): string {

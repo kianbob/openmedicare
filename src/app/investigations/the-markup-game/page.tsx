@@ -9,11 +9,11 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'The Markup Game: Why Medicare Pays $100 for a $3 Test | OpenMedicare',
-  description: 'Providers charge Medicare $3.2 trillion. Medicare pays $855 billion. The $2.1 trillion gap is the markup game — and it\'s getting worse every year.',
+  title: 'The Markup Game: $100 for a $3 Test',
+  description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $855B. The $2.1T gap reveals a broken pricing system getting worse every year.',
   openGraph: {
-    title: 'The Markup Game',
-    description: 'Why providers charge Medicare 3-4x what they actually get paid — and what it means.',
+    title: 'The Markup Game: $100 for a $3 Test',
+    description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $855B. The $2.1T gap reveals a broken pricing system getting worse every year.',
   },
 }
 

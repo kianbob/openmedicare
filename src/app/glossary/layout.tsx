@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Glossary — Medicare & Fraud Detection Terms | OpenMedicare',
-  description: 'Comprehensive A-Z glossary of Medicare terminology, fraud detection metrics, billing codes, and machine learning concepts used in OpenMedicare analysis.',
+  title: '200+ Medicare & Fraud Terms Defined',
+  description: 'A-Z glossary of Medicare billing codes, fraud detection metrics, and key terms. Plain-English definitions for every abbreviation and concept.',
   openGraph: {
-    title: 'Medicare & Fraud Detection Glossary',
-    description: 'Definitions for every term, metric, and abbreviation used across OpenMedicare.',
+    title: '200+ Medicare & Fraud Terms Defined',
+    description: 'A-Z glossary of Medicare billing codes, fraud detection metrics, and key terms. Plain-English definitions for every abbreviation and concept.',
   },
 }
 

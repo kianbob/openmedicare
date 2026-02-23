@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const data = loadSpecialty(slug)
   const name = data?.specialty || slug
-  return { title: `${name} Medicare Spending — OpenMedicare`, description: `Medicare spending analysis for ${name}: top providers, procedures, geographic distribution, and 10-year trends.` }
+  return { title: `${name}: Medicare Spending & Top Providers`, description: `How much does Medicare spend on ${name}? Explore top providers, highest-paid procedures, and 10-year spending trends.` }
 }
 
 export default async function SpecialtyDetailPage({ params }: { params: Promise<{ slug: string }> }) {

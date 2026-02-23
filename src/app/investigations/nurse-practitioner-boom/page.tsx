@@ -10,12 +10,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Rise of the Nurse Practitioner: Medicare\'s Fastest-Growing Workforce',
-  description: 'Nurse practitioners are 11.4% of Medicare providers but earn just $26K average. Some NPs bill millions. The scope of practice debate meets Medicare data.',
+  title: 'Nurse Practitioner Boom: 11% of Medicare, $26K Avg',
+  description: '1.2M nurse practitioners now dominate Medicare — yet earn just $26K avg while some bill millions. The data behind healthcare\'s biggest workforce shift.',
   alternates: { canonical: '/investigations/nurse-practitioner-boom' },
   openGraph: {
-    title: 'The Rise of the Nurse Practitioner: Medicare\'s Fastest-Growing Workforce',
-    description: '1.2 million NP billing records, $31.5 billion in payments, and a workforce reshaping American healthcare.',
+    title: 'Nurse Practitioner Boom: 11% of Medicare, $26K Avg',
+    description: '1.2M nurse practitioners now dominate Medicare — yet earn just $26K avg while some bill millions. The data behind healthcare\'s biggest workforce shift.',
     url: 'https://www.openmedicare.com/investigations/nurse-practitioner-boom',
   },
 }

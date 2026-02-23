@@ -231,10 +231,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const raw = loadProviderFile(npi)
   const providerName = raw?.name || (raw?.first_name ? `${raw.first_name} ${raw.last_name || ''}`.trim() : `Provider ${npi}`)
   
-  const title = `${providerName} — Medicare Billing Profile`
+  const title = `${providerName}: Medicare Payments & Billing`
   const description = raw
-    ? `${providerName} (${raw.specialty}) in ${raw.city}, ${raw.state} — ${formatCurrency(raw.overall.total_payments)} in Medicare payments. View billing patterns, procedures, and peer comparisons.`
-    : `Medicare payment details for provider ${npi}.`
+    ? `${providerName} received ${formatCurrency(raw.overall.total_payments)} from Medicare. See exact payments, top procedures, and how this ${raw.specialty} in ${raw.city}, ${raw.state} compares.`
+    : `Look up Medicare payments, billing patterns, and procedures for provider ${npi}.`
   
   return {
     title,

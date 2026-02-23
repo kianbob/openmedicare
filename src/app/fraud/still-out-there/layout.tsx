@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Still Out There — 500 ML-Flagged Medicare Providers | OpenMedicare',
+  title: '500 Unflagged Providers Exposed by AI',
   description:
-    'A supervised ML model trained on 2,198 confirmed fraudsters scored 1.7M Medicare providers. These 500 unflagged providers bill like known criminals but haven\'t been caught.',
+    'Our ML model trained on 2,198 convicted fraudsters found 500 providers nobody flagged. Their billing mirrors known criminals — see who made the list.',
   openGraph: {
-    title: 'Still Out There — 500 ML-Flagged Medicare Providers',
+    title: '500 Unflagged Providers Exposed by AI | OpenMedicare',
     description:
-      'A supervised ML model trained on 2,198 confirmed fraudsters identified 500 unflagged providers whose billing patterns match known fraud.',
+      'Our ML model trained on 2,198 convicted fraudsters found 500 providers nobody flagged. Their billing mirrors known criminals — see who made the list.',
     url: 'https://www.openmedicare.com/fraud/still-out-there',
     siteName: 'OpenMedicare',
     type: 'article',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Still Out There — 500 ML-Flagged Medicare Providers',
+    title: '500 Unflagged Providers Exposed by AI | OpenMedicare',
     description:
-      'ML model trained on 2,198 confirmed fraudsters flags 500 unflagged providers billing like known criminals.',
+      'Our ML model trained on 2,198 convicted fraudsters found 500 providers nobody flagged. Their billing mirrors known criminals — see who made the list.',
   },
 }
 

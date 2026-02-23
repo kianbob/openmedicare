@@ -8,8 +8,8 @@ import { formatCurrency, formatPercent } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Medicare Markup Machine',
-  description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling.',
+  title: '$2.1 Trillion in Phantom Charges: Inside the Markup',
+  description: 'Providers charged Medicare $3.2T but got paid $855B — a 66% write-off rate. See which specialties mark up the most and why the gap keeps widening.',
   alternates: {
     canonical: '/investigations/markup-machine',
   },

@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Wound Care Fraud Watchlist',
-  description: "DOJ's #1 fraud target: wound care billing. Analysis of skin substitute codes, debridement markups, and suspicious providers.",
+  title: 'Wound Care: DOJ\'s #1 Fraud Target',
+  description: 'Exposed: skin substitute schemes and debridement markups costing Medicare billions. See why DOJ is cracking down and who\'s flagged.',
   alternates: { canonical: '/fraud/wound-care' },
 }
 

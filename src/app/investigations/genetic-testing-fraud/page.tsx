@@ -6,11 +6,11 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',
-  description: 'A former NFL player just got convicted for a $328M genetic testing fraud scheme. But the problem is much bigger — genetic testing has become one of Medicare\'s most exploited billing categories.',
+  title: '$328M Genetic Testing Scam: Inside the Fake Lab Scheme',
+  description: 'Ex-NFL player convicted in $328M genetic testing fraud. See how fake labs turned Medicare into an ATM — and why the next scheme is already running.',
   openGraph: {
-    title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',
-    description: 'Former NFL player convicted in $328M scheme. Genetic testing fraud is one of Medicare\'s fastest-growing problems.',
+    title: '$328M Genetic Testing Scam: Inside the Fake Lab Scheme',
+    description: 'Ex-NFL player convicted in $328M genetic testing fraud. See how fake labs turned Medicare into an ATM — and why the next scheme is already running.',
     url: 'https://www.openmedicare.com/investigations/genetic-testing-fraud',
   },
 }

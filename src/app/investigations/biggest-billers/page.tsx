@@ -9,8 +9,8 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Medicare's Biggest Billers",
-  description: 'The 100 providers who received the most Medicare payments in 2023. Lab corporations dominate the top spots.',
+  title: "Top 100 Medicare Billers Exposed (2023 Data)",
+  description: 'These 100 providers collected more Medicare money than anyone else in 2023. Lab corporations dominate the list — see who topped it and how much they got.',
 }
 
 function loadProviders() {

@@ -9,12 +9,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Florida\'s Fraud Factory: 185 Impossible Providers Billing $573M',
-  description: 'Florida leads the nation with 185 providers billing 400+ services per day — more than California and Texas combined. A deep dive into Medicare\'s fraud capital.',
+  title: '185 Florida Providers Bill 400+ Services Per Day',
+  description: 'Florida has 185 impossible-volume providers — more than CA and TX combined — billing $573M total. See the top 20 and where they cluster.',
   alternates: { canonical: '/investigations/florida-infectious-disease' },
   openGraph: {
-    title: 'Florida\'s Fraud Factory: 185 Impossible Providers Billing $573M',
-    description: 'Florida leads the nation with 185 impossible-volume providers — more than California and Texas combined.',
+    title: '185 Florida Providers Bill 400+ Services Per Day',
+    description: 'Florida has 185 impossible-volume providers — more than CA and TX combined — billing $573M total. See the top 20 and where they cluster.',
     url: 'https://www.openmedicare.com/investigations/florida-infectious-disease',
   },
 }

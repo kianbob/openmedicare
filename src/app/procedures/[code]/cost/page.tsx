@@ -42,8 +42,8 @@ export async function generateMetadata({ params }: { params: Promise<{ code: str
   const data = loadProcedure(code)
   const desc = data?.description || `Procedure ${code}`
   return {
-    title: `How Much Does ${desc} Cost on Medicare? | OpenMedicare`,
-    description: `Medicare cost analysis for ${desc} (CPT ${code}). Average payment, state-by-state variation, yearly trends, and top billing providers.`,
+    title: `${desc} Medicare Cost Breakdown (${code})`,
+    description: `See what Medicare actually pays for ${desc}. State-by-state pricing gaps, yearly trends, and top-billing providers exposed.`,
   }
 }
 

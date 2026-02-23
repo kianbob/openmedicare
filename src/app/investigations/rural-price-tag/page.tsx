@@ -9,8 +9,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Rural Price Tag',
-  description: 'How Medicare spending differs dramatically between rural and urban America — fewer providers, lower prices, but access gaps.',
+  title: 'Rural vs Urban Medicare: The Hidden Gap',
+  description: 'Urban areas hold 85% of Medicare spending with far higher per-service costs. Explore the stark rural-urban divide in providers, prices, and access.',
 }
 
 function loadRuralUrban() {

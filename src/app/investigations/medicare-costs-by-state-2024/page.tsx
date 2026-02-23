@@ -6,12 +6,12 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'How Much Does Medicare Cost by State? The Complete 2024 Guide',
-  description: 'State-by-state breakdown of Medicare costs from $854.8B in CMS data. See what Medicare pays per provider and per beneficiary in all 50 states plus DC and territories.',
+  title: 'Medicare Costs by State: All 50 States Ranked',
+  description: 'California spends $81.6B while Wyoming gets $813M — a 100x gap. See every state ranked by Medicare cost, fraud flags, and per-provider spending.',
   keywords: ['medicare costs by state', 'medicare spending by state', 'medicare cost 2024', 'medicare state comparison', 'how much does medicare cost'],
   openGraph: {
-    title: 'How Much Does Medicare Cost by State? The Complete 2024 Guide',
-    description: 'State-by-state breakdown of Medicare costs from $854.8B in CMS physician payment data. Every state ranked.',
+    title: 'Medicare Costs by State: All 50 States Ranked',
+    description: 'California spends $81.6B while Wyoming gets $813M — a 100x gap. See every state ranked by Medicare cost, fraud flags, and per-provider spending.',
   },
   alternates: {
     canonical: '/investigations/medicare-costs-by-state-2024',

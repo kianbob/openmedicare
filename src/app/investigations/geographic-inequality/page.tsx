@@ -9,11 +9,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "ZIP Code Lottery: Why Your Medicare Costs Depend on Where You Live",
-  description: 'Medicare pays $121K per provider in Florida but $18K in Puerto Rico. The same system, wildly different costs, depending on your state.',
+  title: "Medicare's 7x Cost Gap: Your ZIP Code Changes Everything",
+  description: 'Medicare pays $121K per provider in Florida but just $18K in Puerto Rico — a 7x gap. See how your state ranks in the geographic cost divide.',
   openGraph: {
-    title: "ZIP Code Lottery: Why Your Medicare Costs Depend on Where You Live",
-    description: 'Medicare per-provider payments vary by 7x across states. Where you live determines what Medicare looks like.',
+    title: "Medicare's 7x Cost Gap: Your ZIP Code Changes Everything",
+    description: 'Medicare pays $121K per provider in Florida but just $18K in Puerto Rico — a 7x gap. See how your state ranks in the geographic cost divide.',
   },
 }
 

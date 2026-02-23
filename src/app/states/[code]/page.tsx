@@ -43,7 +43,7 @@ export const dynamicParams = true
 export async function generateMetadata({ params }: { params: Promise<{ code: string }> }): Promise<Metadata> {
   const { code } = await params
   const name = STATE_NAMES[code] || code
-  return { title: `${name} Medicare Spending — OpenMedicare`, description: `Explore Medicare provider spending, top procedures, and specialty breakdown in ${name}.` }
+  return { title: `${name} Medicare Spending Breakdown`, description: `How much does Medicare spend in ${name}? See top-paid providers, biggest procedures, and specialty trends with 10 years of data.` }
 }
 
 export default async function StateDetailPage({ params }: { params: Promise<{ code: string }> }) {

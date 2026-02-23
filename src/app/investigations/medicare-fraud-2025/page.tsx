@@ -6,12 +6,12 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Medicare Fraud in 2025: The Biggest Cases and What\'s Changed',
-  description: 'The DOJ\'s $14.6B takedown, $6.8B in False Claims Act recoveries, and a wound care crackdown — 2025 is a record year for Medicare fraud enforcement. See what our data shows.',
+  title: 'Medicare Fraud in 2025: $14.6B in Cases Exposed',
+  description: 'DOJ charged 324 defendants in a record $14.6B takedown. $6.8B in False Claims recoveries, wound care crackdowns, and what our data reveals.',
   keywords: ['medicare fraud 2025', 'medicare fraud cases', 'DOJ medicare', 'false claims act medicare', 'medicare fraud crackdown'],
   openGraph: {
-    title: 'Medicare Fraud in 2025: The Biggest Cases and What\'s Changed',
-    description: 'DOJ\'s $14.6B takedown, 324 defendants, and $6.8B in False Claims Act recoveries. Inside the biggest year for Medicare fraud enforcement.',
+    title: 'Medicare Fraud in 2025: $14.6B in Cases Exposed',
+    description: 'DOJ charged 324 defendants in a record $14.6B takedown. $6.8B in False Claims recoveries, wound care crackdowns, and what our data reveals.',
   },
   alternates: {
     canonical: '/investigations/medicare-fraud-2025',

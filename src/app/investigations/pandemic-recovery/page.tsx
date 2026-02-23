@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "Medicare's Pandemic Recovery",
-  description: 'Medicare spending crashed 10% in 2020, then surged past pre-pandemic levels by 2023. The recovery reshaped healthcare delivery.',
+  title: 'How $9B Vanished From Medicare in 2020',
+  description: 'Medicare spending crashed 10% in 2020 then surged past pre-pandemic levels by 2023. See the year-by-year data on the $93.7B recovery.',
 }
 
 const yearlyData = [

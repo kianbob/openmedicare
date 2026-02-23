@@ -9,13 +9,13 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Opioid Connection: Pain Management Providers in Medicare\'s Fraud Data | OpenMedicare',
-  description: 'Pain management is a known fraud vector tied to the opioid crisis. Our AI model flagged 7 pain management providers billing up to $3M each — including one with 64,000 services.',
+  title: '7 Pain Clinics Flagged: The Opioid-Fraud Link',
+  description: 'AI flagged 7 pain management providers billing up to $3M each. One billed 64,000 services. The opioid crisis shifted from pills to procedures.',
   keywords: ['pain management fraud', 'Medicare pain clinic fraud', 'opioid crisis Medicare', 'pain management billing', 'interventional pain management fraud', 'pill mill Medicare', 'John Hunt Medicare', 'pain clinic fraud scheme'],
   alternates: { canonical: '/investigations/pain-management-fraud' },
   openGraph: {
-    title: 'The Opioid Connection: Pain Management Providers in Medicare\'s Fraud Data',
-    description: '7 pain management providers flagged by AI — one billing $3M with 64,000 services. The opioid crisis meets Medicare billing data.',
+    title: '7 Pain Clinics Flagged: The Opioid-Fraud Link',
+    description: 'AI flagged 7 pain management providers billing up to $3M each. One billed 64,000 services. The opioid crisis shifted from pills to procedures.',
     url: 'https://www.openmedicare.com/investigations/pain-management-fraud',
   },
 }

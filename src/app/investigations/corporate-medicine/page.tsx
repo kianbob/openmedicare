@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Rise of Corporate Medicine',
-  description: 'Organizations now outnumber individuals among Medicare\'s top billers. Lab corporations alone collect billions annually.',
+  title: "Corporate Medicine: 545 of Top 1,000 Billers",
+  description: 'Organizations now outnumber individual doctors among Medicare\'s top 1,000 billers. LabCorp and Quest alone collected $7.3B — here\'s the full breakdown.',
 }
 
 const topOrganizations = [

@@ -1,7 +1,13 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import Breadcrumbs from '@/components/Breadcrumbs'
+
+export const metadata: Metadata = {
+  title: '$854.8B in 10 Years: Medicare By The Numbers',
+  description: '10 stunning stats that reveal where Medicare money really goes. From 1.7M providers to 4,636 impossible billers, explore the data behind the spending.',
+}
 
 function loadJson(filePath: string) {
   try {

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Medicare Procedure Explorer',
-  description: 'Browse the top 500 Medicare procedures and drugs by total spending. Search by code or description.',
+  title: 'Top 500 Medicare Procedures by Spending',
+  description: 'Browse the 500 most expensive Medicare procedures and drugs. Search by code, see total costs, and find where billions in taxpayer money goes.',
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

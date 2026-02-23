@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ code: str
   const { code } = await params
   const data = loadProcedure(code)
   const desc = data?.description || code
-  return { title: `${code} — ${desc} — OpenMedicare`, description: `Medicare spending analysis for procedure ${code}: ${desc}. Top providers, state breakdown, and 10-year trends.` }
+  return { title: `${code}: ${desc} — Medicare Cost Breakdown`, description: `How much does Medicare pay for ${code}? 10-year spending trends, top billing providers, and state-by-state cost data revealed.` }
 }
 
 export default async function ProcedureDetailPage({ params }: { params: Promise<{ code: string }> }) {

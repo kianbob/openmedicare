@@ -9,8 +9,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Specialty Pay Gap',
-  description: 'How Medicare payments vary dramatically across medical specialties — from anesthesiologists earning 15x markups to primary care providers.',
+  title: 'Medicare Specialty Pay Gap: 15x Markup Exposed',
+  description: 'Anesthesiologists charge 15x what Medicare pays while primary care earns a fraction. See the full specialty-by-specialty markup breakdown.',
 }
 
 function loadSpecialties() {

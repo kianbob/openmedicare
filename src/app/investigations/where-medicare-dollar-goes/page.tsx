@@ -7,8 +7,8 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Where Your Medicare Dollar Goes',
-  description: 'Breaking down $854.8 billion in Medicare Part B spending: office visits, surgeries, drugs, diagnostics, and more.',
+  title: 'Where Your $854B Medicare Dollar Goes',
+  description: 'Every cent of $854.8B in Medicare Part B spending, mapped. Office visits take 18 cents, drugs 11 cents. See the full breakdown by category.',
 }
 
 const categories = [

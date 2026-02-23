@@ -7,11 +7,11 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'The 10-Year Money Trail: $78B to $94B | OpenMedicare',
-  description: 'A decade of Medicare spending: from $78 billion in 2014 to $94 billion in 2023. 938K to 1.17M providers. The COVID dip. The recovery. The trend.',
+  title: 'The 10-Year Money Trail: $854B in Medicare',
+  description: 'We tracked every dollar Medicare Part B spent from 2014–2023. $854 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
   openGraph: {
-    title: 'The 10-Year Money Trail: $78B to $94B',
-    description: 'Tracing a decade of Medicare Part B spending through 2.65 billion annual services and 1.17 million providers.',
+    title: 'The 10-Year Money Trail: $854B in Medicare',
+    description: 'We tracked every dollar Medicare Part B spent from 2014–2023. $854 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
     type: 'article',
   },
 }

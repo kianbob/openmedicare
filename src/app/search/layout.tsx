@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Search OpenMedicare',
-  description: 'Search across providers, states, specialties, procedures, and investigations.',
+  title: 'Search 1.72M Providers & Doctors',
+  description: 'Look up any Medicare doctor by name, NPI, state, or specialty. 10 years of payment data, fraud flags, and billing patterns for 1.72M providers.',
   openGraph: {
-    title: 'Search OpenMedicare',
-    description: 'Search across providers, states, specialties, procedures, and investigations.',
+    title: 'Search 1.72M Providers & Doctors',
+    description: 'Look up any Medicare doctor by name, NPI, state, or specialty. 10 years of payment data, fraud flags, and billing patterns for 1.72M providers.',
   },
 }
 

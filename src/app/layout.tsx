@@ -20,10 +20,10 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata: Metadata = {
   title: {
-    default: 'OpenMedicare - Follow the Money in Medicare',
+    default: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
     template: '%s | OpenMedicare'
   },
-  description: 'Professional data journalism tracking Medicare physician spending across 10 years (2014-2023). Explore provider payments, fraud risks, and spending trends.',
+  description: 'We analyzed 1.72M Medicare providers and 10 years of payment data. AI flagged 500 for potential fraud. Search any doctor, see every dollar.',
   keywords: ['Medicare', 'healthcare spending', 'physician payments', 'data journalism', 'healthcare transparency'],
   authors: [{ name: 'OpenMedicare Team' }],
   creator: 'OpenMedicare',
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.openmedicare.com',
-    title: 'OpenMedicare - Follow the Money in Medicare',
-    description: 'AI analyzed 1.72M Medicare providers and flagged 500 for potential fraud. Exposed $854B in spending patterns across 10 years of data.',
+    title: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
+    description: 'AI scanned 1.72M providers and flagged 500 for fraud patterns. 10 years of CMS data exposed. Search any doctor free.',
     siteName: 'OpenMedicare',
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: 'OpenMedicare - AI-Powered Medicare Fraud Detection',
+        alt: 'OpenMedicare — AI-Powered Medicare Fraud Detection',
       },
     ],
   },
@@ -50,8 +50,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@thedataproject0',
     creator: '@thedataproject0',
-    title: 'OpenMedicare - Follow the Money in Medicare',
-    description: 'AI analyzed 1.72M Medicare providers and flagged 500 for potential fraud. $854B in spending tracked.',
+    title: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
+    description: 'AI scanned 1.72M providers and flagged 500 for fraud patterns. 10 years of data. Search any doctor free.',
     images: ['/opengraph-image'],
   },
   robots: {

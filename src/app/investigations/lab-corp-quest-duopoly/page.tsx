@@ -11,12 +11,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Two Companies Control America\'s Lab Testing — and Bill Medicare Billions',
-  description: 'LabCorp and Quest Diagnostics operate 37 NPIs across the country, billing Medicare $14 billion over 10 years. Together they handle 25% of all clinical laboratory billing.',
+  title: '2 Companies, $14B: The Lab Testing Duopoly',
+  description: 'LabCorp and Quest Diagnostics run 37 NPIs and billed Medicare $14 billion in 10 years. Inside the duopoly that controls 25% of all U.S. clinical lab spending.',
   alternates: { canonical: '/investigations/lab-corp-quest-duopoly' },
   openGraph: {
-    title: 'Two Companies Control America\'s Lab Testing — and Bill Medicare Billions',
-    description: 'LabCorp and Quest Diagnostics: 37 NPIs, $14 billion in Medicare payments, and 25% market share.',
+    title: '2 Companies, $14B: The Lab Testing Duopoly',
+    description: 'LabCorp and Quest Diagnostics run 37 NPIs and billed Medicare $14 billion in 10 years. Inside the duopoly that controls 25% of all U.S. clinical lab spending.',
     url: 'https://www.openmedicare.com/investigations/lab-corp-quest-duopoly',
   },
 }

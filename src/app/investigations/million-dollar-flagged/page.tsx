@@ -9,12 +9,12 @@ import { formatCurrency } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Million-Dollar Club: 47 AI-Flagged Providers Who Billed Over $1M Each | OpenMedicare',
-  description: '47 providers flagged by our AI model each billed Medicare over $1 million. Combined, they collected over $93 million in taxpayer money — while matching the billing patterns of convicted fraudsters.',
+  title: '47 AI-Flagged Providers Who Billed $93M+',
+  description: 'Each billed Medicare over $1M while matching convicted fraudsters\' patterns. One internist alone: $5.3M. See the full million-dollar club.',
   alternates: { canonical: '/investigations/million-dollar-flagged' },
   openGraph: {
-    title: 'The Million-Dollar Club: 47 AI-Flagged Providers Who Billed Over $1M Each',
-    description: '47 providers flagged for fraud patterns each billed over $1M. Terrance Hughes alone: $5.3M. Here\'s who they are.',
+    title: '47 AI-Flagged Providers Who Billed $93M+',
+    description: 'Each billed Medicare over $1M while matching convicted fraudsters\' patterns. One internist alone: $5.3M. See the full million-dollar club.',
     url: 'https://www.openmedicare.com/investigations/million-dollar-flagged',
   },
 }

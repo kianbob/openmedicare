@@ -9,11 +9,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Specialty Monopoly: Where Medicare Money Really Goes',
-  description: '5 specialties account for 33% of all Medicare spending. Inside the concentration of $854 billion in healthcare payments.',
+  title: '5 Specialties Control 33% of Medicare Spending',
+  description: 'Just 5 medical specialties absorb one-third of $854B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
   openGraph: {
-    title: 'The Specialty Monopoly: Where Medicare Money Really Goes',
-    description: '5 specialties account for 33% of all Medicare spending.',
+    title: '5 Specialties Control 33% of Medicare Spending',
+    description: 'Just 5 medical specialties absorb one-third of $854B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
   },
 }
 

@@ -10,8 +10,8 @@ import { formatCurrency } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: "COVID's Impact on Medicare Spending",
-  description: 'How the pandemic caused a 10% drop in Medicare payments in 2020 and reshaped spending patterns.',
+  title: 'COVID Exposed a $30B Medicare Shock',
+  description: 'Medicare payments plunged 10% in 2020 — the first decline in program history. See the year-by-year data on what collapsed, what surged, and what never recovered.',
 }
 
 function loadTrends() {

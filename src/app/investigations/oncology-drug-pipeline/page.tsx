@@ -9,12 +9,12 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Oncology Drug Pipeline: How Cancer Doctors Bill Millions in Drug Costs',
-  description: '24 oncologists with >80% drug billing and >$5M each — $171M combined. Cancer drugs are the most profitable category in Medicare.',
+  title: '24 Oncologists Billed $171M in Drug Costs',
+  description: '532 oncologists make up 48% of all impossible-volume providers. 24 billed over $5M each with 80%+ revenue from drug codes alone.',
   alternates: { canonical: '/investigations/oncology-drug-pipeline' },
   openGraph: {
-    title: 'The Oncology Drug Pipeline: How Cancer Doctors Bill Millions in Drug Costs',
-    description: '24 oncologists with >80% drug billing and >$5M each — $171M combined.',
+    title: '24 Oncologists Billed $171M in Drug Costs',
+    description: '532 oncologists make up 48% of all impossible-volume providers. 24 billed over $5M each with 80%+ revenue from drug codes alone.',
     url: 'https://www.openmedicare.com/investigations/oncology-drug-pipeline',
   },
 }

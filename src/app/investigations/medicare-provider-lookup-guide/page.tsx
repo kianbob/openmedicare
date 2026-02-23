@@ -6,12 +6,12 @@ import ShareButtons from '@/components/ShareButtons'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'How to Look Up Your Doctor\'s Medicare Billing',
-  description: 'Step-by-step guide to looking up any doctor\'s Medicare billing history. Search by name or NPI, understand payment data, and spot fraud red flags.',
+  title: 'Look Up Any Doctor\'s Medicare Payments (Free)',
+  description: 'Search any doctor\'s Medicare billing by name or NPI. See 10 years of payments, peer comparisons, and fraud red flags in seconds.',
   keywords: ['medicare provider lookup', 'look up doctor medicare', 'medicare doctor search', 'NPI lookup', 'medicare billing lookup', 'find doctor medicare payments'],
   openGraph: {
-    title: 'How to Look Up Your Doctor\'s Medicare Billing',
-    description: 'A complete guide to searching Medicare provider data — what the numbers mean and what to look for.',
+    title: 'Look Up Any Doctor\'s Medicare Payments (Free)',
+    description: 'Search any doctor\'s Medicare billing by name or NPI. See 10 years of payments, peer comparisons, and fraud red flags in seconds.',
   },
   alternates: {
     canonical: '/investigations/medicare-provider-lookup-guide',
