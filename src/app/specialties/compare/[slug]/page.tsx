@@ -27,13 +27,15 @@ const SPECIALTY_PAIRS = [
 ]
 
 function loadSpecialties() {
-  const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'specialties.json'), 'utf-8')
-  const data = JSON.parse(raw)
-  const map: Record<string, any> = {}
-  for (const s of data.specialties) {
-    map[s.specialty_slug] = s
-  }
-  return map
+  try {
+    const raw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'specialties.json'), 'utf-8')
+    const data = JSON.parse(raw)
+    const map: Record<string, any> = {}
+    for (const s of data.specialties) {
+      map[s.specialty_slug] = s
+    }
+    return map
+  } catch { return {} }
 }
 
 function parsePairSlug(slug: string): [string, string] | null {
@@ -74,7 +76,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 function StatCard({ label, v1, v2, format }: { label: string; v1: number; v2: number; format: 'currency' | 'number' | 'ratio' }) {
   const fmt = format === 'currency' ? formatCurrency : format === 'number' ? formatNumber : (v: number) => `${v.toFixed(2)}x`
-  const diff = v1 && v2 ? ((v1 - v2) / v2 * 100) : 0
+  const diff = v1 !== null && v1 !== undefined && v2 !== null && v2 !== undefined ? ((v1 - v2) / v2 * 100) : 0
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
       <div className="text-sm font-medium text-gray-500 mb-3">{label}</div>

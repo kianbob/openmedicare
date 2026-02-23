@@ -21,14 +21,16 @@ const STATE_PAIRS = [
 ]
 
 function loadData() {
-  const statesRaw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'states.json'), 'utf-8')
-  const watchlistRaw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'watchlist.json'), 'utf-8')
-  const states: Record<string, any> = {}
-  for (const s of JSON.parse(statesRaw).states) {
-    states[s.state] = s
-  }
-  const watchlist: any[] = JSON.parse(watchlistRaw)
-  return { states, watchlist }
+  try {
+    const statesRaw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'states.json'), 'utf-8')
+    const watchlistRaw = fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'watchlist.json'), 'utf-8')
+    const states: Record<string, any> = {}
+    for (const s of JSON.parse(statesRaw).states) {
+      states[s.state] = s
+    }
+    const watchlist: any[] = JSON.parse(watchlistRaw)
+    return { states, watchlist }
+  } catch { return { states: {}, watchlist: [] } }
 }
 
 export async function generateStaticParams() {
@@ -48,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 function StatCard({ label, v1, v2, format }: { label: string; v1: number; v2: number; format: 'currency' | 'number' | 'ratio' }) {
   const fmt = format === 'currency' ? formatCurrency : format === 'number' ? formatNumber : (v: number) => `${v.toFixed(2)}x`
-  const diff = v1 && v2 ? ((v1 - v2) / v2 * 100) : 0
+  const diff = v1 !== null && v1 !== undefined && v2 !== null && v2 !== undefined ? ((v1 - v2) / v2 * 100) : 0
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
       <div className="text-sm font-medium text-gray-500 mb-3">{label}</div>

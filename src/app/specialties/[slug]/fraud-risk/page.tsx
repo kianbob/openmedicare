@@ -82,7 +82,7 @@ export default async function SpecialtyFraudRiskPage({ params }: { params: Promi
 
   // Most common fraud flags
   const flagCounts = new Map<string, number>()
-  specProviders.forEach(p => p.flags.forEach(f => flagCounts.set(f.type, (flagCounts.get(f.type) || 0) + 1)))
+  specProviders.forEach(p => (p.flags || []).forEach(f => flagCounts.set(f.type, (flagCounts.get(f.type) || 0) + 1)))
   const commonFlags = Array.from(flagCounts.entries()).sort((a, b) => b[1] - a[1]).slice(0, 8)
 
   const flagLabels: Record<string, string> = {
@@ -134,7 +134,7 @@ export default async function SpecialtyFraudRiskPage({ params }: { params: Promi
           </div>
           <div className="bg-white rounded-lg shadow p-6">
             <p className="text-sm text-gray-500">Specialty Markup</p>
-            <p className="text-3xl font-bold text-gray-900">{spec.markup_ratio.toFixed(1)}x</p>
+            <p className="text-3xl font-bold text-gray-900">{(spec.markup_ratio ?? 0).toFixed(1)}x</p>
           </div>
           <div className="bg-white rounded-lg shadow p-6">
             <p className="text-sm text-gray-500">Total Payments</p>
@@ -193,7 +193,7 @@ export default async function SpecialtyFraudRiskPage({ params }: { params: Promi
                         </span>
                       </td>
                       <td className="px-4 py-3 text-right text-sm font-medium">{formatCurrency(provider.total_payments)}</td>
-                      <td className="px-4 py-3 text-right text-sm">{provider.avg_markup.toFixed(1)}x</td>
+                      <td className="px-4 py-3 text-right text-sm">{(provider.avg_markup ?? 0).toFixed(1)}x</td>
                       <td className="px-4 py-3 text-sm text-gray-600">
                         {provider.flags.slice(0, 2).map(f => f.type.replace(/_/g, ' ')).join(', ')}
                       </td>
@@ -229,7 +229,7 @@ export default async function SpecialtyFraudRiskPage({ params }: { params: Promi
                     />
                   </div>
                 </div>
-                <span className="text-sm font-medium w-16 text-right">{s.markup_ratio.toFixed(1)}x</span>
+                <span className="text-sm font-medium w-16 text-right">{(s.markup_ratio ?? 0).toFixed(1)}x</span>
               </div>
             ))}
           </div>

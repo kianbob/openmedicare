@@ -76,9 +76,9 @@ export default async function StateComparePage({ params }: { params: Promise<{ c
   const totalNationalPayments = states.reduce((sum, s) => sum + s.total_payments, 0)
   const totalNationalProviders = states.reduce((sum, s) => sum + s.total_providers, 0)
   const totalNationalServices = states.reduce((sum, s) => sum + s.total_services, 0)
-  const nationalAvgPerProvider = totalNationalPayments / totalNationalProviders
-  const nationalAvgMarkup = states.reduce((sum, s) => sum + s.markup_ratio * s.total_payments, 0) / totalNationalPayments
-  const nationalAvgPerService = totalNationalPayments / totalNationalServices
+  const nationalAvgPerProvider = totalNationalProviders > 0 ? totalNationalPayments / totalNationalProviders : 0
+  const nationalAvgMarkup = totalNationalPayments > 0 ? states.reduce((sum, s) => sum + s.markup_ratio * s.total_payments, 0) / totalNationalPayments : 0
+  const nationalAvgPerService = totalNationalServices > 0 ? totalNationalPayments / totalNationalServices : 0
 
   // Watchlist for this state
   const stateFlagged = watchlist.filter(w => w.state === code)
@@ -152,8 +152,8 @@ export default async function StateComparePage({ params }: { params: Promise<{ c
           {compareBar(state.markup_ratio, nationalAvgMarkup, 'Average Markup Ratio', n => `${n.toFixed(2)}x`)}
           {compareBar(state.avg_payment_per_service, nationalAvgPerService, 'Payment per Service', n => `$${n.toFixed(2)}`)}
           {compareBar(
-            stateFlagged.length / state.total_providers * 10000,
-            totalFlagged / totalNationalProviders * 10000,
+            state.total_providers > 0 ? stateFlagged.length / state.total_providers * 10000 : 0,
+            totalNationalProviders > 0 ? totalFlagged / totalNationalProviders * 10000 : 0,
             'Flagged Providers per 10K Providers',
             n => n.toFixed(1)
           )}
@@ -194,11 +194,11 @@ export default async function StateComparePage({ params }: { params: Promise<{ c
             <p className="mt-1 text-sm text-gray-500">Providers</p>
           </div>
           <div className="rounded-xl bg-gray-50 p-6 text-center">
-            <p className="text-3xl font-bold text-gray-900">{state.payment_share.toFixed(1)}%</p>
+            <p className="text-3xl font-bold text-gray-900">{(state.payment_share ?? 0).toFixed(1)}%</p>
             <p className="mt-1 text-sm text-gray-500">of National Spending</p>
           </div>
           <div className="rounded-xl bg-gray-50 p-6 text-center">
-            <p className="text-3xl font-bold text-gray-900">{state.markup_ratio.toFixed(2)}x</p>
+            <p className="text-3xl font-bold text-gray-900">{(state.markup_ratio ?? 0).toFixed(2)}x</p>
             <p className="mt-1 text-sm text-gray-500">Markup Ratio</p>
           </div>
         </div>

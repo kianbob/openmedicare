@@ -160,7 +160,7 @@ export default async function ProcedureCostPage({ params }: { params: Promise<{ 
                 <tbody className="divide-y divide-gray-200">
                   {trends.map((t, i) => {
                     const prev = i > 0 ? trends[i - 1] : null
-                    const change = prev ? ((t.avg_payment - prev.avg_payment) / prev.avg_payment * 100) : null
+                    const change = prev && prev.avg_payment > 0 ? ((t.avg_payment - prev.avg_payment) / prev.avg_payment * 100) : null
                     return (
                       <tr key={t.year} className="hover:bg-gray-50">
                         <td className="px-4 py-3 font-medium">{t.year}</td>
@@ -256,7 +256,7 @@ export default async function ProcedureCostPage({ params }: { params: Promise<{ 
                       <td className="px-4 py-3 text-sm text-gray-600">{p.state}</td>
                       <td className="px-4 py-3 text-right text-sm font-medium">{formatCurrency(p.payments)}</td>
                       <td className="px-4 py-3 text-right text-sm">{formatNumber(p.services)}</td>
-                      <td className="px-4 py-3 text-right text-sm">${(p.payments / p.services).toFixed(2)}</td>
+                      <td className="px-4 py-3 text-right text-sm">{p.services > 0 ? `$${(p.payments / p.services).toFixed(2)}` : 'N/A'}</td>
                     </tr>
                   ))}
                 </tbody>
