@@ -190,7 +190,7 @@ export default function UtilizationPage() {
               </div>
             </div>
 
-            <ShareButtons title="Individual Doctors vs Corporate Medicine" url="https://www.openmedicare.com/utilization" />
+            <ShareButtons title="Individual Doctors vs Corporate Medicine" url="https://www.openmedicare.us/utilization" />
           </>
         )}
 

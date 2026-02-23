@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     title: '500 Unflagged Providers Exposed by AI | OpenMedicare',
     description:
       'Our ML model trained on 2,198 convicted fraudsters found 500 providers nobody flagged. Their billing mirrors known criminals — see who made the list.',
-    url: 'https://www.openmedicare.com/fraud/still-out-there',
+    url: 'https://www.openmedicare.us/fraud/still-out-there',
     siteName: 'OpenMedicare',
     type: 'article',
     images: [
       {
-        url: 'https://www.openmedicare.com/og/still-out-there.png',
+        url: 'https://www.openmedicare.us/og/still-out-there.png',
         width: 1200,
         height: 630,
         alt: 'Still Out There: 500 ML-Flagged Medicare Providers',

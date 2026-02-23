@@ -125,7 +125,7 @@ export default function Top100FlaggedProviders() {
     '@type': 'Dataset',
     name: 'Top 100 AI-Flagged Medicare Providers',
     description: 'The 100 Medicare providers with the highest AI-predicted fraud probability, ranked by a supervised ML model trained on 2,198 confirmed fraudsters.',
-    url: 'https://www.openmedicare.com/fraud/top-100',
+    url: 'https://www.openmedicare.us/fraud/top-100',
     license: 'https://www.usa.gov/government-works',
     creator: { '@type': 'Organization', name: 'OpenMedicare' },
   }
@@ -286,7 +286,7 @@ export default function Top100FlaggedProviders() {
         </div>
 
         <ShareButtons
-          url="https://www.openmedicare.com/fraud/top-100"
+          url="https://www.openmedicare.us/fraud/top-100"
           title="Top 100 AI-Flagged Medicare Providers"
           description="ML model trained on 2,198 confirmed fraudsters ranks the 100 highest-risk Medicare providers."
         />

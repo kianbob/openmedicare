@@ -87,7 +87,7 @@ export default function DrugPipelinePage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/investigations/drug-pipeline" title="The Medicare Drug Pipeline" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/drug-pipeline" title="The Medicare Drug Pipeline" />
         <SourceCitation />
       </div>
     </main>

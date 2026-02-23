@@ -1168,7 +1168,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
         <p className="text-xs text-gray-400 mt-4">
           Believe this data is inaccurate?{' '}
           <a
-            href={`mailto:corrections@openmedicare.com?subject=${encodeURIComponent(`Data correction request: ${provName} (NPI ${npi})`)}`}
+            href={`mailto:corrections@openmedicare.us?subject=${encodeURIComponent(`Data correction request: ${provName} (NPI ${npi})`)}`}
             className="underline hover:text-gray-600"
           >
             Dispute this data

@@ -73,7 +73,7 @@ export default async function Image() {
             color: 'rgba(255,255,255,0.5)',
           }}
         >
-          www.openmedicare.com
+          www.openmedicare.us
         </div>
       </div>
     ),

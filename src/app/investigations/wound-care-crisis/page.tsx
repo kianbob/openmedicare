@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The $14.6B Wound Care Fraud Crisis',
     description: 'DOJ\'s largest-ever healthcare fraud bust targeted wound care. HHS-OIG flagged skin substitutes as "vulnerable to fraud."',
-    url: 'https://www.openmedicare.com/investigations/wound-care-crisis',
+    url: 'https://www.openmedicare.us/investigations/wound-care-crisis',
   },
 }
 
@@ -245,7 +245,7 @@ export default function WoundCareCrisisPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/wound-care-crisis"
+              url="https://www.openmedicare.us/investigations/wound-care-crisis"
               title="The Wound Care Industrial Complex"
             />
 

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "39 AI-Flagged Providers: NY's Hidden Fraud Problem",
     description: 'New York ranks #3 with 39 AI-flagged Medicare providers billing $30M+. Brooklyn and Queens are the epicenters. See the top 5 flagged providers.',
-    url: 'https://www.openmedicare.com/investigations/new-york-medicare-fraud',
+    url: 'https://www.openmedicare.us/investigations/new-york-medicare-fraud',
   },
 }
 
@@ -37,7 +37,7 @@ export default function NewYorkMedicareFraudPage() {
         title="New York's Hidden Medicare Fraud: 39 AI-Flagged Providers"
         description="New York has 39 AI-flagged Medicare providers — #3 nationally. Brooklyn and Queens are the epicenters."
         publishedDate={publishedDate}
-        url="https://www.openmedicare.com/investigations/new-york-medicare-fraud"
+        url="https://www.openmedicare.us/investigations/new-york-medicare-fraud"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

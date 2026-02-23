@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 export default function EmbedPage() {
-  const embedCode = `<iframe src="https://www.openmedicare.com/api/embed/fraud-stats" width="500" height="180" frameborder="0" style="border:none;border-radius:16px;overflow:hidden;" title="OpenMedicare Fraud Stats"></iframe>`
+  const embedCode = `<iframe src="https://www.openmedicare.us/api/embed/fraud-stats" width="500" height="180" frameborder="0" style="border:none;border-radius:16px;overflow:hidden;" title="OpenMedicare Fraud Stats"></iframe>`
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -51,7 +51,7 @@ export default function EmbedPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">Prefer JSON?</h2>
           <p className="text-sm text-gray-600 mb-4">Use our stats API endpoint for programmatic access:</p>
           <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-gray-300 overflow-x-auto">
-            <pre>{`fetch('https://www.openmedicare.com/api/stats')
+            <pre>{`fetch('https://www.openmedicare.us/api/stats')
   .then(r => r.json())
   .then(data => console.log(data))
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '23 Nurse Practitioners Billed $514M for 2,974 Patients',
     description: '23 Phoenix-area NPs billed Medicare $514M for skin substitutes — $173K per patient. All share an identical 1.28x markup ratio. See the full breakdown.',
-    url: 'https://www.openmedicare.com/investigations/arizona-wound-care-ring',
+    url: 'https://www.openmedicare.us/investigations/arizona-wound-care-ring',
   },
 }
 

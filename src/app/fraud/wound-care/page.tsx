@@ -306,7 +306,7 @@ export default function WoundCare() {
           </p>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/fraud/wound-care" title="Wound Care Fraud Watchlist" />
+        <ShareButtons url="https://www.openmedicare.us/fraud/wound-care" title="Wound Care Fraud Watchlist" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'DOJ Healthcare Fraud Enforcement Action (June 2025)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

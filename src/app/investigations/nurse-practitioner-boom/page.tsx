@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Nurse Practitioner Boom: 11% of Medicare, $26K Avg',
     description: '1.2M nurse practitioners now dominate Medicare — yet earn just $26K avg while some bill millions. The data behind healthcare\'s biggest workforce shift.',
-    url: 'https://www.openmedicare.com/investigations/nurse-practitioner-boom',
+    url: 'https://www.openmedicare.us/investigations/nurse-practitioner-boom',
   },
 }
 
@@ -320,7 +320,7 @@ export default function NursePractitionerBoomPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/nurse-practitioner-boom"
+              url="https://www.openmedicare.us/investigations/nurse-practitioner-boom"
               title="The Rise of the Nurse Practitioner"
             />
 

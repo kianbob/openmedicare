@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-const baseUrl = 'https://www.openmedicare.com'
+const baseUrl = 'https://www.openmedicare.us'
 
 const items = [
   // New articles - Feb 21 batch 2

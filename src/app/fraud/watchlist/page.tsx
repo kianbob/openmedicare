@@ -366,7 +366,7 @@ export default function FraudWatchlist() {
           </p>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/fraud/watchlist" title="Medicare Fraud Watchlist" />
+        <ShareButtons url="https://www.openmedicare.us/fraud/watchlist" title="Medicare Fraud Watchlist" />
         <div className="mt-6">
           <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>

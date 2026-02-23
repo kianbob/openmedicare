@@ -20,26 +20,26 @@ export default function ArticleJsonLd({
     '@type': 'Article',
     headline: title,
     description,
-    url: `https://www.openmedicare.com${url}`,
+    url: `https://www.openmedicare.us${url}`,
     datePublished: publishedDate,
     dateModified: modifiedDate || publishedDate,
     author: {
       '@type': 'Organization',
       name: 'OpenMedicare',
-      url: 'https://www.openmedicare.com',
+      url: 'https://www.openmedicare.us',
     },
     publisher: {
       '@type': 'Organization',
       name: 'OpenMedicare',
-      url: 'https://www.openmedicare.com',
+      url: 'https://www.openmedicare.us',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.openmedicare.com/og-image.png',
+        url: 'https://www.openmedicare.us/og-image.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.openmedicare.com${url}`,
+      '@id': `https://www.openmedicare.us${url}`,
     },
     ...(imageUrl ? { image: imageUrl } : {}),
   }

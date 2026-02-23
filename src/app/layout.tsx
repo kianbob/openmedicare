@@ -28,12 +28,12 @@ export const metadata: Metadata = {
   authors: [{ name: 'OpenMedicare Team' }],
   creator: 'OpenMedicare',
   publisher: 'OpenMedicare',
-  metadataBase: new URL('https://www.openmedicare.com'),
+  metadataBase: new URL('https://www.openmedicare.us'),
   alternates: {},
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.openmedicare.com',
+    url: 'https://www.openmedicare.us',
     title: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
     description: 'AI scanned 1.72M providers and flagged 500 for fraud patterns. 10 years of CMS data exposed. Search any doctor free.',
     siteName: 'OpenMedicare',
@@ -64,9 +64,9 @@ const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'OpenMedicare',
-  url: 'https://www.openmedicare.com',
+  url: 'https://www.openmedicare.us',
   description: 'Professional data journalism tracking Medicare physician spending. Analyzing billions in Medicare payments to bring transparency to healthcare spending.',
-  logo: 'https://www.openmedicare.com/logo.png',
+  logo: 'https://www.openmedicare.us/logo.png',
   sameAs: [],
 }
 
@@ -74,12 +74,12 @@ const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'OpenMedicare',
-  url: 'https://www.openmedicare.com',
+  url: 'https://www.openmedicare.us',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://www.openmedicare.com/search?q={search_term_string}',
+      urlTemplate: 'https://www.openmedicare.us/search?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },

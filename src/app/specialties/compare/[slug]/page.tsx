@@ -217,7 +217,7 @@ export default async function SpecialtyComparisonPage({ params }: { params: Prom
 
         <div className="flex flex-col sm:flex-row gap-4 items-start justify-between">
           <SourceCitation />
-          <ShareButtons url={`https://www.openmedicare.com/specialties/compare/${slug}`} title={`${s1.specialty} vs ${s2.specialty}: Medicare Billing Compared`} />
+          <ShareButtons url={`https://www.openmedicare.us/specialties/compare/${slug}`} title={`${s1.specialty} vs ${s2.specialty}: Medicare Billing Compared`} />
         </div>
       </div>
     </main>

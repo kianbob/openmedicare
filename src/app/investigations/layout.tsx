@@ -18,13 +18,13 @@ export default function InvestigationsLayout({
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.openmedicare.com',
+        item: 'https://www.openmedicare.us',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Investigations',
-        item: 'https://www.openmedicare.com/investigations',
+        item: 'https://www.openmedicare.us/investigations',
       },
     ],
   }

@@ -67,11 +67,11 @@ const datasetJsonLd = {
   },
   temporalCoverage: '2014/2023',
   license: 'https://www.usa.gov/government-works',
-  url: 'https://www.openmedicare.com',
+  url: 'https://www.openmedicare.us',
   distribution: {
     '@type': 'DataDownload',
     encodingFormat: 'application/json',
-    contentUrl: 'https://www.openmedicare.com/downloads',
+    contentUrl: 'https://www.openmedicare.us/downloads',
   },
 }
 

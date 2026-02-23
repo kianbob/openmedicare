@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "56 Providers Flagged for Fraud in Florida's $52M Crisis",
     description: 'AI flagged 56 Florida Medicare providers billing $52M — tied #1 with California. See who was flagged in South Florida, America\'s fraud capital.',
-    url: 'https://www.openmedicare.com/investigations/florida-medicare-fraud',
+    url: 'https://www.openmedicare.us/investigations/florida-medicare-fraud',
   },
 }
 
@@ -37,7 +37,7 @@ export default function FloridaMedicareFraudPage() {
         title="Florida's Medicare Fraud Epidemic: 56 AI-Flagged Providers Billing $52M"
         description="Florida has 56 AI-flagged Medicare providers — tied #1 with California. South Florida is the historic epicenter of Medicare fraud."
         publishedDate={publishedDate}
-        url="https://www.openmedicare.com/investigations/florida-medicare-fraud"
+        url="https://www.openmedicare.us/investigations/florida-medicare-fraud"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

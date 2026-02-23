@@ -246,7 +246,7 @@ export default function MedicareMillionairesPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.com/investigations/medicare-millionaires" title="Medicare's Millionaire Club" />
+          <ShareButtons url="https://www.openmedicare.us/investigations/medicare-millionaires" title="Medicare's Millionaire Club" />
             <InvestigationDisclaimer />        </div>
         <SourceCitation />
       </div>

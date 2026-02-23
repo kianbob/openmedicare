@@ -96,7 +96,7 @@ export default function CovidGoldRushPage() {
         title="The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever"
         description="When the pandemic hit, COVID testing became the biggest gold rush in Medicare history."
         publishedDate="2026-02-21"
-        url="https://www.openmedicare.com/investigations/the-covid-gold-rush"
+        url="https://www.openmedicare.us/investigations/the-covid-gold-rush"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
@@ -110,7 +110,7 @@ export default function CovidGoldRushPage() {
             The COVID Gold Rush: How {formatCurrency(totalPayments)} in Test Billing Changed Medicare Forever
           </h1>
           <p className="text-gray-500 text-sm mb-2">Published February 2026 · 14 min read</p>
-          <ShareButtons title="The COVID Gold Rush" url="https://www.openmedicare.com/investigations/the-covid-gold-rush" />
+          <ShareButtons title="The COVID Gold Rush" url="https://www.openmedicare.us/investigations/the-covid-gold-rush" />
 
           {/* Hero stat */}
           <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-8 mt-8 not-prose">
@@ -366,7 +366,7 @@ export default function CovidGoldRushPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/investigations/the-covid-gold-rush" title="The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/the-covid-gold-rush" title="The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever" />
         <div className="mt-6">
           <SourceCitation />
         </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '2 Companies, $14B: The Lab Testing Duopoly',
     description: 'LabCorp and Quest Diagnostics run 37 NPIs and billed Medicare $14 billion in 10 years. Inside the duopoly that controls 25% of all U.S. clinical lab spending.',
-    url: 'https://www.openmedicare.com/investigations/lab-corp-quest-duopoly',
+    url: 'https://www.openmedicare.us/investigations/lab-corp-quest-duopoly',
   },
 }
 
@@ -314,7 +314,7 @@ export default function LabCorpQuestDuopolyPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/lab-corp-quest-duopoly"
+              url="https://www.openmedicare.us/investigations/lab-corp-quest-duopoly"
               title="Two Companies Control America's Lab Testing"
             />
             <InvestigationDisclaimer />

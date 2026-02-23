@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'We Flagged 500 Providers. The DOJ Agreed.',
     description: 'Our algorithm flagged 500 suspicious Medicare providers using public data. At least 6 were later charged in a $14.6B DOJ fraud sweep. Here is the proof.',
-    url: 'https://www.openmedicare.com/investigations/data-predicted-fraud',
+    url: 'https://www.openmedicare.us/investigations/data-predicted-fraud',
   },
 }
 
@@ -743,7 +743,7 @@ export default function DataPredictedFraudPage() {
             <div className="mt-12 pt-8 border-t border-gray-200">
               <ShareButtons
                 title="Our Data Predicted It: How Statistical Analysis Flagged Providers Before the DOJ Did"
-                url="https://www.openmedicare.com/investigations/data-predicted-fraud"
+                url="https://www.openmedicare.us/investigations/data-predicted-fraud"
               />
             <InvestigationDisclaimer />              <SourceCitation />
             </div>

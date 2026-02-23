@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '3 Providers, 3 Red Flags: $55M in Suspicious Bills',
     description: '$12.1M in COVID tests from one nurse. $28.9M in wound care from a plastic surgeon. $8M from an anti-aging spa. The data behind Medicare\'s wildest outliers.',
-    url: 'https://www.openmedicare.com/investigations/three-providers',
+    url: 'https://www.openmedicare.us/investigations/three-providers',
   },
 }
 
@@ -646,7 +646,7 @@ export default function ThreeProvidersPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/three-providers"
+              url="https://www.openmedicare.us/investigations/three-providers"
               title="Three Providers, Three Red Flags"
             />
 

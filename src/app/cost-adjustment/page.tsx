@@ -198,7 +198,7 @@ export default function CostAdjustmentPage() {
               </div>
             </div>
 
-            <ShareButtons title="The Geographic Cost Gap" url="https://www.openmedicare.com/cost-adjustment" />
+            <ShareButtons title="The Geographic Cost Gap" url="https://www.openmedicare.us/cost-adjustment" />
           </>
         )}
 

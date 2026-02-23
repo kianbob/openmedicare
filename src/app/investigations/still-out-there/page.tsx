@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '500 Providers Still Billing Like Fraudsters',
     description: 'ML model trained on 2,198 convicted Medicare fraudsters flags 500 active providers matching fraud patterns at 86%+ probability. $400M in payments exposed.',
-    url: 'https://www.openmedicare.com/investigations/still-out-there',
+    url: 'https://www.openmedicare.us/investigations/still-out-there',
   },
 }
 
@@ -371,7 +371,7 @@ export default function StillOutThereArticle() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/investigations/still-out-there" title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/still-out-there" title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" />
         <div className="mt-6">
           <SourceCitation sources={[
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',

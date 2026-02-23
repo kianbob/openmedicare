@@ -120,7 +120,7 @@ export default function SpecialtyPayGapPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/investigations/specialty-pay-gap" title="The Specialty Pay Gap" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/specialty-pay-gap" title="The Specialty Pay Gap" />
         <SourceCitation />
       </div>
     </main>

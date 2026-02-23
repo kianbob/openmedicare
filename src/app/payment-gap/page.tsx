@@ -200,7 +200,7 @@ export default function PaymentGapPage() {
               </div>
             </div>
 
-            <ShareButtons title="The Three-Way Payment Gap" url="https://www.openmedicare.com/payment-gap" />
+            <ShareButtons title="The Three-Way Payment Gap" url="https://www.openmedicare.us/payment-gap" />
           </>
         )}
 

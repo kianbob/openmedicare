@@ -299,7 +299,7 @@ export default function OfficeVisitEconomyPage() {
         </article>
 
         <ShareButtons
-          url="https://www.openmedicare.com/investigations/office-visit-economy"
+          url="https://www.openmedicare.us/investigations/office-visit-economy"
           title="The $117 Billion Office Visit Economy"
         />
         <SourceCitation />

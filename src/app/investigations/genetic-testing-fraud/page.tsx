@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '$328M Genetic Testing Scam: Inside the Fake Lab Scheme',
     description: 'Ex-NFL player convicted in $328M genetic testing fraud. See how fake labs turned Medicare into an ATM — and why the next scheme is already running.',
-    url: 'https://www.openmedicare.com/investigations/genetic-testing-fraud',
+    url: 'https://www.openmedicare.us/investigations/genetic-testing-fraud',
   },
 }
 
@@ -169,7 +169,7 @@ export default function GeneticTestingFraud() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/investigations/genetic-testing-fraud" title="The $328M Genetic Testing Scam" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/genetic-testing-fraud" title="The $328M Genetic Testing Scam" />
         <div className="mt-6">
           <SourceCitation sources={[
             'DOJ Press Release: Former NFL Player Convicted (Feb 21, 2026)',

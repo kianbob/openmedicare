@@ -85,7 +85,7 @@ export default function The4636ImpossibleDoctorsPage() {
                 </span>
               </div>
               <div className="mt-4">
-                <ShareButtons title="4,636 Doctors Billing the Impossible" url="https://www.openmedicare.com/investigations/the-4636-impossible-doctors" />
+                <ShareButtons title="4,636 Doctors Billing the Impossible" url="https://www.openmedicare.us/investigations/the-4636-impossible-doctors" />
               </div>
             </div>
 

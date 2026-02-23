@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Fraud Belt: 5 States Hold 44% of All Flags',
     description: 'CA and FL are tied at 56 AI-flagged providers each. Add NY, TX, and NJ and 5 states hold 44% of all Medicare fraud flags. See the data.',
-    url: 'https://www.openmedicare.com/investigations/florida-california-fraud',
+    url: 'https://www.openmedicare.us/investigations/florida-california-fraud',
   },
 }
 
@@ -49,7 +49,7 @@ export default function FloridaCaliforniaFraudPage() {
         title="The Fraud Belt: Why California and Florida Lead Medicare Fraud"
         description="CA and FL tied at 56 flagged providers each — 22.4% of all AI-flagged Medicare providers."
         publishedDate={publishedDate}
-        url="https://www.openmedicare.com/investigations/florida-california-fraud"
+        url="https://www.openmedicare.us/investigations/florida-california-fraud"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

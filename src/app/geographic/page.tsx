@@ -200,7 +200,7 @@ export default function GeographicPage() {
               </div>
             )}
 
-            <ShareButtons title="Medicare Spending by City & Zip Code" url="https://www.openmedicare.com/geographic" />
+            <ShareButtons title="Medicare Spending by City & Zip Code" url="https://www.openmedicare.us/geographic" />
           </>
         )}
 

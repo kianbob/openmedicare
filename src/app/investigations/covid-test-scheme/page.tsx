@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '$2.8B in COVID Test Fraud, Exposed',
     description: 'A $12 test code turned into a billion-dollar grift. One nurse billed 413 services per day. See the providers, the data, and the DOJ response.',
-    url: 'https://www.openmedicare.com/investigations/covid-test-scheme',
+    url: 'https://www.openmedicare.us/investigations/covid-test-scheme',
   },
 }
 
@@ -222,7 +222,7 @@ export default function CovidTestSchemePage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/covid-test-scheme"
+              url="https://www.openmedicare.us/investigations/covid-test-scheme"
               title="The COVID Test Gold Rush"
             />
 

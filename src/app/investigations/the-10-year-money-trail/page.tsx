@@ -70,7 +70,7 @@ export default function The10YearMoneyTrailPage() {
                 </span>
               </div>
               <div className="mt-4">
-                <ShareButtons title="The 10-Year Money Trail" url="https://www.openmedicare.com/investigations/the-10-year-money-trail" />
+                <ShareButtons title="The 10-Year Money Trail" url="https://www.openmedicare.us/investigations/the-10-year-money-trail" />
               </div>
             </div>
 

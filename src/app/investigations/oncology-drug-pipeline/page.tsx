@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '24 Oncologists Billed $171M in Drug Costs',
     description: '532 oncologists make up 48% of all impossible-volume providers. 24 billed over $5M each with 80%+ revenue from drug codes alone.',
-    url: 'https://www.openmedicare.com/investigations/oncology-drug-pipeline',
+    url: 'https://www.openmedicare.us/investigations/oncology-drug-pipeline',
   },
 }
 
@@ -265,7 +265,7 @@ export default function OncologyDrugPipelinePage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/oncology-drug-pipeline"
+              url="https://www.openmedicare.us/investigations/oncology-drug-pipeline"
               title="The Oncology Drug Pipeline"
             />
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '$45M in Wound Care from Beverly Hills Plastic Surgeons',
     description: '3 Beverly Hills cosmetic surgeons billed Medicare $45.6M — with 83-95% in wound care, not plastic surgery. Inside the 90210 billing anomaly.',
-    url: 'https://www.openmedicare.com/investigations/beverly-hills-wound-care',
+    url: 'https://www.openmedicare.us/investigations/beverly-hills-wound-care',
   },
 }
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Beverly Hills: Medicare\'s Most Expensive ZIP Code',
     description: 'Beverly Hills providers bill Medicare at rates far above the national average. $120M+ combined billing reveals the luxury ZIP code effect.',
-    url: 'https://www.openmedicare.com/investigations/beverly-hills-billing',
+    url: 'https://www.openmedicare.us/investigations/beverly-hills-billing',
   },
 }
 
@@ -326,7 +326,7 @@ export default function BeverlyHillsBillingPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/beverly-hills-billing"
+              url="https://www.openmedicare.us/investigations/beverly-hills-billing"
               title="Beverly Hills: America's Most Expensive ZIP Code for Medicare"
             />
             <InvestigationDisclaimer />

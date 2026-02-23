@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AI Trained on 8,300 Fraudsters Found 500 Matches',
     description: 'We trained a model on 8,300+ convicted Medicare fraudsters. It flagged 500 active doctors with identical billing patterns — and $400M in payments.',
-    url: 'https://www.openmedicare.com/investigations/algorithm-knows',
+    url: 'https://www.openmedicare.us/investigations/algorithm-knows',
   },
 }
 
@@ -52,7 +52,7 @@ export default function AlgorithmKnowsPage() {
         title="The Algorithm Knows: How AI Trained on 8,300 Convicted Fraudsters Found 500 Doctors Who Look Just Like Them"
         description="A machine learning model trained on 8,300+ convicted Medicare fraudsters flagged 500 active providers with matching billing patterns."
         publishedDate={publishedDate}
-        url="https://www.openmedicare.com/investigations/algorithm-knows"
+        url="https://www.openmedicare.us/investigations/algorithm-knows"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

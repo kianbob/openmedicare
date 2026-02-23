@@ -204,7 +204,7 @@ export default function SpecialtyMonopolyPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.com/investigations/specialty-monopoly" title="The Specialty Monopoly" />
+          <ShareButtons url="https://www.openmedicare.us/investigations/specialty-monopoly" title="The Specialty Monopoly" />
         </div>
         <SourceCitation />
       </div>

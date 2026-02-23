@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How Telehealth Broke Medicare Wide Open',
     description: 'COVID forced CMS to allow telehealth overnight. Spending crashed 10% in 2020, then surged past pre-pandemic highs. Inside the $94B system telehealth rebuilt.',
-    url: 'https://www.openmedicare.com/investigations/telehealth-explosion',
+    url: 'https://www.openmedicare.us/investigations/telehealth-explosion',
   },
 }
 
@@ -291,7 +291,7 @@ export default function TelehealthExplosionPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/telehealth-explosion"
+              url="https://www.openmedicare.us/investigations/telehealth-explosion"
               title="The Telehealth Explosion: How COVID Changed Medicare Forever"
             />
 

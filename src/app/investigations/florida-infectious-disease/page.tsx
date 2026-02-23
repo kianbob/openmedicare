@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '185 Florida Providers Bill 400+ Services Per Day',
     description: 'Florida has 185 impossible-volume providers — more than CA and TX combined — billing $573M total. See the top 20 and where they cluster.',
-    url: 'https://www.openmedicare.com/investigations/florida-infectious-disease',
+    url: 'https://www.openmedicare.us/investigations/florida-infectious-disease',
   },
 }
 
@@ -300,7 +300,7 @@ export default function FloridaInfectiousDiseasePage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/florida-infectious-disease"
+              url="https://www.openmedicare.us/investigations/florida-infectious-disease"
               title="Florida's Fraud Factory"
             />
 

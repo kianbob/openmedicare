@@ -292,7 +292,7 @@ export default function MedicareBiggestSpendersPage() {
         </article>
 
         <ShareButtons
-          url="https://www.openmedicare.com/investigations/medicare-biggest-spenders"
+          url="https://www.openmedicare.us/investigations/medicare-biggest-spenders"
           title="Medicare's Most Expensive Doctors"
         />
         <SourceCitation />

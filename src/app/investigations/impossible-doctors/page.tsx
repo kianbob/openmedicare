@@ -296,7 +296,7 @@ export default function ImpossibleDoctorsPage() {
             </div>
 
             <ShareButtons
-              url="https://www.openmedicare.com/investigations/impossible-doctors"
+              url="https://www.openmedicare.us/investigations/impossible-doctors"
               title="The Impossible Doctors"
             />
 

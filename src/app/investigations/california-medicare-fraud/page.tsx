@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "56 AI-Flagged Medicare Providers in California",
     description: 'California ties Florida at #1 for AI-flagged Medicare providers. LA is the epicenter, Internal Medicine dominates, and billing patterns match convicted fraudsters.',
-    url: 'https://www.openmedicare.com/investigations/california-medicare-fraud',
+    url: 'https://www.openmedicare.us/investigations/california-medicare-fraud',
   },
 }
 
@@ -37,7 +37,7 @@ export default function CaliforniaMedicareFraudPage() {
         title="California's Medicare Fraud Problem: 56 AI-Flagged Providers and $47M in Payments"
         description="California has 56 AI-flagged Medicare providers tied #1 with Florida. LA dominates, Internal Medicine leads, and the patterns match convicted fraudsters."
         publishedDate={publishedDate}
-        url="https://www.openmedicare.com/investigations/california-medicare-fraud"
+        url="https://www.openmedicare.us/investigations/california-medicare-fraud"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

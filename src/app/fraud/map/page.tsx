@@ -171,7 +171,7 @@ export default function FraudMapPage() {
             for suspicious billing patterns across {totalStatesWithFlags} states.
           </p>
           <div className="mt-4">
-            <ShareButtons title="Medicare Fraud Map" url="https://www.openmedicare.com/fraud/map" />
+            <ShareButtons title="Medicare Fraud Map" url="https://www.openmedicare.us/fraud/map" />
           </div>
         </div>
 

@@ -366,7 +366,7 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
           </div>
         </div>
 
-        <ShareButtons url={`https://www.openmedicare.com/states/${code}`} title={`${name} Medicare Spending — OpenMedicare`} />
+        <ShareButtons url={`https://www.openmedicare.us/states/${code}`} title={`${name} Medicare Spending — OpenMedicare`} />
         <SourceCitation lastUpdated="February 2026 (data through 2023, the latest CMS release)" />
       </div>
     </main>

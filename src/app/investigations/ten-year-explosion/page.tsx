@@ -220,7 +220,7 @@ export default function TenYearExplosionPage() {
           </div>
         </div>
 
-          <ShareButtons url="https://www.openmedicare.com/investigations/ten-year-explosion" title="The 10-Year Explosion" />
+          <ShareButtons url="https://www.openmedicare.us/investigations/ten-year-explosion" title="The 10-Year Explosion" />
         </div>
         <SourceCitation />
       </div>

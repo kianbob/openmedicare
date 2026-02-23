@@ -278,7 +278,7 @@ export default function ReportFraud() {
           </Link>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/fraud/report" title="Report Medicare Fraud" />
+        <ShareButtons url="https://www.openmedicare.us/fraud/report" title="Report Medicare Fraud" />
         <div className="mt-6">
           <SourceCitation
             sources={['HHS Office of Inspector General', 'Department of Justice, Civil Division', 'False Claims Act (31 U.S.C. §§ 3729–3733)']}

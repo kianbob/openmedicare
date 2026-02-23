@@ -88,7 +88,7 @@ export default function BiggestBillersPage() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/investigations/biggest-billers" title="Medicare's Biggest Billers" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/biggest-billers" title="Medicare's Biggest Billers" />
         <SourceCitation />
       </div>
     </main>

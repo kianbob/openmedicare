@@ -79,7 +79,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
             marginTop: '48px',
           }}
         >
-          www.openmedicare.com
+          www.openmedicare.us
         </div>
       </div>
     ),

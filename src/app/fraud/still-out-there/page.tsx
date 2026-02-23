@@ -298,7 +298,7 @@ export default function StillOutThere() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.com/fraud/still-out-there" title="Still Out There: 500 ML-Flagged Medicare Providers" />
+        <ShareButtons url="https://www.openmedicare.us/fraud/still-out-there" title="Still Out There: 500 ML-Flagged Medicare Providers" />
         <div className="mt-6">
           <SourceCitation sources={[
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',

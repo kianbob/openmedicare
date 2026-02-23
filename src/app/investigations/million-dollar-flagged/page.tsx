@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '47 AI-Flagged Providers Who Billed $93M+',
     description: 'Each billed Medicare over $1M while matching convicted fraudsters\' patterns. One internist alone: $5.3M. See the full million-dollar club.',
-    url: 'https://www.openmedicare.com/investigations/million-dollar-flagged',
+    url: 'https://www.openmedicare.us/investigations/million-dollar-flagged',
   },
 }
 
@@ -46,7 +46,7 @@ export default function MillionDollarFlaggedPage() {
         title="The Million-Dollar Club: 47 AI-Flagged Providers Who Billed Over $1M Each"
         description="47 providers flagged by our AI model each billed Medicare over $1 million while matching the billing patterns of convicted fraudsters."
         publishedDate={publishedDate}
-        url="https://www.openmedicare.com/investigations/million-dollar-flagged"
+        url="https://www.openmedicare.us/investigations/million-dollar-flagged"
       />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

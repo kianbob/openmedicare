@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Medicare Fraud Map: 500 Flagged Providers | OpenMedicare',
     description: 'Explore 500 Medicare providers flagged for suspicious billing across all 50 states. Find fraud hotspots in your state and drill into the data.',
-    url: 'https://www.openmedicare.com/fraud/map',
+    url: 'https://www.openmedicare.us/fraud/map',
   },
 }
 

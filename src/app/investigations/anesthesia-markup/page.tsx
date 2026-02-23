@@ -404,7 +404,7 @@ export default function AnesthesiaMarkupPage() {
         </article>
 
         <ShareButtons
-          url="https://www.openmedicare.com/investigations/anesthesia-markup"
+          url="https://www.openmedicare.us/investigations/anesthesia-markup"
           title="The Anesthesia Markup Scandal"
         />
         <SourceCitation />
