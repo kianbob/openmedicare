@@ -182,14 +182,14 @@ export default function HomePage() {
               Data through 2023 · Updated February 2026
             </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
-              500 Medicare Providers Bill Like Convicted Fraudsters
+              Where $854B in Medicare Money Really Goes
             </h1>
             <p className="text-xl sm:text-2xl text-blue-100 mb-4 max-w-4xl mx-auto">
-              AI trained on 8,300+ convicted fraudsters analyzed 1.7 million Medicare providers.
+              10 years of data. 1.7 million providers. AI-powered fraud detection.
             </p>
             <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
-              Explore {formatCurrency(keyStats.totalPayments)} in payments across 10 years of data (2014-2023). 
-              Our ML model flagged 500 providers who bill like convicted criminals.
+              Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2023). 
+              Our ML model, trained on 8,300+ convicted fraudsters, flagged 500 providers who bill like criminals.
             </p>
             
             {/* Search CTA */}
