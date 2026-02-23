@@ -546,7 +546,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
             <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
               <span className="text-xl">📋</span> Key Findings
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <div className="space-y-2">
               {keyFindings.slice(0, 6).map((finding, i) => (
                 <div key={i} className="flex items-start gap-2 text-sm">
                   <span className="mt-0.5 w-5 h-5 flex items-center justify-center rounded-full bg-blue-100 text-blue-700 font-bold text-xs flex-shrink-0">{i + 1}</span>
@@ -703,7 +703,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           </div>
         )}
 
-        {!watchlistEntry && !mlMatch && (
+        {!watchlistEntry && !mlMatch && !(isIndividual && servicesPerDay > 50) && (
           <div className="flex items-center gap-2 mb-6 text-green-700">
             <ShieldCheckIcon className="h-5 w-5" />
             <span className="text-sm font-medium">✓ No flags detected</span>

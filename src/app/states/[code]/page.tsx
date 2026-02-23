@@ -111,22 +111,52 @@ export default async function StateDetailPage({ params }: { params: Promise<{ co
         )}
 
         {/* Summary Stats */}
-        {yearly.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-              <div className="text-sm text-gray-500">Total Payments (10yr)</div>
-              <div className="text-2xl font-bold text-medicare-primary">{formatCurrency(totalPayments)}</div>
+        {(() => {
+          const latestYear = yearly.length > 0 ? yearly[yearly.length - 1] : null
+          const prevYear = yearly.length > 1 ? yearly[yearly.length - 2] : null
+          const yoyChange = latestYear && prevYear ? ((latestYear.payments - prevYear.payments) / prevYear.payments * 100) : null
+          const topSpecialty = data.specialty_breakdown?.[0] || null
+          return (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+                <div className="text-sm font-medium text-gray-500 mb-1">Total Payments (10yr)</div>
+                <div className="text-3xl lg:text-4xl font-bold text-medicare-primary tracking-tight">{formatCurrency(totalPayments)}</div>
+                {yoyChange !== null && (
+                  <div className={`text-sm font-medium mt-2 ${yoyChange >= 0 ? 'text-green-600' : 'text-red-600'}`}>
+                    {yoyChange >= 0 ? '+' : ''}{yoyChange.toFixed(1)}% vs {prevYear.year}
+                  </div>
+                )}
+              </div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+                <div className="text-sm font-medium text-gray-500 mb-1">Active Providers{latestYear ? ` (${latestYear.year})` : ''}</div>
+                <div className="text-3xl lg:text-4xl font-bold text-gray-900 tracking-tight">{formatNumber(totalProviders)}</div>
+                {latestYear?.services && (
+                  <div className="text-sm text-gray-500 mt-2">{formatNumber(latestYear.services)} services</div>
+                )}
+              </div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+                <div className="text-sm font-medium text-gray-500 mb-1">Top Specialty</div>
+                <div className="text-xl lg:text-2xl font-bold text-gray-900 tracking-tight leading-tight">
+                  {topSpecialty ? (
+                    <Link href={`/specialties/${slugifySpecialty(topSpecialty.specialty)}`} className="hover:text-medicare-primary transition-colors">
+                      {topSpecialty.specialty}
+                    </Link>
+                  ) : '—'}
+                </div>
+                {topSpecialty && (
+                  <div className="text-sm text-gray-500 mt-2">{formatCurrency(topSpecialty.payments)} total</div>
+                )}
+              </div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+                <div className="text-sm font-medium text-gray-500 mb-1">Specialties</div>
+                <div className="text-3xl lg:text-4xl font-bold text-gray-900 tracking-tight">{formatNumber(data.specialty_breakdown?.length || 0)}</div>
+                {latestYear && totalProviders > 0 && (
+                  <div className="text-sm text-gray-500 mt-2">{formatCurrency(latestYear.payments / totalProviders)} per provider</div>
+                )}
+              </div>
             </div>
-            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-              <div className="text-sm text-gray-500">Active Providers ({yearly[yearly.length - 1]?.year})</div>
-              <div className="text-2xl font-bold text-gray-900">{formatNumber(totalProviders)}</div>
-            </div>
-            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-              <div className="text-sm text-gray-500">Specialties</div>
-              <div className="text-2xl font-bold text-gray-900">{formatNumber(data.specialty_breakdown?.length || 0)}</div>
-            </div>
-          </div>
-        )}
+          )
+        })()}
 
         {/* Yearly Trends Chart */}
         {yearly.length > 1 && (

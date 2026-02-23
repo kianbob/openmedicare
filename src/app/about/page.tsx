@@ -46,13 +46,13 @@ export default function AboutPage() {
             <h1 className="text-4xl font-bold text-gray-900 font-playfair mb-4">
               About OpenMedicare
             </h1>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl text-gray-600 leading-relaxed">
               Professional data journalism tracking Medicare physician spending to promote transparency and accountability in healthcare.
             </p>
           </div>
 
           {/* Mission */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               Our Mission
             </h2>
@@ -67,7 +67,7 @@ export default function AboutPage() {
           </section>
 
           {/* What Makes Us Different */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               What Makes Us Different
             </h2>
@@ -79,7 +79,7 @@ export default function AboutPage() {
           </section>
 
           {/* Data Coverage */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               Data Coverage
             </h2>
@@ -104,7 +104,7 @@ export default function AboutPage() {
           </section>
 
           {/* Methodology */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               Methodology
             </h2>
@@ -144,7 +144,7 @@ export default function AboutPage() {
           </section>
 
           {/* ML Fraud Detection */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               Machine Learning Fraud Detection
             </h2>
@@ -170,7 +170,7 @@ export default function AboutPage() {
           </section>
 
           {/* Independence Statement */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               Editorial Independence
             </h2>
@@ -191,7 +191,7 @@ export default function AboutPage() {
           </section>
 
           {/* Sister Sites */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               Sister Projects
             </h2>
@@ -218,7 +218,7 @@ export default function AboutPage() {
           </section>
 
           {/* Report Fraud */}
-          <section className="mb-12">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <h2 className="text-xl font-bold text-gray-900 mb-2">See Something Suspicious?</h2>
               <p className="text-gray-700 mb-4">
@@ -231,7 +231,7 @@ export default function AboutPage() {
           </section>
 
           {/* Contact */}
-          <section className="mb-8">
+          <section className="mb-12 pb-12 border-b border-gray-100">
             <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
               Contact & Feedback
             </h2>
@@ -240,9 +240,20 @@ export default function AboutPage() {
                 We welcome feedback, corrections, and story tips from healthcare professionals, researchers, and the public.
               </p>
               <p className="text-gray-700">
-                Use our <a href="/fraud/report" className="text-medicare-primary hover:underline font-medium">fraud reporting page</a> or reach out via our <a href="https://github.com/kianbob/openmedicare" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">GitHub repository</a>.
+                Use our <a href="/fraud/report" className="text-medicare-primary hover:underline font-medium">fraud reporting page</a>, reach out via our <a href="https://github.com/kianbob/openmedicare" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">GitHub repository</a>, or email us at{' '}
+                <a href="mailto:tips@openmedicare.us" className="text-medicare-primary hover:underline font-medium">tips@openmedicare.us</a>.
               </p>
             </div>
+          </section>
+
+          {/* Built By */}
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 font-playfair mb-4">
+              Built By
+            </h2>
+            <p className="text-gray-700">
+              OpenMedicare is an independent data journalism project built and maintained by a small team committed to government spending transparency. We are not affiliated with any government agency, healthcare company, or political organization. Our work is driven by the belief that public data should be publicly accessible and understandable.
+            </p>
           </section>
 
           {/* Share */}
@@ -253,6 +264,33 @@ export default function AboutPage() {
               description="Learn about our methodology and commitment to Medicare transparency"
             />
           </div>
+        </div>
+
+        {/* Footer CTA */}
+        <div className="mt-8 bg-medicare-primary rounded-lg shadow-sm p-8 text-center">
+          <h2 className="text-2xl font-bold text-white font-playfair mb-3">
+            Explore the Data
+          </h2>
+          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
+            Search 1.72 million providers, investigate billing patterns, and explore Medicare spending across all 50 states.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="/providers"
+              className="inline-flex items-center px-6 py-3 bg-white text-medicare-primary font-medium rounded-md hover:bg-gray-100 transition-colors"
+            >
+              Search Providers →
+            </a>
+            <a
+              href="/states"
+              className="inline-flex items-center px-6 py-3 border border-white text-white font-medium rounded-md hover:bg-white hover:text-medicare-primary transition-colors"
+            >
+              Browse by State
+            </a>
+          </div>
+          <p className="text-blue-200 text-sm mt-6">
+            Tips &amp; story leads: <a href="mailto:tips@openmedicare.us" className="text-white hover:underline font-medium">tips@openmedicare.us</a>
+          </p>
         </div>
 
         {/* Source Citation */}
