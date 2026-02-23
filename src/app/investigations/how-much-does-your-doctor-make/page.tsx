@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import ShareButtons from '@/components/ShareButtons'
 
 interface Specialty {
   specialty: string
@@ -158,6 +159,7 @@ export default function DoctorPayPage() {
           </div>
         )}
 
+        <ShareButtons url="/investigations/how-much-does-your-doctor-make" title="How Much Does Your Doctor Make from Medicare?" />
         <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500">
           <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2023. Payments reflect total Medicare allowed amounts over 10 years.</p>
           <div className="mt-4 flex gap-4">
