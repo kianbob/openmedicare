@@ -20,8 +20,7 @@ export default function LookupPage() {
       <div className="bg-gray-900 text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
           <Breadcrumbs items={[
-            { name: 'Home', href: '/' },
-            { name: 'Provider Lookup', href: '/lookup' },
+            { name: 'Provider Lookup' },
           ]} />
           <h1 className="text-4xl md:text-5xl font-bold mt-6 mb-4">
             Is Your Doctor on the List?
