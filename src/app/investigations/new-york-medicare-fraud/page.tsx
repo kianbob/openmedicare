@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "39 AI-Flagged Providers: NY's Hidden Fraud Problem",
@@ -237,6 +238,8 @@ export default function NewYorkMedicareFraudPage() {
                   </div>
                 </div>
               </div>
+
+              <RelatedArticles articles={[{"slug":"florida-california-fraud","title":"Florida vs. California","description":"The two states that dominate Medicare fraud compared."},{"slug":"biggest-billers","title":"The Biggest Billers","description":"Who bills Medicare the most across all states."},{"slug":"houston-medicare-capital","title":"Houston: Medicare Fraud Capital","description":"Another geographic fraud hotspot — Houston, TX."}]} />
 
               <SourceCitation
                 sources={[

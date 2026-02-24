@@ -6,6 +6,7 @@ import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '4,636 Doctors Billing 9,862 Services a Day',
@@ -322,6 +323,8 @@ export default function The4636ImpossibleDoctorsPage() {
                 </li>
               </ul>
             </div>
+
+              <RelatedArticles articles={[{"slug":"9862-services-per-day","title":"9,862 Services Per Day","description":"The most extreme impossible billing volumes we found."},{"slug":"medicare-millionaires","title":"Medicare Millionaires","description":"Providers collecting over $1M annually from Medicare."},{"slug":"biggest-billers","title":"The Biggest Billers","description":"The full picture of who bills Medicare the most."},{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"AI that identifies fraud-like billing — many impossible doctors were flagged."}]} />
 
             <SourceCitation
               sources={[

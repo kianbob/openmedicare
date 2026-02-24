@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '9,862 Services in 1 Day: Medicare\'s Most Impossible Doctor',
@@ -154,6 +155,8 @@ export default function ImpossibleServicesPage() {
         </div>
 
         <ShareButtons url="https://www.openmedicare.us/investigations/9862-services-per-day" title="9,862 Services Per Day" />
+              <RelatedArticles articles={[{"slug":"the-4636-impossible-doctors","title":"The 4,636 Impossible Doctors","description":"All the providers with physically impossible billing volumes."},{"slug":"medicare-millionaires","title":"Medicare Millionaires","description":"The providers who collect $1M+ from Medicare each year."},{"slug":"biggest-billers","title":"The Biggest Billers","description":"The top Medicare billers across every specialty."},{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"Our fraud model flagged many of these impossible billers."}]} />
+
         <SourceCitation />
       </div>
     </main>

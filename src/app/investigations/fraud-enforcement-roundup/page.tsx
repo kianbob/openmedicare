@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '2024–2025 Medicare Fraud Enforcement Roundup',
@@ -234,6 +235,8 @@ export default function FraudEnforcementRoundup() {
         </div>
 
         <div className="mt-8">
+              <RelatedArticles articles={[{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"AI trained on 8,300 fraudsters found 500 active matches."},{"slug":"genetic-testing-fraud","title":"Genetic Testing Fraud","description":"The genetic testing schemes that bilked Medicare for billions."},{"slug":"data-predicted-fraud","title":"The Data Predicted Their Fraud","description":"Providers flagged by our model before federal charges."},{"slug":"pain-management-fraud","title":"Pain Management Fraud","description":"How pain clinics became a hotbed for Medicare fraud."}]} />
+
           <SourceCitation sources={[
             'DOJ 2025 National Health Care Fraud Takedown (justice.gov)',
             'HHS-OIG 2025 Takedown Materials (oig.hhs.gov)',

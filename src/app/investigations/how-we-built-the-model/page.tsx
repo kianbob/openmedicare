@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'How We Detect Medicare Fraud With ML',
@@ -515,6 +516,8 @@ export default function HowWeBuiltTheModelPage() {
             />
 
             <div className="mt-6">
+              <RelatedArticles articles={[{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"The results: 500 active doctors with billing patterns matching convicted fraudsters."},{"slug":"data-predicted-fraud","title":"The Data Predicted Their Fraud","description":"Validation: providers we flagged who were later charged."},{"slug":"still-out-there","title":"Still Out There","description":"The full searchable list of all 500 flagged providers."}]} />
+
               <SourceCitation
                 sources={[
                   'Centers for Medicare & Medicaid Services (CMS) — Medicare Physician & Other Practitioners Data (2014–2023)',

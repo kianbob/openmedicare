@@ -8,6 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'The COVID Gold Rush: $2.8B in Test Billing',
@@ -368,6 +369,8 @@ export default function CovidGoldRushPage() {
 
         <ShareButtons url="https://www.openmedicare.us/investigations/the-covid-gold-rush" title="The COVID Gold Rush: How $2.8B in Test Billing Changed Medicare Forever" />
         <div className="mt-6">
+              <RelatedArticles articles={[{"slug":"covid-impact","title":"COVID Impact on Medicare","description":"How the pandemic reshaped Medicare spending patterns."},{"slug":"telehealth-explosion","title":"The Telehealth Explosion","description":"Telehealth went from niche to dominant — and fraud followed."},{"slug":"pandemic-recovery","title":"Pandemic Recovery","description":"How Medicare spending bounced back after COVID."},{"slug":"genetic-testing-fraud","title":"Genetic Testing Fraud","description":"COVID-era testing schemes that bilked Medicare."}]} />
+
           <SourceCitation />
         </div>
       </div>

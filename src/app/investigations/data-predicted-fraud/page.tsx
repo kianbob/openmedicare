@@ -9,6 +9,7 @@ import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import fs from 'fs'
 import path from 'path'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'We Flagged 500 Providers. The DOJ Agreed.',
@@ -745,6 +746,8 @@ export default function DataPredictedFraudPage() {
                 title="Our Data Predicted It: How Statistical Analysis Flagged Providers Before the DOJ Did"
                 url="https://www.openmedicare.us/investigations/data-predicted-fraud"
               />
+              <RelatedArticles articles={[{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"AI trained on 8,300 fraudsters found 500 active matches billing Medicare."},{"slug":"still-out-there","title":"Still Out There","description":"The full searchable list of 500 flagged active providers."},{"slug":"fraud-enforcement-roundup","title":"Fraud Enforcement Roundup","description":"The latest Medicare fraud prosecutions and enforcement actions."},{"slug":"how-we-built-the-model","title":"How We Built the Model","description":"The methodology behind our fraud detection model."}]} />
+
             <InvestigationDisclaimer />              <SourceCitation />
             </div>
           </div>

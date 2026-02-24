@@ -7,6 +7,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "Top 100 Medicare Billers Exposed (2023 Data)",
@@ -89,6 +90,8 @@ export default function BiggestBillersPage() {
         </div>
 
         <ShareButtons url="https://www.openmedicare.us/investigations/biggest-billers" title="Medicare's Biggest Billers" />
+              <RelatedArticles articles={[{"slug":"medicare-millionaires","title":"Medicare Millionaires","description":"The providers collecting $1M+ from Medicare annually."},{"slug":"markup-machine","title":"The Markup Machine","description":"Providers who charge Medicare far more than what's allowed."},{"slug":"9862-services-per-day","title":"9,862 Services Per Day","description":"The impossible billing volumes hiding in Medicare data."},{"slug":"eye-care-billions","title":"Eye Care Billions","description":"How ophthalmology became Medicare's most expensive specialty."}]} />
+
         <SourceCitation />
       </div>
     </main>

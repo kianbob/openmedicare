@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "Houston Spends $9.24B on Medicare — More Than Most States",
@@ -152,6 +153,8 @@ export default function HoustonMedicareCapitalPage() {
         </div>
 
         <ShareButtons url="https://www.openmedicare.us/investigations/houston-medicare-capital" title="Houston: America's Medicare Capital" />
+              <RelatedArticles articles={[{"slug":"florida-california-fraud","title":"Florida vs. California","description":"The two biggest fraud states compared side by side."},{"slug":"florida-medicare-fraud","title":"Florida Medicare Fraud","description":"The Sunshine State's massive fraud problem."},{"slug":"pain-management-fraud","title":"Pain Management Fraud","description":"How pain clinics became fraud hotspots — especially in Texas."},{"slug":"fraud-enforcement-roundup","title":"Fraud Enforcement Roundup","description":"The latest federal fraud enforcement actions."}]} />
+
         <SourceCitation />
       </div>
     </main>

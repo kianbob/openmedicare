@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '$328M Genetic Testing Scam: Inside the Fake Lab Scheme',
@@ -171,6 +172,8 @@ export default function GeneticTestingFraud() {
 
         <ShareButtons url="https://www.openmedicare.us/investigations/genetic-testing-fraud" title="The $328M Genetic Testing Scam" />
         <div className="mt-6">
+              <RelatedArticles articles={[{"slug":"fraud-enforcement-roundup","title":"Fraud Enforcement Roundup","description":"The latest Medicare fraud prosecutions and enforcement actions."},{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"AI trained on convicted fraudsters found 500 active matches."},{"slug":"the-covid-gold-rush","title":"The COVID Gold Rush","description":"How the pandemic created new opportunities for Medicare fraud."},{"slug":"telehealth-explosion","title":"The Telehealth Explosion","description":"Telehealth billing surged — and so did the fraud risk."}]} />
+
           <SourceCitation sources={[
             'DOJ Press Release: Former NFL Player Convicted (Feb 21, 2026)',
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',

@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "56 Providers Flagged for Fraud in Florida's $52M Crisis",
@@ -233,6 +234,8 @@ export default function FloridaMedicareFraudPage() {
                   </div>
                 </div>
               </div>
+
+              <RelatedArticles articles={[{"slug":"florida-california-fraud","title":"Florida vs. California","description":"The two states that dominate Medicare fraud — compared side by side."},{"slug":"houston-medicare-capital","title":"Houston: Medicare Fraud Capital","description":"How Houston became the epicenter of Medicare fraud schemes."},{"slug":"california-medicare-fraud","title":"California Medicare Fraud","description":"Inside the Golden State's Medicare fraud landscape."},{"slug":"fraud-enforcement-roundup","title":"Fraud Enforcement Roundup","description":"The latest Medicare fraud prosecutions nationwide."}]} />
 
               <SourceCitation
                 sources={[

@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'AI Trained on 8,300 Fraudsters Found 500 Matches',
@@ -472,6 +473,9 @@ export default function AlgorithmKnowsPage() {
                   </p>
                 </Link>
               </div>
+
+
+              <RelatedArticles articles={[{"slug":"data-predicted-fraud","title":"The Data Predicted Their Fraud","description":"Providers our model flagged years before the DOJ charged them."},{"slug":"still-out-there","title":"Still Out There","description":"The full list of 500 flagged providers — searchable and sortable."},{"slug":"how-we-built-the-model","title":"How We Built the Model","description":"Inside the ML fraud detection model behind 1.7 million provider analyses."},{"slug":"million-dollar-flagged","title":"Million-Dollar Flagged","description":"The highest-paid providers our algorithm flagged for fraud-like billing."}]} />
 
               {/* Source Citation */}
               <SourceCitation

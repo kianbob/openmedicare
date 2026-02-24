@@ -6,6 +6,7 @@ import SourceCitation from '@/components/SourceCitation'
 import { BarChart, LineChart } from '@/components/Charts'
 import { formatCurrency, formatPercent } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '$2.1 Trillion in Phantom Charges: Inside the Markup',
@@ -311,6 +312,9 @@ export default function MarkupMachinePage() {
             </div>
           </div>
         </div>
+
+
+              <RelatedArticles articles={[{"slug":"biggest-billers","title":"The Biggest Billers","description":"Who bills Medicare the most — by specialty and volume."},{"slug":"eye-care-billions","title":"Eye Care Billions","description":"The specialty where markups are most extreme."},{"slug":"specialty-monopoly","title":"Specialty Monopoly","description":"How a few specialties dominate Medicare spending."},{"slug":"the-4636-impossible-doctors","title":"The 4,636 Impossible Doctors","description":"Providers with billing volumes that defy physical possibility."}]} />
 
         {/* Source Citation */}
         <div className="mt-12">

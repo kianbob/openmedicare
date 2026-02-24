@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "56 AI-Flagged Providers in California ($47M)",
@@ -258,6 +259,8 @@ export default function CaliforniaMedicareFraudPage() {
                   </div>
                 </div>
               </div>
+
+              <RelatedArticles articles={[{"slug":"florida-california-fraud","title":"Florida vs. California","description":"Side-by-side comparison of the two biggest fraud states."},{"slug":"beverly-hills-wound-care","title":"Beverly Hills Wound Care","description":"Luxury wound care clinics billing Medicare millions."},{"slug":"biggest-billers","title":"The Biggest Billers","description":"Who bills Medicare the most — by state, specialty, and provider."},{"slug":"florida-medicare-fraud","title":"Florida Medicare Fraud","description":"The Sunshine State's Medicare fraud epidemic."}]} />
 
               <SourceCitation
                 sources={[

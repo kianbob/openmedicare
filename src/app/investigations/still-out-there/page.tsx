@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '500 Providers Still Billing Like Fraudsters',
@@ -373,6 +374,8 @@ export default function StillOutThereArticle() {
 
         <ShareButtons url="https://www.openmedicare.us/investigations/still-out-there" title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" />
         <div className="mt-8 mb-4">
+              <RelatedArticles articles={[{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"How we trained AI on 8,300 convicted fraudsters and found 500 matches."},{"slug":"data-predicted-fraud","title":"The Data Predicted Their Fraud","description":"When our model flagged providers before the DOJ did."},{"slug":"million-dollar-flagged","title":"Million-Dollar Flagged","description":"The highest-paid providers flagged for fraud-like billing patterns."}]} />
+
           <SourceCitation sources={[
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
             'HHS OIG List of Excluded Individuals/Entities (LEIE)',

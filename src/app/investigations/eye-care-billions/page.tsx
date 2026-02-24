@@ -5,6 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Eye Care Costs Medicare $73B — One Drug Is $19.7B',
@@ -326,6 +327,8 @@ export default function EyeCareBillionsPage() {
           url="https://www.openmedicare.us/investigations/eye-care-billions"
           title="The Billion-Dollar Eye Care Industry"
         />
+              <RelatedArticles articles={[{"slug":"markup-machine","title":"The Markup Machine","description":"Providers charging far more than Medicare allows — across all specialties."},{"slug":"biggest-billers","title":"The Biggest Billers","description":"The top Medicare billers by specialty and total payment."},{"slug":"specialty-monopoly","title":"Specialty Monopoly","description":"How a few specialties capture the lion's share of Medicare."},{"slug":"beverly-hills-wound-care","title":"Beverly Hills Wound Care","description":"Another high-billing specialty cluster in a luxury market."}]} />
+
         <SourceCitation />
       </div>
     </main>

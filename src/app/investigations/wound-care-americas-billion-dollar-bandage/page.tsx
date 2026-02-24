@@ -6,6 +6,7 @@ import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Wound Care: America\'s $5.5B Bandage Scheme',
@@ -358,6 +359,8 @@ export default function WoundCareAmericasBillionDollarBandagePage() {
                 </li>
               </ul>
             </div>
+
+              <RelatedArticles articles={[{"slug":"wound-care-crisis","title":"The Wound Care Crisis","description":"How wound care became one of Medicare's fastest-growing costs."},{"slug":"beverly-hills-wound-care","title":"Beverly Hills Wound Care","description":"Luxury clinics billing Medicare millions for wound care."},{"slug":"arizona-wound-care-ring","title":"Arizona Wound Care Ring","description":"A coordinated wound care fraud ring in the desert."},{"slug":"markup-machine","title":"The Markup Machine","description":"How providers charge Medicare far more than allowed."}]} />
 
             <SourceCitation
               sources={[

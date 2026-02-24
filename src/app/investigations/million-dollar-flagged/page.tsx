@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '47 AI-Flagged Providers Who Billed $93M+',
@@ -296,6 +297,9 @@ export default function MillionDollarFlaggedPage() {
                   </p>
                 </Link>
               </div>
+
+
+              <RelatedArticles articles={[{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"The model that flagged these providers — and how it works."},{"slug":"medicare-millionaires","title":"Medicare Millionaires","description":"The providers who collect $1M+ from Medicare every year."},{"slug":"biggest-billers","title":"The Biggest Billers","description":"Who bills Medicare the most — and what they bill for."},{"slug":"still-out-there","title":"Still Out There","description":"The full searchable database of all 500 flagged providers."}]} />
 
               {/* Source Citation */}
               <SourceCitation

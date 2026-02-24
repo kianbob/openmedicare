@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'The Fraud Belt: 5 States Hold 44% of All Flags',
@@ -326,6 +327,9 @@ export default function FloridaCaliforniaFraudPage() {
                   </div>
                 </div>
               </div>
+
+
+              <RelatedArticles articles={[{"slug":"florida-medicare-fraud","title":"Florida Medicare Fraud","description":"A deep dive into the Sunshine State's fraud problem."},{"slug":"california-medicare-fraud","title":"California Medicare Fraud","description":"The Golden State's massive Medicare fraud landscape."},{"slug":"houston-medicare-capital","title":"Houston: Medicare Fraud Capital","description":"How one city became the epicenter of Medicare fraud."},{"slug":"new-york-medicare-fraud","title":"New York Medicare Fraud","description":"Fraud patterns in the nation's largest Medicare market."}]} />
 
               {/* Source Citation */}
               <SourceCitation

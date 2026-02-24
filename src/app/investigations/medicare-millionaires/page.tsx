@@ -8,6 +8,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "Medicare's Top 1%: Who Bills Millions per Year",
@@ -248,6 +249,8 @@ export default function MedicareMillionairesPage() {
 
           <ShareButtons url="https://www.openmedicare.us/investigations/medicare-millionaires" title="Medicare's Millionaire Club" />
             <InvestigationDisclaimer />        </div>
+              <RelatedArticles articles={[{"slug":"biggest-billers","title":"The Biggest Billers","description":"Who bills Medicare the most — the full breakdown."},{"slug":"9862-services-per-day","title":"9,862 Services Per Day","description":"Impossible billing volumes in Medicare data."},{"slug":"the-4636-impossible-doctors","title":"The 4,636 Impossible Doctors","description":"Providers whose billing defies physical possibility."},{"slug":"million-dollar-flagged","title":"Million-Dollar Flagged","description":"High-earning providers flagged by our fraud detection model."}]} />
+
         <SourceCitation />
       </div>
     </main>
