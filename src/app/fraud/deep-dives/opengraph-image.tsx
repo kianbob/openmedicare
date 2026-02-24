@@ -14,21 +14,21 @@ export default function Image() {
           alignItems: 'flex-start',
           width: '100%',
           height: '100%',
-          background: 'linear-gradient(135deg, #0d47a1 0%, #0a1628 100%)',
+          background: 'linear-gradient(135deg, #c62828 0%, #0a0a0a 100%)',
           padding: '60px 80px',
           fontFamily: 'system-ui',
         }}
       >
-        <div style={{ display: 'flex', fontSize: 24, color: '#64b5f6', marginBottom: 24, letterSpacing: 4, textTransform: 'uppercase' as const }}>
-          OpenMedicare
+        <div style={{ display: 'flex', fontSize: 22, color: '#ef9a9a', marginBottom: 20, letterSpacing: 4, textTransform: 'uppercase' as const }}>
+          OpenMedicare · Deep Dives
         </div>
         <div style={{ display: 'flex', fontSize: 56, fontWeight: 800, color: 'white', lineHeight: 1.15, marginBottom: 24 }}>
-          Where $854B in Medicare Money Really Goes
+          The 20 Most Suspicious Medicare Providers in America
         </div>
-        <div style={{ display: 'flex', fontSize: 26, color: '#b0bec5', lineHeight: 1.5 }}>
-          10 Years of Data. 1.7M Providers. AI-Powered Fraud Detection.
+        <div style={{ display: 'flex', fontSize: 26, color: '#ef9a9a', lineHeight: 1.5 }}>
+          AI-powered fraud detection meets investigative journalism.
         </div>
-        <div style={{ display: 'flex', position: 'absolute', bottom: 40, right: 60, fontSize: 18, color: '#455a64' }}>
+        <div style={{ display: 'flex', position: 'absolute', bottom: 40, right: 60, fontSize: 18, color: '#5c2a2a' }}>
           openmedicare.com
         </div>
       </div>
