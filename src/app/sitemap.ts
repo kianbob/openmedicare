@@ -186,11 +186,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   } catch {}
 
-  // Top providers (limit to keep sitemap reasonable)
+  // Providers: prioritize fraud/watchlist, then top by payment
   try {
     const provDir = path.join(process.cwd(), 'public', 'data', 'providers')
-    fs.readdirSync(provDir).filter(f => f.endsWith('.json')).slice(0, 500).forEach(f => {
-      dynamicRoutes.push({ url: `${baseUrl}/providers/${f.replace('.json', '')}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.4 })
+    const allProviders = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'all-providers.json'), 'utf-8'))
+    // All fraud and watchlist NPIs first (high priority)
+    const fraudNPIs = new Set(allProviders.filter((p: { fraud_probability?: number; watchlist?: boolean }) => (p.fraud_probability && p.fraud_probability > 0) || p.watchlist).map((p: { npi: string }) => p.npi))
+    fraudNPIs.forEach((npi: string) => {
+      dynamicRoutes.push({ url: `${baseUrl}/providers/${npi}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+    // Then top providers by payment (first 2000 minus fraud ones already added)
+    const allFiles = fs.readdirSync(provDir).filter((f: string) => f.endsWith('.json'))
+    const topByPayment = allProviders.sort((a: { total_payments: number }, b: { total_payments: number }) => (b.total_payments || 0) - (a.total_payments || 0)).slice(0, 2000)
+    topByPayment.forEach((p: { npi: string }) => {
+      if (!fraudNPIs.has(p.npi) && allFiles.includes(`${p.npi}.json`)) {
+        dynamicRoutes.push({ url: `${baseUrl}/providers/${p.npi}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.4 })
+      }
     })
   } catch {}
 
