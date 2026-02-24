@@ -194,6 +194,24 @@ const items = [
     pubDate: '2026-02-23T00:00:00.000Z',
   },
   {
+    title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
+    description: 'Medicare fraud costs taxpayers $60–100 billion annually from $854.8B in total payments. Complete breakdown of fraud statistics, types, enforcement, and AI findings.',
+    link: '/investigations/medicare-fraud-statistics',
+    pubDate: '2026-02-23T00:00:00.000Z',
+  },
+  {
+    title: 'How to Check if Your Doctor Has Medicare Fraud Flags',
+    description: 'Step-by-step guide to checking your doctor\'s Medicare billing history, fraud flags, and OIG exclusion status. Free provider lookup tool included.',
+    link: '/investigations/check-doctor-medicare',
+    pubDate: '2026-02-23T00:00:00.000Z',
+  },
+  {
+    title: 'Medicare vs Medicaid Fraud: What\'s the Difference?',
+    description: 'Medicare and Medicaid fraud differ in scale, schemes, and oversight. Learn how fraud works in each program and how much it costs.',
+    link: '/investigations/medicare-vs-medicaid-fraud',
+    pubDate: '2026-02-23T00:00:00.000Z',
+  },
+  {
     title: 'The Medicare Markup Machine',
     description: 'How doctors charge $100 billion more than Medicare actually pays them — and why the system incentivizes overbilling',
     link: '/investigations/markup-machine',

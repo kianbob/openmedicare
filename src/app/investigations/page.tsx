@@ -94,6 +94,33 @@ const featuredInvestigations = [
 
 const investigations = [
   {
+    title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
+    description: 'Complete breakdown of Medicare fraud costs, types, enforcement data, and AI findings.',
+    href: '/investigations/medicare-fraud-statistics',
+    category: '📊 Evergreen Reference',
+    readTime: '12 min read',
+    publishedAt: '2026-02-23',
+    excerpt: 'Medicare fraud costs taxpayers an estimated $60–100 billion annually from $854.8B in total payments. We break down the latest statistics, historical context, types of fraud, enforcement data, and what our AI found when it scored 1.7 million providers.'
+  },
+  {
+    title: 'How to Check if Your Doctor Has Medicare Fraud Flags',
+    description: 'Step-by-step guide to checking any doctor\'s Medicare billing, fraud risk score, and OIG exclusion status.',
+    href: '/investigations/check-doctor-medicare',
+    category: '📋 How-To Guide',
+    readTime: '10 min read',
+    publishedAt: '2026-02-23',
+    excerpt: 'A practical, step-by-step guide to looking up any doctor\'s Medicare billing patterns, AI fraud risk scores, and OIG exclusion status — using free public data and our provider lookup tool.'
+  },
+  {
+    title: 'Medicare vs Medicaid Fraud: What\'s the Difference?',
+    description: 'How fraud differs between America\'s two largest healthcare programs — in scale, schemes, and oversight.',
+    href: '/investigations/medicare-vs-medicaid-fraud',
+    category: '📖 Explainer',
+    readTime: '11 min read',
+    publishedAt: '2026-02-23',
+    excerpt: 'Medicare and Medicaid together lose an estimated $100–180 billion annually to fraud. But the schemes, perpetrators, and oversight structures couldn\'t be more different. Here\'s what you need to know.'
+  },
+  {
     title: 'The $328M Genetic Testing Scam: How Medicare Became an ATM for Fake Labs',
     description: 'Former NFL player convicted in $328M scheme. Genetic testing fraud is one of Medicare\'s fastest-growing problems.',
     href: '/investigations/genetic-testing-fraud',

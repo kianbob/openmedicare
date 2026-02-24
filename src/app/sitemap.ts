@@ -71,6 +71,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'the-markup-game',
     'wound-care-americas-billion-dollar-bandage',
     'fraud-enforcement-roundup',
+    'medicare-fraud-statistics',
+    'check-doctor-medicare',
+    'medicare-vs-medicaid-fraud',
   ]
 
   const staticPages = [
