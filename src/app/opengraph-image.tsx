@@ -29,7 +29,7 @@ export default function Image() {
           10 Years of Data. 1.7M Providers. AI-Powered Fraud Detection.
         </div>
         <div style={{ display: 'flex', position: 'absolute', bottom: 40, right: 60, fontSize: 18, color: '#455a64' }}>
-          openmedicare.com
+          openmedicare.us
         </div>
       </div>
     ),
