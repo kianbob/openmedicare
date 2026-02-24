@@ -8,7 +8,7 @@ export default function NewsletterCTA() {
           Stay Updated on Medicare Fraud
         </h3>
         <p className="text-blue-100 mb-6 max-w-lg mx-auto">
-          New investigations published regularly. 65 articles and counting.
+          New investigations published regularly. 59 articles and counting.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

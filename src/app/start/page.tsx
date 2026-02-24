@@ -44,7 +44,7 @@ const sections = [
     step: '5',
     title: 'Read Our Investigations',
     href: '/investigations',
-    description: '65 data-driven investigations exploring Medicare spending patterns, from drug money to geographic inequality.',
+    description: '59 data-driven investigations exploring Medicare spending patterns, from drug money to geographic inequality.',
     icon: '📰',
     color: 'bg-purple-50 border-purple-200',
   },

@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'Latest Updates & New Features',
-  description: 'See every new feature, data release, and investigation as it ships. AI fraud detection, 65+ articles, and 30,000+ provider profiles — all tracked here.',
+  description: 'See every new feature, data release, and investigation as it ships. AI fraud detection, 59+ articles, and 30,000+ provider profiles — all tracked here.',
   alternates: {
     canonical: '/updates',
   },
@@ -17,7 +17,7 @@ const updates = [
     items: [
       {
         title: 'Major Platform Update',
-        description: 'Added investigation disclaimers, unified provider database (30,000+ providers), ML fraud model integration (500 AI-flagged providers), dynamic OG images, 65 investigation articles.',
+        description: 'Added investigation disclaimers, unified provider database (30,000+ providers), ML fraud model integration (500 AI-flagged providers), dynamic OG images, 59 investigation articles.',
         tags: ['Major', 'Enhancement'],
         link: '/investigations',
       },
