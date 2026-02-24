@@ -372,7 +372,7 @@ export default function StillOutThereArticle() {
         </div>
 
         <ShareButtons url="https://www.openmedicare.us/investigations/still-out-there" title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" />
-        <div className="mt-6">
+        <div className="mt-8 mb-4">
           <SourceCitation sources={[
             'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
             'HHS OIG List of Excluded Individuals/Entities (LEIE)',

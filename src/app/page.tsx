@@ -81,56 +81,64 @@ const featuredInvestigations = [
     description: 'How AI detects Medicare fraud before humans do — and what it means for healthcare oversight',
     href: '/investigations/algorithm-knows',
     category: '🤖 AI Analysis',
-    readTime: '15 min read'
+    readTime: '15 min read',
+    date: 'Feb 2026'
   },
   {
     title: 'Still Out There',
     description: 'Our AI trained on 8,300+ confirmed fraudsters found 500 providers with identical billing patterns still collecting from Medicare',
     href: '/investigations/still-out-there',
     category: '🚨 ML Investigation',
-    readTime: '18 min read'
+    readTime: '18 min read',
+    date: 'Feb 2026'
   },
   {
     title: 'The Florida Infectious Disease Ring',
     description: 'A network of infectious disease providers in Florida billing Medicare millions with suspicious patterns',
     href: '/investigations/florida-infectious-disease',
     category: 'Investigation',
-    readTime: '16 min read'
+    readTime: '16 min read',
+    date: 'Jan 2026'
   },
   {
     title: 'Three Providers, One Pattern',
     description: 'How three unrelated providers across different states share eerily identical billing fingerprints',
     href: '/investigations/three-providers',
     category: 'Investigation',
-    readTime: '14 min read'
+    readTime: '14 min read',
+    date: 'Jan 2026'
   },
   {
     title: 'The Biggest Billers',
     description: 'The providers collecting the most from Medicare — and what their billing reveals about the system',
     href: '/investigations/biggest-billers',
     category: 'Deep Dive',
-    readTime: '15 min read'
+    readTime: '15 min read',
+    date: 'Jan 2026'
   },
   {
     title: 'COVID\'s Impact on Medicare',
     description: 'How the pandemic reshaped Medicare spending, telehealth, and fraud in ways that persist today',
     href: '/investigations/covid-impact',
     category: 'Analysis',
-    readTime: '12 min read'
+    readTime: '12 min read',
+    date: 'Dec 2025'
   },
   {
     title: 'The Impossible Doctors',
     description: 'Providers billing for more services per day than hours in a day — the math doesn\'t add up',
     href: '/investigations/impossible-doctors',
     category: '🔍 Investigation',
-    readTime: '14 min read'
+    readTime: '14 min read',
+    date: 'Dec 2025'
   },
   {
     title: 'The Oncology Drug Pipeline',
     description: 'How cancer drugs became Medicare\'s biggest expense — and who profits from the pipeline',
     href: '/investigations/oncology-drug-pipeline',
     category: 'Deep Dive',
-    readTime: '16 min read'
+    readTime: '16 min read',
+    date: 'Nov 2025'
   }
 ]
 
@@ -442,11 +450,12 @@ export default function HomePage() {
                     <span className="text-sm text-gray-500">{article.readTime}</span>
                   </div>
                   
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-medicare-primary">
+                  <h3 className="text-xl font-bold text-gray-900 mb-1 hover:text-medicare-primary">
                     <Link href={article.href}>
                       {article.title}
                     </Link>
                   </h3>
+                  <p className="text-xs text-gray-400 mb-3">{article.date}</p>
                   
                   <p className="text-gray-600 mb-4">{article.description}</p>
                   
