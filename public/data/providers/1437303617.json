@@ -1,0 +1,232 @@
+{
+  "name": "David Swenson",
+  "credentials": "D.O.",
+  "specialty": "Family Practice",
+  "city": "St Petersburg",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 203467.65,
+      "total_services": 2769,
+      "total_beneficiaries": 1443,
+      "avg_submitted": 208.21,
+      "avg_paid": 94.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 178030.15,
+      "total_services": 2392,
+      "total_beneficiaries": 1240,
+      "avg_submitted": 235.3,
+      "avg_paid": 104.37
+    },
+    {
+      "year": 2016,
+      "total_payments": 177954.35,
+      "total_services": 2339,
+      "total_beneficiaries": 1219,
+      "avg_submitted": 220.38,
+      "avg_paid": 99.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 223050.76,
+      "total_services": 2825,
+      "total_beneficiaries": 1516,
+      "avg_submitted": 213.89,
+      "avg_paid": 95.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 319732.83,
+      "total_services": 3946,
+      "total_beneficiaries": 1772,
+      "avg_submitted": 215.77,
+      "avg_paid": 100.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 370198.23,
+      "total_services": 4754,
+      "total_beneficiaries": 1511,
+      "avg_submitted": 224.29,
+      "avg_paid": 98.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 264344.96,
+      "total_services": 3422,
+      "total_beneficiaries": 657,
+      "avg_submitted": 210.71,
+      "avg_paid": 94.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 251019.17,
+      "total_services": 3494,
+      "total_beneficiaries": 926,
+      "avg_submitted": 170.83,
+      "avg_paid": 75.81
+    },
+    {
+      "year": 2022,
+      "total_payments": 267165.03,
+      "total_services": 3767,
+      "total_beneficiaries": 942,
+      "avg_submitted": 160.0,
+      "avg_paid": 73.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 242580.15,
+      "total_services": 2992,
+      "total_beneficiaries": 781,
+      "avg_submitted": 160.0,
+      "avg_paid": 81.54
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 14958,
+      "payments": 1079007.36,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7588,
+      "payments": 426040.16,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1494,
+      "payments": 228683.84,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1419,
+      "payments": 182732.05,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1288,
+      "payments": 104939.59,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1185,
+      "payments": 98409.62,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1738,
+      "payments": 91444.51,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 370,
+      "payments": 51830.49,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 570,
+      "payments": 48348.13,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 228,
+      "payments": 39754.96,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 583,
+      "payments": 32892.99,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 292,
+      "payments": 31586.75,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 173,
+      "payments": 27847.52,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 128,
+      "payments": 12405.34,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 215,
+      "payments": 12119.53,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 93,
+      "payments": 9787.5,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 166,
+      "payments": 9335.46,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 185,
+      "payments": 7627.03,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 27,
+      "payments": 2750.45,
+      "avg_markup": 2.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2497543.28,
+    "total_services": 32700,
+    "total_beneficiaries": 12007,
+    "avg_markup_ratio": 2.15
+  }
+}

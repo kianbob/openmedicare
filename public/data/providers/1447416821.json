@@ -1,0 +1,231 @@
+{
+  "name": "Giovanni Infusino",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Crown Point",
+  "state": "IN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 103087.57,
+      "total_services": 960,
+      "total_beneficiaries": 423,
+      "avg_submitted": 314.6,
+      "avg_paid": 112.38
+    },
+    {
+      "year": 2016,
+      "total_payments": 489011.19,
+      "total_services": 4684,
+      "total_beneficiaries": 1988,
+      "avg_submitted": 264.18,
+      "avg_paid": 81.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 470216.71,
+      "total_services": 5224,
+      "total_beneficiaries": 2739,
+      "avg_submitted": 249.91,
+      "avg_paid": 79.68
+    },
+    {
+      "year": 2018,
+      "total_payments": 366162.52,
+      "total_services": 4812,
+      "total_beneficiaries": 2807,
+      "avg_submitted": 217.39,
+      "avg_paid": 69.79
+    },
+    {
+      "year": 2019,
+      "total_payments": 445488.52,
+      "total_services": 6038,
+      "total_beneficiaries": 3698,
+      "avg_submitted": 209.13,
+      "avg_paid": 64.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 486283.93,
+      "total_services": 6064,
+      "total_beneficiaries": 3580,
+      "avg_submitted": 228.29,
+      "avg_paid": 69.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 517562.83,
+      "total_services": 7230,
+      "total_beneficiaries": 4124,
+      "avg_submitted": 203.21,
+      "avg_paid": 64.75
+    },
+    {
+      "year": 2022,
+      "total_payments": 448305.4,
+      "total_services": 6687,
+      "total_beneficiaries": 4079,
+      "avg_submitted": 229.07,
+      "avg_paid": 67.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 288416.39,
+      "total_services": 4874,
+      "total_beneficiaries": 3721,
+      "avg_submitted": 360.59,
+      "avg_paid": 55.76
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 12196,
+      "payments": 965176.12,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 5692,
+      "payments": 944532.44,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2959,
+      "payments": 438696.25,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7418,
+      "payments": 406656.08,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1568,
+      "payments": 125723.12,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2061,
+      "payments": 116849.26,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 595,
+      "payments": 50219.55,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 452,
+      "payments": 46924.66,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 431,
+      "payments": 43315.11,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1256,
+      "payments": 37478.89,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 321,
+      "payments": 36789.82,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 440,
+      "payments": 32697.64,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "31629",
+      "description": "Needle biopsy of windpipe cartilage, airway, and/or lung using an endoscope",
+      "services": 243,
+      "payments": 32342.93,
+      "avg_markup": 4.75
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 339,
+      "payments": 27327.37,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 565,
+      "payments": 26045.37,
+      "avg_markup": 8.21
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 338,
+      "payments": 24734.37,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "31652",
+      "description": "Examination of lung airways using an endoscope with imaging guidance and ultrasound",
+      "services": 177,
+      "payments": 23433.09,
+      "avg_markup": 5.23
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 215,
+      "payments": 22810.75,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1851,
+      "payments": 19555.71,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "31627",
+      "description": "Computer-assisted image-guided navigation of lung airways using an endoscope",
+      "services": 238,
+      "payments": 17438.76,
+      "avg_markup": 10.86
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3614535.05,
+    "total_services": 46573,
+    "total_beneficiaries": 27159,
+    "avg_markup_ratio": 2.79
+  }
+}

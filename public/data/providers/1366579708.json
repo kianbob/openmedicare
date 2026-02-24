@@ -1,0 +1,117 @@
+{
+  "name": "Dmcare Express, Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Detroit",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1545170.34,
+      "total_services": 14429,
+      "total_beneficiaries": 8556,
+      "avg_submitted": 432.09,
+      "avg_paid": 259.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 1063734.19,
+      "total_services": 10359,
+      "total_beneficiaries": 5927,
+      "avg_submitted": 436.14,
+      "avg_paid": 259.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 805499.6,
+      "total_services": 8324,
+      "total_beneficiaries": 4555,
+      "avg_submitted": 466.37,
+      "avg_paid": 253.49
+    },
+    {
+      "year": 2017,
+      "total_payments": 829964.32,
+      "total_services": 8454,
+      "total_beneficiaries": 4508,
+      "avg_submitted": 466.33,
+      "avg_paid": 261.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 704175.79,
+      "total_services": 7296,
+      "total_beneficiaries": 3450,
+      "avg_submitted": 481.12,
+      "avg_paid": 262.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 422362.67,
+      "total_services": 4598,
+      "total_beneficiaries": 2182,
+      "avg_submitted": 574.01,
+      "avg_paid": 266.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 48535.65,
+      "total_services": 535,
+      "total_beneficiaries": 279,
+      "avg_submitted": 454.05,
+      "avg_paid": 186.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 21376,
+      "payments": 3546516.08,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3886,
+      "payments": 1077825.41,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 1480,
+      "payments": 486333.59,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 26882,
+      "payments": 147590.97,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 230,
+      "payments": 131478.68,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 141,
+      "payments": 29697.84,
+      "avg_markup": 2.21
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 5419442.56,
+    "total_services": 53995,
+    "total_beneficiaries": 29457,
+    "avg_markup_ratio": 2.2
+  }
+}

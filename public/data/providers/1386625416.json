@@ -1,0 +1,70 @@
+{
+  "name": "Eaton Medical Transport, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Eaton",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2876286.32,
+      "total_services": 32666,
+      "total_beneficiaries": 13666,
+      "avg_submitted": 710.7,
+      "avg_paid": 184.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 1229883.79,
+      "total_services": 13602,
+      "total_beneficiaries": 7058,
+      "avg_submitted": 710.46,
+      "avg_paid": 188.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 20141,
+      "payments": 3145824.9,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1998,
+      "payments": 520120.6,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 734,
+      "payments": 226532.61,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 22953,
+      "payments": 126723.76,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 442,
+      "payments": 86968.23,
+      "avg_markup": 4.83
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 4106170.1,
+    "total_services": 46268,
+    "total_beneficiaries": 20724,
+    "avg_markup_ratio": 4.2
+  }
+}

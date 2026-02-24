@@ -1,0 +1,64 @@
+{
+  "name": "Ameripride Ambulance Service, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Gardena",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 821658.88,
+      "total_services": 8944,
+      "total_beneficiaries": 1687,
+      "avg_submitted": 674.75,
+      "avg_paid": 164.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 1187813.56,
+      "total_services": 9116,
+      "total_beneficiaries": 5003,
+      "avg_submitted": 689.21,
+      "avg_paid": 167.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 356520.4,
+      "total_services": 2854,
+      "total_beneficiaries": 2518,
+      "avg_submitted": 681.31,
+      "avg_paid": 170.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 7238,
+      "payments": 1310387.91,
+      "avg_markup": 5.39
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3190,
+      "payments": 998833.28,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10486,
+      "payments": 56771.65,
+      "avg_markup": 3.45
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2365992.84,
+    "total_services": 20914,
+    "total_beneficiaries": 9208,
+    "avg_markup_ratio": 4.51
+  }
+}

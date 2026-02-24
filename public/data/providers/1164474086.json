@@ -1,0 +1,239 @@
+{
+  "name": "John Fox",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Clearwater",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 199320.01,
+      "total_services": 3209,
+      "total_beneficiaries": 2003,
+      "avg_submitted": 125.83,
+      "avg_paid": 59.08
+    },
+    {
+      "year": 2015,
+      "total_payments": 225549.82,
+      "total_services": 3304,
+      "total_beneficiaries": 2123,
+      "avg_submitted": 175.3,
+      "avg_paid": 65.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 250962.87,
+      "total_services": 4228,
+      "total_beneficiaries": 2753,
+      "avg_submitted": 115.09,
+      "avg_paid": 57.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 290815.49,
+      "total_services": 4556,
+      "total_beneficiaries": 2997,
+      "avg_submitted": 126.93,
+      "avg_paid": 64.7
+    },
+    {
+      "year": 2018,
+      "total_payments": 286689.1,
+      "total_services": 4861,
+      "total_beneficiaries": 3354,
+      "avg_submitted": 123.08,
+      "avg_paid": 62.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 367472.0,
+      "total_services": 6504,
+      "total_beneficiaries": 3485,
+      "avg_submitted": 127.67,
+      "avg_paid": 68.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 286409.53,
+      "total_services": 5392,
+      "total_beneficiaries": 2775,
+      "avg_submitted": 125.31,
+      "avg_paid": 69.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 283841.16,
+      "total_services": 4591,
+      "total_beneficiaries": 2605,
+      "avg_submitted": 125.78,
+      "avg_paid": 66.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 289508.73,
+      "total_services": 4047,
+      "total_beneficiaries": 2175,
+      "avg_submitted": 136.26,
+      "avg_paid": 68.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 309250.37,
+      "total_services": 4252,
+      "total_beneficiaries": 2353,
+      "avg_submitted": 125.58,
+      "avg_paid": 67.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10972,
+      "payments": 842579.25,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 3986,
+      "payments": 472545.07,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 6703,
+      "payments": 239372.45,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3081,
+      "payments": 177062.49,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3284,
+      "payments": 174745.82,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1812,
+      "payments": 150128.95,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 897,
+      "payments": 91852.07,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 538,
+      "payments": 83880.67,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1327,
+      "payments": 65312.79,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 598,
+      "payments": 61822.72,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 957,
+      "payments": 54966.96,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 472,
+      "payments": 46853.74,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 394,
+      "payments": 40312.18,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 219,
+      "payments": 39838.36,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1369,
+      "payments": 30537.15,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 469,
+      "payments": 24290.55,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 553,
+      "payments": 22534.8,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 139,
+      "payments": 22471.76,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 318,
+      "payments": 17463.26,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 187,
+      "payments": 15744.7,
+      "avg_markup": 1.97
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2789819.08,
+    "total_services": 44944,
+    "total_beneficiaries": 26623,
+    "avg_markup_ratio": 2.07
+  }
+}

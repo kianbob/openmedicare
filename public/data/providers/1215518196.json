@@ -1,0 +1,57 @@
+{
+  "name": "Banner Air Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 480452.76,
+      "total_services": 252,
+      "total_beneficiaries": 252,
+      "avg_submitted": 20729.26,
+      "avg_paid": 1755.58
+    },
+    {
+      "year": 2022,
+      "total_payments": 1413812.93,
+      "total_services": 672,
+      "total_beneficiaries": 654,
+      "avg_submitted": 19753.62,
+      "avg_paid": 1830.26
+    },
+    {
+      "year": 2023,
+      "total_payments": 1451144.92,
+      "total_services": 756,
+      "total_beneficiaries": 748,
+      "avg_submitted": 19570.52,
+      "avg_paid": 1914.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 903,
+      "payments": 3324045.97,
+      "avg_markup": 10.67
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 777,
+      "payments": 21364.64,
+      "avg_markup": 12.98
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3345410.61,
+    "total_services": 1680,
+    "total_beneficiaries": 1654,
+    "avg_markup_ratio": 10.69
+  }
+}

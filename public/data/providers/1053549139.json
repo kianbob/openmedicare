@@ -1,0 +1,239 @@
+{
+  "name": "Jon Davis",
+  "credentials": "MD",
+  "specialty": "Dermatology",
+  "city": "Evansville",
+  "state": "IN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 281688.58,
+      "total_services": 5224,
+      "total_beneficiaries": 3975,
+      "avg_submitted": 257.43,
+      "avg_paid": 79.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 477921.37,
+      "total_services": 8802,
+      "total_beneficiaries": 6137,
+      "avg_submitted": 297.41,
+      "avg_paid": 84.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 646724.71,
+      "total_services": 11789,
+      "total_beneficiaries": 8609,
+      "avg_submitted": 339.87,
+      "avg_paid": 93.69
+    },
+    {
+      "year": 2017,
+      "total_payments": 848290.61,
+      "total_services": 15141,
+      "total_beneficiaries": 11256,
+      "avg_submitted": 345.9,
+      "avg_paid": 86.79
+    },
+    {
+      "year": 2018,
+      "total_payments": 1102642.16,
+      "total_services": 18196,
+      "total_beneficiaries": 14063,
+      "avg_submitted": 386.1,
+      "avg_paid": 97.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 667092.37,
+      "total_services": 10183,
+      "total_beneficiaries": 8421,
+      "avg_submitted": 401.87,
+      "avg_paid": 100.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 839990.14,
+      "total_services": 12433,
+      "total_beneficiaries": 10274,
+      "avg_submitted": 374.49,
+      "avg_paid": 94.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 1131446.7,
+      "total_services": 15357,
+      "total_beneficiaries": 11836,
+      "avg_submitted": 493.91,
+      "avg_paid": 122.71
+    },
+    {
+      "year": 2022,
+      "total_payments": 1011523.81,
+      "total_services": 14800,
+      "total_beneficiaries": 11787,
+      "avg_submitted": 558.59,
+      "avg_paid": 100.48
+    },
+    {
+      "year": 2023,
+      "total_payments": 692699.6,
+      "total_services": 13275,
+      "total_beneficiaries": 10747,
+      "avg_submitted": 624.01,
+      "avg_paid": 81.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11119,
+      "payments": 904602.14,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 8857,
+      "payments": 458059.83,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 15858,
+      "payments": 453021.14,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 1977,
+      "payments": 410718.84,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 14808,
+      "payments": 394005.46,
+      "avg_markup": 7.3
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 6295,
+      "payments": 344314.4,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "17282",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 2930,
+      "payments": 327974.89,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 5424,
+      "payments": 293006.45,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "11104",
+      "description": "Punch biopsy of single skin lesion",
+      "services": 5087,
+      "payments": 282870.26,
+      "avg_markup": 11.33
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 2646,
+      "payments": 265597.39,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "12052",
+      "description": "Repair of wound (2.6 to 5.0 centimeters) of face, ears, eyelids, nose, lips, and/or mouth",
+      "services": 1135,
+      "payments": 209100.62,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 2257,
+      "payments": 201202.62,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 2550,
+      "payments": 189131.51,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "11603",
+      "description": "Removal of malignant growth (2.1 to 3.0 centimeters) of the trunk, arms, or legs",
+      "services": 1643,
+      "payments": 161552.13,
+      "avg_markup": 6.18
+    },
+    {
+      "code": "17272",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of scalp, neck, hands, feet, or genitals",
+      "services": 1616,
+      "payments": 152993.35,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "11642",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 1381,
+      "payments": 147731.76,
+      "avg_markup": 7.21
+    },
+    {
+      "code": "12031",
+      "description": "Repair of wound (2.5 centimeters or less) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 845,
+      "payments": 136361.27,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "11643",
+      "description": "Removal of malignant growth (2.1 to 3.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 854,
+      "payments": 136283.39,
+      "avg_markup": 6.35
+    },
+    {
+      "code": "13132",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 518,
+      "payments": 132547.36,
+      "avg_markup": 6.05
+    },
+    {
+      "code": "13121",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of scalp, arms, and/or legs",
+      "services": 519,
+      "payments": 112250.99,
+      "avg_markup": 5.33
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7700020.04,
+    "total_services": 125200,
+    "total_beneficiaries": 97105,
+    "avg_markup_ratio": 4.58
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Harold Quan",
+  "credentials": "",
+  "specialty": "Cardiology",
+  "city": "Newhall",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 268065.97,
+      "total_services": 4818,
+      "total_beneficiaries": 2504,
+      "avg_submitted": 188.67,
+      "avg_paid": 66.89
+    },
+    {
+      "year": 2015,
+      "total_payments": 345491.88,
+      "total_services": 5660,
+      "total_beneficiaries": 2991,
+      "avg_submitted": 184.97,
+      "avg_paid": 72.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 306387.82,
+      "total_services": 5269,
+      "total_beneficiaries": 2770,
+      "avg_submitted": 160.11,
+      "avg_paid": 59.48
+    },
+    {
+      "year": 2017,
+      "total_payments": 420091.56,
+      "total_services": 6594,
+      "total_beneficiaries": 3636,
+      "avg_submitted": 164.36,
+      "avg_paid": 67.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 422536.94,
+      "total_services": 6705,
+      "total_beneficiaries": 3752,
+      "avg_submitted": 173.77,
+      "avg_paid": 70.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 371548.86,
+      "total_services": 5372,
+      "total_beneficiaries": 3008,
+      "avg_submitted": 220.91,
+      "avg_paid": 90.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 327730.22,
+      "total_services": 4735,
+      "total_beneficiaries": 2667,
+      "avg_submitted": 209.99,
+      "avg_paid": 84.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 437169.84,
+      "total_services": 5918,
+      "total_beneficiaries": 3013,
+      "avg_submitted": 194.93,
+      "avg_paid": 82.65
+    },
+    {
+      "year": 2022,
+      "total_payments": 334757.08,
+      "total_services": 5123,
+      "total_beneficiaries": 2634,
+      "avg_submitted": 228.66,
+      "avg_paid": 88.5
+    },
+    {
+      "year": 2023,
+      "total_payments": 294310.26,
+      "total_services": 4633,
+      "total_beneficiaries": 2308,
+      "avg_submitted": 226.19,
+      "avg_paid": 91.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12594,
+      "payments": 1165537.86,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4698,
+      "payments": 416298.52,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2388,
+      "payments": 344525.13,
+      "avg_markup": 4.73
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3455,
+      "payments": 232784.44,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1291,
+      "payments": 220471.97,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1756,
+      "payments": 211921.89,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2328,
+      "payments": 143652.84,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 10442,
+      "payments": 74870.28,
+      "avg_markup": 5.58
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1483,
+      "payments": 74705.39,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 390,
+      "payments": 66145.92,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1531,
+      "payments": 65521.02,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 279,
+      "payments": 58892.86,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 509,
+      "payments": 46952.34,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 252,
+      "payments": 45353.87,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 481,
+      "payments": 44145.79,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 189,
+      "payments": 42807.54,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2835,
+      "payments": 38587.54,
+      "avg_markup": 5.51
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 376,
+      "payments": 27025.43,
+      "avg_markup": 5.7
+    },
+    {
+      "code": "76706",
+      "description": "Ultrasound evaluation of abdominal aorta to detect bulging (aneurysm)",
+      "services": 204,
+      "payments": 22199.79,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 134,
+      "payments": 20348.38,
+      "avg_markup": 1.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3528090.42,
+    "total_services": 54827,
+    "total_beneficiaries": 29283,
+    "avg_markup_ratio": 2.1
+  }
+}

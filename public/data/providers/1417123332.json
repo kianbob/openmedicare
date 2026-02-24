@@ -1,0 +1,190 @@
+{
+  "name": "Omer Deen",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Rolling Hills Estates",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 107854.41,
+      "total_services": 1129,
+      "total_beneficiaries": 640,
+      "avg_submitted": 243.89,
+      "avg_paid": 107.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 275691.35,
+      "total_services": 2826,
+      "total_beneficiaries": 930,
+      "avg_submitted": 217.88,
+      "avg_paid": 107.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 550902.2,
+      "total_services": 5623,
+      "total_beneficiaries": 1417,
+      "avg_submitted": 210.57,
+      "avg_paid": 103.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 792031.81,
+      "total_services": 7909,
+      "total_beneficiaries": 1609,
+      "avg_submitted": 223.29,
+      "avg_paid": 107.04
+    },
+    {
+      "year": 2018,
+      "total_payments": 926877.94,
+      "total_services": 9473,
+      "total_beneficiaries": 1138,
+      "avg_submitted": 239.29,
+      "avg_paid": 117.02
+    },
+    {
+      "year": 2019,
+      "total_payments": 991946.64,
+      "total_services": 10267,
+      "total_beneficiaries": 1534,
+      "avg_submitted": 250.01,
+      "avg_paid": 118.24
+    },
+    {
+      "year": 2020,
+      "total_payments": 775884.71,
+      "total_services": 6794,
+      "total_beneficiaries": 1277,
+      "avg_submitted": 266.67,
+      "avg_paid": 114.02
+    },
+    {
+      "year": 2021,
+      "total_payments": 939569.93,
+      "total_services": 8442,
+      "total_beneficiaries": 1409,
+      "avg_submitted": 275.0,
+      "avg_paid": 130.65
+    },
+    {
+      "year": 2022,
+      "total_payments": 1174591.9,
+      "total_services": 10643,
+      "total_beneficiaries": 1623,
+      "avg_submitted": 283.33,
+      "avg_paid": 143.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 1239997.56,
+      "total_services": 10770,
+      "total_beneficiaries": 1455,
+      "avg_submitted": 268.7,
+      "avg_paid": 126.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 43199,
+      "payments": 3855719.3,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 10629,
+      "payments": 1946237.17,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 12611,
+      "payments": 977180.18,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4570,
+      "payments": 743955.49,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 560,
+      "payments": 77626.02,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1040,
+      "payments": 63021.46,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 607,
+      "payments": 55307.42,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 104,
+      "payments": 16014.74,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 131,
+      "payments": 15125.06,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 137,
+      "payments": 8336.28,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 108,
+      "payments": 6401.16,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 129,
+      "payments": 5912.12,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 51,
+      "payments": 4512.04,
+      "avg_markup": 1.64
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7775348.44,
+    "total_services": 73876,
+    "total_beneficiaries": 13032,
+    "avg_markup_ratio": 2.18
+  }
+}

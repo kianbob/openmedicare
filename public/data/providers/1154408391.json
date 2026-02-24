@@ -1,0 +1,71 @@
+{
+  "name": "California Shock Trauma Air Rescue",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Mcclellan",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2148572.67,
+      "total_services": 1140,
+      "total_beneficiaries": 1114,
+      "avg_submitted": 14553.16,
+      "avg_paid": 1630.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 2151854.68,
+      "total_services": 1154,
+      "total_beneficiaries": 1136,
+      "avg_submitted": 15201.57,
+      "avg_paid": 1616.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 1292724.02,
+      "total_services": 704,
+      "total_beneficiaries": 700,
+      "avg_submitted": 17053.89,
+      "avg_paid": 1614.52
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 1442,
+      "payments": 5407704.35,
+      "avg_markup": 7.76
+    },
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 56,
+      "payments": 151445.83,
+      "avg_markup": 11.97
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 1444,
+      "payments": 33596.27,
+      "avg_markup": 9.87
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 56,
+      "payments": 404.93,
+      "avg_markup": 16.87
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 5593151.38,
+    "total_services": 2998,
+    "total_beneficiaries": 2950,
+    "avg_markup_ratio": 7.89
+  }
+}

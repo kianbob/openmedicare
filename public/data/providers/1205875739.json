@@ -1,0 +1,239 @@
+{
+  "name": "John Jones",
+  "credentials": "M.D.",
+  "specialty": "Vascular Surgery",
+  "city": "Marietta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 303908.32,
+      "total_services": 2500,
+      "total_beneficiaries": 2336,
+      "avg_submitted": 860.88,
+      "avg_paid": 239.37
+    },
+    {
+      "year": 2015,
+      "total_payments": 323074.96,
+      "total_services": 2628,
+      "total_beneficiaries": 2425,
+      "avg_submitted": 755.34,
+      "avg_paid": 196.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 345374.06,
+      "total_services": 2789,
+      "total_beneficiaries": 2558,
+      "avg_submitted": 954.4,
+      "avg_paid": 260.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 292815.43,
+      "total_services": 2337,
+      "total_beneficiaries": 2205,
+      "avg_submitted": 840.34,
+      "avg_paid": 255.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 348413.75,
+      "total_services": 3149,
+      "total_beneficiaries": 2997,
+      "avg_submitted": 563.07,
+      "avg_paid": 171.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 324932.98,
+      "total_services": 2662,
+      "total_beneficiaries": 2548,
+      "avg_submitted": 648.68,
+      "avg_paid": 194.3
+    },
+    {
+      "year": 2020,
+      "total_payments": 360928.29,
+      "total_services": 2696,
+      "total_beneficiaries": 2520,
+      "avg_submitted": 796.88,
+      "avg_paid": 229.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 301653.02,
+      "total_services": 2338,
+      "total_beneficiaries": 2189,
+      "avg_submitted": 583.22,
+      "avg_paid": 175.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 212522.17,
+      "total_services": 1774,
+      "total_beneficiaries": 1719,
+      "avg_submitted": 595.56,
+      "avg_paid": 165.11
+    },
+    {
+      "year": 2023,
+      "total_payments": 183669.23,
+      "total_services": 968,
+      "total_beneficiaries": 929,
+      "avg_submitted": 1555.69,
+      "avg_paid": 435.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 3307,
+      "payments": 451124.61,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 1794,
+      "payments": 329782.62,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 1682,
+      "payments": 241303.81,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 1535,
+      "payments": 195949.18,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "36902",
+      "description": "Insertion of needle and/or catheter into dialysis circuit and balloon dilation of dialysis segment, with imaging including radiological supervision and interpretation",
+      "services": 184,
+      "payments": 188482.05,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "93971",
+      "description": "Ultrasound scan of veins of one arm or leg or limited including assessment of compression and functional maneuvers",
+      "services": 2024,
+      "payments": 177928.66,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 2522,
+      "payments": 136529.84,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2298,
+      "payments": 129121.48,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "93990",
+      "description": "Ultrasound of dialysis access",
+      "services": 1078,
+      "payments": 109829.5,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "36561",
+      "description": "Insertion of central venous catheter and implanted device for infusion beneath the skin, patient 5 years or older",
+      "services": 113,
+      "payments": 99248.09,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "36475",
+      "description": "Destruction of insufficient vein of arm or leg, accessed through the skin",
+      "services": 79,
+      "payments": 93509.15,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "93975",
+      "description": "Ultrasound scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 456,
+      "payments": 93166.8,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "37226",
+      "description": "Insertion of stent in arteries of leg",
+      "services": 12,
+      "payments": 80101.92,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 952,
+      "payments": 74924.39,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "35301",
+      "description": "Removal of blood clot and portion of artery of neck",
+      "services": 74,
+      "payments": 68127.7,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "35476",
+      "description": "Balloon dilation of narrowed or blocked vein, accessed through the skin",
+      "services": 67,
+      "payments": 61279.32,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 793,
+      "payments": 44790.16,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "36147",
+      "description": "Insertion of needle and/or catheter for dialysis",
+      "services": 122,
+      "payments": 44475.25,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "36901",
+      "description": "Insertion of needle and/or catheter into dialysis circuit, with imaging including radiological supervision and interpretation",
+      "services": 82,
+      "payments": 41930.79,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 345,
+      "payments": 32133.3,
+      "avg_markup": 2.56
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2997292.23,
+    "total_services": 23841,
+    "total_beneficiaries": 22426,
+    "avg_markup_ratio": 3.55
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Glass Health Programs, Inc.",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Baltimore",
+  "state": "MD",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 647043.34,
+      "total_services": 3285,
+      "total_beneficiaries": 170,
+      "avg_submitted": 172.14,
+      "avg_paid": 169.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 675407.02,
+      "total_services": 3218,
+      "total_beneficiaries": 120,
+      "avg_submitted": 176.53,
+      "avg_paid": 174.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 393156.05,
+      "total_services": 1994,
+      "total_beneficiaries": 124,
+      "avg_submitted": 132.86,
+      "avg_paid": 127.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 703835.52,
+      "total_services": 3231,
+      "total_beneficiaries": 164,
+      "avg_submitted": 165.0,
+      "avg_paid": 160.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 9868,
+      "payments": 2224258.18,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2068",
+      "description": "Medication assisted treatment, buprenorphine (oral); weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opi",
+      "services": 516,
+      "payments": 135736.67,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 1282,
+      "payments": 47235.84,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 62,
+      "payments": 12211.24,
+      "avg_markup": 1.03
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2419441.93,
+    "total_services": 11728,
+    "total_beneficiaries": 578,
+    "avg_markup_ratio": 1.02
+  }
+}

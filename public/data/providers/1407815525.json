@@ -1,0 +1,231 @@
+{
+  "name": "Luis Laos",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Orange Park",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 475744.06,
+      "total_services": 4149,
+      "total_beneficiaries": 1966,
+      "avg_submitted": 148.04,
+      "avg_paid": 104.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 527971.99,
+      "total_services": 4828,
+      "total_beneficiaries": 2209,
+      "avg_submitted": 179.77,
+      "avg_paid": 96.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 368150.73,
+      "total_services": 3583,
+      "total_beneficiaries": 1805,
+      "avg_submitted": 326.93,
+      "avg_paid": 104.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 346860.27,
+      "total_services": 3351,
+      "total_beneficiaries": 1545,
+      "avg_submitted": 247.55,
+      "avg_paid": 105.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 180408.29,
+      "total_services": 2054,
+      "total_beneficiaries": 925,
+      "avg_submitted": 219.06,
+      "avg_paid": 79.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 480715.22,
+      "total_services": 6952,
+      "total_beneficiaries": 2561,
+      "avg_submitted": 91.34,
+      "avg_paid": 59.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 541887.49,
+      "total_services": 7673,
+      "total_beneficiaries": 2671,
+      "avg_submitted": 92.68,
+      "avg_paid": 66.78
+    },
+    {
+      "year": 2021,
+      "total_payments": 407539.9,
+      "total_services": 5975,
+      "total_beneficiaries": 2089,
+      "avg_submitted": 133.78,
+      "avg_paid": 86.63
+    },
+    {
+      "year": 2022,
+      "total_payments": 314362.39,
+      "total_services": 4550,
+      "total_beneficiaries": 1622,
+      "avg_submitted": 133.2,
+      "avg_paid": 86.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 23074,
+      "payments": 1898673.21,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4809,
+      "payments": 758708.77,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2701,
+      "payments": 473624.27,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 1516,
+      "payments": 156738.65,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1887,
+      "payments": 107510.42,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 1376,
+      "payments": 100786.4,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 1215,
+      "payments": 52653.17,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "71045",
+      "description": "X-ray of chest, 1 view",
+      "services": 5229,
+      "payments": 38064.88,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 130,
+      "payments": 13746.75,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 143,
+      "payments": 12632.12,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "31652",
+      "description": "Examination of lung airways using an endoscope with imaging guidance and ultrasound",
+      "services": 37,
+      "payments": 6924.91,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 48,
+      "payments": 6752.17,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "31627",
+      "description": "Computer-assisted image-guided navigation of lung airways using an endoscope",
+      "services": 41,
+      "payments": 3172.17,
+      "avg_markup": 4.98
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 34,
+      "payments": 3086.02,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "31620",
+      "description": "Ultrasound of lung airways using an endoscope",
+      "services": 50,
+      "payments": 2756.1,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "31631",
+      "description": "Insertion of stents into windpipe using an endoscope",
+      "services": 11,
+      "payments": 2086.25,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "31623",
+      "description": "Examination of lung airways using an endoscope",
+      "services": 748,
+      "payments": 1913.75,
+      "avg_markup": 57.89
+    },
+    {
+      "code": "31654",
+      "description": "Examination of lung airways using an endoscope with imaging guidance and ultrasound",
+      "services": 23,
+      "payments": 1276.04,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 16,
+      "payments": 1228.35,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 12,
+      "payments": 1074.1,
+      "avg_markup": 1.42
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3643640.34,
+    "total_services": 43115,
+    "total_beneficiaries": 17393,
+    "avg_markup_ratio": 1.59
+  }
+}

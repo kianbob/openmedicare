@@ -1,0 +1,148 @@
+{
+  "name": "Sein Win",
+  "credentials": "M.D",
+  "specialty": "Family Practice",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 150995.56,
+      "total_services": 2796,
+      "total_beneficiaries": 885,
+      "avg_submitted": 171.75,
+      "avg_paid": 83.68
+    },
+    {
+      "year": 2015,
+      "total_payments": 363614.13,
+      "total_services": 5738,
+      "total_beneficiaries": 926,
+      "avg_submitted": 113.17,
+      "avg_paid": 76.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 314050.95,
+      "total_services": 5030,
+      "total_beneficiaries": 1021,
+      "avg_submitted": 113.09,
+      "avg_paid": 75.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 278307.78,
+      "total_services": 4638,
+      "total_beneficiaries": 972,
+      "avg_submitted": 118.59,
+      "avg_paid": 77.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 358231.72,
+      "total_services": 5890,
+      "total_beneficiaries": 958,
+      "avg_submitted": 107.88,
+      "avg_paid": 70.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 446637.57,
+      "total_services": 7305,
+      "total_beneficiaries": 1053,
+      "avg_submitted": 118.43,
+      "avg_paid": 77.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 357828.93,
+      "total_services": 6031,
+      "total_beneficiaries": 877,
+      "avg_submitted": 108.65,
+      "avg_paid": 71.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 301176.85,
+      "total_services": 4910,
+      "total_beneficiaries": 705,
+      "avg_submitted": 110.25,
+      "avg_paid": 77.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 413188.63,
+      "total_services": 6689,
+      "total_beneficiaries": 1026,
+      "avg_submitted": 121.01,
+      "avg_paid": 79.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 527714.1,
+      "total_services": 8186,
+      "total_beneficiaries": 984,
+      "avg_submitted": 127.27,
+      "avg_paid": 86.89
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 33789,
+      "payments": 2092516.24,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7084,
+      "payments": 577422.21,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 13649,
+      "payments": 528050.48,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1336,
+      "payments": 199858.74,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 828,
+      "payments": 79299.53,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 152,
+      "payments": 17824.04,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 375,
+      "payments": 16774.98,
+      "avg_markup": 2.68
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3511746.22,
+    "total_services": 57213,
+    "total_beneficiaries": 9407,
+    "avg_markup_ratio": 1.47
+  }
+}

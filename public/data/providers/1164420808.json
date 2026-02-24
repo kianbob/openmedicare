@@ -1,0 +1,231 @@
+{
+  "name": "Harvey Wolkov",
+  "credentials": "MD",
+  "specialty": "Radiation Oncology",
+  "city": "Sacramento",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1043821.91,
+      "total_services": 3478,
+      "total_beneficiaries": 1679,
+      "avg_submitted": 687.54,
+      "avg_paid": 218.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 801937.38,
+      "total_services": 3473,
+      "total_beneficiaries": 1586,
+      "avg_submitted": 758.33,
+      "avg_paid": 201.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 520960.03,
+      "total_services": 2838,
+      "total_beneficiaries": 932,
+      "avg_submitted": 1187.14,
+      "avg_paid": 220.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 546834.61,
+      "total_services": 3125,
+      "total_beneficiaries": 1017,
+      "avg_submitted": 838.33,
+      "avg_paid": 157.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 530323.29,
+      "total_services": 2702,
+      "total_beneficiaries": 1096,
+      "avg_submitted": 1496.18,
+      "avg_paid": 273.51
+    },
+    {
+      "year": 2019,
+      "total_payments": 387607.69,
+      "total_services": 2128,
+      "total_beneficiaries": 866,
+      "avg_submitted": 905.27,
+      "avg_paid": 162.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 341439.22,
+      "total_services": 1810,
+      "total_beneficiaries": 730,
+      "avg_submitted": 885.68,
+      "avg_paid": 158.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 364452.85,
+      "total_services": 1940,
+      "total_beneficiaries": 776,
+      "avg_submitted": 785.0,
+      "avg_paid": 147.19
+    },
+    {
+      "year": 2022,
+      "total_payments": 114800.21,
+      "total_services": 621,
+      "total_beneficiaries": 287,
+      "avg_submitted": 860.94,
+      "avg_paid": 161.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 4928,
+      "payments": 1548282.56,
+      "avg_markup": 7.71
+    },
+    {
+      "code": "0182T",
+      "description": "High dose rate electronic brachytherapy",
+      "services": 512,
+      "payments": 786935.92,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 6619,
+      "payments": 665719.87,
+      "avg_markup": 6.83
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10mev",
+      "services": 1283,
+      "payments": 284850.74,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 963,
+      "payments": 147825.44,
+      "avg_markup": 4.74
+    },
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 632,
+      "payments": 145288.48,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19mev",
+      "services": 581,
+      "payments": 131683.3,
+      "avg_markup": 5.46
+    },
+    {
+      "code": "77432",
+      "description": "Stereotactic radiation treatment management of brain lesions, complete course of treatment consisting of 1 session",
+      "services": 327,
+      "payments": 113170.85,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "G6014",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 20mev or greater",
+      "services": 429,
+      "payments": 98154.32,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "77418",
+      "description": "Intensity modulated radiation treatment delivery per session",
+      "services": 286,
+      "payments": 95944.12,
+      "avg_markup": 7.18
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 582,
+      "payments": 79458.18,
+      "avg_markup": 4.83
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 193,
+      "payments": 77640.89,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "77295",
+      "description": "Management of radiation therapy, 3D",
+      "services": 347,
+      "payments": 66658.76,
+      "avg_markup": 5.58
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 960,
+      "payments": 64539.5,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 348,
+      "payments": 58334.8,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 689,
+      "payments": 56537.92,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 26,
+      "payments": 43613.69,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 960,
+      "payments": 40890.87,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "77373",
+      "description": "Stereotactic body radiation therapy 1 or more lesions using imaging guidance",
+      "services": 23,
+      "payments": 27792.28,
+      "avg_markup": 5.15
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 529,
+      "payments": 27236.21,
+      "avg_markup": 4.02
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 4652177.18,
+    "total_services": 22115,
+    "total_beneficiaries": 8969,
+    "avg_markup_ratio": 5.49
+  }
+}

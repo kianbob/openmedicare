@@ -1,0 +1,101 @@
+{
+  "name": "Metropolitan Health Care Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Lincoln Park",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1724686.3,
+      "total_services": 16280,
+      "total_beneficiaries": 10022,
+      "avg_submitted": 496.89,
+      "avg_paid": 258.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 1435211.49,
+      "total_services": 14059,
+      "total_beneficiaries": 8924,
+      "avg_submitted": 510.11,
+      "avg_paid": 259.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 1256113.66,
+      "total_services": 12449,
+      "total_beneficiaries": 8028,
+      "avg_submitted": 519.1,
+      "avg_paid": 259.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 977633.5,
+      "total_services": 9649,
+      "total_beneficiaries": 6855,
+      "avg_submitted": 520.41,
+      "avg_paid": 261.98
+    },
+    {
+      "year": 2018,
+      "total_payments": 73846.45,
+      "total_services": 891,
+      "total_beneficiaries": 722,
+      "avg_submitted": 394.38,
+      "avg_paid": 167.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 20601,
+      "payments": 3476440.3,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 2720,
+      "payments": 900901.73,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2866,
+      "payments": 797734.1,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 26613,
+      "payments": 147340.0,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 429,
+      "payments": 88874.7,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 99,
+      "payments": 56200.57,
+      "avg_markup": 1.7
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 5467491.4,
+    "total_services": 53328,
+    "total_beneficiaries": 34551,
+    "avg_markup_ratio": 2.21
+  }
+}

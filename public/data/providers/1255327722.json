@@ -1,0 +1,239 @@
+{
+  "name": "Arthur King",
+  "credentials": "MD",
+  "specialty": "Dermatology",
+  "city": "Stuart",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 517109.45,
+      "total_services": 7881,
+      "total_beneficiaries": 5359,
+      "avg_submitted": 186.43,
+      "avg_paid": 99.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 526127.35,
+      "total_services": 8125,
+      "total_beneficiaries": 5517,
+      "avg_submitted": 185.92,
+      "avg_paid": 101.56
+    },
+    {
+      "year": 2016,
+      "total_payments": 510767.18,
+      "total_services": 7760,
+      "total_beneficiaries": 5276,
+      "avg_submitted": 180.13,
+      "avg_paid": 109.13
+    },
+    {
+      "year": 2017,
+      "total_payments": 440049.6,
+      "total_services": 6716,
+      "total_beneficiaries": 4779,
+      "avg_submitted": 167.7,
+      "avg_paid": 102.04
+    },
+    {
+      "year": 2018,
+      "total_payments": 376151.17,
+      "total_services": 5646,
+      "total_beneficiaries": 4045,
+      "avg_submitted": 224.47,
+      "avg_paid": 101.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 423628.11,
+      "total_services": 5875,
+      "total_beneficiaries": 4129,
+      "avg_submitted": 228.53,
+      "avg_paid": 105.79
+    },
+    {
+      "year": 2020,
+      "total_payments": 305280.31,
+      "total_services": 4312,
+      "total_beneficiaries": 3142,
+      "avg_submitted": 233.38,
+      "avg_paid": 109.32
+    },
+    {
+      "year": 2021,
+      "total_payments": 365963.95,
+      "total_services": 4623,
+      "total_beneficiaries": 3312,
+      "avg_submitted": 239.83,
+      "avg_paid": 121.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 320404.96,
+      "total_services": 4314,
+      "total_beneficiaries": 3082,
+      "avg_submitted": 216.82,
+      "avg_paid": 103.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 305972.09,
+      "total_services": 4056,
+      "total_beneficiaries": 2796,
+      "avg_submitted": 223.51,
+      "avg_paid": 104.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 21793,
+      "payments": 1216746.62,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 1870,
+      "payments": 453193.53,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 4328,
+      "payments": 315479.26,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 5238,
+      "payments": 215809.09,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2369,
+      "payments": 197567.25,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "11104",
+      "description": "Punch biopsy of single skin lesion",
+      "services": 2180,
+      "payments": 193728.83,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 5498,
+      "payments": 191985.33,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "11601",
+      "description": "Removal of malignant growth (0.6 to 1.0 centimeters) of the trunk, arms, or legs",
+      "services": 1048,
+      "payments": 170090.74,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 1289,
+      "payments": 137441.4,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1353,
+      "payments": 98617.6,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "11401",
+      "description": "Removal of growth (0.6 to 1.0 centimeters) of the trunk, arms, or legs",
+      "services": 806,
+      "payments": 82752.72,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "11603",
+      "description": "Removal of malignant growth (2.1 to 3.0 centimeters) of the trunk, arms, or legs",
+      "services": 631,
+      "payments": 75057.02,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "12052",
+      "description": "Repair of wound (2.6 to 5.0 centimeters) of face, ears, eyelids, nose, lips, and/or mouth",
+      "services": 271,
+      "payments": 57884.23,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "12042",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of neck, hands, feet, and/or genitals",
+      "services": 286,
+      "payments": 55903.71,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "11621",
+      "description": "Removal of malignant growth (0.6 to 1.0 centimeters) of the scalp, neck, hands, feet, or genitals",
+      "services": 301,
+      "payments": 48879.23,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "12051",
+      "description": "Repair of wound (2.5 centimeters or less) of face, ears, eyelids, nose, lips, and/or mouth",
+      "services": 264,
+      "payments": 46114.45,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "11642",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 320,
+      "payments": 38724.51,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 527,
+      "payments": 38614.69,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "11622",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the scalp, neck, hands, feet, or genitals",
+      "services": 313,
+      "payments": 35879.27,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "11640",
+      "description": "Removal of malignant growth (0.5 centimeters or less) of the face, ears, eyelids, nose, or lips",
+      "services": 229,
+      "payments": 33551.0,
+      "avg_markup": 1.79
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4091454.17,
+    "total_services": 59308,
+    "total_beneficiaries": 41437,
+    "avg_markup_ratio": 1.79
+  }
+}

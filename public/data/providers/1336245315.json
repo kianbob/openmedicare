@@ -1,0 +1,100 @@
+{
+  "name": "Altamont Ambulance Service, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Altamont",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 672424.33,
+      "total_services": 4250,
+      "total_beneficiaries": 2705,
+      "avg_submitted": 681.16,
+      "avg_paid": 257.21
+    },
+    {
+      "year": 2015,
+      "total_payments": 755191.39,
+      "total_services": 4808,
+      "total_beneficiaries": 2946,
+      "avg_submitted": 756.4,
+      "avg_paid": 294.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 708897.17,
+      "total_services": 4457,
+      "total_beneficiaries": 2880,
+      "avg_submitted": 759.94,
+      "avg_paid": 279.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 388142.34,
+      "total_services": 2434,
+      "total_beneficiaries": 1638,
+      "avg_submitted": 786.81,
+      "avg_paid": 296.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 5827,
+      "payments": 1848194.69,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 859,
+      "payments": 228970.02,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 1118,
+      "payments": 186601.82,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 340,
+      "payments": 184197.12,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 7745,
+      "payments": 52678.75,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 46,
+      "payments": 21208.9,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 14,
+      "payments": 2803.92,
+      "avg_markup": 3.74
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2524655.22,
+    "total_services": 15949,
+    "total_beneficiaries": 10169,
+    "avg_markup_ratio": 2.8
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "William Duke",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Bayside",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 138035.45,
+      "total_services": 1430,
+      "total_beneficiaries": 705,
+      "avg_submitted": 159.64,
+      "avg_paid": 124.16
+    },
+    {
+      "year": 2015,
+      "total_payments": 163659.0,
+      "total_services": 1875,
+      "total_beneficiaries": 708,
+      "avg_submitted": 177.32,
+      "avg_paid": 124.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 308860.29,
+      "total_services": 3791,
+      "total_beneficiaries": 1200,
+      "avg_submitted": 209.84,
+      "avg_paid": 112.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 287342.88,
+      "total_services": 3533,
+      "total_beneficiaries": 1203,
+      "avg_submitted": 287.74,
+      "avg_paid": 108.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 297944.89,
+      "total_services": 3690,
+      "total_beneficiaries": 1173,
+      "avg_submitted": 289.5,
+      "avg_paid": 110.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 347971.39,
+      "total_services": 4444,
+      "total_beneficiaries": 1181,
+      "avg_submitted": 221.96,
+      "avg_paid": 87.51
+    },
+    {
+      "year": 2020,
+      "total_payments": 463666.66,
+      "total_services": 6684,
+      "total_beneficiaries": 1529,
+      "avg_submitted": 226.72,
+      "avg_paid": 79.78
+    },
+    {
+      "year": 2021,
+      "total_payments": 518936.26,
+      "total_services": 7434,
+      "total_beneficiaries": 1630,
+      "avg_submitted": 290.07,
+      "avg_paid": 93.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 571987.14,
+      "total_services": 8222,
+      "total_beneficiaries": 1428,
+      "avg_submitted": 273.11,
+      "avg_paid": 85.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 649067.26,
+      "total_services": 8806,
+      "total_beneficiaries": 1517,
+      "avg_submitted": 261.92,
+      "avg_paid": 87.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 26719,
+      "payments": 1697175.96,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 9984,
+      "payments": 801696.99,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2122,
+      "payments": 197921.58,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1721,
+      "payments": 169702.2,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 700,
+      "payments": 128000.72,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 595,
+      "payments": 90762.38,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 613,
+      "payments": 85667.6,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1091,
+      "payments": 73748.65,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 645,
+      "payments": 64384.68,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 481,
+      "payments": 56394.26,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 373,
+      "payments": 56077.3,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1480,
+      "payments": 55470.77,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "43760",
+      "description": "Change of stomach feeding, accessed through the skin",
+      "services": 90,
+      "payments": 40684.73,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 391,
+      "payments": 38552.57,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 272,
+      "payments": 32998.15,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 348,
+      "payments": 28491.06,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "43762",
+      "description": "Replacement of stomach stoma tube accessed through skin",
+      "services": 118,
+      "payments": 18543.52,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 132,
+      "payments": 18426.72,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 169,
+      "payments": 14391.43,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 104,
+      "payments": 10784.01,
+      "avg_markup": 2.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3747471.22,
+    "total_services": 49909,
+    "total_beneficiaries": 12274,
+    "avg_markup_ratio": 2.26
+  }
+}

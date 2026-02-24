@@ -1,0 +1,239 @@
+{
+  "name": "Nathan Watson",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Sherman",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 404934.46,
+      "total_services": 7288,
+      "total_beneficiaries": 2149,
+      "avg_submitted": 180.32,
+      "avg_paid": 87.03
+    },
+    {
+      "year": 2015,
+      "total_payments": 377198.29,
+      "total_services": 6546,
+      "total_beneficiaries": 2065,
+      "avg_submitted": 172.68,
+      "avg_paid": 90.65
+    },
+    {
+      "year": 2016,
+      "total_payments": 401737.21,
+      "total_services": 7021,
+      "total_beneficiaries": 2341,
+      "avg_submitted": 196.26,
+      "avg_paid": 79.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 277232.7,
+      "total_services": 4131,
+      "total_beneficiaries": 1533,
+      "avg_submitted": 212.72,
+      "avg_paid": 83.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 327231.36,
+      "total_services": 4666,
+      "total_beneficiaries": 1582,
+      "avg_submitted": 216.03,
+      "avg_paid": 86.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 694870.69,
+      "total_services": 9146,
+      "total_beneficiaries": 2484,
+      "avg_submitted": 180.69,
+      "avg_paid": 89.48
+    },
+    {
+      "year": 2020,
+      "total_payments": 687408.76,
+      "total_services": 8869,
+      "total_beneficiaries": 2068,
+      "avg_submitted": 201.29,
+      "avg_paid": 100.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 639610.49,
+      "total_services": 8476,
+      "total_beneficiaries": 1915,
+      "avg_submitted": 204.06,
+      "avg_paid": 98.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 515249.09,
+      "total_services": 6875,
+      "total_beneficiaries": 1877,
+      "avg_submitted": 229.13,
+      "avg_paid": 91.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 347082.14,
+      "total_services": 4066,
+      "total_beneficiaries": 1507,
+      "avg_submitted": 235.47,
+      "avg_paid": 87.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 25143,
+      "payments": 1994644.19,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 23845,
+      "payments": 1291887.43,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3706,
+      "payments": 555489.3,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 7356,
+      "payments": 206684.46,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2252,
+      "payments": 180385.13,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1554,
+      "payments": 153397.73,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 394,
+      "payments": 65901.22,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 442,
+      "payments": 57159.45,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 521,
+      "payments": 49856.38,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 667,
+      "payments": 48745.25,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 917,
+      "payments": 47867.69,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 80,
+      "payments": 8577.12,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 37,
+      "payments": 2309.33,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 16,
+      "payments": 2264.48,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 42,
+      "payments": 1711.92,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 31,
+      "payments": 1555.42,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 13,
+      "payments": 1126.97,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99226",
+      "description": "Follow-up observation care per day, typically 35 minutes",
+      "services": 14,
+      "payments": 1085.89,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99283",
+      "description": "Emergency department visit with low level of medical decision making",
+      "services": 12,
+      "payments": 659.76,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 10 minutes",
+      "services": 21,
+      "payments": 635.25,
+      "avg_markup": 2.88
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4672555.19,
+    "total_services": 67084,
+    "total_beneficiaries": 19521,
+    "avg_markup_ratio": 2.09
+  }
+}

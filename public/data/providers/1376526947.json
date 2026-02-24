@@ -1,0 +1,239 @@
+{
+  "name": "Juan Aponte",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Lynchburg",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 234488.98,
+      "total_services": 5934,
+      "total_beneficiaries": 4081,
+      "avg_submitted": 71.81,
+      "avg_paid": 38.26
+    },
+    {
+      "year": 2015,
+      "total_payments": 221194.69,
+      "total_services": 5539,
+      "total_beneficiaries": 3721,
+      "avg_submitted": 77.74,
+      "avg_paid": 39.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 206181.97,
+      "total_services": 6253,
+      "total_beneficiaries": 4093,
+      "avg_submitted": 69.96,
+      "avg_paid": 33.11
+    },
+    {
+      "year": 2017,
+      "total_payments": 207051.76,
+      "total_services": 6330,
+      "total_beneficiaries": 4095,
+      "avg_submitted": 83.71,
+      "avg_paid": 37.91
+    },
+    {
+      "year": 2018,
+      "total_payments": 346728.4,
+      "total_services": 10024,
+      "total_beneficiaries": 7465,
+      "avg_submitted": 96.69,
+      "avg_paid": 44.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 384740.24,
+      "total_services": 13590,
+      "total_beneficiaries": 9061,
+      "avg_submitted": 99.31,
+      "avg_paid": 44.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 365620.11,
+      "total_services": 13146,
+      "total_beneficiaries": 8701,
+      "avg_submitted": 87.49,
+      "avg_paid": 38.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 358221.25,
+      "total_services": 12418,
+      "total_beneficiaries": 8311,
+      "avg_submitted": 89.83,
+      "avg_paid": 41.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 378256.12,
+      "total_services": 13208,
+      "total_beneficiaries": 8585,
+      "avg_submitted": 84.29,
+      "avg_paid": 40.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 350365.13,
+      "total_services": 12281,
+      "total_beneficiaries": 8105,
+      "avg_submitted": 86.01,
+      "avg_paid": 40.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12685,
+      "payments": 984133.11,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 3082,
+      "payments": 378069.39,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2373,
+      "payments": 302825.13,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3748,
+      "payments": 244492.71,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3850,
+      "payments": 125945.7,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 7437,
+      "payments": 97987.81,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 4129,
+      "payments": 76210.32,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 8606,
+      "payments": 75525.31,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1092,
+      "payments": 68153.49,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 382,
+      "payments": 64608.32,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 5503,
+      "payments": 58781.61,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 6977,
+      "payments": 57902.71,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 238,
+      "payments": 47220.85,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 4078,
+      "payments": 40329.44,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4637,
+      "payments": 39704.61,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 10692,
+      "payments": 38116.38,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1685,
+      "payments": 36338.6,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 135,
+      "payments": 27205.97,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 233,
+      "payments": 25032.8,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 965,
+      "payments": 20102.83,
+      "avg_markup": 2.07
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3052848.65,
+    "total_services": 98723,
+    "total_beneficiaries": 66218,
+    "avg_markup_ratio": 2.25
+  }
+}

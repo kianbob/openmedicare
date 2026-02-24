@@ -1,0 +1,239 @@
+{
+  "name": "Hojat Askari",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Prescott",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 672582.74,
+      "total_services": 10223,
+      "total_beneficiaries": 5300,
+      "avg_submitted": 122.98,
+      "avg_paid": 55.56
+    },
+    {
+      "year": 2015,
+      "total_payments": 679345.92,
+      "total_services": 11016,
+      "total_beneficiaries": 5856,
+      "avg_submitted": 94.61,
+      "avg_paid": 42.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 437783.56,
+      "total_services": 9432,
+      "total_beneficiaries": 4159,
+      "avg_submitted": 114.52,
+      "avg_paid": 47.56
+    },
+    {
+      "year": 2017,
+      "total_payments": 637057.05,
+      "total_services": 14213,
+      "total_beneficiaries": 6177,
+      "avg_submitted": 103.38,
+      "avg_paid": 48.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 1235293.94,
+      "total_services": 30499,
+      "total_beneficiaries": 8583,
+      "avg_submitted": 87.67,
+      "avg_paid": 42.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 1125824.64,
+      "total_services": 27760,
+      "total_beneficiaries": 5423,
+      "avg_submitted": 90.5,
+      "avg_paid": 45.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 1023788.4,
+      "total_services": 21532,
+      "total_beneficiaries": 10545,
+      "avg_submitted": 102.57,
+      "avg_paid": 45.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 887585.35,
+      "total_services": 21007,
+      "total_beneficiaries": 8534,
+      "avg_submitted": 94.38,
+      "avg_paid": 43.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 264731.26,
+      "total_services": 5781,
+      "total_beneficiaries": 2505,
+      "avg_submitted": 79.61,
+      "avg_paid": 35.98
+    },
+    {
+      "year": 2023,
+      "total_payments": 5914.37,
+      "total_services": 285,
+      "total_beneficiaries": 285,
+      "avg_submitted": 75.0,
+      "avg_paid": 18.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 17874,
+      "payments": 1365641.31,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 41622,
+      "payments": 1261528.15,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 16933,
+      "payments": 931941.92,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "77002",
+      "description": "Fluoroscopic guidance for insertion of needle",
+      "services": 6554,
+      "payments": 505344.34,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 8884,
+      "payments": 404209.44,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "J7321",
+      "description": "Hyaluronan or derivative, hyalgan or supartz, for intra-articular injection, per dose",
+      "services": 5038,
+      "payments": 327395.02,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1947,
+      "payments": 193932.63,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1687,
+      "payments": 189728.19,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 2433,
+      "payments": 177578.63,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 3605,
+      "payments": 167412.18,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 3981,
+      "payments": 154643.12,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1253,
+      "payments": 125853.33,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "U0002",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc",
+      "services": 2441,
+      "payments": 124433.91,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 1264,
+      "payments": 122800.0,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 617,
+      "payments": 100971.26,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 433,
+      "payments": 61273.49,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "92546",
+      "description": "Assessment and recording of abnormal eye movement with patient in a rotating chair",
+      "services": 733,
+      "payments": 56169.49,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 533,
+      "payments": 42250.0,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 474,
+      "payments": 34112.23,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "92540",
+      "description": "Observation, testing, and recording of abnormal eye movement",
+      "services": 455,
+      "payments": 33728.77,
+      "avg_markup": 2.37
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6969907.23,
+    "total_services": 151748,
+    "total_beneficiaries": 57367,
+    "avg_markup_ratio": 2.14
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Nicholas Jauregui",
+  "credentials": "M.D",
+  "specialty": "Family Practice",
+  "city": "Sierra Madre",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 39758.6,
+      "total_services": 278,
+      "total_beneficiaries": 277,
+      "avg_submitted": 422.05,
+      "avg_paid": 151.97
+    },
+    {
+      "year": 2015,
+      "total_payments": 11608.58,
+      "total_services": 102,
+      "total_beneficiaries": 93,
+      "avg_submitted": 327.41,
+      "avg_paid": 108.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 6790.71,
+      "total_services": 50,
+      "total_beneficiaries": 43,
+      "avg_submitted": 339.88,
+      "avg_paid": 129.66
+    },
+    {
+      "year": 2017,
+      "total_payments": 3745.23,
+      "total_services": 30,
+      "total_beneficiaries": 20,
+      "avg_submitted": 380.14,
+      "avg_paid": 124.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 7588.94,
+      "total_services": 73,
+      "total_beneficiaries": 49,
+      "avg_submitted": 174.07,
+      "avg_paid": 114.69
+    },
+    {
+      "year": 2019,
+      "total_payments": 120473.18,
+      "total_services": 1186,
+      "total_beneficiaries": 508,
+      "avg_submitted": 293.71,
+      "avg_paid": 117.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 749266.93,
+      "total_services": 7306,
+      "total_beneficiaries": 3368,
+      "avg_submitted": 270.66,
+      "avg_paid": 98.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 1350060.37,
+      "total_services": 13068,
+      "total_beneficiaries": 4872,
+      "avg_submitted": 279.67,
+      "avg_paid": 97.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 1510479.44,
+      "total_services": 13803,
+      "total_beneficiaries": 5056,
+      "avg_submitted": 349.62,
+      "avg_paid": 117.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 1203983.13,
+      "total_services": 11301,
+      "total_beneficiaries": 3974,
+      "avg_submitted": 359.89,
+      "avg_paid": 117.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 11387,
+      "payments": 1686862.82,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 17997,
+      "payments": 1279088.62,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "G0182",
+      "description": "Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",
+      "services": 8369,
+      "payments": 780627.2,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 2895,
+      "payments": 498846.36,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 974,
+      "payments": 159587.48,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 793,
+      "payments": 89441.92,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 618,
+      "payments": 84938.41,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 479,
+      "payments": 78229.02,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 612,
+      "payments": 73341.87,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 626,
+      "payments": 57559.23,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 416,
+      "payments": 38494.18,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 211,
+      "payments": 37798.43,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 184,
+      "payments": 29990.11,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "G0181",
+      "description": "Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow",
+      "services": 324,
+      "payments": 29933.44,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 221,
+      "payments": 17388.25,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "G0179",
+      "description": "Physician or allowed practitioner re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians a",
+      "services": 275,
+      "payments": 10148.51,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 84,
+      "payments": 8735.49,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 141,
+      "payments": 7905.25,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 48,
+      "payments": 6215.52,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 43,
+      "payments": 6047.22,
+      "avg_markup": 2.77
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5003755.11,
+    "total_services": 47197,
+    "total_beneficiaries": 18260,
+    "avg_markup_ratio": 2.94
+  }
+}

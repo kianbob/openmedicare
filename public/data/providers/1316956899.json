@@ -1,0 +1,239 @@
+{
+  "name": "Avinash Mondkar",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 401412.21,
+      "total_services": 6349,
+      "total_beneficiaries": 4025,
+      "avg_submitted": 148.01,
+      "avg_paid": 68.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 423717.63,
+      "total_services": 6484,
+      "total_beneficiaries": 3960,
+      "avg_submitted": 132.91,
+      "avg_paid": 61.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 416395.53,
+      "total_services": 5588,
+      "total_beneficiaries": 3262,
+      "avg_submitted": 144.99,
+      "avg_paid": 65.26
+    },
+    {
+      "year": 2017,
+      "total_payments": 379444.1,
+      "total_services": 5617,
+      "total_beneficiaries": 3096,
+      "avg_submitted": 154.97,
+      "avg_paid": 59.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 361458.73,
+      "total_services": 5103,
+      "total_beneficiaries": 2746,
+      "avg_submitted": 154.64,
+      "avg_paid": 58.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 356317.36,
+      "total_services": 5063,
+      "total_beneficiaries": 2573,
+      "avg_submitted": 162.86,
+      "avg_paid": 61.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 315062.21,
+      "total_services": 4200,
+      "total_beneficiaries": 2309,
+      "avg_submitted": 169.24,
+      "avg_paid": 66.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 380050.86,
+      "total_services": 4260,
+      "total_beneficiaries": 2309,
+      "avg_submitted": 175.26,
+      "avg_paid": 73.66
+    },
+    {
+      "year": 2022,
+      "total_payments": 373893.69,
+      "total_services": 4430,
+      "total_beneficiaries": 2264,
+      "avg_submitted": 187.78,
+      "avg_paid": 73.32
+    },
+    {
+      "year": 2023,
+      "total_payments": 267001.23,
+      "total_services": 3189,
+      "total_beneficiaries": 2030,
+      "avg_submitted": 203.5,
+      "avg_paid": 82.37
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 21011,
+      "payments": 1666653.31,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3007,
+      "payments": 332006.44,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 2094,
+      "payments": 319477.25,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1833,
+      "payments": 296721.31,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 1102,
+      "payments": 237018.25,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4112,
+      "payments": 215385.04,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "93350",
+      "description": "Ultrasound examination of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 742,
+      "payments": 128037.49,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 421,
+      "payments": 66552.12,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 3793,
+      "payments": 60426.95,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 340,
+      "payments": 50833.2,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "93320",
+      "description": "Doppler ultrasound study of heart blood flow, valves, and chambers",
+      "services": 1129,
+      "payments": 50388.08,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3188,
+      "payments": 38975.85,
+      "avg_markup": 6.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 486,
+      "payments": 28654.24,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 422,
+      "payments": 27869.02,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "93325",
+      "description": "Doppler ultrasound study of color-directed heart blood flow, rate, and valve function",
+      "services": 1133,
+      "payments": 24262.77,
+      "avg_markup": 8.42
+    },
+    {
+      "code": "93017",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG tracing and monitoring",
+      "services": 751,
+      "payments": 20870.01,
+      "avg_markup": 6.84
+    },
+    {
+      "code": "93288",
+      "description": "Evaluation of parameters of single, dual, or multiple lead pacemaker including device connection, recording, and disconnection",
+      "services": 567,
+      "payments": 16422.78,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 750,
+      "payments": 13030.47,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 92,
+      "payments": 11406.59,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "93228",
+      "description": "Heart rhythm tracing, computer analysis, and interpretation of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 552,
+      "payments": 11050.8,
+      "avg_markup": 1.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3674753.54,
+    "total_services": 50283,
+    "total_beneficiaries": 28574,
+    "avg_markup_ratio": 2.36
+  }
+}

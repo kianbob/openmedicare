@@ -1,0 +1,239 @@
+{
+  "name": "Brian Tsang",
+  "credentials": "M.D.",
+  "specialty": "Anesthesiology",
+  "city": "Biloxi",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1106547.47,
+      "total_services": 32053,
+      "total_beneficiaries": 6846,
+      "avg_submitted": 272.33,
+      "avg_paid": 46.07
+    },
+    {
+      "year": 2015,
+      "total_payments": 1090718.65,
+      "total_services": 30085,
+      "total_beneficiaries": 6575,
+      "avg_submitted": 231.27,
+      "avg_paid": 42.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 722814.3,
+      "total_services": 11067,
+      "total_beneficiaries": 2412,
+      "avg_submitted": 264.07,
+      "avg_paid": 54.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 467267.6,
+      "total_services": 7327,
+      "total_beneficiaries": 2313,
+      "avg_submitted": 269.29,
+      "avg_paid": 53.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 484338.92,
+      "total_services": 7643,
+      "total_beneficiaries": 2708,
+      "avg_submitted": 269.29,
+      "avg_paid": 52.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 409269.74,
+      "total_services": 6768,
+      "total_beneficiaries": 2589,
+      "avg_submitted": 318.57,
+      "avg_paid": 63.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 36747.47,
+      "total_services": 556,
+      "total_beneficiaries": 448,
+      "avg_submitted": 379.25,
+      "avg_paid": 69.91
+    },
+    {
+      "year": 2021,
+      "total_payments": 129170.77,
+      "total_services": 1614,
+      "total_beneficiaries": 929,
+      "avg_submitted": 379.25,
+      "avg_paid": 82.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 195124.29,
+      "total_services": 2683,
+      "total_beneficiaries": 1035,
+      "avg_submitted": 379.25,
+      "avg_paid": 80.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 262608.3,
+      "total_services": 3463,
+      "total_beneficiaries": 865,
+      "avg_submitted": 379.25,
+      "avg_paid": 80.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 23509,
+      "payments": 1766079.74,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 21828,
+      "payments": 1093375.58,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 8876,
+      "payments": 842568.36,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 6795,
+      "payments": 470093.13,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 3348,
+      "payments": 255349.86,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1370,
+      "payments": 148382.69,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "84311",
+      "description": "Chemical analysis using spectrophotometry (light)",
+      "services": 8895,
+      "payments": 81143.04,
+      "avg_markup": 5.52
+    },
+    {
+      "code": "82055",
+      "description": "Alcohol (ethanol) level",
+      "services": 4677,
+      "payments": 66225.26,
+      "avg_markup": 7.02
+    },
+    {
+      "code": "G6040",
+      "description": "Alcohol (ethanol); any specimen except breath",
+      "services": 4130,
+      "payments": 58173.01,
+      "avg_markup": 7.24
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 8882,
+      "payments": 53826.14,
+      "avg_markup": 6.86
+    },
+    {
+      "code": "81003",
+      "description": "Automated urinalysis test",
+      "services": 8894,
+      "payments": 26095.19,
+      "avg_markup": 8.07
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 747,
+      "payments": 20563.89,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "81025",
+      "description": "Urine pregnancy test",
+      "services": 961,
+      "payments": 7756.79,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "62311",
+      "description": "Injections of substances into lower or sacral spine",
+      "services": 71,
+      "payments": 3949.41,
+      "avg_markup": 12.13
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 36,
+      "payments": 2774.68,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "20553",
+      "description": "Injections of trigger points in 3 or more muscles",
+      "services": 70,
+      "payments": 2760.19,
+      "avg_markup": 5.27
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 25,
+      "payments": 2576.3,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "62310",
+      "description": "Injections of substances into upper or middle spine",
+      "services": 23,
+      "payments": 1195.09,
+      "avg_markup": 15.32
+    },
+    {
+      "code": "64550",
+      "description": "Application of skin surface neurostimulator electrodes",
+      "services": 97,
+      "payments": 1103.64,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "G0396",
+      "description": "Alcohol and/or substance (other than tobacco) abuse structured assessment (e.g., audit, dast), and brief intervention 15 to 30 minutes",
+      "services": 25,
+      "payments": 615.52,
+      "avg_markup": 4.87
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4904607.51,
+    "total_services": 103259,
+    "total_beneficiaries": 26720,
+    "avg_markup_ratio": 4.6
+  }
+}

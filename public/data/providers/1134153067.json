@@ -1,0 +1,239 @@
+{
+  "name": "Kevin O'neil",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Wilmington",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 256088.31,
+      "total_services": 2811,
+      "total_beneficiaries": 2125,
+      "avg_submitted": 318.75,
+      "avg_paid": 78.99
+    },
+    {
+      "year": 2015,
+      "total_payments": 252934.58,
+      "total_services": 2783,
+      "total_beneficiaries": 2075,
+      "avg_submitted": 312.21,
+      "avg_paid": 86.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 288838.61,
+      "total_services": 2985,
+      "total_beneficiaries": 2166,
+      "avg_submitted": 305.36,
+      "avg_paid": 86.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 289166.73,
+      "total_services": 3028,
+      "total_beneficiaries": 2333,
+      "avg_submitted": 291.36,
+      "avg_paid": 87.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 296424.69,
+      "total_services": 2830,
+      "total_beneficiaries": 2127,
+      "avg_submitted": 313.08,
+      "avg_paid": 88.38
+    },
+    {
+      "year": 2019,
+      "total_payments": 305803.56,
+      "total_services": 3291,
+      "total_beneficiaries": 2431,
+      "avg_submitted": 345.03,
+      "avg_paid": 83.22
+    },
+    {
+      "year": 2020,
+      "total_payments": 229487.26,
+      "total_services": 2313,
+      "total_beneficiaries": 1674,
+      "avg_submitted": 363.63,
+      "avg_paid": 101.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 237417.58,
+      "total_services": 2163,
+      "total_beneficiaries": 1513,
+      "avg_submitted": 375.28,
+      "avg_paid": 103.51
+    },
+    {
+      "year": 2022,
+      "total_payments": 179847.67,
+      "total_services": 1540,
+      "total_beneficiaries": 1120,
+      "avg_submitted": 411.47,
+      "avg_paid": 106.04
+    },
+    {
+      "year": 2023,
+      "total_payments": 159641.3,
+      "total_services": 1417,
+      "total_beneficiaries": 1030,
+      "avg_submitted": 444.49,
+      "avg_paid": 112.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3834,
+      "payments": 662474.6,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5000,
+      "payments": 396025.17,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 672,
+      "payments": 269937.43,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 517,
+      "payments": 217031.38,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2544,
+      "payments": 207291.76,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 737,
+      "payments": 113186.35,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1654,
+      "payments": 92234.79,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 614,
+      "payments": 73442.13,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1344,
+      "payments": 52726.79,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 460,
+      "payments": 47621.77,
+      "avg_markup": 9.25
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 922,
+      "payments": 47519.2,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 1020,
+      "payments": 41308.48,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1006,
+      "payments": 38714.36,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 368,
+      "payments": 37493.27,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 261,
+      "payments": 31735.42,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 325,
+      "payments": 26363.37,
+      "avg_markup": 8.53
+    },
+    {
+      "code": "92950",
+      "description": "Attempt to restart heart and lungs",
+      "services": 132,
+      "payments": 19193.7,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 211,
+      "payments": 16670.73,
+      "avg_markup": 6.4
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 179,
+      "payments": 15727.18,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 542,
+      "payments": 13292.21,
+      "avg_markup": 2.95
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2495650.29,
+    "total_services": 25161,
+    "total_beneficiaries": 18594,
+    "avg_markup_ratio": 3.07
+  }
+}

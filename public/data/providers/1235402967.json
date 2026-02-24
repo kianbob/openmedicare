@@ -1,0 +1,239 @@
+{
+  "name": "Muhammad Ijaz",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Clifton",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 15178.05,
+      "total_services": 99,
+      "total_beneficiaries": 96,
+      "avg_submitted": 290.5,
+      "avg_paid": 114.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 88050.23,
+      "total_services": 655,
+      "total_beneficiaries": 553,
+      "avg_submitted": 309.25,
+      "avg_paid": 119.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 94186.47,
+      "total_services": 708,
+      "total_beneficiaries": 634,
+      "avg_submitted": 323.45,
+      "avg_paid": 114.94
+    },
+    {
+      "year": 2017,
+      "total_payments": 122576.84,
+      "total_services": 764,
+      "total_beneficiaries": 708,
+      "avg_submitted": 494.08,
+      "avg_paid": 125.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 275102.82,
+      "total_services": 2805,
+      "total_beneficiaries": 1383,
+      "avg_submitted": 448.66,
+      "avg_paid": 111.37
+    },
+    {
+      "year": 2019,
+      "total_payments": 390390.2,
+      "total_services": 4221,
+      "total_beneficiaries": 2306,
+      "avg_submitted": 480.91,
+      "avg_paid": 110.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 479202.77,
+      "total_services": 4767,
+      "total_beneficiaries": 2437,
+      "avg_submitted": 352.8,
+      "avg_paid": 98.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 760211.44,
+      "total_services": 8203,
+      "total_beneficiaries": 3787,
+      "avg_submitted": 288.59,
+      "avg_paid": 97.19
+    },
+    {
+      "year": 2022,
+      "total_payments": 546632.19,
+      "total_services": 6388,
+      "total_beneficiaries": 2354,
+      "avg_submitted": 297.2,
+      "avg_paid": 96.95
+    },
+    {
+      "year": 2023,
+      "total_payments": 779076.19,
+      "total_services": 10133,
+      "total_beneficiaries": 3350,
+      "avg_submitted": 166.26,
+      "avg_paid": 86.75
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5386,
+      "payments": 909316.55,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7735,
+      "payments": 708428.15,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5108,
+      "payments": 319443.18,
+      "avg_markup": 5.74
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5006,
+      "payments": 303228.42,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3165,
+      "payments": 269244.83,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 768,
+      "payments": 144203.53,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 927,
+      "payments": 144107.48,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1525,
+      "payments": 141846.51,
+      "avg_markup": 4.88
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 2398,
+      "payments": 123047.3,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1787,
+      "payments": 121141.27,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 2355,
+      "payments": 94062.23,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 510,
+      "payments": 57149.25,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 325,
+      "payments": 47920.58,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99203",
+      "description": "New patient outpatient visit, total time 30-44 minutes",
+      "services": 324,
+      "payments": 40051.24,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 380,
+      "payments": 31963.02,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 189,
+      "payments": 15550.13,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 120,
+      "payments": 13481.28,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 55,
+      "payments": 10070.03,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 60,
+      "payments": 9949.14,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 104,
+      "payments": 9904.2,
+      "avg_markup": 2.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3550607.2,
+    "total_services": 38743,
+    "total_beneficiaries": 17608,
+    "avg_markup_ratio": 3.57
+  }
+}

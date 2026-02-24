@@ -1,0 +1,239 @@
+{
+  "name": "Marc Miller",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 216488.73,
+      "total_services": 3684,
+      "total_beneficiaries": 2612,
+      "avg_submitted": 571.45,
+      "avg_paid": 156.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 310759.31,
+      "total_services": 6074,
+      "total_beneficiaries": 3843,
+      "avg_submitted": 665.1,
+      "avg_paid": 170.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 406943.18,
+      "total_services": 7063,
+      "total_beneficiaries": 4192,
+      "avg_submitted": 656.62,
+      "avg_paid": 176.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 326751.25,
+      "total_services": 8541,
+      "total_beneficiaries": 5478,
+      "avg_submitted": 806.04,
+      "avg_paid": 169.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 384932.76,
+      "total_services": 7036,
+      "total_beneficiaries": 4703,
+      "avg_submitted": 824.47,
+      "avg_paid": 170.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 325489.92,
+      "total_services": 5958,
+      "total_beneficiaries": 4474,
+      "avg_submitted": 842.67,
+      "avg_paid": 152.87
+    },
+    {
+      "year": 2020,
+      "total_payments": 364058.67,
+      "total_services": 6352,
+      "total_beneficiaries": 4579,
+      "avg_submitted": 1029.15,
+      "avg_paid": 153.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 470464.62,
+      "total_services": 7020,
+      "total_beneficiaries": 4978,
+      "avg_submitted": 1143.56,
+      "avg_paid": 184.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 378869.16,
+      "total_services": 4564,
+      "total_beneficiaries": 3449,
+      "avg_submitted": 1176.85,
+      "avg_paid": 174.68
+    },
+    {
+      "year": 2023,
+      "total_payments": 342209.21,
+      "total_services": 5602,
+      "total_beneficiaries": 4092,
+      "avg_submitted": 1246.96,
+      "avg_paid": 176.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "93299",
+      "description": "Remote evaluations of implantable heart recorder system including transmissions, technician review, support, and distribution of results up to 30 days",
+      "services": 1831,
+      "payments": 379793.09,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 1553,
+      "payments": 281400.85,
+      "avg_markup": 5.24
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1892,
+      "payments": 262773.52,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 25597,
+      "payments": 191861.17,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 402,
+      "payments": 188671.28,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 3301,
+      "payments": 186674.01,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "33249",
+      "description": "Insertion or replacement of single or dual chamber pacing defibrillator leads",
+      "services": 217,
+      "payments": 182417.69,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1500,
+      "payments": 144910.06,
+      "avg_markup": 4.12
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 613,
+      "payments": 109178.13,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "93653",
+      "description": "Evaluation and insertion of catheters for creation of complete heart block",
+      "services": 123,
+      "payments": 98539.85,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1372,
+      "payments": 89487.66,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "92960",
+      "description": "External shock to heart to regulate heart beat",
+      "services": 851,
+      "payments": 85781.86,
+      "avg_markup": 6.22
+    },
+    {
+      "code": "93296",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
+      "services": 3819,
+      "payments": 84038.88,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "93656",
+      "description": "Evaluation and insertion of catheters for recording, pacing, and treatment of abnormal heart rhythm",
+      "services": 79,
+      "payments": 81993.41,
+      "avg_markup": 4.53
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 827,
+      "payments": 80171.5,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "93298",
+      "description": "Remote evaluations of implantable heart recorder system including physician analysis, review, and report up to 30 days",
+      "services": 3426,
+      "payments": 80079.48,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "93284",
+      "description": "Evaluation, testing, and programming adjustment of permanent multiple lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 863,
+      "payments": 71776.77,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 365,
+      "payments": 69189.01,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "33225",
+      "description": "Insertion of left heart electrode for pacing defibrillator device",
+      "services": 145,
+      "payments": 66235.65,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "33228",
+      "description": "Removal and replacement of dual lead permanent pacemaker pulse generator",
+      "services": 189,
+      "payments": 62796.28,
+      "avg_markup": 3.97
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3526966.81,
+    "total_services": 61894,
+    "total_beneficiaries": 42400,
+    "avg_markup_ratio": 5.16
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Valley Multi Specialty Surgery Center",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Reseda",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 810782.36,
+      "total_services": 284,
+      "total_beneficiaries": 75,
+      "avg_submitted": 2166.74,
+      "avg_paid": 1418.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 1846668.46,
+      "total_services": 576,
+      "total_beneficiaries": 156,
+      "avg_submitted": 2247.12,
+      "avg_paid": 1457.99
+    },
+    {
+      "year": 2016,
+      "total_payments": 457757.63,
+      "total_services": 145,
+      "total_beneficiaries": 97,
+      "avg_submitted": 3810.0,
+      "avg_paid": 2650.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "64555",
+      "description": "Implantation of peripheral nerve neurostimulator electrodes, accessed through the skin",
+      "services": 817,
+      "payments": 2727371.25,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "0282T",
+      "description": "Implantation and removal of trial spinal neurostimulator electrode arrays, accessed through the skin or open procedure",
+      "services": 93,
+      "payments": 329823.21,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 62,
+      "payments": 51708.05,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 33,
+      "payments": 6305.94,
+      "avg_markup": 2.17
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3115208.45,
+    "total_services": 1005,
+    "total_beneficiaries": 328,
+    "avg_markup_ratio": 1.46
+  }
+}

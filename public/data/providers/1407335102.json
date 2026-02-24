@@ -1,0 +1,101 @@
+{
+  "name": "Aec Medical Transport & Rapid Response",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Manassas",
+  "state": "VA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 111134.09,
+      "total_services": 1074,
+      "total_beneficiaries": 950,
+      "avg_submitted": 1111.5,
+      "avg_paid": 208.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 391251.59,
+      "total_services": 3693,
+      "total_beneficiaries": 2694,
+      "avg_submitted": 1281.71,
+      "avg_paid": 209.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 657883.15,
+      "total_services": 5855,
+      "total_beneficiaries": 4250,
+      "avg_submitted": 1352.03,
+      "avg_paid": 259.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 526153.34,
+      "total_services": 4657,
+      "total_beneficiaries": 3275,
+      "avg_submitted": 1544.67,
+      "avg_paid": 271.27
+    },
+    {
+      "year": 2023,
+      "total_payments": 872164.72,
+      "total_services": 6473,
+      "total_beneficiaries": 4985,
+      "avg_submitted": 1782.6,
+      "avg_paid": 294.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 8325,
+      "payments": 1593514.86,
+      "avg_markup": 8.56
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 1603,
+      "payments": 589158.78,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 738,
+      "payments": 232873.46,
+      "avg_markup": 5.52
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10879,
+      "payments": 69520.42,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 87,
+      "payments": 46212.45,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 120,
+      "payments": 27306.94,
+      "avg_markup": 7.41
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 2558586.91,
+    "total_services": 21752,
+    "total_beneficiaries": 16154,
+    "avg_markup_ratio": 7.27
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Superior Air-Ground Ambulance Service Of Ohio Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Grove City",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 376341.85,
+      "total_services": 3425,
+      "total_beneficiaries": 2808,
+      "avg_submitted": 2183.77,
+      "avg_paid": 266.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 1625083.01,
+      "total_services": 14949,
+      "total_beneficiaries": 11534,
+      "avg_submitted": 2336.82,
+      "avg_paid": 265.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 1674047.69,
+      "total_services": 14655,
+      "total_beneficiaries": 10547,
+      "avg_submitted": 2687.09,
+      "avg_paid": 275.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 1938003.27,
+      "total_services": 16024,
+      "total_beneficiaries": 11181,
+      "avg_submitted": 2680.61,
+      "avg_paid": 297.76
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 19617,
+      "payments": 3647451.41,
+      "avg_markup": 8.7
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1327,
+      "payments": 807650.5,
+      "avg_markup": 11.0
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1696,
+      "payments": 380230.5,
+      "avg_markup": 10.83
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1147,
+      "payments": 336198.4,
+      "avg_markup": 5.99
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 794,
+      "payments": 278767.75,
+      "avg_markup": 7.63
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 24472,
+      "payments": 163177.27,
+      "avg_markup": 5.4
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 5613475.83,
+    "total_services": 49053,
+    "total_beneficiaries": 36070,
+    "avg_markup_ratio": 8.86
+  }
+}

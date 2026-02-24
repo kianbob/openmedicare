@@ -1,0 +1,148 @@
+{
+  "name": "Titus County Hospital District",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Mount Pleasant",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 515793.0,
+      "total_services": 3311,
+      "total_beneficiaries": 1852,
+      "avg_submitted": 727.33,
+      "avg_paid": 288.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 670904.54,
+      "total_services": 4366,
+      "total_beneficiaries": 2514,
+      "avg_submitted": 764.42,
+      "avg_paid": 291.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 623470.72,
+      "total_services": 4298,
+      "total_beneficiaries": 2367,
+      "avg_submitted": 668.98,
+      "avg_paid": 231.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 533862.67,
+      "total_services": 3528,
+      "total_beneficiaries": 1956,
+      "avg_submitted": 833.62,
+      "avg_paid": 238.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 486677.31,
+      "total_services": 3045,
+      "total_beneficiaries": 1877,
+      "avg_submitted": 900.01,
+      "avg_paid": 248.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 489101.73,
+      "total_services": 3031,
+      "total_beneficiaries": 1839,
+      "avg_submitted": 924.95,
+      "avg_paid": 247.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 401997.33,
+      "total_services": 2494,
+      "total_beneficiaries": 1616,
+      "avg_submitted": 685.45,
+      "avg_paid": 251.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 412667.02,
+      "total_services": 2556,
+      "total_beneficiaries": 1567,
+      "avg_submitted": 1116.43,
+      "avg_paid": 307.28
+    },
+    {
+      "year": 2022,
+      "total_payments": 341707.83,
+      "total_services": 2095,
+      "total_beneficiaries": 1247,
+      "avg_submitted": 1002.5,
+      "avg_paid": 278.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 335251.07,
+      "total_services": 1720,
+      "total_beneficiaries": 1084,
+      "avg_submitted": 1136.44,
+      "avg_paid": 344.61
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 10043,
+      "payments": 3298766.84,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2537,
+      "payments": 684664.33,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 1762,
+      "payments": 307250.76,
+      "avg_markup": 4.29
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 847,
+      "payments": 182567.8,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 247,
+      "payments": 119134.23,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 191,
+      "payments": 113369.34,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14817,
+      "payments": 105679.9,
+      "avg_markup": 2.08
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4811433.21,
+    "total_services": 30444,
+    "total_beneficiaries": 17919,
+    "avg_markup_ratio": 3.26
+  }
+}

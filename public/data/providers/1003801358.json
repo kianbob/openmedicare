@@ -1,0 +1,239 @@
+{
+  "name": "Ramin Khashayar",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Walnut Creek",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 323501.61,
+      "total_services": 3284,
+      "total_beneficiaries": 1806,
+      "avg_submitted": 109.3,
+      "avg_paid": 75.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 357763.89,
+      "total_services": 3563,
+      "total_beneficiaries": 2027,
+      "avg_submitted": 149.75,
+      "avg_paid": 78.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 302435.7,
+      "total_services": 3151,
+      "total_beneficiaries": 2096,
+      "avg_submitted": 153.42,
+      "avg_paid": 82.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 317337.54,
+      "total_services": 3334,
+      "total_beneficiaries": 2101,
+      "avg_submitted": 145.26,
+      "avg_paid": 79.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 347560.54,
+      "total_services": 3472,
+      "total_beneficiaries": 2003,
+      "avg_submitted": 135.65,
+      "avg_paid": 81.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 360502.67,
+      "total_services": 3481,
+      "total_beneficiaries": 2238,
+      "avg_submitted": 145.17,
+      "avg_paid": 86.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 382287.63,
+      "total_services": 3383,
+      "total_beneficiaries": 2090,
+      "avg_submitted": 166.4,
+      "avg_paid": 96.34
+    },
+    {
+      "year": 2021,
+      "total_payments": 380604.8,
+      "total_services": 3415,
+      "total_beneficiaries": 2238,
+      "avg_submitted": 154.98,
+      "avg_paid": 86.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 372345.12,
+      "total_services": 3471,
+      "total_beneficiaries": 2259,
+      "avg_submitted": 158.41,
+      "avg_paid": 85.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 388051.8,
+      "total_services": 3582,
+      "total_beneficiaries": 2443,
+      "avg_submitted": 152.18,
+      "avg_paid": 84.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 6483,
+      "payments": 1230580.09,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7408,
+      "payments": 678672.54,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3206,
+      "payments": 308043.53,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1119,
+      "payments": 187956.11,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2908,
+      "payments": 183089.89,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1326,
+      "payments": 175967.16,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1422,
+      "payments": 88158.09,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 673,
+      "payments": 64715.07,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 416,
+      "payments": 60332.74,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 338,
+      "payments": 59682.31,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 429,
+      "payments": 54484.41,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1315,
+      "payments": 49717.78,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 408,
+      "payments": 47252.55,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "95800",
+      "description": "Sleep study including heart rate, breathing, and sleep time",
+      "services": 315,
+      "payments": 45631.1,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1113,
+      "payments": 45340.36,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 1302,
+      "payments": 41922.02,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "32551",
+      "description": "Removal of fluid from between lung and chest cavity, open procedure",
+      "services": 237,
+      "payments": 31477.82,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 498,
+      "payments": 30133.57,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 765,
+      "payments": 24111.81,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 250,
+      "payments": 22362.25,
+      "avg_markup": 1.66
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3532391.31,
+    "total_services": 34136,
+    "total_beneficiaries": 21301,
+    "avg_markup_ratio": 1.57
+  }
+}

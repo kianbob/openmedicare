@@ -1,0 +1,176 @@
+{
+  "name": "John Bell",
+  "credentials": "DO",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Plantation",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 372209.38,
+      "total_services": 5611,
+      "total_beneficiaries": 1480,
+      "avg_submitted": 119.07,
+      "avg_paid": 75.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 335415.58,
+      "total_services": 4871,
+      "total_beneficiaries": 1397,
+      "avg_submitted": 113.2,
+      "avg_paid": 74.07
+    },
+    {
+      "year": 2016,
+      "total_payments": 305434.12,
+      "total_services": 4645,
+      "total_beneficiaries": 1393,
+      "avg_submitted": 109.65,
+      "avg_paid": 72.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 334868.66,
+      "total_services": 4923,
+      "total_beneficiaries": 1301,
+      "avg_submitted": 109.48,
+      "avg_paid": 74.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 302073.5,
+      "total_services": 4589,
+      "total_beneficiaries": 1171,
+      "avg_submitted": 111.13,
+      "avg_paid": 74.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 184978.77,
+      "total_services": 2978,
+      "total_beneficiaries": 934,
+      "avg_submitted": 105.12,
+      "avg_paid": 70.22
+    },
+    {
+      "year": 2020,
+      "total_payments": 194812.75,
+      "total_services": 2894,
+      "total_beneficiaries": 871,
+      "avg_submitted": 117.67,
+      "avg_paid": 76.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 160410.8,
+      "total_services": 2489,
+      "total_beneficiaries": 727,
+      "avg_submitted": 128.0,
+      "avg_paid": 80.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 147895.24,
+      "total_services": 2327,
+      "total_beneficiaries": 722,
+      "avg_submitted": 147.0,
+      "avg_paid": 79.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 163722.45,
+      "total_services": 2357,
+      "total_beneficiaries": 841,
+      "avg_submitted": 147.0,
+      "avg_paid": 82.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 14332,
+      "payments": 856974.05,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2233,
+      "payments": 367797.92,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6014,
+      "payments": 335590.02,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3717,
+      "payments": 275019.4,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2860,
+      "payments": 248617.85,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 3660,
+      "payments": 124408.08,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 817,
+      "payments": 111583.95,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 2356,
+      "payments": 85267.57,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1064,
+      "payments": 64314.08,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 295,
+      "payments": 17615.4,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 336,
+      "payments": 14632.93,
+      "avg_markup": 1.52
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2501821.25,
+    "total_services": 37684,
+    "total_beneficiaries": 10837,
+    "avg_markup_ratio": 1.5
+  }
+}

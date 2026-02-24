@@ -1,0 +1,239 @@
+{
+  "name": "Scott Zager",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Oxnard",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 415992.47,
+      "total_services": 5495,
+      "total_beneficiaries": 3070,
+      "avg_submitted": 408.84,
+      "avg_paid": 101.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 429576.85,
+      "total_services": 5475,
+      "total_beneficiaries": 3197,
+      "avg_submitted": 422.33,
+      "avg_paid": 110.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 352755.98,
+      "total_services": 4639,
+      "total_beneficiaries": 2784,
+      "avg_submitted": 428.69,
+      "avg_paid": 108.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 393318.32,
+      "total_services": 4828,
+      "total_beneficiaries": 3013,
+      "avg_submitted": 447.99,
+      "avg_paid": 115.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 404844.92,
+      "total_services": 5073,
+      "total_beneficiaries": 2932,
+      "avg_submitted": 421.7,
+      "avg_paid": 110.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 446787.87,
+      "total_services": 5095,
+      "total_beneficiaries": 3066,
+      "avg_submitted": 557.17,
+      "avg_paid": 166.92
+    },
+    {
+      "year": 2020,
+      "total_payments": 480461.55,
+      "total_services": 3766,
+      "total_beneficiaries": 2466,
+      "avg_submitted": 469.02,
+      "avg_paid": 149.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 520986.24,
+      "total_services": 3758,
+      "total_beneficiaries": 2377,
+      "avg_submitted": 583.47,
+      "avg_paid": 175.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 537384.84,
+      "total_services": 4224,
+      "total_beneficiaries": 2556,
+      "avg_submitted": 575.15,
+      "avg_paid": 174.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 767475.38,
+      "total_services": 8913,
+      "total_beneficiaries": 4668,
+      "avg_submitted": 505.82,
+      "avg_paid": 181.74
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 5907,
+      "payments": 800895.01,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8383,
+      "payments": 716432.84,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4173,
+      "payments": 583353.2,
+      "avg_markup": 5.33
+    },
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 253,
+      "payments": 354290.3,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 353,
+      "payments": 249228.06,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 1055,
+      "payments": 237761.62,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 569,
+      "payments": 235412.32,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2416,
+      "payments": 209634.4,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1038,
+      "payments": 173692.97,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 808,
+      "payments": 132311.62,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 296,
+      "payments": 123961.47,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 7579,
+      "payments": 100904.98,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "78431",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress with concurrent ct scan",
+      "services": 43,
+      "payments": 75140.35,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 307,
+      "payments": 54903.19,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 315,
+      "payments": 52517.06,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 815,
+      "payments": 47202.41,
+      "avg_markup": 6.72
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2755,
+      "payments": 46226.91,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 525,
+      "payments": 45559.95,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 777,
+      "payments": 42175.56,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 903,
+      "payments": 38921.3,
+      "avg_markup": 2.89
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4749584.42,
+    "total_services": 51266,
+    "total_beneficiaries": 30129,
+    "avg_markup_ratio": 3.36
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Alan Tanenbaum",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Memphis",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 153133.74,
+      "total_services": 3201,
+      "total_beneficiaries": 2740,
+      "avg_submitted": 145.89,
+      "avg_paid": 81.03
+    },
+    {
+      "year": 2015,
+      "total_payments": 209545.0,
+      "total_services": 4184,
+      "total_beneficiaries": 3424,
+      "avg_submitted": 145.92,
+      "avg_paid": 83.78
+    },
+    {
+      "year": 2016,
+      "total_payments": 204530.17,
+      "total_services": 4323,
+      "total_beneficiaries": 3736,
+      "avg_submitted": 142.73,
+      "avg_paid": 78.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 209184.92,
+      "total_services": 4678,
+      "total_beneficiaries": 3880,
+      "avg_submitted": 130.27,
+      "avg_paid": 74.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 225523.04,
+      "total_services": 4861,
+      "total_beneficiaries": 4125,
+      "avg_submitted": 132.43,
+      "avg_paid": 79.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 256363.87,
+      "total_services": 5591,
+      "total_beneficiaries": 4802,
+      "avg_submitted": 118.66,
+      "avg_paid": 71.89
+    },
+    {
+      "year": 2020,
+      "total_payments": 712601.97,
+      "total_services": 10024,
+      "total_beneficiaries": 5096,
+      "avg_submitted": 149.09,
+      "avg_paid": 76.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 778121.41,
+      "total_services": 9864,
+      "total_beneficiaries": 5139,
+      "avg_submitted": 180.03,
+      "avg_paid": 75.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 726234.63,
+      "total_services": 9436,
+      "total_beneficiaries": 4886,
+      "avg_submitted": 183.69,
+      "avg_paid": 75.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 656302.63,
+      "total_services": 8887,
+      "total_beneficiaries": 5079,
+      "avg_submitted": 185.42,
+      "avg_paid": 76.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 4987,
+      "payments": 998595.12,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "G6001",
+      "description": "Ultrasonic guidance for placement of radiation therapy fields",
+      "services": 5074,
+      "payments": 551107.11,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9770,
+      "payments": 490873.64,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 9821,
+      "payments": 354799.75,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 2544,
+      "payments": 248909.49,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1943,
+      "payments": 140589.69,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "77401",
+      "description": "Radiation treatment delivery, superficial",
+      "services": 4769,
+      "payments": 126975.23,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 2378,
+      "payments": 109148.47,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 899,
+      "payments": 91267.41,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 2977,
+      "payments": 88776.29,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 1266,
+      "payments": 79685.09,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 480,
+      "payments": 69089.14,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "11301",
+      "description": "Shaving of 0.6 centimeters to 1.0 centimeters skin growth of the trunk, arms, or legs",
+      "services": 964,
+      "payments": 63643.01,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 1005,
+      "payments": 58824.38,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "17282",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 429,
+      "payments": 55535.84,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "11302",
+      "description": "Shaving of 1.1 to 2.0 centimeters skin growth of the trunk, arms, or legs",
+      "services": 658,
+      "payments": 53071.97,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 771,
+      "payments": 50577.73,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 206,
+      "payments": 40104.03,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 8057,
+      "payments": 31698.72,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 530,
+      "payments": 31026.52,
+      "avg_markup": 2.02
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4131541.36,
+    "total_services": 65049,
+    "total_beneficiaries": 42907,
+    "avg_markup_ratio": 1.99
+  }
+}

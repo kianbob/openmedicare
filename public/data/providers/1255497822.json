@@ -1,0 +1,225 @@
+{
+  "name": "Samir Mayel",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Louisville",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 474570.55,
+      "total_services": 6303,
+      "total_beneficiaries": 2511,
+      "avg_submitted": 202.7,
+      "avg_paid": 88.68
+    },
+    {
+      "year": 2015,
+      "total_payments": 362923.48,
+      "total_services": 4922,
+      "total_beneficiaries": 1854,
+      "avg_submitted": 195.91,
+      "avg_paid": 85.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 313027.65,
+      "total_services": 4134,
+      "total_beneficiaries": 1887,
+      "avg_submitted": 195.83,
+      "avg_paid": 85.9
+    },
+    {
+      "year": 2017,
+      "total_payments": 343558.26,
+      "total_services": 4512,
+      "total_beneficiaries": 2207,
+      "avg_submitted": 197.37,
+      "avg_paid": 83.52
+    },
+    {
+      "year": 2018,
+      "total_payments": 301285.62,
+      "total_services": 3991,
+      "total_beneficiaries": 1987,
+      "avg_submitted": 186.32,
+      "avg_paid": 81.88
+    },
+    {
+      "year": 2019,
+      "total_payments": 262384.6,
+      "total_services": 3418,
+      "total_beneficiaries": 1817,
+      "avg_submitted": 184.38,
+      "avg_paid": 79.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 224019.77,
+      "total_services": 2895,
+      "total_beneficiaries": 1337,
+      "avg_submitted": 200.0,
+      "avg_paid": 86.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 229104.5,
+      "total_services": 2993,
+      "total_beneficiaries": 1213,
+      "avg_submitted": 191.68,
+      "avg_paid": 80.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 174431.65,
+      "total_services": 2202,
+      "total_beneficiaries": 1051,
+      "avg_submitted": 205.05,
+      "avg_paid": 88.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 167865.49,
+      "total_services": 2021,
+      "total_beneficiaries": 947,
+      "avg_submitted": 212.5,
+      "avg_paid": 90.58
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11970,
+      "payments": 946419.77,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12728,
+      "payments": 697251.15,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3577,
+      "payments": 538816.74,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3032,
+      "payments": 245547.3,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2567,
+      "payments": 133686.12,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 730,
+      "payments": 75296.92,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 943,
+      "payments": 64437.54,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 256,
+      "payments": 35279.33,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 326,
+      "payments": 32074.3,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 234,
+      "payments": 23903.51,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 317,
+      "payments": 17207.26,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 286,
+      "payments": 15650.76,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 89,
+      "payments": 11347.53,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 242,
+      "payments": 7248.59,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 49,
+      "payments": 3654.52,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 19,
+      "payments": 2430.81,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 13,
+      "payments": 2199.48,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 13,
+      "payments": 719.94,
+      "avg_markup": 3.61
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2853171.57,
+    "total_services": 37391,
+    "total_beneficiaries": 16811,
+    "avg_markup_ratio": 2.3
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Ted Jagielo",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 355591.22,
+      "total_services": 5843,
+      "total_beneficiaries": 1849,
+      "avg_submitted": 143.33,
+      "avg_paid": 55.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 450497.38,
+      "total_services": 5831,
+      "total_beneficiaries": 1185,
+      "avg_submitted": 142.75,
+      "avg_paid": 57.26
+    },
+    {
+      "year": 2016,
+      "total_payments": 443971.68,
+      "total_services": 5949,
+      "total_beneficiaries": 1211,
+      "avg_submitted": 158.28,
+      "avg_paid": 61.74
+    },
+    {
+      "year": 2017,
+      "total_payments": 343195.8,
+      "total_services": 4690,
+      "total_beneficiaries": 1053,
+      "avg_submitted": 170.33,
+      "avg_paid": 65.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 356176.67,
+      "total_services": 5558,
+      "total_beneficiaries": 1154,
+      "avg_submitted": 147.45,
+      "avg_paid": 57.36
+    },
+    {
+      "year": 2019,
+      "total_payments": 411493.95,
+      "total_services": 5954,
+      "total_beneficiaries": 1002,
+      "avg_submitted": 154.91,
+      "avg_paid": 60.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 370719.2,
+      "total_services": 5132,
+      "total_beneficiaries": 1163,
+      "avg_submitted": 158.01,
+      "avg_paid": 66.42
+    },
+    {
+      "year": 2021,
+      "total_payments": 382143.74,
+      "total_services": 5198,
+      "total_beneficiaries": 1174,
+      "avg_submitted": 184.47,
+      "avg_paid": 73.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 418331.78,
+      "total_services": 5801,
+      "total_beneficiaries": 1514,
+      "avg_submitted": 153.85,
+      "avg_paid": 74.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 539295.36,
+      "total_services": 6786,
+      "total_beneficiaries": 1721,
+      "avg_submitted": 157.89,
+      "avg_paid": 79.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 16996,
+      "payments": 1519842.63,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9121,
+      "payments": 758556.99,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1985,
+      "payments": 376506.18,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2599,
+      "payments": 196631.22,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1147,
+      "payments": 191328.87,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2889,
+      "payments": 177583.63,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2947,
+      "payments": 171345.85,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2997,
+      "payments": 165103.67,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 968,
+      "payments": 87636.24,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "G0407",
+      "description": "Follow-up inpatient consultation, intermediate, physicians typically spend 25 minutes communicating with the patient via telehealth",
+      "services": 1241,
+      "payments": 74831.02,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 383,
+      "payments": 53982.9,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 2697,
+      "payments": 38644.81,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1370,
+      "payments": 33112.71,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 353,
+      "payments": 31040.75,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 151,
+      "payments": 25944.82,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 342,
+      "payments": 23107.5,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 398,
+      "payments": 17422.98,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 97,
+      "payments": 13217.33,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services for problem of high complexity",
+      "services": 45,
+      "payments": 10391.96,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 55,
+      "payments": 10142.65,
+      "avg_markup": 2.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4071416.78,
+    "total_services": 56742,
+    "total_beneficiaries": 13026,
+    "avg_markup_ratio": 2.6
+  }
+}

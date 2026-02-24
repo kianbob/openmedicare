@@ -1,0 +1,86 @@
+{
+  "name": "Lakeshore Ems",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Merrillville",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1222779.21,
+      "total_services": 15708,
+      "total_beneficiaries": 1220,
+      "avg_submitted": 370.29,
+      "avg_paid": 185.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 1463118.37,
+      "total_services": 18235,
+      "total_beneficiaries": 2137,
+      "avg_submitted": 407.51,
+      "avg_paid": 189.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 1098317.1,
+      "total_services": 13689,
+      "total_beneficiaries": 1583,
+      "avg_submitted": 338.1,
+      "avg_paid": 146.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 586746.62,
+      "total_services": 7263,
+      "total_beneficiaries": 762,
+      "avg_submitted": 268.02,
+      "avg_paid": 142.11
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 27071,
+      "payments": 4112498.99,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 27383,
+      "payments": 142717.54,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 345,
+      "payments": 91764.49,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 44,
+      "payments": 14080.58,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 52,
+      "payments": 9899.7,
+      "avg_markup": 2.89
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4370961.3,
+    "total_services": 54895,
+    "total_beneficiaries": 5702,
+    "avg_markup_ratio": 2.52
+  }
+}

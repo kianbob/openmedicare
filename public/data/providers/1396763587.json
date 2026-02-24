@@ -1,0 +1,239 @@
+{
+  "name": "C. Milne",
+  "credentials": "D.O.",
+  "specialty": "Internal Medicine",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 679872.34,
+      "total_services": 7838,
+      "total_beneficiaries": 4485,
+      "avg_submitted": 174.51,
+      "avg_paid": 72.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 1015590.38,
+      "total_services": 12280,
+      "total_beneficiaries": 5447,
+      "avg_submitted": 144.84,
+      "avg_paid": 61.72
+    },
+    {
+      "year": 2016,
+      "total_payments": 516809.73,
+      "total_services": 6960,
+      "total_beneficiaries": 3386,
+      "avg_submitted": 146.07,
+      "avg_paid": 71.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 422256.94,
+      "total_services": 6420,
+      "total_beneficiaries": 3112,
+      "avg_submitted": 160.73,
+      "avg_paid": 75.06
+    },
+    {
+      "year": 2018,
+      "total_payments": 352024.15,
+      "total_services": 5698,
+      "total_beneficiaries": 2463,
+      "avg_submitted": 205.9,
+      "avg_paid": 89.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 347250.25,
+      "total_services": 5477,
+      "total_beneficiaries": 2176,
+      "avg_submitted": 196.0,
+      "avg_paid": 87.14
+    },
+    {
+      "year": 2020,
+      "total_payments": 134551.07,
+      "total_services": 2072,
+      "total_beneficiaries": 895,
+      "avg_submitted": 195.67,
+      "avg_paid": 84.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 237204.18,
+      "total_services": 3530,
+      "total_beneficiaries": 1565,
+      "avg_submitted": 193.0,
+      "avg_paid": 87.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 229615.23,
+      "total_services": 3320,
+      "total_beneficiaries": 1648,
+      "avg_submitted": 174.29,
+      "avg_paid": 83.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 321975.85,
+      "total_services": 3869,
+      "total_beneficiaries": 2021,
+      "avg_submitted": 213.09,
+      "avg_paid": 87.67
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21678,
+      "payments": 1249856.03,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5479,
+      "payments": 859888.23,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6488,
+      "payments": 537554.76,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 7254,
+      "payments": 416348.79,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3216,
+      "payments": 348222.37,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5454,
+      "payments": 301922.91,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2192,
+      "payments": 174356.77,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 456,
+      "payments": 80359.24,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2529,
+      "payments": 78020.51,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 625,
+      "payments": 55919.86,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 311,
+      "payments": 38489.46,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 98,
+      "payments": 18847.53,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 156,
+      "payments": 18193.74,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 183,
+      "payments": 14443.53,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 87,
+      "payments": 11856.67,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99236",
+      "description": "Initial hospital care with same-day admission and discharge with high level of medical decision making, per day, if using time, at least 85 minutes",
+      "services": 71,
+      "payments": 11600.25,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 201,
+      "payments": 6414.66,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 186,
+      "payments": 5908.52,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 42,
+      "payments": 5427.9,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 72,
+      "payments": 4358.55,
+      "avg_markup": 1.59
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4257150.13,
+    "total_services": 57464,
+    "total_beneficiaries": 27198,
+    "avg_markup_ratio": 2.25
+  }
+}

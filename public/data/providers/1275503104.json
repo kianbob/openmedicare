@@ -1,0 +1,239 @@
+{
+  "name": "Gregory Hale",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Oxford",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 248674.56,
+      "total_services": 2804,
+      "total_beneficiaries": 1356,
+      "avg_submitted": 200.23,
+      "avg_paid": 92.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 253212.29,
+      "total_services": 3365,
+      "total_beneficiaries": 1819,
+      "avg_submitted": 190.14,
+      "avg_paid": 85.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 253709.14,
+      "total_services": 3439,
+      "total_beneficiaries": 1837,
+      "avg_submitted": 187.61,
+      "avg_paid": 84.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 218699.49,
+      "total_services": 4029,
+      "total_beneficiaries": 2359,
+      "avg_submitted": 201.9,
+      "avg_paid": 79.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 343453.1,
+      "total_services": 7657,
+      "total_beneficiaries": 3546,
+      "avg_submitted": 196.59,
+      "avg_paid": 71.76
+    },
+    {
+      "year": 2019,
+      "total_payments": 405931.25,
+      "total_services": 9427,
+      "total_beneficiaries": 4739,
+      "avg_submitted": 189.23,
+      "avg_paid": 72.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 403496.99,
+      "total_services": 9572,
+      "total_beneficiaries": 4677,
+      "avg_submitted": 188.96,
+      "avg_paid": 75.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 442790.18,
+      "total_services": 10535,
+      "total_beneficiaries": 4764,
+      "avg_submitted": 170.74,
+      "avg_paid": 73.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 422565.29,
+      "total_services": 9542,
+      "total_beneficiaries": 4469,
+      "avg_submitted": 175.77,
+      "avg_paid": 74.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 382103.07,
+      "total_services": 6844,
+      "total_beneficiaries": 3293,
+      "avg_submitted": 211.36,
+      "avg_paid": 94.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11997,
+      "payments": 658068.63,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6799,
+      "payments": 553851.9,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3401,
+      "payments": 503737.32,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 2053,
+      "payments": 398915.92,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 1561,
+      "payments": 337959.9,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1148,
+      "payments": 129314.16,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1045,
+      "payments": 101663.92,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 1665,
+      "payments": 91509.09,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1573,
+      "payments": 74032.7,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 6586,
+      "payments": 73056.3,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 474,
+      "payments": 67589.68,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2168,
+      "payments": 61355.82,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6463,
+      "payments": 52403.09,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 899,
+      "payments": 47719.81,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 565,
+      "payments": 45038.64,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 300,
+      "payments": 43181.22,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 9144,
+      "payments": 35336.49,
+      "avg_markup": 8.42
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 287,
+      "payments": 19712.53,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "81003",
+      "description": "Automated urinalysis test",
+      "services": 7894,
+      "payments": 18254.27,
+      "avg_markup": 5.62
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 161,
+      "payments": 15482.8,
+      "avg_markup": 2.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3374635.35,
+    "total_services": 67214,
+    "total_beneficiaries": 32859,
+    "avg_markup_ratio": 2.45
+  }
+}

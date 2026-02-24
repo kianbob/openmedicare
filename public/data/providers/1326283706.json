@@ -1,0 +1,72 @@
+{
+  "name": "C O R E Medical Clinic Inc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Sacramento",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 77633.8,
+      "total_services": 528,
+      "total_beneficiaries": 27,
+      "avg_submitted": 120.75,
+      "avg_paid": 119.31
+    },
+    {
+      "year": 2021,
+      "total_payments": 671974.59,
+      "total_services": 4205,
+      "total_beneficiaries": 215,
+      "avg_submitted": 124.61,
+      "avg_paid": 123.23
+    },
+    {
+      "year": 2022,
+      "total_payments": 778544.08,
+      "total_services": 4745,
+      "total_beneficiaries": 190,
+      "avg_submitted": 124.57,
+      "avg_paid": 121.34
+    },
+    {
+      "year": 2023,
+      "total_payments": 869864.04,
+      "total_services": 4605,
+      "total_beneficiaries": 200,
+      "avg_submitted": 191.28,
+      "avg_paid": 184.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 10181,
+      "payments": 2221331.9,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 3743,
+      "payments": 132260.59,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2068",
+      "description": "Medication assisted treatment, buprenorphine (oral); weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opi",
+      "services": 159,
+      "payments": 44424.02,
+      "avg_markup": 1.03
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2398016.51,
+    "total_services": 14083,
+    "total_beneficiaries": 632,
+    "avg_markup_ratio": 1.03
+  }
+}

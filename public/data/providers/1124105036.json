@@ -1,0 +1,231 @@
+{
+  "name": "Florence Pua",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Bronx",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 97451.26,
+      "total_services": 1464,
+      "total_beneficiaries": 280,
+      "avg_submitted": 142.0,
+      "avg_paid": 86.25
+    },
+    {
+      "year": 2016,
+      "total_payments": 541494.25,
+      "total_services": 7696,
+      "total_beneficiaries": 1296,
+      "avg_submitted": 185.2,
+      "avg_paid": 105.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 350750.66,
+      "total_services": 5190,
+      "total_beneficiaries": 1155,
+      "avg_submitted": 192.07,
+      "avg_paid": 99.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 334438.69,
+      "total_services": 4814,
+      "total_beneficiaries": 812,
+      "avg_submitted": 154.67,
+      "avg_paid": 91.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 521404.67,
+      "total_services": 7825,
+      "total_beneficiaries": 1335,
+      "avg_submitted": 153.0,
+      "avg_paid": 89.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 232347.06,
+      "total_services": 3415,
+      "total_beneficiaries": 592,
+      "avg_submitted": 172.29,
+      "avg_paid": 103.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 239506.02,
+      "total_services": 3577,
+      "total_beneficiaries": 310,
+      "avg_submitted": 143.6,
+      "avg_paid": 88.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 309975.82,
+      "total_services": 4498,
+      "total_beneficiaries": 1087,
+      "avg_submitted": 272.33,
+      "avg_paid": 83.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 513462.15,
+      "total_services": 5341,
+      "total_beneficiaries": 967,
+      "avg_submitted": 322.42,
+      "avg_paid": 113.96
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 27116,
+      "payments": 1657214.29,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 12085,
+      "payments": 1031341.3,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1138,
+      "payments": 168491.47,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 577,
+      "payments": 85803.07,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 661,
+      "payments": 62112.79,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 861,
+      "payments": 30272.21,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 676,
+      "payments": 27546.2,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 253,
+      "payments": 25183.79,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 90,
+      "payments": 15395.85,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 88,
+      "payments": 10743.91,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 23,
+      "payments": 4721.82,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99491",
+      "description": "Chronic care management services for two or more chronic conditions, first 30 minutes provided personally by health care professional, per calendar month",
+      "services": 57,
+      "payments": 4613.42,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 37,
+      "payments": 4350.47,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 29,
+      "payments": 2407.74,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 12,
+      "payments": 2236.56,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 17,
+      "payments": 1853.34,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 30,
+      "payments": 1786.11,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 11,
+      "payments": 1597.18,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 13,
+      "payments": 1184.34,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 12,
+      "payments": 1176.54,
+      "avg_markup": 1.48
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3140830.58,
+    "total_services": 43820,
+    "total_beneficiaries": 7834,
+    "avg_markup_ratio": 1.96
+  }
+}

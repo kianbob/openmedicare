@@ -1,0 +1,183 @@
+{
+  "name": "Dwight Smith",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Inglewood",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 270760.07,
+      "total_services": 3020,
+      "total_beneficiaries": 1892,
+      "avg_submitted": 553.75,
+      "avg_paid": 157.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 235879.41,
+      "total_services": 2838,
+      "total_beneficiaries": 2037,
+      "avg_submitted": 427.08,
+      "avg_paid": 136.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 199168.89,
+      "total_services": 2570,
+      "total_beneficiaries": 1684,
+      "avg_submitted": 546.37,
+      "avg_paid": 150.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 201798.03,
+      "total_services": 2601,
+      "total_beneficiaries": 1473,
+      "avg_submitted": 499.91,
+      "avg_paid": 144.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 236778.6,
+      "total_services": 3031,
+      "total_beneficiaries": 1925,
+      "avg_submitted": 493.77,
+      "avg_paid": 139.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 290037.39,
+      "total_services": 3673,
+      "total_beneficiaries": 2465,
+      "avg_submitted": 546.35,
+      "avg_paid": 152.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 224778.66,
+      "total_services": 2673,
+      "total_beneficiaries": 1791,
+      "avg_submitted": 546.19,
+      "avg_paid": 157.63
+    },
+    {
+      "year": 2021,
+      "total_payments": 444412.82,
+      "total_services": 5514,
+      "total_beneficiaries": 2386,
+      "avg_submitted": 547.99,
+      "avg_paid": 169.28
+    },
+    {
+      "year": 2022,
+      "total_payments": 361100.96,
+      "total_services": 4674,
+      "total_beneficiaries": 1862,
+      "avg_submitted": 160.82,
+      "avg_paid": 84.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 407771.7,
+      "total_services": 5238,
+      "total_beneficiaries": 2178,
+      "avg_submitted": 566.43,
+      "avg_paid": 168.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9394,
+      "payments": 928858.46,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "92100",
+      "description": "Multiple measurements of eye fluid pressure over an extended time period, same day",
+      "services": 12688,
+      "payments": 918742.82,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 2417,
+      "payments": 425516.27,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 7758,
+      "payments": 185932.28,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 1448,
+      "payments": 151546.51,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "66983",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 209,
+      "payments": 131605.28,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1034,
+      "payments": 67773.06,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 455,
+      "payments": 32340.38,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 94,
+      "payments": 11413.3,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "76519",
+      "description": "Ultrasound of eye for determination of lens power",
+      "services": 310,
+      "payments": 8851.12,
+      "avg_markup": 5.25
+    },
+    {
+      "code": "66940",
+      "description": "Removal of lens material and portion of lens capsule",
+      "services": 12,
+      "payments": 8129.04,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 13,
+      "payments": 1778.01,
+      "avg_markup": 1.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2872486.53,
+    "total_services": 35832,
+    "total_beneficiaries": 19693,
+    "avg_markup_ratio": 1.78
+  }
+}

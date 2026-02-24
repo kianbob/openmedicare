@@ -1,0 +1,127 @@
+{
+  "name": "Patricia De La Riva",
+  "credentials": "MD",
+  "specialty": "Pediatric Medicine",
+  "city": "Woodland Hills",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 2371114.03,
+      "total_services": 64883,
+      "total_beneficiaries": 63847,
+      "avg_submitted": 44.16,
+      "avg_paid": 39.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 13931.35,
+      "total_services": 315,
+      "total_beneficiaries": 310,
+      "avg_submitted": 51.0,
+      "avg_paid": 44.35
+    },
+    {
+      "year": 2023,
+      "total_payments": 6566.98,
+      "total_services": 76,
+      "total_beneficiaries": 76,
+      "avg_submitted": 172.5,
+      "avg_paid": 86.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0012A",
+      "description": "Adm sarscov2 100mcg/0.5ml2nd",
+      "services": 13191,
+      "payments": 532306.26,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "0011A",
+      "description": "Adm sarscov2 100mcg/0.5ml1st",
+      "services": 14249,
+      "payments": 402307.69,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "0064A",
+      "description": "Fee covid-19 vac 7 res",
+      "services": 8799,
+      "payments": 395965.92,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "0004A",
+      "description": "Fee covid-19 vac 1 res",
+      "services": 8209,
+      "payments": 369648.13,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 8648,
+      "payments": 321999.27,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 9199,
+      "payments": 232199.33,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "0003A",
+      "description": "Fee covid-19 vac 1 booster",
+      "services": 1249,
+      "payments": 56260.65,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "0013A",
+      "description": "Fee covid-19 vac 2 booster",
+      "services": 1059,
+      "payments": 47695.53,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "0031A",
+      "description": "Adm sarscov2 vac ad26 .5ml",
+      "services": 483,
+      "payments": 21724.79,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "0054A",
+      "description": "Adm sarscv2 30mcg trs-sucr b",
+      "services": 112,
+      "payments": 4937.81,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "91320",
+      "description": "Sarscv2 vac 30mcg trs-suc im",
+      "services": 38,
+      "payments": 4882.24,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "90480",
+      "description": "Admn sarscov2 vacc 1 dose",
+      "services": 38,
+      "payments": 1684.74,
+      "avg_markup": 1.98
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2391612.36,
+    "total_services": 65274,
+    "total_beneficiaries": 64233,
+    "avg_markup_ratio": 1.11
+  }
+}

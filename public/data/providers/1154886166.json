@@ -1,0 +1,101 @@
+{
+  "name": "Lifewest Northern California",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Petaluma",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 130011.03,
+      "total_services": 1212,
+      "total_beneficiaries": 1072,
+      "avg_submitted": 4051.56,
+      "avg_paid": 272.4
+    },
+    {
+      "year": 2020,
+      "total_payments": 342617.98,
+      "total_services": 2830,
+      "total_beneficiaries": 2290,
+      "avg_submitted": 4484.99,
+      "avg_paid": 294.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 838716.17,
+      "total_services": 7003,
+      "total_beneficiaries": 5064,
+      "avg_submitted": 4900.79,
+      "avg_paid": 315.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 952362.17,
+      "total_services": 7627,
+      "total_beneficiaries": 5302,
+      "avg_submitted": 5358.67,
+      "avg_paid": 327.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 1306201.93,
+      "total_services": 9516,
+      "total_beneficiaries": 6474,
+      "avg_submitted": 5721.62,
+      "avg_paid": 364.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12459,
+      "payments": 2738483.91,
+      "avg_markup": 14.2
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 526,
+      "payments": 383311.12,
+      "avg_markup": 18.86
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 693,
+      "payments": 181569.34,
+      "avg_markup": 20.55
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 261,
+      "payments": 111694.82,
+      "avg_markup": 13.45
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14072,
+      "payments": 92394.0,
+      "avg_markup": 8.73
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 177,
+      "payments": 62456.08,
+      "avg_markup": 9.22
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 3569909.28,
+    "total_services": 28188,
+    "total_beneficiaries": 20202,
+    "avg_markup_ratio": 14.77
+  }
+}

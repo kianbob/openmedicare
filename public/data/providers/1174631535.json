@@ -1,0 +1,204 @@
+{
+  "name": "James Asbury",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 226402.57,
+      "total_services": 2648,
+      "total_beneficiaries": 853,
+      "avg_submitted": 297.29,
+      "avg_paid": 104.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 180149.77,
+      "total_services": 2316,
+      "total_beneficiaries": 684,
+      "avg_submitted": 335.81,
+      "avg_paid": 115.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 256095.15,
+      "total_services": 3300,
+      "total_beneficiaries": 789,
+      "avg_submitted": 301.07,
+      "avg_paid": 107.22
+    },
+    {
+      "year": 2017,
+      "total_payments": 220129.79,
+      "total_services": 2576,
+      "total_beneficiaries": 743,
+      "avg_submitted": 268.4,
+      "avg_paid": 99.15
+    },
+    {
+      "year": 2018,
+      "total_payments": 306444.25,
+      "total_services": 3615,
+      "total_beneficiaries": 878,
+      "avg_submitted": 279.44,
+      "avg_paid": 96.15
+    },
+    {
+      "year": 2019,
+      "total_payments": 270401.2,
+      "total_services": 3262,
+      "total_beneficiaries": 962,
+      "avg_submitted": 255.56,
+      "avg_paid": 99.16
+    },
+    {
+      "year": 2020,
+      "total_payments": 172647.68,
+      "total_services": 2252,
+      "total_beneficiaries": 590,
+      "avg_submitted": 241.67,
+      "avg_paid": 94.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 188363.4,
+      "total_services": 2217,
+      "total_beneficiaries": 750,
+      "avg_submitted": 293.92,
+      "avg_paid": 108.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 350125.43,
+      "total_services": 4065,
+      "total_beneficiaries": 1030,
+      "avg_submitted": 284.71,
+      "avg_paid": 97.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 463156.51,
+      "total_services": 4640,
+      "total_beneficiaries": 891,
+      "avg_submitted": 412.95,
+      "avg_paid": 116.71
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 13385,
+      "payments": 1145459.87,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9796,
+      "payments": 570567.08,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2693,
+      "payments": 425090.4,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2461,
+      "payments": 212337.64,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 497,
+      "payments": 87284.48,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1026,
+      "payments": 75320.25,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 393,
+      "payments": 48535.5,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 168,
+      "payments": 22717.02,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 115,
+      "payments": 17011.35,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 151,
+      "payments": 13337.27,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 112,
+      "payments": 6537.89,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care per day, typically 50 minutes",
+      "services": 51,
+      "payments": 5596.32,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 12,
+      "payments": 2144.76,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99226",
+      "description": "Follow-up observation care per day, typically 35 minutes",
+      "services": 17,
+      "payments": 1391.38,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 14,
+      "payments": 584.54,
+      "avg_markup": 2.51
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2633915.75,
+    "total_services": 30891,
+    "total_beneficiaries": 8170,
+    "avg_markup_ratio": 2.99
+  }
+}

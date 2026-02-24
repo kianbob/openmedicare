@@ -1,0 +1,79 @@
+{
+  "name": "Lakeway Ambulatory Surgery Center, Llc",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Lakeway",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 223044.76,
+      "total_services": 34,
+      "total_beneficiaries": 31,
+      "avg_submitted": 57250.0,
+      "avg_paid": 6560.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 745601.6,
+      "total_services": 109,
+      "total_beneficiaries": 104,
+      "avg_submitted": 59375.0,
+      "avg_paid": 6841.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 995404.74,
+      "total_services": 164,
+      "total_beneficiaries": 156,
+      "avg_submitted": 39583.68,
+      "avg_paid": 4535.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 1306466.16,
+      "total_services": 172,
+      "total_beneficiaries": 167,
+      "avg_submitted": 57612.71,
+      "avg_paid": 9138.87
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "27447",
+      "description": "Repair of knee joint",
+      "services": 273,
+      "payments": 1882419.82,
+      "avg_markup": 8.39
+    },
+    {
+      "code": "27130",
+      "description": "Replacement of thigh bone and hip joint prosthesis",
+      "services": 175,
+      "payments": 1218004.12,
+      "avg_markup": 8.91
+    },
+    {
+      "code": "27279",
+      "description": "Fusion of pelvic joint using imaging guidance",
+      "services": 13,
+      "payments": 170083.42,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "C9088",
+      "description": "Instillation, bupivacaine and meloxicam, 1 mg/0.03 mg",
+      "services": 18,
+      "payments": 9.9,
+      "avg_markup": 1.87
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3270517.26,
+    "total_services": 479,
+    "total_beneficiaries": 458,
+    "avg_markup_ratio": 8.35
+  }
+}

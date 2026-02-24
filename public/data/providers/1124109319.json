@@ -1,0 +1,239 @@
+{
+  "name": "Richard Miller",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Newark",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 428158.03,
+      "total_services": 5765,
+      "total_beneficiaries": 2142,
+      "avg_submitted": 205.15,
+      "avg_paid": 79.24
+    },
+    {
+      "year": 2015,
+      "total_payments": 474644.79,
+      "total_services": 6414,
+      "total_beneficiaries": 2310,
+      "avg_submitted": 143.99,
+      "avg_paid": 76.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 488561.89,
+      "total_services": 6771,
+      "total_beneficiaries": 2258,
+      "avg_submitted": 145.85,
+      "avg_paid": 76.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 471717.38,
+      "total_services": 6675,
+      "total_beneficiaries": 2133,
+      "avg_submitted": 160.8,
+      "avg_paid": 68.05
+    },
+    {
+      "year": 2018,
+      "total_payments": 376894.44,
+      "total_services": 5789,
+      "total_beneficiaries": 1998,
+      "avg_submitted": 157.57,
+      "avg_paid": 64.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 346505.15,
+      "total_services": 5114,
+      "total_beneficiaries": 1574,
+      "avg_submitted": 154.16,
+      "avg_paid": 68.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 601011.5,
+      "total_services": 6931,
+      "total_beneficiaries": 1677,
+      "avg_submitted": 472.15,
+      "avg_paid": 84.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 443504.63,
+      "total_services": 5286,
+      "total_beneficiaries": 1347,
+      "avg_submitted": 191.59,
+      "avg_paid": 80.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 352379.89,
+      "total_services": 4708,
+      "total_beneficiaries": 1119,
+      "avg_submitted": 122.79,
+      "avg_paid": 71.0
+    },
+    {
+      "year": 2023,
+      "total_payments": 270018.55,
+      "total_services": 3734,
+      "total_beneficiaries": 1142,
+      "avg_submitted": 152.9,
+      "avg_paid": 67.85
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9246,
+      "payments": 814214.74,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12543,
+      "payments": 760493.44,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 4618,
+      "payments": 537636.15,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 7325,
+      "payments": 354046.99,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6266,
+      "payments": 348836.22,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5688,
+      "payments": 333381.1,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2212,
+      "payments": 249349.01,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1473,
+      "payments": 246889.77,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1045,
+      "payments": 190402.03,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2103,
+      "payments": 166576.86,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 934,
+      "payments": 71092.5,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 572,
+      "payments": 48877.86,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 1273,
+      "payments": 20984.66,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 155,
+      "payments": 16518.61,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 128,
+      "payments": 12213.88,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 118,
+      "payments": 12136.5,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 73,
+      "payments": 9907.57,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 326,
+      "payments": 9153.67,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 325,
+      "payments": 9133.27,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "31502",
+      "description": "Change of breathing tube of windpipe in neck",
+      "services": 169,
+      "payments": 4738.77,
+      "avg_markup": 9.58
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4253396.25,
+    "total_services": 57187,
+    "total_beneficiaries": 17700,
+    "avg_markup_ratio": 1.69
+  }
+}

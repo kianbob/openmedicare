@@ -1,0 +1,239 @@
+{
+  "name": "Thomas Nix",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Jonesboro",
+  "state": "AR",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 147381.98,
+      "total_services": 1985,
+      "total_beneficiaries": 1606,
+      "avg_submitted": 277.93,
+      "avg_paid": 84.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 284555.38,
+      "total_services": 3582,
+      "total_beneficiaries": 2605,
+      "avg_submitted": 441.43,
+      "avg_paid": 121.82
+    },
+    {
+      "year": 2016,
+      "total_payments": 286721.34,
+      "total_services": 3714,
+      "total_beneficiaries": 2763,
+      "avg_submitted": 288.56,
+      "avg_paid": 84.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 250662.97,
+      "total_services": 3139,
+      "total_beneficiaries": 2556,
+      "avg_submitted": 327.97,
+      "avg_paid": 115.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 347995.01,
+      "total_services": 4072,
+      "total_beneficiaries": 3142,
+      "avg_submitted": 165.81,
+      "avg_paid": 108.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 331040.65,
+      "total_services": 3819,
+      "total_beneficiaries": 3019,
+      "avg_submitted": 202.1,
+      "avg_paid": 100.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 302755.76,
+      "total_services": 3662,
+      "total_beneficiaries": 2962,
+      "avg_submitted": 264.66,
+      "avg_paid": 96.96
+    },
+    {
+      "year": 2021,
+      "total_payments": 269908.1,
+      "total_services": 3388,
+      "total_beneficiaries": 2884,
+      "avg_submitted": 264.64,
+      "avg_paid": 98.97
+    },
+    {
+      "year": 2022,
+      "total_payments": 111799.67,
+      "total_services": 1180,
+      "total_beneficiaries": 988,
+      "avg_submitted": 293.73,
+      "avg_paid": 89.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 145182.56,
+      "total_services": 1545,
+      "total_beneficiaries": 1218,
+      "avg_submitted": 307.28,
+      "avg_paid": 87.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 9433,
+      "payments": 702983.69,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1637,
+      "payments": 660388.31,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 6122,
+      "payments": 334321.98,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1947,
+      "payments": 174499.69,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 660,
+      "payments": 147703.46,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 226,
+      "payments": 118963.4,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 1357,
+      "payments": 55724.87,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 2443,
+      "payments": 54436.15,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1848,
+      "payments": 53324.26,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 535,
+      "payments": 40315.87,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "67820",
+      "description": "Removal of eyelashes by forceps",
+      "services": 775,
+      "payments": 32094.93,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 1201,
+      "payments": 29752.29,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 282,
+      "payments": 13953.26,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 124,
+      "payments": 13177.7,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 252,
+      "payments": 12570.35,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 320,
+      "payments": 9286.63,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 276,
+      "payments": 7300.1,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 238,
+      "payments": 4125.17,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "68761",
+      "description": "Closure of tear duct opening using plug",
+      "services": 34,
+      "payments": 3879.76,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 43,
+      "payments": 2829.62,
+      "avg_markup": 2.27
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2478003.4,
+    "total_services": 30086,
+    "total_beneficiaries": 23743,
+    "avg_markup_ratio": 2.61
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Mercy Hospital Springfield",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Branson West",
+  "state": "MO",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1795687.84,
+      "total_services": 1000,
+      "total_beneficiaries": 977,
+      "avg_submitted": 6980.6,
+      "avg_paid": 1788.63
+    },
+    {
+      "year": 2015,
+      "total_payments": 1841525.28,
+      "total_services": 1022,
+      "total_beneficiaries": 1004,
+      "avg_submitted": 7606.68,
+      "avg_paid": 1801.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 1013385.4,
+      "total_services": 579,
+      "total_beneficiaries": 561,
+      "avg_submitted": 8686.8,
+      "avg_paid": 1753.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 1302,
+      "payments": 4618793.65,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 1299,
+      "payments": 31804.86,
+      "avg_markup": 5.86
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 4650598.51,
+    "total_services": 2601,
+    "total_beneficiaries": 2542,
+    "avg_markup_ratio": 4.26
+  }
+}

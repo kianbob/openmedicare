@@ -1,0 +1,239 @@
+{
+  "name": "Matthew Strachovsky",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "West Islip",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 29030.49,
+      "total_services": 534,
+      "total_beneficiaries": 504,
+      "avg_submitted": 125.2,
+      "avg_paid": 63.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 287708.66,
+      "total_services": 4985,
+      "total_beneficiaries": 3798,
+      "avg_submitted": 205.58,
+      "avg_paid": 104.6
+    },
+    {
+      "year": 2016,
+      "total_payments": 99877.21,
+      "total_services": 1862,
+      "total_beneficiaries": 1621,
+      "avg_submitted": 116.69,
+      "avg_paid": 59.79
+    },
+    {
+      "year": 2017,
+      "total_payments": 319196.51,
+      "total_services": 3370,
+      "total_beneficiaries": 2339,
+      "avg_submitted": 441.68,
+      "avg_paid": 124.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 424116.73,
+      "total_services": 4078,
+      "total_beneficiaries": 2454,
+      "avg_submitted": 308.86,
+      "avg_paid": 116.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 563468.45,
+      "total_services": 4713,
+      "total_beneficiaries": 2660,
+      "avg_submitted": 294.68,
+      "avg_paid": 111.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 617733.09,
+      "total_services": 4512,
+      "total_beneficiaries": 2327,
+      "avg_submitted": 423.25,
+      "avg_paid": 115.31
+    },
+    {
+      "year": 2021,
+      "total_payments": 796973.57,
+      "total_services": 5330,
+      "total_beneficiaries": 2721,
+      "avg_submitted": 313.54,
+      "avg_paid": 120.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 792249.85,
+      "total_services": 5241,
+      "total_beneficiaries": 2845,
+      "avg_submitted": 409.36,
+      "avg_paid": 142.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 860048.75,
+      "total_services": 5660,
+      "total_beneficiaries": 3175,
+      "avg_submitted": 847.44,
+      "avg_paid": 218.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 2868,
+      "payments": 2087319.17,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 9721,
+      "payments": 1017921.7,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 5662,
+      "payments": 598272.87,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 7845,
+      "payments": 287989.66,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 4185,
+      "payments": 187593.03,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2114,
+      "payments": 122361.59,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 993,
+      "payments": 86746.77,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 246,
+      "payments": 81240.5,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 1148,
+      "payments": 80190.93,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 402,
+      "payments": 42321.05,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 342,
+      "payments": 39891.76,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 1820,
+      "payments": 36629.47,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 1172,
+      "payments": 27825.12,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "92201",
+      "description": "Extended examination of eye with drawing of retina",
+      "services": 676,
+      "payments": 14780.34,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 48,
+      "payments": 10843.48,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 181,
+      "payments": 10661.41,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "92287",
+      "description": "Imaging and evaluation of deep cells of the eye",
+      "services": 60,
+      "payments": 8687.0,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "92242",
+      "description": "Exam of retinal blood vessels and blood vessels between the white part of eye and retina using a special camera after injection of a dye",
+      "services": 33,
+      "payments": 8175.23,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 96,
+      "payments": 6948.42,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "67228",
+      "description": "Laser destruction of leaking retinal blood vessels, 1 or more sessions",
+      "services": 19,
+      "payments": 5867.37,
+      "avg_markup": 8.01
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4790403.31,
+    "total_services": 40285,
+    "total_beneficiaries": 24444,
+    "avg_markup_ratio": 2.92
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Kalman Ausubel",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Bronx",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 987734.23,
+      "total_services": 7894,
+      "total_beneficiaries": 6753,
+      "avg_submitted": 419.81,
+      "avg_paid": 129.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 941589.43,
+      "total_services": 7855,
+      "total_beneficiaries": 6731,
+      "avg_submitted": 425.1,
+      "avg_paid": 112.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 1063094.82,
+      "total_services": 8809,
+      "total_beneficiaries": 7572,
+      "avg_submitted": 452.87,
+      "avg_paid": 116.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 1164827.6,
+      "total_services": 7426,
+      "total_beneficiaries": 6673,
+      "avg_submitted": 503.56,
+      "avg_paid": 125.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 1180460.01,
+      "total_services": 7581,
+      "total_beneficiaries": 6957,
+      "avg_submitted": 488.8,
+      "avg_paid": 120.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 1148085.77,
+      "total_services": 7430,
+      "total_beneficiaries": 6917,
+      "avg_submitted": 464.16,
+      "avg_paid": 112.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 815059.9,
+      "total_services": 5055,
+      "total_beneficiaries": 4773,
+      "avg_submitted": 484.86,
+      "avg_paid": 115.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 662267.39,
+      "total_services": 3944,
+      "total_beneficiaries": 3815,
+      "avg_submitted": 547.47,
+      "avg_paid": 121.87
+    },
+    {
+      "year": 2022,
+      "total_payments": 11914.33,
+      "total_services": 119,
+      "total_beneficiaries": 119,
+      "avg_submitted": 683.33,
+      "avg_paid": 119.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 8731.09,
+      "total_services": 87,
+      "total_beneficiaries": 86,
+      "avg_submitted": 713.12,
+      "avg_paid": 114.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 12001,
+      "payments": 1993403.32,
+      "avg_markup": 6.98
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 7771,
+      "payments": 1341955.48,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 1239,
+      "payments": 848469.52,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 3238,
+      "payments": 754049.32,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 3796,
+      "payments": 587812.7,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 3229,
+      "payments": 474625.29,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 2468,
+      "payments": 441630.96,
+      "avg_markup": 7.61
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3364,
+      "payments": 316435.45,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 3601,
+      "payments": 281676.93,
+      "avg_markup": 5.33
+    },
+    {
+      "code": "93975",
+      "description": "Ultrasound scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 795,
+      "payments": 209466.74,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "95943",
+      "description": "Testing of autonomic (parasympathetic and sympathetic) nervous system function",
+      "services": 969,
+      "payments": 126747.5,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1502,
+      "payments": 98122.75,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "92546",
+      "description": "Assessment and recording of abnormal eye movement with patient in a rotating chair",
+      "services": 636,
+      "payments": 62914.36,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "92540",
+      "description": "Observation, testing, and recording of abnormal eye movement",
+      "services": 643,
+      "payments": 58996.96,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "95911",
+      "description": "Nerve transmission studies, 9-10 studies",
+      "services": 238,
+      "payments": 50988.72,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3074,
+      "payments": 47285.64,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93923",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 313,
+      "payments": 34639.61,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 220,
+      "payments": 26644.46,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "93040",
+      "description": "Tracing of electrical activity of heart using 1-3 leads with interpretation and report",
+      "services": 2177,
+      "payments": 25849.07,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 341,
+      "payments": 25131.01,
+      "avg_markup": 2.61
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7983764.57,
+    "total_services": 56200,
+    "total_beneficiaries": 50396,
+    "avg_markup_ratio": 4.85
+  }
+}

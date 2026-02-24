@@ -1,0 +1,239 @@
+{
+  "name": "Dominic Gaziano",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 264326.48,
+      "total_services": 5431,
+      "total_beneficiaries": 807,
+      "avg_submitted": 155.56,
+      "avg_paid": 83.27
+    },
+    {
+      "year": 2015,
+      "total_payments": 247395.71,
+      "total_services": 4801,
+      "total_beneficiaries": 857,
+      "avg_submitted": 155.67,
+      "avg_paid": 81.18
+    },
+    {
+      "year": 2016,
+      "total_payments": 173987.5,
+      "total_services": 2405,
+      "total_beneficiaries": 772,
+      "avg_submitted": 156.67,
+      "avg_paid": 87.74
+    },
+    {
+      "year": 2017,
+      "total_payments": 183811.37,
+      "total_services": 2262,
+      "total_beneficiaries": 764,
+      "avg_submitted": 141.54,
+      "avg_paid": 70.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 195610.15,
+      "total_services": 2255,
+      "total_beneficiaries": 634,
+      "avg_submitted": 185.0,
+      "avg_paid": 94.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 281502.09,
+      "total_services": 3256,
+      "total_beneficiaries": 964,
+      "avg_submitted": 177.73,
+      "avg_paid": 92.4
+    },
+    {
+      "year": 2020,
+      "total_payments": 276269.88,
+      "total_services": 3215,
+      "total_beneficiaries": 915,
+      "avg_submitted": 177.73,
+      "avg_paid": 93.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 269883.73,
+      "total_services": 3221,
+      "total_beneficiaries": 943,
+      "avg_submitted": 192.08,
+      "avg_paid": 97.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 271696.93,
+      "total_services": 3499,
+      "total_beneficiaries": 1011,
+      "avg_submitted": 176.67,
+      "avg_paid": 85.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 266433.49,
+      "total_services": 3131,
+      "total_beneficiaries": 809,
+      "avg_submitted": 175.0,
+      "avg_paid": 97.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6055,
+      "payments": 533247.36,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1654,
+      "payments": 271846.7,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4811,
+      "payments": 269256.35,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3833,
+      "payments": 263312.24,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 6702,
+      "payments": 232548.64,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3404,
+      "payments": 204772.75,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 835,
+      "payments": 157427.58,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1754,
+      "payments": 150562.21,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 959,
+      "payments": 130517.31,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1540,
+      "payments": 92205.11,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1480,
+      "payments": 89799.62,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 159,
+      "payments": 16399.51,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 114,
+      "payments": 4971.49,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "93923",
+      "description": "Complete ultrasound study of arm and leg arteries",
+      "services": 36,
+      "payments": 3748.0,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 23,
+      "payments": 2717.3,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 25,
+      "payments": 2700.34,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 15,
+      "payments": 2115.9,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "95921",
+      "description": "Testing of autonomic nervous system function and heart rate response to deep breathing",
+      "services": 22,
+      "payments": 1549.0,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "Q2038",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluzone)",
+      "services": 14,
+      "payments": 586.18,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 14,
+      "payments": 369.88,
+      "avg_markup": 1.32
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2430917.33,
+    "total_services": 33476,
+    "total_beneficiaries": 8476,
+    "avg_markup_ratio": 1.95
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "John Lee",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Brookline",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 247020.55,
+      "total_services": 2218,
+      "total_beneficiaries": 1888,
+      "avg_submitted": 395.76,
+      "avg_paid": 121.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 246008.51,
+      "total_services": 2213,
+      "total_beneficiaries": 1887,
+      "avg_submitted": 399.11,
+      "avg_paid": 117.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 259514.17,
+      "total_services": 2591,
+      "total_beneficiaries": 2144,
+      "avg_submitted": 466.81,
+      "avg_paid": 130.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 264499.76,
+      "total_services": 2489,
+      "total_beneficiaries": 1993,
+      "avg_submitted": 571.51,
+      "avg_paid": 146.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 250778.43,
+      "total_services": 2269,
+      "total_beneficiaries": 1806,
+      "avg_submitted": 734.43,
+      "avg_paid": 189.15
+    },
+    {
+      "year": 2019,
+      "total_payments": 231535.73,
+      "total_services": 2110,
+      "total_beneficiaries": 1686,
+      "avg_submitted": 583.14,
+      "avg_paid": 152.16
+    },
+    {
+      "year": 2020,
+      "total_payments": 146066.92,
+      "total_services": 1485,
+      "total_beneficiaries": 1239,
+      "avg_submitted": 425.86,
+      "avg_paid": 110.39
+    },
+    {
+      "year": 2021,
+      "total_payments": 231831.4,
+      "total_services": 2100,
+      "total_beneficiaries": 1687,
+      "avg_submitted": 687.3,
+      "avg_paid": 179.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 231598.68,
+      "total_services": 1941,
+      "total_beneficiaries": 1675,
+      "avg_submitted": 706.11,
+      "avg_paid": 180.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 272976.36,
+      "total_services": 2135,
+      "total_beneficiaries": 1831,
+      "avg_submitted": 816.81,
+      "avg_paid": 189.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 8919,
+      "payments": 833286.05,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1394,
+      "payments": 715484.37,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1323,
+      "payments": 149078.16,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 344,
+      "payments": 92423.04,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1579,
+      "payments": 92422.1,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "15823",
+      "description": "Removal of excessive skin and fat of upper eyelid",
+      "services": 127,
+      "payments": 86508.55,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 2123,
+      "payments": 68891.08,
+      "avg_markup": 5.5
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1367,
+      "payments": 62366.59,
+      "avg_markup": 5.35
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 1468,
+      "payments": 40624.78,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow, 1 or more sessions",
+      "services": 149,
+      "payments": 33410.84,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 401,
+      "payments": 30987.66,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 705,
+      "payments": 25735.35,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "67840",
+      "description": "Removal of eyelid growth, other than chalazion (chronic inflammation of the meibomian gland for the eyelid)",
+      "services": 97,
+      "payments": 23637.65,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 188,
+      "payments": 22527.74,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "67908",
+      "description": "Removal of tissue, muscle, and membrane to correct eyelid drooping or paralysis",
+      "services": 38,
+      "payments": 15748.21,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "11440",
+      "description": "Removal of growth (0.5 centimeters or less) of the face, ears, eyelids, nose, lips, or mouth",
+      "services": 123,
+      "payments": 13566.97,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "67916",
+      "description": "Repair of turning-outward eyelid defect",
+      "services": 24,
+      "payments": 13146.05,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "66761",
+      "description": "Creation of eye fluid drainage tracts in iris using laser, per session",
+      "services": 52,
+      "payments": 12846.27,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 320,
+      "payments": 9782.78,
+      "avg_markup": 4.38
+    },
+    {
+      "code": "92082",
+      "description": "Measurement of field of vision during daylight conditions, intermediate examination",
+      "services": 258,
+      "payments": 9481.32,
+      "avg_markup": 4.99
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2381830.52,
+    "total_services": 21551,
+    "total_beneficiaries": 17836,
+    "avg_markup_ratio": 3.85
+  }
+}

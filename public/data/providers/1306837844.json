@@ -1,0 +1,183 @@
+{
+  "name": "Orlando Dsilva",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Ashtabula",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 365507.91,
+      "total_services": 3120,
+      "total_beneficiaries": 1080,
+      "avg_submitted": 209.68,
+      "avg_paid": 119.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 357614.2,
+      "total_services": 3162,
+      "total_beneficiaries": 1062,
+      "avg_submitted": 209.58,
+      "avg_paid": 118.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 379692.06,
+      "total_services": 3428,
+      "total_beneficiaries": 1171,
+      "avg_submitted": 211.17,
+      "avg_paid": 116.64
+    },
+    {
+      "year": 2017,
+      "total_payments": 363913.71,
+      "total_services": 3325,
+      "total_beneficiaries": 1118,
+      "avg_submitted": 241.84,
+      "avg_paid": 113.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 361610.68,
+      "total_services": 3387,
+      "total_beneficiaries": 1105,
+      "avg_submitted": 241.77,
+      "avg_paid": 114.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 348147.59,
+      "total_services": 2995,
+      "total_beneficiaries": 1039,
+      "avg_submitted": 241.67,
+      "avg_paid": 117.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 302357.94,
+      "total_services": 2522,
+      "total_beneficiaries": 877,
+      "avg_submitted": 241.67,
+      "avg_paid": 117.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 43026.42,
+      "total_services": 550,
+      "total_beneficiaries": 286,
+      "avg_submitted": 227.52,
+      "avg_paid": 123.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 14471.74,
+      "total_services": 200,
+      "total_beneficiaries": 94,
+      "avg_submitted": 162.5,
+      "avg_paid": 72.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 3438.36,
+      "total_services": 58,
+      "total_beneficiaries": 50,
+      "avg_submitted": 200.0,
+      "avg_paid": 59.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 5271,
+      "payments": 1092330.43,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5074,
+      "payments": 356329.26,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5725,
+      "payments": 306356.81,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 1373,
+      "payments": 237998.86,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 827,
+      "payments": 140594.03,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 1854,
+      "payments": 100316.09,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 587,
+      "payments": 86533.83,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 787,
+      "payments": 78710.4,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 469,
+      "payments": 66849.49,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 259,
+      "payments": 35137.02,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 425,
+      "payments": 31227.04,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "90937",
+      "description": "Hemodialysis procedure with repeated evaluations",
+      "services": 96,
+      "payments": 7397.35,
+      "avg_markup": 2.07
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2539780.61,
+    "total_services": 22747,
+    "total_beneficiaries": 7882,
+    "avg_markup_ratio": 1.97
+  }
+}

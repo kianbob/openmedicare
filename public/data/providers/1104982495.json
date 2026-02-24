@@ -1,0 +1,72 @@
+{
+  "name": "Aegis Treatment Centers, Llc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Merced",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 643258.89,
+      "total_services": 3359,
+      "total_beneficiaries": 141,
+      "avg_submitted": 123.9,
+      "avg_paid": 122.07
+    },
+    {
+      "year": 2021,
+      "total_payments": 647813.63,
+      "total_services": 3291,
+      "total_beneficiaries": 135,
+      "avg_submitted": 146.36,
+      "avg_paid": 136.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 608262.69,
+      "total_services": 2978,
+      "total_beneficiaries": 124,
+      "avg_submitted": 148.93,
+      "avg_paid": 143.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 588603.46,
+      "total_services": 2518,
+      "total_beneficiaries": 108,
+      "avg_submitted": 225.04,
+      "avg_paid": 151.95
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 11161,
+      "payments": 2447313.6,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 950,
+      "payments": 34636.95,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 35,
+      "payments": 5988.12,
+      "avg_markup": 1.46
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2487938.67,
+    "total_services": 12146,
+    "total_beneficiaries": 508,
+    "avg_markup_ratio": 1.05
+  }
+}

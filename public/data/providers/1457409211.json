@@ -1,0 +1,239 @@
+{
+  "name": "William Chow",
+  "credentials": "MD",
+  "specialty": "Neurology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 541581.86,
+      "total_services": 5092,
+      "total_beneficiaries": 2537,
+      "avg_submitted": 701.08,
+      "avg_paid": 231.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 686539.54,
+      "total_services": 6441,
+      "total_beneficiaries": 2844,
+      "avg_submitted": 577.83,
+      "avg_paid": 171.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 551338.78,
+      "total_services": 5384,
+      "total_beneficiaries": 2665,
+      "avg_submitted": 611.14,
+      "avg_paid": 178.22
+    },
+    {
+      "year": 2017,
+      "total_payments": 564625.23,
+      "total_services": 5132,
+      "total_beneficiaries": 2710,
+      "avg_submitted": 599.12,
+      "avg_paid": 230.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 514607.03,
+      "total_services": 4276,
+      "total_beneficiaries": 2413,
+      "avg_submitted": 783.8,
+      "avg_paid": 248.01
+    },
+    {
+      "year": 2019,
+      "total_payments": 597651.41,
+      "total_services": 4802,
+      "total_beneficiaries": 2623,
+      "avg_submitted": 804.15,
+      "avg_paid": 247.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 630217.57,
+      "total_services": 5163,
+      "total_beneficiaries": 2204,
+      "avg_submitted": 823.56,
+      "avg_paid": 216.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 757321.37,
+      "total_services": 5611,
+      "total_beneficiaries": 2383,
+      "avg_submitted": 808.04,
+      "avg_paid": 218.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 884347.56,
+      "total_services": 6810,
+      "total_beneficiaries": 2821,
+      "avg_submitted": 814.5,
+      "avg_paid": 217.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 864042.45,
+      "total_services": 6731,
+      "total_beneficiaries": 2744,
+      "avg_submitted": 904.55,
+      "avg_paid": 220.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 9818,
+      "payments": 1378201.55,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 12107,
+      "payments": 1097609.33,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11727,
+      "payments": 1032945.14,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "95819",
+      "description": "Measurement and recording of brain wave (EEG) activity, awake and asleep",
+      "services": 4481,
+      "payments": 695266.59,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3086,
+      "payments": 514984.4,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6833,
+      "payments": 413677.18,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2342,
+      "payments": 316882.73,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1645,
+      "payments": 295093.8,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "95951",
+      "description": "Monitoring and localization of seizure activity over 24-hour period using 16-channel electroencephalograph (EEG)",
+      "services": 129,
+      "payments": 208022.71,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "95956",
+      "description": "Monitoring and localization of seizure activity over 24-hour period using electroencephalograph (EEG)",
+      "services": 143,
+      "payments": 138016.34,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "95715",
+      "description": "Measurement of brain wave activity with video (veeg), 12-26 hours, with intermittent monitoring and maintenance",
+      "services": 178,
+      "payments": 135456.12,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "95910",
+      "description": "Nerve transmission studies, 7-8 studies",
+      "services": 518,
+      "payments": 87904.01,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "99442",
+      "description": "Telephone medical discussion with physician, 11-20 minutes",
+      "services": 1037,
+      "payments": 79929.97,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "95886",
+      "description": "Needle measurement and recording of electrical activity of muscles of arm or leg complete study",
+      "services": 833,
+      "payments": 68634.14,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "95911",
+      "description": "Nerve transmission studies, 9-10 studies",
+      "services": 249,
+      "payments": 50821.62,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "95712",
+      "description": "Measurement of brain wave activity with video (veeg), 2-12 hours with intermittent monitoring and maintenance",
+      "services": 69,
+      "payments": 28125.87,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 96,
+      "payments": 17828.16,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "95724",
+      "description": "Continuous measurement of brain wave activity with video (veeg), 61-84 hours, with health care professional analysis, interpretation and report",
+      "services": 62,
+      "payments": 17289.7,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "95700",
+      "description": "Continuous measurement of brain wave activity (eeg), administered in person by eeg technologist",
+      "services": 62,
+      "payments": 14974.75,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "92585",
+      "description": "Placement of scalp electrodes for assessment and recording of responses from several areas of the nerve-brain hearing system",
+      "services": 27,
+      "payments": 608.67,
+      "avg_markup": 3.99
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6592272.78,
+    "total_services": 55442,
+    "total_beneficiaries": 25944,
+    "avg_markup_ratio": 3.72
+  }
+}

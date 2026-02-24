@@ -1,0 +1,225 @@
+{
+  "name": "Farooq Ahmed",
+  "credentials": "M.D.",
+  "specialty": "Hospitalist",
+  "city": "Lake Worth",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 84124.21,
+      "total_services": 796,
+      "total_beneficiaries": 334,
+      "avg_submitted": 221.79,
+      "avg_paid": 118.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 132427.05,
+      "total_services": 1272,
+      "total_beneficiaries": 562,
+      "avg_submitted": 270.69,
+      "avg_paid": 107.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 282535.44,
+      "total_services": 2847,
+      "total_beneficiaries": 992,
+      "avg_submitted": 447.15,
+      "avg_paid": 117.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 431671.44,
+      "total_services": 4321,
+      "total_beneficiaries": 1512,
+      "avg_submitted": 427.54,
+      "avg_paid": 108.27
+    },
+    {
+      "year": 2018,
+      "total_payments": 310102.34,
+      "total_services": 2989,
+      "total_beneficiaries": 1237,
+      "avg_submitted": 413.63,
+      "avg_paid": 109.93
+    },
+    {
+      "year": 2019,
+      "total_payments": 313678.98,
+      "total_services": 3032,
+      "total_beneficiaries": 1456,
+      "avg_submitted": 409.89,
+      "avg_paid": 113.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 479095.89,
+      "total_services": 4057,
+      "total_beneficiaries": 1858,
+      "avg_submitted": 595.13,
+      "avg_paid": 115.97
+    },
+    {
+      "year": 2021,
+      "total_payments": 421417.82,
+      "total_services": 3849,
+      "total_beneficiaries": 1834,
+      "avg_submitted": 722.47,
+      "avg_paid": 114.96
+    },
+    {
+      "year": 2022,
+      "total_payments": 474102.57,
+      "total_services": 4472,
+      "total_beneficiaries": 1901,
+      "avg_submitted": 1123.35,
+      "avg_paid": 119.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 449800.58,
+      "total_services": 3810,
+      "total_beneficiaries": 1556,
+      "avg_submitted": 1304.95,
+      "avg_paid": 134.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 16647,
+      "payments": 1441147.73,
+      "avg_markup": 5.29
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4292,
+      "payments": 787524.46,
+      "avg_markup": 6.7
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3331,
+      "payments": 534282.98,
+      "avg_markup": 5.94
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3684,
+      "payments": 324702.78,
+      "avg_markup": 5.6
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1596,
+      "payments": 95234.39,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 419,
+      "payments": 61587.44,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 382,
+      "payments": 42932.31,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 414,
+      "payments": 24540.31,
+      "avg_markup": 4.64
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 120,
+      "payments": 20915.3,
+      "avg_markup": 5.0
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 222,
+      "payments": 13077.36,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 130,
+      "payments": 11006.46,
+      "avg_markup": 5.7
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 69,
+      "payments": 7760.26,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 48,
+      "payments": 6667.13,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 19,
+      "payments": 2707.5,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 27,
+      "payments": 1535.1,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 17,
+      "payments": 1420.18,
+      "avg_markup": 7.07
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 15,
+      "payments": 1114.35,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 13,
+      "payments": 800.28,
+      "avg_markup": 3.61
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3378956.32,
+    "total_services": 31445,
+    "total_beneficiaries": 13242,
+    "avg_markup_ratio": 5.69
+  }
+}

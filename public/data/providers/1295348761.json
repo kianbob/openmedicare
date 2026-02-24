@@ -1,0 +1,93 @@
+{
+  "name": "Penn State Health Life Lion, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Camp Hill",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 90281.41,
+      "total_services": 637,
+      "total_beneficiaries": 574,
+      "avg_submitted": 1212.67,
+      "avg_paid": 204.77
+    },
+    {
+      "year": 2021,
+      "total_payments": 1294411.58,
+      "total_services": 8772,
+      "total_beneficiaries": 7022,
+      "avg_submitted": 1515.84,
+      "avg_paid": 255.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 1747881.79,
+      "total_services": 11202,
+      "total_beneficiaries": 8457,
+      "avg_submitted": 1515.28,
+      "avg_paid": 262.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 2018899.76,
+      "total_services": 12093,
+      "total_beneficiaries": 8752,
+      "avg_submitted": 1517.19,
+      "avg_paid": 283.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 6858,
+      "payments": 2467686.24,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5928,
+      "payments": 1784940.53,
+      "avg_markup": 5.7
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 3016,
+      "payments": 570915.7,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 244,
+      "payments": 126858.68,
+      "avg_markup": 5.68
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16236,
+      "payments": 104668.05,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 422,
+      "payments": 96405.34,
+      "avg_markup": 5.64
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 5151474.54,
+    "total_services": 32704,
+    "total_beneficiaries": 24805,
+    "avg_markup_ratio": 5.63
+  }
+}

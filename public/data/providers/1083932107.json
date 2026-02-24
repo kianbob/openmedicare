@@ -1,0 +1,239 @@
+{
+  "name": "Jason Jones",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Amarillo",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 77425.36,
+      "total_services": 1602,
+      "total_beneficiaries": 1468,
+      "avg_submitted": 67.35,
+      "avg_paid": 45.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 239561.73,
+      "total_services": 4807,
+      "total_beneficiaries": 3636,
+      "avg_submitted": 115.43,
+      "avg_paid": 72.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 288300.83,
+      "total_services": 6181,
+      "total_beneficiaries": 4361,
+      "avg_submitted": 143.69,
+      "avg_paid": 93.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 355151.31,
+      "total_services": 6629,
+      "total_beneficiaries": 5180,
+      "avg_submitted": 143.88,
+      "avg_paid": 87.7
+    },
+    {
+      "year": 2018,
+      "total_payments": 388675.51,
+      "total_services": 6578,
+      "total_beneficiaries": 5367,
+      "avg_submitted": 185.69,
+      "avg_paid": 112.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 458544.94,
+      "total_services": 7399,
+      "total_beneficiaries": 6026,
+      "avg_submitted": 164.8,
+      "avg_paid": 100.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 468031.55,
+      "total_services": 7563,
+      "total_beneficiaries": 6087,
+      "avg_submitted": 163.13,
+      "avg_paid": 103.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 523001.26,
+      "total_services": 7515,
+      "total_beneficiaries": 5910,
+      "avg_submitted": 178.39,
+      "avg_paid": 114.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 579407.29,
+      "total_services": 8301,
+      "total_beneficiaries": 6144,
+      "avg_submitted": 194.21,
+      "avg_paid": 122.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 557143.81,
+      "total_services": 7999,
+      "total_beneficiaries": 5952,
+      "avg_submitted": 187.67,
+      "avg_paid": 116.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7156,
+      "payments": 559593.43,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 10101,
+      "payments": 500507.13,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "13132",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 1141,
+      "payments": 402098.67,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 11400,
+      "payments": 392882.78,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 3618,
+      "payments": 268692.63,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 3743,
+      "payments": 245618.51,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "13121",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of scalp, arms, and/or legs",
+      "services": 603,
+      "payments": 189592.63,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 2629,
+      "payments": 180304.64,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 2372,
+      "payments": 157776.14,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 701,
+      "payments": 100447.47,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "11642",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 808,
+      "payments": 82472.81,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "13101",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of trunk",
+      "services": 256,
+      "payments": 74571.94,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "77280",
+      "description": "Obtaining data needed to develop the optimal radiation treatment, 1 treatment area",
+      "services": 330,
+      "payments": 66347.0,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 606,
+      "payments": 64150.2,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "77401",
+      "description": "Radiation treatment delivery, superficial",
+      "services": 2268,
+      "payments": 58488.12,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99204",
+      "description": "New patient outpatient visit, total time 45-59 minutes",
+      "services": 525,
+      "payments": 54329.59,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 458,
+      "payments": 42824.9,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "13131",
+      "description": "Repair of wound (1.1 to 2.5 centimeters) of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 144,
+      "payments": 40960.7,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 8177,
+      "payments": 35513.45,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1155,
+      "payments": 33321.67,
+      "avg_markup": 1.52
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3935243.59,
+    "total_services": 64574,
+    "total_beneficiaries": 50131,
+    "avg_markup_ratio": 1.57
+  }
+}

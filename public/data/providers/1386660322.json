@@ -1,0 +1,215 @@
+{
+  "name": "John Acquaye-Awah",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 571514.84,
+      "total_services": 6006,
+      "total_beneficiaries": 2115,
+      "avg_submitted": 160.5,
+      "avg_paid": 100.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 562817.53,
+      "total_services": 6139,
+      "total_beneficiaries": 1619,
+      "avg_submitted": 145.33,
+      "avg_paid": 93.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 677359.85,
+      "total_services": 7269,
+      "total_beneficiaries": 2156,
+      "avg_submitted": 160.5,
+      "avg_paid": 100.02
+    },
+    {
+      "year": 2017,
+      "total_payments": 779816.83,
+      "total_services": 8294,
+      "total_beneficiaries": 3399,
+      "avg_submitted": 158.42,
+      "avg_paid": 99.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 980344.71,
+      "total_services": 10467,
+      "total_beneficiaries": 4582,
+      "avg_submitted": 149.52,
+      "avg_paid": 94.17
+    },
+    {
+      "year": 2019,
+      "total_payments": 931677.17,
+      "total_services": 10126,
+      "total_beneficiaries": 4096,
+      "avg_submitted": 147.14,
+      "avg_paid": 90.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 9397.99,
+      "total_services": 145,
+      "total_beneficiaries": 96,
+      "avg_submitted": 120.0,
+      "avg_paid": 64.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 15665,
+      "payments": 1390578.44,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 12007,
+      "payments": 1204156.92,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 4898,
+      "payments": 698351.94,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1877,
+      "payments": 220477.88,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 3190,
+      "payments": 208595.16,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 736,
+      "payments": 131193.46,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1239,
+      "payments": 127821.68,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 3423,
+      "payments": 115498.35,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 498,
+      "payments": 82509.59,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1852,
+      "payments": 81684.63,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 589,
+      "payments": 73311.59,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 418,
+      "payments": 62624.6,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 314,
+      "payments": 22657.03,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99343",
+      "description": "New patient home visit, typically 45 minutes",
+      "services": 213,
+      "payments": 19483.99,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99347",
+      "description": "Established patient home visit, typically 15 minutes",
+      "services": 360,
+      "payments": 15458.28,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 70,
+      "payments": 13405.08,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 90,
+      "payments": 12571.68,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 257,
+      "payments": 8887.74,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 291,
+      "payments": 6750.01,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 38,
+      "payments": 6680.01,
+      "avg_markup": 1.71
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 4512928.92,
+    "total_services": 48446,
+    "total_beneficiaries": 18063,
+    "avg_markup_ratio": 1.54
+  }
+}

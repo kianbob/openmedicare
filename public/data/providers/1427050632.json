@@ -1,0 +1,239 @@
+{
+  "name": "Robert Stout",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Lagrange",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 496698.24,
+      "total_services": 21141,
+      "total_beneficiaries": 12875,
+      "avg_submitted": 75.21,
+      "avg_paid": 34.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 536374.87,
+      "total_services": 22506,
+      "total_beneficiaries": 13465,
+      "avg_submitted": 83.94,
+      "avg_paid": 36.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 541081.07,
+      "total_services": 22373,
+      "total_beneficiaries": 13332,
+      "avg_submitted": 82.48,
+      "avg_paid": 37.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 543018.06,
+      "total_services": 21971,
+      "total_beneficiaries": 12951,
+      "avg_submitted": 87.55,
+      "avg_paid": 40.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 524396.82,
+      "total_services": 21032,
+      "total_beneficiaries": 12864,
+      "avg_submitted": 96.27,
+      "avg_paid": 39.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 460401.88,
+      "total_services": 18674,
+      "total_beneficiaries": 10801,
+      "avg_submitted": 91.78,
+      "avg_paid": 39.0
+    },
+    {
+      "year": 2020,
+      "total_payments": 401931.35,
+      "total_services": 17326,
+      "total_beneficiaries": 9684,
+      "avg_submitted": 98.4,
+      "avg_paid": 35.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 419092.65,
+      "total_services": 17553,
+      "total_beneficiaries": 9580,
+      "avg_submitted": 95.51,
+      "avg_paid": 32.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 425358.57,
+      "total_services": 15046,
+      "total_beneficiaries": 8560,
+      "avg_submitted": 86.04,
+      "avg_paid": 35.35
+    },
+    {
+      "year": 2023,
+      "total_payments": 518091.53,
+      "total_services": 19013,
+      "total_beneficiaries": 9854,
+      "avg_submitted": 101.14,
+      "avg_paid": 38.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14823,
+      "payments": 1050416.72,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 4929,
+      "payments": 554887.54,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 9207,
+      "payments": 325402.32,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5408,
+      "payments": 235884.39,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 6174,
+      "payments": 215115.89,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 8897,
+      "payments": 176864.04,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 10717,
+      "payments": 153842.57,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 12301,
+      "payments": 131658.84,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 12598,
+      "payments": 116684.91,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 660,
+      "payments": 106112.77,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 5462,
+      "payments": 96518.61,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1124,
+      "payments": 87610.28,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 7735,
+      "payments": 87054.41,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 7807,
+      "payments": 82386.26,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 6554,
+      "payments": 82197.35,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 611,
+      "payments": 75533.33,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 2200,
+      "payments": 71101.84,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 4648,
+      "payments": 60890.51,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 493,
+      "payments": 60104.55,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1180,
+      "payments": 59265.63,
+      "avg_markup": 1.09
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4866445.04,
+    "total_services": 196635,
+    "total_beneficiaries": 113966,
+    "avg_markup_ratio": 2.31
+  }
+}

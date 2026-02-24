@@ -1,0 +1,239 @@
+{
+  "name": "Harry Barnes",
+  "credentials": "MD",
+  "specialty": "Hematology-Oncology",
+  "city": "Montgomery",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 443014.14,
+      "total_services": 18797,
+      "total_beneficiaries": 7557,
+      "avg_submitted": 61.67,
+      "avg_paid": 31.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 495119.69,
+      "total_services": 21630,
+      "total_beneficiaries": 8267,
+      "avg_submitted": 69.56,
+      "avg_paid": 36.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 558970.9,
+      "total_services": 25901,
+      "total_beneficiaries": 10283,
+      "avg_submitted": 60.93,
+      "avg_paid": 34.26
+    },
+    {
+      "year": 2017,
+      "total_payments": 398853.7,
+      "total_services": 19032,
+      "total_beneficiaries": 7123,
+      "avg_submitted": 47.42,
+      "avg_paid": 24.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 431543.09,
+      "total_services": 21314,
+      "total_beneficiaries": 8095,
+      "avg_submitted": 42.33,
+      "avg_paid": 22.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 408674.94,
+      "total_services": 20244,
+      "total_beneficiaries": 7631,
+      "avg_submitted": 47.05,
+      "avg_paid": 22.14
+    },
+    {
+      "year": 2020,
+      "total_payments": 365753.33,
+      "total_services": 18653,
+      "total_beneficiaries": 6366,
+      "avg_submitted": 47.49,
+      "avg_paid": 19.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 350220.36,
+      "total_services": 16028,
+      "total_beneficiaries": 5871,
+      "avg_submitted": 50.56,
+      "avg_paid": 22.63
+    },
+    {
+      "year": 2022,
+      "total_payments": 48749.4,
+      "total_services": 492,
+      "total_beneficiaries": 341,
+      "avg_submitted": 292.49,
+      "avg_paid": 103.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 56419.11,
+      "total_services": 589,
+      "total_beneficiaries": 361,
+      "avg_submitted": 292.71,
+      "avg_paid": 100.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 17599,
+      "payments": 1298575.87,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3396,
+      "payments": 371194.35,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 30753,
+      "payments": 292859.16,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 24466,
+      "payments": 289719.94,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "82378",
+      "description": "Carcinoembryonic antigen (CEA) protein level",
+      "services": 4439,
+      "payments": 102035.78,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 690,
+      "payments": 100432.98,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 5784,
+      "payments": 95455.15,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "86320",
+      "description": "Immunologic analysis technique on serum",
+      "services": 3047,
+      "payments": 89668.99,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "84466",
+      "description": "Transferrin (iron binding protein) level",
+      "services": 5715,
+      "payments": 88336.61,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "86335",
+      "description": "Immunologic analysis technique on body fluid",
+      "services": 1939,
+      "payments": 65856.75,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "83615",
+      "description": "Lactate dehydrogenase (enzyme) level",
+      "services": 9182,
+      "payments": 52695.78,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1112,
+      "payments": 51486.54,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "86140",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 8178,
+      "payments": 49133.33,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "83540",
+      "description": "Iron level",
+      "services": 5726,
+      "payments": 45140.19,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "82784",
+      "description": "Gammaglobulin (immune system protein) measurement",
+      "services": 3596,
+      "payments": 40510.2,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "84166",
+      "description": "Protein measurement, body fluid",
+      "services": 1955,
+      "payments": 40436.0,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "86300",
+      "description": "Immunologic analysis for detection of tumor antigen",
+      "services": 1897,
+      "payments": 39563.76,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 1795,
+      "payments": 39515.99,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "84165",
+      "description": "Protein measurement, serum",
+      "services": 3077,
+      "payments": 39079.84,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 4310,
+      "payments": 35612.33,
+      "avg_markup": 1.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3557318.66,
+    "total_services": 162680,
+    "total_beneficiaries": 61895,
+    "avg_markup_ratio": 2.09
+  }
+}

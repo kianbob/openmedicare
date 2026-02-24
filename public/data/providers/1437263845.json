@@ -1,0 +1,239 @@
+{
+  "name": "Isaac Adatto",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Encino",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 321701.37,
+      "total_services": 16911,
+      "total_beneficiaries": 8686,
+      "avg_submitted": 76.36,
+      "avg_paid": 25.26
+    },
+    {
+      "year": 2015,
+      "total_payments": 404625.75,
+      "total_services": 18727,
+      "total_beneficiaries": 10143,
+      "avg_submitted": 81.51,
+      "avg_paid": 26.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 411382.49,
+      "total_services": 21401,
+      "total_beneficiaries": 10713,
+      "avg_submitted": 85.99,
+      "avg_paid": 27.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 360743.06,
+      "total_services": 17863,
+      "total_beneficiaries": 10084,
+      "avg_submitted": 98.6,
+      "avg_paid": 31.01
+    },
+    {
+      "year": 2018,
+      "total_payments": 196269.61,
+      "total_services": 6316,
+      "total_beneficiaries": 4139,
+      "avg_submitted": 136.27,
+      "avg_paid": 37.76
+    },
+    {
+      "year": 2019,
+      "total_payments": 235754.04,
+      "total_services": 8255,
+      "total_beneficiaries": 4416,
+      "avg_submitted": 130.34,
+      "avg_paid": 36.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 202016.82,
+      "total_services": 6452,
+      "total_beneficiaries": 3801,
+      "avg_submitted": 108.93,
+      "avg_paid": 35.91
+    },
+    {
+      "year": 2021,
+      "total_payments": 260255.98,
+      "total_services": 8554,
+      "total_beneficiaries": 4496,
+      "avg_submitted": 104.35,
+      "avg_paid": 29.63
+    },
+    {
+      "year": 2022,
+      "total_payments": 245408.66,
+      "total_services": 8407,
+      "total_beneficiaries": 4556,
+      "avg_submitted": 101.72,
+      "avg_paid": 26.5
+    },
+    {
+      "year": 2023,
+      "total_payments": 243688.4,
+      "total_services": 7904,
+      "total_beneficiaries": 4049,
+      "avg_submitted": 113.79,
+      "avg_paid": 31.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8432,
+      "payments": 781246.43,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7743,
+      "payments": 437358.76,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 995,
+      "payments": 128012.43,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 10164,
+      "payments": 114812.83,
+      "avg_markup": 6.68
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 10871,
+      "payments": 99295.46,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 722,
+      "payments": 97553.71,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3900,
+      "payments": 87108.89,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 3848,
+      "payments": 86955.62,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 503,
+      "payments": 85311.59,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5401,
+      "payments": 74155.39,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2024,
+      "payments": 52009.28,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "83719",
+      "description": "VLDL cholesterol level",
+      "services": 3288,
+      "payments": 45803.66,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 3338,
+      "payments": 42596.05,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12051,
+      "payments": 41511.17,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 1155,
+      "payments": 41460.56,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 1623,
+      "payments": 36359.13,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "83718",
+      "description": "HDL cholesterol level",
+      "services": 3204,
+      "payments": 35087.9,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "84436",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 3814,
+      "payments": 35006.1,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 3042,
+      "payments": 33571.88,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "84479",
+      "description": "Thyroid hormone evaluation",
+      "services": 3812,
+      "payments": 32957.82,
+      "avg_markup": 5.25
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2881846.17,
+    "total_services": 120790,
+    "total_beneficiaries": 65083,
+    "avg_markup_ratio": 3.57
+  }
+}

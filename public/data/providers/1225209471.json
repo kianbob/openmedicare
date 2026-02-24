@@ -1,0 +1,183 @@
+{
+  "name": "John Carpenter",
+  "credentials": "MD",
+  "specialty": "Pathology",
+  "city": "Lynnwood",
+  "state": "WA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 238546.05,
+      "total_services": 4333,
+      "total_beneficiaries": 4219,
+      "avg_submitted": 146.96,
+      "avg_paid": 44.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 222631.15,
+      "total_services": 3957,
+      "total_beneficiaries": 3857,
+      "avg_submitted": 145.2,
+      "avg_paid": 45.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 179870.62,
+      "total_services": 3295,
+      "total_beneficiaries": 3236,
+      "avg_submitted": 145.06,
+      "avg_paid": 46.26
+    },
+    {
+      "year": 2017,
+      "total_payments": 280342.2,
+      "total_services": 3616,
+      "total_beneficiaries": 3538,
+      "avg_submitted": 304.33,
+      "avg_paid": 132.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 313369.62,
+      "total_services": 3887,
+      "total_beneficiaries": 3787,
+      "avg_submitted": 304.33,
+      "avg_paid": 122.25
+    },
+    {
+      "year": 2019,
+      "total_payments": 297084.91,
+      "total_services": 4216,
+      "total_beneficiaries": 4104,
+      "avg_submitted": 331.88,
+      "avg_paid": 146.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 211487.72,
+      "total_services": 3145,
+      "total_beneficiaries": 3063,
+      "avg_submitted": 188.57,
+      "avg_paid": 101.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 540665.07,
+      "total_services": 10192,
+      "total_beneficiaries": 9845,
+      "avg_submitted": 272.13,
+      "avg_paid": 88.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 391048.23,
+      "total_services": 8224,
+      "total_beneficiaries": 7938,
+      "avg_submitted": 220.0,
+      "avg_paid": 43.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 242649.55,
+      "total_services": 4680,
+      "total_beneficiaries": 4560,
+      "avg_submitted": 278.91,
+      "avg_paid": 48.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 29895,
+      "payments": 1491650.11,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 5094,
+      "payments": 384998.0,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "88312",
+      "description": "Special stained specimen slides to identify organisms including interpretation and report",
+      "services": 4675,
+      "payments": 366151.04,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "87507",
+      "description": "Detection test for digestive tract pathogen",
+      "services": 499,
+      "payments": 256367.14,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "88313",
+      "description": "Special stained specimen slides to examine tissue including interpretation and report",
+      "services": 3401,
+      "payments": 184602.19,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 4786,
+      "payments": 119096.5,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "0097U",
+      "description": "Test for detection of gastrointestinal disease-causing organism using amplified probe",
+      "services": 243,
+      "payments": 87180.54,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "88342",
+      "description": "Tissue or cell analysis by immunologic technique",
+      "services": 504,
+      "payments": 14389.01,
+      "avg_markup": 6.12
+    },
+    {
+      "code": "88341",
+      "description": "Special stained specimen slides to examine tissue",
+      "services": 362,
+      "payments": 8080.68,
+      "avg_markup": 6.73
+    },
+    {
+      "code": "87505",
+      "description": "Detection test for digestive tract pathogen",
+      "services": 28,
+      "payments": 3911.32,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "G0461",
+      "description": "Immunohistochemistry or immunocytochemistry, per specimen; first single or multiplex antibody stain",
+      "services": 31,
+      "payments": 745.86,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "G0462",
+      "description": "Immunohistochemistry or immunocytochemistry, per specimen; each additional single or multiplex antibody stain (list separately in addition to code for primary procedure)",
+      "services": 27,
+      "payments": 522.74,
+      "avg_markup": 4.96
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2917695.12,
+    "total_services": 49545,
+    "total_beneficiaries": 48147,
+    "avg_markup_ratio": 3.23
+  }
+}

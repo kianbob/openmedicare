@@ -1,0 +1,225 @@
+{
+  "name": "Sorin Vainer",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Atlanta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 380572.66,
+      "total_services": 3411,
+      "total_beneficiaries": 1233,
+      "avg_submitted": 291.15,
+      "avg_paid": 111.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 307660.78,
+      "total_services": 2565,
+      "total_beneficiaries": 1057,
+      "avg_submitted": 279.53,
+      "avg_paid": 109.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 272947.47,
+      "total_services": 2289,
+      "total_beneficiaries": 928,
+      "avg_submitted": 296.85,
+      "avg_paid": 112.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 320756.87,
+      "total_services": 2020,
+      "total_beneficiaries": 890,
+      "avg_submitted": 283.31,
+      "avg_paid": 141.92
+    },
+    {
+      "year": 2018,
+      "total_payments": 234852.39,
+      "total_services": 1861,
+      "total_beneficiaries": 767,
+      "avg_submitted": 273.3,
+      "avg_paid": 115.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 262786.61,
+      "total_services": 2027,
+      "total_beneficiaries": 799,
+      "avg_submitted": 273.3,
+      "avg_paid": 118.7
+    },
+    {
+      "year": 2020,
+      "total_payments": 253856.56,
+      "total_services": 1827,
+      "total_beneficiaries": 737,
+      "avg_submitted": 290.95,
+      "avg_paid": 119.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 255926.49,
+      "total_services": 1639,
+      "total_beneficiaries": 655,
+      "avg_submitted": 243.32,
+      "avg_paid": 115.45
+    },
+    {
+      "year": 2022,
+      "total_payments": 196431.51,
+      "total_services": 1272,
+      "total_beneficiaries": 536,
+      "avg_submitted": 269.15,
+      "avg_paid": 123.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 166346.62,
+      "total_services": 1226,
+      "total_beneficiaries": 504,
+      "avg_submitted": 275.1,
+      "avg_paid": 122.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 5590,
+      "payments": 1296023.87,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5186,
+      "payments": 421359.3,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2077,
+      "payments": 237191.11,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2333,
+      "payments": 135589.93,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 762,
+      "payments": 120795.55,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 649,
+      "payments": 106007.41,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 915,
+      "payments": 77084.94,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 356,
+      "payments": 72022.62,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 754,
+      "payments": 42916.17,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "90937",
+      "description": "Hemodialysis procedure with repeated evaluations",
+      "services": 406,
+      "payments": 35053.62,
+      "avg_markup": 6.13
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 464,
+      "payments": 26808.87,
+      "avg_markup": 5.19
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 124,
+      "payments": 24736.79,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 101,
+      "payments": 16349.43,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 146,
+      "payments": 16097.51,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 84,
+      "payments": 14641.48,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "90945",
+      "description": "Dialysis procedure including 1 evaluation",
+      "services": 95,
+      "payments": 5262.92,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 81,
+      "payments": 2420.77,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 14,
+      "payments": 1775.67,
+      "avg_markup": 1.85
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2652137.96,
+    "total_services": 20137,
+    "total_beneficiaries": 8106,
+    "avg_markup_ratio": 1.96
+  }
+}

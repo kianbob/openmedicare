@@ -1,0 +1,223 @@
+{
+  "name": "Asad Omar",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "El Paso",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 22780.3,
+      "total_services": 161,
+      "total_beneficiaries": 137,
+      "avg_submitted": 220.0,
+      "avg_paid": 108.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 223396.23,
+      "total_services": 2618,
+      "total_beneficiaries": 945,
+      "avg_submitted": 168.14,
+      "avg_paid": 73.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 616931.76,
+      "total_services": 6379,
+      "total_beneficiaries": 1934,
+      "avg_submitted": 278.37,
+      "avg_paid": 146.09
+    },
+    {
+      "year": 2019,
+      "total_payments": 778446.97,
+      "total_services": 9418,
+      "total_beneficiaries": 2297,
+      "avg_submitted": 270.11,
+      "avg_paid": 119.05
+    },
+    {
+      "year": 2020,
+      "total_payments": 676249.9,
+      "total_services": 7263,
+      "total_beneficiaries": 1662,
+      "avg_submitted": 181.0,
+      "avg_paid": 88.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 629752.02,
+      "total_services": 6306,
+      "total_beneficiaries": 1361,
+      "avg_submitted": 139.77,
+      "avg_paid": 71.81
+    },
+    {
+      "year": 2022,
+      "total_payments": 487261.81,
+      "total_services": 4440,
+      "total_beneficiaries": 1173,
+      "avg_submitted": 343.74,
+      "avg_paid": 153.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 397670.77,
+      "total_services": 3936,
+      "total_beneficiaries": 1328,
+      "avg_submitted": 345.35,
+      "avg_paid": 144.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 10415,
+      "payments": 1801664.51,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 22123,
+      "payments": 1245449.19,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2526,
+      "payments": 389670.09,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1253,
+      "payments": 101973.56,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1119,
+      "payments": 88242.2,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 946,
+      "payments": 50262.39,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 79,
+      "payments": 35908.43,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 75,
+      "payments": 34750.83,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 814,
+      "payments": 19808.43,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 260,
+      "payments": 15012.12,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99292",
+      "description": "Critical care, each additional 30 minutes",
+      "services": 77,
+      "payments": 6304.76,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 43,
+      "payments": 5002.02,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 73,
+      "payments": 4952.32,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 112,
+      "payments": 4870.35,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 116,
+      "payments": 4824.6,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 62,
+      "payments": 4543.82,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 35,
+      "payments": 4365.85,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 118,
+      "payments": 3812.39,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 102,
+      "payments": 3130.9,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 66,
+      "payments": 2818.86,
+      "avg_markup": 1.92
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3832489.76,
+    "total_services": 40521,
+    "total_beneficiaries": 10837,
+    "avg_markup_ratio": 1.91
+  }
+}

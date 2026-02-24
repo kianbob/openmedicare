@@ -1,0 +1,239 @@
+{
+  "name": "Mary Green",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 328390.55,
+      "total_services": 2825,
+      "total_beneficiaries": 2489,
+      "avg_submitted": 355.73,
+      "avg_paid": 96.21
+    },
+    {
+      "year": 2015,
+      "total_payments": 293586.7,
+      "total_services": 2598,
+      "total_beneficiaries": 2299,
+      "avg_submitted": 543.19,
+      "avg_paid": 124.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 317127.29,
+      "total_services": 2971,
+      "total_beneficiaries": 2593,
+      "avg_submitted": 507.52,
+      "avg_paid": 119.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 323043.09,
+      "total_services": 2993,
+      "total_beneficiaries": 2640,
+      "avg_submitted": 481.58,
+      "avg_paid": 105.23
+    },
+    {
+      "year": 2018,
+      "total_payments": 281517.29,
+      "total_services": 2576,
+      "total_beneficiaries": 2288,
+      "avg_submitted": 472.27,
+      "avg_paid": 113.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 242182.57,
+      "total_services": 2344,
+      "total_beneficiaries": 1915,
+      "avg_submitted": 494.56,
+      "avg_paid": 133.33
+    },
+    {
+      "year": 2020,
+      "total_payments": 158134.35,
+      "total_services": 1569,
+      "total_beneficiaries": 1314,
+      "avg_submitted": 391.66,
+      "avg_paid": 100.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 166353.41,
+      "total_services": 1624,
+      "total_beneficiaries": 1362,
+      "avg_submitted": 515.61,
+      "avg_paid": 134.66
+    },
+    {
+      "year": 2022,
+      "total_payments": 120862.88,
+      "total_services": 1436,
+      "total_beneficiaries": 1236,
+      "avg_submitted": 373.99,
+      "avg_paid": 98.06
+    },
+    {
+      "year": 2023,
+      "total_payments": 116629.05,
+      "total_services": 1368,
+      "total_beneficiaries": 1136,
+      "avg_submitted": 391.48,
+      "avg_paid": 101.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1617,
+      "payments": 780989.58,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 6924,
+      "payments": 556307.8,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 1102,
+      "payments": 270878.71,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 3243,
+      "payments": 149263.39,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 225,
+      "payments": 135120.65,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1234,
+      "payments": 119600.42,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 1617,
+      "payments": 95099.13,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1727,
+      "payments": 45638.18,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 988,
+      "payments": 29903.78,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 651,
+      "payments": 29396.11,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 292,
+      "payments": 26095.99,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 327,
+      "payments": 21800.57,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 732,
+      "payments": 19702.07,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 101,
+      "payments": 12061.3,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 336,
+      "payments": 12047.18,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "67840",
+      "description": "Removal of eyelid growth",
+      "services": 38,
+      "payments": 8164.66,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "83861",
+      "description": "Microfluid analysis of tears",
+      "services": 339,
+      "payments": 7456.78,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "92071",
+      "description": "Fitting of contact lens for treatment of ocular surface disease",
+      "services": 235,
+      "payments": 7092.18,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 92,
+      "payments": 5168.33,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "68761",
+      "description": "Closure of tear duct opening using plug",
+      "services": 28,
+      "payments": 3753.4,
+      "avg_markup": 4.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2347827.19,
+    "total_services": 22304,
+    "total_beneficiaries": 19272,
+    "avg_markup_ratio": 3.69
+  }
+}

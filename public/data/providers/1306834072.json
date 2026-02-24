@@ -1,0 +1,239 @@
+{
+  "name": "George Berk",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Yorktown Heights",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 265916.18,
+      "total_services": 9628,
+      "total_beneficiaries": 4392,
+      "avg_submitted": 121.79,
+      "avg_paid": 39.56
+    },
+    {
+      "year": 2015,
+      "total_payments": 263355.39,
+      "total_services": 9172,
+      "total_beneficiaries": 4342,
+      "avg_submitted": 140.73,
+      "avg_paid": 48.48
+    },
+    {
+      "year": 2016,
+      "total_payments": 281129.06,
+      "total_services": 10238,
+      "total_beneficiaries": 4632,
+      "avg_submitted": 162.63,
+      "avg_paid": 46.18
+    },
+    {
+      "year": 2017,
+      "total_payments": 224809.59,
+      "total_services": 4605,
+      "total_beneficiaries": 2123,
+      "avg_submitted": 379.52,
+      "avg_paid": 66.93
+    },
+    {
+      "year": 2018,
+      "total_payments": 236857.43,
+      "total_services": 8740,
+      "total_beneficiaries": 4147,
+      "avg_submitted": 391.33,
+      "avg_paid": 64.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 243824.58,
+      "total_services": 7754,
+      "total_beneficiaries": 4028,
+      "avg_submitted": 399.29,
+      "avg_paid": 69.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 206566.83,
+      "total_services": 6404,
+      "total_beneficiaries": 3604,
+      "avg_submitted": 294.97,
+      "avg_paid": 57.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 269924.86,
+      "total_services": 8831,
+      "total_beneficiaries": 4911,
+      "avg_submitted": 320.0,
+      "avg_paid": 64.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 247852.73,
+      "total_services": 8295,
+      "total_beneficiaries": 4826,
+      "avg_submitted": 368.6,
+      "avg_paid": 66.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 196817.96,
+      "total_services": 5268,
+      "total_beneficiaries": 3121,
+      "avg_submitted": 383.28,
+      "avg_paid": 58.85
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13542,
+      "payments": 1297538.56,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 39867,
+      "payments": 295597.91,
+      "avg_markup": 6.71
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3108,
+      "payments": 203299.87,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 13571,
+      "payments": 197719.29,
+      "avg_markup": 8.91
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1113,
+      "payments": 157016.28,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 774,
+      "payments": 143920.4,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 251,
+      "payments": 29868.78,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 388,
+      "payments": 29772.36,
+      "avg_markup": 6.64
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 4140,
+      "payments": 20160.55,
+      "avg_markup": 6.28
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 90,
+      "payments": 11663.16,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 169,
+      "payments": 11335.93,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 116,
+      "payments": 7456.65,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes",
+      "services": 125,
+      "payments": 5810.0,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 62,
+      "payments": 4315.55,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 122,
+      "payments": 3271.03,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 230,
+      "payments": 2823.95,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "93228",
+      "description": "Heart rhythm tracing, computer analysis, and interpretation of patient-triggered events greater than 24-hour ekg up to 30 days",
+      "services": 112,
+      "payments": 2769.81,
+      "avg_markup": 5.22
+    },
+    {
+      "code": "93225",
+      "description": "Heart rhythm tracing of 48-hour ekg",
+      "services": 106,
+      "payments": 2015.58,
+      "avg_markup": 14.41
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 473,
+      "payments": 1900.77,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 182,
+      "payments": 1889.61,
+      "avg_markup": 3.47
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2437054.61,
+    "total_services": 78935,
+    "total_beneficiaries": 40126,
+    "avg_markup_ratio": 5.08
+  }
+}

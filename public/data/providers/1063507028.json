@@ -1,0 +1,239 @@
+{
+  "name": "Garo Karakashian",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Glendale",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 345331.09,
+      "total_services": 4390,
+      "total_beneficiaries": 1963,
+      "avg_submitted": 140.67,
+      "avg_paid": 72.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 355659.03,
+      "total_services": 4541,
+      "total_beneficiaries": 1822,
+      "avg_submitted": 151.64,
+      "avg_paid": 74.63
+    },
+    {
+      "year": 2016,
+      "total_payments": 341227.95,
+      "total_services": 4421,
+      "total_beneficiaries": 1899,
+      "avg_submitted": 150.01,
+      "avg_paid": 72.04
+    },
+    {
+      "year": 2017,
+      "total_payments": 313862.8,
+      "total_services": 3970,
+      "total_beneficiaries": 1899,
+      "avg_submitted": 189.74,
+      "avg_paid": 88.35
+    },
+    {
+      "year": 2018,
+      "total_payments": 427475.09,
+      "total_services": 4931,
+      "total_beneficiaries": 2286,
+      "avg_submitted": 204.4,
+      "avg_paid": 102.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 368564.87,
+      "total_services": 4301,
+      "total_beneficiaries": 1848,
+      "avg_submitted": 205.83,
+      "avg_paid": 101.75
+    },
+    {
+      "year": 2020,
+      "total_payments": 320311.12,
+      "total_services": 3753,
+      "total_beneficiaries": 1503,
+      "avg_submitted": 212.37,
+      "avg_paid": 105.44
+    },
+    {
+      "year": 2021,
+      "total_payments": 312622.76,
+      "total_services": 3639,
+      "total_beneficiaries": 1362,
+      "avg_submitted": 212.37,
+      "avg_paid": 108.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 281245.6,
+      "total_services": 3381,
+      "total_beneficiaries": 1483,
+      "avg_submitted": 216.53,
+      "avg_paid": 105.32
+    },
+    {
+      "year": 2023,
+      "total_payments": 311240.77,
+      "total_services": 3582,
+      "total_beneficiaries": 1477,
+      "avg_submitted": 217.94,
+      "avg_paid": 104.5
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 8889,
+      "payments": 688125.28,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8780,
+      "payments": 533543.23,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2823,
+      "payments": 468834.38,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5991,
+      "payments": 382985.94,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1175,
+      "payments": 216096.32,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2402,
+      "payments": 194963.66,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1960,
+      "payments": 177297.58,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1477,
+      "payments": 160610.81,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 944,
+      "payments": 123444.45,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 924,
+      "payments": 80618.77,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 378,
+      "payments": 75949.15,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1344,
+      "payments": 58191.17,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 252,
+      "payments": 45905.94,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99483",
+      "description": "Assessment of and care planning for patient with impaired thought processing, typically 50 minutes",
+      "services": 239,
+      "payments": 37934.39,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 1046,
+      "payments": 35128.22,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "G0505",
+      "description": "Cognition and functional assessment using standardized instruments with development of recorded care plan for the patient with cognitive impairment, history obtained from patient and/or caregiver, in office or other outpatient setting or home or domiciliar",
+      "services": 91,
+      "payments": 12653.55,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "G0121",
+      "description": "Colorectal cancer screening; colonoscopy on individual not meeting criteria for high risk",
+      "services": 35,
+      "payments": 11932.2,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 135,
+      "payments": 11511.09,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 115,
+      "payments": 11451.98,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 69,
+      "payments": 11244.7,
+      "avg_markup": 1.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3377541.08,
+    "total_services": 40909,
+    "total_beneficiaries": 17542,
+    "avg_markup_ratio": 2.24
+  }
+}

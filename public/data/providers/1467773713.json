@@ -1,0 +1,218 @@
+{
+  "name": "Cliff Omoregie",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Richardson",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 40739.18,
+      "total_services": 335,
+      "total_beneficiaries": 325,
+      "avg_submitted": 282.25,
+      "avg_paid": 104.99
+    },
+    {
+      "year": 2015,
+      "total_payments": 162521.24,
+      "total_services": 1621,
+      "total_beneficiaries": 1066,
+      "avg_submitted": 210.15,
+      "avg_paid": 95.48
+    },
+    {
+      "year": 2016,
+      "total_payments": 191748.62,
+      "total_services": 2107,
+      "total_beneficiaries": 1368,
+      "avg_submitted": 242.69,
+      "avg_paid": 97.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 199667.37,
+      "total_services": 2140,
+      "total_beneficiaries": 1359,
+      "avg_submitted": 390.72,
+      "avg_paid": 92.79
+    },
+    {
+      "year": 2018,
+      "total_payments": 260346.44,
+      "total_services": 2755,
+      "total_beneficiaries": 1727,
+      "avg_submitted": 404.82,
+      "avg_paid": 94.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 333963.44,
+      "total_services": 4138,
+      "total_beneficiaries": 1855,
+      "avg_submitted": 313.03,
+      "avg_paid": 83.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 545316.37,
+      "total_services": 7656,
+      "total_beneficiaries": 1963,
+      "avg_submitted": 287.87,
+      "avg_paid": 90.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 572895.03,
+      "total_services": 8874,
+      "total_beneficiaries": 1806,
+      "avg_submitted": 277.1,
+      "avg_paid": 84.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 622090.28,
+      "total_services": 8366,
+      "total_beneficiaries": 1750,
+      "avg_submitted": 297.41,
+      "avg_paid": 90.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 849173.78,
+      "total_services": 9641,
+      "total_beneficiaries": 1784,
+      "avg_submitted": 299.01,
+      "avg_paid": 95.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 15776,
+      "payments": 1313501.57,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 13781,
+      "payments": 776324.3,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3423,
+      "payments": 511273.4,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3594,
+      "payments": 286737.28,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3985,
+      "payments": 221499.36,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2431,
+      "payments": 201350.85,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1491,
+      "payments": 156464.8,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1035,
+      "payments": 143216.29,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 632,
+      "payments": 51063.63,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 825,
+      "payments": 46076.88,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 183,
+      "payments": 25365.58,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 208,
+      "payments": 21719.65,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 174,
+      "payments": 17768.01,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 12,
+      "payments": 2003.16,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 30,
+      "payments": 1693.49,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 40,
+      "payments": 1661.46,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 13,
+      "payments": 742.04,
+      "avg_markup": 3.84
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3778461.75,
+    "total_services": 47633,
+    "total_beneficiaries": 15003,
+    "avg_markup_ratio": 3.16
+  }
+}

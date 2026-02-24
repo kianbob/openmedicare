@@ -1,0 +1,141 @@
+{
+  "name": "City Of Paris",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Paris",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 721468.52,
+      "total_services": 5407,
+      "total_beneficiaries": 3481,
+      "avg_submitted": 355.98,
+      "avg_paid": 235.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 831819.46,
+      "total_services": 5990,
+      "total_beneficiaries": 3905,
+      "avg_submitted": 350.17,
+      "avg_paid": 237.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 906303.41,
+      "total_services": 6634,
+      "total_beneficiaries": 4010,
+      "avg_submitted": 350.89,
+      "avg_paid": 238.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 957320.08,
+      "total_services": 6854,
+      "total_beneficiaries": 4085,
+      "avg_submitted": 340.8,
+      "avg_paid": 238.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 929084.75,
+      "total_services": 6539,
+      "total_beneficiaries": 4017,
+      "avg_submitted": 366.43,
+      "avg_paid": 241.27
+    },
+    {
+      "year": 2019,
+      "total_payments": 972405.06,
+      "total_services": 6661,
+      "total_beneficiaries": 4058,
+      "avg_submitted": 304.95,
+      "avg_paid": 193.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 937535.16,
+      "total_services": 6147,
+      "total_beneficiaries": 3923,
+      "avg_submitted": 304.93,
+      "avg_paid": 201.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 927768.05,
+      "total_services": 5988,
+      "total_beneficiaries": 3646,
+      "avg_submitted": 415.81,
+      "avg_paid": 204.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 947996.86,
+      "total_services": 5743,
+      "total_beneficiaries": 3628,
+      "avg_submitted": 1295.81,
+      "avg_paid": 270.25
+    },
+    {
+      "year": 2023,
+      "total_payments": 977713.83,
+      "total_services": 5330,
+      "total_beneficiaries": 3184,
+      "avg_submitted": 1295.3,
+      "avg_paid": 290.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 14248,
+      "payments": 4746938.23,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 11533,
+      "payments": 3167644.72,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 4970,
+      "payments": 859741.88,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 30271,
+      "payments": 224588.89,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 187,
+      "payments": 90924.8,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 84,
+      "payments": 19576.65,
+      "avg_markup": 6.87
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 9109415.17,
+    "total_services": 61293,
+    "total_beneficiaries": 37937,
+    "avg_markup_ratio": 2.21
+  }
+}

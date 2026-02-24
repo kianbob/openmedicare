@@ -1,0 +1,239 @@
+{
+  "name": "Marc Raad",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Wolcott",
+  "state": "CT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 300731.56,
+      "total_services": 5073,
+      "total_beneficiaries": 2500,
+      "avg_submitted": 123.53,
+      "avg_paid": 59.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 303927.71,
+      "total_services": 4993,
+      "total_beneficiaries": 2613,
+      "avg_submitted": 118.1,
+      "avg_paid": 58.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 268352.21,
+      "total_services": 4450,
+      "total_beneficiaries": 2451,
+      "avg_submitted": 111.81,
+      "avg_paid": 54.28
+    },
+    {
+      "year": 2017,
+      "total_payments": 252679.8,
+      "total_services": 4179,
+      "total_beneficiaries": 2373,
+      "avg_submitted": 118.0,
+      "avg_paid": 55.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 264941.66,
+      "total_services": 3946,
+      "total_beneficiaries": 2307,
+      "avg_submitted": 161.5,
+      "avg_paid": 64.77
+    },
+    {
+      "year": 2019,
+      "total_payments": 256996.47,
+      "total_services": 3828,
+      "total_beneficiaries": 2157,
+      "avg_submitted": 175.67,
+      "avg_paid": 72.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 240054.99,
+      "total_services": 3533,
+      "total_beneficiaries": 2052,
+      "avg_submitted": 143.92,
+      "avg_paid": 63.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 327554.01,
+      "total_services": 4634,
+      "total_beneficiaries": 2531,
+      "avg_submitted": 162.91,
+      "avg_paid": 71.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 337018.04,
+      "total_services": 4900,
+      "total_beneficiaries": 2908,
+      "avg_submitted": 180.15,
+      "avg_paid": 75.24
+    },
+    {
+      "year": 2023,
+      "total_payments": 252220.44,
+      "total_services": 3469,
+      "total_beneficiaries": 1723,
+      "avg_submitted": 166.85,
+      "avg_paid": 74.53
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 17224,
+      "payments": 921982.01,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 5118,
+      "payments": 543187.1,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3684,
+      "payments": 272023.48,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3130,
+      "payments": 263743.07,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3773,
+      "payments": 201326.81,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 1890,
+      "payments": 139960.23,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1651,
+      "payments": 68937.36,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 514,
+      "payments": 55490.42,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 945,
+      "payments": 54860.86,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 337,
+      "payments": 42961.42,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 447,
+      "payments": 32254.09,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 915,
+      "payments": 29379.5,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 654,
+      "payments": 29244.92,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 709,
+      "payments": 22722.07,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 344,
+      "payments": 20226.89,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 134,
+      "payments": 18740.26,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99203",
+      "description": "New patient outpatient visit, total time 30-44 minutes",
+      "services": 159,
+      "payments": 17481.32,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 199,
+      "payments": 14458.7,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 98,
+      "payments": 10838.68,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "87811",
+      "description": "Sars-cov-2 covid19 w/optic",
+      "services": 166,
+      "payments": 6862.93,
+      "avg_markup": 2.42
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2804476.89,
+    "total_services": 43005,
+    "total_beneficiaries": 23615,
+    "avg_markup_ratio": 2.23
+  }
+}

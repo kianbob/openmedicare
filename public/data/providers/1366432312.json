@@ -1,0 +1,239 @@
+{
+  "name": "John Shega",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 482019.58,
+      "total_services": 5401,
+      "total_beneficiaries": 1634,
+      "avg_submitted": 337.69,
+      "avg_paid": 157.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 417834.61,
+      "total_services": 4755,
+      "total_beneficiaries": 1573,
+      "avg_submitted": 378.81,
+      "avg_paid": 169.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 465079.4,
+      "total_services": 5271,
+      "total_beneficiaries": 1569,
+      "avg_submitted": 381.18,
+      "avg_paid": 174.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 459972.65,
+      "total_services": 5078,
+      "total_beneficiaries": 1484,
+      "avg_submitted": 383.06,
+      "avg_paid": 170.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 382935.75,
+      "total_services": 4312,
+      "total_beneficiaries": 1315,
+      "avg_submitted": 407.75,
+      "avg_paid": 170.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 299323.57,
+      "total_services": 3263,
+      "total_beneficiaries": 1002,
+      "avg_submitted": 375.44,
+      "avg_paid": 135.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 224846.99,
+      "total_services": 2339,
+      "total_beneficiaries": 764,
+      "avg_submitted": 343.24,
+      "avg_paid": 136.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 268064.06,
+      "total_services": 2458,
+      "total_beneficiaries": 731,
+      "avg_submitted": 389.65,
+      "avg_paid": 155.86
+    },
+    {
+      "year": 2022,
+      "total_payments": 213269.9,
+      "total_services": 1967,
+      "total_beneficiaries": 557,
+      "avg_submitted": 390.38,
+      "avg_paid": 150.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 190205.32,
+      "total_services": 1722,
+      "total_beneficiaries": 505,
+      "avg_submitted": 354.75,
+      "avg_paid": 142.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9448,
+      "payments": 843603.0,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 3881,
+      "payments": 486832.44,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "96920",
+      "description": "Laser treatment (total area less than 250 sq centimeters) for inflammatory skin disease",
+      "services": 3023,
+      "payments": 394088.91,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "96910",
+      "description": "Skin application of tar and ultraviolet B or petrolatum and ultraviolet B",
+      "services": 4563,
+      "payments": 364199.84,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4204,
+      "payments": 240005.12,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 3028,
+      "payments": 178070.21,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "17311",
+      "description": "Removal and microscopic examination of growth of the head, neck, hands, feet, or genitals (first stage, up to 5 tissue blocks)",
+      "services": 282,
+      "payments": 152908.23,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 1730,
+      "payments": 135801.83,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "17312",
+      "description": "Removal and microscopic examination of growth of the head, neck, hands, feet, or genitals",
+      "services": 282,
+      "payments": 93065.77,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "15240",
+      "description": "Relocation of patient skin to forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet (20 sq centimeters or less)",
+      "services": 116,
+      "payments": 89044.63,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 926,
+      "payments": 76275.18,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "15220",
+      "description": "Relocation of patient skin (20 sq centimeters or less) to scalp, arms, and/or legs",
+      "services": 111,
+      "payments": 69888.93,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "17313",
+      "description": "Removal and microscopic examination of growth of the trunk, arms, or legs (first stage, up to 5 tissue blocks)",
+      "services": 130,
+      "payments": 65262.54,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "17314",
+      "description": "Removal and microscopic examination of growth of the trunk, arms, or legs",
+      "services": 130,
+      "payments": 39599.85,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 300,
+      "payments": 33025.01,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "96921",
+      "description": "Laser treatment (250 to 500 sq centimeters) for inflammatory skin disease",
+      "services": 191,
+      "payments": 26174.65,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "11901",
+      "description": "Injection of more than 7 skin growths",
+      "services": 352,
+      "payments": 16664.31,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 229,
+      "payments": 15860.87,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "11101",
+      "description": "Biopsy of each additional growth of skin and/or tissue",
+      "services": 509,
+      "payments": 13433.53,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "67810",
+      "description": "Biopsy of eyelid",
+      "services": 96,
+      "payments": 12918.56,
+      "avg_markup": 2.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3403551.82,
+    "total_services": 36566,
+    "total_beneficiaries": 11134,
+    "avg_markup_ratio": 2.2
+  }
+}

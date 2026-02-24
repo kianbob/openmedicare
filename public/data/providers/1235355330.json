@@ -1,0 +1,190 @@
+{
+  "name": "Jorge Zuniga",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 472301.42,
+      "total_services": 6954,
+      "total_beneficiaries": 1272,
+      "avg_submitted": 342.7,
+      "avg_paid": 94.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 594098.52,
+      "total_services": 8892,
+      "total_beneficiaries": 1344,
+      "avg_submitted": 341.99,
+      "avg_paid": 94.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 585590.83,
+      "total_services": 8308,
+      "total_beneficiaries": 1518,
+      "avg_submitted": 357.18,
+      "avg_paid": 96.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 511117.58,
+      "total_services": 7115,
+      "total_beneficiaries": 1577,
+      "avg_submitted": 377.6,
+      "avg_paid": 103.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 687286.1,
+      "total_services": 9310,
+      "total_beneficiaries": 1755,
+      "avg_submitted": 422.25,
+      "avg_paid": 102.34
+    },
+    {
+      "year": 2019,
+      "total_payments": 740793.55,
+      "total_services": 10262,
+      "total_beneficiaries": 1550,
+      "avg_submitted": 433.99,
+      "avg_paid": 105.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 509037.93,
+      "total_services": 7418,
+      "total_beneficiaries": 1261,
+      "avg_submitted": 366.92,
+      "avg_paid": 97.16
+    },
+    {
+      "year": 2021,
+      "total_payments": 429993.19,
+      "total_services": 6122,
+      "total_beneficiaries": 1089,
+      "avg_submitted": 360.11,
+      "avg_paid": 107.34
+    },
+    {
+      "year": 2022,
+      "total_payments": 384138.67,
+      "total_services": 5652,
+      "total_beneficiaries": 965,
+      "avg_submitted": 370.0,
+      "avg_paid": 105.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 328221.3,
+      "total_services": 4269,
+      "total_beneficiaries": 940,
+      "avg_submitted": 359.17,
+      "avg_paid": 105.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 47584,
+      "payments": 2734186.89,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 16500,
+      "payments": 1367139.52,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2817,
+      "payments": 444060.05,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2351,
+      "payments": 206447.47,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1737,
+      "payments": 183159.39,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1254,
+      "payments": 134697.99,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 429,
+      "payments": 55669.3,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 709,
+      "payments": 50459.51,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 364,
+      "payments": 19519.95,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 285,
+      "payments": 15179.99,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "36589",
+      "description": "Removal of central venous catheter for infusion",
+      "services": 117,
+      "payments": 14870.63,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 79,
+      "payments": 9385.77,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 76,
+      "payments": 7802.63,
+      "avg_markup": 3.9
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5242579.09,
+    "total_services": 74302,
+    "total_beneficiaries": 13271,
+    "avg_markup_ratio": 3.61
+  }
+}

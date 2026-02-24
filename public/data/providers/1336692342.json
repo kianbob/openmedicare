@@ -1,0 +1,103 @@
+{
+  "name": "City Of Peoria",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Peoria",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 316377.37,
+      "total_services": 1946,
+      "total_beneficiaries": 1752,
+      "avg_submitted": 717.81,
+      "avg_paid": 276.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 358667.23,
+      "total_services": 2218,
+      "total_beneficiaries": 1953,
+      "avg_submitted": 683.14,
+      "avg_paid": 275.68
+    },
+    {
+      "year": 2019,
+      "total_payments": 526628.28,
+      "total_services": 3149,
+      "total_beneficiaries": 2703,
+      "avg_submitted": 798.17,
+      "avg_paid": 282.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 646476.37,
+      "total_services": 3838,
+      "total_beneficiaries": 3188,
+      "avg_submitted": 814.6,
+      "avg_paid": 287.18
+    },
+    {
+      "year": 2021,
+      "total_payments": 711759.94,
+      "total_services": 4187,
+      "total_beneficiaries": 3452,
+      "avg_submitted": 821.42,
+      "avg_paid": 286.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 844193.01,
+      "total_services": 4760,
+      "total_beneficiaries": 3791,
+      "avg_submitted": 868.76,
+      "avg_paid": 297.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 966794.85,
+      "total_services": 5038,
+      "total_beneficiaries": 4001,
+      "avg_submitted": 929.57,
+      "avg_paid": 323.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 8554,
+      "payments": 3035748.45,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3793,
+      "payments": 1131594.57,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 244,
+      "payments": 125548.43,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12545,
+      "payments": 78005.6,
+      "avg_markup": 3.41
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 4370897.05,
+    "total_services": 25136,
+    "total_beneficiaries": 20840,
+    "avg_markup_ratio": 3.1
+  }
+}

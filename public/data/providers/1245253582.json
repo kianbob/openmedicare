@@ -1,0 +1,239 @@
+{
+  "name": "John Evans",
+  "credentials": "MD",
+  "specialty": "Gastroenterology",
+  "city": "San Bernardino",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 218665.33,
+      "total_services": 3875,
+      "total_beneficiaries": 1887,
+      "avg_submitted": 480.88,
+      "avg_paid": 110.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 221892.93,
+      "total_services": 4229,
+      "total_beneficiaries": 1831,
+      "avg_submitted": 360.76,
+      "avg_paid": 99.28
+    },
+    {
+      "year": 2016,
+      "total_payments": 320393.78,
+      "total_services": 6308,
+      "total_beneficiaries": 2146,
+      "avg_submitted": 399.84,
+      "avg_paid": 100.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 376211.7,
+      "total_services": 6989,
+      "total_beneficiaries": 2057,
+      "avg_submitted": 398.31,
+      "avg_paid": 102.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 483817.96,
+      "total_services": 7599,
+      "total_beneficiaries": 2216,
+      "avg_submitted": 399.23,
+      "avg_paid": 109.02
+    },
+    {
+      "year": 2019,
+      "total_payments": 383496.98,
+      "total_services": 6556,
+      "total_beneficiaries": 1856,
+      "avg_submitted": 404.96,
+      "avg_paid": 99.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 305308.99,
+      "total_services": 4877,
+      "total_beneficiaries": 1402,
+      "avg_submitted": 439.0,
+      "avg_paid": 104.59
+    },
+    {
+      "year": 2021,
+      "total_payments": 270208.33,
+      "total_services": 4113,
+      "total_beneficiaries": 1166,
+      "avg_submitted": 447.06,
+      "avg_paid": 114.08
+    },
+    {
+      "year": 2022,
+      "total_payments": 359665.06,
+      "total_services": 5837,
+      "total_beneficiaries": 1238,
+      "avg_submitted": 427.35,
+      "avg_paid": 102.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 337330.09,
+      "total_services": 5230,
+      "total_beneficiaries": 999,
+      "avg_submitted": 449.89,
+      "avg_paid": 106.24
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 11110,
+      "payments": 833310.38,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 13137,
+      "payments": 713758.58,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "17250",
+      "description": "Application of chemical agent to excessive wound tissue",
+      "services": 14706,
+      "payments": 445056.93,
+      "avg_markup": 10.61
+    },
+    {
+      "code": "43760",
+      "description": "Change of stomach feeding, accessed through the skin",
+      "services": 2579,
+      "payments": 173729.58,
+      "avg_markup": 18.73
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1174,
+      "payments": 130127.46,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 3699,
+      "payments": 125800.15,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 997,
+      "payments": 84699.84,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "43762",
+      "description": "Replacement of stomach stoma tube accessed through skin",
+      "services": 1792,
+      "payments": 79288.4,
+      "avg_markup": 30.71
+    },
+    {
+      "code": "45385",
+      "description": "Removal of polyps or growths of large bowel using an endoscope",
+      "services": 332,
+      "payments": 71946.65,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 592,
+      "payments": 69479.68,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 578,
+      "payments": 63776.34,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 600,
+      "payments": 62635.05,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 274,
+      "payments": 42970.47,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 408,
+      "payments": 40456.79,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "43239",
+      "description": "Biopsy of the esophagus, stomach, and/or upper small bowel using an endoscope",
+      "services": 492,
+      "payments": 39536.99,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 291,
+      "payments": 38174.18,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 579,
+      "payments": 38085.13,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 208,
+      "payments": 32856.45,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "45380",
+      "description": "Biopsy of large bowel using an endoscope",
+      "services": 249,
+      "payments": 31426.75,
+      "avg_markup": 6.5
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 334,
+      "payments": 24422.81,
+      "avg_markup": 1.83
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3276991.15,
+    "total_services": 55613,
+    "total_beneficiaries": 16798,
+    "avg_markup_ratio": 4.97
+  }
+}

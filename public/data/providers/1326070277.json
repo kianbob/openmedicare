@@ -1,0 +1,239 @@
+{
+  "name": "Jarvis Reed",
+  "credentials": "MD",
+  "specialty": "Medical Oncology",
+  "city": "Memphis",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 321138.06,
+      "total_services": 16186,
+      "total_beneficiaries": 5704,
+      "avg_submitted": 196.66,
+      "avg_paid": 35.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 360544.37,
+      "total_services": 16456,
+      "total_beneficiaries": 5817,
+      "avg_submitted": 238.08,
+      "avg_paid": 41.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 414752.83,
+      "total_services": 18035,
+      "total_beneficiaries": 6435,
+      "avg_submitted": 217.02,
+      "avg_paid": 39.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 138795.81,
+      "total_services": 1931,
+      "total_beneficiaries": 977,
+      "avg_submitted": 265.3,
+      "avg_paid": 53.72
+    },
+    {
+      "year": 2018,
+      "total_payments": 132036.37,
+      "total_services": 1632,
+      "total_beneficiaries": 935,
+      "avg_submitted": 336.11,
+      "avg_paid": 75.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 785015.8,
+      "total_services": 21966,
+      "total_beneficiaries": 8589,
+      "avg_submitted": 304.41,
+      "avg_paid": 66.84
+    },
+    {
+      "year": 2020,
+      "total_payments": 663103.78,
+      "total_services": 22662,
+      "total_beneficiaries": 8751,
+      "avg_submitted": 308.55,
+      "avg_paid": 62.5
+    },
+    {
+      "year": 2021,
+      "total_payments": 296350.58,
+      "total_services": 10781,
+      "total_beneficiaries": 4898,
+      "avg_submitted": 115.25,
+      "avg_paid": 26.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 165368.95,
+      "total_services": 8324,
+      "total_beneficiaries": 3174,
+      "avg_submitted": 130.67,
+      "avg_paid": 30.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 122579.86,
+      "total_services": 6643,
+      "total_beneficiaries": 2828,
+      "avg_submitted": 120.59,
+      "avg_paid": 28.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10021,
+      "payments": 694534.2,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "G9678",
+      "description": "Oncology Care Model service",
+      "services": 3908,
+      "payments": 615645.54,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 81,
+      "payments": 273646.88,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2245,
+      "payments": 224337.1,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 19965,
+      "payments": 182720.31,
+      "avg_markup": 10.79
+    },
+    {
+      "code": "86152",
+      "description": "Cell enumeration using immunologic selection and identification in fluid specimen",
+      "services": 496,
+      "payments": 157536.57,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "96413",
+      "description": "Infusion of chemotherapy into a vein up to 1 hour",
+      "services": 1303,
+      "payments": 129679.6,
+      "avg_markup": 8.47
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 15384,
+      "payments": 116586.87,
+      "avg_markup": 11.53
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 13254,
+      "payments": 94698.33,
+      "avg_markup": 11.89
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 5334,
+      "payments": 83098.13,
+      "avg_markup": 10.6
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 470,
+      "payments": 66243.43,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "82378",
+      "description": "Carcinoembryonic antigen (CEA) protein level",
+      "services": 2886,
+      "payments": 63673.13,
+      "avg_markup": 10.78
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1207,
+      "payments": 56120.6,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "83550",
+      "description": "Iron binding capacity",
+      "services": 5497,
+      "payments": 54475.72,
+      "avg_markup": 10.32
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 380,
+      "payments": 39302.0,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 10936,
+      "payments": 37147.25,
+      "avg_markup": 8.18
+    },
+    {
+      "code": "86300",
+      "description": "Immunologic analysis for detection of tumor antigen",
+      "services": 1543,
+      "payments": 36078.04,
+      "avg_markup": 11.16
+    },
+    {
+      "code": "83540",
+      "description": "Iron level",
+      "services": 4385,
+      "payments": 30800.99,
+      "avg_markup": 10.02
+    },
+    {
+      "code": "96401",
+      "description": "Non-hormonal anti-neoplastic chemotherapy beneath the skin or into muscle",
+      "services": 413,
+      "payments": 22998.14,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 1070,
+      "payments": 22214.29,
+      "avg_markup": 10.76
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3399686.4,
+    "total_services": 124616,
+    "total_beneficiaries": 48108,
+    "avg_markup_ratio": 5.72
+  }
+}

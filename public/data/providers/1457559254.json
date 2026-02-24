@@ -1,0 +1,169 @@
+{
+  "name": "Qui Thai",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 368475.24,
+      "total_services": 5870,
+      "total_beneficiaries": 783,
+      "avg_submitted": 219.96,
+      "avg_paid": 96.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 449999.0,
+      "total_services": 7324,
+      "total_beneficiaries": 827,
+      "avg_submitted": 218.08,
+      "avg_paid": 97.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 460223.84,
+      "total_services": 7267,
+      "total_beneficiaries": 794,
+      "avg_submitted": 215.34,
+      "avg_paid": 97.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 398625.8,
+      "total_services": 6381,
+      "total_beneficiaries": 690,
+      "avg_submitted": 220.6,
+      "avg_paid": 95.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 430487.64,
+      "total_services": 6751,
+      "total_beneficiaries": 808,
+      "avg_submitted": 217.17,
+      "avg_paid": 97.09
+    },
+    {
+      "year": 2019,
+      "total_payments": 440327.27,
+      "total_services": 6949,
+      "total_beneficiaries": 808,
+      "avg_submitted": 204.3,
+      "avg_paid": 95.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 426860.07,
+      "total_services": 6767,
+      "total_beneficiaries": 801,
+      "avg_submitted": 204.38,
+      "avg_paid": 95.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 423140.99,
+      "total_services": 5945,
+      "total_beneficiaries": 738,
+      "avg_submitted": 213.15,
+      "avg_paid": 101.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 363842.13,
+      "total_services": 5233,
+      "total_beneficiaries": 586,
+      "avg_submitted": 216.85,
+      "avg_paid": 99.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 310222.19,
+      "total_services": 4313,
+      "total_beneficiaries": 505,
+      "avg_submitted": 216.86,
+      "avg_paid": 100.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 48764,
+      "payments": 2619007.56,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 4869,
+      "payments": 573934.96,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5825,
+      "payments": 481833.72,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1996,
+      "payments": 260823.25,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 414,
+      "payments": 62976.61,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 409,
+      "payments": 33954.97,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 232,
+      "payments": 17587.68,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 113,
+      "payments": 10383.91,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 134,
+      "payments": 8005.51,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 44,
+      "payments": 3696.0,
+      "avg_markup": 2.62
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4072204.17,
+    "total_services": 62800,
+    "total_beneficiaries": 7340,
+    "avg_markup_ratio": 2.25
+  }
+}

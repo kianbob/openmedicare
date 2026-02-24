@@ -1,0 +1,239 @@
+{
+  "name": "Gopal Rao",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Mcdonough",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 640442.46,
+      "total_services": 8957,
+      "total_beneficiaries": 5681,
+      "avg_submitted": 232.74,
+      "avg_paid": 64.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 494681.93,
+      "total_services": 7462,
+      "total_beneficiaries": 4569,
+      "avg_submitted": 273.17,
+      "avg_paid": 66.14
+    },
+    {
+      "year": 2016,
+      "total_payments": 280572.43,
+      "total_services": 5391,
+      "total_beneficiaries": 2859,
+      "avg_submitted": 267.61,
+      "avg_paid": 61.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 234449.81,
+      "total_services": 4177,
+      "total_beneficiaries": 2066,
+      "avg_submitted": 268.67,
+      "avg_paid": 72.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 222339.79,
+      "total_services": 3430,
+      "total_beneficiaries": 1779,
+      "avg_submitted": 419.41,
+      "avg_paid": 109.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 252210.15,
+      "total_services": 3803,
+      "total_beneficiaries": 2062,
+      "avg_submitted": 392.7,
+      "avg_paid": 99.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 193787.49,
+      "total_services": 3084,
+      "total_beneficiaries": 1469,
+      "avg_submitted": 433.16,
+      "avg_paid": 113.68
+    },
+    {
+      "year": 2021,
+      "total_payments": 180764.08,
+      "total_services": 2576,
+      "total_beneficiaries": 1283,
+      "avg_submitted": 380.0,
+      "avg_paid": 106.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 41767.74,
+      "total_services": 1172,
+      "total_beneficiaries": 697,
+      "avg_submitted": 416.61,
+      "avg_paid": 128.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 13137.43,
+      "total_services": 581,
+      "total_beneficiaries": 302,
+      "avg_submitted": 149.82,
+      "avg_paid": 40.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14178,
+      "payments": 1111684.94,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1161,
+      "payments": 431287.97,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3275,
+      "payments": 350290.44,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 1156,
+      "payments": 101073.02,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "A9505",
+      "description": "Thallium tl-201 thallous chloride, diagnostic, per millicurie",
+      "services": 1153,
+      "payments": 94557.07,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 6453,
+      "payments": 73769.18,
+      "avg_markup": 5.25
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 104,
+      "payments": 62445.46,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1180,
+      "payments": 61137.22,
+      "avg_markup": 6.5
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 363,
+      "payments": 54901.91,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 375,
+      "payments": 46689.87,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 590,
+      "payments": 35717.26,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 831,
+      "payments": 34102.85,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 5046,
+      "payments": 25465.12,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "G0250",
+      "description": "Physician review, interpretation, and patient management of home inr testing for patient with either mechanical heart valve(s), chronic atrial fibrillation, or venous thromboembolism who meets medicare coverage criteria; testing not occurring more frequent",
+      "services": 2430,
+      "payments": 16702.16,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 201,
+      "payments": 9193.52,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 62,
+      "payments": 8644.19,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 96,
+      "payments": 5916.65,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 185,
+      "payments": 4532.5,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "76775",
+      "description": "Ultrasound behind abdominal cavity, limited",
+      "services": 98,
+      "payments": 4375.88,
+      "avg_markup": 9.22
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 36,
+      "payments": 4134.3,
+      "avg_markup": 2.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2554153.31,
+    "total_services": 40633,
+    "total_beneficiaries": 22767,
+    "avg_markup_ratio": 3.33
+  }
+}

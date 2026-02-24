@@ -1,0 +1,95 @@
+{
+  "name": "City Of Fullerton",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Fullerton",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 262268.33,
+      "total_services": 1460,
+      "total_beneficiaries": 1206,
+      "avg_submitted": 1327.25,
+      "avg_paid": 317.05
+    },
+    {
+      "year": 2019,
+      "total_payments": 560963.0,
+      "total_services": 3061,
+      "total_beneficiaries": 2334,
+      "avg_submitted": 1338.48,
+      "avg_paid": 323.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 507341.09,
+      "total_services": 2660,
+      "total_beneficiaries": 2088,
+      "avg_submitted": 1415.73,
+      "avg_paid": 331.65
+    },
+    {
+      "year": 2021,
+      "total_payments": 591403.23,
+      "total_services": 3075,
+      "total_beneficiaries": 2326,
+      "avg_submitted": 1468.01,
+      "avg_paid": 333.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 702202.94,
+      "total_services": 3570,
+      "total_beneficiaries": 2662,
+      "avg_submitted": 1469.37,
+      "avg_paid": 346.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 790659.51,
+      "total_services": 3733,
+      "total_beneficiaries": 2710,
+      "avg_submitted": 1659.84,
+      "avg_paid": 376.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 4126,
+      "payments": 1699334.12,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4589,
+      "payments": 1602832.66,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 98,
+      "payments": 58154.19,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 8746,
+      "payments": 54517.13,
+      "avg_markup": 2.94
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3414838.1,
+    "total_services": 17559,
+    "total_beneficiaries": 13326,
+    "avg_markup_ratio": 4.92
+  }
+}

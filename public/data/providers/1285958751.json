@@ -1,0 +1,239 @@
+{
+  "name": "Lav Singh",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Paris",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 373870.14,
+      "total_services": 4883,
+      "total_beneficiaries": 2529,
+      "avg_submitted": 447.15,
+      "avg_paid": 91.89
+    },
+    {
+      "year": 2015,
+      "total_payments": 330471.33,
+      "total_services": 4122,
+      "total_beneficiaries": 2376,
+      "avg_submitted": 477.64,
+      "avg_paid": 87.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 331093.76,
+      "total_services": 4256,
+      "total_beneficiaries": 2553,
+      "avg_submitted": 513.08,
+      "avg_paid": 78.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 321793.49,
+      "total_services": 4952,
+      "total_beneficiaries": 3307,
+      "avg_submitted": 300.1,
+      "avg_paid": 71.91
+    },
+    {
+      "year": 2018,
+      "total_payments": 494587.69,
+      "total_services": 6849,
+      "total_beneficiaries": 4529,
+      "avg_submitted": 399.94,
+      "avg_paid": 91.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 374911.4,
+      "total_services": 5419,
+      "total_beneficiaries": 3482,
+      "avg_submitted": 221.56,
+      "avg_paid": 83.91
+    },
+    {
+      "year": 2020,
+      "total_payments": 341434.07,
+      "total_services": 4916,
+      "total_beneficiaries": 2779,
+      "avg_submitted": 199.65,
+      "avg_paid": 76.18
+    },
+    {
+      "year": 2021,
+      "total_payments": 307145.59,
+      "total_services": 4559,
+      "total_beneficiaries": 2488,
+      "avg_submitted": 189.09,
+      "avg_paid": 73.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 222786.78,
+      "total_services": 3333,
+      "total_beneficiaries": 2045,
+      "avg_submitted": 184.06,
+      "avg_paid": 70.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 210042.05,
+      "total_services": 2866,
+      "total_beneficiaries": 1838,
+      "avg_submitted": 222.3,
+      "avg_paid": 85.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21911,
+      "payments": 1225132.51,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4596,
+      "payments": 466180.02,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2688,
+      "payments": 407697.35,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2267,
+      "payments": 183894.55,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1894,
+      "payments": 156504.87,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2793,
+      "payments": 155857.71,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 1084,
+      "payments": 109355.46,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1902,
+      "payments": 101051.54,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 699,
+      "payments": 98972.97,
+      "avg_markup": 6.46
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 1322,
+      "payments": 73245.91,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 858,
+      "payments": 63947.68,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 428,
+      "payments": 48354.71,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 757,
+      "payments": 41818.38,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1115,
+      "payments": 33721.61,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "99234",
+      "description": "Hospital observation or inpatient care low severity, 40 minutes per day",
+      "services": 285,
+      "payments": 28094.27,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 219,
+      "payments": 27394.82,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 326,
+      "payments": 24522.74,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 417,
+      "payments": 12716.8,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 67,
+      "payments": 11184.14,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care typically 30 minutes",
+      "services": 144,
+      "payments": 10469.76,
+      "avg_markup": 2.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3308136.3,
+    "total_services": 46155,
+    "total_beneficiaries": 27926,
+    "avg_markup_ratio": 3.74
+  }
+}

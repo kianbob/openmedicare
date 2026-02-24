@@ -1,0 +1,211 @@
+{
+  "name": "Richard Rho",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 288253.88,
+      "total_services": 3220,
+      "total_beneficiaries": 1496,
+      "avg_submitted": 303.15,
+      "avg_paid": 83.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 382141.32,
+      "total_services": 3957,
+      "total_beneficiaries": 1981,
+      "avg_submitted": 295.22,
+      "avg_paid": 84.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 363385.87,
+      "total_services": 3922,
+      "total_beneficiaries": 2159,
+      "avg_submitted": 271.55,
+      "avg_paid": 81.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 348954.44,
+      "total_services": 4120,
+      "total_beneficiaries": 2434,
+      "avg_submitted": 322.05,
+      "avg_paid": 85.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 392249.0,
+      "total_services": 4528,
+      "total_beneficiaries": 2761,
+      "avg_submitted": 309.25,
+      "avg_paid": 88.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 400121.43,
+      "total_services": 4390,
+      "total_beneficiaries": 2698,
+      "avg_submitted": 309.25,
+      "avg_paid": 85.66
+    },
+    {
+      "year": 2020,
+      "total_payments": 424843.23,
+      "total_services": 4175,
+      "total_beneficiaries": 2605,
+      "avg_submitted": 325.38,
+      "avg_paid": 90.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 433964.49,
+      "total_services": 3771,
+      "total_beneficiaries": 2326,
+      "avg_submitted": 265.01,
+      "avg_paid": 89.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 416246.61,
+      "total_services": 3858,
+      "total_beneficiaries": 2361,
+      "avg_submitted": 238.27,
+      "avg_paid": 88.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 419347.25,
+      "total_services": 4101,
+      "total_beneficiaries": 2669,
+      "avg_submitted": 410.0,
+      "avg_paid": 89.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 7775,
+      "payments": 1354277.72,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11265,
+      "payments": 1077521.38,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6401,
+      "payments": 410443.2,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3132,
+      "payments": 375291.48,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 894,
+      "payments": 125471.6,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1964,
+      "payments": 122678.15,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1222,
+      "payments": 114803.91,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2588,
+      "payments": 88687.38,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "20553",
+      "description": "Injections of trigger points in 3 or more muscles",
+      "services": 1153,
+      "payments": 63553.34,
+      "avg_markup": 16.66
+    },
+    {
+      "code": "20552",
+      "description": "Injections of trigger points in 1 or 2 muscles",
+      "services": 705,
+      "payments": 33697.24,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 448,
+      "payments": 32691.42,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "95910",
+      "description": "Nerve transmission studies, 7-8 studies",
+      "services": 130,
+      "payments": 21972.96,
+      "avg_markup": 5.55
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 237,
+      "payments": 20040.31,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "95886",
+      "description": "Needle measurement and recording of electrical activity of muscles of arm or leg complete study",
+      "services": 131,
+      "payments": 10838.53,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 108,
+      "payments": 9848.95,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "J1030",
+      "description": "Injection, methylprednisolone acetate, 40 mg",
+      "services": 1889,
+      "payments": 7689.95,
+      "avg_markup": 1.76
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3869507.52,
+    "total_services": 40042,
+    "total_beneficiaries": 23490,
+    "avg_markup_ratio": 2.52
+  }
+}

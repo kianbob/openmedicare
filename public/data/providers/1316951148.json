@@ -1,0 +1,239 @@
+{
+  "name": "John Canterbury",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Miami",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 599640.01,
+      "total_services": 7030,
+      "total_beneficiaries": 3753,
+      "avg_submitted": 186.66,
+      "avg_paid": 82.55
+    },
+    {
+      "year": 2015,
+      "total_payments": 249680.91,
+      "total_services": 3376,
+      "total_beneficiaries": 1772,
+      "avg_submitted": 198.04,
+      "avg_paid": 76.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 264906.93,
+      "total_services": 3912,
+      "total_beneficiaries": 2430,
+      "avg_submitted": 154.38,
+      "avg_paid": 71.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 158839.87,
+      "total_services": 2506,
+      "total_beneficiaries": 1101,
+      "avg_submitted": 190.24,
+      "avg_paid": 76.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 87872.08,
+      "total_services": 1388,
+      "total_beneficiaries": 433,
+      "avg_submitted": 127.5,
+      "avg_paid": 86.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 123471.27,
+      "total_services": 2139,
+      "total_beneficiaries": 735,
+      "avg_submitted": 174.35,
+      "avg_paid": 73.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 249889.91,
+      "total_services": 3879,
+      "total_beneficiaries": 1418,
+      "avg_submitted": 169.69,
+      "avg_paid": 86.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 374290.35,
+      "total_services": 5058,
+      "total_beneficiaries": 1768,
+      "avg_submitted": 156.29,
+      "avg_paid": 94.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 377718.85,
+      "total_services": 4774,
+      "total_beneficiaries": 1717,
+      "avg_submitted": 166.93,
+      "avg_paid": 97.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 428846.51,
+      "total_services": 5002,
+      "total_beneficiaries": 1806,
+      "avg_submitted": 179.5,
+      "avg_paid": 99.36
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9227,
+      "payments": 817615.12,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5534,
+      "payments": 324818.62,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 8386,
+      "payments": 313434.53,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3446,
+      "payments": 292135.86,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1675,
+      "payments": 276829.18,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1347,
+      "payments": 165831.81,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1310,
+      "payments": 112212.19,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 1145,
+      "payments": 66894.27,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 581,
+      "payments": 65703.89,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 388,
+      "payments": 64832.97,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 298,
+      "payments": 61723.56,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 768,
+      "payments": 56200.82,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 270,
+      "payments": 49687.14,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 175,
+      "payments": 23587.43,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 156,
+      "payments": 22394.94,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "93975",
+      "description": "Complete ultrasound of abdomen and pelvis artery and vein blood flow",
+      "services": 105,
+      "payments": 22180.83,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 292,
+      "payments": 21990.64,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 303,
+      "payments": 17001.0,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 162,
+      "payments": 16666.08,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 115,
+      "payments": 12674.84,
+      "avg_markup": 2.31
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2915156.69,
+    "total_services": 39064,
+    "total_beneficiaries": 16933,
+    "avg_markup_ratio": 2.03
+  }
+}

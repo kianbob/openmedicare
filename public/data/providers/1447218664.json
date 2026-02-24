@@ -1,0 +1,231 @@
+{
+  "name": "Robert Corniea",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Provo",
+  "state": "UT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 334047.48,
+      "total_services": 15783,
+      "total_beneficiaries": 7488,
+      "avg_submitted": 54.93,
+      "avg_paid": 26.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 310793.89,
+      "total_services": 15761,
+      "total_beneficiaries": 7123,
+      "avg_submitted": 48.13,
+      "avg_paid": 25.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 433880.36,
+      "total_services": 18417,
+      "total_beneficiaries": 8418,
+      "avg_submitted": 63.16,
+      "avg_paid": 31.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 347917.22,
+      "total_services": 14554,
+      "total_beneficiaries": 7318,
+      "avg_submitted": 59.44,
+      "avg_paid": 31.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 327938.23,
+      "total_services": 13469,
+      "total_beneficiaries": 6729,
+      "avg_submitted": 58.78,
+      "avg_paid": 31.85
+    },
+    {
+      "year": 2019,
+      "total_payments": 322969.55,
+      "total_services": 13308,
+      "total_beneficiaries": 6635,
+      "avg_submitted": 63.76,
+      "avg_paid": 34.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 241557.71,
+      "total_services": 11823,
+      "total_beneficiaries": 5696,
+      "avg_submitted": 49.85,
+      "avg_paid": 26.04
+    },
+    {
+      "year": 2021,
+      "total_payments": 188473.64,
+      "total_services": 7930,
+      "total_beneficiaries": 4357,
+      "avg_submitted": 51.18,
+      "avg_paid": 23.71
+    },
+    {
+      "year": 2022,
+      "total_payments": 17556.76,
+      "total_services": 1041,
+      "total_beneficiaries": 906,
+      "avg_submitted": 46.11,
+      "avg_paid": 20.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11179,
+      "payments": 799013.8,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2083,
+      "payments": 197143.92,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 11823,
+      "payments": 141227.05,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1051,
+      "payments": 122214.19,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3360,
+      "payments": 121693.51,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 2519,
+      "payments": 111021.27,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 9209,
+      "payments": 108359.05,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 4802,
+      "payments": 99409.25,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 10210,
+      "payments": 78015.13,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5050,
+      "payments": 72092.76,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 324,
+      "payments": 60343.71,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 364,
+      "payments": 60047.79,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 2433,
+      "payments": 45261.13,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 14694,
+      "payments": 43331.61,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 826,
+      "payments": 35959.14,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 2867,
+      "payments": 31599.54,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 1862,
+      "payments": 31521.48,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 1548,
+      "payments": 29062.81,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 1302,
+      "payments": 28443.02,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1502,
+      "payments": 26789.89,
+      "avg_markup": 1.22
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2525134.83,
+    "total_services": 112086,
+    "total_beneficiaries": 54670,
+    "avg_markup_ratio": 2.16
+  }
+}

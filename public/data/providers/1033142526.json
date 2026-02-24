@@ -1,0 +1,239 @@
+{
+  "name": "Travis Bench",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Stony Brook",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 331065.06,
+      "total_services": 3799,
+      "total_beneficiaries": 2565,
+      "avg_submitted": 2378.01,
+      "avg_paid": 151.89
+    },
+    {
+      "year": 2015,
+      "total_payments": 297984.89,
+      "total_services": 3345,
+      "total_beneficiaries": 2302,
+      "avg_submitted": 457.5,
+      "avg_paid": 143.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 258147.52,
+      "total_services": 2820,
+      "total_beneficiaries": 2056,
+      "avg_submitted": 698.72,
+      "avg_paid": 150.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 227538.72,
+      "total_services": 2167,
+      "total_beneficiaries": 1620,
+      "avg_submitted": 473.78,
+      "avg_paid": 129.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 303684.88,
+      "total_services": 2938,
+      "total_beneficiaries": 2189,
+      "avg_submitted": 604.01,
+      "avg_paid": 163.25
+    },
+    {
+      "year": 2019,
+      "total_payments": 311585.71,
+      "total_services": 3297,
+      "total_beneficiaries": 2442,
+      "avg_submitted": 505.26,
+      "avg_paid": 123.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 286400.63,
+      "total_services": 3007,
+      "total_beneficiaries": 2337,
+      "avg_submitted": 421.26,
+      "avg_paid": 107.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 467405.93,
+      "total_services": 4467,
+      "total_beneficiaries": 3376,
+      "avg_submitted": 393.37,
+      "avg_paid": 102.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 472794.88,
+      "total_services": 4758,
+      "total_beneficiaries": 3520,
+      "avg_submitted": 432.86,
+      "avg_paid": 107.0
+    },
+    {
+      "year": 2023,
+      "total_payments": 452992.39,
+      "total_services": 4694,
+      "total_beneficiaries": 3604,
+      "avg_submitted": 471.4,
+      "avg_paid": 111.97
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9035,
+      "payments": 909820.2,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 3856,
+      "payments": 583229.63,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1049,
+      "payments": 451482.08,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1215,
+      "payments": 221327.08,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2962,
+      "payments": 190548.93,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1334,
+      "payments": 188865.96,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 619,
+      "payments": 111462.43,
+      "avg_markup": 6.82
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 430,
+      "payments": 109002.02,
+      "avg_markup": 8.47
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 7566,
+      "payments": 105419.53,
+      "avg_markup": 7.01
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 996,
+      "payments": 95838.61,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1333,
+      "payments": 77670.7,
+      "avg_markup": 7.15
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 405,
+      "payments": 60319.8,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 828,
+      "payments": 37356.94,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 60,
+      "payments": 33648.31,
+      "avg_markup": 7.63
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 233,
+      "payments": 28422.94,
+      "avg_markup": 11.24
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 293,
+      "payments": 26768.42,
+      "avg_markup": 6.94
+    },
+    {
+      "code": "93923",
+      "description": "Ultrasound study of arteries of both arms and legs, complete",
+      "services": 221,
+      "payments": 26617.34,
+      "avg_markup": 5.25
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 123,
+      "payments": 24061.87,
+      "avg_markup": 10.08
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 35,
+      "payments": 23007.86,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "92941",
+      "description": "Insertion of stent, removal of plaque and/or balloon dilation of coronary vessel during heart attack, accessed through the skin",
+      "services": 30,
+      "payments": 16754.35,
+      "avg_markup": 23.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3409600.6,
+    "total_services": 35292,
+    "total_beneficiaries": 26011,
+    "avg_markup_ratio": 4.72
+  }
+}

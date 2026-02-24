@@ -1,0 +1,218 @@
+{
+  "name": "Phuong Mai",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Springfield",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 251406.24,
+      "total_services": 3222,
+      "total_beneficiaries": 1698,
+      "avg_submitted": 136.33,
+      "avg_paid": 86.36
+    },
+    {
+      "year": 2015,
+      "total_payments": 253430.37,
+      "total_services": 3356,
+      "total_beneficiaries": 1539,
+      "avg_submitted": 136.89,
+      "avg_paid": 85.28
+    },
+    {
+      "year": 2016,
+      "total_payments": 240322.68,
+      "total_services": 3383,
+      "total_beneficiaries": 1529,
+      "avg_submitted": 137.71,
+      "avg_paid": 84.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 232119.17,
+      "total_services": 3148,
+      "total_beneficiaries": 1434,
+      "avg_submitted": 127.7,
+      "avg_paid": 84.05
+    },
+    {
+      "year": 2018,
+      "total_payments": 310993.46,
+      "total_services": 3988,
+      "total_beneficiaries": 1783,
+      "avg_submitted": 170.5,
+      "avg_paid": 86.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 307559.24,
+      "total_services": 3968,
+      "total_beneficiaries": 1705,
+      "avg_submitted": 170.55,
+      "avg_paid": 84.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 265982.51,
+      "total_services": 3154,
+      "total_beneficiaries": 1234,
+      "avg_submitted": 172.83,
+      "avg_paid": 84.07
+    },
+    {
+      "year": 2021,
+      "total_payments": 213920.2,
+      "total_services": 2610,
+      "total_beneficiaries": 989,
+      "avg_submitted": 205.0,
+      "avg_paid": 85.09
+    },
+    {
+      "year": 2022,
+      "total_payments": 206193.3,
+      "total_services": 2581,
+      "total_beneficiaries": 1016,
+      "avg_submitted": 205.0,
+      "avg_paid": 82.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 296305.8,
+      "total_services": 3501,
+      "total_beneficiaries": 1378,
+      "avg_submitted": 205.0,
+      "avg_paid": 83.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8209,
+      "payments": 681598.44,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 5085,
+      "payments": 384396.21,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2049,
+      "payments": 284196.49,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4707,
+      "payments": 271550.97,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1764,
+      "payments": 267876.83,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4180,
+      "payments": 237563.71,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1615,
+      "payments": 136311.75,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 2840,
+      "payments": 102660.81,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 980,
+      "payments": 84719.46,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 554,
+      "payments": 62342.06,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 450,
+      "payments": 27313.37,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 181,
+      "payments": 19887.44,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 83,
+      "payments": 5751.68,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "G0180",
+      "description": "Physician or allowed practitioner certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians and",
+      "services": 105,
+      "payments": 4327.19,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 30,
+      "payments": 3175.2,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 61,
+      "payments": 2628.81,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 18,
+      "payments": 1932.56,
+      "avg_markup": 1.35
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2578232.98,
+    "total_services": 32911,
+    "total_beneficiaries": 14305,
+    "avg_markup_ratio": 2.12
+  }
+}

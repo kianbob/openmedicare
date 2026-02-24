@@ -1,0 +1,239 @@
+{
+  "name": "Peter Weigel",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Westfield",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 206402.66,
+      "total_services": 3818,
+      "total_beneficiaries": 1815,
+      "avg_submitted": 116.2,
+      "avg_paid": 70.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 228881.08,
+      "total_services": 4480,
+      "total_beneficiaries": 2040,
+      "avg_submitted": 94.79,
+      "avg_paid": 63.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 237478.84,
+      "total_services": 4782,
+      "total_beneficiaries": 2031,
+      "avg_submitted": 102.88,
+      "avg_paid": 73.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 219757.74,
+      "total_services": 4335,
+      "total_beneficiaries": 2055,
+      "avg_submitted": 102.85,
+      "avg_paid": 77.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 945986.41,
+      "total_services": 20846,
+      "total_beneficiaries": 7295,
+      "avg_submitted": 103.38,
+      "avg_paid": 78.04
+    },
+    {
+      "year": 2019,
+      "total_payments": 1940574.55,
+      "total_services": 46218,
+      "total_beneficiaries": 13409,
+      "avg_submitted": 97.68,
+      "avg_paid": 73.93
+    },
+    {
+      "year": 2020,
+      "total_payments": 1649433.47,
+      "total_services": 46841,
+      "total_beneficiaries": 12219,
+      "avg_submitted": 147.95,
+      "avg_paid": 54.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 1418154.23,
+      "total_services": 41292,
+      "total_beneficiaries": 9600,
+      "avg_submitted": 184.9,
+      "avg_paid": 68.75
+    },
+    {
+      "year": 2022,
+      "total_payments": 1543526.18,
+      "total_services": 30299,
+      "total_beneficiaries": 9065,
+      "avg_submitted": 194.63,
+      "avg_paid": 74.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 223520.86,
+      "total_services": 2089,
+      "total_beneficiaries": 1476,
+      "avg_submitted": 292.8,
+      "avg_paid": 118.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 147084,
+      "payments": 5497672.8,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 9167,
+      "payments": 729825.47,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 11568,
+      "payments": 422322.79,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5117,
+      "payments": 418728.47,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "G2058",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time directed by a physician or other qualified health care professional, per calendar month (list separately in addition to code for primary procedure). (do not report g2058 fo",
+      "services": 8301,
+      "payments": 268403.55,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3925,
+      "payments": 225833.76,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3693,
+      "payments": 205976.97,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1444,
+      "payments": 88142.57,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 636,
+      "payments": 82712.01,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "Q4236",
+      "description": "Carepatch, per square centimeter",
+      "services": 84,
+      "payments": 78643.05,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 495,
+      "payments": 70064.21,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 427,
+      "payments": 37526.39,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 223,
+      "payments": 37434.18,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 344,
+      "payments": 36435.94,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1339,
+      "payments": 34263.84,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 203,
+      "payments": 32760.84,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 563,
+      "payments": 31671.7,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 364,
+      "payments": 27781.08,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 93,
+      "payments": 25491.04,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 431,
+      "payments": 19089.75,
+      "avg_markup": 1.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 8613716.02,
+    "total_services": 205000,
+    "total_beneficiaries": 61005,
+    "avg_markup_ratio": 2.0
+  }
+}

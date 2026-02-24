@@ -1,0 +1,239 @@
+{
+  "name": "Alkesh Amin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Lake Jackson",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 315996.93,
+      "total_services": 5014,
+      "total_beneficiaries": 2978,
+      "avg_submitted": 213.32,
+      "avg_paid": 63.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 387641.83,
+      "total_services": 5680,
+      "total_beneficiaries": 3115,
+      "avg_submitted": 267.09,
+      "avg_paid": 67.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 316756.99,
+      "total_services": 4733,
+      "total_beneficiaries": 2615,
+      "avg_submitted": 358.58,
+      "avg_paid": 63.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 289443.25,
+      "total_services": 4405,
+      "total_beneficiaries": 2197,
+      "avg_submitted": 287.35,
+      "avg_paid": 71.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 241584.78,
+      "total_services": 3581,
+      "total_beneficiaries": 1715,
+      "avg_submitted": 146.1,
+      "avg_paid": 62.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 278414.13,
+      "total_services": 3843,
+      "total_beneficiaries": 1592,
+      "avg_submitted": 145.78,
+      "avg_paid": 75.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 248627.85,
+      "total_services": 3426,
+      "total_beneficiaries": 1502,
+      "avg_submitted": 167.95,
+      "avg_paid": 82.68
+    },
+    {
+      "year": 2021,
+      "total_payments": 284505.6,
+      "total_services": 3337,
+      "total_beneficiaries": 1429,
+      "avg_submitted": 182.63,
+      "avg_paid": 94.23
+    },
+    {
+      "year": 2022,
+      "total_payments": 263094.74,
+      "total_services": 3196,
+      "total_beneficiaries": 1572,
+      "avg_submitted": 183.53,
+      "avg_paid": 90.38
+    },
+    {
+      "year": 2023,
+      "total_payments": 283911.7,
+      "total_services": 3189,
+      "total_beneficiaries": 1776,
+      "avg_submitted": 180.41,
+      "avg_paid": 91.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14863,
+      "payments": 1163153.73,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6294,
+      "payments": 357861.14,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5852,
+      "payments": 302937.65,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1682,
+      "payments": 264490.18,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 827,
+      "payments": 119625.84,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1078,
+      "payments": 91726.57,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1037,
+      "payments": 84753.29,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 349,
+      "payments": 75385.02,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1258,
+      "payments": 71637.81,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 364,
+      "payments": 59307.82,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1484,
+      "payments": 45789.69,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 408,
+      "payments": 43411.18,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 746,
+      "payments": 42597.22,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 189,
+      "payments": 27039.2,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 626,
+      "payments": 20073.79,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 394,
+      "payments": 16802.5,
+      "avg_markup": 9.66
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 286,
+      "payments": 16352.89,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 130,
+      "payments": 14764.09,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 325,
+      "payments": 13748.98,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 85,
+      "payments": 13595.82,
+      "avg_markup": 1.85
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2909977.81,
+    "total_services": 40404,
+    "total_beneficiaries": 20491,
+    "avg_markup_ratio": 2.72
+  }
+}

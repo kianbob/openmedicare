@@ -1,0 +1,239 @@
+{
+  "name": "Gregory Glance",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Asheville",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 441778.67,
+      "total_services": 15870,
+      "total_beneficiaries": 10488,
+      "avg_submitted": 50.9,
+      "avg_paid": 38.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 477102.31,
+      "total_services": 17014,
+      "total_beneficiaries": 11480,
+      "avg_submitted": 49.9,
+      "avg_paid": 40.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 403958.81,
+      "total_services": 15590,
+      "total_beneficiaries": 10105,
+      "avg_submitted": 50.41,
+      "avg_paid": 41.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 377412.04,
+      "total_services": 14450,
+      "total_beneficiaries": 9467,
+      "avg_submitted": 50.82,
+      "avg_paid": 39.86
+    },
+    {
+      "year": 2018,
+      "total_payments": 361444.58,
+      "total_services": 13895,
+      "total_beneficiaries": 9197,
+      "avg_submitted": 53.62,
+      "avg_paid": 40.8
+    },
+    {
+      "year": 2019,
+      "total_payments": 371239.83,
+      "total_services": 14237,
+      "total_beneficiaries": 9497,
+      "avg_submitted": 56.27,
+      "avg_paid": 42.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 313622.4,
+      "total_services": 12033,
+      "total_beneficiaries": 8523,
+      "avg_submitted": 57.79,
+      "avg_paid": 44.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 346124.36,
+      "total_services": 12825,
+      "total_beneficiaries": 8977,
+      "avg_submitted": 78.8,
+      "avg_paid": 52.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 447533.59,
+      "total_services": 14696,
+      "total_beneficiaries": 11097,
+      "avg_submitted": 111.33,
+      "avg_paid": 55.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 614453.28,
+      "total_services": 19722,
+      "total_beneficiaries": 13064,
+      "avg_submitted": 109.68,
+      "avg_paid": 52.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12042,
+      "payments": 852730.53,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 6368,
+      "payments": 728909.94,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 11023,
+      "payments": 529210.86,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 9184,
+      "payments": 176900.2,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 10717,
+      "payments": 147230.07,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 869,
+      "payments": 143634.78,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 2896,
+      "payments": 138305.36,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 13007,
+      "payments": 132852.41,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 2241,
+      "payments": 103655.81,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 3127,
+      "payments": 96258.7,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 10361,
+      "payments": 91981.55,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 3227,
+      "payments": 65826.14,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5706,
+      "payments": 60362.14,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 5384,
+      "payments": 58501.5,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 15998,
+      "payments": 58085.35,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 2558,
+      "payments": 54800.27,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 5965,
+      "payments": 54474.44,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 382,
+      "payments": 53421.62,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 491,
+      "payments": 46718.02,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 283,
+      "payments": 45070.73,
+      "avg_markup": 1.09
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4154669.88,
+    "total_services": 150332,
+    "total_beneficiaries": 101895,
+    "avg_markup_ratio": 1.64
+  }
+}

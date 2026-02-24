@@ -1,0 +1,239 @@
+{
+  "name": "Ronald Ryder",
+  "credentials": "DO",
+  "specialty": "Cardiology",
+  "city": "Hamilton",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 537668.58,
+      "total_services": 7049,
+      "total_beneficiaries": 4670,
+      "avg_submitted": 276.38,
+      "avg_paid": 92.7
+    },
+    {
+      "year": 2015,
+      "total_payments": 628838.41,
+      "total_services": 9523,
+      "total_beneficiaries": 5495,
+      "avg_submitted": 244.37,
+      "avg_paid": 84.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 640214.98,
+      "total_services": 9419,
+      "total_beneficiaries": 5760,
+      "avg_submitted": 237.06,
+      "avg_paid": 80.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 545732.15,
+      "total_services": 8482,
+      "total_beneficiaries": 5146,
+      "avg_submitted": 227.57,
+      "avg_paid": 77.01
+    },
+    {
+      "year": 2018,
+      "total_payments": 657332.07,
+      "total_services": 11345,
+      "total_beneficiaries": 5273,
+      "avg_submitted": 234.29,
+      "avg_paid": 75.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 571068.68,
+      "total_services": 9087,
+      "total_beneficiaries": 4547,
+      "avg_submitted": 234.17,
+      "avg_paid": 77.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 398591.22,
+      "total_services": 6590,
+      "total_beneficiaries": 3284,
+      "avg_submitted": 242.11,
+      "avg_paid": 80.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 672850.94,
+      "total_services": 11019,
+      "total_beneficiaries": 4632,
+      "avg_submitted": 216.18,
+      "avg_paid": 82.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 716319.71,
+      "total_services": 11133,
+      "total_beneficiaries": 4272,
+      "avg_submitted": 231.02,
+      "avg_paid": 83.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 548736.72,
+      "total_services": 9123,
+      "total_beneficiaries": 3537,
+      "avg_submitted": 266.98,
+      "avg_paid": 92.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 21758,
+      "payments": 1938587.92,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2491,
+      "payments": 1048196.58,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 15591,
+      "payments": 604625.38,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2564,
+      "payments": 420367.15,
+      "avg_markup": 6.29
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2205,
+      "payments": 280978.87,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 16623,
+      "payments": 218965.87,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 4101,
+      "payments": 199638.95,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 3493,
+      "payments": 197384.85,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2159,
+      "payments": 184905.34,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 3603,
+      "payments": 155040.48,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 1399,
+      "payments": 99075.42,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 589,
+      "payments": 96460.26,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 2155,
+      "payments": 92780.18,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1061,
+      "payments": 70381.0,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "G0506",
+      "description": "Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service)",
+      "services": 813,
+      "payments": 42551.08,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 680,
+      "payments": 40646.49,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 303,
+      "payments": 38769.99,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 1105,
+      "payments": 38726.12,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 448,
+      "payments": 23104.0,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 2502,
+      "payments": 17469.61,
+      "avg_markup": 5.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5917353.47,
+    "total_services": 92770,
+    "total_beneficiaries": 46616,
+    "avg_markup_ratio": 2.68
+  }
+}

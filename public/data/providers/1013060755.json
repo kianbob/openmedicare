@@ -1,0 +1,109 @@
+{
+  "name": "Southwest Medical Services Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Washington",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 430613.51,
+      "total_services": 3084,
+      "total_beneficiaries": 1958,
+      "avg_submitted": 419.58,
+      "avg_paid": 232.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 486409.97,
+      "total_services": 3485,
+      "total_beneficiaries": 2040,
+      "avg_submitted": 419.62,
+      "avg_paid": 234.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 429758.05,
+      "total_services": 3147,
+      "total_beneficiaries": 1797,
+      "avg_submitted": 545.33,
+      "avg_paid": 231.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 414710.64,
+      "total_services": 2857,
+      "total_beneficiaries": 1858,
+      "avg_submitted": 977.7,
+      "avg_paid": 233.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 393326.96,
+      "total_services": 2841,
+      "total_beneficiaries": 1854,
+      "avg_submitted": 1335.28,
+      "avg_paid": 229.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 221382.95,
+      "total_services": 1474,
+      "total_beneficiaries": 1044,
+      "avg_submitted": 1347.5,
+      "avg_paid": 246.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 4405,
+      "payments": 1386207.26,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1646,
+      "payments": 437180.04,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 1802,
+      "payments": 292633.86,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 794,
+      "payments": 158319.25,
+      "avg_markup": 4.62
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 8146,
+      "payments": 58843.78,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 95,
+      "payments": 43017.89,
+      "avg_markup": 3.33
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 2376202.09,
+    "total_services": 16888,
+    "total_beneficiaries": 10551,
+    "avg_markup_ratio": 3.22
+  }
+}

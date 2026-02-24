@@ -1,0 +1,239 @@
+{
+  "name": "James Daly",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Savannah",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 281540.41,
+      "total_services": 3359,
+      "total_beneficiaries": 2789,
+      "avg_submitted": 121.69,
+      "avg_paid": 69.56
+    },
+    {
+      "year": 2015,
+      "total_payments": 332147.58,
+      "total_services": 3386,
+      "total_beneficiaries": 2835,
+      "avg_submitted": 144.0,
+      "avg_paid": 83.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 432344.25,
+      "total_services": 4747,
+      "total_beneficiaries": 3641,
+      "avg_submitted": 140.12,
+      "avg_paid": 81.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 464058.65,
+      "total_services": 5258,
+      "total_beneficiaries": 3992,
+      "avg_submitted": 126.85,
+      "avg_paid": 74.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 492626.0,
+      "total_services": 5790,
+      "total_beneficiaries": 4358,
+      "avg_submitted": 132.06,
+      "avg_paid": 76.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 458040.76,
+      "total_services": 5675,
+      "total_beneficiaries": 4280,
+      "avg_submitted": 118.37,
+      "avg_paid": 71.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 361798.0,
+      "total_services": 4220,
+      "total_beneficiaries": 3251,
+      "avg_submitted": 144.57,
+      "avg_paid": 87.32
+    },
+    {
+      "year": 2021,
+      "total_payments": 330861.08,
+      "total_services": 3748,
+      "total_beneficiaries": 3211,
+      "avg_submitted": 109.8,
+      "avg_paid": 75.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 267506.81,
+      "total_services": 2423,
+      "total_beneficiaries": 2179,
+      "avg_submitted": 148.02,
+      "avg_paid": 95.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 283279.3,
+      "total_services": 3879,
+      "total_beneficiaries": 2617,
+      "avg_submitted": 128.09,
+      "avg_paid": 86.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 3061,
+      "payments": 1205383.73,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 12460,
+      "payments": 635601.2,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 1485,
+      "payments": 606098.82,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5465,
+      "payments": 415222.9,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2269,
+      "payments": 251342.46,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 656,
+      "payments": 69742.42,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "94762",
+      "description": "Overnight measurement of oxygen saturation in blood using ear or finger device",
+      "services": 4346,
+      "payments": 68274.13,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 2768,
+      "payments": 65715.21,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1359,
+      "payments": 50199.6,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 414,
+      "payments": 47289.31,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 319,
+      "payments": 45878.16,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 1348,
+      "payments": 39613.21,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1059,
+      "payments": 37018.86,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 790,
+      "payments": 29648.57,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 765,
+      "payments": 27670.94,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "95806",
+      "description": "Unattended sleep study with recording of heart rate, oxygen, respiratory airflow and effort",
+      "services": 558,
+      "payments": 25924.83,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "95800",
+      "description": "Sleep study including heart rate, breathing, and sleep time",
+      "services": 153,
+      "payments": 16019.32,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "G0296",
+      "description": "Counseling visit to discuss need for lung cancer screening using low dose ct scan (ldct) (service is for eligibility determination and shared decision making)",
+      "services": 398,
+      "payments": 10938.74,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient use of aerosol generator, nebulizer, metered dose inhaler or intermittent positive pressure breathing (IPPB) device",
+      "services": 555,
+      "payments": 6487.56,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 458,
+      "payments": 5988.39,
+      "avg_markup": 1.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3704202.83,
+    "total_services": 42485,
+    "total_beneficiaries": 33153,
+    "avg_markup_ratio": 1.65
+  }
+}

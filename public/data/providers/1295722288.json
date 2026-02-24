@@ -1,0 +1,239 @@
+{
+  "name": "James Chambers",
+  "credentials": "D.O.",
+  "specialty": "Cardiology",
+  "city": "Flint",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 448475.38,
+      "total_services": 6221,
+      "total_beneficiaries": 4738,
+      "avg_submitted": 182.85,
+      "avg_paid": 77.5
+    },
+    {
+      "year": 2015,
+      "total_payments": 468488.02,
+      "total_services": 6971,
+      "total_beneficiaries": 4615,
+      "avg_submitted": 183.47,
+      "avg_paid": 75.7
+    },
+    {
+      "year": 2016,
+      "total_payments": 498240.21,
+      "total_services": 7659,
+      "total_beneficiaries": 4957,
+      "avg_submitted": 171.1,
+      "avg_paid": 70.03
+    },
+    {
+      "year": 2017,
+      "total_payments": 496873.38,
+      "total_services": 7572,
+      "total_beneficiaries": 4831,
+      "avg_submitted": 160.09,
+      "avg_paid": 68.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 414486.8,
+      "total_services": 5586,
+      "total_beneficiaries": 3724,
+      "avg_submitted": 180.32,
+      "avg_paid": 86.46
+    },
+    {
+      "year": 2019,
+      "total_payments": 385318.58,
+      "total_services": 5777,
+      "total_beneficiaries": 3796,
+      "avg_submitted": 201.2,
+      "avg_paid": 83.7
+    },
+    {
+      "year": 2020,
+      "total_payments": 347485.99,
+      "total_services": 4780,
+      "total_beneficiaries": 3382,
+      "avg_submitted": 206.86,
+      "avg_paid": 86.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 387798.13,
+      "total_services": 4981,
+      "total_beneficiaries": 3422,
+      "avg_submitted": 223.14,
+      "avg_paid": 97.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 376525.63,
+      "total_services": 4847,
+      "total_beneficiaries": 3352,
+      "avg_submitted": 217.54,
+      "avg_paid": 97.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 317301.44,
+      "total_services": 4506,
+      "total_beneficiaries": 3110,
+      "avg_submitted": 229.76,
+      "avg_paid": 94.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10380,
+      "payments": 803600.9,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1676,
+      "payments": 591849.0,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4040,
+      "payments": 501438.9,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1679,
+      "payments": 458394.24,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5659,
+      "payments": 320229.88,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1632,
+      "payments": 173775.86,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "93299",
+      "description": "Remote evaluations of implantable heart recorder system including transmissions, technician review, support, and distribution of results up to 30 days",
+      "services": 1316,
+      "payments": 132299.59,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1193,
+      "payments": 131535.68,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 11173,
+      "payments": 119907.93,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 159,
+      "payments": 94613.37,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1716,
+      "payments": 82469.27,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 1002,
+      "payments": 75711.62,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 329,
+      "payments": 70565.98,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 1397,
+      "payments": 58769.31,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 805,
+      "payments": 46283.88,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "93298",
+      "description": "Remote evaluations of implantable heart recorder system including physician analysis, review, and report up to 30 days",
+      "services": 2334,
+      "payments": 45863.68,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 238,
+      "payments": 44963.19,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 953,
+      "payments": 41741.82,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 249,
+      "payments": 38748.24,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 364,
+      "payments": 29697.26,
+      "avg_markup": 1.84
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4140993.56,
+    "total_services": 58900,
+    "total_beneficiaries": 39927,
+    "avg_markup_ratio": 2.21
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Carl Vance",
+  "credentials": "MD",
+  "specialty": "Endocrinology",
+  "city": "Idaho Falls",
+  "state": "ID",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 411264.56,
+      "total_services": 20005,
+      "total_beneficiaries": 11797,
+      "avg_submitted": 69.76,
+      "avg_paid": 23.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 456146.42,
+      "total_services": 21272,
+      "total_beneficiaries": 12701,
+      "avg_submitted": 74.58,
+      "avg_paid": 26.19
+    },
+    {
+      "year": 2016,
+      "total_payments": 503894.23,
+      "total_services": 23610,
+      "total_beneficiaries": 14258,
+      "avg_submitted": 72.87,
+      "avg_paid": 25.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 463725.09,
+      "total_services": 21980,
+      "total_beneficiaries": 14160,
+      "avg_submitted": 76.89,
+      "avg_paid": 26.71
+    },
+    {
+      "year": 2018,
+      "total_payments": 492899.88,
+      "total_services": 22683,
+      "total_beneficiaries": 14575,
+      "avg_submitted": 79.28,
+      "avg_paid": 27.49
+    },
+    {
+      "year": 2019,
+      "total_payments": 379424.96,
+      "total_services": 19063,
+      "total_beneficiaries": 12831,
+      "avg_submitted": 69.64,
+      "avg_paid": 20.93
+    },
+    {
+      "year": 2020,
+      "total_payments": 303396.36,
+      "total_services": 15987,
+      "total_beneficiaries": 10689,
+      "avg_submitted": 69.1,
+      "avg_paid": 19.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 298908.13,
+      "total_services": 14357,
+      "total_beneficiaries": 9874,
+      "avg_submitted": 73.56,
+      "avg_paid": 21.62
+    },
+    {
+      "year": 2022,
+      "total_payments": 272023.4,
+      "total_services": 13217,
+      "total_beneficiaries": 9293,
+      "avg_submitted": 73.39,
+      "avg_paid": 21.4
+    },
+    {
+      "year": 2023,
+      "total_payments": 94363.77,
+      "total_services": 5115,
+      "total_beneficiaries": 4725,
+      "avg_submitted": 79.95,
+      "avg_paid": 20.95
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14368,
+      "payments": 972738.48,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 10323,
+      "payments": 511623.96,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 10412,
+      "payments": 370265.71,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 14794,
+      "payments": 176286.55,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 8435,
+      "payments": 163635.28,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3302,
+      "payments": 146861.68,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 14876,
+      "payments": 145701.59,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 10239,
+      "payments": 139402.57,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1137,
+      "payments": 120281.26,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6797,
+      "payments": 69925.39,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 3373,
+      "payments": 65463.39,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 20931,
+      "payments": 65026.15,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "85027",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 7412,
+      "payments": 50563.88,
+      "avg_markup": 5.13
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2324,
+      "payments": 48611.3,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 2947,
+      "payments": 48266.71,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "82043",
+      "description": "Urine microalbumin (protein) level",
+      "services": 6328,
+      "payments": 43513.93,
+      "avg_markup": 6.69
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 6770,
+      "payments": 41616.45,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 3417,
+      "payments": 35243.3,
+      "avg_markup": 5.37
+    },
+    {
+      "code": "90686",
+      "description": "Vaccine for influenza administered into muscle to individuals 3 years of age and older",
+      "services": 1717,
+      "payments": 32044.05,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 1326,
+      "payments": 29222.67,
+      "avg_markup": 3.55
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3676046.81,
+    "total_services": 177289,
+    "total_beneficiaries": 114903,
+    "avg_markup_ratio": 3.07
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Trans Life Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Van Nuys",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1832133.83,
+      "total_services": 16996,
+      "total_beneficiaries": 5491,
+      "avg_submitted": 674.85,
+      "avg_paid": 280.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 1585909.37,
+      "total_services": 11540,
+      "total_beneficiaries": 8537,
+      "avg_submitted": 602.44,
+      "avg_paid": 171.19
+    },
+    {
+      "year": 2016,
+      "total_payments": 860364.87,
+      "total_services": 5715,
+      "total_beneficiaries": 4571,
+      "avg_submitted": 629.52,
+      "avg_paid": 171.75
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 7874,
+      "payments": 2465563.13,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 9349,
+      "payments": 1706322.79,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 17007,
+      "payments": 93286.89,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 21,
+      "payments": 13235.25,
+      "avg_markup": 1.6
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 4278408.06,
+    "total_services": 34251,
+    "total_beneficiaries": 18599,
+    "avg_markup_ratio": 3.56
+  }
+}

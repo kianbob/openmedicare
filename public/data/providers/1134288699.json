@@ -1,0 +1,239 @@
+{
+  "name": "Parham Haghighi",
+  "credentials": "M.D.",
+  "specialty": "Hospitalist",
+  "city": "Vienna",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 443118.47,
+      "total_services": 5678,
+      "total_beneficiaries": 2410,
+      "avg_submitted": 125.52,
+      "avg_paid": 86.7
+    },
+    {
+      "year": 2015,
+      "total_payments": 185785.57,
+      "total_services": 2310,
+      "total_beneficiaries": 1250,
+      "avg_submitted": 145.79,
+      "avg_paid": 87.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 264489.31,
+      "total_services": 3463,
+      "total_beneficiaries": 1589,
+      "avg_submitted": 149.19,
+      "avg_paid": 83.29
+    },
+    {
+      "year": 2017,
+      "total_payments": 431782.62,
+      "total_services": 5538,
+      "total_beneficiaries": 2134,
+      "avg_submitted": 149.67,
+      "avg_paid": 83.73
+    },
+    {
+      "year": 2018,
+      "total_payments": 458007.68,
+      "total_services": 5351,
+      "total_beneficiaries": 2317,
+      "avg_submitted": 154.93,
+      "avg_paid": 91.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 516731.12,
+      "total_services": 5722,
+      "total_beneficiaries": 2334,
+      "avg_submitted": 160.1,
+      "avg_paid": 100.59
+    },
+    {
+      "year": 2020,
+      "total_payments": 236793.75,
+      "total_services": 2572,
+      "total_beneficiaries": 1174,
+      "avg_submitted": 174.48,
+      "avg_paid": 106.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 257547.96,
+      "total_services": 2849,
+      "total_beneficiaries": 1328,
+      "avg_submitted": 174.29,
+      "avg_paid": 97.21
+    },
+    {
+      "year": 2022,
+      "total_payments": 212533.71,
+      "total_services": 2339,
+      "total_beneficiaries": 1077,
+      "avg_submitted": 265.49,
+      "avg_paid": 104.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 86198.96,
+      "total_services": 910,
+      "total_beneficiaries": 435,
+      "avg_submitted": 260.94,
+      "avg_paid": 111.42
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15503,
+      "payments": 970527.47,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6331,
+      "payments": 577841.37,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1901,
+      "payments": 333824.87,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3343,
+      "payments": 314128.48,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2295,
+      "payments": 271215.38,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2693,
+      "payments": 253675.54,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 906,
+      "payments": 69141.82,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 513,
+      "payments": 58465.98,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 956,
+      "payments": 53587.3,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 383,
+      "payments": 43275.29,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 640,
+      "payments": 40604.3,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 239,
+      "payments": 35972.74,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 148,
+      "payments": 11380.76,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 76,
+      "payments": 10745.72,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 140,
+      "payments": 8851.51,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 133,
+      "payments": 7923.02,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services for problem of high complexity",
+      "services": 21,
+      "payments": 5229.0,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 26,
+      "payments": 3726.89,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 23,
+      "payments": 2988.58,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 24,
+      "payments": 2821.92,
+      "avg_markup": 1.37
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3092989.15,
+    "total_services": 36732,
+    "total_beneficiaries": 16048,
+    "avg_markup_ratio": 1.94
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "David Walker",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Raleigh",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 292302.01,
+      "total_services": 4130,
+      "total_beneficiaries": 3487,
+      "avg_submitted": 303.25,
+      "avg_paid": 71.03
+    },
+    {
+      "year": 2015,
+      "total_payments": 326641.87,
+      "total_services": 4938,
+      "total_beneficiaries": 4282,
+      "avg_submitted": 273.19,
+      "avg_paid": 66.44
+    },
+    {
+      "year": 2016,
+      "total_payments": 356985.84,
+      "total_services": 5744,
+      "total_beneficiaries": 4871,
+      "avg_submitted": 291.8,
+      "avg_paid": 68.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 356430.56,
+      "total_services": 5844,
+      "total_beneficiaries": 4977,
+      "avg_submitted": 276.55,
+      "avg_paid": 63.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 355184.11,
+      "total_services": 5488,
+      "total_beneficiaries": 4713,
+      "avg_submitted": 295.65,
+      "avg_paid": 68.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 354237.78,
+      "total_services": 5283,
+      "total_beneficiaries": 4465,
+      "avg_submitted": 277.14,
+      "avg_paid": 65.52
+    },
+    {
+      "year": 2020,
+      "total_payments": 294205.28,
+      "total_services": 4503,
+      "total_beneficiaries": 3952,
+      "avg_submitted": 284.46,
+      "avg_paid": 68.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 296883.2,
+      "total_services": 4516,
+      "total_beneficiaries": 3908,
+      "avg_submitted": 285.95,
+      "avg_paid": 65.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 278631.44,
+      "total_services": 4754,
+      "total_beneficiaries": 3985,
+      "avg_submitted": 278.2,
+      "avg_paid": 61.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 979536.61,
+      "total_services": 12366,
+      "total_beneficiaries": 4553,
+      "avg_submitted": 280.57,
+      "avg_paid": 60.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8641,
+      "payments": 676841.31,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "G0422",
+      "description": "Intensive cardiac rehabilitation; with or without continuous ecg monitoring with exercise, per session",
+      "services": 6479,
+      "payments": 600721.8,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5549,
+      "payments": 410863.8,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 2129,
+      "payments": 250783.66,
+      "avg_markup": 4.46
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1185,
+      "payments": 217789.65,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3597,
+      "payments": 201651.84,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 1083,
+      "payments": 173389.05,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1345,
+      "payments": 154153.16,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "G0423",
+      "description": "Intensive cardiac rehabilitation; with or without continuous ecg monitoring; without exercise, per session",
+      "services": 1157,
+      "payments": 107277.12,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 403,
+      "payments": 91364.41,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1076,
+      "payments": 88020.05,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 765,
+      "payments": 80162.67,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 559,
+      "payments": 66703.41,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 334,
+      "payments": 49772.79,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 574,
+      "payments": 47451.94,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 929,
+      "payments": 45539.4,
+      "avg_markup": 6.22
+    },
+    {
+      "code": "93975",
+      "description": "Ultrasound scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 219,
+      "payments": 40994.61,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 449,
+      "payments": 40063.76,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 358,
+      "payments": 39680.74,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 782,
+      "payments": 33796.41,
+      "avg_markup": 2.59
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3891038.68,
+    "total_services": 57566,
+    "total_beneficiaries": 43193,
+    "avg_markup_ratio": 4.04
+  }
+}

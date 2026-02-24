@@ -1,0 +1,239 @@
+{
+  "name": "Basel Skeif",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Tucson",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 286305.36,
+      "total_services": 4219,
+      "total_beneficiaries": 2865,
+      "avg_submitted": 332.86,
+      "avg_paid": 98.27
+    },
+    {
+      "year": 2015,
+      "total_payments": 356029.51,
+      "total_services": 5210,
+      "total_beneficiaries": 3680,
+      "avg_submitted": 328.33,
+      "avg_paid": 98.8
+    },
+    {
+      "year": 2016,
+      "total_payments": 355108.89,
+      "total_services": 4614,
+      "total_beneficiaries": 3076,
+      "avg_submitted": 325.99,
+      "avg_paid": 96.5
+    },
+    {
+      "year": 2017,
+      "total_payments": 323131.91,
+      "total_services": 4976,
+      "total_beneficiaries": 3485,
+      "avg_submitted": 293.2,
+      "avg_paid": 82.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 304909.87,
+      "total_services": 4851,
+      "total_beneficiaries": 3446,
+      "avg_submitted": 221.8,
+      "avg_paid": 77.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 305049.47,
+      "total_services": 4795,
+      "total_beneficiaries": 3159,
+      "avg_submitted": 291.29,
+      "avg_paid": 85.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 266827.48,
+      "total_services": 4343,
+      "total_beneficiaries": 2954,
+      "avg_submitted": 291.98,
+      "avg_paid": 81.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 380159.04,
+      "total_services": 4691,
+      "total_beneficiaries": 3323,
+      "avg_submitted": 393.44,
+      "avg_paid": 126.86
+    },
+    {
+      "year": 2022,
+      "total_payments": 534095.26,
+      "total_services": 5194,
+      "total_beneficiaries": 3877,
+      "avg_submitted": 510.72,
+      "avg_paid": 168.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 835659.99,
+      "total_services": 5147,
+      "total_beneficiaries": 4085,
+      "avg_submitted": 470.06,
+      "avg_paid": 151.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13373,
+      "payments": 1075429.97,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5226,
+      "payments": 629327.74,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "78431",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress with concurrent ct scan",
+      "services": 328,
+      "payments": 461645.35,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1748,
+      "payments": 252453.56,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 419,
+      "payments": 173534.15,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2424,
+      "payments": 137338.59,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2707,
+      "payments": 136049.62,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1214,
+      "payments": 132746.15,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 690,
+      "payments": 108438.81,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "78492",
+      "description": "Multiple nuclear medicine studies of blood flow in heart muscle at rest and with stress",
+      "services": 89,
+      "payments": 98460.22,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 500,
+      "payments": 93253.47,
+      "avg_markup": 6.6
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 188,
+      "payments": 81762.2,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 188,
+      "payments": 70885.11,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1005,
+      "payments": 53232.51,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4643,
+      "payments": 52539.25,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 933,
+      "payments": 43845.5,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 449,
+      "payments": 36673.87,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 536,
+      "payments": 32669.81,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 4209,
+      "payments": 27173.27,
+      "avg_markup": 6.67
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 585,
+      "payments": 25999.09,
+      "avg_markup": 2.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3947276.79,
+    "total_services": 48040,
+    "total_beneficiaries": 33950,
+    "avg_markup_ratio": 2.89
+  }
+}

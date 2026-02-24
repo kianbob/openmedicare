@@ -1,0 +1,239 @@
+{
+  "name": "Bhavesh Gandhi",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Joliet",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 540814.32,
+      "total_services": 8088,
+      "total_beneficiaries": 3195,
+      "avg_submitted": 168.7,
+      "avg_paid": 68.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 478425.36,
+      "total_services": 8041,
+      "total_beneficiaries": 3545,
+      "avg_submitted": 164.41,
+      "avg_paid": 68.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 496592.44,
+      "total_services": 8221,
+      "total_beneficiaries": 3556,
+      "avg_submitted": 213.88,
+      "avg_paid": 71.56
+    },
+    {
+      "year": 2017,
+      "total_payments": 566182.58,
+      "total_services": 9339,
+      "total_beneficiaries": 3614,
+      "avg_submitted": 238.03,
+      "avg_paid": 74.49
+    },
+    {
+      "year": 2018,
+      "total_payments": 514264.28,
+      "total_services": 7899,
+      "total_beneficiaries": 3377,
+      "avg_submitted": 230.57,
+      "avg_paid": 70.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 549003.92,
+      "total_services": 7893,
+      "total_beneficiaries": 3038,
+      "avg_submitted": 240.17,
+      "avg_paid": 70.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 619882.99,
+      "total_services": 10238,
+      "total_beneficiaries": 3226,
+      "avg_submitted": 265.84,
+      "avg_paid": 76.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 1080546.46,
+      "total_services": 21407,
+      "total_beneficiaries": 4362,
+      "avg_submitted": 234.4,
+      "avg_paid": 72.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 1096961.33,
+      "total_services": 21979,
+      "total_beneficiaries": 3605,
+      "avg_submitted": 248.34,
+      "avg_paid": 73.1
+    },
+    {
+      "year": 2023,
+      "total_payments": 985434.78,
+      "total_services": 19996,
+      "total_beneficiaries": 3289,
+      "avg_submitted": 236.82,
+      "avg_paid": 69.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 24416,
+      "payments": 1482109.49,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13473,
+      "payments": 1132695.1,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 10863,
+      "payments": 502662.66,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 11750,
+      "payments": 476296.88,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3727,
+      "payments": 422195.58,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 9273,
+      "payments": 400319.0,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 3788,
+      "payments": 387051.67,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 11185,
+      "payments": 370237.45,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 6951,
+      "payments": 255676.7,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2063,
+      "payments": 221814.07,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1819,
+      "payments": 163998.79,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2112,
+      "payments": 127720.11,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 1153,
+      "payments": 113079.85,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1534,
+      "payments": 107716.35,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 631,
+      "payments": 89896.32,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1433,
+      "payments": 85325.23,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 619,
+      "payments": 75639.26,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 605,
+      "payments": 52868.04,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 307,
+      "payments": 51217.02,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "69210",
+      "description": "Removal of impact ear wax, one ear",
+      "services": 1135,
+      "payments": 41395.21,
+      "avg_markup": 3.66
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6928108.47,
+    "total_services": 123101,
+    "total_beneficiaries": 34807,
+    "avg_markup_ratio": 3.13
+  }
+}

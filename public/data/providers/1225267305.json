@@ -1,0 +1,183 @@
+{
+  "name": "Babadele Oyedepo",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 300653.04,
+      "total_services": 3613,
+      "total_beneficiaries": 2309,
+      "avg_submitted": 165.55,
+      "avg_paid": 91.05
+    },
+    {
+      "year": 2015,
+      "total_payments": 338883.92,
+      "total_services": 4340,
+      "total_beneficiaries": 2182,
+      "avg_submitted": 164.9,
+      "avg_paid": 91.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 296538.94,
+      "total_services": 3595,
+      "total_beneficiaries": 2013,
+      "avg_submitted": 162.74,
+      "avg_paid": 90.42
+    },
+    {
+      "year": 2017,
+      "total_payments": 375796.57,
+      "total_services": 4380,
+      "total_beneficiaries": 2577,
+      "avg_submitted": 153.43,
+      "avg_paid": 88.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 389367.13,
+      "total_services": 4543,
+      "total_beneficiaries": 2577,
+      "avg_submitted": 193.73,
+      "avg_paid": 92.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 332218.32,
+      "total_services": 3704,
+      "total_beneficiaries": 2033,
+      "avg_submitted": 209.8,
+      "avg_paid": 97.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 360174.96,
+      "total_services": 2449,
+      "total_beneficiaries": 2200,
+      "avg_submitted": 328.75,
+      "avg_paid": 139.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 309833.74,
+      "total_services": 2182,
+      "total_beneficiaries": 1966,
+      "avg_submitted": 259.25,
+      "avg_paid": 112.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 258899.16,
+      "total_services": 1833,
+      "total_beneficiaries": 1668,
+      "avg_submitted": 259.25,
+      "avg_paid": 110.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 195621.0,
+      "total_services": 1528,
+      "total_beneficiaries": 1399,
+      "avg_submitted": 268.5,
+      "avg_paid": 110.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 12044,
+      "payments": 1725813.35,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6898,
+      "payments": 526828.1,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8226,
+      "payments": 434916.34,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2843,
+      "payments": 221955.25,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1337,
+      "payments": 176542.59,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 174,
+      "payments": 27922.74,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 145,
+      "payments": 13975.29,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 243,
+      "payments": 12475.48,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 110,
+      "payments": 7773.21,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 101,
+      "payments": 6900.24,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 33,
+      "payments": 1730.11,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 13,
+      "payments": 1154.08,
+      "avg_markup": 2.02
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3157986.78,
+    "total_services": 32167,
+    "total_beneficiaries": 20924,
+    "avg_markup_ratio": 1.95
+  }
+}

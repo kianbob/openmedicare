@@ -1,0 +1,239 @@
+{
+  "name": "Ahmed Bhatti",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Granbury",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 258977.65,
+      "total_services": 3850,
+      "total_beneficiaries": 2189,
+      "avg_submitted": 256.21,
+      "avg_paid": 63.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 407929.07,
+      "total_services": 5551,
+      "total_beneficiaries": 3095,
+      "avg_submitted": 280.39,
+      "avg_paid": 72.9
+    },
+    {
+      "year": 2016,
+      "total_payments": 373257.12,
+      "total_services": 5228,
+      "total_beneficiaries": 2946,
+      "avg_submitted": 328.12,
+      "avg_paid": 75.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 388840.56,
+      "total_services": 5648,
+      "total_beneficiaries": 3269,
+      "avg_submitted": 317.4,
+      "avg_paid": 68.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 330383.21,
+      "total_services": 4855,
+      "total_beneficiaries": 2903,
+      "avg_submitted": 250.96,
+      "avg_paid": 60.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 302079.68,
+      "total_services": 4376,
+      "total_beneficiaries": 2774,
+      "avg_submitted": 266.25,
+      "avg_paid": 59.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 243853.78,
+      "total_services": 3539,
+      "total_beneficiaries": 2247,
+      "avg_submitted": 298.82,
+      "avg_paid": 68.76
+    },
+    {
+      "year": 2021,
+      "total_payments": 282021.8,
+      "total_services": 3771,
+      "total_beneficiaries": 2432,
+      "avg_submitted": 303.29,
+      "avg_paid": 65.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 234895.1,
+      "total_services": 3820,
+      "total_beneficiaries": 2689,
+      "avg_submitted": 228.94,
+      "avg_paid": 45.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 234574.89,
+      "total_services": 3443,
+      "total_beneficiaries": 2254,
+      "avg_submitted": 199.79,
+      "avg_paid": 39.85
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 20839,
+      "payments": 1661878.97,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4202,
+      "payments": 335973.63,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2080,
+      "payments": 237736.61,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1156,
+      "payments": 176963.0,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3030,
+      "payments": 168190.74,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 673,
+      "payments": 83455.23,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 566,
+      "payments": 82860.71,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 585,
+      "payments": 64323.41,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 260,
+      "payments": 43486.06,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 650,
+      "payments": 30437.61,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 3097,
+      "payments": 28817.09,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 3259,
+      "payments": 22688.66,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 542,
+      "payments": 22476.32,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 235,
+      "payments": 18143.2,
+      "avg_markup": 5.75
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 159,
+      "payments": 16365.51,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 399,
+      "payments": 15855.25,
+      "avg_markup": 6.44
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 220,
+      "payments": 11335.8,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "95806",
+      "description": "Unattended sleep study with recording of heart rate, oxygen, respiratory airflow and effort",
+      "services": 86,
+      "payments": 10969.89,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 71,
+      "payments": 5790.47,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 197,
+      "payments": 4807.92,
+      "avg_markup": 3.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3056812.86,
+    "total_services": 44081,
+    "total_beneficiaries": 26798,
+    "avg_markup_ratio": 3.62
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Javad Aghaloo",
+  "credentials": "D.D.S.",
+  "specialty": "Oral Surgery (Dentist only)",
+  "city": "El Centro",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 1505138.48,
+      "total_services": 1481,
+      "total_beneficiaries": 1371,
+      "avg_submitted": 1809.68,
+      "avg_paid": 796.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 3475393.67,
+      "total_services": 3255,
+      "total_beneficiaries": 2746,
+      "avg_submitted": 2105.75,
+      "avg_paid": 1010.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 1177522.83,
+      "total_services": 1228,
+      "total_beneficiaries": 1184,
+      "avg_submitted": 2011.37,
+      "avg_paid": 949.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "21215",
+      "description": "Repair of lower jaw bone with bone graft",
+      "services": 949,
+      "payments": 2508568.72,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "21079",
+      "description": "Impression and custom preparation of temporary oral prosthesis",
+      "services": 1424,
+      "payments": 1231227.84,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "21210",
+      "description": "Repair of nasal or cheek bone with bone graft",
+      "services": 936,
+      "payments": 1064504.81,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "21208",
+      "description": "Incision and repair of bony defect of cheek bone with repositioning of bony segment",
+      "services": 1212,
+      "payments": 935495.17,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "21025",
+      "description": "Removal of lower jaw bone",
+      "services": 697,
+      "payments": 254541.51,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "21026",
+      "description": "Removal of facial bones",
+      "services": 618,
+      "payments": 157810.57,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 62,
+      "payments": 4787.66,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "70355",
+      "description": "X-ray imaging of teeth",
+      "services": 66,
+      "payments": 1118.7,
+      "avg_markup": 8.85
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 6158054.99,
+    "total_services": 5964,
+    "total_beneficiaries": 5301,
+    "avg_markup_ratio": 2.08
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Syed Hashmi",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Sikeston",
+  "state": "MO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 56637.58,
+      "total_services": 670,
+      "total_beneficiaries": 553,
+      "avg_submitted": 205.0,
+      "avg_paid": 82.03
+    },
+    {
+      "year": 2015,
+      "total_payments": 87667.06,
+      "total_services": 1357,
+      "total_beneficiaries": 735,
+      "avg_submitted": 220.56,
+      "avg_paid": 86.9
+    },
+    {
+      "year": 2016,
+      "total_payments": 184126.83,
+      "total_services": 2696,
+      "total_beneficiaries": 1068,
+      "avg_submitted": 205.29,
+      "avg_paid": 83.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 135775.32,
+      "total_services": 1920,
+      "total_beneficiaries": 721,
+      "avg_submitted": 202.4,
+      "avg_paid": 84.64
+    },
+    {
+      "year": 2018,
+      "total_payments": 167289.56,
+      "total_services": 2387,
+      "total_beneficiaries": 1285,
+      "avg_submitted": 178.44,
+      "avg_paid": 85.85
+    },
+    {
+      "year": 2019,
+      "total_payments": 217102.96,
+      "total_services": 3156,
+      "total_beneficiaries": 2349,
+      "avg_submitted": 152.62,
+      "avg_paid": 83.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 370306.72,
+      "total_services": 5073,
+      "total_beneficiaries": 3748,
+      "avg_submitted": 137.79,
+      "avg_paid": 80.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 444895.13,
+      "total_services": 5981,
+      "total_beneficiaries": 4404,
+      "avg_submitted": 133.11,
+      "avg_paid": 78.71
+    },
+    {
+      "year": 2022,
+      "total_payments": 387407.83,
+      "total_services": 5152,
+      "total_beneficiaries": 4104,
+      "avg_submitted": 124.98,
+      "avg_paid": 83.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 306873.92,
+      "total_services": 3288,
+      "total_beneficiaries": 2756,
+      "avg_submitted": 153.25,
+      "avg_paid": 86.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 6686,
+      "payments": 452955.9,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2654,
+      "payments": 331052.75,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 3233,
+      "payments": 330267.87,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4908,
+      "payments": 262640.54,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3129,
+      "payments": 243901.29,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4894,
+      "payments": 243127.61,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2144,
+      "payments": 127612.6,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 607,
+      "payments": 88675.71,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 923,
+      "payments": 86719.83,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 406,
+      "payments": 39038.4,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 630,
+      "payments": 33205.53,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 403,
+      "payments": 28004.43,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 228,
+      "payments": 22629.52,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 226,
+      "payments": 18208.02,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 109,
+      "payments": 13625.01,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 109,
+      "payments": 8950.22,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 79,
+      "payments": 6782.37,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 111,
+      "payments": 6048.88,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99327",
+      "description": "New patient custodial care facility, group care, or assisted living visit, typically 1 hour",
+      "services": 26,
+      "payments": 3570.19,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 24,
+      "payments": 2774.8,
+      "avg_markup": 1.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2358082.91,
+    "total_services": 31680,
+    "total_beneficiaries": 21723,
+    "avg_markup_ratio": 1.75
+  }
+}

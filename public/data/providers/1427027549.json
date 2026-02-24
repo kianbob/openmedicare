@@ -1,0 +1,239 @@
+{
+  "name": "John Dejordy",
+  "credentials": "MD",
+  "specialty": "Dermatology",
+  "city": "Morrisonville",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 213297.39,
+      "total_services": 5119,
+      "total_beneficiaries": 3896,
+      "avg_submitted": 139.97,
+      "avg_paid": 63.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 227117.04,
+      "total_services": 5484,
+      "total_beneficiaries": 4268,
+      "avg_submitted": 135.0,
+      "avg_paid": 63.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 243575.31,
+      "total_services": 6060,
+      "total_beneficiaries": 4679,
+      "avg_submitted": 155.33,
+      "avg_paid": 70.06
+    },
+    {
+      "year": 2017,
+      "total_payments": 243827.2,
+      "total_services": 6149,
+      "total_beneficiaries": 4868,
+      "avg_submitted": 146.79,
+      "avg_paid": 62.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 264040.59,
+      "total_services": 6383,
+      "total_beneficiaries": 4915,
+      "avg_submitted": 145.33,
+      "avg_paid": 66.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 269838.94,
+      "total_services": 6383,
+      "total_beneficiaries": 4977,
+      "avg_submitted": 147.78,
+      "avg_paid": 68.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 232489.39,
+      "total_services": 5465,
+      "total_beneficiaries": 4189,
+      "avg_submitted": 152.47,
+      "avg_paid": 71.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 289244.39,
+      "total_services": 5903,
+      "total_beneficiaries": 4356,
+      "avg_submitted": 149.06,
+      "avg_paid": 71.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 258091.43,
+      "total_services": 5269,
+      "total_beneficiaries": 3909,
+      "avg_submitted": 155.88,
+      "avg_paid": 74.22
+    },
+    {
+      "year": 2023,
+      "total_payments": 301344.03,
+      "total_services": 5715,
+      "total_beneficiaries": 4206,
+      "avg_submitted": 154.67,
+      "avg_paid": 73.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 10883,
+      "payments": 581171.07,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 10820,
+      "payments": 484122.09,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 15955,
+      "payments": 481076.4,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 2709,
+      "payments": 201703.83,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 2697,
+      "payments": 196829.69,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 2559,
+      "payments": 184417.23,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1543,
+      "payments": 104422.47,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 586,
+      "payments": 65471.97,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 1204,
+      "payments": 55756.42,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "17282",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 247,
+      "payments": 36078.43,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "17272",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of scalp, neck, hands, feet, or genitals",
+      "services": 233,
+      "payments": 29899.38,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 6431,
+      "payments": 28029.21,
+      "avg_markup": 11.47
+    },
+    {
+      "code": "11103",
+      "description": "Tangential biopsy of additional skin lesion",
+      "services": 696,
+      "payments": 27620.27,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "17281",
+      "description": "Destruction of malignant growth (0.6 to 1.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 142,
+      "payments": 17363.64,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "11101",
+      "description": "Biopsy of each additional growth of skin and/or tissue",
+      "services": 666,
+      "payments": 16160.76,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 182,
+      "payments": 14860.36,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "11200",
+      "description": "Removal of up to and including 15 skin tags",
+      "services": 147,
+      "payments": 8100.94,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99201",
+      "description": "New patient office or other outpatient visit, typically 10 minutes",
+      "services": 115,
+      "payments": 3152.56,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99441",
+      "description": "Physician telephone patient service, 5-10 minutes of medical discussion",
+      "services": 81,
+      "payments": 2920.89,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 12,
+      "payments": 1338.48,
+      "avg_markup": 2.47
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2542865.71,
+    "total_services": 57930,
+    "total_beneficiaries": 44263,
+    "avg_markup_ratio": 2.29
+  }
+}

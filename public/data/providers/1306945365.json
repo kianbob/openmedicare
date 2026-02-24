@@ -1,0 +1,239 @@
+{
+  "name": "Duc Nguyen",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Simi Valley",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 573250.09,
+      "total_services": 6370,
+      "total_beneficiaries": 2023,
+      "avg_submitted": 171.9,
+      "avg_paid": 69.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 683507.86,
+      "total_services": 7624,
+      "total_beneficiaries": 2493,
+      "avg_submitted": 182.18,
+      "avg_paid": 71.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 599739.54,
+      "total_services": 7280,
+      "total_beneficiaries": 2567,
+      "avg_submitted": 160.5,
+      "avg_paid": 65.34
+    },
+    {
+      "year": 2017,
+      "total_payments": 536660.64,
+      "total_services": 6489,
+      "total_beneficiaries": 2400,
+      "avg_submitted": 172.17,
+      "avg_paid": 70.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 536595.32,
+      "total_services": 6166,
+      "total_beneficiaries": 2233,
+      "avg_submitted": 167.71,
+      "avg_paid": 71.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 505056.87,
+      "total_services": 5824,
+      "total_beneficiaries": 1804,
+      "avg_submitted": 174.58,
+      "avg_paid": 69.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 473999.64,
+      "total_services": 5023,
+      "total_beneficiaries": 1417,
+      "avg_submitted": 188.46,
+      "avg_paid": 79.36
+    },
+    {
+      "year": 2021,
+      "total_payments": 420426.24,
+      "total_services": 4171,
+      "total_beneficiaries": 1311,
+      "avg_submitted": 193.33,
+      "avg_paid": 76.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 518684.75,
+      "total_services": 5630,
+      "total_beneficiaries": 1625,
+      "avg_submitted": 195.6,
+      "avg_paid": 74.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 603588.13,
+      "total_services": 6016,
+      "total_beneficiaries": 1899,
+      "avg_submitted": 242.33,
+      "avg_paid": 90.19
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 20521,
+      "payments": 1821854.97,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 16144,
+      "payments": 1404277.38,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 5592,
+      "payments": 603848.27,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2813,
+      "payments": 459038.72,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1938,
+      "payments": 350886.99,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4692,
+      "payments": 310116.7,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1233,
+      "payments": 168063.73,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 660,
+      "payments": 84076.2,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1384,
+      "payments": 39169.25,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 833,
+      "payments": 37457.72,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 911,
+      "payments": 31484.26,
+      "avg_markup": 7.24
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 1135,
+      "payments": 18437.6,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 195,
+      "payments": 17902.22,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "90694",
+      "description": "Influenza vaccine, quadrivalent inactivated, 0.5 ml dosage",
+      "services": 197,
+      "payments": 14141.62,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 101,
+      "payments": 14021.83,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 270,
+      "payments": 13274.71,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 265,
+      "payments": 12850.49,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "G0181",
+      "description": "Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow",
+      "services": 95,
+      "payments": 8528.74,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 48,
+      "payments": 8465.89,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 514,
+      "payments": 8035.81,
+      "avg_markup": 2.88
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5451509.09,
+    "total_services": 60593,
+    "total_beneficiaries": 19772,
+    "avg_markup_ratio": 2.22
+  }
+}

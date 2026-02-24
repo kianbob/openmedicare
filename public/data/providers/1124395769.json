@@ -1,0 +1,104 @@
+{
+  "name": "Union Healthcare Services Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 107033.16,
+      "total_services": 1312,
+      "total_beneficiaries": 34,
+      "avg_submitted": 282.5,
+      "avg_paid": 81.93
+    },
+    {
+      "year": 2015,
+      "total_payments": 490284.32,
+      "total_services": 5824,
+      "total_beneficiaries": 104,
+      "avg_submitted": 405.0,
+      "avg_paid": 150.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 632257.17,
+      "total_services": 7701,
+      "total_beneficiaries": 112,
+      "avg_submitted": 282.5,
+      "avg_paid": 82.13
+    },
+    {
+      "year": 2017,
+      "total_payments": 706893.91,
+      "total_services": 8482,
+      "total_beneficiaries": 137,
+      "avg_submitted": 405.0,
+      "avg_paid": 148.94
+    },
+    {
+      "year": 2018,
+      "total_payments": 276717.62,
+      "total_services": 3315,
+      "total_beneficiaries": 70,
+      "avg_submitted": 282.5,
+      "avg_paid": 83.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 111371.78,
+      "total_services": 1509,
+      "total_beneficiaries": 26,
+      "avg_submitted": 282.5,
+      "avg_paid": 73.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 294525.14,
+      "total_services": 3878,
+      "total_beneficiaries": 82,
+      "avg_submitted": 282.49,
+      "avg_paid": 76.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 64237.32,
+      "total_services": 834,
+      "total_beneficiaries": 36,
+      "avg_submitted": 282.49,
+      "avg_paid": 77.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 16376,
+      "payments": 2582325.56,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16416,
+      "payments": 83140.01,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 63,
+      "payments": 17854.84,
+      "avg_markup": 2.29
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2683320.41,
+    "total_services": 32855,
+    "total_beneficiaries": 601,
+    "avg_markup_ratio": 3.46
+  }
+}

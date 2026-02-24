@@ -1,0 +1,231 @@
+{
+  "name": "Richard Cohn",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Tucson",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 322322.97,
+      "total_services": 4615,
+      "total_beneficiaries": 3355,
+      "avg_submitted": 190.24,
+      "avg_paid": 77.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 356410.56,
+      "total_services": 4960,
+      "total_beneficiaries": 3642,
+      "avg_submitted": 181.22,
+      "avg_paid": 74.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 356922.65,
+      "total_services": 5118,
+      "total_beneficiaries": 3632,
+      "avg_submitted": 184.02,
+      "avg_paid": 75.34
+    },
+    {
+      "year": 2017,
+      "total_payments": 341472.19,
+      "total_services": 4692,
+      "total_beneficiaries": 3343,
+      "avg_submitted": 207.82,
+      "avg_paid": 89.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 306769.2,
+      "total_services": 4440,
+      "total_beneficiaries": 3002,
+      "avg_submitted": 213.56,
+      "avg_paid": 93.33
+    },
+    {
+      "year": 2019,
+      "total_payments": 315140.07,
+      "total_services": 4449,
+      "total_beneficiaries": 3065,
+      "avg_submitted": 223.89,
+      "avg_paid": 99.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 235878.54,
+      "total_services": 3296,
+      "total_beneficiaries": 2573,
+      "avg_submitted": 232.07,
+      "avg_paid": 91.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 239429.29,
+      "total_services": 2996,
+      "total_beneficiaries": 2258,
+      "avg_submitted": 198.17,
+      "avg_paid": 73.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 254546.05,
+      "total_services": 3251,
+      "total_beneficiaries": 2341,
+      "avg_submitted": 208.15,
+      "avg_paid": 73.7
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 3540,
+      "payments": 569398.03,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 3592,
+      "payments": 524310.05,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9793,
+      "payments": 495338.75,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4363,
+      "payments": 365823.31,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 396,
+      "payments": 123228.78,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1951,
+      "payments": 101942.04,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 6710,
+      "payments": 78502.17,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 338,
+      "payments": 56535.31,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 514,
+      "payments": 47593.41,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 410,
+      "payments": 47502.6,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 78,
+      "payments": 41143.68,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 833,
+      "payments": 37565.21,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 396,
+      "payments": 37357.77,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 233,
+      "payments": 34399.12,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 388,
+      "payments": 24533.51,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "93284",
+      "description": "Evaluation, testing, and programming adjustment of permanent multiple lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 289,
+      "payments": 19292.67,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 395,
+      "payments": 16708.69,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 134,
+      "payments": 15076.46,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "93320",
+      "description": "Doppler ultrasound study of heart blood flow, valves, and chambers",
+      "services": 337,
+      "payments": 12032.43,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "93017",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG tracing and monitoring",
+      "services": 396,
+      "payments": 11548.92,
+      "avg_markup": 4.29
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2728891.52,
+    "total_services": 37817,
+    "total_beneficiaries": 27211,
+    "avg_markup_ratio": 2.56
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "California Medical Response",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "South El Monte",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1474262.29,
+      "total_services": 15560,
+      "total_beneficiaries": 3328,
+      "avg_submitted": 969.49,
+      "avg_paid": 271.0
+    },
+    {
+      "year": 2015,
+      "total_payments": 1180026.49,
+      "total_services": 11839,
+      "total_beneficiaries": 3909,
+      "avg_submitted": 962.64,
+      "avg_paid": 276.44
+    },
+    {
+      "year": 2016,
+      "total_payments": 817937.3,
+      "total_services": 7016,
+      "total_beneficiaries": 5457,
+      "avg_submitted": 1083.33,
+      "avg_paid": 277.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 1282016.26,
+      "total_services": 10931,
+      "total_beneficiaries": 8212,
+      "avg_submitted": 413.62,
+      "avg_paid": 280.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 1327469.92,
+      "total_services": 12166,
+      "total_beneficiaries": 9734,
+      "avg_submitted": 419.16,
+      "avg_paid": 294.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 1462834.37,
+      "total_services": 13218,
+      "total_beneficiaries": 10410,
+      "avg_submitted": 664.54,
+      "avg_paid": 291.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 891744.19,
+      "total_services": 7546,
+      "total_beneficiaries": 6250,
+      "avg_submitted": 1308.47,
+      "avg_paid": 298.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 823536.68,
+      "total_services": 6696,
+      "total_beneficiaries": 5540,
+      "avg_submitted": 1307.21,
+      "avg_paid": 301.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 1035425.68,
+      "total_services": 8308,
+      "total_beneficiaries": 6924,
+      "avg_submitted": 1340.44,
+      "avg_paid": 312.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 1479361.45,
+      "total_services": 10935,
+      "total_beneficiaries": 8736,
+      "avg_submitted": 1696.89,
+      "avg_paid": 338.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 46713,
+      "payments": 9401976.81,
+      "avg_markup": 4.62
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1278,
+      "payments": 872783.28,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1974,
+      "payments": 632463.54,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2223,
+      "payments": 559506.33,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 52015,
+      "payments": 303327.67,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 12,
+      "payments": 4557.0,
+      "avg_markup": 1.63
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 11774614.63,
+    "total_services": 104215,
+    "total_beneficiaries": 68500,
+    "avg_markup_ratio": 4.31
+  }
+}

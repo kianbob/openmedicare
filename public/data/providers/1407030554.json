@@ -1,0 +1,108 @@
+{
+  "name": "Southwest Ambulance Of Casa Grande",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Mesa",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 712241.99,
+      "total_services": 4626,
+      "total_beneficiaries": 3688,
+      "avg_submitted": 1096.4,
+      "avg_paid": 241.92
+    },
+    {
+      "year": 2015,
+      "total_payments": 1184175.08,
+      "total_services": 7564,
+      "total_beneficiaries": 5475,
+      "avg_submitted": 1215.62,
+      "avg_paid": 294.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 615883.95,
+      "total_services": 3783,
+      "total_beneficiaries": 2896,
+      "avg_submitted": 931.8,
+      "avg_paid": 258.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 599231.81,
+      "total_services": 3649,
+      "total_beneficiaries": 2859,
+      "avg_submitted": 759.85,
+      "avg_paid": 274.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 273199.82,
+      "total_services": 1729,
+      "total_beneficiaries": 1461,
+      "avg_submitted": 680.35,
+      "avg_paid": 261.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 7695,
+      "payments": 2526157.51,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1818,
+      "payments": 501671.78,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 576,
+      "payments": 100883.0,
+      "avg_markup": 7.44
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 437,
+      "payments": 91580.33,
+      "avg_markup": 6.72
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 188,
+      "payments": 89570.56,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10615,
+      "payments": 62163.52,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 22,
+      "payments": 12705.96,
+      "avg_markup": 2.45
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 3384732.66,
+    "total_services": 21351,
+    "total_beneficiaries": 16379,
+    "avg_markup_ratio": 3.92
+  }
+}

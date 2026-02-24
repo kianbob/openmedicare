@@ -1,0 +1,152 @@
+{
+  "name": "Patrick Antoine",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Atlanta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 118653.0,
+      "total_services": 1425,
+      "total_beneficiaries": 1236,
+      "avg_submitted": 133.74,
+      "avg_paid": 85.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 456140.29,
+      "total_services": 6349,
+      "total_beneficiaries": 4080,
+      "avg_submitted": 115.28,
+      "avg_paid": 71.09
+    },
+    {
+      "year": 2019,
+      "total_payments": 502287.64,
+      "total_services": 7686,
+      "total_beneficiaries": 4150,
+      "avg_submitted": 109.57,
+      "avg_paid": 67.51
+    },
+    {
+      "year": 2020,
+      "total_payments": 459343.22,
+      "total_services": 6918,
+      "total_beneficiaries": 2714,
+      "avg_submitted": 121.68,
+      "avg_paid": 86.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 416642.57,
+      "total_services": 6534,
+      "total_beneficiaries": 1788,
+      "avg_submitted": 112.16,
+      "avg_paid": 69.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 433615.89,
+      "total_services": 6704,
+      "total_beneficiaries": 2122,
+      "avg_submitted": 118.34,
+      "avg_paid": 76.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 333790.56,
+      "total_services": 4457,
+      "total_beneficiaries": 1491,
+      "avg_submitted": 112.16,
+      "avg_paid": 78.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 23242,
+      "payments": 1625010.92,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 3303,
+      "payments": 426160.56,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 5120,
+      "payments": 310516.48,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 4633,
+      "payments": 135939.7,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1826,
+      "payments": 99406.82,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 479,
+      "payments": 51284.5,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "G0506",
+      "description": "Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service)",
+      "services": 1285,
+      "payments": 45066.13,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 111,
+      "payments": 18843.16,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 51,
+      "payments": 6431.35,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 11,
+      "payments": 931.07,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 12,
+      "payments": 882.48,
+      "avg_markup": 1.45
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2720473.17,
+    "total_services": 40073,
+    "total_beneficiaries": 17581,
+    "avg_markup_ratio": 1.6
+  }
+}

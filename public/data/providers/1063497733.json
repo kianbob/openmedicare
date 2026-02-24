@@ -1,0 +1,190 @@
+{
+  "name": "Philip Rizk",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "Richmond",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 256284.92,
+      "total_services": 5953,
+      "total_beneficiaries": 2227,
+      "avg_submitted": 181.9,
+      "avg_paid": 86.21
+    },
+    {
+      "year": 2015,
+      "total_payments": 476303.85,
+      "total_services": 7895,
+      "total_beneficiaries": 1900,
+      "avg_submitted": 457.0,
+      "avg_paid": 77.72
+    },
+    {
+      "year": 2016,
+      "total_payments": 523301.56,
+      "total_services": 8880,
+      "total_beneficiaries": 1879,
+      "avg_submitted": 473.72,
+      "avg_paid": 79.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 535864.36,
+      "total_services": 9097,
+      "total_beneficiaries": 1835,
+      "avg_submitted": 539.7,
+      "avg_paid": 88.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 585475.23,
+      "total_services": 9461,
+      "total_beneficiaries": 1956,
+      "avg_submitted": 539.7,
+      "avg_paid": 92.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 652412.79,
+      "total_services": 9482,
+      "total_beneficiaries": 2077,
+      "avg_submitted": 392.62,
+      "avg_paid": 95.44
+    },
+    {
+      "year": 2020,
+      "total_payments": 587517.15,
+      "total_services": 8418,
+      "total_beneficiaries": 1884,
+      "avg_submitted": 403.88,
+      "avg_paid": 95.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 588164.62,
+      "total_services": 8242,
+      "total_beneficiaries": 2097,
+      "avg_submitted": 394.25,
+      "avg_paid": 87.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 520000.13,
+      "total_services": 7540,
+      "total_beneficiaries": 1820,
+      "avg_submitted": 396.59,
+      "avg_paid": 88.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 497003.3,
+      "total_services": 7662,
+      "total_beneficiaries": 1518,
+      "avg_submitted": 371.66,
+      "avg_paid": 79.87
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 57724,
+      "payments": 3291137.5,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11599,
+      "payments": 965206.55,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1867,
+      "payments": 291565.35,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2411,
+      "payments": 203781.32,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2609,
+      "payments": 149383.43,
+      "avg_markup": 4.38
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 4376,
+      "payments": 133399.31,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1056,
+      "payments": 110467.58,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 536,
+      "payments": 41764.06,
+      "avg_markup": 4.78
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 211,
+      "payments": 11857.85,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 77,
+      "payments": 10964.17,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 64,
+      "payments": 6730.26,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 89,
+      "payments": 5217.18,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care typically 30 minutes",
+      "services": 11,
+      "payments": 853.35,
+      "avg_markup": 5.79
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5222327.91,
+    "total_services": 82630,
+    "total_beneficiaries": 19193,
+    "avg_markup_ratio": 4.86
+  }
+}

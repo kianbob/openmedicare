@@ -1,0 +1,79 @@
+{
+  "name": "Valley Med Flight Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Grand Forks",
+  "state": "ND",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1708096.5,
+      "total_services": 995,
+      "total_beneficiaries": 933,
+      "avg_submitted": 8375.12,
+      "avg_paid": 1828.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 2354809.87,
+      "total_services": 1292,
+      "total_beneficiaries": 1260,
+      "avg_submitted": 8946.93,
+      "avg_paid": 1862.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 2402103.33,
+      "total_services": 1314,
+      "total_beneficiaries": 1268,
+      "avg_submitted": 9053.97,
+      "avg_paid": 1860.65
+    },
+    {
+      "year": 2017,
+      "total_payments": 2084973.58,
+      "total_services": 1134,
+      "total_beneficiaries": 1100,
+      "avg_submitted": 12050.09,
+      "avg_paid": 1877.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 1600,
+      "payments": 5394055.35,
+      "avg_markup": 5.5
+    },
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 773,
+      "payments": 3120084.31,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 775,
+      "payments": 20616.78,
+      "avg_markup": 8.76
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 1587,
+      "payments": 15226.85,
+      "avg_markup": 16.0
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 8549983.28,
+    "total_services": 4735,
+    "total_beneficiaries": 4561,
+    "avg_markup_ratio": 5.36
+  }
+}

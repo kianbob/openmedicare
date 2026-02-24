@@ -1,0 +1,239 @@
+{
+  "name": "James Clarke",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Towson",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 399394.52,
+      "total_services": 4394,
+      "total_beneficiaries": 2815,
+      "avg_submitted": 212.47,
+      "avg_paid": 97.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 360545.71,
+      "total_services": 3938,
+      "total_beneficiaries": 2577,
+      "avg_submitted": 196.84,
+      "avg_paid": 86.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 352819.32,
+      "total_services": 3807,
+      "total_beneficiaries": 2446,
+      "avg_submitted": 195.33,
+      "avg_paid": 89.07
+    },
+    {
+      "year": 2017,
+      "total_payments": 425809.14,
+      "total_services": 4543,
+      "total_beneficiaries": 2779,
+      "avg_submitted": 257.98,
+      "avg_paid": 105.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 403674.3,
+      "total_services": 4126,
+      "total_beneficiaries": 2526,
+      "avg_submitted": 294.42,
+      "avg_paid": 116.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 394645.64,
+      "total_services": 3846,
+      "total_beneficiaries": 2426,
+      "avg_submitted": 299.66,
+      "avg_paid": 123.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 281590.14,
+      "total_services": 3025,
+      "total_beneficiaries": 1915,
+      "avg_submitted": 180.27,
+      "avg_paid": 79.23
+    },
+    {
+      "year": 2021,
+      "total_payments": 298175.49,
+      "total_services": 2616,
+      "total_beneficiaries": 1623,
+      "avg_submitted": 252.69,
+      "avg_paid": 120.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 291809.02,
+      "total_services": 2656,
+      "total_beneficiaries": 1617,
+      "avg_submitted": 254.14,
+      "avg_paid": 117.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 251672.02,
+      "total_services": 2385,
+      "total_beneficiaries": 1433,
+      "avg_submitted": 234.15,
+      "avg_paid": 102.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 8260,
+      "payments": 1000186.67,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2293,
+      "payments": 914953.43,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 3044,
+      "payments": 539235.45,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4378,
+      "payments": 353209.84,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2387,
+      "payments": 125916.34,
+      "avg_markup": 6.5
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 2279,
+      "payments": 105522.34,
+      "avg_markup": 6.89
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 7966,
+      "payments": 101153.86,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 129,
+      "payments": 75815.88,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 1503,
+      "payments": 66564.2,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 425,
+      "payments": 53076.48,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 501,
+      "payments": 24790.56,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 200,
+      "payments": 16295.81,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 418,
+      "payments": 13425.65,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 156,
+      "payments": 13133.64,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 60,
+      "payments": 9796.75,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "93279",
+      "description": "Evaluation, testing, and programming adjustment of permanent single lead pacemaker system with physician analysis, review, and report",
+      "services": 182,
+      "payments": 7040.85,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 33,
+      "payments": 5982.24,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 94,
+      "payments": 5016.09,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "93462",
+      "description": "Insertion of catheter into left heart for diagnosis",
+      "services": 28,
+      "payments": 4914.56,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "93452",
+      "description": "Insertion of catheter into left heart for diagnosis",
+      "services": 18,
+      "payments": 3798.88,
+      "avg_markup": 3.32
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3460135.29,
+    "total_services": 35336,
+    "total_beneficiaries": 22157,
+    "avg_markup_ratio": 2.21
+  }
+}

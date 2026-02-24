@@ -1,0 +1,239 @@
+{
+  "name": "Ramez Samuel",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Newark",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 113077.46,
+      "total_services": 1004,
+      "total_beneficiaries": 801,
+      "avg_submitted": 265.82,
+      "avg_paid": 102.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 234342.52,
+      "total_services": 2645,
+      "total_beneficiaries": 1864,
+      "avg_submitted": 269.18,
+      "avg_paid": 99.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 515918.8,
+      "total_services": 6121,
+      "total_beneficiaries": 2254,
+      "avg_submitted": 393.03,
+      "avg_paid": 83.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 854959.63,
+      "total_services": 11085,
+      "total_beneficiaries": 3403,
+      "avg_submitted": 344.26,
+      "avg_paid": 79.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 822929.11,
+      "total_services": 11774,
+      "total_beneficiaries": 3583,
+      "avg_submitted": 272.04,
+      "avg_paid": 70.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 1086924.2,
+      "total_services": 14096,
+      "total_beneficiaries": 3136,
+      "avg_submitted": 285.01,
+      "avg_paid": 78.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 1206470.98,
+      "total_services": 14993,
+      "total_beneficiaries": 2937,
+      "avg_submitted": 265.56,
+      "avg_paid": 77.54
+    },
+    {
+      "year": 2021,
+      "total_payments": 1049510.01,
+      "total_services": 13400,
+      "total_beneficiaries": 2717,
+      "avg_submitted": 285.96,
+      "avg_paid": 74.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 685073.21,
+      "total_services": 9100,
+      "total_beneficiaries": 2378,
+      "avg_submitted": 291.36,
+      "avg_paid": 76.85
+    },
+    {
+      "year": 2023,
+      "total_payments": 730723.35,
+      "total_services": 9125,
+      "total_beneficiaries": 2249,
+      "avg_submitted": 265.71,
+      "avg_paid": 75.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 32776,
+      "payments": 2667546.27,
+      "avg_markup": 5.63
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17184,
+      "payments": 1076579.87,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10445,
+      "payments": 943721.51,
+      "avg_markup": 5.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6214,
+      "payments": 620223.67,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3393,
+      "payments": 579763.03,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 2632,
+      "payments": 311151.57,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1562,
+      "payments": 226571.41,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2135,
+      "payments": 198109.59,
+      "avg_markup": 5.45
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1261,
+      "payments": 77173.86,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 564,
+      "payments": 66166.92,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 204,
+      "payments": 44072.12,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 2789,
+      "payments": 41772.66,
+      "avg_markup": 8.3
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 236,
+      "payments": 36848.62,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "92546",
+      "description": "Assessment and recording of abnormal eye movement with patient in a rotating chair",
+      "services": 332,
+      "payments": 34249.15,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 169,
+      "payments": 31253.38,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "92540",
+      "description": "Observation, testing, and recording of abnormal eye movement",
+      "services": 332,
+      "payments": 30813.1,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 407,
+      "payments": 29780.72,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 301,
+      "payments": 26595.64,
+      "avg_markup": 5.7
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 289,
+      "payments": 26129.88,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 160,
+      "payments": 21481.82,
+      "avg_markup": 1.86
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7299929.29,
+    "total_services": 93343,
+    "total_beneficiaries": 25322,
+    "avg_markup_ratio": 5.22
+  }
+}

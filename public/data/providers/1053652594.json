@@ -1,0 +1,239 @@
+{
+  "name": "Willamette Valley Toxicology",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Corvallis",
+  "state": "OR",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 397620.99,
+      "total_services": 16311,
+      "total_beneficiaries": 5437,
+      "avg_submitted": 51.73,
+      "avg_paid": 23.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 1089593.7,
+      "total_services": 45901,
+      "total_beneficiaries": 10894,
+      "avg_submitted": 52.82,
+      "avg_paid": 22.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 399155.95,
+      "total_services": 4981,
+      "total_beneficiaries": 1278,
+      "avg_submitted": 285.62,
+      "avg_paid": 52.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 69978.0,
+      "total_services": 428,
+      "total_beneficiaries": 214,
+      "avg_submitted": 825.0,
+      "avg_paid": 163.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 43024.23,
+      "total_services": 387,
+      "total_beneficiaries": 154,
+      "avg_submitted": 525.0,
+      "avg_paid": 111.93
+    },
+    {
+      "year": 2019,
+      "total_payments": 62300.58,
+      "total_services": 578,
+      "total_beneficiaries": 248,
+      "avg_submitted": 525.0,
+      "avg_paid": 108.41
+    },
+    {
+      "year": 2020,
+      "total_payments": 814723.83,
+      "total_services": 8168,
+      "total_beneficiaries": 3506,
+      "avg_submitted": 430.0,
+      "avg_paid": 105.96
+    },
+    {
+      "year": 2021,
+      "total_payments": 2496974.26,
+      "total_services": 49684,
+      "total_beneficiaries": 7142,
+      "avg_submitted": 291.67,
+      "avg_paid": 71.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 3192273.65,
+      "total_services": 64373,
+      "total_beneficiaries": 9004,
+      "avg_submitted": 291.67,
+      "avg_paid": 70.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 496014.12,
+      "total_services": 10048,
+      "total_beneficiaries": 2000,
+      "avg_submitted": 291.67,
+      "avg_paid": 70.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 67762,
+      "payments": 5191219.8,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 61771,
+      "payments": 1533281.5,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 4270,
+      "payments": 414381.8,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test def 22+ classes",
+      "services": 1555,
+      "payments": 336098.19,
+      "avg_markup": 6.94
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 2239,
+      "payments": 223900.0,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "G6046",
+      "description": "Dihydromorphinone",
+      "services": 3108,
+      "payments": 106542.24,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "83789",
+      "description": "Mass spectrometry (laboratory testing method)",
+      "services": 4274,
+      "payments": 103012.9,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1318,
+      "payments": 102355.88,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "G6045",
+      "description": "Dihydrocodeinone",
+      "services": 3107,
+      "payments": 85566.78,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "G6056",
+      "description": "Opiate(s), drug and metabolites, each procedure",
+      "services": 3111,
+      "payments": 80730.45,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 495,
+      "payments": 75990.87,
+      "avg_markup": 5.86
+    },
+    {
+      "code": "G6032",
+      "description": "Desipramine",
+      "services": 3117,
+      "payments": 71535.15,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "G6053",
+      "description": "Methadone",
+      "services": 3117,
+      "payments": 67888.26,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 821,
+      "payments": 56369.19,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "G6037",
+      "description": "Nortriptyline",
+      "services": 3110,
+      "payments": 56197.7,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "G6031",
+      "description": "Benzodiazepines",
+      "services": 1938,
+      "payments": 47810.46,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "84311",
+      "description": "Chemical analysis using spectrophotometry (light)",
+      "services": 4868,
+      "payments": 45441.66,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "G0480",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 364,
+      "payments": 41286.25,
+      "avg_markup": 5.29
+    },
+    {
+      "code": "G6042",
+      "description": "Amphetamine or methamphetamine",
+      "services": 1936,
+      "payments": 40133.28,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "82649",
+      "description": "Dihydromorphinone (drug) level",
+      "services": 1161,
+      "payments": 39903.57,
+      "avg_markup": 2.65
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 9061659.31,
+    "total_services": 200859,
+    "total_beneficiaries": 39877,
+    "avg_markup_ratio": 2.84
+  }
+}

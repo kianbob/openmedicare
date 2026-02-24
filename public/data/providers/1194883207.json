@@ -1,0 +1,232 @@
+{
+  "name": "Qaiser Saeed",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Dallas",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 122421.04,
+      "total_services": 1739,
+      "total_beneficiaries": 851,
+      "avg_submitted": 219.07,
+      "avg_paid": 98.66
+    },
+    {
+      "year": 2015,
+      "total_payments": 120033.57,
+      "total_services": 1527,
+      "total_beneficiaries": 1125,
+      "avg_submitted": 195.82,
+      "avg_paid": 79.49
+    },
+    {
+      "year": 2016,
+      "total_payments": 272361.64,
+      "total_services": 3861,
+      "total_beneficiaries": 1703,
+      "avg_submitted": 212.19,
+      "avg_paid": 82.45
+    },
+    {
+      "year": 2017,
+      "total_payments": 308822.64,
+      "total_services": 4543,
+      "total_beneficiaries": 1779,
+      "avg_submitted": 231.81,
+      "avg_paid": 75.37
+    },
+    {
+      "year": 2018,
+      "total_payments": 485987.83,
+      "total_services": 7329,
+      "total_beneficiaries": 2134,
+      "avg_submitted": 181.35,
+      "avg_paid": 89.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 474320.91,
+      "total_services": 7291,
+      "total_beneficiaries": 2257,
+      "avg_submitted": 177.49,
+      "avg_paid": 87.71
+    },
+    {
+      "year": 2020,
+      "total_payments": 467329.44,
+      "total_services": 7315,
+      "total_beneficiaries": 2047,
+      "avg_submitted": 164.96,
+      "avg_paid": 83.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 501508.91,
+      "total_services": 7685,
+      "total_beneficiaries": 2029,
+      "avg_submitted": 183.44,
+      "avg_paid": 93.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 486438.46,
+      "total_services": 7677,
+      "total_beneficiaries": 1943,
+      "avg_submitted": 174.36,
+      "avg_paid": 81.68
+    },
+    {
+      "year": 2023,
+      "total_payments": 406487.88,
+      "total_services": 5889,
+      "total_beneficiaries": 1593,
+      "avg_submitted": 188.88,
+      "avg_paid": 91.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 41758,
+      "payments": 2299578.75,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4191,
+      "payments": 621928.24,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2763,
+      "payments": 226056.25,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1725,
+      "payments": 136281.09,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1007,
+      "payments": 126237.06,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1666,
+      "payments": 111212.33,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 726,
+      "payments": 39761.02,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 238,
+      "payments": 32857.89,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 173,
+      "payments": 9296.15,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 52,
+      "payments": 8775.08,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 153,
+      "payments": 8582.57,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 78,
+      "payments": 7677.27,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 96,
+      "payments": 7509.38,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 99,
+      "payments": 4205.43,
+      "avg_markup": 6.59
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 30,
+      "payments": 2807.6,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 12,
+      "payments": 948.55,
+      "avg_markup": 4.4
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 11,
+      "payments": 863.72,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "97597",
+      "description": "Removal of tissue from wounds per session",
+      "services": 47,
+      "payments": 791.07,
+      "avg_markup": 8.61
+    },
+    {
+      "code": "76937",
+      "description": "Ultrasound guidance for accessing into blood vessel",
+      "services": 31,
+      "payments": 342.87,
+      "avg_markup": 3.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3645712.32,
+    "total_services": 54856,
+    "total_beneficiaries": 17461,
+    "avg_markup_ratio": 2.06
+  }
+}

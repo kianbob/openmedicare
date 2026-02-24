@@ -1,0 +1,133 @@
+{
+  "name": "York Regional Emergency Medical Services Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Dallastown",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 397840.0,
+      "total_services": 2640,
+      "total_beneficiaries": 2039,
+      "avg_submitted": 809.75,
+      "avg_paid": 258.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 401527.9,
+      "total_services": 2610,
+      "total_beneficiaries": 1930,
+      "avg_submitted": 809.8,
+      "avg_paid": 262.82
+    },
+    {
+      "year": 2016,
+      "total_payments": 418692.76,
+      "total_services": 2775,
+      "total_beneficiaries": 2066,
+      "avg_submitted": 646.33,
+      "avg_paid": 195.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 427803.99,
+      "total_services": 2804,
+      "total_beneficiaries": 2079,
+      "avg_submitted": 646.75,
+      "avg_paid": 198.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 461701.16,
+      "total_services": 2991,
+      "total_beneficiaries": 2283,
+      "avg_submitted": 676.81,
+      "avg_paid": 200.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 540606.31,
+      "total_services": 3585,
+      "total_beneficiaries": 2643,
+      "avg_submitted": 712.06,
+      "avg_paid": 200.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 527617.59,
+      "total_services": 3404,
+      "total_beneficiaries": 2555,
+      "avg_submitted": 784.15,
+      "avg_paid": 253.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 495755.49,
+      "total_services": 3157,
+      "total_beneficiaries": 2368,
+      "avg_submitted": 668.02,
+      "avg_paid": 206.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 320620.09,
+      "total_services": 1982,
+      "total_beneficiaries": 1564,
+      "avg_submitted": 635.81,
+      "avg_paid": 214.24
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 7091,
+      "payments": 2329147.24,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5250,
+      "payments": 1454987.14,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 552,
+      "payments": 99037.75,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12962,
+      "payments": 76160.5,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 51,
+      "payments": 23785.63,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 42,
+      "payments": 9047.03,
+      "avg_markup": 3.97
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3992165.29,
+    "total_services": 25948,
+    "total_beneficiaries": 19527,
+    "avg_markup_ratio": 3.32
+  }
+}

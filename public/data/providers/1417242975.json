@@ -1,0 +1,231 @@
+{
+  "name": "David Lazar",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 424.8,
+      "total_services": 19,
+      "total_beneficiaries": 19,
+      "avg_submitted": 95.0,
+      "avg_paid": 22.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 13081.29,
+      "total_services": 157,
+      "total_beneficiaries": 146,
+      "avg_submitted": 1118.1,
+      "avg_paid": 116.42
+    },
+    {
+      "year": 2017,
+      "total_payments": 99607.42,
+      "total_services": 737,
+      "total_beneficiaries": 588,
+      "avg_submitted": 873.94,
+      "avg_paid": 185.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 279990.4,
+      "total_services": 2215,
+      "total_beneficiaries": 1378,
+      "avg_submitted": 866.59,
+      "avg_paid": 232.94
+    },
+    {
+      "year": 2019,
+      "total_payments": 158364.67,
+      "total_services": 1499,
+      "total_beneficiaries": 1104,
+      "avg_submitted": 321.88,
+      "avg_paid": 139.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 708498.7,
+      "total_services": 4765,
+      "total_beneficiaries": 2140,
+      "avg_submitted": 451.39,
+      "avg_paid": 192.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 913922.83,
+      "total_services": 5906,
+      "total_beneficiaries": 2745,
+      "avg_submitted": 682.63,
+      "avg_paid": 233.32
+    },
+    {
+      "year": 2022,
+      "total_payments": 1114142.07,
+      "total_services": 7479,
+      "total_beneficiaries": 3377,
+      "avg_submitted": 546.28,
+      "avg_paid": 167.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 1201328.78,
+      "total_services": 7734,
+      "total_beneficiaries": 3332,
+      "avg_submitted": 561.42,
+      "avg_paid": 180.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 3458,
+      "payments": 2491045.14,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 4946,
+      "payments": 463751.85,
+      "avg_markup": 5.95
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 3414,
+      "payments": 358659.28,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 9200,
+      "payments": 312211.88,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 3380,
+      "payments": 250749.23,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1353,
+      "payments": 172449.96,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 898,
+      "payments": 90535.8,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 250,
+      "payments": 70020.57,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 1669,
+      "payments": 58376.22,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between the lens and retina",
+      "services": 91,
+      "payments": 48946.94,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 73,
+      "payments": 42467.06,
+      "avg_markup": 5.75
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 670,
+      "payments": 37718.76,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "67145",
+      "description": "Preventive retinal detachment treatment by heat or laser, 1 or more sessions",
+      "services": 100,
+      "payments": 34997.47,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 196,
+      "payments": 11491.02,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 137,
+      "payments": 9934.27,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "92201",
+      "description": "Extended examination of eye with drawing of retina",
+      "services": 400,
+      "payments": 8221.05,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach",
+      "services": 46,
+      "payments": 7717.0,
+      "avg_markup": 11.46
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 40,
+      "payments": 6460.42,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99205",
+      "description": "New patient outpatient visit, total time 60-74 minutes",
+      "services": 25,
+      "payments": 4552.97,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 63,
+      "payments": 3260.55,
+      "avg_markup": 3.74
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 4489360.97,
+    "total_services": 30511,
+    "total_beneficiaries": 14829,
+    "avg_markup_ratio": 2.68
+  }
+}

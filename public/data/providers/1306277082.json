@@ -1,0 +1,72 @@
+{
+  "name": "Oklahoma Treatment Services Llc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Tulsa",
+  "state": "OK",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 479321.4,
+      "total_services": 2929,
+      "total_beneficiaries": 218,
+      "avg_submitted": 115.58,
+      "avg_paid": 113.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 839709.27,
+      "total_services": 5278,
+      "total_beneficiaries": 273,
+      "avg_submitted": 115.27,
+      "avg_paid": 112.29
+    },
+    {
+      "year": 2022,
+      "total_payments": 793272.56,
+      "total_services": 5579,
+      "total_beneficiaries": 279,
+      "avg_submitted": 121.22,
+      "avg_paid": 115.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 896123.9,
+      "total_services": 5406,
+      "total_beneficiaries": 336,
+      "avg_submitted": 134.38,
+      "avg_paid": 129.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 13996,
+      "payments": 2819629.85,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 5157,
+      "payments": 183923.45,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "G1028",
+      "description": "Take-home supply of nasal naloxone; 2-pack of 8mg per 0.1 ml nasal spray (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 39,
+      "payments": 4873.83,
+      "avg_markup": 1.02
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3008427.13,
+    "total_services": 19192,
+    "total_beneficiaries": 1106,
+    "avg_markup_ratio": 1.04
+  }
+}

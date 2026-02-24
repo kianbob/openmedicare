@@ -1,0 +1,183 @@
+{
+  "name": "Leonard Adelson",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Sherman Oaks",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 392019.7,
+      "total_services": 4753,
+      "total_beneficiaries": 1247,
+      "avg_submitted": 269.36,
+      "avg_paid": 97.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 357428.49,
+      "total_services": 4379,
+      "total_beneficiaries": 1113,
+      "avg_submitted": 275.0,
+      "avg_paid": 101.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 493365.52,
+      "total_services": 6019,
+      "total_beneficiaries": 1483,
+      "avg_submitted": 290.17,
+      "avg_paid": 105.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 477551.87,
+      "total_services": 5990,
+      "total_beneficiaries": 1255,
+      "avg_submitted": 317.71,
+      "avg_paid": 116.56
+    },
+    {
+      "year": 2018,
+      "total_payments": 455319.21,
+      "total_services": 5898,
+      "total_beneficiaries": 1125,
+      "avg_submitted": 336.29,
+      "avg_paid": 124.27
+    },
+    {
+      "year": 2019,
+      "total_payments": 414684.6,
+      "total_services": 5582,
+      "total_beneficiaries": 988,
+      "avg_submitted": 286.78,
+      "avg_paid": 105.42
+    },
+    {
+      "year": 2020,
+      "total_payments": 508824.43,
+      "total_services": 5888,
+      "total_beneficiaries": 951,
+      "avg_submitted": 286.29,
+      "avg_paid": 116.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 418898.99,
+      "total_services": 5194,
+      "total_beneficiaries": 826,
+      "avg_submitted": 300.17,
+      "avg_paid": 114.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 408362.25,
+      "total_services": 5368,
+      "total_beneficiaries": 867,
+      "avg_submitted": 300.17,
+      "avg_paid": 109.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 391886.09,
+      "total_services": 4865,
+      "total_beneficiaries": 828,
+      "avg_submitted": 292.43,
+      "avg_paid": 107.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 36027,
+      "payments": 2245955.87,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9843,
+      "payments": 888569.91,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3671,
+      "payments": 632212.84,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1872,
+      "payments": 364780.07,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1260,
+      "payments": 74354.64,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 525,
+      "payments": 48407.43,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 310,
+      "payments": 24123.16,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 151,
+      "payments": 13876.72,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 99,
+      "payments": 12297.35,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 117,
+      "payments": 6473.94,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 47,
+      "payments": 6200.58,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "94002",
+      "description": "Ventilation assistance and management, hospital inpatient or observation",
+      "services": 14,
+      "payments": 1088.64,
+      "avg_markup": 2.74
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4318341.15,
+    "total_services": 53936,
+    "total_beneficiaries": 10683,
+    "avg_markup_ratio": 2.68
+  }
+}

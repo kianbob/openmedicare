@@ -1,0 +1,239 @@
+{
+  "name": "Mohamad Atassi",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 433224.25,
+      "total_services": 6735,
+      "total_beneficiaries": 3156,
+      "avg_submitted": 146.26,
+      "avg_paid": 62.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 363892.38,
+      "total_services": 5793,
+      "total_beneficiaries": 2697,
+      "avg_submitted": 150.14,
+      "avg_paid": 62.82
+    },
+    {
+      "year": 2016,
+      "total_payments": 351891.61,
+      "total_services": 5755,
+      "total_beneficiaries": 2629,
+      "avg_submitted": 145.41,
+      "avg_paid": 60.46
+    },
+    {
+      "year": 2017,
+      "total_payments": 327412.36,
+      "total_services": 5474,
+      "total_beneficiaries": 2760,
+      "avg_submitted": 134.7,
+      "avg_paid": 65.53
+    },
+    {
+      "year": 2018,
+      "total_payments": 305113.42,
+      "total_services": 5123,
+      "total_beneficiaries": 2571,
+      "avg_submitted": 130.06,
+      "avg_paid": 60.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 264500.9,
+      "total_services": 4488,
+      "total_beneficiaries": 2214,
+      "avg_submitted": 134.37,
+      "avg_paid": 64.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 111342.29,
+      "total_services": 1990,
+      "total_beneficiaries": 1172,
+      "avg_submitted": 150.27,
+      "avg_paid": 72.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 83348.88,
+      "total_services": 1112,
+      "total_beneficiaries": 611,
+      "avg_submitted": 242.14,
+      "avg_paid": 64.34
+    },
+    {
+      "year": 2022,
+      "total_payments": 81136.41,
+      "total_services": 986,
+      "total_beneficiaries": 557,
+      "avg_submitted": 328.69,
+      "avg_paid": 81.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 81074.18,
+      "total_services": 1082,
+      "total_beneficiaries": 600,
+      "avg_submitted": 341.07,
+      "avg_paid": 77.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2965,
+      "payments": 505910.72,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8041,
+      "payments": 488532.15,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5899,
+      "payments": 485567.92,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3237,
+      "payments": 283719.63,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1716,
+      "payments": 174740.9,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 779,
+      "payments": 69789.65,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 478,
+      "payments": 55124.35,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 625,
+      "payments": 47138.51,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 292,
+      "payments": 40628.68,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 586,
+      "payments": 36004.64,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "93042",
+      "description": "Interpretation and report of electrical activity of heart using 1-3 leads",
+      "services": 5844,
+      "payments": 35018.45,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 181,
+      "payments": 27704.26,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 163,
+      "payments": 20951.87,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 2130,
+      "payments": 15127.56,
+      "avg_markup": 4.81
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 78,
+      "payments": 14701.22,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 251,
+      "payments": 14318.74,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 890,
+      "payments": 13618.11,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 1762,
+      "payments": 8683.65,
+      "avg_markup": 5.25
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 87,
+      "payments": 7675.93,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 41,
+      "payments": 6847.59,
+      "avg_markup": 1.42
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2402936.68,
+    "total_services": 38538,
+    "total_beneficiaries": 18967,
+    "avg_markup_ratio": 1.91
+  }
+}

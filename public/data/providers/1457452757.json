@@ -1,0 +1,239 @@
+{
+  "name": "William Nguyen",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 353912.89,
+      "total_services": 4927,
+      "total_beneficiaries": 1346,
+      "avg_submitted": 138.81,
+      "avg_paid": 82.23
+    },
+    {
+      "year": 2015,
+      "total_payments": 330935.97,
+      "total_services": 4365,
+      "total_beneficiaries": 1309,
+      "avg_submitted": 160.48,
+      "avg_paid": 79.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 377197.57,
+      "total_services": 4959,
+      "total_beneficiaries": 1373,
+      "avg_submitted": 160.53,
+      "avg_paid": 79.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 228122.01,
+      "total_services": 3150,
+      "total_beneficiaries": 1016,
+      "avg_submitted": 159.61,
+      "avg_paid": 75.71
+    },
+    {
+      "year": 2018,
+      "total_payments": 224790.37,
+      "total_services": 2833,
+      "total_beneficiaries": 998,
+      "avg_submitted": 170.62,
+      "avg_paid": 88.05
+    },
+    {
+      "year": 2019,
+      "total_payments": 320360.52,
+      "total_services": 4196,
+      "total_beneficiaries": 1210,
+      "avg_submitted": 152.37,
+      "avg_paid": 79.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 266795.8,
+      "total_services": 3246,
+      "total_beneficiaries": 940,
+      "avg_submitted": 162.78,
+      "avg_paid": 83.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 165712.09,
+      "total_services": 2012,
+      "total_beneficiaries": 603,
+      "avg_submitted": 170.0,
+      "avg_paid": 93.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 117478.44,
+      "total_services": 1455,
+      "total_beneficiaries": 573,
+      "avg_submitted": 160.31,
+      "avg_paid": 84.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 133786.24,
+      "total_services": 1505,
+      "total_beneficiaries": 519,
+      "avg_submitted": 178.12,
+      "avg_paid": 90.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9095,
+      "payments": 763556.0,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12847,
+      "payments": 738423.86,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1801,
+      "payments": 288568.74,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2219,
+      "payments": 181796.1,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1681,
+      "payments": 145164.1,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1147,
+      "payments": 83755.67,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 729,
+      "payments": 80309.75,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 321,
+      "payments": 47312.59,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 424,
+      "payments": 46136.93,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 547,
+      "payments": 31772.38,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 461,
+      "payments": 23507.17,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 149,
+      "payments": 19893.87,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 111,
+      "payments": 19646.25,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 256,
+      "payments": 14897.91,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 193,
+      "payments": 10877.35,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 54,
+      "payments": 6608.54,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 35,
+      "payments": 2894.27,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 24,
+      "payments": 2416.7,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 175,
+      "payments": 2259.13,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 14,
+      "payments": 2016.03,
+      "avg_markup": 1.74
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2519091.9,
+    "total_services": 32648,
+    "total_beneficiaries": 9887,
+    "avg_markup_ratio": 2.03
+  }
+}

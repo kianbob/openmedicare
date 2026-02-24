@@ -1,0 +1,197 @@
+{
+  "name": "Davinder Singh",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Fountain Valley",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 503637.0,
+      "total_services": 11121,
+      "total_beneficiaries": 1428,
+      "avg_submitted": 331.6,
+      "avg_paid": 110.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 533956.37,
+      "total_services": 12939,
+      "total_beneficiaries": 1250,
+      "avg_submitted": 358.14,
+      "avg_paid": 120.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 435101.43,
+      "total_services": 10740,
+      "total_beneficiaries": 987,
+      "avg_submitted": 363.67,
+      "avg_paid": 107.45
+    },
+    {
+      "year": 2017,
+      "total_payments": 465911.82,
+      "total_services": 11501,
+      "total_beneficiaries": 1058,
+      "avg_submitted": 404.62,
+      "avg_paid": 110.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 425477.09,
+      "total_services": 10182,
+      "total_beneficiaries": 1105,
+      "avg_submitted": 408.54,
+      "avg_paid": 109.33
+    },
+    {
+      "year": 2019,
+      "total_payments": 450264.5,
+      "total_services": 10414,
+      "total_beneficiaries": 1065,
+      "avg_submitted": 378.68,
+      "avg_paid": 108.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 415699.83,
+      "total_services": 9758,
+      "total_beneficiaries": 980,
+      "avg_submitted": 379.64,
+      "avg_paid": 110.41
+    },
+    {
+      "year": 2021,
+      "total_payments": 323968.56,
+      "total_services": 7890,
+      "total_beneficiaries": 840,
+      "avg_submitted": 378.8,
+      "avg_paid": 106.73
+    },
+    {
+      "year": 2022,
+      "total_payments": 356161.07,
+      "total_services": 9095,
+      "total_beneficiaries": 908,
+      "avg_submitted": 368.02,
+      "avg_paid": 103.83
+    },
+    {
+      "year": 2023,
+      "total_payments": 483430.4,
+      "total_services": 10044,
+      "total_beneficiaries": 1035,
+      "avg_submitted": 372.23,
+      "avg_paid": 104.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 91668,
+      "payments": 3083411.04,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3765,
+      "payments": 615446.07,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5692,
+      "payments": 350056.25,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "43246",
+      "description": "Insertion of stomach tube using an endoscope",
+      "services": 919,
+      "payments": 161406.12,
+      "avg_markup": 4.83
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 948,
+      "payments": 107251.33,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "43235",
+      "description": "Diagnostic examination of esophagus, stomach, and/or upper small bowel using an endoscope",
+      "services": 344,
+      "payments": 35070.5,
+      "avg_markup": 5.89
+    },
+    {
+      "code": "45378",
+      "description": "Diagnostic examination of large bowel using an endoscope",
+      "services": 103,
+      "payments": 17522.45,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 70,
+      "payments": 5999.54,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 67,
+      "payments": 5826.5,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 37,
+      "payments": 4290.52,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 13,
+      "payments": 2430.08,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 17,
+      "payments": 1866.43,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 25,
+      "payments": 1851.84,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 16,
+      "payments": 1179.4,
+      "avg_markup": 2.08
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4393608.06,
+    "total_services": 103684,
+    "total_beneficiaries": 10656,
+    "avg_markup_ratio": 3.55
+  }
+}

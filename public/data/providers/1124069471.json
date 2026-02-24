@@ -1,0 +1,223 @@
+{
+  "name": "Michael Seligson",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Albuquerque",
+  "state": "NM",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 642364.92,
+      "total_services": 5777,
+      "total_beneficiaries": 2980,
+      "avg_submitted": 592.17,
+      "avg_paid": 262.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 767876.6,
+      "total_services": 5816,
+      "total_beneficiaries": 3138,
+      "avg_submitted": 694.12,
+      "avg_paid": 245.64
+    },
+    {
+      "year": 2016,
+      "total_payments": 642321.81,
+      "total_services": 4726,
+      "total_beneficiaries": 2372,
+      "avg_submitted": 543.79,
+      "avg_paid": 195.65
+    },
+    {
+      "year": 2017,
+      "total_payments": 593109.12,
+      "total_services": 4487,
+      "total_beneficiaries": 2419,
+      "avg_submitted": 485.95,
+      "avg_paid": 194.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 656319.79,
+      "total_services": 5109,
+      "total_beneficiaries": 2608,
+      "avg_submitted": 535.59,
+      "avg_paid": 194.01
+    },
+    {
+      "year": 2019,
+      "total_payments": 660652.21,
+      "total_services": 4934,
+      "total_beneficiaries": 2290,
+      "avg_submitted": 780.46,
+      "avg_paid": 274.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 518865.27,
+      "total_services": 4395,
+      "total_beneficiaries": 2004,
+      "avg_submitted": 484.49,
+      "avg_paid": 188.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 370913.05,
+      "total_services": 3121,
+      "total_beneficiaries": 1754,
+      "avg_submitted": 533.66,
+      "avg_paid": 203.99
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 3295,
+      "payments": 2448908.89,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 6710,
+      "payments": 515603.83,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 11208,
+      "payments": 337427.65,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5813,
+      "payments": 290357.46,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach",
+      "services": 214,
+      "payments": 193529.14,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 2008,
+      "payments": 141951.19,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2536,
+      "payments": 137222.88,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1172,
+      "payments": 127363.76,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 1976,
+      "payments": 89119.36,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 224,
+      "payments": 85143.14,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "67228",
+      "description": "Laser destruction of leaking retinal blood vessels, 1 or more sessions",
+      "services": 131,
+      "payments": 72453.54,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 826,
+      "payments": 63930.48,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 215,
+      "payments": 62769.56,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "67145",
+      "description": "Preventive retinal detachment treatment by heat or laser, 1 or more sessions",
+      "services": 162,
+      "payments": 53129.62,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane from the retina",
+      "services": 60,
+      "payments": 52238.71,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 424,
+      "payments": 33223.75,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 363,
+      "payments": 25928.83,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "J0179",
+      "description": "Injection, brolucizumab-dbll, 1 mg",
+      "services": 96,
+      "payments": 23887.8,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 209,
+      "payments": 20084.95,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "67040",
+      "description": "Laser destruction of eye fluid (vitreous) between the lens and retina",
+      "services": 28,
+      "payments": 19654.01,
+      "avg_markup": 3.13
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 4852422.76,
+    "total_services": 38365,
+    "total_beneficiaries": 19565,
+    "avg_markup_ratio": 2.28
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Paul Joslin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Kansas City",
+  "state": "MO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 290190.86,
+      "total_services": 11560,
+      "total_beneficiaries": 7790,
+      "avg_submitted": 69.15,
+      "avg_paid": 31.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 348226.61,
+      "total_services": 12551,
+      "total_beneficiaries": 8461,
+      "avg_submitted": 71.74,
+      "avg_paid": 33.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 313685.75,
+      "total_services": 11416,
+      "total_beneficiaries": 8008,
+      "avg_submitted": 75.07,
+      "avg_paid": 35.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 279720.73,
+      "total_services": 11299,
+      "total_beneficiaries": 8004,
+      "avg_submitted": 74.34,
+      "avg_paid": 34.27
+    },
+    {
+      "year": 2018,
+      "total_payments": 258855.13,
+      "total_services": 11151,
+      "total_beneficiaries": 7770,
+      "avg_submitted": 65.48,
+      "avg_paid": 32.58
+    },
+    {
+      "year": 2019,
+      "total_payments": 240992.97,
+      "total_services": 11383,
+      "total_beneficiaries": 7675,
+      "avg_submitted": 68.23,
+      "avg_paid": 33.04
+    },
+    {
+      "year": 2020,
+      "total_payments": 191888.14,
+      "total_services": 9957,
+      "total_beneficiaries": 6699,
+      "avg_submitted": 65.09,
+      "avg_paid": 31.93
+    },
+    {
+      "year": 2021,
+      "total_payments": 171888.59,
+      "total_services": 8214,
+      "total_beneficiaries": 5879,
+      "avg_submitted": 58.89,
+      "avg_paid": 28.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 163495.33,
+      "total_services": 9724,
+      "total_beneficiaries": 6656,
+      "avg_submitted": 60.45,
+      "avg_paid": 25.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 129629.44,
+      "total_services": 7839,
+      "total_beneficiaries": 5699,
+      "avg_submitted": 55.91,
+      "avg_paid": 23.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10188,
+      "payments": 586452.12,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2458,
+      "payments": 236385.56,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 5103,
+      "payments": 99759.95,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 4682,
+      "payments": 81475.88,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 843,
+      "payments": 80788.74,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 4600,
+      "payments": 77967.38,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 398,
+      "payments": 69378.72,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2173,
+      "payments": 68848.67,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 4874,
+      "payments": 63961.13,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 5555,
+      "payments": 62739.13,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6156,
+      "payments": 55827.75,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5106,
+      "payments": 53463.81,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 300,
+      "payments": 52734.25,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 530,
+      "payments": 40808.89,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 311,
+      "payments": 36986.45,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 405,
+      "payments": 36957.14,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 2989,
+      "payments": 34109.03,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1334,
+      "payments": 29566.36,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 8820,
+      "payments": 29495.04,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 1366,
+      "payments": 29001.32,
+      "avg_markup": 2.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2388573.55,
+    "total_services": 105094,
+    "total_beneficiaries": 72641,
+    "avg_markup_ratio": 2.08
+  }
+}

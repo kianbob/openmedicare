@@ -1,0 +1,239 @@
+{
+  "name": "John Roberts",
+  "credentials": "M.D.",
+  "specialty": "Diagnostic Radiology",
+  "city": "Durham",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 979.21,
+      "total_services": 127,
+      "total_beneficiaries": 127,
+      "avg_submitted": 45.0,
+      "avg_paid": 7.58
+    },
+    {
+      "year": 2015,
+      "total_payments": 119071.71,
+      "total_services": 4048,
+      "total_beneficiaries": 3861,
+      "avg_submitted": 200.5,
+      "avg_paid": 35.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 342188.35,
+      "total_services": 11852,
+      "total_beneficiaries": 11092,
+      "avg_submitted": 200.89,
+      "avg_paid": 33.91
+    },
+    {
+      "year": 2017,
+      "total_payments": 410330.92,
+      "total_services": 12479,
+      "total_beneficiaries": 11783,
+      "avg_submitted": 285.72,
+      "avg_paid": 42.93
+    },
+    {
+      "year": 2018,
+      "total_payments": 369617.15,
+      "total_services": 10434,
+      "total_beneficiaries": 9928,
+      "avg_submitted": 316.72,
+      "avg_paid": 45.49
+    },
+    {
+      "year": 2019,
+      "total_payments": 411588.5,
+      "total_services": 11076,
+      "total_beneficiaries": 10538,
+      "avg_submitted": 324.1,
+      "avg_paid": 46.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 361088.66,
+      "total_services": 10159,
+      "total_beneficiaries": 9509,
+      "avg_submitted": 297.26,
+      "avg_paid": 43.73
+    },
+    {
+      "year": 2021,
+      "total_payments": 315162.32,
+      "total_services": 8992,
+      "total_beneficiaries": 8622,
+      "avg_submitted": 293.0,
+      "avg_paid": 39.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 334632.91,
+      "total_services": 10651,
+      "total_beneficiaries": 9870,
+      "avg_submitted": 311.83,
+      "avg_paid": 39.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 333126.56,
+      "total_services": 10261,
+      "total_beneficiaries": 9628,
+      "avg_submitted": 288.78,
+      "avg_paid": 37.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 5764,
+      "payments": 481176.44,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "74176",
+      "description": "CT scan of abdomen and pelvis",
+      "services": 3913,
+      "payments": 267610.31,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "70450",
+      "description": "CT scan head or brain",
+      "services": 7049,
+      "payments": 211856.02,
+      "avg_markup": 5.41
+    },
+    {
+      "code": "71260",
+      "description": "CT scan chest with contrast",
+      "services": 3605,
+      "payments": 181246.31,
+      "avg_markup": 6.64
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 1656,
+      "payments": 154418.0,
+      "avg_markup": 10.62
+    },
+    {
+      "code": "71275",
+      "description": "CT scan of blood vessels in chest with contrast",
+      "services": 1968,
+      "payments": 135559.81,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "74178",
+      "description": "CT scan of abdomen and pelvis before and after contrast",
+      "services": 1303,
+      "payments": 128608.14,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 2425,
+      "payments": 108736.78,
+      "avg_markup": 5.92
+    },
+    {
+      "code": "74183",
+      "description": "MRI scan of abdomen before and after contrast",
+      "services": 638,
+      "payments": 103029.03,
+      "avg_markup": 9.86
+    },
+    {
+      "code": "71045",
+      "description": "X-ray of chest, 1 view",
+      "services": 12487,
+      "payments": 83292.97,
+      "avg_markup": 6.31
+    },
+    {
+      "code": "72141",
+      "description": "MRI scan of upper spinal canal",
+      "services": 856,
+      "payments": 71033.68,
+      "avg_markup": 9.54
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 1061,
+      "payments": 67432.64,
+      "avg_markup": 6.63
+    },
+    {
+      "code": "G0297",
+      "description": "Low dose ct scan (ldct) for lung cancer screening",
+      "services": 313,
+      "payments": 59267.99,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "72125",
+      "description": "CT scan of upper spine",
+      "services": 1610,
+      "payments": 58516.85,
+      "avg_markup": 5.19
+    },
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 533,
+      "payments": 53849.3,
+      "avg_markup": 7.2
+    },
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with CT imaging skull base to mid-thigh",
+      "services": 538,
+      "payments": 47134.93,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 1214,
+      "payments": 45018.21,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "76705",
+      "description": "Ultrasound of abdomen",
+      "services": 1462,
+      "payments": 36952.98,
+      "avg_markup": 4.74
+    },
+    {
+      "code": "71010",
+      "description": "X-ray of chest, 1 view, front",
+      "services": 5442,
+      "payments": 36172.0,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 940,
+      "payments": 33858.94,
+      "avg_markup": 4.92
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2997786.3,
+    "total_services": 90079,
+    "total_beneficiaries": 84958,
+    "avg_markup_ratio": 5.87
+  }
+}

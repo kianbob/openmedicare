@@ -1,0 +1,130 @@
+{
+  "name": "Mission Hospitals Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Asheville",
+  "state": "NC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1758591.61,
+      "total_services": 5688,
+      "total_beneficiaries": 4959,
+      "avg_submitted": 1141.8,
+      "avg_paid": 705.0
+    },
+    {
+      "year": 2015,
+      "total_payments": 1705180.44,
+      "total_services": 4455,
+      "total_beneficiaries": 4006,
+      "avg_submitted": 1124.25,
+      "avg_paid": 649.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 1987736.37,
+      "total_services": 4900,
+      "total_beneficiaries": 4462,
+      "avg_submitted": 1199.25,
+      "avg_paid": 693.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 1716745.13,
+      "total_services": 6461,
+      "total_beneficiaries": 5607,
+      "avg_submitted": 1124.22,
+      "avg_paid": 647.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 1555315.84,
+      "total_services": 7353,
+      "total_beneficiaries": 6217,
+      "avg_submitted": 1250.0,
+      "avg_paid": 699.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 122441.42,
+      "total_services": 644,
+      "total_beneficiaries": 606,
+      "avg_submitted": 1417.57,
+      "avg_paid": 713.89
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 1599,
+      "payments": 6079830.06,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 8535,
+      "payments": 1423602.77,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 3239,
+      "payments": 653618.96,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 422,
+      "payments": 231318.68,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 643,
+      "payments": 205859.81,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 252,
+      "payments": 117613.86,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13166,
+      "payments": 80650.04,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 1599,
+      "payments": 41209.44,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 46,
+      "payments": 12307.18,
+      "avg_markup": 1.96
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 8846010.8,
+    "total_services": 29501,
+    "total_beneficiaries": 25857,
+    "avg_markup_ratio": 1.74
+  }
+}

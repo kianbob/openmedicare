@@ -1,0 +1,183 @@
+{
+  "name": "Catherine Lee",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Santa Monica",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 358827.36,
+      "total_services": 3797,
+      "total_beneficiaries": 924,
+      "avg_submitted": 403.34,
+      "avg_paid": 105.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 415790.45,
+      "total_services": 4446,
+      "total_beneficiaries": 795,
+      "avg_submitted": 294.54,
+      "avg_paid": 128.95
+    },
+    {
+      "year": 2016,
+      "total_payments": 474227.99,
+      "total_services": 4939,
+      "total_beneficiaries": 992,
+      "avg_submitted": 248.68,
+      "avg_paid": 128.5
+    },
+    {
+      "year": 2017,
+      "total_payments": 510438.75,
+      "total_services": 5205,
+      "total_beneficiaries": 1286,
+      "avg_submitted": 204.51,
+      "avg_paid": 106.52
+    },
+    {
+      "year": 2018,
+      "total_payments": 498058.07,
+      "total_services": 5155,
+      "total_beneficiaries": 1398,
+      "avg_submitted": 204.67,
+      "avg_paid": 104.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 420187.54,
+      "total_services": 4457,
+      "total_beneficiaries": 1225,
+      "avg_submitted": 204.67,
+      "avg_paid": 101.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 315681.15,
+      "total_services": 3659,
+      "total_beneficiaries": 1033,
+      "avg_submitted": 183.67,
+      "avg_paid": 93.67
+    },
+    {
+      "year": 2021,
+      "total_payments": 286413.22,
+      "total_services": 4324,
+      "total_beneficiaries": 964,
+      "avg_submitted": 180.4,
+      "avg_paid": 90.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 227818.42,
+      "total_services": 3268,
+      "total_beneficiaries": 1054,
+      "avg_submitted": 152.57,
+      "avg_paid": 73.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 396148.85,
+      "total_services": 4800,
+      "total_beneficiaries": 1245,
+      "avg_submitted": 193.41,
+      "avg_paid": 91.91
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 26166,
+      "payments": 2268762.69,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3669,
+      "payments": 613000.57,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6732,
+      "payments": 405389.15,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99309",
+      "description": "Follow-up nursing facility visit per day, typically 25 minutes",
+      "services": 2774,
+      "payments": 241021.31,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99308",
+      "description": "Follow-up nursing facility visit per day, typically 15 minutes",
+      "services": 3017,
+      "payments": 186772.15,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit per day, typically 45 minutes",
+      "services": 611,
+      "payments": 89914.81,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 660,
+      "payments": 74374.56,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility care with moderate level of medical decision making, per day, if using time, at least 35 minutes",
+      "services": 102,
+      "payments": 11253.0,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 195,
+      "payments": 6482.87,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99307",
+      "description": "Follow-up nursing facility visit per day, typically 10 minutes",
+      "services": 95,
+      "payments": 3370.02,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 14,
+      "payments": 1818.32,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 15,
+      "payments": 1432.35,
+      "avg_markup": 2.09
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3903591.8,
+    "total_services": 44050,
+    "total_beneficiaries": 10916,
+    "avg_markup_ratio": 2.17
+  }
+}

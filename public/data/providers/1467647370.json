@@ -1,0 +1,182 @@
+{
+  "name": "Jose Barreto",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Orlando",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 18578.55,
+      "total_services": 238,
+      "total_beneficiaries": 142,
+      "avg_submitted": 169.39,
+      "avg_paid": 85.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 323836.39,
+      "total_services": 5074,
+      "total_beneficiaries": 1124,
+      "avg_submitted": 165.77,
+      "avg_paid": 78.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 256699.63,
+      "total_services": 4037,
+      "total_beneficiaries": 1060,
+      "avg_submitted": 153.35,
+      "avg_paid": 69.46
+    },
+    {
+      "year": 2018,
+      "total_payments": 358222.2,
+      "total_services": 5381,
+      "total_beneficiaries": 1867,
+      "avg_submitted": 139.33,
+      "avg_paid": 59.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 363344.27,
+      "total_services": 5027,
+      "total_beneficiaries": 2285,
+      "avg_submitted": 144.74,
+      "avg_paid": 65.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 407111.69,
+      "total_services": 5731,
+      "total_beneficiaries": 2438,
+      "avg_submitted": 139.33,
+      "avg_paid": 64.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 493656.7,
+      "total_services": 7142,
+      "total_beneficiaries": 3061,
+      "avg_submitted": 131.07,
+      "avg_paid": 58.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 524573.28,
+      "total_services": 7411,
+      "total_beneficiaries": 3434,
+      "avg_submitted": 179.37,
+      "avg_paid": 62.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 487717.06,
+      "total_services": 5963,
+      "total_beneficiaries": 2885,
+      "avg_submitted": 318.64,
+      "avg_paid": 66.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 26567,
+      "payments": 1453345.3,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 9754,
+      "payments": 730826.07,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 5282,
+      "payments": 703495.1,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2475,
+      "payments": 254315.29,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 222,
+      "payments": 24037.73,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "20611",
+      "description": "Aspiration and/or injection of major joint or joint capsule with recording and reporting using ultrasound guidance",
+      "services": 408,
+      "payments": 21251.62,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 271,
+      "payments": 10695.44,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 213,
+      "payments": 8627.54,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "64450",
+      "description": "Injection of anesthetic agent, other peripheral nerve or branch",
+      "services": 247,
+      "payments": 8321.86,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "76942",
+      "description": "Ultrasonic guidance imaging supervision and interpretation for insertion of needle",
+      "services": 234,
+      "payments": 7898.0,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "20553",
+      "description": "Injections of trigger points in 3 or more muscles",
+      "services": 174,
+      "payments": 5928.18,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "20552",
+      "description": "Injections of trigger points in 1 or 2 muscles",
+      "services": 122,
+      "payments": 3472.55,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "20606",
+      "description": "Aspiration and/or injection of intermediate joint or joint capsule with recording and reporting using ultrasound guidance",
+      "services": 35,
+      "payments": 1525.1,
+      "avg_markup": 4.1
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3233739.78,
+    "total_services": 46004,
+    "total_beneficiaries": 18296,
+    "avg_markup_ratio": 2.42
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Gateway Ambulance Service Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Saint Louis",
+  "state": "MO",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3171535.92,
+      "total_services": 25911,
+      "total_beneficiaries": 17842,
+      "avg_submitted": 655.67,
+      "avg_paid": 253.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 3194927.55,
+      "total_services": 25144,
+      "total_beneficiaries": 17214,
+      "avg_submitted": 772.5,
+      "avg_paid": 287.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 3061539.34,
+      "total_services": 24244,
+      "total_beneficiaries": 16826,
+      "avg_submitted": 750.22,
+      "avg_paid": 237.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 2705349.97,
+      "total_services": 22484,
+      "total_beneficiaries": 15523,
+      "avg_submitted": 737.36,
+      "avg_paid": 240.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 2252164.94,
+      "total_services": 18595,
+      "total_beneficiaries": 13340,
+      "avg_submitted": 714.88,
+      "avg_paid": 244.51
+    },
+    {
+      "year": 2019,
+      "total_payments": 172803.94,
+      "total_services": 1491,
+      "total_beneficiaries": 1384,
+      "avg_submitted": 640.1,
+      "avg_paid": 198.94
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 22397,
+      "payments": 7239795.68,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 30271,
+      "payments": 5156995.62,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4595,
+      "payments": 1249328.85,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2257,
+      "payments": 463110.89,
+      "avg_markup": 4.12
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 58108,
+      "payments": 330895.04,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 174,
+      "payments": 81170.09,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 67,
+      "payments": 37025.5,
+      "avg_markup": 1.99
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 14558321.67,
+    "total_services": 117869,
+    "total_beneficiaries": 82129,
+    "avg_markup_ratio": 3.1
+  }
+}

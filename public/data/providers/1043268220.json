@@ -1,0 +1,239 @@
+{
+  "name": "John Johnson",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Johnson City",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 386858.57,
+      "total_services": 4646,
+      "total_beneficiaries": 2984,
+      "avg_submitted": 309.89,
+      "avg_paid": 105.64
+    },
+    {
+      "year": 2015,
+      "total_payments": 413976.87,
+      "total_services": 4549,
+      "total_beneficiaries": 2908,
+      "avg_submitted": 383.28,
+      "avg_paid": 149.82
+    },
+    {
+      "year": 2016,
+      "total_payments": 465029.09,
+      "total_services": 4596,
+      "total_beneficiaries": 3026,
+      "avg_submitted": 372.16,
+      "avg_paid": 143.99
+    },
+    {
+      "year": 2017,
+      "total_payments": 488322.48,
+      "total_services": 4737,
+      "total_beneficiaries": 2996,
+      "avg_submitted": 372.81,
+      "avg_paid": 143.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 486604.43,
+      "total_services": 4474,
+      "total_beneficiaries": 2641,
+      "avg_submitted": 392.36,
+      "avg_paid": 152.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 507661.5,
+      "total_services": 4350,
+      "total_beneficiaries": 2550,
+      "avg_submitted": 462.93,
+      "avg_paid": 178.14
+    },
+    {
+      "year": 2020,
+      "total_payments": 420290.67,
+      "total_services": 3487,
+      "total_beneficiaries": 2131,
+      "avg_submitted": 482.56,
+      "avg_paid": 154.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 395785.73,
+      "total_services": 3438,
+      "total_beneficiaries": 2031,
+      "avg_submitted": 369.43,
+      "avg_paid": 126.63
+    },
+    {
+      "year": 2022,
+      "total_payments": 425483.5,
+      "total_services": 3599,
+      "total_beneficiaries": 2303,
+      "avg_submitted": 371.01,
+      "avg_paid": 119.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 259213.15,
+      "total_services": 2298,
+      "total_beneficiaries": 1538,
+      "avg_submitted": 301.03,
+      "avg_paid": 112.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 1693,
+      "payments": 1239417.19,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 10470,
+      "payments": 794998.32,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 1815,
+      "payments": 525520.04,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 979,
+      "payments": 452300.61,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 3642,
+      "payments": 264938.82,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 8886,
+      "payments": 256908.51,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 4607,
+      "payments": 253189.56,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2586,
+      "payments": 126763.77,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1155,
+      "payments": 101965.79,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 238,
+      "payments": 54608.22,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 970,
+      "payments": 42606.87,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 960,
+      "payments": 40455.23,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 923,
+      "payments": 27482.62,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 38,
+      "payments": 22107.56,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 234,
+      "payments": 19303.44,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 602,
+      "payments": 14803.01,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "92082",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 86,
+      "payments": 2858.78,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 45,
+      "payments": 2249.55,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 17,
+      "payments": 1564.43,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "83861",
+      "description": "Microfluid analysis of tears",
+      "services": 48,
+      "payments": 1072.53,
+      "avg_markup": 2.01
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4249225.98,
+    "total_services": 40174,
+    "total_beneficiaries": 25108,
+    "avg_markup_ratio": 2.62
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "John Depalma",
+  "credentials": "DO",
+  "specialty": "Nephrology",
+  "city": "Brick",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 219372.82,
+      "total_services": 2914,
+      "total_beneficiaries": 1073,
+      "avg_submitted": 254.4,
+      "avg_paid": 91.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 213626.71,
+      "total_services": 2827,
+      "total_beneficiaries": 1207,
+      "avg_submitted": 229.24,
+      "avg_paid": 84.17
+    },
+    {
+      "year": 2016,
+      "total_payments": 222458.91,
+      "total_services": 2751,
+      "total_beneficiaries": 1089,
+      "avg_submitted": 268.71,
+      "avg_paid": 96.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 257297.19,
+      "total_services": 2987,
+      "total_beneficiaries": 1226,
+      "avg_submitted": 277.87,
+      "avg_paid": 101.42
+    },
+    {
+      "year": 2018,
+      "total_payments": 285286.04,
+      "total_services": 3257,
+      "total_beneficiaries": 1511,
+      "avg_submitted": 258.5,
+      "avg_paid": 95.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 265325.23,
+      "total_services": 2903,
+      "total_beneficiaries": 1327,
+      "avg_submitted": 304.69,
+      "avg_paid": 112.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 262158.67,
+      "total_services": 2862,
+      "total_beneficiaries": 1297,
+      "avg_submitted": 317.98,
+      "avg_paid": 125.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 312184.66,
+      "total_services": 3273,
+      "total_beneficiaries": 1358,
+      "avg_submitted": 332.45,
+      "avg_paid": 129.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 294313.36,
+      "total_services": 3003,
+      "total_beneficiaries": 1343,
+      "avg_submitted": 356.67,
+      "avg_paid": 136.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 400961.96,
+      "total_services": 5074,
+      "total_beneficiaries": 1999,
+      "avg_submitted": 234.41,
+      "avg_paid": 88.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 13838,
+      "payments": 851322.74,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6908,
+      "payments": 607078.31,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2512,
+      "payments": 417374.17,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 1223,
+      "payments": 321483.23,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1963,
+      "payments": 175692.14,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 1520,
+      "payments": 92791.4,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 575,
+      "payments": 73449.5,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 171,
+      "payments": 39322.06,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 738,
+      "payments": 37138.43,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 599,
+      "payments": 19795.64,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 134,
+      "payments": 15378.3,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 341,
+      "payments": 14151.5,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "90945",
+      "description": "Dialysis procedure including one evaluation",
+      "services": 197,
+      "payments": 13987.88,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99458",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, each additional 20 minutes",
+      "services": 316,
+      "payments": 10568.7,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 229,
+      "payments": 10112.64,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 75,
+      "payments": 6988.61,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 39,
+      "payments": 5815.28,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 126,
+      "payments": 5541.9,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "90947",
+      "description": "Dialysis procedure requiring repeat evaluation",
+      "services": 52,
+      "payments": 5402.33,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 123,
+      "payments": 4933.53,
+      "avg_markup": 2.04
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2732985.55,
+    "total_services": 31851,
+    "total_beneficiaries": 13430,
+    "avg_markup_ratio": 2.62
+  }
+}

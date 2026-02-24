@@ -1,0 +1,231 @@
+{
+  "name": "Luvkarnjit Singh",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Levittown",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 25277.05,
+      "total_services": 272,
+      "total_beneficiaries": 59,
+      "avg_submitted": 233.33,
+      "avg_paid": 115.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 255015.93,
+      "total_services": 3170,
+      "total_beneficiaries": 1195,
+      "avg_submitted": 227.79,
+      "avg_paid": 100.79
+    },
+    {
+      "year": 2017,
+      "total_payments": 448841.88,
+      "total_services": 5656,
+      "total_beneficiaries": 2247,
+      "avg_submitted": 205.69,
+      "avg_paid": 90.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 742778.52,
+      "total_services": 9394,
+      "total_beneficiaries": 3361,
+      "avg_submitted": 231.08,
+      "avg_paid": 100.38
+    },
+    {
+      "year": 2019,
+      "total_payments": 396300.64,
+      "total_services": 5145,
+      "total_beneficiaries": 1886,
+      "avg_submitted": 226.29,
+      "avg_paid": 92.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 344111.68,
+      "total_services": 4383,
+      "total_beneficiaries": 1727,
+      "avg_submitted": 243.28,
+      "avg_paid": 101.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 349084.93,
+      "total_services": 4227,
+      "total_beneficiaries": 1441,
+      "avg_submitted": 237.98,
+      "avg_paid": 101.65
+    },
+    {
+      "year": 2022,
+      "total_payments": 388565.6,
+      "total_services": 4832,
+      "total_beneficiaries": 1460,
+      "avg_submitted": 329.08,
+      "avg_paid": 98.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 244101.66,
+      "total_services": 2672,
+      "total_beneficiaries": 1221,
+      "avg_submitted": 407.09,
+      "avg_paid": 102.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 9972,
+      "payments": 764408.87,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7153,
+      "payments": 613611.95,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 10643,
+      "payments": 602929.74,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1807,
+      "payments": 296962.94,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3497,
+      "payments": 207841.4,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1280,
+      "payments": 177729.27,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1622,
+      "payments": 142799.18,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 356,
+      "payments": 65038.7,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 576,
+      "payments": 62594.92,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 706,
+      "payments": 61830.29,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 530,
+      "payments": 41170.37,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 287,
+      "payments": 32769.63,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 129,
+      "payments": 22820.7,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 139,
+      "payments": 12671.05,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 79,
+      "payments": 12403.55,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 156,
+      "payments": 10014.32,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 96,
+      "payments": 9289.13,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 154,
+      "payments": 9028.67,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 79,
+      "payments": 8864.3,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 54,
+      "payments": 8247.58,
+      "avg_markup": 3.82
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3194077.89,
+    "total_services": 39751,
+    "total_beneficiaries": 14597,
+    "avg_markup_ratio": 2.52
+  }
+}

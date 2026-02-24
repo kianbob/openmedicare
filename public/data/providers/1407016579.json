@@ -1,0 +1,211 @@
+{
+  "name": "Yuan Wang",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Fort Walton Beach",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 258859.05,
+      "total_services": 2637,
+      "total_beneficiaries": 1652,
+      "avg_submitted": 209.76,
+      "avg_paid": 82.24
+    },
+    {
+      "year": 2015,
+      "total_payments": 240132.84,
+      "total_services": 2596,
+      "total_beneficiaries": 1699,
+      "avg_submitted": 229.11,
+      "avg_paid": 84.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 241639.82,
+      "total_services": 2587,
+      "total_beneficiaries": 1602,
+      "avg_submitted": 225.49,
+      "avg_paid": 80.56
+    },
+    {
+      "year": 2017,
+      "total_payments": 273431.35,
+      "total_services": 3133,
+      "total_beneficiaries": 1660,
+      "avg_submitted": 224.8,
+      "avg_paid": 78.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 280847.71,
+      "total_services": 3317,
+      "total_beneficiaries": 1869,
+      "avg_submitted": 197.77,
+      "avg_paid": 72.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 254875.09,
+      "total_services": 2918,
+      "total_beneficiaries": 1650,
+      "avg_submitted": 241.93,
+      "avg_paid": 93.41
+    },
+    {
+      "year": 2020,
+      "total_payments": 217845.98,
+      "total_services": 2454,
+      "total_beneficiaries": 1326,
+      "avg_submitted": 240.3,
+      "avg_paid": 95.2
+    },
+    {
+      "year": 2021,
+      "total_payments": 200179.06,
+      "total_services": 2180,
+      "total_beneficiaries": 1199,
+      "avg_submitted": 250.11,
+      "avg_paid": 97.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 216307.54,
+      "total_services": 2453,
+      "total_beneficiaries": 1407,
+      "avg_submitted": 250.11,
+      "avg_paid": 92.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 210330.9,
+      "total_services": 2126,
+      "total_beneficiaries": 1072,
+      "avg_submitted": 253.43,
+      "avg_paid": 95.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11484,
+      "payments": 952458.17,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3011,
+      "payments": 472663.84,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3568,
+      "payments": 300995.11,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4900,
+      "payments": 279830.82,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1504,
+      "payments": 262383.58,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 301,
+      "payments": 43062.25,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 532,
+      "payments": 32887.01,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 362,
+      "payments": 20575.55,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 252,
+      "payments": 7780.33,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 72,
+      "payments": 7647.74,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 47,
+      "payments": 3773.09,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 45,
+      "payments": 2633.45,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 43,
+      "payments": 2492.58,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 48,
+      "payments": 1983.64,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 116,
+      "payments": 1981.01,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "93018",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician interpretation and report",
+      "services": 116,
+      "payments": 1301.17,
+      "avg_markup": 2.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2394449.34,
+    "total_services": 26401,
+    "total_beneficiaries": 15136,
+    "avg_markup_ratio": 2.52
+  }
+}

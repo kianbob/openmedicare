@@ -1,0 +1,239 @@
+{
+  "name": "John Adams",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Franklin",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 209408.97,
+      "total_services": 7662,
+      "total_beneficiaries": 3834,
+      "avg_submitted": 73.55,
+      "avg_paid": 37.95
+    },
+    {
+      "year": 2015,
+      "total_payments": 220021.53,
+      "total_services": 7918,
+      "total_beneficiaries": 4148,
+      "avg_submitted": 71.13,
+      "avg_paid": 34.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 284325.62,
+      "total_services": 9211,
+      "total_beneficiaries": 4979,
+      "avg_submitted": 79.95,
+      "avg_paid": 39.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 303449.33,
+      "total_services": 9433,
+      "total_beneficiaries": 5054,
+      "avg_submitted": 73.9,
+      "avg_paid": 38.93
+    },
+    {
+      "year": 2018,
+      "total_payments": 303882.61,
+      "total_services": 9923,
+      "total_beneficiaries": 5139,
+      "avg_submitted": 75.3,
+      "avg_paid": 38.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 319376.27,
+      "total_services": 10252,
+      "total_beneficiaries": 6083,
+      "avg_submitted": 109.93,
+      "avg_paid": 39.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 269660.39,
+      "total_services": 9869,
+      "total_beneficiaries": 5872,
+      "avg_submitted": 88.81,
+      "avg_paid": 32.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 292969.63,
+      "total_services": 10100,
+      "total_beneficiaries": 5895,
+      "avg_submitted": 94.01,
+      "avg_paid": 34.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 300629.96,
+      "total_services": 9818,
+      "total_beneficiaries": 5969,
+      "avg_submitted": 93.91,
+      "avg_paid": 34.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 242839.25,
+      "total_services": 9325,
+      "total_beneficiaries": 5656,
+      "avg_submitted": 101.82,
+      "avg_paid": 32.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12218,
+      "payments": 903912.2,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4548,
+      "payments": 209088.78,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1537,
+      "payments": 104341.99,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 777,
+      "payments": 87138.94,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 9371,
+      "payments": 82365.5,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1246,
+      "payments": 64095.81,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 5788,
+      "payments": 62618.38,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 378,
+      "payments": 61465.79,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1004,
+      "payments": 53978.57,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 3360,
+      "payments": 45643.33,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 334,
+      "payments": 44658.2,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 224,
+      "payments": 42598.7,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 402,
+      "payments": 39309.91,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 2935,
+      "payments": 39178.44,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 375,
+      "payments": 37524.89,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1783,
+      "payments": 37275.4,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 1906,
+      "payments": 32572.36,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 2878,
+      "payments": 31538.52,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 393,
+      "payments": 31345.61,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 584,
+      "payments": 28667.55,
+      "avg_markup": 1.11
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2746563.57,
+    "total_services": 93511,
+    "total_beneficiaries": 52629,
+    "avg_markup_ratio": 2.17
+  }
+}

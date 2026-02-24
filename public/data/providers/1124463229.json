@@ -1,0 +1,125 @@
+{
+  "name": "Michael Decker",
+  "credentials": "D.O.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Long Beach",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 101975.26,
+      "total_services": 1145,
+      "total_beneficiaries": 298,
+      "avg_submitted": 150.0,
+      "avg_paid": 112.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 260743.69,
+      "total_services": 2824,
+      "total_beneficiaries": 849,
+      "avg_submitted": 150.0,
+      "avg_paid": 112.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 316250.51,
+      "total_services": 3473,
+      "total_beneficiaries": 1191,
+      "avg_submitted": 150.0,
+      "avg_paid": 109.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 719684.82,
+      "total_services": 8506,
+      "total_beneficiaries": 2513,
+      "avg_submitted": 249.56,
+      "avg_paid": 98.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 551754.92,
+      "total_services": 6559,
+      "total_beneficiaries": 2368,
+      "avg_submitted": 228.85,
+      "avg_paid": 87.34
+    },
+    {
+      "year": 2021,
+      "total_payments": 468111.33,
+      "total_services": 5420,
+      "total_beneficiaries": 1849,
+      "avg_submitted": 271.32,
+      "avg_paid": 103.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 502107.34,
+      "total_services": 5909,
+      "total_beneficiaries": 2031,
+      "avg_submitted": 228.85,
+      "avg_paid": 83.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 493475.29,
+      "total_services": 4960,
+      "total_beneficiaries": 1876,
+      "avg_submitted": 255.04,
+      "avg_paid": 104.61
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 28771,
+      "payments": 2303117.44,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 5588,
+      "payments": 795298.75,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3343,
+      "payments": 193318.51,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1004,
+      "payments": 117974.58,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 79,
+      "payments": 3178.71,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 11,
+      "payments": 1215.17,
+      "avg_markup": 2.55
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3414103.16,
+    "total_services": 38796,
+    "total_beneficiaries": 12975,
+    "avg_markup_ratio": 2.28
+  }
+}

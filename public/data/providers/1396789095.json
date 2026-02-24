@@ -1,0 +1,239 @@
+{
+  "name": "Patrick Lahr",
+  "credentials": "MD",
+  "specialty": "Diagnostic Radiology",
+  "city": "Williamsville",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 260434.22,
+      "total_services": 1926,
+      "total_beneficiaries": 1907,
+      "avg_submitted": 463.57,
+      "avg_paid": 109.19
+    },
+    {
+      "year": 2015,
+      "total_payments": 314428.04,
+      "total_services": 2183,
+      "total_beneficiaries": 2158,
+      "avg_submitted": 494.86,
+      "avg_paid": 113.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 294055.61,
+      "total_services": 2257,
+      "total_beneficiaries": 2246,
+      "avg_submitted": 487.62,
+      "avg_paid": 109.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 261796.11,
+      "total_services": 1911,
+      "total_beneficiaries": 1897,
+      "avg_submitted": 585.4,
+      "avg_paid": 135.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 257908.99,
+      "total_services": 2048,
+      "total_beneficiaries": 2039,
+      "avg_submitted": 534.37,
+      "avg_paid": 127.92
+    },
+    {
+      "year": 2019,
+      "total_payments": 256500.01,
+      "total_services": 2228,
+      "total_beneficiaries": 2211,
+      "avg_submitted": 538.31,
+      "avg_paid": 133.36
+    },
+    {
+      "year": 2020,
+      "total_payments": 197573.4,
+      "total_services": 1663,
+      "total_beneficiaries": 1655,
+      "avg_submitted": 469.26,
+      "avg_paid": 115.19
+    },
+    {
+      "year": 2021,
+      "total_payments": 208018.06,
+      "total_services": 1924,
+      "total_beneficiaries": 1914,
+      "avg_submitted": 599.01,
+      "avg_paid": 120.78
+    },
+    {
+      "year": 2022,
+      "total_payments": 262013.1,
+      "total_services": 2050,
+      "total_beneficiaries": 2037,
+      "avg_submitted": 955.57,
+      "avg_paid": 159.83
+    },
+    {
+      "year": 2023,
+      "total_payments": 248540.5,
+      "total_services": 2025,
+      "total_beneficiaries": 2006,
+      "avg_submitted": 831.1,
+      "avg_paid": 156.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with CT imaging skull base to mid-thigh",
+      "services": 928,
+      "payments": 1008916.85,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 2912,
+      "payments": 370676.61,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 942,
+      "payments": 204856.78,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 1533,
+      "payments": 194250.18,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 3252,
+      "payments": 169714.82,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 2381,
+      "payments": 91233.38,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "76641",
+      "description": "Ultrasound of one breast",
+      "services": 481,
+      "payments": 46866.74,
+      "avg_markup": 7.41
+    },
+    {
+      "code": "76642",
+      "description": "Ultrasound of one breast",
+      "services": 611,
+      "payments": 39350.19,
+      "avg_markup": 6.06
+    },
+    {
+      "code": "77066",
+      "description": "Mammography of both breasts",
+      "services": 348,
+      "payments": 38802.11,
+      "avg_markup": 6.48
+    },
+    {
+      "code": "G0279",
+      "description": "Diagnostic digital breast tomosynthesis, unilateral or bilateral (list separately in addition to g0204 or g0206)",
+      "services": 811,
+      "payments": 33349.95,
+      "avg_markup": 5.64
+    },
+    {
+      "code": "77059",
+      "description": "MRI scan of both breasts with contrast",
+      "services": 85,
+      "payments": 33323.48,
+      "avg_markup": 5.15
+    },
+    {
+      "code": "77065",
+      "description": "Mammography of one breast",
+      "services": 358,
+      "payments": 31996.11,
+      "avg_markup": 6.45
+    },
+    {
+      "code": "G0204",
+      "description": "Diagnostic mammography, producing direct digital image, bilateral, all views",
+      "services": 260,
+      "payments": 29195.6,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "77049",
+      "description": "MRI of both breasts with and without contrast",
+      "services": 100,
+      "payments": 27614.51,
+      "avg_markup": 7.02
+    },
+    {
+      "code": "G0206",
+      "description": "Diagnostic mammography, producing direct digital image, unilateral, all views",
+      "services": 284,
+      "payments": 25913.56,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 333,
+      "payments": 25399.01,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "19083",
+      "description": "Biopsy of breast accessed through the skin with ultrasound guidance",
+      "services": 56,
+      "payments": 25170.9,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 213,
+      "payments": 18289.02,
+      "avg_markup": 6.12
+    },
+    {
+      "code": "71271",
+      "description": "Low dose ct scan of chest for lung cancer screening",
+      "services": 100,
+      "payments": 13189.98,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 119,
+      "payments": 11873.76,
+      "avg_markup": 7.8
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2561268.05,
+    "total_services": 20215,
+    "total_beneficiaries": 20070,
+    "avg_markup_ratio": 4.08
+  }
+}

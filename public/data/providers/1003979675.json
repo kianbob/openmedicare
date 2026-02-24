@@ -1,0 +1,100 @@
+{
+  "name": "Action Ambulance",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Indianapolis",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 962287.99,
+      "total_services": 9787,
+      "total_beneficiaries": 6054,
+      "avg_submitted": 496.78,
+      "avg_paid": 242.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 873692.39,
+      "total_services": 8929,
+      "total_beneficiaries": 5714,
+      "avg_submitted": 544.49,
+      "avg_paid": 246.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 744898.73,
+      "total_services": 8125,
+      "total_beneficiaries": 4182,
+      "avg_submitted": 571.41,
+      "avg_paid": 276.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 431820.64,
+      "total_services": 5140,
+      "total_beneficiaries": 1499,
+      "avg_submitted": 499.33,
+      "avg_paid": 185.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 13533,
+      "payments": 2125036.59,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 624,
+      "payments": 335549.78,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 912,
+      "payments": 238787.22,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 607,
+      "payments": 119114.88,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 306,
+      "payments": 94561.65,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 15975,
+      "payments": 88643.48,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 24,
+      "payments": 11006.16,
+      "avg_markup": 1.54
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3012699.76,
+    "total_services": 31981,
+    "total_beneficiaries": 17449,
+    "avg_markup_ratio": 2.41
+  }
+}

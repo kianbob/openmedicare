@@ -1,0 +1,239 @@
+{
+  "name": "John Fisher",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Bryn Mawr",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 443633.87,
+      "total_services": 4834,
+      "total_beneficiaries": 3807,
+      "avg_submitted": 359.44,
+      "avg_paid": 98.28
+    },
+    {
+      "year": 2015,
+      "total_payments": 440429.59,
+      "total_services": 4773,
+      "total_beneficiaries": 3718,
+      "avg_submitted": 362.33,
+      "avg_paid": 100.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 443366.52,
+      "total_services": 4519,
+      "total_beneficiaries": 3682,
+      "avg_submitted": 357.79,
+      "avg_paid": 106.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 485663.43,
+      "total_services": 4136,
+      "total_beneficiaries": 3215,
+      "avg_submitted": 507.16,
+      "avg_paid": 176.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 876440.2,
+      "total_services": 4597,
+      "total_beneficiaries": 3771,
+      "avg_submitted": 502.03,
+      "avg_paid": 174.25
+    },
+    {
+      "year": 2019,
+      "total_payments": 794621.86,
+      "total_services": 4412,
+      "total_beneficiaries": 3606,
+      "avg_submitted": 493.12,
+      "avg_paid": 172.53
+    },
+    {
+      "year": 2020,
+      "total_payments": 746913.25,
+      "total_services": 3872,
+      "total_beneficiaries": 3309,
+      "avg_submitted": 528.18,
+      "avg_paid": 189.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 826695.11,
+      "total_services": 4479,
+      "total_beneficiaries": 3684,
+      "avg_submitted": 524.55,
+      "avg_paid": 177.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 769933.61,
+      "total_services": 4576,
+      "total_beneficiaries": 3695,
+      "avg_submitted": 470.57,
+      "avg_paid": 186.41
+    },
+    {
+      "year": 2023,
+      "total_payments": 786725.36,
+      "total_services": 4246,
+      "total_beneficiaries": 3423,
+      "avg_submitted": 628.98,
+      "avg_paid": 264.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 1369,
+      "payments": 1778642.61,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 1480,
+      "payments": 951427.5,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 7431,
+      "payments": 875747.09,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4075,
+      "payments": 580723.58,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 955,
+      "payments": 393080.36,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3154,
+      "payments": 284200.03,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 339,
+      "payments": 224248.99,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "78431",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress with concurrent ct scan",
+      "services": 107,
+      "payments": 218783.97,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1833,
+      "payments": 160561.36,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 949,
+      "payments": 159198.39,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2264,
+      "payments": 133533.47,
+      "avg_markup": 6.27
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 955,
+      "payments": 114014.53,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "78434",
+      "description": "Nuclear medicine absolute quantification of blood flow in heart muscle",
+      "services": 720,
+      "payments": 112994.48,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 632,
+      "payments": 103642.05,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 575,
+      "payments": 94352.93,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 2086,
+      "payments": 93034.49,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 6193,
+      "payments": 79461.56,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 869,
+      "payments": 57405.95,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 289,
+      "payments": 44884.51,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 698,
+      "payments": 41959.69,
+      "avg_markup": 2.0
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6614422.8,
+    "total_services": 44444,
+    "total_beneficiaries": 35910,
+    "avg_markup_ratio": 2.45
+  }
+}

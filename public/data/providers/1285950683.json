@@ -1,0 +1,141 @@
+{
+  "name": "Aung Moe",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Bakersfield",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 141017.38,
+      "total_services": 1845,
+      "total_beneficiaries": 1021,
+      "avg_submitted": 163.0,
+      "avg_paid": 93.19
+    },
+    {
+      "year": 2015,
+      "total_payments": 177248.73,
+      "total_services": 2393,
+      "total_beneficiaries": 1122,
+      "avg_submitted": 160.73,
+      "avg_paid": 92.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 207713.3,
+      "total_services": 2712,
+      "total_beneficiaries": 1408,
+      "avg_submitted": 160.83,
+      "avg_paid": 91.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 206626.32,
+      "total_services": 2698,
+      "total_beneficiaries": 1513,
+      "avg_submitted": 160.66,
+      "avg_paid": 90.02
+    },
+    {
+      "year": 2018,
+      "total_payments": 246219.47,
+      "total_services": 3200,
+      "total_beneficiaries": 1802,
+      "avg_submitted": 160.83,
+      "avg_paid": 91.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 275898.11,
+      "total_services": 3516,
+      "total_beneficiaries": 2008,
+      "avg_submitted": 160.83,
+      "avg_paid": 93.85
+    },
+    {
+      "year": 2020,
+      "total_payments": 433796.38,
+      "total_services": 5359,
+      "total_beneficiaries": 2858,
+      "avg_submitted": 160.85,
+      "avg_paid": 96.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 709808.76,
+      "total_services": 9035,
+      "total_beneficiaries": 4624,
+      "avg_submitted": 160.83,
+      "avg_paid": 94.26
+    },
+    {
+      "year": 2022,
+      "total_payments": 432783.76,
+      "total_services": 5199,
+      "total_beneficiaries": 3858,
+      "avg_submitted": 160.88,
+      "avg_paid": 92.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 533333.77,
+      "total_services": 6298,
+      "total_beneficiaries": 4628,
+      "avg_submitted": 160.82,
+      "avg_paid": 93.36
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 20405,
+      "payments": 1201596.93,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5486,
+      "payments": 867008.55,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 8188,
+      "payments": 492210.4,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4301,
+      "payments": 469686.81,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3210,
+      "payments": 275626.52,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 665,
+      "payments": 58316.76,
+      "avg_markup": 1.71
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3364445.98,
+    "total_services": 42255,
+    "total_beneficiaries": 24842,
+    "avg_markup_ratio": 1.74
+  }
+}

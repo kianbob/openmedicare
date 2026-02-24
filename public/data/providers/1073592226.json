@@ -1,0 +1,223 @@
+{
+  "name": "Salama Salama",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 403088.07,
+      "total_services": 3992,
+      "total_beneficiaries": 2086,
+      "avg_submitted": 927.44,
+      "avg_paid": 146.27
+    },
+    {
+      "year": 2015,
+      "total_payments": 426116.84,
+      "total_services": 3981,
+      "total_beneficiaries": 2167,
+      "avg_submitted": 664.74,
+      "avg_paid": 151.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 458093.11,
+      "total_services": 4354,
+      "total_beneficiaries": 2119,
+      "avg_submitted": 653.42,
+      "avg_paid": 148.88
+    },
+    {
+      "year": 2017,
+      "total_payments": 408105.5,
+      "total_services": 3722,
+      "total_beneficiaries": 1870,
+      "avg_submitted": 654.95,
+      "avg_paid": 152.26
+    },
+    {
+      "year": 2018,
+      "total_payments": 515292.59,
+      "total_services": 5178,
+      "total_beneficiaries": 1723,
+      "avg_submitted": 649.12,
+      "avg_paid": 152.65
+    },
+    {
+      "year": 2019,
+      "total_payments": 472825.13,
+      "total_services": 5097,
+      "total_beneficiaries": 1540,
+      "avg_submitted": 674.06,
+      "avg_paid": 155.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 441030.85,
+      "total_services": 5057,
+      "total_beneficiaries": 1368,
+      "avg_submitted": 563.99,
+      "avg_paid": 119.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 88756.48,
+      "total_services": 984,
+      "total_beneficiaries": 299,
+      "avg_submitted": 471.43,
+      "avg_paid": 109.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11456,
+      "payments": 744220.71,
+      "avg_markup": 6.46
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3592,
+      "payments": 726774.48,
+      "avg_markup": 6.25
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3306,
+      "payments": 409716.53,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2978,
+      "payments": 278361.05,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1505,
+      "payments": 225305.05,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 275,
+      "payments": 169426.08,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2426,
+      "payments": 151109.46,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 148,
+      "payments": 86276.08,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1810,
+      "payments": 72411.51,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 817,
+      "payments": 67121.65,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 983,
+      "payments": 64373.91,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 704,
+      "payments": 38773.92,
+      "avg_markup": 6.35
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 698,
+      "payments": 35930.03,
+      "avg_markup": 15.54
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 674,
+      "payments": 33064.31,
+      "avg_markup": 16.31
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 246,
+      "payments": 30075.99,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 272,
+      "payments": 26705.46,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "31625",
+      "description": "Biopsy of lung airways using an endoscope",
+      "services": 131,
+      "payments": 20541.31,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 132,
+      "payments": 13395.21,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 57,
+      "payments": 10536.45,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 70,
+      "payments": 3578.64,
+      "avg_markup": 5.38
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3213308.56,
+    "total_services": 32365,
+    "total_beneficiaries": 13172,
+    "avg_markup_ratio": 5.21
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Jeffry Jones",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Sacramento",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 317631.8,
+      "total_services": 3010,
+      "total_beneficiaries": 1462,
+      "avg_submitted": 245.96,
+      "avg_paid": 145.97
+    },
+    {
+      "year": 2015,
+      "total_payments": 393516.27,
+      "total_services": 3833,
+      "total_beneficiaries": 1549,
+      "avg_submitted": 245.0,
+      "avg_paid": 143.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 367872.0,
+      "total_services": 3565,
+      "total_beneficiaries": 1653,
+      "avg_submitted": 286.67,
+      "avg_paid": 173.64
+    },
+    {
+      "year": 2017,
+      "total_payments": 361246.83,
+      "total_services": 3579,
+      "total_beneficiaries": 1640,
+      "avg_submitted": 230.5,
+      "avg_paid": 133.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 385547.92,
+      "total_services": 3303,
+      "total_beneficiaries": 1547,
+      "avg_submitted": 270.31,
+      "avg_paid": 163.77
+    },
+    {
+      "year": 2019,
+      "total_payments": 418328.26,
+      "total_services": 3451,
+      "total_beneficiaries": 1598,
+      "avg_submitted": 262.61,
+      "avg_paid": 156.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 359395.51,
+      "total_services": 2867,
+      "total_beneficiaries": 1125,
+      "avg_submitted": 177.5,
+      "avg_paid": 107.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 272759.09,
+      "total_services": 2100,
+      "total_beneficiaries": 916,
+      "avg_submitted": 157.5,
+      "avg_paid": 90.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 256704.58,
+      "total_services": 1854,
+      "total_beneficiaries": 706,
+      "avg_submitted": 153.12,
+      "avg_paid": 96.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 294175.29,
+      "total_services": 1878,
+      "total_beneficiaries": 579,
+      "avg_submitted": 193.75,
+      "avg_paid": 122.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 10817,
+      "payments": 1927565.46,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6913,
+      "payments": 385200.32,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3940,
+      "payments": 329600.34,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3120,
+      "payments": 179420.72,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1954,
+      "payments": 162486.15,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 253,
+      "payments": 136649.74,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 146,
+      "payments": 74408.08,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "31622",
+      "description": "Diagnostic examination of lung airways using an endoscope",
+      "services": 558,
+      "payments": 61802.68,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 446,
+      "payments": 55451.31,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 459,
+      "payments": 37347.66,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "31600",
+      "description": "Opening of windpipe through neck for insertion of breathing tube",
+      "services": 54,
+      "payments": 14434.59,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 121,
+      "payments": 11487.8,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 126,
+      "payments": 10802.75,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 121,
+      "payments": 10487.51,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 92,
+      "payments": 8303.76,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "33235",
+      "description": "Removal of electrodes from right heart",
+      "services": 12,
+      "payments": 6064.44,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 23,
+      "payments": 3663.08,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 37,
+      "payments": 2705.66,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 58,
+      "payments": 2574.26,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 84,
+      "payments": 2401.01,
+      "avg_markup": 1.69
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3427177.55,
+    "total_services": 29440,
+    "total_beneficiaries": 12775,
+    "avg_markup_ratio": 1.61
+  }
+}

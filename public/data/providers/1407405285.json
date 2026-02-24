@@ -1,0 +1,100 @@
+{
+  "name": "Kettering Transportation Services Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Dayton",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 809144.88,
+      "total_services": 7417,
+      "total_beneficiaries": 5707,
+      "avg_submitted": 604.49,
+      "avg_paid": 250.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 1734142.99,
+      "total_services": 16583,
+      "total_beneficiaries": 11882,
+      "avg_submitted": 1018.08,
+      "avg_paid": 298.34
+    },
+    {
+      "year": 2022,
+      "total_payments": 1685997.57,
+      "total_services": 15818,
+      "total_beneficiaries": 11137,
+      "avg_submitted": 1018.24,
+      "avg_paid": 308.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 1688561.21,
+      "total_services": 14757,
+      "total_beneficiaries": 10125,
+      "avg_submitted": 1293.83,
+      "avg_paid": 333.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 18035,
+      "payments": 3319570.45,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 7153,
+      "payments": 1595415.76,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 1384,
+      "payments": 482578.75,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 395,
+      "payments": 197379.86,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 27237,
+      "payments": 188248.28,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 289,
+      "payments": 84255.61,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 82,
+      "payments": 50397.92,
+      "avg_markup": 6.84
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 5917846.64,
+    "total_services": 54575,
+    "total_beneficiaries": 38851,
+    "avg_markup_ratio": 3.14
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Lute Oas",
+  "credentials": "M.D.",
+  "specialty": "Radiation Oncology",
+  "city": "Abilene",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 556680.49,
+      "total_services": 3799,
+      "total_beneficiaries": 2941,
+      "avg_submitted": 409.39,
+      "avg_paid": 125.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 36045.02,
+      "total_services": 316,
+      "total_beneficiaries": 310,
+      "avg_submitted": 478.15,
+      "avg_paid": 161.99
+    },
+    {
+      "year": 2016,
+      "total_payments": 551726.16,
+      "total_services": 3768,
+      "total_beneficiaries": 976,
+      "avg_submitted": 1040.97,
+      "avg_paid": 171.25
+    },
+    {
+      "year": 2017,
+      "total_payments": 27199.01,
+      "total_services": 256,
+      "total_beneficiaries": 138,
+      "avg_submitted": 630.22,
+      "avg_paid": 115.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 323690.54,
+      "total_services": 1946,
+      "total_beneficiaries": 385,
+      "avg_submitted": 1427.13,
+      "avg_paid": 247.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 426510.02,
+      "total_services": 2496,
+      "total_beneficiaries": 652,
+      "avg_submitted": 1194.0,
+      "avg_paid": 196.33
+    },
+    {
+      "year": 2020,
+      "total_payments": 127644.3,
+      "total_services": 713,
+      "total_beneficiaries": 245,
+      "avg_submitted": 1033.32,
+      "avg_paid": 170.77
+    },
+    {
+      "year": 2021,
+      "total_payments": 201335.87,
+      "total_services": 1140,
+      "total_beneficiaries": 470,
+      "avg_submitted": 1276.15,
+      "avg_paid": 199.68
+    },
+    {
+      "year": 2022,
+      "total_payments": 590154.32,
+      "total_services": 3586,
+      "total_beneficiaries": 971,
+      "avg_submitted": 997.37,
+      "avg_paid": 158.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 805820.77,
+      "total_services": 4675,
+      "total_beneficiaries": 1383,
+      "avg_submitted": 1257.15,
+      "avg_paid": 193.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 4189,
+      "payments": 1126662.41,
+      "avg_markup": 10.23
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 3627,
+      "payments": 330189.87,
+      "avg_markup": 6.57
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19 mev",
+      "services": 1595,
+      "payments": 302975.35,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 212,
+      "payments": 300544.54,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with CT imaging skull base to mid-thigh",
+      "services": 280,
+      "payments": 289216.06,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 1478,
+      "payments": 213826.93,
+      "avg_markup": 7.11
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 264,
+      "payments": 95748.86,
+      "avg_markup": 7.26
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 1486,
+      "payments": 90114.24,
+      "avg_markup": 5.48
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 1331,
+      "payments": 75247.23,
+      "avg_markup": 11.27
+    },
+    {
+      "code": "77373",
+      "description": "Cranial lesion surgery using radiation over multiple sessions",
+      "services": 86,
+      "payments": 64431.38,
+      "avg_markup": 10.96
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10 mev",
+      "services": 333,
+      "payments": 60604.09,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 593,
+      "payments": 58907.27,
+      "avg_markup": 6.92
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 151,
+      "payments": 55808.3,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 295,
+      "payments": 51774.73,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 384,
+      "payments": 49045.35,
+      "avg_markup": 7.71
+    },
+    {
+      "code": "77295",
+      "description": "Management of radiation therapy, 3D",
+      "services": 119,
+      "payments": 43640.08,
+      "avg_markup": 11.87
+    },
+    {
+      "code": "77414",
+      "description": "Radiation treatment delivery, three or more treatment areas",
+      "services": 186,
+      "payments": 33613.99,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 555,
+      "payments": 32227.38,
+      "avg_markup": 4.12
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 228,
+      "payments": 27658.49,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 212,
+      "payments": 26001.34,
+      "avg_markup": 2.62
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3646806.48,
+    "total_services": 22695,
+    "total_beneficiaries": 8471,
+    "avg_markup_ratio": 6.84
+  }
+}

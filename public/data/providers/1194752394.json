@@ -1,0 +1,93 @@
+{
+  "name": "Lyons Ambulance Service Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Danvers",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1809189.45,
+      "total_services": 14096,
+      "total_beneficiaries": 8058,
+      "avg_submitted": 1000.91,
+      "avg_paid": 270.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 1796471.87,
+      "total_services": 13966,
+      "total_beneficiaries": 7324,
+      "avg_submitted": 1028.69,
+      "avg_paid": 274.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 1839990.03,
+      "total_services": 14344,
+      "total_beneficiaries": 7463,
+      "avg_submitted": 1178.46,
+      "avg_paid": 274.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 1124199.11,
+      "total_services": 8267,
+      "total_beneficiaries": 5241,
+      "avg_submitted": 1204.78,
+      "avg_paid": 275.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 13002,
+      "payments": 2302854.53,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 5471,
+      "payments": 1904585.63,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6082,
+      "payments": 1779894.85,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 374,
+      "payments": 223521.11,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1006,
+      "payments": 220703.74,
+      "avg_markup": 6.26
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 24738,
+      "payments": 138290.6,
+      "avg_markup": 4.47
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 6569850.46,
+    "total_services": 50673,
+    "total_beneficiaries": 28086,
+    "avg_markup_ratio": 4.24
+  }
+}

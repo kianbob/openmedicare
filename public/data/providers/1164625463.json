@@ -1,0 +1,239 @@
+{
+  "name": "Said Assif",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "New Port Richey",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 324426.14,
+      "total_services": 4007,
+      "total_beneficiaries": 2334,
+      "avg_submitted": 261.5,
+      "avg_paid": 103.97
+    },
+    {
+      "year": 2015,
+      "total_payments": 431739.01,
+      "total_services": 5469,
+      "total_beneficiaries": 3074,
+      "avg_submitted": 241.17,
+      "avg_paid": 93.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 429375.77,
+      "total_services": 6408,
+      "total_beneficiaries": 3435,
+      "avg_submitted": 300.28,
+      "avg_paid": 85.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 598134.42,
+      "total_services": 8951,
+      "total_beneficiaries": 4706,
+      "avg_submitted": 278.73,
+      "avg_paid": 84.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 538963.62,
+      "total_services": 7730,
+      "total_beneficiaries": 4253,
+      "avg_submitted": 257.92,
+      "avg_paid": 86.95
+    },
+    {
+      "year": 2019,
+      "total_payments": 361681.8,
+      "total_services": 5059,
+      "total_beneficiaries": 3042,
+      "avg_submitted": 240.32,
+      "avg_paid": 90.11
+    },
+    {
+      "year": 2020,
+      "total_payments": 242023.04,
+      "total_services": 3326,
+      "total_beneficiaries": 1744,
+      "avg_submitted": 155.87,
+      "avg_paid": 95.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 230472.31,
+      "total_services": 3317,
+      "total_beneficiaries": 1632,
+      "avg_submitted": 151.07,
+      "avg_paid": 94.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 187222.41,
+      "total_services": 2790,
+      "total_beneficiaries": 1318,
+      "avg_submitted": 137.62,
+      "avg_paid": 83.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 58323.49,
+      "total_services": 907,
+      "total_beneficiaries": 405,
+      "avg_submitted": 126.65,
+      "avg_paid": 65.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 26633,
+      "payments": 1494122.99,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3478,
+      "payments": 544342.65,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2782,
+      "payments": 296110.53,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3034,
+      "payments": 247943.68,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 3081,
+      "payments": 173264.69,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1199,
+      "payments": 167851.4,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 3133,
+      "payments": 95401.92,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1119,
+      "payments": 94122.56,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 591,
+      "payments": 61737.17,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 701,
+      "payments": 56551.51,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 292,
+      "payments": 48736.94,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 832,
+      "payments": 46678.65,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 570,
+      "payments": 32276.68,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 108,
+      "payments": 19201.46,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 120,
+      "payments": 9422.82,
+      "avg_markup": 4.89
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 199,
+      "payments": 7959.09,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 47,
+      "payments": 2424.98,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 13,
+      "payments": 1671.54,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 20,
+      "payments": 1605.8,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care typically 30 minutes",
+      "services": 12,
+      "payments": 934.95,
+      "avg_markup": 1.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3402362.01,
+    "total_services": 47964,
+    "total_beneficiaries": 25943,
+    "avg_markup_ratio": 2.34
+  }
+}

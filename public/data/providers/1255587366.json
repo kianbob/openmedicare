@@ -1,0 +1,239 @@
+{
+  "name": "Michael Silverstein",
+  "credentials": "M.D.",
+  "specialty": "Neurology",
+  "city": "Hackensack",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 274223.67,
+      "total_services": 1700,
+      "total_beneficiaries": 1166,
+      "avg_submitted": 454.51,
+      "avg_paid": 228.19
+    },
+    {
+      "year": 2015,
+      "total_payments": 311583.95,
+      "total_services": 1861,
+      "total_beneficiaries": 1288,
+      "avg_submitted": 450.78,
+      "avg_paid": 219.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 323743.93,
+      "total_services": 1846,
+      "total_beneficiaries": 1214,
+      "avg_submitted": 511.68,
+      "avg_paid": 240.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 229951.9,
+      "total_services": 1630,
+      "total_beneficiaries": 1091,
+      "avg_submitted": 410.17,
+      "avg_paid": 137.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 210536.58,
+      "total_services": 1643,
+      "total_beneficiaries": 1167,
+      "avg_submitted": 382.18,
+      "avg_paid": 124.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 258349.09,
+      "total_services": 1471,
+      "total_beneficiaries": 1031,
+      "avg_submitted": 746.4,
+      "avg_paid": 277.22
+    },
+    {
+      "year": 2020,
+      "total_payments": 199111.63,
+      "total_services": 1421,
+      "total_beneficiaries": 1034,
+      "avg_submitted": 607.07,
+      "avg_paid": 133.95
+    },
+    {
+      "year": 2021,
+      "total_payments": 274452.89,
+      "total_services": 1653,
+      "total_beneficiaries": 1207,
+      "avg_submitted": 668.08,
+      "avg_paid": 154.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 341301.68,
+      "total_services": 1903,
+      "total_beneficiaries": 1465,
+      "avg_submitted": 746.16,
+      "avg_paid": 161.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 283138.11,
+      "total_services": 1719,
+      "total_beneficiaries": 1292,
+      "avg_submitted": 824.64,
+      "avg_paid": 155.31
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "95951",
+      "description": "Monitoring and localization of seizure activity over 24-hour period using 16-channel electroencephalograph (EEG)",
+      "services": 1692,
+      "payments": 647510.49,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4993,
+      "payments": 447964.96,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "95813",
+      "description": "Measurement of brain wave (EEG) activity greater than 1 hour",
+      "services": 1038,
+      "payments": 413598.7,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1774,
+      "payments": 317439.17,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2062,
+      "payments": 264684.67,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "93886",
+      "description": "Ultrasound scanning of head and neck vessel blood flow (inside the brain)",
+      "services": 895,
+      "payments": 203053.73,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1452,
+      "payments": 140961.33,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "64615",
+      "description": "Injection of chemical for destruction of facial and neck nerve muscles on both sides of face",
+      "services": 611,
+      "payments": 78162.3,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "95720",
+      "description": "Continuous measurement of brain wave activity with video (veeg), 12-26 hours, with health care professional analysis, interpretation and report",
+      "services": 422,
+      "payments": 76616.58,
+      "avg_markup": 11.17
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 286,
+      "payments": 38597.84,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 479,
+      "payments": 28935.9,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 165,
+      "payments": 15541.59,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "96119",
+      "description": "Neuropsychological testing by technician with interpretation and report by a qualified healthcare professional per hour",
+      "services": 131,
+      "payments": 9589.11,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "96102",
+      "description": "Psychological testing with interpretation and report by technician per hour",
+      "services": 131,
+      "payments": 7555.46,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 51,
+      "payments": 5792.53,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 18,
+      "payments": 3118.14,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "J0585",
+      "description": "Injection, onabotulinumtoxina, 1 unit",
+      "services": 555,
+      "payments": 2649.4,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "96118",
+      "description": "Neuropsychological testing, interpretation, and report by psychologist or physician per hour",
+      "services": 27,
+      "payments": 2195.62,
+      "avg_markup": 5.64
+    },
+    {
+      "code": "96116",
+      "description": "Neurobehavioral status examination, interpretation, and report by psychologist or physician per hour",
+      "services": 26,
+      "payments": 1966.25,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 26,
+      "payments": 311.48,
+      "avg_markup": 1.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2706393.43,
+    "total_services": 16847,
+    "total_beneficiaries": 11955,
+    "avg_markup_ratio": 3.42
+  }
+}

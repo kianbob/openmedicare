@@ -1,0 +1,176 @@
+{
+  "name": "Robert Mccabe",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Pleasanton",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 295481.65,
+      "total_services": 3821,
+      "total_beneficiaries": 1158,
+      "avg_submitted": 162.2,
+      "avg_paid": 84.77
+    },
+    {
+      "year": 2015,
+      "total_payments": 361402.74,
+      "total_services": 4610,
+      "total_beneficiaries": 1312,
+      "avg_submitted": 189.46,
+      "avg_paid": 87.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 372361.61,
+      "total_services": 4855,
+      "total_beneficiaries": 1312,
+      "avg_submitted": 178.77,
+      "avg_paid": 85.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 267022.34,
+      "total_services": 3547,
+      "total_beneficiaries": 1212,
+      "avg_submitted": 176.78,
+      "avg_paid": 84.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 211655.4,
+      "total_services": 2685,
+      "total_beneficiaries": 838,
+      "avg_submitted": 197.16,
+      "avg_paid": 88.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 257708.04,
+      "total_services": 3237,
+      "total_beneficiaries": 952,
+      "avg_submitted": 183.11,
+      "avg_paid": 82.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 369012.21,
+      "total_services": 4454,
+      "total_beneficiaries": 984,
+      "avg_submitted": 199.34,
+      "avg_paid": 88.49
+    },
+    {
+      "year": 2021,
+      "total_payments": 326571.76,
+      "total_services": 4011,
+      "total_beneficiaries": 873,
+      "avg_submitted": 212.29,
+      "avg_paid": 94.86
+    },
+    {
+      "year": 2022,
+      "total_payments": 228879.19,
+      "total_services": 2831,
+      "total_beneficiaries": 790,
+      "avg_submitted": 213.83,
+      "avg_paid": 84.92
+    },
+    {
+      "year": 2023,
+      "total_payments": 366061.98,
+      "total_services": 3967,
+      "total_beneficiaries": 913,
+      "avg_submitted": 214.25,
+      "avg_paid": 88.8
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12630,
+      "payments": 796024.7,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8450,
+      "payments": 780022.22,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 9062,
+      "payments": 739751.44,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2036,
+      "payments": 345319.13,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4220,
+      "payments": 251395.5,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 435,
+      "payments": 48781.45,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 284,
+      "payments": 32687.68,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 230,
+      "payments": 25618.91,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 305,
+      "payments": 23267.99,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 205,
+      "payments": 7135.43,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 161,
+      "payments": 6152.47,
+      "avg_markup": 1.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3056156.92,
+    "total_services": 38018,
+    "total_beneficiaries": 10344,
+    "avg_markup_ratio": 2.01
+  }
+}

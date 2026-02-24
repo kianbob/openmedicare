@@ -1,0 +1,64 @@
+{
+  "name": "Oncocyte, Corporation",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Brisbane",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 1078679.16,
+      "total_services": 460,
+      "total_beneficiaries": 458,
+      "avg_submitted": 3562.5,
+      "avg_paid": 1737.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 1704887.41,
+      "total_services": 654,
+      "total_beneficiaries": 651,
+      "avg_submitted": 3562.5,
+      "avg_paid": 1716.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 216595.77,
+      "total_services": 58,
+      "total_beneficiaries": 58,
+      "avg_submitted": 6500.0,
+      "avg_paid": 3734.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0288U",
+      "description": "Onc lung mrna quan pcr 11&3",
+      "services": 594,
+      "payments": 1883426.42,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "81479",
+      "description": "Molecular pathology procedure",
+      "services": 329,
+      "payments": 1036159.18,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "81235",
+      "description": "Gene analysis (epidermal growth factor receptor), common variants",
+      "services": 249,
+      "payments": 80576.74,
+      "avg_markup": 1.93
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3000162.34,
+    "total_services": 1172,
+    "total_beneficiaries": 1167,
+    "avg_markup_ratio": 2.05
+  }
+}

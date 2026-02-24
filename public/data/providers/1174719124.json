@@ -1,0 +1,182 @@
+{
+  "name": "Samir Rajan",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Edison",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 403395.78,
+      "total_services": 4053,
+      "total_beneficiaries": 1683,
+      "avg_submitted": 287.52,
+      "avg_paid": 111.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 59975.35,
+      "total_services": 647,
+      "total_beneficiaries": 307,
+      "avg_submitted": 291.67,
+      "avg_paid": 111.03
+    },
+    {
+      "year": 2017,
+      "total_payments": 467557.83,
+      "total_services": 4460,
+      "total_beneficiaries": 1746,
+      "avg_submitted": 297.93,
+      "avg_paid": 129.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 446195.04,
+      "total_services": 4052,
+      "total_beneficiaries": 1665,
+      "avg_submitted": 290.38,
+      "avg_paid": 129.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 387129.57,
+      "total_services": 3485,
+      "total_beneficiaries": 1328,
+      "avg_submitted": 301.61,
+      "avg_paid": 131.43
+    },
+    {
+      "year": 2020,
+      "total_payments": 344217.52,
+      "total_services": 2887,
+      "total_beneficiaries": 1077,
+      "avg_submitted": 316.67,
+      "avg_paid": 130.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 385203.87,
+      "total_services": 3028,
+      "total_beneficiaries": 1058,
+      "avg_submitted": 333.33,
+      "avg_paid": 158.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 361835.86,
+      "total_services": 3007,
+      "total_beneficiaries": 1104,
+      "avg_submitted": 333.33,
+      "avg_paid": 155.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 381643.97,
+      "total_services": 2995,
+      "total_beneficiaries": 1088,
+      "avg_submitted": 333.33,
+      "avg_paid": 151.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11458,
+      "payments": 1050056.79,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3131,
+      "payments": 594749.34,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2640,
+      "payments": 454428.65,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5741,
+      "payments": 357790.01,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 983,
+      "payments": 280307.89,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2292,
+      "payments": 218992.94,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 578,
+      "payments": 123859.47,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 1054,
+      "payments": 65756.68,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 244,
+      "payments": 38751.98,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 185,
+      "payments": 25458.83,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 157,
+      "payments": 14578.74,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 55,
+      "payments": 6870.96,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "G0420",
+      "description": "Face-to-face educational services related to the care of chronic kidney disease; individual, per session, per one hour",
+      "services": 96,
+      "payments": 5552.51,
+      "avg_markup": 1.3
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3237154.79,
+    "total_services": 28614,
+    "total_beneficiaries": 11056,
+    "avg_markup_ratio": 2.54
+  }
+}

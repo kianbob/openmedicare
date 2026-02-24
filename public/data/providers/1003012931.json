@@ -1,0 +1,239 @@
+{
+  "name": "Niceto Lopez",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Walnut Creek",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 259202.78,
+      "total_services": 2608,
+      "total_beneficiaries": 1068,
+      "avg_submitted": 165.25,
+      "avg_paid": 113.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 296161.87,
+      "total_services": 2900,
+      "total_beneficiaries": 1483,
+      "avg_submitted": 304.52,
+      "avg_paid": 108.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 273529.59,
+      "total_services": 2726,
+      "total_beneficiaries": 1439,
+      "avg_submitted": 284.86,
+      "avg_paid": 103.46
+    },
+    {
+      "year": 2017,
+      "total_payments": 305384.82,
+      "total_services": 3075,
+      "total_beneficiaries": 1618,
+      "avg_submitted": 291.33,
+      "avg_paid": 106.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 183745.28,
+      "total_services": 1998,
+      "total_beneficiaries": 1157,
+      "avg_submitted": 297.18,
+      "avg_paid": 80.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 402182.69,
+      "total_services": 4459,
+      "total_beneficiaries": 1721,
+      "avg_submitted": 891.67,
+      "avg_paid": 96.3
+    },
+    {
+      "year": 2020,
+      "total_payments": 286908.24,
+      "total_services": 3071,
+      "total_beneficiaries": 1237,
+      "avg_submitted": 593.52,
+      "avg_paid": 97.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 325435.58,
+      "total_services": 3669,
+      "total_beneficiaries": 933,
+      "avg_submitted": 572.73,
+      "avg_paid": 90.09
+    },
+    {
+      "year": 2022,
+      "total_payments": 323861.61,
+      "total_services": 3908,
+      "total_beneficiaries": 885,
+      "avg_submitted": 505.0,
+      "avg_paid": 77.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 313492.72,
+      "total_services": 3368,
+      "total_beneficiaries": 803,
+      "avg_submitted": 517.86,
+      "avg_paid": 90.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 15346,
+      "payments": 1245009.29,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5592,
+      "payments": 480794.64,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2644,
+      "payments": 378709.51,
+      "avg_markup": 4.55
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1502,
+      "payments": 244466.73,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1461,
+      "payments": 130649.47,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 1431,
+      "payments": 130533.97,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 537,
+      "payments": 97996.37,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 553,
+      "payments": 65388.92,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 617,
+      "payments": 36680.61,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 437,
+      "payments": 28861.89,
+      "avg_markup": 5.84
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 269,
+      "payments": 26249.45,
+      "avg_markup": 6.42
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 156,
+      "payments": 22539.88,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 210,
+      "payments": 14337.74,
+      "avg_markup": 6.59
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 206,
+      "payments": 12499.46,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 71,
+      "payments": 10518.29,
+      "avg_markup": 6.75
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 217,
+      "payments": 9897.27,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 105,
+      "payments": 8746.43,
+      "avg_markup": 6.02
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 130,
+      "payments": 7680.11,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 40,
+      "payments": 4209.44,
+      "avg_markup": 6.65
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 39,
+      "payments": 3324.77,
+      "avg_markup": 3.22
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2969905.18,
+    "total_services": 31782,
+    "total_beneficiaries": 12344,
+    "avg_markup_ratio": 4.26
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "City Of Fremont",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Fremont",
+  "state": "NE",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 222231.21,
+      "total_services": 1531,
+      "total_beneficiaries": 1152,
+      "avg_submitted": 533.86,
+      "avg_paid": 256.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 235670.62,
+      "total_services": 1620,
+      "total_beneficiaries": 1284,
+      "avg_submitted": 575.96,
+      "avg_paid": 256.8
+    },
+    {
+      "year": 2016,
+      "total_payments": 206789.44,
+      "total_services": 1440,
+      "total_beneficiaries": 1115,
+      "avg_submitted": 471.51,
+      "avg_paid": 194.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 253892.84,
+      "total_services": 1732,
+      "total_beneficiaries": 1199,
+      "avg_submitted": 485.3,
+      "avg_paid": 198.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 257773.38,
+      "total_services": 1717,
+      "total_beneficiaries": 1214,
+      "avg_submitted": 624.6,
+      "avg_paid": 267.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 277745.48,
+      "total_services": 1840,
+      "total_beneficiaries": 1355,
+      "avg_submitted": 496.85,
+      "avg_paid": 204.31
+    },
+    {
+      "year": 2020,
+      "total_payments": 260452.31,
+      "total_services": 1667,
+      "total_beneficiaries": 1185,
+      "avg_submitted": 497.09,
+      "avg_paid": 209.87
+    },
+    {
+      "year": 2021,
+      "total_payments": 236765.82,
+      "total_services": 1578,
+      "total_beneficiaries": 1080,
+      "avg_submitted": 535.59,
+      "avg_paid": 209.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 287857.44,
+      "total_services": 1815,
+      "total_beneficiaries": 1166,
+      "avg_submitted": 562.96,
+      "avg_paid": 217.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 314169.8,
+      "total_services": 1866,
+      "total_beneficiaries": 1161,
+      "avg_submitted": 569.59,
+      "avg_paid": 234.65
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5774,
+      "payments": 1616290.23,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 2566,
+      "payments": 839897.99,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 8415,
+      "payments": 73930.47,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 51,
+      "payments": 23229.64,
+      "avg_markup": 2.01
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2553348.33,
+    "total_services": 16806,
+    "total_beneficiaries": 11911,
+    "avg_markup_ratio": 2.41
+  }
+}

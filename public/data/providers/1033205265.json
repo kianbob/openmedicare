@@ -1,0 +1,239 @@
+{
+  "name": "Kenneth Ackerman",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Great Neck",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 177120.07,
+      "total_services": 5985,
+      "total_beneficiaries": 4333,
+      "avg_submitted": 126.36,
+      "avg_paid": 41.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 206361.38,
+      "total_services": 6515,
+      "total_beneficiaries": 4848,
+      "avg_submitted": 112.0,
+      "avg_paid": 37.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 204479.01,
+      "total_services": 6581,
+      "total_beneficiaries": 4960,
+      "avg_submitted": 118.89,
+      "avg_paid": 40.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 210122.05,
+      "total_services": 6677,
+      "total_beneficiaries": 4899,
+      "avg_submitted": 99.79,
+      "avg_paid": 34.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 238699.4,
+      "total_services": 7243,
+      "total_beneficiaries": 5737,
+      "avg_submitted": 119.28,
+      "avg_paid": 39.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 240183.05,
+      "total_services": 7381,
+      "total_beneficiaries": 5714,
+      "avg_submitted": 115.77,
+      "avg_paid": 33.05
+    },
+    {
+      "year": 2020,
+      "total_payments": 213095.15,
+      "total_services": 6230,
+      "total_beneficiaries": 5227,
+      "avg_submitted": 126.47,
+      "avg_paid": 39.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 305439.99,
+      "total_services": 7486,
+      "total_beneficiaries": 6129,
+      "avg_submitted": 134.35,
+      "avg_paid": 43.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 290726.28,
+      "total_services": 7230,
+      "total_beneficiaries": 5768,
+      "avg_submitted": 123.39,
+      "avg_paid": 38.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 276431.61,
+      "total_services": 6867,
+      "total_beneficiaries": 5348,
+      "avg_submitted": 189.17,
+      "avg_paid": 48.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 10378,
+      "payments": 653904.81,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5275,
+      "payments": 543999.64,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2914,
+      "payments": 409495.71,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 4043,
+      "payments": 77730.96,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 5389,
+      "payments": 65161.14,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 4664,
+      "payments": 57968.16,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1761,
+      "payments": 46650.78,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 222,
+      "payments": 42690.81,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4621,
+      "payments": 41214.85,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3041,
+      "payments": 39667.48,
+      "avg_markup": 6.11
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 1534,
+      "payments": 32195.31,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 549,
+      "payments": 28597.09,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "84436",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 3488,
+      "payments": 27803.43,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 6319,
+      "payments": 22250.02,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 283,
+      "payments": 22065.58,
+      "avg_markup": 5.76
+    },
+    {
+      "code": "86769",
+      "description": "Sars-cov-2 covid-19 antibody",
+      "services": 525,
+      "payments": 22015.95,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "84479",
+      "description": "Thyroid hormone evaluation",
+      "services": 2671,
+      "payments": 21001.03,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 224,
+      "payments": 18230.75,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 93,
+      "payments": 17844.01,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "90686",
+      "description": "Vaccine for influenza administered into muscle to individuals 3 years of age and older",
+      "services": 802,
+      "payments": 14711.73,
+      "avg_markup": 2.78
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2362657.99,
+    "total_services": 68195,
+    "total_beneficiaries": 52963,
+    "avg_markup_ratio": 3.45
+  }
+}

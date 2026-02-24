@@ -1,0 +1,239 @@
+{
+  "name": "George White",
+  "credentials": "M.D.",
+  "specialty": "Orthopedic Surgery",
+  "city": "Orlando",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 686474.79,
+      "total_services": 11393,
+      "total_beneficiaries": 8563,
+      "avg_submitted": 755.61,
+      "avg_paid": 181.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 642472.63,
+      "total_services": 11726,
+      "total_beneficiaries": 8843,
+      "avg_submitted": 698.32,
+      "avg_paid": 166.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 667071.18,
+      "total_services": 11720,
+      "total_beneficiaries": 8763,
+      "avg_submitted": 742.16,
+      "avg_paid": 177.49
+    },
+    {
+      "year": 2017,
+      "total_payments": 586841.53,
+      "total_services": 10755,
+      "total_beneficiaries": 7793,
+      "avg_submitted": 698.26,
+      "avg_paid": 162.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 503808.95,
+      "total_services": 10163,
+      "total_beneficiaries": 7267,
+      "avg_submitted": 667.81,
+      "avg_paid": 159.34
+    },
+    {
+      "year": 2019,
+      "total_payments": 463398.43,
+      "total_services": 8027,
+      "total_beneficiaries": 5704,
+      "avg_submitted": 775.22,
+      "avg_paid": 175.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 367358.79,
+      "total_services": 6513,
+      "total_beneficiaries": 4805,
+      "avg_submitted": 918.49,
+      "avg_paid": 175.27
+    },
+    {
+      "year": 2021,
+      "total_payments": 434300.83,
+      "total_services": 7277,
+      "total_beneficiaries": 5268,
+      "avg_submitted": 896.25,
+      "avg_paid": 178.81
+    },
+    {
+      "year": 2022,
+      "total_payments": 412145.35,
+      "total_services": 6984,
+      "total_beneficiaries": 5040,
+      "avg_submitted": 930.43,
+      "avg_paid": 184.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 403035.03,
+      "total_services": 6681,
+      "total_beneficiaries": 4917,
+      "avg_submitted": 925.53,
+      "avg_paid": 180.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 17841,
+      "payments": 988421.88,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6174,
+      "payments": 488111.56,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "23472",
+      "description": "Prosthetic repair of shoulder joint",
+      "services": 415,
+      "payments": 389668.21,
+      "avg_markup": 5.16
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 4530,
+      "payments": 337149.95,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "25447",
+      "description": "Removal of bone joints between wrist and fingers",
+      "services": 306,
+      "payments": 200152.47,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "64721",
+      "description": "Release and/or relocation of median nerve of hand",
+      "services": 630,
+      "payments": 195663.85,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "23412",
+      "description": "Repair of torn tendons of shoulder, open procedure",
+      "services": 290,
+      "payments": 192142.56,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 3819,
+      "payments": 178242.26,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "20550",
+      "description": "Injections of tendon sheath, ligament, or muscle membrane",
+      "services": 5877,
+      "payments": 171006.17,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "29824",
+      "description": "Partial removal of collar bone at shoulder using an endoscope",
+      "services": 454,
+      "payments": 166906.78,
+      "avg_markup": 6.54
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1358,
+      "payments": 157918.64,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "26123",
+      "description": "Removal of tissue of palm",
+      "services": 222,
+      "payments": 149503.1,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "73030",
+      "description": "X-ray of shoulder, minimum of 2 views",
+      "services": 5701,
+      "payments": 126720.93,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "29848",
+      "description": "Release of wrist ligament using an endoscope",
+      "services": 342,
+      "payments": 115916.05,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "76942",
+      "description": "Ultrasonic guidance imaging supervision and interpretation for insertion of needle",
+      "services": 2295,
+      "payments": 115548.99,
+      "avg_markup": 5.23
+    },
+    {
+      "code": "73120",
+      "description": "X-ray of hand, 2 views",
+      "services": 5373,
+      "payments": 107991.38,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "20600",
+      "description": "Aspiration and/or injection of small joint or joint capsule",
+      "services": 3877,
+      "payments": 98202.44,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "23430",
+      "description": "Anchoring of biceps tendon",
+      "services": 340,
+      "payments": 96581.94,
+      "avg_markup": 7.85
+    },
+    {
+      "code": "26480",
+      "description": "Transplant of tendon of hand",
+      "services": 292,
+      "payments": 87833.72,
+      "avg_markup": 6.03
+    },
+    {
+      "code": "20611",
+      "description": "Aspiration and/or injection of major joint or joint capsule with recording and reporting using ultrasound guidance",
+      "services": 1202,
+      "payments": 82150.99,
+      "avg_markup": 4.02
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5166907.51,
+    "total_services": 91239,
+    "total_beneficiaries": 66963,
+    "avg_markup_ratio": 3.93
+  }
+}

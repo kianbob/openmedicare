@@ -1,0 +1,108 @@
+{
+  "name": "Prisma Health-Upstate",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Seneca",
+  "state": "SC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 296723.68,
+      "total_services": 2113,
+      "total_beneficiaries": 1631,
+      "avg_submitted": 486.17,
+      "avg_paid": 236.06
+    },
+    {
+      "year": 2017,
+      "total_payments": 1263591.93,
+      "total_services": 9145,
+      "total_beneficiaries": 5490,
+      "avg_submitted": 486.17,
+      "avg_paid": 235.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 1145497.4,
+      "total_services": 7977,
+      "total_beneficiaries": 5011,
+      "avg_submitted": 575.19,
+      "avg_paid": 282.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 1172997.08,
+      "total_services": 7895,
+      "total_beneficiaries": 4934,
+      "avg_submitted": 486.21,
+      "avg_paid": 245.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 743337.4,
+      "total_services": 5063,
+      "total_beneficiaries": 3443,
+      "avg_submitted": 486.17,
+      "avg_paid": 249.89
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 6423,
+      "payments": 2081139.0,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5538,
+      "payments": 1498748.07,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 3759,
+      "payments": 641710.42,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 324,
+      "payments": 152248.66,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 15562,
+      "payments": 123752.06,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 575,
+      "payments": 117923.66,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 12,
+      "payments": 6625.64,
+      "avg_markup": 2.01
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4622147.5,
+    "total_services": 32193,
+    "total_beneficiaries": 20509,
+    "avg_markup_ratio": 2.02
+  }
+}

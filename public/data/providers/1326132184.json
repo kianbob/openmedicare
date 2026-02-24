@@ -1,0 +1,239 @@
+{
+  "name": "Charles Rothberg",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Patchogue",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 372782.68,
+      "total_services": 4770,
+      "total_beneficiaries": 3680,
+      "avg_submitted": 547.92,
+      "avg_paid": 120.78
+    },
+    {
+      "year": 2015,
+      "total_payments": 360263.81,
+      "total_services": 4621,
+      "total_beneficiaries": 3655,
+      "avg_submitted": 486.04,
+      "avg_paid": 109.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 384245.46,
+      "total_services": 4899,
+      "total_beneficiaries": 3809,
+      "avg_submitted": 660.3,
+      "avg_paid": 146.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 351306.38,
+      "total_services": 4654,
+      "total_beneficiaries": 3628,
+      "avg_submitted": 650.31,
+      "avg_paid": 142.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 401552.91,
+      "total_services": 4966,
+      "total_beneficiaries": 4065,
+      "avg_submitted": 722.35,
+      "avg_paid": 164.92
+    },
+    {
+      "year": 2019,
+      "total_payments": 391031.99,
+      "total_services": 4974,
+      "total_beneficiaries": 3943,
+      "avg_submitted": 648.67,
+      "avg_paid": 148.86
+    },
+    {
+      "year": 2020,
+      "total_payments": 226372.37,
+      "total_services": 3159,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 615.94,
+      "avg_paid": 132.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 323462.51,
+      "total_services": 4270,
+      "total_beneficiaries": 3357,
+      "avg_submitted": 652.32,
+      "avg_paid": 142.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 301583.68,
+      "total_services": 4248,
+      "total_beneficiaries": 3228,
+      "avg_submitted": 652.33,
+      "avg_paid": 138.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 296352.94,
+      "total_services": 4209,
+      "total_beneficiaries": 3304,
+      "avg_submitted": 819.29,
+      "avg_paid": 162.97
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 10143,
+      "payments": 1027363.07,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 10504,
+      "payments": 782708.67,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 767,
+      "payments": 425000.98,
+      "avg_markup": 5.59
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 6149,
+      "payments": 265086.02,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 240,
+      "payments": 169494.37,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1390,
+      "payments": 163767.48,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "92081",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 4018,
+      "payments": 122154.75,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 3113,
+      "payments": 99893.55,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 2045,
+      "payments": 75709.13,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 211,
+      "payments": 64906.49,
+      "avg_markup": 6.5
+    },
+    {
+      "code": "76519",
+      "description": "Ultrasound of eye for determination of lens power",
+      "services": 1073,
+      "payments": 56664.04,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "92201",
+      "description": "Extended examination of eye with drawing of retina",
+      "services": 2112,
+      "payments": 44782.7,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 731,
+      "payments": 35403.29,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 485,
+      "payments": 27513.5,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "66761",
+      "description": "Creation of eye fluid drainage tracts in iris using laser, per session",
+      "services": 59,
+      "payments": 16178.38,
+      "avg_markup": 6.56
+    },
+    {
+      "code": "92202",
+      "description": "Extended examination of eye with drawing of optic nerve and surrounding area (macula)",
+      "services": 1140,
+      "payments": 14965.53,
+      "avg_markup": 7.62
+    },
+    {
+      "code": "99441",
+      "description": "Physician telephone patient service, 5-10 minutes of medical discussion",
+      "services": 149,
+      "payments": 6123.24,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 198,
+      "payments": 4758.55,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "67840",
+      "description": "Removal of eyelid growth",
+      "services": 11,
+      "payments": 2884.64,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "76514",
+      "description": "Ultrasound of corneal structure and measurement",
+      "services": 217,
+      "payments": 2622.83,
+      "avg_markup": 4.14
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3408954.72,
+    "total_services": 44770,
+    "total_beneficiaries": 35362,
+    "avg_markup_ratio": 2.89
+  }
+}

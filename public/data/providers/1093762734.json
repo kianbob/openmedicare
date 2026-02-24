@@ -1,0 +1,239 @@
+{
+  "name": "Stephen Werth",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Quincy",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 281614.1,
+      "total_services": 4735,
+      "total_beneficiaries": 4065,
+      "avg_submitted": 279.75,
+      "avg_paid": 103.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 393445.53,
+      "total_services": 6901,
+      "total_beneficiaries": 5723,
+      "avg_submitted": 264.29,
+      "avg_paid": 101.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 407252.67,
+      "total_services": 7212,
+      "total_beneficiaries": 6036,
+      "avg_submitted": 263.08,
+      "avg_paid": 92.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 365957.81,
+      "total_services": 6209,
+      "total_beneficiaries": 5140,
+      "avg_submitted": 275.52,
+      "avg_paid": 105.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 386879.78,
+      "total_services": 6428,
+      "total_beneficiaries": 5251,
+      "avg_submitted": 294.97,
+      "avg_paid": 113.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 373796.7,
+      "total_services": 6251,
+      "total_beneficiaries": 5236,
+      "avg_submitted": 270.18,
+      "avg_paid": 106.42
+    },
+    {
+      "year": 2020,
+      "total_payments": 268144.19,
+      "total_services": 4540,
+      "total_beneficiaries": 3895,
+      "avg_submitted": 390.88,
+      "avg_paid": 113.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 373364.63,
+      "total_services": 5210,
+      "total_beneficiaries": 4315,
+      "avg_submitted": 565.67,
+      "avg_paid": 122.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 371399.78,
+      "total_services": 5013,
+      "total_beneficiaries": 4326,
+      "avg_submitted": 577.87,
+      "avg_paid": 112.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 323449.35,
+      "total_services": 4308,
+      "total_beneficiaries": 3790,
+      "avg_submitted": 590.18,
+      "avg_paid": 122.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 15662,
+      "payments": 914212.24,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 8720,
+      "payments": 393662.43,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 3581,
+      "payments": 291327.02,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 963,
+      "payments": 249495.22,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 2604,
+      "payments": 215380.27,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 6107,
+      "payments": 202392.72,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "12052",
+      "description": "Repair of wound (2.6 to 5.0 centimeters) of face, ears, eyelids, nose, lips, and/or mouth",
+      "services": 499,
+      "payments": 126549.34,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 1346,
+      "payments": 122596.02,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 2016,
+      "payments": 106385.75,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "96910",
+      "description": "Skin application of tar and ultraviolet B or petrolatum and ultraviolet B",
+      "services": 1153,
+      "payments": 98165.36,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 734,
+      "payments": 87171.05,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "11642",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 543,
+      "payments": 70085.24,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 613,
+      "payments": 67239.89,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 518,
+      "payments": 66402.66,
+      "avg_markup": 5.71
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 586,
+      "payments": 53243.97,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "12042",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of neck, hands, feet, and/or genitals",
+      "services": 221,
+      "payments": 50948.66,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 581,
+      "payments": 46578.78,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "11603",
+      "description": "Removal of malignant growth (2.1 to 3.0 centimeters) of the trunk, arms, or legs",
+      "services": 298,
+      "payments": 37041.75,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "11103",
+      "description": "Tangential biopsy of additional skin lesion",
+      "services": 764,
+      "payments": 36847.94,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "11101",
+      "description": "Biopsy of each additional growth of skin and/or tissue",
+      "services": 1156,
+      "payments": 31913.17,
+      "avg_markup": 4.13
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3545304.55,
+    "total_services": 56807,
+    "total_beneficiaries": 47777,
+    "avg_markup_ratio": 3.5
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Adeel Khan",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Midland",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 420498.54,
+      "total_services": 3947,
+      "total_beneficiaries": 1993,
+      "avg_submitted": 230.82,
+      "avg_paid": 108.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 380231.36,
+      "total_services": 3523,
+      "total_beneficiaries": 1770,
+      "avg_submitted": 239.38,
+      "avg_paid": 110.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 370897.79,
+      "total_services": 3527,
+      "total_beneficiaries": 1781,
+      "avg_submitted": 229.14,
+      "avg_paid": 99.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 364494.56,
+      "total_services": 3400,
+      "total_beneficiaries": 1582,
+      "avg_submitted": 229.74,
+      "avg_paid": 100.49
+    },
+    {
+      "year": 2018,
+      "total_payments": 380941.03,
+      "total_services": 3449,
+      "total_beneficiaries": 1602,
+      "avg_submitted": 257.39,
+      "avg_paid": 112.34
+    },
+    {
+      "year": 2019,
+      "total_payments": 700116.67,
+      "total_services": 6514,
+      "total_beneficiaries": 2526,
+      "avg_submitted": 249.46,
+      "avg_paid": 110.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 364444.32,
+      "total_services": 3128,
+      "total_beneficiaries": 1300,
+      "avg_submitted": 277.83,
+      "avg_paid": 120.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 373974.35,
+      "total_services": 2600,
+      "total_beneficiaries": 1110,
+      "avg_submitted": 295.48,
+      "avg_paid": 137.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 390599.98,
+      "total_services": 4084,
+      "total_beneficiaries": 1475,
+      "avg_submitted": 275.93,
+      "avg_paid": 112.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 310921.5,
+      "total_services": 2154,
+      "total_beneficiaries": 725,
+      "avg_submitted": 311.74,
+      "avg_paid": 123.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 5467,
+      "payments": 1263620.39,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 2984,
+      "payments": 588392.28,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7001,
+      "payments": 540679.18,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8163,
+      "payments": 458732.4,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 1697,
+      "payments": 336867.39,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2236,
+      "payments": 235227.87,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 1496,
+      "payments": 217313.34,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3161,
+      "payments": 155828.59,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1190,
+      "payments": 137586.13,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 831,
+      "payments": 30579.57,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 831,
+      "payments": 29466.48,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 287,
+      "payments": 23294.88,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 224,
+      "payments": 12652.67,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 58,
+      "payments": 6010.27,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99233",
+      "description": "Follow-up hospital inpatient care per day, typically 35 minutes",
+      "services": 53,
+      "payments": 4024.52,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care per day, typically 70 minutes",
+      "services": 22,
+      "payments": 3383.74,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "90993",
+      "description": "Dialysis training, patient helper, course not completed",
+      "services": 207,
+      "payments": 3245.76,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 22,
+      "payments": 3029.37,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "93050",
+      "description": "Analysis of pressure of upper limb artery with interpretation and report",
+      "services": 191,
+      "payments": 2355.84,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99203",
+      "description": "New patient outpatient visit, total time 30-44 minutes",
+      "services": 28,
+      "payments": 2340.44,
+      "avg_markup": 1.85
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4057120.1,
+    "total_services": 36326,
+    "total_beneficiaries": 15864,
+    "avg_markup_ratio": 2.27
+  }
+}

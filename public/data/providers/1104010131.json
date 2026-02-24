@@ -1,0 +1,239 @@
+{
+  "name": "Seth Jawetz",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Clifton",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 265716.08,
+      "total_services": 3289,
+      "total_beneficiaries": 2645,
+      "avg_submitted": 176.74,
+      "avg_paid": 84.99
+    },
+    {
+      "year": 2015,
+      "total_payments": 276697.65,
+      "total_services": 3983,
+      "total_beneficiaries": 3252,
+      "avg_submitted": 359.68,
+      "avg_paid": 79.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 325694.87,
+      "total_services": 4755,
+      "total_beneficiaries": 3704,
+      "avg_submitted": 374.58,
+      "avg_paid": 78.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 322856.62,
+      "total_services": 4448,
+      "total_beneficiaries": 3381,
+      "avg_submitted": 416.34,
+      "avg_paid": 86.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 319597.66,
+      "total_services": 4229,
+      "total_beneficiaries": 3370,
+      "avg_submitted": 394.9,
+      "avg_paid": 83.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 304171.48,
+      "total_services": 4340,
+      "total_beneficiaries": 3281,
+      "avg_submitted": 381.4,
+      "avg_paid": 77.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 243646.56,
+      "total_services": 3665,
+      "total_beneficiaries": 2757,
+      "avg_submitted": 358.69,
+      "avg_paid": 79.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 291519.95,
+      "total_services": 3635,
+      "total_beneficiaries": 2793,
+      "avg_submitted": 398.25,
+      "avg_paid": 93.4
+    },
+    {
+      "year": 2022,
+      "total_payments": 294656.17,
+      "total_services": 3759,
+      "total_beneficiaries": 2900,
+      "avg_submitted": 371.38,
+      "avg_paid": 82.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 358303.4,
+      "total_services": 4212,
+      "total_beneficiaries": 3376,
+      "avg_submitted": 406.9,
+      "avg_paid": 88.66
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6948,
+      "payments": 644749.84,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2864,
+      "payments": 469174.91,
+      "avg_markup": 9.07
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 865,
+      "payments": 370804.0,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1516,
+      "payments": 260272.67,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 1025,
+      "payments": 173508.44,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1987,
+      "payments": 113946.87,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 411,
+      "payments": 90440.76,
+      "avg_markup": 7.6
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 7246,
+      "payments": 89978.78,
+      "avg_markup": 6.82
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 579,
+      "payments": 78374.99,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1247,
+      "payments": 76916.23,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "93971",
+      "description": "Ultrasound scan of veins of one arm or leg or limited including assessment of compression and functional maneuvers",
+      "services": 711,
+      "payments": 73365.6,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 306,
+      "payments": 66813.84,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 375,
+      "payments": 55892.68,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 452,
+      "payments": 51855.7,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 875,
+      "payments": 49398.09,
+      "avg_markup": 10.46
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 290,
+      "payments": 43962.25,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "93923",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 387,
+      "payments": 40193.03,
+      "avg_markup": 4.53
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 442,
+      "payments": 39077.47,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 852,
+      "payments": 36002.19,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 517,
+      "payments": 22555.9,
+      "avg_markup": 2.17
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3002860.44,
+    "total_services": 40315,
+    "total_beneficiaries": 31459,
+    "avg_markup_ratio": 4.58
+  }
+}

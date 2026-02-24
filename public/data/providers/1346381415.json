@@ -1,0 +1,141 @@
+{
+  "name": "Oak Valley Hospital District",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Oakdale",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 422103.65,
+      "total_services": 2643,
+      "total_beneficiaries": 1744,
+      "avg_submitted": 1993.54,
+      "avg_paid": 260.86
+    },
+    {
+      "year": 2015,
+      "total_payments": 480660.95,
+      "total_services": 3001,
+      "total_beneficiaries": 1970,
+      "avg_submitted": 1979.87,
+      "avg_paid": 262.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 477992.57,
+      "total_services": 3012,
+      "total_beneficiaries": 1960,
+      "avg_submitted": 1968.63,
+      "avg_paid": 260.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 528454.7,
+      "total_services": 3179,
+      "total_beneficiaries": 1880,
+      "avg_submitted": 1985.01,
+      "avg_paid": 262.76
+    },
+    {
+      "year": 2018,
+      "total_payments": 527471.89,
+      "total_services": 3095,
+      "total_beneficiaries": 1781,
+      "avg_submitted": 1970.17,
+      "avg_paid": 264.59
+    },
+    {
+      "year": 2019,
+      "total_payments": 533828.55,
+      "total_services": 3066,
+      "total_beneficiaries": 1816,
+      "avg_submitted": 2013.21,
+      "avg_paid": 258.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 487383.98,
+      "total_services": 2581,
+      "total_beneficiaries": 1632,
+      "avg_submitted": 1967.92,
+      "avg_paid": 277.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 526039.41,
+      "total_services": 2782,
+      "total_beneficiaries": 1743,
+      "avg_submitted": 1884.34,
+      "avg_paid": 287.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 512046.11,
+      "total_services": 2632,
+      "total_beneficiaries": 1753,
+      "avg_submitted": 2017.68,
+      "avg_paid": 292.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 593368.66,
+      "total_services": 2768,
+      "total_beneficiaries": 1728,
+      "avg_submitted": 2385.5,
+      "avg_paid": 323.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 10519,
+      "payments": 3887450.1,
+      "avg_markup": 7.7
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1711,
+      "payments": 516377.02,
+      "avg_markup": 6.04
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 1302,
+      "payments": 245579.82,
+      "avg_markup": 7.94
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 327,
+      "payments": 178964.99,
+      "avg_markup": 6.61
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 796,
+      "payments": 178623.77,
+      "avg_markup": 10.78
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14104,
+      "payments": 82354.78,
+      "avg_markup": 14.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5089350.49,
+    "total_services": 28759,
+    "total_beneficiaries": 18007,
+    "avg_markup_ratio": 7.72
+  }
+}

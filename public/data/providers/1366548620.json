@@ -1,0 +1,141 @@
+{
+  "name": "Farid Besharat",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 781298.76,
+      "total_services": 8447,
+      "total_beneficiaries": 1032,
+      "avg_submitted": 450.01,
+      "avg_paid": 131.36
+    },
+    {
+      "year": 2015,
+      "total_payments": 701347.76,
+      "total_services": 7888,
+      "total_beneficiaries": 986,
+      "avg_submitted": 449.94,
+      "avg_paid": 105.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 486637.16,
+      "total_services": 5118,
+      "total_beneficiaries": 1016,
+      "avg_submitted": 487.55,
+      "avg_paid": 123.94
+    },
+    {
+      "year": 2017,
+      "total_payments": 414719.41,
+      "total_services": 3729,
+      "total_beneficiaries": 798,
+      "avg_submitted": 487.5,
+      "avg_paid": 121.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 612630.39,
+      "total_services": 4970,
+      "total_beneficiaries": 979,
+      "avg_submitted": 533.42,
+      "avg_paid": 144.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 852067.51,
+      "total_services": 6717,
+      "total_beneficiaries": 1201,
+      "avg_submitted": 533.28,
+      "avg_paid": 142.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 1060229.96,
+      "total_services": 7770,
+      "total_beneficiaries": 1250,
+      "avg_submitted": 533.27,
+      "avg_paid": 150.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 689211.73,
+      "total_services": 6213,
+      "total_beneficiaries": 940,
+      "avg_submitted": 533.33,
+      "avg_paid": 147.91
+    },
+    {
+      "year": 2022,
+      "total_payments": 241684.65,
+      "total_services": 3282,
+      "total_beneficiaries": 711,
+      "avg_submitted": 438.06,
+      "avg_paid": 106.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 241792.91,
+      "total_services": 2895,
+      "total_beneficiaries": 591,
+      "avg_submitted": 437.5,
+      "avg_paid": 104.99
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 31841,
+      "payments": 2788479.34,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 10090,
+      "payments": 1860775.05,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4642,
+      "payments": 770037.34,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9962,
+      "payments": 606564.4,
+      "avg_markup": 5.75
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 481,
+      "payments": 53740.27,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "92950",
+      "description": "Attempt to restart heart and lungs",
+      "services": 13,
+      "payments": 2023.84,
+      "avg_markup": 2.57
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6081620.24,
+    "total_services": 57029,
+    "total_beneficiaries": 9504,
+    "avg_markup_ratio": 4.15
+  }
+}

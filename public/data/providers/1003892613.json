@@ -1,0 +1,85 @@
+{
+  "name": "Borys Krynyckyi",
+  "credentials": "MD",
+  "specialty": "Diagnostic Radiology",
+  "city": "Wall",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 523770.51,
+      "total_services": 655,
+      "total_beneficiaries": 616,
+      "avg_submitted": 3453.29,
+      "avg_paid": 983.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 1144543.77,
+      "total_services": 1355,
+      "total_beneficiaries": 1034,
+      "avg_submitted": 3483.53,
+      "avg_paid": 1349.34
+    },
+    {
+      "year": 2023,
+      "total_payments": 1160915.04,
+      "total_services": 1384,
+      "total_beneficiaries": 1110,
+      "avg_submitted": 3413.43,
+      "avg_paid": 1281.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with ct imaging skull base to mid-thigh",
+      "services": 1505,
+      "payments": 2174240.48,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "78816",
+      "description": "Nuclear medicine study with ct imaging whole body",
+      "services": 189,
+      "payments": 273258.72,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 1518,
+      "payments": 178605.22,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "A9592",
+      "description": "Copper cu-64, dotatate, diagnostic, 1 millicurie",
+      "services": 40,
+      "payments": 119888.0,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "A9595",
+      "description": "Piflufolastat f-18, diagnostic, 1 millicurie",
+      "services": 128,
+      "payments": 70424.09,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "A9588",
+      "description": "Fluciclovine f-18, diagnostic, 1 millicurie",
+      "services": 14,
+      "payments": 12812.8,
+      "avg_markup": 1.28
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2829229.32,
+    "total_services": 3394,
+    "total_beneficiaries": 2760,
+    "avg_markup_ratio": 3.69
+  }
+}

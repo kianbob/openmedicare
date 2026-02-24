@@ -1,0 +1,239 @@
+{
+  "name": "Nicholas Neubaum",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Montrose",
+  "state": "CO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 270504.27,
+      "total_services": 3191,
+      "total_beneficiaries": 1896,
+      "avg_submitted": 388.99,
+      "avg_paid": 119.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 273407.46,
+      "total_services": 3239,
+      "total_beneficiaries": 1934,
+      "avg_submitted": 458.6,
+      "avg_paid": 136.63
+    },
+    {
+      "year": 2016,
+      "total_payments": 353031.17,
+      "total_services": 3638,
+      "total_beneficiaries": 2144,
+      "avg_submitted": 462.76,
+      "avg_paid": 158.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 341688.18,
+      "total_services": 3459,
+      "total_beneficiaries": 2078,
+      "avg_submitted": 440.2,
+      "avg_paid": 148.71
+    },
+    {
+      "year": 2018,
+      "total_payments": 311643.52,
+      "total_services": 3012,
+      "total_beneficiaries": 1861,
+      "avg_submitted": 499.35,
+      "avg_paid": 174.0
+    },
+    {
+      "year": 2019,
+      "total_payments": 347891.08,
+      "total_services": 3335,
+      "total_beneficiaries": 2062,
+      "avg_submitted": 476.45,
+      "avg_paid": 166.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 291845.78,
+      "total_services": 3220,
+      "total_beneficiaries": 1830,
+      "avg_submitted": 399.96,
+      "avg_paid": 140.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 285329.18,
+      "total_services": 3439,
+      "total_beneficiaries": 2010,
+      "avg_submitted": 487.32,
+      "avg_paid": 139.23
+    },
+    {
+      "year": 2022,
+      "total_payments": 252736.91,
+      "total_services": 3186,
+      "total_beneficiaries": 1769,
+      "avg_submitted": 459.72,
+      "avg_paid": 126.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 266576.47,
+      "total_services": 3088,
+      "total_beneficiaries": 1790,
+      "avg_submitted": 507.87,
+      "avg_paid": 165.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 8866,
+      "payments": 719984.98,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1131,
+      "payments": 550550.45,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 4049,
+      "payments": 354905.46,
+      "avg_markup": 9.27
+    },
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 472,
+      "payments": 353061.01,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 5073,
+      "payments": 165953.21,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 2439,
+      "payments": 149773.98,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2350,
+      "payments": 130487.48,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 205,
+      "payments": 128827.07,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 345,
+      "payments": 92725.72,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 1218,
+      "payments": 78991.55,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 884,
+      "payments": 77070.71,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 2231,
+      "payments": 64003.74,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1289,
+      "payments": 53384.39,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 1020,
+      "payments": 27683.31,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 384,
+      "payments": 17774.35,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 301,
+      "payments": 13433.03,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "76519",
+      "description": "Ultrasound of eye for determination of lens power",
+      "services": 107,
+      "payments": 4758.9,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 87,
+      "payments": 4649.15,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "76514",
+      "description": "Ultrasound of corneal structure and measurement",
+      "services": 257,
+      "payments": 2127.83,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 46,
+      "payments": 2072.53,
+      "avg_markup": 2.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2994654.01,
+    "total_services": 32807,
+    "total_beneficiaries": 19374,
+    "avg_markup_ratio": 3.56
+  }
+}

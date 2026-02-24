@@ -1,0 +1,239 @@
+{
+  "name": "Michael Angelo",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Bossier City",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 534856.67,
+      "total_services": 15848,
+      "total_beneficiaries": 7918,
+      "avg_submitted": 135.63,
+      "avg_paid": 41.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 489375.97,
+      "total_services": 14247,
+      "total_beneficiaries": 7028,
+      "avg_submitted": 117.1,
+      "avg_paid": 39.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 507884.09,
+      "total_services": 15061,
+      "total_beneficiaries": 8153,
+      "avg_submitted": 120.32,
+      "avg_paid": 40.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 493141.17,
+      "total_services": 15818,
+      "total_beneficiaries": 8801,
+      "avg_submitted": 92.5,
+      "avg_paid": 37.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 507085.25,
+      "total_services": 16006,
+      "total_beneficiaries": 8561,
+      "avg_submitted": 124.55,
+      "avg_paid": 41.32
+    },
+    {
+      "year": 2019,
+      "total_payments": 503156.97,
+      "total_services": 15211,
+      "total_beneficiaries": 7720,
+      "avg_submitted": 117.92,
+      "avg_paid": 39.88
+    },
+    {
+      "year": 2020,
+      "total_payments": 614877.78,
+      "total_services": 15646,
+      "total_beneficiaries": 6944,
+      "avg_submitted": 98.87,
+      "avg_paid": 36.96
+    },
+    {
+      "year": 2021,
+      "total_payments": 226249.97,
+      "total_services": 4314,
+      "total_beneficiaries": 1280,
+      "avg_submitted": 130.01,
+      "avg_paid": 36.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 336211.0,
+      "total_services": 5382,
+      "total_beneficiaries": 1130,
+      "avg_submitted": 149.33,
+      "avg_paid": 51.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 140635.72,
+      "total_services": 2449,
+      "total_beneficiaries": 906,
+      "avg_submitted": 143.92,
+      "avg_paid": 51.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 18283,
+      "payments": 1026920.67,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 8955,
+      "payments": 628676.2,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7088,
+      "payments": 464608.08,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7289,
+      "payments": 327666.73,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6422,
+      "payments": 324496.36,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 7036,
+      "payments": 217404.8,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1724,
+      "payments": 179060.88,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1056,
+      "payments": 117902.13,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5824,
+      "payments": 75324.44,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2926,
+      "payments": 59428.72,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 1945,
+      "payments": 55453.04,
+      "avg_markup": 4.41
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 3775,
+      "payments": 43616.9,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 353,
+      "payments": 42815.72,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 3520,
+      "payments": 40636.78,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4374,
+      "payments": 40611.12,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1906,
+      "payments": 39578.83,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 821,
+      "payments": 31172.97,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 772,
+      "payments": 29656.5,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 361,
+      "payments": 29339.7,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 211,
+      "payments": 25675.97,
+      "avg_markup": 1.86
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4353474.58,
+    "total_services": 119982,
+    "total_beneficiaries": 58441,
+    "avg_markup_ratio": 2.86
+  }
+}

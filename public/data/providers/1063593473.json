@@ -1,0 +1,57 @@
+{
+  "name": "Maher Albitar",
+  "credentials": "",
+  "specialty": "Pathology",
+  "city": "Hackensack",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 1106528.4,
+      "total_services": 380,
+      "total_beneficiaries": 311,
+      "avg_submitted": 8700.0,
+      "avg_paid": 2911.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 964285.32,
+      "total_services": 334,
+      "total_beneficiaries": 267,
+      "avg_submitted": 8700.0,
+      "avg_paid": 2887.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 1482106.78,
+      "total_services": 519,
+      "total_beneficiaries": 509,
+      "avg_submitted": 9324.21,
+      "avg_paid": 2850.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "81455",
+      "description": "Test for detecting genes associated with cancer",
+      "services": 1105,
+      "payments": 3189546.83,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "81456",
+      "description": "Targeted genomic sequence analysis panel of rna of 51 or greater genes associated with blood and lymphatic system disorders",
+      "services": 128,
+      "payments": 363373.67,
+      "avg_markup": 3.19
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3552920.5,
+    "total_services": 1233,
+    "total_beneficiaries": 1087,
+    "avg_markup_ratio": 3.13
+  }
+}

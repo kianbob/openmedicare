@@ -1,0 +1,239 @@
+{
+  "name": "Willy Chua",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Temecula",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 592107.48,
+      "total_services": 8817,
+      "total_beneficiaries": 4224,
+      "avg_submitted": 142.74,
+      "avg_paid": 77.66
+    },
+    {
+      "year": 2015,
+      "total_payments": 598501.69,
+      "total_services": 8532,
+      "total_beneficiaries": 3777,
+      "avg_submitted": 144.04,
+      "avg_paid": 76.72
+    },
+    {
+      "year": 2016,
+      "total_payments": 448573.88,
+      "total_services": 6580,
+      "total_beneficiaries": 3371,
+      "avg_submitted": 138.35,
+      "avg_paid": 75.82
+    },
+    {
+      "year": 2017,
+      "total_payments": 378433.71,
+      "total_services": 5766,
+      "total_beneficiaries": 2958,
+      "avg_submitted": 137.53,
+      "avg_paid": 73.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 343449.39,
+      "total_services": 5321,
+      "total_beneficiaries": 2817,
+      "avg_submitted": 134.47,
+      "avg_paid": 73.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 174102.89,
+      "total_services": 2571,
+      "total_beneficiaries": 1562,
+      "avg_submitted": 145.06,
+      "avg_paid": 79.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 86029.84,
+      "total_services": 1286,
+      "total_beneficiaries": 580,
+      "avg_submitted": 94.1,
+      "avg_paid": 56.95
+    },
+    {
+      "year": 2021,
+      "total_payments": 77661.73,
+      "total_services": 904,
+      "total_beneficiaries": 524,
+      "avg_submitted": 114.96,
+      "avg_paid": 69.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 89933.54,
+      "total_services": 980,
+      "total_beneficiaries": 610,
+      "avg_submitted": 136.27,
+      "avg_paid": 71.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 80061.38,
+      "total_services": 881,
+      "total_beneficiaries": 484,
+      "avg_submitted": 139.36,
+      "avg_paid": 68.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 13882,
+      "payments": 852054.65,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5893,
+      "payments": 521626.82,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1541,
+      "payments": 268548.77,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2822,
+      "payments": 251042.05,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3410,
+      "payments": 202271.46,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1122,
+      "payments": 141576.77,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 1739,
+      "payments": 85332.2,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 705,
+      "payments": 83135.76,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1738,
+      "payments": 78773.73,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 338,
+      "payments": 65606.72,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 1697,
+      "payments": 59763.61,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 317,
+      "payments": 44428.51,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 245,
+      "payments": 24548.7,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 230,
+      "payments": 24361.56,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 643,
+      "payments": 21501.02,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient use of aerosol generator, nebulizer, metered dose inhaler or intermittent positive pressure breathing (IPPB) device",
+      "services": 1442,
+      "payments": 20133.57,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 302,
+      "payments": 17438.84,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 133,
+      "payments": 16041.28,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 1036,
+      "payments": 15767.32,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 718,
+      "payments": 13923.96,
+      "avg_markup": 2.35
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2868855.53,
+    "total_services": 41638,
+    "total_beneficiaries": 20907,
+    "avg_markup_ratio": 1.62
+  }
+}

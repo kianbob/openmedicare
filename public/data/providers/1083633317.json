@@ -1,0 +1,211 @@
+{
+  "name": "Benjamin Frizner",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Gettysburg",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 87237.85,
+      "total_services": 1158,
+      "total_beneficiaries": 792,
+      "avg_submitted": 217.37,
+      "avg_paid": 87.23
+    },
+    {
+      "year": 2015,
+      "total_payments": 94468.75,
+      "total_services": 1441,
+      "total_beneficiaries": 446,
+      "avg_submitted": 225.31,
+      "avg_paid": 83.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 203986.84,
+      "total_services": 2859,
+      "total_beneficiaries": 113,
+      "avg_submitted": 325.39,
+      "avg_paid": 93.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 158347.11,
+      "total_services": 2195,
+      "total_beneficiaries": 183,
+      "avg_submitted": 332.37,
+      "avg_paid": 89.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 108071.13,
+      "total_services": 1516,
+      "total_beneficiaries": 346,
+      "avg_submitted": 282.84,
+      "avg_paid": 82.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 334268.86,
+      "total_services": 4572,
+      "total_beneficiaries": 402,
+      "avg_submitted": 253.33,
+      "avg_paid": 87.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 508789.86,
+      "total_services": 7076,
+      "total_beneficiaries": 615,
+      "avg_submitted": 264.0,
+      "avg_paid": 93.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 727676.98,
+      "total_services": 10070,
+      "total_beneficiaries": 638,
+      "avg_submitted": 270.0,
+      "avg_paid": 96.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 599623.16,
+      "total_services": 8457,
+      "total_beneficiaries": 555,
+      "avg_submitted": 270.0,
+      "avg_paid": 92.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 636763.96,
+      "total_services": 8095,
+      "total_beneficiaries": 1038,
+      "avg_submitted": 259.73,
+      "avg_paid": 109.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 21670,
+      "payments": 1735694.15,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 21244,
+      "payments": 1278451.17,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1146,
+      "payments": 165711.0,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1285,
+      "payments": 117133.49,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1021,
+      "payments": 60037.24,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 159,
+      "payments": 26330.65,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 126,
+      "payments": 14822.83,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 82,
+      "payments": 12376.57,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 164,
+      "payments": 9592.44,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 109,
+      "payments": 8946.85,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 100,
+      "payments": 8589.33,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 124,
+      "payments": 7380.5,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 116,
+      "payments": 6948.57,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 55,
+      "payments": 4180.9,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 23,
+      "payments": 2551.46,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 15,
+      "payments": 487.35,
+      "avg_markup": 2.46
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3459234.5,
+    "total_services": 47439,
+    "total_beneficiaries": 5128,
+    "avg_markup_ratio": 3.13
+  }
+}

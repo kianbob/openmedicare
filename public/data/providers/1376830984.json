@@ -1,0 +1,239 @@
+{
+  "name": "Claire Verna",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Jacksonville",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 76060.22,
+      "total_services": 1197,
+      "total_beneficiaries": 383,
+      "avg_submitted": 248.17,
+      "avg_paid": 77.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 341920.74,
+      "total_services": 4494,
+      "total_beneficiaries": 1931,
+      "avg_submitted": 243.25,
+      "avg_paid": 90.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 363651.66,
+      "total_services": 4269,
+      "total_beneficiaries": 2347,
+      "avg_submitted": 247.15,
+      "avg_paid": 89.91
+    },
+    {
+      "year": 2017,
+      "total_payments": 348216.29,
+      "total_services": 4233,
+      "total_beneficiaries": 2415,
+      "avg_submitted": 245.58,
+      "avg_paid": 85.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 304613.75,
+      "total_services": 3550,
+      "total_beneficiaries": 1891,
+      "avg_submitted": 235.14,
+      "avg_paid": 90.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 279354.55,
+      "total_services": 3021,
+      "total_beneficiaries": 1295,
+      "avg_submitted": 258.16,
+      "avg_paid": 100.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 267611.74,
+      "total_services": 3598,
+      "total_beneficiaries": 1568,
+      "avg_submitted": 249.08,
+      "avg_paid": 98.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 221990.72,
+      "total_services": 2580,
+      "total_beneficiaries": 1555,
+      "avg_submitted": 252.99,
+      "avg_paid": 89.96
+    },
+    {
+      "year": 2022,
+      "total_payments": 81456.62,
+      "total_services": 1058,
+      "total_beneficiaries": 690,
+      "avg_submitted": 376.74,
+      "avg_paid": 95.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 80157.86,
+      "total_services": 987,
+      "total_beneficiaries": 549,
+      "avg_submitted": 345.94,
+      "avg_paid": 88.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11334,
+      "payments": 930235.1,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8243,
+      "payments": 473608.83,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2095,
+      "payments": 330930.64,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2461,
+      "payments": 207473.66,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1086,
+      "payments": 116364.01,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1157,
+      "payments": 62027.79,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 267,
+      "payments": 46354.61,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 321,
+      "payments": 46234.71,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 581,
+      "payments": 33153.76,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 186,
+      "payments": 24429.86,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 115,
+      "payments": 19304.84,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 302,
+      "payments": 17244.68,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 108,
+      "payments": 11618.09,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional, first 30 minutes",
+      "services": 151,
+      "payments": 9428.62,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 49,
+      "payments": 5009.57,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 95,
+      "payments": 5006.28,
+      "avg_markup": 6.66
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 61,
+      "payments": 4981.43,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 110,
+      "payments": 4323.73,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 32,
+      "payments": 4094.46,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 64,
+      "payments": 4079.02,
+      "avg_markup": 2.86
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2365034.15,
+    "total_services": 28987,
+    "total_beneficiaries": 14624,
+    "avg_markup_ratio": 2.72
+  }
+}

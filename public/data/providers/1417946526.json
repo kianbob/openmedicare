@@ -1,0 +1,239 @@
+{
+  "name": "Jon Foran",
+  "credentials": "MEDICAL DOCTOR",
+  "specialty": "Diagnostic Radiology",
+  "city": "Pasadena",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 527531.84,
+      "total_services": 4490,
+      "total_beneficiaries": 4426,
+      "avg_submitted": 715.3,
+      "avg_paid": 153.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 550671.94,
+      "total_services": 4257,
+      "total_beneficiaries": 4183,
+      "avg_submitted": 683.09,
+      "avg_paid": 141.87
+    },
+    {
+      "year": 2016,
+      "total_payments": 534437.48,
+      "total_services": 4107,
+      "total_beneficiaries": 4024,
+      "avg_submitted": 627.4,
+      "avg_paid": 133.7
+    },
+    {
+      "year": 2017,
+      "total_payments": 512775.11,
+      "total_services": 3343,
+      "total_beneficiaries": 3265,
+      "avg_submitted": 742.19,
+      "avg_paid": 161.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 658165.08,
+      "total_services": 3722,
+      "total_beneficiaries": 3642,
+      "avg_submitted": 790.39,
+      "avg_paid": 170.74
+    },
+    {
+      "year": 2019,
+      "total_payments": 635997.17,
+      "total_services": 4326,
+      "total_beneficiaries": 4281,
+      "avg_submitted": 672.13,
+      "avg_paid": 143.53
+    },
+    {
+      "year": 2020,
+      "total_payments": 548453.75,
+      "total_services": 3224,
+      "total_beneficiaries": 3114,
+      "avg_submitted": 650.96,
+      "avg_paid": 139.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 667422.59,
+      "total_services": 3602,
+      "total_beneficiaries": 3537,
+      "avg_submitted": 737.09,
+      "avg_paid": 175.63
+    },
+    {
+      "year": 2022,
+      "total_payments": 767066.06,
+      "total_services": 4829,
+      "total_beneficiaries": 4772,
+      "avg_submitted": 832.07,
+      "avg_paid": 197.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 748944.41,
+      "total_services": 5441,
+      "total_beneficiaries": 5377,
+      "avg_submitted": 897.16,
+      "avg_paid": 226.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with CT imaging skull base to mid-thigh",
+      "services": 1264,
+      "payments": 1761416.9,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 5653,
+      "payments": 875471.4,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 3370,
+      "payments": 509277.92,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 1437,
+      "payments": 326162.12,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "74183",
+      "description": "MRI scan of abdomen before and after contrast",
+      "services": 583,
+      "payments": 201644.15,
+      "avg_markup": 5.97
+    },
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 1132,
+      "payments": 200067.45,
+      "avg_markup": 7.19
+    },
+    {
+      "code": "76642",
+      "description": "Ultrasound of one breast",
+      "services": 2552,
+      "payments": 192829.55,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "19083",
+      "description": "Biopsy of breast accessed throught the skin with ultrasound guidance",
+      "services": 335,
+      "payments": 184589.4,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "77066",
+      "description": "Mammography of both breasts",
+      "services": 1308,
+      "payments": 178570.98,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "78812",
+      "description": "Nuclear medicine imaging from skull base to mid-thigh",
+      "services": 89,
+      "payments": 131291.88,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "77065",
+      "description": "Mammography of one breast",
+      "services": 1213,
+      "payments": 130702.93,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 2126,
+      "payments": 129838.21,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "72197",
+      "description": "MRI scan of pelvis before and after contrast",
+      "services": 291,
+      "payments": 109095.06,
+      "avg_markup": 6.2
+    },
+    {
+      "code": "G0204",
+      "description": "Diagnostic mammography, producing direct digital image, bilateral, all views",
+      "services": 753,
+      "payments": 101418.34,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "71260",
+      "description": "CT scan chest with contrast",
+      "services": 825,
+      "payments": 96816.87,
+      "avg_markup": 7.88
+    },
+    {
+      "code": "G0206",
+      "description": "Diagnostic mammography, producing direct digital image, unilateral, all views",
+      "services": 815,
+      "payments": 89546.82,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 1634,
+      "payments": 74941.22,
+      "avg_markup": 5.49
+    },
+    {
+      "code": "76641",
+      "description": "Ultrasound of one breast",
+      "services": 636,
+      "payments": 67605.02,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "77049",
+      "description": "MRI of both breasts with and without contrast",
+      "services": 191,
+      "payments": 65123.5,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 588,
+      "payments": 60592.64,
+      "avg_markup": 6.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6151465.43,
+    "total_services": 41341,
+    "total_beneficiaries": 40621,
+    "avg_markup_ratio": 3.67
+  }
+}

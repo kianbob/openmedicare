@@ -1,0 +1,85 @@
+{
+  "name": "Johnston Ambulance Service, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Goldsboro",
+  "state": "NC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3842448.33,
+      "total_services": 41949,
+      "total_beneficiaries": 17944,
+      "avg_submitted": 290.68,
+      "avg_paid": 186.7
+    },
+    {
+      "year": 2015,
+      "total_payments": 4130801.04,
+      "total_services": 44572,
+      "total_beneficiaries": 18816,
+      "avg_submitted": 288.85,
+      "avg_paid": 187.7
+    },
+    {
+      "year": 2016,
+      "total_payments": 2222491.87,
+      "total_services": 24765,
+      "total_beneficiaries": 11501,
+      "avg_submitted": 288.95,
+      "avg_paid": 190.52
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 47987,
+      "payments": 7692806.98,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 2763,
+      "payments": 866877.83,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3187,
+      "payments": 843548.99,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2198,
+      "payments": 438960.37,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 55122,
+      "payments": 348521.95,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "A0999",
+      "description": "Unlisted ambulance service",
+      "services": 29,
+      "payments": 5025.12,
+      "avg_markup": 1.66
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 10195741.24,
+    "total_services": 111286,
+    "total_beneficiaries": 48261,
+    "avg_markup_ratio": 1.71
+  }
+}

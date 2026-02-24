@@ -499,7 +499,7 @@ export default function HomePage() {
             <Link href="/providers" className="group bg-blue-50 hover:bg-blue-100 rounded-lg p-6 transition-colors">
               <div className="text-blue-600 text-2xl mb-3">👨‍⚕️</div>
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-800">Providers</h3>
-              <p className="text-sm text-gray-600">2,900+ top Medicare providers with payment histories</p>
+              <p className="text-sm text-gray-600">25,000+ Medicare providers with payment histories</p>
             </Link>
 
             <Link href="/procedures" className="group bg-purple-50 hover:bg-purple-100 rounded-lg p-6 transition-colors">
@@ -575,7 +575,7 @@ export default function HomePage() {
             <Link href="/providers" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
               <div className="text-blue-600 text-2xl mb-3">👤</div>
               <h3 className="font-semibold text-gray-900 mb-2">Provider Directory</h3>
-              <p className="text-sm text-gray-600">Browse 2,900+ detailed provider profiles with payment histories</p>
+              <p className="text-sm text-gray-600">Browse 25,000+ detailed provider profiles with payment histories</p>
             </Link>
             <Link href="/investigations" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
               <div className="text-purple-600 text-2xl mb-3">📰</div>

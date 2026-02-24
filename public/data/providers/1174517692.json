@@ -1,0 +1,125 @@
+{
+  "name": "Patient Transport Services Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Loveland",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 992883.05,
+      "total_services": 11116,
+      "total_beneficiaries": 8735,
+      "avg_submitted": 1004.53,
+      "avg_paid": 223.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 1215593.87,
+      "total_services": 13222,
+      "total_beneficiaries": 10150,
+      "avg_submitted": 1003.54,
+      "avg_paid": 243.72
+    },
+    {
+      "year": 2016,
+      "total_payments": 1532826.37,
+      "total_services": 16334,
+      "total_beneficiaries": 12527,
+      "avg_submitted": 951.27,
+      "avg_paid": 239.65
+    },
+    {
+      "year": 2017,
+      "total_payments": 1537664.74,
+      "total_services": 16398,
+      "total_beneficiaries": 12574,
+      "avg_submitted": 1180.58,
+      "avg_paid": 242.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 1438581.02,
+      "total_services": 15706,
+      "total_beneficiaries": 12035,
+      "avg_submitted": 1004.24,
+      "avg_paid": 246.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 1350903.42,
+      "total_services": 14391,
+      "total_beneficiaries": 11092,
+      "avg_submitted": 1003.84,
+      "avg_paid": 248.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 1125443.08,
+      "total_services": 11554,
+      "total_beneficiaries": 9538,
+      "avg_submitted": 1003.58,
+      "avg_paid": 255.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 22879.4,
+      "total_services": 262,
+      "total_beneficiaries": 253,
+      "avg_submitted": 539.38,
+      "avg_paid": 127.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 42128,
+      "payments": 6994036.67,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 5655,
+      "payments": 1110375.52,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1290,
+      "payments": 696337.86,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 49501,
+      "payments": 287955.65,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 394,
+      "payments": 124403.03,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 15,
+      "payments": 3666.21,
+      "avg_markup": 2.81
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 9216774.95,
+    "total_services": 98983,
+    "total_beneficiaries": 76904,
+    "avg_markup_ratio": 4.04
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Ann Pittier",
+  "credentials": "MD",
+  "specialty": "Radiation Oncology",
+  "city": "Tacoma",
+  "state": "WA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 302406.16,
+      "total_services": 1813,
+      "total_beneficiaries": 634,
+      "avg_submitted": 892.41,
+      "avg_paid": 223.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 413314.47,
+      "total_services": 2183,
+      "total_beneficiaries": 639,
+      "avg_submitted": 1019.87,
+      "avg_paid": 256.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 330316.3,
+      "total_services": 1988,
+      "total_beneficiaries": 565,
+      "avg_submitted": 1009.94,
+      "avg_paid": 257.28
+    },
+    {
+      "year": 2017,
+      "total_payments": 505042.24,
+      "total_services": 2787,
+      "total_beneficiaries": 787,
+      "avg_submitted": 971.43,
+      "avg_paid": 251.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 316654.68,
+      "total_services": 1940,
+      "total_beneficiaries": 526,
+      "avg_submitted": 677.84,
+      "avg_paid": 177.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 385128.05,
+      "total_services": 2432,
+      "total_beneficiaries": 740,
+      "avg_submitted": 621.2,
+      "avg_paid": 162.7
+    },
+    {
+      "year": 2020,
+      "total_payments": 591526.81,
+      "total_services": 3393,
+      "total_beneficiaries": 888,
+      "avg_submitted": 1014.74,
+      "avg_paid": 267.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 449881.95,
+      "total_services": 2664,
+      "total_beneficiaries": 847,
+      "avg_submitted": 850.43,
+      "avg_paid": 216.73
+    },
+    {
+      "year": 2022,
+      "total_payments": 541428.3,
+      "total_services": 3141,
+      "total_beneficiaries": 887,
+      "avg_submitted": 836.25,
+      "avg_paid": 211.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 528406.93,
+      "total_services": 3031,
+      "total_beneficiaries": 992,
+      "avg_submitted": 1315.03,
+      "avg_paid": 226.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 3309,
+      "payments": 977252.61,
+      "avg_markup": 4.92
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 7207,
+      "payments": 672020.09,
+      "avg_markup": 5.5
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10mev",
+      "services": 2352,
+      "payments": 485695.91,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 780,
+      "payments": 300166.8,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 1721,
+      "payments": 254023.64,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 162,
+      "payments": 232627.64,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "G6014",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 20 mev or greater",
+      "services": 831,
+      "payments": 175449.52,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19 mev",
+      "services": 641,
+      "payments": 129284.65,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "77295",
+      "description": "Management of radiation therapy, 3D",
+      "services": 344,
+      "payments": 127392.13,
+      "avg_markup": 5.23
+    },
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 587,
+      "payments": 127184.01,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 1652,
+      "payments": 106231.03,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "77418",
+      "description": "Intensity modulated radiation treatment delivery per session",
+      "services": 292,
+      "payments": 91690.92,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "77771",
+      "description": "High dose brachytherapy , 2- 12 channels",
+      "services": 184,
+      "payments": 88948.02,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1002,
+      "payments": 85213.55,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 828,
+      "payments": 82305.06,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 506,
+      "payments": 81452.07,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 558,
+      "payments": 74010.02,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 171,
+      "payments": 63170.02,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 736,
+      "payments": 36916.32,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "77373",
+      "description": "Cranial lesion surgery using radiation over multiple sessions",
+      "services": 38,
+      "payments": 31118.58,
+      "avg_markup": 15.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4364105.88,
+    "total_services": 25372,
+    "total_beneficiaries": 7505,
+    "avg_markup_ratio": 4.27
+  }
+}

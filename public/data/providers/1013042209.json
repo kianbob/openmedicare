@@ -1,0 +1,239 @@
+{
+  "name": "Michael Perraut",
+  "credentials": "M.D.",
+  "specialty": "Emergency Medicine",
+  "city": "California",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 85345.87,
+      "total_services": 690,
+      "total_beneficiaries": 648,
+      "avg_submitted": 665.64,
+      "avg_paid": 107.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 83142.42,
+      "total_services": 638,
+      "total_beneficiaries": 603,
+      "avg_submitted": 773.75,
+      "avg_paid": 111.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 75522.49,
+      "total_services": 585,
+      "total_beneficiaries": 558,
+      "avg_submitted": 946.58,
+      "avg_paid": 113.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 133787.41,
+      "total_services": 2555,
+      "total_beneficiaries": 2030,
+      "avg_submitted": 263.7,
+      "avg_paid": 57.68
+    },
+    {
+      "year": 2018,
+      "total_payments": 207370.81,
+      "total_services": 3738,
+      "total_beneficiaries": 2943,
+      "avg_submitted": 235.89,
+      "avg_paid": 54.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 335167.61,
+      "total_services": 6525,
+      "total_beneficiaries": 5130,
+      "avg_submitted": 175.85,
+      "avg_paid": 44.3
+    },
+    {
+      "year": 2020,
+      "total_payments": 322421.92,
+      "total_services": 6971,
+      "total_beneficiaries": 5040,
+      "avg_submitted": 179.58,
+      "avg_paid": 43.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 484170.4,
+      "total_services": 8590,
+      "total_beneficiaries": 6267,
+      "avg_submitted": 152.13,
+      "avg_paid": 50.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 638725.42,
+      "total_services": 11228,
+      "total_beneficiaries": 8499,
+      "avg_submitted": 126.8,
+      "avg_paid": 50.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 477280.16,
+      "total_services": 8777,
+      "total_beneficiaries": 6730,
+      "avg_submitted": 131.75,
+      "avg_paid": 48.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9282,
+      "payments": 761960.47,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit, problem with significant threat to life or function",
+      "services": 2675,
+      "payments": 371419.9,
+      "avg_markup": 7.59
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5241,
+      "payments": 299923.71,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1786,
+      "payments": 214597.15,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1783,
+      "payments": 205728.72,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1307,
+      "payments": 95999.88,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 1294,
+      "payments": 95424.92,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "87502",
+      "description": "Detection test for multiple types influenza virus",
+      "services": 908,
+      "payments": 85428.35,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "87426",
+      "description": "Elisa detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 1694,
+      "payments": 58821.38,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 566,
+      "payments": 51301.77,
+      "avg_markup": 7.96
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 266,
+      "payments": 48741.25,
+      "avg_markup": 6.49
+    },
+    {
+      "code": "87634",
+      "description": "Detection test by nucleic acid for respiratory syncytial virus, amplified probe technique",
+      "services": 646,
+      "payments": 44846.28,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 205,
+      "payments": 41585.64,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 212,
+      "payments": 36051.93,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 1270,
+      "payments": 31219.83,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "87798",
+      "description": "Detection test by nucleic acid for organism, amplified probe technique",
+      "services": 730,
+      "payments": 25324.09,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 404,
+      "payments": 23277.91,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "87804",
+      "description": "Detection test for influenza virus",
+      "services": 1330,
+      "payments": 21681.43,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 139,
+      "payments": 20280.09,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 898,
+      "payments": 19369.79,
+      "avg_markup": 2.14
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2842934.52,
+    "total_services": 50297,
+    "total_beneficiaries": 38448,
+    "avg_markup_ratio": 3.65
+  }
+}

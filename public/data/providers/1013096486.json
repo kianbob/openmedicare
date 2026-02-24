@@ -1,0 +1,239 @@
+{
+  "name": "Richard Crane",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Supply",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 296103.3,
+      "total_services": 7462,
+      "total_beneficiaries": 4805,
+      "avg_submitted": 103.42,
+      "avg_paid": 48.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 491855.91,
+      "total_services": 11685,
+      "total_beneficiaries": 8047,
+      "avg_submitted": 104.15,
+      "avg_paid": 49.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 602247.77,
+      "total_services": 14493,
+      "total_beneficiaries": 9813,
+      "avg_submitted": 104.5,
+      "avg_paid": 48.66
+    },
+    {
+      "year": 2017,
+      "total_payments": 363985.34,
+      "total_services": 8345,
+      "total_beneficiaries": 5547,
+      "avg_submitted": 110.1,
+      "avg_paid": 50.54
+    },
+    {
+      "year": 2018,
+      "total_payments": 360538.19,
+      "total_services": 7970,
+      "total_beneficiaries": 5286,
+      "avg_submitted": 101.08,
+      "avg_paid": 40.69
+    },
+    {
+      "year": 2019,
+      "total_payments": 237037.98,
+      "total_services": 4700,
+      "total_beneficiaries": 2748,
+      "avg_submitted": 123.29,
+      "avg_paid": 47.91
+    },
+    {
+      "year": 2020,
+      "total_payments": 226707.95,
+      "total_services": 4584,
+      "total_beneficiaries": 2775,
+      "avg_submitted": 119.05,
+      "avg_paid": 48.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 265995.15,
+      "total_services": 4669,
+      "total_beneficiaries": 3051,
+      "avg_submitted": 113.51,
+      "avg_paid": 47.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 267982.61,
+      "total_services": 4509,
+      "total_beneficiaries": 3019,
+      "avg_submitted": 150.07,
+      "avg_paid": 65.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 275878.96,
+      "total_services": 4213,
+      "total_beneficiaries": 2832,
+      "avg_submitted": 120.47,
+      "avg_paid": 58.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13734,
+      "payments": 1071936.21,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 12458,
+      "payments": 594015.28,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 4686,
+      "payments": 521481.68,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 2574,
+      "payments": 109105.6,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "90682",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1639,
+      "payments": 96039.88,
+      "avg_markup": 1.11
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 4356,
+      "payments": 94849.21,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1228,
+      "payments": 93878.55,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 484,
+      "payments": 81895.07,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 361,
+      "payments": 63659.48,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 339,
+      "payments": 51442.46,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 3407,
+      "payments": 49176.66,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 486,
+      "payments": 46147.41,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 817,
+      "payments": 44693.76,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 336,
+      "payments": 40466.59,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 193,
+      "payments": 29541.7,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 4593,
+      "payments": 26446.81,
+      "avg_markup": 9.03
+    },
+    {
+      "code": "87502",
+      "description": "Detection test for multiple types influenza virus",
+      "services": 255,
+      "payments": 24117.96,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "93005",
+      "description": "Routine electrocardiogram (EKG) with tracing using at least 12 leads",
+      "services": 4566,
+      "payments": 23527.83,
+      "avg_markup": 10.12
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 203,
+      "payments": 23520.87,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 276,
+      "payments": 22414.21,
+      "avg_markup": 2.27
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3388333.15,
+    "total_services": 72630,
+    "total_beneficiaries": 47923,
+    "avg_markup_ratio": 2.2
+  }
+}

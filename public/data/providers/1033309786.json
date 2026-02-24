@@ -1,0 +1,204 @@
+{
+  "name": "Jigna Shah",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Tavares",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 376604.68,
+      "total_services": 4755,
+      "total_beneficiaries": 2002,
+      "avg_submitted": 463.68,
+      "avg_paid": 109.05
+    },
+    {
+      "year": 2015,
+      "total_payments": 461972.59,
+      "total_services": 6007,
+      "total_beneficiaries": 2415,
+      "avg_submitted": 435.64,
+      "avg_paid": 86.26
+    },
+    {
+      "year": 2016,
+      "total_payments": 401243.23,
+      "total_services": 5306,
+      "total_beneficiaries": 2467,
+      "avg_submitted": 434.06,
+      "avg_paid": 85.17
+    },
+    {
+      "year": 2017,
+      "total_payments": 417837.9,
+      "total_services": 5511,
+      "total_beneficiaries": 2626,
+      "avg_submitted": 400.95,
+      "avg_paid": 79.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 357530.1,
+      "total_services": 4618,
+      "total_beneficiaries": 2208,
+      "avg_submitted": 372.5,
+      "avg_paid": 80.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 307028.06,
+      "total_services": 3748,
+      "total_beneficiaries": 1948,
+      "avg_submitted": 369.44,
+      "avg_paid": 82.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 251246.49,
+      "total_services": 3076,
+      "total_beneficiaries": 1600,
+      "avg_submitted": 406.5,
+      "avg_paid": 91.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 259556.11,
+      "total_services": 3302,
+      "total_beneficiaries": 1690,
+      "avg_submitted": 406.5,
+      "avg_paid": 89.65
+    },
+    {
+      "year": 2022,
+      "total_payments": 264029.7,
+      "total_services": 3407,
+      "total_beneficiaries": 1663,
+      "avg_submitted": 356.25,
+      "avg_paid": 79.35
+    },
+    {
+      "year": 2023,
+      "total_payments": 278938.43,
+      "total_services": 3483,
+      "total_beneficiaries": 1695,
+      "avg_submitted": 385.71,
+      "avg_paid": 84.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 25724,
+      "payments": 1472116.69,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 6318,
+      "payments": 997152.11,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2226,
+      "payments": 240021.41,
+      "avg_markup": 4.46
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2710,
+      "payments": 231009.48,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 3509,
+      "payments": 200029.16,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 765,
+      "payments": 111274.35,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 776,
+      "payments": 66240.11,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 367,
+      "payments": 20878.68,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 597,
+      "payments": 18764.32,
+      "avg_markup": 6.2
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 94,
+      "payments": 7422.93,
+      "avg_markup": 8.45
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 21,
+      "payments": 3646.44,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 28,
+      "payments": 3059.2,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 15,
+      "payments": 2015.7,
+      "avg_markup": 4.46
+    },
+    {
+      "code": "99224",
+      "description": "Subsequent observation care, typically 15 minutes per day",
+      "services": 50,
+      "payments": 1561.76,
+      "avg_markup": 5.12
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 13,
+      "payments": 794.95,
+      "avg_markup": 2.45
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3375987.29,
+    "total_services": 43213,
+    "total_beneficiaries": 20314,
+    "avg_markup_ratio": 4.65
+  }
+}

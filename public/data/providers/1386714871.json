@@ -1,0 +1,239 @@
+{
+  "name": "Ali Bhuriwala",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Huntsville",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 254069.5,
+      "total_services": 3109,
+      "total_beneficiaries": 1818,
+      "avg_submitted": 245.24,
+      "avg_paid": 93.66
+    },
+    {
+      "year": 2015,
+      "total_payments": 212654.02,
+      "total_services": 2682,
+      "total_beneficiaries": 1439,
+      "avg_submitted": 245.45,
+      "avg_paid": 92.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 421316.91,
+      "total_services": 5608,
+      "total_beneficiaries": 2712,
+      "avg_submitted": 208.79,
+      "avg_paid": 88.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 347210.64,
+      "total_services": 4808,
+      "total_beneficiaries": 2540,
+      "avg_submitted": 217.73,
+      "avg_paid": 82.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 215882.95,
+      "total_services": 2748,
+      "total_beneficiaries": 1338,
+      "avg_submitted": 266.75,
+      "avg_paid": 102.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 422430.65,
+      "total_services": 5093,
+      "total_beneficiaries": 3022,
+      "avg_submitted": 216.83,
+      "avg_paid": 88.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 439069.45,
+      "total_services": 5019,
+      "total_beneficiaries": 2686,
+      "avg_submitted": 342.0,
+      "avg_paid": 95.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 174256.52,
+      "total_services": 2170,
+      "total_beneficiaries": 1049,
+      "avg_submitted": 324.22,
+      "avg_paid": 83.89
+    },
+    {
+      "year": 2022,
+      "total_payments": 61652.3,
+      "total_services": 794,
+      "total_beneficiaries": 426,
+      "avg_submitted": 418.33,
+      "avg_paid": 105.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 54394.79,
+      "total_services": 554,
+      "total_beneficiaries": 357,
+      "avg_submitted": 471.75,
+      "avg_paid": 118.54
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11255,
+      "payments": 907167.4,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10943,
+      "payments": 603912.94,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3046,
+      "payments": 470120.28,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3255,
+      "payments": 267846.96,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1194,
+      "payments": 124406.64,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 324,
+      "payments": 55183.29,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 287,
+      "payments": 40775.73,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 464,
+      "payments": 28441.42,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 477,
+      "payments": 26250.87,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 335,
+      "payments": 18656.94,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 436,
+      "payments": 13183.3,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 94,
+      "payments": 9829.58,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 106,
+      "payments": 7572.57,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 71,
+      "payments": 7377.98,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 120,
+      "payments": 6220.92,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 56,
+      "payments": 5513.22,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 56,
+      "payments": 4074.0,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 22,
+      "payments": 3417.48,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 14,
+      "payments": 1192.63,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 15,
+      "payments": 944.28,
+      "avg_markup": 3.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2602937.73,
+    "total_services": 32585,
+    "total_beneficiaries": 17387,
+    "avg_markup_ratio": 3.23
+  }
+}

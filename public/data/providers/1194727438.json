@@ -1,0 +1,239 @@
+{
+  "name": "Peter Spooner",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Tucson",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 229684.27,
+      "total_services": 3936,
+      "total_beneficiaries": 2902,
+      "avg_submitted": 253.04,
+      "avg_paid": 90.63
+    },
+    {
+      "year": 2015,
+      "total_payments": 222986.06,
+      "total_services": 3234,
+      "total_beneficiaries": 2346,
+      "avg_submitted": 262.43,
+      "avg_paid": 94.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 209529.14,
+      "total_services": 3003,
+      "total_beneficiaries": 2141,
+      "avg_submitted": 261.16,
+      "avg_paid": 95.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 199107.27,
+      "total_services": 3048,
+      "total_beneficiaries": 2243,
+      "avg_submitted": 238.05,
+      "avg_paid": 81.98
+    },
+    {
+      "year": 2018,
+      "total_payments": 267684.24,
+      "total_services": 4004,
+      "total_beneficiaries": 2800,
+      "avg_submitted": 243.89,
+      "avg_paid": 89.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 324981.87,
+      "total_services": 4734,
+      "total_beneficiaries": 3493,
+      "avg_submitted": 255.4,
+      "avg_paid": 93.63
+    },
+    {
+      "year": 2020,
+      "total_payments": 306119.19,
+      "total_services": 4680,
+      "total_beneficiaries": 3249,
+      "avg_submitted": 254.73,
+      "avg_paid": 89.93
+    },
+    {
+      "year": 2021,
+      "total_payments": 343567.04,
+      "total_services": 5227,
+      "total_beneficiaries": 3278,
+      "avg_submitted": 228.86,
+      "avg_paid": 77.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 355284.72,
+      "total_services": 5922,
+      "total_beneficiaries": 3841,
+      "avg_submitted": 251.87,
+      "avg_paid": 82.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 291585.25,
+      "total_services": 5138,
+      "total_beneficiaries": 3610,
+      "avg_submitted": 214.3,
+      "avg_paid": 75.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11819,
+      "payments": 975645.18,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4784,
+      "payments": 664614.12,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1583,
+      "payments": 185662.88,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 259,
+      "payments": 151416.18,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1092,
+      "payments": 120244.95,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 9398,
+      "payments": 109509.43,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1267,
+      "payments": 102800.78,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 531,
+      "payments": 82979.44,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 206,
+      "payments": 47476.13,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 578,
+      "payments": 31296.91,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "93297",
+      "description": "Remote evaluations of implantable heart monitoring system with physician analysis, review, and report up to 30 days",
+      "services": 1538,
+      "payments": 30599.44,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 523,
+      "payments": 30278.16,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 4409,
+      "payments": 28145.72,
+      "avg_markup": 6.42
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 178,
+      "payments": 27250.68,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 138,
+      "payments": 25710.66,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 503,
+      "payments": 20917.36,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "93294",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "services": 634,
+      "payments": 14424.85,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "93295",
+      "description": "Remote evaluations of defibrillator up to 90 days with analysis, review and report",
+      "services": 397,
+      "payments": 11719.74,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 203,
+      "payments": 11525.93,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 102,
+      "payments": 7851.38,
+      "avg_markup": 2.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2750529.06,
+    "total_services": 42926,
+    "total_beneficiaries": 29903,
+    "avg_markup_ratio": 2.8
+  }
+}

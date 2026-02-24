@@ -1,0 +1,232 @@
+{
+  "name": "Robert Proietto",
+  "credentials": "D.O.",
+  "specialty": "Internal Medicine",
+  "city": "St Petersburg",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 226500.38,
+      "total_services": 2909,
+      "total_beneficiaries": 1701,
+      "avg_submitted": 217.07,
+      "avg_paid": 98.14
+    },
+    {
+      "year": 2015,
+      "total_payments": 208106.82,
+      "total_services": 2636,
+      "total_beneficiaries": 1500,
+      "avg_submitted": 236.61,
+      "avg_paid": 101.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 321044.05,
+      "total_services": 4071,
+      "total_beneficiaries": 2374,
+      "avg_submitted": 240.82,
+      "avg_paid": 101.91
+    },
+    {
+      "year": 2017,
+      "total_payments": 277660.27,
+      "total_services": 3388,
+      "total_beneficiaries": 2162,
+      "avg_submitted": 242.12,
+      "avg_paid": 101.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 269155.93,
+      "total_services": 3130,
+      "total_beneficiaries": 1964,
+      "avg_submitted": 231.25,
+      "avg_paid": 106.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 293005.52,
+      "total_services": 3395,
+      "total_beneficiaries": 2173,
+      "avg_submitted": 213.0,
+      "avg_paid": 97.79
+    },
+    {
+      "year": 2020,
+      "total_payments": 245710.03,
+      "total_services": 2788,
+      "total_beneficiaries": 1764,
+      "avg_submitted": 223.21,
+      "avg_paid": 103.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 201538.82,
+      "total_services": 2331,
+      "total_beneficiaries": 1433,
+      "avg_submitted": 222.2,
+      "avg_paid": 99.44
+    },
+    {
+      "year": 2022,
+      "total_payments": 236972.94,
+      "total_services": 2811,
+      "total_beneficiaries": 1734,
+      "avg_submitted": 222.92,
+      "avg_paid": 96.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 202111.87,
+      "total_services": 2274,
+      "total_beneficiaries": 1385,
+      "avg_submitted": 215.42,
+      "avg_paid": 97.36
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12431,
+      "payments": 711245.89,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3325,
+      "payments": 514583.62,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5416,
+      "payments": 446693.74,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2617,
+      "payments": 221607.34,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 814,
+      "payments": 116097.16,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 773,
+      "payments": 101893.82,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 496,
+      "payments": 86713.79,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 630,
+      "payments": 66096.13,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1019,
+      "payments": 58144.88,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 287,
+      "payments": 47384.28,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 626,
+      "payments": 35745.23,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 427,
+      "payments": 23221.14,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 200,
+      "payments": 15215.55,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 339,
+      "payments": 14052.03,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 109,
+      "payments": 8912.45,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 113,
+      "payments": 6418.24,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 57,
+      "payments": 4560.21,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 25,
+      "payments": 2071.0,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes",
+      "services": 29,
+      "payments": 1150.14,
+      "avg_markup": 1.64
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2481806.63,
+    "total_services": 29733,
+    "total_beneficiaries": 18190,
+    "avg_markup_ratio": 2.19
+  }
+}

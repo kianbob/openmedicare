@@ -1,0 +1,239 @@
+{
+  "name": "Habib Munshi",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Branson",
+  "state": "MO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 452364.52,
+      "total_services": 8054,
+      "total_beneficiaries": 6197,
+      "avg_submitted": 195.77,
+      "avg_paid": 70.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 526253.58,
+      "total_services": 9699,
+      "total_beneficiaries": 7814,
+      "avg_submitted": 176.92,
+      "avg_paid": 60.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 519984.61,
+      "total_services": 9858,
+      "total_beneficiaries": 8021,
+      "avg_submitted": 165.62,
+      "avg_paid": 58.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 512716.38,
+      "total_services": 8959,
+      "total_beneficiaries": 7196,
+      "avg_submitted": 171.44,
+      "avg_paid": 63.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 425313.86,
+      "total_services": 7379,
+      "total_beneficiaries": 6204,
+      "avg_submitted": 174.09,
+      "avg_paid": 65.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 388609.24,
+      "total_services": 6889,
+      "total_beneficiaries": 5640,
+      "avg_submitted": 167.27,
+      "avg_paid": 58.08
+    },
+    {
+      "year": 2020,
+      "total_payments": 339453.94,
+      "total_services": 5899,
+      "total_beneficiaries": 4792,
+      "avg_submitted": 189.4,
+      "avg_paid": 61.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 356098.13,
+      "total_services": 5579,
+      "total_beneficiaries": 4533,
+      "avg_submitted": 186.29,
+      "avg_paid": 64.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 219800.62,
+      "total_services": 3441,
+      "total_beneficiaries": 2985,
+      "avg_submitted": 240.32,
+      "avg_paid": 78.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 227412.2,
+      "total_services": 3571,
+      "total_beneficiaries": 2996,
+      "avg_submitted": 282.67,
+      "avg_paid": 88.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14168,
+      "payments": 1069121.75,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 1276,
+      "payments": 569877.42,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 1127,
+      "payments": 477493.81,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1599,
+      "payments": 271061.75,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2059,
+      "payments": 230605.53,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 4678,
+      "payments": 154583.09,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 4681,
+      "payments": 146618.36,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 4307,
+      "payments": 144685.73,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "94762",
+      "description": "Overnight measurement of oxygen saturation in blood using ear or finger device",
+      "services": 7120,
+      "payments": 114449.29,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1733,
+      "payments": 88199.67,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient use of aerosol generator, nebulizer, metered dose inhaler or intermittent positive pressure breathing (IPPB) device",
+      "services": 4256,
+      "payments": 48333.46,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "94200",
+      "description": "Measurement of largest amount of air breathed in an out of lungs over one minute",
+      "services": 2959,
+      "payments": 47343.1,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 1179,
+      "payments": 45100.84,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "92512",
+      "description": "Analysis of nasal resistance during breathing",
+      "services": 1090,
+      "payments": 45079.82,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 577,
+      "payments": 45021.59,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 239,
+      "payments": 41792.1,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 380,
+      "payments": 38331.18,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 247,
+      "payments": 37912.81,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "82805",
+      "description": "Blood gases measurement",
+      "services": 720,
+      "payments": 34005.61,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "92520",
+      "description": "Functional assessment of the voice box",
+      "services": 641,
+      "payments": 33976.68,
+      "avg_markup": 2.61
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3968007.1,
+    "total_services": 69328,
+    "total_beneficiaries": 56378,
+    "avg_markup_ratio": 2.92
+  }
+}

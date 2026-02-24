@@ -1,0 +1,78 @@
+{
+  "name": "Emergency Medical Response Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Portsmouth",
+  "state": "VA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1299235.75,
+      "total_services": 14830,
+      "total_beneficiaries": 4700,
+      "avg_submitted": 357.22,
+      "avg_paid": 193.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 1110516.8,
+      "total_services": 12548,
+      "total_beneficiaries": 4410,
+      "avg_submitted": 357.18,
+      "avg_paid": 194.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 548412.31,
+      "total_services": 6152,
+      "total_beneficiaries": 3651,
+      "avg_submitted": 412.54,
+      "avg_paid": 198.6
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 15503,
+      "payments": 2534943.41,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 862,
+      "payments": 237407.83,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16764,
+      "payments": 91705.22,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 307,
+      "payments": 63663.47,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 94,
+      "payments": 30444.94,
+      "avg_markup": 1.47
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2958164.87,
+    "total_services": 33530,
+    "total_beneficiaries": 12761,
+    "avg_markup_ratio": 2.41
+  }
+}

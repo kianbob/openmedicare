@@ -1,0 +1,92 @@
+{
+  "name": "American Medical Response West",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Visalia",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1487516.76,
+      "total_services": 10708,
+      "total_beneficiaries": 7028,
+      "avg_submitted": 1574.94,
+      "avg_paid": 304.56
+    },
+    {
+      "year": 2015,
+      "total_payments": 1632543.48,
+      "total_services": 11416,
+      "total_beneficiaries": 7622,
+      "avg_submitted": 1520.65,
+      "avg_paid": 311.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 977584.72,
+      "total_services": 7264,
+      "total_beneficiaries": 5061,
+      "avg_submitted": 1437.33,
+      "avg_paid": 272.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 6644,
+      "payments": 2295108.87,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 6699,
+      "payments": 1215730.05,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 900,
+      "payments": 262214.65,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 502,
+      "payments": 111336.67,
+      "avg_markup": 5.38
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 166,
+      "payments": 99934.05,
+      "avg_markup": 8.78
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14419,
+      "payments": 83984.8,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 58,
+      "payments": 29335.87,
+      "avg_markup": 2.3
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 4097644.96,
+    "total_services": 29388,
+    "total_beneficiaries": 19711,
+    "avg_markup_ratio": 3.53
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "name": "React Emergency Medical Service",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Shawnee",
+  "state": "OK",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 984163.28,
+      "total_services": 6811,
+      "total_beneficiaries": 4565,
+      "avg_submitted": 549.22,
+      "avg_paid": 222.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 1156639.59,
+      "total_services": 7536,
+      "total_beneficiaries": 4746,
+      "avg_submitted": 595.44,
+      "avg_paid": 272.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 1237539.35,
+      "total_services": 8110,
+      "total_beneficiaries": 4855,
+      "avg_submitted": 590.32,
+      "avg_paid": 270.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 1242683.37,
+      "total_services": 8211,
+      "total_beneficiaries": 4965,
+      "avg_submitted": 353.6,
+      "avg_paid": 271.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 1326830.44,
+      "total_services": 8361,
+      "total_beneficiaries": 5047,
+      "avg_submitted": 359.2,
+      "avg_paid": 279.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 1309047.66,
+      "total_services": 8216,
+      "total_beneficiaries": 4905,
+      "avg_submitted": 379.83,
+      "avg_paid": 285.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 1014361.52,
+      "total_services": 6508,
+      "total_beneficiaries": 4214,
+      "avg_submitted": 875.95,
+      "avg_paid": 238.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 958294.45,
+      "total_services": 6171,
+      "total_beneficiaries": 4074,
+      "avg_submitted": 883.08,
+      "avg_paid": 239.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 877922.97,
+      "total_services": 5298,
+      "total_beneficiaries": 3442,
+      "avg_submitted": 924.61,
+      "avg_paid": 247.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 912337.65,
+      "total_services": 4984,
+      "total_beneficiaries": 3156,
+      "avg_submitted": 929.1,
+      "avg_paid": 273.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 24677,
+      "payments": 7842237.88,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4952,
+      "payments": 1301404.18,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1475,
+      "payments": 681720.68,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 3419,
+      "payments": 573427.3,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1441,
+      "payments": 290224.32,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 34113,
+      "payments": 260960.68,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 129,
+      "payments": 69845.22,
+      "avg_markup": 1.41
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 11019820.27,
+    "total_services": 70206,
+    "total_beneficiaries": 43969,
+    "avg_markup_ratio": 2.51
+  }
+}

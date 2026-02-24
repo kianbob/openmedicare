@@ -1,0 +1,239 @@
+{
+  "name": "Muhammad Syed",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 255720.67,
+      "total_services": 2849,
+      "total_beneficiaries": 1414,
+      "avg_submitted": 256.18,
+      "avg_paid": 99.41
+    },
+    {
+      "year": 2015,
+      "total_payments": 227185.74,
+      "total_services": 2811,
+      "total_beneficiaries": 1271,
+      "avg_submitted": 232.18,
+      "avg_paid": 91.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 352029.42,
+      "total_services": 3458,
+      "total_beneficiaries": 1980,
+      "avg_submitted": 317.61,
+      "avg_paid": 110.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 264809.95,
+      "total_services": 1859,
+      "total_beneficiaries": 1636,
+      "avg_submitted": 317.37,
+      "avg_paid": 95.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 327594.76,
+      "total_services": 2640,
+      "total_beneficiaries": 2128,
+      "avg_submitted": 322.5,
+      "avg_paid": 92.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 252160.67,
+      "total_services": 1733,
+      "total_beneficiaries": 1588,
+      "avg_submitted": 388.24,
+      "avg_paid": 100.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 233334.78,
+      "total_services": 1883,
+      "total_beneficiaries": 1737,
+      "avg_submitted": 371.93,
+      "avg_paid": 96.42
+    },
+    {
+      "year": 2021,
+      "total_payments": 276207.71,
+      "total_services": 2391,
+      "total_beneficiaries": 2152,
+      "avg_submitted": 362.48,
+      "avg_paid": 95.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 221414.61,
+      "total_services": 2056,
+      "total_beneficiaries": 1896,
+      "avg_submitted": 400.0,
+      "avg_paid": 101.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 208645.26,
+      "total_services": 2081,
+      "total_beneficiaries": 1939,
+      "avg_submitted": 392.21,
+      "avg_paid": 94.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 9000,
+      "payments": 1407915.0,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4933,
+      "payments": 411903.45,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2966,
+      "payments": 184807.89,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1404,
+      "payments": 148354.37,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2378,
+      "payments": 137800.59,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 898,
+      "payments": 129901.66,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 401,
+      "payments": 71688.83,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 803,
+      "payments": 46790.5,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 427,
+      "payments": 36755.85,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 78,
+      "payments": 12522.25,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 117,
+      "payments": 6812.74,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 40,
+      "payments": 5400.3,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 74,
+      "payments": 5398.23,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 117,
+      "payments": 3680.16,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 34,
+      "payments": 2854.3,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 24,
+      "payments": 2525.52,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 28,
+      "payments": 1214.62,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 11,
+      "payments": 1137.01,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 14,
+      "payments": 820.54,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 14,
+      "payments": 819.76,
+      "avg_markup": 1.47
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2619103.57,
+    "total_services": 23761,
+    "total_beneficiaries": 17741,
+    "avg_markup_ratio": 3.51
+  }
+}

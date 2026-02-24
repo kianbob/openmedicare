@@ -1,0 +1,239 @@
+{
+  "name": "Nicholas Depace",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Sewell",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 408414.57,
+      "total_services": 6563,
+      "total_beneficiaries": 4082,
+      "avg_submitted": 199.01,
+      "avg_paid": 74.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 393040.45,
+      "total_services": 6316,
+      "total_beneficiaries": 3627,
+      "avg_submitted": 206.5,
+      "avg_paid": 83.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 389476.95,
+      "total_services": 6419,
+      "total_beneficiaries": 3803,
+      "avg_submitted": 176.5,
+      "avg_paid": 66.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 426068.42,
+      "total_services": 6937,
+      "total_beneficiaries": 3979,
+      "avg_submitted": 164.03,
+      "avg_paid": 63.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 491889.16,
+      "total_services": 7319,
+      "total_beneficiaries": 4218,
+      "avg_submitted": 229.53,
+      "avg_paid": 93.71
+    },
+    {
+      "year": 2019,
+      "total_payments": 426487.77,
+      "total_services": 6126,
+      "total_beneficiaries": 3596,
+      "avg_submitted": 208.71,
+      "avg_paid": 82.16
+    },
+    {
+      "year": 2020,
+      "total_payments": 531789.57,
+      "total_services": 8129,
+      "total_beneficiaries": 4272,
+      "avg_submitted": 252.25,
+      "avg_paid": 88.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 808541.92,
+      "total_services": 11989,
+      "total_beneficiaries": 4956,
+      "avg_submitted": 252.93,
+      "avg_paid": 101.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 680851.26,
+      "total_services": 10649,
+      "total_beneficiaries": 4275,
+      "avg_submitted": 235.11,
+      "avg_paid": 98.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 521993.12,
+      "total_services": 7873,
+      "total_beneficiaries": 3887,
+      "avg_submitted": 248.8,
+      "avg_paid": 95.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9202,
+      "payments": 794904.82,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11261,
+      "payments": 658870.58,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6787,
+      "payments": 586711.6,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4243,
+      "payments": 466654.05,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 5288,
+      "payments": 263204.93,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4161,
+      "payments": 245173.88,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour ekg up to 30 days",
+      "services": 271,
+      "payments": 195867.34,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 4611,
+      "payments": 177077.58,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1921,
+      "payments": 168751.98,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99457",
+      "description": "Remote monitoring of physiologic parameters management services, 20 minutes or more of qualified health care professional time per calendar month",
+      "services": 3980,
+      "payments": 164573.34,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1303,
+      "payments": 148180.77,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 10332,
+      "payments": 128030.27,
+      "avg_markup": 5.51
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 806,
+      "payments": 127629.73,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1855,
+      "payments": 114263.37,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 820,
+      "payments": 87406.22,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1080,
+      "payments": 82466.44,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 682,
+      "payments": 75540.15,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1267,
+      "payments": 75224.15,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 504,
+      "payments": 63876.25,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "95921",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 883,
+      "payments": 61540.48,
+      "avg_markup": 2.58
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5078553.18,
+    "total_services": 78320,
+    "total_beneficiaries": 40695,
+    "avg_markup_ratio": 2.52
+  }
+}

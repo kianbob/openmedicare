@@ -1,0 +1,239 @@
+{
+  "name": "Steven Daniels",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Eatontown",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 384439.29,
+      "total_services": 6062,
+      "total_beneficiaries": 4279,
+      "avg_submitted": 134.82,
+      "avg_paid": 86.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 406802.32,
+      "total_services": 6343,
+      "total_beneficiaries": 4410,
+      "avg_submitted": 159.06,
+      "avg_paid": 101.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 390914.26,
+      "total_services": 5599,
+      "total_beneficiaries": 3822,
+      "avg_submitted": 144.72,
+      "avg_paid": 90.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 356944.69,
+      "total_services": 4660,
+      "total_beneficiaries": 3307,
+      "avg_submitted": 147.8,
+      "avg_paid": 91.91
+    },
+    {
+      "year": 2018,
+      "total_payments": 371683.07,
+      "total_services": 5351,
+      "total_beneficiaries": 3908,
+      "avg_submitted": 156.91,
+      "avg_paid": 96.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 381492.37,
+      "total_services": 5120,
+      "total_beneficiaries": 3579,
+      "avg_submitted": 156.68,
+      "avg_paid": 98.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 335121.15,
+      "total_services": 4348,
+      "total_beneficiaries": 3068,
+      "avg_submitted": 147.56,
+      "avg_paid": 97.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 390302.42,
+      "total_services": 4516,
+      "total_beneficiaries": 3350,
+      "avg_submitted": 180.35,
+      "avg_paid": 105.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 362600.48,
+      "total_services": 4175,
+      "total_beneficiaries": 2941,
+      "avg_submitted": 190.09,
+      "avg_paid": 116.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 265881.17,
+      "total_services": 3059,
+      "total_beneficiaries": 2161,
+      "avg_submitted": 334.95,
+      "avg_paid": 115.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14077,
+      "payments": 1230291.7,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1541,
+      "payments": 641523.15,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1943,
+      "payments": 284316.65,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 289,
+      "payments": 193165.37,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3061,
+      "payments": 185200.27,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1178,
+      "payments": 133523.52,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2317,
+      "payments": 129511.3,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1285,
+      "payments": 112882.82,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1526,
+      "payments": 105709.86,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1756,
+      "payments": 97120.27,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 6100,
+      "payments": 77098.4,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 243,
+      "payments": 50321.89,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 274,
+      "payments": 46457.5,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 1030,
+      "payments": 42437.1,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 343,
+      "payments": 41893.73,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2227,
+      "payments": 36984.02,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "78803",
+      "description": "Nuclear medicine study of radioactive material distribution",
+      "services": 114,
+      "payments": 34149.46,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 850,
+      "payments": 30801.17,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 3586,
+      "payments": 25367.95,
+      "avg_markup": 5.58
+    },
+    {
+      "code": "G0250",
+      "description": "Physician review, interpretation, and patient management of home inr testing for patient with either mechanical heart valve(s), chronic atrial fibrillation, or venous thromboembolism who meets medicare coverage criteria; testing not occurring more frequent",
+      "services": 2700,
+      "payments": 20441.05,
+      "avg_markup": 1.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3646181.2,
+    "total_services": 49233,
+    "total_beneficiaries": 34825,
+    "avg_markup_ratio": 1.67
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "name": "John Neibert",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Jersey City",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1863.05,
+      "total_services": 21,
+      "total_beneficiaries": 12,
+      "avg_submitted": 146.41,
+      "avg_paid": 88.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 386419.9,
+      "total_services": 5922,
+      "total_beneficiaries": 2101,
+      "avg_submitted": 281.48,
+      "avg_paid": 79.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 459608.95,
+      "total_services": 7049,
+      "total_beneficiaries": 2417,
+      "avg_submitted": 292.27,
+      "avg_paid": 80.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 425688.45,
+      "total_services": 6323,
+      "total_beneficiaries": 2275,
+      "avg_submitted": 293.16,
+      "avg_paid": 80.56
+    },
+    {
+      "year": 2018,
+      "total_payments": 454079.16,
+      "total_services": 6497,
+      "total_beneficiaries": 2350,
+      "avg_submitted": 287.64,
+      "avg_paid": 83.13
+    },
+    {
+      "year": 2019,
+      "total_payments": 389761.25,
+      "total_services": 5411,
+      "total_beneficiaries": 2023,
+      "avg_submitted": 350.0,
+      "avg_paid": 82.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 368466.47,
+      "total_services": 4874,
+      "total_beneficiaries": 1621,
+      "avg_submitted": 350.0,
+      "avg_paid": 85.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 467471.76,
+      "total_services": 6384,
+      "total_beneficiaries": 2047,
+      "avg_submitted": 380.0,
+      "avg_paid": 90.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 432027.53,
+      "total_services": 5885,
+      "total_beneficiaries": 1917,
+      "avg_submitted": 379.97,
+      "avg_paid": 88.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 514715.7,
+      "total_services": 6383,
+      "total_beneficiaries": 2186,
+      "avg_submitted": 429.3,
+      "avg_paid": 87.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 28014,
+      "payments": 1747921.22,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 16729,
+      "payments": 1532046.08,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3229,
+      "payments": 550411.46,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 6394,
+      "payments": 46124.56,
+      "avg_markup": 13.59
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 117,
+      "payments": 13572.33,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 245,
+      "payments": 8163.52,
+      "avg_markup": 6.0
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 21,
+      "payments": 1863.05,
+      "avg_markup": 1.65
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3900102.22,
+    "total_services": 54749,
+    "total_beneficiaries": 18949,
+    "avg_markup_ratio": 4.29
+  }
+}

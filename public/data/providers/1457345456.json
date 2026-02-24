@@ -1,0 +1,239 @@
+{
+  "name": "Robert Mcgee",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Jackson",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 344474.81,
+      "total_services": 4686,
+      "total_beneficiaries": 2413,
+      "avg_submitted": 210.13,
+      "avg_paid": 68.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 429629.63,
+      "total_services": 5829,
+      "total_beneficiaries": 2543,
+      "avg_submitted": 191.98,
+      "avg_paid": 62.25
+    },
+    {
+      "year": 2016,
+      "total_payments": 317762.85,
+      "total_services": 4572,
+      "total_beneficiaries": 2186,
+      "avg_submitted": 259.09,
+      "avg_paid": 78.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 311428.7,
+      "total_services": 4314,
+      "total_beneficiaries": 2624,
+      "avg_submitted": 210.43,
+      "avg_paid": 65.68
+    },
+    {
+      "year": 2018,
+      "total_payments": 346223.45,
+      "total_services": 4882,
+      "total_beneficiaries": 2874,
+      "avg_submitted": 213.52,
+      "avg_paid": 68.28
+    },
+    {
+      "year": 2019,
+      "total_payments": 394395.97,
+      "total_services": 5229,
+      "total_beneficiaries": 2996,
+      "avg_submitted": 253.78,
+      "avg_paid": 74.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 381848.03,
+      "total_services": 4382,
+      "total_beneficiaries": 2536,
+      "avg_submitted": 204.23,
+      "avg_paid": 71.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 336153.58,
+      "total_services": 4104,
+      "total_beneficiaries": 2592,
+      "avg_submitted": 164.46,
+      "avg_paid": 55.51
+    },
+    {
+      "year": 2022,
+      "total_payments": 330887.34,
+      "total_services": 4288,
+      "total_beneficiaries": 2502,
+      "avg_submitted": 174.7,
+      "avg_paid": 63.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 368174.65,
+      "total_services": 4678,
+      "total_beneficiaries": 2568,
+      "avg_submitted": 174.81,
+      "avg_paid": 62.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11852,
+      "payments": 929010.93,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4580,
+      "payments": 751546.37,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9785,
+      "payments": 522228.13,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3178,
+      "payments": 462655.92,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3742,
+      "payments": 398547.35,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 3556,
+      "payments": 78713.21,
+      "avg_markup": 6.25
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1842,
+      "payments": 69877.66,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1895,
+      "payments": 69747.06,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 439,
+      "payments": 64380.32,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 472,
+      "payments": 36644.98,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 451,
+      "payments": 34294.63,
+      "avg_markup": 9.14
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 2265,
+      "payments": 33001.88,
+      "avg_markup": 6.86
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 409,
+      "payments": 18358.51,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 232,
+      "payments": 18132.74,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 149,
+      "payments": 13796.51,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 96,
+      "payments": 12744.38,
+      "avg_markup": 6.29
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 852,
+      "payments": 9759.69,
+      "avg_markup": 7.06
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 113,
+      "payments": 5329.46,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 140,
+      "payments": 4748.26,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 45,
+      "payments": 3343.57,
+      "avg_markup": 3.21
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3560979.0,
+    "total_services": 46964,
+    "total_beneficiaries": 25834,
+    "avg_markup_ratio": 2.45
+  }
+}

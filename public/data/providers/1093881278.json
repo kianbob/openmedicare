@@ -1,0 +1,211 @@
+{
+  "name": "Remington Lee",
+  "credentials": "DO",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 461775.45,
+      "total_services": 7809,
+      "total_beneficiaries": 2212,
+      "avg_submitted": 142.33,
+      "avg_paid": 77.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 506314.58,
+      "total_services": 8570,
+      "total_beneficiaries": 2166,
+      "avg_submitted": 141.77,
+      "avg_paid": 80.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 505182.24,
+      "total_services": 8141,
+      "total_beneficiaries": 2017,
+      "avg_submitted": 142.35,
+      "avg_paid": 76.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 444602.16,
+      "total_services": 6964,
+      "total_beneficiaries": 1719,
+      "avg_submitted": 150.27,
+      "avg_paid": 78.79
+    },
+    {
+      "year": 2018,
+      "total_payments": 457445.0,
+      "total_services": 6718,
+      "total_beneficiaries": 1544,
+      "avg_submitted": 137.93,
+      "avg_paid": 79.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 345233.89,
+      "total_services": 5031,
+      "total_beneficiaries": 1284,
+      "avg_submitted": 166.25,
+      "avg_paid": 85.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 286687.86,
+      "total_services": 4057,
+      "total_beneficiaries": 1020,
+      "avg_submitted": 166.25,
+      "avg_paid": 81.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 247969.25,
+      "total_services": 3406,
+      "total_beneficiaries": 814,
+      "avg_submitted": 161.43,
+      "avg_paid": 85.29
+    },
+    {
+      "year": 2022,
+      "total_payments": 264756.45,
+      "total_services": 3591,
+      "total_beneficiaries": 864,
+      "avg_submitted": 161.43,
+      "avg_paid": 83.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 121109.81,
+      "total_services": 1403,
+      "total_beneficiaries": 384,
+      "avg_submitted": 167.53,
+      "avg_paid": 89.68
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 23041,
+      "payments": 1330273.49,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 15668,
+      "payments": 1307885.52,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3376,
+      "payments": 368042.05,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 10662,
+      "payments": 332804.55,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 958,
+      "payments": 153250.0,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 802,
+      "payments": 68672.17,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 311,
+      "payments": 18060.02,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 162,
+      "payments": 16832.92,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 258,
+      "payments": 14132.85,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 161,
+      "payments": 11645.87,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 133,
+      "payments": 10626.85,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 83,
+      "payments": 2884.72,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 26,
+      "payments": 2275.78,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 15,
+      "payments": 1587.6,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 20,
+      "payments": 1494.0,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 14,
+      "payments": 608.3,
+      "avg_markup": 2.19
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3641076.69,
+    "total_services": 55690,
+    "total_beneficiaries": 14024,
+    "avg_markup_ratio": 2.06
+  }
+}

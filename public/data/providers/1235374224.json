@@ -1,0 +1,239 @@
+{
+  "name": "Srikanth Raayasa",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Kingwood",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 169307.82,
+      "total_services": 2424,
+      "total_beneficiaries": 1078,
+      "avg_submitted": 252.99,
+      "avg_paid": 84.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 162279.3,
+      "total_services": 2216,
+      "total_beneficiaries": 986,
+      "avg_submitted": 317.49,
+      "avg_paid": 99.87
+    },
+    {
+      "year": 2016,
+      "total_payments": 248386.02,
+      "total_services": 3030,
+      "total_beneficiaries": 1310,
+      "avg_submitted": 284.68,
+      "avg_paid": 107.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 269101.36,
+      "total_services": 3489,
+      "total_beneficiaries": 1457,
+      "avg_submitted": 246.18,
+      "avg_paid": 94.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 268706.08,
+      "total_services": 3695,
+      "total_beneficiaries": 1501,
+      "avg_submitted": 236.56,
+      "avg_paid": 90.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 328835.75,
+      "total_services": 4711,
+      "total_beneficiaries": 1924,
+      "avg_submitted": 234.18,
+      "avg_paid": 92.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 336466.81,
+      "total_services": 3945,
+      "total_beneficiaries": 1694,
+      "avg_submitted": 288.68,
+      "avg_paid": 103.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 230210.16,
+      "total_services": 2422,
+      "total_beneficiaries": 1142,
+      "avg_submitted": 305.38,
+      "avg_paid": 115.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 172502.88,
+      "total_services": 1850,
+      "total_beneficiaries": 945,
+      "avg_submitted": 308.95,
+      "avg_paid": 124.12
+    },
+    {
+      "year": 2023,
+      "total_payments": 157250.44,
+      "total_services": 1620,
+      "total_beneficiaries": 781,
+      "avg_submitted": 309.69,
+      "avg_paid": 120.24
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12332,
+      "payments": 675438.61,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4421,
+      "payments": 344372.61,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2472,
+      "payments": 254105.78,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 1253,
+      "payments": 250678.63,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 873,
+      "payments": 195159.29,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2368,
+      "payments": 186166.68,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1070,
+      "payments": 158325.37,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imp",
+      "services": 1467,
+      "payments": 47841.48,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 269,
+      "payments": 39976.37,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 384,
+      "payments": 30492.9,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 552,
+      "payments": 29708.43,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 256,
+      "payments": 29443.89,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 660,
+      "payments": 28048.72,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 332,
+      "payments": 18303.78,
+      "avg_markup": 5.66
+    },
+    {
+      "code": "93975",
+      "description": "Ultrasound scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 88,
+      "payments": 17134.35,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 68,
+      "payments": 13579.64,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 329,
+      "payments": 9907.09,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 88,
+      "payments": 6770.7,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 25,
+      "payments": 3379.94,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "76775",
+      "description": "Ultrasound behind abdominal cavity, limited",
+      "services": 79,
+      "payments": 3319.57,
+      "avg_markup": 9.52
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2343046.62,
+    "total_services": 29402,
+    "total_beneficiaries": 12818,
+    "avg_markup_ratio": 2.67
+  }
+}

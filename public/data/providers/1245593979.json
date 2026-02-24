@@ -1,0 +1,231 @@
+{
+  "name": "Sai Chennamsetty",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Lafayette",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 2248.0,
+      "total_services": 40,
+      "total_beneficiaries": 25,
+      "avg_submitted": 514.4,
+      "avg_paid": 56.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 133679.99,
+      "total_services": 1899,
+      "total_beneficiaries": 1362,
+      "avg_submitted": 288.24,
+      "avg_paid": 70.0
+    },
+    {
+      "year": 2017,
+      "total_payments": 255005.73,
+      "total_services": 3051,
+      "total_beneficiaries": 1758,
+      "avg_submitted": 256.43,
+      "avg_paid": 84.26
+    },
+    {
+      "year": 2018,
+      "total_payments": 393785.4,
+      "total_services": 4573,
+      "total_beneficiaries": 2331,
+      "avg_submitted": 204.9,
+      "avg_paid": 79.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 453039.49,
+      "total_services": 4854,
+      "total_beneficiaries": 2340,
+      "avg_submitted": 208.29,
+      "avg_paid": 102.88
+    },
+    {
+      "year": 2020,
+      "total_payments": 618438.01,
+      "total_services": 6863,
+      "total_beneficiaries": 3069,
+      "avg_submitted": 178.92,
+      "avg_paid": 83.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 697167.59,
+      "total_services": 7769,
+      "total_beneficiaries": 3292,
+      "avg_submitted": 210.04,
+      "avg_paid": 98.71
+    },
+    {
+      "year": 2022,
+      "total_payments": 467479.25,
+      "total_services": 5065,
+      "total_beneficiaries": 2202,
+      "avg_submitted": 223.27,
+      "avg_paid": 100.5
+    },
+    {
+      "year": 2023,
+      "total_payments": 582366.58,
+      "total_services": 6503,
+      "total_beneficiaries": 2471,
+      "avg_submitted": 219.32,
+      "avg_paid": 99.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 18187,
+      "payments": 1456217.09,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4897,
+      "payments": 726843.17,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4085,
+      "payments": 332873.53,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5051,
+      "payments": 290623.47,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1336,
+      "payments": 226642.22,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1738,
+      "payments": 119397.51,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 999,
+      "payments": 103047.38,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 723,
+      "payments": 100407.31,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 325,
+      "payments": 34780.45,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 302,
+      "payments": 23972.62,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 435,
+      "payments": 23735.86,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 134,
+      "payments": 22347.19,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 189,
+      "payments": 19768.94,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 293,
+      "payments": 16061.2,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 199,
+      "payments": 14588.9,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 72,
+      "payments": 10850.61,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 302,
+      "payments": 10749.63,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 52,
+      "payments": 9487.93,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 46,
+      "payments": 7568.06,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 288,
+      "payments": 7089.55,
+      "avg_markup": 2.84
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3603210.04,
+    "total_services": 40617,
+    "total_beneficiaries": 18850,
+    "avg_markup_ratio": 2.29
+  }
+}

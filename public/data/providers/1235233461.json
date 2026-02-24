@@ -1,0 +1,127 @@
+{
+  "name": "Jong Huang",
+  "credentials": "M.D.",
+  "specialty": "Infectious Disease",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 316859.82,
+      "total_services": 4306,
+      "total_beneficiaries": 863,
+      "avg_submitted": 207.32,
+      "avg_paid": 101.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 329039.57,
+      "total_services": 4466,
+      "total_beneficiaries": 915,
+      "avg_submitted": 209.17,
+      "avg_paid": 106.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 291009.7,
+      "total_services": 3925,
+      "total_beneficiaries": 900,
+      "avg_submitted": 209.01,
+      "avg_paid": 104.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 310534.61,
+      "total_services": 4254,
+      "total_beneficiaries": 939,
+      "avg_submitted": 238.9,
+      "avg_paid": 112.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 315730.42,
+      "total_services": 4317,
+      "total_beneficiaries": 875,
+      "avg_submitted": 247.77,
+      "avg_paid": 113.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 277742.38,
+      "total_services": 3653,
+      "total_beneficiaries": 833,
+      "avg_submitted": 249.11,
+      "avg_paid": 116.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 290531.31,
+      "total_services": 3764,
+      "total_beneficiaries": 776,
+      "avg_submitted": 250.09,
+      "avg_paid": 120.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 239866.93,
+      "total_services": 3200,
+      "total_beneficiaries": 655,
+      "avg_submitted": 261.58,
+      "avg_paid": 118.43
+    },
+    {
+      "year": 2022,
+      "total_payments": 198689.64,
+      "total_services": 2735,
+      "total_beneficiaries": 566,
+      "avg_submitted": 262.55,
+      "avg_paid": 113.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 169356.48,
+      "total_services": 2214,
+      "total_beneficiaries": 514,
+      "avg_submitted": 262.5,
+      "avg_paid": 105.52
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 32079,
+      "payments": 1961068.86,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4483,
+      "payments": 754181.56,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 260,
+      "payments": 23067.16,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 12,
+      "payments": 1043.28,
+      "avg_markup": 2.3
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2739360.86,
+    "total_services": 36834,
+    "total_beneficiaries": 7836,
+    "avg_markup_ratio": 2.23
+  }
+}

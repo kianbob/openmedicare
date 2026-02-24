@@ -1,0 +1,93 @@
+{
+  "name": "Western Connecticut Health Network Affiliates, Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Danbury",
+  "state": "CT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 805829.03,
+      "total_services": 8242,
+      "total_beneficiaries": 3751,
+      "avg_submitted": 794.21,
+      "avg_paid": 282.41
+    },
+    {
+      "year": 2021,
+      "total_payments": 997350.83,
+      "total_services": 10115,
+      "total_beneficiaries": 4735,
+      "avg_submitted": 719.33,
+      "avg_paid": 229.89
+    },
+    {
+      "year": 2022,
+      "total_payments": 862987.64,
+      "total_services": 8441,
+      "total_beneficiaries": 4356,
+      "avg_submitted": 749.7,
+      "avg_paid": 238.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 953507.53,
+      "total_services": 8125,
+      "total_beneficiaries": 4666,
+      "avg_submitted": 816.27,
+      "avg_paid": 255.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 16727,
+      "payments": 3286782.62,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 486,
+      "payments": 122285.99,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 17435,
+      "payments": 109733.87,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 175,
+      "payments": 58951.25,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 84,
+      "payments": 33078.05,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 16,
+      "payments": 8843.25,
+      "avg_markup": 2.3
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3619675.03,
+    "total_services": 34923,
+    "total_beneficiaries": 17508,
+    "avg_markup_ratio": 4.0
+  }
+}

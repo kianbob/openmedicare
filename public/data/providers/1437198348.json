@@ -1,0 +1,223 @@
+{
+  "name": "Leonard Buccellato",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Munster",
+  "state": "IN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 385381.76,
+      "total_services": 5370,
+      "total_beneficiaries": 3157,
+      "avg_submitted": 166.96,
+      "avg_paid": 55.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 436091.84,
+      "total_services": 6044,
+      "total_beneficiaries": 3395,
+      "avg_submitted": 196.22,
+      "avg_paid": 61.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 388680.02,
+      "total_services": 5688,
+      "total_beneficiaries": 3270,
+      "avg_submitted": 148.75,
+      "avg_paid": 56.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 368171.33,
+      "total_services": 5447,
+      "total_beneficiaries": 3095,
+      "avg_submitted": 171.97,
+      "avg_paid": 68.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 325437.78,
+      "total_services": 5245,
+      "total_beneficiaries": 2899,
+      "avg_submitted": 153.48,
+      "avg_paid": 59.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 328866.01,
+      "total_services": 5604,
+      "total_beneficiaries": 3091,
+      "avg_submitted": 159.02,
+      "avg_paid": 58.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 282903.72,
+      "total_services": 4524,
+      "total_beneficiaries": 2553,
+      "avg_submitted": 151.34,
+      "avg_paid": 59.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 59394.46,
+      "total_services": 1079,
+      "total_beneficiaries": 827,
+      "avg_submitted": 131.82,
+      "avg_paid": 51.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8803,
+      "payments": 691600.9,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6671,
+      "payments": 503068.85,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4711,
+      "payments": 257373.71,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2462,
+      "payments": 251835.77,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1456,
+      "payments": 216067.6,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 805,
+      "payments": 132958.84,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1684,
+      "payments": 56315.9,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1117,
+      "payments": 55505.78,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1630,
+      "payments": 54595.05,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1682,
+      "payments": 49406.62,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 1163,
+      "payments": 45012.75,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 326,
+      "payments": 32367.93,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 733,
+      "payments": 28348.73,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 157,
+      "payments": 26551.68,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 171,
+      "payments": 24762.39,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 1117,
+      "payments": 23873.65,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 198,
+      "payments": 22079.3,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 435,
+      "payments": 18007.48,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 556,
+      "payments": 12447.9,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 503,
+      "payments": 11306.81,
+      "avg_markup": 1.63
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2574926.91,
+    "total_services": 39001,
+    "total_beneficiaries": 22287,
+    "avg_markup_ratio": 2.53
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "University Of Maryland Medical Center, Llc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Baltimore",
+  "state": "MD",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 575877.41,
+      "total_services": 3665,
+      "total_beneficiaries": 339,
+      "avg_submitted": 222.28,
+      "avg_paid": 165.77
+    },
+    {
+      "year": 2021,
+      "total_payments": 617554.89,
+      "total_services": 3512,
+      "total_beneficiaries": 361,
+      "avg_submitted": 236.79,
+      "avg_paid": 168.81
+    },
+    {
+      "year": 2022,
+      "total_payments": 647857.88,
+      "total_services": 3495,
+      "total_beneficiaries": 306,
+      "avg_submitted": 240.34,
+      "avg_paid": 168.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 663771.59,
+      "total_services": 3198,
+      "total_beneficiaries": 270,
+      "avg_submitted": 226.4,
+      "avg_paid": 164.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 8947,
+      "payments": 2038918.69,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G2068",
+      "description": "Medication assisted treatment, buprenorphine (oral); weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opi",
+      "services": 569,
+      "payments": 149634.92,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 2918,
+      "payments": 106753.83,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 857,
+      "payments": 103538.6,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 484,
+      "payments": 87647.18,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 95,
+      "payments": 18568.56,
+      "avg_markup": 1.38
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2505061.78,
+    "total_services": 13870,
+    "total_beneficiaries": 1276,
+    "avg_markup_ratio": 1.4
+  }
+}

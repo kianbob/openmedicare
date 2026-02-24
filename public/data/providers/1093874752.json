@@ -1,0 +1,135 @@
+{
+  "name": "William Tseng",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 510.16,
+      "total_services": 28,
+      "total_beneficiaries": 28,
+      "avg_submitted": 20.0,
+      "avg_paid": 18.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 4781383.34,
+      "total_services": 128244,
+      "total_beneficiaries": 127789,
+      "avg_submitted": 44.91,
+      "avg_paid": 39.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 31528.06,
+      "total_services": 722,
+      "total_beneficiaries": 706,
+      "avg_submitted": 51.0,
+      "avg_paid": 43.83
+    },
+    {
+      "year": 2023,
+      "total_payments": 21973.62,
+      "total_services": 252,
+      "total_beneficiaries": 252,
+      "avg_submitted": 172.5,
+      "avg_paid": 86.19
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0064A",
+      "description": "Fee covid-19 vac 7 res",
+      "services": 21617,
+      "payments": 951876.92,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "0004A",
+      "description": "Fee covid-19 vac 1 res",
+      "services": 21166,
+      "payments": 932151.99,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 22318,
+      "payments": 850798.48,
+      "avg_markup": 1.11
+    },
+    {
+      "code": "0012A",
+      "description": "Adm sarscov2 100mcg/0.5ml2nd",
+      "services": 18502,
+      "payments": 733327.72,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 22657,
+      "payments": 572769.0,
+      "avg_markup": 1.11
+    },
+    {
+      "code": "0011A",
+      "description": "Adm sarscov2 100mcg/0.5ml1st",
+      "services": 16534,
+      "payments": 499583.86,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "0003A",
+      "description": "Fee covid-19 vac 1 booster",
+      "services": 2648,
+      "payments": 116617.92,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "0013A",
+      "description": "Fee covid-19 vac 2 booster",
+      "services": 2550,
+      "payments": 112301.04,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "0031A",
+      "description": "Adm sarscov2 vac ad26 .5ml",
+      "services": 723,
+      "payments": 31840.92,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "91320",
+      "description": "Sarscv2 vac 30mcg trs-suc im",
+      "services": 129,
+      "payments": 16573.92,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "0054A",
+      "description": "Adm sarscv2 30mcg trs-sucr b",
+      "services": 279,
+      "payments": 12153.71,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "90480",
+      "description": "Admn sarscov2 vacc 1 dose",
+      "services": 123,
+      "payments": 5399.7,
+      "avg_markup": 2.0
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4835395.18,
+    "total_services": 129246,
+    "total_beneficiaries": 128775,
+    "avg_markup_ratio": 1.14
+  }
+}

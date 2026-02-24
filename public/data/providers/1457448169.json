@@ -1,0 +1,239 @@
+{
+  "name": "Arthur Trust",
+  "credentials": "DO",
+  "specialty": "Pulmonary Disease",
+  "city": "New Hyde Park",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 421677.41,
+      "total_services": 9372,
+      "total_beneficiaries": 4883,
+      "avg_submitted": 223.28,
+      "avg_paid": 39.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 470903.43,
+      "total_services": 10074,
+      "total_beneficiaries": 5582,
+      "avg_submitted": 238.62,
+      "avg_paid": 41.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 453533.19,
+      "total_services": 10331,
+      "total_beneficiaries": 5337,
+      "avg_submitted": 226.71,
+      "avg_paid": 42.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 455147.72,
+      "total_services": 10139,
+      "total_beneficiaries": 5106,
+      "avg_submitted": 222.54,
+      "avg_paid": 41.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 421234.38,
+      "total_services": 9264,
+      "total_beneficiaries": 4952,
+      "avg_submitted": 226.03,
+      "avg_paid": 43.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 448695.23,
+      "total_services": 9559,
+      "total_beneficiaries": 5075,
+      "avg_submitted": 232.22,
+      "avg_paid": 46.63
+    },
+    {
+      "year": 2020,
+      "total_payments": 425080.46,
+      "total_services": 7981,
+      "total_beneficiaries": 5010,
+      "avg_submitted": 234.59,
+      "avg_paid": 52.44
+    },
+    {
+      "year": 2021,
+      "total_payments": 488413.54,
+      "total_services": 8596,
+      "total_beneficiaries": 4696,
+      "avg_submitted": 276.06,
+      "avg_paid": 64.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 522074.86,
+      "total_services": 9025,
+      "total_beneficiaries": 4982,
+      "avg_submitted": 289.85,
+      "avg_paid": 62.69
+    },
+    {
+      "year": 2023,
+      "total_payments": 575258.02,
+      "total_services": 10961,
+      "total_beneficiaries": 6185,
+      "avg_submitted": 313.52,
+      "avg_paid": 59.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10015,
+      "payments": 1101578.24,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 13375,
+      "payments": 841930.86,
+      "avg_markup": 5.54
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 12129,
+      "payments": 647143.17,
+      "avg_markup": 5.98
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 8109,
+      "payments": 430292.54,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 7414,
+      "payments": 302387.21,
+      "avg_markup": 5.52
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 895,
+      "payments": 172659.35,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 5293,
+      "payments": 151668.97,
+      "avg_markup": 6.53
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 3760,
+      "payments": 113385.19,
+      "avg_markup": 5.6
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1915,
+      "payments": 106983.77,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 418,
+      "payments": 75592.65,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 396,
+      "payments": 66044.77,
+      "avg_markup": 5.54
+    },
+    {
+      "code": "95012",
+      "description": "Measurement of inhaled nitric oxide gas",
+      "services": 3488,
+      "payments": 64677.46,
+      "avg_markup": 6.95
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2359,
+      "payments": 63442.58,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 1983,
+      "payments": 50510.5,
+      "avg_markup": 7.69
+    },
+    {
+      "code": "94750",
+      "description": "Measurement of lung stretching capacity",
+      "services": 583,
+      "payments": 45795.83,
+      "avg_markup": 5.73
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 145,
+      "payments": 40184.83,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 2129,
+      "payments": 36909.11,
+      "avg_markup": 5.56
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 354,
+      "payments": 32867.01,
+      "avg_markup": 6.89
+    },
+    {
+      "code": "G0009",
+      "description": "Administration of pneumococcal vaccine",
+      "services": 771,
+      "payments": 22177.28,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 211,
+      "payments": 22174.03,
+      "avg_markup": 2.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4682018.24,
+    "total_services": 95302,
+    "total_beneficiaries": 51808,
+    "avg_markup_ratio": 5.4
+  }
+}

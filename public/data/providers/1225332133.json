@@ -1,0 +1,231 @@
+{
+  "name": "Sandeep Sharma",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Corbin",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 170483.42,
+      "total_services": 1969,
+      "total_beneficiaries": 789,
+      "avg_submitted": 220.83,
+      "avg_paid": 68.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 449179.8,
+      "total_services": 5430,
+      "total_beneficiaries": 2398,
+      "avg_submitted": 226.74,
+      "avg_paid": 65.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 607616.4,
+      "total_services": 7008,
+      "total_beneficiaries": 2900,
+      "avg_submitted": 217.36,
+      "avg_paid": 65.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 440302.58,
+      "total_services": 5335,
+      "total_beneficiaries": 2321,
+      "avg_submitted": 198.56,
+      "avg_paid": 57.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 92311.06,
+      "total_services": 620,
+      "total_beneficiaries": 346,
+      "avg_submitted": 1014.4,
+      "avg_paid": 117.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 295399.5,
+      "total_services": 2563,
+      "total_beneficiaries": 434,
+      "avg_submitted": 548.14,
+      "avg_paid": 112.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 474158.85,
+      "total_services": 4581,
+      "total_beneficiaries": 776,
+      "avg_submitted": 379.02,
+      "avg_paid": 90.58
+    },
+    {
+      "year": 2022,
+      "total_payments": 323027.33,
+      "total_services": 4347,
+      "total_beneficiaries": 915,
+      "avg_submitted": 212.07,
+      "avg_paid": 63.56
+    },
+    {
+      "year": 2023,
+      "total_payments": 297910.29,
+      "total_services": 3917,
+      "total_beneficiaries": 1051,
+      "avg_submitted": 181.32,
+      "avg_paid": 67.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 8580,
+      "payments": 1474138.45,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10856,
+      "payments": 606452.4,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3897,
+      "payments": 318490.41,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "G0509",
+      "description": "Telehealth consultation, critical care, subsequent, physicians typically spend 50 minutes communicating with the patient and providers via telehealth",
+      "services": 1180,
+      "payments": 178729.26,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1121,
+      "payments": 112545.49,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "G0407",
+      "description": "Follow-up inpatient consultation, intermediate, physicians typically spend 25 minutes communicating with the patient via telehealth",
+      "services": 1196,
+      "payments": 67358.16,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 760,
+      "payments": 56803.41,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1625,
+      "payments": 49396.89,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 287,
+      "payments": 44780.1,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 545,
+      "payments": 44753.37,
+      "avg_markup": 5.27
+    },
+    {
+      "code": "G0408",
+      "description": "Follow-up inpatient consultation, complex, physicians typically spend 35 minutes communicating with the patient via telehealth",
+      "services": 358,
+      "payments": 28888.12,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 208,
+      "payments": 21584.28,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 230,
+      "payments": 19402.96,
+      "avg_markup": 5.31
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 160,
+      "payments": 17578.39,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "31652",
+      "description": "Examination of lung airways using an endoscope with imaging guidance and ultrasound",
+      "services": 106,
+      "payments": 17498.51,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 227,
+      "payments": 11807.67,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "G0427",
+      "description": "Telehealth consultation, emergency department or initial inpatient, typically 70 minutes or more communicating with the patient via telehealth",
+      "services": 60,
+      "payments": 9380.56,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99407",
+      "description": "Smoking and tobacco use intensive counseling, greater than 10 minutes",
+      "services": 376,
+      "payments": 9019.93,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 71,
+      "payments": 6066.07,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 903,
+      "payments": 5890.41,
+      "avg_markup": 4.39
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3150389.22,
+    "total_services": 35770,
+    "total_beneficiaries": 11930,
+    "avg_markup_ratio": 3.18
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Michael Shanik",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Smithtown",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 331215.99,
+      "total_services": 11783,
+      "total_beneficiaries": 5821,
+      "avg_submitted": 119.46,
+      "avg_paid": 46.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 353269.27,
+      "total_services": 12525,
+      "total_beneficiaries": 6569,
+      "avg_submitted": 123.08,
+      "avg_paid": 48.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 432729.71,
+      "total_services": 15470,
+      "total_beneficiaries": 8206,
+      "avg_submitted": 128.97,
+      "avg_paid": 55.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 572002.72,
+      "total_services": 18964,
+      "total_beneficiaries": 10682,
+      "avg_submitted": 126.1,
+      "avg_paid": 55.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 561467.09,
+      "total_services": 20834,
+      "total_beneficiaries": 12212,
+      "avg_submitted": 135.37,
+      "avg_paid": 50.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 471659.88,
+      "total_services": 18089,
+      "total_beneficiaries": 10961,
+      "avg_submitted": 127.86,
+      "avg_paid": 46.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 420162.05,
+      "total_services": 15011,
+      "total_beneficiaries": 9504,
+      "avg_submitted": 131.66,
+      "avg_paid": 48.76
+    },
+    {
+      "year": 2021,
+      "total_payments": 492631.28,
+      "total_services": 16319,
+      "total_beneficiaries": 9624,
+      "avg_submitted": 122.69,
+      "avg_paid": 48.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 512991.51,
+      "total_services": 17850,
+      "total_beneficiaries": 10061,
+      "avg_submitted": 128.97,
+      "avg_paid": 49.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 580982.83,
+      "total_services": 21731,
+      "total_beneficiaries": 12117,
+      "avg_submitted": 132.98,
+      "avg_paid": 50.68
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10315,
+      "payments": 1001269.66,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6579,
+      "payments": 459072.43,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 2592,
+      "payments": 274778.5,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 6084,
+      "payments": 229827.13,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 11610,
+      "payments": 224302.2,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 11584,
+      "payments": 188467.61,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 10514,
+      "payments": 184001.94,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1254,
+      "payments": 180856.82,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "86769",
+      "description": "Sars-cov-2 covid-19 antibody",
+      "services": 4079,
+      "payments": 166781.23,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "95250",
+      "description": "Ambulatory continuous glucose (sugar) monitoring for a minimum of 72 hours",
+      "services": 943,
+      "payments": 137932.22,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "84403",
+      "description": "Testosterone (hormone) level",
+      "services": 4248,
+      "payments": 126062.12,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "84681",
+      "description": "C-peptide (protein) level",
+      "services": 5674,
+      "payments": 125706.61,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 11605,
+      "payments": 120078.47,
+      "avg_markup": 5.8
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 10547,
+      "payments": 118207.4,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 6962,
+      "payments": 110423.12,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "86800",
+      "description": "Thyroglobulin (thyroid protein) antibody measurement",
+      "services": 5817,
+      "payments": 106827.05,
+      "avg_markup": 6.53
+    },
+    {
+      "code": "84270",
+      "description": "Sex hormone binding globulin (protein) level",
+      "services": 4211,
+      "payments": 105022.39,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 11563,
+      "payments": 102340.78,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "86376",
+      "description": "Microsomal antibodies (autoantibody) measurement",
+      "services": 5809,
+      "payments": 97647.24,
+      "avg_markup": 7.14
+    },
+    {
+      "code": "G0447",
+      "description": "Face-to-face behavioral counseling for obesity, 15 minutes",
+      "services": 2919,
+      "payments": 88759.27,
+      "avg_markup": 3.29
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4729112.33,
+    "total_services": 168576,
+    "total_beneficiaries": 95757,
+    "avg_markup_ratio": 2.89
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "James Higgins",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Tulsa",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 132183.36,
+      "total_services": 5841,
+      "total_beneficiaries": 5332,
+      "avg_submitted": 776.94,
+      "avg_paid": 47.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 144747.93,
+      "total_services": 6190,
+      "total_beneficiaries": 5964,
+      "avg_submitted": 831.13,
+      "avg_paid": 48.95
+    },
+    {
+      "year": 2016,
+      "total_payments": 123641.66,
+      "total_services": 5564,
+      "total_beneficiaries": 5341,
+      "avg_submitted": 518.7,
+      "avg_paid": 54.0
+    },
+    {
+      "year": 2017,
+      "total_payments": 175986.81,
+      "total_services": 6471,
+      "total_beneficiaries": 5904,
+      "avg_submitted": 564.55,
+      "avg_paid": 67.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 305878.69,
+      "total_services": 10453,
+      "total_beneficiaries": 8787,
+      "avg_submitted": 203.34,
+      "avg_paid": 56.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 355446.55,
+      "total_services": 11383,
+      "total_beneficiaries": 9279,
+      "avg_submitted": 220.45,
+      "avg_paid": 57.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 287388.61,
+      "total_services": 8656,
+      "total_beneficiaries": 7372,
+      "avg_submitted": 204.77,
+      "avg_paid": 59.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 318747.7,
+      "total_services": 8949,
+      "total_beneficiaries": 7381,
+      "avg_submitted": 161.09,
+      "avg_paid": 58.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 336292.58,
+      "total_services": 9474,
+      "total_beneficiaries": 7557,
+      "avg_submitted": 155.16,
+      "avg_paid": 63.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 237050.66,
+      "total_services": 7147,
+      "total_beneficiaries": 6244,
+      "avg_submitted": 196.76,
+      "avg_paid": 79.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 13563,
+      "payments": 719145.06,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 6967,
+      "payments": 379982.32,
+      "avg_markup": 4.98
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 6705,
+      "payments": 322467.08,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1579,
+      "payments": 226145.6,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 35359,
+      "payments": 219124.77,
+      "avg_markup": 8.57
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 6946,
+      "payments": 188405.66,
+      "avg_markup": 7.29
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 325,
+      "payments": 176628.3,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "93018",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician interpretation and report",
+      "services": 3459,
+      "payments": 34150.96,
+      "avg_markup": 28.58
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 82,
+      "payments": 18299.02,
+      "avg_markup": 5.59
+    },
+    {
+      "code": "93295",
+      "description": "Remote evaluations of single, dual, or multiple lead cardioverter-defibrillator with physician analysis, review, and report up to 90 days",
+      "services": 518,
+      "payments": 16558.64,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "93298",
+      "description": "Remote evaluations of implantable heart recorder system including physician analysis, review, and report up to 30 days",
+      "services": 569,
+      "payments": 11098.86,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "75574",
+      "description": "CT scan of heart blood vessels and grafts with contrast dye",
+      "services": 75,
+      "payments": 10876.69,
+      "avg_markup": 14.62
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 365,
+      "payments": 9424.18,
+      "avg_markup": 8.07
+    },
+    {
+      "code": "93283",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 251,
+      "payments": 9368.57,
+      "avg_markup": 7.76
+    },
+    {
+      "code": "75635",
+      "description": "CT scan of abdominal aorta and both leg arteries with contrast",
+      "services": 59,
+      "payments": 9350.88,
+      "avg_markup": 26.03
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 375,
+      "payments": 9117.74,
+      "avg_markup": 6.26
+    },
+    {
+      "code": "93971",
+      "description": "Ultrasound scan of veins of one arm or leg or limited including assessment of compression and functional maneuvers",
+      "services": 515,
+      "payments": 8333.35,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "93228",
+      "description": "Heart rhythm tracing, computer analysis, and interpretation of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 332,
+      "payments": 6143.04,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 680,
+      "payments": 5941.98,
+      "avg_markup": 22.49
+    },
+    {
+      "code": "93268",
+      "description": "Heart rhythm symptom-related tracing and interpretation of 24-hour EKG monitoring up to 30 days",
+      "services": 40,
+      "payments": 5668.24,
+      "avg_markup": 3.22
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2417364.55,
+    "total_services": 80128,
+    "total_beneficiaries": 69161,
+    "avg_markup_ratio": 5.15
+  }
+}

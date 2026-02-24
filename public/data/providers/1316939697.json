@@ -1,0 +1,239 @@
+{
+  "name": "Howard Mandell",
+  "credentials": "M.D.",
+  "specialty": "Neurology",
+  "city": "Rock Hill",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 454193.54,
+      "total_services": 4711,
+      "total_beneficiaries": 4185,
+      "avg_submitted": 807.63,
+      "avg_paid": 136.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 442854.63,
+      "total_services": 4871,
+      "total_beneficiaries": 4228,
+      "avg_submitted": 780.97,
+      "avg_paid": 130.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 434484.23,
+      "total_services": 4670,
+      "total_beneficiaries": 4050,
+      "avg_submitted": 847.23,
+      "avg_paid": 128.16
+    },
+    {
+      "year": 2017,
+      "total_payments": 439160.91,
+      "total_services": 5113,
+      "total_beneficiaries": 4423,
+      "avg_submitted": 931.9,
+      "avg_paid": 130.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 371861.93,
+      "total_services": 4141,
+      "total_beneficiaries": 3779,
+      "avg_submitted": 837.66,
+      "avg_paid": 119.15
+    },
+    {
+      "year": 2019,
+      "total_payments": 366552.95,
+      "total_services": 4096,
+      "total_beneficiaries": 3625,
+      "avg_submitted": 806.19,
+      "avg_paid": 113.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 301430.12,
+      "total_services": 3376,
+      "total_beneficiaries": 2948,
+      "avg_submitted": 813.62,
+      "avg_paid": 120.64
+    },
+    {
+      "year": 2021,
+      "total_payments": 281055.26,
+      "total_services": 3079,
+      "total_beneficiaries": 2639,
+      "avg_submitted": 873.4,
+      "avg_paid": 121.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 252666.27,
+      "total_services": 2966,
+      "total_beneficiaries": 2489,
+      "avg_submitted": 730.89,
+      "avg_paid": 96.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 294516.54,
+      "total_services": 3209,
+      "total_beneficiaries": 2842,
+      "avg_submitted": 857.58,
+      "avg_paid": 115.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7011,
+      "payments": 509326.38,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 2080,
+      "payments": 353895.54,
+      "avg_markup": 11.75
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 3218,
+      "payments": 333632.43,
+      "avg_markup": 17.36
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6297,
+      "payments": 299616.09,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2268,
+      "payments": 233310.31,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1922,
+      "payments": 206827.51,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1384,
+      "payments": 198267.89,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "95886",
+      "description": "Needle measurement and recording of electrical activity of muscles of arm or leg complete study",
+      "services": 1822,
+      "payments": 121906.13,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "72141",
+      "description": "MRI scan of upper spinal canal",
+      "services": 1066,
+      "payments": 105014.75,
+      "avg_markup": 18.27
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 1051,
+      "payments": 104048.02,
+      "avg_markup": 18.18
+    },
+    {
+      "code": "70544",
+      "description": "MRA scan of head blood vessels",
+      "services": 606,
+      "payments": 100755.53,
+      "avg_markup": 6.01
+    },
+    {
+      "code": "95816",
+      "description": "Measurement and recording of brain wave (EEG) activity, awake and drowsy",
+      "services": 441,
+      "payments": 99250.09,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "95909",
+      "description": "Nerve transmission studies, 5-6 studies",
+      "services": 864,
+      "payments": 86029.0,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "70549",
+      "description": "MRA scan of neck blood vessels before and after contrast",
+      "services": 291,
+      "payments": 82645.01,
+      "avg_markup": 7.04
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 183,
+      "payments": 78280.05,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "95912",
+      "description": "Nerve transmission studies, 11-12 studies",
+      "services": 409,
+      "payments": 73578.99,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 462,
+      "payments": 68742.02,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "95813",
+      "description": "Measurement of brain wave (EEG) activity greater than 1 hour",
+      "services": 292,
+      "payments": 67300.74,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 118,
+      "payments": 53560.24,
+      "avg_markup": 4.78
+    },
+    {
+      "code": "95957",
+      "description": "Digital analysis of electrical brain wave activity (EEG)",
+      "services": 279,
+      "payments": 53333.35,
+      "avg_markup": 3.37
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3638776.38,
+    "total_services": 40232,
+    "total_beneficiaries": 35208,
+    "avg_markup_ratio": 6.53
+  }
+}

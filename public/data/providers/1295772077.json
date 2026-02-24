@@ -1,0 +1,239 @@
+{
+  "name": "Mark Kot",
+  "credentials": "M.D.",
+  "specialty": "Emergency Medicine",
+  "city": "Southampton",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 341712.71,
+      "total_services": 7914,
+      "total_beneficiaries": 5863,
+      "avg_submitted": 92.88,
+      "avg_paid": 39.0
+    },
+    {
+      "year": 2015,
+      "total_payments": 338673.0,
+      "total_services": 7918,
+      "total_beneficiaries": 5895,
+      "avg_submitted": 102.97,
+      "avg_paid": 40.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 332717.47,
+      "total_services": 8193,
+      "total_beneficiaries": 6292,
+      "avg_submitted": 100.79,
+      "avg_paid": 37.9
+    },
+    {
+      "year": 2017,
+      "total_payments": 300282.6,
+      "total_services": 7672,
+      "total_beneficiaries": 5946,
+      "avg_submitted": 102.49,
+      "avg_paid": 36.27
+    },
+    {
+      "year": 2018,
+      "total_payments": 316690.52,
+      "total_services": 8053,
+      "total_beneficiaries": 6184,
+      "avg_submitted": 97.9,
+      "avg_paid": 36.0
+    },
+    {
+      "year": 2019,
+      "total_payments": 323112.79,
+      "total_services": 8200,
+      "total_beneficiaries": 6382,
+      "avg_submitted": 100.74,
+      "avg_paid": 38.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 338001.85,
+      "total_services": 8159,
+      "total_beneficiaries": 6930,
+      "avg_submitted": 103.78,
+      "avg_paid": 35.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 379489.46,
+      "total_services": 7711,
+      "total_beneficiaries": 6239,
+      "avg_submitted": 105.17,
+      "avg_paid": 43.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 419220.96,
+      "total_services": 8881,
+      "total_beneficiaries": 6884,
+      "avg_submitted": 105.52,
+      "avg_paid": 41.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 396355.06,
+      "total_services": 8136,
+      "total_beneficiaries": 6532,
+      "avg_submitted": 110.11,
+      "avg_paid": 44.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 17666,
+      "payments": 1138387.42,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3845,
+      "payments": 350549.91,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 3614,
+      "payments": 320581.79,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "U0002",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc",
+      "services": 5143,
+      "payments": 262482.8,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis up to 1 hour",
+      "services": 2226,
+      "payments": 143958.95,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 3039,
+      "payments": 124679.89,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 1404,
+      "payments": 109256.17,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 826,
+      "payments": 104605.16,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 716,
+      "payments": 92224.59,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 3269,
+      "payments": 88455.46,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 2554,
+      "payments": 73383.04,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 3793,
+      "payments": 57524.08,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "87428",
+      "description": "Sarscov & inf vir a&b ag ia",
+      "services": 1587,
+      "payments": 53638.5,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2131,
+      "payments": 49467.71,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "10120",
+      "description": "Removal of foreign body from tissue, accessed beneath the skin",
+      "services": 353,
+      "payments": 46603.62,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 1663,
+      "payments": 41686.28,
+      "avg_markup": 5.51
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 221,
+      "payments": 39429.03,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "87635",
+      "description": "Sars-cov-2 covid-19 amp prb",
+      "services": 694,
+      "payments": 35042.68,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "69210",
+      "description": "Removal of impact ear wax, one ear",
+      "services": 712,
+      "payments": 26226.63,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "10060",
+      "description": "Drainage of abscess",
+      "services": 256,
+      "payments": 25927.08,
+      "avg_markup": 2.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3486256.43,
+    "total_services": 80837,
+    "total_beneficiaries": 63147,
+    "avg_markup_ratio": 2.35
+  }
+}

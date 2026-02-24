@@ -1,0 +1,239 @@
+{
+  "name": "Edgar Bekteshi",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Chandler",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 96889.09,
+      "total_services": 1031,
+      "total_beneficiaries": 699,
+      "avg_submitted": 231.12,
+      "avg_paid": 87.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 227394.55,
+      "total_services": 2625,
+      "total_beneficiaries": 1437,
+      "avg_submitted": 184.88,
+      "avg_paid": 68.8
+    },
+    {
+      "year": 2016,
+      "total_payments": 281652.05,
+      "total_services": 3559,
+      "total_beneficiaries": 1791,
+      "avg_submitted": 152.15,
+      "avg_paid": 64.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 331248.62,
+      "total_services": 4280,
+      "total_beneficiaries": 2264,
+      "avg_submitted": 175.78,
+      "avg_paid": 74.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 294167.66,
+      "total_services": 4118,
+      "total_beneficiaries": 2356,
+      "avg_submitted": 168.17,
+      "avg_paid": 74.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 292672.13,
+      "total_services": 4218,
+      "total_beneficiaries": 2519,
+      "avg_submitted": 163.95,
+      "avg_paid": 70.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 303371.79,
+      "total_services": 4257,
+      "total_beneficiaries": 2543,
+      "avg_submitted": 173.85,
+      "avg_paid": 81.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 294846.43,
+      "total_services": 4068,
+      "total_beneficiaries": 2486,
+      "avg_submitted": 176.67,
+      "avg_paid": 78.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 321777.31,
+      "total_services": 4424,
+      "total_beneficiaries": 2736,
+      "avg_submitted": 175.0,
+      "avg_paid": 85.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 281116.02,
+      "total_services": 3911,
+      "total_beneficiaries": 2505,
+      "avg_submitted": 164.55,
+      "avg_paid": 70.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4436,
+      "payments": 682585.91,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11399,
+      "payments": 652388.98,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5680,
+      "payments": 464420.09,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2656,
+      "payments": 227671.16,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2824,
+      "payments": 165067.74,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "94375",
+      "description": "Diagnostic testing in a pulmonary function lab",
+      "services": 5362,
+      "payments": 157006.77,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 824,
+      "payments": 98625.9,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 760,
+      "payments": 80619.98,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 366,
+      "payments": 53191.61,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 562,
+      "payments": 44665.15,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 267,
+      "payments": 25989.58,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 134,
+      "payments": 23403.2,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 237,
+      "payments": 17562.93,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 117,
+      "payments": 4846.83,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 173,
+      "payments": 4496.31,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 97,
+      "payments": 3635.55,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 19,
+      "payments": 2906.81,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 67,
+      "payments": 2844.38,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 83,
+      "payments": 2761.54,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 22,
+      "payments": 1951.18,
+      "avg_markup": 3.06
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2725135.65,
+    "total_services": 36491,
+    "total_beneficiaries": 21336,
+    "avg_markup_ratio": 1.95
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Decatur Ambulance Service, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Decatur",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2303207.4,
+      "total_services": 16155,
+      "total_beneficiaries": 9596,
+      "avg_submitted": 673.53,
+      "avg_paid": 231.68
+    },
+    {
+      "year": 2015,
+      "total_payments": 2069407.18,
+      "total_services": 14278,
+      "total_beneficiaries": 8615,
+      "avg_submitted": 687.44,
+      "avg_paid": 234.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 2183009.11,
+      "total_services": 14978,
+      "total_beneficiaries": 8999,
+      "avg_submitted": 700.31,
+      "avg_paid": 233.41
+    },
+    {
+      "year": 2017,
+      "total_payments": 2280500.5,
+      "total_services": 15471,
+      "total_beneficiaries": 9435,
+      "avg_submitted": 762.41,
+      "avg_paid": 236.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 1096647.02,
+      "total_services": 7359,
+      "total_beneficiaries": 5108,
+      "avg_submitted": 825.22,
+      "avg_paid": 239.73
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 19349,
+      "payments": 6111356.8,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 9444,
+      "payments": 2509184.33,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 5363,
+      "payments": 882891.35,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 33430,
+      "payments": 209313.17,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 347,
+      "payments": 158086.83,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 308,
+      "payments": 61938.73,
+      "avg_markup": 4.88
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 9932771.21,
+    "total_services": 68241,
+    "total_beneficiaries": 41753,
+    "avg_markup_ratio": 3.1
+  }
+}

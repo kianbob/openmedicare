@@ -1,0 +1,86 @@
+{
+  "name": "Hartford Dispensary",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Hartford",
+  "state": "CT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1368949.93,
+      "total_services": 8831,
+      "total_beneficiaries": 533,
+      "avg_submitted": 115.48,
+      "avg_paid": 114.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 1868058.58,
+      "total_services": 11618,
+      "total_beneficiaries": 606,
+      "avg_submitted": 143.74,
+      "avg_paid": 140.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 1779980.7,
+      "total_services": 10562,
+      "total_beneficiaries": 604,
+      "avg_submitted": 153.86,
+      "avg_paid": 149.71
+    },
+    {
+      "year": 2023,
+      "total_payments": 1585063.07,
+      "total_services": 9670,
+      "total_beneficiaries": 574,
+      "avg_submitted": 124.36,
+      "avg_paid": 118.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 29084,
+      "payments": 6164777.8,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 11407,
+      "payments": 411576.3,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 102,
+      "payments": 19033.74,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 53,
+      "payments": 5491.95,
+      "avg_markup": 1.0
+    },
+    {
+      "code": "G2080",
+      "description": "Each additional 30 minutes of counseling in a week of medication assisted treatment, (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 35,
+      "payments": 1172.5,
+      "avg_markup": 1.02
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 6602052.29,
+    "total_services": 40681,
+    "total_beneficiaries": 2317,
+    "avg_markup_ratio": 1.03
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Frida Popilevsky",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 314526.81,
+      "total_services": 2311,
+      "total_beneficiaries": 788,
+      "avg_submitted": 226.21,
+      "avg_paid": 86.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 425168.62,
+      "total_services": 2794,
+      "total_beneficiaries": 966,
+      "avg_submitted": 244.82,
+      "avg_paid": 99.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 483578.03,
+      "total_services": 3289,
+      "total_beneficiaries": 1038,
+      "avg_submitted": 227.26,
+      "avg_paid": 89.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 503250.31,
+      "total_services": 3352,
+      "total_beneficiaries": 921,
+      "avg_submitted": 208.1,
+      "avg_paid": 88.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 484754.84,
+      "total_services": 3205,
+      "total_beneficiaries": 958,
+      "avg_submitted": 170.8,
+      "avg_paid": 82.68
+    },
+    {
+      "year": 2019,
+      "total_payments": 468675.79,
+      "total_services": 3092,
+      "total_beneficiaries": 960,
+      "avg_submitted": 160.96,
+      "avg_paid": 79.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 327086.47,
+      "total_services": 2150,
+      "total_beneficiaries": 683,
+      "avg_submitted": 156.33,
+      "avg_paid": 83.41
+    },
+    {
+      "year": 2021,
+      "total_payments": 213594.52,
+      "total_services": 1373,
+      "total_beneficiaries": 517,
+      "avg_submitted": 178.95,
+      "avg_paid": 112.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 243633.18,
+      "total_services": 1389,
+      "total_beneficiaries": 488,
+      "avg_submitted": 189.97,
+      "avg_paid": 99.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 274377.79,
+      "total_services": 1592,
+      "total_beneficiaries": 544,
+      "avg_submitted": 235.48,
+      "avg_paid": 105.74
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 14061,
+      "payments": 2814143.74,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5344,
+      "payments": 491878.85,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 608,
+      "payments": 107521.88,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 923,
+      "payments": 87788.83,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1125,
+      "payments": 72631.86,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 547,
+      "payments": 51900.79,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 158,
+      "payments": 22998.28,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 179,
+      "payments": 17845.51,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 115,
+      "payments": 11638.51,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 83,
+      "payments": 8669.99,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 156,
+      "payments": 8439.66,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 154,
+      "payments": 7760.85,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "76937",
+      "description": "Ultrasound guidance for accessing into blood vessel",
+      "services": 560,
+      "payments": 7298.98,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 52,
+      "payments": 5939.87,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 148,
+      "payments": 5760.87,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 39,
+      "payments": 5172.21,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "32551",
+      "description": "Removal of fluid from between lung and chest cavity, open procedure",
+      "services": 24,
+      "payments": 3798.66,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 116,
+      "payments": 2072.73,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99407",
+      "description": "Smoking and tobacco use intensive counseling, greater than 10 minutes",
+      "services": 63,
+      "payments": 1961.44,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "36620",
+      "description": "Insertion of arterial catheter for blood sampling or infusion, accessed through the skin",
+      "services": 46,
+      "payments": 1875.02,
+      "avg_markup": 1.59
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3738646.37,
+    "total_services": 24547,
+    "total_beneficiaries": 7863,
+    "avg_markup_ratio": 1.95
+  }
+}

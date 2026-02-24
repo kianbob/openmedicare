@@ -1,0 +1,239 @@
+{
+  "name": "John Baer",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Hanover",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 327605.26,
+      "total_services": 3296,
+      "total_beneficiaries": 2974,
+      "avg_submitted": 473.23,
+      "avg_paid": 125.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 352627.79,
+      "total_services": 3768,
+      "total_beneficiaries": 3415,
+      "avg_submitted": 479.38,
+      "avg_paid": 123.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 344524.12,
+      "total_services": 3671,
+      "total_beneficiaries": 3336,
+      "avg_submitted": 473.28,
+      "avg_paid": 122.06
+    },
+    {
+      "year": 2017,
+      "total_payments": 330558.77,
+      "total_services": 3176,
+      "total_beneficiaries": 2876,
+      "avg_submitted": 473.24,
+      "avg_paid": 121.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 324410.66,
+      "total_services": 3071,
+      "total_beneficiaries": 2779,
+      "avg_submitted": 447.47,
+      "avg_paid": 117.48
+    },
+    {
+      "year": 2019,
+      "total_payments": 271752.17,
+      "total_services": 2947,
+      "total_beneficiaries": 2697,
+      "avg_submitted": 492.06,
+      "avg_paid": 129.43
+    },
+    {
+      "year": 2020,
+      "total_payments": 211619.9,
+      "total_services": 2265,
+      "total_beneficiaries": 2058,
+      "avg_submitted": 548.02,
+      "avg_paid": 134.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 237229.27,
+      "total_services": 2419,
+      "total_beneficiaries": 2176,
+      "avg_submitted": 536.41,
+      "avg_paid": 137.22
+    },
+    {
+      "year": 2022,
+      "total_payments": 220714.25,
+      "total_services": 2774,
+      "total_beneficiaries": 2530,
+      "avg_submitted": 557.71,
+      "avg_paid": 121.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 184296.22,
+      "total_services": 2567,
+      "total_beneficiaries": 2397,
+      "avg_submitted": 376.65,
+      "avg_paid": 104.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 12421,
+      "payments": 1016097.08,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1692,
+      "payments": 822217.59,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 5030,
+      "payments": 210480.6,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 289,
+      "payments": 178566.43,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 486,
+      "payments": 119670.49,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "76519",
+      "description": "Ultrasound of eye for determination of lens power",
+      "services": 2054,
+      "payments": 87585.66,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 1893,
+      "payments": 77797.62,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 746,
+      "payments": 70874.28,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1070,
+      "payments": 58975.81,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 748,
+      "payments": 43489.78,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 1679,
+      "payments": 41635.56,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 267,
+      "payments": 28457.53,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 157,
+      "payments": 14243.78,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 352,
+      "payments": 10048.17,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 218,
+      "payments": 6881.51,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "92082",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 190,
+      "payments": 6210.17,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 416,
+      "payments": 5447.69,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow",
+      "services": 21,
+      "payments": 3630.25,
+      "avg_markup": 7.58
+    },
+    {
+      "code": "76514",
+      "description": "Ultrasound of corneal structure and measurement",
+      "services": 161,
+      "payments": 1498.72,
+      "avg_markup": 6.37
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 52,
+      "payments": 1089.6,
+      "avg_markup": 3.57
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2805338.41,
+    "total_services": 29954,
+    "total_beneficiaries": 27238,
+    "avg_markup_ratio": 3.23
+  }
+}

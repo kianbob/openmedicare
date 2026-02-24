@@ -1,0 +1,162 @@
+{
+  "name": "Jameel Hourani",
+  "credentials": "DO",
+  "specialty": "Pulmonary Disease",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 463733.59,
+      "total_services": 5733,
+      "total_beneficiaries": 1027,
+      "avg_submitted": 178.57,
+      "avg_paid": 94.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 487500.98,
+      "total_services": 6006,
+      "total_beneficiaries": 861,
+      "avg_submitted": 203.82,
+      "avg_paid": 101.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 615876.16,
+      "total_services": 7351,
+      "total_beneficiaries": 935,
+      "avg_submitted": 190.0,
+      "avg_paid": 91.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 605339.86,
+      "total_services": 7185,
+      "total_beneficiaries": 1041,
+      "avg_submitted": 176.27,
+      "avg_paid": 85.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 554774.46,
+      "total_services": 7052,
+      "total_beneficiaries": 1051,
+      "avg_submitted": 190.0,
+      "avg_paid": 95.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 565216.52,
+      "total_services": 7088,
+      "total_beneficiaries": 1127,
+      "avg_submitted": 176.25,
+      "avg_paid": 89.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 531652.57,
+      "total_services": 7467,
+      "total_beneficiaries": 639,
+      "avg_submitted": 175.71,
+      "avg_paid": 87.78
+    },
+    {
+      "year": 2021,
+      "total_payments": 327502.08,
+      "total_services": 4813,
+      "total_beneficiaries": 404,
+      "avg_submitted": 210.0,
+      "avg_paid": 106.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 325373.44,
+      "total_services": 4846,
+      "total_beneficiaries": 534,
+      "avg_submitted": 200.0,
+      "avg_paid": 92.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 445108.76,
+      "total_services": 6116,
+      "total_beneficiaries": 581,
+      "avg_submitted": 210.0,
+      "avg_paid": 109.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 24311,
+      "payments": 2085305.71,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 27727,
+      "payments": 1704906.49,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7557,
+      "payments": 565745.64,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2243,
+      "payments": 361340.73,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1121,
+      "payments": 151411.52,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 392,
+      "payments": 39899.03,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 185,
+      "payments": 8303.61,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imp",
+      "services": 97,
+      "payments": 3222.41,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 24,
+      "payments": 1943.28,
+      "avg_markup": 3.09
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4922078.42,
+    "total_services": 63657,
+    "total_beneficiaries": 8200,
+    "avg_markup_ratio": 1.88
+  }
+}

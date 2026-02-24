@@ -1,0 +1,223 @@
+{
+  "name": "Jeffrey Kupperman",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Santa Barbara",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 406488.5,
+      "total_services": 11983,
+      "total_beneficiaries": 8755,
+      "avg_submitted": 57.88,
+      "avg_paid": 40.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 385450.88,
+      "total_services": 10745,
+      "total_beneficiaries": 8169,
+      "avg_submitted": 59.48,
+      "avg_paid": 40.68
+    },
+    {
+      "year": 2016,
+      "total_payments": 427565.75,
+      "total_services": 11988,
+      "total_beneficiaries": 8741,
+      "avg_submitted": 59.14,
+      "avg_paid": 40.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 436306.73,
+      "total_services": 11554,
+      "total_beneficiaries": 8440,
+      "avg_submitted": 61.28,
+      "avg_paid": 37.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 488610.52,
+      "total_services": 13331,
+      "total_beneficiaries": 9796,
+      "avg_submitted": 70.25,
+      "avg_paid": 41.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 460201.05,
+      "total_services": 12446,
+      "total_beneficiaries": 8973,
+      "avg_submitted": 71.81,
+      "avg_paid": 41.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 358253.19,
+      "total_services": 8814,
+      "total_beneficiaries": 6725,
+      "avg_submitted": 64.46,
+      "avg_paid": 41.19
+    },
+    {
+      "year": 2021,
+      "total_payments": 15056.34,
+      "total_services": 214,
+      "total_beneficiaries": 175,
+      "avg_submitted": 134.88,
+      "avg_paid": 67.36
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 7296,
+      "payments": 785325.17,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "94375",
+      "description": "Diagnostic testing in a pulmonary function lab",
+      "services": 7930,
+      "payments": 254573.2,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 4214,
+      "payments": 194422.8,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 3150,
+      "payments": 190728.47,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 4179,
+      "payments": 186148.84,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 934,
+      "payments": 144261.2,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "94681",
+      "description": "Collection and analysis of exhaled air and carbon dioxide for evaluation of lung function",
+      "services": 3126,
+      "payments": 142117.04,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1472,
+      "payments": 121117.26,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1317,
+      "payments": 106854.0,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 631,
+      "payments": 98820.79,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "36600",
+      "description": "Arterial puncture withdrawal of blood for diagnosis",
+      "services": 3506,
+      "payments": 89547.61,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 782,
+      "payments": 80326.46,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "94200",
+      "description": "Measurement of largest amount of air breathed in an out of lungs over one minute",
+      "services": 3552,
+      "payments": 76519.39,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "82803",
+      "description": "Blood gases measurement",
+      "services": 2491,
+      "payments": 64170.81,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient use of aerosol generator, nebulizer, metered dose inhaler or intermittent positive pressure breathing (IPPB) device",
+      "services": 4031,
+      "payments": 57827.8,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "82375",
+      "description": "Carboxyhemoglobin (protein) level",
+      "services": 3461,
+      "payments": 52516.44,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 275,
+      "payments": 48194.14,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "83605",
+      "description": "Lactic acid level",
+      "services": 3425,
+      "payments": 44033.37,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "83050",
+      "description": "Methemoglobin (hemoglobin) analysis",
+      "services": 3460,
+      "payments": 31609.38,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 515,
+      "payments": 26889.5,
+      "avg_markup": 1.49
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2977932.96,
+    "total_services": 81075,
+    "total_beneficiaries": 59774,
+    "avg_markup_ratio": 1.46
+  }
+}

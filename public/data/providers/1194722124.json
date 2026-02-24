@@ -1,0 +1,123 @@
+{
+  "name": "Cooperstown Medical Transport Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Cooperstown",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1001245.19,
+      "total_services": 5822,
+      "total_beneficiaries": 4270,
+      "avg_submitted": 566.87,
+      "avg_paid": 303.95
+    },
+    {
+      "year": 2015,
+      "total_payments": 1010970.15,
+      "total_services": 5872,
+      "total_beneficiaries": 4411,
+      "avg_submitted": 648.24,
+      "avg_paid": 297.25
+    },
+    {
+      "year": 2016,
+      "total_payments": 1028147.27,
+      "total_services": 6008,
+      "total_beneficiaries": 4427,
+      "avg_submitted": 752.55,
+      "avg_paid": 296.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 1086141.13,
+      "total_services": 6370,
+      "total_beneficiaries": 4721,
+      "avg_submitted": 839.08,
+      "avg_paid": 296.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 1089181.35,
+      "total_services": 6408,
+      "total_beneficiaries": 4696,
+      "avg_submitted": 910.73,
+      "avg_paid": 301.68
+    },
+    {
+      "year": 2019,
+      "total_payments": 235833.34,
+      "total_services": 1377,
+      "total_beneficiaries": 1202,
+      "avg_submitted": 885.0,
+      "avg_paid": 318.71
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 9828,
+      "payments": 3306512.86,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4176,
+      "payments": 1164506.48,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 617,
+      "payments": 357177.27,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "A0432",
+      "description": "Paramedic intercept (pi), rural area, transport furnished by a volunteer ambulance company which is prohibited by state law from billing third party payers",
+      "services": 949,
+      "payments": 289035.68,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 709,
+      "payments": 122402.31,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 15270,
+      "payments": 106109.92,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 146,
+      "payments": 71924.42,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 162,
+      "payments": 33849.47,
+      "avg_markup": 4.0
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 5451518.42,
+    "total_services": 31857,
+    "total_beneficiaries": 23727,
+    "avg_markup_ratio": 2.72
+  }
+}

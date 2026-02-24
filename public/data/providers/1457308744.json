@@ -1,0 +1,162 @@
+{
+  "name": "George Yatzkan",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Miami",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 219779.52,
+      "total_services": 1870,
+      "total_beneficiaries": 714,
+      "avg_submitted": 527.58,
+      "avg_paid": 128.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 232061.55,
+      "total_services": 2091,
+      "total_beneficiaries": 770,
+      "avg_submitted": 555.0,
+      "avg_paid": 126.14
+    },
+    {
+      "year": 2016,
+      "total_payments": 215187.48,
+      "total_services": 2276,
+      "total_beneficiaries": 762,
+      "avg_submitted": 449.03,
+      "avg_paid": 125.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 369142.52,
+      "total_services": 3602,
+      "total_beneficiaries": 1260,
+      "avg_submitted": 363.33,
+      "avg_paid": 128.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 584790.47,
+      "total_services": 5759,
+      "total_beneficiaries": 2039,
+      "avg_submitted": 363.33,
+      "avg_paid": 124.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 378382.58,
+      "total_services": 4102,
+      "total_beneficiaries": 1355,
+      "avg_submitted": 352.15,
+      "avg_paid": 127.03
+    },
+    {
+      "year": 2020,
+      "total_payments": 486981.77,
+      "total_services": 6525,
+      "total_beneficiaries": 1606,
+      "avg_submitted": 337.99,
+      "avg_paid": 116.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 422132.92,
+      "total_services": 5562,
+      "total_beneficiaries": 1319,
+      "avg_submitted": 368.75,
+      "avg_paid": 121.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 301748.27,
+      "total_services": 4088,
+      "total_beneficiaries": 1047,
+      "avg_submitted": 357.0,
+      "avg_paid": 110.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 414647.98,
+      "total_services": 4576,
+      "total_beneficiaries": 1329,
+      "avg_submitted": 246.25,
+      "avg_paid": 111.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21923,
+      "payments": 1354533.81,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10941,
+      "payments": 993891.34,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4251,
+      "payments": 710300.26,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2297,
+      "payments": 442952.26,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 570,
+      "payments": 67211.87,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 330,
+      "payments": 39549.57,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 66,
+      "payments": 8615.97,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 41,
+      "payments": 5299.66,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 32,
+      "payments": 2500.32,
+      "avg_markup": 4.93
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3624855.06,
+    "total_services": 40451,
+    "total_beneficiaries": 12201,
+    "avg_markup_ratio": 2.62
+  }
+}

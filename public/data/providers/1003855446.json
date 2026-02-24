@@ -1,0 +1,87 @@
+{
+  "name": "Classic Air Care Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Woods Cross",
+  "state": "UT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1929574.55,
+      "total_services": 1018,
+      "total_beneficiaries": 990,
+      "avg_submitted": 8084.95,
+      "avg_paid": 1851.5
+    },
+    {
+      "year": 2015,
+      "total_payments": 2081902.55,
+      "total_services": 1094,
+      "total_beneficiaries": 1033,
+      "avg_submitted": 8493.32,
+      "avg_paid": 1877.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 2444607.18,
+      "total_services": 1276,
+      "total_beneficiaries": 1218,
+      "avg_submitted": 8747.5,
+      "avg_paid": 1897.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 2354317.57,
+      "total_services": 1208,
+      "total_beneficiaries": 1152,
+      "avg_submitted": 8746.71,
+      "avg_paid": 1903.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 384352.68,
+      "total_services": 196,
+      "total_beneficiaries": 194,
+      "avg_submitted": 12054.7,
+      "avg_paid": 1910.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 1472,
+      "payments": 5907174.87,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 928,
+      "payments": 3239401.94,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 1467,
+      "payments": 38988.34,
+      "avg_markup": 8.77
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 925,
+      "payments": 9189.38,
+      "avg_markup": 23.18
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 9194754.53,
+    "total_services": 4792,
+    "total_beneficiaries": 4587,
+    "avg_markup_ratio": 4.55
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Meda-Care Ambulance Corp",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Milwaukee",
+  "state": "WI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 991109.66,
+      "total_services": 8103,
+      "total_beneficiaries": 5916,
+      "avg_submitted": 613.06,
+      "avg_paid": 252.04
+    },
+    {
+      "year": 2015,
+      "total_payments": 868313.07,
+      "total_services": 7069,
+      "total_beneficiaries": 5155,
+      "avg_submitted": 648.01,
+      "avg_paid": 255.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 526892.5,
+      "total_services": 4436,
+      "total_beneficiaries": 3427,
+      "avg_submitted": 675.11,
+      "avg_paid": 193.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4094,
+      "payments": 1096786.04,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 4439,
+      "payments": 745041.65,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 1258,
+      "payments": 405405.61,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 9564,
+      "payments": 54063.38,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 95,
+      "payments": 52709.14,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 158,
+      "payments": 32309.41,
+      "avg_markup": 4.78
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2386315.24,
+    "total_services": 19608,
+    "total_beneficiaries": 14498,
+    "avg_markup_ratio": 2.82
+  }
+}

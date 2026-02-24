@@ -1,0 +1,148 @@
+{
+  "name": "Nicolae Bizeta",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Smithtown",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 167776.69,
+      "total_services": 1607,
+      "total_beneficiaries": 552,
+      "avg_submitted": 550.08,
+      "avg_paid": 132.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 154731.86,
+      "total_services": 1524,
+      "total_beneficiaries": 559,
+      "avg_submitted": 495.14,
+      "avg_paid": 114.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 151682.39,
+      "total_services": 1488,
+      "total_beneficiaries": 616,
+      "avg_submitted": 550.0,
+      "avg_paid": 133.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 222086.37,
+      "total_services": 2196,
+      "total_beneficiaries": 878,
+      "avg_submitted": 550.05,
+      "avg_paid": 131.04
+    },
+    {
+      "year": 2018,
+      "total_payments": 245247.99,
+      "total_services": 2380,
+      "total_beneficiaries": 889,
+      "avg_submitted": 550.0,
+      "avg_paid": 133.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 322417.78,
+      "total_services": 3262,
+      "total_beneficiaries": 1119,
+      "avg_submitted": 550.0,
+      "avg_paid": 131.25
+    },
+    {
+      "year": 2020,
+      "total_payments": 378060.67,
+      "total_services": 3529,
+      "total_beneficiaries": 1154,
+      "avg_submitted": 576.61,
+      "avg_paid": 140.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 305799.43,
+      "total_services": 2945,
+      "total_beneficiaries": 920,
+      "avg_submitted": 584.0,
+      "avg_paid": 139.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 340972.34,
+      "total_services": 3326,
+      "total_beneficiaries": 1163,
+      "avg_submitted": 584.0,
+      "avg_paid": 134.83
+    },
+    {
+      "year": 2023,
+      "total_payments": 291021.52,
+      "total_services": 2824,
+      "total_beneficiaries": 1037,
+      "avg_submitted": 540.83,
+      "avg_paid": 122.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11645,
+      "payments": 763799.61,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7393,
+      "payments": 705759.2,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3772,
+      "payments": 669819.92,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2092,
+      "payments": 422493.78,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 113,
+      "payments": 13695.76,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 25,
+      "payments": 2841.0,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 41,
+      "payments": 1387.77,
+      "avg_markup": 8.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2579797.04,
+    "total_services": 25081,
+    "total_beneficiaries": 8887,
+    "avg_markup_ratio": 4.56
+  }
+}

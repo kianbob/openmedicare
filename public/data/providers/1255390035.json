@@ -1,0 +1,195 @@
+{
+  "name": "William Gaughan",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Philadelphia",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 161030.22,
+      "total_services": 1312,
+      "total_beneficiaries": 622,
+      "avg_submitted": 358.17,
+      "avg_paid": 112.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 142232.92,
+      "total_services": 657,
+      "total_beneficiaries": 427,
+      "avg_submitted": 422.57,
+      "avg_paid": 156.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 420751.96,
+      "total_services": 1648,
+      "total_beneficiaries": 701,
+      "avg_submitted": 227.95,
+      "avg_paid": 124.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 365277.38,
+      "total_services": 1893,
+      "total_beneficiaries": 708,
+      "avg_submitted": 299.07,
+      "avg_paid": 125.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 476060.88,
+      "total_services": 2325,
+      "total_beneficiaries": 782,
+      "avg_submitted": 295.63,
+      "avg_paid": 130.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 454582.77,
+      "total_services": 2094,
+      "total_beneficiaries": 704,
+      "avg_submitted": 271.85,
+      "avg_paid": 121.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 323034.47,
+      "total_services": 1421,
+      "total_beneficiaries": 449,
+      "avg_submitted": 242.36,
+      "avg_paid": 113.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 265025.89,
+      "total_services": 925,
+      "total_beneficiaries": 306,
+      "avg_submitted": 408.32,
+      "avg_paid": 238.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 7836,
+      "payments": 1946805.57,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 2508,
+      "payments": 512105.25,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 674,
+      "payments": 58675.61,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 513,
+      "payments": 30418.75,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 147,
+      "payments": 22287.19,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 91,
+      "payments": 10444.98,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 73,
+      "payments": 9959.36,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 117,
+      "payments": 7057.44,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 55,
+      "payments": 3481.78,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 27,
+      "payments": 2286.63,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 11,
+      "payments": 1563.7,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 38,
+      "payments": 1235.0,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "90970",
+      "description": "Dialysis services, per day (less than full month service), patient 20 years of age or older",
+      "services": 149,
+      "payments": 1037.26,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 12,
+      "payments": 549.28,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "81000",
+      "description": "Manual urinalysis test with examination using microscope",
+      "services": 12,
+      "payments": 50.76,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "81002",
+      "description": "Urinalysis, manual test",
+      "services": 12,
+      "payments": 37.92,
+      "avg_markup": 3.16
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2607996.47,
+    "total_services": 12275,
+    "total_beneficiaries": 4699,
+    "avg_markup_ratio": 2.01
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "John Reyes",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Oyster Bay",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 236030.41,
+      "total_services": 2956,
+      "total_beneficiaries": 1813,
+      "avg_submitted": 239.81,
+      "avg_paid": 83.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 230076.49,
+      "total_services": 2855,
+      "total_beneficiaries": 1685,
+      "avg_submitted": 255.39,
+      "avg_paid": 84.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 275899.16,
+      "total_services": 3502,
+      "total_beneficiaries": 2189,
+      "avg_submitted": 256.37,
+      "avg_paid": 85.43
+    },
+    {
+      "year": 2017,
+      "total_payments": 277016.72,
+      "total_services": 3318,
+      "total_beneficiaries": 2110,
+      "avg_submitted": 395.89,
+      "avg_paid": 92.01
+    },
+    {
+      "year": 2018,
+      "total_payments": 348500.36,
+      "total_services": 4030,
+      "total_beneficiaries": 2374,
+      "avg_submitted": 416.37,
+      "avg_paid": 88.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 355243.24,
+      "total_services": 4158,
+      "total_beneficiaries": 2521,
+      "avg_submitted": 413.32,
+      "avg_paid": 87.91
+    },
+    {
+      "year": 2020,
+      "total_payments": 307525.62,
+      "total_services": 3551,
+      "total_beneficiaries": 2381,
+      "avg_submitted": 410.2,
+      "avg_paid": 92.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 353619.8,
+      "total_services": 3828,
+      "total_beneficiaries": 2468,
+      "avg_submitted": 411.62,
+      "avg_paid": 96.73
+    },
+    {
+      "year": 2022,
+      "total_payments": 303659.61,
+      "total_services": 3269,
+      "total_beneficiaries": 2132,
+      "avg_submitted": 426.12,
+      "avg_paid": 87.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 393517.61,
+      "total_services": 4234,
+      "total_beneficiaries": 2096,
+      "avg_submitted": 432.04,
+      "avg_paid": 98.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6660,
+      "payments": 634675.39,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3287,
+      "payments": 266835.83,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3944,
+      "payments": 244404.91,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2383,
+      "payments": 223020.75,
+      "avg_markup": 4.75
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1818,
+      "payments": 216416.39,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1258,
+      "payments": 196006.13,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2314,
+      "payments": 151338.32,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2195,
+      "payments": 145870.5,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 872,
+      "payments": 126405.69,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 656,
+      "payments": 118789.83,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 372,
+      "payments": 86977.55,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 696,
+      "payments": 80180.41,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 1029,
+      "payments": 67225.98,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 322,
+      "payments": 66079.46,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 462,
+      "payments": 59240.92,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1048,
+      "payments": 57356.76,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 229,
+      "payments": 37961.05,
+      "avg_markup": 5.49
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 530,
+      "payments": 34137.4,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1278,
+      "payments": 33249.48,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 397,
+      "payments": 30295.4,
+      "avg_markup": 5.54
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3081089.02,
+    "total_services": 35701,
+    "total_beneficiaries": 21769,
+    "avg_markup_ratio": 4.16
+  }
+}

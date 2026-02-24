@@ -1,0 +1,169 @@
+{
+  "name": "Ahmad Barakzoy",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Orange Park",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 448246.92,
+      "total_services": 5141,
+      "total_beneficiaries": 1233,
+      "avg_submitted": 211.53,
+      "avg_paid": 111.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 363941.94,
+      "total_services": 3879,
+      "total_beneficiaries": 1098,
+      "avg_submitted": 211.07,
+      "avg_paid": 109.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 382009.46,
+      "total_services": 4103,
+      "total_beneficiaries": 1026,
+      "avg_submitted": 211.12,
+      "avg_paid": 111.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 481858.05,
+      "total_services": 3693,
+      "total_beneficiaries": 998,
+      "avg_submitted": 281.41,
+      "avg_paid": 163.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 397962.85,
+      "total_services": 3831,
+      "total_beneficiaries": 1096,
+      "avg_submitted": 289.33,
+      "avg_paid": 124.92
+    },
+    {
+      "year": 2019,
+      "total_payments": 427800.88,
+      "total_services": 4128,
+      "total_beneficiaries": 1111,
+      "avg_submitted": 268.11,
+      "avg_paid": 117.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 377817.85,
+      "total_services": 3816,
+      "total_beneficiaries": 936,
+      "avg_submitted": 280.96,
+      "avg_paid": 124.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 392344.15,
+      "total_services": 3865,
+      "total_beneficiaries": 808,
+      "avg_submitted": 281.12,
+      "avg_paid": 142.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 300978.88,
+      "total_services": 2795,
+      "total_beneficiaries": 711,
+      "avg_submitted": 281.12,
+      "avg_paid": 137.22
+    },
+    {
+      "year": 2023,
+      "total_payments": 265266.92,
+      "total_services": 2554,
+      "total_beneficiaries": 651,
+      "avg_submitted": 271.26,
+      "avg_paid": 132.76
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15214,
+      "payments": 907259.74,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 3012,
+      "payments": 771333.38,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7475,
+      "payments": 634047.51,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3147,
+      "payments": 520666.06,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 2434,
+      "payments": 487967.17,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2804,
+      "payments": 243202.12,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 3080,
+      "payments": 187939.63,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 484,
+      "payments": 62528.0,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 141,
+      "payments": 21804.63,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital care with straightforward or low-level medical decision making, if using time, at least 55 minutes",
+      "services": 14,
+      "payments": 1479.66,
+      "avg_markup": 1.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3838227.9,
+    "total_services": 37805,
+    "total_beneficiaries": 9668,
+    "avg_markup_ratio": 2.07
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "name": "Kang Lee",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Corpus Christi",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 95709.03,
+      "total_services": 1622,
+      "total_beneficiaries": 365,
+      "avg_submitted": 106.0,
+      "avg_paid": 71.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 103113.21,
+      "total_services": 1722,
+      "total_beneficiaries": 428,
+      "avg_submitted": 116.67,
+      "avg_paid": 72.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 112260.79,
+      "total_services": 1912,
+      "total_beneficiaries": 547,
+      "avg_submitted": 116.67,
+      "avg_paid": 70.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 149002.21,
+      "total_services": 2590,
+      "total_beneficiaries": 706,
+      "avg_submitted": 116.67,
+      "avg_paid": 69.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 389850.83,
+      "total_services": 6800,
+      "total_beneficiaries": 1199,
+      "avg_submitted": 117.5,
+      "avg_paid": 72.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 589623.71,
+      "total_services": 11164,
+      "total_beneficiaries": 2035,
+      "avg_submitted": 103.0,
+      "avg_paid": 65.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 295977.47,
+      "total_services": 6100,
+      "total_beneficiaries": 1097,
+      "avg_submitted": 85.0,
+      "avg_paid": 52.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 212643.2,
+      "total_services": 4278,
+      "total_beneficiaries": 763,
+      "avg_submitted": 85.0,
+      "avg_paid": 54.26
+    },
+    {
+      "year": 2022,
+      "total_payments": 233256.66,
+      "total_services": 4857,
+      "total_beneficiaries": 950,
+      "avg_submitted": 85.0,
+      "avg_paid": 53.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 267740.62,
+      "total_services": 5018,
+      "total_beneficiaries": 988,
+      "avg_submitted": 88.62,
+      "avg_paid": 53.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 33137,
+      "payments": 1840642.2,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 8470,
+      "payments": 265323.99,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 2414,
+      "payments": 179935.59,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1052,
+      "payments": 108811.59,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 990,
+      "payments": 54464.36,
+      "avg_markup": 1.79
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2449177.73,
+    "total_services": 46063,
+    "total_beneficiaries": 9078,
+    "avg_markup_ratio": 1.6
+  }
+}

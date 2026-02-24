@@ -1,0 +1,48 @@
+{
+  "name": "Procare Mobile Response, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3739595.97,
+      "total_services": 38961,
+      "total_beneficiaries": 6233,
+      "avg_submitted": 591.08,
+      "avg_paid": 159.14
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 17782,
+      "payments": 3129572.31,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1717,
+      "payments": 508621.7,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 19462,
+      "payments": 101401.96,
+      "avg_markup": 3.41
+    }
+  ],
+  "overall": {
+    "years_active": 1,
+    "total_payments": 3739595.97,
+    "total_services": 38961,
+    "total_beneficiaries": 6233,
+    "avg_markup_ratio": 3.84
+  }
+}

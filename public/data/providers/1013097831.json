@@ -1,0 +1,239 @@
+{
+  "name": "Alex Foxman",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Beverly Hills",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 213631.23,
+      "total_services": 6534,
+      "total_beneficiaries": 4192,
+      "avg_submitted": 156.02,
+      "avg_paid": 59.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 215910.36,
+      "total_services": 7841,
+      "total_beneficiaries": 4284,
+      "avg_submitted": 115.62,
+      "avg_paid": 41.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 204989.38,
+      "total_services": 6960,
+      "total_beneficiaries": 3384,
+      "avg_submitted": 103.98,
+      "avg_paid": 39.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 187904.61,
+      "total_services": 6377,
+      "total_beneficiaries": 3373,
+      "avg_submitted": 89.93,
+      "avg_paid": 37.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 227007.31,
+      "total_services": 6367,
+      "total_beneficiaries": 3680,
+      "avg_submitted": 118.12,
+      "avg_paid": 50.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 411277.05,
+      "total_services": 9090,
+      "total_beneficiaries": 4401,
+      "avg_submitted": 192.97,
+      "avg_paid": 60.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 636750.78,
+      "total_services": 13768,
+      "total_beneficiaries": 7917,
+      "avg_submitted": 187.02,
+      "avg_paid": 49.49
+    },
+    {
+      "year": 2021,
+      "total_payments": 702028.77,
+      "total_services": 18835,
+      "total_beneficiaries": 9291,
+      "avg_submitted": 157.38,
+      "avg_paid": 47.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 621117.44,
+      "total_services": 17932,
+      "total_beneficiaries": 9525,
+      "avg_submitted": 154.52,
+      "avg_paid": 44.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 547253.09,
+      "total_services": 16915,
+      "total_beneficiaries": 8654,
+      "avg_submitted": 139.96,
+      "avg_paid": 40.7
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 16480,
+      "payments": 636563.04,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 3089,
+      "payments": 448930.11,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3560,
+      "payments": 307654.53,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1777,
+      "payments": 239294.46,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 4134,
+      "payments": 178576.39,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1119,
+      "payments": 147694.33,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 2667,
+      "payments": 139557.84,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 3456,
+      "payments": 131683.31,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 2822,
+      "payments": 98278.33,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 584,
+      "payments": 92018.65,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99347",
+      "description": "Established patient home visit, typically 15 minutes",
+      "services": 2011,
+      "payments": 88790.23,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1146,
+      "payments": 87365.57,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2342,
+      "payments": 78939.86,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 564,
+      "payments": 54664.67,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 396,
+      "payments": 51910.83,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "G2012",
+      "description": "Brief communication technology-based service, e.g. virtual check-in, by a physician or other qualified health care professional who can report evaluation and management services, provided to an established patient, not originating from a related e/m servic",
+      "services": 4408,
+      "payments": 50105.07,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 198,
+      "payments": 47247.26,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 240,
+      "payments": 42126.37,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 1131,
+      "payments": 40794.8,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 183,
+      "payments": 39260.43,
+      "avg_markup": 2.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3967870.03,
+    "total_services": 110619,
+    "total_beneficiaries": 58701,
+    "avg_markup_ratio": 3.01
+  }
+}

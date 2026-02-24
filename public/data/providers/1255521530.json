@@ -1,0 +1,123 @@
+{
+  "name": "Randall Hays",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Plano",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 85534.7,
+      "total_services": 920,
+      "total_beneficiaries": 328,
+      "avg_submitted": 199.86,
+      "avg_paid": 84.51
+    },
+    {
+      "year": 2019,
+      "total_payments": 1536555.25,
+      "total_services": 17218,
+      "total_beneficiaries": 743,
+      "avg_submitted": 185.1,
+      "avg_paid": 72.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 1404696.48,
+      "total_services": 17692,
+      "total_beneficiaries": 810,
+      "avg_submitted": 185.12,
+      "avg_paid": 67.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 1508492.56,
+      "total_services": 18171,
+      "total_beneficiaries": 696,
+      "avg_submitted": 206.8,
+      "avg_paid": 82.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 1374833.31,
+      "total_services": 17099,
+      "total_beneficiaries": 703,
+      "avg_submitted": 226.28,
+      "avg_paid": 86.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 843652.41,
+      "total_services": 6697,
+      "total_beneficiaries": 945,
+      "avg_submitted": 225.59,
+      "avg_paid": 93.37
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "64445",
+      "description": "Injection of anesthetic agent, sciatic nerve",
+      "services": 26418,
+      "payments": 4049692.43,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "64447",
+      "description": "Injection of anesthetic agent, thigh nerve",
+      "services": 26335,
+      "payments": 1529218.6,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "76942",
+      "description": "Ultrasonic guidance imaging supervision and interpretation for insertion of needle",
+      "services": 23199,
+      "payments": 1031226.41,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99214",
+      "description": "Established patient outpatient visit, total time 30-39 minutes",
+      "services": 594,
+      "payments": 58415.93,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 731,
+      "payments": 43145.88,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99204",
+      "description": "New patient outpatient visit, total time 45-59 minutes",
+      "services": 174,
+      "payments": 20571.63,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 244,
+      "payments": 17965.53,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 102,
+      "payments": 3528.3,
+      "avg_markup": 2.6
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 6753764.71,
+    "total_services": 77797,
+    "total_beneficiaries": 4225,
+    "avg_markup_ratio": 2.54
+  }
+}

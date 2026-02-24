@@ -1,0 +1,239 @@
+{
+  "name": "John Ashkar",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 281700.85,
+      "total_services": 4416,
+      "total_beneficiaries": 2556,
+      "avg_submitted": 209.8,
+      "avg_paid": 69.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 221550.38,
+      "total_services": 4062,
+      "total_beneficiaries": 2258,
+      "avg_submitted": 195.17,
+      "avg_paid": 67.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 289357.17,
+      "total_services": 4963,
+      "total_beneficiaries": 2579,
+      "avg_submitted": 176.0,
+      "avg_paid": 61.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 294172.28,
+      "total_services": 5269,
+      "total_beneficiaries": 2820,
+      "avg_submitted": 188.3,
+      "avg_paid": 66.93
+    },
+    {
+      "year": 2018,
+      "total_payments": 297481.62,
+      "total_services": 4819,
+      "total_beneficiaries": 2488,
+      "avg_submitted": 190.96,
+      "avg_paid": 72.77
+    },
+    {
+      "year": 2019,
+      "total_payments": 304413.84,
+      "total_services": 5099,
+      "total_beneficiaries": 2718,
+      "avg_submitted": 181.31,
+      "avg_paid": 67.08
+    },
+    {
+      "year": 2020,
+      "total_payments": 236444.18,
+      "total_services": 3700,
+      "total_beneficiaries": 1960,
+      "avg_submitted": 169.79,
+      "avg_paid": 72.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 400921.91,
+      "total_services": 4804,
+      "total_beneficiaries": 2318,
+      "avg_submitted": 201.94,
+      "avg_paid": 85.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 498432.23,
+      "total_services": 6040,
+      "total_beneficiaries": 2408,
+      "avg_submitted": 198.43,
+      "avg_paid": 80.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 501194.66,
+      "total_services": 6171,
+      "total_beneficiaries": 2552,
+      "avg_submitted": 149.26,
+      "avg_paid": 83.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8402,
+      "payments": 782787.61,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6241,
+      "payments": 400166.16,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3027,
+      "payments": 271949.51,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4044,
+      "payments": 261668.93,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "94621",
+      "description": "Pulmonary exercise testing",
+      "services": 1521,
+      "payments": 221691.87,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 816,
+      "payments": 166880.71,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2898,
+      "payments": 161476.23,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2627,
+      "payments": 134995.03,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 2650,
+      "payments": 133896.28,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 712,
+      "payments": 125207.4,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 2648,
+      "payments": 102162.43,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 893,
+      "payments": 83728.49,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 356,
+      "payments": 54418.73,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 375,
+      "payments": 47753.53,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 230,
+      "payments": 42850.73,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 248,
+      "payments": 34964.59,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 693,
+      "payments": 33379.6,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1074,
+      "payments": 29098.84,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 794,
+      "payments": 28559.9,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 142,
+      "payments": 24025.26,
+      "avg_markup": 1.77
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3325669.13,
+    "total_services": 49343,
+    "total_beneficiaries": 24657,
+    "avg_markup_ratio": 2.69
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Bi-Valley Medical Clinic, Inc.",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Sacramento",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 965656.79,
+      "total_services": 5570,
+      "total_beneficiaries": 228,
+      "avg_submitted": 121.39,
+      "avg_paid": 119.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 798603.89,
+      "total_services": 4543,
+      "total_beneficiaries": 183,
+      "avg_submitted": 128.8,
+      "avg_paid": 123.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 772450.6,
+      "total_services": 4431,
+      "total_beneficiaries": 201,
+      "avg_submitted": 156.3,
+      "avg_paid": 133.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 880832.86,
+      "total_services": 4384,
+      "total_beneficiaries": 229,
+      "avg_submitted": 158.35,
+      "avg_paid": 146.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 15361,
+      "payments": 3272402.73,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 3430,
+      "payments": 122319.98,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 112,
+      "payments": 19911.42,
+      "avg_markup": 1.18
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 25,
+      "payments": 2910.0,
+      "avg_markup": 1.07
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3417544.13,
+    "total_services": 18928,
+    "total_beneficiaries": 841,
+    "avg_markup_ratio": 1.06
+  }
+}

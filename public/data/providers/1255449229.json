@@ -1,0 +1,239 @@
+{
+  "name": "John Rigney",
+  "credentials": "MD",
+  "specialty": "Diagnostic Radiology",
+  "city": "Chappaqua",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1433413.45,
+      "total_services": 11111,
+      "total_beneficiaries": 10619,
+      "avg_submitted": 568.51,
+      "avg_paid": 147.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 1449035.41,
+      "total_services": 12516,
+      "total_beneficiaries": 11903,
+      "avg_submitted": 517.85,
+      "avg_paid": 139.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 1530333.95,
+      "total_services": 12359,
+      "total_beneficiaries": 11686,
+      "avg_submitted": 506.29,
+      "avg_paid": 136.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 1550521.67,
+      "total_services": 12243,
+      "total_beneficiaries": 11695,
+      "avg_submitted": 511.15,
+      "avg_paid": 127.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 1952813.64,
+      "total_services": 15799,
+      "total_beneficiaries": 15064,
+      "avg_submitted": 495.07,
+      "avg_paid": 111.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 1821214.27,
+      "total_services": 15211,
+      "total_beneficiaries": 14482,
+      "avg_submitted": 509.63,
+      "avg_paid": 119.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 945168.03,
+      "total_services": 7909,
+      "total_beneficiaries": 7510,
+      "avg_submitted": 461.71,
+      "avg_paid": 123.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 886323.19,
+      "total_services": 6719,
+      "total_beneficiaries": 6359,
+      "avg_submitted": 505.47,
+      "avg_paid": 145.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 718805.02,
+      "total_services": 5329,
+      "total_beneficiaries": 5138,
+      "avg_submitted": 493.06,
+      "avg_paid": 135.16
+    },
+    {
+      "year": 2023,
+      "total_payments": 841310.23,
+      "total_services": 6655,
+      "total_beneficiaries": 6372,
+      "avg_submitted": 489.43,
+      "avg_paid": 130.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 5139,
+      "payments": 1010802.5,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 6563,
+      "payments": 717419.62,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 3059,
+      "payments": 617739.27,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "73721",
+      "description": "MRI scan of leg joint",
+      "services": 2768,
+      "payments": 579308.87,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "76377",
+      "description": "3D radiographic procedure with computerized image postprocessing",
+      "services": 7301,
+      "payments": 477384.63,
+      "avg_markup": 6.52
+    },
+    {
+      "code": "93975",
+      "description": "Ultrasound scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 1929,
+      "payments": 474699.96,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "73718",
+      "description": "MRI scan of leg",
+      "services": 1670,
+      "payments": 466364.52,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 3845,
+      "payments": 405515.85,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 1843,
+      "payments": 398181.16,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "74176",
+      "description": "CT scan of abdomen and pelvis",
+      "services": 2192,
+      "payments": 386095.95,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 2230,
+      "payments": 384304.18,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "74178",
+      "description": "CT scan of abdomen and pelvis before and after contrast",
+      "services": 1168,
+      "payments": 381975.28,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 2177,
+      "payments": 380383.68,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 2505,
+      "payments": 344733.58,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "72141",
+      "description": "MRI scan of upper spinal canal",
+      "services": 1705,
+      "payments": 336318.32,
+      "avg_markup": 4.53
+    },
+    {
+      "code": "72265",
+      "description": "Radiological supervision and interpretation X-ray of lower spinal canal",
+      "services": 3443,
+      "payments": 322442.47,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "73221",
+      "description": "MRI scan of arm joint",
+      "services": 1403,
+      "payments": 292651.78,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 1797,
+      "payments": 285651.19,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 1795,
+      "payments": 280208.29,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "93976",
+      "description": "Ultrasound limited scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 2028,
+      "payments": 271001.09,
+      "avg_markup": 3.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 13128938.86,
+    "total_services": 105851,
+    "total_beneficiaries": 100828,
+    "avg_markup_ratio": 3.69
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "name": "City Of Portland",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Portland",
+  "state": "ME",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1023467.56,
+      "total_services": 6457,
+      "total_beneficiaries": 3890,
+      "avg_submitted": 742.0,
+      "avg_paid": 255.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 994530.61,
+      "total_services": 6231,
+      "total_beneficiaries": 4015,
+      "avg_submitted": 932.07,
+      "avg_paid": 274.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 923999.01,
+      "total_services": 5784,
+      "total_beneficiaries": 3800,
+      "avg_submitted": 930.18,
+      "avg_paid": 271.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 891238.4,
+      "total_services": 5411,
+      "total_beneficiaries": 3565,
+      "avg_submitted": 941.76,
+      "avg_paid": 277.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 774647.36,
+      "total_services": 4765,
+      "total_beneficiaries": 3163,
+      "avg_submitted": 846.51,
+      "avg_paid": 281.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 857761.27,
+      "total_services": 5233,
+      "total_beneficiaries": 3386,
+      "avg_submitted": 782.5,
+      "avg_paid": 287.79
+    },
+    {
+      "year": 2020,
+      "total_payments": 658951.39,
+      "total_services": 3994,
+      "total_beneficiaries": 2626,
+      "avg_submitted": 604.49,
+      "avg_paid": 218.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 728967.97,
+      "total_services": 4423,
+      "total_beneficiaries": 2853,
+      "avg_submitted": 589.84,
+      "avg_paid": 216.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 779656.41,
+      "total_services": 4549,
+      "total_beneficiaries": 2889,
+      "avg_submitted": 589.77,
+      "avg_paid": 226.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 719958.74,
+      "total_services": 3778,
+      "total_beneficiaries": 2325,
+      "avg_submitted": 779.83,
+      "avg_paid": 333.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 14998,
+      "payments": 5158260.77,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 10207,
+      "payments": 2983432.46,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 25284,
+      "payments": 149480.74,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 119,
+      "payments": 58977.63,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 17,
+      "payments": 3027.1,
+      "avg_markup": 2.58
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 8353178.69,
+    "total_services": 50625,
+    "total_beneficiaries": 32512,
+    "avg_markup_ratio": 2.97
+  }
+}

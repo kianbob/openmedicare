@@ -1,0 +1,232 @@
+{
+  "name": "Scott Tannenbaum",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Sunrise",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 601621.08,
+      "total_services": 8796,
+      "total_beneficiaries": 2980,
+      "avg_submitted": 194.08,
+      "avg_paid": 66.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 636048.99,
+      "total_services": 9326,
+      "total_beneficiaries": 3045,
+      "avg_submitted": 210.25,
+      "avg_paid": 71.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 695354.12,
+      "total_services": 10177,
+      "total_beneficiaries": 3493,
+      "avg_submitted": 230.62,
+      "avg_paid": 77.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 823810.2,
+      "total_services": 12224,
+      "total_beneficiaries": 4306,
+      "avg_submitted": 221.54,
+      "avg_paid": 75.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 733382.54,
+      "total_services": 11033,
+      "total_beneficiaries": 3570,
+      "avg_submitted": 239.47,
+      "avg_paid": 81.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 388276.72,
+      "total_services": 6053,
+      "total_beneficiaries": 2132,
+      "avg_submitted": 190.31,
+      "avg_paid": 69.36
+    },
+    {
+      "year": 2020,
+      "total_payments": 198905.84,
+      "total_services": 3141,
+      "total_beneficiaries": 1015,
+      "avg_submitted": 180.31,
+      "avg_paid": 62.18
+    },
+    {
+      "year": 2021,
+      "total_payments": 227560.84,
+      "total_services": 3524,
+      "total_beneficiaries": 1106,
+      "avg_submitted": 189.21,
+      "avg_paid": 69.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 231695.59,
+      "total_services": 3694,
+      "total_beneficiaries": 1260,
+      "avg_submitted": 189.23,
+      "avg_paid": 69.79
+    },
+    {
+      "year": 2023,
+      "total_payments": 360465.31,
+      "total_services": 5272,
+      "total_beneficiaries": 1862,
+      "avg_submitted": 189.23,
+      "avg_paid": 70.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 48358,
+      "payments": 2844917.58,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4912,
+      "payments": 790421.72,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5167,
+      "payments": 432911.17,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 5647,
+      "payments": 334719.36,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3101,
+      "payments": 166504.17,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1294,
+      "payments": 142229.87,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1954,
+      "payments": 64669.64,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1386,
+      "payments": 59717.85,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 305,
+      "payments": 24150.33,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 103,
+      "payments": 12944.9,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "G0434",
+      "description": "Drug screen, other than chromatographic; any number of drug classes, by clia waived test or moderate complexity test, per patient encounter",
+      "services": 360,
+      "payments": 6989.5,
+      "avg_markup": 8.24
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 42,
+      "payments": 6453.93,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "80305",
+      "description": "Testing for presence of drug",
+      "services": 373,
+      "payments": 4861.67,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 66,
+      "payments": 2136.65,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 12,
+      "payments": 960.75,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "G0477",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures, (eg immunoassay) capable of being read by direct optical observation only (eg, dipsticks, cups, cards, cartridges), includes sample validation when performed, per",
+      "services": 60,
+      "payments": 873.6,
+      "avg_markup": 10.99
+    },
+    {
+      "code": "97110",
+      "description": "Therapeutic exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 44,
+      "payments": 825.72,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "97112",
+      "description": "Therapeutic procedure to re-educate brain-to-nerve-to-muscle function, each 15 minutes",
+      "services": 33,
+      "payments": 632.81,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "G2012",
+      "description": "Brief communication technology-based service, e.g. virtual check-in, by a physician or other qualified health care professional who can report evaluation and management services, provided to an established patient, not originating from a related e/m servic",
+      "services": 23,
+      "payments": 200.01,
+      "avg_markup": 11.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4897121.23,
+    "total_services": 73240,
+    "total_beneficiaries": 24769,
+    "avg_markup_ratio": 2.82
+  }
+}

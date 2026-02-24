@@ -1,0 +1,127 @@
+{
+  "name": "Robbies Ambulance Service Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Virginia Beach",
+  "state": "VA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 36523.43,
+      "total_services": 436,
+      "total_beneficiaries": 50,
+      "avg_submitted": 287.33,
+      "avg_paid": 145.28
+    },
+    {
+      "year": 2015,
+      "total_payments": 485320.68,
+      "total_services": 5748,
+      "total_beneficiaries": 417,
+      "avg_submitted": 315.52,
+      "avg_paid": 154.87
+    },
+    {
+      "year": 2016,
+      "total_payments": 513143.34,
+      "total_services": 6433,
+      "total_beneficiaries": 435,
+      "avg_submitted": 287.33,
+      "avg_paid": 147.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 516210.25,
+      "total_services": 6385,
+      "total_beneficiaries": 278,
+      "avg_submitted": 287.4,
+      "avg_paid": 148.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 358447.28,
+      "total_services": 4481,
+      "total_beneficiaries": 190,
+      "avg_submitted": 287.33,
+      "avg_paid": 148.27
+    },
+    {
+      "year": 2019,
+      "total_payments": 288854.8,
+      "total_services": 4004,
+      "total_beneficiaries": 132,
+      "avg_submitted": 206.31,
+      "avg_paid": 72.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 439680.14,
+      "total_services": 5669,
+      "total_beneficiaries": 810,
+      "avg_submitted": 297.02,
+      "avg_paid": 150.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 518183.64,
+      "total_services": 5667,
+      "total_beneficiaries": 2610,
+      "avg_submitted": 220.05,
+      "avg_paid": 154.65
+    },
+    {
+      "year": 2022,
+      "total_payments": 423581.88,
+      "total_services": 4745,
+      "total_beneficiaries": 1692,
+      "avg_submitted": 241.2,
+      "avg_paid": 158.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 361832.51,
+      "total_services": 4016,
+      "total_beneficiaries": 871,
+      "avg_submitted": 252.7,
+      "avg_paid": 170.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 22715,
+      "payments": 3541737.34,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 914,
+      "payments": 275811.95,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 23943,
+      "payments": 122127.12,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "A0999",
+      "description": "Unlisted ambulance service",
+      "services": 12,
+      "payments": 2101.56,
+      "avg_markup": 2.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3941777.97,
+    "total_services": 47584,
+    "total_beneficiaries": 7485,
+    "avg_markup_ratio": 2.25
+  }
+}

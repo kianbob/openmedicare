@@ -1,0 +1,239 @@
+{
+  "name": "James Wu",
+  "credentials": "M.D.",
+  "specialty": "Thoracic Surgery",
+  "city": "Pasadena",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 83450.67,
+      "total_services": 530,
+      "total_beneficiaries": 190,
+      "avg_submitted": 1089.83,
+      "avg_paid": 194.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 109862.84,
+      "total_services": 777,
+      "total_beneficiaries": 261,
+      "avg_submitted": 1247.65,
+      "avg_paid": 191.57
+    },
+    {
+      "year": 2016,
+      "total_payments": 241841.68,
+      "total_services": 1560,
+      "total_beneficiaries": 422,
+      "avg_submitted": 1635.84,
+      "avg_paid": 221.22
+    },
+    {
+      "year": 2017,
+      "total_payments": 277868.85,
+      "total_services": 2375,
+      "total_beneficiaries": 422,
+      "avg_submitted": 1018.13,
+      "avg_paid": 197.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 356578.4,
+      "total_services": 2882,
+      "total_beneficiaries": 451,
+      "avg_submitted": 1709.93,
+      "avg_paid": 298.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 307256.86,
+      "total_services": 2679,
+      "total_beneficiaries": 464,
+      "avg_submitted": 1397.62,
+      "avg_paid": 267.71
+    },
+    {
+      "year": 2020,
+      "total_payments": 370565.14,
+      "total_services": 3725,
+      "total_beneficiaries": 475,
+      "avg_submitted": 1175.84,
+      "avg_paid": 193.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 534446.97,
+      "total_services": 5867,
+      "total_beneficiaries": 462,
+      "avg_submitted": 1257.73,
+      "avg_paid": 178.62
+    },
+    {
+      "year": 2022,
+      "total_payments": 382823.07,
+      "total_services": 4438,
+      "total_beneficiaries": 303,
+      "avg_submitted": 1241.43,
+      "avg_paid": 165.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 448482.63,
+      "total_services": 4846,
+      "total_beneficiaries": 298,
+      "avg_submitted": 539.95,
+      "avg_paid": 96.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 7343,
+      "payments": 1361453.34,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19605,
+      "payments": 1218522.25,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "32653",
+      "description": "Removal of foreign body from lining of chest cavity using an endoscope",
+      "services": 255,
+      "payments": 155287.06,
+      "avg_markup": 5.96
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 722,
+      "payments": 120825.85,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "32310",
+      "description": "Removal of chest cavity lining",
+      "services": 105,
+      "payments": 42698.58,
+      "avg_markup": 7.2
+    },
+    {
+      "code": "32652",
+      "description": "Complete removal of inside lining of chest cavity and lung using an endoscope",
+      "services": 25,
+      "payments": 33088.02,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "31600",
+      "description": "Opening of windpipe through neck for insertion of breathing tube",
+      "services": 102,
+      "payments": 27347.99,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "71260",
+      "description": "CT scan chest with contrast",
+      "services": 511,
+      "payments": 26074.1,
+      "avg_markup": 15.47
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 155,
+      "payments": 18799.01,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "32666",
+      "description": "Partial removal of tissue of one lung using an endoscope",
+      "services": 51,
+      "payments": 18141.07,
+      "avg_markup": 7.6
+    },
+    {
+      "code": "31622",
+      "description": "Diagnostic examination of lung airways using an endoscope",
+      "services": 286,
+      "payments": 17190.01,
+      "avg_markup": 10.42
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 77,
+      "payments": 13276.91,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "32110",
+      "description": "Repair of traumatic tear in lung and/or control of bleeding",
+      "services": 16,
+      "payments": 11105.84,
+      "avg_markup": 6.87
+    },
+    {
+      "code": "32551",
+      "description": "Removal of fluid from between lung and chest cavity, open procedure",
+      "services": 88,
+      "payments": 9943.53,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "32550",
+      "description": "Insertion of permanent catheter for drainage of lung fluid",
+      "services": 51,
+      "payments": 9304.08,
+      "avg_markup": 6.45
+    },
+    {
+      "code": "33533",
+      "description": "Heart artery bypass to repair one artery",
+      "services": 36,
+      "payments": 8870.57,
+      "avg_markup": 15.65
+    },
+    {
+      "code": "32552",
+      "description": "Removal of tunneled catheter in lung lining",
+      "services": 69,
+      "payments": 6461.59,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 87,
+      "payments": 5180.25,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "32650",
+      "description": "Adhesion of the lung linings using an endoscope",
+      "services": 13,
+      "payments": 3798.87,
+      "avg_markup": 6.79
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 25,
+      "payments": 2761.75,
+      "avg_markup": 2.32
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3113177.11,
+    "total_services": 29679,
+    "total_beneficiaries": 3748,
+    "avg_markup_ratio": 4.23
+  }
+}

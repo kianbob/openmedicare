@@ -1,0 +1,64 @@
+{
+  "name": "Blackstone Medical Services Llc",
+  "credentials": "",
+  "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+  "city": "Burtonsville",
+  "state": "MD",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 981833.28,
+      "total_services": 9112,
+      "total_beneficiaries": 9106,
+      "avg_submitted": 688.89,
+      "avg_paid": 399.91
+    },
+    {
+      "year": 2022,
+      "total_payments": 1875984.95,
+      "total_services": 12629,
+      "total_beneficiaries": 12621,
+      "avg_submitted": 615.13,
+      "avg_paid": 368.22
+    },
+    {
+      "year": 2023,
+      "total_payments": 2754207.51,
+      "total_services": 20492,
+      "total_beneficiaries": 20452,
+      "avg_submitted": 764.45,
+      "avg_paid": 461.96
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "95800",
+      "description": "Sleep study including heart rate, breathing, and sleep time",
+      "services": 30552,
+      "payments": 4145001.16,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 11116,
+      "payments": 1017543.37,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour ekg up to 30 days",
+      "services": 565,
+      "payments": 449481.21,
+      "avg_markup": 1.44
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 5612025.74,
+    "total_services": 42233,
+    "total_beneficiaries": 42179,
+    "avg_markup_ratio": 2.56
+  }
+}

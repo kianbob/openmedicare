@@ -1,0 +1,239 @@
+{
+  "name": "Mark Rasak",
+  "credentials": "DO",
+  "specialty": "Cardiology",
+  "city": "Livonia",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 444879.81,
+      "total_services": 7401,
+      "total_beneficiaries": 3475,
+      "avg_submitted": 142.57,
+      "avg_paid": 69.6
+    },
+    {
+      "year": 2015,
+      "total_payments": 362998.79,
+      "total_services": 6384,
+      "total_beneficiaries": 2965,
+      "avg_submitted": 140.57,
+      "avg_paid": 69.03
+    },
+    {
+      "year": 2016,
+      "total_payments": 253215.63,
+      "total_services": 4339,
+      "total_beneficiaries": 2318,
+      "avg_submitted": 129.92,
+      "avg_paid": 67.41
+    },
+    {
+      "year": 2017,
+      "total_payments": 487244.41,
+      "total_services": 6888,
+      "total_beneficiaries": 4425,
+      "avg_submitted": 140.65,
+      "avg_paid": 69.02
+    },
+    {
+      "year": 2018,
+      "total_payments": 369937.51,
+      "total_services": 5629,
+      "total_beneficiaries": 3497,
+      "avg_submitted": 134.57,
+      "avg_paid": 61.96
+    },
+    {
+      "year": 2019,
+      "total_payments": 341892.68,
+      "total_services": 4837,
+      "total_beneficiaries": 3138,
+      "avg_submitted": 136.77,
+      "avg_paid": 61.64
+    },
+    {
+      "year": 2020,
+      "total_payments": 239630.86,
+      "total_services": 3094,
+      "total_beneficiaries": 2006,
+      "avg_submitted": 153.5,
+      "avg_paid": 71.76
+    },
+    {
+      "year": 2021,
+      "total_payments": 271539.52,
+      "total_services": 3071,
+      "total_beneficiaries": 2169,
+      "avg_submitted": 156.85,
+      "avg_paid": 69.62
+    },
+    {
+      "year": 2022,
+      "total_payments": 275924.69,
+      "total_services": 3059,
+      "total_beneficiaries": 1922,
+      "avg_submitted": 162.49,
+      "avg_paid": 69.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 229568.11,
+      "total_services": 2791,
+      "total_beneficiaries": 1898,
+      "avg_submitted": 141.32,
+      "avg_paid": 61.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13463,
+      "payments": 1050610.97,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 2566,
+      "payments": 380705.94,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5712,
+      "payments": 327575.97,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2056,
+      "payments": 311571.15,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2246,
+      "payments": 292101.9,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 859,
+      "payments": 158690.8,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 900,
+      "payments": 95918.4,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "93299",
+      "description": "Remote evaluations of implantable heart recorder system including transmissions, technician review, support, and distribution of results up to 30 days",
+      "services": 795,
+      "payments": 85893.33,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 453,
+      "payments": 73622.01,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4384,
+      "payments": 50449.58,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 338,
+      "payments": 39542.3,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "93320",
+      "description": "Doppler ultrasound study of heart blood flow, valves, and chambers",
+      "services": 857,
+      "payments": 36103.02,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 198,
+      "payments": 29865.28,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 178,
+      "payments": 26444.89,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 136,
+      "payments": 23974.58,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 415,
+      "payments": 23138.74,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "93923",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 232,
+      "payments": 22293.41,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 1319,
+      "payments": 18717.45,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "93325",
+      "description": "Doppler ultrasound study of color-directed heart blood flow, rate, and valve function",
+      "services": 857,
+      "payments": 16945.44,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 718,
+      "payments": 16461.29,
+      "avg_markup": 1.13
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3276832.01,
+    "total_services": 47493,
+    "total_beneficiaries": 27813,
+    "avg_markup_ratio": 1.99
+  }
+}

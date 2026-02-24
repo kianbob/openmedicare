@@ -1,0 +1,239 @@
+{
+  "name": "Young Kwok",
+  "credentials": "M.D.",
+  "specialty": "Radiation Oncology",
+  "city": "Baltimore",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 80030.77,
+      "total_services": 1304,
+      "total_beneficiaries": 778,
+      "avg_submitted": 442.98,
+      "avg_paid": 110.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 123548.33,
+      "total_services": 1332,
+      "total_beneficiaries": 919,
+      "avg_submitted": 517.11,
+      "avg_paid": 129.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 563001.0,
+      "total_services": 2830,
+      "total_beneficiaries": 1138,
+      "avg_submitted": 1114.82,
+      "avg_paid": 219.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 621483.64,
+      "total_services": 3310,
+      "total_beneficiaries": 1347,
+      "avg_submitted": 1250.22,
+      "avg_paid": 263.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 692134.86,
+      "total_services": 3778,
+      "total_beneficiaries": 1441,
+      "avg_submitted": 1090.33,
+      "avg_paid": 254.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 828517.38,
+      "total_services": 4068,
+      "total_beneficiaries": 1592,
+      "avg_submitted": 1280.88,
+      "avg_paid": 312.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 863016.53,
+      "total_services": 4195,
+      "total_beneficiaries": 1436,
+      "avg_submitted": 1126.21,
+      "avg_paid": 277.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 1009167.69,
+      "total_services": 4879,
+      "total_beneficiaries": 1722,
+      "avg_submitted": 1247.98,
+      "avg_paid": 307.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 851979.37,
+      "total_services": 4331,
+      "total_beneficiaries": 1638,
+      "avg_submitted": 1249.84,
+      "avg_paid": 294.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 998056.56,
+      "total_services": 4744,
+      "total_beneficiaries": 1962,
+      "avg_submitted": 1227.54,
+      "avg_paid": 296.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 6875,
+      "payments": 2196339.04,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 586,
+      "payments": 935495.68,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "77523",
+      "description": "Proton treatment delivery, intermediate",
+      "services": 675,
+      "payments": 583572.1,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 3356,
+      "payments": 537789.59,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 779,
+      "payments": 315629.57,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10 mev",
+      "services": 1207,
+      "payments": 274109.9,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 3213,
+      "payments": 230613.19,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19mev",
+      "services": 843,
+      "payments": 190054.13,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 5656,
+      "payments": 170000.52,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 3662,
+      "payments": 159968.51,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "77373",
+      "description": "Stereotactic body radiation therapy 1 or more lesions using imaging guidance",
+      "services": 134,
+      "payments": 132333.7,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 840,
+      "payments": 117948.37,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 321,
+      "payments": 110806.0,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 1099,
+      "payments": 110787.62,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 745,
+      "payments": 99335.64,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "77295",
+      "description": "Management of radiation therapy, 3D",
+      "services": 313,
+      "payments": 96804.05,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 1114,
+      "payments": 58836.12,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "77778",
+      "description": "Application of radiation source, complex",
+      "services": 96,
+      "payments": 45833.62,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "77318",
+      "description": "Radiation therapy plan",
+      "services": 113,
+      "payments": 41253.7,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 206,
+      "payments": 35361.26,
+      "avg_markup": 4.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6630936.13,
+    "total_services": 34771,
+    "total_beneficiaries": 13973,
+    "avg_markup_ratio": 4.12
+  }
+}

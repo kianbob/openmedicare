@@ -1,0 +1,95 @@
+{
+  "name": "Town Of Gilbert, Arizona",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Gilbert",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 10607.38,
+      "total_services": 73,
+      "total_beneficiaries": 66,
+      "avg_submitted": 459.78,
+      "avg_paid": 170.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 8055.03,
+      "total_services": 54,
+      "total_beneficiaries": 49,
+      "avg_submitted": 464.95,
+      "avg_paid": 174.08
+    },
+    {
+      "year": 2020,
+      "total_payments": 98802.12,
+      "total_services": 574,
+      "total_beneficiaries": 500,
+      "avg_submitted": 664.11,
+      "avg_paid": 283.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 431142.02,
+      "total_services": 2492,
+      "total_beneficiaries": 2017,
+      "avg_submitted": 664.16,
+      "avg_paid": 284.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 880543.66,
+      "total_services": 4995,
+      "total_beneficiaries": 3891,
+      "avg_submitted": 703.71,
+      "avg_paid": 294.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 973495.64,
+      "total_services": 5027,
+      "total_beneficiaries": 3808,
+      "avg_submitted": 755.93,
+      "avg_paid": 319.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 4843,
+      "payments": 1775456.32,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1570,
+      "payments": 486744.12,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 187,
+      "payments": 97768.88,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 6630,
+      "payments": 42763.2,
+      "avg_markup": 2.83
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 2402645.84,
+    "total_services": 13215,
+    "total_beneficiaries": 10331,
+    "avg_markup_ratio": 2.68
+  }
+}

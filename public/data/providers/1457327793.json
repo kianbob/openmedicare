@@ -1,0 +1,57 @@
+{
+  "name": "Sheila Carter",
+  "credentials": "FNP-BC, CWON, CFCN",
+  "specialty": "Nurse Practitioner",
+  "city": "Denmark",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 483169.84,
+      "total_services": 954,
+      "total_beneficiaries": 219,
+      "avg_submitted": 676.96,
+      "avg_paid": 523.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 1217071.84,
+      "total_services": 2144,
+      "total_beneficiaries": 438,
+      "avg_submitted": 708.94,
+      "avg_paid": 555.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 698237.27,
+      "total_services": 1547,
+      "total_beneficiaries": 442,
+      "avg_submitted": 757.68,
+      "avg_paid": 425.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "Q0508",
+      "description": "Miscellaneous supply or accessory for use with an implanted ventricular assist device",
+      "services": 3687,
+      "payments": 1932890.09,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "Q0509",
+      "description": "Miscellaneous supply or accessory for use with any implanted ventricular assist device for which payment was not made under medicare part a",
+      "services": 958,
+      "payments": 465588.86,
+      "avg_markup": 1.39
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2398478.95,
+    "total_services": 4645,
+    "total_beneficiaries": 1099,
+    "avg_markup_ratio": 1.44
+  }
+}

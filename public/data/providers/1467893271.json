@@ -1,0 +1,111 @@
+{
+  "name": "American Ems",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Douglasville",
+  "state": "GA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 271384.78,
+      "total_services": 3312,
+      "total_beneficiaries": 106,
+      "avg_submitted": 148.81,
+      "avg_paid": 81.94
+    },
+    {
+      "year": 2015,
+      "total_payments": 295031.17,
+      "total_services": 3580,
+      "total_beneficiaries": 86,
+      "avg_submitted": 155.5,
+      "avg_paid": 82.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 346542.19,
+      "total_services": 4221,
+      "total_beneficiaries": 106,
+      "avg_submitted": 155.5,
+      "avg_paid": 82.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 395740.04,
+      "total_services": 4810,
+      "total_beneficiaries": 117,
+      "avg_submitted": 155.5,
+      "avg_paid": 82.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 429845.3,
+      "total_services": 5240,
+      "total_beneficiaries": 605,
+      "avg_submitted": 240.26,
+      "avg_paid": 162.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 266217.7,
+      "total_services": 3479,
+      "total_beneficiaries": 823,
+      "avg_submitted": 871.55,
+      "avg_paid": 161.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 228842.44,
+      "total_services": 3094,
+      "total_beneficiaries": 71,
+      "avg_submitted": 754.0,
+      "avg_paid": 74.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 170539.72,
+      "total_services": 2306,
+      "total_beneficiaries": 51,
+      "avg_submitted": 754.0,
+      "avg_paid": 74.14
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 14940,
+      "payments": 2309018.56,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 15031,
+      "payments": 77436.04,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 39,
+      "payments": 10893.1,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 32,
+      "payments": 6795.65,
+      "avg_markup": 3.61
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2404143.34,
+    "total_services": 30042,
+    "total_beneficiaries": 1965,
+    "avg_markup_ratio": 3.9
+  }
+}

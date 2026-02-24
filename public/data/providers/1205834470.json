@@ -1,0 +1,204 @@
+{
+  "name": "Manaf Madoun",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Grosse Pointe",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 423243.94,
+      "total_services": 5355,
+      "total_beneficiaries": 2375,
+      "avg_submitted": 144.61,
+      "avg_paid": 79.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 421014.65,
+      "total_services": 5767,
+      "total_beneficiaries": 2602,
+      "avg_submitted": 144.18,
+      "avg_paid": 77.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 424652.33,
+      "total_services": 5886,
+      "total_beneficiaries": 2738,
+      "avg_submitted": 145.89,
+      "avg_paid": 76.17
+    },
+    {
+      "year": 2017,
+      "total_payments": 428952.66,
+      "total_services": 6119,
+      "total_beneficiaries": 2927,
+      "avg_submitted": 150.81,
+      "avg_paid": 81.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 378136.99,
+      "total_services": 5177,
+      "total_beneficiaries": 2654,
+      "avg_submitted": 148.09,
+      "avg_paid": 84.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 365419.36,
+      "total_services": 4916,
+      "total_beneficiaries": 2463,
+      "avg_submitted": 147.27,
+      "avg_paid": 84.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 314133.82,
+      "total_services": 4313,
+      "total_beneficiaries": 2086,
+      "avg_submitted": 146.32,
+      "avg_paid": 84.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 249253.44,
+      "total_services": 3166,
+      "total_beneficiaries": 1748,
+      "avg_submitted": 146.38,
+      "avg_paid": 87.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 234211.9,
+      "total_services": 3084,
+      "total_beneficiaries": 1703,
+      "avg_submitted": 156.5,
+      "avg_paid": 87.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 232959.91,
+      "total_services": 3080,
+      "total_beneficiaries": 1460,
+      "avg_submitted": 134.29,
+      "avg_paid": 78.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 26793,
+      "payments": 1543060.58,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 7190,
+      "payments": 753684.59,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 6206,
+      "payments": 522061.01,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1965,
+      "payments": 306610.09,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 1142,
+      "payments": 117237.61,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 637,
+      "payments": 85903.23,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 628,
+      "payments": 36161.0,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 508,
+      "payments": 28742.04,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 853,
+      "payments": 26470.16,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 399,
+      "payments": 22941.21,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 170,
+      "payments": 13321.06,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 127,
+      "payments": 10603.62,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 40,
+      "payments": 2436.0,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 194,
+      "payments": 1938.14,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care, typically 30 minutes",
+      "services": 11,
+      "payments": 808.66,
+      "avg_markup": 2.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3471979.0,
+    "total_services": 46863,
+    "total_beneficiaries": 22756,
+    "avg_markup_ratio": 1.64
+  }
+}

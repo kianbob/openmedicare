@@ -1,0 +1,239 @@
+{
+  "name": "Rajendra Shroff",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Centralia",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 436207.57,
+      "total_services": 9318,
+      "total_beneficiaries": 3997,
+      "avg_submitted": 133.24,
+      "avg_paid": 53.63
+    },
+    {
+      "year": 2015,
+      "total_payments": 395299.09,
+      "total_services": 8811,
+      "total_beneficiaries": 3803,
+      "avg_submitted": 141.2,
+      "avg_paid": 60.25
+    },
+    {
+      "year": 2016,
+      "total_payments": 370103.81,
+      "total_services": 8324,
+      "total_beneficiaries": 3902,
+      "avg_submitted": 138.98,
+      "avg_paid": 59.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 373710.66,
+      "total_services": 8419,
+      "total_beneficiaries": 3782,
+      "avg_submitted": 140.03,
+      "avg_paid": 58.49
+    },
+    {
+      "year": 2018,
+      "total_payments": 335985.48,
+      "total_services": 7616,
+      "total_beneficiaries": 3372,
+      "avg_submitted": 124.17,
+      "avg_paid": 49.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 326532.25,
+      "total_services": 7120,
+      "total_beneficiaries": 2985,
+      "avg_submitted": 130.04,
+      "avg_paid": 53.24
+    },
+    {
+      "year": 2020,
+      "total_payments": 311746.85,
+      "total_services": 6325,
+      "total_beneficiaries": 2687,
+      "avg_submitted": 129.15,
+      "avg_paid": 57.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 325429.09,
+      "total_services": 6121,
+      "total_beneficiaries": 2460,
+      "avg_submitted": 140.08,
+      "avg_paid": 59.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 291492.6,
+      "total_services": 5380,
+      "total_beneficiaries": 2150,
+      "avg_submitted": 148.21,
+      "avg_paid": 65.71
+    },
+    {
+      "year": 2023,
+      "total_payments": 263489.26,
+      "total_services": 4908,
+      "total_beneficiaries": 2025,
+      "avg_submitted": 140.75,
+      "avg_paid": 66.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 19357,
+      "payments": 997394.68,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11245,
+      "payments": 628338.35,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3175,
+      "payments": 261350.4,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3525,
+      "payments": 258748.64,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1640,
+      "payments": 250209.17,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 6692,
+      "payments": 204293.92,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1723,
+      "payments": 180872.41,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1590,
+      "payments": 82246.13,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 13287,
+      "payments": 81385.68,
+      "avg_markup": 8.12
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 631,
+      "payments": 65797.2,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 929,
+      "payments": 51685.82,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 350,
+      "payments": 48669.06,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1410,
+      "payments": 42288.2,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 254,
+      "payments": 35177.55,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 880,
+      "payments": 34442.57,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "93227",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 1887,
+      "payments": 34339.2,
+      "avg_markup": 7.92
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 362,
+      "payments": 29429.51,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 420,
+      "payments": 23414.78,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 294,
+      "payments": 19641.47,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 145,
+      "payments": 16433.56,
+      "avg_markup": 1.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3429996.66,
+    "total_services": 72342,
+    "total_beneficiaries": 31163,
+    "avg_markup_ratio": 2.15
+  }
+}

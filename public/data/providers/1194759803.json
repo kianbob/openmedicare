@@ -1,0 +1,239 @@
+{
+  "name": "Stephen Corday",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1515192.73,
+      "total_services": 42576,
+      "total_beneficiaries": 19628,
+      "avg_submitted": 327.99,
+      "avg_paid": 61.0
+    },
+    {
+      "year": 2015,
+      "total_payments": 1242023.09,
+      "total_services": 36373,
+      "total_beneficiaries": 17386,
+      "avg_submitted": 329.01,
+      "avg_paid": 60.18
+    },
+    {
+      "year": 2016,
+      "total_payments": 1122727.95,
+      "total_services": 35579,
+      "total_beneficiaries": 16850,
+      "avg_submitted": 330.98,
+      "avg_paid": 61.11
+    },
+    {
+      "year": 2017,
+      "total_payments": 1064174.23,
+      "total_services": 32714,
+      "total_beneficiaries": 16762,
+      "avg_submitted": 326.32,
+      "avg_paid": 61.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 953333.15,
+      "total_services": 29288,
+      "total_beneficiaries": 15288,
+      "avg_submitted": 323.1,
+      "avg_paid": 69.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 1011734.3,
+      "total_services": 33008,
+      "total_beneficiaries": 16515,
+      "avg_submitted": 313.2,
+      "avg_paid": 63.75
+    },
+    {
+      "year": 2020,
+      "total_payments": 915535.49,
+      "total_services": 28237,
+      "total_beneficiaries": 15116,
+      "avg_submitted": 275.98,
+      "avg_paid": 67.87
+    },
+    {
+      "year": 2021,
+      "total_payments": 1126491.79,
+      "total_services": 30728,
+      "total_beneficiaries": 16036,
+      "avg_submitted": 271.37,
+      "avg_paid": 62.79
+    },
+    {
+      "year": 2022,
+      "total_payments": 1386092.73,
+      "total_services": 37121,
+      "total_beneficiaries": 16789,
+      "avg_submitted": 325.59,
+      "avg_paid": 79.98
+    },
+    {
+      "year": 2023,
+      "total_payments": 1287622.71,
+      "total_services": 36947,
+      "total_beneficiaries": 16931,
+      "avg_submitted": 329.13,
+      "avg_paid": 80.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 1600,
+      "payments": 2008590.17,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12803,
+      "payments": 1209080.79,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4351,
+      "payments": 768924.01,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 10361,
+      "payments": 647699.56,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 12969,
+      "payments": 546310.65,
+      "avg_markup": 6.59
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 1596,
+      "payments": 510587.09,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3087,
+      "payments": 418048.69,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1988,
+      "payments": 330801.71,
+      "avg_markup": 5.95
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 5225,
+      "payments": 288267.37,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour ekg up to 30 days",
+      "services": 300,
+      "payments": 248262.09,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 12067,
+      "payments": 234267.71,
+      "avg_markup": 7.32
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 17868,
+      "payments": 230761.82,
+      "avg_markup": 12.48
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 19668,
+      "payments": 223048.16,
+      "avg_markup": 9.46
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 13807,
+      "payments": 205543.46,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 21605,
+      "payments": 196799.22,
+      "avg_markup": 7.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 861,
+      "payments": 147337.55,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 6359,
+      "payments": 135930.32,
+      "avg_markup": 6.81
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 11057,
+      "payments": 126364.11,
+      "avg_markup": 5.85
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 12094,
+      "payments": 125903.78,
+      "avg_markup": 10.73
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3857,
+      "payments": 116343.68,
+      "avg_markup": 2.32
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 11624928.16,
+    "total_services": 342571,
+    "total_beneficiaries": 167301,
+    "avg_markup_ratio": 5.33
+  }
+}

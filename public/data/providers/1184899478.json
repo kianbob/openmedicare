@@ -1,0 +1,116 @@
+{
+  "name": "Medics First Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Springfield",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 969444.22,
+      "total_services": 6759,
+      "total_beneficiaries": 5147,
+      "avg_submitted": 642.29,
+      "avg_paid": 230.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 929045.01,
+      "total_services": 6327,
+      "total_beneficiaries": 4827,
+      "avg_submitted": 692.73,
+      "avg_paid": 277.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 967827.97,
+      "total_services": 6470,
+      "total_beneficiaries": 4720,
+      "avg_submitted": 693.51,
+      "avg_paid": 277.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 1054046.4,
+      "total_services": 7053,
+      "total_beneficiaries": 4943,
+      "avg_submitted": 646.93,
+      "avg_paid": 238.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 1070633.38,
+      "total_services": 6943,
+      "total_beneficiaries": 4895,
+      "avg_submitted": 680.87,
+      "avg_paid": 246.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 606147.86,
+      "total_services": 3851,
+      "total_beneficiaries": 2961,
+      "avg_submitted": 699.41,
+      "avg_paid": 248.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 11942,
+      "payments": 3764442.54,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5267,
+      "payments": 1400266.17,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 1275,
+      "payments": 209562.12,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18643,
+      "payments": 107119.28,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 190,
+      "payments": 86287.45,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 36,
+      "payments": 19399.81,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 50,
+      "payments": 10067.45,
+      "avg_markup": 3.77
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 5597144.83,
+    "total_services": 37403,
+    "total_beneficiaries": 27493,
+    "avg_markup_ratio": 2.71
+  }
+}

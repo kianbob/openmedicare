@@ -1,0 +1,57 @@
+{
+  "name": "Vali Medical, Llc",
+  "credentials": "",
+  "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+  "city": "Royal Oak",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 256121.61,
+      "total_services": 3045,
+      "total_beneficiaries": 961,
+      "avg_submitted": 143.32,
+      "avg_paid": 70.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 1667847.95,
+      "total_services": 19508,
+      "total_beneficiaries": 5843,
+      "avg_submitted": 143.32,
+      "avg_paid": 72.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 459885.38,
+      "total_services": 11297,
+      "total_beneficiaries": 5935,
+      "avg_submitted": 143.54,
+      "avg_paid": 35.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 21655,
+      "payments": 2142303.51,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "93296",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker system or implantable defibrillator system with technician review, support and distribution of results, up to 90 days",
+      "services": 12195,
+      "payments": 241551.43,
+      "avg_markup": 3.03
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2383854.94,
+    "total_services": 33850,
+    "total_beneficiaries": 12739,
+    "avg_markup_ratio": 2.37
+  }
+}

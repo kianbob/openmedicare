@@ -1,0 +1,169 @@
+{
+  "name": "Stanton Axline",
+  "credentials": "M.D.",
+  "specialty": "Infectious Disease",
+  "city": "Santa Monica",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 363190.78,
+      "total_services": 4233,
+      "total_beneficiaries": 1090,
+      "avg_submitted": 225.0,
+      "avg_paid": 106.83
+    },
+    {
+      "year": 2015,
+      "total_payments": 351184.06,
+      "total_services": 4139,
+      "total_beneficiaries": 962,
+      "avg_submitted": 218.75,
+      "avg_paid": 97.28
+    },
+    {
+      "year": 2016,
+      "total_payments": 387590.35,
+      "total_services": 4565,
+      "total_beneficiaries": 928,
+      "avg_submitted": 250.0,
+      "avg_paid": 116.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 356477.79,
+      "total_services": 4322,
+      "total_beneficiaries": 934,
+      "avg_submitted": 253.57,
+      "avg_paid": 122.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 311883.04,
+      "total_services": 3406,
+      "total_beneficiaries": 802,
+      "avg_submitted": 253.57,
+      "avg_paid": 124.69
+    },
+    {
+      "year": 2019,
+      "total_payments": 299653.13,
+      "total_services": 2853,
+      "total_beneficiaries": 700,
+      "avg_submitted": 250.0,
+      "avg_paid": 129.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 326642.87,
+      "total_services": 3117,
+      "total_beneficiaries": 609,
+      "avg_submitted": 260.44,
+      "avg_paid": 122.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 331013.88,
+      "total_services": 3026,
+      "total_beneficiaries": 713,
+      "avg_submitted": 299.13,
+      "avg_paid": 133.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 307686.23,
+      "total_services": 2748,
+      "total_beneficiaries": 679,
+      "avg_submitted": 309.34,
+      "avg_paid": 134.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 289340.94,
+      "total_services": 2395,
+      "total_beneficiaries": 592,
+      "avg_submitted": 332.99,
+      "avg_paid": 143.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 20344,
+      "payments": 1792315.37,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2768,
+      "payments": 461799.41,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7259,
+      "payments": 435379.28,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1686,
+      "payments": 308639.3,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1249,
+      "payments": 162152.17,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1100,
+      "payments": 107857.81,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 280,
+      "payments": 49058.96,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 79,
+      "payments": 5532.68,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 12,
+      "payments": 1532.88,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 27,
+      "payments": 395.21,
+      "avg_markup": 6.83
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3324663.07,
+    "total_services": 34804,
+    "total_beneficiaries": 8009,
+    "avg_markup_ratio": 2.43
+  }
+}

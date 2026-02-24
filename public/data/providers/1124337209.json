@@ -1,0 +1,103 @@
+{
+  "name": "National Transport",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Florence",
+  "state": "SC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 612564.92,
+      "total_services": 7739,
+      "total_beneficiaries": 753,
+      "avg_submitted": 313.31,
+      "avg_paid": 180.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 599538.54,
+      "total_services": 7166,
+      "total_beneficiaries": 932,
+      "avg_submitted": 315.35,
+      "avg_paid": 182.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 638637.6,
+      "total_services": 7795,
+      "total_beneficiaries": 798,
+      "avg_submitted": 314.55,
+      "avg_paid": 178.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 529333.93,
+      "total_services": 6654,
+      "total_beneficiaries": 417,
+      "avg_submitted": 253.35,
+      "avg_paid": 140.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 412760.9,
+      "total_services": 5288,
+      "total_beneficiaries": 424,
+      "avg_submitted": 314.99,
+      "avg_paid": 183.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 464701.15,
+      "total_services": 6436,
+      "total_beneficiaries": 511,
+      "avg_submitted": 253.96,
+      "avg_paid": 138.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 266605.65,
+      "total_services": 3745,
+      "total_beneficiaries": 198,
+      "avg_submitted": 155.0,
+      "avg_paid": 71.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 21577,
+      "payments": 3178335.67,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 619,
+      "payments": 162882.88,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 22456,
+      "payments": 130396.81,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 171,
+      "payments": 52527.31,
+      "avg_markup": 1.62
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 3524142.68,
+    "total_services": 44823,
+    "total_beneficiaries": 4033,
+    "avg_markup_ratio": 2.0
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Wilbur Kuo",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Sykesville",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 199421.23,
+      "total_services": 3552,
+      "total_beneficiaries": 2527,
+      "avg_submitted": 119.98,
+      "avg_paid": 61.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 275911.69,
+      "total_services": 4218,
+      "total_beneficiaries": 3241,
+      "avg_submitted": 121.29,
+      "avg_paid": 68.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 162376.35,
+      "total_services": 2355,
+      "total_beneficiaries": 1997,
+      "avg_submitted": 113.0,
+      "avg_paid": 68.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 170530.6,
+      "total_services": 2422,
+      "total_beneficiaries": 1635,
+      "avg_submitted": 126.91,
+      "avg_paid": 69.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 176778.99,
+      "total_services": 2936,
+      "total_beneficiaries": 1962,
+      "avg_submitted": 118.39,
+      "avg_paid": 60.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 295193.91,
+      "total_services": 5167,
+      "total_beneficiaries": 3812,
+      "avg_submitted": 119.76,
+      "avg_paid": 62.86
+    },
+    {
+      "year": 2020,
+      "total_payments": 221846.68,
+      "total_services": 4208,
+      "total_beneficiaries": 2991,
+      "avg_submitted": 110.67,
+      "avg_paid": 54.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 296244.56,
+      "total_services": 5451,
+      "total_beneficiaries": 3975,
+      "avg_submitted": 101.59,
+      "avg_paid": 53.28
+    },
+    {
+      "year": 2022,
+      "total_payments": 280613.81,
+      "total_services": 5112,
+      "total_beneficiaries": 3729,
+      "avg_submitted": 116.76,
+      "avg_paid": 60.56
+    },
+    {
+      "year": 2023,
+      "total_payments": 314957.39,
+      "total_services": 5096,
+      "total_beneficiaries": 3862,
+      "avg_submitted": 139.79,
+      "avg_paid": 70.58
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10560,
+      "payments": 735975.65,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3669,
+      "payments": 334051.33,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1730,
+      "payments": 231116.43,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2713,
+      "payments": 134154.3,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 550,
+      "payments": 81488.53,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 371,
+      "payments": 66291.46,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1122,
+      "payments": 55896.71,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 245,
+      "payments": 51819.75,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "90694",
+      "description": "Influenza virus vaccine, quadrivalent (aiiv4), inactivated, adjuvanted, preservative free, for injection into muscle, 0.5 ml dosage",
+      "services": 728,
+      "payments": 51496.78,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 273,
+      "payments": 50649.55,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 175,
+      "payments": 49355.75,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2044,
+      "payments": 49212.7,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 478,
+      "payments": 41148.9,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "0241U",
+      "description": "Respiratory infectious agent detection by rna for severe acute respiratory syndrome coronavirus 2 (covid 19), influenza a, influenza b, and respiratory syncytial virus, upper respiratory specimen, each reported as detected or not detected",
+      "services": 244,
+      "payments": 34106.32,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2615,
+      "payments": 32572.69,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "G0442",
+      "description": "Annual alcohol misuse screening, 15 minutes",
+      "services": 1617,
+      "payments": 32406.19,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 529,
+      "payments": 31275.56,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 1457,
+      "payments": 29128.2,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 215,
+      "payments": 26848.49,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 279,
+      "payments": 25898.99,
+      "avg_markup": 1.24
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2393875.2,
+    "total_services": 40517,
+    "total_beneficiaries": 29731,
+    "avg_markup_ratio": 2.32
+  }
+}

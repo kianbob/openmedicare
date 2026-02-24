@@ -1,0 +1,197 @@
+{
+  "name": "Yama Osmanzai",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Myrtle Beach",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 25946.56,
+      "total_services": 391,
+      "total_beneficiaries": 245,
+      "avg_submitted": 506.67,
+      "avg_paid": 79.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 38465.4,
+      "total_services": 545,
+      "total_beneficiaries": 298,
+      "avg_submitted": 277.73,
+      "avg_paid": 80.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 327599.81,
+      "total_services": 3368,
+      "total_beneficiaries": 1061,
+      "avg_submitted": 278.14,
+      "avg_paid": 94.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 477463.01,
+      "total_services": 4599,
+      "total_beneficiaries": 1360,
+      "avg_submitted": 278.45,
+      "avg_paid": 109.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 550542.21,
+      "total_services": 5256,
+      "total_beneficiaries": 1276,
+      "avg_submitted": 333.78,
+      "avg_paid": 113.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 577739.39,
+      "total_services": 6088,
+      "total_beneficiaries": 1895,
+      "avg_submitted": 276.2,
+      "avg_paid": 109.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 488541.2,
+      "total_services": 6054,
+      "total_beneficiaries": 2008,
+      "avg_submitted": 300.02,
+      "avg_paid": 109.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 417469.74,
+      "total_services": 5127,
+      "total_beneficiaries": 1696,
+      "avg_submitted": 300.0,
+      "avg_paid": 116.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 379419.99,
+      "total_services": 4760,
+      "total_beneficiaries": 1483,
+      "avg_submitted": 300.03,
+      "avg_paid": 112.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 349817.12,
+      "total_services": 4473,
+      "total_beneficiaries": 1425,
+      "avg_submitted": 300.0,
+      "avg_paid": 112.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11738,
+      "payments": 924188.65,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 16185,
+      "payments": 900614.33,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4992,
+      "payments": 838160.03,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3969,
+      "payments": 589163.5,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1486,
+      "payments": 178883.87,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1833,
+      "payments": 158152.58,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 230,
+      "payments": 28329.1,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 78,
+      "payments": 6115.93,
+      "avg_markup": 5.54
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 35,
+      "payments": 3070.09,
+      "avg_markup": 5.91
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 34,
+      "payments": 1891.25,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 28,
+      "payments": 1463.28,
+      "avg_markup": 6.09
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 15,
+      "payments": 1161.0,
+      "avg_markup": 7.25
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 12,
+      "payments": 1031.6,
+      "avg_markup": 5.76
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 26,
+      "payments": 779.22,
+      "avg_markup": 5.78
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3633004.43,
+    "total_services": 40661,
+    "total_beneficiaries": 12747,
+    "avg_markup_ratio": 3.12
+  }
+}

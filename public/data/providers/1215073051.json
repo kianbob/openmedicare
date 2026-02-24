@@ -1,0 +1,63 @@
+{
+  "name": "Aaron Medical Transportation Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Lyndhurst",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2218653.56,
+      "total_services": 21646,
+      "total_beneficiaries": 6349,
+      "avg_submitted": 289.41,
+      "avg_paid": 167.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 375856.09,
+      "total_services": 3055,
+      "total_beneficiaries": 2659,
+      "avg_submitted": 614.46,
+      "avg_paid": 292.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 10536,
+      "payments": 1937227.45,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1832,
+      "payments": 578454.49,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12312,
+      "payments": 65212.46,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 21,
+      "payments": 13615.25,
+      "avg_markup": 2.31
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 2594509.65,
+    "total_services": 24701,
+    "total_beneficiaries": 9008,
+    "avg_markup_ratio": 1.68
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Arash Milani",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Victorville",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 445222.56,
+      "total_services": 4489,
+      "total_beneficiaries": 2047,
+      "avg_submitted": 366.04,
+      "avg_paid": 103.07
+    },
+    {
+      "year": 2015,
+      "total_payments": 635011.39,
+      "total_services": 6214,
+      "total_beneficiaries": 2458,
+      "avg_submitted": 400.06,
+      "avg_paid": 109.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 637268.38,
+      "total_services": 6781,
+      "total_beneficiaries": 3130,
+      "avg_submitted": 386.22,
+      "avg_paid": 100.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 872007.48,
+      "total_services": 9862,
+      "total_beneficiaries": 4235,
+      "avg_submitted": 268.98,
+      "avg_paid": 87.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 1039220.53,
+      "total_services": 11823,
+      "total_beneficiaries": 5359,
+      "avg_submitted": 254.54,
+      "avg_paid": 94.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 1320563.12,
+      "total_services": 14891,
+      "total_beneficiaries": 6883,
+      "avg_submitted": 272.13,
+      "avg_paid": 99.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 645780.24,
+      "total_services": 7071,
+      "total_beneficiaries": 3656,
+      "avg_submitted": 246.91,
+      "avg_paid": 91.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 866155.97,
+      "total_services": 11146,
+      "total_beneficiaries": 3943,
+      "avg_submitted": 224.82,
+      "avg_paid": 89.19
+    },
+    {
+      "year": 2022,
+      "total_payments": 971734.58,
+      "total_services": 13539,
+      "total_beneficiaries": 3878,
+      "avg_submitted": 218.31,
+      "avg_paid": 86.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 998375.77,
+      "total_services": 14782,
+      "total_beneficiaries": 3913,
+      "avg_submitted": 208.86,
+      "avg_paid": 83.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 16580,
+      "payments": 1382351.66,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10035,
+      "payments": 1004766.63,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 5384,
+      "payments": 960120.55,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 3045,
+      "payments": 529094.36,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3143,
+      "payments": 506009.18,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 14371,
+      "payments": 488771.86,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 5580,
+      "payments": 482918.56,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7886,
+      "payments": 462642.13,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 4368,
+      "payments": 372486.85,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 5540,
+      "payments": 354752.55,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4347,
+      "payments": 301445.45,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2296,
+      "payments": 246200.53,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2315,
+      "payments": 170151.89,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1533,
+      "payments": 160365.31,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 1632,
+      "payments": 141784.82,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 960,
+      "payments": 129310.45,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 1590,
+      "payments": 100051.39,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 757,
+      "payments": 97437.94,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1709,
+      "payments": 96540.79,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 753,
+      "payments": 94223.61,
+      "avg_markup": 2.92
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 8431340.02,
+    "total_services": 100598,
+    "total_beneficiaries": 39502,
+    "avg_markup_ratio": 2.97
+  }
+}

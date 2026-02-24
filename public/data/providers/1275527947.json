@@ -1,0 +1,70 @@
+{
+  "name": "Metro Ambulance, Lp",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Schertz",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2293368.27,
+      "total_services": 20270,
+      "total_beneficiaries": 14047,
+      "avg_submitted": 607.55,
+      "avg_paid": 186.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 1815397.21,
+      "total_services": 14798,
+      "total_beneficiaries": 10783,
+      "avg_submitted": 582.7,
+      "avg_paid": 190.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 5582,
+      "payments": 1742790.46,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 8448,
+      "payments": 1379123.4,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2319,
+      "payments": 608358.29,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1428,
+      "payments": 280051.64,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 17291,
+      "payments": 98441.69,
+      "avg_markup": 2.11
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 4108765.48,
+    "total_services": 35068,
+    "total_beneficiaries": 24830,
+    "avg_markup_ratio": 3.21
+  }
+}

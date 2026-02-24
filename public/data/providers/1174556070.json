@@ -1,0 +1,239 @@
+{
+  "name": "Matthew Trunsky",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Troy",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 312597.05,
+      "total_services": 3872,
+      "total_beneficiaries": 3026,
+      "avg_submitted": 112.28,
+      "avg_paid": 66.55
+    },
+    {
+      "year": 2015,
+      "total_payments": 294777.54,
+      "total_services": 3790,
+      "total_beneficiaries": 2980,
+      "avg_submitted": 147.2,
+      "avg_paid": 70.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 266275.53,
+      "total_services": 3611,
+      "total_beneficiaries": 2794,
+      "avg_submitted": 156.89,
+      "avg_paid": 67.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 293364.26,
+      "total_services": 3463,
+      "total_beneficiaries": 2612,
+      "avg_submitted": 194.33,
+      "avg_paid": 75.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 225846.77,
+      "total_services": 2684,
+      "total_beneficiaries": 1991,
+      "avg_submitted": 206.24,
+      "avg_paid": 80.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 259482.23,
+      "total_services": 2672,
+      "total_beneficiaries": 1655,
+      "avg_submitted": 219.44,
+      "avg_paid": 97.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 219216.43,
+      "total_services": 2163,
+      "total_beneficiaries": 1295,
+      "avg_submitted": 279.08,
+      "avg_paid": 89.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 180251.47,
+      "total_services": 1737,
+      "total_beneficiaries": 1054,
+      "avg_submitted": 322.08,
+      "avg_paid": 102.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 155183.11,
+      "total_services": 1570,
+      "total_beneficiaries": 960,
+      "avg_submitted": 375.8,
+      "avg_paid": 106.7
+    },
+    {
+      "year": 2023,
+      "total_payments": 141216.58,
+      "total_services": 1412,
+      "total_beneficiaries": 946,
+      "avg_submitted": 344.5,
+      "avg_paid": 94.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7779,
+      "payments": 658548.54,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2487,
+      "payments": 447427.01,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1783,
+      "payments": 283793.42,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3814,
+      "payments": 225872.41,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2418,
+      "payments": 188640.81,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1190,
+      "payments": 129870.91,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 465,
+      "payments": 55493.42,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 345,
+      "payments": 52258.2,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 464,
+      "payments": 51323.94,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 798,
+      "payments": 32934.85,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 787,
+      "payments": 31746.48,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 701,
+      "payments": 30470.2,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 427,
+      "payments": 26914.88,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 581,
+      "payments": 26607.92,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 393,
+      "payments": 20399.9,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 105,
+      "payments": 15778.62,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 749,
+      "payments": 10249.97,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 328,
+      "payments": 8880.52,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 70,
+      "payments": 7388.66,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 79,
+      "payments": 7211.61,
+      "avg_markup": 2.68
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2348210.97,
+    "total_services": 26974,
+    "total_beneficiaries": 19313,
+    "avg_markup_ratio": 2.25
+  }
+}

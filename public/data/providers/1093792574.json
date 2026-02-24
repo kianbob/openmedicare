@@ -1,0 +1,232 @@
+{
+  "name": "Maciej Solarewicz",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 215890.38,
+      "total_services": 3182,
+      "total_beneficiaries": 1153,
+      "avg_submitted": 149.84,
+      "avg_paid": 80.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 247067.51,
+      "total_services": 3273,
+      "total_beneficiaries": 1148,
+      "avg_submitted": 238.86,
+      "avg_paid": 97.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 225896.18,
+      "total_services": 2688,
+      "total_beneficiaries": 994,
+      "avg_submitted": 238.9,
+      "avg_paid": 92.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 275028.58,
+      "total_services": 3160,
+      "total_beneficiaries": 1317,
+      "avg_submitted": 248.04,
+      "avg_paid": 96.76
+    },
+    {
+      "year": 2018,
+      "total_payments": 304422.63,
+      "total_services": 3517,
+      "total_beneficiaries": 1400,
+      "avg_submitted": 238.86,
+      "avg_paid": 93.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 322631.94,
+      "total_services": 3461,
+      "total_beneficiaries": 1540,
+      "avg_submitted": 150.71,
+      "avg_paid": 64.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 270892.5,
+      "total_services": 2931,
+      "total_beneficiaries": 1222,
+      "avg_submitted": 165.31,
+      "avg_paid": 76.34
+    },
+    {
+      "year": 2021,
+      "total_payments": 267969.95,
+      "total_services": 2675,
+      "total_beneficiaries": 1254,
+      "avg_submitted": 391.01,
+      "avg_paid": 92.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 244405.26,
+      "total_services": 2566,
+      "total_beneficiaries": 1197,
+      "avg_submitted": 467.32,
+      "avg_paid": 89.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 341598.35,
+      "total_services": 3719,
+      "total_beneficiaries": 1599,
+      "avg_submitted": 410.77,
+      "avg_paid": 90.94
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 16834,
+      "payments": 1581953.71,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 4331,
+      "payments": 526188.83,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2698,
+      "payments": 193715.35,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 4818,
+      "payments": 152365.84,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 1167,
+      "payments": 144531.33,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 184,
+      "payments": 27657.12,
+      "avg_markup": 6.18
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 273,
+      "payments": 22666.93,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 192,
+      "payments": 16237.55,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 89,
+      "payments": 13457.5,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 151,
+      "payments": 12595.71,
+      "avg_markup": 6.08
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 150,
+      "payments": 8476.82,
+      "avg_markup": 5.75
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care, typically 70 minutes",
+      "services": 52,
+      "payments": 7417.0,
+      "avg_markup": 5.31
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care on day of discharge",
+      "services": 49,
+      "payments": 2782.95,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 21,
+      "payments": 1747.94,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 31,
+      "payments": 1638.84,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 13,
+      "payments": 1030.12,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 43,
+      "payments": 680.77,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "93018",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician interpretation and report",
+      "services": 43,
+      "payments": 453.77,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 33,
+      "payments": 205.2,
+      "avg_markup": 2.41
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2715803.28,
+    "total_services": 31172,
+    "total_beneficiaries": 12824,
+    "avg_markup_ratio": 2.53
+  }
+}

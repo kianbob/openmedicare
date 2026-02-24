@@ -1,0 +1,100 @@
+{
+  "name": "Centracare Health System",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Big Lake",
+  "state": "MN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 970060.19,
+      "total_services": 5569,
+      "total_beneficiaries": 4024,
+      "avg_submitted": 1758.42,
+      "avg_paid": 338.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 1007078.05,
+      "total_services": 5849,
+      "total_beneficiaries": 4218,
+      "avg_submitted": 1768.23,
+      "avg_paid": 332.75
+    },
+    {
+      "year": 2022,
+      "total_payments": 1014930.37,
+      "total_services": 5724,
+      "total_beneficiaries": 4033,
+      "avg_submitted": 1778.91,
+      "avg_paid": 353.85
+    },
+    {
+      "year": 2023,
+      "total_payments": 1046605.92,
+      "total_services": 5639,
+      "total_beneficiaries": 4102,
+      "avg_submitted": 1791.1,
+      "avg_paid": 378.76
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5159,
+      "payments": 1695308.69,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 2912,
+      "payments": 1148718.81,
+      "avg_markup": 5.46
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 2377,
+      "payments": 496970.5,
+      "avg_markup": 6.72
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 669,
+      "payments": 380068.4,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 623,
+      "payments": 167943.3,
+      "avg_markup": 7.69
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10936,
+      "payments": 76945.42,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 105,
+      "payments": 72719.41,
+      "avg_markup": 4.3
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4038674.53,
+    "total_services": 22781,
+    "total_beneficiaries": 16377,
+    "avg_markup_ratio": 5.19
+  }
+}

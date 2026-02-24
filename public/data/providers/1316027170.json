@@ -1,0 +1,72 @@
+{
+  "name": "Adult Medical Transportation, Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Reseda",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1950716.02,
+      "total_services": 19885,
+      "total_beneficiaries": 6171,
+      "avg_submitted": 493.59,
+      "avg_paid": 164.97
+    },
+    {
+      "year": 2015,
+      "total_payments": 937627.39,
+      "total_services": 9391,
+      "total_beneficiaries": 2587,
+      "avg_submitted": 493.58,
+      "avg_paid": 167.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 333622.88,
+      "total_services": 3040,
+      "total_beneficiaries": 2030,
+      "avg_submitted": 493.59,
+      "avg_paid": 172.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 406494.81,
+      "total_services": 3482,
+      "total_beneficiaries": 2948,
+      "avg_submitted": 493.59,
+      "avg_paid": 173.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 16103,
+      "payments": 2949284.79,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1862,
+      "payments": 583843.93,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 17833,
+      "payments": 95332.39,
+      "avg_markup": 3.32
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3628461.11,
+    "total_services": 35798,
+    "total_beneficiaries": 13736,
+    "avg_markup_ratio": 3.52
+  }
+}

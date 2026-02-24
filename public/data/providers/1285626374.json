@@ -1,0 +1,239 @@
+{
+  "name": "Stephen Finberg",
+  "credentials": "D.O.",
+  "specialty": "Pulmonary Disease",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 330141.01,
+      "total_services": 6985,
+      "total_beneficiaries": 3599,
+      "avg_submitted": 117.14,
+      "avg_paid": 59.5
+    },
+    {
+      "year": 2015,
+      "total_payments": 381099.58,
+      "total_services": 7745,
+      "total_beneficiaries": 4436,
+      "avg_submitted": 111.14,
+      "avg_paid": 55.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 408698.42,
+      "total_services": 7767,
+      "total_beneficiaries": 4410,
+      "avg_submitted": 114.17,
+      "avg_paid": 58.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 335423.03,
+      "total_services": 7511,
+      "total_beneficiaries": 4494,
+      "avg_submitted": 99.04,
+      "avg_paid": 48.78
+    },
+    {
+      "year": 2018,
+      "total_payments": 292503.67,
+      "total_services": 6793,
+      "total_beneficiaries": 3755,
+      "avg_submitted": 92.43,
+      "avg_paid": 47.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 293762.0,
+      "total_services": 6167,
+      "total_beneficiaries": 3652,
+      "avg_submitted": 93.95,
+      "avg_paid": 47.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 212523.22,
+      "total_services": 4592,
+      "total_beneficiaries": 2654,
+      "avg_submitted": 83.2,
+      "avg_paid": 38.36
+    },
+    {
+      "year": 2021,
+      "total_payments": 272298.32,
+      "total_services": 5482,
+      "total_beneficiaries": 3230,
+      "avg_submitted": 88.72,
+      "avg_paid": 44.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 241162.55,
+      "total_services": 4903,
+      "total_beneficiaries": 2967,
+      "avg_submitted": 87.27,
+      "avg_paid": 39.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 232754.39,
+      "total_services": 4331,
+      "total_beneficiaries": 2784,
+      "avg_submitted": 82.9,
+      "avg_paid": 35.97
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11050,
+      "payments": 849549.69,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 6486,
+      "payments": 753513.8,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1932,
+      "payments": 293161.58,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 8000,
+      "payments": 195962.64,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 4265,
+      "payments": 176024.51,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2209,
+      "payments": 89098.69,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 2222,
+      "payments": 68514.73,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 689,
+      "payments": 67029.11,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 781,
+      "payments": 62827.3,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1077,
+      "payments": 56094.24,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "95117",
+      "description": "Injection of incremental dosages of allergen, 2 or more injections",
+      "services": 7200,
+      "payments": 53663.96,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "95165",
+      "description": "Preparation and provision of single or multiple antigens for allergen immunotherapy",
+      "services": 4156,
+      "payments": 41251.51,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 341,
+      "payments": 38542.0,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 247,
+      "payments": 38456.58,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "94200",
+      "description": "Measurement of largest amount of air breathed in an out of lungs over one minute",
+      "services": 2227,
+      "payments": 37824.11,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 2334,
+      "payments": 28949.27,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient use of aerosol generator, nebulizer, metered dose inhaler or intermittent positive pressure breathing (IPPB) device",
+      "services": 2005,
+      "payments": 26051.09,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 425,
+      "payments": 23687.69,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 219,
+      "payments": 21321.91,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "95012",
+      "description": "Measurement of inhaled nitric oxide gas",
+      "services": 1291,
+      "payments": 18600.34,
+      "avg_markup": 2.92
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3000366.19,
+    "total_services": 62276,
+    "total_beneficiaries": 35981,
+    "avg_markup_ratio": 1.85
+  }
+}

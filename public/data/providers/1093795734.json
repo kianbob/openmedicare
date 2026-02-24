@@ -1,0 +1,239 @@
+{
+  "name": "James Patterson",
+  "credentials": "M.D",
+  "specialty": "Orthopedic Surgery",
+  "city": "Lima",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 206939.33,
+      "total_services": 2346,
+      "total_beneficiaries": 1979,
+      "avg_submitted": 491.35,
+      "avg_paid": 127.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 193528.78,
+      "total_services": 2331,
+      "total_beneficiaries": 1872,
+      "avg_submitted": 597.28,
+      "avg_paid": 158.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 234785.68,
+      "total_services": 2472,
+      "total_beneficiaries": 1989,
+      "avg_submitted": 652.17,
+      "avg_paid": 165.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 240201.57,
+      "total_services": 2396,
+      "total_beneficiaries": 1960,
+      "avg_submitted": 562.41,
+      "avg_paid": 162.67
+    },
+    {
+      "year": 2018,
+      "total_payments": 284106.11,
+      "total_services": 2291,
+      "total_beneficiaries": 1899,
+      "avg_submitted": 557.24,
+      "avg_paid": 181.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 288224.1,
+      "total_services": 2485,
+      "total_beneficiaries": 2049,
+      "avg_submitted": 610.1,
+      "avg_paid": 202.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 249367.4,
+      "total_services": 2227,
+      "total_beneficiaries": 1868,
+      "avg_submitted": 610.96,
+      "avg_paid": 193.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 302013.65,
+      "total_services": 2375,
+      "total_beneficiaries": 1996,
+      "avg_submitted": 644.7,
+      "avg_paid": 193.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 270781.9,
+      "total_services": 2471,
+      "total_beneficiaries": 2035,
+      "avg_submitted": 665.99,
+      "avg_paid": 178.38
+    },
+    {
+      "year": 2023,
+      "total_payments": 274590.68,
+      "total_services": 2722,
+      "total_beneficiaries": 2216,
+      "avg_submitted": 702.01,
+      "avg_paid": 171.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "27447",
+      "description": "Repair of knee joint",
+      "services": 766,
+      "payments": 795850.15,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "27130",
+      "description": "Replacement of thigh bone and hip joint prosthesis",
+      "services": 686,
+      "payments": 709027.91,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "73562",
+      "description": "X-ray of knee, 3 views",
+      "services": 5164,
+      "payments": 126726.25,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 2398,
+      "payments": 113388.84,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2037,
+      "payments": 110043.24,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "73502",
+      "description": "X-ray of hip with pelvis, 2-3 views",
+      "services": 3231,
+      "payments": 88402.2,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "29880",
+      "description": "Removal of both knee cartilages using an endoscope",
+      "services": 201,
+      "payments": 83731.19,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1014,
+      "payments": 80824.17,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "J7326",
+      "description": "Hyaluronan or derivative, gel-one, for intra-articular injection, per dose",
+      "services": 101,
+      "payments": 71204.41,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "27245",
+      "description": "Surgical treatment of broken thigh bone",
+      "services": 56,
+      "payments": 52594.36,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "73721",
+      "description": "MRI scan of leg joint",
+      "services": 395,
+      "payments": 42446.14,
+      "avg_markup": 7.32
+    },
+    {
+      "code": "29881",
+      "description": "Removal of one knee cartilage using an endoscope",
+      "services": 106,
+      "payments": 41789.39,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "20985",
+      "description": "Computer-assisted surgical navigational procedure for bone procedures",
+      "services": 305,
+      "payments": 35647.9,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 474,
+      "payments": 35204.03,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 666,
+      "payments": 21413.38,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 164,
+      "payments": 14942.72,
+      "avg_markup": 8.58
+    },
+    {
+      "code": "73510",
+      "description": "X-ray of ribs of one side of body, minimum of 2 views",
+      "services": 563,
+      "payments": 14083.12,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "73560",
+      "description": "X-ray of knee, 1 or 2 views",
+      "services": 694,
+      "payments": 12298.5,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "J1040",
+      "description": "Injection, methylprednisolone acetate, 80 mg",
+      "services": 1482,
+      "payments": 11133.67,
+      "avg_markup": 5.15
+    },
+    {
+      "code": "27137",
+      "description": "Revision of hip joint prosthesis",
+      "services": 11,
+      "payments": 10291.84,
+      "avg_markup": 3.96
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2544539.21,
+    "total_services": 24116,
+    "total_beneficiaries": 19863,
+    "avg_markup_ratio": 3.56
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Guillermo Reyes",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "San Antonio",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 373400.31,
+      "total_services": 5407,
+      "total_beneficiaries": 3177,
+      "avg_submitted": 342.27,
+      "avg_paid": 90.66
+    },
+    {
+      "year": 2015,
+      "total_payments": 454332.26,
+      "total_services": 6177,
+      "total_beneficiaries": 3377,
+      "avg_submitted": 348.99,
+      "avg_paid": 91.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 386421.71,
+      "total_services": 5390,
+      "total_beneficiaries": 3257,
+      "avg_submitted": 383.31,
+      "avg_paid": 103.11
+    },
+    {
+      "year": 2017,
+      "total_payments": 468665.36,
+      "total_services": 6852,
+      "total_beneficiaries": 3773,
+      "avg_submitted": 425.94,
+      "avg_paid": 128.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 543236.54,
+      "total_services": 7793,
+      "total_beneficiaries": 3661,
+      "avg_submitted": 330.42,
+      "avg_paid": 94.38
+    },
+    {
+      "year": 2019,
+      "total_payments": 564590.43,
+      "total_services": 8589,
+      "total_beneficiaries": 3674,
+      "avg_submitted": 409.12,
+      "avg_paid": 102.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 573374.17,
+      "total_services": 6960,
+      "total_beneficiaries": 2775,
+      "avg_submitted": 756.32,
+      "avg_paid": 255.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 1088412.32,
+      "total_services": 5779,
+      "total_beneficiaries": 2537,
+      "avg_submitted": 1727.93,
+      "avg_paid": 830.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 710782.52,
+      "total_services": 5499,
+      "total_beneficiaries": 2884,
+      "avg_submitted": 1054.81,
+      "avg_paid": 434.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 501838.17,
+      "total_services": 4648,
+      "total_beneficiaries": 2967,
+      "avg_submitted": 774.79,
+      "avg_paid": 267.34
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 7542,
+      "payments": 847302.92,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 3676,
+      "payments": 537613.69,
+      "avg_markup": 5.97
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6567,
+      "payments": 492486.97,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1431,
+      "payments": 461375.86,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "37229",
+      "description": "Removal of plaque in artery in one leg, endovascular, accessed through the skin or open procedure",
+      "services": 51,
+      "payments": 380362.66,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 9201,
+      "payments": 284754.64,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "37228",
+      "description": "Balloon dilation of artery of one leg, endovascular, accessed through the skin or open procedure",
+      "services": 104,
+      "payments": 223248.0,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 791,
+      "payments": 211259.64,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 14155,
+      "payments": 164367.54,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 494,
+      "payments": 156394.08,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "37231",
+      "description": "Removal of plaque and insertion of stents into artery in one leg, endovascular, accessed through the skin or open procedure",
+      "services": 14,
+      "payments": 151689.58,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour ekg up to 30 days",
+      "services": 207,
+      "payments": 126534.78,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 831,
+      "payments": 116163.87,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "36245",
+      "description": "Insertion of catheter into abdominal pelvic or leg artery",
+      "services": 212,
+      "payments": 109820.0,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 502,
+      "payments": 84646.01,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 389,
+      "payments": 84446.1,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 589,
+      "payments": 81776.44,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "36252",
+      "description": "Insertion of catheters into main and accessory arteries of both kidneys for imaging including radiological supervision and interpretation",
+      "services": 65,
+      "payments": 73242.27,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1490,
+      "payments": 72887.82,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "36247",
+      "description": "Insertion of catheter into abdominal pelvic or leg artery",
+      "services": 106,
+      "payments": 65281.62,
+      "avg_markup": 4.06
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5665053.79,
+    "total_services": 63094,
+    "total_beneficiaries": 32082,
+    "avg_markup_ratio": 3.1
+  }
+}

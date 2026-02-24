@@ -1,0 +1,223 @@
+{
+  "name": "Rachel Halevy-Avgush",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Garnerville",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 724692.04,
+      "total_services": 10121,
+      "total_beneficiaries": 2513,
+      "avg_submitted": 192.6,
+      "avg_paid": 76.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 630680.82,
+      "total_services": 9866,
+      "total_beneficiaries": 2495,
+      "avg_submitted": 184.34,
+      "avg_paid": 72.67
+    },
+    {
+      "year": 2016,
+      "total_payments": 645635.15,
+      "total_services": 9888,
+      "total_beneficiaries": 2430,
+      "avg_submitted": 200.67,
+      "avg_paid": 80.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 710630.36,
+      "total_services": 9886,
+      "total_beneficiaries": 2928,
+      "avg_submitted": 205.21,
+      "avg_paid": 86.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 569063.19,
+      "total_services": 7915,
+      "total_beneficiaries": 2679,
+      "avg_submitted": 218.5,
+      "avg_paid": 85.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 438275.78,
+      "total_services": 6090,
+      "total_beneficiaries": 1833,
+      "avg_submitted": 215.5,
+      "avg_paid": 83.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 218369.39,
+      "total_services": 3058,
+      "total_beneficiaries": 818,
+      "avg_submitted": 211.65,
+      "avg_paid": 87.23
+    },
+    {
+      "year": 2021,
+      "total_payments": 4948.08,
+      "total_services": 103,
+      "total_beneficiaries": 44,
+      "avg_submitted": 132.5,
+      "avg_paid": 38.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 23170,
+      "payments": 1398279.56,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5404,
+      "payments": 347785.69,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 4258,
+      "payments": 335439.38,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2758,
+      "payments": 248470.03,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1012,
+      "payments": 202530.34,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 4467,
+      "payments": 172663.53,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 1564,
+      "payments": 127369.99,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1941,
+      "payments": 115505.2,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 989,
+      "payments": 114489.64,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 909,
+      "payments": 105031.14,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 702,
+      "payments": 86024.19,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 528,
+      "payments": 65392.26,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 351,
+      "payments": 63159.62,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 419,
+      "payments": 62228.17,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 421,
+      "payments": 55117.93,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 483,
+      "payments": 44579.59,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 637,
+      "payments": 41502.94,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 389,
+      "payments": 37083.71,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 823,
+      "payments": 28742.1,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 811,
+      "payments": 25771.32,
+      "avg_markup": 3.82
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3942294.81,
+    "total_services": 56927,
+    "total_beneficiaries": 15740,
+    "avg_markup_ratio": 3.15
+  }
+}

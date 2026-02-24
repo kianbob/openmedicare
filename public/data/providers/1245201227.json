@@ -1,0 +1,239 @@
+{
+  "name": "John Gruendel",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Carmel",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 517484.68,
+      "total_services": 10582,
+      "total_beneficiaries": 5708,
+      "avg_submitted": 85.67,
+      "avg_paid": 54.28
+    },
+    {
+      "year": 2015,
+      "total_payments": 502101.17,
+      "total_services": 9547,
+      "total_beneficiaries": 5385,
+      "avg_submitted": 108.5,
+      "avg_paid": 54.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 512096.18,
+      "total_services": 9937,
+      "total_beneficiaries": 5787,
+      "avg_submitted": 86.87,
+      "avg_paid": 54.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 550888.81,
+      "total_services": 10420,
+      "total_beneficiaries": 5756,
+      "avg_submitted": 90.71,
+      "avg_paid": 55.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 537512.13,
+      "total_services": 9786,
+      "total_beneficiaries": 5786,
+      "avg_submitted": 91.73,
+      "avg_paid": 54.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 641091.51,
+      "total_services": 11571,
+      "total_beneficiaries": 7185,
+      "avg_submitted": 104.45,
+      "avg_paid": 61.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 561678.49,
+      "total_services": 10235,
+      "total_beneficiaries": 6175,
+      "avg_submitted": 92.49,
+      "avg_paid": 53.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 651941.21,
+      "total_services": 11144,
+      "total_beneficiaries": 6752,
+      "avg_submitted": 104.37,
+      "avg_paid": 63.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 604506.99,
+      "total_services": 11363,
+      "total_beneficiaries": 7033,
+      "avg_submitted": 98.85,
+      "avg_paid": 59.28
+    },
+    {
+      "year": 2023,
+      "total_payments": 734312.31,
+      "total_services": 12659,
+      "total_beneficiaries": 7998,
+      "avg_submitted": 88.35,
+      "avg_paid": 53.97
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 20813,
+      "payments": 1850189.45,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2407,
+      "payments": 925317.68,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 6423,
+      "payments": 899043.35,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 2304,
+      "payments": 340338.27,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1453,
+      "payments": 240199.3,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3152,
+      "payments": 191234.15,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 3064,
+      "payments": 166708.62,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 13121,
+      "payments": 165608.04,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2735,
+      "payments": 151028.54,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 1150,
+      "payments": 74700.35,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 1538,
+      "payments": 68880.94,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 4964,
+      "payments": 68713.17,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 5543,
+      "payments": 59998.7,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2895,
+      "payments": 54868.23,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 954,
+      "payments": 48911.08,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 374,
+      "payments": 46459.58,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 9100,
+      "payments": 43403.9,
+      "avg_markup": 1.18
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 304,
+      "payments": 36604.15,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 383,
+      "payments": 32290.57,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 2936,
+      "payments": 29810.62,
+      "avg_markup": 1.2
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5813613.48,
+    "total_services": 107244,
+    "total_beneficiaries": 63565,
+    "avg_markup_ratio": 1.7
+  }
+}

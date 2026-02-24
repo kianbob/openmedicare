@@ -1,0 +1,169 @@
+{
+  "name": "Florentin Abrudescu",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Bayside",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 298298.87,
+      "total_services": 3680,
+      "total_beneficiaries": 1155,
+      "avg_submitted": 196.25,
+      "avg_paid": 112.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 362912.28,
+      "total_services": 4546,
+      "total_beneficiaries": 1224,
+      "avg_submitted": 185.05,
+      "avg_paid": 101.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 315135.71,
+      "total_services": 3871,
+      "total_beneficiaries": 1148,
+      "avg_submitted": 202.27,
+      "avg_paid": 92.63
+    },
+    {
+      "year": 2017,
+      "total_payments": 377581.67,
+      "total_services": 4785,
+      "total_beneficiaries": 1281,
+      "avg_submitted": 211.16,
+      "avg_paid": 96.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 331234.6,
+      "total_services": 3813,
+      "total_beneficiaries": 1222,
+      "avg_submitted": 229.54,
+      "avg_paid": 101.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 339203.58,
+      "total_services": 3744,
+      "total_beneficiaries": 1199,
+      "avg_submitted": 217.91,
+      "avg_paid": 101.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 323766.16,
+      "total_services": 3392,
+      "total_beneficiaries": 1027,
+      "avg_submitted": 223.52,
+      "avg_paid": 99.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 379732.38,
+      "total_services": 3974,
+      "total_beneficiaries": 1144,
+      "avg_submitted": 205.03,
+      "avg_paid": 112.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 301397.15,
+      "total_services": 3305,
+      "total_beneficiaries": 1076,
+      "avg_submitted": 574.79,
+      "avg_paid": 111.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 294091.19,
+      "total_services": 3325,
+      "total_beneficiaries": 1033,
+      "avg_submitted": 501.81,
+      "avg_paid": 107.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 18035,
+      "payments": 1179865.47,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10886,
+      "payments": 1049335.65,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3586,
+      "payments": 647361.41,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 3742,
+      "payments": 249069.54,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1060,
+      "payments": 108442.98,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 931,
+      "payments": 62427.09,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 72,
+      "payments": 10785.86,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 69,
+      "payments": 9670.21,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 41,
+      "payments": 3876.24,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 13,
+      "payments": 2519.14,
+      "avg_markup": 1.42
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3323353.59,
+    "total_services": 38435,
+    "total_beneficiaries": 11509,
+    "avg_markup_ratio": 3.19
+  }
+}

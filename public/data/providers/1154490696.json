@@ -1,0 +1,211 @@
+{
+  "name": "Deborah Markowitz",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Worcester",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 323069.01,
+      "total_services": 3401,
+      "total_beneficiaries": 1347,
+      "avg_submitted": 240.54,
+      "avg_paid": 94.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 368733.03,
+      "total_services": 3749,
+      "total_beneficiaries": 1577,
+      "avg_submitted": 244.6,
+      "avg_paid": 98.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 416567.55,
+      "total_services": 4226,
+      "total_beneficiaries": 1699,
+      "avg_submitted": 243.46,
+      "avg_paid": 100.26
+    },
+    {
+      "year": 2017,
+      "total_payments": 456018.84,
+      "total_services": 4765,
+      "total_beneficiaries": 1560,
+      "avg_submitted": 247.69,
+      "avg_paid": 101.06
+    },
+    {
+      "year": 2018,
+      "total_payments": 571865.4,
+      "total_services": 6034,
+      "total_beneficiaries": 1181,
+      "avg_submitted": 247.69,
+      "avg_paid": 102.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 191570.56,
+      "total_services": 2058,
+      "total_beneficiaries": 745,
+      "avg_submitted": 243.48,
+      "avg_paid": 102.66
+    },
+    {
+      "year": 2020,
+      "total_payments": 109058.6,
+      "total_services": 1004,
+      "total_beneficiaries": 499,
+      "avg_submitted": 245.39,
+      "avg_paid": 98.72
+    },
+    {
+      "year": 2021,
+      "total_payments": 96657.3,
+      "total_services": 665,
+      "total_beneficiaries": 319,
+      "avg_submitted": 349.03,
+      "avg_paid": 103.42
+    },
+    {
+      "year": 2022,
+      "total_payments": 82892.27,
+      "total_services": 579,
+      "total_beneficiaries": 285,
+      "avg_submitted": 288.29,
+      "avg_paid": 99.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 65818.43,
+      "total_services": 442,
+      "total_beneficiaries": 226,
+      "avg_submitted": 383.42,
+      "avg_paid": 120.76
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4266,
+      "payments": 781539.55,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8619,
+      "payments": 738249.25,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 4902,
+      "payments": 375162.76,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3263,
+      "payments": 187417.8,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1047,
+      "payments": 145501.84,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1055,
+      "payments": 120054.58,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 996,
+      "payments": 88652.75,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 481,
+      "payments": 79652.53,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 735,
+      "payments": 67708.54,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 485,
+      "payments": 29023.55,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "11043",
+      "description": "Removal of skin and/or muscle first 20 sq cm or less",
+      "services": 213,
+      "payments": 27986.8,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 556,
+      "payments": 20315.68,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 151,
+      "payments": 13351.71,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "11046",
+      "description": "Removal of skin and/or muscle",
+      "services": 95,
+      "payments": 4490.52,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 47,
+      "payments": 2375.89,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 12,
+      "payments": 767.24,
+      "avg_markup": 2.27
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2682250.98,
+    "total_services": 26923,
+    "total_beneficiaries": 9438,
+    "avg_markup_ratio": 2.61
+  }
+}

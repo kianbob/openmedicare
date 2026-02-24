@@ -1,0 +1,64 @@
+{
+  "name": "Curative Labs Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "San Dimas",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1416100.0,
+      "total_services": 14161,
+      "total_beneficiaries": 11048,
+      "avg_submitted": 250.02,
+      "avg_paid": 100.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 9372500.04,
+      "total_services": 177434,
+      "total_beneficiaries": 90058,
+      "avg_submitted": 131.67,
+      "avg_paid": 47.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 5916819.17,
+      "total_services": 115797,
+      "total_beneficiaries": 66833,
+      "avg_submitted": 133.33,
+      "avg_paid": 46.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 174112,
+      "payments": 13380928.75,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 133103,
+      "payments": 3317178.5,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "87811",
+      "description": "Sars-cov-2 covid19 w/optic",
+      "services": 177,
+      "payments": 7311.96,
+      "avg_markup": 2.42
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 16705419.21,
+    "total_services": 307392,
+    "total_beneficiaries": 167939,
+    "avg_markup_ratio": 2.98
+  }
+}

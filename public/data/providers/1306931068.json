@@ -1,0 +1,239 @@
+{
+  "name": "David Graham",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Warren",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 509522.34,
+      "total_services": 16165,
+      "total_beneficiaries": 8162,
+      "avg_submitted": 135.17,
+      "avg_paid": 52.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 547664.36,
+      "total_services": 15052,
+      "total_beneficiaries": 7408,
+      "avg_submitted": 127.6,
+      "avg_paid": 47.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 508514.17,
+      "total_services": 14766,
+      "total_beneficiaries": 7219,
+      "avg_submitted": 131.8,
+      "avg_paid": 49.39
+    },
+    {
+      "year": 2017,
+      "total_payments": 438940.63,
+      "total_services": 13527,
+      "total_beneficiaries": 6510,
+      "avg_submitted": 110.83,
+      "avg_paid": 47.56
+    },
+    {
+      "year": 2018,
+      "total_payments": 364795.79,
+      "total_services": 11532,
+      "total_beneficiaries": 5623,
+      "avg_submitted": 112.11,
+      "avg_paid": 44.67
+    },
+    {
+      "year": 2019,
+      "total_payments": 326432.77,
+      "total_services": 9804,
+      "total_beneficiaries": 5105,
+      "avg_submitted": 124.0,
+      "avg_paid": 49.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 246879.91,
+      "total_services": 7653,
+      "total_beneficiaries": 4067,
+      "avg_submitted": 121.59,
+      "avg_paid": 47.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 231678.6,
+      "total_services": 6105,
+      "total_beneficiaries": 3494,
+      "avg_submitted": 141.5,
+      "avg_paid": 57.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 239425.8,
+      "total_services": 6034,
+      "total_beneficiaries": 3236,
+      "avg_submitted": 168.43,
+      "avg_paid": 61.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 70312.13,
+      "total_services": 2110,
+      "total_beneficiaries": 1568,
+      "avg_submitted": 187.05,
+      "avg_paid": 61.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 6771,
+      "payments": 716008.42,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3394,
+      "payments": 286069.13,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 763,
+      "payments": 243793.58,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1722,
+      "payments": 229659.71,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 629,
+      "payments": 185763.09,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1848,
+      "payments": 155602.68,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 893,
+      "payments": 145052.86,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3543,
+      "payments": 129150.01,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "82240",
+      "description": "Bile acids level",
+      "services": 3087,
+      "payments": 103690.48,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 7570,
+      "payments": 94713.0,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 560,
+      "payments": 84681.56,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3985,
+      "payments": 81147.56,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1093,
+      "payments": 63591.42,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 3290,
+      "payments": 58633.37,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "83090",
+      "description": "Homocysteine (amino acid) level",
+      "services": 2652,
+      "payments": 57601.21,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 1361,
+      "payments": 54635.85,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 1058,
+      "payments": 48979.43,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 965,
+      "payments": 45920.94,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 3673,
+      "payments": 43864.3,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 2633,
+      "payments": 43292.26,
+      "avg_markup": 1.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3484166.49,
+    "total_services": 102748,
+    "total_beneficiaries": 52392,
+    "avg_markup_ratio": 2.34
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Alan Semion",
+  "credentials": "MD",
+  "specialty": "Dermatology",
+  "city": "Roseville",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 535440.37,
+      "total_services": 10597,
+      "total_beneficiaries": 5929,
+      "avg_submitted": 188.28,
+      "avg_paid": 105.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 495693.63,
+      "total_services": 10210,
+      "total_beneficiaries": 5833,
+      "avg_submitted": 180.4,
+      "avg_paid": 104.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 485067.77,
+      "total_services": 9928,
+      "total_beneficiaries": 5685,
+      "avg_submitted": 176.43,
+      "avg_paid": 101.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 460756.04,
+      "total_services": 9325,
+      "total_beneficiaries": 5356,
+      "avg_submitted": 174.77,
+      "avg_paid": 101.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 440908.7,
+      "total_services": 8972,
+      "total_beneficiaries": 5100,
+      "avg_submitted": 174.14,
+      "avg_paid": 98.98
+    },
+    {
+      "year": 2019,
+      "total_payments": 443538.21,
+      "total_services": 8778,
+      "total_beneficiaries": 4999,
+      "avg_submitted": 169.35,
+      "avg_paid": 100.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 346944.81,
+      "total_services": 6940,
+      "total_beneficiaries": 4262,
+      "avg_submitted": 180.99,
+      "avg_paid": 103.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 398448.64,
+      "total_services": 7069,
+      "total_beneficiaries": 4123,
+      "avg_submitted": 187.98,
+      "avg_paid": 115.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 351427.83,
+      "total_services": 6408,
+      "total_beneficiaries": 3771,
+      "avg_submitted": 196.77,
+      "avg_paid": 115.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 340386.96,
+      "total_services": 6051,
+      "total_beneficiaries": 3491,
+      "avg_submitted": 188.51,
+      "avg_paid": 114.98
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 23584,
+      "payments": 1362853.34,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 20228,
+      "payments": 858492.37,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 3523,
+      "payments": 262975.32,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 9039,
+      "payments": 243932.04,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "J7308",
+      "description": "Aminolevulinic acid hcl for topical administration, 20%, single unit dosage form (354 mg)",
+      "services": 782,
+      "payments": 204912.73,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 642,
+      "payments": 160463.24,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 2050,
+      "payments": 151594.59,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "12052",
+      "description": "Repair of wound (2.6 to 5.0 centimeters) of face, ears, eyelids, nose, lips, and/or mouth",
+      "services": 562,
+      "payments": 135308.6,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1205,
+      "payments": 100908.71,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "96574",
+      "description": "Application of light and light-sensitive drugs following removal of premalignant thickened skin growth, per day",
+      "services": 405,
+      "payments": 86445.37,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 14806,
+      "payments": 68762.14,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "11642",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 532,
+      "payments": 62281.1,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "17281",
+      "description": "Destruction of malignant growth (0.6 to 1.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 422,
+      "payments": 55270.66,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 417,
+      "payments": 53096.59,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "12042",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of neck, hands, feet, and/or genitals",
+      "services": 224,
+      "payments": 51892.58,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "96567",
+      "description": "Application of light to aid destruction of premalignant and/or malignant skin growths, each session",
+      "services": 523,
+      "payments": 51574.27,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 358,
+      "payments": 38903.84,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "11622",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the scalp, neck, hands, feet, or genitals",
+      "services": 277,
+      "payments": 29664.05,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "17261",
+      "description": "Destruction of malignant growth (0.6 to 1.0 centimeters) of trunk, arms, or legs",
+      "services": 234,
+      "payments": 24738.17,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 421,
+      "payments": 23450.17,
+      "avg_markup": 1.53
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4298612.96,
+    "total_services": 84278,
+    "total_beneficiaries": 48549,
+    "avg_markup_ratio": 1.74
+  }
+}

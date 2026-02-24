@@ -1,0 +1,231 @@
+{
+  "name": "Todd Dudley",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Greenwood",
+  "state": "IN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 377044.91,
+      "total_services": 10315,
+      "total_beneficiaries": 5808,
+      "avg_submitted": 62.86,
+      "avg_paid": 31.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 299648.07,
+      "total_services": 8814,
+      "total_beneficiaries": 5587,
+      "avg_submitted": 64.31,
+      "avg_paid": 31.18
+    },
+    {
+      "year": 2016,
+      "total_payments": 280672.05,
+      "total_services": 13297,
+      "total_beneficiaries": 9346,
+      "avg_submitted": 47.56,
+      "avg_paid": 23.99
+    },
+    {
+      "year": 2017,
+      "total_payments": 319599.46,
+      "total_services": 16276,
+      "total_beneficiaries": 11218,
+      "avg_submitted": 44.36,
+      "avg_paid": 21.2
+    },
+    {
+      "year": 2018,
+      "total_payments": 344782.39,
+      "total_services": 17967,
+      "total_beneficiaries": 12793,
+      "avg_submitted": 40.89,
+      "avg_paid": 22.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 310217.64,
+      "total_services": 17941,
+      "total_beneficiaries": 12606,
+      "avg_submitted": 43.09,
+      "avg_paid": 22.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 315606.49,
+      "total_services": 18258,
+      "total_beneficiaries": 13095,
+      "avg_submitted": 49.94,
+      "avg_paid": 25.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 378188.27,
+      "total_services": 17527,
+      "total_beneficiaries": 12865,
+      "avg_submitted": 56.74,
+      "avg_paid": 29.71
+    },
+    {
+      "year": 2022,
+      "total_payments": 46625.42,
+      "total_services": 2691,
+      "total_beneficiaries": 2430,
+      "avg_submitted": 44.37,
+      "avg_paid": 23.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10423,
+      "payments": 707168.52,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2333,
+      "payments": 182161.21,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 6111,
+      "payments": 119862.14,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2181,
+      "payments": 117687.53,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 505,
+      "payments": 86807.76,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 517,
+      "payments": 83709.38,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1271,
+      "payments": 66999.91,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 391,
+      "payments": 65351.11,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5944,
+      "payments": 62560.49,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 4677,
+      "payments": 61146.09,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6224,
+      "payments": 56523.95,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 3198,
+      "payments": 55607.08,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 6884,
+      "payments": 54374.42,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 6071,
+      "payments": 46106.03,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 2931,
+      "payments": 45763.9,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1042,
+      "payments": 44937.51,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 1153,
+      "payments": 43498.78,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 3649,
+      "payments": 43356.74,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 1195,
+      "payments": 40442.29,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 376,
+      "payments": 37621.94,
+      "avg_markup": 2.1
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2672384.7,
+    "total_services": 123086,
+    "total_beneficiaries": 85748,
+    "avg_markup_ratio": 2.09
+  }
+}

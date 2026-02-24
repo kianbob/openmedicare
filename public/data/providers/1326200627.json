@@ -1,0 +1,239 @@
+{
+  "name": "Garth Muir",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Draper",
+  "state": "UT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 199522.86,
+      "total_services": 2397,
+      "total_beneficiaries": 968,
+      "avg_submitted": 239.95,
+      "avg_paid": 94.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 385383.35,
+      "total_services": 4954,
+      "total_beneficiaries": 1457,
+      "avg_submitted": 180.08,
+      "avg_paid": 93.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 229446.76,
+      "total_services": 3088,
+      "total_beneficiaries": 852,
+      "avg_submitted": 178.33,
+      "avg_paid": 89.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 140302.14,
+      "total_services": 1903,
+      "total_beneficiaries": 533,
+      "avg_submitted": 227.14,
+      "avg_paid": 93.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 173417.04,
+      "total_services": 2246,
+      "total_beneficiaries": 877,
+      "avg_submitted": 224.68,
+      "avg_paid": 88.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 337613.87,
+      "total_services": 4522,
+      "total_beneficiaries": 1221,
+      "avg_submitted": 146.41,
+      "avg_paid": 81.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 500546.57,
+      "total_services": 6716,
+      "total_beneficiaries": 2164,
+      "avg_submitted": 162.8,
+      "avg_paid": 89.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 382705.22,
+      "total_services": 5235,
+      "total_beneficiaries": 1976,
+      "avg_submitted": 145.71,
+      "avg_paid": 73.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 183618.45,
+      "total_services": 2559,
+      "total_beneficiaries": 880,
+      "avg_submitted": 167.86,
+      "avg_paid": 80.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 403230.11,
+      "total_services": 4942,
+      "total_beneficiaries": 1282,
+      "avg_submitted": 171.69,
+      "avg_paid": 81.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 26005,
+      "payments": 1838179.53,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2919,
+      "payments": 369531.67,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 1844,
+      "payments": 149926.67,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1639,
+      "payments": 129816.61,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2084,
+      "payments": 127176.4,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 943,
+      "payments": 98443.18,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1451,
+      "payments": 80128.68,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 425,
+      "payments": 66604.62,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 414,
+      "payments": 33759.41,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 372,
+      "payments": 10872.79,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 173,
+      "payments": 9015.23,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99356",
+      "description": "Extended inpatient or observation hospital service, first hour",
+      "services": 98,
+      "payments": 6714.96,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 42,
+      "payments": 5961.03,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 15,
+      "payments": 2124.38,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "G0506",
+      "description": "Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service)",
+      "services": 33,
+      "payments": 1538.79,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 20,
+      "payments": 1499.6,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 13,
+      "payments": 1345.1,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility care with moderate level of medical decision making, per day, if using time, at least 35 minutes",
+      "services": 14,
+      "payments": 1320.15,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 14,
+      "payments": 781.2,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 12,
+      "payments": 744.84,
+      "avg_markup": 1.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2935786.37,
+    "total_services": 38562,
+    "total_beneficiaries": 12210,
+    "avg_markup_ratio": 2.04
+  }
+}

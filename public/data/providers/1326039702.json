@@ -1,0 +1,225 @@
+{
+  "name": "Elias Amador",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Atlantis",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 274076.71,
+      "total_services": 4022,
+      "total_beneficiaries": 1473,
+      "avg_submitted": 254.08,
+      "avg_paid": 89.5
+    },
+    {
+      "year": 2015,
+      "total_payments": 134229.78,
+      "total_services": 2065,
+      "total_beneficiaries": 984,
+      "avg_submitted": 250.73,
+      "avg_paid": 84.86
+    },
+    {
+      "year": 2016,
+      "total_payments": 297741.89,
+      "total_services": 4598,
+      "total_beneficiaries": 1545,
+      "avg_submitted": 278.73,
+      "avg_paid": 88.45
+    },
+    {
+      "year": 2017,
+      "total_payments": 341605.08,
+      "total_services": 5041,
+      "total_beneficiaries": 2069,
+      "avg_submitted": 282.02,
+      "avg_paid": 80.01
+    },
+    {
+      "year": 2018,
+      "total_payments": 237084.39,
+      "total_services": 3038,
+      "total_beneficiaries": 922,
+      "avg_submitted": 308.75,
+      "avg_paid": 101.48
+    },
+    {
+      "year": 2019,
+      "total_payments": 148830.45,
+      "total_services": 1816,
+      "total_beneficiaries": 758,
+      "avg_submitted": 307.89,
+      "avg_paid": 104.08
+    },
+    {
+      "year": 2020,
+      "total_payments": 177503.89,
+      "total_services": 2040,
+      "total_beneficiaries": 950,
+      "avg_submitted": 344.94,
+      "avg_paid": 102.19
+    },
+    {
+      "year": 2021,
+      "total_payments": 154787.78,
+      "total_services": 1816,
+      "total_beneficiaries": 1017,
+      "avg_submitted": 409.24,
+      "avg_paid": 100.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 260552.06,
+      "total_services": 2918,
+      "total_beneficiaries": 1481,
+      "avg_submitted": 691.55,
+      "avg_paid": 109.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 428395.56,
+      "total_services": 4469,
+      "total_beneficiaries": 1641,
+      "avg_submitted": 677.68,
+      "avg_paid": 112.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8597,
+      "payments": 747410.2,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10287,
+      "payments": 608226.95,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3196,
+      "payments": 256059.28,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1502,
+      "payments": 241500.61,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2253,
+      "payments": 132243.08,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1185,
+      "payments": 104506.11,
+      "avg_markup": 7.54
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 558,
+      "payments": 102771.13,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1164,
+      "payments": 65469.88,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1684,
+      "payments": 54214.56,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 253,
+      "payments": 35177.9,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 369,
+      "payments": 21612.62,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 138,
+      "payments": 20710.28,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 182,
+      "payments": 20548.64,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 164,
+      "payments": 14803.06,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 121,
+      "payments": 13122.0,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care admitted and discharged on the same day for high severity problem, typically 55 minutes",
+      "services": 48,
+      "payments": 7908.66,
+      "avg_markup": 9.35
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 52,
+      "payments": 4336.1,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 70,
+      "payments": 4186.53,
+      "avg_markup": 2.57
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2454807.59,
+    "total_services": 31823,
+    "total_beneficiaries": 12840,
+    "avg_markup_ratio": 4.19
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Andrew Barnstein",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Baltimore",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 509452.18,
+      "total_services": 5683,
+      "total_beneficiaries": 4484,
+      "avg_submitted": 305.97,
+      "avg_paid": 92.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 512617.73,
+      "total_services": 5804,
+      "total_beneficiaries": 4501,
+      "avg_submitted": 285.66,
+      "avg_paid": 81.19
+    },
+    {
+      "year": 2016,
+      "total_payments": 389149.13,
+      "total_services": 5609,
+      "total_beneficiaries": 4435,
+      "avg_submitted": 266.07,
+      "avg_paid": 74.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 366856.93,
+      "total_services": 4613,
+      "total_beneficiaries": 3467,
+      "avg_submitted": 285.6,
+      "avg_paid": 84.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 362477.76,
+      "total_services": 4504,
+      "total_beneficiaries": 3336,
+      "avg_submitted": 323.17,
+      "avg_paid": 83.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 374089.93,
+      "total_services": 4634,
+      "total_beneficiaries": 3503,
+      "avg_submitted": 328.33,
+      "avg_paid": 79.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 297266.25,
+      "total_services": 3777,
+      "total_beneficiaries": 2982,
+      "avg_submitted": 298.38,
+      "avg_paid": 74.3
+    },
+    {
+      "year": 2021,
+      "total_payments": 361552.86,
+      "total_services": 4502,
+      "total_beneficiaries": 3350,
+      "avg_submitted": 278.13,
+      "avg_paid": 72.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 315546.94,
+      "total_services": 4433,
+      "total_beneficiaries": 3067,
+      "avg_submitted": 260.94,
+      "avg_paid": 63.35
+    },
+    {
+      "year": 2023,
+      "total_payments": 364185.34,
+      "total_services": 5032,
+      "total_beneficiaries": 3352,
+      "avg_submitted": 273.68,
+      "avg_paid": 63.66
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 11252,
+      "payments": 1642566.5,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11171,
+      "payments": 975018.31,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3074,
+      "payments": 265484.63,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 658,
+      "payments": 225745.12,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1583,
+      "payments": 177558.42,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 11353,
+      "payments": 145642.77,
+      "avg_markup": 5.91
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1089,
+      "payments": 141425.97,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 281,
+      "payments": 45425.95,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 659,
+      "payments": 28919.34,
+      "avg_markup": 5.96
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 636,
+      "payments": 25597.51,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 572,
+      "payments": 25172.84,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 203,
+      "payments": 23068.51,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 2515,
+      "payments": 17406.23,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "93017",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG tracing and monitoring",
+      "services": 649,
+      "payments": 15927.29,
+      "avg_markup": 8.03
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 318,
+      "payments": 13348.82,
+      "avg_markup": 4.56
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 78,
+      "payments": 12626.06,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 682,
+      "payments": 12197.45,
+      "avg_markup": 4.53
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 191,
+      "payments": 11097.85,
+      "avg_markup": 5.71
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 137,
+      "payments": 8610.56,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 95,
+      "payments": 6591.0,
+      "avg_markup": 6.79
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3853195.04,
+    "total_services": 48591,
+    "total_beneficiaries": 36477,
+    "avg_markup_ratio": 3.52
+  }
+}

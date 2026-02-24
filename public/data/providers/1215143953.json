@@ -1,0 +1,239 @@
+{
+  "name": "Kaiser Toosy",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "New Haven",
+  "state": "CT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 382146.9,
+      "total_services": 4720,
+      "total_beneficiaries": 2695,
+      "avg_submitted": 406.6,
+      "avg_paid": 85.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 327923.87,
+      "total_services": 4248,
+      "total_beneficiaries": 2431,
+      "avg_submitted": 406.11,
+      "avg_paid": 83.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 353896.14,
+      "total_services": 4764,
+      "total_beneficiaries": 2896,
+      "avg_submitted": 332.37,
+      "avg_paid": 79.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 331249.0,
+      "total_services": 4471,
+      "total_beneficiaries": 2887,
+      "avg_submitted": 375.63,
+      "avg_paid": 78.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 269743.48,
+      "total_services": 3967,
+      "total_beneficiaries": 2676,
+      "avg_submitted": 353.89,
+      "avg_paid": 74.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 254270.56,
+      "total_services": 3680,
+      "total_beneficiaries": 2444,
+      "avg_submitted": 331.79,
+      "avg_paid": 77.2
+    },
+    {
+      "year": 2020,
+      "total_payments": 185562.6,
+      "total_services": 2805,
+      "total_beneficiaries": 2044,
+      "avg_submitted": 311.25,
+      "avg_paid": 76.96
+    },
+    {
+      "year": 2021,
+      "total_payments": 208759.45,
+      "total_services": 2895,
+      "total_beneficiaries": 2022,
+      "avg_submitted": 320.88,
+      "avg_paid": 83.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 208495.45,
+      "total_services": 2948,
+      "total_beneficiaries": 2085,
+      "avg_submitted": 320.86,
+      "avg_paid": 82.25
+    },
+    {
+      "year": 2023,
+      "total_payments": 212829.29,
+      "total_services": 3022,
+      "total_beneficiaries": 2066,
+      "avg_submitted": 336.22,
+      "avg_paid": 86.91
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 13273,
+      "payments": 826954.43,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5033,
+      "payments": 439921.89,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1411,
+      "payments": 262373.58,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1092,
+      "payments": 183789.13,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1339,
+      "payments": 180395.66,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 3625,
+      "payments": 171543.45,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1704,
+      "payments": 157798.27,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 3228,
+      "payments": 157557.91,
+      "avg_markup": 4.24
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 3265,
+      "payments": 121448.13,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 617,
+      "payments": 107069.71,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 274,
+      "payments": 34261.76,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 578,
+      "payments": 15252.01,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "99442",
+      "description": "Telephone medical discussion with physician, 11-20 minutes",
+      "services": 223,
+      "payments": 15062.1,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 455,
+      "payments": 11534.96,
+      "avg_markup": 5.68
+    },
+    {
+      "code": "95806",
+      "description": "Unattended sleep study with recording of heart rate, oxygen, respiratory airflow and effort",
+      "services": 126,
+      "payments": 10981.14,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 176,
+      "payments": 8008.5,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 251,
+      "payments": 7047.76,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "90686",
+      "description": "Vaccine for influenza administered into muscle to individuals 3 years of age and older",
+      "services": 239,
+      "payments": 4357.36,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "95070",
+      "description": "Inhalation of medications with allergic reaction analysis",
+      "services": 142,
+      "payments": 3992.37,
+      "avg_markup": 7.11
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 61,
+      "payments": 3600.16,
+      "avg_markup": 17.98
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2734876.74,
+    "total_services": 37520,
+    "total_beneficiaries": 24246,
+    "avg_markup_ratio": 4.05
+  }
+}

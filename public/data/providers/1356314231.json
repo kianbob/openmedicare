@@ -1,0 +1,57 @@
+{
+  "name": "West Coast Ambulance Corp.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2350291.17,
+      "total_services": 25870,
+      "total_beneficiaries": 693,
+      "avg_submitted": 545.34,
+      "avg_paid": 90.86
+    },
+    {
+      "year": 2015,
+      "total_payments": 2263872.07,
+      "total_services": 24494,
+      "total_beneficiaries": 590,
+      "avg_submitted": 551.75,
+      "avg_paid": 92.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 421560.88,
+      "total_services": 4558,
+      "total_beneficiaries": 270,
+      "avg_submitted": 551.78,
+      "avg_paid": 92.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 27460,
+      "payments": 4894376.92,
+      "avg_markup": 6.05
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 27462,
+      "payments": 141347.2,
+      "avg_markup": 3.6
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 5035724.12,
+    "total_services": 54922,
+    "total_beneficiaries": 1553,
+    "avg_markup_ratio": 5.98
+  }
+}

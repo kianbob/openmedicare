@@ -1,0 +1,79 @@
+{
+  "name": "Guardian Flight Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Fairbanks",
+  "state": "AK",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2122421.26,
+      "total_services": 1184,
+      "total_beneficiaries": 1016,
+      "avg_submitted": 8532.9,
+      "avg_paid": 1949.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 2783075.37,
+      "total_services": 1526,
+      "total_beneficiaries": 1271,
+      "avg_submitted": 9608.23,
+      "avg_paid": 1992.63
+    },
+    {
+      "year": 2016,
+      "total_payments": 2869257.17,
+      "total_services": 1580,
+      "total_beneficiaries": 1324,
+      "avg_submitted": 9578.74,
+      "avg_paid": 1982.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 1802681.66,
+      "total_services": 980,
+      "total_beneficiaries": 830,
+      "avg_submitted": 11728.43,
+      "avg_paid": 2005.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 2575,
+      "payments": 9284984.0,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 62,
+      "payments": 266090.06,
+      "avg_markup": 5.12
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 2571,
+      "payments": 24706.68,
+      "avg_markup": 8.51
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 62,
+      "payments": 1654.72,
+      "avg_markup": 8.98
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 9577435.46,
+    "total_services": 5270,
+    "total_beneficiaries": 4441,
+    "avg_markup_ratio": 4.69
+  }
+}

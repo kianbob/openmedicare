@@ -1,0 +1,84 @@
+{
+  "name": "San Diego Medical Services Enterprise, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 7305684.75,
+      "total_services": 48008,
+      "total_beneficiaries": 30934,
+      "avg_submitted": 1598.49,
+      "avg_paid": 306.37
+    },
+    {
+      "year": 2015,
+      "total_payments": 1958352.31,
+      "total_services": 13014,
+      "total_beneficiaries": 10241,
+      "avg_submitted": 1185.21,
+      "avg_paid": 259.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 18836,
+      "payments": 6503954.41,
+      "avg_markup": 4.98
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 8845,
+      "payments": 1622421.02,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2055,
+      "payments": 599420.66,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 30250,
+      "payments": 170246.76,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 325,
+      "payments": 162592.94,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 584,
+      "payments": 129131.16,
+      "avg_markup": 7.61
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 127,
+      "payments": 76270.12,
+      "avg_markup": 4.64
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 9264037.06,
+    "total_services": 61022,
+    "total_beneficiaries": 41175,
+    "avg_markup_ratio": 5.15
+  }
+}

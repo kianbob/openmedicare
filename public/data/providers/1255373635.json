@@ -1,0 +1,239 @@
+{
+  "name": "Alan Keister",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Amarillo",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 370268.51,
+      "total_services": 19937,
+      "total_beneficiaries": 10973,
+      "avg_submitted": 55.8,
+      "avg_paid": 28.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 428314.18,
+      "total_services": 19777,
+      "total_beneficiaries": 11047,
+      "avg_submitted": 57.06,
+      "avg_paid": 34.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 485904.41,
+      "total_services": 20964,
+      "total_beneficiaries": 11843,
+      "avg_submitted": 54.58,
+      "avg_paid": 33.74
+    },
+    {
+      "year": 2017,
+      "total_payments": 526486.22,
+      "total_services": 22899,
+      "total_beneficiaries": 12943,
+      "avg_submitted": 50.41,
+      "avg_paid": 34.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 512384.6,
+      "total_services": 21567,
+      "total_beneficiaries": 12794,
+      "avg_submitted": 53.81,
+      "avg_paid": 35.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 554553.22,
+      "total_services": 23722,
+      "total_beneficiaries": 14106,
+      "avg_submitted": 55.47,
+      "avg_paid": 37.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 553837.33,
+      "total_services": 22312,
+      "total_beneficiaries": 13951,
+      "avg_submitted": 50.22,
+      "avg_paid": 33.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 653297.93,
+      "total_services": 24376,
+      "total_beneficiaries": 14871,
+      "avg_submitted": 51.38,
+      "avg_paid": 35.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 664902.86,
+      "total_services": 23804,
+      "total_beneficiaries": 14476,
+      "avg_submitted": 55.3,
+      "avg_paid": 35.46
+    },
+    {
+      "year": 2023,
+      "total_payments": 667151.16,
+      "total_services": 22960,
+      "total_beneficiaries": 14285,
+      "avg_submitted": 57.98,
+      "avg_paid": 38.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 26220,
+      "payments": 1338533.13,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 5308,
+      "payments": 592878.57,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6489,
+      "payments": 505492.72,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 8573,
+      "payments": 307291.54,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 19819,
+      "payments": 231409.02,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 10339,
+      "payments": 197980.45,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 18648,
+      "payments": 165790.97,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 800,
+      "payments": 143225.01,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 10591,
+      "payments": 124974.03,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 10418,
+      "payments": 117246.47,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "90682",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1848,
+      "payments": 106154.53,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3185,
+      "payments": 102408.46,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 766,
+      "payments": 76622.81,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 23379,
+      "payments": 73762.04,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 390,
+      "payments": 69839.02,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 5598,
+      "payments": 60922.27,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 368,
+      "payments": 58562.12,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1148,
+      "payments": 55945.47,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 2477,
+      "payments": 52341.86,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 306,
+      "payments": 49982.63,
+      "avg_markup": 1.03
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5417100.42,
+    "total_services": 222318,
+    "total_beneficiaries": 131289,
+    "avg_markup_ratio": 1.47
+  }
+}

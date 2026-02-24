@@ -1,0 +1,239 @@
+{
+  "name": "James Klepper",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Huntington",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 459751.34,
+      "total_services": 5421,
+      "total_beneficiaries": 3648,
+      "avg_submitted": 218.86,
+      "avg_paid": 94.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 483852.64,
+      "total_services": 5699,
+      "total_beneficiaries": 3840,
+      "avg_submitted": 216.98,
+      "avg_paid": 89.56
+    },
+    {
+      "year": 2016,
+      "total_payments": 531438.31,
+      "total_services": 6160,
+      "total_beneficiaries": 4161,
+      "avg_submitted": 258.03,
+      "avg_paid": 107.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 527849.97,
+      "total_services": 5860,
+      "total_beneficiaries": 4184,
+      "avg_submitted": 290.61,
+      "avg_paid": 121.27
+    },
+    {
+      "year": 2018,
+      "total_payments": 519850.51,
+      "total_services": 5840,
+      "total_beneficiaries": 4064,
+      "avg_submitted": 271.17,
+      "avg_paid": 112.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 508904.83,
+      "total_services": 5875,
+      "total_beneficiaries": 3891,
+      "avg_submitted": 233.97,
+      "avg_paid": 94.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 449275.25,
+      "total_services": 5234,
+      "total_beneficiaries": 3638,
+      "avg_submitted": 256.12,
+      "avg_paid": 96.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 484234.95,
+      "total_services": 5012,
+      "total_beneficiaries": 3436,
+      "avg_submitted": 220.18,
+      "avg_paid": 88.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 467675.98,
+      "total_services": 4611,
+      "total_beneficiaries": 3222,
+      "avg_submitted": 283.83,
+      "avg_paid": 121.11
+    },
+    {
+      "year": 2023,
+      "total_payments": 477863.06,
+      "total_services": 4815,
+      "total_beneficiaries": 3299,
+      "avg_submitted": 291.22,
+      "avg_paid": 126.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 20999,
+      "payments": 1346875.36,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 5884,
+      "payments": 1060405.55,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4271,
+      "payments": 680572.9,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 1929,
+      "payments": 448400.25,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2233,
+      "payments": 315711.94,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2744,
+      "payments": 179437.55,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 969,
+      "payments": 121030.88,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 145,
+      "payments": 110247.03,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "93320",
+      "description": "Doppler ultrasound study of heart blood flow, valves, and chambers",
+      "services": 1929,
+      "payments": 96820.69,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 371,
+      "payments": 65930.99,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4657,
+      "payments": 65649.36,
+      "avg_markup": 6.17
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 162,
+      "payments": 48721.5,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "93325",
+      "description": "Doppler ultrasound study of color-directed heart blood flow, rate, and valve function",
+      "services": 1964,
+      "payments": 47432.54,
+      "avg_markup": 9.95
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 200,
+      "payments": 45790.47,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 667,
+      "payments": 40658.06,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 327,
+      "payments": 33150.62,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1256,
+      "payments": 32056.74,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 156,
+      "payments": 30026.7,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 308,
+      "payments": 27323.91,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "G0009",
+      "description": "Administration of pneumococcal vaccine",
+      "services": 758,
+      "payments": 20290.37,
+      "avg_markup": 1.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4910696.85,
+    "total_services": 54527,
+    "total_beneficiaries": 37383,
+    "avg_markup_ratio": 2.55
+  }
+}

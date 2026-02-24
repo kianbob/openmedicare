@@ -1,0 +1,239 @@
+{
+  "name": "Michael Angeles",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 151996.18,
+      "total_services": 1693,
+      "total_beneficiaries": 1146,
+      "avg_submitted": 204.8,
+      "avg_paid": 94.68
+    },
+    {
+      "year": 2015,
+      "total_payments": 241540.67,
+      "total_services": 2981,
+      "total_beneficiaries": 1564,
+      "avg_submitted": 236.64,
+      "avg_paid": 92.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 250526.81,
+      "total_services": 3170,
+      "total_beneficiaries": 1879,
+      "avg_submitted": 249.98,
+      "avg_paid": 92.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 302866.92,
+      "total_services": 3610,
+      "total_beneficiaries": 2107,
+      "avg_submitted": 202.6,
+      "avg_paid": 85.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 329144.26,
+      "total_services": 3855,
+      "total_beneficiaries": 2218,
+      "avg_submitted": 183.08,
+      "avg_paid": 92.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 306593.07,
+      "total_services": 3520,
+      "total_beneficiaries": 1914,
+      "avg_submitted": 184.26,
+      "avg_paid": 95.28
+    },
+    {
+      "year": 2020,
+      "total_payments": 235341.18,
+      "total_services": 2675,
+      "total_beneficiaries": 1506,
+      "avg_submitted": 177.5,
+      "avg_paid": 95.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 238864.51,
+      "total_services": 2807,
+      "total_beneficiaries": 1645,
+      "avg_submitted": 169.29,
+      "avg_paid": 86.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 206886.18,
+      "total_services": 2518,
+      "total_beneficiaries": 1575,
+      "avg_submitted": 180.0,
+      "avg_paid": 89.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 195684.36,
+      "total_services": 2128,
+      "total_beneficiaries": 1345,
+      "avg_submitted": 171.11,
+      "avg_paid": 91.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6599,
+      "payments": 536296.23,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 5954,
+      "payments": 423779.92,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2546,
+      "payments": 384294.05,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3064,
+      "payments": 255260.05,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1410,
+      "payments": 182797.04,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2082,
+      "payments": 109718.27,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1003,
+      "payments": 77369.96,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1327,
+      "payments": 72955.46,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 519,
+      "payments": 72016.18,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 863,
+      "payments": 71578.4,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 545,
+      "payments": 59092.8,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 767,
+      "payments": 42833.15,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional, first 30 minutes",
+      "services": 571,
+      "payments": 33519.42,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 485,
+      "payments": 26599.78,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 232,
+      "payments": 23835.38,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 226,
+      "payments": 16186.32,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 81,
+      "payments": 14046.76,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 164,
+      "payments": 12428.58,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 94,
+      "payments": 10857.08,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 60,
+      "payments": 10723.25,
+      "avg_markup": 1.4
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2459444.14,
+    "total_services": 28957,
+    "total_beneficiaries": 16899,
+    "avg_markup_ratio": 2.18
+  }
+}

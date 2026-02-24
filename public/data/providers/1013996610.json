@@ -1,0 +1,124 @@
+{
+  "name": "Mansfield Ambulance Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Barberton",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2788522.18,
+      "total_services": 25506,
+      "total_beneficiaries": 12868,
+      "avg_submitted": 631.21,
+      "avg_paid": 245.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 2444374.58,
+      "total_services": 21801,
+      "total_beneficiaries": 10766,
+      "avg_submitted": 653.48,
+      "avg_paid": 280.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 2006614.51,
+      "total_services": 17448,
+      "total_beneficiaries": 8914,
+      "avg_submitted": 590.8,
+      "avg_paid": 248.03
+    },
+    {
+      "year": 2017,
+      "total_payments": 1806849.31,
+      "total_services": 15554,
+      "total_beneficiaries": 8611,
+      "avg_submitted": 655.33,
+      "avg_paid": 249.71
+    },
+    {
+      "year": 2018,
+      "total_payments": 1663598.78,
+      "total_services": 14915,
+      "total_beneficiaries": 8119,
+      "avg_submitted": 655.58,
+      "avg_paid": 250.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 1173341.89,
+      "total_services": 11073,
+      "total_beneficiaries": 6412,
+      "avg_submitted": 655.37,
+      "avg_paid": 256.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 552770.0,
+      "total_services": 5170,
+      "total_beneficiaries": 3110,
+      "avg_submitted": 710.48,
+      "avg_paid": 260.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 35651,
+      "payments": 5685227.5,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 12631,
+      "payments": 4012118.36,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3307,
+      "payments": 887392.43,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 4244,
+      "payments": 854464.81,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1173,
+      "payments": 641964.5,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 54444,
+      "payments": 347057.67,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 17,
+      "payments": 7845.97,
+      "avg_markup": 1.73
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 12436071.25,
+    "total_services": 111467,
+    "total_beneficiaries": 58800,
+    "avg_markup_ratio": 3.12
+  }
+}

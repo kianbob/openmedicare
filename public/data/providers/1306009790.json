@@ -1,0 +1,134 @@
+{
+  "name": "Midwest Ambulance Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Indianapolis",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 345877.44,
+      "total_services": 3791,
+      "total_beneficiaries": 1851,
+      "avg_submitted": 382.22,
+      "avg_paid": 182.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 443941.3,
+      "total_services": 4703,
+      "total_beneficiaries": 2600,
+      "avg_submitted": 382.0,
+      "avg_paid": 184.49
+    },
+    {
+      "year": 2016,
+      "total_payments": 456753.91,
+      "total_services": 4861,
+      "total_beneficiaries": 2932,
+      "avg_submitted": 381.98,
+      "avg_paid": 183.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 435057.75,
+      "total_services": 4484,
+      "total_beneficiaries": 2436,
+      "avg_submitted": 381.98,
+      "avg_paid": 185.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 443409.21,
+      "total_services": 4502,
+      "total_beneficiaries": 2378,
+      "avg_submitted": 382.05,
+      "avg_paid": 187.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 418948.16,
+      "total_services": 4521,
+      "total_beneficiaries": 1953,
+      "avg_submitted": 352.5,
+      "avg_paid": 187.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 422415.89,
+      "total_services": 4742,
+      "total_beneficiaries": 1819,
+      "avg_submitted": 382.0,
+      "avg_paid": 195.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 271639.34,
+      "total_services": 3127,
+      "total_beneficiaries": 1622,
+      "avg_submitted": 382.0,
+      "avg_paid": 196.79
+    },
+    {
+      "year": 2022,
+      "total_payments": 243265.62,
+      "total_services": 2782,
+      "total_beneficiaries": 1709,
+      "avg_submitted": 327.5,
+      "avg_paid": 168.83
+    },
+    {
+      "year": 2023,
+      "total_payments": 6454.51,
+      "total_services": 79,
+      "total_beneficiaries": 70,
+      "avg_submitted": 180.0,
+      "avg_paid": 84.67
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 14813,
+      "payments": 2266977.29,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2522,
+      "payments": 674735.36,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 1192,
+      "payments": 374302.29,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18728,
+      "payments": 104447.22,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 337,
+      "payments": 67300.98,
+      "avg_markup": 2.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3487763.14,
+    "total_services": 37592,
+    "total_beneficiaries": 19370,
+    "avg_markup_ratio": 2.12
+  }
+}

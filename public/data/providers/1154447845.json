@@ -1,0 +1,72 @@
+{
+  "name": "Amb-U-Car, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Jersey City",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1012973.27,
+      "total_services": 9900,
+      "total_beneficiaries": 3410,
+      "avg_submitted": 302.41,
+      "avg_paid": 168.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 811719.15,
+      "total_services": 7262,
+      "total_beneficiaries": 3553,
+      "avg_submitted": 327.96,
+      "avg_paid": 171.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 710112.05,
+      "total_services": 6186,
+      "total_beneficiaries": 3269,
+      "avg_submitted": 328.02,
+      "avg_paid": 171.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 121019.93,
+      "total_services": 949,
+      "total_beneficiaries": 560,
+      "avg_submitted": 327.89,
+      "avg_paid": 170.19
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 9843,
+      "payments": 1846470.74,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2339,
+      "payments": 743605.03,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12115,
+      "payments": 65748.64,
+      "avg_markup": 1.75
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2655824.4,
+    "total_services": 24297,
+    "total_beneficiaries": 10792,
+    "avg_markup_ratio": 1.8
+  }
+}

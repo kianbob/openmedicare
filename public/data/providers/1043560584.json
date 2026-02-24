@@ -1,0 +1,80 @@
+{
+  "name": "Select Choice Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Decatur",
+  "state": "GA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 563719.07,
+      "total_services": 6902,
+      "total_beneficiaries": 121,
+      "avg_submitted": 218.5,
+      "avg_paid": 81.7
+    },
+    {
+      "year": 2015,
+      "total_payments": 626369.9,
+      "total_services": 7558,
+      "total_beneficiaries": 90,
+      "avg_submitted": 312.33,
+      "avg_paid": 126.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 540482.39,
+      "total_services": 6576,
+      "total_beneficiaries": 96,
+      "avg_submitted": 218.5,
+      "avg_paid": 82.17
+    },
+    {
+      "year": 2017,
+      "total_payments": 521802.7,
+      "total_services": 6325,
+      "total_beneficiaries": 82,
+      "avg_submitted": 212.82,
+      "avg_paid": 82.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 183013.06,
+      "total_services": 2226,
+      "total_beneficiaries": 81,
+      "avg_submitted": 218.46,
+      "avg_paid": 82.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 14781,
+      "payments": 2355465.21,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14788,
+      "payments": 76080.34,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 18,
+      "payments": 3841.56,
+      "avg_markup": 2.34
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 2435387.11,
+    "total_services": 29587,
+    "total_beneficiaries": 470,
+    "avg_markup_ratio": 2.64
+  }
+}

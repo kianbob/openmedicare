@@ -1,0 +1,239 @@
+{
+  "name": "Monty Morales",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Tucson",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 342405.16,
+      "total_services": 4946,
+      "total_beneficiaries": 3114,
+      "avg_submitted": 250.61,
+      "avg_paid": 89.92
+    },
+    {
+      "year": 2015,
+      "total_payments": 408042.29,
+      "total_services": 5565,
+      "total_beneficiaries": 3705,
+      "avg_submitted": 284.87,
+      "avg_paid": 104.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 457176.09,
+      "total_services": 6305,
+      "total_beneficiaries": 4267,
+      "avg_submitted": 275.86,
+      "avg_paid": 99.63
+    },
+    {
+      "year": 2017,
+      "total_payments": 448368.19,
+      "total_services": 6076,
+      "total_beneficiaries": 4388,
+      "avg_submitted": 246.91,
+      "avg_paid": 84.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 532023.63,
+      "total_services": 5784,
+      "total_beneficiaries": 4177,
+      "avg_submitted": 430.01,
+      "avg_paid": 161.71
+    },
+    {
+      "year": 2019,
+      "total_payments": 662573.04,
+      "total_services": 7273,
+      "total_beneficiaries": 4619,
+      "avg_submitted": 421.78,
+      "avg_paid": 158.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 550562.85,
+      "total_services": 6896,
+      "total_beneficiaries": 4054,
+      "avg_submitted": 439.18,
+      "avg_paid": 162.44
+    },
+    {
+      "year": 2021,
+      "total_payments": 571351.55,
+      "total_services": 6602,
+      "total_beneficiaries": 4017,
+      "avg_submitted": 373.13,
+      "avg_paid": 140.96
+    },
+    {
+      "year": 2022,
+      "total_payments": 546768.85,
+      "total_services": 5893,
+      "total_beneficiaries": 3831,
+      "avg_submitted": 336.03,
+      "avg_paid": 125.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 524732.53,
+      "total_services": 5708,
+      "total_beneficiaries": 3849,
+      "avg_submitted": 457.72,
+      "avg_paid": 159.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 20773,
+      "payments": 1653335.63,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "36482",
+      "description": "Chemical destruction of incompetent vein of arm or leg, accessed through the skin using imaging guidance",
+      "services": 428,
+      "payments": 626552.21,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4290,
+      "payments": 617442.4,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2182,
+      "payments": 231524.88,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 1362,
+      "payments": 197375.52,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1258,
+      "payments": 141916.54,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "36475",
+      "description": "Destruction of insufficient vein of arm or leg, accessed through the skin",
+      "services": 122,
+      "payments": 138211.59,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 9127,
+      "payments": 107170.48,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 694,
+      "payments": 102618.12,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 516,
+      "payments": 101446.79,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 155,
+      "payments": 93630.5,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "93297",
+      "description": "Remote evaluations of implantable heart monitoring system with physician analysis, review, and report up to 30 days",
+      "services": 4444,
+      "payments": 89789.75,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 180,
+      "payments": 78119.6,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 1566,
+      "payments": 71474.34,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 451,
+      "payments": 70578.55,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1357,
+      "payments": 70034.39,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "93971",
+      "description": "Ultrasound scan of veins of one arm or leg or limited including assessment of compression and functional maneuvers",
+      "services": 691,
+      "payments": 64447.05,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 764,
+      "payments": 61474.27,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 418,
+      "payments": 60421.12,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 745,
+      "payments": 45614.6,
+      "avg_markup": 2.35
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5044004.18,
+    "total_services": 61048,
+    "total_beneficiaries": 40021,
+    "avg_markup_ratio": 2.72
+  }
+}

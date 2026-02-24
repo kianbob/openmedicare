@@ -1,0 +1,191 @@
+{
+  "name": "Jack Husney",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 331926.59,
+      "total_services": 3540,
+      "total_beneficiaries": 1250,
+      "avg_submitted": 418.67,
+      "avg_paid": 112.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 909724.0,
+      "total_services": 10936,
+      "total_beneficiaries": 3404,
+      "avg_submitted": 924.96,
+      "avg_paid": 131.44
+    },
+    {
+      "year": 2022,
+      "total_payments": 976004.15,
+      "total_services": 11801,
+      "total_beneficiaries": 4114,
+      "avg_submitted": 1093.73,
+      "avg_paid": 124.27
+    },
+    {
+      "year": 2023,
+      "total_payments": 1500766.09,
+      "total_services": 17927,
+      "total_beneficiaries": 6043,
+      "avg_submitted": 1071.61,
+      "avg_paid": 126.8
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 24733,
+      "payments": 1707716.86,
+      "avg_markup": 5.7
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3555,
+      "payments": 439543.9,
+      "avg_markup": 4.81
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3838,
+      "payments": 383154.97,
+      "avg_markup": 4.87
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4283,
+      "payments": 283877.6,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1600,
+      "payments": 192034.15,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2361,
+      "payments": 169117.54,
+      "avg_markup": 6.02
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 782,
+      "payments": 138213.94,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 649,
+      "payments": 136286.04,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "43246",
+      "description": "Insertion of stomach tube using an endoscope",
+      "services": 262,
+      "payments": 51397.39,
+      "avg_markup": 11.46
+    },
+    {
+      "code": "99214",
+      "description": "Established patient outpatient visit, total time 30-39 minutes",
+      "services": 432,
+      "payments": 49910.2,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "43239",
+      "description": "Biopsy of the esophagus, stomach, and/or upper small bowel using an endoscope",
+      "services": 555,
+      "payments": 34114.54,
+      "avg_markup": 37.21
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 98,
+      "payments": 25591.59,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 236,
+      "payments": 19735.98,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "45380",
+      "description": "Biopsy of the large bowel using an endoscope (colonoscopy)",
+      "services": 110,
+      "payments": 16036.59,
+      "avg_markup": 22.98
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 97,
+      "payments": 14877.66,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99204",
+      "description": "New patient outpatient visit, total time 45-59 minutes",
+      "services": 66,
+      "payments": 9532.43,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "45385",
+      "description": "Removal of polyps or growths in large bowel using an endoscope (colonoscopy) using a mechanical snare",
+      "services": 37,
+      "payments": 8301.72,
+      "avg_markup": 16.32
+    },
+    {
+      "code": "43255",
+      "description": "Control of bleeding of esophagus, stomach, and/or upper small bowel using an endoscope",
+      "services": 47,
+      "payments": 7959.05,
+      "avg_markup": 15.8
+    },
+    {
+      "code": "43762",
+      "description": "Replacement of stomach stoma tube accessed through skin",
+      "services": 210,
+      "payments": 7803.5,
+      "avg_markup": 8.07
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 36,
+      "payments": 5641.56,
+      "avg_markup": 1.91
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3718420.83,
+    "total_services": 44204,
+    "total_beneficiaries": 14811,
+    "avg_markup_ratio": 5.35
+  }
+}

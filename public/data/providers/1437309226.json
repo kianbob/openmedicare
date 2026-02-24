@@ -1,0 +1,95 @@
+{
+  "name": "City Of Costa Mesa Finance Dept",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Costa Mesa",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 143583.88,
+      "total_services": 804,
+      "total_beneficiaries": 650,
+      "avg_submitted": 975.51,
+      "avg_paid": 236.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 524843.69,
+      "total_services": 2871,
+      "total_beneficiaries": 1961,
+      "avg_submitted": 1274.44,
+      "avg_paid": 323.05
+    },
+    {
+      "year": 2020,
+      "total_payments": 428542.51,
+      "total_services": 2280,
+      "total_beneficiaries": 1594,
+      "avg_submitted": 995.62,
+      "avg_paid": 246.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 484977.61,
+      "total_services": 2556,
+      "total_beneficiaries": 1810,
+      "avg_submitted": 1380.72,
+      "avg_paid": 331.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 602211.61,
+      "total_services": 3090,
+      "total_beneficiaries": 2025,
+      "avg_submitted": 1147.56,
+      "avg_paid": 258.56
+    },
+    {
+      "year": 2023,
+      "total_payments": 666441.3,
+      "total_services": 3114,
+      "total_beneficiaries": 2099,
+      "avg_submitted": 1495.6,
+      "avg_paid": 281.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 3695,
+      "payments": 1526152.3,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3648,
+      "payments": 1263153.63,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 7345,
+      "payments": 45762.21,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 27,
+      "payments": 15532.48,
+      "avg_markup": 3.85
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 2850600.61,
+    "total_services": 14715,
+    "total_beneficiaries": 10139,
+    "avg_markup_ratio": 4.47
+  }
+}

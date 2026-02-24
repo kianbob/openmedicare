@@ -1,0 +1,125 @@
+{
+  "name": "Providence Health & Services Washington",
+  "credentials": "",
+  "specialty": "Radiation Therapy Center",
+  "city": "Aberdeen",
+  "state": "WA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 601544.32,
+      "total_services": 3401,
+      "total_beneficiaries": 206,
+      "avg_submitted": 751.17,
+      "avg_paid": 185.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 590492.03,
+      "total_services": 3353,
+      "total_beneficiaries": 184,
+      "avg_submitted": 700.09,
+      "avg_paid": 186.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 653320.95,
+      "total_services": 3715,
+      "total_beneficiaries": 224,
+      "avg_submitted": 720.0,
+      "avg_paid": 191.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 587941.89,
+      "total_services": 3479,
+      "total_beneficiaries": 197,
+      "avg_submitted": 806.5,
+      "avg_paid": 187.66
+    },
+    {
+      "year": 2020,
+      "total_payments": 556613.02,
+      "total_services": 3126,
+      "total_beneficiaries": 188,
+      "avg_submitted": 889.0,
+      "avg_paid": 185.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 598378.98,
+      "total_services": 3211,
+      "total_beneficiaries": 182,
+      "avg_submitted": 889.0,
+      "avg_paid": 188.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 502686.75,
+      "total_services": 2966,
+      "total_beneficiaries": 188,
+      "avg_submitted": 977.5,
+      "avg_paid": 179.34
+    },
+    {
+      "year": 2023,
+      "total_payments": 508434.28,
+      "total_services": 2918,
+      "total_beneficiaries": 185,
+      "avg_submitted": 1124.21,
+      "avg_paid": 175.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 8346,
+      "payments": 2426589.92,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19 mev",
+      "services": 3926,
+      "payments": 824314.06,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10 mev",
+      "services": 3398,
+      "payments": 700316.42,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 9791,
+      "payments": 604832.92,
+      "avg_markup": 11.41
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 113,
+      "payments": 37916.19,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "77417",
+      "description": "Therapeutic radiology port films",
+      "services": 595,
+      "payments": 5442.72,
+      "avg_markup": 20.35
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 4599412.22,
+    "total_services": 26169,
+    "total_beneficiaries": 1554,
+    "avg_markup_ratio": 4.71
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Harold Schick",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Merced",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 302034.55,
+      "total_services": 6888,
+      "total_beneficiaries": 3426,
+      "avg_submitted": 208.1,
+      "avg_paid": 77.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 292294.57,
+      "total_services": 6407,
+      "total_beneficiaries": 3262,
+      "avg_submitted": 202.21,
+      "avg_paid": 74.83
+    },
+    {
+      "year": 2016,
+      "total_payments": 287166.2,
+      "total_services": 6873,
+      "total_beneficiaries": 3328,
+      "avg_submitted": 202.84,
+      "avg_paid": 74.7
+    },
+    {
+      "year": 2017,
+      "total_payments": 267439.04,
+      "total_services": 6360,
+      "total_beneficiaries": 3101,
+      "avg_submitted": 237.67,
+      "avg_paid": 87.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 394912.97,
+      "total_services": 8252,
+      "total_beneficiaries": 4275,
+      "avg_submitted": 226.45,
+      "avg_paid": 85.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 350274.12,
+      "total_services": 6988,
+      "total_beneficiaries": 3939,
+      "avg_submitted": 226.85,
+      "avg_paid": 84.93
+    },
+    {
+      "year": 2020,
+      "total_payments": 246402.72,
+      "total_services": 5026,
+      "total_beneficiaries": 3257,
+      "avg_submitted": 320.57,
+      "avg_paid": 103.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 302537.98,
+      "total_services": 5550,
+      "total_beneficiaries": 3166,
+      "avg_submitted": 333.42,
+      "avg_paid": 101.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 293122.29,
+      "total_services": 5654,
+      "total_beneficiaries": 3635,
+      "avg_submitted": 420.08,
+      "avg_paid": 127.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 305415.42,
+      "total_services": 6185,
+      "total_beneficiaries": 3748,
+      "avg_submitted": 222.61,
+      "avg_paid": 71.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 23982,
+      "payments": 1291175.92,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 13889,
+      "payments": 448098.83,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 8709,
+      "payments": 267264.02,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 1843,
+      "payments": 157887.72,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 316,
+      "payments": 154086.26,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1929,
+      "payments": 135411.56,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 2445,
+      "payments": 114904.14,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 3513,
+      "payments": 96160.96,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1246,
+      "payments": 94205.97,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 2909,
+      "payments": 83697.21,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "92060",
+      "description": "Measurement of eye muscles to detect deviation of eyeball",
+      "services": 1248,
+      "payments": 59611.34,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "66982",
+      "description": "Complex removal of cataract with insertion of lens",
+      "services": 52,
+      "payments": 30167.45,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "76519",
+      "description": "Ultrasound of eye for determination of lens power",
+      "services": 461,
+      "payments": 21074.94,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "67820",
+      "description": "Removal of eyelashes by forceps",
+      "services": 666,
+      "payments": 20253.22,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 264,
+      "payments": 20219.4,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 59,
+      "payments": 14384.84,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "66174",
+      "description": "Dilation to improve eye fluid flow",
+      "services": 15,
+      "payments": 8413.3,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 104,
+      "payments": 6485.65,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "92283",
+      "description": "Extended color vision examination",
+      "services": 155,
+      "payments": 6363.22,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "97535",
+      "description": "Self-care or home management training, each 15 minutes",
+      "services": 255,
+      "payments": 5312.81,
+      "avg_markup": 2.39
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3041599.85,
+    "total_services": 64183,
+    "total_beneficiaries": 35137,
+    "avg_markup_ratio": 2.31
+  }
+}

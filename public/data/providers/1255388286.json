@@ -1,0 +1,239 @@
+{
+  "name": "Waddah Ahdab",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Highland",
+  "state": "IN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 300373.99,
+      "total_services": 4207,
+      "total_beneficiaries": 2213,
+      "avg_submitted": 177.14,
+      "avg_paid": 69.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 327586.83,
+      "total_services": 4684,
+      "total_beneficiaries": 2540,
+      "avg_submitted": 169.78,
+      "avg_paid": 69.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 269438.0,
+      "total_services": 3991,
+      "total_beneficiaries": 2337,
+      "avg_submitted": 173.41,
+      "avg_paid": 62.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 297578.57,
+      "total_services": 4218,
+      "total_beneficiaries": 2289,
+      "avg_submitted": 158.42,
+      "avg_paid": 61.05
+    },
+    {
+      "year": 2018,
+      "total_payments": 304544.54,
+      "total_services": 4347,
+      "total_beneficiaries": 2318,
+      "avg_submitted": 147.56,
+      "avg_paid": 60.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 217455.39,
+      "total_services": 3230,
+      "total_beneficiaries": 1872,
+      "avg_submitted": 166.7,
+      "avg_paid": 68.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 176693.41,
+      "total_services": 2531,
+      "total_beneficiaries": 1614,
+      "avg_submitted": 161.43,
+      "avg_paid": 72.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 187905.19,
+      "total_services": 2592,
+      "total_beneficiaries": 1610,
+      "avg_submitted": 162.25,
+      "avg_paid": 69.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 220349.35,
+      "total_services": 3054,
+      "total_beneficiaries": 1789,
+      "avg_submitted": 181.0,
+      "avg_paid": 79.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 270130.4,
+      "total_services": 3808,
+      "total_beneficiaries": 1897,
+      "avg_submitted": 131.5,
+      "avg_paid": 56.71
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11690,
+      "payments": 636264.17,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6327,
+      "payments": 501497.12,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2629,
+      "payments": 387221.98,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4356,
+      "payments": 322186.11,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2682,
+      "payments": 213683.3,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 860,
+      "payments": 116615.89,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 643,
+      "payments": 64924.37,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 872,
+      "payments": 47854.25,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 889,
+      "payments": 47598.29,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 884,
+      "payments": 45379.62,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 670,
+      "payments": 28357.4,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 228,
+      "payments": 27332.26,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 141,
+      "payments": 22264.09,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 307,
+      "payments": 16512.6,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 260,
+      "payments": 11986.54,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 558,
+      "payments": 9325.66,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 59,
+      "payments": 9113.47,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 90,
+      "payments": 8890.54,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 205,
+      "payments": 7549.02,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 286,
+      "payments": 6182.71,
+      "avg_markup": 1.85
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2572055.67,
+    "total_services": 36662,
+    "total_beneficiaries": 20479,
+    "avg_markup_ratio": 2.36
+  }
+}

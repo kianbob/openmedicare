@@ -1,0 +1,101 @@
+{
+  "name": "Tami Roberts",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Plano",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 469723.28,
+      "total_services": 5155,
+      "total_beneficiaries": 471,
+      "avg_submitted": 204.17,
+      "avg_paid": 83.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 762894.56,
+      "total_services": 9281,
+      "total_beneficiaries": 560,
+      "avg_submitted": 185.12,
+      "avg_paid": 69.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 893042.06,
+      "total_services": 10552,
+      "total_beneficiaries": 838,
+      "avg_submitted": 185.12,
+      "avg_paid": 74.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 922019.1,
+      "total_services": 11168,
+      "total_beneficiaries": 684,
+      "avg_submitted": 185.12,
+      "avg_paid": 73.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 1102470.7,
+      "total_services": 9089,
+      "total_beneficiaries": 499,
+      "avg_submitted": 224.21,
+      "avg_paid": 97.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "64445",
+      "description": "Injection of anesthetic agent, sciatic nerve",
+      "services": 16228,
+      "payments": 2584955.63,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "64447",
+      "description": "Injection of anesthetic agent, thigh nerve",
+      "services": 16166,
+      "payments": 951055.72,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "76942",
+      "description": "Ultrasonic guidance imaging supervision and interpretation for insertion of needle",
+      "services": 11787,
+      "payments": 542590.16,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 693,
+      "payments": 46043.95,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 289,
+      "payments": 22454.7,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 82,
+      "payments": 3049.54,
+      "avg_markup": 2.42
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4150149.7,
+    "total_services": 45245,
+    "total_beneficiaries": 3052,
+    "avg_markup_ratio": 2.45
+  }
+}

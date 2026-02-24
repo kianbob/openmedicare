@@ -1,0 +1,239 @@
+{
+  "name": "Vassar Brothers Hospital",
+  "credentials": "",
+  "specialty": "Radiation Therapy Center",
+  "city": "Kingston",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 832864.94,
+      "total_services": 4444,
+      "total_beneficiaries": 984,
+      "avg_submitted": 2290.0,
+      "avg_paid": 277.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 1044949.93,
+      "total_services": 5715,
+      "total_beneficiaries": 1129,
+      "avg_submitted": 2182.44,
+      "avg_paid": 273.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 1023104.97,
+      "total_services": 4789,
+      "total_beneficiaries": 924,
+      "avg_submitted": 2571.24,
+      "avg_paid": 287.61
+    },
+    {
+      "year": 2017,
+      "total_payments": 890284.93,
+      "total_services": 4242,
+      "total_beneficiaries": 995,
+      "avg_submitted": 2988.25,
+      "avg_paid": 248.79
+    },
+    {
+      "year": 2018,
+      "total_payments": 998185.89,
+      "total_services": 4690,
+      "total_beneficiaries": 1004,
+      "avg_submitted": 2833.17,
+      "avg_paid": 252.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 849112.42,
+      "total_services": 3896,
+      "total_beneficiaries": 847,
+      "avg_submitted": 2813.16,
+      "avg_paid": 245.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 816710.44,
+      "total_services": 3704,
+      "total_beneficiaries": 913,
+      "avg_submitted": 2574.57,
+      "avg_paid": 230.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 985550.41,
+      "total_services": 4107,
+      "total_beneficiaries": 939,
+      "avg_submitted": 2656.64,
+      "avg_paid": 238.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 581060.41,
+      "total_services": 2618,
+      "total_beneficiaries": 655,
+      "avg_submitted": 3152.41,
+      "avg_paid": 239.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 646953.22,
+      "total_services": 2771,
+      "total_beneficiaries": 683,
+      "avg_submitted": 3783.34,
+      "avg_paid": 230.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 6686,
+      "payments": 2107073.76,
+      "avg_markup": 12.33
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19mev",
+      "services": 6617,
+      "payments": 1482699.01,
+      "avg_markup": 6.33
+    },
+    {
+      "code": "G6016",
+      "description": "Compensator-based beam modulation treatment delivery of inverse planned treatment using 3 or more high resolution (milled or cast) compensator, convergent beam modulated fields, per treatment session",
+      "services": 4092,
+      "payments": 1274488.71,
+      "avg_markup": 13.13
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10mev",
+      "services": 4824,
+      "payments": 1055421.43,
+      "avg_markup": 6.47
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 387,
+      "payments": 537518.2,
+      "avg_markup": 8.37
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 4768,
+      "payments": 332069.64,
+      "avg_markup": 12.95
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 839,
+      "payments": 327005.76,
+      "avg_markup": 7.6
+    },
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 1049,
+      "payments": 228699.39,
+      "avg_markup": 9.8
+    },
+    {
+      "code": "77418",
+      "description": "Intensity modulated radiation treatment delivery per session",
+      "services": 683,
+      "payments": 226428.17,
+      "avg_markup": 6.46
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 2139,
+      "payments": 213793.79,
+      "avg_markup": 18.71
+    },
+    {
+      "code": "77295",
+      "description": "Management of radiation therapy, 3D",
+      "services": 542,
+      "payments": 160328.47,
+      "avg_markup": 30.43
+    },
+    {
+      "code": "77413",
+      "description": "Radiation treatment delivery, three or more treatment areas",
+      "services": 810,
+      "payments": 152310.81,
+      "avg_markup": 7.21
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 1814,
+      "payments": 151535.28,
+      "avg_markup": 18.92
+    },
+    {
+      "code": "77414",
+      "description": "Radiation treatment delivery, three or more treatment areas",
+      "services": 673,
+      "payments": 142622.17,
+      "avg_markup": 5.12
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 395,
+      "payments": 126464.02,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "77307",
+      "description": "Radiation therapy plan",
+      "services": 237,
+      "payments": 39364.66,
+      "avg_markup": 10.92
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 1020,
+      "payments": 39015.27,
+      "avg_markup": 13.65
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 423,
+      "payments": 26981.95,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "77417",
+      "description": "Therapeutic radiology port films",
+      "services": 1609,
+      "payments": 16218.41,
+      "avg_markup": 35.72
+    },
+    {
+      "code": "77470",
+      "description": "Special radiation treatment procedure",
+      "services": 94,
+      "payments": 10454.93,
+      "avg_markup": 22.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 8668777.56,
+    "total_services": 40976,
+    "total_beneficiaries": 9073,
+    "avg_markup_ratio": 10.41
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Acadian Ambulance Service Of Tennessee, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Memphis",
+  "state": "TN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 1196839.17,
+      "total_services": 9644,
+      "total_beneficiaries": 6753,
+      "avg_submitted": 1549.74,
+      "avg_paid": 253.75
+    },
+    {
+      "year": 2020,
+      "total_payments": 856148.31,
+      "total_services": 7287,
+      "total_beneficiaries": 4561,
+      "avg_submitted": 1687.61,
+      "avg_paid": 256.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 491915.42,
+      "total_services": 4356,
+      "total_beneficiaries": 2847,
+      "avg_submitted": 1880.05,
+      "avg_paid": 257.66
+    },
+    {
+      "year": 2022,
+      "total_payments": 1044243.93,
+      "total_services": 9880,
+      "total_beneficiaries": 6576,
+      "avg_submitted": 2086.06,
+      "avg_paid": 268.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 1165332.29,
+      "total_services": 9593,
+      "total_beneficiaries": 6998,
+      "avg_submitted": 2344.31,
+      "avg_paid": 290.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12498,
+      "payments": 2039994.59,
+      "avg_markup": 7.07
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 4476,
+      "payments": 1512352.43,
+      "avg_markup": 5.98
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2127,
+      "payments": 604046.7,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 475,
+      "payments": 277573.27,
+      "avg_markup": 7.17
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 905,
+      "payments": 197653.43,
+      "avg_markup": 10.88
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 20279,
+      "payments": 122858.71,
+      "avg_markup": 4.95
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4754479.12,
+    "total_services": 40760,
+    "total_beneficiaries": 27735,
+    "avg_markup_ratio": 6.67
+  }
+}

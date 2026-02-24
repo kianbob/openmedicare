@@ -1,0 +1,204 @@
+{
+  "name": "Harpreet Singh",
+  "credentials": "M.D.",
+  "specialty": "Emergency Medicine",
+  "city": "Jacksonville",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 224899.23,
+      "total_services": 2204,
+      "total_beneficiaries": 1128,
+      "avg_submitted": 440.42,
+      "avg_paid": 117.0
+    },
+    {
+      "year": 2015,
+      "total_payments": 196292.81,
+      "total_services": 2000,
+      "total_beneficiaries": 947,
+      "avg_submitted": 431.42,
+      "avg_paid": 111.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 363596.25,
+      "total_services": 4063,
+      "total_beneficiaries": 1351,
+      "avg_submitted": 415.84,
+      "avg_paid": 111.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 532371.28,
+      "total_services": 6496,
+      "total_beneficiaries": 2214,
+      "avg_submitted": 350.14,
+      "avg_paid": 100.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 456463.94,
+      "total_services": 6051,
+      "total_beneficiaries": 1848,
+      "avg_submitted": 368.2,
+      "avg_paid": 106.23
+    },
+    {
+      "year": 2019,
+      "total_payments": 561337.79,
+      "total_services": 7207,
+      "total_beneficiaries": 2284,
+      "avg_submitted": 342.74,
+      "avg_paid": 104.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 554769.55,
+      "total_services": 7087,
+      "total_beneficiaries": 2299,
+      "avg_submitted": 348.19,
+      "avg_paid": 107.23
+    },
+    {
+      "year": 2021,
+      "total_payments": 423744.85,
+      "total_services": 5007,
+      "total_beneficiaries": 1646,
+      "avg_submitted": 377.43,
+      "avg_paid": 115.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 436184.1,
+      "total_services": 5579,
+      "total_beneficiaries": 1853,
+      "avg_submitted": 368.62,
+      "avg_paid": 110.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 670761.76,
+      "total_services": 8106,
+      "total_beneficiaries": 2032,
+      "avg_submitted": 368.16,
+      "avg_paid": 110.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 25407,
+      "payments": 2146683.22,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3687,
+      "payments": 566798.59,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2275,
+      "payments": 404806.36,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4209,
+      "payments": 356376.48,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 8767,
+      "payments": 296301.88,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4843,
+      "payments": 259649.36,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3158,
+      "payments": 212912.91,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 786,
+      "payments": 103170.03,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 220,
+      "payments": 37203.8,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 205,
+      "payments": 16986.41,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 62,
+      "payments": 8995.33,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "99283",
+      "description": "Emergency department visit, moderately severe problem",
+      "services": 97,
+      "payments": 4280.41,
+      "avg_markup": 9.13
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care on day of discharge",
+      "services": 54,
+      "payments": 3159.64,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 17,
+      "payments": 1696.0,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 13,
+      "payments": 1401.14,
+      "avg_markup": 3.11
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4420421.56,
+    "total_services": 53800,
+    "total_beneficiaries": 17602,
+    "avg_markup_ratio": 3.23
+  }
+}

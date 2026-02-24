@@ -1,0 +1,239 @@
+{
+  "name": "Michael Truong",
+  "credentials": "M.D.",
+  "specialty": "Endocrinology",
+  "city": "Mission Viejo",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 476249.64,
+      "total_services": 17267,
+      "total_beneficiaries": 10320,
+      "avg_submitted": 76.73,
+      "avg_paid": 27.5
+    },
+    {
+      "year": 2015,
+      "total_payments": 449045.6,
+      "total_services": 16721,
+      "total_beneficiaries": 9560,
+      "avg_submitted": 70.15,
+      "avg_paid": 26.64
+    },
+    {
+      "year": 2016,
+      "total_payments": 438773.28,
+      "total_services": 16027,
+      "total_beneficiaries": 9382,
+      "avg_submitted": 74.6,
+      "avg_paid": 30.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 451463.28,
+      "total_services": 15374,
+      "total_beneficiaries": 8922,
+      "avg_submitted": 93.79,
+      "avg_paid": 34.79
+    },
+    {
+      "year": 2018,
+      "total_payments": 398764.33,
+      "total_services": 13723,
+      "total_beneficiaries": 8339,
+      "avg_submitted": 91.96,
+      "avg_paid": 30.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 397601.99,
+      "total_services": 14130,
+      "total_beneficiaries": 8571,
+      "avg_submitted": 92.12,
+      "avg_paid": 30.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 358450.45,
+      "total_services": 14675,
+      "total_beneficiaries": 9827,
+      "avg_submitted": 86.0,
+      "avg_paid": 28.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 619309.92,
+      "total_services": 38947,
+      "total_beneficiaries": 31431,
+      "avg_submitted": 56.59,
+      "avg_paid": 21.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 925365.33,
+      "total_services": 65182,
+      "total_beneficiaries": 47187,
+      "avg_submitted": 55.77,
+      "avg_paid": 18.92
+    },
+    {
+      "year": 2023,
+      "total_payments": 1092187.87,
+      "total_services": 80333,
+      "total_beneficiaries": 57630,
+      "avg_submitted": 57.97,
+      "avg_paid": 19.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 20112,
+      "payments": 1786493.89,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 25434,
+      "payments": 457404.06,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 30362,
+      "payments": 410279.8,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 37714,
+      "payments": 403239.4,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 10994,
+      "payments": 355942.3,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 7079,
+      "payments": 335959.63,
+      "avg_markup": 5.43
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 27136,
+      "payments": 218290.09,
+      "avg_markup": 5.35
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 20398,
+      "payments": 206976.13,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 7725,
+      "payments": 126681.43,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 10995,
+      "payments": 111321.29,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 1125,
+      "payments": 111230.11,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 25131,
+      "payments": 95986.08,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 1756,
+      "payments": 80439.33,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "77081",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 2007,
+      "payments": 66997.18,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 461,
+      "payments": 55566.1,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "82043",
+      "description": "Urine microalbumin (protein) level",
+      "services": 8428,
+      "payments": 51318.12,
+      "avg_markup": 6.4
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 2191,
+      "payments": 47433.54,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 358,
+      "payments": 47131.24,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 2319,
+      "payments": 45286.18,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 3027,
+      "payments": 42530.15,
+      "avg_markup": 2.99
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5607211.7,
+    "total_services": 292379,
+    "total_beneficiaries": 201169,
+    "avg_markup_ratio": 2.97
+  }
+}

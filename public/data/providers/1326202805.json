@@ -1,0 +1,176 @@
+{
+  "name": "Victor Azer",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "New Hyde Park",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 393631.24,
+      "total_services": 6562,
+      "total_beneficiaries": 3739,
+      "avg_submitted": 2196.69,
+      "avg_paid": 78.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 423273.89,
+      "total_services": 6490,
+      "total_beneficiaries": 3951,
+      "avg_submitted": 2309.57,
+      "avg_paid": 81.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 381585.7,
+      "total_services": 6274,
+      "total_beneficiaries": 3784,
+      "avg_submitted": 2321.6,
+      "avg_paid": 76.56
+    },
+    {
+      "year": 2017,
+      "total_payments": 319866.41,
+      "total_services": 5265,
+      "total_beneficiaries": 3165,
+      "avg_submitted": 2280.56,
+      "avg_paid": 67.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 317747.15,
+      "total_services": 4412,
+      "total_beneficiaries": 2587,
+      "avg_submitted": 2456.82,
+      "avg_paid": 67.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 381862.48,
+      "total_services": 4595,
+      "total_beneficiaries": 2376,
+      "avg_submitted": 2326.7,
+      "avg_paid": 62.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 299791.22,
+      "total_services": 3977,
+      "total_beneficiaries": 2140,
+      "avg_submitted": 2582.5,
+      "avg_paid": 80.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 377073.14,
+      "total_services": 5218,
+      "total_beneficiaries": 2597,
+      "avg_submitted": 2580.56,
+      "avg_paid": 69.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 298738.1,
+      "total_services": 4592,
+      "total_beneficiaries": 2364,
+      "avg_submitted": 537.29,
+      "avg_paid": 65.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 314156.79,
+      "total_services": 4463,
+      "total_beneficiaries": 2286,
+      "avg_submitted": 424.02,
+      "avg_paid": 67.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17564,
+      "payments": 1157204.0,
+      "avg_markup": 16.73
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9993,
+      "payments": 943057.37,
+      "avg_markup": 15.45
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4965,
+      "payments": 891034.64,
+      "avg_markup": 11.98
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4610,
+      "payments": 313329.04,
+      "avg_markup": 63.03
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 12276,
+      "payments": 92078.25,
+      "avg_markup": 45.98
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 682,
+      "payments": 47285.95,
+      "avg_markup": 86.42
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 351,
+      "payments": 33894.85,
+      "avg_markup": 18.2
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 678,
+      "payments": 13181.18,
+      "avg_markup": 61.55
+    },
+    {
+      "code": "93018",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician interpretation and report",
+      "services": 678,
+      "payments": 8698.56,
+      "avg_markup": 93.17
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 39,
+      "payments": 7621.12,
+      "avg_markup": 12.84
+    },
+    {
+      "code": "99407",
+      "description": "Smoking and tobacco use intensive counseling, greater than 10 minutes",
+      "services": 12,
+      "payments": 341.17,
+      "avg_markup": 1.48
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3507726.12,
+    "total_services": 51848,
+    "total_beneficiaries": 28989,
+    "avg_markup_ratio": 21.39
+  }
+}

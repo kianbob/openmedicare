@@ -1,0 +1,239 @@
+{
+  "name": "David Eschelbacher",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Tampa",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 332367.77,
+      "total_services": 4580,
+      "total_beneficiaries": 2270,
+      "avg_submitted": 147.45,
+      "avg_paid": 66.96
+    },
+    {
+      "year": 2015,
+      "total_payments": 419682.72,
+      "total_services": 5715,
+      "total_beneficiaries": 2453,
+      "avg_submitted": 136.79,
+      "avg_paid": 65.17
+    },
+    {
+      "year": 2016,
+      "total_payments": 281036.2,
+      "total_services": 3916,
+      "total_beneficiaries": 1858,
+      "avg_submitted": 149.16,
+      "avg_paid": 67.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 249227.78,
+      "total_services": 3546,
+      "total_beneficiaries": 1570,
+      "avg_submitted": 150.06,
+      "avg_paid": 67.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 289443.0,
+      "total_services": 3981,
+      "total_beneficiaries": 1366,
+      "avg_submitted": 156.79,
+      "avg_paid": 75.17
+    },
+    {
+      "year": 2019,
+      "total_payments": 320669.84,
+      "total_services": 4508,
+      "total_beneficiaries": 1587,
+      "avg_submitted": 286.19,
+      "avg_paid": 70.53
+    },
+    {
+      "year": 2020,
+      "total_payments": 284417.76,
+      "total_services": 4010,
+      "total_beneficiaries": 1372,
+      "avg_submitted": 281.06,
+      "avg_paid": 71.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 251302.74,
+      "total_services": 4009,
+      "total_beneficiaries": 1350,
+      "avg_submitted": 279.83,
+      "avg_paid": 69.81
+    },
+    {
+      "year": 2022,
+      "total_payments": 203233.25,
+      "total_services": 3324,
+      "total_beneficiaries": 1078,
+      "avg_submitted": 309.94,
+      "avg_paid": 76.27
+    },
+    {
+      "year": 2023,
+      "total_payments": 174374.92,
+      "total_services": 2889,
+      "total_beneficiaries": 914,
+      "avg_submitted": 254.38,
+      "avg_paid": 61.67
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 7916,
+      "payments": 753669.16,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 6456,
+      "payments": 655185.85,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 2643,
+      "payments": 366777.27,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 1918,
+      "payments": 287640.36,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 2554,
+      "payments": 213733.82,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 2561,
+      "payments": 105357.7,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 3006,
+      "payments": 95190.57,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 462,
+      "payments": 76017.39,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 365,
+      "payments": 60571.98,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 4279,
+      "payments": 58479.06,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 558,
+      "payments": 27858.99,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 248,
+      "payments": 23411.36,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1008,
+      "payments": 21983.1,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G0182",
+      "description": "Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",
+      "services": 240,
+      "payments": 19978.87,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 73,
+      "payments": 7260.29,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "J3420",
+      "description": "Injection, vitamin b-12 cyanocobalamin, up  to 1000 mcg",
+      "services": 3885,
+      "payments": 6513.48,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 270,
+      "payments": 4075.95,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 24,
+      "payments": 3433.44,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 180,
+      "payments": 2621.83,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "82962",
+      "description": "Blood glucose (sugar) test performed by hand-held instrument",
+      "services": 720,
+      "payments": 2342.49,
+      "avg_markup": 3.07
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2805755.99,
+    "total_services": 40478,
+    "total_beneficiaries": 15818,
+    "avg_markup_ratio": 3.07
+  }
+}

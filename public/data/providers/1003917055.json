@@ -1,0 +1,183 @@
+{
+  "name": "Matt Pham",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 504727.38,
+      "total_services": 6556,
+      "total_beneficiaries": 1469,
+      "avg_submitted": 216.75,
+      "avg_paid": 107.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 394386.76,
+      "total_services": 5085,
+      "total_beneficiaries": 1204,
+      "avg_submitted": 237.47,
+      "avg_paid": 99.63
+    },
+    {
+      "year": 2016,
+      "total_payments": 409932.43,
+      "total_services": 5130,
+      "total_beneficiaries": 1369,
+      "avg_submitted": 232.79,
+      "avg_paid": 113.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 355722.71,
+      "total_services": 4122,
+      "total_beneficiaries": 1478,
+      "avg_submitted": 220.9,
+      "avg_paid": 97.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 327924.7,
+      "total_services": 3725,
+      "total_beneficiaries": 1355,
+      "avg_submitted": 193.7,
+      "avg_paid": 95.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 239928.24,
+      "total_services": 2760,
+      "total_beneficiaries": 1047,
+      "avg_submitted": 230.97,
+      "avg_paid": 107.89
+    },
+    {
+      "year": 2020,
+      "total_payments": 153628.1,
+      "total_services": 1813,
+      "total_beneficiaries": 655,
+      "avg_submitted": 193.83,
+      "avg_paid": 93.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 127199.73,
+      "total_services": 1399,
+      "total_beneficiaries": 529,
+      "avg_submitted": 193.77,
+      "avg_paid": 97.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 139413.3,
+      "total_services": 1915,
+      "total_beneficiaries": 418,
+      "avg_submitted": 193.73,
+      "avg_paid": 95.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 17985.37,
+      "total_services": 170,
+      "total_beneficiaries": 123,
+      "avg_submitted": 203.33,
+      "avg_paid": 106.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 14664,
+      "payments": 836883.18,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9670,
+      "payments": 788502.67,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4573,
+      "payments": 716927.4,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3118,
+      "payments": 262823.6,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 335,
+      "payments": 24256.82,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 105,
+      "payments": 17733.38,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 63,
+      "payments": 8378.34,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 60,
+      "payments": 6604.43,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 30,
+      "payments": 5069.54,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 25,
+      "payments": 2109.5,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 14,
+      "payments": 788.2,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 18,
+      "payments": 771.66,
+      "avg_markup": 5.83
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2670848.72,
+    "total_services": 32675,
+    "total_beneficiaries": 9647,
+    "avg_markup_ratio": 2.25
+  }
+}

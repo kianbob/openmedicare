@@ -1,0 +1,225 @@
+{
+  "name": "D Ford",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Arlington",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 515457.68,
+      "total_services": 4184,
+      "total_beneficiaries": 3156,
+      "avg_submitted": 403.81,
+      "avg_paid": 125.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 490937.99,
+      "total_services": 3883,
+      "total_beneficiaries": 2918,
+      "avg_submitted": 403.92,
+      "avg_paid": 121.9
+    },
+    {
+      "year": 2016,
+      "total_payments": 410087.52,
+      "total_services": 3294,
+      "total_beneficiaries": 2500,
+      "avg_submitted": 404.58,
+      "avg_paid": 118.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 371275.66,
+      "total_services": 3033,
+      "total_beneficiaries": 2312,
+      "avg_submitted": 453.67,
+      "avg_paid": 131.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 352146.04,
+      "total_services": 2853,
+      "total_beneficiaries": 2204,
+      "avg_submitted": 379.53,
+      "avg_paid": 104.94
+    },
+    {
+      "year": 2019,
+      "total_payments": 358096.21,
+      "total_services": 2893,
+      "total_beneficiaries": 2209,
+      "avg_submitted": 394.14,
+      "avg_paid": 111.3
+    },
+    {
+      "year": 2020,
+      "total_payments": 193896.08,
+      "total_services": 1675,
+      "total_beneficiaries": 1341,
+      "avg_submitted": 396.8,
+      "avg_paid": 99.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 254168.48,
+      "total_services": 1862,
+      "total_beneficiaries": 1325,
+      "avg_submitted": 412.07,
+      "avg_paid": 109.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 206950.81,
+      "total_services": 1377,
+      "total_beneficiaries": 962,
+      "avg_submitted": 373.48,
+      "avg_paid": 99.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 172476.76,
+      "total_services": 1196,
+      "total_beneficiaries": 865,
+      "avg_submitted": 407.13,
+      "avg_paid": 111.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 3533,
+      "payments": 1599956.29,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 7552,
+      "payments": 609432.14,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 1488,
+      "payments": 360585.14,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 4067,
+      "payments": 241496.88,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1649,
+      "payments": 159493.29,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 3795,
+      "payments": 154318.83,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 1385,
+      "payments": 62581.42,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 1145,
+      "payments": 31838.81,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow, 1 or more sessions",
+      "services": 126,
+      "payments": 30287.3,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "0356T",
+      "description": "Insertion of drug delivery implant into tear ducts",
+      "services": 254,
+      "payments": 21424.9,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 598,
+      "payments": 17838.26,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 131,
+      "payments": 14699.49,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 267,
+      "payments": 8448.68,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 92,
+      "payments": 8159.66,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 62,
+      "payments": 3245.49,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 16,
+      "payments": 768.12,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "68841",
+      "description": "Insertion of drug delivery implant into tear duct of eye",
+      "services": 47,
+      "payments": 603.48,
+      "avg_markup": 15.58
+    },
+    {
+      "code": "76514",
+      "description": "Ultrasound of corneal structure and measurement",
+      "services": 43,
+      "payments": 315.05,
+      "avg_markup": 6.14
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3325493.23,
+    "total_services": 26250,
+    "total_beneficiaries": 19792,
+    "avg_markup_ratio": 3.63
+  }
+}

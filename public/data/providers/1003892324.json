@@ -1,0 +1,204 @@
+{
+  "name": "Mary Mcateer",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Falls Church",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 370326.96,
+      "total_services": 3070,
+      "total_beneficiaries": 2698,
+      "avg_submitted": 255.38,
+      "avg_paid": 188.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 335852.77,
+      "total_services": 3032,
+      "total_beneficiaries": 2695,
+      "avg_submitted": 192.95,
+      "avg_paid": 138.99
+    },
+    {
+      "year": 2016,
+      "total_payments": 347676.44,
+      "total_services": 3103,
+      "total_beneficiaries": 2785,
+      "avg_submitted": 250.56,
+      "avg_paid": 181.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 374551.99,
+      "total_services": 3430,
+      "total_beneficiaries": 3096,
+      "avg_submitted": 271.35,
+      "avg_paid": 198.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 290478.92,
+      "total_services": 3002,
+      "total_beneficiaries": 2735,
+      "avg_submitted": 271.95,
+      "avg_paid": 186.93
+    },
+    {
+      "year": 2019,
+      "total_payments": 341829.61,
+      "total_services": 3277,
+      "total_beneficiaries": 2982,
+      "avg_submitted": 256.66,
+      "avg_paid": 192.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 262004.32,
+      "total_services": 2707,
+      "total_beneficiaries": 2502,
+      "avg_submitted": 233.13,
+      "avg_paid": 168.02
+    },
+    {
+      "year": 2021,
+      "total_payments": 275346.41,
+      "total_services": 2764,
+      "total_beneficiaries": 2547,
+      "avg_submitted": 171.14,
+      "avg_paid": 124.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 196150.64,
+      "total_services": 2332,
+      "total_beneficiaries": 2209,
+      "avg_submitted": 138.98,
+      "avg_paid": 93.68
+    },
+    {
+      "year": 2023,
+      "total_payments": 181026.05,
+      "total_services": 2183,
+      "total_beneficiaries": 2059,
+      "avg_submitted": 137.8,
+      "avg_paid": 93.7
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 13182,
+      "payments": 1256212.62,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1081,
+      "payments": 609656.83,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 5394,
+      "payments": 375189.66,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 650,
+      "payments": 190339.59,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 2749,
+      "payments": 151051.26,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1129,
+      "payments": 120618.1,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 2875,
+      "payments": 93581.27,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 129,
+      "payments": 92418.47,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1246,
+      "payments": 66192.11,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 177,
+      "payments": 10472.9,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 124,
+      "payments": 4908.66,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 71,
+      "payments": 2521.62,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 33,
+      "payments": 1155.52,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "76514",
+      "description": "Ultrasound of corneal structure and measurement",
+      "services": 49,
+      "payments": 616.8,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11,
+      "payments": 308.7,
+      "avg_markup": 6.2
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2975244.11,
+    "total_services": 28900,
+    "total_beneficiaries": 26308,
+    "avg_markup_ratio": 1.45
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Nicolas Nassar",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "San Bernardino",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 308625.16,
+      "total_services": 4526,
+      "total_beneficiaries": 542,
+      "avg_submitted": 207.14,
+      "avg_paid": 106.92
+    },
+    {
+      "year": 2015,
+      "total_payments": 284736.86,
+      "total_services": 3927,
+      "total_beneficiaries": 510,
+      "avg_submitted": 218.73,
+      "avg_paid": 108.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 298445.78,
+      "total_services": 4189,
+      "total_beneficiaries": 686,
+      "avg_submitted": 207.02,
+      "avg_paid": 105.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 305652.76,
+      "total_services": 4421,
+      "total_beneficiaries": 607,
+      "avg_submitted": 215.14,
+      "avg_paid": 106.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 267834.99,
+      "total_services": 3916,
+      "total_beneficiaries": 571,
+      "avg_submitted": 220.0,
+      "avg_paid": 104.96
+    },
+    {
+      "year": 2019,
+      "total_payments": 270448.82,
+      "total_services": 4072,
+      "total_beneficiaries": 592,
+      "avg_submitted": 194.81,
+      "avg_paid": 94.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 358545.99,
+      "total_services": 4708,
+      "total_beneficiaries": 677,
+      "avg_submitted": 208.38,
+      "avg_paid": 100.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 298180.61,
+      "total_services": 3956,
+      "total_beneficiaries": 574,
+      "avg_submitted": 213.33,
+      "avg_paid": 101.22
+    },
+    {
+      "year": 2022,
+      "total_payments": 351785.3,
+      "total_services": 4481,
+      "total_beneficiaries": 578,
+      "avg_submitted": 212.53,
+      "avg_paid": 101.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 535033.31,
+      "total_services": 6377,
+      "total_beneficiaries": 677,
+      "avg_submitted": 219.93,
+      "avg_paid": 107.95
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 11275,
+      "payments": 876229.02,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 13872,
+      "payments": 776577.93,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7831,
+      "payments": 657736.9,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8421,
+      "payments": 488659.41,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1475,
+      "payments": 258873.25,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 563,
+      "payments": 87405.24,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 435,
+      "payments": 60831.24,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 348,
+      "payments": 37340.68,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 199,
+      "payments": 20802.68,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 77,
+      "payments": 7504.96,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 34,
+      "payments": 4132.91,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 43,
+      "payments": 3195.36,
+      "avg_markup": 1.61
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3279289.58,
+    "total_services": 44573,
+    "total_beneficiaries": 6014,
+    "avg_markup_ratio": 2.19
+  }
+}

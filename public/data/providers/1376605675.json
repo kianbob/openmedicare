@@ -1,0 +1,215 @@
+{
+  "name": "Richard Blau",
+  "credentials": "M.D.",
+  "specialty": "Rheumatology",
+  "city": "Hicksville",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 627648.18,
+      "total_services": 24749,
+      "total_beneficiaries": 13986,
+      "avg_submitted": 115.28,
+      "avg_paid": 36.49
+    },
+    {
+      "year": 2015,
+      "total_payments": 744217.44,
+      "total_services": 28607,
+      "total_beneficiaries": 18113,
+      "avg_submitted": 105.77,
+      "avg_paid": 34.12
+    },
+    {
+      "year": 2016,
+      "total_payments": 807193.92,
+      "total_services": 31203,
+      "total_beneficiaries": 20135,
+      "avg_submitted": 84.84,
+      "avg_paid": 28.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 855873.67,
+      "total_services": 34059,
+      "total_beneficiaries": 23306,
+      "avg_submitted": 94.34,
+      "avg_paid": 34.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 954461.43,
+      "total_services": 37750,
+      "total_beneficiaries": 26958,
+      "avg_submitted": 99.97,
+      "avg_paid": 36.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 721336.72,
+      "total_services": 29335,
+      "total_beneficiaries": 21399,
+      "avg_submitted": 89.49,
+      "avg_paid": 30.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 291399.49,
+      "total_services": 11794,
+      "total_beneficiaries": 10341,
+      "avg_submitted": 94.0,
+      "avg_paid": 29.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8601,
+      "payments": 797796.85,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "20611",
+      "description": "Aspiration and/or injection of major joint or joint capsule with recording and reporting using ultrasound guidance",
+      "services": 4824,
+      "payments": 420518.01,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4758,
+      "payments": 289606.21,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "76881",
+      "description": "Ultrasound of leg or arm",
+      "services": 2704,
+      "payments": 273189.05,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "J7321",
+      "description": "Hyaluronan or derivative, hyalgan or supartz, for intra-articular injection, per dose",
+      "services": 3908,
+      "payments": 262790.26,
+      "avg_markup": 4.46
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1406,
+      "payments": 197800.01,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 2583,
+      "payments": 131853.69,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 9740,
+      "payments": 119441.89,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2978,
+      "payments": 111604.05,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "96413",
+      "description": "Infusion of chemotherapy into a vein up to 1 hour",
+      "services": 773,
+      "payments": 101156.74,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "85027",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 10290,
+      "payments": 78542.61,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2987,
+      "payments": 62994.51,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "86038",
+      "description": "Screening test for autoimmune disorder",
+      "services": 3942,
+      "payments": 59959.76,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "86235",
+      "description": "Measurement of antibody for assessment of autoimmune disorder",
+      "services": 2685,
+      "payments": 59852.21,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 8751,
+      "payments": 57399.67,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "86200",
+      "description": "Measurement of antibody for rheumatoid arthritis assessment",
+      "services": 3343,
+      "payments": 55584.15,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "76882",
+      "description": "Ultrasound of arm or leg",
+      "services": 1326,
+      "payments": 54835.64,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 2985,
+      "payments": 53128.9,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "83090",
+      "description": "Homocysteine (amino acid) level",
+      "services": 2511,
+      "payments": 52639.56,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "86800",
+      "description": "Thyroglobulin (thyroid protein) antibody measurement",
+      "services": 2548,
+      "payments": 50156.18,
+      "avg_markup": 2.54
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 5002130.84,
+    "total_services": 197497,
+    "total_beneficiaries": 134238,
+    "avg_markup_ratio": 2.88
+  }
+}

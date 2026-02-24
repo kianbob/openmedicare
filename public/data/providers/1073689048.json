@@ -1,0 +1,211 @@
+{
+  "name": "Michael Schlachter",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 194822.01,
+      "total_services": 3688,
+      "total_beneficiaries": 755,
+      "avg_submitted": 269.27,
+      "avg_paid": 77.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 240704.47,
+      "total_services": 4433,
+      "total_beneficiaries": 861,
+      "avg_submitted": 309.8,
+      "avg_paid": 75.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 285910.44,
+      "total_services": 5433,
+      "total_beneficiaries": 1168,
+      "avg_submitted": 299.2,
+      "avg_paid": 72.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 254136.62,
+      "total_services": 5293,
+      "total_beneficiaries": 1102,
+      "avg_submitted": 287.18,
+      "avg_paid": 70.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 298110.43,
+      "total_services": 5996,
+      "total_beneficiaries": 1204,
+      "avg_submitted": 295.33,
+      "avg_paid": 70.13
+    },
+    {
+      "year": 2019,
+      "total_payments": 311645.16,
+      "total_services": 5805,
+      "total_beneficiaries": 870,
+      "avg_submitted": 240.12,
+      "avg_paid": 61.63
+    },
+    {
+      "year": 2020,
+      "total_payments": 281212.37,
+      "total_services": 6278,
+      "total_beneficiaries": 1064,
+      "avg_submitted": 245.73,
+      "avg_paid": 59.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 257292.21,
+      "total_services": 6145,
+      "total_beneficiaries": 1081,
+      "avg_submitted": 226.69,
+      "avg_paid": 61.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 195759.56,
+      "total_services": 4534,
+      "total_beneficiaries": 641,
+      "avg_submitted": 250.86,
+      "avg_paid": 64.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 239028.76,
+      "total_services": 4713,
+      "total_beneficiaries": 706,
+      "avg_submitted": 249.5,
+      "avg_paid": 69.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19837,
+      "payments": 1126892.2,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 15506,
+      "payments": 489911.26,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5906,
+      "payments": 317438.22,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 5396,
+      "payments": 185057.02,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1268,
+      "payments": 135622.15,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1728,
+      "payments": 97366.26,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 968,
+      "payments": 76079.09,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 342,
+      "payments": 28479.06,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 397,
+      "payments": 27955.08,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 191,
+      "payments": 23273.45,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 226,
+      "payments": 17857.54,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 196,
+      "payments": 15967.37,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "94626",
+      "description": "Professional services for outpatient pulmonary rehabilitation with continuous monitoring of blood oxygen, per session",
+      "services": 194,
+      "payments": 11874.5,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "G0424",
+      "description": "Pulmonary rehabilitation, including exercise (includes monitoring), one hour, per session, up to two sessions per day",
+      "services": 127,
+      "payments": 3080.31,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 13,
+      "payments": 1110.72,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 23,
+      "payments": 657.8,
+      "avg_markup": 3.15
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2558622.03,
+    "total_services": 52318,
+    "total_beneficiaries": 9452,
+    "avg_markup_ratio": 3.88
+  }
+}

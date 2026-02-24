@@ -1,0 +1,70 @@
+{
+  "name": "Katherine Thompson",
+  "credentials": "MD",
+  "specialty": "Pediatric Medicine",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 1938643.18,
+      "total_services": 27420,
+      "total_beneficiaries": 235,
+      "avg_submitted": 97.92,
+      "avg_paid": 70.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 2575586.0,
+      "total_services": 35255,
+      "total_beneficiaries": 214,
+      "avg_submitted": 91.47,
+      "avg_paid": 71.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99492",
+      "description": "Initial psychiatric collaborative care management, first 70 minutes in the first calendar month",
+      "services": 16497,
+      "payments": 2032543.91,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 14895,
+      "payments": 1092036.71,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99494",
+      "description": "Initial or subsequent psychiatric collaborative care management, additional 30 minutes in the first calendar month",
+      "services": 16393,
+      "payments": 842926.39,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services each additional 30 minutes clinical staff time",
+      "services": 14858,
+      "payments": 544503.9,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 32,
+      "payments": 2218.26,
+      "avg_markup": 1.65
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 4514229.17,
+    "total_services": 62675,
+    "total_beneficiaries": 449,
+    "avg_markup_ratio": 1.3
+  }
+}

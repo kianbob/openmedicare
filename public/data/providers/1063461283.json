@@ -1,0 +1,239 @@
+{
+  "name": "David Barile",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Princeton",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 296189.11,
+      "total_services": 3613,
+      "total_beneficiaries": 1208,
+      "avg_submitted": 250.82,
+      "avg_paid": 96.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 262155.42,
+      "total_services": 3417,
+      "total_beneficiaries": 1257,
+      "avg_submitted": 248.34,
+      "avg_paid": 93.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 273315.51,
+      "total_services": 3757,
+      "total_beneficiaries": 1524,
+      "avg_submitted": 237.79,
+      "avg_paid": 85.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 252251.4,
+      "total_services": 3357,
+      "total_beneficiaries": 1232,
+      "avg_submitted": 233.59,
+      "avg_paid": 79.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 293707.39,
+      "total_services": 3735,
+      "total_beneficiaries": 1253,
+      "avg_submitted": 238.64,
+      "avg_paid": 87.38
+    },
+    {
+      "year": 2019,
+      "total_payments": 318456.86,
+      "total_services": 4130,
+      "total_beneficiaries": 1350,
+      "avg_submitted": 221.75,
+      "avg_paid": 84.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 263881.8,
+      "total_services": 3522,
+      "total_beneficiaries": 1124,
+      "avg_submitted": 219.44,
+      "avg_paid": 87.5
+    },
+    {
+      "year": 2021,
+      "total_payments": 201890.38,
+      "total_services": 2575,
+      "total_beneficiaries": 732,
+      "avg_submitted": 226.18,
+      "avg_paid": 89.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 210709.86,
+      "total_services": 2666,
+      "total_beneficiaries": 797,
+      "avg_submitted": 246.0,
+      "avg_paid": 97.34
+    },
+    {
+      "year": 2023,
+      "total_payments": 171265.58,
+      "total_services": 2173,
+      "total_beneficiaries": 694,
+      "avg_submitted": 229.33,
+      "avg_paid": 93.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 11322,
+      "payments": 835349.51,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6363,
+      "payments": 355336.91,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 2264,
+      "payments": 229693.64,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1623,
+      "payments": 177260.41,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1696,
+      "payments": 147863.92,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1748,
+      "payments": 106122.17,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 744,
+      "payments": 99457.63,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 1381,
+      "payments": 91116.88,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 632,
+      "payments": 88600.22,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 489,
+      "payments": 81145.11,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 748,
+      "payments": 64636.13,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 494,
+      "payments": 55397.1,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 551,
+      "payments": 32851.6,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 405,
+      "payments": 26085.53,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 757,
+      "payments": 25078.08,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 122,
+      "payments": 19526.35,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 170,
+      "payments": 19318.67,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 220,
+      "payments": 18826.43,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 376,
+      "payments": 16687.77,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99335",
+      "description": "Established patient custodial care facility, group care, or assisted living visit, typically 25 minutes",
+      "services": 139,
+      "payments": 11062.57,
+      "avg_markup": 2.51
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2543823.3,
+    "total_services": 32945,
+    "total_beneficiaries": 11171,
+    "avg_markup_ratio": 2.61
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "name": "Mohamad Adam",
+  "credentials": "M.D.",
+  "specialty": "Hospitalist",
+  "city": "Sylvania",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 116406.63,
+      "total_services": 1687,
+      "total_beneficiaries": 1200,
+      "avg_submitted": 156.02,
+      "avg_paid": 76.03
+    },
+    {
+      "year": 2015,
+      "total_payments": 83885.27,
+      "total_services": 1345,
+      "total_beneficiaries": 766,
+      "avg_submitted": 205.23,
+      "avg_paid": 68.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 193059.17,
+      "total_services": 2355,
+      "total_beneficiaries": 1313,
+      "avg_submitted": 214.29,
+      "avg_paid": 91.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 299968.12,
+      "total_services": 3245,
+      "total_beneficiaries": 1587,
+      "avg_submitted": 233.62,
+      "avg_paid": 92.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 318428.44,
+      "total_services": 3510,
+      "total_beneficiaries": 1750,
+      "avg_submitted": 238.85,
+      "avg_paid": 95.27
+    },
+    {
+      "year": 2019,
+      "total_payments": 311027.49,
+      "total_services": 3653,
+      "total_beneficiaries": 1894,
+      "avg_submitted": 261.71,
+      "avg_paid": 104.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 288711.86,
+      "total_services": 3309,
+      "total_beneficiaries": 1677,
+      "avg_submitted": 262.57,
+      "avg_paid": 106.87
+    },
+    {
+      "year": 2021,
+      "total_payments": 270303.36,
+      "total_services": 3236,
+      "total_beneficiaries": 1544,
+      "avg_submitted": 261.24,
+      "avg_paid": 102.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 234565.51,
+      "total_services": 2788,
+      "total_beneficiaries": 1392,
+      "avg_submitted": 262.51,
+      "avg_paid": 100.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 264204.44,
+      "total_services": 2788,
+      "total_beneficiaries": 1328,
+      "avg_submitted": 238.88,
+      "avg_paid": 93.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11651,
+      "payments": 959941.37,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3383,
+      "payments": 521355.77,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6739,
+      "payments": 380408.98,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4066,
+      "payments": 339091.93,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 391,
+      "payments": 55847.99,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 316,
+      "payments": 32700.78,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 478,
+      "payments": 26708.62,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 182,
+      "payments": 14639.49,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 65,
+      "payments": 11067.68,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 89,
+      "payments": 8719.76,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 86,
+      "payments": 6512.68,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 213,
+      "payments": 6222.62,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 83,
+      "payments": 4559.29,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 32,
+      "payments": 4120.49,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 53,
+      "payments": 2820.66,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 42,
+      "payments": 2313.57,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 28,
+      "payments": 1972.32,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 19,
+      "payments": 1556.29,
+      "avg_markup": 2.54
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2380560.29,
+    "total_services": 27916,
+    "total_beneficiaries": 14451,
+    "avg_markup_ratio": 2.49
+  }
+}

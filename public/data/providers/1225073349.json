@@ -1,0 +1,239 @@
+{
+  "name": "Paris Bransford",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Beaumont",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 388324.99,
+      "total_services": 6188,
+      "total_beneficiaries": 3852,
+      "avg_submitted": 377.05,
+      "avg_paid": 103.49
+    },
+    {
+      "year": 2015,
+      "total_payments": 403591.14,
+      "total_services": 6366,
+      "total_beneficiaries": 3908,
+      "avg_submitted": 449.48,
+      "avg_paid": 119.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 306822.6,
+      "total_services": 5570,
+      "total_beneficiaries": 3347,
+      "avg_submitted": 337.97,
+      "avg_paid": 99.78
+    },
+    {
+      "year": 2017,
+      "total_payments": 326112.19,
+      "total_services": 5544,
+      "total_beneficiaries": 3424,
+      "avg_submitted": 317.36,
+      "avg_paid": 93.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 347720.41,
+      "total_services": 5961,
+      "total_beneficiaries": 3630,
+      "avg_submitted": 383.74,
+      "avg_paid": 102.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 339128.87,
+      "total_services": 6035,
+      "total_beneficiaries": 3481,
+      "avg_submitted": 334.92,
+      "avg_paid": 95.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 309649.13,
+      "total_services": 5784,
+      "total_beneficiaries": 3220,
+      "avg_submitted": 260.36,
+      "avg_paid": 79.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 422696.71,
+      "total_services": 6504,
+      "total_beneficiaries": 3359,
+      "avg_submitted": 416.29,
+      "avg_paid": 168.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 530974.55,
+      "total_services": 10114,
+      "total_beneficiaries": 3841,
+      "avg_submitted": 399.99,
+      "avg_paid": 161.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 556603.03,
+      "total_services": 11432,
+      "total_beneficiaries": 3732,
+      "avg_submitted": 429.4,
+      "avg_paid": 162.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13455,
+      "payments": 1022704.3,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4486,
+      "payments": 561282.26,
+      "avg_markup": 6.95
+    },
+    {
+      "code": "33285",
+      "description": "Insertion of heart rhythm monitor under skin",
+      "services": 56,
+      "payments": 197957.1,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 12838,
+      "payments": 140971.23,
+      "avg_markup": 7.29
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1284,
+      "payments": 140752.32,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1180,
+      "payments": 128954.27,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 3265,
+      "payments": 122777.89,
+      "avg_markup": 5.32
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 228,
+      "payments": 122182.09,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 3270,
+      "payments": 117618.54,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1082,
+      "payments": 115969.27,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1852,
+      "payments": 101663.43,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 1260,
+      "payments": 86040.92,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 2750,
+      "payments": 81868.6,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 788,
+      "payments": 79475.23,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 231,
+      "payments": 72461.41,
+      "avg_markup": 5.4
+    },
+    {
+      "code": "36147",
+      "description": "Insertion of needle and/or catheter for dialysis",
+      "services": 128,
+      "payments": 58096.42,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "93229",
+      "description": "Electrocardiogram (ecg) up to 30 days continuous with transmission of patient triggered events with review and report by health care professional",
+      "services": 79,
+      "payments": 50996.16,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 3621,
+      "payments": 50229.69,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 370,
+      "payments": 49399.27,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "35476",
+      "description": "Balloon dilation of narrowed or blocked vein, accessed through the skin",
+      "services": 50,
+      "payments": 43628.42,
+      "avg_markup": 3.25
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3931623.6,
+    "total_services": 69498,
+    "total_beneficiaries": 35794,
+    "avg_markup_ratio": 3.32
+  }
+}

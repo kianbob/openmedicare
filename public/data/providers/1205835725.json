@@ -1,0 +1,239 @@
+{
+  "name": "Raphael Agada",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Petersburg",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 517299.25,
+      "total_services": 7737,
+      "total_beneficiaries": 2436,
+      "avg_submitted": 145.17,
+      "avg_paid": 63.6
+    },
+    {
+      "year": 2015,
+      "total_payments": 481551.2,
+      "total_services": 6822,
+      "total_beneficiaries": 2459,
+      "avg_submitted": 169.68,
+      "avg_paid": 73.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 455933.86,
+      "total_services": 6447,
+      "total_beneficiaries": 2310,
+      "avg_submitted": 198.96,
+      "avg_paid": 91.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 409669.22,
+      "total_services": 5479,
+      "total_beneficiaries": 2176,
+      "avg_submitted": 171.16,
+      "avg_paid": 81.75
+    },
+    {
+      "year": 2018,
+      "total_payments": 628124.23,
+      "total_services": 7941,
+      "total_beneficiaries": 2721,
+      "avg_submitted": 137.1,
+      "avg_paid": 65.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 557100.57,
+      "total_services": 7278,
+      "total_beneficiaries": 2356,
+      "avg_submitted": 148.35,
+      "avg_paid": 68.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 484864.45,
+      "total_services": 6271,
+      "total_beneficiaries": 1677,
+      "avg_submitted": 168.33,
+      "avg_paid": 83.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 283836.22,
+      "total_services": 3625,
+      "total_beneficiaries": 1299,
+      "avg_submitted": 174.5,
+      "avg_paid": 88.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 177347.75,
+      "total_services": 2133,
+      "total_beneficiaries": 983,
+      "avg_submitted": 182.97,
+      "avg_paid": 88.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 139468.75,
+      "total_services": 1614,
+      "total_beneficiaries": 737,
+      "avg_submitted": 173.11,
+      "avg_paid": 81.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21822,
+      "payments": 1224695.64,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10081,
+      "payments": 817529.72,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 6914,
+      "payments": 488118.69,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2490,
+      "payments": 385208.25,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3331,
+      "payments": 276605.07,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2139,
+      "payments": 223180.96,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1846,
+      "payments": 218891.17,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 823,
+      "payments": 141878.37,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1414,
+      "payments": 108589.47,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1268,
+      "payments": 68948.12,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 506,
+      "payments": 52320.18,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 583,
+      "payments": 32632.9,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 328,
+      "payments": 16046.68,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 157,
+      "payments": 15762.78,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 83,
+      "payments": 10848.83,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 187,
+      "payments": 10404.47,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 88,
+      "payments": 9592.98,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 229,
+      "payments": 8713.17,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 46,
+      "payments": 5957.9,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 33,
+      "payments": 4126.67,
+      "avg_markup": 2.59
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4135195.5,
+    "total_services": 55347,
+    "total_beneficiaries": 19154,
+    "avg_markup_ratio": 2.09
+  }
+}

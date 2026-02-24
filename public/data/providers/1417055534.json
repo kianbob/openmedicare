@@ -1,0 +1,96 @@
+{
+  "name": "Mauran Ambulance Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "San Fernando",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1174998.58,
+      "total_services": 12729,
+      "total_beneficiaries": 1221,
+      "avg_submitted": 297.45,
+      "avg_paid": 162.28
+    },
+    {
+      "year": 2015,
+      "total_payments": 675580.12,
+      "total_services": 7376,
+      "total_beneficiaries": 340,
+      "avg_submitted": 299.0,
+      "avg_paid": 163.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 25295.09,
+      "total_services": 293,
+      "total_beneficiaries": 60,
+      "avg_submitted": 125.55,
+      "avg_paid": 86.05
+    },
+    {
+      "year": 2020,
+      "total_payments": 87436.31,
+      "total_services": 1011,
+      "total_beneficiaries": 530,
+      "avg_submitted": 119.22,
+      "avg_paid": 86.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 211768.06,
+      "total_services": 2449,
+      "total_beneficiaries": 333,
+      "avg_submitted": 136.71,
+      "avg_paid": 86.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 202666.47,
+      "total_services": 2120,
+      "total_beneficiaries": 1038,
+      "avg_submitted": 142.58,
+      "avg_paid": 95.6
+    },
+    {
+      "year": 2023,
+      "total_payments": 199045.28,
+      "total_services": 1812,
+      "total_beneficiaries": 1154,
+      "avg_submitted": 157.19,
+      "avg_paid": 109.73
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 13676,
+      "payments": 2434740.79,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13883,
+      "payments": 71175.76,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 231,
+      "payments": 70873.35,
+      "avg_markup": 1.63
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2576789.9,
+    "total_services": 27790,
+    "total_beneficiaries": 4676,
+    "avg_markup_ratio": 1.97
+  }
+}

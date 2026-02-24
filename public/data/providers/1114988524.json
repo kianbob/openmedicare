@@ -1,0 +1,239 @@
+{
+  "name": "Seema Sahib",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Lowell",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 130448.39,
+      "total_services": 1608,
+      "total_beneficiaries": 1191,
+      "avg_submitted": 226.88,
+      "avg_paid": 87.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 151803.35,
+      "total_services": 1731,
+      "total_beneficiaries": 1222,
+      "avg_submitted": 249.1,
+      "avg_paid": 95.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 159953.42,
+      "total_services": 1831,
+      "total_beneficiaries": 1346,
+      "avg_submitted": 248.35,
+      "avg_paid": 95.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 88599.35,
+      "total_services": 1009,
+      "total_beneficiaries": 746,
+      "avg_submitted": 288.35,
+      "avg_paid": 107.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 36711.87,
+      "total_services": 410,
+      "total_beneficiaries": 334,
+      "avg_submitted": 254.26,
+      "avg_paid": 99.61
+    },
+    {
+      "year": 2019,
+      "total_payments": 132128.3,
+      "total_services": 1648,
+      "total_beneficiaries": 993,
+      "avg_submitted": 309.66,
+      "avg_paid": 73.65
+    },
+    {
+      "year": 2020,
+      "total_payments": 377563.68,
+      "total_services": 4512,
+      "total_beneficiaries": 2353,
+      "avg_submitted": 384.44,
+      "avg_paid": 98.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 363363.37,
+      "total_services": 4465,
+      "total_beneficiaries": 2328,
+      "avg_submitted": 366.29,
+      "avg_paid": 94.68
+    },
+    {
+      "year": 2022,
+      "total_payments": 432615.9,
+      "total_services": 5250,
+      "total_beneficiaries": 2276,
+      "avg_submitted": 342.04,
+      "avg_paid": 96.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 635014.47,
+      "total_services": 6574,
+      "total_beneficiaries": 2416,
+      "avg_submitted": 374.41,
+      "avg_paid": 102.53
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 14498,
+      "payments": 1319089.77,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 5327,
+      "payments": 487895.48,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5247,
+      "payments": 322258.51,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "99309",
+      "description": "Follow-up nursing facility visit per day, typically 25 minutes",
+      "services": 890,
+      "payments": 74667.57,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 334,
+      "payments": 60726.06,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 313,
+      "payments": 51354.21,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 838,
+      "payments": 49832.05,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 285,
+      "payments": 31186.64,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 274,
+      "payments": 23381.58,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit per day, typically 45 minutes",
+      "services": 102,
+      "payments": 14490.3,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 86,
+      "payments": 12795.04,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 218,
+      "payments": 12770.55,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 92,
+      "payments": 11283.71,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 120,
+      "payments": 10705.11,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 147,
+      "payments": 9315.94,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 79,
+      "payments": 8578.9,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 37,
+      "payments": 3472.32,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service, first hour",
+      "services": 41,
+      "payments": 3135.23,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 98,
+      "payments": 969.38,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "G0317",
+      "description": "Prolonged nursing facility evaluation and management service(s) beyond the total time for the primary service (when the primary service has been selected using time on the date of the primary service); each additional 15 minutes by the physician or qualifi",
+      "services": 12,
+      "payments": 293.76,
+      "avg_markup": 2.86
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2508202.1,
+    "total_services": 29038,
+    "total_beneficiaries": 15205,
+    "avg_markup_ratio": 3.79
+  }
+}

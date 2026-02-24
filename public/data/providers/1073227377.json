@@ -1,0 +1,48 @@
+{
+  "name": "Texas Medical Lab Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Mesquite",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2023,
+      "total_payments": 2786182.82,
+      "total_services": 24314,
+      "total_beneficiaries": 12667,
+      "avg_submitted": 224.38,
+      "avg_paid": 106.7
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 11973,
+      "payments": 1673406.94,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "0241U",
+      "description": "Respiratory infectious agent detection by rna for severe acute respiratory syndrome coronavirus 2 (covid 19), influenza a, influenza b, and respiratory syncytial virus, upper respiratory specimen, each reported as detected or not detected",
+      "services": 6171,
+      "payments": 862582.38,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 6170,
+      "payments": 250193.5,
+      "avg_markup": 2.53
+    }
+  ],
+  "overall": {
+    "years_active": 1,
+    "total_payments": 2786182.82,
+    "total_services": 24314,
+    "total_beneficiaries": 12667,
+    "avg_markup_ratio": 2.08
+  }
+}

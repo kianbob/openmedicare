@@ -1,0 +1,232 @@
+{
+  "name": "Asim Guha Roy",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 199456.17,
+      "total_services": 2796,
+      "total_beneficiaries": 743,
+      "avg_submitted": 144.38,
+      "avg_paid": 88.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 258504.6,
+      "total_services": 3531,
+      "total_beneficiaries": 1070,
+      "avg_submitted": 162.3,
+      "avg_paid": 87.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 250771.45,
+      "total_services": 3607,
+      "total_beneficiaries": 911,
+      "avg_submitted": 171.27,
+      "avg_paid": 83.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 253208.2,
+      "total_services": 3837,
+      "total_beneficiaries": 842,
+      "avg_submitted": 170.73,
+      "avg_paid": 79.76
+    },
+    {
+      "year": 2018,
+      "total_payments": 305279.96,
+      "total_services": 4539,
+      "total_beneficiaries": 1281,
+      "avg_submitted": 183.07,
+      "avg_paid": 86.68
+    },
+    {
+      "year": 2019,
+      "total_payments": 370903.06,
+      "total_services": 5268,
+      "total_beneficiaries": 1372,
+      "avg_submitted": 175.6,
+      "avg_paid": 89.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 443001.9,
+      "total_services": 5938,
+      "total_beneficiaries": 1215,
+      "avg_submitted": 167.36,
+      "avg_paid": 89.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 267864.01,
+      "total_services": 3703,
+      "total_beneficiaries": 909,
+      "avg_submitted": 166.92,
+      "avg_paid": 87.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 252525.34,
+      "total_services": 3546,
+      "total_beneficiaries": 767,
+      "avg_submitted": 171.47,
+      "avg_paid": 96.41
+    },
+    {
+      "year": 2023,
+      "total_payments": 189445.22,
+      "total_services": 2558,
+      "total_beneficiaries": 596,
+      "avg_submitted": 177.6,
+      "avg_paid": 101.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 19706,
+      "payments": 1095681.76,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9149,
+      "payments": 765096.91,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2105,
+      "payments": 279186.01,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1788,
+      "payments": 130415.29,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 2176,
+      "payments": 126654.96,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1078,
+      "payments": 113492.84,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 437,
+      "payments": 69707.87,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1008,
+      "payments": 58017.28,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 706,
+      "payments": 49059.34,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 374,
+      "payments": 39631.33,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 198,
+      "payments": 16956.59,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 76,
+      "payments": 10738.03,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 146,
+      "payments": 9372.24,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 75,
+      "payments": 7902.95,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 120,
+      "payments": 7485.73,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 99,
+      "payments": 4228.75,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 46,
+      "payments": 3159.67,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 20,
+      "payments": 2981.8,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 16,
+      "payments": 1190.56,
+      "avg_markup": 3.09
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2790959.91,
+    "total_services": 39323,
+    "total_beneficiaries": 9706,
+    "avg_markup_ratio": 1.93
+  }
+}

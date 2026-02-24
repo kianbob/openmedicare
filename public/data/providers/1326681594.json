@@ -1,0 +1,93 @@
+{
+  "name": "Chc901 Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Memphis",
+  "state": "TN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 664966.47,
+      "total_services": 5414,
+      "total_beneficiaries": 4150,
+      "avg_submitted": 603.22,
+      "avg_paid": 199.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 750281.47,
+      "total_services": 6389,
+      "total_beneficiaries": 4780,
+      "avg_submitted": 805.55,
+      "avg_paid": 195.28
+    },
+    {
+      "year": 2022,
+      "total_payments": 712274.48,
+      "total_services": 6033,
+      "total_beneficiaries": 4722,
+      "avg_submitted": 1083.8,
+      "avg_paid": 259.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 649391.73,
+      "total_services": 5368,
+      "total_beneficiaries": 3981,
+      "avg_submitted": 883.82,
+      "avg_paid": 218.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 6322,
+      "payments": 1110980.22,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3792,
+      "payments": 1062063.92,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 1486,
+      "payments": 500366.92,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 11481,
+      "payments": 72609.65,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 107,
+      "payments": 22841.93,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 16,
+      "payments": 8051.52,
+      "avg_markup": 4.37
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2776914.15,
+    "total_services": 23204,
+    "total_beneficiaries": 17633,
+    "avg_markup_ratio": 3.61
+  }
+}

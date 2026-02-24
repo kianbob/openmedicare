@@ -1,0 +1,204 @@
+{
+  "name": "Amish Patel",
+  "credentials": "D.O.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 814383.58,
+      "total_services": 11365,
+      "total_beneficiaries": 4564,
+      "avg_submitted": 166.0,
+      "avg_paid": 90.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 689778.13,
+      "total_services": 9916,
+      "total_beneficiaries": 4796,
+      "avg_submitted": 172.97,
+      "avg_paid": 88.8
+    },
+    {
+      "year": 2016,
+      "total_payments": 603468.5,
+      "total_services": 8500,
+      "total_beneficiaries": 4336,
+      "avg_submitted": 165.33,
+      "avg_paid": 86.48
+    },
+    {
+      "year": 2017,
+      "total_payments": 573592.44,
+      "total_services": 7943,
+      "total_beneficiaries": 4102,
+      "avg_submitted": 171.71,
+      "avg_paid": 89.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 598539.81,
+      "total_services": 8427,
+      "total_beneficiaries": 4150,
+      "avg_submitted": 181.65,
+      "avg_paid": 83.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 620552.01,
+      "total_services": 9060,
+      "total_beneficiaries": 4145,
+      "avg_submitted": 173.34,
+      "avg_paid": 89.67
+    },
+    {
+      "year": 2020,
+      "total_payments": 604564.28,
+      "total_services": 8769,
+      "total_beneficiaries": 3723,
+      "avg_submitted": 171.72,
+      "avg_paid": 87.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 607999.75,
+      "total_services": 8785,
+      "total_beneficiaries": 3619,
+      "avg_submitted": 165.33,
+      "avg_paid": 88.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 660660.59,
+      "total_services": 9593,
+      "total_beneficiaries": 3988,
+      "avg_submitted": 152.86,
+      "avg_paid": 77.95
+    },
+    {
+      "year": 2023,
+      "total_payments": 693773.32,
+      "total_services": 9747,
+      "total_beneficiaries": 4070,
+      "avg_submitted": 274.0,
+      "avg_paid": 71.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 64775,
+      "payments": 3804455.35,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 17395,
+      "payments": 1352145.43,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 8637,
+      "payments": 1218293.08,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 295,
+      "payments": 33514.34,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 241,
+      "payments": 26532.2,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 192,
+      "payments": 8180.26,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 156,
+      "payments": 6391.57,
+      "avg_markup": 5.03
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 141,
+      "payments": 5704.35,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 103,
+      "payments": 3015.99,
+      "avg_markup": 4.88
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services for two or more chronic conditions, first 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 32,
+      "payments": 2445.44,
+      "avg_markup": 7.56
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 28,
+      "payments": 2149.28,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of fluid from large joint",
+      "services": 38,
+      "payments": 1587.64,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services for two or more chronic conditions, each additional 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 32,
+      "payments": 1354.28,
+      "avg_markup": 8.0
+    },
+    {
+      "code": "G0407",
+      "description": "Follow-up inpatient consultation, intermediate, physicians typically spend 25 minutes communicating with the patient via telehealth",
+      "services": 20,
+      "payments": 1222.0,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99453",
+      "description": "Remote monitoring of physiologic parameters, initial set-up and patient education on use of equipment",
+      "services": 20,
+      "payments": 321.2,
+      "avg_markup": 4.86
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6467312.41,
+    "total_services": 92105,
+    "total_beneficiaries": 41493,
+    "avg_markup_ratio": 2.01
+  }
+}

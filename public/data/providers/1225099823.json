@@ -1,0 +1,239 @@
+{
+  "name": "Bruce Bank",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "Elk Grove Village",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 402408.74,
+      "total_services": 10076,
+      "total_beneficiaries": 3779,
+      "avg_submitted": 245.18,
+      "avg_paid": 84.19
+    },
+    {
+      "year": 2015,
+      "total_payments": 422920.33,
+      "total_services": 10461,
+      "total_beneficiaries": 3708,
+      "avg_submitted": 242.84,
+      "avg_paid": 87.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 452651.93,
+      "total_services": 9949,
+      "total_beneficiaries": 3388,
+      "avg_submitted": 300.75,
+      "avg_paid": 104.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 449781.46,
+      "total_services": 9492,
+      "total_beneficiaries": 3710,
+      "avg_submitted": 330.05,
+      "avg_paid": 105.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 396093.31,
+      "total_services": 9343,
+      "total_beneficiaries": 3620,
+      "avg_submitted": 302.5,
+      "avg_paid": 96.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 337743.48,
+      "total_services": 9097,
+      "total_beneficiaries": 3347,
+      "avg_submitted": 133.97,
+      "avg_paid": 41.01
+    },
+    {
+      "year": 2020,
+      "total_payments": 287625.96,
+      "total_services": 7586,
+      "total_beneficiaries": 2752,
+      "avg_submitted": 138.12,
+      "avg_paid": 41.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 310179.77,
+      "total_services": 7270,
+      "total_beneficiaries": 2738,
+      "avg_submitted": 128.25,
+      "avg_paid": 40.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 221127.41,
+      "total_services": 6110,
+      "total_beneficiaries": 2179,
+      "avg_submitted": 137.89,
+      "avg_paid": 41.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 184142.89,
+      "total_services": 5520,
+      "total_beneficiaries": 2036,
+      "avg_submitted": 137.4,
+      "avg_paid": 36.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G9678",
+      "description": "Oncology Care Model service",
+      "services": 2985,
+      "payments": 471258.91,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "J2505",
+      "description": "Injection, pegfilgrastim, 6 mg",
+      "services": 145,
+      "payments": 436893.61,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6489,
+      "payments": 382355.46,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3980,
+      "payments": 363761.11,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "96413",
+      "description": "Infusion of chemotherapy into a vein up to 1 hour",
+      "services": 2326,
+      "payments": 268974.45,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1332,
+      "payments": 181778.63,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "J9310",
+      "description": "Injection, rituximab, 100 mg",
+      "services": 284,
+      "payments": 167693.63,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 16531,
+      "payments": 149085.21,
+      "avg_markup": 6.1
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 7743,
+      "payments": 89776.36,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 401,
+      "payments": 68054.66,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 481,
+      "payments": 63675.12,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 3853,
+      "payments": 63413.85,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 342,
+      "payments": 58101.69,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis up to 1 hour",
+      "services": 967,
+      "payments": 55925.88,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1600,
+      "payments": 52771.22,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 808,
+      "payments": 49347.08,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 359,
+      "payments": 41688.78,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "96367",
+      "description": "Infusion into a vein for therapy prevention or diagnosis additional sequential infusion up to 1 hour",
+      "services": 1558,
+      "payments": 39510.95,
+      "avg_markup": 5.32
+    },
+    {
+      "code": "96401",
+      "description": "Non-hormonal anti-neoplastic chemotherapy beneath the skin or into muscle",
+      "services": 570,
+      "payments": 36792.56,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 2391,
+      "payments": 36547.77,
+      "avg_markup": 4.87
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3464675.29,
+    "total_services": 84904,
+    "total_beneficiaries": 31257,
+    "avg_markup_ratio": 3.15
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Wade Hedegard",
+  "credentials": "MD",
+  "specialty": "Diagnostic Radiology",
+  "city": "Rochester",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 184460.25,
+      "total_services": 2638,
+      "total_beneficiaries": 2611,
+      "avg_submitted": 266.66,
+      "avg_paid": 118.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 250010.96,
+      "total_services": 3728,
+      "total_beneficiaries": 3692,
+      "avg_submitted": 265.93,
+      "avg_paid": 95.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 241019.67,
+      "total_services": 3610,
+      "total_beneficiaries": 3570,
+      "avg_submitted": 316.86,
+      "avg_paid": 113.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 254149.11,
+      "total_services": 2770,
+      "total_beneficiaries": 2750,
+      "avg_submitted": 322.41,
+      "avg_paid": 111.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 284079.45,
+      "total_services": 3094,
+      "total_beneficiaries": 3071,
+      "avg_submitted": 366.74,
+      "avg_paid": 155.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 293377.65,
+      "total_services": 3210,
+      "total_beneficiaries": 3178,
+      "avg_submitted": 394.36,
+      "avg_paid": 128.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 231055.81,
+      "total_services": 2485,
+      "total_beneficiaries": 2465,
+      "avg_submitted": 418.46,
+      "avg_paid": 132.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 251002.85,
+      "total_services": 2783,
+      "total_beneficiaries": 2763,
+      "avg_submitted": 392.98,
+      "avg_paid": 125.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 201430.47,
+      "total_services": 2437,
+      "total_beneficiaries": 2424,
+      "avg_submitted": 334.7,
+      "avg_paid": 83.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 292514.39,
+      "total_services": 3541,
+      "total_beneficiaries": 3541,
+      "avg_submitted": 372.63,
+      "avg_paid": 79.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 6662,
+      "payments": 853602.3,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 4261,
+      "payments": 539667.68,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 8769,
+      "payments": 460634.23,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "76641",
+      "description": "Ultrasound of one breast",
+      "services": 1934,
+      "payments": 193445.01,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "19083",
+      "description": "Biopsy of breast accessed throught the skin with ultrasound guidance",
+      "services": 164,
+      "payments": 79572.24,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 1387,
+      "payments": 53717.01,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "77066",
+      "description": "Mammography of both breasts",
+      "services": 443,
+      "payments": 50816.76,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "G0279",
+      "description": "Diagnostic digital breast tomosynthesis, unilateral or bilateral (list separately in addition to g0204 or g0206)",
+      "services": 1093,
+      "payments": 43951.34,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G0204",
+      "description": "Diagnostic mammography, producing direct digital image, bilateral, all views",
+      "services": 377,
+      "payments": 42257.46,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "77065",
+      "description": "Mammography of one breast",
+      "services": 420,
+      "payments": 35727.14,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "G0206",
+      "description": "Diagnostic mammography, producing direct digital image, unilateral, all views",
+      "services": 378,
+      "payments": 31555.18,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "77049",
+      "description": "MRI of both breasts with and without contrast",
+      "services": 98,
+      "payments": 28007.76,
+      "avg_markup": 5.97
+    },
+    {
+      "code": "77052",
+      "description": "Computer analysis of screening mammogram to assist detection of cancer",
+      "services": 3233,
+      "payments": 27488.72,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "77059",
+      "description": "MRI scan of both breasts with contrast",
+      "services": 39,
+      "payments": 15308.79,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "76645",
+      "description": "Ultrasound of breasts",
+      "services": 128,
+      "payments": 9398.64,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "77089",
+      "description": "Calculation of trabecular bone score (tbs) using imaging data with interpretation and report on fracture risk",
+      "services": 217,
+      "payments": 6006.05,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "19081",
+      "description": "Biopsy of breast accessed through the skin with stereotactic guidance",
+      "services": 11,
+      "payments": 5801.07,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "76642",
+      "description": "Ultrasound of one breast",
+      "services": 49,
+      "payments": 3283.61,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "77051",
+      "description": "Computer analysis of diagnostic mammogram",
+      "services": 376,
+      "payments": 2500.07,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 52,
+      "payments": 152.88,
+      "avg_markup": 1.96
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2483100.61,
+    "total_services": 30296,
+    "total_beneficiaries": 30065,
+    "avg_markup_ratio": 2.26
+  }
+}

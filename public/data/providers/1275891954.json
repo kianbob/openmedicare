@@ -1,0 +1,125 @@
+{
+  "name": "Horizon Ambulance Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Orange",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 427553.7,
+      "total_services": 4020,
+      "total_beneficiaries": 1923,
+      "avg_submitted": 581.4,
+      "avg_paid": 169.83
+    },
+    {
+      "year": 2015,
+      "total_payments": 799774.9,
+      "total_services": 7311,
+      "total_beneficiaries": 2418,
+      "avg_submitted": 1546.1,
+      "avg_paid": 283.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 1043370.71,
+      "total_services": 8982,
+      "total_beneficiaries": 4718,
+      "avg_submitted": 597.86,
+      "avg_paid": 294.52
+    },
+    {
+      "year": 2017,
+      "total_payments": 1325262.36,
+      "total_services": 11042,
+      "total_beneficiaries": 7235,
+      "avg_submitted": 1034.28,
+      "avg_paid": 278.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 1447097.97,
+      "total_services": 12944,
+      "total_beneficiaries": 8593,
+      "avg_submitted": 1909.13,
+      "avg_paid": 298.17
+    },
+    {
+      "year": 2019,
+      "total_payments": 1351967.45,
+      "total_services": 12543,
+      "total_beneficiaries": 8811,
+      "avg_submitted": 1820.1,
+      "avg_paid": 304.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 979039.88,
+      "total_services": 9022,
+      "total_beneficiaries": 6082,
+      "avg_submitted": 669.62,
+      "avg_paid": 177.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 247757.54,
+      "total_services": 2358,
+      "total_beneficiaries": 1759,
+      "avg_submitted": 669.67,
+      "avg_paid": 172.99
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 27998,
+      "payments": 5371895.76,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5470,
+      "payments": 1734717.93,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 304,
+      "payments": 198470.52,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 33953,
+      "payments": 191126.94,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 466,
+      "payments": 113592.56,
+      "avg_markup": 7.43
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 31,
+      "payments": 12020.8,
+      "avg_markup": 5.92
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 7621824.51,
+    "total_services": 68222,
+    "total_beneficiaries": 41539,
+    "avg_markup_ratio": 4.5
+  }
+}

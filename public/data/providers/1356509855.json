@@ -1,0 +1,239 @@
+{
+  "name": "Matthew Potenza",
+  "credentials": "MD",
+  "specialty": "Endocrinology",
+  "city": "West Nyack",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 268710.29,
+      "total_services": 10068,
+      "total_beneficiaries": 5261,
+      "avg_submitted": 90.43,
+      "avg_paid": 39.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 276505.15,
+      "total_services": 10001,
+      "total_beneficiaries": 5312,
+      "avg_submitted": 93.79,
+      "avg_paid": 41.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 278775.08,
+      "total_services": 10713,
+      "total_beneficiaries": 5540,
+      "avg_submitted": 86.63,
+      "avg_paid": 39.61
+    },
+    {
+      "year": 2017,
+      "total_payments": 289937.72,
+      "total_services": 11225,
+      "total_beneficiaries": 5918,
+      "avg_submitted": 76.67,
+      "avg_paid": 34.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 342997.22,
+      "total_services": 15077,
+      "total_beneficiaries": 8222,
+      "avg_submitted": 77.02,
+      "avg_paid": 33.58
+    },
+    {
+      "year": 2019,
+      "total_payments": 329443.62,
+      "total_services": 15173,
+      "total_beneficiaries": 8126,
+      "avg_submitted": 73.85,
+      "avg_paid": 31.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 266687.46,
+      "total_services": 11936,
+      "total_beneficiaries": 7327,
+      "avg_submitted": 77.16,
+      "avg_paid": 33.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 358879.45,
+      "total_services": 15197,
+      "total_beneficiaries": 9050,
+      "avg_submitted": 91.82,
+      "avg_paid": 36.51
+    },
+    {
+      "year": 2022,
+      "total_payments": 359584.62,
+      "total_services": 16869,
+      "total_beneficiaries": 9174,
+      "avg_submitted": 80.4,
+      "avg_paid": 31.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 382490.73,
+      "total_services": 18966,
+      "total_beneficiaries": 10501,
+      "avg_submitted": 83.53,
+      "avg_paid": 29.87
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11147,
+      "payments": 1030798.24,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3620,
+      "payments": 235829.08,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 6365,
+      "payments": 226883.44,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 9405,
+      "payments": 117711.55,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 6059,
+      "payments": 115241.99,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 8712,
+      "payments": 96646.93,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 5970,
+      "payments": 96022.76,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 609,
+      "payments": 85750.3,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 800,
+      "payments": 83721.95,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 9379,
+      "payments": 83455.85,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 8400,
+      "payments": 77795.46,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 1376,
+      "payments": 64479.12,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "95250",
+      "description": "Ambulatory continuous glucose (sugar) monitoring for a minimum of 72 hours",
+      "services": 447,
+      "payments": 64111.56,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 8556,
+      "payments": 63222.47,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "86376",
+      "description": "Microsomal antibodies (autoantibody) measurement",
+      "services": 3343,
+      "payments": 52353.96,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "84436",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5951,
+      "payments": 46375.26,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "84479",
+      "description": "Thyroid hormone evaluation",
+      "services": 5947,
+      "payments": 43649.12,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "86800",
+      "description": "Thyroglobulin (thyroid protein) antibody measurement",
+      "services": 2525,
+      "payments": 42095.52,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 10779,
+      "payments": 39186.3,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 698,
+      "payments": 33559.48,
+      "avg_markup": 5.2
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3154011.33,
+    "total_services": 135225,
+    "total_beneficiaries": 74431,
+    "avg_markup_ratio": 2.37
+  }
+}

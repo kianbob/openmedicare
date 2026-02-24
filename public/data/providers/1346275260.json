@@ -1,0 +1,239 @@
+{
+  "name": "Billy Smith",
+  "credentials": "MD",
+  "specialty": "General Practice",
+  "city": "Greenville",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 268570.68,
+      "total_services": 6359,
+      "total_beneficiaries": 3731,
+      "avg_submitted": 108.11,
+      "avg_paid": 44.83
+    },
+    {
+      "year": 2015,
+      "total_payments": 362594.35,
+      "total_services": 8039,
+      "total_beneficiaries": 4206,
+      "avg_submitted": 121.9,
+      "avg_paid": 51.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 510951.04,
+      "total_services": 9495,
+      "total_beneficiaries": 4278,
+      "avg_submitted": 102.13,
+      "avg_paid": 45.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 473632.89,
+      "total_services": 8043,
+      "total_beneficiaries": 3704,
+      "avg_submitted": 100.12,
+      "avg_paid": 44.32
+    },
+    {
+      "year": 2018,
+      "total_payments": 424972.14,
+      "total_services": 7802,
+      "total_beneficiaries": 3563,
+      "avg_submitted": 99.31,
+      "avg_paid": 42.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 382836.84,
+      "total_services": 7971,
+      "total_beneficiaries": 3651,
+      "avg_submitted": 94.15,
+      "avg_paid": 39.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 374645.12,
+      "total_services": 7355,
+      "total_beneficiaries": 2615,
+      "avg_submitted": 77.07,
+      "avg_paid": 36.27
+    },
+    {
+      "year": 2021,
+      "total_payments": 424916.59,
+      "total_services": 6742,
+      "total_beneficiaries": 2176,
+      "avg_submitted": 155.0,
+      "avg_paid": 70.08
+    },
+    {
+      "year": 2022,
+      "total_payments": 299641.7,
+      "total_services": 4972,
+      "total_beneficiaries": 1646,
+      "avg_submitted": 95.55,
+      "avg_paid": 49.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 229620.02,
+      "total_services": 3913,
+      "total_beneficiaries": 1337,
+      "avg_submitted": 95.55,
+      "avg_paid": 47.24
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 27242,
+      "payments": 1299623.43,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 14019,
+      "payments": 917971.37,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9574,
+      "payments": 640288.29,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1931,
+      "payments": 149602.48,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 1550,
+      "payments": 147231.94,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1279,
+      "payments": 131309.29,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 732,
+      "payments": 66579.29,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "G0480",
+      "description": "Drug test def 1-7 classes",
+      "services": 1334,
+      "payments": 58706.57,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "27096",
+      "description": "Injection procedure into sacroiliac joint for anesthetic or steroid",
+      "services": 423,
+      "payments": 47551.79,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 840,
+      "payments": 39527.94,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 464,
+      "payments": 32068.58,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 226,
+      "payments": 26536.54,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 397,
+      "payments": 25480.76,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 773,
+      "payments": 23411.53,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 567,
+      "payments": 22529.63,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 211,
+      "payments": 15579.96,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 846,
+      "payments": 13123.89,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0396",
+      "description": "Alcohol and/or substance (other than tobacco) abuse structured assessment (e.g., audit, dast), and brief intervention 15 to 30 minutes",
+      "services": 765,
+      "payments": 12897.09,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 1866,
+      "payments": 12844.32,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "92548",
+      "description": "Assessment of balance and postural instability",
+      "services": 146,
+      "payments": 10563.1,
+      "avg_markup": 2.04
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3752381.37,
+    "total_services": 70691,
+    "total_beneficiaries": 30907,
+    "avg_markup_ratio": 1.9
+  }
+}

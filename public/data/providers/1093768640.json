@@ -1,0 +1,176 @@
+{
+  "name": "Dmitriy Zadushlivy",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 527324.35,
+      "total_services": 6203,
+      "total_beneficiaries": 2057,
+      "avg_submitted": 133.4,
+      "avg_paid": 99.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 429970.08,
+      "total_services": 5455,
+      "total_beneficiaries": 1863,
+      "avg_submitted": 143.35,
+      "avg_paid": 97.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 479706.68,
+      "total_services": 6374,
+      "total_beneficiaries": 2713,
+      "avg_submitted": 139.58,
+      "avg_paid": 92.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 467323.23,
+      "total_services": 6085,
+      "total_beneficiaries": 2526,
+      "avg_submitted": 139.07,
+      "avg_paid": 94.49
+    },
+    {
+      "year": 2018,
+      "total_payments": 466630.36,
+      "total_services": 6556,
+      "total_beneficiaries": 2660,
+      "avg_submitted": 136.31,
+      "avg_paid": 96.95
+    },
+    {
+      "year": 2019,
+      "total_payments": 433277.72,
+      "total_services": 5938,
+      "total_beneficiaries": 2490,
+      "avg_submitted": 136.19,
+      "avg_paid": 99.65
+    },
+    {
+      "year": 2020,
+      "total_payments": 348754.91,
+      "total_services": 4677,
+      "total_beneficiaries": 1995,
+      "avg_submitted": 138.66,
+      "avg_paid": 102.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 368630.14,
+      "total_services": 4939,
+      "total_beneficiaries": 2019,
+      "avg_submitted": 139.39,
+      "avg_paid": 103.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 319169.98,
+      "total_services": 4334,
+      "total_beneficiaries": 1808,
+      "avg_submitted": 124.88,
+      "avg_paid": 90.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 397249.27,
+      "total_services": 5170,
+      "total_beneficiaries": 1858,
+      "avg_submitted": 99.32,
+      "avg_paid": 76.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 29993,
+      "payments": 1986762.6,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 6175,
+      "payments": 769520.86,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 5957,
+      "payments": 422546.06,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 5531,
+      "payments": 368849.72,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1469,
+      "payments": 296786.48,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 4352,
+      "payments": 154568.74,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 636,
+      "payments": 115500.83,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 968,
+      "payments": 89298.73,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 604,
+      "payments": 29774.78,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 28,
+      "payments": 2713.6,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 18,
+      "payments": 1714.32,
+      "avg_markup": 1.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4238036.72,
+    "total_services": 55731,
+    "total_beneficiaries": 21989,
+    "avg_markup_ratio": 1.36
+  }
+}

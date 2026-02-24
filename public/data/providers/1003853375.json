@@ -1,0 +1,155 @@
+{
+  "name": "City Of Noblesville",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Noblesville",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 303718.04,
+      "total_services": 2040,
+      "total_beneficiaries": 1477,
+      "avg_submitted": 460.61,
+      "avg_paid": 256.7
+    },
+    {
+      "year": 2015,
+      "total_payments": 306754.55,
+      "total_services": 2060,
+      "total_beneficiaries": 1484,
+      "avg_submitted": 368.79,
+      "avg_paid": 197.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 302629.32,
+      "total_services": 1996,
+      "total_beneficiaries": 1503,
+      "avg_submitted": 457.96,
+      "avg_paid": 253.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 324589.8,
+      "total_services": 2107,
+      "total_beneficiaries": 1601,
+      "avg_submitted": 480.47,
+      "avg_paid": 262.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 318727.38,
+      "total_services": 2053,
+      "total_beneficiaries": 1513,
+      "avg_submitted": 523.44,
+      "avg_paid": 266.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 336240.09,
+      "total_services": 2167,
+      "total_beneficiaries": 1644,
+      "avg_submitted": 401.06,
+      "avg_paid": 203.7
+    },
+    {
+      "year": 2020,
+      "total_payments": 341147.39,
+      "total_services": 2158,
+      "total_beneficiaries": 1525,
+      "avg_submitted": 399.32,
+      "avg_paid": 207.04
+    },
+    {
+      "year": 2021,
+      "total_payments": 373521.2,
+      "total_services": 2571,
+      "total_beneficiaries": 1840,
+      "avg_submitted": 281.6,
+      "avg_paid": 154.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 349732.94,
+      "total_services": 2183,
+      "total_beneficiaries": 1615,
+      "avg_submitted": 412.7,
+      "avg_paid": 210.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 332760.86,
+      "total_services": 1904,
+      "total_beneficiaries": 1437,
+      "avg_submitted": 452.67,
+      "avg_paid": 229.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 5908,
+      "payments": 1938710.62,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4514,
+      "payments": 1248177.85,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10514,
+      "payments": 62536.05,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 70,
+      "payments": 31987.62,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 64,
+      "payments": 2381.44,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 64,
+      "payments": 2381.44,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "M0201",
+      "description": "Covid-19 vaccine administration inside a patient's home; reported only once per individual home per date of service when only covid-19 vaccine administration is performed at the patient's home",
+      "services": 57,
+      "payments": 1860.48,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "0003A",
+      "description": "Fee covid-19 vac 1 booster",
+      "services": 48,
+      "payments": 1786.08,
+      "avg_markup": 1.07
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3289821.58,
+    "total_services": 21239,
+    "total_beneficiaries": 15639,
+    "avg_markup_ratio": 1.93
+  }
+}

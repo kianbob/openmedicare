@@ -1,0 +1,239 @@
+{
+  "name": "Hatim Gemil",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 232788.0,
+      "total_services": 2409,
+      "total_beneficiaries": 1243,
+      "avg_submitted": 278.83,
+      "avg_paid": 101.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 313872.03,
+      "total_services": 3455,
+      "total_beneficiaries": 1808,
+      "avg_submitted": 253.8,
+      "avg_paid": 95.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 372164.73,
+      "total_services": 4363,
+      "total_beneficiaries": 2494,
+      "avg_submitted": 304.88,
+      "avg_paid": 83.91
+    },
+    {
+      "year": 2017,
+      "total_payments": 328027.25,
+      "total_services": 4420,
+      "total_beneficiaries": 2344,
+      "avg_submitted": 351.27,
+      "avg_paid": 84.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 300117.23,
+      "total_services": 4542,
+      "total_beneficiaries": 2272,
+      "avg_submitted": 375.73,
+      "avg_paid": 83.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 373857.89,
+      "total_services": 5717,
+      "total_beneficiaries": 2457,
+      "avg_submitted": 325.81,
+      "avg_paid": 83.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 306592.33,
+      "total_services": 4625,
+      "total_beneficiaries": 1802,
+      "avg_submitted": 287.52,
+      "avg_paid": 83.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 328019.71,
+      "total_services": 4899,
+      "total_beneficiaries": 1801,
+      "avg_submitted": 249.18,
+      "avg_paid": 79.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 296710.78,
+      "total_services": 4707,
+      "total_beneficiaries": 1661,
+      "avg_submitted": 267.74,
+      "avg_paid": 80.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 297487.78,
+      "total_services": 4434,
+      "total_beneficiaries": 1657,
+      "avg_submitted": 276.61,
+      "avg_paid": 86.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 20676,
+      "payments": 1209571.17,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7484,
+      "payments": 624819.39,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2532,
+      "payments": 406847.78,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3718,
+      "payments": 209360.82,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2157,
+      "payments": 185473.52,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2663,
+      "payments": 154970.4,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1353,
+      "payments": 144591.17,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 543,
+      "payments": 31298.47,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 208,
+      "payments": 30658.1,
+      "avg_markup": 6.2
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 208,
+      "payments": 28143.12,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 317,
+      "payments": 23797.77,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 344,
+      "payments": 21927.48,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 557,
+      "payments": 17436.54,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 133,
+      "payments": 13560.78,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 176,
+      "payments": 10045.65,
+      "avg_markup": 6.32
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 44,
+      "payments": 7719.56,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 85,
+      "payments": 7490.38,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 77,
+      "payments": 6252.8,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 69,
+      "payments": 5466.42,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 119,
+      "payments": 5029.37,
+      "avg_markup": 4.46
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3149637.73,
+    "total_services": 43571,
+    "total_beneficiaries": 19539,
+    "avg_markup_ratio": 3.34
+  }
+}

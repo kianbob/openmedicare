@@ -1,0 +1,100 @@
+{
+  "name": "Ambulnz Ny 2 Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 49269.86,
+      "total_services": 346,
+      "total_beneficiaries": 317,
+      "avg_submitted": 1344.8,
+      "avg_paid": 230.64
+    },
+    {
+      "year": 2021,
+      "total_payments": 316696.58,
+      "total_services": 2597,
+      "total_beneficiaries": 2262,
+      "avg_submitted": 1344.8,
+      "avg_paid": 233.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 887672.11,
+      "total_services": 6331,
+      "total_beneficiaries": 5115,
+      "avg_submitted": 1354.37,
+      "avg_paid": 310.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 1472788.41,
+      "total_services": 10079,
+      "total_beneficiaries": 7697,
+      "avg_submitted": 1515.86,
+      "avg_paid": 329.5
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 5868,
+      "payments": 1266299.76,
+      "avg_markup": 6.08
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 1800,
+      "payments": 734027.41,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1359,
+      "payments": 467467.91,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 627,
+      "payments": 159489.17,
+      "avg_markup": 7.74
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 9641,
+      "payments": 66251.02,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 39,
+      "payments": 27400.57,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "A0432",
+      "description": "Paramedic intercept (pi), rural area, transport furnished by a volunteer ambulance company which is prohibited by state law from billing third party payers",
+      "services": 19,
+      "payments": 5491.12,
+      "avg_markup": 1.33
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2726426.96,
+    "total_services": 19353,
+    "total_beneficiaries": 15391,
+    "avg_markup_ratio": 5.43
+  }
+}

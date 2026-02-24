@@ -1,0 +1,239 @@
+{
+  "name": "Stephen Payne",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Williamstown",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 155859.44,
+      "total_services": 2608,
+      "total_beneficiaries": 1542,
+      "avg_submitted": 95.7,
+      "avg_paid": 51.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 269714.74,
+      "total_services": 5986,
+      "total_beneficiaries": 1877,
+      "avg_submitted": 101.51,
+      "avg_paid": 55.25
+    },
+    {
+      "year": 2016,
+      "total_payments": 272057.48,
+      "total_services": 6261,
+      "total_beneficiaries": 1899,
+      "avg_submitted": 91.29,
+      "avg_paid": 52.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 317716.13,
+      "total_services": 6942,
+      "total_beneficiaries": 2220,
+      "avg_submitted": 111.57,
+      "avg_paid": 63.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 321456.48,
+      "total_services": 6506,
+      "total_beneficiaries": 2430,
+      "avg_submitted": 101.69,
+      "avg_paid": 64.0
+    },
+    {
+      "year": 2019,
+      "total_payments": 332969.92,
+      "total_services": 6560,
+      "total_beneficiaries": 2584,
+      "avg_submitted": 99.23,
+      "avg_paid": 62.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 339216.88,
+      "total_services": 6544,
+      "total_beneficiaries": 2774,
+      "avg_submitted": 97.14,
+      "avg_paid": 58.02
+    },
+    {
+      "year": 2021,
+      "total_payments": 415438.15,
+      "total_services": 7025,
+      "total_beneficiaries": 2679,
+      "avg_submitted": 119.13,
+      "avg_paid": 75.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 355948.39,
+      "total_services": 5603,
+      "total_beneficiaries": 2400,
+      "avg_submitted": 119.89,
+      "avg_paid": 72.12
+    },
+    {
+      "year": 2023,
+      "total_payments": 358753.73,
+      "total_services": 5520,
+      "total_beneficiaries": 2188,
+      "avg_submitted": 119.75,
+      "avg_paid": 70.58
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 32733,
+      "payments": 1086792.32,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9876,
+      "payments": 808133.06,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3033,
+      "payments": 367256.6,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2683,
+      "payments": 337888.12,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1930,
+      "payments": 104530.23,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 225,
+      "payments": 38639.69,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 509,
+      "payments": 38233.65,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 428,
+      "payments": 35653.2,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1356,
+      "payments": 32166.4,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 809,
+      "payments": 27144.13,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 407,
+      "payments": 25592.42,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 247,
+      "payments": 24361.85,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 124,
+      "payments": 23773.85,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 447,
+      "payments": 22868.74,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 143,
+      "payments": 20300.02,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 234,
+      "payments": 18345.67,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services each additional 30 minutes clinical staff time",
+      "services": 424,
+      "payments": 16686.85,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 235,
+      "payments": 12057.38,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 309,
+      "payments": 10516.01,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G2058",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time directed by a physician or other qualified health care professional, per calendar month (list separately in addition to code for primary procedure). (do not report g2058 fo",
+      "services": 355,
+      "payments": 10186.77,
+      "avg_markup": 1.32
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3139131.33,
+    "total_services": 59555,
+    "total_beneficiaries": 22593,
+    "avg_markup_ratio": 1.97
+  }
+}

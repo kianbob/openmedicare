@@ -1,0 +1,239 @@
+{
+  "name": "Thomas Von Unrug",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Lexington",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 318203.29,
+      "total_services": 6014,
+      "total_beneficiaries": 2190,
+      "avg_submitted": 100.57,
+      "avg_paid": 50.51
+    },
+    {
+      "year": 2015,
+      "total_payments": 532119.04,
+      "total_services": 11369,
+      "total_beneficiaries": 3317,
+      "avg_submitted": 90.87,
+      "avg_paid": 44.38
+    },
+    {
+      "year": 2016,
+      "total_payments": 541748.51,
+      "total_services": 9987,
+      "total_beneficiaries": 3268,
+      "avg_submitted": 113.47,
+      "avg_paid": 53.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 468862.04,
+      "total_services": 8203,
+      "total_beneficiaries": 3274,
+      "avg_submitted": 126.47,
+      "avg_paid": 64.23
+    },
+    {
+      "year": 2018,
+      "total_payments": 518521.86,
+      "total_services": 9622,
+      "total_beneficiaries": 3728,
+      "avg_submitted": 124.72,
+      "avg_paid": 62.88
+    },
+    {
+      "year": 2019,
+      "total_payments": 481055.38,
+      "total_services": 8604,
+      "total_beneficiaries": 3268,
+      "avg_submitted": 119.81,
+      "avg_paid": 59.86
+    },
+    {
+      "year": 2020,
+      "total_payments": 385088.75,
+      "total_services": 7449,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 108.83,
+      "avg_paid": 53.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 278434.93,
+      "total_services": 5300,
+      "total_beneficiaries": 1586,
+      "avg_submitted": 119.17,
+      "avg_paid": 61.91
+    },
+    {
+      "year": 2022,
+      "total_payments": 218360.39,
+      "total_services": 4746,
+      "total_beneficiaries": 1586,
+      "avg_submitted": 86.55,
+      "avg_paid": 45.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 209986.6,
+      "total_services": 4264,
+      "total_beneficiaries": 1422,
+      "avg_submitted": 107.47,
+      "avg_paid": 55.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 18244,
+      "payments": 1360717.06,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10934,
+      "payments": 864278.59,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 4286,
+      "payments": 271422.47,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1362,
+      "payments": 205585.88,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 706,
+      "payments": 119573.35,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 906,
+      "payments": 102469.08,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1224,
+      "payments": 98515.85,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 3412,
+      "payments": 97065.36,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 968,
+      "payments": 95171.27,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 758,
+      "payments": 92670.69,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 5319,
+      "payments": 73768.14,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "76775",
+      "description": "Ultrasound behind abdominal cavity, limited",
+      "services": 1346,
+      "payments": 52752.66,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 736,
+      "payments": 51076.84,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 503,
+      "payments": 49935.95,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 248,
+      "payments": 44769.79,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "96103",
+      "description": "Psychological testing with interpretation and report by computer",
+      "services": 2003,
+      "payments": 39062.52,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 212,
+      "payments": 33333.01,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 262,
+      "payments": 25940.43,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 6891,
+      "payments": 23541.75,
+      "avg_markup": 5.6
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 164,
+      "payments": 22396.04,
+      "avg_markup": 2.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3952380.78,
+    "total_services": 75558,
+    "total_beneficiaries": 26332,
+    "avg_markup_ratio": 2.05
+  }
+}

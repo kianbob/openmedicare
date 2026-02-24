@@ -1,0 +1,101 @@
+{
+  "name": "First Response Ambulance, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Inwood",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2603649.34,
+      "total_services": 18766,
+      "total_beneficiaries": 11355,
+      "avg_submitted": 510.53,
+      "avg_paid": 294.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 2480863.34,
+      "total_services": 18912,
+      "total_beneficiaries": 9678,
+      "avg_submitted": 511.14,
+      "avg_paid": 297.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 1559520.31,
+      "total_services": 11481,
+      "total_beneficiaries": 6184,
+      "avg_submitted": 513.4,
+      "avg_paid": 297.13
+    },
+    {
+      "year": 2017,
+      "total_payments": 1061032.95,
+      "total_services": 7940,
+      "total_beneficiaries": 4835,
+      "avg_submitted": 511.35,
+      "avg_paid": 296.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 5251.81,
+      "total_services": 73,
+      "total_beneficiaries": 70,
+      "avg_submitted": 230.75,
+      "avg_paid": 81.25
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 11962,
+      "payments": 3765510.94,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 14998,
+      "payments": 2876101.33,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 794,
+      "payments": 516126.88,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 1003,
+      "payments": 376641.6,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 28339,
+      "payments": 157734.87,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 76,
+      "payments": 18202.14,
+      "avg_markup": 2.62
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 7710317.76,
+    "total_services": 57172,
+    "total_beneficiaries": 32122,
+    "avg_markup_ratio": 1.8
+  }
+}

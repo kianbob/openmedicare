@@ -1,0 +1,239 @@
+{
+  "name": "James Withers",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Kosciusko",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 341228.68,
+      "total_services": 13004,
+      "total_beneficiaries": 8693,
+      "avg_submitted": 144.09,
+      "avg_paid": 44.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 397249.22,
+      "total_services": 14670,
+      "total_beneficiaries": 10466,
+      "avg_submitted": 185.7,
+      "avg_paid": 43.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 461510.86,
+      "total_services": 19200,
+      "total_beneficiaries": 13045,
+      "avg_submitted": 179.17,
+      "avg_paid": 42.02
+    },
+    {
+      "year": 2017,
+      "total_payments": 488816.66,
+      "total_services": 19804,
+      "total_beneficiaries": 13675,
+      "avg_submitted": 182.54,
+      "avg_paid": 44.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 476946.29,
+      "total_services": 18025,
+      "total_beneficiaries": 12898,
+      "avg_submitted": 183.64,
+      "avg_paid": 45.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 439762.77,
+      "total_services": 17166,
+      "total_beneficiaries": 12125,
+      "avg_submitted": 184.36,
+      "avg_paid": 44.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 398543.44,
+      "total_services": 14836,
+      "total_beneficiaries": 10918,
+      "avg_submitted": 196.15,
+      "avg_paid": 47.67
+    },
+    {
+      "year": 2021,
+      "total_payments": 429635.76,
+      "total_services": 15996,
+      "total_beneficiaries": 11714,
+      "avg_submitted": 179.31,
+      "avg_paid": 44.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 341119.82,
+      "total_services": 12511,
+      "total_beneficiaries": 9278,
+      "avg_submitted": 190.54,
+      "avg_paid": 46.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 299490.82,
+      "total_services": 11204,
+      "total_beneficiaries": 7982,
+      "avg_submitted": 169.53,
+      "avg_paid": 40.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14345,
+      "payments": 977875.69,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 3412,
+      "payments": 373751.37,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 379,
+      "payments": 103275.89,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2910,
+      "payments": 103017.81,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 1124,
+      "payments": 94423.79,
+      "avg_markup": 11.78
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 441,
+      "payments": 74652.83,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 3690,
+      "payments": 73408.33,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 7984,
+      "payments": 72988.64,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 637,
+      "payments": 66151.64,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1026,
+      "payments": 65563.39,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "73721",
+      "description": "MRI scan of leg joint",
+      "services": 659,
+      "payments": 63622.93,
+      "avg_markup": 9.05
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 6735,
+      "payments": 57059.55,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 15735,
+      "payments": 52581.09,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2660,
+      "payments": 51897.47,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 8777,
+      "payments": 50593.88,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 4391,
+      "payments": 48968.23,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 2977,
+      "payments": 48841.13,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "73221",
+      "description": "MRI scan of arm joint",
+      "services": 481,
+      "payments": 48324.47,
+      "avg_markup": 8.71
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 527,
+      "payments": 48173.26,
+      "avg_markup": 9.79
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 382,
+      "payments": 46409.68,
+      "avg_markup": 3.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4074304.31,
+    "total_services": 156416,
+    "total_beneficiaries": 110794,
+    "avg_markup_ratio": 3.11
+  }
+}

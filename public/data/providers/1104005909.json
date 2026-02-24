@@ -1,0 +1,239 @@
+{
+  "name": "Safwat Mosad",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 197850.9,
+      "total_services": 2248,
+      "total_beneficiaries": 838,
+      "avg_submitted": 145.74,
+      "avg_paid": 72.95
+    },
+    {
+      "year": 2015,
+      "total_payments": 211909.66,
+      "total_services": 2497,
+      "total_beneficiaries": 797,
+      "avg_submitted": 173.64,
+      "avg_paid": 83.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 271681.92,
+      "total_services": 3462,
+      "total_beneficiaries": 972,
+      "avg_submitted": 181.57,
+      "avg_paid": 87.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 257715.89,
+      "total_services": 3359,
+      "total_beneficiaries": 964,
+      "avg_submitted": 208.95,
+      "avg_paid": 66.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 264569.01,
+      "total_services": 3277,
+      "total_beneficiaries": 1017,
+      "avg_submitted": 209.12,
+      "avg_paid": 72.49
+    },
+    {
+      "year": 2019,
+      "total_payments": 252422.84,
+      "total_services": 3455,
+      "total_beneficiaries": 1024,
+      "avg_submitted": 237.22,
+      "avg_paid": 78.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 260965.99,
+      "total_services": 3811,
+      "total_beneficiaries": 1100,
+      "avg_submitted": 222.06,
+      "avg_paid": 84.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 298326.17,
+      "total_services": 4160,
+      "total_beneficiaries": 1066,
+      "avg_submitted": 270.01,
+      "avg_paid": 86.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 339124.09,
+      "total_services": 4691,
+      "total_beneficiaries": 1441,
+      "avg_submitted": 228.14,
+      "avg_paid": 93.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 389002.78,
+      "total_services": 4993,
+      "total_beneficiaries": 1551,
+      "avg_submitted": 246.71,
+      "avg_paid": 111.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 22610,
+      "payments": 1428623.09,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 3103,
+      "payments": 326631.79,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3773,
+      "payments": 298192.21,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2419,
+      "payments": 282993.49,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1710,
+      "payments": 244051.38,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 563,
+      "payments": 44495.84,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "11043",
+      "description": "Removal of skin and/or muscle first 20 sq cm or less",
+      "services": 172,
+      "payments": 29984.84,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 164,
+      "payments": 25239.79,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 294,
+      "payments": 11458.76,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "11011",
+      "description": "Removal of foreign material from skin, tissue, and muscle at open fracture and/or dislocation",
+      "services": 32,
+      "payments": 9234.08,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 306,
+      "payments": 8444.02,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 79,
+      "payments": 5688.59,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 86,
+      "payments": 4885.65,
+      "avg_markup": 8.01
+    },
+    {
+      "code": "11046",
+      "description": "Removal of skin and/or muscle",
+      "services": 79,
+      "payments": 4332.87,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "10060",
+      "description": "Drainage of abscess",
+      "services": 33,
+      "payments": 3698.45,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "15851",
+      "description": "Removal of sutures under anesthesia by other surgeon",
+      "services": 62,
+      "payments": 2597.27,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 162,
+      "payments": 2459.27,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 47,
+      "payments": 2244.08,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 27,
+      "payments": 1945.09,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "99347",
+      "description": "Established patient home visit, typically 15 minutes",
+      "services": 31,
+      "payments": 1430.57,
+      "avg_markup": 1.63
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2743569.25,
+    "total_services": 35953,
+    "total_beneficiaries": 10770,
+    "avg_markup_ratio": 2.39
+  }
+}

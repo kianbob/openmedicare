@@ -1,0 +1,239 @@
+{
+  "name": "Michael Bush",
+  "credentials": "M.D.",
+  "specialty": "Endocrinology",
+  "city": "Beverly Hills",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 350641.8,
+      "total_services": 17419,
+      "total_beneficiaries": 8950,
+      "avg_submitted": 62.38,
+      "avg_paid": 33.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 343813.48,
+      "total_services": 16433,
+      "total_beneficiaries": 8439,
+      "avg_submitted": 64.59,
+      "avg_paid": 32.83
+    },
+    {
+      "year": 2016,
+      "total_payments": 316663.24,
+      "total_services": 15635,
+      "total_beneficiaries": 8006,
+      "avg_submitted": 60.12,
+      "avg_paid": 29.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 255009.2,
+      "total_services": 12932,
+      "total_beneficiaries": 6784,
+      "avg_submitted": 66.41,
+      "avg_paid": 30.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 336345.59,
+      "total_services": 23969,
+      "total_beneficiaries": 12208,
+      "avg_submitted": 63.26,
+      "avg_paid": 28.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 372346.93,
+      "total_services": 29266,
+      "total_beneficiaries": 12154,
+      "avg_submitted": 66.56,
+      "avg_paid": 28.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 245366.43,
+      "total_services": 15745,
+      "total_beneficiaries": 8406,
+      "avg_submitted": 59.32,
+      "avg_paid": 24.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 332222.79,
+      "total_services": 18181,
+      "total_beneficiaries": 9332,
+      "avg_submitted": 59.65,
+      "avg_paid": 24.65
+    },
+    {
+      "year": 2022,
+      "total_payments": 262103.15,
+      "total_services": 9495,
+      "total_beneficiaries": 4542,
+      "avg_submitted": 70.89,
+      "avg_paid": 30.2
+    },
+    {
+      "year": 2023,
+      "total_payments": 274860.58,
+      "total_services": 10039,
+      "total_beneficiaries": 4821,
+      "avg_submitted": 97.36,
+      "avg_paid": 37.42
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 20096,
+      "payments": 1191816.97,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2923,
+      "payments": 328190.41,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 5607,
+      "payments": 110740.0,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 9210,
+      "payments": 106688.54,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 7840,
+      "payments": 89347.93,
+      "avg_markup": 5.62
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2464,
+      "payments": 87679.28,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 454,
+      "payments": 71893.88,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5495,
+      "payments": 66350.75,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1126,
+      "payments": 64018.62,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6837,
+      "payments": 62834.71,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 5406,
+      "payments": 62300.6,
+      "avg_markup": 5.21
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 4882,
+      "payments": 50970.72,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12863,
+      "payments": 42417.63,
+      "avg_markup": 6.06
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 447,
+      "payments": 35910.27,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 692,
+      "payments": 34999.06,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1133,
+      "payments": 33977.26,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "95251",
+      "description": "Ambulatory continuous glucose (sugar) including interpretation and report for a minimum of 72 hours",
+      "services": 1150,
+      "payments": 30955.24,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 193,
+      "payments": 30156.5,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "82550",
+      "description": "Creatine kinase (cardiac enzyme) level",
+      "services": 4414,
+      "payments": 23775.91,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "82150",
+      "description": "Amylase (enzyme) level",
+      "services": 3122,
+      "payments": 22130.96,
+      "avg_markup": 2.96
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3089373.2,
+    "total_services": 169114,
+    "total_beneficiaries": 83642,
+    "avg_markup_ratio": 2.49
+  }
+}

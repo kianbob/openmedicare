@@ -1,0 +1,99 @@
+{
+  "name": "Doctornow",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Northridge",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 259465.27,
+      "total_services": 5503,
+      "total_beneficiaries": 1840,
+      "avg_submitted": 184.84,
+      "avg_paid": 39.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 1854535.01,
+      "total_services": 44986,
+      "total_beneficiaries": 6428,
+      "avg_submitted": 176.8,
+      "avg_paid": 36.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 893695.23,
+      "total_services": 21615,
+      "total_beneficiaries": 3252,
+      "avg_submitted": 170.75,
+      "avg_paid": 33.57
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 22993,
+      "payments": 1701267.0,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 22929,
+      "payments": 565495.75,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 18852,
+      "payments": 435518.21,
+      "avg_markup": 6.47
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 4465,
+      "payments": 224500.2,
+      "avg_markup": 5.87
+    },
+    {
+      "code": "99211",
+      "description": "Office or other outpatient visit for the evaluation and management of established patient that may not require presence of healthcare professional",
+      "services": 1428,
+      "payments": 37104.14,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "87426",
+      "description": "Elisa detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 846,
+      "payments": 29341.75,
+      "avg_markup": 5.62
+    },
+    {
+      "code": "G2024",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]) from an individual in a snf or by a laboratory on behalf of a hha, any specimen source",
+      "services": 570,
+      "payments": 14221.5,
+      "avg_markup": 6.01
+    },
+    {
+      "code": "K1034",
+      "description": "Provision of covid-19 test, nonprescription self-administered and self-collected use, fda approved, authorized or cleared, one test count",
+      "services": 21,
+      "payments": 246.96,
+      "avg_markup": 3.06
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3007695.51,
+    "total_services": 72104,
+    "total_beneficiaries": 11520,
+    "avg_markup_ratio": 4.51
+  }
+}

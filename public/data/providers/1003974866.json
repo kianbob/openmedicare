@@ -1,0 +1,117 @@
+{
+  "name": "Oxford Emergency Medical Services Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Oxford",
+  "state": "AL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 531296.98,
+      "total_services": 4605,
+      "total_beneficiaries": 2616,
+      "avg_submitted": 435.33,
+      "avg_paid": 223.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 617066.65,
+      "total_services": 5113,
+      "total_beneficiaries": 2857,
+      "avg_submitted": 448.13,
+      "avg_paid": 228.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 747091.52,
+      "total_services": 6502,
+      "total_beneficiaries": 3133,
+      "avg_submitted": 502.17,
+      "avg_paid": 224.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 731539.9,
+      "total_services": 6365,
+      "total_beneficiaries": 3183,
+      "avg_submitted": 453.0,
+      "avg_paid": 181.78
+    },
+    {
+      "year": 2018,
+      "total_payments": 701210.91,
+      "total_services": 6012,
+      "total_beneficiaries": 3162,
+      "avg_submitted": 567.83,
+      "avg_paid": 227.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 579594.56,
+      "total_services": 5073,
+      "total_beneficiaries": 2811,
+      "avg_submitted": 453.42,
+      "avg_paid": 187.87
+    },
+    {
+      "year": 2020,
+      "total_payments": 191043.92,
+      "total_services": 1646,
+      "total_beneficiaries": 873,
+      "avg_submitted": 481.66,
+      "avg_paid": 181.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 6951,
+      "payments": 2133960.25,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 9133,
+      "payments": 1385497.02,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1204,
+      "payments": 309400.37,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 676,
+      "payments": 132437.6,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 17264,
+      "payments": 98519.04,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 88,
+      "payments": 39030.16,
+      "avg_markup": 1.83
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 4098844.45,
+    "total_services": 35316,
+    "total_beneficiaries": 18635,
+    "avg_markup_ratio": 2.37
+  }
+}

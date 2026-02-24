@@ -1,0 +1,239 @@
+{
+  "name": "Lester Jacobson",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "San Francisco",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 320586.56,
+      "total_services": 4216,
+      "total_beneficiaries": 1891,
+      "avg_submitted": 120.68,
+      "avg_paid": 84.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 320297.76,
+      "total_services": 4226,
+      "total_beneficiaries": 1786,
+      "avg_submitted": 105.98,
+      "avg_paid": 77.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 280632.59,
+      "total_services": 3892,
+      "total_beneficiaries": 1765,
+      "avg_submitted": 105.48,
+      "avg_paid": 73.68
+    },
+    {
+      "year": 2017,
+      "total_payments": 244188.3,
+      "total_services": 3579,
+      "total_beneficiaries": 1527,
+      "avg_submitted": 119.51,
+      "avg_paid": 81.23
+    },
+    {
+      "year": 2018,
+      "total_payments": 239023.2,
+      "total_services": 3480,
+      "total_beneficiaries": 1414,
+      "avg_submitted": 114.18,
+      "avg_paid": 79.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 236187.53,
+      "total_services": 3335,
+      "total_beneficiaries": 1385,
+      "avg_submitted": 110.87,
+      "avg_paid": 79.63
+    },
+    {
+      "year": 2020,
+      "total_payments": 179286.66,
+      "total_services": 2370,
+      "total_beneficiaries": 1076,
+      "avg_submitted": 113.8,
+      "avg_paid": 80.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 252327.28,
+      "total_services": 2793,
+      "total_beneficiaries": 1125,
+      "avg_submitted": 119.86,
+      "avg_paid": 82.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 243175.57,
+      "total_services": 2656,
+      "total_beneficiaries": 1034,
+      "avg_submitted": 120.61,
+      "avg_paid": 89.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 232450.07,
+      "total_services": 2518,
+      "total_beneficiaries": 938,
+      "avg_submitted": 108.28,
+      "avg_paid": 79.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 13776,
+      "payments": 1760999.7,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2106,
+      "payments": 187166.96,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 11603,
+      "payments": 170675.68,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "93288",
+      "description": "Evaluation of parameters of single, dual, or multiple lead pacemaker including device connection, recording, and disconnection",
+      "services": 1917,
+      "payments": 80162.31,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 442,
+      "payments": 79954.34,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 462,
+      "payments": 77347.89,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 732,
+      "payments": 73240.97,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 325,
+      "payments": 30373.93,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 274,
+      "payments": 17201.12,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 220,
+      "payments": 13896.84,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 109,
+      "payments": 13023.64,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 143,
+      "payments": 12546.08,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "93227",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 484,
+      "payments": 10212.86,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 85,
+      "payments": 6829.32,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 55,
+      "payments": 4003.64,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 97,
+      "payments": 3689.28,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 15,
+      "payments": 2310.39,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "93018",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician interpretation and report",
+      "services": 173,
+      "payments": 2110.62,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "92960",
+      "description": "External shock to heart to regulate heart beat",
+      "services": 13,
+      "payments": 1399.03,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 14,
+      "payments": 899.98,
+      "avg_markup": 1.3
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2548155.52,
+    "total_services": 33065,
+    "total_beneficiaries": 13941,
+    "avg_markup_ratio": 1.42
+  }
+}

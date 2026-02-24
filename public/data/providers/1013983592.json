@@ -1,0 +1,239 @@
+{
+  "name": "Marshall Sanson",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "West Monroe",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 441231.34,
+      "total_services": 13331,
+      "total_beneficiaries": 7258,
+      "avg_submitted": 65.22,
+      "avg_paid": 34.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 429233.49,
+      "total_services": 13549,
+      "total_beneficiaries": 7555,
+      "avg_submitted": 56.04,
+      "avg_paid": 35.65
+    },
+    {
+      "year": 2016,
+      "total_payments": 427507.13,
+      "total_services": 14476,
+      "total_beneficiaries": 7982,
+      "avg_submitted": 59.98,
+      "avg_paid": 36.11
+    },
+    {
+      "year": 2017,
+      "total_payments": 442406.44,
+      "total_services": 15663,
+      "total_beneficiaries": 8546,
+      "avg_submitted": 53.38,
+      "avg_paid": 29.75
+    },
+    {
+      "year": 2018,
+      "total_payments": 379020.71,
+      "total_services": 13695,
+      "total_beneficiaries": 7879,
+      "avg_submitted": 55.46,
+      "avg_paid": 30.36
+    },
+    {
+      "year": 2019,
+      "total_payments": 386870.68,
+      "total_services": 13121,
+      "total_beneficiaries": 7557,
+      "avg_submitted": 53.06,
+      "avg_paid": 31.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 302369.08,
+      "total_services": 8317,
+      "total_beneficiaries": 4940,
+      "avg_submitted": 71.63,
+      "avg_paid": 39.27
+    },
+    {
+      "year": 2021,
+      "total_payments": 319682.44,
+      "total_services": 6789,
+      "total_beneficiaries": 4171,
+      "avg_submitted": 93.47,
+      "avg_paid": 41.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 293101.93,
+      "total_services": 6083,
+      "total_beneficiaries": 3630,
+      "avg_submitted": 108.66,
+      "avg_paid": 45.71
+    },
+    {
+      "year": 2023,
+      "total_payments": 187386.66,
+      "total_services": 5077,
+      "total_beneficiaries": 3127,
+      "avg_submitted": 125.11,
+      "avg_paid": 49.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 34471,
+      "payments": 1580799.83,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6878,
+      "payments": 476719.84,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5875,
+      "payments": 279213.16,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2230,
+      "payments": 254096.86,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 15418,
+      "payments": 196823.12,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 2591,
+      "payments": 151506.92,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 800,
+      "payments": 86902.0,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "87636",
+      "description": "Sarscov2 & inf a&b amp prb",
+      "services": 393,
+      "payments": 55573.31,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 464,
+      "payments": 43026.97,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 1491,
+      "payments": 41434.42,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 246,
+      "payments": 39191.21,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "87502",
+      "description": "Detection test for multiple types influenza virus",
+      "services": 334,
+      "payments": 33600.06,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1596,
+      "payments": 32099.87,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 1615,
+      "payments": 29037.58,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 1341,
+      "payments": 27092.32,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "90653",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 453,
+      "payments": 26080.54,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "87426",
+      "description": "Coronavirus ag ia",
+      "services": 449,
+      "payments": 19250.54,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 113,
+      "payments": 17772.48,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 297,
+      "payments": 16564.33,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 410,
+      "payments": 15503.94,
+      "avg_markup": 1.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3608809.89,
+    "total_services": 110101,
+    "total_beneficiaries": 62645,
+    "avg_markup_ratio": 1.9
+  }
+}

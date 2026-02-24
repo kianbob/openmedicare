@@ -1,0 +1,232 @@
+{
+  "name": "Mark Patron",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Denver",
+  "state": "CO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 347275.0,
+      "total_services": 4903,
+      "total_beneficiaries": 2537,
+      "avg_submitted": 407.32,
+      "avg_paid": 154.96
+    },
+    {
+      "year": 2015,
+      "total_payments": 403401.78,
+      "total_services": 4946,
+      "total_beneficiaries": 2380,
+      "avg_submitted": 565.26,
+      "avg_paid": 215.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 483045.35,
+      "total_services": 5385,
+      "total_beneficiaries": 2654,
+      "avg_submitted": 562.5,
+      "avg_paid": 211.15
+    },
+    {
+      "year": 2017,
+      "total_payments": 516098.3,
+      "total_services": 5703,
+      "total_beneficiaries": 2633,
+      "avg_submitted": 375.16,
+      "avg_paid": 139.78
+    },
+    {
+      "year": 2018,
+      "total_payments": 645791.36,
+      "total_services": 5973,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 349.03,
+      "avg_paid": 132.45
+    },
+    {
+      "year": 2019,
+      "total_payments": 592285.62,
+      "total_services": 5702,
+      "total_beneficiaries": 2476,
+      "avg_submitted": 279.7,
+      "avg_paid": 99.53
+    },
+    {
+      "year": 2020,
+      "total_payments": 86552.85,
+      "total_services": 1074,
+      "total_beneficiaries": 797,
+      "avg_submitted": 361.61,
+      "avg_paid": 104.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 125485.93,
+      "total_services": 1689,
+      "total_beneficiaries": 869,
+      "avg_submitted": 269.52,
+      "avg_paid": 79.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 255241.04,
+      "total_services": 3193,
+      "total_beneficiaries": 1435,
+      "avg_submitted": 439.25,
+      "avg_paid": 132.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 304784.25,
+      "total_services": 3544,
+      "total_beneficiaries": 1417,
+      "avg_submitted": 339.83,
+      "avg_paid": 118.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 1565,
+      "payments": 1173034.29,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 7204,
+      "payments": 614317.35,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 5956,
+      "payments": 525753.61,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 11720,
+      "payments": 386520.46,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 1426,
+      "payments": 324502.12,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 1614,
+      "payments": 174408.36,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2769,
+      "payments": 154326.13,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 1313,
+      "payments": 83960.57,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 4197,
+      "payments": 79126.33,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 888,
+      "payments": 73307.22,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 832,
+      "payments": 42238.27,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 39,
+      "payments": 41812.26,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "67145",
+      "description": "Preventive retinal detachment treatment by heat or laser, 1 or more sessions",
+      "services": 73,
+      "payments": 28428.37,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 1031,
+      "payments": 22086.86,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "92201",
+      "description": "Extended examination of eye with drawing of retina",
+      "services": 904,
+      "payments": 17020.81,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 133,
+      "payments": 7247.99,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 108,
+      "payments": 7042.9,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "92202",
+      "description": "Extended examination of eye with drawing of optic nerve and surrounding area (macula)",
+      "services": 292,
+      "payments": 3444.8,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 48,
+      "payments": 1382.8,
+      "avg_markup": 2.66
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3759961.5,
+    "total_services": 42112,
+    "total_beneficiaries": 19891,
+    "avg_markup_ratio": 2.84
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Anand Patel",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 19749.8,
+      "total_services": 217,
+      "total_beneficiaries": 203,
+      "avg_submitted": 1252.33,
+      "avg_paid": 88.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 66261.36,
+      "total_services": 671,
+      "total_beneficiaries": 637,
+      "avg_submitted": 1172.17,
+      "avg_paid": 87.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 47261.27,
+      "total_services": 463,
+      "total_beneficiaries": 442,
+      "avg_submitted": 1000.31,
+      "avg_paid": 70.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 568.77,
+      "total_services": 15,
+      "total_beneficiaries": 15,
+      "avg_submitted": 183.07,
+      "avg_paid": 37.92
+    },
+    {
+      "year": 2018,
+      "total_payments": 297544.98,
+      "total_services": 3157,
+      "total_beneficiaries": 1764,
+      "avg_submitted": 169.94,
+      "avg_paid": 89.29
+    },
+    {
+      "year": 2019,
+      "total_payments": 421368.39,
+      "total_services": 4163,
+      "total_beneficiaries": 1890,
+      "avg_submitted": 171.63,
+      "avg_paid": 83.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 503826.55,
+      "total_services": 5185,
+      "total_beneficiaries": 2423,
+      "avg_submitted": 177.37,
+      "avg_paid": 89.63
+    },
+    {
+      "year": 2021,
+      "total_payments": 419538.37,
+      "total_services": 5273,
+      "total_beneficiaries": 2386,
+      "avg_submitted": 189.71,
+      "avg_paid": 90.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 378603.91,
+      "total_services": 4993,
+      "total_beneficiaries": 2201,
+      "avg_submitted": 196.53,
+      "avg_paid": 98.64
+    },
+    {
+      "year": 2023,
+      "total_payments": 314922.58,
+      "total_services": 4391,
+      "total_beneficiaries": 1688,
+      "avg_submitted": 173.67,
+      "avg_paid": 87.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 3374,
+      "payments": 285669.11,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 2440,
+      "payments": 282009.66,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 4110,
+      "payments": 269285.1,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 2313,
+      "payments": 234444.95,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 1759,
+      "payments": 227933.11,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 3341,
+      "payments": 172325.69,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 760,
+      "payments": 113789.54,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1350,
+      "payments": 102058.17,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit, problem with significant threat to life or function",
+      "services": 644,
+      "payments": 82233.74,
+      "avg_markup": 14.06
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 402,
+      "payments": 70444.96,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 494,
+      "payments": 68764.62,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1027,
+      "payments": 66700.86,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 394,
+      "payments": 66233.69,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 329,
+      "payments": 56327.92,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 561,
+      "payments": 51568.42,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 150,
+      "payments": 39629.64,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 278,
+      "payments": 24133.98,
+      "avg_markup": 14.06
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 131,
+      "payments": 23443.18,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 233,
+      "payments": 20926.9,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 751,
+      "payments": 17654.62,
+      "avg_markup": 1.66
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2469645.98,
+    "total_services": 28528,
+    "total_beneficiaries": 13649,
+    "avg_markup_ratio": 2.84
+  }
+}

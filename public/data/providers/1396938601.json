@@ -1,0 +1,63 @@
+{
+  "name": "Jamshid Jamshidian",
+  "credentials": "M.D.",
+  "specialty": "Diagnostic Radiology",
+  "city": "Bakersfield",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1611502.37,
+      "total_services": 2643,
+      "total_beneficiaries": 408,
+      "avg_submitted": 1120.21,
+      "avg_paid": 607.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 1727255.96,
+      "total_services": 1874,
+      "total_beneficiaries": 298,
+      "avg_submitted": 1584.7,
+      "avg_paid": 756.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0182T",
+      "description": "High dose rate electronic brachytherapy",
+      "services": 1823,
+      "payments": 2845856.7,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 1705,
+      "payments": 395881.3,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 883,
+      "payments": 49271.58,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 106,
+      "payments": 47748.75,
+      "avg_markup": 3.53
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 3338758.33,
+    "total_services": 4517,
+    "total_beneficiaries": 706,
+    "avg_markup_ratio": 1.81
+  }
+}

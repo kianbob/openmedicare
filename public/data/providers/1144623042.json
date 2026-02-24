@@ -1,0 +1,95 @@
+{
+  "name": "Life Ambulance Services Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Marietta",
+  "state": "GA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 231538.12,
+      "total_services": 2809,
+      "total_beneficiaries": 146,
+      "avg_submitted": 206.0,
+      "avg_paid": 82.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 752395.18,
+      "total_services": 8955,
+      "total_beneficiaries": 654,
+      "avg_submitted": 353.0,
+      "avg_paid": 196.99
+    },
+    {
+      "year": 2018,
+      "total_payments": 1006921.22,
+      "total_services": 12148,
+      "total_beneficiaries": 1191,
+      "avg_submitted": 353.0,
+      "avg_paid": 194.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 722617.67,
+      "total_services": 9458,
+      "total_beneficiaries": 800,
+      "avg_submitted": 402.87,
+      "avg_paid": 195.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 300811.0,
+      "total_services": 4037,
+      "total_beneficiaries": 196,
+      "avg_submitted": 317.97,
+      "avg_paid": 74.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 83077.59,
+      "total_services": 1110,
+      "total_beneficiaries": 40,
+      "avg_submitted": 317.97,
+      "avg_paid": 74.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 18742,
+      "payments": 2847333.11,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 452,
+      "payments": 128600.02,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 19246,
+      "payments": 95301.41,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 77,
+      "payments": 26126.24,
+      "avg_markup": 1.66
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3097360.78,
+    "total_services": 38517,
+    "total_beneficiaries": 3027,
+    "avg_markup_ratio": 2.89
+  }
+}

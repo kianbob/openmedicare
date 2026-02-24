@@ -1,0 +1,239 @@
+{
+  "name": "William Taylor",
+  "credentials": "MD",
+  "specialty": "Geriatric Medicine",
+  "city": "Dublin",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 425681.65,
+      "total_services": 6143,
+      "total_beneficiaries": 2220,
+      "avg_submitted": 206.24,
+      "avg_paid": 75.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 422572.74,
+      "total_services": 6226,
+      "total_beneficiaries": 2467,
+      "avg_submitted": 196.21,
+      "avg_paid": 72.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 481149.3,
+      "total_services": 7011,
+      "total_beneficiaries": 2462,
+      "avg_submitted": 218.69,
+      "avg_paid": 75.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 489662.61,
+      "total_services": 7478,
+      "total_beneficiaries": 3055,
+      "avg_submitted": 231.75,
+      "avg_paid": 71.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 436869.23,
+      "total_services": 6494,
+      "total_beneficiaries": 2462,
+      "avg_submitted": 206.39,
+      "avg_paid": 70.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 540771.82,
+      "total_services": 8452,
+      "total_beneficiaries": 2834,
+      "avg_submitted": 203.2,
+      "avg_paid": 69.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 567170.92,
+      "total_services": 9193,
+      "total_beneficiaries": 3158,
+      "avg_submitted": 204.46,
+      "avg_paid": 68.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 458069.75,
+      "total_services": 4842,
+      "total_beneficiaries": 1894,
+      "avg_submitted": 139.27,
+      "avg_paid": 67.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 265532.87,
+      "total_services": 3354,
+      "total_beneficiaries": 1596,
+      "avg_submitted": 170.27,
+      "avg_paid": 85.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 217228.42,
+      "total_services": 2629,
+      "total_beneficiaries": 993,
+      "avg_submitted": 167.12,
+      "avg_paid": 87.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 31913,
+      "payments": 2138884.21,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 5698,
+      "payments": 570284.4,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 9926,
+      "payments": 508322.27,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 3426,
+      "payments": 420613.65,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "G0182",
+      "description": "Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",
+      "services": 2359,
+      "payments": 185639.96,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1614,
+      "payments": 98353.97,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 1145,
+      "payments": 82669.9,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1414,
+      "payments": 43975.77,
+      "avg_markup": 8.03
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 493,
+      "payments": 38691.72,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 453,
+      "payments": 35280.59,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 864,
+      "payments": 33263.02,
+      "avg_markup": 5.16
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 628,
+      "payments": 32421.18,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 187,
+      "payments": 18138.05,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 210,
+      "payments": 17046.89,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services, each additional 60 minutes clinical staff time per calendar month",
+      "services": 256,
+      "payments": 13760.07,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 375,
+      "payments": 12332.34,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 102,
+      "payments": 11924.4,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "97597",
+      "description": "Removal of tissue from wounds per session",
+      "services": 172,
+      "payments": 9021.75,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 56,
+      "payments": 7579.86,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit per day, typically 35 minutes",
+      "services": 68,
+      "payments": 6498.57,
+      "avg_markup": 2.06
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4304709.31,
+    "total_services": 61822,
+    "total_beneficiaries": 23141,
+    "avg_markup_ratio": 2.64
+  }
+}

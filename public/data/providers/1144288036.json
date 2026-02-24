@@ -1,0 +1,239 @@
+{
+  "name": "Vlad Nusinovich",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "West Hollywood",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 896881.58,
+      "total_services": 14329,
+      "total_beneficiaries": 5396,
+      "avg_submitted": 142.75,
+      "avg_paid": 69.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 940111.14,
+      "total_services": 14354,
+      "total_beneficiaries": 5543,
+      "avg_submitted": 138.83,
+      "avg_paid": 70.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 951896.53,
+      "total_services": 15573,
+      "total_beneficiaries": 5670,
+      "avg_submitted": 148.0,
+      "avg_paid": 77.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 946664.25,
+      "total_services": 14104,
+      "total_beneficiaries": 5800,
+      "avg_submitted": 139.59,
+      "avg_paid": 69.86
+    },
+    {
+      "year": 2018,
+      "total_payments": 915113.65,
+      "total_services": 13873,
+      "total_beneficiaries": 5925,
+      "avg_submitted": 186.08,
+      "avg_paid": 65.96
+    },
+    {
+      "year": 2019,
+      "total_payments": 863400.73,
+      "total_services": 14112,
+      "total_beneficiaries": 5687,
+      "avg_submitted": 187.93,
+      "avg_paid": 68.59
+    },
+    {
+      "year": 2020,
+      "total_payments": 718219.11,
+      "total_services": 11509,
+      "total_beneficiaries": 4755,
+      "avg_submitted": 180.56,
+      "avg_paid": 71.78
+    },
+    {
+      "year": 2021,
+      "total_payments": 665315.11,
+      "total_services": 10109,
+      "total_beneficiaries": 4310,
+      "avg_submitted": 176.97,
+      "avg_paid": 71.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 419068.35,
+      "total_services": 7051,
+      "total_beneficiaries": 3142,
+      "avg_submitted": 162.8,
+      "avg_paid": 58.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 710087.41,
+      "total_services": 12681,
+      "total_beneficiaries": 4651,
+      "avg_submitted": 171.22,
+      "avg_paid": 65.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 15958,
+      "payments": 1445059.52,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13810,
+      "payments": 1278284.26,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 12794,
+      "payments": 753929.85,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 4291,
+      "payments": 489986.39,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4972,
+      "payments": 437586.06,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 4182,
+      "payments": 429626.0,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2201,
+      "payments": 375373.15,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 1347,
+      "payments": 274848.61,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2035,
+      "payments": 259143.88,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2101,
+      "payments": 191725.76,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1625,
+      "payments": 175695.65,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 3689,
+      "payments": 167749.37,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "97110",
+      "description": "Therapeutic exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 6032,
+      "payments": 149791.23,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 3809,
+      "payments": 136057.08,
+      "avg_markup": 5.2
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 863,
+      "payments": 122133.88,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 928,
+      "payments": 113796.89,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "83013",
+      "description": "Breath test analysis for helicobacter pylori",
+      "services": 1305,
+      "payments": 109709.48,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 542,
+      "payments": 101248.21,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "97124",
+      "description": "Therapeutic massage to 1 or more areas, each 15 minutes",
+      "services": 3020,
+      "payments": 66748.15,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "97032",
+      "description": "Application of electrical stimulation to 1 or more areas, each 15 minutes",
+      "services": 5832,
+      "payments": 63855.96,
+      "avg_markup": 3.96
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 8026757.85,
+    "total_services": 127695,
+    "total_beneficiaries": 50879,
+    "avg_markup_ratio": 2.59
+  }
+}

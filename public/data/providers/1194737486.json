@@ -1,0 +1,239 @@
+{
+  "name": "Vincent Wang",
+  "credentials": "D.O.",
+  "specialty": "Internal Medicine",
+  "city": "Flushing",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 578642.6,
+      "total_services": 8711,
+      "total_beneficiaries": 3153,
+      "avg_submitted": 84.59,
+      "avg_paid": 58.78
+    },
+    {
+      "year": 2015,
+      "total_payments": 655208.3,
+      "total_services": 9469,
+      "total_beneficiaries": 3062,
+      "avg_submitted": 90.5,
+      "avg_paid": 64.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 497422.4,
+      "total_services": 7278,
+      "total_beneficiaries": 2651,
+      "avg_submitted": 98.0,
+      "avg_paid": 70.88
+    },
+    {
+      "year": 2017,
+      "total_payments": 203038.94,
+      "total_services": 3381,
+      "total_beneficiaries": 1628,
+      "avg_submitted": 94.38,
+      "avg_paid": 62.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 211405.1,
+      "total_services": 3313,
+      "total_beneficiaries": 1735,
+      "avg_submitted": 102.08,
+      "avg_paid": 63.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 225169.85,
+      "total_services": 3783,
+      "total_beneficiaries": 2067,
+      "avg_submitted": 109.67,
+      "avg_paid": 65.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 274898.23,
+      "total_services": 5471,
+      "total_beneficiaries": 2126,
+      "avg_submitted": 111.25,
+      "avg_paid": 68.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 350486.15,
+      "total_services": 7949,
+      "total_beneficiaries": 4778,
+      "avg_submitted": 89.79,
+      "avg_paid": 56.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 368096.79,
+      "total_services": 5474,
+      "total_beneficiaries": 2444,
+      "avg_submitted": 97.28,
+      "avg_paid": 58.71
+    },
+    {
+      "year": 2023,
+      "total_payments": 351158.95,
+      "total_services": 5117,
+      "total_beneficiaries": 2265,
+      "avg_submitted": 112.62,
+      "avg_paid": 68.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10939,
+      "payments": 712880.04,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6740,
+      "payments": 673926.74,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5587,
+      "payments": 400546.78,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 5773,
+      "payments": 261490.71,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2698,
+      "payments": 216940.52,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1589,
+      "payments": 197354.31,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2422,
+      "payments": 150011.58,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1030,
+      "payments": 144218.91,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1402,
+      "payments": 136251.39,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 826,
+      "payments": 94932.2,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 347,
+      "payments": 51375.77,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 1315,
+      "payments": 50916.48,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 335,
+      "payments": 39759.6,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 339,
+      "payments": 38670.5,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "G2058",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time directed by a physician or other qualified health care professional, per calendar month (list separately in addition to code for primary procedure). (do not report g2058 fo",
+      "services": 1112,
+      "payments": 35684.85,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 584,
+      "payments": 34946.9,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "G0506",
+      "description": "Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service)",
+      "services": 573,
+      "payments": 33072.29,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1055,
+      "payments": 28625.22,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 149,
+      "payments": 28578.82,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 131,
+      "payments": 27492.98,
+      "avg_markup": 1.42
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3715527.31,
+    "total_services": 59946,
+    "total_beneficiaries": 25909,
+    "avg_markup_ratio": 1.62
+  }
+}

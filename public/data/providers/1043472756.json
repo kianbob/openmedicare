@@ -1,0 +1,169 @@
+{
+  "name": "Mehul Patel",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Bedford",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 234410.98,
+      "total_services": 3176,
+      "total_beneficiaries": 1443,
+      "avg_submitted": 277.32,
+      "avg_paid": 96.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 256042.7,
+      "total_services": 3513,
+      "total_beneficiaries": 1468,
+      "avg_submitted": 274.36,
+      "avg_paid": 99.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 311826.15,
+      "total_services": 4431,
+      "total_beneficiaries": 1691,
+      "avg_submitted": 242.0,
+      "avg_paid": 91.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 277917.8,
+      "total_services": 3890,
+      "total_beneficiaries": 1603,
+      "avg_submitted": 341.2,
+      "avg_paid": 96.21
+    },
+    {
+      "year": 2018,
+      "total_payments": 234282.55,
+      "total_services": 3187,
+      "total_beneficiaries": 1356,
+      "avg_submitted": 337.56,
+      "avg_paid": 89.33
+    },
+    {
+      "year": 2019,
+      "total_payments": 239520.98,
+      "total_services": 3289,
+      "total_beneficiaries": 1397,
+      "avg_submitted": 336.75,
+      "avg_paid": 89.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 280900.53,
+      "total_services": 3906,
+      "total_beneficiaries": 1503,
+      "avg_submitted": 394.73,
+      "avg_paid": 94.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 277099.23,
+      "total_services": 3915,
+      "total_beneficiaries": 1542,
+      "avg_submitted": 374.0,
+      "avg_paid": 87.21
+    },
+    {
+      "year": 2022,
+      "total_payments": 305553.99,
+      "total_services": 4426,
+      "total_beneficiaries": 1531,
+      "avg_submitted": 392.48,
+      "avg_paid": 89.4
+    },
+    {
+      "year": 2023,
+      "total_payments": 319107.34,
+      "total_services": 4566,
+      "total_beneficiaries": 1408,
+      "avg_submitted": 373.1,
+      "avg_paid": 88.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 27743,
+      "payments": 1577502.01,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3566,
+      "payments": 542396.47,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2518,
+      "payments": 201804.66,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2112,
+      "payments": 176212.41,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1082,
+      "payments": 147800.62,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 676,
+      "payments": 37589.74,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 251,
+      "payments": 25717.19,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 183,
+      "payments": 14677.93,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 134,
+      "payments": 7482.88,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 34,
+      "payments": 5478.34,
+      "avg_markup": 3.51
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2736662.25,
+    "total_services": 38299,
+    "total_beneficiaries": 14942,
+    "avg_markup_ratio": 3.32
+  }
+}

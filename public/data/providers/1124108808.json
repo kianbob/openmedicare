@@ -1,0 +1,239 @@
+{
+  "name": "David Montgomery",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Oakland",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 820451.73,
+      "total_services": 12892,
+      "total_beneficiaries": 7238,
+      "avg_submitted": 328.27,
+      "avg_paid": 93.45
+    },
+    {
+      "year": 2015,
+      "total_payments": 805744.43,
+      "total_services": 11570,
+      "total_beneficiaries": 6652,
+      "avg_submitted": 308.32,
+      "avg_paid": 96.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 753873.11,
+      "total_services": 11521,
+      "total_beneficiaries": 7273,
+      "avg_submitted": 317.15,
+      "avg_paid": 98.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 798836.38,
+      "total_services": 11644,
+      "total_beneficiaries": 7198,
+      "avg_submitted": 291.91,
+      "avg_paid": 98.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 743893.35,
+      "total_services": 11065,
+      "total_beneficiaries": 7103,
+      "avg_submitted": 375.83,
+      "avg_paid": 122.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 629905.5,
+      "total_services": 9569,
+      "total_beneficiaries": 6421,
+      "avg_submitted": 332.16,
+      "avg_paid": 98.36
+    },
+    {
+      "year": 2020,
+      "total_payments": 525568.38,
+      "total_services": 7455,
+      "total_beneficiaries": 5167,
+      "avg_submitted": 323.76,
+      "avg_paid": 101.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 680605.22,
+      "total_services": 10112,
+      "total_beneficiaries": 5798,
+      "avg_submitted": 334.27,
+      "avg_paid": 99.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 530865.08,
+      "total_services": 6593,
+      "total_beneficiaries": 4259,
+      "avg_submitted": 334.62,
+      "avg_paid": 102.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 551542.28,
+      "total_services": 6319,
+      "total_beneficiaries": 4243,
+      "avg_submitted": 384.47,
+      "avg_paid": 118.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 24139,
+      "payments": 2168647.26,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 6060,
+      "payments": 979199.31,
+      "avg_markup": 5.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6946,
+      "payments": 431189.99,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 1816,
+      "payments": 405104.39,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 2077,
+      "payments": 370291.84,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 25126,
+      "payments": 336448.07,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 432,
+      "payments": 320659.11,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 6876,
+      "payments": 253020.11,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 360,
+      "payments": 160225.76,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 716,
+      "payments": 134344.26,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2190,
+      "payments": 125393.51,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 931,
+      "payments": 118300.45,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 998,
+      "payments": 114675.12,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 547,
+      "payments": 113503.12,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 680,
+      "payments": 87789.71,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 869,
+      "payments": 80394.17,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 434,
+      "payments": 67922.41,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 7892,
+      "payments": 56892.48,
+      "avg_markup": 6.11
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 612,
+      "payments": 45941.39,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 677,
+      "payments": 42532.77,
+      "avg_markup": 3.62
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6841285.46,
+    "total_services": 98740,
+    "total_beneficiaries": 61352,
+    "avg_markup_ratio": 3.45
+  }
+}

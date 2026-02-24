@@ -1,0 +1,93 @@
+{
+  "name": "Medfleet Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Hudson",
+  "state": "FL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1028388.28,
+      "total_services": 8429,
+      "total_beneficiaries": 6552,
+      "avg_submitted": 522.92,
+      "avg_paid": 271.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 927302.87,
+      "total_services": 7894,
+      "total_beneficiaries": 6241,
+      "avg_submitted": 536.58,
+      "avg_paid": 269.78
+    },
+    {
+      "year": 2022,
+      "total_payments": 964081.69,
+      "total_services": 7576,
+      "total_beneficiaries": 6165,
+      "avg_submitted": 625.42,
+      "avg_paid": 280.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 1317329.02,
+      "total_services": 10114,
+      "total_beneficiaries": 7698,
+      "avg_submitted": 726.0,
+      "avg_paid": 302.31
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 10533,
+      "payments": 1983396.89,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3401,
+      "payments": 1018120.33,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 1462,
+      "payments": 514401.11,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 596,
+      "payments": 370155.2,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1068,
+      "payments": 243314.21,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16953,
+      "payments": 107714.11,
+      "avg_markup": 2.26
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4237101.85,
+    "total_services": 34013,
+    "total_beneficiaries": 26656,
+    "avg_markup_ratio": 2.03
+  }
+}

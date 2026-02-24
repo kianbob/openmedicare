@@ -1,0 +1,239 @@
+{
+  "name": "Matthew Smetanick",
+  "credentials": "D.O.",
+  "specialty": "Dermatology",
+  "city": "Burnet",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 366492.12,
+      "total_services": 6336,
+      "total_beneficiaries": 5126,
+      "avg_submitted": 209.32,
+      "avg_paid": 83.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 386975.4,
+      "total_services": 6539,
+      "total_beneficiaries": 5192,
+      "avg_submitted": 215.32,
+      "avg_paid": 86.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 463371.7,
+      "total_services": 8209,
+      "total_beneficiaries": 6029,
+      "avg_submitted": 206.6,
+      "avg_paid": 82.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 395447.08,
+      "total_services": 7113,
+      "total_beneficiaries": 5345,
+      "avg_submitted": 204.36,
+      "avg_paid": 82.71
+    },
+    {
+      "year": 2018,
+      "total_payments": 390863.06,
+      "total_services": 6659,
+      "total_beneficiaries": 5259,
+      "avg_submitted": 271.09,
+      "avg_paid": 84.69
+    },
+    {
+      "year": 2019,
+      "total_payments": 297985.99,
+      "total_services": 5121,
+      "total_beneficiaries": 4059,
+      "avg_submitted": 266.52,
+      "avg_paid": 82.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 233346.86,
+      "total_services": 4016,
+      "total_beneficiaries": 3342,
+      "avg_submitted": 227.89,
+      "avg_paid": 72.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 290322.4,
+      "total_services": 4716,
+      "total_beneficiaries": 3680,
+      "avg_submitted": 255.96,
+      "avg_paid": 79.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 292772.65,
+      "total_services": 4947,
+      "total_beneficiaries": 3976,
+      "avg_submitted": 248.05,
+      "avg_paid": 69.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 250393.65,
+      "total_services": 4149,
+      "total_beneficiaries": 3341,
+      "avg_submitted": 254.26,
+      "avg_paid": 77.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 13293,
+      "payments": 690019.0,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4866,
+      "payments": 349019.35,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 5301,
+      "payments": 347995.56,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 3938,
+      "payments": 297374.47,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 7725,
+      "payments": 263442.46,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 1012,
+      "payments": 228234.88,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "13121",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of scalp, arms, and/or legs",
+      "services": 599,
+      "payments": 189625.09,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 2696,
+      "payments": 173741.96,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 1722,
+      "payments": 159577.2,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 2053,
+      "payments": 143941.93,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "13101",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of trunk",
+      "services": 422,
+      "payments": 121060.2,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "11101",
+      "description": "Biopsy of each additional growth of skin and/or tissue",
+      "services": 2248,
+      "payments": 54989.3,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 1028,
+      "payments": 48719.97,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 440,
+      "payments": 48128.41,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "69100",
+      "description": "Biopsy of ear",
+      "services": 898,
+      "payments": 43228.71,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1172,
+      "payments": 37971.01,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "11103",
+      "description": "Tangential biopsy of additional skin lesion",
+      "services": 781,
+      "payments": 31263.31,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 5577,
+      "payments": 25964.0,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "17111",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 195,
+      "payments": 17860.77,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "10060",
+      "description": "Drainage of abscess",
+      "services": 212,
+      "payments": 17047.02,
+      "avg_markup": 2.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3367970.91,
+    "total_services": 57805,
+    "total_beneficiaries": 45349,
+    "avg_markup_ratio": 2.87
+  }
+}

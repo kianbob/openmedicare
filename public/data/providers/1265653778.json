@@ -1,0 +1,169 @@
+{
+  "name": "Andrew Nguyen",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Amityville",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 295428.19,
+      "total_services": 3478,
+      "total_beneficiaries": 1052,
+      "avg_submitted": 178.57,
+      "avg_paid": 100.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 272353.15,
+      "total_services": 3202,
+      "total_beneficiaries": 861,
+      "avg_submitted": 189.73,
+      "avg_paid": 106.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 304007.18,
+      "total_services": 3682,
+      "total_beneficiaries": 917,
+      "avg_submitted": 199.99,
+      "avg_paid": 106.42
+    },
+    {
+      "year": 2017,
+      "total_payments": 410785.55,
+      "total_services": 4873,
+      "total_beneficiaries": 1363,
+      "avg_submitted": 200.0,
+      "avg_paid": 105.98
+    },
+    {
+      "year": 2018,
+      "total_payments": 286033.12,
+      "total_services": 3560,
+      "total_beneficiaries": 1105,
+      "avg_submitted": 184.2,
+      "avg_paid": 113.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 223135.85,
+      "total_services": 3011,
+      "total_beneficiaries": 1012,
+      "avg_submitted": 157.64,
+      "avg_paid": 97.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 229713.51,
+      "total_services": 2909,
+      "total_beneficiaries": 881,
+      "avg_submitted": 140.97,
+      "avg_paid": 94.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 230606.63,
+      "total_services": 2966,
+      "total_beneficiaries": 827,
+      "avg_submitted": 155.42,
+      "avg_paid": 108.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 190540.15,
+      "total_services": 2453,
+      "total_beneficiaries": 824,
+      "avg_submitted": 164.52,
+      "avg_paid": 106.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 153918.2,
+      "total_services": 1908,
+      "total_beneficiaries": 687,
+      "avg_submitted": 139.88,
+      "avg_paid": 96.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 22833,
+      "payments": 1459109.19,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2396,
+      "payments": 427784.88,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2863,
+      "payments": 343609.55,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3650,
+      "payments": 334586.63,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 157,
+      "payments": 14273.88,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 79,
+      "payments": 11180.71,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 20,
+      "payments": 2158.2,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 12,
+      "payments": 1800.0,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 21,
+      "payments": 1292.37,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 11,
+      "payments": 726.12,
+      "avg_markup": 2.65
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2596521.53,
+    "total_services": 32042,
+    "total_beneficiaries": 9529,
+    "avg_markup_ratio": 1.8
+  }
+}

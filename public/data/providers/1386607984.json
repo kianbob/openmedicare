@@ -1,0 +1,225 @@
+{
+  "name": "Praful Patel",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Montgomery",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 319461.65,
+      "total_services": 4534,
+      "total_beneficiaries": 1697,
+      "avg_submitted": 441.99,
+      "avg_paid": 83.95
+    },
+    {
+      "year": 2015,
+      "total_payments": 406566.56,
+      "total_services": 5437,
+      "total_beneficiaries": 2100,
+      "avg_submitted": 376.06,
+      "avg_paid": 92.65
+    },
+    {
+      "year": 2016,
+      "total_payments": 412886.83,
+      "total_services": 5559,
+      "total_beneficiaries": 2239,
+      "avg_submitted": 179.23,
+      "avg_paid": 88.07
+    },
+    {
+      "year": 2017,
+      "total_payments": 330803.16,
+      "total_services": 4772,
+      "total_beneficiaries": 1916,
+      "avg_submitted": 177.39,
+      "avg_paid": 84.21
+    },
+    {
+      "year": 2018,
+      "total_payments": 304243.4,
+      "total_services": 4272,
+      "total_beneficiaries": 1837,
+      "avg_submitted": 174.32,
+      "avg_paid": 79.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 258468.12,
+      "total_services": 3687,
+      "total_beneficiaries": 1542,
+      "avg_submitted": 172.93,
+      "avg_paid": 84.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 398456.37,
+      "total_services": 5865,
+      "total_beneficiaries": 1732,
+      "avg_submitted": 178.02,
+      "avg_paid": 88.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 359427.9,
+      "total_services": 5464,
+      "total_beneficiaries": 1579,
+      "avg_submitted": 169.92,
+      "avg_paid": 88.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 356377.71,
+      "total_services": 5462,
+      "total_beneficiaries": 1451,
+      "avg_submitted": 201.91,
+      "avg_paid": 90.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 334176.45,
+      "total_services": 4869,
+      "total_beneficiaries": 1375,
+      "avg_submitted": 217.96,
+      "avg_paid": 93.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 13225,
+      "payments": 988254.21,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17462,
+      "payments": 920302.55,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3158,
+      "payments": 447525.54,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 9421,
+      "payments": 424714.22,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2135,
+      "payments": 348739.94,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2249,
+      "payments": 175617.34,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 579,
+      "payments": 66116.07,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 233,
+      "payments": 30188.52,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 580,
+      "payments": 17610.75,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 259,
+      "payments": 15669.82,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 166,
+      "payments": 11907.92,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 68,
+      "payments": 10638.96,
+      "avg_markup": 5.23
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 197,
+      "payments": 10485.6,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 83,
+      "payments": 5190.66,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 34,
+      "payments": 3456.77,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 41,
+      "payments": 3121.43,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 19,
+      "payments": 681.53,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 12,
+      "payments": 646.32,
+      "avg_markup": 10.15
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3480868.15,
+    "total_services": 49921,
+    "total_beneficiaries": 17468,
+    "avg_markup_ratio": 2.48
+  }
+}

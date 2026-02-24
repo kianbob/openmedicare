@@ -1,0 +1,239 @@
+{
+  "name": "John Michel",
+  "credentials": "DO",
+  "specialty": "Internal Medicine",
+  "city": "Philadelphia",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 223364.5,
+      "total_services": 2888,
+      "total_beneficiaries": 1335,
+      "avg_submitted": 115.04,
+      "avg_paid": 84.94
+    },
+    {
+      "year": 2015,
+      "total_payments": 363965.68,
+      "total_services": 4773,
+      "total_beneficiaries": 2256,
+      "avg_submitted": 103.82,
+      "avg_paid": 71.57
+    },
+    {
+      "year": 2016,
+      "total_payments": 359640.82,
+      "total_services": 5425,
+      "total_beneficiaries": 2663,
+      "avg_submitted": 100.01,
+      "avg_paid": 64.17
+    },
+    {
+      "year": 2017,
+      "total_payments": 491762.22,
+      "total_services": 8022,
+      "total_beneficiaries": 3533,
+      "avg_submitted": 112.69,
+      "avg_paid": 72.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 352772.12,
+      "total_services": 5570,
+      "total_beneficiaries": 2752,
+      "avg_submitted": 120.38,
+      "avg_paid": 74.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 247455.2,
+      "total_services": 3599,
+      "total_beneficiaries": 2461,
+      "avg_submitted": 109.2,
+      "avg_paid": 69.05
+    },
+    {
+      "year": 2020,
+      "total_payments": 274476.88,
+      "total_services": 3892,
+      "total_beneficiaries": 2288,
+      "avg_submitted": 113.96,
+      "avg_paid": 69.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 295434.85,
+      "total_services": 4331,
+      "total_beneficiaries": 2334,
+      "avg_submitted": 132.95,
+      "avg_paid": 73.4
+    },
+    {
+      "year": 2022,
+      "total_payments": 436616.55,
+      "total_services": 5804,
+      "total_beneficiaries": 2529,
+      "avg_submitted": 144.7,
+      "avg_paid": 84.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 763103.04,
+      "total_services": 9664,
+      "total_beneficiaries": 2975,
+      "avg_submitted": 134.68,
+      "avg_paid": 79.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 16857,
+      "payments": 1231501.88,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8172,
+      "payments": 633478.18,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1714,
+      "payments": 179042.41,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3296,
+      "payments": 175386.0,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99483",
+      "description": "Assessment of and care planning for patient with impaired thought processing, typically 50 minutes",
+      "services": 700,
+      "payments": 148010.3,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1141,
+      "payments": 123779.82,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1776,
+      "payments": 119966.79,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 780,
+      "payments": 105174.86,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 586,
+      "payments": 102803.7,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 997,
+      "payments": 83672.53,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 692,
+      "payments": 81875.45,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1410,
+      "payments": 81828.28,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "G0447",
+      "description": "Face-to-face behavioral counseling for obesity, 15 minutes",
+      "services": 2951,
+      "payments": 78472.05,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 658,
+      "payments": 68647.74,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 908,
+      "payments": 54127.98,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "G2087",
+      "description": "Office-based treatment for opioid use disorder, including care coordination, individual therapy and group therapy and counseling; at least 60 minutes in a subsequent calendar month",
+      "services": 169,
+      "payments": 47498.39,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 283,
+      "payments": 46244.51,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 214,
+      "payments": 40894.91,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 656,
+      "payments": 35892.61,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 775,
+      "payments": 32852.71,
+      "avg_markup": 2.31
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3808591.86,
+    "total_services": 53968,
+    "total_beneficiaries": 25126,
+    "avg_markup_ratio": 1.52
+  }
+}

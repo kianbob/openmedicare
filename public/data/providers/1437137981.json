@@ -1,0 +1,183 @@
+{
+  "name": "Minaxi Rathod",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Sherman",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 553254.87,
+      "total_services": 7893,
+      "total_beneficiaries": 2312,
+      "avg_submitted": 178.53,
+      "avg_paid": 89.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 505814.23,
+      "total_services": 7470,
+      "total_beneficiaries": 2180,
+      "avg_submitted": 143.69,
+      "avg_paid": 75.59
+    },
+    {
+      "year": 2016,
+      "total_payments": 432300.15,
+      "total_services": 6456,
+      "total_beneficiaries": 2096,
+      "avg_submitted": 175.53,
+      "avg_paid": 85.17
+    },
+    {
+      "year": 2017,
+      "total_payments": 455719.18,
+      "total_services": 6707,
+      "total_beneficiaries": 2329,
+      "avg_submitted": 175.18,
+      "avg_paid": 84.97
+    },
+    {
+      "year": 2018,
+      "total_payments": 470527.75,
+      "total_services": 6891,
+      "total_beneficiaries": 2381,
+      "avg_submitted": 168.38,
+      "avg_paid": 84.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 534823.13,
+      "total_services": 7334,
+      "total_beneficiaries": 2287,
+      "avg_submitted": 172.16,
+      "avg_paid": 93.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 675489.62,
+      "total_services": 9154,
+      "total_beneficiaries": 2671,
+      "avg_submitted": 174.79,
+      "avg_paid": 93.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 559122.81,
+      "total_services": 8022,
+      "total_beneficiaries": 2058,
+      "avg_submitted": 171.88,
+      "avg_paid": 96.68
+    },
+    {
+      "year": 2022,
+      "total_payments": 433876.71,
+      "total_services": 6255,
+      "total_beneficiaries": 1689,
+      "avg_submitted": 265.82,
+      "avg_paid": 101.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 327157.03,
+      "total_services": 4596,
+      "total_beneficiaries": 1269,
+      "avg_submitted": 261.21,
+      "avg_paid": 100.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 50997,
+      "payments": 2841924.2,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 8095,
+      "payments": 1233142.18,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3191,
+      "payments": 254660.23,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4207,
+      "payments": 209682.0,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1627,
+      "payments": 167077.73,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1709,
+      "payments": 136332.17,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 389,
+      "payments": 59546.52,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99183",
+      "description": "Management and supervision of oxygen chamber therapy per session",
+      "services": 363,
+      "payments": 33965.91,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 65,
+      "payments": 6476.45,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 39,
+      "payments": 2951.24,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "97605",
+      "description": "Negative pressure wound therapy, surface area less than or equal to 50 square centimeters, per session",
+      "services": 52,
+      "payments": 1672.85,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 44,
+      "payments": 654.0,
+      "avg_markup": 2.02
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4948085.48,
+    "total_services": 70778,
+    "total_beneficiaries": 21272,
+    "avg_markup_ratio": 1.79
+  }
+}

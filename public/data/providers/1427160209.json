@@ -1,0 +1,141 @@
+{
+  "name": "Primary Care Ambulance Corp",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Staten Island",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1820772.23,
+      "total_services": 14642,
+      "total_beneficiaries": 5563,
+      "avg_submitted": 452.46,
+      "avg_paid": 227.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 1915910.29,
+      "total_services": 15587,
+      "total_beneficiaries": 5506,
+      "avg_submitted": 452.45,
+      "avg_paid": 229.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 1879470.36,
+      "total_services": 14891,
+      "total_beneficiaries": 5457,
+      "avg_submitted": 452.52,
+      "avg_paid": 229.34
+    },
+    {
+      "year": 2017,
+      "total_payments": 1681194.75,
+      "total_services": 13719,
+      "total_beneficiaries": 5217,
+      "avg_submitted": 452.45,
+      "avg_paid": 231.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 1386176.1,
+      "total_services": 11587,
+      "total_beneficiaries": 4994,
+      "avg_submitted": 452.49,
+      "avg_paid": 233.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 1331985.87,
+      "total_services": 11396,
+      "total_beneficiaries": 5177,
+      "avg_submitted": 861.58,
+      "avg_paid": 309.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 1329865.94,
+      "total_services": 11903,
+      "total_beneficiaries": 5171,
+      "avg_submitted": 885.59,
+      "avg_paid": 314.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 1263610.48,
+      "total_services": 11847,
+      "total_beneficiaries": 5161,
+      "avg_submitted": 723.3,
+      "avg_paid": 246.77
+    },
+    {
+      "year": 2022,
+      "total_payments": 1178338.96,
+      "total_services": 10706,
+      "total_beneficiaries": 4771,
+      "avg_submitted": 729.04,
+      "avg_paid": 256.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 1084963.09,
+      "total_services": 9076,
+      "total_beneficiaries": 4262,
+      "avg_submitted": 846.21,
+      "avg_paid": 275.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 51109,
+      "payments": 10103392.52,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6948,
+      "payments": 2285278.82,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 4912,
+      "payments": 1903193.31,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 61554,
+      "payments": 346459.08,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 773,
+      "payments": 194629.55,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 58,
+      "payments": 39334.79,
+      "avg_markup": 2.36
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 14872288.07,
+    "total_services": 125354,
+    "total_beneficiaries": 51279,
+    "avg_markup_ratio": 2.85
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Gentlecare Transport, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1705334.32,
+      "total_services": 14133,
+      "total_beneficiaries": 1886,
+      "avg_submitted": 1145.66,
+      "avg_paid": 266.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 901844.33,
+      "total_services": 9319,
+      "total_beneficiaries": 878,
+      "avg_submitted": 832.12,
+      "avg_paid": 271.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 833921.21,
+      "total_services": 8497,
+      "total_beneficiaries": 2853,
+      "avg_submitted": 868.6,
+      "avg_paid": 282.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 14639,
+      "payments": 2599510.07,
+      "avg_markup": 5.94
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1130,
+      "payments": 706105.08,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16001,
+      "payments": 83449.7,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 148,
+      "payments": 44882.05,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 31,
+      "payments": 7152.96,
+      "avg_markup": 6.3
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3441099.85,
+    "total_services": 31949,
+    "total_beneficiaries": 5617,
+    "avg_markup_ratio": 5.19
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "name": "Olga Shif",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Towson",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 8344.82,
+      "total_services": 58,
+      "total_beneficiaries": 49,
+      "avg_submitted": 1398.6,
+      "avg_paid": 136.25
+    },
+    {
+      "year": 2016,
+      "total_payments": 75116.76,
+      "total_services": 985,
+      "total_beneficiaries": 855,
+      "avg_submitted": 347.36,
+      "avg_paid": 91.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 43960.02,
+      "total_services": 286,
+      "total_beneficiaries": 226,
+      "avg_submitted": 371.73,
+      "avg_paid": 192.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 446982.89,
+      "total_services": 4097,
+      "total_beneficiaries": 2208,
+      "avg_submitted": 331.06,
+      "avg_paid": 149.98
+    },
+    {
+      "year": 2019,
+      "total_payments": 647828.88,
+      "total_services": 5380,
+      "total_beneficiaries": 2388,
+      "avg_submitted": 336.16,
+      "avg_paid": 150.01
+    },
+    {
+      "year": 2020,
+      "total_payments": 868140.67,
+      "total_services": 6501,
+      "total_beneficiaries": 2819,
+      "avg_submitted": 312.52,
+      "avg_paid": 150.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 1003559.63,
+      "total_services": 7125,
+      "total_beneficiaries": 2922,
+      "avg_submitted": 277.47,
+      "avg_paid": 136.68
+    },
+    {
+      "year": 2022,
+      "total_payments": 734450.3,
+      "total_services": 5217,
+      "total_beneficiaries": 2456,
+      "avg_submitted": 291.91,
+      "avg_paid": 148.11
+    },
+    {
+      "year": 2023,
+      "total_payments": 910284.73,
+      "total_services": 7241,
+      "total_beneficiaries": 3340,
+      "avg_submitted": 269.9,
+      "avg_paid": 131.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 3279,
+      "payments": 2387165.87,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 5486,
+      "payments": 502905.36,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6010,
+      "payments": 405402.9,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3859,
+      "payments": 357587.2,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 3731,
+      "payments": 342206.19,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 7599,
+      "payments": 259771.58,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 2487,
+      "payments": 84777.75,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 1621,
+      "payments": 82345.87,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 623,
+      "payments": 81647.4,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "67228",
+      "description": "Laser destruction of leaking retinal blood vessels, 1 or more sessions",
+      "services": 135,
+      "payments": 39692.29,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "92242",
+      "description": "Imaging of blood vessels in back of eye using fluorescein and indocyanine-green dye",
+      "services": 164,
+      "payments": 33688.23,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "92240",
+      "description": "Examination of eye using an endoscope",
+      "services": 167,
+      "payments": 32706.25,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 192,
+      "payments": 30421.38,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 60,
+      "payments": 27060.71,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "92287",
+      "description": "Imaging and evaluation of deep cells of the eye",
+      "services": 188,
+      "payments": 23593.77,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "92201",
+      "description": "Extended examination of eye with drawing of retina",
+      "services": 652,
+      "payments": 12325.1,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach",
+      "services": 62,
+      "payments": 9685.78,
+      "avg_markup": 11.04
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 43,
+      "payments": 5241.98,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 108,
+      "payments": 5132.02,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "J2777",
+      "description": "Injection, faricimab-svoa, 0.1 mg",
+      "services": 170,
+      "payments": 4943.64,
+      "avg_markup": 2.61
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 4738668.7,
+    "total_services": 36890,
+    "total_beneficiaries": 17263,
+    "avg_markup_ratio": 1.98
+  }
+}

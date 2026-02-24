@@ -1,0 +1,223 @@
+{
+  "name": "Edward Lodish",
+  "credentials": "D.O.",
+  "specialty": "Geriatric Medicine",
+  "city": "Southfield",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 300724.11,
+      "total_services": 4227,
+      "total_beneficiaries": 2840,
+      "avg_submitted": 119.24,
+      "avg_paid": 55.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 119219.05,
+      "total_services": 1876,
+      "total_beneficiaries": 1564,
+      "avg_submitted": 94.09,
+      "avg_paid": 56.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 555239.15,
+      "total_services": 8751,
+      "total_beneficiaries": 5546,
+      "avg_submitted": 144.96,
+      "avg_paid": 66.15
+    },
+    {
+      "year": 2017,
+      "total_payments": 460227.7,
+      "total_services": 6773,
+      "total_beneficiaries": 3514,
+      "avg_submitted": 165.68,
+      "avg_paid": 78.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 347353.64,
+      "total_services": 4752,
+      "total_beneficiaries": 1937,
+      "avg_submitted": 171.65,
+      "avg_paid": 73.37
+    },
+    {
+      "year": 2019,
+      "total_payments": 504277.33,
+      "total_services": 6619,
+      "total_beneficiaries": 3309,
+      "avg_submitted": 154.56,
+      "avg_paid": 73.93
+    },
+    {
+      "year": 2020,
+      "total_payments": 435047.9,
+      "total_services": 6857,
+      "total_beneficiaries": 4165,
+      "avg_submitted": 151.3,
+      "avg_paid": 66.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 190871.98,
+      "total_services": 3004,
+      "total_beneficiaries": 1900,
+      "avg_submitted": 143.85,
+      "avg_paid": 66.87
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 7410,
+      "payments": 675927.28,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 4629,
+      "payments": 277542.67,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 1652,
+      "payments": 240246.28,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 2707,
+      "payments": 222720.41,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 1445,
+      "payments": 191512.13,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 3120,
+      "payments": 126516.09,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 1493,
+      "payments": 115679.37,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1069,
+      "payments": 114773.63,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "96116",
+      "description": "Neurobehavioral status examination, interpretation, and report by psychologist or physician per hour",
+      "services": 1756,
+      "payments": 111451.72,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 681,
+      "payments": 103045.23,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 1427,
+      "payments": 90716.8,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 1601,
+      "payments": 81333.1,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99483",
+      "description": "Assessment of and care planning for patient with impaired thought processing, typically 50 minutes",
+      "services": 285,
+      "payments": 58562.49,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1220,
+      "payments": 57681.6,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1447,
+      "payments": 46580.79,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 405,
+      "payments": 42761.38,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 505,
+      "payments": 38149.77,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "92548",
+      "description": "Assessment of balance and postural instability",
+      "services": 382,
+      "payments": 28655.14,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 210,
+      "payments": 26819.5,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 681,
+      "payments": 26145.75,
+      "avg_markup": 5.14
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2912960.86,
+    "total_services": 42859,
+    "total_beneficiaries": 24775,
+    "avg_markup_ratio": 2.18
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "name": "Daniel Berman",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Monroe",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 343345.02,
+      "total_services": 4392,
+      "total_beneficiaries": 1639,
+      "avg_submitted": 211.63,
+      "avg_paid": 95.89
+    },
+    {
+      "year": 2015,
+      "total_payments": 340296.59,
+      "total_services": 4321,
+      "total_beneficiaries": 1563,
+      "avg_submitted": 211.42,
+      "avg_paid": 96.48
+    },
+    {
+      "year": 2016,
+      "total_payments": 315638.73,
+      "total_services": 3844,
+      "total_beneficiaries": 1521,
+      "avg_submitted": 211.83,
+      "avg_paid": 95.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 248247.48,
+      "total_services": 3191,
+      "total_beneficiaries": 1315,
+      "avg_submitted": 208.64,
+      "avg_paid": 89.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 336119.41,
+      "total_services": 4176,
+      "total_beneficiaries": 1760,
+      "avg_submitted": 215.11,
+      "avg_paid": 93.88
+    },
+    {
+      "year": 2019,
+      "total_payments": 299557.18,
+      "total_services": 3673,
+      "total_beneficiaries": 1780,
+      "avg_submitted": 210.79,
+      "avg_paid": 94.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 251218.45,
+      "total_services": 3191,
+      "total_beneficiaries": 1509,
+      "avg_submitted": 200.8,
+      "avg_paid": 87.54
+    },
+    {
+      "year": 2021,
+      "total_payments": 204784.12,
+      "total_services": 2390,
+      "total_beneficiaries": 1372,
+      "avg_submitted": 215.71,
+      "avg_paid": 94.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 160382.98,
+      "total_services": 1780,
+      "total_beneficiaries": 1152,
+      "avg_submitted": 228.65,
+      "avg_paid": 99.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 104554.22,
+      "total_services": 1316,
+      "total_beneficiaries": 653,
+      "avg_submitted": 245.53,
+      "avg_paid": 89.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17813,
+      "payments": 1151940.74,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3550,
+      "payments": 440027.85,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2164,
+      "payments": 389312.47,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3942,
+      "payments": 368331.45,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 3111,
+      "payments": 110430.28,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 449,
+      "payments": 42081.62,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 266,
+      "payments": 25271.46,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 157,
+      "payments": 17835.22,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 264,
+      "payments": 16745.8,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 88,
+      "payments": 13088.69,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 218,
+      "payments": 12958.37,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 130,
+      "payments": 10528.05,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99448",
+      "description": "Telephone or internet assessment and management service provided by consultative physician with verbal and written report, 21-30 minutes of medical consultative discussion and review",
+      "services": 85,
+      "payments": 4331.96,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99447",
+      "description": "Telephone or internet assessment and management service provided by consultative physician with verbal and written report, 11-20 minutes of medical consultative discussion and review",
+      "services": 37,
+      "payments": 1260.22,
+      "avg_markup": 3.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2604144.18,
+    "total_services": 32274,
+    "total_beneficiaries": 14264,
+    "avg_markup_ratio": 2.28
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "name": "Howard Cohen",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Edison",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 354295.61,
+      "total_services": 4326,
+      "total_beneficiaries": 2784,
+      "avg_submitted": 105.89,
+      "avg_paid": 70.04
+    },
+    {
+      "year": 2015,
+      "total_payments": 337316.64,
+      "total_services": 3922,
+      "total_beneficiaries": 2511,
+      "avg_submitted": 116.4,
+      "avg_paid": 76.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 340023.36,
+      "total_services": 4149,
+      "total_beneficiaries": 2597,
+      "avg_submitted": 116.0,
+      "avg_paid": 74.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 327487.18,
+      "total_services": 3811,
+      "total_beneficiaries": 2451,
+      "avg_submitted": 123.86,
+      "avg_paid": 79.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 277237.97,
+      "total_services": 3254,
+      "total_beneficiaries": 2032,
+      "avg_submitted": 136.31,
+      "avg_paid": 89.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 237382.43,
+      "total_services": 2751,
+      "total_beneficiaries": 1661,
+      "avg_submitted": 132.0,
+      "avg_paid": 84.08
+    },
+    {
+      "year": 2020,
+      "total_payments": 195337.55,
+      "total_services": 2152,
+      "total_beneficiaries": 1486,
+      "avg_submitted": 153.57,
+      "avg_paid": 102.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 233482.62,
+      "total_services": 2417,
+      "total_beneficiaries": 1581,
+      "avg_submitted": 154.62,
+      "avg_paid": 100.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 96500.05,
+      "total_services": 1247,
+      "total_beneficiaries": 968,
+      "avg_submitted": 286.47,
+      "avg_paid": 65.67
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10921,
+      "payments": 920594.02,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 958,
+      "payments": 426025.25,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1855,
+      "payments": 352916.23,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1593,
+      "payments": 93949.84,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 613,
+      "payments": 62700.29,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 840,
+      "payments": 51232.47,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1365,
+      "payments": 44371.7,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 230,
+      "payments": 38367.24,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "95921",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 513,
+      "payments": 37352.32,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 647,
+      "payments": 36185.99,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 295,
+      "payments": 35529.08,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 423,
+      "payments": 34041.22,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 274,
+      "payments": 30689.99,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2218,
+      "payments": 30258.73,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 409,
+      "payments": 29791.21,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 368,
+      "payments": 25612.51,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 206,
+      "payments": 24285.9,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 141,
+      "payments": 24252.12,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 192,
+      "payments": 24174.01,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 817,
+      "payments": 20969.74,
+      "avg_markup": 1.39
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2399063.41,
+    "total_services": 28029,
+    "total_beneficiaries": 18071,
+    "avg_markup_ratio": 1.67
+  }
+}

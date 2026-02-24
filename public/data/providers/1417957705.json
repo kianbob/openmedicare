@@ -1,0 +1,94 @@
+{
+  "name": "Qzo, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Aiken",
+  "state": "SC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2066767.85,
+      "total_services": 25323,
+      "total_beneficiaries": 3765,
+      "avg_submitted": 342.55,
+      "avg_paid": 177.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 1531752.61,
+      "total_services": 18550,
+      "total_beneficiaries": 2994,
+      "avg_submitted": 270.66,
+      "avg_paid": 142.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 1076853.53,
+      "total_services": 13149,
+      "total_beneficiaries": 2122,
+      "avg_submitted": 270.7,
+      "avg_paid": 140.99
+    },
+    {
+      "year": 2017,
+      "total_payments": 817742.44,
+      "total_services": 10121,
+      "total_beneficiaries": 1267,
+      "avg_submitted": 270.74,
+      "avg_paid": 139.64
+    },
+    {
+      "year": 2018,
+      "total_payments": 190210.11,
+      "total_services": 2427,
+      "total_beneficiaries": 144,
+      "avg_submitted": 181.0,
+      "avg_paid": 78.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 33160,
+      "payments": 5055208.5,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1561,
+      "payments": 409908.48,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 34812,
+      "payments": 209725.92,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 17,
+      "payments": 5197.68,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "A0999",
+      "description": "Unlisted ambulance service",
+      "services": 20,
+      "payments": 3285.95,
+      "avg_markup": 2.13
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 5683326.53,
+    "total_services": 69570,
+    "total_beneficiaries": 10292,
+    "avg_markup_ratio": 2.24
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Reza Bagherpour",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Rancho Mirage",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 805.84,
+      "total_services": 14,
+      "total_beneficiaries": 14,
+      "avg_submitted": 145.0,
+      "avg_paid": 57.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 201135.25,
+      "total_services": 2454,
+      "total_beneficiaries": 873,
+      "avg_submitted": 382.4,
+      "avg_paid": 87.63
+    },
+    {
+      "year": 2020,
+      "total_payments": 541413.04,
+      "total_services": 5632,
+      "total_beneficiaries": 2322,
+      "avg_submitted": 410.0,
+      "avg_paid": 102.34
+    },
+    {
+      "year": 2021,
+      "total_payments": 584275.91,
+      "total_services": 6106,
+      "total_beneficiaries": 2350,
+      "avg_submitted": 425.0,
+      "avg_paid": 98.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 602062.52,
+      "total_services": 6329,
+      "total_beneficiaries": 1972,
+      "avg_submitted": 379.92,
+      "avg_paid": 85.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 790389.67,
+      "total_services": 8008,
+      "total_beneficiaries": 2439,
+      "avg_submitted": 360.0,
+      "avg_paid": 86.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 14204,
+      "payments": 1261457.39,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5591,
+      "payments": 874081.67,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5346,
+      "payments": 316103.16,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2503,
+      "payments": 222371.48,
+      "avg_markup": 5.63
+    },
+    {
+      "code": "G0180",
+      "description": "Physician or allowed practitioner certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians and",
+      "services": 527,
+      "payments": 22913.43,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 328,
+      "payments": 20073.6,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 14,
+      "payments": 1580.32,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 14,
+      "payments": 805.84,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 16,
+      "payments": 695.34,
+      "avg_markup": 4.88
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 2720082.23,
+    "total_services": 28543,
+    "total_beneficiaries": 9970,
+    "avg_markup_ratio": 4.23
+  }
+}

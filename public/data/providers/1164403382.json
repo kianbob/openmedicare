@@ -1,0 +1,239 @@
+{
+  "name": "Gary Jones",
+  "credentials": "MD",
+  "specialty": "Thoracic Surgery",
+  "city": "Alexandria",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 211665.36,
+      "total_services": 1587,
+      "total_beneficiaries": 1302,
+      "avg_submitted": 1516.94,
+      "avg_paid": 288.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 272691.35,
+      "total_services": 1769,
+      "total_beneficiaries": 1440,
+      "avg_submitted": 1527.45,
+      "avg_paid": 297.7
+    },
+    {
+      "year": 2016,
+      "total_payments": 209776.67,
+      "total_services": 1658,
+      "total_beneficiaries": 1279,
+      "avg_submitted": 1100.49,
+      "avg_paid": 207.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 182882.76,
+      "total_services": 1490,
+      "total_beneficiaries": 1154,
+      "avg_submitted": 1226.89,
+      "avg_paid": 232.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 194678.67,
+      "total_services": 1491,
+      "total_beneficiaries": 1134,
+      "avg_submitted": 1691.03,
+      "avg_paid": 250.29
+    },
+    {
+      "year": 2019,
+      "total_payments": 216939.08,
+      "total_services": 2423,
+      "total_beneficiaries": 1498,
+      "avg_submitted": 887.59,
+      "avg_paid": 173.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 385047.15,
+      "total_services": 6150,
+      "total_beneficiaries": 2045,
+      "avg_submitted": 964.52,
+      "avg_paid": 174.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 503772.64,
+      "total_services": 7037,
+      "total_beneficiaries": 2469,
+      "avg_submitted": 1043.62,
+      "avg_paid": 177.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 662114.52,
+      "total_services": 10616,
+      "total_beneficiaries": 2924,
+      "avg_submitted": 716.27,
+      "avg_paid": 131.48
+    },
+    {
+      "year": 2023,
+      "total_payments": 777252.76,
+      "total_services": 12472,
+      "total_beneficiaries": 3256,
+      "avg_submitted": 543.61,
+      "avg_paid": 130.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5189,
+      "payments": 459632.71,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "33533",
+      "description": "Heart artery bypass to repair one artery",
+      "services": 281,
+      "payments": 395663.32,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 2327,
+      "payments": 287995.41,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "96521",
+      "description": "Refilling and maintenance of portable pump",
+      "services": 2966,
+      "payments": 278265.9,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services for two or more chronic conditions, first 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 2058,
+      "payments": 198805.28,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99457",
+      "description": "Remote monitoring of physiologic parameters management services, 20 minutes or more of qualified health care professional time per calendar month",
+      "services": 4982,
+      "payments": 181795.86,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "35301",
+      "description": "Removal of blood clot and portion of artery of neck",
+      "services": 159,
+      "payments": 143602.85,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2425,
+      "payments": 142712.35,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis up to 1 hour",
+      "services": 2929,
+      "payments": 139105.15,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 772,
+      "payments": 117780.62,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 3759,
+      "payments": 115942.65,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 2117,
+      "payments": 113907.64,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 2656,
+      "payments": 103450.48,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "37225",
+      "description": "Removal of plaque in arteries in one leg, endovascular, accessed through the skin or open procedure",
+      "services": 186,
+      "payments": 80831.05,
+      "avg_markup": 16.86
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1431,
+      "payments": 79963.28,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services for two or more chronic conditions, each additional 60 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 1430,
+      "payments": 74281.55,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 594,
+      "payments": 70936.13,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "93882",
+      "description": "Ultrasound scanning of blood flow (outside of brain) on one side of head and neck or limited",
+      "services": 611,
+      "payments": 50030.38,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "96366",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis",
+      "services": 2924,
+      "payments": 44638.99,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 552,
+      "payments": 44387.9,
+      "avg_markup": 2.24
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3616820.95,
+    "total_services": 46693,
+    "total_beneficiaries": 18501,
+    "avg_markup_ratio": 3.13
+  }
+}

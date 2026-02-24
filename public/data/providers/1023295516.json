@@ -1,0 +1,239 @@
+{
+  "name": "Maria Rumsey",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Dartmouth",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 264698.15,
+      "total_services": 3850,
+      "total_beneficiaries": 3242,
+      "avg_submitted": 414.03,
+      "avg_paid": 69.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 268247.74,
+      "total_services": 3591,
+      "total_beneficiaries": 2997,
+      "avg_submitted": 325.36,
+      "avg_paid": 62.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 279545.6,
+      "total_services": 3914,
+      "total_beneficiaries": 3035,
+      "avg_submitted": 345.55,
+      "avg_paid": 60.41
+    },
+    {
+      "year": 2017,
+      "total_payments": 323129.39,
+      "total_services": 4354,
+      "total_beneficiaries": 3410,
+      "avg_submitted": 334.74,
+      "avg_paid": 63.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 347524.5,
+      "total_services": 4952,
+      "total_beneficiaries": 3722,
+      "avg_submitted": 383.3,
+      "avg_paid": 65.49
+    },
+    {
+      "year": 2019,
+      "total_payments": 289988.52,
+      "total_services": 4501,
+      "total_beneficiaries": 3254,
+      "avg_submitted": 274.36,
+      "avg_paid": 61.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 274584.64,
+      "total_services": 4009,
+      "total_beneficiaries": 2933,
+      "avg_submitted": 342.75,
+      "avg_paid": 68.17
+    },
+    {
+      "year": 2021,
+      "total_payments": 349832.37,
+      "total_services": 5446,
+      "total_beneficiaries": 3671,
+      "avg_submitted": 245.91,
+      "avg_paid": 59.52
+    },
+    {
+      "year": 2022,
+      "total_payments": 321683.47,
+      "total_services": 5559,
+      "total_beneficiaries": 3099,
+      "avg_submitted": 245.53,
+      "avg_paid": 56.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 207408.74,
+      "total_services": 3710,
+      "total_beneficiaries": 2383,
+      "avg_submitted": 257.42,
+      "avg_paid": 57.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 4768,
+      "payments": 555560.41,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4924,
+      "payments": 504598.54,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1364,
+      "payments": 390258.37,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1978,
+      "payments": 321108.39,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2718,
+      "payments": 155512.74,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1648,
+      "payments": 139724.33,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 573,
+      "payments": 90748.04,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 925,
+      "payments": 89823.3,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1013,
+      "payments": 53680.63,
+      "avg_markup": 6.83
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 990,
+      "payments": 45084.6,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1072,
+      "payments": 42542.82,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "93312",
+      "description": "Insertion of probe in esophagus for heart ultrasound examination including interpretation and report",
+      "services": 386,
+      "payments": 34593.05,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2813,
+      "payments": 34395.14,
+      "avg_markup": 11.04
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 937,
+      "payments": 30132.63,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 337,
+      "payments": 28217.45,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 999,
+      "payments": 27420.3,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 521,
+      "payments": 25922.31,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "93296",
+      "description": "Remote evaluations of defibrillator transmissions, technician review, support and distribution of results up to 90 days",
+      "services": 1197,
+      "payments": 23313.05,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 497,
+      "payments": 22073.1,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 2991,
+      "payments": 20211.63,
+      "avg_markup": 5.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2926643.13,
+    "total_services": 43886,
+    "total_beneficiaries": 31746,
+    "avg_markup_ratio": 4.57
+  }
+}

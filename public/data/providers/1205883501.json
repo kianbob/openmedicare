@@ -1,0 +1,239 @@
+{
+  "name": "Ngai Nguyen",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "San Jose",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 911751.62,
+      "total_services": 9841,
+      "total_beneficiaries": 6523,
+      "avg_submitted": 371.79,
+      "avg_paid": 134.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 766999.63,
+      "total_services": 8562,
+      "total_beneficiaries": 5780,
+      "avg_submitted": 337.48,
+      "avg_paid": 125.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 754580.5,
+      "total_services": 9139,
+      "total_beneficiaries": 5754,
+      "avg_submitted": 332.96,
+      "avg_paid": 123.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 672927.83,
+      "total_services": 9022,
+      "total_beneficiaries": 5713,
+      "avg_submitted": 226.57,
+      "avg_paid": 83.94
+    },
+    {
+      "year": 2018,
+      "total_payments": 714859.61,
+      "total_services": 8658,
+      "total_beneficiaries": 5767,
+      "avg_submitted": 338.16,
+      "avg_paid": 127.27
+    },
+    {
+      "year": 2019,
+      "total_payments": 663663.18,
+      "total_services": 8128,
+      "total_beneficiaries": 5516,
+      "avg_submitted": 273.46,
+      "avg_paid": 101.33
+    },
+    {
+      "year": 2020,
+      "total_payments": 449251.2,
+      "total_services": 5177,
+      "total_beneficiaries": 3665,
+      "avg_submitted": 288.35,
+      "avg_paid": 107.17
+    },
+    {
+      "year": 2021,
+      "total_payments": 460217.01,
+      "total_services": 4280,
+      "total_beneficiaries": 3108,
+      "avg_submitted": 279.86,
+      "avg_paid": 109.44
+    },
+    {
+      "year": 2022,
+      "total_payments": 469098.82,
+      "total_services": 4236,
+      "total_beneficiaries": 3150,
+      "avg_submitted": 301.56,
+      "avg_paid": 124.87
+    },
+    {
+      "year": 2023,
+      "total_payments": 372030.77,
+      "total_services": 3243,
+      "total_beneficiaries": 2366,
+      "avg_submitted": 259.39,
+      "avg_paid": 109.87
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2696,
+      "payments": 1342003.84,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 17617,
+      "payments": 1164027.09,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5999,
+      "payments": 820258.02,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8456,
+      "payments": 547270.65,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3886,
+      "payments": 442652.5,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3107,
+      "payments": 379865.13,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2648,
+      "payments": 166651.28,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 1465,
+      "payments": 126669.31,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1230,
+      "payments": 110749.97,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour ekg up to 30 days",
+      "services": 106,
+      "payments": 93351.36,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 971,
+      "payments": 87071.21,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2234,
+      "payments": 77769.12,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1107,
+      "payments": 72896.12,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 141,
+      "payments": 70779.02,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "93454",
+      "description": "Insertion of catheter for imaging of heart blood vessels or grafts",
+      "services": 383,
+      "payments": 64157.37,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 655,
+      "payments": 61265.86,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 292,
+      "payments": 57243.3,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 110,
+      "payments": 50621.74,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "33249",
+      "description": "Insertion or replacement of single or dual chamber pacing defibrillator leads",
+      "services": 52,
+      "payments": 41086.38,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 722,
+      "payments": 39417.27,
+      "avg_markup": 3.9
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6235380.19,
+    "total_services": 70286,
+    "total_beneficiaries": 47342,
+    "avg_markup_ratio": 2.63
+  }
+}

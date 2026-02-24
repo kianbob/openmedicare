@@ -1,0 +1,239 @@
+{
+  "name": "Rashid Rahman",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Mckinney",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 253019.27,
+      "total_services": 3025,
+      "total_beneficiaries": 1420,
+      "avg_submitted": 155.05,
+      "avg_paid": 68.66
+    },
+    {
+      "year": 2015,
+      "total_payments": 265116.35,
+      "total_services": 3253,
+      "total_beneficiaries": 1333,
+      "avg_submitted": 170.63,
+      "avg_paid": 75.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 279313.21,
+      "total_services": 3465,
+      "total_beneficiaries": 1548,
+      "avg_submitted": 164.9,
+      "avg_paid": 78.66
+    },
+    {
+      "year": 2017,
+      "total_payments": 279119.91,
+      "total_services": 3443,
+      "total_beneficiaries": 1621,
+      "avg_submitted": 177.78,
+      "avg_paid": 82.57
+    },
+    {
+      "year": 2018,
+      "total_payments": 279028.91,
+      "total_services": 3298,
+      "total_beneficiaries": 1708,
+      "avg_submitted": 162.38,
+      "avg_paid": 76.49
+    },
+    {
+      "year": 2019,
+      "total_payments": 260916.05,
+      "total_services": 3084,
+      "total_beneficiaries": 1543,
+      "avg_submitted": 185.93,
+      "avg_paid": 79.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 236329.71,
+      "total_services": 2469,
+      "total_beneficiaries": 1240,
+      "avg_submitted": 171.92,
+      "avg_paid": 82.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 191972.23,
+      "total_services": 2225,
+      "total_beneficiaries": 1391,
+      "avg_submitted": 169.35,
+      "avg_paid": 77.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 180525.86,
+      "total_services": 2181,
+      "total_beneficiaries": 1456,
+      "avg_submitted": 168.04,
+      "avg_paid": 72.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 189760.24,
+      "total_services": 2242,
+      "total_beneficiaries": 1342,
+      "avg_submitted": 158.97,
+      "avg_paid": 68.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4433,
+      "payments": 767521.54,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8475,
+      "payments": 478406.56,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3716,
+      "payments": 303188.94,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3639,
+      "payments": 286557.25,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1541,
+      "payments": 238178.55,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1866,
+      "payments": 99488.6,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 522,
+      "payments": 60331.77,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "94375",
+      "description": "Diagnostic testing in a pulmonary function lab",
+      "services": 2072,
+      "payments": 58185.21,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "95806",
+      "description": "Unattended sleep study with recording of heart rate, oxygen, respiratory airflow and effort",
+      "services": 303,
+      "payments": 22072.84,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 182,
+      "payments": 18793.88,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 156,
+      "payments": 15671.78,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 155,
+      "payments": 12187.56,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 498,
+      "payments": 11917.98,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 258,
+      "payments": 10619.24,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 323,
+      "payments": 7962.91,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 92,
+      "payments": 6898.62,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 55,
+      "payments": 5480.34,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 60,
+      "payments": 4252.69,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "36620",
+      "description": "Insertion of arterial catheter for blood sampling or infusion, accessed through the skin",
+      "services": 68,
+      "payments": 2372.57,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 11,
+      "payments": 1154.67,
+      "avg_markup": 1.95
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2415101.74,
+    "total_services": 28685,
+    "total_beneficiaries": 14602,
+    "avg_markup_ratio": 2.1
+  }
+}

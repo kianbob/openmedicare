@@ -1,0 +1,239 @@
+{
+  "name": "Mark Lindemann",
+  "credentials": "DO",
+  "specialty": "Internal Medicine",
+  "city": "Fort Worth",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 537322.48,
+      "total_services": 7991,
+      "total_beneficiaries": 2265,
+      "avg_submitted": 200.53,
+      "avg_paid": 77.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 490529.64,
+      "total_services": 7585,
+      "total_beneficiaries": 2107,
+      "avg_submitted": 185.85,
+      "avg_paid": 71.99
+    },
+    {
+      "year": 2016,
+      "total_payments": 467643.7,
+      "total_services": 7338,
+      "total_beneficiaries": 2001,
+      "avg_submitted": 172.0,
+      "avg_paid": 66.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 405325.82,
+      "total_services": 6541,
+      "total_beneficiaries": 1674,
+      "avg_submitted": 165.86,
+      "avg_paid": 70.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 352391.36,
+      "total_services": 5986,
+      "total_beneficiaries": 1727,
+      "avg_submitted": 144.92,
+      "avg_paid": 57.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 337380.67,
+      "total_services": 5521,
+      "total_beneficiaries": 1688,
+      "avg_submitted": 143.59,
+      "avg_paid": 58.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 377959.79,
+      "total_services": 5860,
+      "total_beneficiaries": 1379,
+      "avg_submitted": 186.88,
+      "avg_paid": 76.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 308376.24,
+      "total_services": 4718,
+      "total_beneficiaries": 1291,
+      "avg_submitted": 208.91,
+      "avg_paid": 84.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 359129.85,
+      "total_services": 5686,
+      "total_beneficiaries": 1453,
+      "avg_submitted": 210.25,
+      "avg_paid": 88.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 421691.34,
+      "total_services": 6137,
+      "total_beneficiaries": 1628,
+      "avg_submitted": 181.14,
+      "avg_paid": 81.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 23888,
+      "payments": 1244235.78,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15493,
+      "payments": 879187.64,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 12275,
+      "payments": 855282.06,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2662,
+      "payments": 341906.73,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3681,
+      "payments": 297845.36,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1556,
+      "payments": 239363.25,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1121,
+      "payments": 87326.14,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1261,
+      "payments": 65368.49,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 236,
+      "payments": 14661.2,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 59,
+      "payments": 7251.53,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 44,
+      "payments": 4859.27,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 25,
+      "payments": 4139.9,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 32,
+      "payments": 2366.97,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 49,
+      "payments": 1998.02,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 489,
+      "payments": 1746.36,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 17,
+      "payments": 1566.45,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 48,
+      "payments": 1436.64,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 22,
+      "payments": 1220.1,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 61,
+      "payments": 1167.95,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "90674",
+      "description": "Vaccine for influenza for administration into muscle, 0.5 ml dosage",
+      "services": 43,
+      "payments": 1117.21,
+      "avg_markup": 1.64
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4057750.89,
+    "total_services": 63363,
+    "total_beneficiaries": 17213,
+    "avg_markup_ratio": 2.47
+  }
+}

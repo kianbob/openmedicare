@@ -1,0 +1,239 @@
+{
+  "name": "D Cannon",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Jackson",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 451008.52,
+      "total_services": 6297,
+      "total_beneficiaries": 3672,
+      "avg_submitted": 266.02,
+      "avg_paid": 75.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 480724.79,
+      "total_services": 6741,
+      "total_beneficiaries": 3526,
+      "avg_submitted": 275.29,
+      "avg_paid": 75.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 402026.74,
+      "total_services": 6120,
+      "total_beneficiaries": 3619,
+      "avg_submitted": 271.34,
+      "avg_paid": 73.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 478885.0,
+      "total_services": 6638,
+      "total_beneficiaries": 3657,
+      "avg_submitted": 239.87,
+      "avg_paid": 70.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 449362.49,
+      "total_services": 6441,
+      "total_beneficiaries": 3488,
+      "avg_submitted": 235.3,
+      "avg_paid": 61.88
+    },
+    {
+      "year": 2019,
+      "total_payments": 595251.34,
+      "total_services": 7987,
+      "total_beneficiaries": 4007,
+      "avg_submitted": 253.16,
+      "avg_paid": 68.92
+    },
+    {
+      "year": 2020,
+      "total_payments": 531066.0,
+      "total_services": 6868,
+      "total_beneficiaries": 3423,
+      "avg_submitted": 266.7,
+      "avg_paid": 69.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 335895.21,
+      "total_services": 4711,
+      "total_beneficiaries": 2891,
+      "avg_submitted": 259.4,
+      "avg_paid": 72.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 405232.79,
+      "total_services": 5253,
+      "total_beneficiaries": 2910,
+      "avg_submitted": 245.83,
+      "avg_paid": 84.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 527148.3,
+      "total_services": 6702,
+      "total_beneficiaries": 3370,
+      "avg_submitted": 336.03,
+      "avg_paid": 95.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 13574,
+      "payments": 1056119.97,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 5824,
+      "payments": 955057.17,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 16854,
+      "payments": 900560.88,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3753,
+      "payments": 542937.4,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2396,
+      "payments": 182112.2,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1217,
+      "payments": 134349.45,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1193,
+      "payments": 128248.58,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 4063,
+      "payments": 90325.32,
+      "avg_markup": 6.2
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2323,
+      "payments": 87015.38,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 2391,
+      "payments": 86451.35,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 433,
+      "payments": 63721.46,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 587,
+      "payments": 57444.04,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 363,
+      "payments": 48263.8,
+      "avg_markup": 6.57
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 911,
+      "payments": 40904.82,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "31622",
+      "description": "Diagnostic examination of lung airways using an endoscope",
+      "services": 396,
+      "payments": 39790.35,
+      "avg_markup": 6.4
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 2258,
+      "payments": 32378.08,
+      "avg_markup": 6.97
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 573,
+      "payments": 32104.21,
+      "avg_markup": 12.37
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 354,
+      "payments": 18465.45,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 201,
+      "payments": 16866.76,
+      "avg_markup": 6.11
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 1405,
+      "payments": 15971.59,
+      "avg_markup": 7.4
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4656601.16,
+    "total_services": 63758,
+    "total_beneficiaries": 34563,
+    "avg_markup_ratio": 2.58
+  }
+}

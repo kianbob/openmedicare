@@ -1,0 +1,207 @@
+{
+  "name": "Jad Daye",
+  "credentials": "M.D.",
+  "specialty": "Interventional Cardiology",
+  "city": "Cypress",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 181434.42,
+      "total_services": 1502,
+      "total_beneficiaries": 1027,
+      "avg_submitted": 502.33,
+      "avg_paid": 160.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 503823.83,
+      "total_services": 4421,
+      "total_beneficiaries": 2918,
+      "avg_submitted": 488.92,
+      "avg_paid": 139.31
+    },
+    {
+      "year": 2020,
+      "total_payments": 452493.09,
+      "total_services": 4464,
+      "total_beneficiaries": 2609,
+      "avg_submitted": 465.42,
+      "avg_paid": 119.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 581536.33,
+      "total_services": 5262,
+      "total_beneficiaries": 3135,
+      "avg_submitted": 513.58,
+      "avg_paid": 154.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 630847.06,
+      "total_services": 5798,
+      "total_beneficiaries": 3533,
+      "avg_submitted": 513.67,
+      "avg_paid": 150.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 893883.15,
+      "total_services": 6377,
+      "total_beneficiaries": 4017,
+      "avg_submitted": 523.08,
+      "avg_paid": 184.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5155,
+      "payments": 444757.59,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3559,
+      "payments": 330240.74,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2252,
+      "payments": 277180.47,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4509,
+      "payments": 268137.65,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1598,
+      "payments": 252495.31,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "78431",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress with concurrent ct scan",
+      "services": 122,
+      "payments": 234438.84,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2077,
+      "payments": 203699.34,
+      "avg_markup": 4.38
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 433,
+      "payments": 196389.75,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 531,
+      "payments": 180723.67,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 860,
+      "payments": 177111.12,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 909,
+      "payments": 120803.34,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "36482",
+      "description": "Chemical destruction of incompetent vein of arm or leg, accessed through the skin using imaging guidance",
+      "services": 69,
+      "payments": 106098.62,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 122,
+      "payments": 84694.76,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 342,
+      "payments": 54871.86,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 403,
+      "payments": 44215.04,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 322,
+      "payments": 39891.93,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 247,
+      "payments": 36816.27,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 181,
+      "payments": 35998.75,
+      "avg_markup": 9.03
+    },
+    {
+      "code": "93241",
+      "description": "Heart rhythm recording, analysis, report, review, and interpretation of continous external ekg over more than 48 hours up to 7 days",
+      "services": 136,
+      "payments": 24797.17,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 527,
+      "payments": 24240.36,
+      "avg_markup": 6.89
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3244017.89,
+    "total_services": 27824,
+    "total_beneficiaries": 17239,
+    "avg_markup_ratio": 3.1
+  }
+}

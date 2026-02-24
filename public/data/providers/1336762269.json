@@ -1,0 +1,79 @@
+{
+  "name": "Louisiana State University Health Sciences Center",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Shreveport",
+  "state": "LA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 5468267.81,
+      "total_services": 80858,
+      "total_beneficiaries": 8315,
+      "avg_submitted": 69.82,
+      "avg_paid": 61.72
+    },
+    {
+      "year": 2021,
+      "total_payments": 5753594.04,
+      "total_services": 136881,
+      "total_beneficiaries": 10103,
+      "avg_submitted": 51.67,
+      "avg_paid": 41.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 3495951.31,
+      "total_services": 85651,
+      "total_beneficiaries": 8821,
+      "avg_submitted": 51.67,
+      "avg_paid": 40.7
+    },
+    {
+      "year": 2023,
+      "total_payments": 671970.27,
+      "total_services": 16439,
+      "total_beneficiaries": 2301,
+      "avg_submitted": 55.0,
+      "avg_paid": 42.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 128572,
+      "payments": 10777233.0,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 108666,
+      "payments": 2539356.93,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 81841,
+      "payments": 2035483.5,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 750,
+      "payments": 37710.0,
+      "avg_markup": 1.29
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 15389783.43,
+    "total_services": 319829,
+    "total_beneficiaries": 29540,
+    "avg_markup_ratio": 1.21
+  }
+}

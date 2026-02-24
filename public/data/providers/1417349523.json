@@ -1,0 +1,92 @@
+{
+  "name": "Community Care Ems Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 648511.47,
+      "total_services": 5747,
+      "total_beneficiaries": 1835,
+      "avg_submitted": 535.81,
+      "avg_paid": 172.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 1537378.55,
+      "total_services": 13498,
+      "total_beneficiaries": 4945,
+      "avg_submitted": 700.98,
+      "avg_paid": 227.16
+    },
+    {
+      "year": 2017,
+      "total_payments": 1188245.84,
+      "total_services": 9896,
+      "total_beneficiaries": 3488,
+      "avg_submitted": 954.98,
+      "avg_paid": 337.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 10892,
+      "payments": 2026540.62,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3179,
+      "payments": 1021800.55,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 469,
+      "payments": 180272.44,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14461,
+      "payments": 76605.61,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 55,
+      "payments": 30704.78,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 42,
+      "payments": 27780.48,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 43,
+      "payments": 10431.38,
+      "avg_markup": 3.42
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3374135.86,
+    "total_services": 29141,
+    "total_beneficiaries": 10268,
+    "avg_markup_ratio": 3.58
+  }
+}

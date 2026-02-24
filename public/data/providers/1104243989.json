@@ -1,0 +1,134 @@
+{
+  "name": "Christopher Broz",
+  "credentials": "PA-C",
+  "specialty": "Physician Assistant",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 239451.62,
+      "total_services": 4020,
+      "total_beneficiaries": 1949,
+      "avg_submitted": 151.01,
+      "avg_paid": 70.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 332898.88,
+      "total_services": 5418,
+      "total_beneficiaries": 2699,
+      "avg_submitted": 156.35,
+      "avg_paid": 69.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 324392.56,
+      "total_services": 5421,
+      "total_beneficiaries": 2528,
+      "avg_submitted": 145.03,
+      "avg_paid": 64.43
+    },
+    {
+      "year": 2017,
+      "total_payments": 373539.3,
+      "total_services": 6466,
+      "total_beneficiaries": 2764,
+      "avg_submitted": 145.04,
+      "avg_paid": 64.23
+    },
+    {
+      "year": 2018,
+      "total_payments": 388605.83,
+      "total_services": 6864,
+      "total_beneficiaries": 2845,
+      "avg_submitted": 144.97,
+      "avg_paid": 62.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 360800.31,
+      "total_services": 6370,
+      "total_beneficiaries": 2698,
+      "avg_submitted": 145.0,
+      "avg_paid": 63.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 322484.98,
+      "total_services": 5646,
+      "total_beneficiaries": 2109,
+      "avg_submitted": 145.0,
+      "avg_paid": 65.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 358054.13,
+      "total_services": 6085,
+      "total_beneficiaries": 2344,
+      "avg_submitted": 145.0,
+      "avg_paid": 66.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 327673.66,
+      "total_services": 5665,
+      "total_beneficiaries": 2296,
+      "avg_submitted": 171.71,
+      "avg_paid": 77.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 358341.63,
+      "total_services": 5549,
+      "total_beneficiaries": 2054,
+      "avg_submitted": 265.64,
+      "avg_paid": 78.76
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 38235,
+      "payments": 1902560.11,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 12889,
+      "payments": 854357.67,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 5798,
+      "payments": 561694.23,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit per day, typically 45 minutes",
+      "services": 404,
+      "payments": 50799.09,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit per day, typically 35 minutes",
+      "services": 178,
+      "payments": 16831.8,
+      "avg_markup": 3.41
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3386242.9,
+    "total_services": 57504,
+    "total_beneficiaries": 24286,
+    "avg_markup_ratio": 2.36
+  }
+}

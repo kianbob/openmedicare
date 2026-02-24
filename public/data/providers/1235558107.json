@@ -1,0 +1,133 @@
+{
+  "name": "Mid-Atlantic Care",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Newark",
+  "state": "DE",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 55328.08,
+      "total_services": 620,
+      "total_beneficiaries": 100,
+      "avg_submitted": 270.99,
+      "avg_paid": 152.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 457945.5,
+      "total_services": 5365,
+      "total_beneficiaries": 487,
+      "avg_submitted": 270.04,
+      "avg_paid": 152.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 438382.45,
+      "total_services": 4743,
+      "total_beneficiaries": 1632,
+      "avg_submitted": 522.74,
+      "avg_paid": 205.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 577978.43,
+      "total_services": 6255,
+      "total_beneficiaries": 2310,
+      "avg_submitted": 532.07,
+      "avg_paid": 207.72
+    },
+    {
+      "year": 2018,
+      "total_payments": 446407.93,
+      "total_services": 4877,
+      "total_beneficiaries": 2307,
+      "avg_submitted": 543.74,
+      "avg_paid": 207.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 323282.21,
+      "total_services": 3582,
+      "total_beneficiaries": 2184,
+      "avg_submitted": 1083.08,
+      "avg_paid": 260.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 720244.55,
+      "total_services": 7636,
+      "total_beneficiaries": 4583,
+      "avg_submitted": 1104.59,
+      "avg_paid": 259.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 770968.05,
+      "total_services": 7766,
+      "total_beneficiaries": 4837,
+      "avg_submitted": 1104.7,
+      "avg_paid": 263.19
+    },
+    {
+      "year": 2022,
+      "total_payments": 770024.6,
+      "total_services": 7485,
+      "total_beneficiaries": 4579,
+      "avg_submitted": 639.24,
+      "avg_paid": 148.58
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 22894,
+      "payments": 4055075.19,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 506,
+      "payments": 150224.29,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 24157,
+      "payments": 148063.58,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 639,
+      "payments": 144977.09,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 60,
+      "payments": 37171.69,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 73,
+      "payments": 25049.95,
+      "avg_markup": 2.62
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 4560561.8,
+    "total_services": 48329,
+    "total_beneficiaries": 23019,
+    "avg_markup_ratio": 3.47
+  }
+}

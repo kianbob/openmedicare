@@ -1,0 +1,197 @@
+{
+  "name": "Charles Bramlet",
+  "credentials": "MD",
+  "specialty": "Psychiatry",
+  "city": "Lafayette",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 338800.74,
+      "total_services": 5448,
+      "total_beneficiaries": 2458,
+      "avg_submitted": 123.36,
+      "avg_paid": 73.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 393059.3,
+      "total_services": 6208,
+      "total_beneficiaries": 3029,
+      "avg_submitted": 120.85,
+      "avg_paid": 72.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 382011.76,
+      "total_services": 6348,
+      "total_beneficiaries": 2945,
+      "avg_submitted": 118.66,
+      "avg_paid": 69.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 368241.61,
+      "total_services": 6084,
+      "total_beneficiaries": 2645,
+      "avg_submitted": 121.98,
+      "avg_paid": 70.97
+    },
+    {
+      "year": 2018,
+      "total_payments": 377065.01,
+      "total_services": 5960,
+      "total_beneficiaries": 2855,
+      "avg_submitted": 120.36,
+      "avg_paid": 70.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 336930.57,
+      "total_services": 5093,
+      "total_beneficiaries": 2489,
+      "avg_submitted": 126.95,
+      "avg_paid": 76.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 263217.74,
+      "total_services": 3985,
+      "total_beneficiaries": 2041,
+      "avg_submitted": 114.15,
+      "avg_paid": 71.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 221026.79,
+      "total_services": 3324,
+      "total_beneficiaries": 1993,
+      "avg_submitted": 105.24,
+      "avg_paid": 73.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 227475.02,
+      "total_services": 3339,
+      "total_beneficiaries": 1968,
+      "avg_submitted": 110.26,
+      "avg_paid": 76.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 226636.61,
+      "total_services": 3327,
+      "total_beneficiaries": 1864,
+      "avg_submitted": 108.75,
+      "avg_paid": 78.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15316,
+      "payments": 844700.16,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 10099,
+      "payments": 647912.01,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "90792",
+      "description": "Psychiatric diagnostic evaluation with medical services",
+      "services": 4821,
+      "payments": 562407.25,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1802,
+      "payments": 272973.26,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3328,
+      "payments": 263966.86,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 5553,
+      "payments": 164823.05,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3121,
+      "payments": 123311.96,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1384,
+      "payments": 64637.98,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1178,
+      "payments": 64595.78,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 382,
+      "payments": 30985.7,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 256,
+      "payments": 26271.91,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "90833",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 711,
+      "payments": 26061.5,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99212",
+      "description": "Established patient outpatient visit, total time 10-19 minutes",
+      "services": 779,
+      "payments": 21649.54,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 386,
+      "payments": 20168.19,
+      "avg_markup": 1.62
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3134465.15,
+    "total_services": 49116,
+    "total_beneficiaries": 24287,
+    "avg_markup_ratio": 1.52
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Ritu Rastogi",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Wilmington",
+  "state": "DE",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 330299.67,
+      "total_services": 4089,
+      "total_beneficiaries": 1885,
+      "avg_submitted": 141.24,
+      "avg_paid": 77.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 450025.92,
+      "total_services": 5726,
+      "total_beneficiaries": 1959,
+      "avg_submitted": 142.9,
+      "avg_paid": 79.24
+    },
+    {
+      "year": 2016,
+      "total_payments": 436560.04,
+      "total_services": 5478,
+      "total_beneficiaries": 2299,
+      "avg_submitted": 144.07,
+      "avg_paid": 82.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 402372.64,
+      "total_services": 4821,
+      "total_beneficiaries": 2577,
+      "avg_submitted": 159.36,
+      "avg_paid": 93.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 352292.81,
+      "total_services": 3528,
+      "total_beneficiaries": 2579,
+      "avg_submitted": 143.88,
+      "avg_paid": 87.36
+    },
+    {
+      "year": 2019,
+      "total_payments": 372200.15,
+      "total_services": 3727,
+      "total_beneficiaries": 2799,
+      "avg_submitted": 140.63,
+      "avg_paid": 91.52
+    },
+    {
+      "year": 2020,
+      "total_payments": 352380.72,
+      "total_services": 3779,
+      "total_beneficiaries": 2637,
+      "avg_submitted": 130.79,
+      "avg_paid": 79.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 533834.71,
+      "total_services": 5508,
+      "total_beneficiaries": 3638,
+      "avg_submitted": 132.4,
+      "avg_paid": 84.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 444132.26,
+      "total_services": 4889,
+      "total_beneficiaries": 3248,
+      "avg_submitted": 127.65,
+      "avg_paid": 77.5
+    },
+    {
+      "year": 2023,
+      "total_payments": 517196.22,
+      "total_services": 4706,
+      "total_beneficiaries": 3349,
+      "avg_submitted": 138.53,
+      "avg_paid": 98.65
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 15788,
+      "payments": 2060252.49,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 25720,
+      "payments": 1798358.35,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1078,
+      "payments": 114516.83,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1008,
+      "payments": 41608.3,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 387,
+      "payments": 38076.49,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 510,
+      "payments": 36099.08,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 977,
+      "payments": 30813.7,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 169,
+      "payments": 21186.63,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 323,
+      "payments": 17077.12,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 90,
+      "payments": 15534.1,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 130,
+      "payments": 11072.53,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 58,
+      "payments": 6040.57,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 13,
+      "payments": 658.95,
+      "avg_markup": 2.71
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4191295.14,
+    "total_services": 46251,
+    "total_beneficiaries": 26970,
+    "avg_markup_ratio": 1.62
+  }
+}

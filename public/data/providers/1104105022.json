@@ -1,0 +1,85 @@
+{
+  "name": "Falck Northeast Corp.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Plymouth Meeting",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 37997.69,
+      "total_services": 303,
+      "total_beneficiaries": 286,
+      "avg_submitted": 640.49,
+      "avg_paid": 250.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 1973557.5,
+      "total_services": 17802,
+      "total_beneficiaries": 13351,
+      "avg_submitted": 803.97,
+      "avg_paid": 281.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 930414.27,
+      "total_services": 8469,
+      "total_beneficiaries": 6933,
+      "avg_submitted": 930.87,
+      "avg_paid": 280.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 10373,
+      "payments": 1939275.66,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1823,
+      "payments": 408709.9,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 544,
+      "payments": 333311.54,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 383,
+      "payments": 136168.11,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13287,
+      "payments": 75515.44,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 164,
+      "payments": 48988.81,
+      "avg_markup": 2.5
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2941969.46,
+    "total_services": 26574,
+    "total_beneficiaries": 20570,
+    "avg_markup_ratio": 3.1
+  }
+}

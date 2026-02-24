@@ -1,0 +1,225 @@
+{
+  "name": "Laura Landrieu",
+  "credentials": "MD",
+  "specialty": "Diagnostic Radiology",
+  "city": "Orlando",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 351891.61,
+      "total_services": 9945,
+      "total_beneficiaries": 9941,
+      "avg_submitted": 155.94,
+      "avg_paid": 47.19
+    },
+    {
+      "year": 2015,
+      "total_payments": 390581.94,
+      "total_services": 12099,
+      "total_beneficiaries": 12097,
+      "avg_submitted": 178.36,
+      "avg_paid": 57.14
+    },
+    {
+      "year": 2016,
+      "total_payments": 349498.69,
+      "total_services": 10632,
+      "total_beneficiaries": 10632,
+      "avg_submitted": 133.73,
+      "avg_paid": 38.78
+    },
+    {
+      "year": 2017,
+      "total_payments": 309486.22,
+      "total_services": 4468,
+      "total_beneficiaries": 4468,
+      "avg_submitted": 197.48,
+      "avg_paid": 56.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 292778.3,
+      "total_services": 4183,
+      "total_beneficiaries": 4180,
+      "avg_submitted": 188.47,
+      "avg_paid": 56.29
+    },
+    {
+      "year": 2019,
+      "total_payments": 467524.07,
+      "total_services": 7164,
+      "total_beneficiaries": 7162,
+      "avg_submitted": 293.53,
+      "avg_paid": 56.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 150458.79,
+      "total_services": 3415,
+      "total_beneficiaries": 3398,
+      "avg_submitted": 726.46,
+      "avg_paid": 80.5
+    },
+    {
+      "year": 2021,
+      "total_payments": 201799.39,
+      "total_services": 5101,
+      "total_beneficiaries": 5073,
+      "avg_submitted": 530.92,
+      "avg_paid": 96.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 179426.53,
+      "total_services": 5039,
+      "total_beneficiaries": 5016,
+      "avg_submitted": 595.4,
+      "avg_paid": 62.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 168223.32,
+      "total_services": 4791,
+      "total_beneficiaries": 4770,
+      "avg_submitted": 650.6,
+      "avg_paid": 55.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 20181,
+      "payments": 1261875.06,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 16630,
+      "payments": 918879.73,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 9050,
+      "payments": 312780.31,
+      "avg_markup": 4.4
+    },
+    {
+      "code": "77052",
+      "description": "Computer analysis of screening mammogram to assist detection of cancer",
+      "services": 15771,
+      "payments": 74740.95,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "77066",
+      "description": "Mammography of both breasts",
+      "services": 932,
+      "payments": 62479.41,
+      "avg_markup": 7.66
+    },
+    {
+      "code": "19083",
+      "description": "Biopsy of breast accessed through the skin with ultrasound guidance",
+      "services": 177,
+      "payments": 47607.09,
+      "avg_markup": 9.43
+    },
+    {
+      "code": "77065",
+      "description": "Mammography of one breast",
+      "services": 861,
+      "payments": 37594.4,
+      "avg_markup": 8.52
+    },
+    {
+      "code": "G0204",
+      "description": "Diagnostic mammography, producing direct digital image, bilateral, all views",
+      "services": 384,
+      "payments": 34610.26,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "76642",
+      "description": "Ultrasound of one breast",
+      "services": 787,
+      "payments": 30251.91,
+      "avg_markup": 9.13
+    },
+    {
+      "code": "G0279",
+      "description": "Diagnostic digital breast tomosynthesis, unilateral or bilateral (list separately in addition to g0204 or g0206)",
+      "services": 1030,
+      "payments": 28786.69,
+      "avg_markup": 6.33
+    },
+    {
+      "code": "77049",
+      "description": "Mri of both breasts with and without contrast",
+      "services": 211,
+      "payments": 18807.35,
+      "avg_markup": 9.69
+    },
+    {
+      "code": "G0206",
+      "description": "Diagnostic mammography, producing direct digital image, unilateral, all views",
+      "services": 213,
+      "payments": 16440.31,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "19285",
+      "description": "Placement of breast localization devices accessed through the skin with ultrasound guidance, first lesion",
+      "services": 42,
+      "payments": 8102.72,
+      "avg_markup": 5.99
+    },
+    {
+      "code": "76645",
+      "description": "Ultrasound of breasts",
+      "services": 52,
+      "payments": 3189.21,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "77051",
+      "description": "Computer analysis of diagnostic mammogram",
+      "services": 382,
+      "payments": 2311.7,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "19081",
+      "description": "Biopsy of breast accessed through the skin with stereotactic guidance",
+      "services": 11,
+      "payments": 1573.54,
+      "avg_markup": 16.18
+    },
+    {
+      "code": "76098",
+      "description": "Imaging of surgical specimen",
+      "services": 108,
+      "payments": 1347.26,
+      "avg_markup": 6.74
+    },
+    {
+      "code": "38792",
+      "description": "Injection of radioactive dye for x-ray identification of lymph node",
+      "services": 15,
+      "payments": 290.96,
+      "avg_markup": 32.17
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2861668.86,
+    "total_services": 66837,
+    "total_beneficiaries": 66737,
+    "avg_markup_ratio": 3.89
+  }
+}

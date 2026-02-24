@@ -1,0 +1,176 @@
+{
+  "name": "John Issa",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "Long Beach",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 595741.95,
+      "total_services": 5835,
+      "total_beneficiaries": 2187,
+      "avg_submitted": 180.98,
+      "avg_paid": 89.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 712704.99,
+      "total_services": 7019,
+      "total_beneficiaries": 2439,
+      "avg_submitted": 183.26,
+      "avg_paid": 91.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 729538.75,
+      "total_services": 7324,
+      "total_beneficiaries": 2352,
+      "avg_submitted": 182.97,
+      "avg_paid": 89.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 654424.47,
+      "total_services": 6546,
+      "total_beneficiaries": 2017,
+      "avg_submitted": 178.08,
+      "avg_paid": 90.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 463583.19,
+      "total_services": 4825,
+      "total_beneficiaries": 1653,
+      "avg_submitted": 184.34,
+      "avg_paid": 91.33
+    },
+    {
+      "year": 2019,
+      "total_payments": 569568.29,
+      "total_services": 5978,
+      "total_beneficiaries": 1803,
+      "avg_submitted": 193.9,
+      "avg_paid": 95.87
+    },
+    {
+      "year": 2020,
+      "total_payments": 592888.0,
+      "total_services": 6060,
+      "total_beneficiaries": 1640,
+      "avg_submitted": 201.12,
+      "avg_paid": 99.72
+    },
+    {
+      "year": 2021,
+      "total_payments": 453713.74,
+      "total_services": 4754,
+      "total_beneficiaries": 1368,
+      "avg_submitted": 206.0,
+      "avg_paid": 101.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 438708.69,
+      "total_services": 4760,
+      "total_beneficiaries": 1514,
+      "avg_submitted": 212.0,
+      "avg_paid": 105.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 502288.47,
+      "total_services": 4957,
+      "total_beneficiaries": 1676,
+      "avg_submitted": 214.02,
+      "avg_paid": 98.73
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 33804,
+      "payments": 3040952.71,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 6158,
+      "payments": 1040213.91,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3761,
+      "payments": 705021.75,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 4955,
+      "payments": 312148.65,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4755,
+      "payments": 293470.97,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2812,
+      "payments": 159737.43,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1269,
+      "payments": 137286.52,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 356,
+      "payments": 16446.15,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 150,
+      "payments": 5344.5,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 15,
+      "payments": 1770.9,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 23,
+      "payments": 767.05,
+      "avg_markup": 2.25
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5713160.54,
+    "total_services": 58058,
+    "total_beneficiaries": 18649,
+    "avg_markup_ratio": 1.99
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Surgcenter Of San Diego, Llc",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Escondido",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 154690.56,
+      "total_services": 20,
+      "total_beneficiaries": 19,
+      "avg_submitted": 75000.0,
+      "avg_paid": 7734.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 641622.74,
+      "total_services": 82,
+      "total_beneficiaries": 79,
+      "avg_submitted": 80000.0,
+      "avg_paid": 7824.68
+    },
+    {
+      "year": 2022,
+      "total_payments": 835457.14,
+      "total_services": 104,
+      "total_beneficiaries": 102,
+      "avg_submitted": 80000.0,
+      "avg_paid": 8049.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 1007198.11,
+      "total_services": 119,
+      "total_beneficiaries": 112,
+      "avg_submitted": 81814.27,
+      "avg_paid": 8453.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "27447",
+      "description": "Repair of knee joint",
+      "services": 175,
+      "payments": 1403830.36,
+      "avg_markup": 9.41
+    },
+    {
+      "code": "27130",
+      "description": "Replacement of thigh bone and hip joint prosthesis",
+      "services": 150,
+      "payments": 1235138.19,
+      "avg_markup": 10.43
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2638968.55,
+    "total_services": 325,
+    "total_beneficiaries": 312,
+    "avg_markup_ratio": 9.89
+  }
+}

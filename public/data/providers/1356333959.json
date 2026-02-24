@@ -1,0 +1,239 @@
+{
+  "name": "Jon Griffith",
+  "credentials": "MD",
+  "specialty": "Radiation Oncology",
+  "city": "Coeur D Alene",
+  "state": "ID",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 60598.89,
+      "total_services": 839,
+      "total_beneficiaries": 571,
+      "avg_submitted": 261.09,
+      "avg_paid": 72.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 557257.37,
+      "total_services": 3472,
+      "total_beneficiaries": 1238,
+      "avg_submitted": 1043.36,
+      "avg_paid": 228.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 510265.0,
+      "total_services": 3488,
+      "total_beneficiaries": 1353,
+      "avg_submitted": 950.07,
+      "avg_paid": 209.07
+    },
+    {
+      "year": 2017,
+      "total_payments": 532380.14,
+      "total_services": 3550,
+      "total_beneficiaries": 1211,
+      "avg_submitted": 987.98,
+      "avg_paid": 215.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 718248.87,
+      "total_services": 4356,
+      "total_beneficiaries": 1557,
+      "avg_submitted": 1076.98,
+      "avg_paid": 235.87
+    },
+    {
+      "year": 2019,
+      "total_payments": 794565.69,
+      "total_services": 4659,
+      "total_beneficiaries": 1467,
+      "avg_submitted": 1116.36,
+      "avg_paid": 237.91
+    },
+    {
+      "year": 2020,
+      "total_payments": 491808.92,
+      "total_services": 2926,
+      "total_beneficiaries": 1165,
+      "avg_submitted": 1142.24,
+      "avg_paid": 239.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 195041.97,
+      "total_services": 1097,
+      "total_beneficiaries": 720,
+      "avg_submitted": 845.12,
+      "avg_paid": 185.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 159916.73,
+      "total_services": 936,
+      "total_beneficiaries": 578,
+      "avg_submitted": 869.12,
+      "avg_paid": 168.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 107122.91,
+      "total_services": 684,
+      "total_beneficiaries": 432,
+      "avg_submitted": 539.67,
+      "avg_paid": 123.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 5895,
+      "payments": 1547606.49,
+      "avg_markup": 4.64
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 5080,
+      "payments": 388194.8,
+      "avg_markup": 5.39
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19mev",
+      "services": 1750,
+      "payments": 331513.56,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10mev",
+      "services": 1553,
+      "payments": 287823.9,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 1873,
+      "payments": 265475.67,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 172,
+      "payments": 243353.24,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "77373",
+      "description": "Stereotactic body radiation therapy 1 or more lesions using imaging guidance",
+      "services": 249,
+      "payments": 235423.13,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 3446,
+      "payments": 151720.34,
+      "avg_markup": 5.2
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 319,
+      "payments": 98524.08,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 223,
+      "payments": 83668.02,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 478,
+      "payments": 75344.8,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 769,
+      "payments": 72654.56,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 1268,
+      "payments": 72544.49,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "77295",
+      "description": "Management of radiation therapy, 3D",
+      "services": 207,
+      "payments": 70718.88,
+      "avg_markup": 7.25
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 389,
+      "payments": 48328.75,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 325,
+      "payments": 38785.65,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 526,
+      "payments": 23527.53,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "77470",
+      "description": "Special radiation treatment procedure",
+      "services": 139,
+      "payments": 14695.37,
+      "avg_markup": 9.82
+    },
+    {
+      "code": "77333",
+      "description": "Radiation treatment devices, design and construction, intermediate",
+      "services": 195,
+      "payments": 14544.59,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 264,
+      "payments": 13407.17,
+      "avg_markup": 3.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4127206.49,
+    "total_services": 26007,
+    "total_beneficiaries": 10292,
+    "avg_markup_ratio": 4.54
+  }
+}

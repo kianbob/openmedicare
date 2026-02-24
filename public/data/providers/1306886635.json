@@ -1,0 +1,239 @@
+{
+  "name": "Charles Kilo",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Naples",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 422221.13,
+      "total_services": 15233,
+      "total_beneficiaries": 10615,
+      "avg_submitted": 85.67,
+      "avg_paid": 35.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 542245.75,
+      "total_services": 22423,
+      "total_beneficiaries": 13807,
+      "avg_submitted": 81.46,
+      "avg_paid": 33.57
+    },
+    {
+      "year": 2016,
+      "total_payments": 563860.21,
+      "total_services": 24030,
+      "total_beneficiaries": 14093,
+      "avg_submitted": 82.46,
+      "avg_paid": 34.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 515217.47,
+      "total_services": 22212,
+      "total_beneficiaries": 13449,
+      "avg_submitted": 83.19,
+      "avg_paid": 35.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 526506.89,
+      "total_services": 21618,
+      "total_beneficiaries": 13451,
+      "avg_submitted": 85.37,
+      "avg_paid": 36.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 475985.02,
+      "total_services": 20657,
+      "total_beneficiaries": 12776,
+      "avg_submitted": 81.46,
+      "avg_paid": 34.52
+    },
+    {
+      "year": 2020,
+      "total_payments": 521321.71,
+      "total_services": 21679,
+      "total_beneficiaries": 13749,
+      "avg_submitted": 85.44,
+      "avg_paid": 37.74
+    },
+    {
+      "year": 2021,
+      "total_payments": 535604.47,
+      "total_services": 21925,
+      "total_beneficiaries": 13807,
+      "avg_submitted": 81.26,
+      "avg_paid": 34.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 535548.71,
+      "total_services": 21253,
+      "total_beneficiaries": 13747,
+      "avg_submitted": 89.86,
+      "avg_paid": 38.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 600687.93,
+      "total_services": 22386,
+      "total_beneficiaries": 14576,
+      "avg_submitted": 86.75,
+      "avg_paid": 36.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 18898,
+      "payments": 1540664.87,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 5457,
+      "payments": 676935.7,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 11142,
+      "payments": 378817.85,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 6491,
+      "payments": 210424.58,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 12123,
+      "payments": 210243.41,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 12485,
+      "payments": 155238.05,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 6973,
+      "payments": 134293.47,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 11710,
+      "payments": 115172.29,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 9407,
+      "payments": 105296.3,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 5008,
+      "payments": 93080.54,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1657,
+      "payments": 92595.07,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 891,
+      "payments": 92143.55,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 10886,
+      "payments": 83557.67,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 742,
+      "payments": 80242.32,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 391,
+      "payments": 79535.4,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "82977",
+      "description": "Glutamyltransferase (liver enzyme) level",
+      "services": 11908,
+      "payments": 78892.79,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 420,
+      "payments": 77172.65,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "82550",
+      "description": "Creatine kinase (cardiac enzyme) level",
+      "services": 10755,
+      "payments": 64312.1,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6757,
+      "payments": 60485.84,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 2803,
+      "payments": 60227.23,
+      "avg_markup": 2.04
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5239199.29,
+    "total_services": 213416,
+    "total_beneficiaries": 134070,
+    "avg_markup_ratio": 2.45
+  }
+}

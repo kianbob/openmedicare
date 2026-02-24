@@ -1,0 +1,79 @@
+{
+  "name": "Gallup Med Flight, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Gallup",
+  "state": "NM",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1503091.96,
+      "total_services": 880,
+      "total_beneficiaries": 816,
+      "avg_submitted": 8344.28,
+      "avg_paid": 1805.93
+    },
+    {
+      "year": 2015,
+      "total_payments": 1818637.17,
+      "total_services": 1032,
+      "total_beneficiaries": 960,
+      "avg_submitted": 10447.37,
+      "avg_paid": 1863.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 1744020.24,
+      "total_services": 983,
+      "total_beneficiaries": 931,
+      "avg_submitted": 10887.3,
+      "avg_paid": 1851.41
+    },
+    {
+      "year": 2017,
+      "total_payments": 1704654.64,
+      "total_services": 945,
+      "total_beneficiaries": 893,
+      "avg_submitted": 14105.23,
+      "avg_paid": 1855.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 1536,
+      "payments": 5222755.52,
+      "avg_markup": 6.28
+    },
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 385,
+      "payments": 1522200.11,
+      "avg_markup": 5.85
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 1534,
+      "payments": 15275.38,
+      "avg_markup": 24.26
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 385,
+      "payments": 10173.0,
+      "avg_markup": 9.36
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 6770404.01,
+    "total_services": 3840,
+    "total_beneficiaries": 3600,
+    "avg_markup_ratio": 6.23
+  }
+}

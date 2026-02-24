@@ -1,0 +1,239 @@
+{
+  "name": "Shelley Ray",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Oxford",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 312527.21,
+      "total_services": 5301,
+      "total_beneficiaries": 3570,
+      "avg_submitted": 148.12,
+      "avg_paid": 81.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 347865.52,
+      "total_services": 5666,
+      "total_beneficiaries": 3921,
+      "avg_submitted": 155.31,
+      "avg_paid": 84.67
+    },
+    {
+      "year": 2016,
+      "total_payments": 461235.88,
+      "total_services": 8584,
+      "total_beneficiaries": 6198,
+      "avg_submitted": 184.66,
+      "avg_paid": 88.16
+    },
+    {
+      "year": 2017,
+      "total_payments": 341444.57,
+      "total_services": 5920,
+      "total_beneficiaries": 4542,
+      "avg_submitted": 186.26,
+      "avg_paid": 89.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 318834.33,
+      "total_services": 5889,
+      "total_beneficiaries": 4315,
+      "avg_submitted": 157.03,
+      "avg_paid": 75.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 238714.31,
+      "total_services": 4397,
+      "total_beneficiaries": 3456,
+      "avg_submitted": 169.5,
+      "avg_paid": 84.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 224291.45,
+      "total_services": 3949,
+      "total_beneficiaries": 3144,
+      "avg_submitted": 176.09,
+      "avg_paid": 90.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 201640.43,
+      "total_services": 3181,
+      "total_beneficiaries": 2526,
+      "avg_submitted": 252.9,
+      "avg_paid": 93.22
+    },
+    {
+      "year": 2022,
+      "total_payments": 180317.81,
+      "total_services": 2942,
+      "total_beneficiaries": 2358,
+      "avg_submitted": 489.88,
+      "avg_paid": 94.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 185469.33,
+      "total_services": 3232,
+      "total_beneficiaries": 2594,
+      "avg_submitted": 507.31,
+      "avg_paid": 83.65
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9775,
+      "payments": 484672.27,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "J7308",
+      "description": "Aminolevulinic acid hcl for topical administration, 20%, single unit dosage form (354 mg)",
+      "services": 969,
+      "payments": 243819.94,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 7816,
+      "payments": 237070.95,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 1068,
+      "payments": 230510.7,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 3791,
+      "payments": 230448.09,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 3088,
+      "payments": 224432.56,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 2271,
+      "payments": 136992.49,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 1204,
+      "payments": 122322.3,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "96567",
+      "description": "Application of light to aid destruction of premalignant and/or malignant skin growths, each session",
+      "services": 1141,
+      "payments": 95317.03,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1122,
+      "payments": 88041.25,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "96910",
+      "description": "Skin application of tar and ultraviolet B or petrolatum and ultraviolet B",
+      "services": 1511,
+      "payments": 80361.3,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 736,
+      "payments": 64348.32,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "17282",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 403,
+      "payments": 52479.72,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "17272",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of scalp, neck, hands, feet, or genitals",
+      "services": 368,
+      "payments": 41950.33,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "11101",
+      "description": "Biopsy of each additional growth of skin and/or tissue",
+      "services": 1645,
+      "payments": 38518.63,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 359,
+      "payments": 37922.86,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1272,
+      "payments": 37663.93,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "11601",
+      "description": "Removal of malignant growth (0.6 to 1.0 centimeters) of the trunk, arms, or legs",
+      "services": 235,
+      "payments": 34929.9,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "96920",
+      "description": "Laser treatment (total area less than 250 sq centimeters) for inflammatory skin disease",
+      "services": 309,
+      "payments": 33749.67,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "11103",
+      "description": "Tangential biopsy of additional skin lesion",
+      "services": 786,
+      "payments": 30063.47,
+      "avg_markup": 2.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2812340.84,
+    "total_services": 49061,
+    "total_beneficiaries": 36624,
+    "avg_markup_ratio": 2.47
+  }
+}

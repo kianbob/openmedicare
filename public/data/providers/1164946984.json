@@ -1,0 +1,101 @@
+{
+  "name": "Northwest Renal Clinic, Inc.",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Portland",
+  "state": "OR",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 540156.28,
+      "total_services": 366,
+      "total_beneficiaries": 280,
+      "avg_submitted": 4647.27,
+      "avg_paid": 1448.0
+    },
+    {
+      "year": 2020,
+      "total_payments": 1144595.37,
+      "total_services": 788,
+      "total_beneficiaries": 517,
+      "avg_submitted": 4586.19,
+      "avg_paid": 1405.17
+    },
+    {
+      "year": 2021,
+      "total_payments": 869950.99,
+      "total_services": 599,
+      "total_beneficiaries": 419,
+      "avg_submitted": 4530.3,
+      "avg_paid": 1462.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 808367.01,
+      "total_services": 499,
+      "total_beneficiaries": 338,
+      "avg_submitted": 4538.44,
+      "avg_paid": 1779.38
+    },
+    {
+      "year": 2023,
+      "total_payments": 819161.26,
+      "total_services": 480,
+      "total_beneficiaries": 301,
+      "avg_submitted": 4543.6,
+      "avg_paid": 1835.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "36902",
+      "description": "Insertion of needle and/or catheter into dialysis circuit and balloon dilation of dialysis segment, with imaging including radiological supervision and interpretation",
+      "services": 1370,
+      "payments": 2593567.1,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "36905",
+      "description": "Excision of blood clot and/or infusion to dissolve blood clot in dialysis circuit and balloon dilation of dialysis segment, , accessed through the skin, with imaging including radiological supervision and interpretation",
+      "services": 268,
+      "payments": 1063579.12,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "36901",
+      "description": "Insertion of needle and/or catheter into dialysis circuit, with imaging including radiological supervision and interpretation",
+      "services": 625,
+      "payments": 300260.51,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "36589",
+      "description": "Removal of central venous catheter for infusion",
+      "services": 354,
+      "payments": 90328.12,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "36558",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 77,
+      "payments": 90158.14,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "36581",
+      "description": "Replacement of central venous catheter",
+      "services": 38,
+      "payments": 44337.92,
+      "avg_markup": 4.12
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4182230.91,
+    "total_services": 2732,
+    "total_beneficiaries": 1855,
+    "avg_markup_ratio": 2.91
+  }
+}

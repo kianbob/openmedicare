@@ -1,0 +1,239 @@
+{
+  "name": "John Pack",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Marina Del Rey",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 392262.38,
+      "total_services": 6130,
+      "total_beneficiaries": 2095,
+      "avg_submitted": 120.5,
+      "avg_paid": 56.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 482729.81,
+      "total_services": 6715,
+      "total_beneficiaries": 2357,
+      "avg_submitted": 154.99,
+      "avg_paid": 60.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 514216.63,
+      "total_services": 7139,
+      "total_beneficiaries": 2303,
+      "avg_submitted": 142.41,
+      "avg_paid": 65.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 555475.0,
+      "total_services": 7487,
+      "total_beneficiaries": 2078,
+      "avg_submitted": 128.84,
+      "avg_paid": 61.37
+    },
+    {
+      "year": 2018,
+      "total_payments": 686089.02,
+      "total_services": 8966,
+      "total_beneficiaries": 2080,
+      "avg_submitted": 139.31,
+      "avg_paid": 61.32
+    },
+    {
+      "year": 2019,
+      "total_payments": 827791.39,
+      "total_services": 10613,
+      "total_beneficiaries": 2093,
+      "avg_submitted": 146.1,
+      "avg_paid": 64.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 863162.11,
+      "total_services": 11010,
+      "total_beneficiaries": 1861,
+      "avg_submitted": 141.82,
+      "avg_paid": 68.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 857427.25,
+      "total_services": 11690,
+      "total_beneficiaries": 1924,
+      "avg_submitted": 146.68,
+      "avg_paid": 71.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 746884.3,
+      "total_services": 11018,
+      "total_beneficiaries": 1736,
+      "avg_submitted": 141.95,
+      "avg_paid": 66.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 987007.09,
+      "total_services": 13530,
+      "total_beneficiaries": 1724,
+      "avg_submitted": 141.59,
+      "avg_paid": 69.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 21737,
+      "payments": 1944808.1,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 29869,
+      "payments": 1810106.92,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 8406,
+      "payments": 655284.35,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2278,
+      "payments": 427191.63,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6593,
+      "payments": 408096.23,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4659,
+      "payments": 402580.2,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2204,
+      "payments": 368726.18,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1029,
+      "payments": 147214.07,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 953,
+      "payments": 124491.1,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 1456,
+      "payments": 97489.21,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1601,
+      "payments": 94154.32,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 979,
+      "payments": 90629.46,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1356,
+      "payments": 79314.65,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 392,
+      "payments": 43735.44,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 225,
+      "payments": 21844.07,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "36410",
+      "description": "Insertion of needle into vein, patient 3 years or older",
+      "services": 1694,
+      "payments": 21500.39,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 167,
+      "payments": 21025.45,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "83518",
+      "description": "Analysis of substance using immunoassay technique",
+      "services": 1735,
+      "payments": 17141.2,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 650,
+      "payments": 16893.34,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "69210",
+      "description": "Removal of impact ear wax, one ear",
+      "services": 376,
+      "payments": 13625.28,
+      "avg_markup": 5.21
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6913044.98,
+    "total_services": 94298,
+    "total_beneficiaries": 20251,
+    "avg_markup_ratio": 2.41
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "David Gerstenfeld",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Staten Island",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 573272.67,
+      "total_services": 5161,
+      "total_beneficiaries": 4148,
+      "avg_submitted": 338.35,
+      "avg_paid": 143.02
+    },
+    {
+      "year": 2015,
+      "total_payments": 540865.06,
+      "total_services": 5331,
+      "total_beneficiaries": 4336,
+      "avg_submitted": 326.56,
+      "avg_paid": 131.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 600785.56,
+      "total_services": 5814,
+      "total_beneficiaries": 4723,
+      "avg_submitted": 425.7,
+      "avg_paid": 161.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 651210.0,
+      "total_services": 6321,
+      "total_beneficiaries": 5178,
+      "avg_submitted": 425.84,
+      "avg_paid": 157.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 668284.75,
+      "total_services": 6407,
+      "total_beneficiaries": 5208,
+      "avg_submitted": 405.83,
+      "avg_paid": 151.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 585724.43,
+      "total_services": 5969,
+      "total_beneficiaries": 5032,
+      "avg_submitted": 376.67,
+      "avg_paid": 146.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 497526.65,
+      "total_services": 5124,
+      "total_beneficiaries": 4434,
+      "avg_submitted": 327.87,
+      "avg_paid": 124.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 642408.5,
+      "total_services": 6379,
+      "total_beneficiaries": 5432,
+      "avg_submitted": 312.77,
+      "avg_paid": 118.44
+    },
+    {
+      "year": 2022,
+      "total_payments": 608454.62,
+      "total_services": 6068,
+      "total_beneficiaries": 5177,
+      "avg_submitted": 352.44,
+      "avg_paid": 128.26
+    },
+    {
+      "year": 2023,
+      "total_payments": 603094.56,
+      "total_services": 6222,
+      "total_beneficiaries": 5291,
+      "avg_submitted": 364.21,
+      "avg_paid": 132.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 16375,
+      "payments": 1655866.07,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 2817,
+      "payments": 1573112.97,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 12253,
+      "payments": 886586.77,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 3663,
+      "payments": 425543.01,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 4489,
+      "payments": 229014.93,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 3480,
+      "payments": 179759.04,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 245,
+      "payments": 174032.35,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 570,
+      "payments": 172898.41,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 2613,
+      "payments": 143345.07,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 4201,
+      "payments": 140342.62,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 2275,
+      "payments": 82792.64,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 2214,
+      "payments": 82605.49,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "66761",
+      "description": "Creation of eye fluid drainage tracts in iris using laser, per session",
+      "services": 295,
+      "payments": 80731.17,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow, 1 or more sessions",
+      "services": 165,
+      "payments": 42150.08,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 596,
+      "payments": 38636.34,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 274,
+      "payments": 20940.27,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 545,
+      "payments": 12612.79,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "92202",
+      "description": "Extended examination of eye with drawing of optic nerve and surrounding area (macula)",
+      "services": 650,
+      "payments": 9150.9,
+      "avg_markup": 5.33
+    },
+    {
+      "code": "76514",
+      "description": "Ultrasound of corneal structure and measurement",
+      "services": 614,
+      "payments": 7205.47,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 133,
+      "payments": 5958.15,
+      "avg_markup": 1.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5971626.81,
+    "total_services": 58796,
+    "total_beneficiaries": 48959,
+    "avg_markup_ratio": 2.29
+  }
+}

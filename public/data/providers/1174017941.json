@@ -1,0 +1,116 @@
+{
+  "name": "Northern Light Medical Transport",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Bangor",
+  "state": "ME",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 377631.5,
+      "total_services": 2842,
+      "total_beneficiaries": 2013,
+      "avg_submitted": 712.18,
+      "avg_paid": 260.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 1551328.1,
+      "total_services": 11279,
+      "total_beneficiaries": 6639,
+      "avg_submitted": 848.05,
+      "avg_paid": 293.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 1210772.23,
+      "total_services": 8700,
+      "total_beneficiaries": 5427,
+      "avg_submitted": 950.89,
+      "avg_paid": 294.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 1067882.48,
+      "total_services": 7617,
+      "total_beneficiaries": 4806,
+      "avg_submitted": 983.36,
+      "avg_paid": 294.97
+    },
+    {
+      "year": 2022,
+      "total_payments": 962261.17,
+      "total_services": 6558,
+      "total_beneficiaries": 4250,
+      "avg_submitted": 989.2,
+      "avg_paid": 274.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 931953.65,
+      "total_services": 5843,
+      "total_beneficiaries": 3890,
+      "avg_submitted": 1118.02,
+      "avg_paid": 299.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 6176,
+      "payments": 2066795.68,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6093,
+      "payments": 1718707.17,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 7799,
+      "payments": 1323070.67,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1154,
+      "payments": 700512.48,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 20988,
+      "payments": 143126.38,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 575,
+      "payments": 123651.1,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 54,
+      "payments": 25965.65,
+      "avg_markup": 3.07
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 6101829.12,
+    "total_services": 42839,
+    "total_beneficiaries": 27025,
+    "avg_markup_ratio": 3.07
+  }
+}

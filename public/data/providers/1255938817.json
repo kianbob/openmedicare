@@ -1,0 +1,85 @@
+{
+  "name": "Cairo Diagnostics Nj, Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Woodcliff Lake",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 1334717.3,
+      "total_services": 897,
+      "total_beneficiaries": 847,
+      "avg_submitted": 7423.34,
+      "avg_paid": 1479.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 1831178.7,
+      "total_services": 1336,
+      "total_beneficiaries": 1262,
+      "avg_submitted": 6129.86,
+      "avg_paid": 1349.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 1905567.91,
+      "total_services": 895,
+      "total_beneficiaries": 854,
+      "avg_submitted": 3963.84,
+      "avg_paid": 800.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "81455",
+      "description": "Test for detecting genes associated with cancer",
+      "services": 1721,
+      "payments": 4962883.49,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "G0452",
+      "description": "Molecular pathology procedure; physician interpretation and report",
+      "services": 1321,
+      "payments": 50643.74,
+      "avg_markup": 5.24
+    },
+    {
+      "code": "81307",
+      "description": "Gene analysis (partner and localizer of brca2) full sequence analysis",
+      "services": 48,
+      "payments": 32323.06,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "81162",
+      "description": "Gene analysis (breast cancer 1 and 2) of full sequence and analysis for duplication or deletion variants",
+      "services": 12,
+      "payments": 21679.56,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "81206",
+      "description": "Translocation analysis (bcr/abl1) major breakpoint",
+      "services": 13,
+      "payments": 2088.84,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "81207",
+      "description": "Translocation analysis (bcr/abl1) minor breakpoint",
+      "services": 13,
+      "payments": 1845.22,
+      "avg_markup": 3.57
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 5071463.91,
+    "total_services": 3128,
+    "total_beneficiaries": 2963,
+    "avg_markup_ratio": 5.06
+  }
+}

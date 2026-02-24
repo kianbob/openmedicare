@@ -1,0 +1,84 @@
+{
+  "name": "Med Rush Clinical Lab Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Des Plaines",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 1693518.48,
+      "total_services": 38980,
+      "total_beneficiaries": 6144,
+      "avg_submitted": 179.17,
+      "avg_paid": 54.48
+    },
+    {
+      "year": 2023,
+      "total_payments": 2359414.97,
+      "total_services": 55155,
+      "total_beneficiaries": 4140,
+      "avg_submitted": 183.33,
+      "avg_paid": 56.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 27420,
+      "payments": 2016174.75,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 27416,
+      "payments": 671959.75,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "G2024",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]) from an individual in a snf or by a laboratory on behalf of a hha, any specimen source",
+      "services": 20761,
+      "payments": 517986.95,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 8644,
+      "payments": 434620.32,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 1519,
+      "payments": 212325.82,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 7986,
+      "payments": 183921.08,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 389,
+      "payments": 15944.78,
+      "avg_markup": 1.83
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 4052933.45,
+    "total_services": 94135,
+    "total_beneficiaries": 10284,
+    "avg_markup_ratio": 3.39
+  }
+}

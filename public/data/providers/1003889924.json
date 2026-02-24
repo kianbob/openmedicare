@@ -1,0 +1,239 @@
+{
+  "name": "Ethan Gundeck",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Fishkill",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 364098.38,
+      "total_services": 7321,
+      "total_beneficiaries": 4379,
+      "avg_submitted": 330.75,
+      "avg_paid": 70.83
+    },
+    {
+      "year": 2015,
+      "total_payments": 304755.5,
+      "total_services": 7508,
+      "total_beneficiaries": 4601,
+      "avg_submitted": 340.91,
+      "avg_paid": 59.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 340371.5,
+      "total_services": 8034,
+      "total_beneficiaries": 4869,
+      "avg_submitted": 334.54,
+      "avg_paid": 57.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 302647.68,
+      "total_services": 6827,
+      "total_beneficiaries": 4341,
+      "avg_submitted": 305.5,
+      "avg_paid": 59.97
+    },
+    {
+      "year": 2018,
+      "total_payments": 312310.79,
+      "total_services": 6095,
+      "total_beneficiaries": 4022,
+      "avg_submitted": 326.49,
+      "avg_paid": 59.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 258843.16,
+      "total_services": 5278,
+      "total_beneficiaries": 3696,
+      "avg_submitted": 269.0,
+      "avg_paid": 61.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 193348.84,
+      "total_services": 3516,
+      "total_beneficiaries": 2376,
+      "avg_submitted": 241.88,
+      "avg_paid": 63.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 280761.64,
+      "total_services": 4679,
+      "total_beneficiaries": 3081,
+      "avg_submitted": 215.62,
+      "avg_paid": 56.72
+    },
+    {
+      "year": 2022,
+      "total_payments": 252060.88,
+      "total_services": 4669,
+      "total_beneficiaries": 3151,
+      "avg_submitted": 308.79,
+      "avg_paid": 54.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 234885.42,
+      "total_services": 4376,
+      "total_beneficiaries": 3245,
+      "avg_submitted": 384.63,
+      "avg_paid": 62.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13220,
+      "payments": 1145227.06,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1780,
+      "payments": 294544.99,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4551,
+      "payments": 277385.12,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4226,
+      "payments": 259076.03,
+      "avg_markup": 8.16
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1423,
+      "payments": 164714.79,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 9256,
+      "payments": 119296.4,
+      "avg_markup": 5.11
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1013,
+      "payments": 89323.63,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 876,
+      "payments": 83619.47,
+      "avg_markup": 7.69
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 620,
+      "payments": 78442.38,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 4126,
+      "payments": 62600.73,
+      "avg_markup": 4.81
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 307,
+      "payments": 35724.79,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 6695,
+      "payments": 32722.49,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 4395,
+      "payments": 30608.12,
+      "avg_markup": 4.55
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 392,
+      "payments": 24296.04,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 941,
+      "payments": 16967.92,
+      "avg_markup": 5.25
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 170,
+      "payments": 16042.88,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "93793",
+      "description": "Anti-clotting management for patient taking warfarin",
+      "services": 1589,
+      "payments": 14568.18,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 81,
+      "payments": 12975.75,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "93312",
+      "description": "Insertion of probe in esophagus for heart ultrasound examination including interpretation and report",
+      "services": 139,
+      "payments": 12751.61,
+      "avg_markup": 5.19
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 83,
+      "payments": 12165.23,
+      "avg_markup": 3.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2844083.8,
+    "total_services": 58303,
+    "total_beneficiaries": 37761,
+    "avg_markup_ratio": 4.55
+  }
+}

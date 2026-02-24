@@ -1,0 +1,162 @@
+{
+  "name": "Jerry Soung",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Stockton",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 314762.18,
+      "total_services": 3040,
+      "total_beneficiaries": 861,
+      "avg_submitted": 242.88,
+      "avg_paid": 130.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 301718.75,
+      "total_services": 2961,
+      "total_beneficiaries": 871,
+      "avg_submitted": 249.63,
+      "avg_paid": 128.48
+    },
+    {
+      "year": 2016,
+      "total_payments": 287372.96,
+      "total_services": 2824,
+      "total_beneficiaries": 864,
+      "avg_submitted": 251.43,
+      "avg_paid": 126.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 312877.07,
+      "total_services": 2776,
+      "total_beneficiaries": 869,
+      "avg_submitted": 227.31,
+      "avg_paid": 110.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 295276.87,
+      "total_services": 2737,
+      "total_beneficiaries": 819,
+      "avg_submitted": 251.39,
+      "avg_paid": 119.85
+    },
+    {
+      "year": 2019,
+      "total_payments": 296186.29,
+      "total_services": 2575,
+      "total_beneficiaries": 784,
+      "avg_submitted": 290.08,
+      "avg_paid": 129.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 252651.33,
+      "total_services": 2233,
+      "total_beneficiaries": 660,
+      "avg_submitted": 314.44,
+      "avg_paid": 132.32
+    },
+    {
+      "year": 2021,
+      "total_payments": 242422.25,
+      "total_services": 1729,
+      "total_beneficiaries": 515,
+      "avg_submitted": 311.54,
+      "avg_paid": 146.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 234162.53,
+      "total_services": 1669,
+      "total_beneficiaries": 451,
+      "avg_submitted": 296.08,
+      "avg_paid": 126.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 223532.17,
+      "total_services": 1568,
+      "total_beneficiaries": 395,
+      "avg_submitted": 313.28,
+      "avg_paid": 142.95
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 6788,
+      "payments": 1605610.92,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9085,
+      "payments": 479116.53,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3986,
+      "payments": 229152.78,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1159,
+      "payments": 183165.83,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 2285,
+      "payments": 131552.73,
+      "avg_markup": 5.43
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 417,
+      "payments": 63384.79,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 292,
+      "payments": 56485.66,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 87,
+      "payments": 12416.46,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "90970",
+      "description": "Dialysis services, per day (less than full month service), patient 20 years of age or older",
+      "services": 13,
+      "payments": 76.7,
+      "avg_markup": 6.13
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2760962.4,
+    "total_services": 24112,
+    "total_beneficiaries": 7089,
+    "avg_markup_ratio": 2.08
+  }
+}

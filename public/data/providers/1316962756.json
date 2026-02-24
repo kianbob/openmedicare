@@ -1,0 +1,183 @@
+{
+  "name": "Jerrold Dreyer",
+  "credentials": "M.D.",
+  "specialty": "Infectious Disease",
+  "city": "Sherman Oaks",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 800528.66,
+      "total_services": 10841,
+      "total_beneficiaries": 3226,
+      "avg_submitted": 202.93,
+      "avg_paid": 93.16
+    },
+    {
+      "year": 2015,
+      "total_payments": 418900.07,
+      "total_services": 5504,
+      "total_beneficiaries": 2521,
+      "avg_submitted": 212.11,
+      "avg_paid": 100.6
+    },
+    {
+      "year": 2016,
+      "total_payments": 276461.27,
+      "total_services": 3502,
+      "total_beneficiaries": 2116,
+      "avg_submitted": 211.0,
+      "avg_paid": 82.79
+    },
+    {
+      "year": 2017,
+      "total_payments": 299215.45,
+      "total_services": 4039,
+      "total_beneficiaries": 2061,
+      "avg_submitted": 196.11,
+      "avg_paid": 79.06
+    },
+    {
+      "year": 2018,
+      "total_payments": 255108.48,
+      "total_services": 3560,
+      "total_beneficiaries": 1930,
+      "avg_submitted": 197.5,
+      "avg_paid": 79.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 274941.62,
+      "total_services": 3604,
+      "total_beneficiaries": 1905,
+      "avg_submitted": 209.76,
+      "avg_paid": 88.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 283602.91,
+      "total_services": 3721,
+      "total_beneficiaries": 2001,
+      "avg_submitted": 182.2,
+      "avg_paid": 75.2
+    },
+    {
+      "year": 2021,
+      "total_payments": 232698.48,
+      "total_services": 3167,
+      "total_beneficiaries": 1715,
+      "avg_submitted": 182.2,
+      "avg_paid": 77.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 233185.81,
+      "total_services": 3319,
+      "total_beneficiaries": 1688,
+      "avg_submitted": 182.2,
+      "avg_paid": 76.98
+    },
+    {
+      "year": 2023,
+      "total_payments": 238561.25,
+      "total_services": 3072,
+      "total_beneficiaries": 1639,
+      "avg_submitted": 204.11,
+      "avg_paid": 92.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17662,
+      "payments": 1074773.89,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11420,
+      "payments": 1001052.59,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 8354,
+      "payments": 944317.33,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 6048,
+      "payments": 202479.4,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 227,
+      "payments": 38440.27,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 337,
+      "payments": 28593.89,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 73,
+      "payments": 9799.74,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 118,
+      "payments": 5887.89,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 29,
+      "payments": 4067.13,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 39,
+      "payments": 2270.97,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 11,
+      "payments": 1374.31,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 11,
+      "payments": 146.6,
+      "avg_markup": 5.63
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3313204.01,
+    "total_services": 44329,
+    "total_beneficiaries": 20802,
+    "avg_markup_ratio": 2.1
+  }
+}

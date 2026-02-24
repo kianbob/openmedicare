@@ -1,0 +1,239 @@
+{
+  "name": "Brian Ganesh",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Abilene",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 382629.72,
+      "total_services": 6905,
+      "total_beneficiaries": 2840,
+      "avg_submitted": 119.13,
+      "avg_paid": 49.77
+    },
+    {
+      "year": 2015,
+      "total_payments": 355103.47,
+      "total_services": 5474,
+      "total_beneficiaries": 2263,
+      "avg_submitted": 166.31,
+      "avg_paid": 68.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 310133.94,
+      "total_services": 4957,
+      "total_beneficiaries": 2116,
+      "avg_submitted": 159.98,
+      "avg_paid": 54.39
+    },
+    {
+      "year": 2017,
+      "total_payments": 304774.6,
+      "total_services": 4702,
+      "total_beneficiaries": 2041,
+      "avg_submitted": 264.89,
+      "avg_paid": 58.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 270575.05,
+      "total_services": 4076,
+      "total_beneficiaries": 1883,
+      "avg_submitted": 326.62,
+      "avg_paid": 68.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 316703.82,
+      "total_services": 4565,
+      "total_beneficiaries": 2013,
+      "avg_submitted": 308.77,
+      "avg_paid": 58.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 397720.33,
+      "total_services": 5630,
+      "total_beneficiaries": 2099,
+      "avg_submitted": 332.06,
+      "avg_paid": 71.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 409545.65,
+      "total_services": 5462,
+      "total_beneficiaries": 1951,
+      "avg_submitted": 363.16,
+      "avg_paid": 75.75
+    },
+    {
+      "year": 2022,
+      "total_payments": 430184.53,
+      "total_services": 6037,
+      "total_beneficiaries": 1992,
+      "avg_submitted": 323.5,
+      "avg_paid": 83.46
+    },
+    {
+      "year": 2023,
+      "total_payments": 624521.58,
+      "total_services": 8732,
+      "total_beneficiaries": 2505,
+      "avg_submitted": 223.64,
+      "avg_paid": 78.6
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13750,
+      "payments": 1010167.87,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17461,
+      "payments": 996764.18,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 10481,
+      "payments": 514407.43,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3409,
+      "payments": 507241.37,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1547,
+      "payments": 164658.83,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1988,
+      "payments": 163778.9,
+      "avg_markup": 6.93
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 849,
+      "payments": 146105.61,
+      "avg_markup": 6.21
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1484,
+      "payments": 123753.64,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 284,
+      "payments": 27170.15,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 720,
+      "payments": 21130.92,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 225,
+      "payments": 15331.07,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 640,
+      "payments": 13913.04,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 194,
+      "payments": 12851.81,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 292,
+      "payments": 8130.46,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 49,
+      "payments": 7685.72,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 189,
+      "payments": 7174.59,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "G0181",
+      "description": "Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow",
+      "services": 92,
+      "payments": 5576.45,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 433,
+      "payments": 5240.62,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 46,
+      "payments": 5112.05,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 44,
+      "payments": 4337.27,
+      "avg_markup": 3.08
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3801892.69,
+    "total_services": 56540,
+    "total_beneficiaries": 21703,
+    "avg_markup_ratio": 3.33
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "David Porter",
+  "credentials": "MD",
+  "specialty": "Diagnostic Radiology",
+  "city": "Baltimore",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 345474.17,
+      "total_services": 6132,
+      "total_beneficiaries": 5948,
+      "avg_submitted": 359.12,
+      "avg_paid": 78.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 290977.83,
+      "total_services": 5432,
+      "total_beneficiaries": 5210,
+      "avg_submitted": 362.82,
+      "avg_paid": 75.28
+    },
+    {
+      "year": 2016,
+      "total_payments": 243945.41,
+      "total_services": 4694,
+      "total_beneficiaries": 4541,
+      "avg_submitted": 344.44,
+      "avg_paid": 70.5
+    },
+    {
+      "year": 2017,
+      "total_payments": 252974.51,
+      "total_services": 4803,
+      "total_beneficiaries": 4676,
+      "avg_submitted": 374.68,
+      "avg_paid": 73.98
+    },
+    {
+      "year": 2018,
+      "total_payments": 274983.83,
+      "total_services": 4173,
+      "total_beneficiaries": 4088,
+      "avg_submitted": 359.57,
+      "avg_paid": 78.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 284442.08,
+      "total_services": 4183,
+      "total_beneficiaries": 4123,
+      "avg_submitted": 364.59,
+      "avg_paid": 80.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 241048.42,
+      "total_services": 3882,
+      "total_beneficiaries": 3814,
+      "avg_submitted": 353.0,
+      "avg_paid": 76.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 264216.64,
+      "total_services": 4192,
+      "total_beneficiaries": 4101,
+      "avg_submitted": 368.02,
+      "avg_paid": 76.68
+    },
+    {
+      "year": 2022,
+      "total_payments": 292528.11,
+      "total_services": 4939,
+      "total_beneficiaries": 4871,
+      "avg_submitted": 334.15,
+      "avg_paid": 68.95
+    },
+    {
+      "year": 2023,
+      "total_payments": 287687.8,
+      "total_services": 4607,
+      "total_beneficiaries": 4563,
+      "avg_submitted": 417.0,
+      "avg_paid": 81.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 1691,
+      "payments": 321345.99,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 1172,
+      "payments": 202246.38,
+      "avg_markup": 6.29
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 2048,
+      "payments": 197608.81,
+      "avg_markup": 5.45
+    },
+    {
+      "code": "74176",
+      "description": "CT scan of abdomen and pelvis",
+      "services": 1217,
+      "payments": 139020.21,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 412,
+      "payments": 117672.02,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "70450",
+      "description": "CT scan head or brain",
+      "services": 3095,
+      "payments": 117128.73,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 2601,
+      "payments": 112918.62,
+      "avg_markup": 6.35
+    },
+    {
+      "code": "74183",
+      "description": "MRI scan of abdomen before and after contrast",
+      "services": 305,
+      "payments": 111629.58,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "74178",
+      "description": "CT scan of abdomen and pelvis before and after contrast",
+      "services": 351,
+      "payments": 106886.47,
+      "avg_markup": 5.03
+    },
+    {
+      "code": "73721",
+      "description": "MRI scan of leg joint",
+      "services": 555,
+      "payments": 99776.76,
+      "avg_markup": 6.09
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 753,
+      "payments": 91515.51,
+      "avg_markup": 5.55
+    },
+    {
+      "code": "71260",
+      "description": "CT scan chest with contrast",
+      "services": 763,
+      "payments": 87832.39,
+      "avg_markup": 6.33
+    },
+    {
+      "code": "73221",
+      "description": "MRI scan of arm joint",
+      "services": 405,
+      "payments": 74224.59,
+      "avg_markup": 5.99
+    },
+    {
+      "code": "72141",
+      "description": "MRI scan of upper spinal canal",
+      "services": 454,
+      "payments": 73822.57,
+      "avg_markup": 6.51
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 765,
+      "payments": 68592.16,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 719,
+      "payments": 58636.82,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "71275",
+      "description": "CT scan of blood vessels in chest with contrast",
+      "services": 599,
+      "payments": 53074.72,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 3251,
+      "payments": 52041.51,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 3647,
+      "payments": 44400.87,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 424,
+      "payments": 38864.48,
+      "avg_markup": 3.02
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2778278.82,
+    "total_services": 47037,
+    "total_beneficiaries": 45935,
+    "avg_markup_ratio": 4.98
+  }
+}

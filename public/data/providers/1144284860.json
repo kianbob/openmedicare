@@ -1,0 +1,183 @@
+{
+  "name": "Raja Talluri",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Vacherie",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 389777.8,
+      "total_services": 6320,
+      "total_beneficiaries": 1691,
+      "avg_submitted": 108.12,
+      "avg_paid": 46.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 536190.61,
+      "total_services": 8660,
+      "total_beneficiaries": 1715,
+      "avg_submitted": 119.29,
+      "avg_paid": 52.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 473009.16,
+      "total_services": 7767,
+      "total_beneficiaries": 1560,
+      "avg_submitted": 119.29,
+      "avg_paid": 52.46
+    },
+    {
+      "year": 2017,
+      "total_payments": 432115.4,
+      "total_services": 6808,
+      "total_beneficiaries": 1659,
+      "avg_submitted": 135.0,
+      "avg_paid": 63.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 411894.59,
+      "total_services": 6129,
+      "total_beneficiaries": 1737,
+      "avg_submitted": 131.88,
+      "avg_paid": 60.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 410049.65,
+      "total_services": 5896,
+      "total_beneficiaries": 1593,
+      "avg_submitted": 131.25,
+      "avg_paid": 63.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 423865.57,
+      "total_services": 5974,
+      "total_beneficiaries": 1544,
+      "avg_submitted": 125.06,
+      "avg_paid": 62.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 372233.51,
+      "total_services": 5444,
+      "total_beneficiaries": 1305,
+      "avg_submitted": 156.25,
+      "avg_paid": 77.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 330978.9,
+      "total_services": 4979,
+      "total_beneficiaries": 1095,
+      "avg_submitted": 175.0,
+      "avg_paid": 87.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 313716.91,
+      "total_services": 4577,
+      "total_beneficiaries": 997,
+      "avg_submitted": 175.0,
+      "avg_paid": 84.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 41951,
+      "payments": 2342688.14,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 7800,
+      "payments": 1189922.64,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 6585,
+      "payments": 367193.54,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 5206,
+      "payments": 156182.61,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 340,
+      "payments": 13308.65,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 428,
+      "payments": 12258.37,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 64,
+      "payments": 8082.23,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 22,
+      "payments": 2233.44,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 22,
+      "payments": 1188.88,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "71010",
+      "description": "X-ray of chest, 1 view, front",
+      "services": 49,
+      "payments": 428.28,
+      "avg_markup": 6.86
+    },
+    {
+      "code": "81002",
+      "description": "Urinalysis, manual test",
+      "services": 55,
+      "payments": 188.88,
+      "avg_markup": 7.28
+    },
+    {
+      "code": "93005",
+      "description": "Routine electrocardiogram (EKG) with tracing using at least 12 leads",
+      "services": 32,
+      "payments": 156.44,
+      "avg_markup": 6.14
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4093832.1,
+    "total_services": 62554,
+    "total_beneficiaries": 14896,
+    "avg_markup_ratio": 1.92
+  }
+}

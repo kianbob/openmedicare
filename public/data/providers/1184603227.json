@@ -1,0 +1,239 @@
+{
+  "name": "Leonard Sandler",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Brick",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 739375.77,
+      "total_services": 9890,
+      "total_beneficiaries": 6489,
+      "avg_submitted": 274.71,
+      "avg_paid": 90.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 809563.22,
+      "total_services": 10188,
+      "total_beneficiaries": 6746,
+      "avg_submitted": 282.22,
+      "avg_paid": 95.83
+    },
+    {
+      "year": 2016,
+      "total_payments": 777989.12,
+      "total_services": 9485,
+      "total_beneficiaries": 6619,
+      "avg_submitted": 288.43,
+      "avg_paid": 99.9
+    },
+    {
+      "year": 2017,
+      "total_payments": 512811.37,
+      "total_services": 7662,
+      "total_beneficiaries": 4914,
+      "avg_submitted": 294.17,
+      "avg_paid": 95.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 754994.07,
+      "total_services": 9504,
+      "total_beneficiaries": 6040,
+      "avg_submitted": 357.14,
+      "avg_paid": 133.44
+    },
+    {
+      "year": 2019,
+      "total_payments": 829767.37,
+      "total_services": 9017,
+      "total_beneficiaries": 5644,
+      "avg_submitted": 368.65,
+      "avg_paid": 142.11
+    },
+    {
+      "year": 2020,
+      "total_payments": 766117.74,
+      "total_services": 7389,
+      "total_beneficiaries": 4882,
+      "avg_submitted": 389.14,
+      "avg_paid": 157.78
+    },
+    {
+      "year": 2021,
+      "total_payments": 785108.47,
+      "total_services": 7348,
+      "total_beneficiaries": 5004,
+      "avg_submitted": 408.3,
+      "avg_paid": 166.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 829162.55,
+      "total_services": 7353,
+      "total_beneficiaries": 5382,
+      "avg_submitted": 413.65,
+      "avg_paid": 175.27
+    },
+    {
+      "year": 2023,
+      "total_payments": 830506.35,
+      "total_services": 7530,
+      "total_beneficiaries": 5762,
+      "avg_submitted": 403.68,
+      "avg_paid": 162.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 20312,
+      "payments": 1794633.29,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 7862,
+      "payments": 937063.24,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2231,
+      "payments": 908125.75,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 486,
+      "payments": 671032.56,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 3190,
+      "payments": 511188.46,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 507,
+      "payments": 331586.65,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5148,
+      "payments": 309848.06,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 486,
+      "payments": 294595.61,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1789,
+      "payments": 224315.75,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 13002,
+      "payments": 168912.99,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2908,
+      "payments": 163241.47,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1368,
+      "payments": 154951.1,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1368,
+      "payments": 148969.15,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 2136,
+      "payments": 129475.22,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 3266,
+      "payments": 118086.65,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 880,
+      "payments": 110506.15,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "93241",
+      "description": "Heart rhythm recording, analysis, report, review, and interpretation of continous external ekg over more than 48 hours up to 7 days",
+      "services": 318,
+      "payments": 58890.3,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "78434",
+      "description": "Nuclear medicine absolute quantification of blood flow in heart muscle",
+      "services": 341,
+      "payments": 56120.41,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 345,
+      "payments": 53463.44,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "0295T",
+      "description": "External EKG recording for more than 48 hours up to 21 days with analysis, report, review and interpretation",
+      "services": 178,
+      "payments": 51868.71,
+      "avg_markup": 2.57
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7635396.04,
+    "total_services": 85366,
+    "total_beneficiaries": 57482,
+    "avg_markup_ratio": 2.59
+  }
+}

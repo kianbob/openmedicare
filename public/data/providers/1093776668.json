@@ -1,0 +1,239 @@
+{
+  "name": "Suresh Lohano",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "New Albany",
+  "state": "IN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 261943.02,
+      "total_services": 4326,
+      "total_beneficiaries": 3162,
+      "avg_submitted": 179.25,
+      "avg_paid": 82.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 352749.48,
+      "total_services": 5637,
+      "total_beneficiaries": 3974,
+      "avg_submitted": 173.03,
+      "avg_paid": 77.07
+    },
+    {
+      "year": 2016,
+      "total_payments": 391738.35,
+      "total_services": 6644,
+      "total_beneficiaries": 4312,
+      "avg_submitted": 175.75,
+      "avg_paid": 75.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 406861.34,
+      "total_services": 6202,
+      "total_beneficiaries": 4059,
+      "avg_submitted": 178.03,
+      "avg_paid": 73.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 440805.04,
+      "total_services": 6125,
+      "total_beneficiaries": 4085,
+      "avg_submitted": 189.06,
+      "avg_paid": 77.28
+    },
+    {
+      "year": 2019,
+      "total_payments": 348221.55,
+      "total_services": 5212,
+      "total_beneficiaries": 3617,
+      "avg_submitted": 199.59,
+      "avg_paid": 73.59
+    },
+    {
+      "year": 2020,
+      "total_payments": 267770.58,
+      "total_services": 3802,
+      "total_beneficiaries": 2153,
+      "avg_submitted": 210.69,
+      "avg_paid": 79.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 240183.27,
+      "total_services": 3199,
+      "total_beneficiaries": 1844,
+      "avg_submitted": 209.19,
+      "avg_paid": 79.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 156081.01,
+      "total_services": 2179,
+      "total_beneficiaries": 1550,
+      "avg_submitted": 216.93,
+      "avg_paid": 77.95
+    },
+    {
+      "year": 2023,
+      "total_payments": 201041.27,
+      "total_services": 2847,
+      "total_beneficiaries": 1636,
+      "avg_submitted": 239.76,
+      "avg_paid": 77.8
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6798,
+      "payments": 531373.41,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8929,
+      "payments": 481464.42,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2915,
+      "payments": 426774.88,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4486,
+      "payments": 357479.83,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1565,
+      "payments": 204915.59,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1635,
+      "payments": 162538.92,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 687,
+      "payments": 111482.32,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2184,
+      "payments": 108355.49,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1696,
+      "payments": 106408.46,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 1989,
+      "payments": 105341.6,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 3108,
+      "payments": 91186.58,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 429,
+      "payments": 40973.45,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99215",
+      "description": "Established patient outpatient visit, total time 40-54 minutes",
+      "services": 289,
+      "payments": 34863.73,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 5115,
+      "payments": 30314.94,
+      "avg_markup": 8.5
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 303,
+      "payments": 29380.65,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 870,
+      "payments": 27436.4,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 357,
+      "payments": 26192.26,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 466,
+      "payments": 25130.43,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 447,
+      "payments": 23602.3,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 178,
+      "payments": 21996.69,
+      "avg_markup": 2.07
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3067394.89,
+    "total_services": 46173,
+    "total_beneficiaries": 30392,
+    "avg_markup_ratio": 2.48
+  }
+}

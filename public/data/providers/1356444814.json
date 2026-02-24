@@ -1,0 +1,148 @@
+{
+  "name": "Floyd Healthcare Management Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Rome",
+  "state": "GA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1407964.24,
+      "total_services": 10578,
+      "total_beneficiaries": 6590,
+      "avg_submitted": 768.6,
+      "avg_paid": 270.94
+    },
+    {
+      "year": 2015,
+      "total_payments": 1371074.53,
+      "total_services": 10554,
+      "total_beneficiaries": 6745,
+      "avg_submitted": 831.95,
+      "avg_paid": 273.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 1338013.93,
+      "total_services": 10375,
+      "total_beneficiaries": 6469,
+      "avg_submitted": 708.72,
+      "avg_paid": 229.45
+    },
+    {
+      "year": 2017,
+      "total_payments": 1433629.16,
+      "total_services": 10709,
+      "total_beneficiaries": 6720,
+      "avg_submitted": 707.6,
+      "avg_paid": 230.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 1526456.11,
+      "total_services": 10828,
+      "total_beneficiaries": 6843,
+      "avg_submitted": 744.32,
+      "avg_paid": 235.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 1721769.62,
+      "total_services": 12080,
+      "total_beneficiaries": 7512,
+      "avg_submitted": 731.38,
+      "avg_paid": 239.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 1550926.26,
+      "total_services": 11213,
+      "total_beneficiaries": 7039,
+      "avg_submitted": 842.74,
+      "avg_paid": 240.42
+    },
+    {
+      "year": 2021,
+      "total_payments": 1433798.59,
+      "total_services": 10400,
+      "total_beneficiaries": 6528,
+      "avg_submitted": 1064.09,
+      "avg_paid": 285.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 1435448.19,
+      "total_services": 9887,
+      "total_beneficiaries": 6315,
+      "avg_submitted": 963.08,
+      "avg_paid": 247.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 1613704.74,
+      "total_services": 10027,
+      "total_beneficiaries": 6461,
+      "avg_submitted": 1151.7,
+      "avg_paid": 320.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 22936,
+      "payments": 7329893.35,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 15502,
+      "payments": 4198702.63,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12064,
+      "payments": 2005645.25,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2557,
+      "payments": 519645.87,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 790,
+      "payments": 369719.25,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 52713,
+      "payments": 358278.04,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 89,
+      "payments": 50900.98,
+      "avg_markup": 3.18
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 14832785.37,
+    "total_services": 106651,
+    "total_beneficiaries": 67222,
+    "avg_markup_ratio": 3.33
+  }
+}

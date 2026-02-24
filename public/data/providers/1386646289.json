@@ -1,0 +1,239 @@
+{
+  "name": "David Ziemba",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 296322.25,
+      "total_services": 7657,
+      "total_beneficiaries": 5331,
+      "avg_submitted": 68.49,
+      "avg_paid": 38.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 375208.95,
+      "total_services": 8666,
+      "total_beneficiaries": 5968,
+      "avg_submitted": 81.4,
+      "avg_paid": 48.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 383467.25,
+      "total_services": 9074,
+      "total_beneficiaries": 6544,
+      "avg_submitted": 82.51,
+      "avg_paid": 47.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 405125.88,
+      "total_services": 9545,
+      "total_beneficiaries": 7173,
+      "avg_submitted": 92.42,
+      "avg_paid": 54.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 460099.22,
+      "total_services": 10624,
+      "total_beneficiaries": 8023,
+      "avg_submitted": 92.79,
+      "avg_paid": 57.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 466458.01,
+      "total_services": 10682,
+      "total_beneficiaries": 8276,
+      "avg_submitted": 87.86,
+      "avg_paid": 55.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 520098.08,
+      "total_services": 11618,
+      "total_beneficiaries": 9138,
+      "avg_submitted": 93.6,
+      "avg_paid": 60.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 618271.43,
+      "total_services": 11833,
+      "total_beneficiaries": 9032,
+      "avg_submitted": 93.68,
+      "avg_paid": 63.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 683224.15,
+      "total_services": 12219,
+      "total_beneficiaries": 9245,
+      "avg_submitted": 99.43,
+      "avg_paid": 67.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 675606.82,
+      "total_services": 12314,
+      "total_beneficiaries": 9426,
+      "avg_submitted": 97.79,
+      "avg_paid": 66.25
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 19342,
+      "payments": 1236690.13,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 6257,
+      "payments": 884142.36,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5720,
+      "payments": 568050.85,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 5422,
+      "payments": 234221.67,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 1139,
+      "payments": 221112.98,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0446",
+      "description": "Annual, face-to-face intensive behavioral therapy for cardiovascular disease, individual, 15 minutes",
+      "services": 6355,
+      "payments": 193111.52,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "90682",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 2592,
+      "payments": 156965.17,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 5513,
+      "payments": 147966.06,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 784,
+      "payments": 143714.81,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "76775",
+      "description": "Ultrasound behind abdominal cavity, limited",
+      "services": 2739,
+      "payments": 136159.8,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 5551,
+      "payments": 119547.0,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 8212,
+      "payments": 110528.9,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 264,
+      "payments": 73728.12,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 591,
+      "payments": 62875.24,
+      "avg_markup": 1.11
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 632,
+      "payments": 55245.26,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 14384,
+      "payments": 52942.44,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2708,
+      "payments": 52109.57,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G0009",
+      "description": "Administration of pneumococcal vaccine",
+      "services": 1640,
+      "payments": 44753.57,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 184,
+      "payments": 43680.35,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 274,
+      "payments": 39365.51,
+      "avg_markup": 1.43
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4883882.04,
+    "total_services": 104232,
+    "total_beneficiaries": 78156,
+    "avg_markup_ratio": 1.69
+  }
+}

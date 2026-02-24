@@ -1,0 +1,239 @@
+{
+  "name": "Craig Shapiro",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Pueblo",
+  "state": "CO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 486190.18,
+      "total_services": 6723,
+      "total_beneficiaries": 4601,
+      "avg_submitted": 250.06,
+      "avg_paid": 72.26
+    },
+    {
+      "year": 2015,
+      "total_payments": 488758.59,
+      "total_services": 6822,
+      "total_beneficiaries": 5051,
+      "avg_submitted": 250.28,
+      "avg_paid": 70.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 525766.68,
+      "total_services": 7473,
+      "total_beneficiaries": 5610,
+      "avg_submitted": 277.87,
+      "avg_paid": 75.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 485815.2,
+      "total_services": 7019,
+      "total_beneficiaries": 5074,
+      "avg_submitted": 268.66,
+      "avg_paid": 67.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 464108.58,
+      "total_services": 6236,
+      "total_beneficiaries": 4693,
+      "avg_submitted": 240.04,
+      "avg_paid": 61.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 435472.04,
+      "total_services": 5616,
+      "total_beneficiaries": 4275,
+      "avg_submitted": 283.57,
+      "avg_paid": 76.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 343418.84,
+      "total_services": 4380,
+      "total_beneficiaries": 3178,
+      "avg_submitted": 262.24,
+      "avg_paid": 75.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 372483.98,
+      "total_services": 4940,
+      "total_beneficiaries": 3666,
+      "avg_submitted": 269.54,
+      "avg_paid": 76.38
+    },
+    {
+      "year": 2022,
+      "total_payments": 339642.34,
+      "total_services": 4632,
+      "total_beneficiaries": 3571,
+      "avg_submitted": 274.69,
+      "avg_paid": 78.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 333249.76,
+      "total_services": 4698,
+      "total_beneficiaries": 3763,
+      "avg_submitted": 254.61,
+      "avg_paid": 70.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10777,
+      "payments": 885206.79,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8112,
+      "payments": 671633.1,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3686,
+      "payments": 577974.94,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 5080,
+      "payments": 492993.13,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6711,
+      "payments": 380611.13,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 2933,
+      "payments": 274599.01,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1882,
+      "payments": 227933.39,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3594,
+      "payments": 202084.97,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 1664,
+      "payments": 72783.78,
+      "avg_markup": 8.11
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 397,
+      "payments": 68973.18,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 555,
+      "payments": 58951.48,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "31622",
+      "description": "Diagnostic examination of lung airways using an endoscope",
+      "services": 456,
+      "payments": 50683.87,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 1440,
+      "payments": 35528.56,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 3589,
+      "payments": 32648.62,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 276,
+      "payments": 24067.61,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 175,
+      "payments": 23886.39,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 2417,
+      "payments": 22447.51,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 277,
+      "payments": 22074.5,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 208,
+      "payments": 16650.87,
+      "avg_markup": 6.25
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2088,
+      "payments": 14416.16,
+      "avg_markup": 4.92
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4274906.18,
+    "total_services": 58539,
+    "total_beneficiaries": 43482,
+    "avg_markup_ratio": 3.15
+  }
+}

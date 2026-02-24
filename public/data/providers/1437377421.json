@@ -1,0 +1,86 @@
+{
+  "name": "Marin Treatment Center",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "San Rafael",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 559858.83,
+      "total_services": 3720,
+      "total_beneficiaries": 136,
+      "avg_submitted": 132.18,
+      "avg_paid": 129.82
+    },
+    {
+      "year": 2021,
+      "total_payments": 598232.6,
+      "total_services": 3869,
+      "total_beneficiaries": 145,
+      "avg_submitted": 135.1,
+      "avg_paid": 134.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 629909.39,
+      "total_services": 4046,
+      "total_beneficiaries": 141,
+      "avg_submitted": 138.49,
+      "avg_paid": 135.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 688598.24,
+      "total_services": 3522,
+      "total_beneficiaries": 191,
+      "avg_submitted": 147.59,
+      "avg_paid": 127.89
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 9058,
+      "payments": 2227478.59,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 5708,
+      "payments": 210333.88,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 246,
+      "payments": 32002.09,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "G2080",
+      "description": "Each additional 30 minutes of counseling in a week of medication assisted treatment, (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 134,
+      "payments": 5196.52,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 11,
+      "payments": 1587.98,
+      "avg_markup": 1.59
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2476599.06,
+    "total_services": 15157,
+    "total_beneficiaries": 613,
+    "avg_markup_ratio": 1.02
+  }
+}
