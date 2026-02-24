@@ -1,0 +1,78 @@
+{
+  "name": "Medix Emergency Medical Services Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Danville",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1035082.66,
+      "total_services": 7407,
+      "total_beneficiaries": 3911,
+      "avg_submitted": 523.36,
+      "avg_paid": 252.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 906976.76,
+      "total_services": 6210,
+      "total_beneficiaries": 3479,
+      "avg_submitted": 524.51,
+      "avg_paid": 255.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 524038.61,
+      "total_services": 3507,
+      "total_beneficiaries": 2220,
+      "avg_submitted": 522.92,
+      "avg_paid": 256.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3286,
+      "payments": 853177.06,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 2182,
+      "payments": 675527.25,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 867,
+      "payments": 462781.36,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 2623,
+      "payments": 428440.51,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 8166,
+      "payments": 46171.85,
+      "avg_markup": 2.91
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2466098.03,
+    "total_services": 17124,
+    "total_beneficiaries": 9610,
+    "avg_markup_ratio": 2.32
+  }
+}

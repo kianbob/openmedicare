@@ -1,0 +1,99 @@
+{
+  "name": "Alan Leventhal",
+  "credentials": "OD",
+  "specialty": "Optometry",
+  "city": "Baldwin Park",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 1147501.65,
+      "total_services": 1661,
+      "total_beneficiaries": 1223,
+      "avg_submitted": 377.5,
+      "avg_paid": 259.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 1528017.45,
+      "total_services": 1826,
+      "total_beneficiaries": 1287,
+      "avg_submitted": 553.75,
+      "avg_paid": 392.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 2821199.81,
+      "total_services": 3537,
+      "total_beneficiaries": 2575,
+      "avg_submitted": 695.0,
+      "avg_paid": 471.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "65778",
+      "description": "Insertion of amniotic membrane to eye surface",
+      "services": 4225,
+      "payments": 5207281.09,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 2251,
+      "payments": 256535.03,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 159,
+      "payments": 16084.23,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 257,
+      "payments": 9356.49,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 50,
+      "payments": 2987.78,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 45,
+      "payments": 2478.57,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "92235",
+      "description": "Imaging of blood vessels in back of eye using fluorescein dye",
+      "services": 14,
+      "payments": 1037.54,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "67820",
+      "description": "Removal of eyelashes by forceps",
+      "services": 23,
+      "payments": 958.18,
+      "avg_markup": 2.16
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 5496718.91,
+    "total_services": 7024,
+    "total_beneficiaries": 5085,
+    "avg_markup_ratio": 1.43
+  }
+}

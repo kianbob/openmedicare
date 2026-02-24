@@ -1,0 +1,239 @@
+{
+  "name": "Leonard Ellison",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Southfield",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 542810.99,
+      "total_services": 8854,
+      "total_beneficiaries": 3250,
+      "avg_submitted": 105.13,
+      "avg_paid": 57.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 385494.33,
+      "total_services": 6549,
+      "total_beneficiaries": 2128,
+      "avg_submitted": 104.07,
+      "avg_paid": 58.9
+    },
+    {
+      "year": 2016,
+      "total_payments": 443665.92,
+      "total_services": 7427,
+      "total_beneficiaries": 2663,
+      "avg_submitted": 119.04,
+      "avg_paid": 64.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 402032.02,
+      "total_services": 6884,
+      "total_beneficiaries": 2321,
+      "avg_submitted": 137.62,
+      "avg_paid": 71.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 283809.77,
+      "total_services": 4764,
+      "total_beneficiaries": 1869,
+      "avg_submitted": 92.29,
+      "avg_paid": 52.34
+    },
+    {
+      "year": 2019,
+      "total_payments": 251705.79,
+      "total_services": 4057,
+      "total_beneficiaries": 1249,
+      "avg_submitted": 116.84,
+      "avg_paid": 67.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 399280.39,
+      "total_services": 6305,
+      "total_beneficiaries": 1573,
+      "avg_submitted": 110.25,
+      "avg_paid": 65.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 238369.73,
+      "total_services": 3825,
+      "total_beneficiaries": 1111,
+      "avg_submitted": 116.6,
+      "avg_paid": 68.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 197576.55,
+      "total_services": 3178,
+      "total_beneficiaries": 860,
+      "avg_submitted": 118.63,
+      "avg_paid": 68.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 183632.05,
+      "total_services": 2800,
+      "total_beneficiaries": 745,
+      "avg_submitted": 127.09,
+      "avg_paid": 70.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 32121,
+      "payments": 1855583.56,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3143,
+      "payments": 332847.82,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3362,
+      "payments": 188011.51,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2674,
+      "payments": 155638.44,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1160,
+      "payments": 118755.65,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 879,
+      "payments": 71938.42,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 654,
+      "payments": 55953.3,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1802,
+      "payments": 55898.61,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 309,
+      "payments": 50525.71,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 571,
+      "payments": 47675.27,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 356,
+      "payments": 47111.62,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 544,
+      "payments": 38517.01,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 391,
+      "payments": 38147.71,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 668,
+      "payments": 35095.14,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 827,
+      "payments": 33787.88,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 353,
+      "payments": 29140.08,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 825,
+      "payments": 27620.47,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services, each additional 60 minutes clinical staff time per calendar month",
+      "services": 470,
+      "payments": 21928.96,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care, typically 70 minutes",
+      "services": 134,
+      "payments": 18836.94,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 134,
+      "payments": 14385.15,
+      "avg_markup": 1.49
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3328377.53,
+    "total_services": 54643,
+    "total_beneficiaries": 17769,
+    "avg_markup_ratio": 1.72
+  }
+}

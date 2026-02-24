@@ -1,0 +1,239 @@
+{
+  "name": "Roderic Woodson",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Atlanta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 601541.18,
+      "total_services": 5427,
+      "total_beneficiaries": 1677,
+      "avg_submitted": 303.73,
+      "avg_paid": 103.45
+    },
+    {
+      "year": 2015,
+      "total_payments": 593766.06,
+      "total_services": 5518,
+      "total_beneficiaries": 1436,
+      "avg_submitted": 372.64,
+      "avg_paid": 130.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 590427.5,
+      "total_services": 5096,
+      "total_beneficiaries": 1277,
+      "avg_submitted": 385.73,
+      "avg_paid": 134.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 615829.83,
+      "total_services": 5228,
+      "total_beneficiaries": 1170,
+      "avg_submitted": 366.66,
+      "avg_paid": 127.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 650008.48,
+      "total_services": 5482,
+      "total_beneficiaries": 1250,
+      "avg_submitted": 370.58,
+      "avg_paid": 129.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 659357.12,
+      "total_services": 5574,
+      "total_beneficiaries": 1112,
+      "avg_submitted": 388.91,
+      "avg_paid": 136.2
+    },
+    {
+      "year": 2020,
+      "total_payments": 560933.35,
+      "total_services": 4730,
+      "total_beneficiaries": 956,
+      "avg_submitted": 407.77,
+      "avg_paid": 140.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 521722.32,
+      "total_services": 4073,
+      "total_beneficiaries": 793,
+      "avg_submitted": 367.36,
+      "avg_paid": 140.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 420267.88,
+      "total_services": 3347,
+      "total_beneficiaries": 688,
+      "avg_submitted": 234.89,
+      "avg_paid": 94.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 436762.4,
+      "total_services": 4315,
+      "total_beneficiaries": 752,
+      "avg_submitted": 234.87,
+      "avg_paid": 93.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 11338,
+      "payments": 1995546.46,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 20923,
+      "payments": 1744963.04,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 2565,
+      "payments": 596575.16,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2077,
+      "payments": 332014.85,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4433,
+      "payments": 255038.56,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2261,
+      "payments": 179027.19,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 690,
+      "payments": 125147.19,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1020,
+      "payments": 111285.78,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 762,
+      "payments": 109144.41,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 582,
+      "payments": 108490.46,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 508,
+      "payments": 18717.61,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 492,
+      "payments": 18631.43,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99458",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, each additional 20 minutes",
+      "services": 492,
+      "payments": 14785.39,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "90945",
+      "description": "Dialysis procedure including one evaluation",
+      "services": 181,
+      "payments": 12328.29,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 112,
+      "payments": 9505.28,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 62,
+      "payments": 6741.88,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 28,
+      "payments": 4451.59,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 27,
+      "payments": 3349.65,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 40,
+      "payments": 2329.35,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 27,
+      "payments": 1637.69,
+      "avg_markup": 2.89
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5650616.12,
+    "total_services": 48790,
+    "total_beneficiaries": 11111,
+    "avg_markup_ratio": 2.55
+  }
+}

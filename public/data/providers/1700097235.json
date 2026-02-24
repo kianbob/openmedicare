@@ -1,0 +1,204 @@
+{
+  "name": "Jason Nelson",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Bossier City",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 306310.32,
+      "total_services": 4863,
+      "total_beneficiaries": 1470,
+      "avg_submitted": 199.74,
+      "avg_paid": 85.03
+    },
+    {
+      "year": 2015,
+      "total_payments": 272619.16,
+      "total_services": 3908,
+      "total_beneficiaries": 1524,
+      "avg_submitted": 205.41,
+      "avg_paid": 83.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 198585.34,
+      "total_services": 2934,
+      "total_beneficiaries": 1344,
+      "avg_submitted": 229.09,
+      "avg_paid": 86.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 340516.64,
+      "total_services": 5468,
+      "total_beneficiaries": 1530,
+      "avg_submitted": 210.33,
+      "avg_paid": 86.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 371538.95,
+      "total_services": 5801,
+      "total_beneficiaries": 1649,
+      "avg_submitted": 202.57,
+      "avg_paid": 85.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 326867.76,
+      "total_services": 4888,
+      "total_beneficiaries": 1471,
+      "avg_submitted": 182.96,
+      "avg_paid": 78.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 253114.81,
+      "total_services": 3468,
+      "total_beneficiaries": 1229,
+      "avg_submitted": 196.42,
+      "avg_paid": 85.39
+    },
+    {
+      "year": 2021,
+      "total_payments": 210307.35,
+      "total_services": 2740,
+      "total_beneficiaries": 938,
+      "avg_submitted": 202.86,
+      "avg_paid": 88.81
+    },
+    {
+      "year": 2022,
+      "total_payments": 200540.17,
+      "total_services": 2693,
+      "total_beneficiaries": 865,
+      "avg_submitted": 198.77,
+      "avg_paid": 86.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 150186.92,
+      "total_services": 1783,
+      "total_beneficiaries": 650,
+      "avg_submitted": 208.94,
+      "avg_paid": 94.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 20958,
+      "payments": 1147534.9,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9567,
+      "payments": 777335.8,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4594,
+      "payments": 372440.01,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1254,
+      "payments": 128795.83,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 736,
+      "payments": 112630.06,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 508,
+      "payments": 27682.09,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 113,
+      "payments": 15744.45,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 201,
+      "payments": 11031.8,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 101,
+      "payments": 10419.16,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 120,
+      "payments": 9619.97,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 296,
+      "payments": 9050.37,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 39,
+      "payments": 5023.22,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 22,
+      "payments": 1685.7,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 25,
+      "payments": 940.66,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 12,
+      "payments": 653.4,
+      "avg_markup": 2.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2630587.42,
+    "total_services": 38546,
+    "total_beneficiaries": 12670,
+    "avg_markup_ratio": 2.18
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Miyuki Murphy",
+  "credentials": "M.D.",
+  "specialty": "Diagnostic Radiology",
+  "city": "Sacramento",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 364814.21,
+      "total_services": 4578,
+      "total_beneficiaries": 4560,
+      "avg_submitted": 561.65,
+      "avg_paid": 99.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 361476.65,
+      "total_services": 4553,
+      "total_beneficiaries": 4538,
+      "avg_submitted": 544.04,
+      "avg_paid": 93.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 325708.15,
+      "total_services": 4547,
+      "total_beneficiaries": 4527,
+      "avg_submitted": 452.4,
+      "avg_paid": 91.99
+    },
+    {
+      "year": 2017,
+      "total_payments": 321036.79,
+      "total_services": 3340,
+      "total_beneficiaries": 3332,
+      "avg_submitted": 456.54,
+      "avg_paid": 92.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 380740.64,
+      "total_services": 3902,
+      "total_beneficiaries": 3898,
+      "avg_submitted": 485.17,
+      "avg_paid": 98.04
+    },
+    {
+      "year": 2019,
+      "total_payments": 411177.68,
+      "total_services": 4256,
+      "total_beneficiaries": 4249,
+      "avg_submitted": 469.84,
+      "avg_paid": 87.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 362262.92,
+      "total_services": 3775,
+      "total_beneficiaries": 3766,
+      "avg_submitted": 527.45,
+      "avg_paid": 94.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 337938.52,
+      "total_services": 3483,
+      "total_beneficiaries": 3464,
+      "avg_submitted": 600.26,
+      "avg_paid": 103.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 312922.35,
+      "total_services": 3279,
+      "total_beneficiaries": 3269,
+      "avg_submitted": 673.0,
+      "avg_paid": 103.98
+    },
+    {
+      "year": 2023,
+      "total_payments": 322101.36,
+      "total_services": 3292,
+      "total_beneficiaries": 3277,
+      "avg_submitted": 698.03,
+      "avg_paid": 105.5
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 7747,
+      "payments": 1129212.6,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 4644,
+      "payments": 658670.17,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 10762,
+      "payments": 625453.54,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "76642",
+      "description": "Ultrasound of one breast",
+      "services": 1494,
+      "payments": 108064.08,
+      "avg_markup": 4.78
+    },
+    {
+      "code": "19081",
+      "description": "Biopsy of breast accessed throught the skin with stereotactic guidance",
+      "services": 195,
+      "payments": 107046.61,
+      "avg_markup": 4.83
+    },
+    {
+      "code": "19083",
+      "description": "Biopsy of breast accessed throught the skin with ultrasound guidance",
+      "services": 197,
+      "payments": 99523.97,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "77049",
+      "description": "MRI of both breasts with and without contrast",
+      "services": 258,
+      "payments": 83983.28,
+      "avg_markup": 7.53
+    },
+    {
+      "code": "77065",
+      "description": "Mammography of one breast",
+      "services": 799,
+      "payments": 82672.11,
+      "avg_markup": 6.48
+    },
+    {
+      "code": "77059",
+      "description": "MRI scan of both breasts with contrast",
+      "services": 161,
+      "payments": 71651.49,
+      "avg_markup": 7.14
+    },
+    {
+      "code": "77066",
+      "description": "Mammography of both breasts",
+      "services": 513,
+      "payments": 63597.27,
+      "avg_markup": 6.88
+    },
+    {
+      "code": "G0206",
+      "description": "Diagnostic mammography, producing direct digital image, unilateral, all views",
+      "services": 593,
+      "payments": 58684.12,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "G0279",
+      "description": "Diagnostic digital breast tomosynthesis, unilateral or bilateral (list separately in addition to g0204 or g0206)",
+      "services": 1068,
+      "payments": 48833.22,
+      "avg_markup": 5.38
+    },
+    {
+      "code": "G0204",
+      "description": "Diagnostic mammography, producing direct digital image, bilateral, all views",
+      "services": 349,
+      "payments": 43928.94,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 429,
+      "payments": 41363.66,
+      "avg_markup": 5.36
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 375,
+      "payments": 33031.74,
+      "avg_markup": 7.14
+    },
+    {
+      "code": "77052",
+      "description": "Computer analysis of screening mammogram to assist detection of cancer",
+      "services": 3285,
+      "payments": 31129.03,
+      "avg_markup": 6.08
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 144,
+      "payments": 18442.17,
+      "avg_markup": 7.13
+    },
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 88,
+      "payments": 17598.35,
+      "avg_markup": 5.04
+    },
+    {
+      "code": "76830",
+      "description": "Ultrasound pelvis through vagina",
+      "services": 157,
+      "payments": 15843.73,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 172,
+      "payments": 15462.83,
+      "avg_markup": 5.25
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3500179.26,
+    "total_services": 39005,
+    "total_beneficiaries": 38880,
+    "avg_markup_ratio": 4.78
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Elliott Gorbaty",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Glen Burnie",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 514074.51,
+      "total_services": 8270,
+      "total_beneficiaries": 3532,
+      "avg_submitted": 129.12,
+      "avg_paid": 71.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 495520.17,
+      "total_services": 7928,
+      "total_beneficiaries": 3301,
+      "avg_submitted": 137.78,
+      "avg_paid": 72.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 505123.25,
+      "total_services": 8219,
+      "total_beneficiaries": 2992,
+      "avg_submitted": 127.0,
+      "avg_paid": 69.74
+    },
+    {
+      "year": 2017,
+      "total_payments": 450642.77,
+      "total_services": 7261,
+      "total_beneficiaries": 2532,
+      "avg_submitted": 121.88,
+      "avg_paid": 71.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 475979.08,
+      "total_services": 7439,
+      "total_beneficiaries": 2774,
+      "avg_submitted": 117.94,
+      "avg_paid": 66.33
+    },
+    {
+      "year": 2019,
+      "total_payments": 495925.86,
+      "total_services": 7683,
+      "total_beneficiaries": 2759,
+      "avg_submitted": 125.87,
+      "avg_paid": 70.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 460863.22,
+      "total_services": 6870,
+      "total_beneficiaries": 2345,
+      "avg_submitted": 128.5,
+      "avg_paid": 70.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 515012.1,
+      "total_services": 6919,
+      "total_beneficiaries": 2301,
+      "avg_submitted": 126.94,
+      "avg_paid": 75.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 458842.28,
+      "total_services": 6312,
+      "total_beneficiaries": 1933,
+      "avg_submitted": 126.12,
+      "avg_paid": 69.0
+    },
+    {
+      "year": 2023,
+      "total_payments": 484474.84,
+      "total_services": 5944,
+      "total_beneficiaries": 2071,
+      "avg_submitted": 123.66,
+      "avg_paid": 57.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 25805,
+      "payments": 1931500.38,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 10377,
+      "payments": 1062142.41,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 15067,
+      "payments": 881527.89,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 4459,
+      "payments": 196236.76,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 1060,
+      "payments": 158681.34,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 4313,
+      "payments": 106346.48,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 2690,
+      "payments": 91713.18,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "90756",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 2207,
+      "payments": 60124.76,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 819,
+      "payments": 55703.14,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 388,
+      "payments": 43884.55,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 779,
+      "payments": 43685.42,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 327,
+      "payments": 42769.62,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 397,
+      "payments": 35106.41,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 552,
+      "payments": 32806.23,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 1996,
+      "payments": 31621.72,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 317,
+      "payments": 28858.39,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 644,
+      "payments": 8650.31,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 118,
+      "payments": 7363.98,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 55,
+      "payments": 6577.64,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 72,
+      "payments": 6043.38,
+      "avg_markup": 1.79
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4856458.08,
+    "total_services": 72845,
+    "total_beneficiaries": 26540,
+    "avg_markup_ratio": 1.85
+  }
+}

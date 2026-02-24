@@ -1,0 +1,239 @@
+{
+  "name": "John Williams",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Lynchburg",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 186278.39,
+      "total_services": 11372,
+      "total_beneficiaries": 6971,
+      "avg_submitted": 33.92,
+      "avg_paid": 18.05
+    },
+    {
+      "year": 2015,
+      "total_payments": 253290.44,
+      "total_services": 11103,
+      "total_beneficiaries": 7911,
+      "avg_submitted": 36.09,
+      "avg_paid": 20.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 255138.41,
+      "total_services": 10506,
+      "total_beneficiaries": 6815,
+      "avg_submitted": 54.78,
+      "avg_paid": 32.34
+    },
+    {
+      "year": 2017,
+      "total_payments": 214221.63,
+      "total_services": 8998,
+      "total_beneficiaries": 6262,
+      "avg_submitted": 64.43,
+      "avg_paid": 30.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 289149.29,
+      "total_services": 10624,
+      "total_beneficiaries": 7464,
+      "avg_submitted": 74.48,
+      "avg_paid": 34.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 271186.77,
+      "total_services": 11301,
+      "total_beneficiaries": 7474,
+      "avg_submitted": 65.74,
+      "avg_paid": 31.49
+    },
+    {
+      "year": 2020,
+      "total_payments": 212629.87,
+      "total_services": 9544,
+      "total_beneficiaries": 6577,
+      "avg_submitted": 63.91,
+      "avg_paid": 30.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 256951.43,
+      "total_services": 9738,
+      "total_beneficiaries": 6761,
+      "avg_submitted": 68.22,
+      "avg_paid": 34.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 250090.39,
+      "total_services": 9582,
+      "total_beneficiaries": 6558,
+      "avg_submitted": 75.58,
+      "avg_paid": 36.83
+    },
+    {
+      "year": 2023,
+      "total_payments": 225410.78,
+      "total_services": 8397,
+      "total_beneficiaries": 5764,
+      "avg_submitted": 77.54,
+      "avg_paid": 35.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8457,
+      "payments": 612179.04,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6319,
+      "payments": 317865.82,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1824,
+      "payments": 228316.95,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 2882,
+      "payments": 143550.32,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 591,
+      "payments": 103289.88,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 582,
+      "payments": 98317.09,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2991,
+      "payments": 67069.23,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1906,
+      "payments": 64791.93,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5092,
+      "payments": 64107.62,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 4807,
+      "payments": 54112.59,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 354,
+      "payments": 48763.47,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 3822,
+      "payments": 43203.48,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2160,
+      "payments": 41985.41,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 11465,
+      "payments": 38087.06,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 3913,
+      "payments": 35122.42,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 1053,
+      "payments": 34248.63,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "84460",
+      "description": "Liver enzyme (SGPT), level",
+      "services": 6515,
+      "payments": 32692.64,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "82550",
+      "description": "Creatine kinase (cardiac enzyme) level",
+      "services": 5112,
+      "payments": 32228.89,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 907,
+      "payments": 28440.46,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 221,
+      "payments": 20994.09,
+      "avg_markup": 1.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2414347.4,
+    "total_services": 101165,
+    "total_beneficiaries": 68557,
+    "avg_markup_ratio": 2.17
+  }
+}

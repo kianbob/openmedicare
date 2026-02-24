@@ -1,0 +1,183 @@
+{
+  "name": "Minh Nguyen",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 509025.78,
+      "total_services": 7652,
+      "total_beneficiaries": 2093,
+      "avg_submitted": 167.71,
+      "avg_paid": 69.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 427325.75,
+      "total_services": 6347,
+      "total_beneficiaries": 1948,
+      "avg_submitted": 156.73,
+      "avg_paid": 70.95
+    },
+    {
+      "year": 2016,
+      "total_payments": 338086.38,
+      "total_services": 5150,
+      "total_beneficiaries": 1546,
+      "avg_submitted": 164.12,
+      "avg_paid": 72.68
+    },
+    {
+      "year": 2017,
+      "total_payments": 378992.01,
+      "total_services": 5881,
+      "total_beneficiaries": 1734,
+      "avg_submitted": 161.56,
+      "avg_paid": 65.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 424631.25,
+      "total_services": 6521,
+      "total_beneficiaries": 1627,
+      "avg_submitted": 173.87,
+      "avg_paid": 66.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 377148.67,
+      "total_services": 5782,
+      "total_beneficiaries": 1297,
+      "avg_submitted": 206.33,
+      "avg_paid": 81.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 308302.11,
+      "total_services": 4788,
+      "total_beneficiaries": 928,
+      "avg_submitted": 227.85,
+      "avg_paid": 88.27
+    },
+    {
+      "year": 2021,
+      "total_payments": 274656.14,
+      "total_services": 4096,
+      "total_beneficiaries": 883,
+      "avg_submitted": 226.26,
+      "avg_paid": 82.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 271455.87,
+      "total_services": 4123,
+      "total_beneficiaries": 814,
+      "avg_submitted": 227.16,
+      "avg_paid": 79.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 332020.94,
+      "total_services": 4798,
+      "total_beneficiaries": 974,
+      "avg_submitted": 209.4,
+      "avg_paid": 87.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 45773,
+      "payments": 2610884.77,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5085,
+      "payments": 794584.28,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1877,
+      "payments": 107851.52,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 1074,
+      "payments": 51316.08,
+      "avg_markup": 5.22
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 527,
+      "payments": 28236.27,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 175,
+      "payments": 22462.94,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 237,
+      "payments": 7767.23,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 162,
+      "payments": 6828.35,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 76,
+      "payments": 6309.98,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 104,
+      "payments": 3965.56,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 13,
+      "payments": 768.56,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 35,
+      "payments": 669.36,
+      "avg_markup": 3.92
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3641644.9,
+    "total_services": 55138,
+    "total_beneficiaries": 13844,
+    "avg_markup_ratio": 2.48
+  }
+}

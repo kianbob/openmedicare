@@ -1,0 +1,239 @@
+{
+  "name": "Robert Sourk",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Hutchinson",
+  "state": "KS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 666944.64,
+      "total_services": 19309,
+      "total_beneficiaries": 11231,
+      "avg_submitted": 110.71,
+      "avg_paid": 33.78
+    },
+    {
+      "year": 2015,
+      "total_payments": 680347.39,
+      "total_services": 18415,
+      "total_beneficiaries": 10947,
+      "avg_submitted": 116.42,
+      "avg_paid": 37.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 630803.18,
+      "total_services": 17239,
+      "total_beneficiaries": 10713,
+      "avg_submitted": 112.24,
+      "avg_paid": 34.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 632207.58,
+      "total_services": 16618,
+      "total_beneficiaries": 11461,
+      "avg_submitted": 137.58,
+      "avg_paid": 34.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 619233.54,
+      "total_services": 15276,
+      "total_beneficiaries": 10527,
+      "avg_submitted": 123.24,
+      "avg_paid": 32.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 289369.71,
+      "total_services": 6205,
+      "total_beneficiaries": 5068,
+      "avg_submitted": 159.35,
+      "avg_paid": 37.42
+    },
+    {
+      "year": 2020,
+      "total_payments": 227200.72,
+      "total_services": 4877,
+      "total_beneficiaries": 3897,
+      "avg_submitted": 164.6,
+      "avg_paid": 36.67
+    },
+    {
+      "year": 2021,
+      "total_payments": 249507.39,
+      "total_services": 4922,
+      "total_beneficiaries": 3675,
+      "avg_submitted": 149.17,
+      "avg_paid": 35.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 182886.35,
+      "total_services": 3872,
+      "total_beneficiaries": 2896,
+      "avg_submitted": 172.36,
+      "avg_paid": 42.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 54976.7,
+      "total_services": 978,
+      "total_beneficiaries": 839,
+      "avg_submitted": 253.97,
+      "avg_paid": 54.37
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 15182,
+      "payments": 775477.22,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12417,
+      "payments": 675685.66,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7936,
+      "payments": 606378.84,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3434,
+      "payments": 270684.01,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 6483,
+      "payments": 245179.31,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2252,
+      "payments": 226374.85,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 4937,
+      "payments": 184017.55,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1571,
+      "payments": 179843.8,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 1178,
+      "payments": 116006.48,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 1223,
+      "payments": 108921.54,
+      "avg_markup": 6.41
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 3362,
+      "payments": 96767.21,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 870,
+      "payments": 90765.68,
+      "avg_markup": 5.83
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 414,
+      "payments": 61784.62,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1568,
+      "payments": 51253.27,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1467,
+      "payments": 48758.35,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 1951,
+      "payments": 42283.39,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 2540,
+      "payments": 36814.33,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 946,
+      "payments": 28180.91,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 2255,
+      "payments": 27687.7,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "J2357",
+      "description": "Injection, omalizumab, 5 mg",
+      "services": 923,
+      "payments": 26213.42,
+      "avg_markup": 2.4
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4233477.19,
+    "total_services": 107711,
+    "total_beneficiaries": 71254,
+    "avg_markup_ratio": 3.18
+  }
+}

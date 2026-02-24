@@ -1,0 +1,239 @@
+{
+  "name": "Cory Waldman",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Beverly Hills",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 140735.43,
+      "total_services": 3095,
+      "total_beneficiaries": 1824,
+      "avg_submitted": 129.33,
+      "avg_paid": 43.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 211629.34,
+      "total_services": 5411,
+      "total_beneficiaries": 3246,
+      "avg_submitted": 121.21,
+      "avg_paid": 46.84
+    },
+    {
+      "year": 2016,
+      "total_payments": 165708.02,
+      "total_services": 4070,
+      "total_beneficiaries": 2630,
+      "avg_submitted": 84.09,
+      "avg_paid": 45.29
+    },
+    {
+      "year": 2017,
+      "total_payments": 162272.18,
+      "total_services": 4220,
+      "total_beneficiaries": 2718,
+      "avg_submitted": 88.07,
+      "avg_paid": 44.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 184441.84,
+      "total_services": 4434,
+      "total_beneficiaries": 2937,
+      "avg_submitted": 160.72,
+      "avg_paid": 53.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 170252.54,
+      "total_services": 4616,
+      "total_beneficiaries": 3187,
+      "avg_submitted": 166.9,
+      "avg_paid": 48.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 177709.58,
+      "total_services": 4052,
+      "total_beneficiaries": 2926,
+      "avg_submitted": 174.15,
+      "avg_paid": 52.95
+    },
+    {
+      "year": 2021,
+      "total_payments": 429048.58,
+      "total_services": 12169,
+      "total_beneficiaries": 8881,
+      "avg_submitted": 161.11,
+      "avg_paid": 51.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 507227.46,
+      "total_services": 14391,
+      "total_beneficiaries": 9268,
+      "avg_submitted": 158.56,
+      "avg_paid": 49.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 552805.8,
+      "total_services": 15962,
+      "total_beneficiaries": 10371,
+      "avg_submitted": 171.47,
+      "avg_paid": 51.6
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6226,
+      "payments": 585575.29,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2741,
+      "payments": 235785.3,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2967,
+      "payments": 183965.83,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1170,
+      "payments": 161446.31,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 843,
+      "payments": 138186.96,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 686,
+      "payments": 110219.08,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 2310,
+      "payments": 105154.91,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 2308,
+      "payments": 93899.92,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 442,
+      "payments": 93544.12,
+      "avg_markup": 5.55
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 660,
+      "payments": 85074.26,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 472,
+      "payments": 85063.27,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 441,
+      "payments": 79636.98,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 247,
+      "payments": 44076.29,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2024,
+      "payments": 36288.0,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 1248,
+      "payments": 34978.47,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 389,
+      "payments": 34580.74,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 2346,
+      "payments": 32320.74,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 143,
+      "payments": 31531.8,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 3555,
+      "payments": 29959.6,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 3536,
+      "payments": 28525.62,
+      "avg_markup": 7.69
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2701830.76,
+    "total_services": 72420,
+    "total_beneficiaries": 47988,
+    "avg_markup_ratio": 3.04
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Martin Charlat",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Encinitas",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 301877.44,
+      "total_services": 3341,
+      "total_beneficiaries": 2834,
+      "avg_submitted": 347.96,
+      "avg_paid": 120.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 312685.15,
+      "total_services": 3866,
+      "total_beneficiaries": 3284,
+      "avg_submitted": 371.5,
+      "avg_paid": 123.76
+    },
+    {
+      "year": 2016,
+      "total_payments": 339186.19,
+      "total_services": 4356,
+      "total_beneficiaries": 3783,
+      "avg_submitted": 374.73,
+      "avg_paid": 118.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 335364.87,
+      "total_services": 4672,
+      "total_beneficiaries": 4121,
+      "avg_submitted": 518.39,
+      "avg_paid": 74.32
+    },
+    {
+      "year": 2018,
+      "total_payments": 413982.08,
+      "total_services": 5147,
+      "total_beneficiaries": 4165,
+      "avg_submitted": 710.08,
+      "avg_paid": 100.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 423127.72,
+      "total_services": 4809,
+      "total_beneficiaries": 4084,
+      "avg_submitted": 704.48,
+      "avg_paid": 102.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 388882.71,
+      "total_services": 4189,
+      "total_beneficiaries": 3367,
+      "avg_submitted": 269.12,
+      "avg_paid": 95.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 450219.48,
+      "total_services": 5627,
+      "total_beneficiaries": 4002,
+      "avg_submitted": 213.27,
+      "avg_paid": 84.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 520142.67,
+      "total_services": 6848,
+      "total_beneficiaries": 4364,
+      "avg_submitted": 214.15,
+      "avg_paid": 93.24
+    },
+    {
+      "year": 2023,
+      "total_payments": 566312.72,
+      "total_services": 7522,
+      "total_beneficiaries": 4816,
+      "avg_submitted": 202.87,
+      "avg_paid": 84.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12494,
+      "payments": 1109209.66,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5637,
+      "payments": 832559.31,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 553,
+      "payments": 378454.63,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 1508,
+      "payments": 303422.55,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1224,
+      "payments": 203402.91,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 358,
+      "payments": 147637.6,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 696,
+      "payments": 109990.24,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 779,
+      "payments": 106607.99,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "93320",
+      "description": "Doppler ultrasound study of heart blood flow, valves, and chambers",
+      "services": 1498,
+      "payments": 69170.1,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1021,
+      "payments": 65820.8,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1334,
+      "payments": 60529.03,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1382,
+      "payments": 58731.32,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 305,
+      "payments": 56442.37,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1112,
+      "payments": 55717.16,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4123,
+      "payments": 51368.22,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 7159,
+      "payments": 48842.64,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 271,
+      "payments": 43076.43,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 456,
+      "payments": 38285.57,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99443",
+      "description": "Telephone medical discussion with physician, 21-30 minutes",
+      "services": 350,
+      "payments": 35572.91,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "93325",
+      "description": "Doppler ultrasound study of color-directed heart blood flow, rate, and valve function",
+      "services": 1553,
+      "payments": 33075.83,
+      "avg_markup": 5.33
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4051781.03,
+    "total_services": 50377,
+    "total_beneficiaries": 38820,
+    "avg_markup_ratio": 3.86
+  }
+}

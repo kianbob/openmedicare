@@ -1,0 +1,239 @@
+{
+  "name": "Van Breeding",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Whitesburg",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 400771.5,
+      "total_services": 18646,
+      "total_beneficiaries": 9614,
+      "avg_submitted": 100.05,
+      "avg_paid": 29.6
+    },
+    {
+      "year": 2015,
+      "total_payments": 458994.1,
+      "total_services": 20411,
+      "total_beneficiaries": 11268,
+      "avg_submitted": 95.01,
+      "avg_paid": 25.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 504823.35,
+      "total_services": 21323,
+      "total_beneficiaries": 11506,
+      "avg_submitted": 102.32,
+      "avg_paid": 28.42
+    },
+    {
+      "year": 2017,
+      "total_payments": 463451.51,
+      "total_services": 20341,
+      "total_beneficiaries": 11151,
+      "avg_submitted": 99.42,
+      "avg_paid": 28.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 484379.69,
+      "total_services": 22157,
+      "total_beneficiaries": 12516,
+      "avg_submitted": 105.58,
+      "avg_paid": 29.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 461818.44,
+      "total_services": 25315,
+      "total_beneficiaries": 15274,
+      "avg_submitted": 104.01,
+      "avg_paid": 29.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 359275.8,
+      "total_services": 19950,
+      "total_beneficiaries": 12615,
+      "avg_submitted": 109.26,
+      "avg_paid": 31.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 339054.79,
+      "total_services": 19784,
+      "total_beneficiaries": 12203,
+      "avg_submitted": 105.79,
+      "avg_paid": 32.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 257657.73,
+      "total_services": 15088,
+      "total_beneficiaries": 10135,
+      "avg_submitted": 100.34,
+      "avg_paid": 29.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 186231.86,
+      "total_services": 6755,
+      "total_beneficiaries": 4345,
+      "avg_submitted": 105.61,
+      "avg_paid": 33.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 18236,
+      "payments": 1000822.61,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3977,
+      "payments": 408704.11,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 4288,
+      "payments": 232887.09,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 7477,
+      "payments": 146809.37,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1522,
+      "payments": 122161.56,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 15080,
+      "payments": 120917.98,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 9460,
+      "payments": 120566.18,
+      "avg_markup": 5.92
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 5698,
+      "payments": 98793.4,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 963,
+      "payments": 97229.3,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 7782,
+      "payments": 88956.14,
+      "avg_markup": 4.81
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 5129,
+      "payments": 85515.92,
+      "avg_markup": 5.4
+    },
+    {
+      "code": "85027",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 10020,
+      "payments": 82652.12,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 4722,
+      "payments": 80038.99,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 9649,
+      "payments": 76677.88,
+      "avg_markup": 6.34
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 1295,
+      "payments": 70535.05,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 462,
+      "payments": 69869.66,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5890,
+      "payments": 62437.27,
+      "avg_markup": 6.13
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 779,
+      "payments": 58626.65,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6540,
+      "payments": 52730.12,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "83550",
+      "description": "Iron binding capacity",
+      "services": 4919,
+      "payments": 49510.23,
+      "avg_markup": 2.48
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3916458.77,
+    "total_services": 189770,
+    "total_beneficiaries": 110627,
+    "avg_markup_ratio": 3.5
+  }
+}

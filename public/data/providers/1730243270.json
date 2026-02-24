@@ -1,0 +1,204 @@
+{
+  "name": "Alifiya Fakhri",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Conroe",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 221170.03,
+      "total_services": 2940,
+      "total_beneficiaries": 1109,
+      "avg_submitted": 275.0,
+      "avg_paid": 102.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 227496.77,
+      "total_services": 3111,
+      "total_beneficiaries": 1097,
+      "avg_submitted": 261.11,
+      "avg_paid": 100.23
+    },
+    {
+      "year": 2016,
+      "total_payments": 166776.67,
+      "total_services": 2336,
+      "total_beneficiaries": 844,
+      "avg_submitted": 218.97,
+      "avg_paid": 82.96
+    },
+    {
+      "year": 2017,
+      "total_payments": 337397.88,
+      "total_services": 5390,
+      "total_beneficiaries": 1627,
+      "avg_submitted": 195.0,
+      "avg_paid": 79.92
+    },
+    {
+      "year": 2018,
+      "total_payments": 370274.78,
+      "total_services": 5993,
+      "total_beneficiaries": 1487,
+      "avg_submitted": 195.0,
+      "avg_paid": 83.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 281371.31,
+      "total_services": 3912,
+      "total_beneficiaries": 1400,
+      "avg_submitted": 228.9,
+      "avg_paid": 90.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 277515.31,
+      "total_services": 3783,
+      "total_beneficiaries": 1360,
+      "avg_submitted": 306.82,
+      "avg_paid": 89.42
+    },
+    {
+      "year": 2021,
+      "total_payments": 239143.74,
+      "total_services": 3374,
+      "total_beneficiaries": 1100,
+      "avg_submitted": 264.5,
+      "avg_paid": 79.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 270262.32,
+      "total_services": 3853,
+      "total_beneficiaries": 1216,
+      "avg_submitted": 309.35,
+      "avg_paid": 88.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 246453.05,
+      "total_services": 3362,
+      "total_beneficiaries": 1096,
+      "avg_submitted": 312.21,
+      "avg_paid": 87.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 18040,
+      "payments": 1008431.08,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11479,
+      "payments": 923546.05,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2071,
+      "payments": 215911.25,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2166,
+      "payments": 176761.99,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 967,
+      "payments": 148509.4,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1892,
+      "payments": 64000.56,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 449,
+      "payments": 23307.7,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 240,
+      "payments": 16802.25,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 156,
+      "payments": 15428.22,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 101,
+      "payments": 14143.23,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 246,
+      "payments": 13212.09,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 189,
+      "payments": 11481.75,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 36,
+      "payments": 3892.95,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 11,
+      "payments": 1815.74,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 11,
+      "payments": 617.6,
+      "avg_markup": 2.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2637861.86,
+    "total_services": 38054,
+    "total_beneficiaries": 12336,
+    "avg_markup_ratio": 3.2
+  }
+}

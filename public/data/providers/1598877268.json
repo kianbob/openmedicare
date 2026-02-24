@@ -1,0 +1,197 @@
+{
+  "name": "Tri Hospital Emergency Medical Services Corporation",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Port Huron",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1867198.73,
+      "total_services": 12474,
+      "total_beneficiaries": 7438,
+      "avg_submitted": 604.05,
+      "avg_paid": 275.77
+    },
+    {
+      "year": 2015,
+      "total_payments": 1883920.19,
+      "total_services": 12422,
+      "total_beneficiaries": 7502,
+      "avg_submitted": 607.87,
+      "avg_paid": 279.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 1807248.19,
+      "total_services": 11975,
+      "total_beneficiaries": 7391,
+      "avg_submitted": 608.09,
+      "avg_paid": 277.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 1832262.63,
+      "total_services": 12172,
+      "total_beneficiaries": 7412,
+      "avg_submitted": 620.94,
+      "avg_paid": 280.48
+    },
+    {
+      "year": 2018,
+      "total_payments": 1995593.75,
+      "total_services": 12943,
+      "total_beneficiaries": 7556,
+      "avg_submitted": 650.32,
+      "avg_paid": 279.97
+    },
+    {
+      "year": 2019,
+      "total_payments": 1936784.21,
+      "total_services": 12486,
+      "total_beneficiaries": 7189,
+      "avg_submitted": 653.71,
+      "avg_paid": 286.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 1668873.38,
+      "total_services": 10467,
+      "total_beneficiaries": 6235,
+      "avg_submitted": 606.3,
+      "avg_paid": 291.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 1857531.58,
+      "total_services": 10674,
+      "total_beneficiaries": 6442,
+      "avg_submitted": 632.64,
+      "avg_paid": 408.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 1588161.59,
+      "total_services": 9405,
+      "total_beneficiaries": 5687,
+      "avg_submitted": 637.43,
+      "avg_paid": 329.38
+    },
+    {
+      "year": 2023,
+      "total_payments": 1442161.12,
+      "total_services": 7991,
+      "total_beneficiaries": 4955,
+      "avg_submitted": 750.21,
+      "avg_paid": 329.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 37152,
+      "payments": 12209531.04,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12589,
+      "payments": 2155658.5,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1893,
+      "payments": 1069050.8,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3226,
+      "payments": 857511.5,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2935,
+      "payments": 605372.94,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 913,
+      "payments": 428030.87,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 53804,
+      "payments": 317918.25,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "M0245",
+      "description": "Intravenous infusion, bamlanivimab and etesevimab, includes infusion and post administration monitoring",
+      "services": 230,
+      "payments": 86468.54,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "M0244",
+      "description": "Intravenous infusion or subcutaneous injection, casirivimab and imdevimab includes infusion or injection, and post administration monitoring in the home or residence; this includes a beneficiary's home that has been made provider-based to the hospital duri",
+      "services": 87,
+      "payments": 59936.91,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "M0246",
+      "description": "Intravenous infusion, bamlanivimab and etesevimab, includes infusion and post administration monitoring in the home or residence; this includes a beneficiary's home that has been made provider based to the hospital during the covid 19 public health emergen",
+      "services": 41,
+      "payments": 28246.13,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "M0247",
+      "description": "Intravenous infusion, sotrovimab, includes infusion and post administration monitoring",
+      "services": 58,
+      "payments": 23969.91,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "M0243",
+      "description": "Intravenous infusion or subcutaneous injection, casirivimab and imdevimab includes infusion or injection, and post administration monitoring",
+      "services": 41,
+      "payments": 16933.82,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "M0248",
+      "description": "Intravenous infusion, sotrovimab, includes infusion and post administration monitoring in the home or residence; this includes a beneficiary's home that has been made provider-based to the hospital during the covid-19 public health emergency",
+      "services": 24,
+      "payments": 16534.32,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "M0239",
+      "description": "Intravenous infusion, bamlanivimab-xxxx, includes infusion and post administration monitoring",
+      "services": 16,
+      "payments": 4571.84,
+      "avg_markup": 1.08
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 17879735.36,
+    "total_services": 113009,
+    "total_beneficiaries": 67807,
+    "avg_markup_ratio": 2.32
+  }
+}

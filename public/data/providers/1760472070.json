@@ -1,0 +1,127 @@
+{
+  "name": "City Of Joliet",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Joliet",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1335396.03,
+      "total_services": 7852,
+      "total_beneficiaries": 5183,
+      "avg_submitted": 828.77,
+      "avg_paid": 285.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 1272544.61,
+      "total_services": 7422,
+      "total_beneficiaries": 4921,
+      "avg_submitted": 896.04,
+      "avg_paid": 288.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 1241788.95,
+      "total_services": 7249,
+      "total_beneficiaries": 4724,
+      "avg_submitted": 1278.75,
+      "avg_paid": 286.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 1205232.93,
+      "total_services": 7009,
+      "total_beneficiaries": 4654,
+      "avg_submitted": 1278.77,
+      "avg_paid": 289.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 1109624.13,
+      "total_services": 6370,
+      "total_beneficiaries": 4394,
+      "avg_submitted": 1278.78,
+      "avg_paid": 291.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 1060389.67,
+      "total_services": 5971,
+      "total_beneficiaries": 3979,
+      "avg_submitted": 1357.95,
+      "avg_paid": 299.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 971700.19,
+      "total_services": 5336,
+      "total_beneficiaries": 3601,
+      "avg_submitted": 1429.5,
+      "avg_paid": 306.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 1010562.33,
+      "total_services": 5504,
+      "total_beneficiaries": 3650,
+      "avg_submitted": 1429.5,
+      "avg_paid": 310.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 1042481.29,
+      "total_services": 5460,
+      "total_beneficiaries": 3600,
+      "avg_submitted": 1429.5,
+      "avg_paid": 322.06
+    },
+    {
+      "year": 2023,
+      "total_payments": 980240.01,
+      "total_services": 4797,
+      "total_beneficiaries": 3170,
+      "avg_submitted": 2103.75,
+      "avg_paid": 343.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 22564,
+      "payments": 8202458.83,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 8454,
+      "payments": 2583410.98,
+      "avg_markup": 5.31
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 496,
+      "payments": 257820.43,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 31456,
+      "payments": 186269.89,
+      "avg_markup": 2.69
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 11229960.13,
+    "total_services": 62970,
+    "total_beneficiaries": 41876,
+    "avg_markup_ratio": 4.78
+  }
+}

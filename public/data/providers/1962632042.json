@@ -1,0 +1,239 @@
+{
+  "name": "Maan Ekkah",
+  "credentials": "",
+  "specialty": "Internal Medicine",
+  "city": "Pontiac",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 130719.21,
+      "total_services": 2039,
+      "total_beneficiaries": 879,
+      "avg_submitted": 147.35,
+      "avg_paid": 72.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 216999.95,
+      "total_services": 2988,
+      "total_beneficiaries": 1276,
+      "avg_submitted": 168.2,
+      "avg_paid": 83.49
+    },
+    {
+      "year": 2016,
+      "total_payments": 301203.17,
+      "total_services": 3752,
+      "total_beneficiaries": 1705,
+      "avg_submitted": 175.89,
+      "avg_paid": 90.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 360626.12,
+      "total_services": 4663,
+      "total_beneficiaries": 1851,
+      "avg_submitted": 176.92,
+      "avg_paid": 88.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 324523.12,
+      "total_services": 4390,
+      "total_beneficiaries": 1769,
+      "avg_submitted": 181.53,
+      "avg_paid": 92.77
+    },
+    {
+      "year": 2019,
+      "total_payments": 352555.48,
+      "total_services": 4536,
+      "total_beneficiaries": 1745,
+      "avg_submitted": 170.11,
+      "avg_paid": 91.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 335100.86,
+      "total_services": 4291,
+      "total_beneficiaries": 1759,
+      "avg_submitted": 175.56,
+      "avg_paid": 93.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 307432.32,
+      "total_services": 3796,
+      "total_beneficiaries": 1594,
+      "avg_submitted": 195.82,
+      "avg_paid": 100.52
+    },
+    {
+      "year": 2022,
+      "total_payments": 236358.99,
+      "total_services": 3208,
+      "total_beneficiaries": 1146,
+      "avg_submitted": 200.14,
+      "avg_paid": 96.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 114656.6,
+      "total_services": 1367,
+      "total_beneficiaries": 817,
+      "avg_submitted": 148.1,
+      "avg_paid": 85.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19333,
+      "payments": 1120129.33,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4951,
+      "payments": 418369.46,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2565,
+      "payments": 410764.12,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2143,
+      "payments": 184123.76,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1230,
+      "payments": 132439.93,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1354,
+      "payments": 96045.48,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 598,
+      "payments": 86854.7,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 537,
+      "payments": 70123.05,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 616,
+      "payments": 35376.73,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 269,
+      "payments": 27789.82,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 312,
+      "payments": 16814.9,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 156,
+      "payments": 16732.83,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 292,
+      "payments": 16680.42,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 195,
+      "payments": 11010.29,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 113,
+      "payments": 10776.3,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 29,
+      "payments": 5171.72,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 80,
+      "payments": 4681.14,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 56,
+      "payments": 4387.27,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 37,
+      "payments": 2867.76,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient outpatient visit, total time 45-59 minutes",
+      "services": 20,
+      "payments": 2156.32,
+      "avg_markup": 1.86
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2680175.82,
+    "total_services": 35030,
+    "total_beneficiaries": 14541,
+    "avg_markup_ratio": 1.76
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "A-Advance Ambulance Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Mokena",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 623196.09,
+      "total_services": 4333,
+      "total_beneficiaries": 3446,
+      "avg_submitted": 887.18,
+      "avg_paid": 268.77
+    },
+    {
+      "year": 2015,
+      "total_payments": 1543462.59,
+      "total_services": 11265,
+      "total_beneficiaries": 7685,
+      "avg_submitted": 887.18,
+      "avg_paid": 269.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 1605630.41,
+      "total_services": 11236,
+      "total_beneficiaries": 7641,
+      "avg_submitted": 892.15,
+      "avg_paid": 267.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 908563.46,
+      "total_services": 6061,
+      "total_beneficiaries": 4741,
+      "avg_submitted": 887.24,
+      "avg_paid": 267.87
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 5967,
+      "payments": 2042604.97,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5094,
+      "payments": 1458405.5,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 4994,
+      "payments": 850131.98,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 378,
+      "payments": 223055.62,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16393,
+      "payments": 91630.02,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 69,
+      "payments": 15024.47,
+      "avg_markup": 4.63
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4680852.56,
+    "total_services": 32895,
+    "total_beneficiaries": 23513,
+    "avg_markup_ratio": 3.47
+  }
+}

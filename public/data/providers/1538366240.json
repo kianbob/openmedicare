@@ -1,0 +1,239 @@
+{
+  "name": "Joshua May",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Bend",
+  "state": "OR",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 503430.05,
+      "total_services": 10049,
+      "total_beneficiaries": 8105,
+      "avg_submitted": 300.86,
+      "avg_paid": 89.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 610198.52,
+      "total_services": 11496,
+      "total_beneficiaries": 8915,
+      "avg_submitted": 291.75,
+      "avg_paid": 89.59
+    },
+    {
+      "year": 2016,
+      "total_payments": 665834.57,
+      "total_services": 12530,
+      "total_beneficiaries": 9806,
+      "avg_submitted": 304.63,
+      "avg_paid": 92.66
+    },
+    {
+      "year": 2017,
+      "total_payments": 639119.52,
+      "total_services": 12415,
+      "total_beneficiaries": 9904,
+      "avg_submitted": 302.79,
+      "avg_paid": 93.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 639459.83,
+      "total_services": 12820,
+      "total_beneficiaries": 9867,
+      "avg_submitted": 280.06,
+      "avg_paid": 82.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 692565.09,
+      "total_services": 12862,
+      "total_beneficiaries": 9483,
+      "avg_submitted": 301.54,
+      "avg_paid": 92.28
+    },
+    {
+      "year": 2020,
+      "total_payments": 578656.09,
+      "total_services": 11052,
+      "total_beneficiaries": 8248,
+      "avg_submitted": 299.07,
+      "avg_paid": 87.5
+    },
+    {
+      "year": 2021,
+      "total_payments": 534288.24,
+      "total_services": 10508,
+      "total_beneficiaries": 8069,
+      "avg_submitted": 286.16,
+      "avg_paid": 86.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 492253.3,
+      "total_services": 10072,
+      "total_beneficiaries": 7864,
+      "avg_submitted": 276.91,
+      "avg_paid": 77.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 504226.53,
+      "total_services": 10472,
+      "total_beneficiaries": 8290,
+      "avg_submitted": 291.21,
+      "avg_paid": 79.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13339,
+      "payments": 933627.82,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 15561,
+      "payments": 621708.9,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 18895,
+      "payments": 604365.57,
+      "avg_markup": 5.2
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 7749,
+      "payments": 574173.08,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9137,
+      "payments": 479965.66,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 3086,
+      "payments": 342725.12,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 5018,
+      "payments": 309894.59,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 4276,
+      "payments": 265315.73,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 901,
+      "payments": 203805.54,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 1464,
+      "payments": 179764.97,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "13132",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 384,
+      "payments": 139307.37,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "17282",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 927,
+      "payments": 134163.27,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "17272",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of scalp, neck, hands, feet, or genitals",
+      "services": 827,
+      "payments": 107445.67,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1426,
+      "payments": 93094.39,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 17378,
+      "payments": 81155.51,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "11642",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 711,
+      "payments": 74286.3,
+      "avg_markup": 5.46
+    },
+    {
+      "code": "17281",
+      "description": "Destruction of malignant growth (0.6 to 1.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 515,
+      "payments": 64720.01,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 594,
+      "payments": 56248.82,
+      "avg_markup": 5.4
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1516,
+      "payments": 46368.64,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "13131",
+      "description": "Repair of wound (1.1 to 2.5 centimeters) of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 155,
+      "payments": 44495.22,
+      "avg_markup": 2.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5860031.74,
+    "total_services": 114276,
+    "total_beneficiaries": 88551,
+    "avg_markup_ratio": 3.66
+  }
+}

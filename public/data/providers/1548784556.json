@@ -1,0 +1,86 @@
+{
+  "name": "North Atlantic Surgical Suites, Llc",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Salem",
+  "state": "NH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 481497.42,
+      "total_services": 105,
+      "total_beneficiaries": 99,
+      "avg_submitted": 45001.56,
+      "avg_paid": 4553.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 1476864.68,
+      "total_services": 298,
+      "total_beneficiaries": 279,
+      "avg_submitted": 44321.29,
+      "avg_paid": 4227.58
+    },
+    {
+      "year": 2022,
+      "total_payments": 1619309.38,
+      "total_services": 326,
+      "total_beneficiaries": 303,
+      "avg_submitted": 49819.32,
+      "avg_paid": 4257.22
+    },
+    {
+      "year": 2023,
+      "total_payments": 1708355.57,
+      "total_services": 338,
+      "total_beneficiaries": 320,
+      "avg_submitted": 52737.19,
+      "avg_paid": 4376.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "27130",
+      "description": "Replacement of thigh bone and hip joint prosthesis",
+      "services": 346,
+      "payments": 2516096.18,
+      "avg_markup": 12.71
+    },
+    {
+      "code": "27447",
+      "description": "Repair of knee joint",
+      "services": 326,
+      "payments": 2307459.18,
+      "avg_markup": 11.68
+    },
+    {
+      "code": "27446",
+      "description": "Repair of knee joint",
+      "services": 66,
+      "payments": 460348.15,
+      "avg_markup": 9.43
+    },
+    {
+      "code": "76000",
+      "description": "Imaging guidance for procedure, up to 1 hour",
+      "services": 83,
+      "payments": 1859.85,
+      "avg_markup": 77.48
+    },
+    {
+      "code": "C9290",
+      "description": "Injection, bupivacaine liposome, 1 mg",
+      "services": 246,
+      "payments": 263.69,
+      "avg_markup": 6.25
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 5286027.05,
+    "total_services": 1067,
+    "total_beneficiaries": 1001,
+    "avg_markup_ratio": 12.0
+  }
+}

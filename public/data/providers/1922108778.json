@@ -1,0 +1,239 @@
+{
+  "name": "Andrew Wachtel",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 335416.12,
+      "total_services": 4653,
+      "total_beneficiaries": 2944,
+      "avg_submitted": 351.32,
+      "avg_paid": 126.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 338357.44,
+      "total_services": 4766,
+      "total_beneficiaries": 3230,
+      "avg_submitted": 335.25,
+      "avg_paid": 122.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 307742.22,
+      "total_services": 4185,
+      "total_beneficiaries": 2783,
+      "avg_submitted": 282.26,
+      "avg_paid": 103.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 389872.56,
+      "total_services": 4796,
+      "total_beneficiaries": 3200,
+      "avg_submitted": 400.88,
+      "avg_paid": 135.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 366607.42,
+      "total_services": 4456,
+      "total_beneficiaries": 3027,
+      "avg_submitted": 178.82,
+      "avg_paid": 83.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 297786.86,
+      "total_services": 3485,
+      "total_beneficiaries": 2488,
+      "avg_submitted": 196.43,
+      "avg_paid": 88.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 235633.5,
+      "total_services": 2703,
+      "total_beneficiaries": 1908,
+      "avg_submitted": 183.33,
+      "avg_paid": 79.41
+    },
+    {
+      "year": 2021,
+      "total_payments": 270007.27,
+      "total_services": 2899,
+      "total_beneficiaries": 2025,
+      "avg_submitted": 188.46,
+      "avg_paid": 84.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 295802.84,
+      "total_services": 3446,
+      "total_beneficiaries": 2401,
+      "avg_submitted": 188.53,
+      "avg_paid": 83.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 323845.99,
+      "total_services": 3892,
+      "total_beneficiaries": 2658,
+      "avg_submitted": 293.69,
+      "avg_paid": 77.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9201,
+      "payments": 833130.51,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3184,
+      "payments": 368692.09,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 2112,
+      "payments": 351810.63,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3555,
+      "payments": 311919.31,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4175,
+      "payments": 269093.96,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1203,
+      "payments": 196853.83,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 6475,
+      "payments": 187266.99,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1064,
+      "payments": 142075.81,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2241,
+      "payments": 136214.5,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 1594,
+      "payments": 81838.93,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1591,
+      "payments": 78647.6,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 1599,
+      "payments": 60361.73,
+      "avg_markup": 6.62
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 70,
+      "payments": 38600.42,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 69,
+      "payments": 36462.13,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 97,
+      "payments": 17618.51,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, 10-19 minutes",
+      "services": 171,
+      "payments": 8375.58,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "95800",
+      "description": "Study of sleep patterns",
+      "services": 47,
+      "payments": 7333.47,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 74,
+      "payments": 7008.56,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 56,
+      "payments": 6320.94,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "94660",
+      "description": "Initiation and management of continued pressured respiratory assistance by mask or breathing tube",
+      "services": 111,
+      "payments": 5755.3,
+      "avg_markup": 3.05
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3161072.22,
+    "total_services": 39281,
+    "total_beneficiaries": 26664,
+    "avg_markup_ratio": 2.38
+  }
+}

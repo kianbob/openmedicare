@@ -1,0 +1,231 @@
+{
+  "name": "John Schilling",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Albany",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 427056.6,
+      "total_services": 5743,
+      "total_beneficiaries": 3243,
+      "avg_submitted": 176.79,
+      "avg_paid": 51.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 472370.28,
+      "total_services": 5811,
+      "total_beneficiaries": 3207,
+      "avg_submitted": 135.8,
+      "avg_paid": 52.6
+    },
+    {
+      "year": 2016,
+      "total_payments": 529798.02,
+      "total_services": 6349,
+      "total_beneficiaries": 3329,
+      "avg_submitted": 128.73,
+      "avg_paid": 50.11
+    },
+    {
+      "year": 2017,
+      "total_payments": 404346.7,
+      "total_services": 5728,
+      "total_beneficiaries": 2876,
+      "avg_submitted": 120.43,
+      "avg_paid": 46.56
+    },
+    {
+      "year": 2018,
+      "total_payments": 317551.71,
+      "total_services": 4456,
+      "total_beneficiaries": 2442,
+      "avg_submitted": 125.08,
+      "avg_paid": 48.8
+    },
+    {
+      "year": 2019,
+      "total_payments": 326654.96,
+      "total_services": 5218,
+      "total_beneficiaries": 3005,
+      "avg_submitted": 129.41,
+      "avg_paid": 49.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 263937.1,
+      "total_services": 4843,
+      "total_beneficiaries": 2987,
+      "avg_submitted": 108.7,
+      "avg_paid": 40.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 230048.53,
+      "total_services": 4527,
+      "total_beneficiaries": 2716,
+      "avg_submitted": 111.87,
+      "avg_paid": 50.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 118651.06,
+      "total_services": 1440,
+      "total_beneficiaries": 1103,
+      "avg_submitted": 98.0,
+      "avg_paid": 38.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 6663,
+      "payments": 1476297.37,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 1326,
+      "payments": 243977.18,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 1244,
+      "payments": 224254.0,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2931,
+      "payments": 162479.78,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2124,
+      "payments": 156582.17,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 2429,
+      "payments": 136269.6,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 2239,
+      "payments": 107802.62,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1291,
+      "payments": 103068.67,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2115,
+      "payments": 100178.67,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2659,
+      "payments": 92192.84,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 545,
+      "payments": 84640.47,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 538,
+      "payments": 56693.45,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "80069",
+      "description": "Kidney function blood test panel",
+      "services": 3300,
+      "payments": 33737.89,
+      "avg_markup": 6.07
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 194,
+      "payments": 21637.38,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "85027",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 2244,
+      "payments": 16857.55,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 5128,
+      "payments": 14998.53,
+      "avg_markup": 6.48
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 363,
+      "payments": 10940.59,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 786,
+      "payments": 8998.99,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 504,
+      "payments": 5079.89,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "84156",
+      "description": "Total protein level, urine",
+      "services": 998,
+      "payments": 4169.25,
+      "avg_markup": 5.73
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3090414.96,
+    "total_services": 44115,
+    "total_beneficiaries": 24908,
+    "avg_markup_ratio": 2.62
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Southeast Ambulance, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Athens",
+  "state": "GA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1459694.83,
+      "total_services": 18727,
+      "total_beneficiaries": 322,
+      "avg_submitted": 206.0,
+      "avg_paid": 77.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 1184644.81,
+      "total_services": 14976,
+      "total_beneficiaries": 255,
+      "avg_submitted": 287.33,
+      "avg_paid": 140.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 883685.02,
+      "total_services": 11128,
+      "total_beneficiaries": 200,
+      "avg_submitted": 287.33,
+      "avg_paid": 139.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 264147.53,
+      "total_services": 3344,
+      "total_beneficiaries": 112,
+      "avg_submitted": 206.0,
+      "avg_paid": 79.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 24075,
+      "payments": 3642806.0,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 24042,
+      "payments": 134080.18,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 58,
+      "payments": 15286.01,
+      "avg_markup": 1.71
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3792172.18,
+    "total_services": 48175,
+    "total_beneficiaries": 889,
+    "avg_markup_ratio": 2.62
+  }
+}

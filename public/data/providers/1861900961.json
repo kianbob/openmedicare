@@ -1,0 +1,109 @@
+{
+  "name": "First Call Ambulance Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Old Hickory",
+  "state": "TN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 1055174.8,
+      "total_services": 11547,
+      "total_beneficiaries": 6291,
+      "avg_submitted": 565.62,
+      "avg_paid": 246.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 2090021.2,
+      "total_services": 24056,
+      "total_beneficiaries": 10818,
+      "avg_submitted": 565.65,
+      "avg_paid": 247.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 1949132.56,
+      "total_services": 22943,
+      "total_beneficiaries": 10511,
+      "avg_submitted": 464.52,
+      "avg_paid": 189.93
+    },
+    {
+      "year": 2021,
+      "total_payments": 1924664.08,
+      "total_services": 22808,
+      "total_beneficiaries": 10972,
+      "avg_submitted": 517.38,
+      "avg_paid": 189.72
+    },
+    {
+      "year": 2022,
+      "total_payments": 1272728.01,
+      "total_services": 13275,
+      "total_beneficiaries": 9168,
+      "avg_submitted": 1295.74,
+      "avg_paid": 201.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 1290098.67,
+      "total_services": 11848,
+      "total_beneficiaries": 8620,
+      "avg_submitted": 2930.92,
+      "avg_paid": 291.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 45180,
+      "payments": 6986547.71,
+      "avg_markup": 4.53
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 3611,
+      "payments": 1184847.68,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 3210,
+      "payments": 651807.79,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1402,
+      "payments": 392268.46,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 53012,
+      "payments": 330079.37,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 62,
+      "payments": 36268.33,
+      "avg_markup": 5.47
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 9581819.33,
+    "total_services": 106477,
+    "total_beneficiaries": 56380,
+    "avg_markup_ratio": 4.37
+  }
+}

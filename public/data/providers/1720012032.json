@@ -1,0 +1,119 @@
+{
+  "name": "Silicon Valley Ambulance Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "San Jose",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 962382.32,
+      "total_services": 5351,
+      "total_beneficiaries": 4127,
+      "avg_submitted": 603.56,
+      "avg_paid": 240.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 920521.35,
+      "total_services": 4992,
+      "total_beneficiaries": 3929,
+      "avg_submitted": 606.59,
+      "avg_paid": 243.15
+    },
+    {
+      "year": 2016,
+      "total_payments": 748021.51,
+      "total_services": 4150,
+      "total_beneficiaries": 3387,
+      "avg_submitted": 681.0,
+      "avg_paid": 238.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 787221.29,
+      "total_services": 4395,
+      "total_beneficiaries": 3596,
+      "avg_submitted": 709.19,
+      "avg_paid": 251.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 770074.8,
+      "total_services": 4240,
+      "total_beneficiaries": 3429,
+      "avg_submitted": 709.39,
+      "avg_paid": 256.34
+    },
+    {
+      "year": 2019,
+      "total_payments": 888120.89,
+      "total_services": 4745,
+      "total_beneficiaries": 3697,
+      "avg_submitted": 709.38,
+      "avg_paid": 263.03
+    },
+    {
+      "year": 2020,
+      "total_payments": 588813.57,
+      "total_services": 3089,
+      "total_beneficiaries": 2583,
+      "avg_submitted": 709.45,
+      "avg_paid": 269.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 627340.25,
+      "total_services": 3206,
+      "total_beneficiaries": 2564,
+      "avg_submitted": 709.31,
+      "avg_paid": 276.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 309417.8,
+      "total_services": 1570,
+      "total_beneficiaries": 1315,
+      "avg_submitted": 716.19,
+      "avg_paid": 283.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 14577,
+      "payments": 5143797.0,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 3211,
+      "payments": 1332060.1,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 17848,
+      "payments": 104760.45,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 102,
+      "payments": 21296.23,
+      "avg_markup": 3.14
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 6601913.78,
+    "total_services": 35738,
+    "total_beneficiaries": 28627,
+    "avg_markup_ratio": 2.54
+  }
+}

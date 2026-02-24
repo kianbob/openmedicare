@@ -1,0 +1,239 @@
+{
+  "name": "Stan Golin",
+  "credentials": "MD",
+  "specialty": "Radiation Oncology",
+  "city": "New Hyde Park",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4969.26,
+      "total_services": 108,
+      "total_beneficiaries": 55,
+      "avg_submitted": 208.46,
+      "avg_paid": 55.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 1145914.24,
+      "total_services": 5047,
+      "total_beneficiaries": 676,
+      "avg_submitted": 1179.34,
+      "avg_paid": 297.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 1159037.12,
+      "total_services": 6588,
+      "total_beneficiaries": 933,
+      "avg_submitted": 1257.8,
+      "avg_paid": 305.5
+    },
+    {
+      "year": 2017,
+      "total_payments": 1543190.55,
+      "total_services": 8482,
+      "total_beneficiaries": 1147,
+      "avg_submitted": 1188.32,
+      "avg_paid": 288.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 1575187.61,
+      "total_services": 8437,
+      "total_beneficiaries": 1113,
+      "avg_submitted": 1188.53,
+      "avg_paid": 298.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 1464835.2,
+      "total_services": 7600,
+      "total_beneficiaries": 1025,
+      "avg_submitted": 1188.45,
+      "avg_paid": 295.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 1316008.41,
+      "total_services": 5747,
+      "total_beneficiaries": 884,
+      "avg_submitted": 1650.23,
+      "avg_paid": 388.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 1963219.1,
+      "total_services": 7821,
+      "total_beneficiaries": 1140,
+      "avg_submitted": 1823.72,
+      "avg_paid": 447.97
+    },
+    {
+      "year": 2022,
+      "total_payments": 1375612.2,
+      "total_services": 5749,
+      "total_beneficiaries": 843,
+      "avg_submitted": 2481.39,
+      "avg_paid": 425.46
+    },
+    {
+      "year": 2023,
+      "total_payments": 950670.08,
+      "total_services": 4108,
+      "total_beneficiaries": 603,
+      "avg_submitted": 2161.06,
+      "avg_paid": 384.67
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 22367,
+      "payments": 7506933.66,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 22084,
+      "payments": 1611567.49,
+      "avg_markup": 6.4
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 530,
+      "payments": 928018.43,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 4353,
+      "payments": 700411.48,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 1028,
+      "payments": 453194.76,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "55874",
+      "description": "Injection of biodegradable material next to prostate",
+      "services": 145,
+      "payments": 425074.34,
+      "avg_markup": 5.52
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 4238,
+      "payments": 315370.65,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 324,
+      "payments": 148519.93,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 529,
+      "payments": 73318.69,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 524,
+      "payments": 70811.8,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 1072,
+      "payments": 63183.73,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 520,
+      "payments": 61149.15,
+      "avg_markup": 4.12
+    },
+    {
+      "code": "A4648",
+      "description": "Tissue marker, implantable, any type, each",
+      "services": 151,
+      "payments": 41209.93,
+      "avg_markup": 7.48
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1099,
+      "payments": 38659.58,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "76872",
+      "description": "Ultrasound of rectum",
+      "services": 135,
+      "payments": 17886.31,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 232,
+      "payments": 16206.18,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "55876",
+      "description": "Insertion of radiation therapy devices in prostate gland for radiation therapy guidance",
+      "services": 151,
+      "payments": 10753.46,
+      "avg_markup": 8.31
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 101,
+      "payments": 8843.03,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, 60-74 minutes",
+      "services": 28,
+      "payments": 5772.76,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "76942",
+      "description": "Ultrasonic guidance imaging supervision and interpretation for insertion of needle",
+      "services": 17,
+      "payments": 897.0,
+      "avg_markup": 5.8
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 12498643.77,
+    "total_services": 59687,
+    "total_beneficiaries": 8419,
+    "avg_markup_ratio": 4.51
+  }
+}

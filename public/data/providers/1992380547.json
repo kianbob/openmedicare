@@ -1,0 +1,57 @@
+{
+  "name": "Wellnow Urgent Care, P.C.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Syracuse",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 2998375.0,
+      "total_services": 59901,
+      "total_beneficiaries": 46846,
+      "avg_submitted": 92.5,
+      "avg_paid": 50.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 2964493.0,
+      "total_services": 59984,
+      "total_beneficiaries": 45703,
+      "avg_submitted": 92.5,
+      "avg_paid": 49.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 364447.3,
+      "total_services": 7438,
+      "total_beneficiaries": 6564,
+      "avg_submitted": 92.5,
+      "avg_paid": 49.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 63764,
+      "payments": 4749318.0,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 63559,
+      "payments": 1577997.3,
+      "avg_markup": 1.41
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 6327315.3,
+    "total_services": 127323,
+    "total_beneficiaries": 99113,
+    "avg_markup_ratio": 1.86
+  }
+}

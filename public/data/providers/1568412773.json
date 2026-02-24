@@ -1,0 +1,239 @@
+{
+  "name": "Thomas Kouri",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Peoria",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 379105.41,
+      "total_services": 5501,
+      "total_beneficiaries": 2735,
+      "avg_submitted": 163.88,
+      "avg_paid": 71.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 297345.22,
+      "total_services": 4080,
+      "total_beneficiaries": 2302,
+      "avg_submitted": 166.59,
+      "avg_paid": 73.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 271093.78,
+      "total_services": 4118,
+      "total_beneficiaries": 2381,
+      "avg_submitted": 151.87,
+      "avg_paid": 66.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 245119.26,
+      "total_services": 3757,
+      "total_beneficiaries": 2059,
+      "avg_submitted": 158.81,
+      "avg_paid": 69.78
+    },
+    {
+      "year": 2018,
+      "total_payments": 230646.58,
+      "total_services": 3565,
+      "total_beneficiaries": 1828,
+      "avg_submitted": 177.13,
+      "avg_paid": 66.32
+    },
+    {
+      "year": 2019,
+      "total_payments": 260842.49,
+      "total_services": 3970,
+      "total_beneficiaries": 2115,
+      "avg_submitted": 209.2,
+      "avg_paid": 73.51
+    },
+    {
+      "year": 2020,
+      "total_payments": 243743.13,
+      "total_services": 3436,
+      "total_beneficiaries": 2027,
+      "avg_submitted": 212.95,
+      "avg_paid": 74.78
+    },
+    {
+      "year": 2021,
+      "total_payments": 230812.21,
+      "total_services": 3138,
+      "total_beneficiaries": 1680,
+      "avg_submitted": 183.69,
+      "avg_paid": 65.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 200141.07,
+      "total_services": 2785,
+      "total_beneficiaries": 1509,
+      "avg_submitted": 192.05,
+      "avg_paid": 65.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 181872.3,
+      "total_services": 2410,
+      "total_beneficiaries": 1367,
+      "avg_submitted": 191.22,
+      "avg_paid": 65.66
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10516,
+      "payments": 770724.28,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6910,
+      "payments": 385257.78,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2214,
+      "payments": 339125.37,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3769,
+      "payments": 231277.44,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1711,
+      "payments": 140764.53,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1080,
+      "payments": 130429.64,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 884,
+      "payments": 111263.91,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1348,
+      "payments": 66107.21,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 483,
+      "payments": 48886.06,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 939,
+      "payments": 42265.56,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 182,
+      "payments": 35696.01,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 460,
+      "payments": 27937.79,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 380,
+      "payments": 21092.49,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 266,
+      "payments": 21047.44,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 444,
+      "payments": 20419.82,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 346,
+      "payments": 20133.36,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 305,
+      "payments": 17020.31,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 151,
+      "payments": 15727.09,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 727,
+      "payments": 15169.39,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 77,
+      "payments": 12347.76,
+      "avg_markup": 2.95
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2540721.44,
+    "total_services": 36760,
+    "total_beneficiaries": 20003,
+    "avg_markup_ratio": 2.61
+  }
+}

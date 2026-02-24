@@ -1,0 +1,239 @@
+{
+  "name": "Donald Simmons",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Muenster",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 41124.55,
+      "total_services": 821,
+      "total_beneficiaries": 512,
+      "avg_submitted": 150.15,
+      "avg_paid": 50.22
+    },
+    {
+      "year": 2015,
+      "total_payments": 173798.15,
+      "total_services": 2884,
+      "total_beneficiaries": 2533,
+      "avg_submitted": 191.45,
+      "avg_paid": 57.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 293850.15,
+      "total_services": 5626,
+      "total_beneficiaries": 3415,
+      "avg_submitted": 162.85,
+      "avg_paid": 49.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 260072.99,
+      "total_services": 5138,
+      "total_beneficiaries": 2978,
+      "avg_submitted": 182.15,
+      "avg_paid": 53.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 287272.07,
+      "total_services": 5133,
+      "total_beneficiaries": 3132,
+      "avg_submitted": 146.49,
+      "avg_paid": 49.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 343330.09,
+      "total_services": 5711,
+      "total_beneficiaries": 3563,
+      "avg_submitted": 154.98,
+      "avg_paid": 53.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 435127.43,
+      "total_services": 8002,
+      "total_beneficiaries": 4039,
+      "avg_submitted": 135.63,
+      "avg_paid": 53.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 481002.19,
+      "total_services": 8338,
+      "total_beneficiaries": 3782,
+      "avg_submitted": 142.91,
+      "avg_paid": 68.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 692638.74,
+      "total_services": 10567,
+      "total_beneficiaries": 3894,
+      "avg_submitted": 124.83,
+      "avg_paid": 59.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 408538.4,
+      "total_services": 5677,
+      "total_beneficiaries": 2278,
+      "avg_submitted": 156.24,
+      "avg_paid": 66.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 10563,
+      "payments": 835007.94,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11800,
+      "payments": 800376.43,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services each additional 30 minutes clinical staff time",
+      "services": 8036,
+      "payments": 342785.73,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5117,
+      "payments": 240557.45,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 1482,
+      "payments": 235745.62,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1074,
+      "payments": 118451.16,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 600,
+      "payments": 112437.48,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G0513",
+      "description": "Prolonged preventive service(s) (beyond the typical service time of the primary procedure), in the office or other outpatient setting requiring direct patient contact beyond the usual service; first 30 minutes (list separately in addition to code for preve",
+      "services": 1185,
+      "payments": 73524.31,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1050,
+      "payments": 71364.01,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 587,
+      "payments": 50056.24,
+      "avg_markup": 7.52
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 964,
+      "payments": 48607.86,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 322,
+      "payments": 47266.08,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "G0514",
+      "description": "Prolonged preventive service(s) (beyond the typical service time of the primary procedure), in the office or other outpatient setting requiring direct patient contact beyond the usual service; each additional 30 minutes (list separately in addition to code",
+      "services": 696,
+      "payments": 42934.02,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 858,
+      "payments": 42009.3,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "99283",
+      "description": "Emergency department visit, moderately severe problem",
+      "services": 738,
+      "payments": 34146.7,
+      "avg_markup": 6.35
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 3144,
+      "payments": 33618.32,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit, problem with significant threat to life or function",
+      "services": 172,
+      "payments": 22114.19,
+      "avg_markup": 8.17
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 153,
+      "payments": 20474.51,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1030,
+      "payments": 20437.18,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 202,
+      "payments": 19275.47,
+      "avg_markup": 1.9
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3416754.76,
+    "total_services": 57897,
+    "total_beneficiaries": 30126,
+    "avg_markup_ratio": 2.38
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Hawaii Life Flight Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Honolulu",
+  "state": "HI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1530055.48,
+      "total_services": 816,
+      "total_beneficiaries": 772,
+      "avg_submitted": 8344.41,
+      "avg_paid": 1998.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 1898905.96,
+      "total_services": 986,
+      "total_beneficiaries": 926,
+      "avg_submitted": 8940.38,
+      "avg_paid": 2043.49
+    },
+    {
+      "year": 2016,
+      "total_payments": 2089659.53,
+      "total_services": 1092,
+      "total_beneficiaries": 1029,
+      "avg_submitted": 9089.74,
+      "avg_paid": 1999.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 2046736.54,
+      "total_services": 1068,
+      "total_beneficiaries": 1014,
+      "avg_submitted": 12109.21,
+      "avg_paid": 2051.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 1715,
+      "payments": 6377193.02,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 268,
+      "payments": 1164164.74,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 1710,
+      "payments": 16876.05,
+      "avg_markup": 25.05
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 269,
+      "payments": 7123.7,
+      "avg_markup": 9.34
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 7565357.51,
+    "total_services": 3962,
+    "total_beneficiaries": 3741,
+    "avg_markup_ratio": 5.09
+  }
+}

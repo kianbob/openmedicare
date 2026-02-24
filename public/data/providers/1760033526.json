@@ -1,0 +1,87 @@
+{
+  "name": "Harris County Emergency Services District 9",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 55468.79,
+      "total_services": 323,
+      "total_beneficiaries": 304,
+      "avg_submitted": 1003.82,
+      "avg_paid": 217.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 930740.07,
+      "total_services": 5100,
+      "total_beneficiaries": 3684,
+      "avg_submitted": 1356.98,
+      "avg_paid": 295.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 994610.67,
+      "total_services": 5379,
+      "total_beneficiaries": 3966,
+      "avg_submitted": 1391.61,
+      "avg_paid": 300.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 1191506.24,
+      "total_services": 6269,
+      "total_beneficiaries": 4402,
+      "avg_submitted": 1139.14,
+      "avg_paid": 310.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 1220968.61,
+      "total_services": 5997,
+      "total_beneficiaries": 4385,
+      "avg_submitted": 739.77,
+      "avg_paid": 331.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 9180,
+      "payments": 3450189.14,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1986,
+      "payments": 624839.36,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 452,
+      "payments": 245888.98,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 11450,
+      "payments": 72376.9,
+      "avg_markup": 2.7
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4393294.38,
+    "total_services": 23068,
+    "total_beneficiaries": 16741,
+    "avg_markup_ratio": 3.96
+  }
+}

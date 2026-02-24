@@ -1,0 +1,239 @@
+{
+  "name": "Aaron Feingold",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Edison",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 350077.38,
+      "total_services": 8885,
+      "total_beneficiaries": 4936,
+      "avg_submitted": 100.27,
+      "avg_paid": 50.97
+    },
+    {
+      "year": 2015,
+      "total_payments": 338032.81,
+      "total_services": 8780,
+      "total_beneficiaries": 5108,
+      "avg_submitted": 127.08,
+      "avg_paid": 46.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 316126.89,
+      "total_services": 8941,
+      "total_beneficiaries": 5251,
+      "avg_submitted": 120.0,
+      "avg_paid": 46.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 278944.31,
+      "total_services": 7826,
+      "total_beneficiaries": 4943,
+      "avg_submitted": 119.66,
+      "avg_paid": 44.89
+    },
+    {
+      "year": 2018,
+      "total_payments": 272341.69,
+      "total_services": 6850,
+      "total_beneficiaries": 4257,
+      "avg_submitted": 133.66,
+      "avg_paid": 46.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 255944.05,
+      "total_services": 5934,
+      "total_beneficiaries": 3783,
+      "avg_submitted": 186.98,
+      "avg_paid": 53.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 165162.14,
+      "total_services": 4933,
+      "total_beneficiaries": 3563,
+      "avg_submitted": 216.47,
+      "avg_paid": 57.97
+    },
+    {
+      "year": 2021,
+      "total_payments": 264643.63,
+      "total_services": 5596,
+      "total_beneficiaries": 3436,
+      "avg_submitted": 215.81,
+      "avg_paid": 62.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 328716.45,
+      "total_services": 6926,
+      "total_beneficiaries": 4269,
+      "avg_submitted": 267.7,
+      "avg_paid": 94.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 338272.39,
+      "total_services": 5491,
+      "total_beneficiaries": 2841,
+      "avg_submitted": 222.29,
+      "avg_paid": 76.5
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14175,
+      "payments": 1238952.82,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8821,
+      "payments": 545821.4,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 25278,
+      "payments": 178781.53,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1743,
+      "payments": 154025.21,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1803,
+      "payments": 113891.62,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "93229",
+      "description": "Electrocardiogram (ecg) up to 30 days continuous with transmission of patient triggered events with review and report by health care professional",
+      "services": 104,
+      "payments": 84678.69,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 5196,
+      "payments": 67832.97,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 536,
+      "payments": 60836.38,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1249,
+      "payments": 54443.43,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 879,
+      "payments": 44685.69,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 560,
+      "payments": 40726.99,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "93288",
+      "description": "Evaluation of parameters of single, dual, or multiple lead pacemaker including device connection, recording, and disconnection",
+      "services": 945,
+      "payments": 35527.57,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 275,
+      "payments": 35067.55,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 683,
+      "payments": 32176.26,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 154,
+      "payments": 25799.96,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 297,
+      "payments": 22484.76,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 816,
+      "payments": 21288.56,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 270,
+      "payments": 16782.79,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "93227",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 627,
+      "payments": 13554.77,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "93289",
+      "description": "Evaluation of parameters of single, dual, or multiple lead cardioverter-defibrillator including device connection, recording, and disconnection",
+      "services": 243,
+      "payments": 12886.36,
+      "avg_markup": 2.83
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2908261.75,
+    "total_services": 70162,
+    "total_beneficiaries": 42387,
+    "avg_markup_ratio": 3.15
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "John Jernigan",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Montgomery",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 406639.74,
+      "total_services": 21240,
+      "total_beneficiaries": 11268,
+      "avg_submitted": 74.21,
+      "avg_paid": 29.5
+    },
+    {
+      "year": 2015,
+      "total_payments": 460637.87,
+      "total_services": 23131,
+      "total_beneficiaries": 13011,
+      "avg_submitted": 76.28,
+      "avg_paid": 30.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 529259.96,
+      "total_services": 25990,
+      "total_beneficiaries": 13681,
+      "avg_submitted": 83.49,
+      "avg_paid": 34.52
+    },
+    {
+      "year": 2017,
+      "total_payments": 277747.42,
+      "total_services": 14314,
+      "total_beneficiaries": 7642,
+      "avg_submitted": 84.1,
+      "avg_paid": 33.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 224618.52,
+      "total_services": 12494,
+      "total_beneficiaries": 6519,
+      "avg_submitted": 79.35,
+      "avg_paid": 29.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 248773.55,
+      "total_services": 13270,
+      "total_beneficiaries": 6830,
+      "avg_submitted": 81.59,
+      "avg_paid": 30.71
+    },
+    {
+      "year": 2020,
+      "total_payments": 174035.46,
+      "total_services": 9549,
+      "total_beneficiaries": 5061,
+      "avg_submitted": 76.98,
+      "avg_paid": 30.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 202488.03,
+      "total_services": 9775,
+      "total_beneficiaries": 5841,
+      "avg_submitted": 60.69,
+      "avg_paid": 27.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 149470.48,
+      "total_services": 6963,
+      "total_beneficiaries": 3899,
+      "avg_submitted": 63.74,
+      "avg_paid": 29.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 197348.65,
+      "total_services": 7423,
+      "total_beneficiaries": 4221,
+      "avg_submitted": 78.63,
+      "avg_paid": 32.94
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6294,
+      "payments": 283596.45,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3917,
+      "payments": 272520.25,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1957,
+      "payments": 164367.66,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1622,
+      "payments": 128216.21,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2129,
+      "payments": 115015.17,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 12128,
+      "payments": 112082.52,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 725,
+      "payments": 106079.22,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 8153,
+      "payments": 102766.26,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2573,
+      "payments": 91032.69,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 1997,
+      "payments": 84671.69,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 5119,
+      "payments": 72515.93,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 376,
+      "payments": 63251.72,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 7642,
+      "payments": 60234.27,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1129,
+      "payments": 59683.87,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 7432,
+      "payments": 58660.36,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2285,
+      "payments": 46115.05,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 4438,
+      "payments": 44845.9,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 3890,
+      "payments": 43876.7,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1910,
+      "payments": 40694.14,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 11703,
+      "payments": 37287.58,
+      "avg_markup": 3.14
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2871019.68,
+    "total_services": 144149,
+    "total_beneficiaries": 77973,
+    "avg_markup_ratio": 2.35
+  }
+}

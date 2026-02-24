@@ -1,0 +1,204 @@
+{
+  "name": "Cezanne Bermeo",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Chandler",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 141196.87,
+      "total_services": 1652,
+      "total_beneficiaries": 1130,
+      "avg_submitted": 229.48,
+      "avg_paid": 88.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 182613.71,
+      "total_services": 2327,
+      "total_beneficiaries": 1223,
+      "avg_submitted": 236.06,
+      "avg_paid": 92.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 236245.68,
+      "total_services": 3382,
+      "total_beneficiaries": 1223,
+      "avg_submitted": 269.81,
+      "avg_paid": 85.06
+    },
+    {
+      "year": 2017,
+      "total_payments": 250900.18,
+      "total_services": 3447,
+      "total_beneficiaries": 1415,
+      "avg_submitted": 259.87,
+      "avg_paid": 85.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 231231.43,
+      "total_services": 3196,
+      "total_beneficiaries": 1238,
+      "avg_submitted": 172.33,
+      "avg_paid": 86.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 219092.44,
+      "total_services": 2990,
+      "total_beneficiaries": 1077,
+      "avg_submitted": 223.34,
+      "avg_paid": 84.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 361733.14,
+      "total_services": 4589,
+      "total_beneficiaries": 1570,
+      "avg_submitted": 215.0,
+      "avg_paid": 89.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 461647.58,
+      "total_services": 6100,
+      "total_beneficiaries": 1615,
+      "avg_submitted": 220.0,
+      "avg_paid": 83.85
+    },
+    {
+      "year": 2022,
+      "total_payments": 442600.98,
+      "total_services": 5912,
+      "total_beneficiaries": 1467,
+      "avg_submitted": 219.91,
+      "avg_paid": 81.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 482968.12,
+      "total_services": 5437,
+      "total_beneficiaries": 1469,
+      "avg_submitted": 236.25,
+      "avg_paid": 93.96
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 17078,
+      "payments": 1247457.56,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9018,
+      "payments": 506924.94,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4067,
+      "payments": 328484.61,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2084,
+      "payments": 270364.66,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1769,
+      "payments": 268986.7,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1728,
+      "payments": 143909.53,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 888,
+      "payments": 74690.13,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1014,
+      "payments": 54908.41,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 275,
+      "payments": 29046.37,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 254,
+      "payments": 26801.9,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 320,
+      "payments": 18040.71,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 108,
+      "payments": 15192.03,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 222,
+      "payments": 12737.85,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 161,
+      "payments": 9006.49,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 46,
+      "payments": 3678.24,
+      "avg_markup": 2.62
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3010230.13,
+    "total_services": 39032,
+    "total_beneficiaries": 13427,
+    "avg_markup_ratio": 2.64
+  }
+}

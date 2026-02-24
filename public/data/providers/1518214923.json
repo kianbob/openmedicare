@@ -1,0 +1,223 @@
+{
+  "name": "David Reed",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Lafayette",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 45464.11,
+      "total_services": 700,
+      "total_beneficiaries": 503,
+      "avg_submitted": 147.11,
+      "avg_paid": 69.15
+    },
+    {
+      "year": 2017,
+      "total_payments": 196274.33,
+      "total_services": 3022,
+      "total_beneficiaries": 1957,
+      "avg_submitted": 154.96,
+      "avg_paid": 72.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 267565.44,
+      "total_services": 4481,
+      "total_beneficiaries": 2350,
+      "avg_submitted": 144.78,
+      "avg_paid": 66.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 468991.44,
+      "total_services": 7507,
+      "total_beneficiaries": 3893,
+      "avg_submitted": 131.57,
+      "avg_paid": 64.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 730612.35,
+      "total_services": 11733,
+      "total_beneficiaries": 4545,
+      "avg_submitted": 136.83,
+      "avg_paid": 62.31
+    },
+    {
+      "year": 2021,
+      "total_payments": 650028.01,
+      "total_services": 9780,
+      "total_beneficiaries": 3778,
+      "avg_submitted": 111.16,
+      "avg_paid": 55.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 489005.56,
+      "total_services": 7170,
+      "total_beneficiaries": 3018,
+      "avg_submitted": 130.77,
+      "avg_paid": 61.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 442560.66,
+      "total_services": 6799,
+      "total_beneficiaries": 2878,
+      "avg_submitted": 120.74,
+      "avg_paid": 58.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 13887,
+      "payments": 1132859.94,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5492,
+      "payments": 313274.26,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1835,
+      "payments": 280432.2,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2942,
+      "payments": 231250.34,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1858,
+      "payments": 153323.42,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1188,
+      "payments": 152377.34,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 887,
+      "payments": 102995.12,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 1340,
+      "payments": 96000.43,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 2067,
+      "payments": 84349.95,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99457",
+      "description": "Remote monitoring of physiologic parameters management services, 20 minutes or more of qualified health care professional time per calendar month",
+      "services": 2033,
+      "payments": 75319.05,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 647,
+      "payments": 67434.86,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 344,
+      "payments": 65045.13,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 906,
+      "payments": 63541.46,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 786,
+      "payments": 52617.69,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 772,
+      "payments": 36002.13,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2352,
+      "payments": 33215.81,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 329,
+      "payments": 32545.67,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 998,
+      "payments": 30938.15,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "G0181",
+      "description": "Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow",
+      "services": 362,
+      "payments": 28350.15,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 601,
+      "payments": 23881.39,
+      "avg_markup": 3.09
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3290501.9,
+    "total_services": 51192,
+    "total_beneficiaries": 22922,
+    "avg_markup_ratio": 2.1
+  }
+}

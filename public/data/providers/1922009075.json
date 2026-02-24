@@ -1,0 +1,239 @@
+{
+  "name": "Senthil Raju",
+  "credentials": "M.D.",
+  "specialty": "Hospitalist",
+  "city": "Oklahoma City",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 406174.15,
+      "total_services": 6704,
+      "total_beneficiaries": 2360,
+      "avg_submitted": 123.84,
+      "avg_paid": 80.65
+    },
+    {
+      "year": 2015,
+      "total_payments": 383528.33,
+      "total_services": 6177,
+      "total_beneficiaries": 2460,
+      "avg_submitted": 180.78,
+      "avg_paid": 81.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 333815.6,
+      "total_services": 5267,
+      "total_beneficiaries": 2542,
+      "avg_submitted": 279.62,
+      "avg_paid": 80.28
+    },
+    {
+      "year": 2017,
+      "total_payments": 321102.69,
+      "total_services": 4792,
+      "total_beneficiaries": 2431,
+      "avg_submitted": 260.23,
+      "avg_paid": 78.04
+    },
+    {
+      "year": 2018,
+      "total_payments": 364006.43,
+      "total_services": 5197,
+      "total_beneficiaries": 2508,
+      "avg_submitted": 226.29,
+      "avg_paid": 80.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 347918.17,
+      "total_services": 5366,
+      "total_beneficiaries": 2498,
+      "avg_submitted": 232.15,
+      "avg_paid": 77.87
+    },
+    {
+      "year": 2020,
+      "total_payments": 265410.38,
+      "total_services": 4157,
+      "total_beneficiaries": 1817,
+      "avg_submitted": 138.06,
+      "avg_paid": 76.16
+    },
+    {
+      "year": 2021,
+      "total_payments": 26148.3,
+      "total_services": 459,
+      "total_beneficiaries": 264,
+      "avg_submitted": 109.51,
+      "avg_paid": 65.72
+    },
+    {
+      "year": 2022,
+      "total_payments": 96993.75,
+      "total_services": 1276,
+      "total_beneficiaries": 774,
+      "avg_submitted": 244.0,
+      "avg_paid": 79.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 108801.27,
+      "total_services": 1475,
+      "total_beneficiaries": 709,
+      "avg_submitted": 281.27,
+      "avg_paid": 88.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19892,
+      "payments": 1034992.15,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2780,
+      "payments": 390806.79,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5023,
+      "payments": 375107.52,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5835,
+      "payments": 287893.55,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1097,
+      "payments": 137265.44,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2322,
+      "payments": 119179.46,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1013,
+      "payments": 93219.17,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 581,
+      "payments": 44568.98,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 593,
+      "payments": 40406.12,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 341,
+      "payments": 32759.67,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 110,
+      "payments": 16759.6,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 136,
+      "payments": 13824.79,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 306,
+      "payments": 11040.79,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 100,
+      "payments": 10573.74,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 55,
+      "payments": 7392.71,
+      "avg_markup": 5.43
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 217,
+      "payments": 6566.02,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 94,
+      "payments": 4870.0,
+      "avg_markup": 5.63
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 74,
+      "payments": 4034.97,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 59,
+      "payments": 3844.58,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "11043",
+      "description": "Removal of muscle and/or tissue, 20.0 sq cm or less",
+      "services": 34,
+      "payments": 3829.38,
+      "avg_markup": 2.51
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2653899.07,
+    "total_services": 40870,
+    "total_beneficiaries": 18363,
+    "avg_markup_ratio": 2.26
+  }
+}

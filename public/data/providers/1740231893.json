@@ -1,0 +1,197 @@
+{
+  "name": "Stanley Sy",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Brownsville",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 337400.72,
+      "total_services": 3856,
+      "total_beneficiaries": 1538,
+      "avg_submitted": 236.43,
+      "avg_paid": 67.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 478339.28,
+      "total_services": 5073,
+      "total_beneficiaries": 1885,
+      "avg_submitted": 295.69,
+      "avg_paid": 88.84
+    },
+    {
+      "year": 2016,
+      "total_payments": 482425.29,
+      "total_services": 4269,
+      "total_beneficiaries": 1596,
+      "avg_submitted": 249.22,
+      "avg_paid": 99.5
+    },
+    {
+      "year": 2017,
+      "total_payments": 565974.66,
+      "total_services": 4390,
+      "total_beneficiaries": 1554,
+      "avg_submitted": 281.34,
+      "avg_paid": 99.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 289490.34,
+      "total_services": 1994,
+      "total_beneficiaries": 1037,
+      "avg_submitted": 317.78,
+      "avg_paid": 114.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 225794.84,
+      "total_services": 1586,
+      "total_beneficiaries": 810,
+      "avg_submitted": 263.87,
+      "avg_paid": 101.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 198882.59,
+      "total_services": 1253,
+      "total_beneficiaries": 516,
+      "avg_submitted": 354.39,
+      "avg_paid": 121.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 145219.43,
+      "total_services": 946,
+      "total_beneficiaries": 370,
+      "avg_submitted": 348.38,
+      "avg_paid": 121.63
+    },
+    {
+      "year": 2022,
+      "total_payments": 185006.22,
+      "total_services": 1329,
+      "total_beneficiaries": 558,
+      "avg_submitted": 277.39,
+      "avg_paid": 91.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 114512.69,
+      "total_services": 891,
+      "total_beneficiaries": 404,
+      "avg_submitted": 301.9,
+      "avg_paid": 104.61
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 12227,
+      "payments": 2074779.4,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5380,
+      "payments": 426177.8,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5830,
+      "payments": 319118.86,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 561,
+      "payments": 85137.36,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 722,
+      "payments": 58706.35,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 407,
+      "payments": 34973.58,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 204,
+      "payments": 11166.01,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 112,
+      "payments": 8379.79,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "31625",
+      "description": "Biopsy of lung airways using an endoscope",
+      "services": 17,
+      "payments": 2162.26,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 38,
+      "payments": 1138.1,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of non-tunneled central venous tube for infusion (5 years or older)",
+      "services": 15,
+      "payments": 963.35,
+      "avg_markup": 4.54
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 15,
+      "payments": 162.8,
+      "avg_markup": 7.37
+    },
+    {
+      "code": "76937",
+      "description": "Ultrasonic guidance for blood vessel access",
+      "services": 13,
+      "payments": 137.5,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "31623",
+      "description": "Examination of lung airways using an endoscope",
+      "services": 46,
+      "payments": 42.9,
+      "avg_markup": 520.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3023046.06,
+    "total_services": 25587,
+    "total_beneficiaries": 10268,
+    "avg_markup_ratio": 2.75
+  }
+}

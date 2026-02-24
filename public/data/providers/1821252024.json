@@ -1,0 +1,167 @@
+{
+  "name": "Miwa Fujiwara",
+  "credentials": "M,D,",
+  "specialty": "Pulmonary Disease",
+  "city": "Amityville",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 100950.06,
+      "total_services": 1030,
+      "total_beneficiaries": 431,
+      "avg_submitted": 485.75,
+      "avg_paid": 137.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 369738.87,
+      "total_services": 3566,
+      "total_beneficiaries": 1475,
+      "avg_submitted": 408.61,
+      "avg_paid": 127.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 190121.25,
+      "total_services": 1722,
+      "total_beneficiaries": 775,
+      "avg_submitted": 495.27,
+      "avg_paid": 135.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 358846.36,
+      "total_services": 3211,
+      "total_beneficiaries": 1493,
+      "avg_submitted": 770.01,
+      "avg_paid": 136.36
+    },
+    {
+      "year": 2020,
+      "total_payments": 369036.88,
+      "total_services": 3505,
+      "total_beneficiaries": 1603,
+      "avg_submitted": 791.31,
+      "avg_paid": 149.74
+    },
+    {
+      "year": 2021,
+      "total_payments": 352117.33,
+      "total_services": 3532,
+      "total_beneficiaries": 1535,
+      "avg_submitted": 767.44,
+      "avg_paid": 146.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 356527.34,
+      "total_services": 3606,
+      "total_beneficiaries": 1613,
+      "avg_submitted": 752.65,
+      "avg_paid": 136.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 372529.96,
+      "total_services": 3570,
+      "total_beneficiaries": 1640,
+      "avg_submitted": 539.19,
+      "avg_paid": 99.24
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8626,
+      "payments": 846005.94,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9996,
+      "payments": 675839.56,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3520,
+      "payments": 639883.27,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1411,
+      "payments": 286365.13,
+      "avg_markup": 4.73
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care, typically 70 minutes",
+      "services": 62,
+      "payments": 10534.43,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 32,
+      "payments": 3833.6,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "99226",
+      "description": "Follow-up observation care per day, typically 35 minutes",
+      "services": 31,
+      "payments": 2934.61,
+      "avg_markup": 5.9
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 11,
+      "payments": 1439.68,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 12,
+      "payments": 1209.12,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "94729",
+      "description": "Test to examine how well the lungs exchange gases",
+      "services": 13,
+      "payments": 714.61,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "94727",
+      "description": "Test to determine lung volumes using gas dilution or washout",
+      "services": 14,
+      "payments": 587.16,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "94060",
+      "description": "Test to measure expiratory airflow and volume changes before and after medication administration",
+      "services": 14,
+      "payments": 520.94,
+      "avg_markup": 7.59
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2469868.05,
+    "total_services": 23742,
+    "total_beneficiaries": 10565,
+    "avg_markup_ratio": 4.67
+  }
+}

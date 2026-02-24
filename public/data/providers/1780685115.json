@@ -1,0 +1,231 @@
+{
+  "name": "Vish Iyer",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 201594.99,
+      "total_services": 3676,
+      "total_beneficiaries": 1239,
+      "avg_submitted": 105.32,
+      "avg_paid": 61.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 268304.0,
+      "total_services": 4892,
+      "total_beneficiaries": 1379,
+      "avg_submitted": 106.87,
+      "avg_paid": 61.25
+    },
+    {
+      "year": 2016,
+      "total_payments": 263435.04,
+      "total_services": 4645,
+      "total_beneficiaries": 1372,
+      "avg_submitted": 111.23,
+      "avg_paid": 62.68
+    },
+    {
+      "year": 2017,
+      "total_payments": 388519.43,
+      "total_services": 6642,
+      "total_beneficiaries": 1791,
+      "avg_submitted": 118.7,
+      "avg_paid": 68.2
+    },
+    {
+      "year": 2018,
+      "total_payments": 520159.49,
+      "total_services": 7986,
+      "total_beneficiaries": 1883,
+      "avg_submitted": 118.42,
+      "avg_paid": 70.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 442470.27,
+      "total_services": 6902,
+      "total_beneficiaries": 1488,
+      "avg_submitted": 122.38,
+      "avg_paid": 73.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 325627.9,
+      "total_services": 5374,
+      "total_beneficiaries": 844,
+      "avg_submitted": 119.3,
+      "avg_paid": 72.49
+    },
+    {
+      "year": 2021,
+      "total_payments": 232458.99,
+      "total_services": 3875,
+      "total_beneficiaries": 619,
+      "avg_submitted": 126.04,
+      "avg_paid": 76.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 65163.77,
+      "total_services": 1227,
+      "total_beneficiaries": 281,
+      "avg_submitted": 114.23,
+      "avg_paid": 59.54
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 16274,
+      "payments": 920681.32,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4663,
+      "payments": 370697.54,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4735,
+      "payments": 230987.22,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 6381,
+      "payments": 208517.7,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1241,
+      "payments": 193817.05,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 2399,
+      "payments": 157630.76,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2421,
+      "payments": 156404.76,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1231,
+      "payments": 118471.77,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 731,
+      "payments": 92708.17,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1760,
+      "payments": 52468.23,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 528,
+      "payments": 51785.42,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 369,
+      "payments": 37841.1,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 467,
+      "payments": 30893.05,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 463,
+      "payments": 21305.68,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 298,
+      "payments": 16633.45,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 224,
+      "payments": 13877.24,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 123,
+      "payments": 10034.97,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 101,
+      "payments": 8059.76,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 104,
+      "payments": 4108.17,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 64,
+      "payments": 2815.1,
+      "avg_markup": 1.77
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2707733.88,
+    "total_services": 45219,
+    "total_beneficiaries": 10896,
+    "avg_markup_ratio": 1.68
+  }
+}

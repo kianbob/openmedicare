@@ -1,0 +1,196 @@
+{
+  "name": "Peter Sculco",
+  "credentials": "M.D",
+  "specialty": "Orthopedic Surgery",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 37651.28,
+      "total_services": 230,
+      "total_beneficiaries": 229,
+      "avg_submitted": 4544.9,
+      "avg_paid": 281.27
+    },
+    {
+      "year": 2016,
+      "total_payments": 253242.28,
+      "total_services": 866,
+      "total_beneficiaries": 816,
+      "avg_submitted": 9279.48,
+      "avg_paid": 562.02
+    },
+    {
+      "year": 2017,
+      "total_payments": 394122.74,
+      "total_services": 1061,
+      "total_beneficiaries": 980,
+      "avg_submitted": 10877.95,
+      "avg_paid": 632.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 415115.53,
+      "total_services": 1094,
+      "total_beneficiaries": 1017,
+      "avg_submitted": 11415.9,
+      "avg_paid": 663.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 400637.97,
+      "total_services": 1170,
+      "total_beneficiaries": 1069,
+      "avg_submitted": 7955.44,
+      "avg_paid": 479.03
+    },
+    {
+      "year": 2020,
+      "total_payments": 287415.51,
+      "total_services": 884,
+      "total_beneficiaries": 810,
+      "avg_submitted": 9792.71,
+      "avg_paid": 590.91
+    },
+    {
+      "year": 2021,
+      "total_payments": 359874.48,
+      "total_services": 946,
+      "total_beneficiaries": 874,
+      "avg_submitted": 8119.89,
+      "avg_paid": 511.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 344129.95,
+      "total_services": 853,
+      "total_beneficiaries": 815,
+      "avg_submitted": 10528.04,
+      "avg_paid": 589.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 357230.3,
+      "total_services": 922,
+      "total_beneficiaries": 888,
+      "avg_submitted": 10501.13,
+      "avg_paid": 567.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "27447",
+      "description": "Repair of knee joint",
+      "services": 922,
+      "payments": 1206938.49,
+      "avg_markup": 19.24
+    },
+    {
+      "code": "27130",
+      "description": "Replacement of thigh bone and hip joint prosthesis",
+      "services": 633,
+      "payments": 809531.88,
+      "avg_markup": 18.49
+    },
+    {
+      "code": "27487",
+      "description": "Revision of lower thigh bone and both shin bone components of total knee joint prosthesis",
+      "services": 113,
+      "payments": 186431.8,
+      "avg_markup": 17.16
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1523,
+      "payments": 138111.4,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1918,
+      "payments": 123841.17,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "20985",
+      "description": "Computer-assisted surgical navigational procedure for bone procedures",
+      "services": 884,
+      "payments": 123831.1,
+      "avg_markup": 11.62
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 568,
+      "payments": 80700.15,
+      "avg_markup": 4.98
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 463,
+      "payments": 50295.49,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "27446",
+      "description": "Repair of knee joint, lower or upper part of joint, inside or outside area",
+      "services": 39,
+      "payments": 43533.24,
+      "avg_markup": 17.03
+    },
+    {
+      "code": "27137",
+      "description": "Revision of hip joint prosthesis",
+      "services": 24,
+      "payments": 32105.37,
+      "avg_markup": 17.51
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 537,
+      "payments": 28369.93,
+      "avg_markup": 14.65
+    },
+    {
+      "code": "27134",
+      "description": "Revision of thigh bone and hip joint prosthesis",
+      "services": 12,
+      "payments": 20587.78,
+      "avg_markup": 17.15
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 103,
+      "payments": 3938.92,
+      "avg_markup": 5.22
+    },
+    {
+      "code": "J1030",
+      "description": "Injection, methylprednisolone acetate, 40 mg",
+      "services": 276,
+      "payments": 1107.98,
+      "avg_markup": 5.98
+    },
+    {
+      "code": "J7325",
+      "description": "Hyaluronan or derivative, synvisc or synvisc-one, for intra-articular injection, 1 mg",
+      "services": 11,
+      "payments": 95.34,
+      "avg_markup": 3.75
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2849420.05,
+    "total_services": 8026,
+    "total_beneficiaries": 7498,
+    "avg_markup_ratio": 16.38
+  }
+}

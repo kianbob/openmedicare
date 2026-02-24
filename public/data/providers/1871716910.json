@@ -1,0 +1,176 @@
+{
+  "name": "Andrew Ng",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Millbrae",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 526627.15,
+      "total_services": 6620,
+      "total_beneficiaries": 2522,
+      "avg_submitted": 197.79,
+      "avg_paid": 89.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 401520.05,
+      "total_services": 5284,
+      "total_beneficiaries": 1706,
+      "avg_submitted": 178.88,
+      "avg_paid": 83.13
+    },
+    {
+      "year": 2016,
+      "total_payments": 425751.56,
+      "total_services": 4710,
+      "total_beneficiaries": 1738,
+      "avg_submitted": 180.38,
+      "avg_paid": 86.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 374708.3,
+      "total_services": 4090,
+      "total_beneficiaries": 1766,
+      "avg_submitted": 184.88,
+      "avg_paid": 79.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 406293.53,
+      "total_services": 4535,
+      "total_beneficiaries": 1361,
+      "avg_submitted": 226.0,
+      "avg_paid": 105.59
+    },
+    {
+      "year": 2019,
+      "total_payments": 375404.9,
+      "total_services": 4233,
+      "total_beneficiaries": 1622,
+      "avg_submitted": 177.75,
+      "avg_paid": 94.85
+    },
+    {
+      "year": 2020,
+      "total_payments": 285461.47,
+      "total_services": 3710,
+      "total_beneficiaries": 1875,
+      "avg_submitted": 168.75,
+      "avg_paid": 87.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 259295.55,
+      "total_services": 3513,
+      "total_beneficiaries": 1449,
+      "avg_submitted": 178.17,
+      "avg_paid": 94.28
+    },
+    {
+      "year": 2022,
+      "total_payments": 256511.77,
+      "total_services": 3392,
+      "total_beneficiaries": 1274,
+      "avg_submitted": 180.55,
+      "avg_paid": 94.6
+    },
+    {
+      "year": 2023,
+      "total_payments": 500575.98,
+      "total_services": 6101,
+      "total_beneficiaries": 1672,
+      "avg_submitted": 180.6,
+      "avg_paid": 104.5
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 21149,
+      "payments": 1665240.63,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 6102,
+      "payments": 887661.43,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 13232,
+      "payments": 784003.06,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1438,
+      "payments": 171500.3,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1784,
+      "payments": 125243.51,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 998,
+      "payments": 89688.09,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 418,
+      "payments": 33324.98,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 740,
+      "payments": 30406.6,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 140,
+      "payments": 12571.42,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 99,
+      "payments": 8007.83,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 88,
+      "payments": 4502.41,
+      "avg_markup": 1.9
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3812150.26,
+    "total_services": 46188,
+    "total_beneficiaries": 16985,
+    "avg_markup_ratio": 2.04
+  }
+}

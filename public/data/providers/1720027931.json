@@ -1,0 +1,183 @@
+{
+  "name": "James Goodsett",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Dallas",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 304661.51,
+      "total_services": 3310,
+      "total_beneficiaries": 2155,
+      "avg_submitted": 356.12,
+      "avg_paid": 102.65
+    },
+    {
+      "year": 2015,
+      "total_payments": 417098.97,
+      "total_services": 4452,
+      "total_beneficiaries": 2725,
+      "avg_submitted": 345.8,
+      "avg_paid": 98.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 411547.86,
+      "total_services": 4577,
+      "total_beneficiaries": 2918,
+      "avg_submitted": 325.93,
+      "avg_paid": 92.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 376074.17,
+      "total_services": 4142,
+      "total_beneficiaries": 2656,
+      "avg_submitted": 328.12,
+      "avg_paid": 96.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 333885.2,
+      "total_services": 3540,
+      "total_beneficiaries": 2315,
+      "avg_submitted": 319.85,
+      "avg_paid": 95.8
+    },
+    {
+      "year": 2019,
+      "total_payments": 315946.28,
+      "total_services": 3470,
+      "total_beneficiaries": 2134,
+      "avg_submitted": 321.1,
+      "avg_paid": 97.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 273344.85,
+      "total_services": 2901,
+      "total_beneficiaries": 1753,
+      "avg_submitted": 561.9,
+      "avg_paid": 99.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 260867.91,
+      "total_services": 2730,
+      "total_beneficiaries": 1531,
+      "avg_submitted": 607.76,
+      "avg_paid": 92.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 203022.2,
+      "total_services": 2254,
+      "total_beneficiaries": 1350,
+      "avg_submitted": 628.0,
+      "avg_paid": 92.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 188873.96,
+      "total_services": 2006,
+      "total_beneficiaries": 1221,
+      "avg_submitted": 700.2,
+      "avg_paid": 105.65
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5973,
+      "payments": 903512.82,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10303,
+      "payments": 821329.33,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9630,
+      "payments": 531617.39,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2401,
+      "payments": 406306.95,
+      "avg_markup": 6.22
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3807,
+      "payments": 307884.67,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 355,
+      "payments": 49685.26,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 255,
+      "payments": 19958.75,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 186,
+      "payments": 16368.14,
+      "avg_markup": 5.99
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 255,
+      "payments": 14017.68,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 153,
+      "payments": 8332.09,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 53,
+      "payments": 5200.91,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 11,
+      "payments": 1108.91,
+      "avg_markup": 3.47
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3085322.9,
+    "total_services": 33382,
+    "total_beneficiaries": 20758,
+    "avg_markup_ratio": 3.87
+  }
+}

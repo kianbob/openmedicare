@@ -1,0 +1,239 @@
+{
+  "name": "Khoa Le",
+  "credentials": "D.O.",
+  "specialty": "Internal Medicine",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 367349.25,
+      "total_services": 5669,
+      "total_beneficiaries": 1510,
+      "avg_submitted": 364.35,
+      "avg_paid": 80.24
+    },
+    {
+      "year": 2015,
+      "total_payments": 377773.85,
+      "total_services": 5440,
+      "total_beneficiaries": 1645,
+      "avg_submitted": 396.36,
+      "avg_paid": 90.53
+    },
+    {
+      "year": 2016,
+      "total_payments": 471894.6,
+      "total_services": 6706,
+      "total_beneficiaries": 1986,
+      "avg_submitted": 375.03,
+      "avg_paid": 86.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 522657.9,
+      "total_services": 7187,
+      "total_beneficiaries": 2449,
+      "avg_submitted": 370.0,
+      "avg_paid": 86.02
+    },
+    {
+      "year": 2018,
+      "total_payments": 383122.13,
+      "total_services": 5187,
+      "total_beneficiaries": 1772,
+      "avg_submitted": 302.24,
+      "avg_paid": 83.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 410168.05,
+      "total_services": 5677,
+      "total_beneficiaries": 1895,
+      "avg_submitted": 235.37,
+      "avg_paid": 84.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 490860.54,
+      "total_services": 7076,
+      "total_beneficiaries": 1942,
+      "avg_submitted": 235.0,
+      "avg_paid": 86.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 403437.29,
+      "total_services": 6833,
+      "total_beneficiaries": 1669,
+      "avg_submitted": 230.0,
+      "avg_paid": 81.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 307640.55,
+      "total_services": 5277,
+      "total_beneficiaries": 1377,
+      "avg_submitted": 243.27,
+      "avg_paid": 80.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 320383.58,
+      "total_services": 4973,
+      "total_beneficiaries": 1370,
+      "avg_submitted": 246.92,
+      "avg_paid": 81.25
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 31700,
+      "payments": 1828726.71,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2957,
+      "payments": 469770.37,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3893,
+      "payments": 421049.19,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4668,
+      "payments": 387304.29,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5433,
+      "payments": 297921.58,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2767,
+      "payments": 237790.59,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 6250,
+      "payments": 204456.15,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 750,
+      "payments": 100960.8,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 334,
+      "payments": 24143.96,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 138,
+      "payments": 20029.68,
+      "avg_markup": 4.41
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 243,
+      "payments": 14234.25,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 430,
+      "payments": 14206.94,
+      "avg_markup": 4.54
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care per day, typically 30 minutes",
+      "services": 162,
+      "payments": 11628.76,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 59,
+      "payments": 6183.2,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 55,
+      "payments": 4527.6,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 45,
+      "payments": 4419.75,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 77,
+      "payments": 4392.33,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 35,
+      "payments": 1457.34,
+      "avg_markup": 9.61
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care typically 30 minutes",
+      "services": 16,
+      "payments": 1248.48,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 13,
+      "payments": 835.77,
+      "avg_markup": 4.04
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4055287.74,
+    "total_services": 60025,
+    "total_beneficiaries": 17615,
+    "avg_markup_ratio": 3.57
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "John Sheppard",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Norfolk",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 580040.34,
+      "total_services": 7545,
+      "total_beneficiaries": 6090,
+      "avg_submitted": 424.23,
+      "avg_paid": 186.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 610793.88,
+      "total_services": 8681,
+      "total_beneficiaries": 6674,
+      "avg_submitted": 405.47,
+      "avg_paid": 172.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 483598.89,
+      "total_services": 6065,
+      "total_beneficiaries": 4903,
+      "avg_submitted": 416.03,
+      "avg_paid": 177.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 518262.71,
+      "total_services": 5558,
+      "total_beneficiaries": 4678,
+      "avg_submitted": 448.69,
+      "avg_paid": 193.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 497698.69,
+      "total_services": 5478,
+      "total_beneficiaries": 4535,
+      "avg_submitted": 351.5,
+      "avg_paid": 155.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 573595.91,
+      "total_services": 6078,
+      "total_beneficiaries": 4875,
+      "avg_submitted": 403.34,
+      "avg_paid": 171.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 434912.04,
+      "total_services": 4655,
+      "total_beneficiaries": 3908,
+      "avg_submitted": 429.95,
+      "avg_paid": 178.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 401776.8,
+      "total_services": 4520,
+      "total_beneficiaries": 3692,
+      "avg_submitted": 865.28,
+      "avg_paid": 130.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 350272.44,
+      "total_services": 3840,
+      "total_beneficiaries": 3134,
+      "avg_submitted": 862.06,
+      "avg_paid": 146.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 332683.09,
+      "total_services": 3321,
+      "total_beneficiaries": 2688,
+      "avg_submitted": 852.18,
+      "avg_paid": 141.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7591,
+      "payments": 607859.37,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "65778",
+      "description": "Insertion of amniotic membrane to eye surface",
+      "services": 544,
+      "payments": 605113.41,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "68761",
+      "description": "Closure of tear duct opening using plug",
+      "services": 6136,
+      "payments": 575287.77,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1228,
+      "payments": 550001.7,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 1078,
+      "payments": 279484.56,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4049,
+      "payments": 218126.9,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 3259,
+      "payments": 199767.3,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow, 1 or more sessions",
+      "services": 965,
+      "payments": 197230.79,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 2171,
+      "payments": 185892.73,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 3074,
+      "payments": 142018.92,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "65756",
+      "description": "Transplant of outer layer of corneal tissue",
+      "services": 118,
+      "payments": 108207.27,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "83861",
+      "description": "Microfluid analysis of tears",
+      "services": 4770,
+      "payments": 104892.21,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 3532,
+      "payments": 101022.18,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "65755",
+      "description": "Transplantation of tissue from one cornea to other cornea",
+      "services": 100,
+      "payments": 95299.09,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "65870",
+      "description": "Removal of scar tissue in eye",
+      "services": 286,
+      "payments": 69436.55,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 596,
+      "payments": 69097.38,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1448,
+      "payments": 67348.49,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 3193,
+      "payments": 62842.7,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 106,
+      "payments": 60466.95,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "0191T",
+      "description": "Internal insertion of eye fluid drainage device",
+      "services": 88,
+      "payments": 45990.65,
+      "avg_markup": 3.85
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4783634.79,
+    "total_services": 55741,
+    "total_beneficiaries": 45177,
+    "avg_markup_ratio": 3.1
+  }
+}

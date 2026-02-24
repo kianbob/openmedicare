@@ -1,0 +1,239 @@
+{
+  "name": "Zoe Jones",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Macon",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 451851.18,
+      "total_services": 8075,
+      "total_beneficiaries": 6282,
+      "avg_submitted": 640.7,
+      "avg_paid": 90.26
+    },
+    {
+      "year": 2015,
+      "total_payments": 529913.65,
+      "total_services": 9000,
+      "total_beneficiaries": 7192,
+      "avg_submitted": 631.7,
+      "avg_paid": 107.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 490753.47,
+      "total_services": 8382,
+      "total_beneficiaries": 6505,
+      "avg_submitted": 721.42,
+      "avg_paid": 127.46
+    },
+    {
+      "year": 2017,
+      "total_payments": 405171.82,
+      "total_services": 7221,
+      "total_beneficiaries": 5365,
+      "avg_submitted": 769.43,
+      "avg_paid": 115.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 349347.31,
+      "total_services": 5829,
+      "total_beneficiaries": 4669,
+      "avg_submitted": 737.17,
+      "avg_paid": 120.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 349042.31,
+      "total_services": 6203,
+      "total_beneficiaries": 5071,
+      "avg_submitted": 635.62,
+      "avg_paid": 96.33
+    },
+    {
+      "year": 2020,
+      "total_payments": 283294.34,
+      "total_services": 5130,
+      "total_beneficiaries": 4320,
+      "avg_submitted": 677.89,
+      "avg_paid": 91.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 303691.32,
+      "total_services": 4817,
+      "total_beneficiaries": 4158,
+      "avg_submitted": 675.41,
+      "avg_paid": 89.72
+    },
+    {
+      "year": 2022,
+      "total_payments": 288745.86,
+      "total_services": 4658,
+      "total_beneficiaries": 4009,
+      "avg_submitted": 726.72,
+      "avg_paid": 108.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 270506.22,
+      "total_services": 4072,
+      "total_beneficiaries": 3564,
+      "avg_submitted": 713.77,
+      "avg_paid": 96.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12672,
+      "payments": 971719.15,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 8304,
+      "payments": 815257.15,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 1031,
+      "payments": 209842.56,
+      "avg_markup": 19.71
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3959,
+      "payments": 200643.91,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 448,
+      "payments": 151349.22,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 13749,
+      "payments": 151068.42,
+      "avg_markup": 8.65
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 276,
+      "payments": 146162.16,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 322,
+      "payments": 142494.14,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1084,
+      "payments": 124437.65,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 723,
+      "payments": 99408.4,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "93459",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 426,
+      "payments": 91985.37,
+      "avg_markup": 23.23
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 599,
+      "payments": 86425.9,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 454,
+      "payments": 42262.02,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 769,
+      "payments": 41752.83,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "A9505",
+      "description": "Thallium tl-201 thallous chloride, diagnostic, per millicurie",
+      "services": 454,
+      "payments": 38282.63,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 249,
+      "payments": 37965.77,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 34,
+      "payments": 32546.37,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 4731,
+      "payments": 29244.22,
+      "avg_markup": 6.01
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2061,
+      "payments": 26800.43,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 250,
+      "payments": 26681.66,
+      "avg_markup": 1.77
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3722317.49,
+    "total_services": 63387,
+    "total_beneficiaries": 51135,
+    "avg_markup_ratio": 4.99
+  }
+}

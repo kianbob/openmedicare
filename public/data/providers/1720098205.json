@@ -1,0 +1,239 @@
+{
+  "name": "John Harper",
+  "credentials": "M.D.",
+  "specialty": "General Practice",
+  "city": "Ramona",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 180834.52,
+      "total_services": 8102,
+      "total_beneficiaries": 3994,
+      "avg_submitted": 54.01,
+      "avg_paid": 28.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 254027.56,
+      "total_services": 10380,
+      "total_beneficiaries": 5185,
+      "avg_submitted": 56.14,
+      "avg_paid": 30.84
+    },
+    {
+      "year": 2016,
+      "total_payments": 331568.46,
+      "total_services": 14422,
+      "total_beneficiaries": 7113,
+      "avg_submitted": 56.1,
+      "avg_paid": 29.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 322140.33,
+      "total_services": 14074,
+      "total_beneficiaries": 7287,
+      "avg_submitted": 57.92,
+      "avg_paid": 31.75
+    },
+    {
+      "year": 2018,
+      "total_payments": 338872.09,
+      "total_services": 16209,
+      "total_beneficiaries": 8554,
+      "avg_submitted": 57.34,
+      "avg_paid": 30.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 302591.52,
+      "total_services": 17013,
+      "total_beneficiaries": 8174,
+      "avg_submitted": 52.54,
+      "avg_paid": 28.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 257621.76,
+      "total_services": 16086,
+      "total_beneficiaries": 7812,
+      "avg_submitted": 52.48,
+      "avg_paid": 22.95
+    },
+    {
+      "year": 2021,
+      "total_payments": 284164.96,
+      "total_services": 16890,
+      "total_beneficiaries": 8070,
+      "avg_submitted": 50.6,
+      "avg_paid": 22.42
+    },
+    {
+      "year": 2022,
+      "total_payments": 174185.67,
+      "total_services": 11936,
+      "total_beneficiaries": 6558,
+      "avg_submitted": 42.7,
+      "avg_paid": 18.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 226940.45,
+      "total_services": 10548,
+      "total_beneficiaries": 5748,
+      "avg_submitted": 50.43,
+      "avg_paid": 25.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6147,
+      "payments": 522067.2,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5302,
+      "payments": 313354.86,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 8045,
+      "payments": 286100.49,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1447,
+      "payments": 152684.25,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 5388,
+      "payments": 106868.19,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2885,
+      "payments": 97787.78,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 4844,
+      "payments": 73715.02,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5438,
+      "payments": 66153.52,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 1480,
+      "payments": 64988.4,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 5398,
+      "payments": 61741.03,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6294,
+      "payments": 57996.12,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5368,
+      "payments": 57185.5,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 230,
+      "payments": 41261.64,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 3229,
+      "payments": 39947.86,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 1615,
+      "payments": 31540.59,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 720,
+      "payments": 31243.96,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "84165",
+      "description": "Protein measurement, serum",
+      "services": 2811,
+      "payments": 31045.9,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 1420,
+      "payments": 30560.7,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1250,
+      "payments": 29956.65,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 3850,
+      "payments": 29543.79,
+      "avg_markup": 3.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2672947.31,
+    "total_services": 135660,
+    "total_beneficiaries": 68495,
+    "avg_markup_ratio": 2.31
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Cape Cod Medical Enterprises Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "West Yarmouth",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1488568.02,
+      "total_services": 15116,
+      "total_beneficiaries": 9436,
+      "avg_submitted": 1059.42,
+      "avg_paid": 256.01
+    },
+    {
+      "year": 2015,
+      "total_payments": 1353089.65,
+      "total_services": 13492,
+      "total_beneficiaries": 8530,
+      "avg_submitted": 1055.39,
+      "avg_paid": 251.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 1048630.6,
+      "total_services": 10420,
+      "total_beneficiaries": 6644,
+      "avg_submitted": 1157.27,
+      "avg_paid": 252.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 973697.49,
+      "total_services": 9767,
+      "total_beneficiaries": 6551,
+      "avg_submitted": 1157.45,
+      "avg_paid": 254.15
+    },
+    {
+      "year": 2018,
+      "total_payments": 901218.13,
+      "total_services": 9055,
+      "total_beneficiaries": 6194,
+      "avg_submitted": 1264.45,
+      "avg_paid": 257.05
+    },
+    {
+      "year": 2019,
+      "total_payments": 82041.59,
+      "total_services": 783,
+      "total_beneficiaries": 679,
+      "avg_submitted": 1790.7,
+      "avg_paid": 260.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 26300,
+      "payments": 4784216.1,
+      "avg_markup": 5.83
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2396,
+      "payments": 531826.17,
+      "avg_markup": 6.13
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 591,
+      "payments": 353843.93,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 29306,
+      "payments": 165860.99,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 40,
+      "payments": 11498.28,
+      "avg_markup": 4.3
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 5847245.48,
+    "total_services": 58633,
+    "total_beneficiaries": 38034,
+    "avg_markup_ratio": 5.72
+  }
+}

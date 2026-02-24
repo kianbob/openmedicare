@@ -1,0 +1,239 @@
+{
+  "name": "Derek Scott",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Newnan",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 37710.72,
+      "total_services": 467,
+      "total_beneficiaries": 360,
+      "avg_submitted": 307.61,
+      "avg_paid": 80.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 33849.79,
+      "total_services": 400,
+      "total_beneficiaries": 267,
+      "avg_submitted": 306.09,
+      "avg_paid": 77.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 25793.41,
+      "total_services": 310,
+      "total_beneficiaries": 137,
+      "avg_submitted": 295.59,
+      "avg_paid": 80.06
+    },
+    {
+      "year": 2017,
+      "total_payments": 185988.4,
+      "total_services": 2178,
+      "total_beneficiaries": 1022,
+      "avg_submitted": 245.63,
+      "avg_paid": 65.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 264223.88,
+      "total_services": 3078,
+      "total_beneficiaries": 1168,
+      "avg_submitted": 278.82,
+      "avg_paid": 74.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 384406.27,
+      "total_services": 4956,
+      "total_beneficiaries": 2227,
+      "avg_submitted": 281.6,
+      "avg_paid": 83.84
+    },
+    {
+      "year": 2020,
+      "total_payments": 531659.9,
+      "total_services": 7555,
+      "total_beneficiaries": 2951,
+      "avg_submitted": 262.12,
+      "avg_paid": 84.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 448697.2,
+      "total_services": 6426,
+      "total_beneficiaries": 2741,
+      "avg_submitted": 246.88,
+      "avg_paid": 82.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 221539.91,
+      "total_services": 2603,
+      "total_beneficiaries": 1202,
+      "avg_submitted": 406.34,
+      "avg_paid": 125.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 593826.28,
+      "total_services": 7165,
+      "total_beneficiaries": 2552,
+      "avg_submitted": 290.56,
+      "avg_paid": 82.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 14134,
+      "payments": 1173763.06,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2079,
+      "payments": 311614.73,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2961,
+      "payments": 182241.78,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1883,
+      "payments": 156096.4,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "77002",
+      "description": "Fluoroscopic guidance for insertion of needle",
+      "services": 1499,
+      "payments": 132200.14,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 1635,
+      "payments": 101259.96,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 1819,
+      "payments": 90063.71,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "27096",
+      "description": "Injection procedure into sacroiliac joint for anesthetic or steroid",
+      "services": 299,
+      "payments": 49888.05,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 629,
+      "payments": 48401.12,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "95913",
+      "description": "Nerve transmission studies, 13 or more studies",
+      "services": 168,
+      "payments": 39191.62,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "27369",
+      "description": "Injection of contrast for imaging of knee joint",
+      "services": 270,
+      "payments": 34906.05,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "73580",
+      "description": "Radiological supervision and interpretation X-ray of knee joint",
+      "services": 272,
+      "payments": 30717.36,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 712,
+      "payments": 27609.35,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 279,
+      "payments": 27014.8,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 157,
+      "payments": 24389.21,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "J7321",
+      "description": "Hyaluronan or derivative, hyalgan, supartz or visco-3, for intra-articular injection, per dose",
+      "services": 320,
+      "payments": 18932.79,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "36465",
+      "description": "Injection of chemical agent into single incompetent vein of leg using ultrasound guidance",
+      "services": 17,
+      "payments": 18875.41,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 246,
+      "payments": 16055.35,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "95943",
+      "description": "Testing of autonomic (parasympathetic and sympathetic) nervous system function",
+      "services": 160,
+      "payments": 15993.6,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "20553",
+      "description": "Injections of trigger points in 3 or more muscles",
+      "services": 283,
+      "payments": 13504.73,
+      "avg_markup": 4.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2727695.76,
+    "total_services": 35138,
+    "total_beneficiaries": 14627,
+    "avg_markup_ratio": 3.48
+  }
+}

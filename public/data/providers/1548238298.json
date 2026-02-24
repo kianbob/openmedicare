@@ -1,0 +1,239 @@
+{
+  "name": "Joseph Spare",
+  "credentials": "M.D.",
+  "specialty": "Psychiatry",
+  "city": "Marion",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 509342.08,
+      "total_services": 8894,
+      "total_beneficiaries": 1624,
+      "avg_submitted": 166.26,
+      "avg_paid": 72.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 494051.52,
+      "total_services": 8468,
+      "total_beneficiaries": 1491,
+      "avg_submitted": 162.2,
+      "avg_paid": 69.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 425708.48,
+      "total_services": 7718,
+      "total_beneficiaries": 1455,
+      "avg_submitted": 169.59,
+      "avg_paid": 66.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 368175.49,
+      "total_services": 7055,
+      "total_beneficiaries": 1404,
+      "avg_submitted": 160.65,
+      "avg_paid": 63.64
+    },
+    {
+      "year": 2018,
+      "total_payments": 319657.35,
+      "total_services": 6193,
+      "total_beneficiaries": 1226,
+      "avg_submitted": 153.36,
+      "avg_paid": 65.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 303360.61,
+      "total_services": 5460,
+      "total_beneficiaries": 924,
+      "avg_submitted": 209.32,
+      "avg_paid": 74.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 310139.62,
+      "total_services": 5563,
+      "total_beneficiaries": 971,
+      "avg_submitted": 225.09,
+      "avg_paid": 69.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 245043.59,
+      "total_services": 3745,
+      "total_beneficiaries": 715,
+      "avg_submitted": 231.92,
+      "avg_paid": 78.08
+    },
+    {
+      "year": 2022,
+      "total_payments": 201947.84,
+      "total_services": 3188,
+      "total_beneficiaries": 577,
+      "avg_submitted": 248.14,
+      "avg_paid": 75.98
+    },
+    {
+      "year": 2023,
+      "total_payments": 137470.49,
+      "total_services": 2069,
+      "total_beneficiaries": 406,
+      "avg_submitted": 231.65,
+      "avg_paid": 77.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 13414,
+      "payments": 673837.21,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8610,
+      "payments": 636524.81,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 7724,
+      "payments": 368700.91,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4339,
+      "payments": 347634.12,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4905,
+      "payments": 272788.14,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "90870",
+      "description": "Shock treatment and monitoring",
+      "services": 3050,
+      "payments": 260791.79,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "90834",
+      "description": "Psychotherapy, 45 minutes with patient and/or family member",
+      "services": 2609,
+      "payments": 172444.97,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1081,
+      "payments": 164602.84,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "90853",
+      "description": "Group psychotherapy",
+      "services": 7915,
+      "payments": 154155.41,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "90833",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 1516,
+      "payments": 72365.0,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 430,
+      "payments": 35250.22,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 460,
+      "payments": 30231.5,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 897,
+      "payments": 27751.82,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 174,
+      "payments": 20495.13,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 112,
+      "payments": 16142.98,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "90792",
+      "description": "Psychiatric diagnostic evaluation with medical services",
+      "services": 148,
+      "payments": 15679.33,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "90836",
+      "description": "Psychotherapy, 45 minutes with patient and/or family member",
+      "services": 224,
+      "payments": 13329.05,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 233,
+      "payments": 12784.55,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 392,
+      "payments": 11591.97,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 41,
+      "payments": 4254.4,
+      "avg_markup": 1.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3314897.07,
+    "total_services": 58353,
+    "total_beneficiaries": 10793,
+    "avg_markup_ratio": 2.69
+  }
+}

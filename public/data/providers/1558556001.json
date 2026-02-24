@@ -1,0 +1,239 @@
+{
+  "name": "Joggy George",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 101464.26,
+      "total_services": 1137,
+      "total_beneficiaries": 548,
+      "avg_submitted": 333.73,
+      "avg_paid": 90.24
+    },
+    {
+      "year": 2015,
+      "total_payments": 230036.89,
+      "total_services": 2528,
+      "total_beneficiaries": 1086,
+      "avg_submitted": 926.69,
+      "avg_paid": 139.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 282161.24,
+      "total_services": 2654,
+      "total_beneficiaries": 1006,
+      "avg_submitted": 1048.01,
+      "avg_paid": 158.43
+    },
+    {
+      "year": 2017,
+      "total_payments": 183037.53,
+      "total_services": 1941,
+      "total_beneficiaries": 801,
+      "avg_submitted": 781.83,
+      "avg_paid": 127.54
+    },
+    {
+      "year": 2018,
+      "total_payments": 195414.55,
+      "total_services": 2135,
+      "total_beneficiaries": 805,
+      "avg_submitted": 388.76,
+      "avg_paid": 92.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 154551.05,
+      "total_services": 1771,
+      "total_beneficiaries": 674,
+      "avg_submitted": 290.2,
+      "avg_paid": 77.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 308127.44,
+      "total_services": 3247,
+      "total_beneficiaries": 1045,
+      "avg_submitted": 382.66,
+      "avg_paid": 66.73
+    },
+    {
+      "year": 2021,
+      "total_payments": 365492.18,
+      "total_services": 3916,
+      "total_beneficiaries": 1448,
+      "avg_submitted": 832.53,
+      "avg_paid": 107.89
+    },
+    {
+      "year": 2022,
+      "total_payments": 421871.89,
+      "total_services": 4052,
+      "total_beneficiaries": 1525,
+      "avg_submitted": 1181.58,
+      "avg_paid": 215.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 533858.04,
+      "total_services": 4161,
+      "total_beneficiaries": 1805,
+      "avg_submitted": 1036.97,
+      "avg_paid": 214.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10487,
+      "payments": 896168.89,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4229,
+      "payments": 754146.98,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1216,
+      "payments": 197682.92,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1656,
+      "payments": 143005.09,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2422,
+      "payments": 140575.43,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "78431",
+      "description": "Nuclear medicine studies of blood flow in heart muscle at rest and with stress with concurrent ct scan",
+      "services": 68,
+      "payments": 132859.46,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1043,
+      "payments": 116224.95,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "93750",
+      "description": "Evaluation of lower heart chamber assist device with physician analysis",
+      "services": 1967,
+      "payments": 71355.42,
+      "avg_markup": 13.78
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 310,
+      "payments": 50063.58,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 68,
+      "payments": 44268.88,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 96,
+      "payments": 42575.04,
+      "avg_markup": 9.05
+    },
+    {
+      "code": "93460",
+      "description": "Insertion of catheter in right and left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 94,
+      "payments": 27600.21,
+      "avg_markup": 12.72
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 1920,
+      "payments": 23224.98,
+      "avg_markup": 7.03
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 110,
+      "payments": 21510.36,
+      "avg_markup": 11.98
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 139,
+      "payments": 17632.82,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "93454",
+      "description": "Insertion of catheter for imaging of heart blood vessels or grafts",
+      "services": 113,
+      "payments": 15454.45,
+      "avg_markup": 9.09
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 37,
+      "payments": 14416.48,
+      "avg_markup": 5.29
+    },
+    {
+      "code": "93451",
+      "description": "Insertion of catheter for diagnostic evaluation of right heart structures",
+      "services": 146,
+      "payments": 12100.17,
+      "avg_markup": 25.78
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 107,
+      "payments": 6480.49,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with ekg monitoring, physician supervision, interpretation, and report",
+      "services": 117,
+      "payments": 6356.08,
+      "avg_markup": 10.48
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2776015.07,
+    "total_services": 27542,
+    "total_beneficiaries": 10743,
+    "avg_markup_ratio": 3.74
+  }
+}

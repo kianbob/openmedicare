@@ -1,0 +1,197 @@
+{
+  "name": "Jacinto Dizon",
+  "credentials": "M.D.",
+  "specialty": "Psychiatry",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 241241.65,
+      "total_services": 4260,
+      "total_beneficiaries": 1365,
+      "avg_submitted": 124.0,
+      "avg_paid": 70.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 306401.08,
+      "total_services": 5108,
+      "total_beneficiaries": 1284,
+      "avg_submitted": 154.75,
+      "avg_paid": 79.14
+    },
+    {
+      "year": 2016,
+      "total_payments": 365258.54,
+      "total_services": 6103,
+      "total_beneficiaries": 1405,
+      "avg_submitted": 157.42,
+      "avg_paid": 78.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 394335.19,
+      "total_services": 6650,
+      "total_beneficiaries": 1553,
+      "avg_submitted": 188.39,
+      "avg_paid": 77.93
+    },
+    {
+      "year": 2018,
+      "total_payments": 427802.87,
+      "total_services": 6841,
+      "total_beneficiaries": 1590,
+      "avg_submitted": 196.16,
+      "avg_paid": 79.65
+    },
+    {
+      "year": 2019,
+      "total_payments": 320610.26,
+      "total_services": 5376,
+      "total_beneficiaries": 1277,
+      "avg_submitted": 172.02,
+      "avg_paid": 65.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 260329.18,
+      "total_services": 4098,
+      "total_beneficiaries": 786,
+      "avg_submitted": 190.43,
+      "avg_paid": 74.67
+    },
+    {
+      "year": 2021,
+      "total_payments": 226579.67,
+      "total_services": 3607,
+      "total_beneficiaries": 1031,
+      "avg_submitted": 143.71,
+      "avg_paid": 62.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 143657.53,
+      "total_services": 2260,
+      "total_beneficiaries": 484,
+      "avg_submitted": 206.27,
+      "avg_paid": 85.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 118174.12,
+      "total_services": 1754,
+      "total_beneficiaries": 462,
+      "avg_submitted": 182.87,
+      "avg_paid": 70.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17722,
+      "payments": 1068172.73,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "90833",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 18781,
+      "payments": 979585.21,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "90792",
+      "description": "Psychiatric diagnostic evaluation with medical services",
+      "services": 2710,
+      "payments": 325527.43,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3036,
+      "payments": 166618.76,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 940,
+      "payments": 84872.33,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1384,
+      "payments": 83062.13,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 407,
+      "payments": 47607.1,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 383,
+      "payments": 12723.26,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 138,
+      "payments": 11455.89,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "90832",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 190,
+      "payments": 10125.1,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "G0425",
+      "description": "Telehealth consultation, emergency department or initial inpatient, typically 30 minutes communicating with the patient via telehealth",
+      "services": 98,
+      "payments": 10121.44,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 10 minutes",
+      "services": 66,
+      "payments": 2201.76,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "G2012",
+      "description": "Brief communication technology-based service, e.g. virtual check-in, by a physician or other qualified health care professional who can report evaluation and management services, provided to an established patient, not originating from a related e/m servic",
+      "services": 101,
+      "payments": 1358.45,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "G2010",
+      "description": "Remote evaluation of recorded video and/or images submitted by an established patient (e.g., store and forward), including interpretation with follow-up with the patient within 24 business hours, not originating from a related e/m service provided within t",
+      "services": 101,
+      "payments": 958.49,
+      "avg_markup": 2.63
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2804390.08,
+    "total_services": 46057,
+    "total_beneficiaries": 11237,
+    "avg_markup_ratio": 2.2
+  }
+}

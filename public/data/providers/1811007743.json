@@ -1,0 +1,218 @@
+{
+  "name": "Anthony Antonucci",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Huntington",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 388723.37,
+      "total_services": 5508,
+      "total_beneficiaries": 1718,
+      "avg_submitted": 112.28,
+      "avg_paid": 68.16
+    },
+    {
+      "year": 2015,
+      "total_payments": 463034.65,
+      "total_services": 6695,
+      "total_beneficiaries": 2035,
+      "avg_submitted": 118.27,
+      "avg_paid": 65.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 460052.11,
+      "total_services": 6651,
+      "total_beneficiaries": 1785,
+      "avg_submitted": 118.38,
+      "avg_paid": 67.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 596982.84,
+      "total_services": 9283,
+      "total_beneficiaries": 1822,
+      "avg_submitted": 101.95,
+      "avg_paid": 59.57
+    },
+    {
+      "year": 2018,
+      "total_payments": 455139.51,
+      "total_services": 7008,
+      "total_beneficiaries": 2084,
+      "avg_submitted": 114.08,
+      "avg_paid": 65.97
+    },
+    {
+      "year": 2019,
+      "total_payments": 417865.67,
+      "total_services": 6114,
+      "total_beneficiaries": 2022,
+      "avg_submitted": 114.43,
+      "avg_paid": 65.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 280186.54,
+      "total_services": 4156,
+      "total_beneficiaries": 941,
+      "avg_submitted": 141.52,
+      "avg_paid": 81.95
+    },
+    {
+      "year": 2021,
+      "total_payments": 220411.88,
+      "total_services": 3224,
+      "total_beneficiaries": 736,
+      "avg_submitted": 139.15,
+      "avg_paid": 83.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 246773.32,
+      "total_services": 3615,
+      "total_beneficiaries": 841,
+      "avg_submitted": 139.46,
+      "avg_paid": 83.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 269108.64,
+      "total_services": 3790,
+      "total_beneficiaries": 651,
+      "avg_submitted": 133.21,
+      "avg_paid": 84.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 41051,
+      "payments": 2446860.99,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 4579,
+      "payments": 679399.29,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3022,
+      "payments": 244814.29,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 2378,
+      "payments": 151151.71,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 2406,
+      "payments": 94369.92,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 931,
+      "payments": 69185.69,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 583,
+      "payments": 56679.76,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 288,
+      "payments": 21250.97,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "69210",
+      "description": "Removal of impact ear wax, one ear",
+      "services": 288,
+      "payments": 9814.12,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "G0182",
+      "description": "Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",
+      "services": 85,
+      "payments": 7873.75,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 134,
+      "payments": 6516.62,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 81,
+      "payments": 4694.08,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 96,
+      "payments": 2610.19,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "90686",
+      "description": "Vaccine for influenza administered into muscle to individuals 3 years of age and older",
+      "services": 62,
+      "payments": 1141.0,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "90674",
+      "description": "Vaccine for influenza for administration into muscle, 0.5 ml dosage",
+      "services": 27,
+      "payments": 821.35,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "90694",
+      "description": "Influenza virus vaccine, quadrivalent (aiiv4), inactivated, adjuvanted, preservative free, for injection into muscle, 0.5 ml dosage",
+      "services": 13,
+      "payments": 793.0,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 20,
+      "payments": 301.8,
+      "avg_markup": 1.99
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3798278.53,
+    "total_services": 56044,
+    "total_beneficiaries": 14635,
+    "avg_markup_ratio": 1.59
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "David Johnson",
+  "credentials": "MD",
+  "specialty": "Psychiatry",
+  "city": "San Antonio",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 613944.14,
+      "total_services": 15171,
+      "total_beneficiaries": 2458,
+      "avg_submitted": 120.69,
+      "avg_paid": 63.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 448642.38,
+      "total_services": 10937,
+      "total_beneficiaries": 2458,
+      "avg_submitted": 154.07,
+      "avg_paid": 58.62
+    },
+    {
+      "year": 2016,
+      "total_payments": 251743.04,
+      "total_services": 4654,
+      "total_beneficiaries": 1097,
+      "avg_submitted": 129.94,
+      "avg_paid": 66.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 244816.71,
+      "total_services": 4627,
+      "total_beneficiaries": 1141,
+      "avg_submitted": 139.83,
+      "avg_paid": 72.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 198760.14,
+      "total_services": 3582,
+      "total_beneficiaries": 751,
+      "avg_submitted": 173.36,
+      "avg_paid": 72.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 343946.32,
+      "total_services": 5365,
+      "total_beneficiaries": 1788,
+      "avg_submitted": 198.58,
+      "avg_paid": 74.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 345544.27,
+      "total_services": 5197,
+      "total_beneficiaries": 1631,
+      "avg_submitted": 199.44,
+      "avg_paid": 80.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 347077.48,
+      "total_services": 4727,
+      "total_beneficiaries": 1521,
+      "avg_submitted": 213.28,
+      "avg_paid": 91.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 84166.86,
+      "total_services": 1499,
+      "total_beneficiaries": 486,
+      "avg_submitted": 212.49,
+      "avg_paid": 83.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 41432.25,
+      "total_services": 608,
+      "total_beneficiaries": 208,
+      "avg_submitted": 207.27,
+      "avg_paid": 107.34
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 18370,
+      "payments": 883708.8,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 12871,
+      "payments": 401297.58,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 5808,
+      "payments": 393446.25,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "90792",
+      "description": "Psychiatric diagnostic evaluation with medical services",
+      "services": 2169,
+      "payments": 276595.43,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3406,
+      "payments": 180954.01,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 980,
+      "payments": 141544.49,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 3911,
+      "payments": 111310.82,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "90832",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 2043,
+      "payments": 96804.29,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 935,
+      "payments": 91131.63,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 743,
+      "payments": 86504.76,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 541,
+      "payments": 49073.16,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "90853",
+      "description": "Group psychotherapy",
+      "services": 2150,
+      "payments": 40722.85,
+      "avg_markup": 6.57
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 462,
+      "payments": 36474.08,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 561,
+      "payments": 36200.66,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 492,
+      "payments": 35433.77,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 407,
+      "payments": 30668.84,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 276,
+      "payments": 14489.51,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "90833",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 123,
+      "payments": 5898.16,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 45,
+      "payments": 3180.26,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 57,
+      "payments": 2597.13,
+      "avg_markup": 2.57
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2920073.59,
+    "total_services": 56367,
+    "total_beneficiaries": 13539,
+    "avg_markup_ratio": 2.57
+  }
+}

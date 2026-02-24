@@ -1,0 +1,239 @@
+{
+  "name": "Michelle Duhaney",
+  "credentials": "D.O.",
+  "specialty": "Family Practice",
+  "city": "Boca Raton",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 67982.69,
+      "total_services": 882,
+      "total_beneficiaries": 353,
+      "avg_submitted": 166.67,
+      "avg_paid": 79.65
+    },
+    {
+      "year": 2015,
+      "total_payments": 113819.96,
+      "total_services": 1506,
+      "total_beneficiaries": 867,
+      "avg_submitted": 164.27,
+      "avg_paid": 62.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 151965.99,
+      "total_services": 1851,
+      "total_beneficiaries": 895,
+      "avg_submitted": 153.24,
+      "avg_paid": 77.06
+    },
+    {
+      "year": 2017,
+      "total_payments": 221742.83,
+      "total_services": 3029,
+      "total_beneficiaries": 1139,
+      "avg_submitted": 161.7,
+      "avg_paid": 78.92
+    },
+    {
+      "year": 2018,
+      "total_payments": 256926.59,
+      "total_services": 3454,
+      "total_beneficiaries": 1334,
+      "avg_submitted": 160.6,
+      "avg_paid": 74.97
+    },
+    {
+      "year": 2019,
+      "total_payments": 304304.6,
+      "total_services": 3805,
+      "total_beneficiaries": 1606,
+      "avg_submitted": 172.0,
+      "avg_paid": 84.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 335444.0,
+      "total_services": 4335,
+      "total_beneficiaries": 1561,
+      "avg_submitted": 165.09,
+      "avg_paid": 78.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 335363.61,
+      "total_services": 4239,
+      "total_beneficiaries": 1376,
+      "avg_submitted": 162.91,
+      "avg_paid": 70.78
+    },
+    {
+      "year": 2022,
+      "total_payments": 428051.66,
+      "total_services": 5449,
+      "total_beneficiaries": 1766,
+      "avg_submitted": 179.4,
+      "avg_paid": 79.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 410138.88,
+      "total_services": 4831,
+      "total_beneficiaries": 1811,
+      "avg_submitted": 166.78,
+      "avg_paid": 73.66
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 17727,
+      "payments": 1239531.01,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 4541,
+      "payments": 446423.91,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2814,
+      "payments": 362465.42,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 1805,
+      "payments": 165816.26,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 966,
+      "payments": 101626.99,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 1517,
+      "payments": 61215.74,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 722,
+      "payments": 60361.95,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 467,
+      "payments": 41430.3,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imp",
+      "services": 1112,
+      "payments": 34300.11,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 331,
+      "payments": 34017.86,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 531,
+      "payments": 28636.52,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 193,
+      "payments": 13241.03,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99343",
+      "description": "New patient home visit, typically 45 minutes",
+      "services": 77,
+      "payments": 7237.76,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 58,
+      "payments": 5948.3,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 90,
+      "payments": 4693.34,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 28,
+      "payments": 4085.33,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 44,
+      "payments": 3575.34,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 36,
+      "payments": 2064.24,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 16,
+      "payments": 2043.51,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99358",
+      "description": "Extended patient service without direct patient contact, first hour",
+      "services": 18,
+      "payments": 1546.05,
+      "avg_markup": 2.71
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2625740.81,
+    "total_services": 33381,
+    "total_beneficiaries": 12708,
+    "avg_markup_ratio": 2.23
+  }
+}

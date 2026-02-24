@@ -1,0 +1,101 @@
+{
+  "name": "Stone Ambulance Service, Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Martinsville",
+  "state": "VA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 623518.82,
+      "total_services": 4926,
+      "total_beneficiaries": 2795,
+      "avg_submitted": 418.75,
+      "avg_paid": 241.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 599286.69,
+      "total_services": 4747,
+      "total_beneficiaries": 2489,
+      "avg_submitted": 431.19,
+      "avg_paid": 245.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 557800.09,
+      "total_services": 4622,
+      "total_beneficiaries": 2732,
+      "avg_submitted": 387.8,
+      "avg_paid": 201.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 501229.53,
+      "total_services": 4361,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 388.0,
+      "avg_paid": 202.75
+    },
+    {
+      "year": 2018,
+      "total_payments": 315601.52,
+      "total_services": 2833,
+      "total_beneficiaries": 1693,
+      "avg_submitted": 388.0,
+      "avg_paid": 201.89
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 5645,
+      "payments": 981088.09,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2598,
+      "payments": 722148.23,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 1560,
+      "payments": 515277.84,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1319,
+      "payments": 276911.42,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10308,
+      "payments": 74192.06,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 59,
+      "payments": 27819.01,
+      "avg_markup": 1.36
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 2597436.65,
+    "total_services": 21489,
+    "total_beneficiaries": 12402,
+    "avg_markup_ratio": 1.98
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Richard Miller",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Lynchburg",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 298043.3,
+      "total_services": 11072,
+      "total_beneficiaries": 6123,
+      "avg_submitted": 60.1,
+      "avg_paid": 28.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 298105.52,
+      "total_services": 10906,
+      "total_beneficiaries": 6250,
+      "avg_submitted": 59.39,
+      "avg_paid": 30.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 260526.41,
+      "total_services": 9762,
+      "total_beneficiaries": 5580,
+      "avg_submitted": 53.62,
+      "avg_paid": 27.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 280396.48,
+      "total_services": 9887,
+      "total_beneficiaries": 5573,
+      "avg_submitted": 55.43,
+      "avg_paid": 32.48
+    },
+    {
+      "year": 2018,
+      "total_payments": 272683.35,
+      "total_services": 10839,
+      "total_beneficiaries": 6151,
+      "avg_submitted": 59.54,
+      "avg_paid": 29.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 279779.63,
+      "total_services": 11098,
+      "total_beneficiaries": 6285,
+      "avg_submitted": 64.82,
+      "avg_paid": 32.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 285704.94,
+      "total_services": 11322,
+      "total_beneficiaries": 6771,
+      "avg_submitted": 70.37,
+      "avg_paid": 37.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 375332.84,
+      "total_services": 12804,
+      "total_beneficiaries": 7497,
+      "avg_submitted": 64.24,
+      "avg_paid": 35.34
+    },
+    {
+      "year": 2022,
+      "total_payments": 313160.04,
+      "total_services": 11367,
+      "total_beneficiaries": 6711,
+      "avg_submitted": 56.16,
+      "avg_paid": 31.04
+    },
+    {
+      "year": 2023,
+      "total_payments": 248585.9,
+      "total_services": 6759,
+      "total_beneficiaries": 4079,
+      "avg_submitted": 71.95,
+      "avg_paid": 38.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8594,
+      "payments": 690607.33,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 5489,
+      "payments": 575735.42,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5017,
+      "payments": 275392.72,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3775,
+      "payments": 134203.29,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 6399,
+      "payments": 124563.81,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 8699,
+      "payments": 106155.75,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5832,
+      "payments": 89062.85,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 8687,
+      "payments": 78232.24,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 6190,
+      "payments": 64999.55,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 292,
+      "payments": 54190.19,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 3496,
+      "payments": 51771.64,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 608,
+      "payments": 49980.79,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12284,
+      "payments": 41809.79,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 712,
+      "payments": 39837.9,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1878,
+      "payments": 39830.2,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 2861,
+      "payments": 31967.38,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 145,
+      "payments": 28244.76,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 237,
+      "payments": 27808.39,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "G0103",
+      "description": "Prostate cancer screening; prostate specific antigen test (psa)",
+      "services": 1099,
+      "payments": 24186.25,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "87635",
+      "description": "Sars-cov-2 covid-19 amp prb",
+      "services": 415,
+      "payments": 21096.48,
+      "avg_markup": 1.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2912318.42,
+    "total_services": 105816,
+    "total_beneficiaries": 61020,
+    "avg_markup_ratio": 1.95
+  }
+}

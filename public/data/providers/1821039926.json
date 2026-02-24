@@ -1,0 +1,239 @@
+{
+  "name": "Phillip Cosentino",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Staten Island",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 150549.48,
+      "total_services": 1989,
+      "total_beneficiaries": 556,
+      "avg_submitted": 187.02,
+      "avg_paid": 83.23
+    },
+    {
+      "year": 2015,
+      "total_payments": 236850.88,
+      "total_services": 3195,
+      "total_beneficiaries": 520,
+      "avg_submitted": 154.27,
+      "avg_paid": 76.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 313553.64,
+      "total_services": 4276,
+      "total_beneficiaries": 519,
+      "avg_submitted": 176.66,
+      "avg_paid": 84.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 245889.57,
+      "total_services": 3537,
+      "total_beneficiaries": 510,
+      "avg_submitted": 124.17,
+      "avg_paid": 58.32
+    },
+    {
+      "year": 2018,
+      "total_payments": 254714.49,
+      "total_services": 3847,
+      "total_beneficiaries": 561,
+      "avg_submitted": 163.64,
+      "avg_paid": 74.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 373517.27,
+      "total_services": 5879,
+      "total_beneficiaries": 562,
+      "avg_submitted": 168.96,
+      "avg_paid": 83.49
+    },
+    {
+      "year": 2020,
+      "total_payments": 408825.68,
+      "total_services": 6356,
+      "total_beneficiaries": 371,
+      "avg_submitted": 191.75,
+      "avg_paid": 89.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 401061.62,
+      "total_services": 5837,
+      "total_beneficiaries": 426,
+      "avg_submitted": 182.77,
+      "avg_paid": 92.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 379844.46,
+      "total_services": 5582,
+      "total_beneficiaries": 446,
+      "avg_submitted": 162.98,
+      "avg_paid": 82.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 411771.89,
+      "total_services": 5799,
+      "total_beneficiaries": 457,
+      "avg_submitted": 170.26,
+      "avg_paid": 81.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 33355,
+      "payments": 2104235.6,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 6697,
+      "payments": 530714.31,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2412,
+      "payments": 211583.05,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 771,
+      "payments": 71428.96,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 475,
+      "payments": 70246.78,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 367,
+      "payments": 42374.32,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "93886",
+      "description": "Ultrasound scanning of head and neck vessel blood flow (inside the brain)",
+      "services": 142,
+      "payments": 30928.25,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 125,
+      "payments": 21868.38,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 141,
+      "payments": 18975.91,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 161,
+      "payments": 18517.55,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 360,
+      "payments": 13650.13,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 365,
+      "payments": 13427.62,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 277,
+      "payments": 10148.78,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 223,
+      "payments": 5899.99,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 162,
+      "payments": 5002.97,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 13,
+      "payments": 2761.99,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "90756",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 49,
+      "payments": 1378.01,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 80,
+      "payments": 1341.54,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "76705",
+      "description": "Ultrasound of abdomen",
+      "services": 11,
+      "payments": 813.68,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "Q2036",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (flulaval)",
+      "services": 64,
+      "payments": 538.24,
+      "avg_markup": 4.14
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3176578.98,
+    "total_services": 46297,
+    "total_beneficiaries": 4928,
+    "avg_markup_ratio": 2.01
+  }
+}

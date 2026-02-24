@@ -1,0 +1,79 @@
+{
+  "name": "Howard County Maryland",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Marriottsville",
+  "state": "MD",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1223583.18,
+      "total_services": 6803,
+      "total_beneficiaries": 5357,
+      "avg_submitted": 552.46,
+      "avg_paid": 316.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 1955086.83,
+      "total_services": 10867,
+      "total_beneficiaries": 8026,
+      "avg_submitted": 552.34,
+      "avg_paid": 314.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 2167851.66,
+      "total_services": 11653,
+      "total_beneficiaries": 8467,
+      "avg_submitted": 552.4,
+      "avg_paid": 328.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 2496972.4,
+      "total_services": 12550,
+      "total_beneficiaries": 9090,
+      "avg_submitted": 552.46,
+      "avg_paid": 344.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 9507,
+      "payments": 3795118.4,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 11176,
+      "payments": 3767951.44,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 260,
+      "payments": 146868.04,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 20930,
+      "payments": 133556.19,
+      "avg_markup": 1.57
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 7843494.07,
+    "total_services": 41873,
+    "total_beneficiaries": 30940,
+    "avg_markup_ratio": 1.96
+  }
+}

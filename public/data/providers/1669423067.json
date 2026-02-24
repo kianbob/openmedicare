@@ -1,0 +1,239 @@
+{
+  "name": "Swati Joglekar",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Sugar Land",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 177297.54,
+      "total_services": 2496,
+      "total_beneficiaries": 1355,
+      "avg_submitted": 176.1,
+      "avg_paid": 91.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 238046.76,
+      "total_services": 3412,
+      "total_beneficiaries": 1476,
+      "avg_submitted": 232.26,
+      "avg_paid": 98.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 369536.55,
+      "total_services": 5526,
+      "total_beneficiaries": 2172,
+      "avg_submitted": 250.49,
+      "avg_paid": 93.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 339550.19,
+      "total_services": 4365,
+      "total_beneficiaries": 2368,
+      "avg_submitted": 268.8,
+      "avg_paid": 94.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 495400.59,
+      "total_services": 5508,
+      "total_beneficiaries": 3209,
+      "avg_submitted": 268.01,
+      "avg_paid": 109.16
+    },
+    {
+      "year": 2019,
+      "total_payments": 713582.18,
+      "total_services": 8962,
+      "total_beneficiaries": 4412,
+      "avg_submitted": 258.99,
+      "avg_paid": 91.65
+    },
+    {
+      "year": 2020,
+      "total_payments": 898981.64,
+      "total_services": 10948,
+      "total_beneficiaries": 4857,
+      "avg_submitted": 259.34,
+      "avg_paid": 99.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 820134.27,
+      "total_services": 9844,
+      "total_beneficiaries": 4300,
+      "avg_submitted": 237.75,
+      "avg_paid": 90.26
+    },
+    {
+      "year": 2022,
+      "total_payments": 813571.18,
+      "total_services": 9825,
+      "total_beneficiaries": 4289,
+      "avg_submitted": 254.34,
+      "avg_paid": 96.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 910909.26,
+      "total_services": 10526,
+      "total_beneficiaries": 4584,
+      "avg_submitted": 257.16,
+      "avg_paid": 100.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 32322,
+      "payments": 1903537.71,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 14895,
+      "payments": 1278702.11,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5527,
+      "payments": 862650.81,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4974,
+      "payments": 435663.39,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 2138,
+      "payments": 312699.98,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2839,
+      "payments": 306747.74,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2268,
+      "payments": 148319.49,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 531,
+      "payments": 90190.64,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1380,
+      "payments": 81002.09,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 1090,
+      "payments": 63199.18,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 571,
+      "payments": 60386.24,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 1016,
+      "payments": 58596.97,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 373,
+      "payments": 35538.6,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 345,
+      "payments": 26845.89,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 195,
+      "payments": 26023.29,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit for life threatening or functioning severity",
+      "services": 146,
+      "payments": 20581.7,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 112,
+      "payments": 20406.44,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 246,
+      "payments": 20058.97,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 140,
+      "payments": 10574.64,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 44,
+      "payments": 3960.26,
+      "avg_markup": 2.55
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5777010.16,
+    "total_services": 71412,
+    "total_beneficiaries": 33022,
+    "avg_markup_ratio": 2.56
+  }
+}

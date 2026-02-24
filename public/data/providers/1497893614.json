@@ -1,0 +1,239 @@
+{
+  "name": "Kumar Patel",
+  "credentials": "M.D.",
+  "specialty": "Neurology",
+  "city": "Anderson",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 196065.69,
+      "total_services": 2970,
+      "total_beneficiaries": 2413,
+      "avg_submitted": 327.81,
+      "avg_paid": 68.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 168397.36,
+      "total_services": 2630,
+      "total_beneficiaries": 1917,
+      "avg_submitted": 295.72,
+      "avg_paid": 67.03
+    },
+    {
+      "year": 2016,
+      "total_payments": 243235.05,
+      "total_services": 3782,
+      "total_beneficiaries": 2534,
+      "avg_submitted": 294.49,
+      "avg_paid": 63.94
+    },
+    {
+      "year": 2017,
+      "total_payments": 435469.26,
+      "total_services": 6468,
+      "total_beneficiaries": 3721,
+      "avg_submitted": 336.34,
+      "avg_paid": 71.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 431483.56,
+      "total_services": 6815,
+      "total_beneficiaries": 4154,
+      "avg_submitted": 348.81,
+      "avg_paid": 66.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 417337.26,
+      "total_services": 6650,
+      "total_beneficiaries": 3917,
+      "avg_submitted": 261.63,
+      "avg_paid": 72.78
+    },
+    {
+      "year": 2020,
+      "total_payments": 368448.76,
+      "total_services": 5356,
+      "total_beneficiaries": 3424,
+      "avg_submitted": 262.88,
+      "avg_paid": 76.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 349333.59,
+      "total_services": 4814,
+      "total_beneficiaries": 3128,
+      "avg_submitted": 263.57,
+      "avg_paid": 76.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 311928.12,
+      "total_services": 4368,
+      "total_beneficiaries": 2937,
+      "avg_submitted": 262.53,
+      "avg_paid": 69.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 301647.19,
+      "total_services": 3963,
+      "total_beneficiaries": 2592,
+      "avg_submitted": 239.92,
+      "avg_paid": 69.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9893,
+      "payments": 548233.28,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2921,
+      "payments": 488205.32,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5841,
+      "payments": 467494.76,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2641,
+      "payments": 396583.41,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "70450",
+      "description": "CT scan head or brain",
+      "services": 7660,
+      "payments": 235641.93,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 2387,
+      "payments": 202146.54,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 3452,
+      "payments": 187903.47,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 3744,
+      "payments": 113689.21,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 668,
+      "payments": 69264.41,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "70496",
+      "description": "CT scan of blood vessel of head with contrast",
+      "services": 1038,
+      "payments": 64797.36,
+      "avg_markup": 4.4
+    },
+    {
+      "code": "70498",
+      "description": "CT scan of neck blood vessels with contrast",
+      "services": 961,
+      "payments": 59213.58,
+      "avg_markup": 4.45
+    },
+    {
+      "code": "95816",
+      "description": "Measurement and recording of brain wave (EEG) activity, awake and drowsy",
+      "services": 1281,
+      "payments": 56114.49,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 701,
+      "payments": 35593.63,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 319,
+      "payments": 27561.86,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "72141",
+      "description": "MRI scan of upper spinal canal",
+      "services": 498,
+      "payments": 26930.61,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 482,
+      "payments": 26116.77,
+      "avg_markup": 4.84
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 182,
+      "payments": 25824.59,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "70544",
+      "description": "MRA scan of head blood vessels",
+      "services": 553,
+      "payments": 24749.68,
+      "avg_markup": 4.94
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 208,
+      "payments": 24188.55,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "72158",
+      "description": "MRI scan of lower spinal canal before and after contrast",
+      "services": 213,
+      "payments": 17897.26,
+      "avg_markup": 4.71
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3223345.84,
+    "total_services": 47816,
+    "total_beneficiaries": 30737,
+    "avg_markup_ratio": 3.82
+  }
+}

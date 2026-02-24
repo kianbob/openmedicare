@@ -1,0 +1,110 @@
+{
+  "name": "City Of Sterling Heights",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Sterling Heights",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 185496.26,
+      "total_services": 1134,
+      "total_beneficiaries": 999,
+      "avg_submitted": 381.06,
+      "avg_paid": 207.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 1064578.96,
+      "total_services": 6340,
+      "total_beneficiaries": 4562,
+      "avg_submitted": 498.64,
+      "avg_paid": 255.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 1127116.69,
+      "total_services": 6609,
+      "total_beneficiaries": 4780,
+      "avg_submitted": 486.2,
+      "avg_paid": 283.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 1036418.01,
+      "total_services": 6014,
+      "total_beneficiaries": 4346,
+      "avg_submitted": 484.74,
+      "avg_paid": 292.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 1057517.35,
+      "total_services": 6159,
+      "total_beneficiaries": 4364,
+      "avg_submitted": 482.59,
+      "avg_paid": 296.32
+    },
+    {
+      "year": 2022,
+      "total_payments": 1143497.15,
+      "total_services": 6478,
+      "total_beneficiaries": 4446,
+      "avg_submitted": 502.51,
+      "avg_paid": 308.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 1038181.52,
+      "total_services": 5371,
+      "total_beneficiaries": 3907,
+      "avg_submitted": 520.39,
+      "avg_paid": 331.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 12459,
+      "payments": 4454452.8,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6487,
+      "payments": 1979816.44,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18952,
+      "payments": 116162.7,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 194,
+      "payments": 100199.07,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 13,
+      "payments": 2174.95,
+      "avg_markup": 3.31
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 6652805.96,
+    "total_services": 38105,
+    "total_beneficiaries": 27404,
+    "avg_markup_ratio": 1.76
+  }
+}

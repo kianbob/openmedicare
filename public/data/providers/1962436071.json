@@ -1,0 +1,190 @@
+{
+  "name": "Juan Torres",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Winter Garden",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 390287.02,
+      "total_services": 4968,
+      "total_beneficiaries": 1168,
+      "avg_submitted": 187.33,
+      "avg_paid": 108.95
+    },
+    {
+      "year": 2015,
+      "total_payments": 355033.07,
+      "total_services": 4609,
+      "total_beneficiaries": 1185,
+      "avg_submitted": 187.33,
+      "avg_paid": 103.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 295297.21,
+      "total_services": 3859,
+      "total_beneficiaries": 1068,
+      "avg_submitted": 187.34,
+      "avg_paid": 106.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 315827.87,
+      "total_services": 4246,
+      "total_beneficiaries": 1091,
+      "avg_submitted": 187.32,
+      "avg_paid": 103.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 350353.97,
+      "total_services": 4217,
+      "total_beneficiaries": 1080,
+      "avg_submitted": 187.33,
+      "avg_paid": 114.76
+    },
+    {
+      "year": 2019,
+      "total_payments": 338845.48,
+      "total_services": 4317,
+      "total_beneficiaries": 1172,
+      "avg_submitted": 181.1,
+      "avg_paid": 107.49
+    },
+    {
+      "year": 2020,
+      "total_payments": 303071.56,
+      "total_services": 4179,
+      "total_beneficiaries": 992,
+      "avg_submitted": 171.78,
+      "avg_paid": 95.27
+    },
+    {
+      "year": 2021,
+      "total_payments": 250132.4,
+      "total_services": 3303,
+      "total_beneficiaries": 866,
+      "avg_submitted": 173.73,
+      "avg_paid": 98.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 241442.83,
+      "total_services": 3281,
+      "total_beneficiaries": 834,
+      "avg_submitted": 181.78,
+      "avg_paid": 100.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 355527.41,
+      "total_services": 4185,
+      "total_beneficiaries": 918,
+      "avg_submitted": 187.33,
+      "avg_paid": 109.78
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 13380,
+      "payments": 952482.47,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9975,
+      "payments": 817979.08,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9353,
+      "payments": 532538.69,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 3811,
+      "payments": 396542.44,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2478,
+      "payments": 242218.72,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 452,
+      "payments": 70100.28,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 361,
+      "payments": 63067.72,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 603,
+      "payments": 41549.67,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 284,
+      "payments": 35940.78,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 282,
+      "payments": 29941.76,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "G0426",
+      "description": "Telehealth consultation, emergency department or initial inpatient, typically 50 minutes communicating with the patient via telehealth",
+      "services": 65,
+      "payments": 6440.55,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "G0407",
+      "description": "Follow-up inpatient consultation, intermediate, physicians typically spend 25 minutes communicating with the patient via telehealth",
+      "services": 106,
+      "payments": 5908.2,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "G0408",
+      "description": "Follow-up inpatient consultation, complex, physicians typically spend 35 minutes communicating with the patient via telehealth",
+      "services": 14,
+      "payments": 1108.46,
+      "avg_markup": 1.89
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3195818.82,
+    "total_services": 41164,
+    "total_beneficiaries": 10374,
+    "avg_markup_ratio": 1.69
+  }
+}

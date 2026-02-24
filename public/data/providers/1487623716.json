@@ -1,0 +1,239 @@
+{
+  "name": "John Fiedler",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Elgin",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 347067.44,
+      "total_services": 12462,
+      "total_beneficiaries": 8029,
+      "avg_submitted": 133.76,
+      "avg_paid": 41.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 308800.46,
+      "total_services": 11834,
+      "total_beneficiaries": 7805,
+      "avg_submitted": 146.48,
+      "avg_paid": 41.27
+    },
+    {
+      "year": 2016,
+      "total_payments": 291861.16,
+      "total_services": 11318,
+      "total_beneficiaries": 7290,
+      "avg_submitted": 151.24,
+      "avg_paid": 42.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 259047.77,
+      "total_services": 9947,
+      "total_beneficiaries": 6599,
+      "avg_submitted": 149.07,
+      "avg_paid": 40.15
+    },
+    {
+      "year": 2018,
+      "total_payments": 282737.04,
+      "total_services": 9380,
+      "total_beneficiaries": 6594,
+      "avg_submitted": 157.28,
+      "avg_paid": 45.88
+    },
+    {
+      "year": 2019,
+      "total_payments": 238392.65,
+      "total_services": 7951,
+      "total_beneficiaries": 5404,
+      "avg_submitted": 129.31,
+      "avg_paid": 47.66
+    },
+    {
+      "year": 2020,
+      "total_payments": 229114.32,
+      "total_services": 8287,
+      "total_beneficiaries": 5591,
+      "avg_submitted": 127.62,
+      "avg_paid": 45.87
+    },
+    {
+      "year": 2021,
+      "total_payments": 256842.82,
+      "total_services": 8256,
+      "total_beneficiaries": 5390,
+      "avg_submitted": 132.37,
+      "avg_paid": 45.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 247077.9,
+      "total_services": 8272,
+      "total_beneficiaries": 5534,
+      "avg_submitted": 144.09,
+      "avg_paid": 52.7
+    },
+    {
+      "year": 2023,
+      "total_payments": 249222.8,
+      "total_services": 8271,
+      "total_beneficiaries": 5566,
+      "avg_submitted": 125.93,
+      "avg_paid": 43.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7716,
+      "payments": 608515.69,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3199,
+      "payments": 362485.83,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1614,
+      "payments": 208986.07,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 4838,
+      "payments": 167030.0,
+      "avg_markup": 5.9
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 5177,
+      "payments": 102754.78,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 8119,
+      "payments": 97892.13,
+      "avg_markup": 8.18
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 516,
+      "payments": 84402.4,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 414,
+      "payments": 83704.19,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 7052,
+      "payments": 80108.94,
+      "avg_markup": 5.86
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 3815,
+      "payments": 67470.82,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 5150,
+      "payments": 67287.85,
+      "avg_markup": 7.57
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 3646,
+      "payments": 62913.83,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5146,
+      "payments": 54670.76,
+      "avg_markup": 9.08
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1043,
+      "payments": 53939.01,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 305,
+      "payments": 53655.36,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4895,
+      "payments": 44932.99,
+      "avg_markup": 8.5
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1722,
+      "payments": 41864.82,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 289,
+      "payments": 40058.7,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 11601,
+      "payments": 39442.04,
+      "avg_markup": 8.12
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 837,
+      "payments": 37074.24,
+      "avg_markup": 8.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2710164.35,
+    "total_services": 95978,
+    "total_beneficiaries": 63802,
+    "avg_markup_ratio": 3.96
+  }
+}

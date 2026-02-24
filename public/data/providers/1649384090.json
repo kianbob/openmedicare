@@ -1,0 +1,169 @@
+{
+  "name": "Adam Edelman",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Saint Louis",
+  "state": "MO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 391344.96,
+      "total_services": 6227,
+      "total_beneficiaries": 1502,
+      "avg_submitted": 137.0,
+      "avg_paid": 76.21
+    },
+    {
+      "year": 2015,
+      "total_payments": 297975.54,
+      "total_services": 5487,
+      "total_beneficiaries": 1488,
+      "avg_submitted": 137.65,
+      "avg_paid": 71.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 294878.25,
+      "total_services": 6236,
+      "total_beneficiaries": 1659,
+      "avg_submitted": 140.7,
+      "avg_paid": 72.52
+    },
+    {
+      "year": 2017,
+      "total_payments": 309868.79,
+      "total_services": 6584,
+      "total_beneficiaries": 1629,
+      "avg_submitted": 120.83,
+      "avg_paid": 58.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 287007.47,
+      "total_services": 5425,
+      "total_beneficiaries": 1248,
+      "avg_submitted": 125.0,
+      "avg_paid": 62.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 237091.47,
+      "total_services": 4381,
+      "total_beneficiaries": 960,
+      "avg_submitted": 151.51,
+      "avg_paid": 79.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 161538.98,
+      "total_services": 2892,
+      "total_beneficiaries": 541,
+      "avg_submitted": 126.25,
+      "avg_paid": 62.18
+    },
+    {
+      "year": 2021,
+      "total_payments": 183972.91,
+      "total_services": 3282,
+      "total_beneficiaries": 613,
+      "avg_submitted": 126.25,
+      "avg_paid": 62.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 127725.79,
+      "total_services": 2325,
+      "total_beneficiaries": 493,
+      "avg_submitted": 113.33,
+      "avg_paid": 54.38
+    },
+    {
+      "year": 2023,
+      "total_payments": 106843.83,
+      "total_services": 1824,
+      "total_beneficiaries": 447,
+      "avg_submitted": 113.33,
+      "avg_paid": 54.67
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 28490,
+      "payments": 1600431.2,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 8949,
+      "payments": 271872.54,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 3303,
+      "payments": 256792.26,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2602,
+      "payments": 208415.43,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 321,
+      "payments": 33883.9,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 101,
+      "payments": 15890.11,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 816,
+      "payments": 5340.98,
+      "avg_markup": 5.35
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 48,
+      "payments": 3954.6,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 20,
+      "payments": 1126.82,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 13,
+      "payments": 540.15,
+      "avg_markup": 2.89
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2398247.99,
+    "total_services": 44663,
+    "total_beneficiaries": 10580,
+    "avg_markup_ratio": 2.16
+  }
+}

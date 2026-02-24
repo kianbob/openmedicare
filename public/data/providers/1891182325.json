@@ -1,0 +1,79 @@
+{
+  "name": "Steve Loh",
+  "credentials": "D.O.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Maywood",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 396968.4,
+      "total_services": 5286,
+      "total_beneficiaries": 930,
+      "avg_submitted": 177.63,
+      "avg_paid": 83.74
+    },
+    {
+      "year": 2021,
+      "total_payments": 1251073.95,
+      "total_services": 17898,
+      "total_beneficiaries": 1299,
+      "avg_submitted": 328.49,
+      "avg_paid": 92.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 1383720.21,
+      "total_services": 22069,
+      "total_beneficiaries": 1091,
+      "avg_submitted": 360.91,
+      "avg_paid": 90.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 1594589.65,
+      "total_services": 22623,
+      "total_beneficiaries": 1039,
+      "avg_submitted": 384.33,
+      "avg_paid": 101.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 46568,
+      "payments": 2808446.01,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 19925,
+      "payments": 1622852.3,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1334,
+      "payments": 191180.94,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 49,
+      "payments": 3872.96,
+      "avg_markup": 1.64
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4626352.21,
+    "total_services": 67876,
+    "total_beneficiaries": 4359,
+    "avg_markup_ratio": 3.64
+  }
+}

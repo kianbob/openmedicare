@@ -1,0 +1,190 @@
+{
+  "name": "Robert Mcneil",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Hyattsville",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 201898.14,
+      "total_services": 2794,
+      "total_beneficiaries": 1010,
+      "avg_submitted": 107.76,
+      "avg_paid": 83.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 226231.07,
+      "total_services": 3255,
+      "total_beneficiaries": 991,
+      "avg_submitted": 104.17,
+      "avg_paid": 79.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 283832.65,
+      "total_services": 3635,
+      "total_beneficiaries": 1132,
+      "avg_submitted": 130.28,
+      "avg_paid": 93.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 297974.59,
+      "total_services": 3739,
+      "total_beneficiaries": 686,
+      "avg_submitted": 121.88,
+      "avg_paid": 90.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 280575.12,
+      "total_services": 3583,
+      "total_beneficiaries": 553,
+      "avg_submitted": 114.68,
+      "avg_paid": 86.15
+    },
+    {
+      "year": 2019,
+      "total_payments": 333597.01,
+      "total_services": 4183,
+      "total_beneficiaries": 587,
+      "avg_submitted": 110.88,
+      "avg_paid": 85.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 343621.06,
+      "total_services": 4210,
+      "total_beneficiaries": 883,
+      "avg_submitted": 111.42,
+      "avg_paid": 86.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 317594.3,
+      "total_services": 3919,
+      "total_beneficiaries": 999,
+      "avg_submitted": 123.0,
+      "avg_paid": 90.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 359782.84,
+      "total_services": 4339,
+      "total_beneficiaries": 920,
+      "avg_submitted": 125.75,
+      "avg_paid": 98.06
+    },
+    {
+      "year": 2023,
+      "total_payments": 383207.54,
+      "total_services": 4242,
+      "total_beneficiaries": 799,
+      "avg_submitted": 199.04,
+      "avg_paid": 95.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 27041,
+      "payments": 2158339.1,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4909,
+      "payments": 283444.0,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2125,
+      "payments": 236919.64,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 711,
+      "payments": 102684.91,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 1071,
+      "payments": 98647.02,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1043,
+      "payments": 71208.4,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 384,
+      "payments": 45027.96,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 333,
+      "payments": 20911.73,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 52,
+      "payments": 4112.84,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 86,
+      "payments": 3009.74,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 32,
+      "payments": 1518.08,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 100,
+      "payments": 1282.82,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 12,
+      "payments": 1208.08,
+      "avg_markup": 1.25
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3028314.32,
+    "total_services": 37899,
+    "total_beneficiaries": 8560,
+    "avg_markup_ratio": 1.45
+  }
+}

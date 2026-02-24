@@ -1,0 +1,57 @@
+{
+  "name": "Infinity Biologix Llc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Piscataway",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 593100.0,
+      "total_services": 5931,
+      "total_beneficiaries": 3054,
+      "avg_submitted": 300.0,
+      "avg_paid": 100.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 2697725.0,
+      "total_services": 45959,
+      "total_beneficiaries": 23373,
+      "avg_submitted": 150.0,
+      "avg_paid": 50.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 403497.25,
+      "total_services": 7650,
+      "total_beneficiaries": 4719,
+      "avg_submitted": 150.0,
+      "avg_paid": 49.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 41178,
+      "payments": 3235602.75,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 18362,
+      "payments": 458719.5,
+      "avg_markup": 3.0
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3694322.25,
+    "total_services": 59540,
+    "total_beneficiaries": 31146,
+    "avg_markup_ratio": 3.0
+  }
+}

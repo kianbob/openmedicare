@@ -1,0 +1,239 @@
+{
+  "name": "Benjamin Zertuche",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Pleasanton",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 134089.57,
+      "total_services": 2200,
+      "total_beneficiaries": 1281,
+      "avg_submitted": 129.27,
+      "avg_paid": 61.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 333775.63,
+      "total_services": 4920,
+      "total_beneficiaries": 1783,
+      "avg_submitted": 154.11,
+      "avg_paid": 76.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 809135.39,
+      "total_services": 13532,
+      "total_beneficiaries": 4010,
+      "avg_submitted": 144.56,
+      "avg_paid": 69.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 952493.37,
+      "total_services": 15958,
+      "total_beneficiaries": 4408,
+      "avg_submitted": 139.66,
+      "avg_paid": 67.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 689940.22,
+      "total_services": 12209,
+      "total_beneficiaries": 3220,
+      "avg_submitted": 142.87,
+      "avg_paid": 66.92
+    },
+    {
+      "year": 2019,
+      "total_payments": 591829.77,
+      "total_services": 10510,
+      "total_beneficiaries": 3090,
+      "avg_submitted": 162.06,
+      "avg_paid": 62.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 1001681.69,
+      "total_services": 20161,
+      "total_beneficiaries": 3827,
+      "avg_submitted": 236.09,
+      "avg_paid": 57.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 1045850.1,
+      "total_services": 21273,
+      "total_beneficiaries": 3174,
+      "avg_submitted": 235.31,
+      "avg_paid": 61.71
+    },
+    {
+      "year": 2022,
+      "total_payments": 852262.89,
+      "total_services": 14916,
+      "total_beneficiaries": 2400,
+      "avg_submitted": 157.84,
+      "avg_paid": 56.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 749018.36,
+      "total_services": 12297,
+      "total_beneficiaries": 2063,
+      "avg_submitted": 143.73,
+      "avg_paid": 68.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 37855,
+      "payments": 2551239.55,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 37408,
+      "payments": 1970638.71,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 21308,
+      "payments": 655940.18,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 7588,
+      "payments": 453289.61,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 2079,
+      "payments": 329235.02,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3467,
+      "payments": 264328.69,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2032,
+      "payments": 251631.53,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 558,
+      "payments": 82234.44,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 920,
+      "payments": 71038.96,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "G2012",
+      "description": "Brief communication technology-based service, e.g. virtual check-in, by a physician or other qualified health care professional who can report evaluation and management services, provided to an established patient, not originating from a related e/m servic",
+      "services": 6472,
+      "payments": 70079.16,
+      "avg_markup": 7.47
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 307,
+      "payments": 50984.56,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 713,
+      "payments": 49666.1,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 613,
+      "payments": 48799.19,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 731,
+      "payments": 39415.0,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 358,
+      "payments": 36826.65,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 449,
+      "payments": 34640.14,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 570,
+      "payments": 31600.24,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 456,
+      "payments": 25164.4,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 222,
+      "payments": 21174.11,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 185,
+      "payments": 20303.32,
+      "avg_markup": 2.05
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7160076.99,
+    "total_services": 127976,
+    "total_beneficiaries": 29256,
+    "avg_markup_ratio": 2.73
+  }
+}

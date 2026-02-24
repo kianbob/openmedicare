@@ -1,0 +1,239 @@
+{
+  "name": "Robert Coffee",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 333482.48,
+      "total_services": 3202,
+      "total_beneficiaries": 1672,
+      "avg_submitted": 908.11,
+      "avg_paid": 196.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 248863.96,
+      "total_services": 2650,
+      "total_beneficiaries": 1386,
+      "avg_submitted": 299.69,
+      "avg_paid": 109.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 523604.55,
+      "total_services": 4447,
+      "total_beneficiaries": 2426,
+      "avg_submitted": 719.77,
+      "avg_paid": 250.61
+    },
+    {
+      "year": 2017,
+      "total_payments": 489460.72,
+      "total_services": 4594,
+      "total_beneficiaries": 2401,
+      "avg_submitted": 552.22,
+      "avg_paid": 171.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 388332.82,
+      "total_services": 3750,
+      "total_beneficiaries": 1957,
+      "avg_submitted": 283.72,
+      "avg_paid": 128.05
+    },
+    {
+      "year": 2019,
+      "total_payments": 393738.55,
+      "total_services": 3975,
+      "total_beneficiaries": 2096,
+      "avg_submitted": 418.74,
+      "avg_paid": 174.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 350029.66,
+      "total_services": 3408,
+      "total_beneficiaries": 1796,
+      "avg_submitted": 521.01,
+      "avg_paid": 226.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 346898.1,
+      "total_services": 3345,
+      "total_beneficiaries": 1744,
+      "avg_submitted": 240.59,
+      "avg_paid": 142.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 274037.86,
+      "total_services": 2772,
+      "total_beneficiaries": 1598,
+      "avg_submitted": 391.29,
+      "avg_paid": 200.68
+    },
+    {
+      "year": 2023,
+      "total_payments": 294882.37,
+      "total_services": 3074,
+      "total_beneficiaries": 1739,
+      "avg_submitted": 698.19,
+      "avg_paid": 253.57
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 1942,
+      "payments": 1452194.11,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 9290,
+      "payments": 829781.68,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 5132,
+      "payments": 421763.8,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 12309,
+      "payments": 379413.05,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2864,
+      "payments": 160870.03,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 1668,
+      "payments": 102355.88,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane from the retina",
+      "services": 92,
+      "payments": 89584.41,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between the lens and retina",
+      "services": 58,
+      "payments": 41341.03,
+      "avg_markup": 5.15
+    },
+    {
+      "code": "67228",
+      "description": "Laser destruction of leaking retinal blood vessels, 1 or more sessions",
+      "services": 96,
+      "payments": 24583.75,
+      "avg_markup": 6.44
+    },
+    {
+      "code": "67145",
+      "description": "Preventive retinal detachment treatment by heat or laser, 1 or more sessions",
+      "services": 45,
+      "payments": 18232.67,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "67121",
+      "description": "Removal of implant material from inside the eye",
+      "services": 23,
+      "payments": 17017.79,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 226,
+      "payments": 16850.25,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 132,
+      "payments": 15231.61,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach",
+      "services": 16,
+      "payments": 14829.28,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 186,
+      "payments": 14358.86,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 228,
+      "payments": 11078.05,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 90,
+      "payments": 9013.55,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 145,
+      "payments": 8923.64,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 286,
+      "payments": 5924.77,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 232,
+      "payments": 4189.7,
+      "avg_markup": 3.47
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3643331.07,
+    "total_services": 35217,
+    "total_beneficiaries": 18815,
+    "avg_markup_ratio": 2.3
+  }
+}

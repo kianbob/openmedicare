@@ -1,0 +1,225 @@
+{
+  "name": "Minh Do",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Garden Grove",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 324181.97,
+      "total_services": 6161,
+      "total_beneficiaries": 1759,
+      "avg_submitted": 160.47,
+      "avg_paid": 64.22
+    },
+    {
+      "year": 2015,
+      "total_payments": 336703.95,
+      "total_services": 6446,
+      "total_beneficiaries": 1950,
+      "avg_submitted": 144.23,
+      "avg_paid": 55.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 307044.55,
+      "total_services": 5857,
+      "total_beneficiaries": 1800,
+      "avg_submitted": 143.04,
+      "avg_paid": 64.99
+    },
+    {
+      "year": 2017,
+      "total_payments": 292221.82,
+      "total_services": 5802,
+      "total_beneficiaries": 1868,
+      "avg_submitted": 136.47,
+      "avg_paid": 63.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 364331.8,
+      "total_services": 5822,
+      "total_beneficiaries": 1818,
+      "avg_submitted": 197.63,
+      "avg_paid": 85.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 320095.07,
+      "total_services": 5335,
+      "total_beneficiaries": 1785,
+      "avg_submitted": 170.78,
+      "avg_paid": 77.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 306082.56,
+      "total_services": 5209,
+      "total_beneficiaries": 1692,
+      "avg_submitted": 172.03,
+      "avg_paid": 76.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 324753.29,
+      "total_services": 4702,
+      "total_beneficiaries": 1559,
+      "avg_submitted": 211.01,
+      "avg_paid": 107.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 307633.26,
+      "total_services": 4428,
+      "total_beneficiaries": 1428,
+      "avg_submitted": 218.93,
+      "avg_paid": 106.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 311046.95,
+      "total_services": 4564,
+      "total_beneficiaries": 1378,
+      "avg_submitted": 253.41,
+      "avg_paid": 105.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 32044,
+      "payments": 1909143.79,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6441,
+      "payments": 396631.99,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 2351,
+      "payments": 322941.69,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1065,
+      "payments": 121722.43,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 3029,
+      "payments": 120701.56,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 3115,
+      "payments": 81263.93,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "36410",
+      "description": "Insertion of needle into vein, patient 3 years or older",
+      "services": 4125,
+      "payments": 54403.04,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 241,
+      "payments": 51647.75,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 574,
+      "payments": 46372.0,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 512,
+      "payments": 38259.51,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 249,
+      "payments": 15492.9,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 192,
+      "payments": 11858.35,
+      "avg_markup": 8.1
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 111,
+      "payments": 11392.23,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 24,
+      "payments": 4468.8,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "G0009",
+      "description": "Administration of pneumococcal vaccine",
+      "services": 131,
+      "payments": 3186.61,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 13,
+      "payments": 1879.28,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 44,
+      "payments": 1505.94,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "90686",
+      "description": "Vaccine for influenza for administration into muscle, 0.5 ml dosage",
+      "services": 65,
+      "payments": 1223.41,
+      "avg_markup": 2.13
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3194095.21,
+    "total_services": 54326,
+    "total_beneficiaries": 17037,
+    "avg_markup_ratio": 1.85
+  }
+}

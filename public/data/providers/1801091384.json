@@ -1,0 +1,239 @@
+{
+  "name": "Vijay Korimilli",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Fargo",
+  "state": "ND",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 204509.78,
+      "total_services": 2369,
+      "total_beneficiaries": 1166,
+      "avg_submitted": 255.1,
+      "avg_paid": 97.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 196303.97,
+      "total_services": 2382,
+      "total_beneficiaries": 1229,
+      "avg_submitted": 253.7,
+      "avg_paid": 91.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 143654.4,
+      "total_services": 1779,
+      "total_beneficiaries": 1102,
+      "avg_submitted": 293.47,
+      "avg_paid": 94.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 96416.7,
+      "total_services": 1157,
+      "total_beneficiaries": 749,
+      "avg_submitted": 360.2,
+      "avg_paid": 103.53
+    },
+    {
+      "year": 2018,
+      "total_payments": 75548.45,
+      "total_services": 883,
+      "total_beneficiaries": 572,
+      "avg_submitted": 315.92,
+      "avg_paid": 90.16
+    },
+    {
+      "year": 2019,
+      "total_payments": 325442.41,
+      "total_services": 3605,
+      "total_beneficiaries": 2279,
+      "avg_submitted": 275.84,
+      "avg_paid": 98.48
+    },
+    {
+      "year": 2020,
+      "total_payments": 201845.64,
+      "total_services": 2291,
+      "total_beneficiaries": 1263,
+      "avg_submitted": 258.51,
+      "avg_paid": 99.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 394056.13,
+      "total_services": 5188,
+      "total_beneficiaries": 950,
+      "avg_submitted": 215.18,
+      "avg_paid": 90.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 693794.94,
+      "total_services": 8576,
+      "total_beneficiaries": 1460,
+      "avg_submitted": 276.45,
+      "avg_paid": 97.48
+    },
+    {
+      "year": 2023,
+      "total_payments": 695716.93,
+      "total_services": 7739,
+      "total_beneficiaries": 1135,
+      "avg_submitted": 282.05,
+      "avg_paid": 98.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 12763,
+      "payments": 1051758.99,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7894,
+      "payments": 583058.65,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2359,
+      "payments": 357476.7,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5510,
+      "payments": 307392.39,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1912,
+      "payments": 202564.71,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1558,
+      "payments": 128293.24,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 605,
+      "payments": 85059.59,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 647,
+      "payments": 83738.63,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 653,
+      "payments": 33259.73,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 533,
+      "payments": 29443.61,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 154,
+      "payments": 26374.48,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 234,
+      "payments": 22823.72,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 187,
+      "payments": 19507.07,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99350",
+      "description": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 136,
+      "payments": 19181.17,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 94,
+      "payments": 15493.21,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99337",
+      "description": "Established patient custodial care facility, group care, or assisted living visit, typically 1 hour",
+      "services": 98,
+      "payments": 14284.58,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 99,
+      "payments": 7770.29,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 88,
+      "payments": 7501.71,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 129,
+      "payments": 7185.75,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 48,
+      "payments": 6661.28,
+      "avg_markup": 2.93
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3027289.35,
+    "total_services": 35969,
+    "total_beneficiaries": 11905,
+    "avg_markup_ratio": 2.88
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "name": "Walter Gaman",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Irving",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 137266.95,
+      "total_services": 5418,
+      "total_beneficiaries": 3294,
+      "avg_submitted": 93.13,
+      "avg_paid": 27.37
+    },
+    {
+      "year": 2015,
+      "total_payments": 164124.74,
+      "total_services": 6389,
+      "total_beneficiaries": 3933,
+      "avg_submitted": 82.15,
+      "avg_paid": 25.57
+    },
+    {
+      "year": 2016,
+      "total_payments": 352965.35,
+      "total_services": 8227,
+      "total_beneficiaries": 5873,
+      "avg_submitted": 307.05,
+      "avg_paid": 61.07
+    },
+    {
+      "year": 2017,
+      "total_payments": 535069.59,
+      "total_services": 10303,
+      "total_beneficiaries": 7614,
+      "avg_submitted": 356.72,
+      "avg_paid": 69.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 460764.43,
+      "total_services": 8822,
+      "total_beneficiaries": 6892,
+      "avg_submitted": 396.99,
+      "avg_paid": 68.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 393343.45,
+      "total_services": 5748,
+      "total_beneficiaries": 4356,
+      "avg_submitted": 525.55,
+      "avg_paid": 83.52
+    },
+    {
+      "year": 2020,
+      "total_payments": 296276.77,
+      "total_services": 4652,
+      "total_beneficiaries": 3511,
+      "avg_submitted": 514.22,
+      "avg_paid": 84.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 413513.72,
+      "total_services": 6196,
+      "total_beneficiaries": 4537,
+      "avg_submitted": 432.37,
+      "avg_paid": 77.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 269302.35,
+      "total_services": 4080,
+      "total_beneficiaries": 2545,
+      "avg_submitted": 476.69,
+      "avg_paid": 80.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5760,
+      "payments": 292651.69,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3293,
+      "payments": 249025.36,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 470,
+      "payments": 212495.64,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 485,
+      "payments": 181921.07,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "95800",
+      "description": "Study of sleep patterns",
+      "services": 1326,
+      "payments": 159902.09,
+      "avg_markup": 5.8
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 842,
+      "payments": 132252.92,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 236,
+      "payments": 102350.59,
+      "avg_markup": 5.37
+    },
+    {
+      "code": "72197",
+      "description": "MRI scan of pelvis before and after contrast",
+      "services": 302,
+      "payments": 78378.85,
+      "avg_markup": 6.51
+    },
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 407,
+      "payments": 72539.13,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 575,
+      "payments": 67635.99,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services, first 60 minutes clinical staff time per calendar month",
+      "services": 693,
+      "payments": 65744.99,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 591,
+      "payments": 64389.78,
+      "avg_markup": 10.1
+    },
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 295,
+      "payments": 58963.73,
+      "avg_markup": 8.42
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 444,
+      "payments": 51221.0,
+      "avg_markup": 9.54
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 913,
+      "payments": 42281.4,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "73721",
+      "description": "MRI scan of leg joint",
+      "services": 332,
+      "payments": 41084.89,
+      "avg_markup": 8.89
+    },
+    {
+      "code": "74178",
+      "description": "CT scan of abdomen and pelvis before and after contrast",
+      "services": 194,
+      "payments": 39839.82,
+      "avg_markup": 4.64
+    },
+    {
+      "code": "74183",
+      "description": "MRI scan of abdomen before and after contrast",
+      "services": 147,
+      "payments": 36759.32,
+      "avg_markup": 6.73
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1127,
+      "payments": 35531.34,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 2275,
+      "payments": 32938.15,
+      "avg_markup": 4.67
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3022627.36,
+    "total_services": 59835,
+    "total_beneficiaries": 42555,
+    "avg_markup_ratio": 4.99
+  }
+}

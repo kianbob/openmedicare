@@ -1,0 +1,223 @@
+{
+  "name": "David Balot",
+  "credentials": "D.O",
+  "specialty": "Family Practice",
+  "city": "Lindenhurst",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 34958.81,
+      "total_services": 454,
+      "total_beneficiaries": 330,
+      "avg_submitted": 104.07,
+      "avg_paid": 71.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 229500.73,
+      "total_services": 2906,
+      "total_beneficiaries": 1405,
+      "avg_submitted": 107.63,
+      "avg_paid": 77.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 233137.07,
+      "total_services": 3045,
+      "total_beneficiaries": 1461,
+      "avg_submitted": 112.79,
+      "avg_paid": 81.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 326327.9,
+      "total_services": 4074,
+      "total_beneficiaries": 1713,
+      "avg_submitted": 132.43,
+      "avg_paid": 86.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 382383.82,
+      "total_services": 4867,
+      "total_beneficiaries": 1922,
+      "avg_submitted": 119.69,
+      "avg_paid": 87.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 439836.95,
+      "total_services": 6024,
+      "total_beneficiaries": 2022,
+      "avg_submitted": 115.97,
+      "avg_paid": 71.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 467613.83,
+      "total_services": 6575,
+      "total_beneficiaries": 2135,
+      "avg_submitted": 127.17,
+      "avg_paid": 75.69
+    },
+    {
+      "year": 2023,
+      "total_payments": 518881.86,
+      "total_services": 6932,
+      "total_beneficiaries": 2113,
+      "avg_submitted": 124.49,
+      "avg_paid": 72.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 13950,
+      "payments": 902432.07,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7083,
+      "payments": 560705.4,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1432,
+      "payments": 258344.74,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3401,
+      "payments": 230017.82,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1242,
+      "payments": 148854.41,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1857,
+      "payments": 126388.39,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 279,
+      "payments": 59971.9,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 504,
+      "payments": 51170.64,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 727,
+      "payments": 49863.44,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 395,
+      "payments": 38835.83,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 220,
+      "payments": 31840.33,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 166,
+      "payments": 24551.09,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 364,
+      "payments": 21223.07,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 287,
+      "payments": 19674.48,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 427,
+      "payments": 19153.94,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 326,
+      "payments": 16603.35,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 159,
+      "payments": 13794.74,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 162,
+      "payments": 13128.66,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "96132",
+      "description": "Neuropsychological testing evaluation by qualified health care professional, first 60 minutes",
+      "services": 80,
+      "payments": 9051.54,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 142,
+      "payments": 6379.31,
+      "avg_markup": 2.26
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2632640.96,
+    "total_services": 34877,
+    "total_beneficiaries": 13101,
+    "avg_markup_ratio": 1.56
+  }
+}

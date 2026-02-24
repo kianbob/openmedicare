@@ -1,0 +1,69 @@
+{
+  "name": "Seira Kurian",
+  "credentials": "MD, MPH",
+  "specialty": "Preventive Medicine",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 5914555.1,
+      "total_services": 222945,
+      "total_beneficiaries": 222668,
+      "avg_submitted": 100.0,
+      "avg_paid": 32.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 101513,
+      "payments": 3322997.28,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 102267,
+      "payments": 2086072.63,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "0012A",
+      "description": "Adm sarscov2 100mcg/0.5ml2nd",
+      "services": 9541,
+      "payments": 304069.23,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "0011A",
+      "description": "Adm sarscov2 100mcg/0.5ml1st",
+      "services": 8979,
+      "payments": 172332.91,
+      "avg_markup": 5.21
+    },
+    {
+      "code": "0031A",
+      "description": "Adm sarscov2 vac ad26 .5ml",
+      "services": 441,
+      "payments": 19884.69,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "0003A",
+      "description": "Fee covid-19 vac 1 booster",
+      "services": 204,
+      "payments": 9198.36,
+      "avg_markup": 2.22
+    }
+  ],
+  "overall": {
+    "years_active": 1,
+    "total_payments": 5914555.1,
+    "total_services": 222945,
+    "total_beneficiaries": 222668,
+    "avg_markup_ratio": 3.77
+  }
+}

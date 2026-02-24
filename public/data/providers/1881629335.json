@@ -1,0 +1,169 @@
+{
+  "name": "Alexander Kim",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Beverly Hills",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 257369.12,
+      "total_services": 3228,
+      "total_beneficiaries": 1369,
+      "avg_submitted": 214.98,
+      "avg_paid": 87.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 243095.36,
+      "total_services": 3014,
+      "total_beneficiaries": 1187,
+      "avg_submitted": 213.67,
+      "avg_paid": 88.12
+    },
+    {
+      "year": 2016,
+      "total_payments": 270938.42,
+      "total_services": 3450,
+      "total_beneficiaries": 1310,
+      "avg_submitted": 225.71,
+      "avg_paid": 95.42
+    },
+    {
+      "year": 2017,
+      "total_payments": 273853.51,
+      "total_services": 3494,
+      "total_beneficiaries": 1396,
+      "avg_submitted": 225.71,
+      "avg_paid": 95.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 226483.93,
+      "total_services": 2867,
+      "total_beneficiaries": 1078,
+      "avg_submitted": 246.65,
+      "avg_paid": 106.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 231727.17,
+      "total_services": 3004,
+      "total_beneficiaries": 1123,
+      "avg_submitted": 232.22,
+      "avg_paid": 104.01
+    },
+    {
+      "year": 2020,
+      "total_payments": 268039.56,
+      "total_services": 3169,
+      "total_beneficiaries": 1248,
+      "avg_submitted": 416.21,
+      "avg_paid": 100.73
+    },
+    {
+      "year": 2021,
+      "total_payments": 266237.99,
+      "total_services": 3121,
+      "total_beneficiaries": 1283,
+      "avg_submitted": 600.0,
+      "avg_paid": 111.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 246522.15,
+      "total_services": 2898,
+      "total_beneficiaries": 1210,
+      "avg_submitted": 675.0,
+      "avg_paid": 103.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 160675.24,
+      "total_services": 1960,
+      "total_beneficiaries": 653,
+      "avg_submitted": 699.9,
+      "avg_paid": 104.11
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19747,
+      "payments": 1236592.23,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2936,
+      "payments": 506752.82,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3921,
+      "payments": 351029.4,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1955,
+      "payments": 224575.28,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 1139,
+      "payments": 92933.86,
+      "avg_markup": 7.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 266,
+      "payments": 15841.5,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 72,
+      "payments": 10101.5,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 145,
+      "payments": 5017.0,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 12,
+      "payments": 1055.62,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12,
+      "payments": 1043.24,
+      "avg_markup": 1.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2444942.45,
+    "total_services": 30205,
+    "total_beneficiaries": 11857,
+    "avg_markup_ratio": 3.85
+  }
+}

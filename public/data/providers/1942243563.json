@@ -1,0 +1,239 @@
+{
+  "name": "Jason Boutros",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Pasadena",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 302194.6,
+      "total_services": 6196,
+      "total_beneficiaries": 2160,
+      "avg_submitted": 104.06,
+      "avg_paid": 55.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 552704.05,
+      "total_services": 10002,
+      "total_beneficiaries": 2880,
+      "avg_submitted": 104.78,
+      "avg_paid": 57.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 542328.16,
+      "total_services": 9418,
+      "total_beneficiaries": 2540,
+      "avg_submitted": 111.36,
+      "avg_paid": 63.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 572951.32,
+      "total_services": 11279,
+      "total_beneficiaries": 3556,
+      "avg_submitted": 104.51,
+      "avg_paid": 56.73
+    },
+    {
+      "year": 2018,
+      "total_payments": 622032.0,
+      "total_services": 11173,
+      "total_beneficiaries": 3606,
+      "avg_submitted": 94.19,
+      "avg_paid": 49.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 572086.11,
+      "total_services": 10851,
+      "total_beneficiaries": 3560,
+      "avg_submitted": 92.89,
+      "avg_paid": 49.2
+    },
+    {
+      "year": 2020,
+      "total_payments": 610364.0,
+      "total_services": 10758,
+      "total_beneficiaries": 2715,
+      "avg_submitted": 89.27,
+      "avg_paid": 48.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 703278.59,
+      "total_services": 12441,
+      "total_beneficiaries": 2864,
+      "avg_submitted": 91.31,
+      "avg_paid": 50.73
+    },
+    {
+      "year": 2022,
+      "total_payments": 565440.07,
+      "total_services": 9696,
+      "total_beneficiaries": 2729,
+      "avg_submitted": 99.29,
+      "avg_paid": 52.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 481556.85,
+      "total_services": 7734,
+      "total_beneficiaries": 2376,
+      "avg_submitted": 95.98,
+      "avg_paid": 49.95
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 22008,
+      "payments": 1332196.81,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 21437,
+      "payments": 1300199.75,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 15048,
+      "payments": 1285189.61,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3429,
+      "payments": 632255.9,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 785,
+      "payments": 129942.09,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 873,
+      "payments": 118956.63,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1145,
+      "payments": 100983.71,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 2342,
+      "payments": 80177.86,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1718,
+      "payments": 79419.98,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 3556,
+      "payments": 56148.19,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient use of aerosol generator, nebulizer, metered dose inhaler or intermittent positive pressure breathing (IPPB) device",
+      "services": 3574,
+      "payments": 51528.22,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 3536,
+      "payments": 46203.19,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "J0129",
+      "description": "Injection, abatacept, 10 mg (code may be used for medicare when drug administered under the direct supervision of a physician, not for use when drug is self administered)",
+      "services": 959,
+      "payments": 32957.89,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 286,
+      "payments": 31706.6,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 773,
+      "payments": 27792.99,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "82947",
+      "description": "Blood glucose (sugar) level",
+      "services": 6310,
+      "payments": 26596.11,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 289,
+      "payments": 21436.35,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 107,
+      "payments": 19387.66,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 162,
+      "payments": 17474.57,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 4980,
+      "payments": 16242.51,
+      "avg_markup": 4.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5524935.74,
+    "total_services": 99548,
+    "total_beneficiaries": 28986,
+    "avg_markup_ratio": 1.64
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Chonglun Xie",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Jacksonville",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 578365.23,
+      "total_services": 7813,
+      "total_beneficiaries": 2433,
+      "avg_submitted": 166.04,
+      "avg_paid": 82.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 491423.26,
+      "total_services": 7238,
+      "total_beneficiaries": 1881,
+      "avg_submitted": 153.05,
+      "avg_paid": 72.07
+    },
+    {
+      "year": 2016,
+      "total_payments": 464483.55,
+      "total_services": 7115,
+      "total_beneficiaries": 1959,
+      "avg_submitted": 153.79,
+      "avg_paid": 72.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 483902.46,
+      "total_services": 7148,
+      "total_beneficiaries": 2279,
+      "avg_submitted": 142.39,
+      "avg_paid": 72.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 447467.09,
+      "total_services": 6808,
+      "total_beneficiaries": 1957,
+      "avg_submitted": 151.49,
+      "avg_paid": 74.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 413697.88,
+      "total_services": 5947,
+      "total_beneficiaries": 1904,
+      "avg_submitted": 156.07,
+      "avg_paid": 81.31
+    },
+    {
+      "year": 2020,
+      "total_payments": 419533.3,
+      "total_services": 5890,
+      "total_beneficiaries": 1648,
+      "avg_submitted": 166.87,
+      "avg_paid": 81.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 381982.8,
+      "total_services": 5412,
+      "total_beneficiaries": 1915,
+      "avg_submitted": 154.23,
+      "avg_paid": 68.08
+    },
+    {
+      "year": 2022,
+      "total_payments": 318884.44,
+      "total_services": 4602,
+      "total_beneficiaries": 1540,
+      "avg_submitted": 156.66,
+      "avg_paid": 75.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 323273.67,
+      "total_services": 4237,
+      "total_beneficiaries": 1453,
+      "avg_submitted": 157.87,
+      "avg_paid": 80.99
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 28718,
+      "payments": 1663617.51,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 15698,
+      "payments": 1140870.07,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2945,
+      "payments": 306351.84,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3900,
+      "payments": 303230.4,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2547,
+      "payments": 276677.68,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2220,
+      "payments": 183449.51,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 452,
+      "payments": 72719.92,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 835,
+      "payments": 48755.97,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 590,
+      "payments": 43398.84,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 463,
+      "payments": 40023.55,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 418,
+      "payments": 35274.36,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 333,
+      "payments": 35186.71,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 247,
+      "payments": 33601.0,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 785,
+      "payments": 32677.12,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 556,
+      "payments": 28316.7,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99215",
+      "description": "Established patient outpatient visit, total time 40-54 minutes",
+      "services": 96,
+      "payments": 13107.57,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 108,
+      "payments": 12282.04,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 50,
+      "payments": 8939.15,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 99,
+      "payments": 8247.56,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 348,
+      "payments": 7901.62,
+      "avg_markup": 1.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4323013.68,
+    "total_services": 62210,
+    "total_beneficiaries": 18969,
+    "avg_markup_ratio": 2.0
+  }
+}

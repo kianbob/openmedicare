@@ -1,0 +1,94 @@
+{
+  "name": "Action Delivery Service Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Ashland",
+  "state": "KY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 717280.29,
+      "total_services": 8251,
+      "total_beneficiaries": 2935,
+      "avg_submitted": 492.4,
+      "avg_paid": 177.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 702685.84,
+      "total_services": 7736,
+      "total_beneficiaries": 3601,
+      "avg_submitted": 492.38,
+      "avg_paid": 179.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 658179.83,
+      "total_services": 7252,
+      "total_beneficiaries": 2982,
+      "avg_submitted": 492.4,
+      "avg_paid": 179.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 531530.08,
+      "total_services": 5908,
+      "total_beneficiaries": 2288,
+      "avg_submitted": 492.4,
+      "avg_paid": 176.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 266722.5,
+      "total_services": 2794,
+      "total_beneficiaries": 1540,
+      "avg_submitted": 492.47,
+      "avg_paid": 181.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12588,
+      "payments": 1888388.34,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2591,
+      "payments": 652701.11,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 644,
+      "payments": 192862.29,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 15841,
+      "payments": 90625.72,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 277,
+      "payments": 51821.08,
+      "avg_markup": 3.47
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 2876398.54,
+    "total_services": 31941,
+    "total_beneficiaries": 13346,
+    "avg_markup_ratio": 3.01
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Joseph Tu",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Bronx",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 305219.24,
+      "total_services": 3783,
+      "total_beneficiaries": 504,
+      "avg_submitted": 189.34,
+      "avg_paid": 94.83
+    },
+    {
+      "year": 2015,
+      "total_payments": 235967.0,
+      "total_services": 2907,
+      "total_beneficiaries": 254,
+      "avg_submitted": 191.5,
+      "avg_paid": 112.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 173033.88,
+      "total_services": 2185,
+      "total_beneficiaries": 243,
+      "avg_submitted": 168.12,
+      "avg_paid": 92.63
+    },
+    {
+      "year": 2017,
+      "total_payments": 247347.03,
+      "total_services": 3076,
+      "total_beneficiaries": 192,
+      "avg_submitted": 194.5,
+      "avg_paid": 111.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 212253.63,
+      "total_services": 2584,
+      "total_beneficiaries": 148,
+      "avg_submitted": 166.59,
+      "avg_paid": 99.02
+    },
+    {
+      "year": 2019,
+      "total_payments": 254051.63,
+      "total_services": 3659,
+      "total_beneficiaries": 329,
+      "avg_submitted": 165.07,
+      "avg_paid": 97.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 235183.17,
+      "total_services": 3336,
+      "total_beneficiaries": 184,
+      "avg_submitted": 167.33,
+      "avg_paid": 100.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 205391.8,
+      "total_services": 2970,
+      "total_beneficiaries": 151,
+      "avg_submitted": 168.33,
+      "avg_paid": 101.72
+    },
+    {
+      "year": 2022,
+      "total_payments": 231794.65,
+      "total_services": 3387,
+      "total_beneficiaries": 219,
+      "avg_submitted": 167.0,
+      "avg_paid": 99.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 261293.16,
+      "total_services": 3214,
+      "total_beneficiaries": 200,
+      "avg_submitted": 195.2,
+      "avg_paid": 117.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 17676,
+      "payments": 1427558.04,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 12595,
+      "payments": 810129.61,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 783,
+      "payments": 117277.41,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",
+      "services": 47,
+      "payments": 6570.13,
+      "avg_markup": 1.66
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2361535.19,
+    "total_services": 31101,
+    "total_beneficiaries": 2424,
+    "avg_markup_ratio": 1.74
+  }
+}

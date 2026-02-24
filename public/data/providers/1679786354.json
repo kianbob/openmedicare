@@ -1,0 +1,239 @@
+{
+  "name": "John Reardon",
+  "credentials": "MD",
+  "specialty": "Hematology-Oncology",
+  "city": "Montgomery",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 384029.57,
+      "total_services": 15833,
+      "total_beneficiaries": 6751,
+      "avg_submitted": 64.56,
+      "avg_paid": 33.58
+    },
+    {
+      "year": 2015,
+      "total_payments": 386188.56,
+      "total_services": 16242,
+      "total_beneficiaries": 7565,
+      "avg_submitted": 68.18,
+      "avg_paid": 35.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 361781.7,
+      "total_services": 15128,
+      "total_beneficiaries": 6701,
+      "avg_submitted": 67.65,
+      "avg_paid": 37.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 288189.26,
+      "total_services": 12690,
+      "total_beneficiaries": 5910,
+      "avg_submitted": 45.23,
+      "avg_paid": 23.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 284131.08,
+      "total_services": 12385,
+      "total_beneficiaries": 5316,
+      "avg_submitted": 44.94,
+      "avg_paid": 24.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 261226.65,
+      "total_services": 11720,
+      "total_beneficiaries": 5332,
+      "avg_submitted": 51.22,
+      "avg_paid": 23.25
+    },
+    {
+      "year": 2020,
+      "total_payments": 259344.41,
+      "total_services": 11353,
+      "total_beneficiaries": 4729,
+      "avg_submitted": 60.46,
+      "avg_paid": 24.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 266156.26,
+      "total_services": 10142,
+      "total_beneficiaries": 4260,
+      "avg_submitted": 65.9,
+      "avg_paid": 28.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 41514.96,
+      "total_services": 504,
+      "total_beneficiaries": 353,
+      "avg_submitted": 265.86,
+      "avg_paid": 90.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 47067.96,
+      "total_services": 576,
+      "total_beneficiaries": 400,
+      "avg_submitted": 265.83,
+      "avg_paid": 86.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 16381,
+      "payments": 1223008.32,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 21444,
+      "payments": 262678.06,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 26766,
+      "payments": 255597.48,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 911,
+      "payments": 131955.55,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 871,
+      "payments": 94977.71,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1540,
+      "payments": 73584.8,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 3508,
+      "payments": 57821.62,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "84466",
+      "description": "Transferrin (iron binding protein) level",
+      "services": 3480,
+      "payments": 53705.49,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "82378",
+      "description": "Carcinoembryonic antigen (CEA) protein level",
+      "services": 1503,
+      "payments": 34901.8,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 307,
+      "payments": 33667.74,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 3421,
+      "payments": 28393.51,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "83540",
+      "description": "Iron level",
+      "services": 3481,
+      "payments": 27313.95,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 1059,
+      "payments": 22884.99,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 1946,
+      "payments": 20618.14,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "88361",
+      "description": "Microscopic genetic analysis of tumor",
+      "services": 180,
+      "payments": 20161.22,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 982,
+      "payments": 18866.62,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "86320",
+      "description": "Immunologic analysis technique on serum",
+      "services": 598,
+      "payments": 17468.89,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "82784",
+      "description": "Gammaglobulin (immune system protein) measurement",
+      "services": 1477,
+      "payments": 17014.94,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "83883",
+      "description": "Nephelometry, test method using light",
+      "services": 936,
+      "payments": 15431.99,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 895,
+      "payments": 14753.44,
+      "avg_markup": 1.84
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2579630.41,
+    "total_services": 106573,
+    "total_beneficiaries": 47317,
+    "avg_markup_ratio": 2.1
+  }
+}

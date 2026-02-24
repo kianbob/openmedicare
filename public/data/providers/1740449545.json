@@ -1,0 +1,195 @@
+{
+  "name": "Jerry Capote",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Miami Beach",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 100932.67,
+      "total_services": 887,
+      "total_beneficiaries": 378,
+      "avg_submitted": 192.39,
+      "avg_paid": 121.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 119623.36,
+      "total_services": 1184,
+      "total_beneficiaries": 604,
+      "avg_submitted": 159.7,
+      "avg_paid": 86.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 111291.52,
+      "total_services": 1119,
+      "total_beneficiaries": 459,
+      "avg_submitted": 246.26,
+      "avg_paid": 110.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 369656.79,
+      "total_services": 4144,
+      "total_beneficiaries": 2077,
+      "avg_submitted": 332.35,
+      "avg_paid": 103.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 426945.98,
+      "total_services": 5608,
+      "total_beneficiaries": 2540,
+      "avg_submitted": 326.8,
+      "avg_paid": 102.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 478727.82,
+      "total_services": 6890,
+      "total_beneficiaries": 2400,
+      "avg_submitted": 271.11,
+      "avg_paid": 85.87
+    },
+    {
+      "year": 2020,
+      "total_payments": 667136.44,
+      "total_services": 7513,
+      "total_beneficiaries": 2570,
+      "avg_submitted": 368.09,
+      "avg_paid": 118.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 259353.1,
+      "total_services": 3269,
+      "total_beneficiaries": 1044,
+      "avg_submitted": 322.59,
+      "avg_paid": 111.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8961,
+      "payments": 800206.57,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12265,
+      "payments": 761544.03,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2680,
+      "payments": 518258.24,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1732,
+      "payments": 205276.32,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 4016,
+      "payments": 136439.98,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 320,
+      "payments": 55277.23,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 314,
+      "payments": 26146.84,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 161,
+      "payments": 21101.15,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 23,
+      "payments": 3099.47,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 40,
+      "payments": 2450.58,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 25,
+      "payments": 2228.0,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 11,
+      "payments": 713.21,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 12,
+      "payments": 458.0,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 22,
+      "payments": 227.2,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 18,
+      "payments": 139.96,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 14,
+      "payments": 100.9,
+      "avg_markup": 16.65
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2533667.68,
+    "total_services": 30614,
+    "total_beneficiaries": 12072,
+    "avg_markup_ratio": 2.97
+  }
+}

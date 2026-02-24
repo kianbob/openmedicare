@@ -1,0 +1,239 @@
+{
+  "name": "Donald Liss",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Englewood",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 364399.59,
+      "total_services": 11437,
+      "total_beneficiaries": 2380,
+      "avg_submitted": 125.72,
+      "avg_paid": 45.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 444600.75,
+      "total_services": 14859,
+      "total_beneficiaries": 2984,
+      "avg_submitted": 132.66,
+      "avg_paid": 45.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 449781.13,
+      "total_services": 15418,
+      "total_beneficiaries": 2848,
+      "avg_submitted": 124.16,
+      "avg_paid": 46.46
+    },
+    {
+      "year": 2017,
+      "total_payments": 420552.24,
+      "total_services": 14570,
+      "total_beneficiaries": 2789,
+      "avg_submitted": 142.3,
+      "avg_paid": 55.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 480044.81,
+      "total_services": 16501,
+      "total_beneficiaries": 2928,
+      "avg_submitted": 137.16,
+      "avg_paid": 52.95
+    },
+    {
+      "year": 2019,
+      "total_payments": 448206.45,
+      "total_services": 15551,
+      "total_beneficiaries": 2534,
+      "avg_submitted": 147.79,
+      "avg_paid": 58.04
+    },
+    {
+      "year": 2020,
+      "total_payments": 370887.51,
+      "total_services": 11141,
+      "total_beneficiaries": 2164,
+      "avg_submitted": 141.69,
+      "avg_paid": 56.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 529755.61,
+      "total_services": 17183,
+      "total_beneficiaries": 3044,
+      "avg_submitted": 135.54,
+      "avg_paid": 60.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 474640.29,
+      "total_services": 16942,
+      "total_beneficiaries": 2871,
+      "avg_submitted": 137.46,
+      "avg_paid": 59.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 501420.7,
+      "total_services": 19608,
+      "total_beneficiaries": 2873,
+      "avg_submitted": 136.49,
+      "avg_paid": 58.34
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10770,
+      "payments": 1071269.61,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "97110",
+      "description": "Therapeutic exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 36908,
+      "payments": 810861.48,
+      "avg_markup": 6.66
+    },
+    {
+      "code": "97140",
+      "description": "Manual (physical) therapy techniques to 1 or more regions, each 15 minutes",
+      "services": 19424,
+      "payments": 366480.81,
+      "avg_markup": 7.55
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2752,
+      "payments": 350940.05,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "97124",
+      "description": "Therapeutic massage to 1 or more areas, each 15 minutes",
+      "services": 12815,
+      "payments": 289420.07,
+      "avg_markup": 4.46
+    },
+    {
+      "code": "97150",
+      "description": "Therapeutic procedures in a group setting",
+      "services": 23162,
+      "payments": 276705.45,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "97112",
+      "description": "Therapeutic procedure to re-educate brain-to-nerve-to-muscle function, each 15 minutes",
+      "services": 8499,
+      "payments": 225254.65,
+      "avg_markup": 5.55
+    },
+    {
+      "code": "97530",
+      "description": "Therapeutic activities to improve function, with one-on-one contact between patient and provider, each 15 minutes",
+      "services": 6919,
+      "payments": 220102.71,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "G0283",
+      "description": "Electrical stimulation (unattended), to one or more areas for indication(s) other than wound care, as part of a therapy plan of care",
+      "services": 17878,
+      "payments": 158494.75,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 862,
+      "payments": 157938.49,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "97162",
+      "description": "Evaluation of physical therapy, typically 30 minutes",
+      "services": 1231,
+      "payments": 96832.81,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 489,
+      "payments": 66999.46,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "97001",
+      "description": "Physical therapy evaluation",
+      "services": 828,
+      "payments": 52671.17,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "97535",
+      "description": "Self-care or home management training, each 15 minutes",
+      "services": 1961,
+      "payments": 48980.04,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 562,
+      "payments": 36569.94,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 994,
+      "payments": 34841.45,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "20553",
+      "description": "Injections of trigger points in 3 or more muscles",
+      "services": 564,
+      "payments": 32176.32,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "97161",
+      "description": "Evaluation of physical therapy, typically 20 minutes",
+      "services": 384,
+      "payments": 31231.26,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "97163",
+      "description": "Evaluation of physical therapy, typically 45 minutes",
+      "services": 282,
+      "payments": 21626.09,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "97022",
+      "description": "Application of whirlpool therapy to 1 or more areas",
+      "services": 1459,
+      "payments": 19800.58,
+      "avg_markup": 2.95
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4484289.07,
+    "total_services": 153210,
+    "total_beneficiaries": 27415,
+    "avg_markup_ratio": 3.81
+  }
+}

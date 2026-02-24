@@ -1,0 +1,239 @@
+{
+  "name": "Patrick Gray",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Ponca City",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 176813.44,
+      "total_services": 3632,
+      "total_beneficiaries": 1758,
+      "avg_submitted": 125.24,
+      "avg_paid": 51.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 219396.32,
+      "total_services": 4184,
+      "total_beneficiaries": 2240,
+      "avg_submitted": 119.65,
+      "avg_paid": 57.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 230696.62,
+      "total_services": 5161,
+      "total_beneficiaries": 3445,
+      "avg_submitted": 101.87,
+      "avg_paid": 53.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 383157.78,
+      "total_services": 7980,
+      "total_beneficiaries": 4661,
+      "avg_submitted": 108.84,
+      "avg_paid": 56.76
+    },
+    {
+      "year": 2018,
+      "total_payments": 447780.9,
+      "total_services": 9120,
+      "total_beneficiaries": 4523,
+      "avg_submitted": 115.5,
+      "avg_paid": 57.44
+    },
+    {
+      "year": 2019,
+      "total_payments": 426088.1,
+      "total_services": 9003,
+      "total_beneficiaries": 4397,
+      "avg_submitted": 117.59,
+      "avg_paid": 59.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 424670.06,
+      "total_services": 10144,
+      "total_beneficiaries": 3910,
+      "avg_submitted": 108.75,
+      "avg_paid": 51.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 267163.19,
+      "total_services": 5333,
+      "total_beneficiaries": 2088,
+      "avg_submitted": 101.51,
+      "avg_paid": 47.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 234124.17,
+      "total_services": 4532,
+      "total_beneficiaries": 1712,
+      "avg_submitted": 98.95,
+      "avg_paid": 45.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 7700.48,
+      "total_services": 270,
+      "total_beneficiaries": 249,
+      "avg_submitted": 128.5,
+      "avg_paid": 25.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11132,
+      "payments": 759266.14,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 12582,
+      "payments": 569997.6,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 12307,
+      "payments": 372070.29,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1481,
+      "payments": 166691.04,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1951,
+      "payments": 150904.74,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 616,
+      "payments": 98543.79,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1319,
+      "payments": 72033.82,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 350,
+      "payments": 59445.38,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2058",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time directed by a physician or other qualified health care professional, per calendar month (list separately in addition to code for primary procedure). (do not report g2058 fo",
+      "services": 1853,
+      "payments": 52816.07,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G0442",
+      "description": "Annual alcohol misuse screening, 15 minutes",
+      "services": 2419,
+      "payments": 40766.49,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 1355,
+      "payments": 40368.96,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 380,
+      "payments": 38461.45,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99484",
+      "description": "Care management services for behavioral health conditions, at least 20 minutes clinical staff time",
+      "services": 1084,
+      "payments": 36840.07,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 405,
+      "payments": 32640.48,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 312,
+      "payments": 29528.07,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 516,
+      "payments": 21373.96,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 1214,
+      "payments": 20108.1,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 529,
+      "payments": 19580.53,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 314,
+      "payments": 18785.88,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 651,
+      "payments": 18216.31,
+      "avg_markup": 2.36
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2817591.05,
+    "total_services": 59359,
+    "total_beneficiaries": 28983,
+    "avg_markup_ratio": 1.93
+  }
+}

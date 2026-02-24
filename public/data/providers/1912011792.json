@@ -1,0 +1,215 @@
+{
+  "name": "David Coffey",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Oneida",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 810591.63,
+      "total_services": 27819,
+      "total_beneficiaries": 9617,
+      "avg_submitted": 65.41,
+      "avg_paid": 32.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 862358.61,
+      "total_services": 24943,
+      "total_beneficiaries": 8884,
+      "avg_submitted": 97.35,
+      "avg_paid": 32.12
+    },
+    {
+      "year": 2016,
+      "total_payments": 899178.53,
+      "total_services": 23848,
+      "total_beneficiaries": 9371,
+      "avg_submitted": 124.29,
+      "avg_paid": 38.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 928824.41,
+      "total_services": 24611,
+      "total_beneficiaries": 10404,
+      "avg_submitted": 152.98,
+      "avg_paid": 40.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 415253.76,
+      "total_services": 12956,
+      "total_beneficiaries": 6483,
+      "avg_submitted": 156.04,
+      "avg_paid": 42.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 234296.25,
+      "total_services": 7504,
+      "total_beneficiaries": 3857,
+      "avg_submitted": 99.49,
+      "avg_paid": 34.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 36258.17,
+      "total_services": 1313,
+      "total_beneficiaries": 618,
+      "avg_submitted": 50.82,
+      "avg_paid": 16.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 39601,
+      "payments": 1918529.04,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 3736,
+      "payments": 358909.23,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 2439,
+      "payments": 188056.71,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1965,
+      "payments": 142165.27,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "95943",
+      "description": "Testing of autonomic (parasympathetic and sympathetic) nervous system function",
+      "services": 875,
+      "payments": 125057.58,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 875,
+      "payments": 90482.34,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "77002",
+      "description": "Fluoroscopic guidance for insertion of needle",
+      "services": 1320,
+      "payments": 86525.07,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 5056,
+      "payments": 79755.96,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1661,
+      "payments": 75625.68,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 7440,
+      "payments": 74990.08,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 1352,
+      "payments": 63581.19,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "20552",
+      "description": "Injections of trigger points in 1 or 2 muscles",
+      "services": 1604,
+      "payments": 62482.89,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 3412,
+      "payments": 62411.63,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 242,
+      "payments": 37762.57,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "72100",
+      "description": "X-ray of lower and sacral spine, 2 or 3 views",
+      "services": 1617,
+      "payments": 36147.94,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 888,
+      "payments": 35742.39,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test def 22+ classes",
+      "services": 193,
+      "payments": 34907.2,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "82962",
+      "description": "Blood glucose (sugar) test performed by hand-held instrument",
+      "services": 9469,
+      "payments": 29565.93,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "72070",
+      "description": "X-ray of middle spine, 3 views",
+      "services": 1231,
+      "payments": 27405.59,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2211,
+      "payments": 25269.63,
+      "avg_markup": 7.51
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 4186761.35,
+    "total_services": 122994,
+    "total_beneficiaries": 49234,
+    "avg_markup_ratio": 2.27
+  }
+}

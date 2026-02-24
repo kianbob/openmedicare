@@ -1,0 +1,134 @@
+{
+  "name": "City Of Waterloo",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Waterloo",
+  "state": "IA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 729999.5,
+      "total_services": 4992,
+      "total_beneficiaries": 3379,
+      "avg_submitted": 498.61,
+      "avg_paid": 231.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 751629.66,
+      "total_services": 5038,
+      "total_beneficiaries": 3377,
+      "avg_submitted": 528.96,
+      "avg_paid": 238.17
+    },
+    {
+      "year": 2016,
+      "total_payments": 598372.47,
+      "total_services": 4166,
+      "total_beneficiaries": 2655,
+      "avg_submitted": 573.98,
+      "avg_paid": 250.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 617448.3,
+      "total_services": 4178,
+      "total_beneficiaries": 2620,
+      "avg_submitted": 581.61,
+      "avg_paid": 258.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 579827.5,
+      "total_services": 3883,
+      "total_beneficiaries": 2559,
+      "avg_submitted": 586.41,
+      "avg_paid": 261.29
+    },
+    {
+      "year": 2019,
+      "total_payments": 472977.4,
+      "total_services": 3111,
+      "total_beneficiaries": 2236,
+      "avg_submitted": 592.72,
+      "avg_paid": 265.01
+    },
+    {
+      "year": 2020,
+      "total_payments": 488420.16,
+      "total_services": 3111,
+      "total_beneficiaries": 2141,
+      "avg_submitted": 603.31,
+      "avg_paid": 272.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 478172.36,
+      "total_services": 3039,
+      "total_beneficiaries": 2113,
+      "avg_submitted": 564.0,
+      "avg_paid": 251.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 516858.73,
+      "total_services": 3182,
+      "total_beneficiaries": 2099,
+      "avg_submitted": 608.25,
+      "avg_paid": 283.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 500102.39,
+      "total_services": 2792,
+      "total_beneficiaries": 1791,
+      "avg_submitted": 608.25,
+      "avg_paid": 308.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 10181,
+      "payments": 3259290.57,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 8214,
+      "payments": 2207347.04,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 321,
+      "payments": 150493.58,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18739,
+      "payments": 110596.65,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 37,
+      "payments": 6080.65,
+      "avg_markup": 2.31
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5733808.48,
+    "total_services": 37492,
+    "total_beneficiaries": 24970,
+    "avg_markup_ratio": 2.23
+  }
+}

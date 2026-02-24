@@ -1,0 +1,239 @@
+{
+  "name": "Mariam Hasan",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Oakland",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 51543.0,
+      "total_services": 540,
+      "total_beneficiaries": 296,
+      "avg_submitted": 198.35,
+      "avg_paid": 103.79
+    },
+    {
+      "year": 2015,
+      "total_payments": 209742.38,
+      "total_services": 2121,
+      "total_beneficiaries": 1006,
+      "avg_submitted": 171.91,
+      "avg_paid": 105.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 223296.2,
+      "total_services": 2334,
+      "total_beneficiaries": 1270,
+      "avg_submitted": 185.79,
+      "avg_paid": 97.28
+    },
+    {
+      "year": 2017,
+      "total_payments": 111301.78,
+      "total_services": 1291,
+      "total_beneficiaries": 760,
+      "avg_submitted": 337.39,
+      "avg_paid": 93.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 175270.9,
+      "total_services": 2031,
+      "total_beneficiaries": 1141,
+      "avg_submitted": 371.7,
+      "avg_paid": 97.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 151259.73,
+      "total_services": 1741,
+      "total_beneficiaries": 987,
+      "avg_submitted": 495.55,
+      "avg_paid": 97.31
+    },
+    {
+      "year": 2020,
+      "total_payments": 264114.11,
+      "total_services": 2385,
+      "total_beneficiaries": 1737,
+      "avg_submitted": 177.29,
+      "avg_paid": 115.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 1536474.51,
+      "total_services": 15226,
+      "total_beneficiaries": 8891,
+      "avg_submitted": 172.62,
+      "avg_paid": 108.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 402723.81,
+      "total_services": 4584,
+      "total_beneficiaries": 2158,
+      "avg_submitted": 168.08,
+      "avg_paid": 92.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 20060.12,
+      "total_services": 175,
+      "total_beneficiaries": 83,
+      "avg_submitted": 252.14,
+      "avg_paid": 116.19
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 8046,
+      "payments": 727891.21,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 2715,
+      "payments": 408567.82,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2862,
+      "payments": 263464.16,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1047,
+      "payments": 185463.46,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 864,
+      "payments": 155740.22,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2124,
+      "payments": 136181.03,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1660,
+      "payments": 128804.16,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 2121,
+      "payments": 99780.83,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1155,
+      "payments": 92228.32,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 903,
+      "payments": 87541.96,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 1018,
+      "payments": 81461.37,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 533,
+      "payments": 75570.38,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1182,
+      "payments": 73725.93,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 387,
+      "payments": 72069.71,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 287,
+      "payments": 68884.01,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "93886",
+      "description": "Ultrasound scanning of head and neck vessel blood flow (inside the brain)",
+      "services": 210,
+      "payments": 53909.1,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imp",
+      "services": 1230,
+      "payments": 45116.0,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 229,
+      "payments": 42722.32,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 282,
+      "payments": 41889.02,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 283,
+      "payments": 41409.71,
+      "avg_markup": 1.78
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3145786.54,
+    "total_services": 32428,
+    "total_beneficiaries": 18329,
+    "avg_markup_ratio": 2.01
+  }
+}

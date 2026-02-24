@@ -1,0 +1,239 @@
+{
+  "name": "Jarvis Tzeng",
+  "credentials": "D.O.",
+  "specialty": "Internal Medicine",
+  "city": "Pensacola",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 191144.55,
+      "total_services": 2854,
+      "total_beneficiaries": 792,
+      "avg_submitted": 293.38,
+      "avg_paid": 71.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 252951.82,
+      "total_services": 3611,
+      "total_beneficiaries": 1024,
+      "avg_submitted": 294.25,
+      "avg_paid": 69.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 235012.79,
+      "total_services": 3435,
+      "total_beneficiaries": 930,
+      "avg_submitted": 280.28,
+      "avg_paid": 65.48
+    },
+    {
+      "year": 2017,
+      "total_payments": 331895.76,
+      "total_services": 5306,
+      "total_beneficiaries": 1251,
+      "avg_submitted": 294.16,
+      "avg_paid": 68.99
+    },
+    {
+      "year": 2018,
+      "total_payments": 566336.44,
+      "total_services": 8353,
+      "total_beneficiaries": 2120,
+      "avg_submitted": 336.53,
+      "avg_paid": 84.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 636493.84,
+      "total_services": 9814,
+      "total_beneficiaries": 2767,
+      "avg_submitted": 308.97,
+      "avg_paid": 75.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 678764.94,
+      "total_services": 10136,
+      "total_beneficiaries": 2739,
+      "avg_submitted": 295.45,
+      "avg_paid": 76.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 693361.57,
+      "total_services": 10280,
+      "total_beneficiaries": 3146,
+      "avg_submitted": 322.35,
+      "avg_paid": 81.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 298911.66,
+      "total_services": 4639,
+      "total_beneficiaries": 2036,
+      "avg_submitted": 294.46,
+      "avg_paid": 73.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 163242.51,
+      "total_services": 2292,
+      "total_beneficiaries": 1290,
+      "avg_submitted": 282.5,
+      "avg_paid": 71.78
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 22148,
+      "payments": 1560842.97,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 23550,
+      "payments": 1252925.29,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2269,
+      "payments": 289462.06,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2215,
+      "payments": 222971.6,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1942,
+      "payments": 201991.24,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 1454,
+      "payments": 144567.91,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 2568,
+      "payments": 86870.78,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 1391,
+      "payments": 72615.63,
+      "avg_markup": 6.83
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 794,
+      "payments": 53503.9,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 476,
+      "payments": 49597.84,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 528,
+      "payments": 38404.83,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 180,
+      "payments": 11046.82,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 78,
+      "payments": 11039.07,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "11045",
+      "description": "Removal of skin and tissue",
+      "services": 500,
+      "payments": 10655.11,
+      "avg_markup": 5.99
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 179,
+      "payments": 10048.89,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 225,
+      "payments": 6882.33,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 47,
+      "payments": 6741.08,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 50,
+      "payments": 5411.61,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 33,
+      "payments": 5197.33,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 21,
+      "payments": 3551.06,
+      "avg_markup": 3.78
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4048115.88,
+    "total_services": 60720,
+    "total_beneficiaries": 18095,
+    "avg_markup_ratio": 3.84
+  }
+}

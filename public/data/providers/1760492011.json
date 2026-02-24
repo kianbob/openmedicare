@@ -1,0 +1,239 @@
+{
+  "name": "Ronald Barnett",
+  "credentials": "DO",
+  "specialty": "Geriatric Medicine",
+  "city": "Livonia",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 633198.59,
+      "total_services": 11449,
+      "total_beneficiaries": 5697,
+      "avg_submitted": 108.21,
+      "avg_paid": 47.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 589240.19,
+      "total_services": 11057,
+      "total_beneficiaries": 5536,
+      "avg_submitted": 116.17,
+      "avg_paid": 51.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 539950.97,
+      "total_services": 10003,
+      "total_beneficiaries": 5201,
+      "avg_submitted": 127.7,
+      "avg_paid": 51.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 516034.18,
+      "total_services": 9109,
+      "total_beneficiaries": 4828,
+      "avg_submitted": 136.22,
+      "avg_paid": 51.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 477217.48,
+      "total_services": 8051,
+      "total_beneficiaries": 4307,
+      "avg_submitted": 141.38,
+      "avg_paid": 53.44
+    },
+    {
+      "year": 2019,
+      "total_payments": 342451.76,
+      "total_services": 5398,
+      "total_beneficiaries": 3127,
+      "avg_submitted": 161.61,
+      "avg_paid": 64.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 286923.83,
+      "total_services": 4449,
+      "total_beneficiaries": 2207,
+      "avg_submitted": 144.66,
+      "avg_paid": 52.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 264063.44,
+      "total_services": 3810,
+      "total_beneficiaries": 1842,
+      "avg_submitted": 169.93,
+      "avg_paid": 59.66
+    },
+    {
+      "year": 2022,
+      "total_payments": 185759.55,
+      "total_services": 2726,
+      "total_beneficiaries": 1405,
+      "avg_submitted": 189.42,
+      "avg_paid": 62.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 109709.36,
+      "total_services": 1555,
+      "total_beneficiaries": 680,
+      "avg_submitted": 267.0,
+      "avg_paid": 83.19
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15834,
+      "payments": 928436.47,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 12440,
+      "payments": 652220.08,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2787,
+      "payments": 454818.81,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 3020,
+      "payments": 403446.03,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7957,
+      "payments": 380974.57,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2641,
+      "payments": 227057.99,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1868,
+      "payments": 137820.65,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 995,
+      "payments": 110118.55,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 762,
+      "payments": 79187.98,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 815,
+      "payments": 59642.43,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1285,
+      "payments": 42412.8,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 470,
+      "payments": 39971.3,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 784,
+      "payments": 32431.46,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 921,
+      "payments": 29139.02,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 148,
+      "payments": 26463.47,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 439,
+      "payments": 26090.8,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 215,
+      "payments": 22095.74,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 109,
+      "payments": 18814.18,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 1847,
+      "payments": 18717.64,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 146,
+      "payments": 17061.08,
+      "avg_markup": 1.77
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3944549.35,
+    "total_services": 67607,
+    "total_beneficiaries": 34830,
+    "avg_markup_ratio": 2.74
+  }
+}

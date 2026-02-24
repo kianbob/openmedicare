@@ -1,0 +1,239 @@
+{
+  "name": "Venkata Bireddy",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Tampa",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 227988.05,
+      "total_services": 3431,
+      "total_beneficiaries": 1337,
+      "avg_submitted": 191.0,
+      "avg_paid": 82.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 461337.43,
+      "total_services": 7177,
+      "total_beneficiaries": 2278,
+      "avg_submitted": 179.54,
+      "avg_paid": 80.37
+    },
+    {
+      "year": 2016,
+      "total_payments": 328998.85,
+      "total_services": 5215,
+      "total_beneficiaries": 2006,
+      "avg_submitted": 187.56,
+      "avg_paid": 85.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 281932.3,
+      "total_services": 4776,
+      "total_beneficiaries": 1891,
+      "avg_submitted": 128.7,
+      "avg_paid": 72.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 352276.32,
+      "total_services": 5213,
+      "total_beneficiaries": 1941,
+      "avg_submitted": 140.42,
+      "avg_paid": 85.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 347134.66,
+      "total_services": 5214,
+      "total_beneficiaries": 1814,
+      "avg_submitted": 142.57,
+      "avg_paid": 80.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 328588.73,
+      "total_services": 4863,
+      "total_beneficiaries": 2047,
+      "avg_submitted": 220.15,
+      "avg_paid": 87.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 213815.03,
+      "total_services": 3155,
+      "total_beneficiaries": 1153,
+      "avg_submitted": 147.32,
+      "avg_paid": 74.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 191108.75,
+      "total_services": 2803,
+      "total_beneficiaries": 965,
+      "avg_submitted": 159.8,
+      "avg_paid": 73.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 171132.25,
+      "total_services": 2430,
+      "total_beneficiaries": 879,
+      "avg_submitted": 142.35,
+      "avg_paid": 71.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 24416,
+      "payments": 1402991.86,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2893,
+      "payments": 458317.56,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4431,
+      "payments": 365494.02,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 4393,
+      "payments": 130674.1,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1285,
+      "payments": 109585.84,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 895,
+      "payments": 97435.77,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1701,
+      "payments": 96597.96,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 2302,
+      "payments": 91995.05,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 599,
+      "payments": 34013.67,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 227,
+      "payments": 33160.71,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 354,
+      "payments": 29608.9,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 89,
+      "payments": 15061.77,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 158,
+      "payments": 13027.92,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 195,
+      "payments": 11155.4,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 39,
+      "payments": 5061.45,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 90,
+      "payments": 4605.44,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 19,
+      "payments": 1401.34,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 11,
+      "payments": 1341.5,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "0064A",
+      "description": "Adm sarscov2 50mcg/0.25mlbst",
+      "services": 24,
+      "payments": 916.08,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "0013A",
+      "description": "Fee covid-19 vac 2 booster",
+      "services": 13,
+      "payments": 505.44,
+      "avg_markup": 2.06
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2904312.37,
+    "total_services": 44277,
+    "total_beneficiaries": 16311,
+    "avg_markup_ratio": 2.04
+  }
+}

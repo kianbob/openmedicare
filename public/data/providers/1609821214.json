@@ -1,0 +1,204 @@
+{
+  "name": "Blaine Cribbs",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Atlanta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 327167.45,
+      "total_services": 2755,
+      "total_beneficiaries": 982,
+      "avg_submitted": 575.89,
+      "avg_paid": 153.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 294116.78,
+      "total_services": 2543,
+      "total_beneficiaries": 968,
+      "avg_submitted": 529.8,
+      "avg_paid": 135.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 338149.38,
+      "total_services": 2625,
+      "total_beneficiaries": 962,
+      "avg_submitted": 961.77,
+      "avg_paid": 210.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 288018.26,
+      "total_services": 2257,
+      "total_beneficiaries": 815,
+      "avg_submitted": 612.96,
+      "avg_paid": 145.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 254714.79,
+      "total_services": 1800,
+      "total_beneficiaries": 664,
+      "avg_submitted": 668.71,
+      "avg_paid": 156.51
+    },
+    {
+      "year": 2019,
+      "total_payments": 252350.79,
+      "total_services": 1720,
+      "total_beneficiaries": 697,
+      "avg_submitted": 692.11,
+      "avg_paid": 155.33
+    },
+    {
+      "year": 2020,
+      "total_payments": 223746.66,
+      "total_services": 1536,
+      "total_beneficiaries": 602,
+      "avg_submitted": 715.8,
+      "avg_paid": 151.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 231536.75,
+      "total_services": 1610,
+      "total_beneficiaries": 668,
+      "avg_submitted": 578.59,
+      "avg_paid": 137.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 279185.41,
+      "total_services": 1861,
+      "total_beneficiaries": 744,
+      "avg_submitted": 404.38,
+      "avg_paid": 139.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 237176.56,
+      "total_services": 1686,
+      "total_beneficiaries": 730,
+      "avg_submitted": 482.82,
+      "avg_paid": 160.54
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 2033,
+      "payments": 1513413.79,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 4961,
+      "payments": 426299.06,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 3807,
+      "payments": 331483.75,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 5531,
+      "payments": 171275.28,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 2518,
+      "payments": 139404.02,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 390,
+      "payments": 41283.18,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 552,
+      "payments": 31042.44,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 80,
+      "payments": 24883.0,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 15,
+      "payments": 14305.01,
+      "avg_markup": 5.24
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 180,
+      "payments": 13775.97,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 86,
+      "payments": 5884.21,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 126,
+      "payments": 4932.73,
+      "avg_markup": 4.24
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 59,
+      "payments": 3506.81,
+      "avg_markup": 4.41
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 26,
+      "payments": 3102.32,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 29,
+      "payments": 1571.25,
+      "avg_markup": 4.19
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2726162.82,
+    "total_services": 20393,
+    "total_beneficiaries": 7832,
+    "avg_markup_ratio": 4.02
+  }
+}

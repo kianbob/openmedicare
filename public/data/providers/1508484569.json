@@ -1,0 +1,57 @@
+{
+  "name": "Curative Labs Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Washington",
+  "state": "DC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 921900.0,
+      "total_services": 9219,
+      "total_beneficiaries": 5077,
+      "avg_submitted": 246.68,
+      "avg_paid": 100.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 7965200.0,
+      "total_services": 148256,
+      "total_beneficiaries": 52504,
+      "avg_submitted": 145.34,
+      "avg_paid": 50.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 4356938.75,
+      "total_services": 86580,
+      "total_beneficiaries": 47149,
+      "avg_submitted": 150.0,
+      "avg_paid": 49.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 138916,
+      "payments": 10623807.0,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 105139,
+      "payments": 2620231.75,
+      "avg_markup": 1.78
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 13244038.75,
+    "total_services": 244055,
+    "total_beneficiaries": 104730,
+    "avg_markup_ratio": 2.97
+  }
+}

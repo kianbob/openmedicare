@@ -1,0 +1,239 @@
+{
+  "name": "James Song",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "City Of Industry",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 506823.01,
+      "total_services": 5796,
+      "total_beneficiaries": 1838,
+      "avg_submitted": 128.26,
+      "avg_paid": 82.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 602324.08,
+      "total_services": 6829,
+      "total_beneficiaries": 1931,
+      "avg_submitted": 126.6,
+      "avg_paid": 82.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 462678.99,
+      "total_services": 5267,
+      "total_beneficiaries": 1748,
+      "avg_submitted": 121.46,
+      "avg_paid": 74.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 507326.74,
+      "total_services": 5473,
+      "total_beneficiaries": 1657,
+      "avg_submitted": 141.01,
+      "avg_paid": 92.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 449654.74,
+      "total_services": 4892,
+      "total_beneficiaries": 1544,
+      "avg_submitted": 134.56,
+      "avg_paid": 91.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 507749.17,
+      "total_services": 5268,
+      "total_beneficiaries": 1564,
+      "avg_submitted": 162.33,
+      "avg_paid": 94.64
+    },
+    {
+      "year": 2020,
+      "total_payments": 490864.75,
+      "total_services": 4977,
+      "total_beneficiaries": 1099,
+      "avg_submitted": 132.54,
+      "avg_paid": 88.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 550802.2,
+      "total_services": 5582,
+      "total_beneficiaries": 1294,
+      "avg_submitted": 179.85,
+      "avg_paid": 119.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 633107.57,
+      "total_services": 6555,
+      "total_beneficiaries": 1304,
+      "avg_submitted": 189.59,
+      "avg_paid": 128.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 1000822.15,
+      "total_services": 9468,
+      "total_beneficiaries": 1987,
+      "avg_submitted": 190.21,
+      "avg_paid": 133.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 22676,
+      "payments": 2032839.35,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 15529,
+      "payments": 1218611.41,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4227,
+      "payments": 691224.71,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3567,
+      "payments": 627695.62,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3367,
+      "payments": 309903.39,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3235,
+      "payments": 281958.94,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1269,
+      "payments": 159247.87,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2242,
+      "payments": 136452.69,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1902,
+      "payments": 99722.32,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1109,
+      "payments": 68099.08,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 370,
+      "payments": 48299.0,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 54,
+      "payments": 7758.9,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 71,
+      "payments": 4364.77,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 24,
+      "payments": 4346.35,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 40,
+      "payments": 3589.23,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services for problem of at least moderate complexity",
+      "services": 13,
+      "payments": 2317.12,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 74,
+      "payments": 2310.37,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99234",
+      "description": "Hospital observation or inpatient care low severity, 40 minutes per day",
+      "services": 19,
+      "payments": 2140.92,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 16,
+      "payments": 2134.67,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 79,
+      "payments": 1947.09,
+      "avg_markup": 1.22
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5712153.39,
+    "total_services": 60107,
+    "total_beneficiaries": 15966,
+    "avg_markup_ratio": 1.57
+  }
+}

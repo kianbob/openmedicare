@@ -1,0 +1,239 @@
+{
+  "name": "Michael Acker",
+  "credentials": "MD",
+  "specialty": "Cardiac Surgery",
+  "city": "Philadelphia",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 298564.44,
+      "total_services": 360,
+      "total_beneficiaries": 358,
+      "avg_submitted": 4768.03,
+      "avg_paid": 1054.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 216095.25,
+      "total_services": 291,
+      "total_beneficiaries": 291,
+      "avg_submitted": 3475.55,
+      "avg_paid": 740.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 195898.36,
+      "total_services": 266,
+      "total_beneficiaries": 265,
+      "avg_submitted": 4424.2,
+      "avg_paid": 966.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 304596.94,
+      "total_services": 389,
+      "total_beneficiaries": 386,
+      "avg_submitted": 3675.13,
+      "avg_paid": 789.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 293618.14,
+      "total_services": 398,
+      "total_beneficiaries": 396,
+      "avg_submitted": 3456.79,
+      "avg_paid": 742.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 280623.29,
+      "total_services": 376,
+      "total_beneficiaries": 376,
+      "avg_submitted": 3421.54,
+      "avg_paid": 761.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 256406.48,
+      "total_services": 312,
+      "total_beneficiaries": 310,
+      "avg_submitted": 4306.51,
+      "avg_paid": 951.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 190058.69,
+      "total_services": 291,
+      "total_beneficiaries": 289,
+      "avg_submitted": 3961.1,
+      "avg_paid": 777.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 190537.88,
+      "total_services": 280,
+      "total_beneficiaries": 280,
+      "avg_submitted": 4222.11,
+      "avg_paid": 892.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 245697.69,
+      "total_services": 369,
+      "total_beneficiaries": 362,
+      "avg_submitted": 3449.83,
+      "avg_paid": 698.91
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "33430",
+      "description": "Replacement of valve between left upper and lower chambers on heart-lung machine",
+      "services": 297,
+      "payments": 716766.14,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "33533",
+      "description": "Heart artery bypass to repair one artery",
+      "services": 359,
+      "payments": 512397.91,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "33405",
+      "description": "Replacement of left lower heart chamber valve using artificial valve on heart-lung machine",
+      "services": 254,
+      "payments": 421675.87,
+      "avg_markup": 4.83
+    },
+    {
+      "code": "33426",
+      "description": "Insertion of artificial valve between left heart chambers on heart-lung machine",
+      "services": 113,
+      "payments": 203745.51,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "33464",
+      "description": "Repair of heart valve between right chambers with insertion of prosthetic valve ring",
+      "services": 111,
+      "payments": 177345.89,
+      "avg_markup": 5.3
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1120,
+      "payments": 158986.96,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "33530",
+      "description": "Reoperation of heart artery bypass or valve procedure more than 1 month after original operation",
+      "services": 163,
+      "payments": 75501.5,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "33518",
+      "description": "Combined multiple vein and artery heart artery bypasses",
+      "services": 147,
+      "payments": 53056.71,
+      "avg_markup": 6.1
+    },
+    {
+      "code": "33427",
+      "description": "Radical reconstruction of mitral valve on heart-lung machine",
+      "services": 24,
+      "payments": 46214.26,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "33534",
+      "description": "Heart artery bypass to repair multiple arteries",
+      "services": 13,
+      "payments": 25163.34,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "35820",
+      "description": "Exploration of chest for postsurgical bleeding, blood clot, or infection",
+      "services": 14,
+      "payments": 20359.57,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "33517",
+      "description": "Combined vein and artery heart artery bypass",
+      "services": 122,
+      "payments": 20097.44,
+      "avg_markup": 9.11
+    },
+    {
+      "code": "33259",
+      "description": "Destruction of tissue and reconstruction of right upper heart on heart-lung machine",
+      "services": 11,
+      "payments": 8357.69,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 169,
+      "payments": 7445.56,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 66,
+      "payments": 5635.01,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 75,
+      "payments": 4496.23,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 63,
+      "payments": 3926.04,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 105,
+      "payments": 3416.57,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 24,
+      "payments": 2256.84,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital care with straightforward or low-level medical decision making, if using time, at least 55 minutes",
+      "services": 20,
+      "payments": 2163.2,
+      "avg_markup": 3.61
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2472097.16,
+    "total_services": 3332,
+    "total_beneficiaries": 3313,
+    "avg_markup_ratio": 4.46
+  }
+}

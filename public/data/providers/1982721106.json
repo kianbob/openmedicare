@@ -1,0 +1,239 @@
+{
+  "name": "Andrew Coles",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Layton",
+  "state": "UT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 108543.73,
+      "total_services": 1725,
+      "total_beneficiaries": 716,
+      "avg_submitted": 145.91,
+      "avg_paid": 39.26
+    },
+    {
+      "year": 2015,
+      "total_payments": 193071.19,
+      "total_services": 3082,
+      "total_beneficiaries": 1322,
+      "avg_submitted": 76.81,
+      "avg_paid": 31.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 243763.44,
+      "total_services": 3645,
+      "total_beneficiaries": 1204,
+      "avg_submitted": 120.66,
+      "avg_paid": 36.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 283821.04,
+      "total_services": 3907,
+      "total_beneficiaries": 1140,
+      "avg_submitted": 144.24,
+      "avg_paid": 44.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 322691.78,
+      "total_services": 4617,
+      "total_beneficiaries": 1244,
+      "avg_submitted": 187.26,
+      "avg_paid": 54.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 404174.24,
+      "total_services": 5407,
+      "total_beneficiaries": 1175,
+      "avg_submitted": 219.78,
+      "avg_paid": 63.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 554335.5,
+      "total_services": 6817,
+      "total_beneficiaries": 998,
+      "avg_submitted": 120.89,
+      "avg_paid": 52.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 696202.01,
+      "total_services": 6951,
+      "total_beneficiaries": 879,
+      "avg_submitted": 161.82,
+      "avg_paid": 74.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 584611.46,
+      "total_services": 5166,
+      "total_beneficiaries": 847,
+      "avg_submitted": 172.0,
+      "avg_paid": 84.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 387625.98,
+      "total_services": 3710,
+      "total_beneficiaries": 683,
+      "avg_submitted": 182.04,
+      "avg_paid": 85.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 21131,
+      "payments": 2412266.0,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12700,
+      "payments": 1045298.74,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 579,
+      "payments": 81723.49,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "20611",
+      "description": "Aspiration and/or injection of major joint or joint capsule with recording and reporting using ultrasound guidance",
+      "services": 1098,
+      "payments": 75302.08,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "80305",
+      "description": "Testing for presence of drug",
+      "services": 4099,
+      "payments": 51799.16,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug, by chemistry analyzers",
+      "services": 703,
+      "payments": 42179.15,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "64405",
+      "description": "Injection of anesthetic agent, greater occipital nerve",
+      "services": 145,
+      "payments": 16094.57,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 65,
+      "payments": 8336.67,
+      "avg_markup": 6.97
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 480,
+      "payments": 7033.44,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "G0477",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures, (eg immunoassay) capable of being read by direct optical observation only (eg, dipsticks, cups, cards, cartridges), includes sample validation when performed, per",
+      "services": 445,
+      "payments": 6355.53,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "G0434",
+      "description": "Drug screen, other than chromatographic; any number of drug classes, by clia waived test or moderate complexity test, per patient encounter",
+      "services": 314,
+      "payments": 5846.44,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "76942",
+      "description": "Ultrasonic guidance imaging supervision and interpretation for insertion of needle",
+      "services": 78,
+      "payments": 4115.73,
+      "avg_markup": 7.77
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 78,
+      "payments": 2535.66,
+      "avg_markup": 5.32
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 113,
+      "payments": 2535.53,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 20,
+      "payments": 2418.73,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 144,
+      "payments": 1714.16,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 67,
+      "payments": 1570.67,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 127,
+      "payments": 1567.92,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "J3301",
+      "description": "Injection, triamcinolone  acetonide, not otherwise specified, 10 mg",
+      "services": 1252,
+      "payments": 1559.86,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 94,
+      "payments": 1321.25,
+      "avg_markup": 2.63
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3778840.36,
+    "total_services": 45027,
+    "total_beneficiaries": 10208,
+    "avg_markup_ratio": 2.03
+  }
+}

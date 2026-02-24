@@ -1,0 +1,176 @@
+{
+  "name": "Paul Vespa",
+  "credentials": "MD",
+  "specialty": "Neurology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 285671.13,
+      "total_services": 1946,
+      "total_beneficiaries": 553,
+      "avg_submitted": 838.75,
+      "avg_paid": 123.22
+    },
+    {
+      "year": 2015,
+      "total_payments": 279315.66,
+      "total_services": 1850,
+      "total_beneficiaries": 486,
+      "avg_submitted": 838.75,
+      "avg_paid": 124.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 279092.37,
+      "total_services": 1803,
+      "total_beneficiaries": 454,
+      "avg_submitted": 995.0,
+      "avg_paid": 145.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 245542.02,
+      "total_services": 1566,
+      "total_beneficiaries": 464,
+      "avg_submitted": 909.42,
+      "avg_paid": 119.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 279372.28,
+      "total_services": 1771,
+      "total_beneficiaries": 453,
+      "avg_submitted": 1002.0,
+      "avg_paid": 118.48
+    },
+    {
+      "year": 2019,
+      "total_payments": 239429.66,
+      "total_services": 1445,
+      "total_beneficiaries": 375,
+      "avg_submitted": 1135.0,
+      "avg_paid": 134.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 185897.5,
+      "total_services": 1331,
+      "total_beneficiaries": 441,
+      "avg_submitted": 759.14,
+      "avg_paid": 120.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 185766.61,
+      "total_services": 1207,
+      "total_beneficiaries": 410,
+      "avg_submitted": 844.29,
+      "avg_paid": 127.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 189751.03,
+      "total_services": 1250,
+      "total_beneficiaries": 386,
+      "avg_submitted": 851.67,
+      "avg_paid": 130.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 192381.61,
+      "total_services": 1237,
+      "total_beneficiaries": 410,
+      "avg_submitted": 964.48,
+      "avg_paid": 141.71
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 5436,
+      "payments": 1012847.47,
+      "avg_markup": 8.95
+    },
+    {
+      "code": "95956",
+      "description": "Monitoring and localization of seizure activity over 24-hour period using electroencephalograph (EEG)",
+      "services": 4287,
+      "payments": 702053.1,
+      "avg_markup": 6.7
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3223,
+      "payments": 286589.83,
+      "avg_markup": 6.84
+    },
+    {
+      "code": "95720",
+      "description": "Continuous measurement of brain wave activity with video (veeg), 12-26 hours, with health care professional analysis, interpretation and report",
+      "services": 1090,
+      "payments": 192920.97,
+      "avg_markup": 5.24
+    },
+    {
+      "code": "95719",
+      "description": "Continuous measurement of brain wave activity (eeg), 12-26 hours, with health care professional analysis, interpretation and report",
+      "services": 887,
+      "payments": 121076.37,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 215,
+      "payments": 20314.67,
+      "avg_markup": 8.43
+    },
+    {
+      "code": "95718",
+      "description": "Continuous measurement of brain wave activity with video (veeg), 2-12 hours, with health care professional analysis, interpretation and report",
+      "services": 79,
+      "payments": 9122.74,
+      "avg_markup": 5.22
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 92,
+      "payments": 5788.35,
+      "avg_markup": 6.9
+    },
+    {
+      "code": "95717",
+      "description": "Continuous measurement of brain wave activity (eeg), 2-12 hours, with health care professional analysis, interpretation and report",
+      "services": 62,
+      "payments": 5484.1,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care with moderate level of medical decision making, if using time, at least 75 minutes",
+      "services": 22,
+      "payments": 3253.4,
+      "avg_markup": 8.93
+    },
+    {
+      "code": "95722",
+      "description": "Measurement of brain wave activity with video (veeg), 37-60 hours with review and report by health care professional",
+      "services": 13,
+      "payments": 2768.87,
+      "avg_markup": 5.47
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2362219.87,
+    "total_services": 15406,
+    "total_beneficiaries": 4432,
+    "avg_markup_ratio": 7.45
+  }
+}

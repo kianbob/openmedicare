@@ -1,0 +1,183 @@
+{
+  "name": "Samuel Kugel",
+  "credentials": "M.D.",
+  "specialty": "Psychiatry",
+  "city": "National City",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 377995.16,
+      "total_services": 9348,
+      "total_beneficiaries": 1604,
+      "avg_submitted": 227.78,
+      "avg_paid": 60.96
+    },
+    {
+      "year": 2015,
+      "total_payments": 357989.81,
+      "total_services": 6222,
+      "total_beneficiaries": 1402,
+      "avg_submitted": 240.91,
+      "avg_paid": 74.29
+    },
+    {
+      "year": 2016,
+      "total_payments": 378288.75,
+      "total_services": 6479,
+      "total_beneficiaries": 1500,
+      "avg_submitted": 249.97,
+      "avg_paid": 78.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 349899.55,
+      "total_services": 6413,
+      "total_beneficiaries": 1333,
+      "avg_submitted": 233.31,
+      "avg_paid": 61.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 301662.78,
+      "total_services": 5073,
+      "total_beneficiaries": 1051,
+      "avg_submitted": 249.85,
+      "avg_paid": 72.79
+    },
+    {
+      "year": 2019,
+      "total_payments": 265183.57,
+      "total_services": 4470,
+      "total_beneficiaries": 887,
+      "avg_submitted": 249.88,
+      "avg_paid": 75.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 272678.83,
+      "total_services": 4466,
+      "total_beneficiaries": 743,
+      "avg_submitted": 237.09,
+      "avg_paid": 70.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 317915.95,
+      "total_services": 4670,
+      "total_beneficiaries": 625,
+      "avg_submitted": 250.1,
+      "avg_paid": 87.85
+    },
+    {
+      "year": 2022,
+      "total_payments": 314582.65,
+      "total_services": 4731,
+      "total_beneficiaries": 593,
+      "avg_submitted": 246.78,
+      "avg_paid": 82.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 313173.1,
+      "total_services": 4519,
+      "total_beneficiaries": 607,
+      "avg_submitted": 242.86,
+      "avg_paid": 79.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19781,
+      "payments": 1168948.73,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 15411,
+      "payments": 961234.01,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "90792",
+      "description": "Psychiatric diagnostic evaluation with medical services",
+      "services": 3808,
+      "payments": 434620.1,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 9675,
+      "payments": 303366.04,
+      "avg_markup": 4.78
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1495,
+      "payments": 130895.9,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1307,
+      "payments": 111720.71,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "M0064",
+      "description": "Brief office visit for the sole purpose of monitoring or changing drug prescriptions used in the treatment of mental psychoneurotic and personality disorders",
+      "services": 1372,
+      "payments": 59001.39,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 634,
+      "payments": 37255.2,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "J1631",
+      "description": "Injection, haloperidol decanoate, per 50 mg",
+      "services": 2732,
+      "payments": 32804.83,
+      "avg_markup": 7.98
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 134,
+      "payments": 4819.12,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 26,
+      "payments": 4211.87,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 16,
+      "payments": 492.24,
+      "avg_markup": 6.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3249370.14,
+    "total_services": 56391,
+    "total_beneficiaries": 10345,
+    "avg_markup_ratio": 3.49
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "name": "John Johnson",
+  "credentials": "",
+  "specialty": "Anesthesiology",
+  "city": "Altoona",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 577339.57,
+      "total_services": 6550,
+      "total_beneficiaries": 2064,
+      "avg_submitted": 509.23,
+      "avg_paid": 64.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 1062240.7,
+      "total_services": 36642,
+      "total_beneficiaries": 11932,
+      "avg_submitted": 233.06,
+      "avg_paid": 59.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 2026438.05,
+      "total_services": 15990,
+      "total_beneficiaries": 3310,
+      "avg_submitted": 204.57,
+      "avg_paid": 68.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 541039.72,
+      "total_services": 3601,
+      "total_beneficiaries": 1718,
+      "avg_submitted": 202.99,
+      "avg_paid": 74.11
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0483",
+      "description": "Drug test def 22+ classes",
+      "services": 8104,
+      "payments": 1763411.8,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 11285,
+      "payments": 1089885.99,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 6846,
+      "payments": 529857.77,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2975,
+      "payments": 151548.23,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 1378,
+      "payments": 106272.46,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 979,
+      "payments": 71920.32,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "G6040",
+      "description": "Alcohol (ethanol); any specimen except breath",
+      "services": 2554,
+      "payments": 36674.77,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "82540",
+      "description": "Creatine measurement",
+      "services": 5720,
+      "payments": 35100.22,
+      "avg_markup": 4.89
+    },
+    {
+      "code": "62311",
+      "description": "Injections of substances into lower or sacral spine",
+      "services": 242,
+      "payments": 34624.55,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "G6046",
+      "description": "Dihydromorphinone",
+      "services": 679,
+      "payments": 23276.12,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "83986",
+      "description": "Body fluid pH level",
+      "services": 5583,
+      "payments": 21075.89,
+      "avg_markup": 7.94
+    },
+    {
+      "code": "G6045",
+      "description": "Dihydrocodeinone",
+      "services": 679,
+      "payments": 18699.66,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G6056",
+      "description": "Opiate(s), drug and metabolites, each procedure",
+      "services": 696,
+      "payments": 18061.2,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 153,
+      "payments": 17063.11,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "77002",
+      "description": "Fluoroscopic guidance for insertion of needle",
+      "services": 244,
+      "payments": 16610.13,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "G6031",
+      "description": "Benzodiazepines",
+      "services": 687,
+      "payments": 16436.04,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "82542",
+      "description": "Chemical analysis using chromatography technique",
+      "services": 679,
+      "payments": 16357.11,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "83789",
+      "description": "Mass spectrometry (laboratory testing method)",
+      "services": 679,
+      "payments": 16357.11,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G6052",
+      "description": "Meprobamate",
+      "services": 680,
+      "payments": 15980.0,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "81003",
+      "description": "Automated urinalysis test",
+      "services": 5310,
+      "payments": 15814.05,
+      "avg_markup": 10.07
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4207058.03,
+    "total_services": 62783,
+    "total_beneficiaries": 19024,
+    "avg_markup_ratio": 2.75
+  }
+}

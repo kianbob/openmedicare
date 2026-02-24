@@ -1,0 +1,239 @@
+{
+  "name": "Dinh Pham",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Fort Lauderdale",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 358670.54,
+      "total_services": 10190,
+      "total_beneficiaries": 3756,
+      "avg_submitted": 82.19,
+      "avg_paid": 39.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 402488.53,
+      "total_services": 11333,
+      "total_beneficiaries": 4093,
+      "avg_submitted": 82.42,
+      "avg_paid": 37.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 310172.77,
+      "total_services": 8992,
+      "total_beneficiaries": 3667,
+      "avg_submitted": 78.81,
+      "avg_paid": 37.63
+    },
+    {
+      "year": 2017,
+      "total_payments": 235416.13,
+      "total_services": 5024,
+      "total_beneficiaries": 1675,
+      "avg_submitted": 94.39,
+      "avg_paid": 47.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 313991.5,
+      "total_services": 5123,
+      "total_beneficiaries": 1712,
+      "avg_submitted": 120.34,
+      "avg_paid": 62.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 390705.35,
+      "total_services": 6799,
+      "total_beneficiaries": 2008,
+      "avg_submitted": 132.11,
+      "avg_paid": 65.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 304151.81,
+      "total_services": 5005,
+      "total_beneficiaries": 1367,
+      "avg_submitted": 125.9,
+      "avg_paid": 59.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 385186.47,
+      "total_services": 5666,
+      "total_beneficiaries": 1772,
+      "avg_submitted": 135.47,
+      "avg_paid": 72.66
+    },
+    {
+      "year": 2022,
+      "total_payments": 435546.06,
+      "total_services": 5820,
+      "total_beneficiaries": 1519,
+      "avg_submitted": 144.93,
+      "avg_paid": 68.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 444728.84,
+      "total_services": 5618,
+      "total_beneficiaries": 1374,
+      "avg_submitted": 105.57,
+      "avg_paid": 56.37
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 21540,
+      "payments": 1515044.46,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 6991,
+      "payments": 492364.54,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 4488,
+      "payments": 458532.3,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 3989,
+      "payments": 388009.14,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 2246,
+      "payments": 95699.03,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 718,
+      "payments": 94025.94,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 4455,
+      "payments": 69530.81,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 381,
+      "payments": 42658.93,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 412,
+      "payments": 42052.36,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 1200,
+      "payments": 38905.34,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 1374,
+      "payments": 30823.43,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 209,
+      "payments": 28431.73,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99325",
+      "description": "New patient assisted living visit, typically 30 minutes",
+      "services": 471,
+      "payments": 26370.41,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1123,
+      "payments": 26123.13,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 211,
+      "payments": 24993.35,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 1672,
+      "payments": 23952.4,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 2032,
+      "payments": 23181.8,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 1147,
+      "payments": 23085.5,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 2023,
+      "payments": 21007.31,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 1011,
+      "payments": 19846.79,
+      "avg_markup": 2.55
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3581058.01,
+    "total_services": 69570,
+    "total_beneficiaries": 22943,
+    "avg_markup_ratio": 1.99
+  }
+}

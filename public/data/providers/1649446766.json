@@ -1,0 +1,231 @@
+{
+  "name": "Emad Sedki",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Manhasset",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 6896.16,
+      "total_services": 205,
+      "total_beneficiaries": 169,
+      "avg_submitted": 244.15,
+      "avg_paid": 38.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 149999.22,
+      "total_services": 2009,
+      "total_beneficiaries": 914,
+      "avg_submitted": 264.07,
+      "avg_paid": 91.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 295310.54,
+      "total_services": 3789,
+      "total_beneficiaries": 1630,
+      "avg_submitted": 264.2,
+      "avg_paid": 91.42
+    },
+    {
+      "year": 2018,
+      "total_payments": 352906.88,
+      "total_services": 4428,
+      "total_beneficiaries": 2066,
+      "avg_submitted": 283.06,
+      "avg_paid": 98.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 327806.72,
+      "total_services": 4072,
+      "total_beneficiaries": 1964,
+      "avg_submitted": 266.63,
+      "avg_paid": 86.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 353728.11,
+      "total_services": 4162,
+      "total_beneficiaries": 1941,
+      "avg_submitted": 242.46,
+      "avg_paid": 87.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 378876.42,
+      "total_services": 4518,
+      "total_beneficiaries": 1955,
+      "avg_submitted": 270.2,
+      "avg_paid": 86.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 424326.17,
+      "total_services": 6207,
+      "total_beneficiaries": 3052,
+      "avg_submitted": 222.54,
+      "avg_paid": 67.48
+    },
+    {
+      "year": 2023,
+      "total_payments": 480037.39,
+      "total_services": 7542,
+      "total_beneficiaries": 3640,
+      "avg_submitted": 214.72,
+      "avg_paid": 65.12
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12791,
+      "payments": 835439.93,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4908,
+      "payments": 476469.77,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3477,
+      "payments": 428572.17,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 708,
+      "payments": 196556.01,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 815,
+      "payments": 144322.35,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1477,
+      "payments": 134170.95,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 535,
+      "payments": 127175.19,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 491,
+      "payments": 99781.21,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1102,
+      "payments": 62008.12,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 711,
+      "payments": 33272.82,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 406,
+      "payments": 22308.14,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 212,
+      "payments": 20555.52,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 141,
+      "payments": 20342.9,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 307,
+      "payments": 17087.79,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 245,
+      "payments": 15638.46,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 348,
+      "payments": 14110.42,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 15 minutes",
+      "services": 205,
+      "payments": 14013.8,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 323,
+      "payments": 11365.42,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 51,
+      "payments": 8456.23,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 1938,
+      "payments": 7672.45,
+      "avg_markup": 1.88
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2769887.61,
+    "total_services": 36932,
+    "total_beneficiaries": 17331,
+    "avg_markup_ratio": 3.26
+  }
+}

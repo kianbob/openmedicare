@@ -1,0 +1,108 @@
+{
+  "name": "Armar, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "York",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 796059.5,
+      "total_services": 6662,
+      "total_beneficiaries": 4817,
+      "avg_submitted": 893.76,
+      "avg_paid": 275.78
+    },
+    {
+      "year": 2015,
+      "total_payments": 783406.18,
+      "total_services": 6401,
+      "total_beneficiaries": 4664,
+      "avg_submitted": 955.44,
+      "avg_paid": 281.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 711416.87,
+      "total_services": 5707,
+      "total_beneficiaries": 4285,
+      "avg_submitted": 955.78,
+      "avg_paid": 279.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 710137.1,
+      "total_services": 5606,
+      "total_beneficiaries": 4172,
+      "avg_submitted": 955.28,
+      "avg_paid": 283.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 170828.85,
+      "total_services": 1320,
+      "total_beneficiaries": 1147,
+      "avg_submitted": 712.69,
+      "avg_paid": 192.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 3693,
+      "payments": 1169429.97,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 4819,
+      "payments": 805155.87,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2353,
+      "payments": 625820.49,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1718,
+      "payments": 345527.08,
+      "avg_markup": 5.29
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 185,
+      "payments": 84675.34,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12805,
+      "payments": 74191.15,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 123,
+      "payments": 67048.6,
+      "avg_markup": 2.84
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 3171848.5,
+    "total_services": 25696,
+    "total_beneficiaries": 19085,
+    "avg_markup_ratio": 3.32
+  }
+}

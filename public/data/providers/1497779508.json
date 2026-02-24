@@ -1,0 +1,239 @@
+{
+  "name": "Thomas Ence",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Tarzana",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 311568.77,
+      "total_services": 3862,
+      "total_beneficiaries": 1671,
+      "avg_submitted": 187.07,
+      "avg_paid": 94.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 380017.65,
+      "total_services": 4351,
+      "total_beneficiaries": 1903,
+      "avg_submitted": 185.0,
+      "avg_paid": 94.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 346497.13,
+      "total_services": 4141,
+      "total_beneficiaries": 1884,
+      "avg_submitted": 190.86,
+      "avg_paid": 79.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 387150.74,
+      "total_services": 4763,
+      "total_beneficiaries": 2032,
+      "avg_submitted": 173.18,
+      "avg_paid": 79.26
+    },
+    {
+      "year": 2018,
+      "total_payments": 359135.55,
+      "total_services": 4357,
+      "total_beneficiaries": 1876,
+      "avg_submitted": 160.6,
+      "avg_paid": 73.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 323035.46,
+      "total_services": 3923,
+      "total_beneficiaries": 1778,
+      "avg_submitted": 168.21,
+      "avg_paid": 78.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 277349.04,
+      "total_services": 3209,
+      "total_beneficiaries": 1528,
+      "avg_submitted": 146.98,
+      "avg_paid": 63.79
+    },
+    {
+      "year": 2021,
+      "total_payments": 310427.86,
+      "total_services": 3263,
+      "total_beneficiaries": 1656,
+      "avg_submitted": 148.1,
+      "avg_paid": 64.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 259382.93,
+      "total_services": 2744,
+      "total_beneficiaries": 1330,
+      "avg_submitted": 359.55,
+      "avg_paid": 77.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 257463.87,
+      "total_services": 2794,
+      "total_beneficiaries": 1318,
+      "avg_submitted": 328.43,
+      "avg_paid": 70.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 14823,
+      "payments": 909274.18,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8524,
+      "payments": 809950.9,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4103,
+      "payments": 689672.97,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4767,
+      "payments": 420931.34,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1244,
+      "payments": 220208.97,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 961,
+      "payments": 59438.96,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 944,
+      "payments": 28704.32,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "95012",
+      "description": "Measurement of inhaled nitric oxide gas",
+      "services": 987,
+      "payments": 17433.16,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 228,
+      "payments": 14250.4,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 87,
+      "payments": 10233.93,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 108,
+      "payments": 10001.89,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 161,
+      "payments": 4766.65,
+      "avg_markup": 6.63
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 80,
+      "payments": 3919.11,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 17,
+      "payments": 3157.07,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 122,
+      "payments": 1994.13,
+      "avg_markup": 5.78
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 75,
+      "payments": 1773.47,
+      "avg_markup": 6.7
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 65,
+      "payments": 1710.19,
+      "avg_markup": 5.03
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 11,
+      "payments": 1509.2,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 36,
+      "payments": 1446.85,
+      "avg_markup": 9.21
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 11,
+      "payments": 1028.06,
+      "avg_markup": 4.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3212029.0,
+    "total_services": 37407,
+    "total_beneficiaries": 16976,
+    "avg_markup_ratio": 2.19
+  }
+}

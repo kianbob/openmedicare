@@ -1,0 +1,239 @@
+{
+  "name": "Ira Thal",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "West Chester",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 463359.92,
+      "total_services": 6642,
+      "total_beneficiaries": 2513,
+      "avg_submitted": 122.44,
+      "avg_paid": 69.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 584275.58,
+      "total_services": 7757,
+      "total_beneficiaries": 2790,
+      "avg_submitted": 137.24,
+      "avg_paid": 77.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 593256.85,
+      "total_services": 7763,
+      "total_beneficiaries": 2661,
+      "avg_submitted": 135.74,
+      "avg_paid": 73.68
+    },
+    {
+      "year": 2017,
+      "total_payments": 440041.99,
+      "total_services": 5609,
+      "total_beneficiaries": 2034,
+      "avg_submitted": 164.59,
+      "avg_paid": 82.51
+    },
+    {
+      "year": 2018,
+      "total_payments": 499385.81,
+      "total_services": 6353,
+      "total_beneficiaries": 2238,
+      "avg_submitted": 157.27,
+      "avg_paid": 80.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 467756.26,
+      "total_services": 5971,
+      "total_beneficiaries": 2035,
+      "avg_submitted": 161.19,
+      "avg_paid": 81.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 399084.33,
+      "total_services": 4834,
+      "total_beneficiaries": 1717,
+      "avg_submitted": 178.57,
+      "avg_paid": 92.42
+    },
+    {
+      "year": 2021,
+      "total_payments": 447224.92,
+      "total_services": 4696,
+      "total_beneficiaries": 1448,
+      "avg_submitted": 176.25,
+      "avg_paid": 96.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 342665.13,
+      "total_services": 3917,
+      "total_beneficiaries": 1283,
+      "avg_submitted": 181.84,
+      "avg_paid": 91.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 386808.64,
+      "total_services": 4265,
+      "total_beneficiaries": 1562,
+      "avg_submitted": 187.4,
+      "avg_paid": 102.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14017,
+      "payments": 1232292.5,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 10485,
+      "payments": 592314.93,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3890,
+      "payments": 488283.65,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 5524,
+      "payments": 421981.44,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 4088,
+      "payments": 365255.8,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 2450,
+      "payments": 262037.36,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 825,
+      "payments": 166339.86,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1146,
+      "payments": 158400.1,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "G0182",
+      "description": "Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",
+      "services": 1695,
+      "payments": 148744.21,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 1304,
+      "payments": 133625.5,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1936,
+      "payments": 116018.4,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 1342,
+      "payments": 85847.24,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1821,
+      "payments": 80619.74,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 838,
+      "payments": 73765.02,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 273,
+      "payments": 44259.74,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 389,
+      "payments": 42060.05,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 539,
+      "payments": 41117.03,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 736,
+      "payments": 30244.58,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 322,
+      "payments": 22751.56,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 907,
+      "payments": 21605.32,
+      "avg_markup": 1.36
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4623859.43,
+    "total_services": 57807,
+    "total_beneficiaries": 20281,
+    "avg_markup_ratio": 1.87
+  }
+}

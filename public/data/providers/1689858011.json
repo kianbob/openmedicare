@@ -1,0 +1,239 @@
+{
+  "name": "Samir Abdelhadi",
+  "credentials": "DO",
+  "specialty": "Pulmonary Disease",
+  "city": "Edgewater",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 195198.14,
+      "total_services": 1636,
+      "total_beneficiaries": 745,
+      "avg_submitted": 169.62,
+      "avg_paid": 115.07
+    },
+    {
+      "year": 2015,
+      "total_payments": 176465.73,
+      "total_services": 1463,
+      "total_beneficiaries": 717,
+      "avg_submitted": 360.2,
+      "avg_paid": 111.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 126215.05,
+      "total_services": 1096,
+      "total_beneficiaries": 539,
+      "avg_submitted": 446.67,
+      "avg_paid": 120.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 216477.38,
+      "total_services": 1941,
+      "total_beneficiaries": 905,
+      "avg_submitted": 675.92,
+      "avg_paid": 115.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 447351.51,
+      "total_services": 4920,
+      "total_beneficiaries": 1544,
+      "avg_submitted": 392.6,
+      "avg_paid": 96.48
+    },
+    {
+      "year": 2019,
+      "total_payments": 609195.62,
+      "total_services": 5518,
+      "total_beneficiaries": 1553,
+      "avg_submitted": 488.62,
+      "avg_paid": 100.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 570113.88,
+      "total_services": 4872,
+      "total_beneficiaries": 1258,
+      "avg_submitted": 474.62,
+      "avg_paid": 107.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 391006.66,
+      "total_services": 4339,
+      "total_beneficiaries": 1049,
+      "avg_submitted": 520.0,
+      "avg_paid": 112.42
+    },
+    {
+      "year": 2022,
+      "total_payments": 384136.5,
+      "total_services": 4142,
+      "total_beneficiaries": 1052,
+      "avg_submitted": 497.3,
+      "avg_paid": 101.2
+    },
+    {
+      "year": 2023,
+      "total_payments": 385754.1,
+      "total_services": 3674,
+      "total_beneficiaries": 843,
+      "avg_submitted": 622.32,
+      "avg_paid": 112.6
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 6781,
+      "payments": 1278215.24,
+      "avg_markup": 6.8
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9402,
+      "payments": 854099.6,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9797,
+      "payments": 617639.47,
+      "avg_markup": 4.94
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1532,
+      "payments": 257026.6,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2158,
+      "payments": 129223.03,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 798,
+      "payments": 93072.11,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 700,
+      "payments": 66600.08,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 278,
+      "payments": 39395.15,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 262,
+      "payments": 33857.25,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 315,
+      "payments": 25040.33,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 210,
+      "payments": 17979.77,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 479,
+      "payments": 17969.19,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 144,
+      "payments": 16163.01,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 79,
+      "payments": 13482.59,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 81,
+      "payments": 12857.35,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 234,
+      "payments": 8260.21,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 44,
+      "payments": 4908.83,
+      "avg_markup": 7.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient outpatient visit, total time 45-59 minutes",
+      "services": 28,
+      "payments": 4103.53,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 57,
+      "payments": 3816.48,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 40,
+      "payments": 3645.3,
+      "avg_markup": 1.63
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3501914.56,
+    "total_services": 33601,
+    "total_beneficiaries": 10205,
+    "avg_markup_ratio": 5.25
+  }
+}

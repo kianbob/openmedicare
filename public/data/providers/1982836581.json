@@ -1,0 +1,95 @@
+{
+  "name": "United Medical Response Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Winston",
+  "state": "GA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2071143.32,
+      "total_services": 24912,
+      "total_beneficiaries": 1331,
+      "avg_submitted": 516.25,
+      "avg_paid": 193.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 2378012.07,
+      "total_services": 27876,
+      "total_beneficiaries": 1729,
+      "avg_submitted": 516.25,
+      "avg_paid": 195.53
+    },
+    {
+      "year": 2016,
+      "total_payments": 1817350.81,
+      "total_services": 21081,
+      "total_beneficiaries": 1539,
+      "avg_submitted": 516.25,
+      "avg_paid": 195.43
+    },
+    {
+      "year": 2017,
+      "total_payments": 1036516.41,
+      "total_services": 12096,
+      "total_beneficiaries": 895,
+      "avg_submitted": 472.61,
+      "avg_paid": 196.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 649023.21,
+      "total_services": 7950,
+      "total_beneficiaries": 291,
+      "avg_submitted": 352.96,
+      "avg_paid": 196.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 78614.23,
+      "total_services": 1087,
+      "total_beneficiaries": 111,
+      "avg_submitted": 214.65,
+      "avg_paid": 72.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 46287,
+      "payments": 7367555.95,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 893,
+      "payments": 251714.76,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 47333,
+      "payments": 247540.28,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 489,
+      "payments": 163849.08,
+      "avg_markup": 2.76
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 8030660.06,
+    "total_services": 95002,
+    "total_beneficiaries": 5896,
+    "avg_markup_ratio": 2.76
+  }
+}

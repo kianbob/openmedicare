@@ -1,0 +1,239 @@
+{
+  "name": "Gang Bao",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 299909.85,
+      "total_services": 3012,
+      "total_beneficiaries": 1639,
+      "avg_submitted": 307.52,
+      "avg_paid": 102.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 232857.63,
+      "total_services": 2356,
+      "total_beneficiaries": 1397,
+      "avg_submitted": 298.33,
+      "avg_paid": 108.47
+    },
+    {
+      "year": 2016,
+      "total_payments": 250135.95,
+      "total_services": 2624,
+      "total_beneficiaries": 1597,
+      "avg_submitted": 275.7,
+      "avg_paid": 102.79
+    },
+    {
+      "year": 2017,
+      "total_payments": 273772.84,
+      "total_services": 2761,
+      "total_beneficiaries": 1525,
+      "avg_submitted": 275.59,
+      "avg_paid": 105.73
+    },
+    {
+      "year": 2018,
+      "total_payments": 217908.78,
+      "total_services": 2311,
+      "total_beneficiaries": 1360,
+      "avg_submitted": 270.86,
+      "avg_paid": 97.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 234964.96,
+      "total_services": 2226,
+      "total_beneficiaries": 1391,
+      "avg_submitted": 263.98,
+      "avg_paid": 97.41
+    },
+    {
+      "year": 2020,
+      "total_payments": 258676.73,
+      "total_services": 2374,
+      "total_beneficiaries": 1290,
+      "avg_submitted": 264.21,
+      "avg_paid": 101.91
+    },
+    {
+      "year": 2021,
+      "total_payments": 185951.9,
+      "total_services": 1749,
+      "total_beneficiaries": 940,
+      "avg_submitted": 270.49,
+      "avg_paid": 95.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 232366.55,
+      "total_services": 2158,
+      "total_beneficiaries": 956,
+      "avg_submitted": 227.67,
+      "avg_paid": 95.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 174205.44,
+      "total_services": 1655,
+      "total_beneficiaries": 688,
+      "avg_submitted": 239.55,
+      "avg_paid": 97.68
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2926,
+      "payments": 526512.96,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4949,
+      "payments": 447755.15,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4280,
+      "payments": 369445.16,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3770,
+      "payments": 222824.2,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1270,
+      "payments": 207375.64,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 1265,
+      "payments": 130789.75,
+      "avg_markup": 5.8
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 986,
+      "payments": 130323.48,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 945,
+      "payments": 94200.11,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 335,
+      "payments": 37293.57,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 432,
+      "payments": 35096.21,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 508,
+      "payments": 30746.2,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 272,
+      "payments": 24633.82,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 142,
+      "payments": 23638.82,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 195,
+      "payments": 22615.77,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 173,
+      "payments": 18841.38,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 255,
+      "payments": 17670.21,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 72,
+      "payments": 7580.26,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 39,
+      "payments": 3428.53,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "36620",
+      "description": "Insertion of arterial catheter for blood sampling or infusion, accessed through the skin",
+      "services": 79,
+      "payments": 2962.16,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99152",
+      "description": "Moderate sedation services by physician also performing a procedure, patient 5 years of age or older, first 15 minutes",
+      "services": 267,
+      "payments": 2738.21,
+      "avg_markup": 7.31
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2360750.63,
+    "total_services": 23226,
+    "total_beneficiaries": 12783,
+    "avg_markup_ratio": 2.37
+  }
+}

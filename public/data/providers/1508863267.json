@@ -1,0 +1,239 @@
+{
+  "name": "Dan Martin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Camden",
+  "state": "AR",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 264517.35,
+      "total_services": 22629,
+      "total_beneficiaries": 10618,
+      "avg_submitted": 34.53,
+      "avg_paid": 19.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 299671.7,
+      "total_services": 21525,
+      "total_beneficiaries": 10870,
+      "avg_submitted": 38.39,
+      "avg_paid": 22.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 293967.83,
+      "total_services": 20735,
+      "total_beneficiaries": 10647,
+      "avg_submitted": 41.89,
+      "avg_paid": 23.28
+    },
+    {
+      "year": 2017,
+      "total_payments": 292734.22,
+      "total_services": 17233,
+      "total_beneficiaries": 9077,
+      "avg_submitted": 43.51,
+      "avg_paid": 25.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 315137.86,
+      "total_services": 18737,
+      "total_beneficiaries": 10119,
+      "avg_submitted": 44.88,
+      "avg_paid": 27.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 324564.05,
+      "total_services": 20305,
+      "total_beneficiaries": 10095,
+      "avg_submitted": 45.16,
+      "avg_paid": 26.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 292113.16,
+      "total_services": 19335,
+      "total_beneficiaries": 9715,
+      "avg_submitted": 44.88,
+      "avg_paid": 26.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 280951.83,
+      "total_services": 18337,
+      "total_beneficiaries": 9139,
+      "avg_submitted": 47.8,
+      "avg_paid": 26.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 284264.06,
+      "total_services": 18148,
+      "total_beneficiaries": 8667,
+      "avg_submitted": 46.8,
+      "avg_paid": 24.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 297599.34,
+      "total_services": 17578,
+      "total_beneficiaries": 8384,
+      "avg_submitted": 44.28,
+      "avg_paid": 23.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 23595,
+      "payments": 1076849.09,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4990,
+      "payments": 264695.55,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1038,
+      "payments": 147804.56,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 14438,
+      "payments": 131333.6,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 8776,
+      "payments": 114052.68,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1856,
+      "payments": 112649.41,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 542,
+      "payments": 97305.62,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 2672,
+      "payments": 73596.16,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 3401,
+      "payments": 70240.02,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "82150",
+      "description": "Amylase (enzyme) level",
+      "services": 7146,
+      "payments": 53711.42,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 14088,
+      "payments": 47781.41,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 634,
+      "payments": 45708.54,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2186,
+      "payments": 43277.53,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 3678,
+      "payments": 41769.27,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 2967,
+      "payments": 34855.74,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 317,
+      "payments": 29253.02,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "84460",
+      "description": "Liver enzyme (SGPT), level",
+      "services": 7372,
+      "payments": 28152.4,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "84132",
+      "description": "Blood potassium level",
+      "services": 7873,
+      "payments": 27433.31,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "84450",
+      "description": "Liver enzyme (SGOT), level",
+      "services": 7325,
+      "payments": 27405.66,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "84295",
+      "description": "Blood sodium level",
+      "services": 7752,
+      "payments": 27376.02,
+      "avg_markup": 2.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2945521.4,
+    "total_services": 194562,
+    "total_beneficiaries": 97331,
+    "avg_markup_ratio": 1.89
+  }
+}

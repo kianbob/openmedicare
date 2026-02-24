@@ -1,0 +1,239 @@
+{
+  "name": "Randolph Torres Ramos",
+  "credentials": "M. D.",
+  "specialty": "Internal Medicine",
+  "city": "Frisco",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1595.58,
+      "total_services": 29,
+      "total_beneficiaries": 13,
+      "avg_submitted": 250.0,
+      "avg_paid": 55.02
+    },
+    {
+      "year": 2015,
+      "total_payments": 58532.11,
+      "total_services": 817,
+      "total_beneficiaries": 567,
+      "avg_submitted": 412.63,
+      "avg_paid": 86.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 151900.98,
+      "total_services": 2195,
+      "total_beneficiaries": 1444,
+      "avg_submitted": 558.36,
+      "avg_paid": 84.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 147541.02,
+      "total_services": 2234,
+      "total_beneficiaries": 1329,
+      "avg_submitted": 687.77,
+      "avg_paid": 80.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 149157.89,
+      "total_services": 2096,
+      "total_beneficiaries": 1283,
+      "avg_submitted": 657.11,
+      "avg_paid": 84.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 261029.73,
+      "total_services": 3966,
+      "total_beneficiaries": 1858,
+      "avg_submitted": 462.02,
+      "avg_paid": 79.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 329931.24,
+      "total_services": 5074,
+      "total_beneficiaries": 1872,
+      "avg_submitted": 434.54,
+      "avg_paid": 83.54
+    },
+    {
+      "year": 2021,
+      "total_payments": 507308.53,
+      "total_services": 7859,
+      "total_beneficiaries": 2355,
+      "avg_submitted": 286.19,
+      "avg_paid": 74.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 624677.05,
+      "total_services": 9877,
+      "total_beneficiaries": 2705,
+      "avg_submitted": 299.07,
+      "avg_paid": 76.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 840141.11,
+      "total_services": 11121,
+      "total_beneficiaries": 2661,
+      "avg_submitted": 320.65,
+      "avg_paid": 80.73
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 13509,
+      "payments": 727139.03,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10660,
+      "payments": 599955.95,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7414,
+      "payments": 580291.88,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5865,
+      "payments": 477530.24,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1480,
+      "payments": 223568.57,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1427,
+      "payments": 143661.29,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2178,
+      "payments": 121203.89,
+      "avg_markup": 6.71
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 689,
+      "payments": 40525.45,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 256,
+      "payments": 36111.11,
+      "avg_markup": 10.23
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 266,
+      "payments": 27743.03,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 371,
+      "payments": 22397.93,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 394,
+      "payments": 21568.94,
+      "avg_markup": 9.29
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 157,
+      "payments": 12035.11,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 190,
+      "payments": 10523.7,
+      "avg_markup": 8.15
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 91,
+      "payments": 7543.25,
+      "avg_markup": 5.49
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care typically 30 minutes",
+      "services": 97,
+      "payments": 7337.66,
+      "avg_markup": 8.64
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 85,
+      "payments": 6802.06,
+      "avg_markup": 8.67
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 29,
+      "payments": 2393.95,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 72,
+      "payments": 2189.42,
+      "avg_markup": 7.01
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 38,
+      "payments": 1292.76,
+      "avg_markup": 3.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3071815.23,
+    "total_services": 45268,
+    "total_beneficiaries": 16087,
+    "avg_markup_ratio": 3.82
+  }
+}

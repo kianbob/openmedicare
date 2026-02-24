@@ -1,0 +1,239 @@
+{
+  "name": "Mark Coppess",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Memphis",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 347695.53,
+      "total_services": 9227,
+      "total_beneficiaries": 5217,
+      "avg_submitted": 260.22,
+      "avg_paid": 71.45
+    },
+    {
+      "year": 2015,
+      "total_payments": 366849.06,
+      "total_services": 9868,
+      "total_beneficiaries": 5396,
+      "avg_submitted": 275.54,
+      "avg_paid": 76.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 343172.98,
+      "total_services": 9117,
+      "total_beneficiaries": 5199,
+      "avg_submitted": 288.0,
+      "avg_paid": 77.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 371213.96,
+      "total_services": 10709,
+      "total_beneficiaries": 6106,
+      "avg_submitted": 264.04,
+      "avg_paid": 68.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 397279.35,
+      "total_services": 12868,
+      "total_beneficiaries": 7192,
+      "avg_submitted": 257.23,
+      "avg_paid": 65.73
+    },
+    {
+      "year": 2019,
+      "total_payments": 457505.68,
+      "total_services": 14939,
+      "total_beneficiaries": 8278,
+      "avg_submitted": 262.19,
+      "avg_paid": 68.65
+    },
+    {
+      "year": 2020,
+      "total_payments": 401196.14,
+      "total_services": 13848,
+      "total_beneficiaries": 7379,
+      "avg_submitted": 203.01,
+      "avg_paid": 52.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 440575.32,
+      "total_services": 14011,
+      "total_beneficiaries": 7708,
+      "avg_submitted": 153.53,
+      "avg_paid": 38.45
+    },
+    {
+      "year": 2022,
+      "total_payments": 377859.86,
+      "total_services": 11438,
+      "total_beneficiaries": 6583,
+      "avg_submitted": 140.1,
+      "avg_paid": 36.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 374859.04,
+      "total_services": 10453,
+      "total_beneficiaries": 6153,
+      "avg_submitted": 148.31,
+      "avg_paid": 39.11
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 18429,
+      "payments": 1350734.21,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7900,
+      "payments": 430079.64,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2024,
+      "payments": 211759.88,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1352,
+      "payments": 198927.59,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1407,
+      "payments": 198447.15,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 15811,
+      "payments": 164851.95,
+      "avg_markup": 6.22
+    },
+    {
+      "code": "93296",
+      "description": "Remote evaluations of defibrillator transmissions, technician review, support and distribution of results up to 90 days",
+      "services": 9653,
+      "payments": 155378.79,
+      "avg_markup": 5.4
+    },
+    {
+      "code": "93294",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "services": 6771,
+      "payments": 141224.92,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "93295",
+      "description": "Remote evaluations of single, dual, or multiple lead cardioverter-defibrillator with physician analysis, review, and report up to 90 days",
+      "services": 3434,
+      "payments": 111546.83,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "33228",
+      "description": "Removal and replacement of dual lead permanent pacemaker pulse generator",
+      "services": 384,
+      "payments": 97068.5,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 3416,
+      "payments": 86282.89,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "93297",
+      "description": "Remote evaluations of implantable heart monitoring system with physician analysis, review, and report up to 30 days",
+      "services": 3786,
+      "payments": 70378.34,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 151,
+      "payments": 56092.6,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "33249",
+      "description": "Insertion or replacement of single or dual chamber pacing defibrillator leads",
+      "services": 83,
+      "payments": 55567.5,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 11334,
+      "payments": 54548.02,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2022,
+      "payments": 39787.65,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "93283",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 830,
+      "payments": 31856.61,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "93793",
+      "description": "Anti-clotting management for patient taking warfarin",
+      "services": 4079,
+      "payments": 30139.63,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "93284",
+      "description": "Evaluation, testing, and programming adjustment of permanent multiple lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 623,
+      "payments": 26322.65,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "33263",
+      "description": "Removal and replacement of dual lead pacing defibrillator pulse generator",
+      "services": 88,
+      "payments": 24669.35,
+      "avg_markup": 3.3
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3878206.92,
+    "total_services": 116478,
+    "total_beneficiaries": 65211,
+    "avg_markup_ratio": 4.05
+  }
+}

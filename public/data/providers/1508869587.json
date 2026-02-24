@@ -1,0 +1,141 @@
+{
+  "name": "John Lawton",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Green Bay",
+  "state": "WI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 224951.37,
+      "total_services": 1307,
+      "total_beneficiaries": 305,
+      "avg_submitted": 511.35,
+      "avg_paid": 146.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 360453.83,
+      "total_services": 2306,
+      "total_beneficiaries": 412,
+      "avg_submitted": 518.55,
+      "avg_paid": 141.68
+    },
+    {
+      "year": 2016,
+      "total_payments": 349085.92,
+      "total_services": 2126,
+      "total_beneficiaries": 339,
+      "avg_submitted": 427.0,
+      "avg_paid": 130.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 306050.75,
+      "total_services": 2251,
+      "total_beneficiaries": 377,
+      "avg_submitted": 458.25,
+      "avg_paid": 127.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 292721.51,
+      "total_services": 2067,
+      "total_beneficiaries": 379,
+      "avg_submitted": 472.25,
+      "avg_paid": 125.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 332141.84,
+      "total_services": 1926,
+      "total_beneficiaries": 346,
+      "avg_submitted": 487.0,
+      "avg_paid": 132.51
+    },
+    {
+      "year": 2020,
+      "total_payments": 328485.52,
+      "total_services": 2796,
+      "total_beneficiaries": 428,
+      "avg_submitted": 475.88,
+      "avg_paid": 140.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 342537.32,
+      "total_services": 1292,
+      "total_beneficiaries": 230,
+      "avg_submitted": 689.58,
+      "avg_paid": 248.19
+    },
+    {
+      "year": 2022,
+      "total_payments": 274564.37,
+      "total_services": 1042,
+      "total_beneficiaries": 191,
+      "avg_submitted": 694.31,
+      "avg_paid": 246.26
+    },
+    {
+      "year": 2023,
+      "total_payments": 203318.49,
+      "total_services": 781,
+      "total_beneficiaries": 116,
+      "avg_submitted": 835.78,
+      "avg_paid": 241.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 11125,
+      "payments": 2512014.81,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 2479,
+      "payments": 446053.14,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "90970",
+      "description": "Dialysis services, per day (less than full month service), patient 20 years of age or older",
+      "services": 4066,
+      "payments": 23945.7,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 145,
+      "payments": 19401.64,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 55,
+      "payments": 9382.73,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 24,
+      "payments": 3512.9,
+      "avg_markup": 3.32
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3014310.92,
+    "total_services": 17894,
+    "total_beneficiaries": 3123,
+    "avg_markup_ratio": 3.27
+  }
+}

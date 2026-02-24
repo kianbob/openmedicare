@@ -1,0 +1,148 @@
+{
+  "name": "Gary Keogh",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Phenix City",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 562478.37,
+      "total_services": 8244,
+      "total_beneficiaries": 2282,
+      "avg_submitted": 158.75,
+      "avg_paid": 78.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 506490.28,
+      "total_services": 8076,
+      "total_beneficiaries": 1789,
+      "avg_submitted": 160.94,
+      "avg_paid": 76.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 515922.0,
+      "total_services": 8372,
+      "total_beneficiaries": 1817,
+      "avg_submitted": 174.08,
+      "avg_paid": 90.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 486636.59,
+      "total_services": 8084,
+      "total_beneficiaries": 1789,
+      "avg_submitted": 192.5,
+      "avg_paid": 81.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 571537.26,
+      "total_services": 8999,
+      "total_beneficiaries": 2009,
+      "avg_submitted": 165.0,
+      "avg_paid": 90.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 594184.24,
+      "total_services": 9297,
+      "total_beneficiaries": 2139,
+      "avg_submitted": 170.0,
+      "avg_paid": 98.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 510954.8,
+      "total_services": 7433,
+      "total_beneficiaries": 1850,
+      "avg_submitted": 170.0,
+      "avg_paid": 105.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 446086.65,
+      "total_services": 6600,
+      "total_beneficiaries": 1622,
+      "avg_submitted": 170.0,
+      "avg_paid": 104.23
+    },
+    {
+      "year": 2022,
+      "total_payments": 281391.44,
+      "total_services": 4405,
+      "total_beneficiaries": 912,
+      "avg_submitted": 169.05,
+      "avg_paid": 85.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 279170.95,
+      "total_services": 4404,
+      "total_beneficiaries": 888,
+      "avg_submitted": 173.33,
+      "avg_paid": 95.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 63507,
+      "payments": 3405508.43,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 7883,
+      "payments": 1147463.48,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1856,
+      "payments": 142773.62,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 533,
+      "payments": 52003.05,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 57,
+      "payments": 4158.15,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 64,
+      "payments": 2182.85,
+      "avg_markup": 4.54
+    },
+    {
+      "code": "99499",
+      "description": "Evaluation and management service",
+      "services": 14,
+      "payments": 763.0,
+      "avg_markup": 4.04
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4754852.58,
+    "total_services": 73914,
+    "total_beneficiaries": 17097,
+    "avg_markup_ratio": 2.03
+  }
+}

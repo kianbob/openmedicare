@@ -1,0 +1,41 @@
+{
+  "name": "Arizona State Public Health Laboratory",
+  "credentials": "",
+  "specialty": "Mass Immunizer Roster Biller",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 4270236.43,
+      "total_services": 173687,
+      "total_beneficiaries": 173466,
+      "avg_submitted": 40.0,
+      "avg_paid": 24.68
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 85610,
+      "payments": 2670046.93,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 88077,
+      "payments": 1600189.5,
+      "avg_markup": 2.2
+    }
+  ],
+  "overall": {
+    "years_active": 1,
+    "total_payments": 4270236.43,
+    "total_services": 173687,
+    "total_beneficiaries": 173466,
+    "avg_markup_ratio": 1.63
+  }
+}

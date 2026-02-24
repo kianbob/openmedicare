@@ -1,0 +1,223 @@
+{
+  "name": "Aslan Pirouz",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 62823.57,
+      "total_services": 650,
+      "total_beneficiaries": 342,
+      "avg_submitted": 701.68,
+      "avg_paid": 104.6
+    },
+    {
+      "year": 2017,
+      "total_payments": 186026.17,
+      "total_services": 2032,
+      "total_beneficiaries": 1154,
+      "avg_submitted": 795.33,
+      "avg_paid": 102.59
+    },
+    {
+      "year": 2018,
+      "total_payments": 288725.47,
+      "total_services": 3052,
+      "total_beneficiaries": 1612,
+      "avg_submitted": 803.76,
+      "avg_paid": 103.2
+    },
+    {
+      "year": 2019,
+      "total_payments": 437605.19,
+      "total_services": 4775,
+      "total_beneficiaries": 2276,
+      "avg_submitted": 734.44,
+      "avg_paid": 104.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 525745.44,
+      "total_services": 5931,
+      "total_beneficiaries": 2221,
+      "avg_submitted": 533.64,
+      "avg_paid": 104.96
+    },
+    {
+      "year": 2021,
+      "total_payments": 516343.7,
+      "total_services": 5876,
+      "total_beneficiaries": 2020,
+      "avg_submitted": 483.84,
+      "avg_paid": 107.72
+    },
+    {
+      "year": 2022,
+      "total_payments": 551622.15,
+      "total_services": 6454,
+      "total_beneficiaries": 2007,
+      "avg_submitted": 430.94,
+      "avg_paid": 105.36
+    },
+    {
+      "year": 2023,
+      "total_payments": 670914.09,
+      "total_services": 7723,
+      "total_beneficiaries": 2655,
+      "avg_submitted": 431.25,
+      "avg_paid": 97.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11628,
+      "payments": 1033337.32,
+      "avg_markup": 8.64
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12169,
+      "payments": 744435.09,
+      "avg_markup": 8.44
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2844,
+      "payments": 462830.92,
+      "avg_markup": 6.2
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1146,
+      "payments": 210537.51,
+      "avg_markup": 6.2
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1030,
+      "payments": 103310.96,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 874,
+      "payments": 81097.32,
+      "avg_markup": 4.38
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 516,
+      "payments": 58551.65,
+      "avg_markup": 5.74
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 579,
+      "payments": 53004.09,
+      "avg_markup": 7.58
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services, 1 physician visit per month (20 years or older)",
+      "services": 312,
+      "payments": 52482.4,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 335,
+      "payments": 51701.34,
+      "avg_markup": 5.95
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 160,
+      "payments": 39539.69,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 650,
+      "payments": 38953.65,
+      "avg_markup": 8.34
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 423,
+      "payments": 27819.72,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "90937",
+      "description": "Hemodialysis procedure with repeated evaluations",
+      "services": 320,
+      "payments": 27425.37,
+      "avg_markup": 8.75
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 375,
+      "payments": 27225.21,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "90945",
+      "description": "Dialysis procedure including one evaluation",
+      "services": 266,
+      "payments": 19010.49,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 213,
+      "payments": 17026.51,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 142,
+      "payments": 16484.25,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 163,
+      "payments": 13992.19,
+      "avg_markup": 7.89
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 89,
+      "payments": 13128.58,
+      "avg_markup": 2.24
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3239805.78,
+    "total_services": 36493,
+    "total_beneficiaries": 14287,
+    "avg_markup_ratio": 7.17
+  }
+}

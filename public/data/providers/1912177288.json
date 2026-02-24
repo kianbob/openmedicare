@@ -1,0 +1,218 @@
+{
+  "name": "Ivan Zama",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Greenbelt",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 262663.35,
+      "total_services": 3041,
+      "total_beneficiaries": 1198,
+      "avg_submitted": 205.78,
+      "avg_paid": 85.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 344739.95,
+      "total_services": 4013,
+      "total_beneficiaries": 1496,
+      "avg_submitted": 231.75,
+      "avg_paid": 101.59
+    },
+    {
+      "year": 2016,
+      "total_payments": 376186.11,
+      "total_services": 4487,
+      "total_beneficiaries": 1756,
+      "avg_submitted": 247.86,
+      "avg_paid": 97.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 481590.96,
+      "total_services": 5787,
+      "total_beneficiaries": 1859,
+      "avg_submitted": 275.18,
+      "avg_paid": 113.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 459572.7,
+      "total_services": 5359,
+      "total_beneficiaries": 1854,
+      "avg_submitted": 281.43,
+      "avg_paid": 114.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 378498.65,
+      "total_services": 4150,
+      "total_beneficiaries": 1419,
+      "avg_submitted": 254.8,
+      "avg_paid": 106.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 391502.78,
+      "total_services": 4382,
+      "total_beneficiaries": 1372,
+      "avg_submitted": 260.0,
+      "avg_paid": 107.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 358367.43,
+      "total_services": 3805,
+      "total_beneficiaries": 1369,
+      "avg_submitted": 258.77,
+      "avg_paid": 108.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 426165.76,
+      "total_services": 4896,
+      "total_beneficiaries": 1669,
+      "avg_submitted": 259.01,
+      "avg_paid": 113.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 390247.94,
+      "total_services": 4693,
+      "total_beneficiaries": 1854,
+      "avg_submitted": 258.73,
+      "avg_paid": 101.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 28857,
+      "payments": 1812102.08,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4967,
+      "payments": 852461.96,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2727,
+      "payments": 520284.63,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4612,
+      "payments": 419737.01,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 1372,
+      "payments": 108884.97,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 412,
+      "payments": 39389.37,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 470,
+      "payments": 29876.14,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 353,
+      "payments": 23500.33,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 195,
+      "payments": 22672.66,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 153,
+      "payments": 15076.94,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "G0316",
+      "description": "Prolonged hospital inpatient or observation care evaluation and management service(s) beyond the total time for the primary service (when the primary service has been selected using time on the date of the primary service); each additional 15 minutes by th",
+      "services": 320,
+      "payments": 8474.99,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 25,
+      "payments": 4610.89,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit per day, typically 45 minutes",
+      "services": 26,
+      "payments": 3783.08,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 22,
+      "payments": 3415.05,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99308",
+      "description": "Follow-up nursing facility visit per day, typically 15 minutes",
+      "services": 47,
+      "payments": 2873.58,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99498",
+      "description": "Advance care planning, each additional 30 minutes",
+      "services": 30,
+      "payments": 1866.9,
+      "avg_markup": 4.74
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 25,
+      "payments": 525.05,
+      "avg_markup": 8.33
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3869535.63,
+    "total_services": 44613,
+    "total_beneficiaries": 15846,
+    "avg_markup_ratio": 2.73
+  }
+}

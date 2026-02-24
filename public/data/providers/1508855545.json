@@ -1,0 +1,231 @@
+{
+  "name": "William Jones",
+  "credentials": "MD",
+  "specialty": "Diagnostic Radiology",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 306168.88,
+      "total_services": 4261,
+      "total_beneficiaries": 4145,
+      "avg_submitted": 400.26,
+      "avg_paid": 74.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 443613.17,
+      "total_services": 6379,
+      "total_beneficiaries": 6097,
+      "avg_submitted": 396.46,
+      "avg_paid": 70.78
+    },
+    {
+      "year": 2016,
+      "total_payments": 440213.8,
+      "total_services": 6774,
+      "total_beneficiaries": 6534,
+      "avg_submitted": 369.95,
+      "avg_paid": 65.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 480890.17,
+      "total_services": 6057,
+      "total_beneficiaries": 5937,
+      "avg_submitted": 439.09,
+      "avg_paid": 76.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 477673.63,
+      "total_services": 5709,
+      "total_beneficiaries": 5597,
+      "avg_submitted": 483.28,
+      "avg_paid": 83.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 474044.14,
+      "total_services": 5951,
+      "total_beneficiaries": 5856,
+      "avg_submitted": 561.43,
+      "avg_paid": 77.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 427105.75,
+      "total_services": 5609,
+      "total_beneficiaries": 5514,
+      "avg_submitted": 607.82,
+      "avg_paid": 72.72
+    },
+    {
+      "year": 2021,
+      "total_payments": 385873.72,
+      "total_services": 4812,
+      "total_beneficiaries": 4740,
+      "avg_submitted": 664.74,
+      "avg_paid": 79.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 345022.31,
+      "total_services": 4145,
+      "total_beneficiaries": 4109,
+      "avg_submitted": 661.0,
+      "avg_paid": 74.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 4061,
+      "payments": 792810.34,
+      "avg_markup": 7.29
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 3275,
+      "payments": 446370.41,
+      "avg_markup": 7.23
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 3511,
+      "payments": 385705.03,
+      "avg_markup": 6.81
+    },
+    {
+      "code": "70544",
+      "description": "MRA scan of head blood vessels",
+      "services": 2145,
+      "payments": 203937.72,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "72141",
+      "description": "MRI scan of upper spinal canal",
+      "services": 1613,
+      "payments": 199244.41,
+      "avg_markup": 7.18
+    },
+    {
+      "code": "70450",
+      "description": "CT scan head or brain",
+      "services": 3246,
+      "payments": 177337.13,
+      "avg_markup": 7.16
+    },
+    {
+      "code": "72158",
+      "description": "MRI scan of lower spinal canal before and after contrast",
+      "services": 735,
+      "payments": 146998.11,
+      "avg_markup": 7.17
+    },
+    {
+      "code": "70543",
+      "description": "MRI scan bones of the eye, face, and/or neck before and after contrast",
+      "services": 423,
+      "payments": 132238.21,
+      "avg_markup": 5.85
+    },
+    {
+      "code": "70486",
+      "description": "CT scan of face",
+      "services": 1332,
+      "payments": 129683.59,
+      "avg_markup": 5.66
+    },
+    {
+      "code": "70498",
+      "description": "CT scan of neck blood vessels with contrast",
+      "services": 1226,
+      "payments": 113145.75,
+      "avg_markup": 8.86
+    },
+    {
+      "code": "70491",
+      "description": "CT scan of neck with contrast",
+      "services": 828,
+      "payments": 100466.46,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "70496",
+      "description": "CT scan of blood vessel of head with contrast",
+      "services": 1065,
+      "payments": 96883.93,
+      "avg_markup": 7.73
+    },
+    {
+      "code": "70547",
+      "description": "MRA scan of neck blood vessels",
+      "services": 954,
+      "payments": 89342.71,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "72146",
+      "description": "MRI scan of middle spinal canal",
+      "services": 630,
+      "payments": 70385.39,
+      "avg_markup": 7.87
+    },
+    {
+      "code": "70549",
+      "description": "MRA scan of neck blood vessels before and after contrast",
+      "services": 765,
+      "payments": 51799.58,
+      "avg_markup": 7.54
+    },
+    {
+      "code": "72156",
+      "description": "MRI scan of upper spinal canal before and after contrast",
+      "services": 230,
+      "payments": 47523.44,
+      "avg_markup": 7.65
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 2221,
+      "payments": 43811.29,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "72131",
+      "description": "CT scan of lower spine",
+      "services": 423,
+      "payments": 41125.82,
+      "avg_markup": 6.18
+    },
+    {
+      "code": "72157",
+      "description": "MRI scan of middle spinal canal before and after contrast",
+      "services": 220,
+      "payments": 40214.74,
+      "avg_markup": 7.99
+    },
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 581,
+      "payments": 40204.52,
+      "avg_markup": 11.88
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3780605.56,
+    "total_services": 49697,
+    "total_beneficiaries": 48529,
+    "avg_markup_ratio": 6.97
+  }
+}

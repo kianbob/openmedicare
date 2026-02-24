@@ -1,0 +1,93 @@
+{
+  "name": "Gene By Gene Ltd",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 2639083.0,
+      "total_services": 26393,
+      "total_beneficiaries": 5998,
+      "avg_submitted": 299.8,
+      "avg_paid": 99.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 4027165.22,
+      "total_services": 81959,
+      "total_beneficiaries": 13991,
+      "avg_submitted": 119.48,
+      "avg_paid": 33.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 3902202.33,
+      "total_services": 96556,
+      "total_beneficiaries": 9483,
+      "avg_submitted": 175.09,
+      "avg_paid": 54.41
+    },
+    {
+      "year": 2023,
+      "total_payments": 2175019.78,
+      "total_services": 34853,
+      "total_beneficiaries": 3925,
+      "avg_submitted": 179.82,
+      "avg_paid": 53.66
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0004",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 103820,
+      "payments": 8412807.25,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 72119,
+      "payments": 1794399.25,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "87636",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19) and influenza virus types a and b",
+      "services": 11321,
+      "payments": 1582455.07,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 31584,
+      "payments": 730407.21,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "P9604",
+      "description": "Travel allowance one way in connection with medically necessary laboratory specimen collection drawn from home bound or nursing home bound patient; prorated trip charge",
+      "services": 20790,
+      "payments": 217015.99,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 127,
+      "payments": 6385.56,
+      "avg_markup": 2.98
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 12743470.33,
+    "total_services": 239761,
+    "total_beneficiaries": 33397,
+    "avg_markup_ratio": 3.4
+  }
+}

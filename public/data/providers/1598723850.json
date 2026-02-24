@@ -1,0 +1,232 @@
+{
+  "name": "Peter Campochiaro",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Baltimore",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 120849.53,
+      "total_services": 1712,
+      "total_beneficiaries": 886,
+      "avg_submitted": 647.01,
+      "avg_paid": 213.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 135241.36,
+      "total_services": 1921,
+      "total_beneficiaries": 916,
+      "avg_submitted": 645.72,
+      "avg_paid": 189.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 130701.17,
+      "total_services": 1853,
+      "total_beneficiaries": 911,
+      "avg_submitted": 621.76,
+      "avg_paid": 174.94
+    },
+    {
+      "year": 2017,
+      "total_payments": 352477.64,
+      "total_services": 2211,
+      "total_beneficiaries": 997,
+      "avg_submitted": 692.44,
+      "avg_paid": 188.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 404921.66,
+      "total_services": 2463,
+      "total_beneficiaries": 1033,
+      "avg_submitted": 1108.78,
+      "avg_paid": 301.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 414656.28,
+      "total_services": 2369,
+      "total_beneficiaries": 988,
+      "avg_submitted": 770.7,
+      "avg_paid": 211.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 315593.03,
+      "total_services": 1438,
+      "total_beneficiaries": 600,
+      "avg_submitted": 455.74,
+      "avg_paid": 164.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 332420.1,
+      "total_services": 1832,
+      "total_beneficiaries": 825,
+      "avg_submitted": 359.58,
+      "avg_paid": 123.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 325744.38,
+      "total_services": 1958,
+      "total_beneficiaries": 807,
+      "avg_submitted": 842.15,
+      "avg_paid": 228.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 260440.85,
+      "total_services": 1666,
+      "total_beneficiaries": 717,
+      "avg_submitted": 538.19,
+      "avg_paid": 173.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 2201,
+      "payments": 1616831.49,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 4136,
+      "payments": 400264.79,
+      "avg_markup": 6.5
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 4038,
+      "payments": 267387.87,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 7155,
+      "payments": 237681.73,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane from the retina",
+      "services": 67,
+      "payments": 67561.91,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 386,
+      "payments": 31941.16,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 247,
+      "payments": 24919.95,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "67108",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 25,
+      "payments": 24124.09,
+      "avg_markup": 5.18
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 211,
+      "payments": 23837.66,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between the lens and retina",
+      "services": 26,
+      "payments": 19344.13,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 285,
+      "payments": 16866.72,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "67113",
+      "description": "Repair of detached retina and drainage of eye fluid between lens and retina",
+      "services": 16,
+      "payments": 16115.84,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "J7312",
+      "description": "Injection, dexamethasone, intravitreal implant, 0.1 mg",
+      "services": 95,
+      "payments": 14513.89,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 225,
+      "payments": 12082.59,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 155,
+      "payments": 9979.06,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 113,
+      "payments": 7519.06,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99202",
+      "description": "New patient outpatient visit, total time 15-29 minutes",
+      "services": 17,
+      "payments": 982.7,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 14,
+      "payments": 595.48,
+      "avg_markup": 6.21
+    },
+    {
+      "code": "99212",
+      "description": "Established patient outpatient visit, total time 10-19 minutes",
+      "services": 11,
+      "payments": 495.9,
+      "avg_markup": 2.44
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2793046.01,
+    "total_services": 19423,
+    "total_beneficiaries": 8680,
+    "avg_markup_ratio": 3.03
+  }
+}

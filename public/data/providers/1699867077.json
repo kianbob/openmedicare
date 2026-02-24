@@ -1,0 +1,134 @@
+{
+  "name": "City Of Cleveland",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Cleveland",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3866015.0,
+      "total_services": 25513,
+      "total_beneficiaries": 15363,
+      "avg_submitted": 327.52,
+      "avg_paid": 243.37
+    },
+    {
+      "year": 2015,
+      "total_payments": 2859990.32,
+      "total_services": 18695,
+      "total_beneficiaries": 11672,
+      "avg_submitted": 327.52,
+      "avg_paid": 245.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 3024106.74,
+      "total_services": 19824,
+      "total_beneficiaries": 12138,
+      "avg_submitted": 327.5,
+      "avg_paid": 244.45
+    },
+    {
+      "year": 2017,
+      "total_payments": 2841714.54,
+      "total_services": 18599,
+      "total_beneficiaries": 11329,
+      "avg_submitted": 327.51,
+      "avg_paid": 245.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 2846066.01,
+      "total_services": 18519,
+      "total_beneficiaries": 10943,
+      "avg_submitted": 327.51,
+      "avg_paid": 247.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 2678564.82,
+      "total_services": 17104,
+      "total_beneficiaries": 10373,
+      "avg_submitted": 327.51,
+      "avg_paid": 249.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 2247425.53,
+      "total_services": 14247,
+      "total_beneficiaries": 8847,
+      "avg_submitted": 327.5,
+      "avg_paid": 251.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 2044841.41,
+      "total_services": 12849,
+      "total_beneficiaries": 7879,
+      "avg_submitted": 327.52,
+      "avg_paid": 254.32
+    },
+    {
+      "year": 2022,
+      "total_payments": 1195142.03,
+      "total_services": 7012,
+      "total_beneficiaries": 4882,
+      "avg_submitted": 483.43,
+      "avg_paid": 251.11
+    },
+    {
+      "year": 2023,
+      "total_payments": 5058.51,
+      "total_services": 33,
+      "total_beneficiaries": 33,
+      "avg_submitted": 452.62,
+      "avg_paid": 192.72
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 46876,
+      "payments": 15126414.7,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 28767,
+      "payments": 7759949.34,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 76029,
+      "payments": 441949.43,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 706,
+      "payments": 277468.31,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 17,
+      "payments": 3143.13,
+      "avg_markup": 2.4
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 23608924.92,
+    "total_services": 152395,
+    "total_beneficiaries": 93459,
+    "avg_markup_ratio": 1.39
+  }
+}

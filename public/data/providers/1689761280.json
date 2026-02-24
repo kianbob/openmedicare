@@ -1,0 +1,239 @@
+{
+  "name": "Charles Brock",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Cleveland",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 411343.75,
+      "total_services": 13391,
+      "total_beneficiaries": 8674,
+      "avg_submitted": 164.82,
+      "avg_paid": 48.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 498134.4,
+      "total_services": 14381,
+      "total_beneficiaries": 8997,
+      "avg_submitted": 133.0,
+      "avg_paid": 44.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 476997.21,
+      "total_services": 14424,
+      "total_beneficiaries": 8801,
+      "avg_submitted": 123.55,
+      "avg_paid": 40.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 529123.51,
+      "total_services": 14773,
+      "total_beneficiaries": 9434,
+      "avg_submitted": 135.9,
+      "avg_paid": 46.54
+    },
+    {
+      "year": 2018,
+      "total_payments": 591035.34,
+      "total_services": 16101,
+      "total_beneficiaries": 10353,
+      "avg_submitted": 131.05,
+      "avg_paid": 45.71
+    },
+    {
+      "year": 2019,
+      "total_payments": 571599.87,
+      "total_services": 15507,
+      "total_beneficiaries": 9974,
+      "avg_submitted": 114.88,
+      "avg_paid": 41.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 502312.83,
+      "total_services": 13336,
+      "total_beneficiaries": 8663,
+      "avg_submitted": 115.32,
+      "avg_paid": 41.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 533412.62,
+      "total_services": 12998,
+      "total_beneficiaries": 8600,
+      "avg_submitted": 120.67,
+      "avg_paid": 44.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 474110.57,
+      "total_services": 12051,
+      "total_beneficiaries": 8135,
+      "avg_submitted": 125.21,
+      "avg_paid": 43.69
+    },
+    {
+      "year": 2023,
+      "total_payments": 405073.47,
+      "total_services": 10470,
+      "total_beneficiaries": 7006,
+      "avg_submitted": 116.67,
+      "avg_paid": 43.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 21357,
+      "payments": 1517435.59,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2492,
+      "payments": 359842.08,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7076,
+      "payments": 329414.34,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2951,
+      "payments": 232865.58,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1628,
+      "payments": 174437.84,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2587,
+      "payments": 140163.46,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2386,
+      "payments": 130353.96,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1706,
+      "payments": 128373.42,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 696,
+      "payments": 116824.76,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 8304,
+      "payments": 107352.88,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3301,
+      "payments": 103816.66,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 5240,
+      "payments": 99328.61,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 6231,
+      "payments": 83389.42,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms (an",
+      "services": 1003,
+      "payments": 81707.45,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 6666,
+      "payments": 76175.76,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 7207,
+      "payments": 65045.22,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 459,
+      "payments": 62867.9,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 379,
+      "payments": 51146.24,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 1144,
+      "payments": 48243.33,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "J7321",
+      "description": "Hyaluronan or derivative, hyalgan or supartz, for intra-articular injection, per dose",
+      "services": 734,
+      "payments": 47057.73,
+      "avg_markup": 2.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4993143.58,
+    "total_services": 137432,
+    "total_beneficiaries": 88637,
+    "avg_markup_ratio": 2.92
+  }
+}

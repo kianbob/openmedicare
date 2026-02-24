@@ -1,0 +1,239 @@
+{
+  "name": "Walter Gil",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Palm City",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 337199.56,
+      "total_services": 3965,
+      "total_beneficiaries": 2370,
+      "avg_submitted": 255.26,
+      "avg_paid": 97.02
+    },
+    {
+      "year": 2015,
+      "total_payments": 303908.96,
+      "total_services": 3828,
+      "total_beneficiaries": 2271,
+      "avg_submitted": 245.73,
+      "avg_paid": 92.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 142426.73,
+      "total_services": 1754,
+      "total_beneficiaries": 1230,
+      "avg_submitted": 437.26,
+      "avg_paid": 90.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 172656.87,
+      "total_services": 2112,
+      "total_beneficiaries": 1386,
+      "avg_submitted": 284.57,
+      "avg_paid": 86.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 512274.02,
+      "total_services": 5724,
+      "total_beneficiaries": 3340,
+      "avg_submitted": 237.75,
+      "avg_paid": 88.88
+    },
+    {
+      "year": 2019,
+      "total_payments": 500477.0,
+      "total_services": 5518,
+      "total_beneficiaries": 2881,
+      "avg_submitted": 257.36,
+      "avg_paid": 94.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 239412.64,
+      "total_services": 2697,
+      "total_beneficiaries": 1988,
+      "avg_submitted": 254.36,
+      "avg_paid": 98.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 266909.76,
+      "total_services": 3462,
+      "total_beneficiaries": 2065,
+      "avg_submitted": 235.51,
+      "avg_paid": 89.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 201555.65,
+      "total_services": 2654,
+      "total_beneficiaries": 1140,
+      "avg_submitted": 272.91,
+      "avg_paid": 96.38
+    },
+    {
+      "year": 2023,
+      "total_payments": 156506.58,
+      "total_services": 1903,
+      "total_beneficiaries": 1036,
+      "avg_submitted": 222.33,
+      "avg_paid": 93.85
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2774,
+      "payments": 462738.7,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7035,
+      "payments": 418765.67,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3325,
+      "payments": 285316.94,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3316,
+      "payments": 245643.81,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1717,
+      "payments": 236304.61,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 2109,
+      "payments": 233207.38,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3729,
+      "payments": 208510.67,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1949,
+      "payments": 171133.17,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 1560,
+      "payments": 116014.17,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 451,
+      "payments": 83112.33,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1281,
+      "payments": 40923.75,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 212,
+      "payments": 33018.6,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 176,
+      "payments": 30824.68,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 670,
+      "payments": 28471.88,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 220,
+      "payments": 24771.83,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 364,
+      "payments": 21388.27,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit, problem with significant threat to life or function",
+      "services": 169,
+      "payments": 21169.57,
+      "avg_markup": 12.86
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 189,
+      "payments": 21143.27,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 116,
+      "payments": 17857.07,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 295,
+      "payments": 17656.44,
+      "avg_markup": 2.92
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2833327.77,
+    "total_services": 33617,
+    "total_beneficiaries": 19707,
+    "avg_markup_ratio": 2.67
+  }
+}

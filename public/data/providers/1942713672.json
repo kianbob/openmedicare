@@ -1,0 +1,63 @@
+{
+  "name": "South Metro - Cunningham Fire Rescue Authority",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Centennial",
+  "state": "CO",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 903537.47,
+      "total_services": 5265,
+      "total_beneficiaries": 4076,
+      "avg_submitted": 603.72,
+      "avg_paid": 285.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 1644696.79,
+      "total_services": 9242,
+      "total_beneficiaries": 7028,
+      "avg_submitted": 603.76,
+      "avg_paid": 292.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 5971,
+      "payments": 2091744.82,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1118,
+      "payments": 328875.92,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 167,
+      "payments": 85073.12,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 7251,
+      "payments": 42540.4,
+      "avg_markup": 2.56
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 2548234.25,
+    "total_services": 14507,
+    "total_beneficiaries": 11104,
+    "avg_markup_ratio": 2.32
+  }
+}

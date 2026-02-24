@@ -1,0 +1,239 @@
+{
+  "name": "David Kamelhar",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 465005.09,
+      "total_services": 7605,
+      "total_beneficiaries": 3406,
+      "avg_submitted": 193.05,
+      "avg_paid": 73.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 532784.48,
+      "total_services": 8628,
+      "total_beneficiaries": 3777,
+      "avg_submitted": 198.87,
+      "avg_paid": 68.44
+    },
+    {
+      "year": 2016,
+      "total_payments": 518583.87,
+      "total_services": 8590,
+      "total_beneficiaries": 4023,
+      "avg_submitted": 191.87,
+      "avg_paid": 68.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 535008.7,
+      "total_services": 8810,
+      "total_beneficiaries": 4123,
+      "avg_submitted": 194.78,
+      "avg_paid": 69.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 501712.21,
+      "total_services": 8343,
+      "total_beneficiaries": 4024,
+      "avg_submitted": 180.74,
+      "avg_paid": 70.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 483458.68,
+      "total_services": 7513,
+      "total_beneficiaries": 3818,
+      "avg_submitted": 210.58,
+      "avg_paid": 86.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 368308.25,
+      "total_services": 5210,
+      "total_beneficiaries": 2964,
+      "avg_submitted": 196.37,
+      "avg_paid": 76.02
+    },
+    {
+      "year": 2021,
+      "total_payments": 414917.45,
+      "total_services": 5521,
+      "total_beneficiaries": 3239,
+      "avg_submitted": 234.95,
+      "avg_paid": 85.38
+    },
+    {
+      "year": 2022,
+      "total_payments": 431302.01,
+      "total_services": 5699,
+      "total_beneficiaries": 3460,
+      "avg_submitted": 228.25,
+      "avg_paid": 69.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 420878.19,
+      "total_services": 6009,
+      "total_beneficiaries": 3640,
+      "avg_submitted": 210.87,
+      "avg_paid": 68.6
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11496,
+      "payments": 1126128.28,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 12659,
+      "payments": 849527.64,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 17138,
+      "payments": 835253.08,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 15339,
+      "payments": 781315.25,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 6966,
+      "payments": 358297.03,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1524,
+      "payments": 286700.61,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1412,
+      "payments": 194813.38,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 481,
+      "payments": 67335.92,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 1845,
+      "payments": 56909.31,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 847,
+      "payments": 26017.76,
+      "avg_markup": 9.4
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 121,
+      "payments": 21408.06,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 409,
+      "payments": 20031.97,
+      "avg_markup": 7.74
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 143,
+      "payments": 14096.54,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient use of aerosol generator, nebulizer, metered dose inhaler or intermittent positive pressure breathing (IPPB) device",
+      "services": 552,
+      "payments": 8831.32,
+      "avg_markup": 6.26
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 268,
+      "payments": 7553.6,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "Q2038",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluzone)",
+      "services": 267,
+      "payments": 4159.6,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 46,
+      "payments": 4145.82,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 53,
+      "payments": 2386.59,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 30,
+      "payments": 1434.6,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99458",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, each additional 20 minutes",
+      "services": 35,
+      "payments": 1271.9,
+      "avg_markup": 1.43
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4671958.93,
+    "total_services": 71928,
+    "total_beneficiaries": 36474,
+    "avg_markup_ratio": 2.99
+  }
+}

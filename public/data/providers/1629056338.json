@@ -1,0 +1,134 @@
+{
+  "name": "Surendra Gupta",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Jackson Heights",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 392499.83,
+      "total_services": 1779,
+      "total_beneficiaries": 409,
+      "avg_submitted": 385.0,
+      "avg_paid": 132.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 302407.44,
+      "total_services": 1381,
+      "total_beneficiaries": 295,
+      "avg_submitted": 385.0,
+      "avg_paid": 134.19
+    },
+    {
+      "year": 2016,
+      "total_payments": 227085.96,
+      "total_services": 1051,
+      "total_beneficiaries": 280,
+      "avg_submitted": 431.25,
+      "avg_paid": 132.74
+    },
+    {
+      "year": 2017,
+      "total_payments": 190583.16,
+      "total_services": 931,
+      "total_beneficiaries": 275,
+      "avg_submitted": 431.25,
+      "avg_paid": 133.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 228521.11,
+      "total_services": 1089,
+      "total_beneficiaries": 278,
+      "avg_submitted": 431.25,
+      "avg_paid": 130.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 251188.5,
+      "total_services": 1080,
+      "total_beneficiaries": 265,
+      "avg_submitted": 431.25,
+      "avg_paid": 138.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 253514.48,
+      "total_services": 1037,
+      "total_beneficiaries": 223,
+      "avg_submitted": 431.25,
+      "avg_paid": 141.73
+    },
+    {
+      "year": 2021,
+      "total_payments": 281534.44,
+      "total_services": 883,
+      "total_beneficiaries": 183,
+      "avg_submitted": 525.0,
+      "avg_paid": 210.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 214067.65,
+      "total_services": 668,
+      "total_beneficiaries": 130,
+      "avg_submitted": 525.0,
+      "avg_paid": 209.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 105956.65,
+      "total_services": 352,
+      "total_beneficiaries": 102,
+      "avg_submitted": 525.0,
+      "avg_paid": 201.57
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 8528,
+      "payments": 2313409.78,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 287,
+      "payments": 66759.24,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 922,
+      "payments": 59398.02,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 34,
+      "payments": 4215.24,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "90970",
+      "description": "Dialysis services, per day (less than full month service), patient 20 years of age or older",
+      "services": 480,
+      "payments": 3576.94,
+      "avg_markup": 10.06
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2447359.22,
+    "total_services": 10251,
+    "total_beneficiaries": 2440,
+    "avg_markup_ratio": 3.62
+  }
+}

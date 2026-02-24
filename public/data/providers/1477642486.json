@@ -1,0 +1,183 @@
+{
+  "name": "Gregory Forstall",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Flint",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 568375.69,
+      "total_services": 7192,
+      "total_beneficiaries": 2339,
+      "avg_submitted": 137.36,
+      "avg_paid": 71.01
+    },
+    {
+      "year": 2015,
+      "total_payments": 418850.56,
+      "total_services": 5884,
+      "total_beneficiaries": 2415,
+      "avg_submitted": 145.09,
+      "avg_paid": 72.07
+    },
+    {
+      "year": 2016,
+      "total_payments": 337457.99,
+      "total_services": 4682,
+      "total_beneficiaries": 2148,
+      "avg_submitted": 151.89,
+      "avg_paid": 68.99
+    },
+    {
+      "year": 2017,
+      "total_payments": 248108.85,
+      "total_services": 3978,
+      "total_beneficiaries": 1880,
+      "avg_submitted": 153.17,
+      "avg_paid": 69.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 273814.19,
+      "total_services": 3357,
+      "total_beneficiaries": 1709,
+      "avg_submitted": 153.27,
+      "avg_paid": 81.0
+    },
+    {
+      "year": 2019,
+      "total_payments": 207243.28,
+      "total_services": 3027,
+      "total_beneficiaries": 1454,
+      "avg_submitted": 146.75,
+      "avg_paid": 68.93
+    },
+    {
+      "year": 2020,
+      "total_payments": 322368.48,
+      "total_services": 4294,
+      "total_beneficiaries": 1370,
+      "avg_submitted": 142.09,
+      "avg_paid": 72.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 380540.24,
+      "total_services": 5467,
+      "total_beneficiaries": 1440,
+      "avg_submitted": 151.17,
+      "avg_paid": 77.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 258393.11,
+      "total_services": 3880,
+      "total_beneficiaries": 1062,
+      "avg_submitted": 160.78,
+      "avg_paid": 78.1
+    },
+    {
+      "year": 2023,
+      "total_payments": 201982.98,
+      "total_services": 2550,
+      "total_beneficiaries": 792,
+      "avg_submitted": 165.63,
+      "avg_paid": 78.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 22331,
+      "payments": 1287680.78,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9540,
+      "payments": 789036.55,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4709,
+      "payments": 501907.21,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2648,
+      "payments": 409842.49,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2945,
+      "payments": 89481.57,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 1034,
+      "payments": 79376.16,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 417,
+      "payments": 19131.44,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 257,
+      "payments": 17005.25,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 210,
+      "payments": 8311.81,
+      "avg_markup": 4.75
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 75,
+      "payments": 7458.51,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 113,
+      "payments": 6855.6,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 32,
+      "payments": 1048.0,
+      "avg_markup": 1.86
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3217135.37,
+    "total_services": 44311,
+    "total_beneficiaries": 16609,
+    "avg_markup_ratio": 1.73
+  }
+}

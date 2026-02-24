@@ -1,0 +1,239 @@
+{
+  "name": "Michael Shelling",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Boynton Beach",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 456682.92,
+      "total_services": 5367,
+      "total_beneficiaries": 3919,
+      "avg_submitted": 333.25,
+      "avg_paid": 169.75
+    },
+    {
+      "year": 2015,
+      "total_payments": 550542.83,
+      "total_services": 6874,
+      "total_beneficiaries": 4853,
+      "avg_submitted": 315.18,
+      "avg_paid": 161.78
+    },
+    {
+      "year": 2016,
+      "total_payments": 552659.07,
+      "total_services": 8045,
+      "total_beneficiaries": 5347,
+      "avg_submitted": 285.0,
+      "avg_paid": 141.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 570240.98,
+      "total_services": 8393,
+      "total_beneficiaries": 5539,
+      "avg_submitted": 322.0,
+      "avg_paid": 163.67
+    },
+    {
+      "year": 2018,
+      "total_payments": 678619.37,
+      "total_services": 9481,
+      "total_beneficiaries": 6177,
+      "avg_submitted": 308.0,
+      "avg_paid": 161.02
+    },
+    {
+      "year": 2019,
+      "total_payments": 783687.88,
+      "total_services": 10775,
+      "total_beneficiaries": 6845,
+      "avg_submitted": 313.78,
+      "avg_paid": 184.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 749124.35,
+      "total_services": 8424,
+      "total_beneficiaries": 5836,
+      "avg_submitted": 339.22,
+      "avg_paid": 197.46
+    },
+    {
+      "year": 2021,
+      "total_payments": 755040.81,
+      "total_services": 8857,
+      "total_beneficiaries": 6088,
+      "avg_submitted": 292.73,
+      "avg_paid": 173.87
+    },
+    {
+      "year": 2022,
+      "total_payments": 764673.44,
+      "total_services": 9383,
+      "total_beneficiaries": 6091,
+      "avg_submitted": 291.13,
+      "avg_paid": 167.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 834190.22,
+      "total_services": 10122,
+      "total_beneficiaries": 6620,
+      "avg_submitted": 291.68,
+      "avg_paid": 166.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 27053,
+      "payments": 1614083.36,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "17311",
+      "description": "Removal and microscopic examination of growth of the head, neck, hands, feet, or genitals (first stage, up to 5 tissue blocks)",
+      "services": 2051,
+      "payments": 1030391.32,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 12392,
+      "payments": 524605.19,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 4992,
+      "payments": 436970.12,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 5181,
+      "payments": 380329.26,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 4594,
+      "payments": 346639.8,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 3671,
+      "payments": 291123.64,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "17312",
+      "description": "Removal and microscopic examination of growth of the head, neck, hands, feet, or genitals",
+      "services": 734,
+      "payments": 243419.85,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 1746,
+      "payments": 219721.44,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "17313",
+      "description": "Removal and microscopic examination of growth of the trunk, arms, or legs (first stage, up to 5 tissue blocks)",
+      "services": 379,
+      "payments": 182798.1,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1364,
+      "payments": 133052.22,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "13132",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 555,
+      "payments": 118120.09,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "13121",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of scalp, arms, and/or legs",
+      "services": 421,
+      "payments": 104122.23,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 2303,
+      "payments": 86079.4,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "14060",
+      "description": "Tissue transfer repair of wound (10 sq centimeters or less) of eyelids, nose, ears, and/or lips",
+      "services": 128,
+      "payments": 78927.77,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "17250",
+      "description": "Application of chemical agent to excessive wound tissue",
+      "services": 1078,
+      "payments": 69225.27,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 373,
+      "payments": 66252.26,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "11103",
+      "description": "Tangential biopsy of additional skin lesion",
+      "services": 1401,
+      "payments": 61828.83,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "13101",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of trunk",
+      "services": 183,
+      "payments": 52679.31,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "15260",
+      "description": "Relocation of patient skin to nose, ears, eyelids, and/or lips (20 sq centimeters or less)",
+      "services": 60,
+      "payments": 50658.16,
+      "avg_markup": 1.42
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6695461.86,
+    "total_services": 85721,
+    "total_beneficiaries": 57315,
+    "avg_markup_ratio": 1.79
+  }
+}

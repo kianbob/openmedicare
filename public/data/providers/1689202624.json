@@ -1,0 +1,100 @@
+{
+  "name": "St Marys Ems",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Detroit Lakes",
+  "state": "MN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 638668.48,
+      "total_services": 3223,
+      "total_beneficiaries": 2638,
+      "avg_submitted": 1397.36,
+      "avg_paid": 318.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 1213508.98,
+      "total_services": 6129,
+      "total_beneficiaries": 4499,
+      "avg_submitted": 1412.57,
+      "avg_paid": 314.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 1170632.74,
+      "total_services": 5682,
+      "total_beneficiaries": 4063,
+      "avg_submitted": 1470.04,
+      "avg_paid": 328.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 1372751.2,
+      "total_services": 5650,
+      "total_beneficiaries": 4161,
+      "avg_submitted": 1667.67,
+      "avg_paid": 424.99
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 5557,
+      "payments": 2505566.13,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2449,
+      "payments": 686775.43,
+      "avg_markup": 6.78
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1279,
+      "payments": 465613.94,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 972,
+      "payments": 225245.59,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 350,
+      "payments": 224026.88,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 259,
+      "payments": 214253.46,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 9818,
+      "payments": 74079.97,
+      "avg_markup": 4.23
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4395561.4,
+    "total_services": 20684,
+    "total_beneficiaries": 15361,
+    "avg_markup_ratio": 4.68
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "City Of Anaheim",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Anaheim",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 555368.51,
+      "total_services": 3046,
+      "total_beneficiaries": 2424,
+      "avg_submitted": 1521.55,
+      "avg_paid": 323.86
+    },
+    {
+      "year": 2020,
+      "total_payments": 1028676.48,
+      "total_services": 5499,
+      "total_beneficiaries": 4193,
+      "avg_submitted": 1557.09,
+      "avg_paid": 329.96
+    },
+    {
+      "year": 2021,
+      "total_payments": 1019581.93,
+      "total_services": 5336,
+      "total_beneficiaries": 4068,
+      "avg_submitted": 1625.16,
+      "avg_paid": 330.38
+    },
+    {
+      "year": 2022,
+      "total_payments": 1249075.13,
+      "total_services": 6385,
+      "total_beneficiaries": 4792,
+      "avg_submitted": 1689.41,
+      "avg_paid": 343.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 1370855.83,
+      "total_services": 6396,
+      "total_beneficiaries": 4778,
+      "avg_submitted": 2153.22,
+      "avg_paid": 375.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 6435,
+      "payments": 2680111.79,
+      "avg_markup": 5.5
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6759,
+      "payments": 2355114.49,
+      "avg_markup": 6.39
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 174,
+      "payments": 104733.6,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13294,
+      "payments": 83598.0,
+      "avg_markup": 3.04
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 5223557.88,
+    "total_services": 26662,
+    "total_beneficiaries": 20255,
+    "avg_markup_ratio": 5.83
+  }
+}

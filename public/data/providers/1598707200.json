@@ -1,0 +1,239 @@
+{
+  "name": "Peter Cowen",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Atlantis",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1712554.02,
+      "total_services": 136232,
+      "total_beneficiaries": 79008,
+      "avg_submitted": 59.59,
+      "avg_paid": 25.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 1628065.3,
+      "total_services": 128719,
+      "total_beneficiaries": 75262,
+      "avg_submitted": 62.27,
+      "avg_paid": 27.44
+    },
+    {
+      "year": 2016,
+      "total_payments": 150917.42,
+      "total_services": 2500,
+      "total_beneficiaries": 1498,
+      "avg_submitted": 145.64,
+      "avg_paid": 58.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 133149.48,
+      "total_services": 2331,
+      "total_beneficiaries": 1544,
+      "avg_submitted": 145.76,
+      "avg_paid": 60.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 127257.12,
+      "total_services": 2155,
+      "total_beneficiaries": 1514,
+      "avg_submitted": 172.59,
+      "avg_paid": 70.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 126590.04,
+      "total_services": 2130,
+      "total_beneficiaries": 1455,
+      "avg_submitted": 149.1,
+      "avg_paid": 60.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 115123.95,
+      "total_services": 2215,
+      "total_beneficiaries": 1489,
+      "avg_submitted": 127.41,
+      "avg_paid": 61.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 143356.33,
+      "total_services": 2310,
+      "total_beneficiaries": 1582,
+      "avg_submitted": 153.6,
+      "avg_paid": 68.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 100053.39,
+      "total_services": 1107,
+      "total_beneficiaries": 754,
+      "avg_submitted": 184.99,
+      "avg_paid": 78.1
+    },
+    {
+      "year": 2023,
+      "total_payments": 28034.11,
+      "total_services": 310,
+      "total_beneficiaries": 227,
+      "avg_submitted": 188.67,
+      "avg_paid": 84.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 18468,
+      "payments": 414394.24,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 26353,
+      "payments": 352769.62,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 8890,
+      "payments": 351449.83,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 27523,
+      "payments": 320718.28,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 28633,
+      "payments": 297148.55,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5065,
+      "payments": 271468.26,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2586,
+      "payments": 227678.31,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1784,
+      "payments": 218680.95,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 13386,
+      "payments": 173431.2,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 5938,
+      "payments": 119514.8,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 11148,
+      "payments": 104822.32,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 35471,
+      "payments": 104280.04,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 4632,
+      "payments": 90966.47,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5972,
+      "payments": 71857.6,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 784,
+      "payments": 66752.46,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 3257,
+      "payments": 59255.94,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1120,
+      "payments": 51862.68,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 9802,
+      "payments": 51459.77,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 3951,
+      "payments": 50350.05,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "84436",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5184,
+      "payments": 47528.78,
+      "avg_markup": 1.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4265101.16,
+    "total_services": 280009,
+    "total_beneficiaries": 164333,
+    "avg_markup_ratio": 2.15
+  }
+}

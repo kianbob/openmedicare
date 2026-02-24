@@ -1,0 +1,239 @@
+{
+  "name": "Scott Zuick",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Saint Louis",
+  "state": "MO",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 290479.31,
+      "total_services": 4485,
+      "total_beneficiaries": 2318,
+      "avg_submitted": 229.32,
+      "avg_paid": 65.05
+    },
+    {
+      "year": 2015,
+      "total_payments": 291696.12,
+      "total_services": 4431,
+      "total_beneficiaries": 2342,
+      "avg_submitted": 211.17,
+      "avg_paid": 57.26
+    },
+    {
+      "year": 2016,
+      "total_payments": 322837.45,
+      "total_services": 4901,
+      "total_beneficiaries": 2334,
+      "avg_submitted": 222.3,
+      "avg_paid": 52.68
+    },
+    {
+      "year": 2017,
+      "total_payments": 263156.88,
+      "total_services": 3754,
+      "total_beneficiaries": 2060,
+      "avg_submitted": 233.33,
+      "avg_paid": 61.67
+    },
+    {
+      "year": 2018,
+      "total_payments": 224557.97,
+      "total_services": 3555,
+      "total_beneficiaries": 2335,
+      "avg_submitted": 234.78,
+      "avg_paid": 66.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 249818.53,
+      "total_services": 3877,
+      "total_beneficiaries": 2591,
+      "avg_submitted": 248.02,
+      "avg_paid": 67.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 245444.75,
+      "total_services": 3723,
+      "total_beneficiaries": 2453,
+      "avg_submitted": 242.9,
+      "avg_paid": 72.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 251456.59,
+      "total_services": 3693,
+      "total_beneficiaries": 2416,
+      "avg_submitted": 256.29,
+      "avg_paid": 81.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 229808.17,
+      "total_services": 3497,
+      "total_beneficiaries": 2260,
+      "avg_submitted": 272.95,
+      "avg_paid": 78.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 217322.24,
+      "total_services": 3244,
+      "total_beneficiaries": 2151,
+      "avg_submitted": 275.01,
+      "avg_paid": 86.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 11038,
+      "payments": 628004.05,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7009,
+      "payments": 571203.76,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2774,
+      "payments": 434001.59,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3065,
+      "payments": 274167.18,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1801,
+      "payments": 202838.6,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "94375",
+      "description": "Diagnostic testing in a pulmonary function lab",
+      "services": 4509,
+      "payments": 117306.24,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1850,
+      "payments": 63114.77,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 350,
+      "payments": 44664.7,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 241,
+      "payments": 38730.38,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1031,
+      "payments": 28460.53,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 827,
+      "payments": 27030.86,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "94200",
+      "description": "Measurement of largest amount of air breathed in an out of lungs over one minute",
+      "services": 1385,
+      "payments": 22128.09,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 179,
+      "payments": 20132.18,
+      "avg_markup": 6.42
+    },
+    {
+      "code": "94250",
+      "description": "Single measurement of remaining air or lung capacity after exhalation",
+      "services": 1129,
+      "payments": 16744.34,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "31653",
+      "description": "Examination of lung airways using an endoscope with imaging guidance and ultrasound",
+      "services": 79,
+      "payments": 15105.56,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 234,
+      "payments": 14761.53,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "31652",
+      "description": "Examination of lung airways using an endoscope with imaging guidance and ultrasound",
+      "services": 87,
+      "payments": 14189.1,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "31629",
+      "description": "Needle biopsy of windpipe cartilage, airway, and/or lung using an endoscope",
+      "services": 109,
+      "payments": 11687.43,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 66,
+      "payments": 7016.97,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 240,
+      "payments": 6327.71,
+      "avg_markup": 3.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2586578.02,
+    "total_services": 39160,
+    "total_beneficiaries": 23260,
+    "avg_markup_ratio": 2.74
+  }
+}

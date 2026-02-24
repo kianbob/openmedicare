@@ -1,0 +1,109 @@
+{
+  "name": "Yellow Enterprise Systems",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Owensboro",
+  "state": "KY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1551234.58,
+      "total_services": 11641,
+      "total_beneficiaries": 6548,
+      "avg_submitted": 382.1,
+      "avg_paid": 223.78
+    },
+    {
+      "year": 2015,
+      "total_payments": 1578877.16,
+      "total_services": 11404,
+      "total_beneficiaries": 6416,
+      "avg_submitted": 444.7,
+      "avg_paid": 227.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 1577516.15,
+      "total_services": 11794,
+      "total_beneficiaries": 6730,
+      "avg_submitted": 448.86,
+      "avg_paid": 223.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 1539753.16,
+      "total_services": 11124,
+      "total_beneficiaries": 6356,
+      "avg_submitted": 448.55,
+      "avg_paid": 226.35
+    },
+    {
+      "year": 2018,
+      "total_payments": 1530583.34,
+      "total_services": 11003,
+      "total_beneficiaries": 6280,
+      "avg_submitted": 464.05,
+      "avg_paid": 229.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 750938.21,
+      "total_services": 5276,
+      "total_beneficiaries": 3449,
+      "avg_submitted": 481.1,
+      "avg_paid": 234.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 19121,
+      "payments": 5818263.17,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 9039,
+      "payments": 1450434.95,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3430,
+      "payments": 874774.68,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 29898,
+      "payments": 170308.35,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 277,
+      "payments": 122264.31,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 477,
+      "payments": 92857.13,
+      "avg_markup": 2.61
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 8528902.59,
+    "total_services": 62242,
+    "total_beneficiaries": 35779,
+    "avg_markup_ratio": 2.09
+  }
+}

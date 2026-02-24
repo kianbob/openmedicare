@@ -1,0 +1,239 @@
+{
+  "name": "Dennis Dunning",
+  "credentials": "M.D.",
+  "specialty": "Interventional Cardiology",
+  "city": "Fredericksburg",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 221355.21,
+      "total_services": 4403,
+      "total_beneficiaries": 3276,
+      "avg_submitted": 529.28,
+      "avg_paid": 130.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 241836.86,
+      "total_services": 5274,
+      "total_beneficiaries": 3791,
+      "avg_submitted": 503.99,
+      "avg_paid": 118.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 240789.19,
+      "total_services": 5308,
+      "total_beneficiaries": 3960,
+      "avg_submitted": 516.36,
+      "avg_paid": 121.9
+    },
+    {
+      "year": 2017,
+      "total_payments": 232412.68,
+      "total_services": 5534,
+      "total_beneficiaries": 4240,
+      "avg_submitted": 493.11,
+      "avg_paid": 107.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 193245.32,
+      "total_services": 3811,
+      "total_beneficiaries": 3195,
+      "avg_submitted": 517.75,
+      "avg_paid": 118.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 39084.43,
+      "total_services": 459,
+      "total_beneficiaries": 435,
+      "avg_submitted": 419.75,
+      "avg_paid": 122.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 361493.71,
+      "total_services": 3894,
+      "total_beneficiaries": 3106,
+      "avg_submitted": 268.27,
+      "avg_paid": 95.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 424367.28,
+      "total_services": 4546,
+      "total_beneficiaries": 3966,
+      "avg_submitted": 290.9,
+      "avg_paid": 95.21
+    },
+    {
+      "year": 2022,
+      "total_payments": 414500.64,
+      "total_services": 4750,
+      "total_beneficiaries": 4393,
+      "avg_submitted": 302.92,
+      "avg_paid": 92.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 475798.89,
+      "total_services": 5333,
+      "total_beneficiaries": 4391,
+      "avg_submitted": 273.84,
+      "avg_paid": 83.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6789,
+      "payments": 553771.95,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2020,
+      "payments": 483399.17,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4143,
+      "payments": 389827.26,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 939,
+      "payments": 138187.65,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 334,
+      "payments": 135715.43,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 995,
+      "payments": 115773.65,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "37228",
+      "description": "Balloon dilation of artery of one leg, endovascular, accessed through the skin or open procedure",
+      "services": 168,
+      "payments": 69735.4,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 10917,
+      "payments": 69433.13,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 849,
+      "payments": 69123.35,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 382,
+      "payments": 66690.63,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "37215",
+      "description": "Insertion of stents and blood clot protection device in neck artery, accessed through the skin",
+      "services": 75,
+      "payments": 62441.28,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 429,
+      "payments": 45621.91,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "37226",
+      "description": "Insertion of stents into arteries in one leg, endovascular, accessed through the skin or open procedure",
+      "services": 135,
+      "payments": 45010.43,
+      "avg_markup": 4.92
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with ekg monitoring, physician supervision, interpretation, and report",
+      "services": 854,
+      "payments": 39698.8,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "37224",
+      "description": "Balloon dilation of arteries in one leg, endovascular, accessed through the skin or open procedure",
+      "services": 149,
+      "payments": 37608.11,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 190,
+      "payments": 37166.8,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "37221",
+      "description": "Insertion of stents in artery in one side of groin, endovascular, accessed through the skin or open procedure",
+      "services": 104,
+      "payments": 33835.7,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 717,
+      "payments": 32465.09,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2463,
+      "payments": 27644.11,
+      "avg_markup": 4.29
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 166,
+      "payments": 25100.74,
+      "avg_markup": 3.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2844884.22,
+    "total_services": 43312,
+    "total_beneficiaries": 34753,
+    "avg_markup_ratio": 3.56
+  }
+}

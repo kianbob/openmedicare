@@ -1,0 +1,108 @@
+{
+  "name": "Advanced Medical Transport Of Springfield Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Springfield",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 171080.37,
+      "total_services": 1101,
+      "total_beneficiaries": 980,
+      "avg_submitted": 741.25,
+      "avg_paid": 196.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 703724.79,
+      "total_services": 4510,
+      "total_beneficiaries": 3568,
+      "avg_submitted": 1005.33,
+      "avg_paid": 249.52
+    },
+    {
+      "year": 2021,
+      "total_payments": 709987.0,
+      "total_services": 4709,
+      "total_beneficiaries": 3630,
+      "avg_submitted": 1213.29,
+      "avg_paid": 296.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 792138.2,
+      "total_services": 5079,
+      "total_beneficiaries": 3836,
+      "avg_submitted": 1274.36,
+      "avg_paid": 301.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 671894.43,
+      "total_services": 4159,
+      "total_beneficiaries": 3339,
+      "avg_submitted": 1338.36,
+      "avg_paid": 328.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 5059,
+      "payments": 1740924.83,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2958,
+      "payments": 854262.9,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 1538,
+      "payments": 283901.77,
+      "avg_markup": 5.43
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 9713,
+      "payments": 61281.37,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 82,
+      "payments": 40221.69,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 58,
+      "payments": 35099.42,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 150,
+      "payments": 33132.83,
+      "avg_markup": 5.36
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 3048824.8,
+    "total_services": 19558,
+    "total_beneficiaries": 15353,
+    "avg_markup_ratio": 4.0
+  }
+}

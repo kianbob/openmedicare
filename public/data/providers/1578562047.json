@@ -1,0 +1,116 @@
+{
+  "name": "Lifestar Ambulance Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Toledo",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1876905.49,
+      "total_services": 17755,
+      "total_beneficiaries": 10480,
+      "avg_submitted": 574.35,
+      "avg_paid": 233.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 1359143.11,
+      "total_services": 13227,
+      "total_beneficiaries": 7732,
+      "avg_submitted": 517.68,
+      "avg_paid": 190.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 1208051.26,
+      "total_services": 12177,
+      "total_beneficiaries": 7461,
+      "avg_submitted": 520.28,
+      "avg_paid": 189.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 752038.22,
+      "total_services": 7661,
+      "total_beneficiaries": 5553,
+      "avg_submitted": 602.38,
+      "avg_paid": 251.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 604691.85,
+      "total_services": 6287,
+      "total_beneficiaries": 4829,
+      "avg_submitted": 610.48,
+      "avg_paid": 238.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 244237.82,
+      "total_services": 2525,
+      "total_beneficiaries": 2099,
+      "avg_submitted": 537.73,
+      "avg_paid": 179.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 20194,
+      "payments": 3286191.51,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 3074,
+      "payments": 971138.53,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3387,
+      "payments": 899481.1,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 3368,
+      "payments": 680060.49,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 29561,
+      "payments": 184968.74,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 36,
+      "payments": 16628.57,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 12,
+      "payments": 6598.8,
+      "avg_markup": 1.59
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 6045067.75,
+    "total_services": 59632,
+    "total_beneficiaries": 38154,
+    "avg_markup_ratio": 3.1
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Michael Abowd",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Toledo",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 232404.82,
+      "total_services": 2125,
+      "total_beneficiaries": 1843,
+      "avg_submitted": 556.09,
+      "avg_paid": 188.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 220202.06,
+      "total_services": 2074,
+      "total_beneficiaries": 1796,
+      "avg_submitted": 600.17,
+      "avg_paid": 190.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 273243.0,
+      "total_services": 2672,
+      "total_beneficiaries": 2295,
+      "avg_submitted": 556.43,
+      "avg_paid": 175.78
+    },
+    {
+      "year": 2017,
+      "total_payments": 284905.01,
+      "total_services": 2728,
+      "total_beneficiaries": 2320,
+      "avg_submitted": 740.9,
+      "avg_paid": 178.78
+    },
+    {
+      "year": 2018,
+      "total_payments": 294797.04,
+      "total_services": 2891,
+      "total_beneficiaries": 2478,
+      "avg_submitted": 864.74,
+      "avg_paid": 198.29
+    },
+    {
+      "year": 2019,
+      "total_payments": 311876.45,
+      "total_services": 2703,
+      "total_beneficiaries": 2317,
+      "avg_submitted": 814.36,
+      "avg_paid": 192.47
+    },
+    {
+      "year": 2020,
+      "total_payments": 204582.21,
+      "total_services": 1837,
+      "total_beneficiaries": 1578,
+      "avg_submitted": 680.88,
+      "avg_paid": 164.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 182782.91,
+      "total_services": 1777,
+      "total_beneficiaries": 1544,
+      "avg_submitted": 611.85,
+      "avg_paid": 155.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 182935.52,
+      "total_services": 1734,
+      "total_beneficiaries": 1579,
+      "avg_submitted": 635.34,
+      "avg_paid": 173.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 243705.86,
+      "total_services": 2166,
+      "total_beneficiaries": 1960,
+      "avg_submitted": 665.76,
+      "avg_paid": 186.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1269,
+      "payments": 544808.82,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "67904",
+      "description": "Repair of tendon of upper eyelid",
+      "services": 517,
+      "payments": 310168.86,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3752,
+      "payments": 263047.04,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3647,
+      "payments": 184635.36,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 227,
+      "payments": 135964.82,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1824,
+      "payments": 129761.89,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "15823",
+      "description": "Removal of excessive skin and fat of upper eyelid",
+      "services": 215,
+      "payments": 126041.54,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "67840",
+      "description": "Removal of eyelid growth",
+      "services": 537,
+      "payments": 92832.61,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 770,
+      "payments": 80686.74,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 299,
+      "payments": 72364.32,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "67924",
+      "description": "Repair of turning-inward eyelid defect",
+      "services": 148,
+      "payments": 50893.51,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1258,
+      "payments": 46490.86,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "67917",
+      "description": "Extensive repair of turning-outward eyelid defect",
+      "services": 117,
+      "payments": 43940.49,
+      "avg_markup": 4.22
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 558,
+      "payments": 43377.43,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 987,
+      "payments": 42461.53,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "68810",
+      "description": "Insertion of probe into the tear duct",
+      "services": 222,
+      "payments": 32612.54,
+      "avg_markup": 4.89
+    },
+    {
+      "code": "92082",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 951,
+      "payments": 30535.84,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "67966",
+      "description": "Removal of over one-fourth of the eyelid involving lid margin",
+      "services": 98,
+      "payments": 28787.45,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "21282",
+      "description": "Reattachment of nasal and eye socket ligament",
+      "services": 145,
+      "payments": 21852.72,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "99144",
+      "description": "Moderate sedation services by physician also performing a procedure, patient 5 years of age or older, first 30 minutes",
+      "services": 683,
+      "payments": 21242.07,
+      "avg_markup": 2.57
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2431434.87,
+    "total_services": 22707,
+    "total_beneficiaries": 19710,
+    "avg_markup_ratio": 3.45
+  }
+}

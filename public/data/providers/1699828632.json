@@ -1,0 +1,239 @@
+{
+  "name": "Evan Stashefsky",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Madison Heights",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 290021.59,
+      "total_services": 3343,
+      "total_beneficiaries": 1822,
+      "avg_submitted": 111.74,
+      "avg_paid": 71.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 315325.2,
+      "total_services": 4064,
+      "total_beneficiaries": 1878,
+      "avg_submitted": 100.58,
+      "avg_paid": 65.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 283376.87,
+      "total_services": 3656,
+      "total_beneficiaries": 1684,
+      "avg_submitted": 132.91,
+      "avg_paid": 80.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 259188.98,
+      "total_services": 3362,
+      "total_beneficiaries": 1614,
+      "avg_submitted": 101.05,
+      "avg_paid": 64.97
+    },
+    {
+      "year": 2018,
+      "total_payments": 264102.41,
+      "total_services": 3553,
+      "total_beneficiaries": 1680,
+      "avg_submitted": 109.12,
+      "avg_paid": 69.36
+    },
+    {
+      "year": 2019,
+      "total_payments": 298887.6,
+      "total_services": 3902,
+      "total_beneficiaries": 1773,
+      "avg_submitted": 115.76,
+      "avg_paid": 69.92
+    },
+    {
+      "year": 2020,
+      "total_payments": 389471.87,
+      "total_services": 5119,
+      "total_beneficiaries": 1984,
+      "avg_submitted": 117.05,
+      "avg_paid": 65.15
+    },
+    {
+      "year": 2021,
+      "total_payments": 306126.99,
+      "total_services": 4183,
+      "total_beneficiaries": 1680,
+      "avg_submitted": 121.48,
+      "avg_paid": 70.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 237971.05,
+      "total_services": 3321,
+      "total_beneficiaries": 1417,
+      "avg_submitted": 134.69,
+      "avg_paid": 77.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 189796.41,
+      "total_services": 2564,
+      "total_beneficiaries": 1095,
+      "avg_submitted": 139.72,
+      "avg_paid": 84.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21364,
+      "payments": 1269318.99,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3508,
+      "payments": 577237.89,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3026,
+      "payments": 335148.22,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3203,
+      "payments": 279212.06,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1893,
+      "payments": 113959.81,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 772,
+      "payments": 56570.59,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 250,
+      "payments": 42976.27,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 343,
+      "payments": 41442.81,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 518,
+      "payments": 25638.61,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 229,
+      "payments": 25393.97,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 135,
+      "payments": 20217.2,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 146,
+      "payments": 8647.63,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 87,
+      "payments": 7512.24,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 105,
+      "payments": 6363.38,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 269,
+      "payments": 3206.92,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "G0182",
+      "description": "Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",
+      "services": 36,
+      "payments": 3120.66,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 50 minutes",
+      "services": 27,
+      "payments": 2606.04,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 85,
+      "payments": 2574.14,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 125,
+      "payments": 2062.33,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 612,
+      "payments": 1870.88,
+      "avg_markup": 1.74
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2834268.97,
+    "total_services": 37067,
+    "total_beneficiaries": 16627,
+    "avg_markup_ratio": 1.63
+  }
+}

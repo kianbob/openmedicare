@@ -1,0 +1,231 @@
+{
+  "name": "Cody Tingle",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Shreveport",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 27192.13,
+      "total_services": 451,
+      "total_beneficiaries": 350,
+      "avg_submitted": 168.8,
+      "avg_paid": 60.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 145273.77,
+      "total_services": 1808,
+      "total_beneficiaries": 1217,
+      "avg_submitted": 324.19,
+      "avg_paid": 74.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 186849.65,
+      "total_services": 1977,
+      "total_beneficiaries": 1296,
+      "avg_submitted": 695.69,
+      "avg_paid": 92.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 649390.87,
+      "total_services": 6712,
+      "total_beneficiaries": 3470,
+      "avg_submitted": 347.15,
+      "avg_paid": 106.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 330872.33,
+      "total_services": 3595,
+      "total_beneficiaries": 1962,
+      "avg_submitted": 269.4,
+      "avg_paid": 94.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 344600.87,
+      "total_services": 4393,
+      "total_beneficiaries": 1985,
+      "avg_submitted": 195.7,
+      "avg_paid": 74.44
+    },
+    {
+      "year": 2021,
+      "total_payments": 273047.99,
+      "total_services": 3459,
+      "total_beneficiaries": 1702,
+      "avg_submitted": 185.69,
+      "avg_paid": 73.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 327439.75,
+      "total_services": 4398,
+      "total_beneficiaries": 1644,
+      "avg_submitted": 165.14,
+      "avg_paid": 65.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 307830.6,
+      "total_services": 3889,
+      "total_beneficiaries": 1541,
+      "avg_submitted": 192.76,
+      "avg_paid": 81.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11044,
+      "payments": 901645.49,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2290,
+      "payments": 344863.8,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1694,
+      "payments": 292431.96,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2865,
+      "payments": 235183.8,
+      "avg_markup": 4.41
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1943,
+      "payments": 156808.43,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1834,
+      "payments": 111993.59,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1869,
+      "payments": 105182.09,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1389,
+      "payments": 56225.59,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 314,
+      "payments": 43976.01,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 708,
+      "payments": 34973.31,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 527,
+      "payments": 34510.39,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 300,
+      "payments": 32987.02,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 306,
+      "payments": 31696.07,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 239,
+      "payments": 30243.18,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 258,
+      "payments": 27160.57,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 271,
+      "payments": 22287.03,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 399,
+      "payments": 21850.78,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 195,
+      "payments": 13028.81,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 102,
+      "payments": 12646.86,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services, each additional 20 minutes of clinical staff time per calendar month",
+      "services": 319,
+      "payments": 11182.02,
+      "avg_markup": 2.57
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2592497.96,
+    "total_services": 30682,
+    "total_beneficiaries": 15167,
+    "avg_markup_ratio": 3.31
+  }
+}

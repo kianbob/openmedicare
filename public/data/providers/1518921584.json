@@ -1,0 +1,225 @@
+{
+  "name": "William Palmer",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Winston-Salem",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 177059.22,
+      "total_services": 3043,
+      "total_beneficiaries": 1068,
+      "avg_submitted": 137.75,
+      "avg_paid": 69.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 164774.26,
+      "total_services": 2883,
+      "total_beneficiaries": 952,
+      "avg_submitted": 156.75,
+      "avg_paid": 77.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 253172.21,
+      "total_services": 3342,
+      "total_beneficiaries": 1347,
+      "avg_submitted": 133.99,
+      "avg_paid": 76.28
+    },
+    {
+      "year": 2017,
+      "total_payments": 370275.73,
+      "total_services": 4809,
+      "total_beneficiaries": 1892,
+      "avg_submitted": 165.25,
+      "avg_paid": 97.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 340439.59,
+      "total_services": 4337,
+      "total_beneficiaries": 1910,
+      "avg_submitted": 148.69,
+      "avg_paid": 84.04
+    },
+    {
+      "year": 2019,
+      "total_payments": 375315.69,
+      "total_services": 4646,
+      "total_beneficiaries": 1913,
+      "avg_submitted": 149.13,
+      "avg_paid": 91.04
+    },
+    {
+      "year": 2020,
+      "total_payments": 218004.21,
+      "total_services": 3392,
+      "total_beneficiaries": 1523,
+      "avg_submitted": 149.7,
+      "avg_paid": 88.87
+    },
+    {
+      "year": 2021,
+      "total_payments": 215441.19,
+      "total_services": 3284,
+      "total_beneficiaries": 1511,
+      "avg_submitted": 174.2,
+      "avg_paid": 97.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 193709.55,
+      "total_services": 2876,
+      "total_beneficiaries": 1287,
+      "avg_submitted": 160.82,
+      "avg_paid": 85.4
+    },
+    {
+      "year": 2023,
+      "total_payments": 238947.21,
+      "total_services": 3469,
+      "total_beneficiaries": 1577,
+      "avg_submitted": 141.51,
+      "avg_paid": 77.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12562,
+      "payments": 720776.95,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7848,
+      "payments": 651955.85,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2578,
+      "payments": 397090.42,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 6540,
+      "payments": 211010.96,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2023,
+      "payments": 168568.13,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1621,
+      "payments": 138591.81,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms (an",
+      "services": 583,
+      "payments": 114161.48,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 376,
+      "payments": 39090.8,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 675,
+      "payments": 34582.15,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 569,
+      "payments": 23980.26,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 288,
+      "payments": 15639.45,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 89,
+      "payments": 13880.25,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 164,
+      "payments": 11471.8,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 14,
+      "payments": 2148.44,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 22,
+      "payments": 1637.39,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 16,
+      "payments": 1375.04,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 68,
+      "payments": 786.4,
+      "avg_markup": 4.24
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 45,
+      "payments": 391.28,
+      "avg_markup": 2.88
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2547138.86,
+    "total_services": 36081,
+    "total_beneficiaries": 14980,
+    "avg_markup_ratio": 1.79
+  }
+}

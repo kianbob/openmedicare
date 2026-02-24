@@ -1,0 +1,132 @@
+{
+  "name": "Roman Kleynberg",
+  "credentials": "M.D.",
+  "specialty": "Hematology-Oncology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 90400.21,
+      "total_services": 1170,
+      "total_beneficiaries": 341,
+      "avg_submitted": 195.66,
+      "avg_paid": 106.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 845645.78,
+      "total_services": 9804,
+      "total_beneficiaries": 2664,
+      "avg_submitted": 195.69,
+      "avg_paid": 105.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 1076026.18,
+      "total_services": 13527,
+      "total_beneficiaries": 4077,
+      "avg_submitted": 172.59,
+      "avg_paid": 94.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 1049428.62,
+      "total_services": 12639,
+      "total_beneficiaries": 4436,
+      "avg_submitted": 170.55,
+      "avg_paid": 92.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 1174650.46,
+      "total_services": 13636,
+      "total_beneficiaries": 4682,
+      "avg_submitted": 220.76,
+      "avg_paid": 99.39
+    },
+    {
+      "year": 2021,
+      "total_payments": 1113197.99,
+      "total_services": 14095,
+      "total_beneficiaries": 4462,
+      "avg_submitted": 230.63,
+      "avg_paid": 94.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 1164393.18,
+      "total_services": 14746,
+      "total_beneficiaries": 4791,
+      "avg_submitted": 230.99,
+      "avg_paid": 92.32
+    },
+    {
+      "year": 2023,
+      "total_payments": 1061849.88,
+      "total_services": 12849,
+      "total_beneficiaries": 4663,
+      "avg_submitted": 224.29,
+      "avg_paid": 85.68
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 50061,
+      "payments": 3144763.17,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 26652,
+      "payments": 2397980.13,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 7099,
+      "payments": 1201332.83,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 6608,
+      "payments": 764564.42,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1970,
+      "payments": 65200.9,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 15,
+      "payments": 1281.15,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G2010",
+      "description": "Remote evaluation of recorded video and/or images submitted by an established patient (e.g., store and forward), including interpretation with follow-up with the patient within 24 business hours, not originating from a related e/m service provided within t",
+      "services": 61,
+      "payments": 469.7,
+      "avg_markup": 3.9
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 7575592.3,
+    "total_services": 92466,
+    "total_beneficiaries": 30116,
+    "avg_markup_ratio": 2.25
+  }
+}

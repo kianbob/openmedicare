@@ -1,0 +1,239 @@
+{
+  "name": "Michael Payment",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Jackson",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 300948.05,
+      "total_services": 3330,
+      "total_beneficiaries": 2218,
+      "avg_submitted": 353.75,
+      "avg_paid": 115.86
+    },
+    {
+      "year": 2015,
+      "total_payments": 489982.53,
+      "total_services": 6481,
+      "total_beneficiaries": 4476,
+      "avg_submitted": 398.75,
+      "avg_paid": 102.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 571771.46,
+      "total_services": 7640,
+      "total_beneficiaries": 4786,
+      "avg_submitted": 419.47,
+      "avg_paid": 102.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 581376.58,
+      "total_services": 7774,
+      "total_beneficiaries": 4882,
+      "avg_submitted": 444.46,
+      "avg_paid": 105.46
+    },
+    {
+      "year": 2018,
+      "total_payments": 503242.56,
+      "total_services": 6888,
+      "total_beneficiaries": 4757,
+      "avg_submitted": 414.42,
+      "avg_paid": 97.94
+    },
+    {
+      "year": 2019,
+      "total_payments": 351295.71,
+      "total_services": 6335,
+      "total_beneficiaries": 5205,
+      "avg_submitted": 575.64,
+      "avg_paid": 86.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 207343.75,
+      "total_services": 6486,
+      "total_beneficiaries": 4562,
+      "avg_submitted": 571.2,
+      "avg_paid": 63.39
+    },
+    {
+      "year": 2021,
+      "total_payments": 225454.69,
+      "total_services": 6515,
+      "total_beneficiaries": 4684,
+      "avg_submitted": 814.79,
+      "avg_paid": 71.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 217310.73,
+      "total_services": 6682,
+      "total_beneficiaries": 4817,
+      "avg_submitted": 674.53,
+      "avg_paid": 60.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 254070.28,
+      "total_services": 7586,
+      "total_beneficiaries": 5581,
+      "avg_submitted": 584.13,
+      "avg_paid": 64.12
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 15046,
+      "payments": 1006713.65,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1901,
+      "payments": 433091.66,
+      "avg_markup": 7.9
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4652,
+      "payments": 404089.24,
+      "avg_markup": 7.27
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1186,
+      "payments": 268483.98,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4139,
+      "payments": 220179.03,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 799,
+      "payments": 148735.15,
+      "avg_markup": 12.42
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1429,
+      "payments": 142796.46,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 11786,
+      "payments": 123787.73,
+      "avg_markup": 6.75
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1098,
+      "payments": 108182.23,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 250,
+      "payments": 103905.5,
+      "avg_markup": 5.83
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2154,
+      "payments": 94177.16,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 509,
+      "payments": 63470.3,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 9807,
+      "payments": 59185.8,
+      "avg_markup": 10.89
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 404,
+      "payments": 58828.49,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1260,
+      "payments": 57902.02,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 751,
+      "payments": 40175.02,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 476,
+      "payments": 30964.1,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 207,
+      "payments": 27257.95,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 72,
+      "payments": 26499.29,
+      "avg_markup": 6.26
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 567,
+      "payments": 24160.2,
+      "avg_markup": 2.11
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3702796.33,
+    "total_services": 65717,
+    "total_beneficiaries": 45968,
+    "avg_markup_ratio": 4.8
+  }
+}

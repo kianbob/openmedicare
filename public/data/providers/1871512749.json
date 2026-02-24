@@ -1,0 +1,239 @@
+{
+  "name": "Wu Liu",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "El Monte",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 690008.74,
+      "total_services": 10198,
+      "total_beneficiaries": 2337,
+      "avg_submitted": 153.51,
+      "avg_paid": 75.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 598058.14,
+      "total_services": 9011,
+      "total_beneficiaries": 1836,
+      "avg_submitted": 145.8,
+      "avg_paid": 72.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 590967.88,
+      "total_services": 9665,
+      "total_beneficiaries": 1448,
+      "avg_submitted": 122.06,
+      "avg_paid": 67.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 582137.2,
+      "total_services": 10119,
+      "total_beneficiaries": 1938,
+      "avg_submitted": 125.43,
+      "avg_paid": 64.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 574173.0,
+      "total_services": 9303,
+      "total_beneficiaries": 1456,
+      "avg_submitted": 130.0,
+      "avg_paid": 75.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 490791.3,
+      "total_services": 8156,
+      "total_beneficiaries": 2051,
+      "avg_submitted": 118.55,
+      "avg_paid": 74.22
+    },
+    {
+      "year": 2020,
+      "total_payments": 491663.52,
+      "total_services": 7826,
+      "total_beneficiaries": 1914,
+      "avg_submitted": 112.57,
+      "avg_paid": 72.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 316096.76,
+      "total_services": 4456,
+      "total_beneficiaries": 1270,
+      "avg_submitted": 107.46,
+      "avg_paid": 69.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 494256.3,
+      "total_services": 6502,
+      "total_beneficiaries": 2015,
+      "avg_submitted": 121.7,
+      "avg_paid": 82.49
+    },
+    {
+      "year": 2023,
+      "total_payments": 350092.53,
+      "total_services": 4816,
+      "total_beneficiaries": 1407,
+      "avg_submitted": 124.58,
+      "avg_paid": 82.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 32902,
+      "payments": 2079293.88,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 28323,
+      "payments": 1703172.32,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 888,
+      "payments": 210211.55,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 3363,
+      "payments": 195781.36,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1112,
+      "payments": 181037.25,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1543,
+      "payments": 172334.28,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 973,
+      "payments": 125690.58,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1064,
+      "payments": 92596.05,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1154,
+      "payments": 70569.17,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1932,
+      "payments": 70383.02,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 475,
+      "payments": 58263.47,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 405,
+      "payments": 35727.44,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "G0009",
+      "description": "Administration of pneumococcal vaccine",
+      "services": 1334,
+      "payments": 34040.47,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1177,
+      "payments": 29695.62,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 191,
+      "payments": 24355.19,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 300,
+      "payments": 21968.84,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "90688",
+      "description": "Vaccine for influenza for administration into muscle, 0.5 ml dosage",
+      "services": 972,
+      "payments": 18714.75,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 1012,
+      "payments": 14087.45,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 159,
+      "payments": 11491.04,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 95,
+      "payments": 9679.92,
+      "avg_markup": 1.32
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5178245.37,
+    "total_services": 80052,
+    "total_beneficiaries": 17672,
+    "avg_markup_ratio": 1.83
+  }
+}

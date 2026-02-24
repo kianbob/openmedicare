@@ -1,0 +1,239 @@
+{
+  "name": "Azmi Draw",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Prospect",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1054212.52,
+      "total_services": 12489,
+      "total_beneficiaries": 5512,
+      "avg_submitted": 250.9,
+      "avg_paid": 66.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 1191233.85,
+      "total_services": 13121,
+      "total_beneficiaries": 5803,
+      "avg_submitted": 281.15,
+      "avg_paid": 73.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 1101711.32,
+      "total_services": 12938,
+      "total_beneficiaries": 6041,
+      "avg_submitted": 274.12,
+      "avg_paid": 70.16
+    },
+    {
+      "year": 2017,
+      "total_payments": 868857.96,
+      "total_services": 11793,
+      "total_beneficiaries": 5919,
+      "avg_submitted": 271.08,
+      "avg_paid": 73.04
+    },
+    {
+      "year": 2018,
+      "total_payments": 766529.42,
+      "total_services": 9108,
+      "total_beneficiaries": 4569,
+      "avg_submitted": 258.14,
+      "avg_paid": 77.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 813435.63,
+      "total_services": 9891,
+      "total_beneficiaries": 4779,
+      "avg_submitted": 261.9,
+      "avg_paid": 76.27
+    },
+    {
+      "year": 2020,
+      "total_payments": 841122.58,
+      "total_services": 10047,
+      "total_beneficiaries": 4782,
+      "avg_submitted": 236.74,
+      "avg_paid": 72.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 970771.62,
+      "total_services": 10807,
+      "total_beneficiaries": 5802,
+      "avg_submitted": 257.56,
+      "avg_paid": 72.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 1026485.72,
+      "total_services": 11695,
+      "total_beneficiaries": 5957,
+      "avg_submitted": 259.53,
+      "avg_paid": 77.28
+    },
+    {
+      "year": 2023,
+      "total_payments": 823004.19,
+      "total_services": 10078,
+      "total_beneficiaries": 5200,
+      "avg_submitted": 297.2,
+      "avg_paid": 77.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 14144,
+      "payments": 2376505.81,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 28575,
+      "payments": 2289756.85,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 10924,
+      "payments": 1199806.06,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 13100,
+      "payments": 714535.39,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4568,
+      "payments": 677291.14,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6843,
+      "payments": 550708.11,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2001,
+      "payments": 227068.57,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3270,
+      "payments": 170478.0,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 2507,
+      "payments": 169446.87,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 4511,
+      "payments": 140626.55,
+      "avg_markup": 4.4
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 4036,
+      "payments": 118678.41,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "31645",
+      "description": "Aspiration of lung secretions from lung airways using an endoscope",
+      "services": 996,
+      "payments": 108474.15,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 937,
+      "payments": 89347.12,
+      "avg_markup": 8.39
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 1128,
+      "payments": 86481.48,
+      "avg_markup": 4.53
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 718,
+      "payments": 67640.73,
+      "avg_markup": 7.96
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 449,
+      "payments": 52389.62,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 565,
+      "payments": 39927.63,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 254,
+      "payments": 37723.07,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 347,
+      "payments": 35975.93,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 413,
+      "payments": 33631.18,
+      "avg_markup": 3.07
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 9457364.81,
+    "total_services": 111967,
+    "total_beneficiaries": 54364,
+    "avg_markup_ratio": 2.77
+  }
+}

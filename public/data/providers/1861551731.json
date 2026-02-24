@@ -1,0 +1,87 @@
+{
+  "name": "Southeast Ambulance, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Chattanooga",
+  "state": "TN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 600821.75,
+      "total_services": 7039,
+      "total_beneficiaries": 1482,
+      "avg_submitted": 389.76,
+      "avg_paid": 180.07
+    },
+    {
+      "year": 2015,
+      "total_payments": 671737.15,
+      "total_services": 7886,
+      "total_beneficiaries": 1351,
+      "avg_submitted": 389.89,
+      "avg_paid": 182.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 593534.52,
+      "total_services": 7168,
+      "total_beneficiaries": 1049,
+      "avg_submitted": 294.65,
+      "avg_paid": 138.41
+    },
+    {
+      "year": 2017,
+      "total_payments": 565678.86,
+      "total_services": 6740,
+      "total_beneficiaries": 865,
+      "avg_submitted": 294.62,
+      "avg_paid": 139.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 6022.43,
+      "total_services": 84,
+      "total_beneficiaries": 36,
+      "avg_submitted": 167.25,
+      "avg_paid": 73.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12731,
+      "payments": 1895843.99,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1728,
+      "payments": 450989.11,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14413,
+      "payments": 77012.11,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 45,
+      "payments": 13949.51,
+      "avg_markup": 2.18
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 2437794.72,
+    "total_services": 28917,
+    "total_beneficiaries": 4783,
+    "avg_markup_ratio": 2.16
+  }
+}

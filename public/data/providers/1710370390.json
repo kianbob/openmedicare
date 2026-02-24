@@ -1,0 +1,126 @@
+{
+  "name": "Middlesex Hospital",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Middletown",
+  "state": "CT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 194146.03,
+      "total_services": 1671,
+      "total_beneficiaries": 1461,
+      "avg_submitted": 565.52,
+      "avg_paid": 217.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 395933.86,
+      "total_services": 2957,
+      "total_beneficiaries": 2540,
+      "avg_submitted": 788.92,
+      "avg_paid": 292.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 473413.15,
+      "total_services": 3425,
+      "total_beneficiaries": 2955,
+      "avg_submitted": 807.2,
+      "avg_paid": 295.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 610660.18,
+      "total_services": 4383,
+      "total_beneficiaries": 3471,
+      "avg_submitted": 839.54,
+      "avg_paid": 294.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 622289.65,
+      "total_services": 4272,
+      "total_beneficiaries": 3278,
+      "avg_submitted": 858.81,
+      "avg_paid": 300.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 484557.26,
+      "total_services": 3382,
+      "total_beneficiaries": 2680,
+      "avg_submitted": 876.09,
+      "avg_paid": 303.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 549748.01,
+      "total_services": 3791,
+      "total_beneficiaries": 2921,
+      "avg_submitted": 903.0,
+      "avg_paid": 312.79
+    },
+    {
+      "year": 2022,
+      "total_payments": 886010.05,
+      "total_services": 5882,
+      "total_beneficiaries": 4286,
+      "avg_submitted": 940.64,
+      "avg_paid": 323.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 1061607.76,
+      "total_services": 6569,
+      "total_beneficiaries": 4390,
+      "avg_submitted": 1017.8,
+      "avg_paid": 350.8
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 9680,
+      "payments": 1958037.74,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 3698,
+      "payments": 1394637.4,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3967,
+      "payments": 1273135.29,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 824,
+      "payments": 541560.37,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18163,
+      "payments": 110995.15,
+      "avg_markup": 3.06
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 5278365.95,
+    "total_services": 36332,
+    "total_beneficiaries": 27982,
+    "avg_markup_ratio": 3.16
+  }
+}

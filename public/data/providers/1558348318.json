@@ -1,0 +1,65 @@
+{
+  "name": "American Medflight Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Reno",
+  "state": "NV",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1088182.95,
+      "total_services": 628,
+      "total_beneficiaries": 576,
+      "avg_submitted": 7814.77,
+      "avg_paid": 1732.78
+    },
+    {
+      "year": 2015,
+      "total_payments": 970184.09,
+      "total_services": 550,
+      "total_beneficiaries": 508,
+      "avg_submitted": 7967.5,
+      "avg_paid": 1763.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 1400734.88,
+      "total_services": 806,
+      "total_beneficiaries": 756,
+      "avg_submitted": 7967.5,
+      "avg_paid": 1737.88
+    },
+    {
+      "year": 2017,
+      "total_payments": 240936.64,
+      "total_services": 136,
+      "total_beneficiaries": 136,
+      "avg_submitted": 12090.55,
+      "avg_paid": 1771.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 1060,
+      "payments": 3689974.44,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 1060,
+      "payments": 10064.13,
+      "avg_markup": 19.58
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3700038.57,
+    "total_services": 2120,
+    "total_beneficiaries": 1976,
+    "avg_markup_ratio": 4.69
+  }
+}

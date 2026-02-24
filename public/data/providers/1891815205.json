@@ -1,0 +1,239 @@
+{
+  "name": "George Nadakav",
+  "credentials": "",
+  "specialty": "Internal Medicine",
+  "city": "Cincinnati",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 317759.95,
+      "total_services": 5054,
+      "total_beneficiaries": 1820,
+      "avg_submitted": 214.71,
+      "avg_paid": 84.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 241341.78,
+      "total_services": 3243,
+      "total_beneficiaries": 1714,
+      "avg_submitted": 221.76,
+      "avg_paid": 88.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 308734.34,
+      "total_services": 4415,
+      "total_beneficiaries": 2304,
+      "avg_submitted": 212.89,
+      "avg_paid": 74.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 405622.06,
+      "total_services": 6332,
+      "total_beneficiaries": 2788,
+      "avg_submitted": 218.16,
+      "avg_paid": 78.11
+    },
+    {
+      "year": 2018,
+      "total_payments": 444161.69,
+      "total_services": 6354,
+      "total_beneficiaries": 2343,
+      "avg_submitted": 223.84,
+      "avg_paid": 77.69
+    },
+    {
+      "year": 2019,
+      "total_payments": 340764.73,
+      "total_services": 5200,
+      "total_beneficiaries": 1996,
+      "avg_submitted": 222.04,
+      "avg_paid": 77.42
+    },
+    {
+      "year": 2020,
+      "total_payments": 224548.69,
+      "total_services": 3190,
+      "total_beneficiaries": 1269,
+      "avg_submitted": 227.0,
+      "avg_paid": 75.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 99741.32,
+      "total_services": 1345,
+      "total_beneficiaries": 800,
+      "avg_submitted": 210.38,
+      "avg_paid": 73.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 66946.75,
+      "total_services": 970,
+      "total_beneficiaries": 593,
+      "avg_submitted": 204.55,
+      "avg_paid": 71.71
+    },
+    {
+      "year": 2023,
+      "total_payments": 54041.27,
+      "total_services": 836,
+      "total_beneficiaries": 445,
+      "avg_submitted": 204.38,
+      "avg_paid": 66.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17386,
+      "payments": 952777.1,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3642,
+      "payments": 539899.45,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 4909,
+      "payments": 313703.5,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1887,
+      "payments": 175784.21,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 810,
+      "payments": 78988.27,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 773,
+      "payments": 77166.59,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2524,
+      "payments": 74906.03,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1522,
+      "payments": 58745.97,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 498,
+      "payments": 38778.51,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "G0182",
+      "description": "Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",
+      "services": 323,
+      "payments": 25665.36,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 179,
+      "payments": 24958.5,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 801,
+      "payments": 23389.91,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 251,
+      "payments": 22812.41,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 518,
+      "payments": 21472.81,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 150,
+      "payments": 20286.51,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 270,
+      "payments": 16129.02,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 148,
+      "payments": 10559.23,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 111,
+      "payments": 9606.94,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 80,
+      "payments": 6259.38,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 27,
+      "payments": 4608.33,
+      "avg_markup": 2.58
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2503662.58,
+    "total_services": 36939,
+    "total_beneficiaries": 16072,
+    "avg_markup_ratio": 2.67
+  }
+}

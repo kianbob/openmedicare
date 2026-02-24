@@ -1,0 +1,231 @@
+{
+  "name": "Anthony Boyer",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Richardson",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 234857.0,
+      "total_services": 2544,
+      "total_beneficiaries": 1347,
+      "avg_submitted": 181.82,
+      "avg_paid": 80.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 256245.27,
+      "total_services": 2967,
+      "total_beneficiaries": 1693,
+      "avg_submitted": 163.2,
+      "avg_paid": 67.88
+    },
+    {
+      "year": 2017,
+      "total_payments": 276050.67,
+      "total_services": 3026,
+      "total_beneficiaries": 1707,
+      "avg_submitted": 168.93,
+      "avg_paid": 77.75
+    },
+    {
+      "year": 2018,
+      "total_payments": 358876.97,
+      "total_services": 3874,
+      "total_beneficiaries": 2034,
+      "avg_submitted": 166.78,
+      "avg_paid": 74.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 366843.07,
+      "total_services": 3906,
+      "total_beneficiaries": 1990,
+      "avg_submitted": 169.43,
+      "avg_paid": 76.24
+    },
+    {
+      "year": 2020,
+      "total_payments": 313739.84,
+      "total_services": 3160,
+      "total_beneficiaries": 1718,
+      "avg_submitted": 161.76,
+      "avg_paid": 74.77
+    },
+    {
+      "year": 2021,
+      "total_payments": 326378.1,
+      "total_services": 3354,
+      "total_beneficiaries": 1874,
+      "avg_submitted": 156.23,
+      "avg_paid": 68.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 317608.6,
+      "total_services": 3452,
+      "total_beneficiaries": 1903,
+      "avg_submitted": 145.42,
+      "avg_paid": 66.93
+    },
+    {
+      "year": 2023,
+      "total_payments": 249682.9,
+      "total_services": 2693,
+      "total_beneficiaries": 1472,
+      "avg_submitted": 162.14,
+      "avg_paid": 71.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 7114,
+      "payments": 1234852.58,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5504,
+      "payments": 455677.18,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4758,
+      "payments": 268521.0,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1248,
+      "payments": 192685.82,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1763,
+      "payments": 143763.7,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 722,
+      "payments": 84520.63,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1492,
+      "payments": 79888.39,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "94375",
+      "description": "Diagnostic testing in a pulmonary function lab",
+      "services": 2182,
+      "payments": 61422.24,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 834,
+      "payments": 34727.83,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 247,
+      "payments": 25694.16,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 137,
+      "payments": 20727.32,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 252,
+      "payments": 19080.11,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 686,
+      "payments": 16561.33,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 239,
+      "payments": 9721.92,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 414,
+      "payments": 9595.26,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 452,
+      "payments": 8959.61,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "36620",
+      "description": "Insertion of arterial catheter for blood sampling or infusion, accessed through the skin",
+      "services": 204,
+      "payments": 7232.51,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "31652",
+      "description": "Examination of lung airways using an endoscope with imaging guidance and ultrasound",
+      "services": 36,
+      "payments": 6317.82,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 120,
+      "payments": 5918.76,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "76937",
+      "description": "Ultrasound guidance for accessing into blood vessel",
+      "services": 381,
+      "payments": 4249.68,
+      "avg_markup": 1.95
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2700282.42,
+    "total_services": 28976,
+    "total_beneficiaries": 15738,
+    "avg_markup_ratio": 2.13
+  }
+}

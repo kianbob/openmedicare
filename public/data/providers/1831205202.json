@@ -1,0 +1,116 @@
+{
+  "name": "Campion Ambulance Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Waterbury",
+  "state": "CT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3846115.85,
+      "total_services": 28028,
+      "total_beneficiaries": 13718,
+      "avg_submitted": 700.64,
+      "avg_paid": 314.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 3901239.88,
+      "total_services": 27347,
+      "total_beneficiaries": 13357,
+      "avg_submitted": 729.54,
+      "avg_paid": 322.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 3750798.39,
+      "total_services": 26556,
+      "total_beneficiaries": 12597,
+      "avg_submitted": 820.81,
+      "avg_paid": 321.52
+    },
+    {
+      "year": 2017,
+      "total_payments": 3541405.83,
+      "total_services": 24716,
+      "total_beneficiaries": 11770,
+      "avg_submitted": 839.88,
+      "avg_paid": 323.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 2809154.28,
+      "total_services": 18397,
+      "total_beneficiaries": 9360,
+      "avg_submitted": 873.54,
+      "avg_paid": 325.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 2010568.61,
+      "total_services": 13186,
+      "total_beneficiaries": 7311,
+      "avg_submitted": 778.34,
+      "avg_paid": 277.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 27980,
+      "payments": 8616087.06,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 14576,
+      "payments": 5336471.92,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 26629,
+      "payments": 4843363.06,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 67130,
+      "payments": 436265.84,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1372,
+      "payments": 318766.95,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 332,
+      "payments": 175901.35,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 211,
+      "payments": 132426.67,
+      "avg_markup": 2.22
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 19859282.84,
+    "total_services": 138230,
+    "total_beneficiaries": 68113,
+    "avg_markup_ratio": 2.71
+  }
+}

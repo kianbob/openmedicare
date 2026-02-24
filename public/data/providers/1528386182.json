@@ -1,0 +1,133 @@
+{
+  "name": "Veterans Medical Transport",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Morrow",
+  "state": "GA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 12770.43,
+      "total_services": 158,
+      "total_beneficiaries": 44,
+      "avg_submitted": 142.75,
+      "avg_paid": 82.79
+    },
+    {
+      "year": 2015,
+      "total_payments": 252385.92,
+      "total_services": 2884,
+      "total_beneficiaries": 546,
+      "avg_submitted": 440.12,
+      "avg_paid": 197.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 687986.58,
+      "total_services": 8135,
+      "total_beneficiaries": 707,
+      "avg_submitted": 440.12,
+      "avg_paid": 194.7
+    },
+    {
+      "year": 2017,
+      "total_payments": 588409.29,
+      "total_services": 6960,
+      "total_beneficiaries": 1002,
+      "avg_submitted": 440.12,
+      "avg_paid": 196.53
+    },
+    {
+      "year": 2018,
+      "total_payments": 457075.2,
+      "total_services": 5495,
+      "total_beneficiaries": 867,
+      "avg_submitted": 482.1,
+      "avg_paid": 198.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 560154.2,
+      "total_services": 7031,
+      "total_beneficiaries": 1232,
+      "avg_submitted": 1181.37,
+      "avg_paid": 246.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 807239.05,
+      "total_services": 9907,
+      "total_beneficiaries": 1574,
+      "avg_submitted": 1186.11,
+      "avg_paid": 194.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 380078.35,
+      "total_services": 4241,
+      "total_beneficiaries": 1035,
+      "avg_submitted": 1217.7,
+      "avg_paid": 189.58
+    },
+    {
+      "year": 2022,
+      "total_payments": 87518.93,
+      "total_services": 880,
+      "total_beneficiaries": 432,
+      "avg_submitted": 1237.68,
+      "avg_paid": 196.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 21228,
+      "payments": 3228142.83,
+      "avg_markup": 5.48
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1345,
+      "payments": 384144.87,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 22799,
+      "payments": 115756.51,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 254,
+      "payments": 85027.9,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 25,
+      "payments": 11978.74,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 40,
+      "payments": 8567.09,
+      "avg_markup": 5.85
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3833617.94,
+    "total_services": 45691,
+    "total_beneficiaries": 7439,
+    "avg_markup_ratio": 5.25
+  }
+}

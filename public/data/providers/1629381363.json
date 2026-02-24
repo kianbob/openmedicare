@@ -1,0 +1,239 @@
+{
+  "name": "Dharmesh Mehta",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Mayfield Village",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 321584.68,
+      "total_services": 4302,
+      "total_beneficiaries": 2234,
+      "avg_submitted": 166.68,
+      "avg_paid": 86.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 366592.22,
+      "total_services": 4784,
+      "total_beneficiaries": 2644,
+      "avg_submitted": 155.64,
+      "avg_paid": 78.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 431145.16,
+      "total_services": 5755,
+      "total_beneficiaries": 3136,
+      "avg_submitted": 148.98,
+      "avg_paid": 75.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 362492.31,
+      "total_services": 4611,
+      "total_beneficiaries": 2715,
+      "avg_submitted": 141.56,
+      "avg_paid": 75.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 241148.16,
+      "total_services": 3241,
+      "total_beneficiaries": 1844,
+      "avg_submitted": 149.15,
+      "avg_paid": 76.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 226819.42,
+      "total_services": 3168,
+      "total_beneficiaries": 1728,
+      "avg_submitted": 143.94,
+      "avg_paid": 73.69
+    },
+    {
+      "year": 2020,
+      "total_payments": 162688.54,
+      "total_services": 2271,
+      "total_beneficiaries": 1229,
+      "avg_submitted": 144.73,
+      "avg_paid": 75.76
+    },
+    {
+      "year": 2021,
+      "total_payments": 151861.76,
+      "total_services": 2122,
+      "total_beneficiaries": 1159,
+      "avg_submitted": 157.54,
+      "avg_paid": 80.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 152088.31,
+      "total_services": 2229,
+      "total_beneficiaries": 1262,
+      "avg_submitted": 132.69,
+      "avg_paid": 69.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 154214.29,
+      "total_services": 2126,
+      "total_beneficiaries": 1210,
+      "avg_submitted": 142.0,
+      "avg_paid": 82.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10731,
+      "payments": 600879.21,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2935,
+      "payments": 452749.67,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 7621,
+      "payments": 397522.83,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1276,
+      "payments": 181222.31,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1467,
+      "payments": 146276.02,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1625,
+      "payments": 133854.26,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 788,
+      "payments": 100433.5,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 401,
+      "payments": 66388.74,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 622,
+      "payments": 65528.01,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1144,
+      "payments": 64369.15,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1095,
+      "payments": 56906.07,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 980,
+      "payments": 54768.26,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 668,
+      "payments": 53337.44,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 586,
+      "payments": 32691.69,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 395,
+      "payments": 32147.55,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 391,
+      "payments": 32002.09,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 182,
+      "payments": 21914.47,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 248,
+      "payments": 16995.41,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 100,
+      "payments": 10478.54,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 183,
+      "payments": 10127.87,
+      "avg_markup": 1.92
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2570634.85,
+    "total_services": 34609,
+    "total_beneficiaries": 19161,
+    "avg_markup_ratio": 1.86
+  }
+}

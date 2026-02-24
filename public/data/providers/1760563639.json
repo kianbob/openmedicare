@@ -1,0 +1,239 @@
+{
+  "name": "Amy Vandenbrook",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Downers Grove",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 189586.09,
+      "total_services": 2091,
+      "total_beneficiaries": 1886,
+      "avg_submitted": 448.01,
+      "avg_paid": 105.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 201859.76,
+      "total_services": 2146,
+      "total_beneficiaries": 1883,
+      "avg_submitted": 811.04,
+      "avg_paid": 149.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 190709.32,
+      "total_services": 2182,
+      "total_beneficiaries": 1919,
+      "avg_submitted": 626.35,
+      "avg_paid": 120.04
+    },
+    {
+      "year": 2017,
+      "total_payments": 283181.39,
+      "total_services": 2743,
+      "total_beneficiaries": 2406,
+      "avg_submitted": 775.92,
+      "avg_paid": 126.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 323461.95,
+      "total_services": 3279,
+      "total_beneficiaries": 2865,
+      "avg_submitted": 804.16,
+      "avg_paid": 139.96
+    },
+    {
+      "year": 2019,
+      "total_payments": 361980.27,
+      "total_services": 3321,
+      "total_beneficiaries": 2862,
+      "avg_submitted": 830.88,
+      "avg_paid": 148.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 248709.88,
+      "total_services": 2910,
+      "total_beneficiaries": 2593,
+      "avg_submitted": 618.83,
+      "avg_paid": 102.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 342558.94,
+      "total_services": 3443,
+      "total_beneficiaries": 3072,
+      "avg_submitted": 933.96,
+      "avg_paid": 167.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 325862.88,
+      "total_services": 3370,
+      "total_beneficiaries": 3047,
+      "avg_submitted": 947.72,
+      "avg_paid": 162.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 268735.83,
+      "total_services": 3094,
+      "total_beneficiaries": 2850,
+      "avg_submitted": 761.89,
+      "avg_paid": 123.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 1798,
+      "payments": 863238.33,
+      "avg_markup": 7.33
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 6016,
+      "payments": 510413.23,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1649,
+      "payments": 202368.37,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 2930,
+      "payments": 182889.23,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1670,
+      "payments": 133913.15,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 2937,
+      "payments": 133157.41,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 494,
+      "payments": 131219.77,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 2014,
+      "payments": 78832.78,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1378,
+      "payments": 76483.76,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens, complex",
+      "services": 120,
+      "payments": 71136.6,
+      "avg_markup": 6.41
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 2603,
+      "payments": 70968.89,
+      "avg_markup": 11.48
+    },
+    {
+      "code": "65820",
+      "description": "Incision to improve eye fluid flow",
+      "services": 101,
+      "payments": 66714.11,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 1785,
+      "payments": 51997.71,
+      "avg_markup": 10.75
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow, 1 or more sessions",
+      "services": 244,
+      "payments": 51685.93,
+      "avg_markup": 8.41
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 1319,
+      "payments": 42220.53,
+      "avg_markup": 6.24
+    },
+    {
+      "code": "66761",
+      "description": "Creation of eye fluid drainage tracts in iris using laser, per session",
+      "services": 82,
+      "payments": 21217.47,
+      "avg_markup": 6.98
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 1042,
+      "payments": 20288.01,
+      "avg_markup": 6.9
+    },
+    {
+      "code": "0191T",
+      "description": "Internal insertion of eye fluid drainage device",
+      "services": 36,
+      "payments": 13300.1,
+      "avg_markup": 6.77
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 78,
+      "payments": 8208.46,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "76514",
+      "description": "Ultrasound of corneal structure and measurement",
+      "services": 198,
+      "payments": 1825.85,
+      "avg_markup": 9.76
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2736646.31,
+    "total_services": 28579,
+    "total_beneficiaries": 25383,
+    "avg_markup_ratio": 5.17
+  }
+}

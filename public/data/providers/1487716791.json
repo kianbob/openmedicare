@@ -1,0 +1,169 @@
+{
+  "name": "Mehmet Cetin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Bronx",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 206159.17,
+      "total_services": 2506,
+      "total_beneficiaries": 767,
+      "avg_submitted": 118.03,
+      "avg_paid": 90.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 219031.87,
+      "total_services": 2558,
+      "total_beneficiaries": 804,
+      "avg_submitted": 180.01,
+      "avg_paid": 90.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 215709.72,
+      "total_services": 2572,
+      "total_beneficiaries": 725,
+      "avg_submitted": 183.75,
+      "avg_paid": 89.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 197335.6,
+      "total_services": 2419,
+      "total_beneficiaries": 719,
+      "avg_submitted": 183.75,
+      "avg_paid": 89.91
+    },
+    {
+      "year": 2018,
+      "total_payments": 173658.75,
+      "total_services": 2054,
+      "total_beneficiaries": 588,
+      "avg_submitted": 177.22,
+      "avg_paid": 87.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 254654.52,
+      "total_services": 2967,
+      "total_beneficiaries": 676,
+      "avg_submitted": 192.14,
+      "avg_paid": 99.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 405659.64,
+      "total_services": 4864,
+      "total_beneficiaries": 698,
+      "avg_submitted": 183.75,
+      "avg_paid": 97.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 372408.88,
+      "total_services": 4428,
+      "total_beneficiaries": 712,
+      "avg_submitted": 180.0,
+      "avg_paid": 98.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 346894.14,
+      "total_services": 4475,
+      "total_beneficiaries": 812,
+      "avg_submitted": 180.0,
+      "avg_paid": 91.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 293393.03,
+      "total_services": 3166,
+      "total_beneficiaries": 659,
+      "avg_submitted": 180.0,
+      "avg_paid": 95.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 14301,
+      "payments": 1186161.6,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5979,
+      "payments": 566013.13,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 7168,
+      "payments": 467984.55,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1017,
+      "payments": 183215.19,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1049,
+      "payments": 122638.4,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1117,
+      "payments": 72984.85,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 447,
+      "payments": 43551.67,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 851,
+      "payments": 35189.03,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 63,
+      "payments": 6128.98,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 17,
+      "payments": 1037.92,
+      "avg_markup": 2.05
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2684905.32,
+    "total_services": 32009,
+    "total_beneficiaries": 7160,
+    "avg_markup_ratio": 1.83
+  }
+}

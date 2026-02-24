@@ -1,0 +1,239 @@
+{
+  "name": "Michael Sacher",
+  "credentials": "DO",
+  "specialty": "Cardiology",
+  "city": "Massapequa",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 583814.52,
+      "total_services": 5763,
+      "total_beneficiaries": 4019,
+      "avg_submitted": 393.64,
+      "avg_paid": 113.92
+    },
+    {
+      "year": 2015,
+      "total_payments": 568320.46,
+      "total_services": 5972,
+      "total_beneficiaries": 4172,
+      "avg_submitted": 364.63,
+      "avg_paid": 102.82
+    },
+    {
+      "year": 2016,
+      "total_payments": 567254.29,
+      "total_services": 6491,
+      "total_beneficiaries": 4508,
+      "avg_submitted": 384.91,
+      "avg_paid": 99.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 518925.52,
+      "total_services": 6008,
+      "total_beneficiaries": 4456,
+      "avg_submitted": 344.79,
+      "avg_paid": 93.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 520625.41,
+      "total_services": 6199,
+      "total_beneficiaries": 4817,
+      "avg_submitted": 349.04,
+      "avg_paid": 96.97
+    },
+    {
+      "year": 2019,
+      "total_payments": 678539.65,
+      "total_services": 6756,
+      "total_beneficiaries": 5011,
+      "avg_submitted": 339.3,
+      "avg_paid": 105.27
+    },
+    {
+      "year": 2020,
+      "total_payments": 657844.59,
+      "total_services": 5924,
+      "total_beneficiaries": 4684,
+      "avg_submitted": 352.07,
+      "avg_paid": 115.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 740121.19,
+      "total_services": 6554,
+      "total_beneficiaries": 5287,
+      "avg_submitted": 373.42,
+      "avg_paid": 132.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 803195.85,
+      "total_services": 6814,
+      "total_beneficiaries": 4995,
+      "avg_submitted": 358.24,
+      "avg_paid": 127.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 865326.18,
+      "total_services": 7911,
+      "total_beneficiaries": 5603,
+      "avg_submitted": 403.12,
+      "avg_paid": 135.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9057,
+      "payments": 844863.73,
+      "avg_markup": 3.75
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1875,
+      "payments": 826494.13,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 1061,
+      "payments": 803089.93,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4068,
+      "payments": 653814.3,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 3693,
+      "payments": 579042.91,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 2181,
+      "payments": 476572.8,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 1965,
+      "payments": 292806.24,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4401,
+      "payments": 291875.99,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 1834,
+      "payments": 228406.55,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 1244,
+      "payments": 216806.82,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "93886",
+      "description": "Ultrasound scanning of head and neck vessel blood flow (inside the brain)",
+      "services": 724,
+      "payments": 166124.29,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "93976",
+      "description": "Ultrasound limited scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 1269,
+      "payments": 162742.27,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 8384,
+      "payments": 112884.58,
+      "avg_markup": 11.14
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1909,
+      "payments": 110725.02,
+      "avg_markup": 6.9
+    },
+    {
+      "code": "93923",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 875,
+      "payments": 95214.14,
+      "avg_markup": 5.51
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 778,
+      "payments": 89521.8,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 1038,
+      "payments": 73532.14,
+      "avg_markup": 4.94
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 359,
+      "payments": 51125.65,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 288,
+      "payments": 49445.97,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 1108,
+      "payments": 49010.27,
+      "avg_markup": 4.49
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6503967.65,
+    "total_services": 64392,
+    "total_beneficiaries": 47552,
+    "avg_markup_ratio": 3.57
+  }
+}

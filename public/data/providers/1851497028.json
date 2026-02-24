@@ -1,0 +1,169 @@
+{
+  "name": "Susan Cary",
+  "credentials": "M.D.",
+  "specialty": "Psychiatry",
+  "city": "Springfield",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 18277.7,
+      "total_services": 302,
+      "total_beneficiaries": 106,
+      "avg_submitted": 116.67,
+      "avg_paid": 57.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 110191.84,
+      "total_services": 1865,
+      "total_beneficiaries": 334,
+      "avg_submitted": 127.29,
+      "avg_paid": 63.96
+    },
+    {
+      "year": 2016,
+      "total_payments": 64421.5,
+      "total_services": 1022,
+      "total_beneficiaries": 340,
+      "avg_submitted": 142.04,
+      "avg_paid": 69.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 48716.9,
+      "total_services": 748,
+      "total_beneficiaries": 305,
+      "avg_submitted": 137.0,
+      "avg_paid": 69.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 113788.43,
+      "total_services": 1457,
+      "total_beneficiaries": 491,
+      "avg_submitted": 124.5,
+      "avg_paid": 67.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 213783.58,
+      "total_services": 2619,
+      "total_beneficiaries": 494,
+      "avg_submitted": 164.0,
+      "avg_paid": 93.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 484150.2,
+      "total_services": 5756,
+      "total_beneficiaries": 691,
+      "avg_submitted": 164.0,
+      "avg_paid": 92.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 562432.94,
+      "total_services": 6635,
+      "total_beneficiaries": 698,
+      "avg_submitted": 169.42,
+      "avg_paid": 107.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 526121.14,
+      "total_services": 6401,
+      "total_beneficiaries": 668,
+      "avg_submitted": 139.0,
+      "avg_paid": 108.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 471685.77,
+      "total_services": 5827,
+      "total_beneficiaries": 714,
+      "avg_submitted": 146.38,
+      "avg_paid": 104.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0480",
+      "description": "Drug test(s), definitive, utilizing drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms (an",
+      "services": 9626,
+      "payments": 1088137.33,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 17097,
+      "payments": 1057615.65,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 1010,
+      "payments": 155987.81,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1778,
+      "payments": 101176.13,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1178,
+      "payments": 99285.07,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 999,
+      "payments": 77850.7,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 878,
+      "payments": 29281.77,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 40,
+      "payments": 2496.4,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 14,
+      "payments": 1637.86,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "81025",
+      "description": "Urine pregnancy test",
+      "services": 12,
+      "payments": 101.28,
+      "avg_markup": 2.07
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2613570.0,
+    "total_services": 32632,
+    "total_beneficiaries": 4841,
+    "avg_markup_ratio": 1.7
+  }
+}

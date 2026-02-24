@@ -1,0 +1,239 @@
+{
+  "name": "Derek Thomas",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Columbia",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 465706.18,
+      "total_services": 6570,
+      "total_beneficiaries": 5260,
+      "avg_submitted": 264.52,
+      "avg_paid": 75.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 438131.44,
+      "total_services": 6820,
+      "total_beneficiaries": 5320,
+      "avg_submitted": 262.22,
+      "avg_paid": 70.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 471328.57,
+      "total_services": 7017,
+      "total_beneficiaries": 5504,
+      "avg_submitted": 267.67,
+      "avg_paid": 74.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 426909.01,
+      "total_services": 6155,
+      "total_beneficiaries": 4732,
+      "avg_submitted": 272.24,
+      "avg_paid": 72.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 377630.54,
+      "total_services": 5356,
+      "total_beneficiaries": 4095,
+      "avg_submitted": 281.45,
+      "avg_paid": 76.23
+    },
+    {
+      "year": 2019,
+      "total_payments": 328939.68,
+      "total_services": 4589,
+      "total_beneficiaries": 3554,
+      "avg_submitted": 288.12,
+      "avg_paid": 81.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 297023.01,
+      "total_services": 4156,
+      "total_beneficiaries": 3255,
+      "avg_submitted": 296.95,
+      "avg_paid": 85.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 273931.41,
+      "total_services": 3931,
+      "total_beneficiaries": 3041,
+      "avg_submitted": 321.16,
+      "avg_paid": 88.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 222414.21,
+      "total_services": 3265,
+      "total_beneficiaries": 2480,
+      "avg_submitted": 335.53,
+      "avg_paid": 88.06
+    },
+    {
+      "year": 2023,
+      "total_payments": 183065.56,
+      "total_services": 2625,
+      "total_beneficiaries": 2033,
+      "avg_submitted": 321.1,
+      "avg_paid": 83.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11759,
+      "payments": 854057.67,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2376,
+      "payments": 821445.78,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4291,
+      "payments": 487911.03,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "78472",
+      "description": "Nuclear medicine study of heart wall motion at rest or stress with evaluation of blood ejection from heart, single study",
+      "services": 1467,
+      "payments": 234702.74,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1439,
+      "payments": 213680.57,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 1460,
+      "payments": 129981.65,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "A9560",
+      "description": "Technetium tc-99m labeled red blood cells, diagnostic, per study dose, up to 30 millicuries",
+      "services": 1538,
+      "payments": 126989.88,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1724,
+      "payments": 119603.56,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2439,
+      "payments": 115997.5,
+      "avg_markup": 8.84
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 567,
+      "payments": 82616.03,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1356,
+      "payments": 74987.55,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "78496",
+      "description": "Nuclear medicine study of heart function at rest or stress with evaluation of blood ejection from heart",
+      "services": 1466,
+      "payments": 48809.97,
+      "avg_markup": 12.01
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4540,
+      "payments": 47200.15,
+      "avg_markup": 6.06
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 7335,
+      "payments": 45923.3,
+      "avg_markup": 5.18
+    },
+    {
+      "code": "A9505",
+      "description": "Thallium tl-201 thallous chloride, diagnostic, per millicurie",
+      "services": 1595,
+      "payments": 30146.36,
+      "avg_markup": 11.11
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 157,
+      "payments": 14044.54,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "J0280",
+      "description": "Injection, aminophyllin, up to 250 mg",
+      "services": 2247,
+      "payments": 8680.38,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care, typically 70 minutes",
+      "services": 57,
+      "payments": 7779.38,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 93,
+      "payments": 3779.3,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "J1245",
+      "description": "Injection, dipyridamole, per 10 mg",
+      "services": 2122,
+      "payments": 2642.27,
+      "avg_markup": 32.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3485079.62,
+    "total_services": 50484,
+    "total_beneficiaries": 39274,
+    "avg_markup_ratio": 3.56
+  }
+}

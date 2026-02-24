@@ -1,0 +1,239 @@
+{
+  "name": "George Mehfoud",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Richmond",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 295949.02,
+      "total_services": 11525,
+      "total_beneficiaries": 7331,
+      "avg_submitted": 67.77,
+      "avg_paid": 34.07
+    },
+    {
+      "year": 2015,
+      "total_payments": 396197.83,
+      "total_services": 14109,
+      "total_beneficiaries": 9070,
+      "avg_submitted": 62.92,
+      "avg_paid": 34.07
+    },
+    {
+      "year": 2016,
+      "total_payments": 258001.98,
+      "total_services": 10925,
+      "total_beneficiaries": 7250,
+      "avg_submitted": 58.25,
+      "avg_paid": 28.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 231725.64,
+      "total_services": 8753,
+      "total_beneficiaries": 5715,
+      "avg_submitted": 55.08,
+      "avg_paid": 29.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 200938.26,
+      "total_services": 7759,
+      "total_beneficiaries": 5085,
+      "avg_submitted": 65.33,
+      "avg_paid": 35.36
+    },
+    {
+      "year": 2019,
+      "total_payments": 223949.04,
+      "total_services": 8472,
+      "total_beneficiaries": 5423,
+      "avg_submitted": 72.29,
+      "avg_paid": 35.88
+    },
+    {
+      "year": 2020,
+      "total_payments": 204316.98,
+      "total_services": 7796,
+      "total_beneficiaries": 5156,
+      "avg_submitted": 84.03,
+      "avg_paid": 37.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 261210.77,
+      "total_services": 8751,
+      "total_beneficiaries": 5804,
+      "avg_submitted": 72.22,
+      "avg_paid": 38.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 243775.6,
+      "total_services": 8155,
+      "total_beneficiaries": 5195,
+      "avg_submitted": 64.77,
+      "avg_paid": 34.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 253528.74,
+      "total_services": 8261,
+      "total_beneficiaries": 5162,
+      "avg_submitted": 90.9,
+      "avg_paid": 48.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9067,
+      "payments": 703065.55,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 12427,
+      "payments": 586505.73,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 842,
+      "payments": 105146.67,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1943,
+      "payments": 99806.38,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 7106,
+      "payments": 92413.21,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 523,
+      "payments": 87633.05,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 9336,
+      "payments": 85205.05,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 9604,
+      "payments": 81092.2,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1032,
+      "payments": 73967.59,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 623,
+      "payments": 61951.65,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 7914,
+      "payments": 61725.48,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1970,
+      "payments": 45211.67,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 688,
+      "payments": 44283.35,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2177,
+      "payments": 43640.18,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12187,
+      "payments": 41799.23,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 2665,
+      "payments": 30530.46,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 84,
+      "payments": 22407.88,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 202,
+      "payments": 21986.59,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 575,
+      "payments": 19482.32,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 92,
+      "payments": 19277.65,
+      "avg_markup": 2.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2569593.86,
+    "total_services": 94506,
+    "total_beneficiaries": 61191,
+    "avg_markup_ratio": 2.09
+  }
+}

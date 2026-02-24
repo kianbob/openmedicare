@@ -1,0 +1,176 @@
+{
+  "name": "Steven Lin",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 251013.12,
+      "total_services": 3196,
+      "total_beneficiaries": 1382,
+      "avg_submitted": 230.37,
+      "avg_paid": 95.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 257349.35,
+      "total_services": 3595,
+      "total_beneficiaries": 1285,
+      "avg_submitted": 261.86,
+      "avg_paid": 91.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 287094.02,
+      "total_services": 4145,
+      "total_beneficiaries": 1262,
+      "avg_submitted": 280.16,
+      "avg_paid": 97.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 269936.94,
+      "total_services": 3650,
+      "total_beneficiaries": 1337,
+      "avg_submitted": 281.08,
+      "avg_paid": 98.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 247491.27,
+      "total_services": 3704,
+      "total_beneficiaries": 1076,
+      "avg_submitted": 261.03,
+      "avg_paid": 89.79
+    },
+    {
+      "year": 2019,
+      "total_payments": 281152.9,
+      "total_services": 3920,
+      "total_beneficiaries": 1127,
+      "avg_submitted": 277.08,
+      "avg_paid": 100.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 233769.86,
+      "total_services": 3166,
+      "total_beneficiaries": 796,
+      "avg_submitted": 268.11,
+      "avg_paid": 100.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 193079.15,
+      "total_services": 2856,
+      "total_beneficiaries": 531,
+      "avg_submitted": 277.2,
+      "avg_paid": 101.63
+    },
+    {
+      "year": 2022,
+      "total_payments": 184729.97,
+      "total_services": 2718,
+      "total_beneficiaries": 539,
+      "avg_submitted": 275.46,
+      "avg_paid": 98.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 152227.12,
+      "total_services": 2040,
+      "total_beneficiaries": 405,
+      "avg_submitted": 275.0,
+      "avg_paid": 99.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 24029,
+      "payments": 1379616.32,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2756,
+      "payments": 434589.86,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3736,
+      "payments": 308259.99,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 686,
+      "payments": 99546.68,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 659,
+      "payments": 54994.57,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 479,
+      "payments": 27760.34,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 199,
+      "payments": 21055.34,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 228,
+      "payments": 12959.67,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 111,
+      "payments": 9062.67,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 81,
+      "payments": 8516.78,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 26,
+      "payments": 1481.48,
+      "avg_markup": 3.51
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2357843.7,
+    "total_services": 32990,
+    "total_beneficiaries": 9740,
+    "avg_markup_ratio": 2.74
+  }
+}

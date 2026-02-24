@@ -1,0 +1,239 @@
+{
+  "name": "Eric Mizuno",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 116113.84,
+      "total_services": 1311,
+      "total_beneficiaries": 548,
+      "avg_submitted": 128.8,
+      "avg_paid": 76.49
+    },
+    {
+      "year": 2015,
+      "total_payments": 282343.39,
+      "total_services": 3427,
+      "total_beneficiaries": 1094,
+      "avg_submitted": 216.67,
+      "avg_paid": 86.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 394945.91,
+      "total_services": 4981,
+      "total_beneficiaries": 1440,
+      "avg_submitted": 207.36,
+      "avg_paid": 93.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 295716.61,
+      "total_services": 3827,
+      "total_beneficiaries": 1011,
+      "avg_submitted": 208.74,
+      "avg_paid": 86.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 286136.6,
+      "total_services": 3675,
+      "total_beneficiaries": 1113,
+      "avg_submitted": 191.21,
+      "avg_paid": 77.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 332578.68,
+      "total_services": 4086,
+      "total_beneficiaries": 1096,
+      "avg_submitted": 176.36,
+      "avg_paid": 91.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 299415.38,
+      "total_services": 3661,
+      "total_beneficiaries": 914,
+      "avg_submitted": 179.0,
+      "avg_paid": 94.65
+    },
+    {
+      "year": 2021,
+      "total_payments": 327648.0,
+      "total_services": 3946,
+      "total_beneficiaries": 1142,
+      "avg_submitted": 183.89,
+      "avg_paid": 94.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 375365.46,
+      "total_services": 4442,
+      "total_beneficiaries": 1377,
+      "avg_submitted": 205.5,
+      "avg_paid": 101.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 346599.15,
+      "total_services": 3723,
+      "total_beneficiaries": 1010,
+      "avg_submitted": 246.75,
+      "avg_paid": 106.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 11381,
+      "payments": 843243.19,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7291,
+      "payments": 637966.86,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1812,
+      "payments": 295271.3,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4808,
+      "payments": 264644.81,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1825,
+      "payments": 252939.59,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3918,
+      "payments": 237412.62,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1895,
+      "payments": 156820.85,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1150,
+      "payments": 121335.39,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 334,
+      "payments": 62544.37,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 796,
+      "payments": 43505.61,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 348,
+      "payments": 33574.5,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 214,
+      "payments": 31836.8,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 493,
+      "payments": 29929.2,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 67,
+      "payments": 7001.06,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 78,
+      "payments": 6942.3,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 56,
+      "payments": 6885.19,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 87,
+      "payments": 6612.15,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 105,
+      "payments": 6524.83,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 146,
+      "payments": 3628.81,
+      "avg_markup": 5.66
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 38,
+      "payments": 2590.47,
+      "avg_markup": 2.84
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3056863.02,
+    "total_services": 37079,
+    "total_beneficiaries": 10745,
+    "avg_markup_ratio": 2.02
+  }
+}

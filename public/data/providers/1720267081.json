@@ -1,0 +1,176 @@
+{
+  "name": "Brandon Howard",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Fort Lee",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 259487.26,
+      "total_services": 2329,
+      "total_beneficiaries": 658,
+      "avg_submitted": 1497.72,
+      "avg_paid": 116.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 218525.42,
+      "total_services": 1966,
+      "total_beneficiaries": 769,
+      "avg_submitted": 1671.2,
+      "avg_paid": 125.5
+    },
+    {
+      "year": 2016,
+      "total_payments": 161199.95,
+      "total_services": 1550,
+      "total_beneficiaries": 614,
+      "avg_submitted": 1671.43,
+      "avg_paid": 124.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 190025.15,
+      "total_services": 1897,
+      "total_beneficiaries": 712,
+      "avg_submitted": 1575.0,
+      "avg_paid": 114.23
+    },
+    {
+      "year": 2018,
+      "total_payments": 317427.31,
+      "total_services": 3095,
+      "total_beneficiaries": 1108,
+      "avg_submitted": 1620.0,
+      "avg_paid": 120.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 312094.71,
+      "total_services": 3147,
+      "total_beneficiaries": 1128,
+      "avg_submitted": 1530.0,
+      "avg_paid": 105.44
+    },
+    {
+      "year": 2020,
+      "total_payments": 397886.1,
+      "total_services": 3970,
+      "total_beneficiaries": 1213,
+      "avg_submitted": 1800.0,
+      "avg_paid": 114.74
+    },
+    {
+      "year": 2021,
+      "total_payments": 563328.0,
+      "total_services": 5549,
+      "total_beneficiaries": 1472,
+      "avg_submitted": 1799.84,
+      "avg_paid": 118.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 730989.9,
+      "total_services": 7313,
+      "total_beneficiaries": 1968,
+      "avg_submitted": 1568.38,
+      "avg_paid": 104.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 863907.12,
+      "total_services": 8405,
+      "total_beneficiaries": 2439,
+      "avg_submitted": 1399.91,
+      "avg_paid": 102.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 28182,
+      "payments": 2554785.05,
+      "avg_markup": 17.16
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5352,
+      "payments": 887497.07,
+      "avg_markup": 11.56
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3810,
+      "payments": 351724.63,
+      "avg_markup": 20.75
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 727,
+      "payments": 136899.58,
+      "avg_markup": 13.19
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 887,
+      "payments": 56577.19,
+      "avg_markup": 13.8
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 95,
+      "payments": 11439.98,
+      "avg_markup": 7.43
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 64,
+      "payments": 5853.83,
+      "avg_markup": 7.71
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 24,
+      "payments": 3747.22,
+      "avg_markup": 9.99
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 18,
+      "payments": 2512.98,
+      "avg_markup": 12.89
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 34,
+      "payments": 2092.64,
+      "avg_markup": 21.45
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 28,
+      "payments": 1740.76,
+      "avg_markup": 21.23
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4014870.93,
+    "total_services": 39221,
+    "total_beneficiaries": 12081,
+    "avg_markup_ratio": 16.01
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Nucare Carolina Ambulance",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Winston Salem",
+  "state": "NC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1223064.59,
+      "total_services": 12019,
+      "total_beneficiaries": 7577,
+      "avg_submitted": 338.22,
+      "avg_paid": 183.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 1109679.74,
+      "total_services": 10562,
+      "total_beneficiaries": 6862,
+      "avg_submitted": 337.42,
+      "avg_paid": 188.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 930174.51,
+      "total_services": 9246,
+      "total_beneficiaries": 6218,
+      "avg_submitted": 334.35,
+      "avg_paid": 187.17
+    },
+    {
+      "year": 2017,
+      "total_payments": 759646.63,
+      "total_services": 7195,
+      "total_beneficiaries": 5025,
+      "avg_submitted": 335.62,
+      "avg_paid": 185.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 705150.01,
+      "total_services": 6580,
+      "total_beneficiaries": 4696,
+      "avg_submitted": 325.48,
+      "avg_paid": 174.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 632896.72,
+      "total_services": 5841,
+      "total_beneficiaries": 4221,
+      "avg_submitted": 289.99,
+      "avg_paid": 148.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 485740.08,
+      "total_services": 4294,
+      "total_beneficiaries": 3361,
+      "avg_submitted": 290.89,
+      "avg_paid": 151.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 265557.6,
+      "total_services": 2409,
+      "total_beneficiaries": 2019,
+      "avg_submitted": 292.48,
+      "avg_paid": 151.66
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 18779,
+      "payments": 3106613.39,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 10461,
+      "payments": 2772211.74,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 28638,
+      "payments": 164200.46,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 155,
+      "payments": 47377.82,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 113,
+      "payments": 21506.46,
+      "avg_markup": 1.98
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 6111909.87,
+    "total_services": 58146,
+    "total_beneficiaries": 39979,
+    "avg_markup_ratio": 1.98
+  }
+}

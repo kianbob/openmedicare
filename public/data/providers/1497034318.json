@@ -1,0 +1,101 @@
+{
+  "name": "Lake Emergency Medical Services, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Mount Dora",
+  "state": "FL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4723568.91,
+      "total_services": 30130,
+      "total_beneficiaries": 20399,
+      "avg_submitted": 432.43,
+      "avg_paid": 238.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 4904849.76,
+      "total_services": 30826,
+      "total_beneficiaries": 20796,
+      "avg_submitted": 432.44,
+      "avg_paid": 242.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 4977558.56,
+      "total_services": 31603,
+      "total_beneficiaries": 21498,
+      "avg_submitted": 432.41,
+      "avg_paid": 241.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 4781123.2,
+      "total_services": 29983,
+      "total_beneficiaries": 20457,
+      "avg_submitted": 432.42,
+      "avg_paid": 242.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 3487055.21,
+      "total_services": 21591,
+      "total_beneficiaries": 15637,
+      "avg_submitted": 432.44,
+      "avg_paid": 244.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 54756,
+      "payments": 17821199.01,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 9480,
+      "payments": 2585455.83,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 4219,
+      "payments": 867696.18,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1768,
+      "payments": 830591.22,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 71808,
+      "payments": 409350.06,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 2102,
+      "payments": 359863.33,
+      "avg_markup": 2.34
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 22874155.63,
+    "total_services": 144133,
+    "total_beneficiaries": 98787,
+    "avg_markup_ratio": 1.71
+  }
+}

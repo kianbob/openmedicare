@@ -1,0 +1,50 @@
+{
+  "name": "Medtronic Monitoring Inc",
+  "credentials": "",
+  "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+  "city": "South San Francisco",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 4420820.5,
+      "total_services": 5616,
+      "total_beneficiaries": 5608,
+      "avg_submitted": 2499.0,
+      "avg_paid": 787.18
+    },
+    {
+      "year": 2017,
+      "total_payments": 5747890.64,
+      "total_services": 7476,
+      "total_beneficiaries": 7466,
+      "avg_submitted": 2499.0,
+      "avg_paid": 768.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 2701087.82,
+      "total_services": 3533,
+      "total_beneficiaries": 3528,
+      "avg_submitted": 2499.0,
+      "avg_paid": 764.53
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 16625,
+      "payments": 12869798.96,
+      "avg_markup": 3.23
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 12869798.96,
+    "total_services": 16625,
+    "total_beneficiaries": 16602,
+    "avg_markup_ratio": 3.23
+  }
+}

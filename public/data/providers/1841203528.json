@@ -1,0 +1,239 @@
+{
+  "name": "Yanqing Gu",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Melbourne",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 297862.27,
+      "total_services": 4748,
+      "total_beneficiaries": 710,
+      "avg_submitted": 131.51,
+      "avg_paid": 86.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 212297.93,
+      "total_services": 3465,
+      "total_beneficiaries": 663,
+      "avg_submitted": 128.57,
+      "avg_paid": 81.27
+    },
+    {
+      "year": 2016,
+      "total_payments": 158356.55,
+      "total_services": 2619,
+      "total_beneficiaries": 700,
+      "avg_submitted": 121.01,
+      "avg_paid": 73.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 191464.15,
+      "total_services": 3107,
+      "total_beneficiaries": 835,
+      "avg_submitted": 128.57,
+      "avg_paid": 76.48
+    },
+    {
+      "year": 2018,
+      "total_payments": 213532.35,
+      "total_services": 3085,
+      "total_beneficiaries": 917,
+      "avg_submitted": 147.33,
+      "avg_paid": 85.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 228251.27,
+      "total_services": 3166,
+      "total_beneficiaries": 848,
+      "avg_submitted": 132.14,
+      "avg_paid": 84.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 243758.95,
+      "total_services": 3635,
+      "total_beneficiaries": 769,
+      "avg_submitted": 127.27,
+      "avg_paid": 76.63
+    },
+    {
+      "year": 2021,
+      "total_payments": 275520.78,
+      "total_services": 3985,
+      "total_beneficiaries": 798,
+      "avg_submitted": 137.82,
+      "avg_paid": 85.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 342784.16,
+      "total_services": 4983,
+      "total_beneficiaries": 927,
+      "avg_submitted": 140.0,
+      "avg_paid": 83.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 366264.22,
+      "total_services": 4870,
+      "total_beneficiaries": 819,
+      "avg_submitted": 145.76,
+      "avg_paid": 92.11
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 14901,
+      "payments": 798659.03,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7199,
+      "payments": 519801.65,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4826,
+      "payments": 271907.54,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3331,
+      "payments": 263311.05,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2689,
+      "payments": 224830.51,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1097,
+      "payments": 144174.76,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 686,
+      "payments": 106640.81,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1070,
+      "payments": 56561.8,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 607,
+      "payments": 50616.9,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 225,
+      "payments": 22508.74,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 149,
+      "payments": 15528.82,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 184,
+      "payments": 14859.87,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 249,
+      "payments": 14214.69,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 84,
+      "payments": 10246.37,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 228,
+      "payments": 9231.06,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 28,
+      "payments": 2262.91,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 11,
+      "payments": 1860.54,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 24,
+      "payments": 1299.36,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 24,
+      "payments": 790.56,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 19,
+      "payments": 593.66,
+      "avg_markup": 2.56
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2530092.63,
+    "total_services": 37663,
+    "total_beneficiaries": 7986,
+    "avg_markup_ratio": 1.53
+  }
+}

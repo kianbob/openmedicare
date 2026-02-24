@@ -1,0 +1,239 @@
+{
+  "name": "Joel Osborn",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Amarillo",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 564753.51,
+      "total_services": 8574,
+      "total_beneficiaries": 5099,
+      "avg_submitted": 447.94,
+      "avg_paid": 120.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 705305.95,
+      "total_services": 10460,
+      "total_beneficiaries": 5811,
+      "avg_submitted": 505.66,
+      "avg_paid": 135.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 737343.61,
+      "total_services": 11645,
+      "total_beneficiaries": 5467,
+      "avg_submitted": 404.93,
+      "avg_paid": 107.39
+    },
+    {
+      "year": 2017,
+      "total_payments": 740171.48,
+      "total_services": 12409,
+      "total_beneficiaries": 5583,
+      "avg_submitted": 501.02,
+      "avg_paid": 130.53
+    },
+    {
+      "year": 2018,
+      "total_payments": 803188.48,
+      "total_services": 13622,
+      "total_beneficiaries": 6102,
+      "avg_submitted": 425.38,
+      "avg_paid": 117.17
+    },
+    {
+      "year": 2019,
+      "total_payments": 783461.67,
+      "total_services": 12660,
+      "total_beneficiaries": 6235,
+      "avg_submitted": 472.29,
+      "avg_paid": 129.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 686418.2,
+      "total_services": 9874,
+      "total_beneficiaries": 5005,
+      "avg_submitted": 503.85,
+      "avg_paid": 135.19
+    },
+    {
+      "year": 2021,
+      "total_payments": 708224.36,
+      "total_services": 9295,
+      "total_beneficiaries": 5143,
+      "avg_submitted": 549.73,
+      "avg_paid": 137.91
+    },
+    {
+      "year": 2022,
+      "total_payments": 747292.15,
+      "total_services": 9460,
+      "total_beneficiaries": 5153,
+      "avg_submitted": 544.24,
+      "avg_paid": 145.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 805713.69,
+      "total_services": 9880,
+      "total_beneficiaries": 5101,
+      "avg_submitted": 534.04,
+      "avg_paid": 143.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 18827,
+      "payments": 1397946.66,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 1084,
+      "payments": 1027235.57,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 32811,
+      "payments": 1022498.35,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "78431",
+      "description": "Multiple nuclear medicine studies of blood flow in heart muscle at rest and with stress, with concurrently acquired ct transmission scan",
+      "services": 391,
+      "payments": 674075.92,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5279,
+      "payments": 562464.34,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 1480,
+      "payments": 508055.23,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1081,
+      "payments": 317815.7,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3500,
+      "payments": 194981.2,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 502,
+      "payments": 130323.98,
+      "avg_markup": 4.55
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2161,
+      "payments": 110920.6,
+      "avg_markup": 6.23
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 938,
+      "payments": 106058.3,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1057,
+      "payments": 101870.0,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 953,
+      "payments": 98313.1,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 2086,
+      "payments": 92282.35,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "93229",
+      "description": "Electrocardiogram (ecg) up to 30 days continuous with transmission of patient triggered events with review and report by health care professional",
+      "services": 133,
+      "payments": 86351.14,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 167,
+      "payments": 73738.99,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 646,
+      "payments": 69133.18,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 5280,
+      "payments": 59493.21,
+      "avg_markup": 4.88
+    },
+    {
+      "code": "99426",
+      "description": "Principal care management services for a single high-risk disease, first 30 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 1206,
+      "payments": 53240.99,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 10141,
+      "payments": 50007.25,
+      "avg_markup": 4.8
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7281873.09,
+    "total_services": 107879,
+    "total_beneficiaries": 54699,
+    "avg_markup_ratio": 3.67
+  }
+}

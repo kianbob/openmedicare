@@ -1,0 +1,232 @@
+{
+  "name": "Ikechukwu Onyeka",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "Grand Forks",
+  "state": "ND",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 367260.45,
+      "total_services": 3719,
+      "total_beneficiaries": 2021,
+      "avg_submitted": 300.38,
+      "avg_paid": 99.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 352744.05,
+      "total_services": 3766,
+      "total_beneficiaries": 2130,
+      "avg_submitted": 311.16,
+      "avg_paid": 93.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 339765.96,
+      "total_services": 3749,
+      "total_beneficiaries": 2085,
+      "avg_submitted": 308.79,
+      "avg_paid": 83.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 332734.1,
+      "total_services": 3484,
+      "total_beneficiaries": 1954,
+      "avg_submitted": 330.13,
+      "avg_paid": 90.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 314813.96,
+      "total_services": 3242,
+      "total_beneficiaries": 1861,
+      "avg_submitted": 360.15,
+      "avg_paid": 95.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 330114.47,
+      "total_services": 3321,
+      "total_beneficiaries": 2010,
+      "avg_submitted": 357.98,
+      "avg_paid": 91.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 280105.91,
+      "total_services": 2737,
+      "total_beneficiaries": 1849,
+      "avg_submitted": 374.82,
+      "avg_paid": 94.91
+    },
+    {
+      "year": 2021,
+      "total_payments": 290713.45,
+      "total_services": 2850,
+      "total_beneficiaries": 1917,
+      "avg_submitted": 402.23,
+      "avg_paid": 99.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 331872.58,
+      "total_services": 3425,
+      "total_beneficiaries": 2187,
+      "avg_submitted": 408.14,
+      "avg_paid": 96.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 469170.97,
+      "total_services": 5402,
+      "total_beneficiaries": 2547,
+      "avg_submitted": 464.48,
+      "avg_paid": 96.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 13084,
+      "payments": 1061593.87,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4391,
+      "payments": 661408.53,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3650,
+      "payments": 617181.26,
+      "avg_markup": 4.32
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6331,
+      "payments": 347056.15,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3468,
+      "payments": 289839.16,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1019,
+      "payments": 141983.75,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1099,
+      "payments": 112571.84,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 598,
+      "payments": 51684.44,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 675,
+      "payments": 37620.79,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 272,
+      "payments": 21556.77,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 311,
+      "payments": 17401.27,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 168,
+      "payments": 17391.44,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 213,
+      "payments": 12275.8,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 287,
+      "payments": 10575.56,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 27,
+      "payments": 2832.31,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 34,
+      "payments": 1945.69,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 23,
+      "payments": 1741.4,
+      "avg_markup": 4.73
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 32,
+      "payments": 1666.56,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 13,
+      "payments": 969.32,
+      "avg_markup": 4.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3409295.91,
+    "total_services": 35695,
+    "total_beneficiaries": 20561,
+    "avg_markup_ratio": 3.71
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Universal Ambulance Response Services Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Flint",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1267316.41,
+      "total_services": 14741,
+      "total_beneficiaries": 2079,
+      "avg_submitted": 412.54,
+      "avg_paid": 182.04
+    },
+    {
+      "year": 2015,
+      "total_payments": 1186786.26,
+      "total_services": 13108,
+      "total_beneficiaries": 2286,
+      "avg_submitted": 378.24,
+      "avg_paid": 180.99
+    },
+    {
+      "year": 2016,
+      "total_payments": 910834.22,
+      "total_services": 9732,
+      "total_beneficiaries": 2054,
+      "avg_submitted": 378.25,
+      "avg_paid": 176.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 314346.96,
+      "total_services": 3502,
+      "total_beneficiaries": 688,
+      "avg_submitted": 378.25,
+      "avg_paid": 172.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 16624,
+      "payments": 2484863.9,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2502,
+      "payments": 636794.06,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 1462,
+      "payments": 444017.11,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 20458,
+      "payments": 106394.33,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 37,
+      "payments": 7214.45,
+      "avg_markup": 2.82
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3679283.85,
+    "total_services": 41083,
+    "total_beneficiaries": 7107,
+    "avg_markup_ratio": 2.46
+  }
+}

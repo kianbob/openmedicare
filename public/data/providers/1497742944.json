@@ -1,0 +1,239 @@
+{
+  "name": "Arthur Kalman",
+  "credentials": "DO",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Pensacola",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 160120.13,
+      "total_services": 3058,
+      "total_beneficiaries": 1403,
+      "avg_submitted": 445.69,
+      "avg_paid": 64.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 117286.05,
+      "total_services": 2157,
+      "total_beneficiaries": 1242,
+      "avg_submitted": 582.22,
+      "avg_paid": 71.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 69409.43,
+      "total_services": 1032,
+      "total_beneficiaries": 891,
+      "avg_submitted": 697.76,
+      "avg_paid": 69.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 350276.39,
+      "total_services": 4904,
+      "total_beneficiaries": 2998,
+      "avg_submitted": 260.58,
+      "avg_paid": 76.29
+    },
+    {
+      "year": 2018,
+      "total_payments": 306951.4,
+      "total_services": 4612,
+      "total_beneficiaries": 2710,
+      "avg_submitted": 226.4,
+      "avg_paid": 68.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 165452.22,
+      "total_services": 2827,
+      "total_beneficiaries": 1780,
+      "avg_submitted": 307.58,
+      "avg_paid": 76.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 188116.45,
+      "total_services": 2771,
+      "total_beneficiaries": 1902,
+      "avg_submitted": 291.28,
+      "avg_paid": 77.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 213853.84,
+      "total_services": 3034,
+      "total_beneficiaries": 1815,
+      "avg_submitted": 285.74,
+      "avg_paid": 80.2
+    },
+    {
+      "year": 2022,
+      "total_payments": 382343.15,
+      "total_services": 5551,
+      "total_beneficiaries": 2474,
+      "avg_submitted": 362.22,
+      "avg_paid": 81.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 640166.52,
+      "total_services": 8426,
+      "total_beneficiaries": 3902,
+      "avg_submitted": 335.8,
+      "avg_paid": 78.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9556,
+      "payments": 563402.62,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 8359,
+      "payments": 467161.46,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4296,
+      "payments": 380278.81,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1268,
+      "payments": 156093.31,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1281,
+      "payments": 131700.36,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "64483",
+      "description": "Injections of anesthetic and/or steroid drug into lower or sacral spine nerve root using imaging guidance",
+      "services": 714,
+      "payments": 82250.39,
+      "avg_markup": 9.71
+    },
+    {
+      "code": "64493",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 656,
+      "payments": 72424.83,
+      "avg_markup": 9.12
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1061,
+      "payments": 62956.48,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 380,
+      "payments": 58508.68,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 330,
+      "payments": 55410.81,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 433,
+      "payments": 47627.21,
+      "avg_markup": 9.06
+    },
+    {
+      "code": "95886",
+      "description": "Needle measurement and recording of electrical activity of muscles of arm or leg complete study",
+      "services": 608,
+      "payments": 46043.44,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 745,
+      "payments": 45285.62,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 213,
+      "payments": 41486.01,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "27096",
+      "description": "Injection procedure into sacroiliac joint for anesthetic or steroid",
+      "services": 347,
+      "payments": 33361.1,
+      "avg_markup": 8.75
+    },
+    {
+      "code": "G0480",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 293,
+      "payments": 32438.44,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "64494",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 460,
+      "payments": 31695.89,
+      "avg_markup": 11.38
+    },
+    {
+      "code": "95910",
+      "description": "Nerve transmission studies, 7-8 studies",
+      "services": 170,
+      "payments": 25036.48,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 257,
+      "payments": 22812.96,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 477,
+      "payments": 21752.84,
+      "avg_markup": 4.21
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2593975.58,
+    "total_services": 38372,
+    "total_beneficiaries": 21117,
+    "avg_markup_ratio": 3.91
+  }
+}

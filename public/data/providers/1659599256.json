@@ -1,0 +1,239 @@
+{
+  "name": "Mohammed Saeed",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Paramus",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 283908.74,
+      "total_services": 3521,
+      "total_beneficiaries": 1524,
+      "avg_submitted": 403.62,
+      "avg_paid": 99.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 329880.32,
+      "total_services": 4144,
+      "total_beneficiaries": 1449,
+      "avg_submitted": 406.31,
+      "avg_paid": 98.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 317238.4,
+      "total_services": 4380,
+      "total_beneficiaries": 1645,
+      "avg_submitted": 492.02,
+      "avg_paid": 97.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 331141.82,
+      "total_services": 4578,
+      "total_beneficiaries": 1693,
+      "avg_submitted": 461.78,
+      "avg_paid": 90.7
+    },
+    {
+      "year": 2018,
+      "total_payments": 355633.6,
+      "total_services": 4942,
+      "total_beneficiaries": 1903,
+      "avg_submitted": 451.95,
+      "avg_paid": 88.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 271500.75,
+      "total_services": 4067,
+      "total_beneficiaries": 1417,
+      "avg_submitted": 438.98,
+      "avg_paid": 91.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 266910.4,
+      "total_services": 3737,
+      "total_beneficiaries": 1200,
+      "avg_submitted": 422.84,
+      "avg_paid": 96.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 381195.85,
+      "total_services": 4294,
+      "total_beneficiaries": 1413,
+      "avg_submitted": 449.96,
+      "avg_paid": 98.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 426070.36,
+      "total_services": 5031,
+      "total_beneficiaries": 1523,
+      "avg_submitted": 590.16,
+      "avg_paid": 107.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 457541.6,
+      "total_services": 5014,
+      "total_beneficiaries": 1472,
+      "avg_submitted": 534.7,
+      "avg_paid": 103.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8987,
+      "payments": 827325.62,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12736,
+      "payments": 787485.51,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6973,
+      "payments": 419621.75,
+      "avg_markup": 6.0
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1769,
+      "payments": 304124.29,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3448,
+      "payments": 267681.28,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1165,
+      "payments": 168823.05,
+      "avg_markup": 5.74
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1615,
+      "payments": 100362.71,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1063,
+      "payments": 99574.55,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 803,
+      "payments": 92825.01,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 2465,
+      "payments": 92341.43,
+      "avg_markup": 6.33
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 830,
+      "payments": 81100.18,
+      "avg_markup": 5.73
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 275,
+      "payments": 44933.22,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 613,
+      "payments": 37489.54,
+      "avg_markup": 5.66
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 309,
+      "payments": 35810.01,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 226,
+      "payments": 25170.22,
+      "avg_markup": 5.93
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 267,
+      "payments": 16750.94,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 88,
+      "payments": 10278.67,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 32,
+      "payments": 6016.58,
+      "avg_markup": 6.69
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 26,
+      "payments": 2191.8,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 18,
+      "payments": 1115.48,
+      "avg_markup": 3.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3421021.85,
+    "total_services": 43708,
+    "total_beneficiaries": 15239,
+    "avg_markup_ratio": 4.99
+  }
+}

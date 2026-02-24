@@ -1,0 +1,79 @@
+{
+  "name": "Med-Life Ambulance Services,inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Glendale",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2168010.72,
+      "total_services": 21416,
+      "total_beneficiaries": 6278,
+      "avg_submitted": 576.46,
+      "avg_paid": 282.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 2372910.08,
+      "total_services": 23294,
+      "total_beneficiaries": 6045,
+      "avg_submitted": 576.71,
+      "avg_paid": 286.68
+    },
+    {
+      "year": 2016,
+      "total_payments": 1455393.68,
+      "total_services": 13782,
+      "total_beneficiaries": 4540,
+      "avg_submitted": 577.13,
+      "avg_paid": 285.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 53094.49,
+      "total_services": 496,
+      "total_beneficiaries": 281,
+      "avg_submitted": 535.25,
+      "avg_paid": 276.73
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 28264,
+      "payments": 5228158.14,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 818,
+      "payments": 520440.54,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 29449,
+      "payments": 158064.99,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 457,
+      "payments": 142745.3,
+      "avg_markup": 2.24
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 6049408.97,
+    "total_services": 58988,
+    "total_beneficiaries": 17144,
+    "avg_markup_ratio": 3.52
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Aero Med, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Tulsa",
+  "state": "OK",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1291466.9,
+      "total_services": 752,
+      "total_beneficiaries": 692,
+      "avg_submitted": 6274.38,
+      "avg_paid": 1717.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 1162472.31,
+      "total_services": 660,
+      "total_beneficiaries": 596,
+      "avg_submitted": 9007.09,
+      "avg_paid": 1761.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 706,
+      "payments": 2446914.87,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 706,
+      "payments": 7024.34,
+      "avg_markup": 17.97
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 2453939.21,
+    "total_services": 1412,
+    "total_beneficiaries": 1288,
+    "avg_markup_ratio": 4.35
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Patrick Wolcott",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "El Centro",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 471007.41,
+      "total_services": 3120,
+      "total_beneficiaries": 1679,
+      "avg_submitted": 331.65,
+      "avg_paid": 199.23
+    },
+    {
+      "year": 2015,
+      "total_payments": 467535.06,
+      "total_services": 3425,
+      "total_beneficiaries": 1861,
+      "avg_submitted": 387.73,
+      "avg_paid": 187.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 621878.34,
+      "total_services": 4304,
+      "total_beneficiaries": 2195,
+      "avg_submitted": 410.79,
+      "avg_paid": 197.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 636370.0,
+      "total_services": 4176,
+      "total_beneficiaries": 2424,
+      "avg_submitted": 412.22,
+      "avg_paid": 195.98
+    },
+    {
+      "year": 2018,
+      "total_payments": 526360.93,
+      "total_services": 3708,
+      "total_beneficiaries": 1981,
+      "avg_submitted": 452.04,
+      "avg_paid": 190.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 488150.33,
+      "total_services": 3383,
+      "total_beneficiaries": 1846,
+      "avg_submitted": 719.49,
+      "avg_paid": 263.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 337832.39,
+      "total_services": 3351,
+      "total_beneficiaries": 1828,
+      "avg_submitted": 462.99,
+      "avg_paid": 166.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 462620.46,
+      "total_services": 3903,
+      "total_beneficiaries": 1961,
+      "avg_submitted": 390.95,
+      "avg_paid": 149.89
+    },
+    {
+      "year": 2022,
+      "total_payments": 442319.5,
+      "total_services": 4178,
+      "total_beneficiaries": 2522,
+      "avg_submitted": 406.27,
+      "avg_paid": 144.53
+    },
+    {
+      "year": 2023,
+      "total_payments": 382275.66,
+      "total_services": 3261,
+      "total_beneficiaries": 2152,
+      "avg_submitted": 480.08,
+      "avg_paid": 164.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 26513,
+      "payments": 2310437.99,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 1952,
+      "payments": 1011698.78,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 1619,
+      "payments": 880845.41,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2098,
+      "payments": 259727.16,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "95807",
+      "description": "Sleep study attended by a technician",
+      "services": 361,
+      "payments": 132801.68,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1604,
+      "payments": 61689.6,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 391,
+      "payments": 55120.14,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 351,
+      "payments": 21803.99,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "90832",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 295,
+      "payments": 14690.75,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "90791",
+      "description": "Psychiatric diagnostic evaluation",
+      "services": 139,
+      "payments": 14644.26,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 201,
+      "payments": 11814.11,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "95806",
+      "description": "Unattended sleep study with recording of heart rate, oxygen, respiratory airflow and effort",
+      "services": 146,
+      "payments": 11517.35,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 62,
+      "payments": 5189.05,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 43,
+      "payments": 5035.02,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "95800",
+      "description": "Sleep study including heart rate, breathing, and sleep time",
+      "services": 39,
+      "payments": 4894.11,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99091",
+      "description": "Collection and interpretation of physical parameters stored in computers and/or transmitted by the patient and/or caregiver to qualified health care professional, requiring 30 minutes or more, per 30 days",
+      "services": 93,
+      "payments": 4213.48,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 78,
+      "payments": 3921.84,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "95803",
+      "description": "Study of sleep and wake patterns including interpretation and report, minimum of 72 hours to 14 consecutive days of recording",
+      "services": 30,
+      "payments": 3833.68,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99212",
+      "description": "Established patient outpatient visit, total time 10-19 minutes",
+      "services": 83,
+      "payments": 3805.74,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99458",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, each additional 20 minutes",
+      "services": 105,
+      "payments": 3418.98,
+      "avg_markup": 2.76
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4836350.08,
+    "total_services": 36809,
+    "total_beneficiaries": 20449,
+    "avg_markup_ratio": 2.18
+  }
+}

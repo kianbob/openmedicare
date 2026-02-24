@@ -1,0 +1,127 @@
+{
+  "name": "Mayo Clinic",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Rochester",
+  "state": "MN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2222527.57,
+      "total_services": 1142,
+      "total_beneficiaries": 1106,
+      "avg_submitted": 6297.79,
+      "avg_paid": 1630.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 2362170.47,
+      "total_services": 1238,
+      "total_beneficiaries": 1186,
+      "avg_submitted": 6562.5,
+      "avg_paid": 1626.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 2110138.87,
+      "total_services": 1106,
+      "total_beneficiaries": 1086,
+      "avg_submitted": 6839.92,
+      "avg_paid": 1657.69
+    },
+    {
+      "year": 2017,
+      "total_payments": 2333706.61,
+      "total_services": 1234,
+      "total_beneficiaries": 1184,
+      "avg_submitted": 7101.1,
+      "avg_paid": 1657.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 2232891.02,
+      "total_services": 1199,
+      "total_beneficiaries": 1163,
+      "avg_submitted": 7287.39,
+      "avg_paid": 1625.23
+    },
+    {
+      "year": 2019,
+      "total_payments": 2162780.83,
+      "total_services": 1100,
+      "total_beneficiaries": 1072,
+      "avg_submitted": 8015.23,
+      "avg_paid": 1702.03
+    },
+    {
+      "year": 2020,
+      "total_payments": 2194740.25,
+      "total_services": 1108,
+      "total_beneficiaries": 1066,
+      "avg_submitted": 8300.6,
+      "avg_paid": 1746.46
+    },
+    {
+      "year": 2021,
+      "total_payments": 2529084.46,
+      "total_services": 1262,
+      "total_beneficiaries": 1220,
+      "avg_submitted": 8559.34,
+      "avg_paid": 1724.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 2125553.78,
+      "total_services": 1025,
+      "total_beneficiaries": 993,
+      "avg_submitted": 8841.09,
+      "avg_paid": 1766.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 1878048.33,
+      "total_services": 828,
+      "total_beneficiaries": 798,
+      "avg_submitted": 9122.72,
+      "avg_paid": 1979.42
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 5259,
+      "payments": 20990184.61,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 369,
+      "payments": 1022927.76,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 5246,
+      "payments": 135629.4,
+      "avg_markup": 6.25
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 368,
+      "payments": 2900.43,
+      "avg_markup": 2.98
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 22151642.2,
+    "total_services": 11242,
+    "total_beneficiaries": 10874,
+    "avg_markup_ratio": 4.53
+  }
+}

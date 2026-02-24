@@ -1,0 +1,211 @@
+{
+  "name": "Mohammad Anower",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Fort Smith",
+  "state": "AR",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 314236.51,
+      "total_services": 3422,
+      "total_beneficiaries": 2363,
+      "avg_submitted": 210.36,
+      "avg_paid": 86.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 467174.79,
+      "total_services": 4412,
+      "total_beneficiaries": 3281,
+      "avg_submitted": 259.21,
+      "avg_paid": 85.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 416799.17,
+      "total_services": 3862,
+      "total_beneficiaries": 2955,
+      "avg_submitted": 383.68,
+      "avg_paid": 94.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 412328.67,
+      "total_services": 4148,
+      "total_beneficiaries": 2966,
+      "avg_submitted": 388.64,
+      "avg_paid": 86.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 418685.0,
+      "total_services": 4133,
+      "total_beneficiaries": 3143,
+      "avg_submitted": 545.86,
+      "avg_paid": 93.47
+    },
+    {
+      "year": 2019,
+      "total_payments": 320791.54,
+      "total_services": 3356,
+      "total_beneficiaries": 2575,
+      "avg_submitted": 433.11,
+      "avg_paid": 83.05
+    },
+    {
+      "year": 2020,
+      "total_payments": 340098.0,
+      "total_services": 3219,
+      "total_beneficiaries": 2511,
+      "avg_submitted": 224.72,
+      "avg_paid": 99.41
+    },
+    {
+      "year": 2021,
+      "total_payments": 329227.67,
+      "total_services": 3277,
+      "total_beneficiaries": 2443,
+      "avg_submitted": 226.61,
+      "avg_paid": 100.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 314010.25,
+      "total_services": 3749,
+      "total_beneficiaries": 2499,
+      "avg_submitted": 220.63,
+      "avg_paid": 89.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 278015.99,
+      "total_services": 3314,
+      "total_beneficiaries": 2331,
+      "avg_submitted": 239.88,
+      "avg_paid": 96.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 10308,
+      "payments": 1494932.2,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8375,
+      "payments": 648916.75,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 3133,
+      "payments": 422509.39,
+      "avg_markup": 5.36
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6807,
+      "payments": 368227.76,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4346,
+      "payments": 344354.14,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2190,
+      "payments": 200307.64,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 430,
+      "payments": 40703.35,
+      "avg_markup": 5.18
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 628,
+      "payments": 33812.01,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 168,
+      "payments": 26968.38,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 164,
+      "payments": 8932.66,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 113,
+      "payments": 8747.65,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 82,
+      "payments": 6113.06,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 107,
+      "payments": 3142.81,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 13,
+      "payments": 1930.63,
+      "avg_markup": 9.82
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care typically 30 minutes",
+      "services": 14,
+      "payments": 1038.1,
+      "avg_markup": 6.99
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 14,
+      "payments": 731.06,
+      "avg_markup": 2.2
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3611367.59,
+    "total_services": 36892,
+    "total_beneficiaries": 27067,
+    "avg_markup_ratio": 3.21
+  }
+}

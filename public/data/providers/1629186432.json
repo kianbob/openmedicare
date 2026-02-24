@@ -1,0 +1,239 @@
+{
+  "name": "Alan Linderman",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Lincoln",
+  "state": "NE",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 306435.21,
+      "total_services": 16749,
+      "total_beneficiaries": 7213,
+      "avg_submitted": 100.9,
+      "avg_paid": 35.21
+    },
+    {
+      "year": 2015,
+      "total_payments": 301962.85,
+      "total_services": 17297,
+      "total_beneficiaries": 7450,
+      "avg_submitted": 89.96,
+      "avg_paid": 34.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 317980.0,
+      "total_services": 17867,
+      "total_beneficiaries": 7353,
+      "avg_submitted": 97.71,
+      "avg_paid": 34.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 355476.86,
+      "total_services": 18298,
+      "total_beneficiaries": 7664,
+      "avg_submitted": 101.69,
+      "avg_paid": 38.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 351396.2,
+      "total_services": 17845,
+      "total_beneficiaries": 8100,
+      "avg_submitted": 101.33,
+      "avg_paid": 37.36
+    },
+    {
+      "year": 2019,
+      "total_payments": 339129.63,
+      "total_services": 18118,
+      "total_beneficiaries": 7965,
+      "avg_submitted": 91.79,
+      "avg_paid": 32.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 285178.95,
+      "total_services": 14291,
+      "total_beneficiaries": 6784,
+      "avg_submitted": 79.71,
+      "avg_paid": 31.2
+    },
+    {
+      "year": 2021,
+      "total_payments": 279858.33,
+      "total_services": 12580,
+      "total_beneficiaries": 7026,
+      "avg_submitted": 62.12,
+      "avg_paid": 29.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 192003.68,
+      "total_services": 12263,
+      "total_beneficiaries": 6018,
+      "avg_submitted": 84.13,
+      "avg_paid": 25.35
+    },
+    {
+      "year": 2023,
+      "total_payments": 207450.09,
+      "total_services": 13138,
+      "total_beneficiaries": 6183,
+      "avg_submitted": 83.13,
+      "avg_paid": 24.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11101,
+      "payments": 711505.69,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4753,
+      "payments": 223473.76,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1813,
+      "payments": 163310.75,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 5388,
+      "payments": 104951.61,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1475,
+      "payments": 100048.74,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 995,
+      "payments": 98588.43,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1871,
+      "payments": 94692.05,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 1986,
+      "payments": 88197.81,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 11111,
+      "payments": 86957.05,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 1960,
+      "payments": 84809.81,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 6594,
+      "payments": 74571.35,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 1773,
+      "payments": 73863.87,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 9061,
+      "payments": 69287.96,
+      "avg_markup": 5.56
+    },
+    {
+      "code": "85027",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 8372,
+      "payments": 65956.01,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 5316,
+      "payments": 58338.58,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 6971,
+      "payments": 51256.77,
+      "avg_markup": 5.91
+    },
+    {
+      "code": "84100",
+      "description": "Phosphate level",
+      "services": 11076,
+      "payments": 44464.97,
+      "avg_markup": 4.64
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 13769,
+      "payments": 44377.17,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1907,
+      "payments": 41068.28,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 232,
+      "payments": 37714.3,
+      "avg_markup": 1.45
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2936871.8,
+    "total_services": 158446,
+    "total_beneficiaries": 71756,
+    "avg_markup_ratio": 3.18
+  }
+}

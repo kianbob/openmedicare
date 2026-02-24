@@ -1,0 +1,225 @@
+{
+  "name": "Padma Yarlagadda",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "San Jose",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 668628.71,
+      "total_services": 5703,
+      "total_beneficiaries": 1906,
+      "avg_submitted": 227.39,
+      "avg_paid": 126.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 708229.95,
+      "total_services": 5705,
+      "total_beneficiaries": 1675,
+      "avg_submitted": 237.77,
+      "avg_paid": 126.78
+    },
+    {
+      "year": 2016,
+      "total_payments": 745542.11,
+      "total_services": 6033,
+      "total_beneficiaries": 1640,
+      "avg_submitted": 226.11,
+      "avg_paid": 116.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 811049.55,
+      "total_services": 5335,
+      "total_beneficiaries": 1503,
+      "avg_submitted": 255.84,
+      "avg_paid": 180.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 607086.95,
+      "total_services": 5246,
+      "total_beneficiaries": 1534,
+      "avg_submitted": 250.63,
+      "avg_paid": 132.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 644895.42,
+      "total_services": 5231,
+      "total_beneficiaries": 1510,
+      "avg_submitted": 252.36,
+      "avg_paid": 137.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 737734.98,
+      "total_services": 5846,
+      "total_beneficiaries": 1597,
+      "avg_submitted": 310.5,
+      "avg_paid": 140.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 700589.32,
+      "total_services": 5013,
+      "total_beneficiaries": 1466,
+      "avg_submitted": 330.57,
+      "avg_paid": 150.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 650013.11,
+      "total_services": 5278,
+      "total_beneficiaries": 1702,
+      "avg_submitted": 427.96,
+      "avg_paid": 164.06
+    },
+    {
+      "year": 2023,
+      "total_payments": 580522.64,
+      "total_services": 4790,
+      "total_beneficiaries": 1635,
+      "avg_submitted": 412.5,
+      "avg_paid": 136.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 11582,
+      "payments": 3305897.81,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 20004,
+      "payments": 1362655.91,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 13062,
+      "payments": 815618.26,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4057,
+      "payments": 512608.33,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 1675,
+      "payments": 392832.86,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 737,
+      "payments": 170008.89,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 820,
+      "payments": 115944.13,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 375,
+      "payments": 67545.22,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 294,
+      "payments": 27162.72,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "93975",
+      "description": "Ultrasound scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 54,
+      "payments": 15179.49,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 74,
+      "payments": 13321.58,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 375,
+      "payments": 13021.6,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 179,
+      "payments": 11549.86,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 582,
+      "payments": 10197.46,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 144,
+      "payments": 9484.91,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 65,
+      "payments": 5726.43,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 33,
+      "payments": 3025.88,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 68,
+      "payments": 2511.4,
+      "avg_markup": 2.03
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6854292.74,
+    "total_services": 54180,
+    "total_beneficiaries": 16168,
+    "avg_markup_ratio": 1.98
+  }
+}

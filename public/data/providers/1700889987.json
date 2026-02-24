@@ -1,0 +1,134 @@
+{
+  "name": "County Of Ada",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Boise",
+  "state": "ID",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1440662.91,
+      "total_services": 9759,
+      "total_beneficiaries": 7044,
+      "avg_submitted": 733.94,
+      "avg_paid": 250.86
+    },
+    {
+      "year": 2015,
+      "total_payments": 1551381.13,
+      "total_services": 10316,
+      "total_beneficiaries": 7516,
+      "avg_submitted": 751.56,
+      "avg_paid": 255.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 1617836.42,
+      "total_services": 10747,
+      "total_beneficiaries": 7571,
+      "avg_submitted": 749.16,
+      "avg_paid": 255.75
+    },
+    {
+      "year": 2017,
+      "total_payments": 1727311.8,
+      "total_services": 11472,
+      "total_beneficiaries": 7974,
+      "avg_submitted": 755.13,
+      "avg_paid": 258.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 1672568.38,
+      "total_services": 10978,
+      "total_beneficiaries": 7937,
+      "avg_submitted": 755.52,
+      "avg_paid": 242.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 1666979.23,
+      "total_services": 10706,
+      "total_beneficiaries": 7756,
+      "avg_submitted": 802.25,
+      "avg_paid": 267.64
+    },
+    {
+      "year": 2020,
+      "total_payments": 1518335.23,
+      "total_services": 9730,
+      "total_beneficiaries": 7089,
+      "avg_submitted": 805.07,
+      "avg_paid": 269.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 1625786.38,
+      "total_services": 10430,
+      "total_beneficiaries": 7678,
+      "avg_submitted": 816.85,
+      "avg_paid": 269.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 1616824.32,
+      "total_services": 9972,
+      "total_beneficiaries": 7217,
+      "avg_submitted": 869.65,
+      "avg_paid": 281.04
+    },
+    {
+      "year": 2023,
+      "total_payments": 1835603.45,
+      "total_services": 10342,
+      "total_beneficiaries": 7616,
+      "avg_submitted": 839.44,
+      "avg_paid": 305.14
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 28620,
+      "payments": 9250532.22,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 22713,
+      "payments": 6198483.78,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1107,
+      "payments": 512722.28,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 51998,
+      "payments": 309207.51,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 14,
+      "payments": 2343.46,
+      "avg_markup": 3.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 16273289.24,
+    "total_services": 104452,
+    "total_beneficiaries": 75398,
+    "avg_markup_ratio": 3.0
+  }
+}

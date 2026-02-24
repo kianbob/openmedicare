@@ -1,0 +1,79 @@
+{
+  "name": "Millville Rescue Squad",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Millville",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2086415.44,
+      "total_services": 14345,
+      "total_beneficiaries": 8997,
+      "avg_submitted": 479.87,
+      "avg_paid": 277.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 2267518.87,
+      "total_services": 15930,
+      "total_beneficiaries": 9754,
+      "avg_submitted": 479.82,
+      "avg_paid": 282.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 2278715.35,
+      "total_services": 15943,
+      "total_beneficiaries": 9811,
+      "avg_submitted": 479.8,
+      "avg_paid": 281.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 1327497.55,
+      "total_services": 9340,
+      "total_beneficiaries": 6337,
+      "avg_submitted": 479.8,
+      "avg_paid": 282.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 18137,
+      "payments": 3447620.49,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 4308,
+      "payments": 2679253.09,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5486,
+      "payments": 1674324.11,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 27627,
+      "payments": 158949.53,
+      "avg_markup": 1.61
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 7960147.22,
+    "total_services": 55558,
+    "total_beneficiaries": 34899,
+    "avg_markup_ratio": 1.92
+  }
+}

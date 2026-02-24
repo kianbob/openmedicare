@@ -1,0 +1,239 @@
+{
+  "name": "Patrick Kelly",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Murray",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 235578.1,
+      "total_services": 8485,
+      "total_beneficiaries": 4788,
+      "avg_submitted": 103.45,
+      "avg_paid": 29.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 231426.37,
+      "total_services": 8511,
+      "total_beneficiaries": 4816,
+      "avg_submitted": 99.6,
+      "avg_paid": 31.7
+    },
+    {
+      "year": 2016,
+      "total_payments": 259372.79,
+      "total_services": 7394,
+      "total_beneficiaries": 4077,
+      "avg_submitted": 93.8,
+      "avg_paid": 31.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 369271.1,
+      "total_services": 6438,
+      "total_beneficiaries": 2197,
+      "avg_submitted": 205.06,
+      "avg_paid": 76.54
+    },
+    {
+      "year": 2018,
+      "total_payments": 389551.78,
+      "total_services": 6128,
+      "total_beneficiaries": 2415,
+      "avg_submitted": 183.88,
+      "avg_paid": 71.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 217935.69,
+      "total_services": 5088,
+      "total_beneficiaries": 2823,
+      "avg_submitted": 151.38,
+      "avg_paid": 40.04
+    },
+    {
+      "year": 2020,
+      "total_payments": 334041.63,
+      "total_services": 4949,
+      "total_beneficiaries": 1919,
+      "avg_submitted": 188.48,
+      "avg_paid": 72.16
+    },
+    {
+      "year": 2021,
+      "total_payments": 295416.48,
+      "total_services": 4451,
+      "total_beneficiaries": 1805,
+      "avg_submitted": 224.37,
+      "avg_paid": 83.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 187514.09,
+      "total_services": 2761,
+      "total_beneficiaries": 1202,
+      "avg_submitted": 220.81,
+      "avg_paid": 84.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 136981.58,
+      "total_services": 1931,
+      "total_beneficiaries": 978,
+      "avg_submitted": 151.31,
+      "avg_paid": 77.36
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 16028,
+      "payments": 878108.43,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6154,
+      "payments": 262862.84,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5483,
+      "payments": 260171.2,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2515,
+      "payments": 251371.93,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1460,
+      "payments": 218787.31,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1934,
+      "payments": 154669.09,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1770,
+      "payments": 98382.53,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 854,
+      "payments": 71635.92,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2210,
+      "payments": 65657.18,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 434,
+      "payments": 40943.91,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 320,
+      "payments": 30900.13,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 525,
+      "payments": 28364.48,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care, typically 70 minutes",
+      "services": 195,
+      "payments": 26746.31,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 485,
+      "payments": 26057.56,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 1706,
+      "payments": 17173.87,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 122,
+      "payments": 12827.6,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 563,
+      "payments": 12360.68,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 65,
+      "payments": 12021.85,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 75,
+      "payments": 11934.35,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 169,
+      "payments": 11415.98,
+      "avg_markup": 2.99
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2657089.61,
+    "total_services": 56136,
+    "total_beneficiaries": 27020,
+    "avg_markup_ratio": 2.74
+  }
+}

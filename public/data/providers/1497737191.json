@@ -1,0 +1,239 @@
+{
+  "name": "John Kao",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "San Jose",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 425913.96,
+      "total_services": 3183,
+      "total_beneficiaries": 2486,
+      "avg_submitted": 400.8,
+      "avg_paid": 136.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 365327.79,
+      "total_services": 2872,
+      "total_beneficiaries": 2187,
+      "avg_submitted": 385.6,
+      "avg_paid": 137.12
+    },
+    {
+      "year": 2016,
+      "total_payments": 509317.26,
+      "total_services": 4232,
+      "total_beneficiaries": 3327,
+      "avg_submitted": 352.26,
+      "avg_paid": 126.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 461066.36,
+      "total_services": 4316,
+      "total_beneficiaries": 3351,
+      "avg_submitted": 328.04,
+      "avg_paid": 114.05
+    },
+    {
+      "year": 2018,
+      "total_payments": 491764.44,
+      "total_services": 4540,
+      "total_beneficiaries": 3427,
+      "avg_submitted": 475.56,
+      "avg_paid": 147.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 538614.18,
+      "total_services": 5111,
+      "total_beneficiaries": 3614,
+      "avg_submitted": 428.92,
+      "avg_paid": 143.67
+    },
+    {
+      "year": 2020,
+      "total_payments": 543635.57,
+      "total_services": 4463,
+      "total_beneficiaries": 3043,
+      "avg_submitted": 416.61,
+      "avg_paid": 151.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 665031.86,
+      "total_services": 5147,
+      "total_beneficiaries": 3174,
+      "avg_submitted": 429.96,
+      "avg_paid": 163.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 621322.5,
+      "total_services": 5191,
+      "total_beneficiaries": 3326,
+      "avg_submitted": 360.77,
+      "avg_paid": 137.69
+    },
+    {
+      "year": 2023,
+      "total_payments": 627931.35,
+      "total_services": 5322,
+      "total_beneficiaries": 3479,
+      "avg_submitted": 362.38,
+      "avg_paid": 140.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8522,
+      "payments": 863259.88,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1777,
+      "payments": 843792.83,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 3837,
+      "payments": 654726.01,
+      "avg_markup": 4.93
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour ekg up to 30 days",
+      "services": 636,
+      "payments": 561499.35,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3443,
+      "payments": 474054.43,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2434,
+      "payments": 232628.6,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 988,
+      "payments": 183101.32,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 990,
+      "payments": 176064.29,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1659,
+      "payments": 167646.67,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1817,
+      "payments": 115729.65,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 380,
+      "payments": 94281.95,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 471,
+      "payments": 93615.68,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 356,
+      "payments": 70940.36,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 313,
+      "payments": 61259.31,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3300,
+      "payments": 49543.26,
+      "avg_markup": 6.66
+    },
+    {
+      "code": "93460",
+      "description": "Insertion of catheter in right and left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 156,
+      "payments": 45482.21,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 654,
+      "payments": 42677.47,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 159,
+      "payments": 38350.91,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 841,
+      "payments": 37009.93,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "92941",
+      "description": "Insertion of stent, removal of plaque and/or balloon dilation of coronary vessel during heart attack, accessed through the skin",
+      "services": 60,
+      "payments": 34293.47,
+      "avg_markup": 3.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5249925.27,
+    "total_services": 44377,
+    "total_beneficiaries": 31414,
+    "avg_markup_ratio": 2.6
+  }
+}

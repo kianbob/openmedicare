@@ -1,0 +1,134 @@
+{
+  "name": "Mary Merkel",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 404624.52,
+      "total_services": 5354,
+      "total_beneficiaries": 1738,
+      "avg_submitted": 200.0,
+      "avg_paid": 82.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 350587.16,
+      "total_services": 4672,
+      "total_beneficiaries": 1723,
+      "avg_submitted": 186.25,
+      "avg_paid": 74.74
+    },
+    {
+      "year": 2016,
+      "total_payments": 298942.64,
+      "total_services": 4171,
+      "total_beneficiaries": 1849,
+      "avg_submitted": 213.2,
+      "avg_paid": 75.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 190509.94,
+      "total_services": 2939,
+      "total_beneficiaries": 1417,
+      "avg_submitted": 266.14,
+      "avg_paid": 78.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 203647.17,
+      "total_services": 3114,
+      "total_beneficiaries": 1389,
+      "avg_submitted": 280.21,
+      "avg_paid": 80.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 202567.07,
+      "total_services": 3180,
+      "total_beneficiaries": 1477,
+      "avg_submitted": 276.62,
+      "avg_paid": 75.66
+    },
+    {
+      "year": 2020,
+      "total_payments": 197958.66,
+      "total_services": 2959,
+      "total_beneficiaries": 1437,
+      "avg_submitted": 287.01,
+      "avg_paid": 75.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 232937.07,
+      "total_services": 3470,
+      "total_beneficiaries": 1839,
+      "avg_submitted": 302.58,
+      "avg_paid": 73.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 207898.6,
+      "total_services": 2855,
+      "total_beneficiaries": 2027,
+      "avg_submitted": 332.69,
+      "avg_paid": 73.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 209188.11,
+      "total_services": 2405,
+      "total_beneficiaries": 1321,
+      "avg_submitted": 390.5,
+      "avg_paid": 88.85
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 14400,
+      "payments": 1036362.43,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 6639,
+      "payments": 678567.73,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 12563,
+      "payments": 673356.67,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 1442,
+      "payments": 102493.17,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 75,
+      "payments": 8080.94,
+      "avg_markup": 3.6
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2498860.94,
+    "total_services": 35119,
+    "total_beneficiaries": 16217,
+    "avg_markup_ratio": 3.43
+  }
+}

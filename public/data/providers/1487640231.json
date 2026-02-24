@@ -1,0 +1,95 @@
+{
+  "name": "Alert Ambulance Service, Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Lakewood",
+  "state": "NJ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4411275.12,
+      "total_services": 34161,
+      "total_beneficiaries": 20065,
+      "avg_submitted": 957.65,
+      "avg_paid": 276.06
+    },
+    {
+      "year": 2015,
+      "total_payments": 4078332.72,
+      "total_services": 29004,
+      "total_beneficiaries": 18527,
+      "avg_submitted": 1028.77,
+      "avg_paid": 281.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 4514623.19,
+      "total_services": 32569,
+      "total_beneficiaries": 20705,
+      "avg_submitted": 1028.86,
+      "avg_paid": 280.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 4823386.81,
+      "total_services": 35729,
+      "total_beneficiaries": 21875,
+      "avg_submitted": 1028.76,
+      "avg_paid": 281.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 4549887.22,
+      "total_services": 34020,
+      "total_beneficiaries": 22355,
+      "avg_submitted": 1028.78,
+      "avg_paid": 285.95
+    },
+    {
+      "year": 2019,
+      "total_payments": 3722092.25,
+      "total_services": 27883,
+      "total_beneficiaries": 18601,
+      "avg_submitted": 1028.74,
+      "avg_paid": 290.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 64943,
+      "payments": 12364377.51,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 22965,
+      "payments": 7080399.18,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 9777,
+      "payments": 6113895.91,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 95681,
+      "payments": 540924.72,
+      "avg_markup": 2.59
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 26099597.31,
+    "total_services": 193366,
+    "total_beneficiaries": 122128,
+    "avg_markup_ratio": 3.35
+  }
+}

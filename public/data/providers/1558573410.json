@@ -1,0 +1,85 @@
+{
+  "name": "Mercy Hospital Springfield",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Springfield",
+  "state": "MO",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4034730.19,
+      "total_services": 28597,
+      "total_beneficiaries": 19425,
+      "avg_submitted": 814.91,
+      "avg_paid": 226.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 3893343.18,
+      "total_services": 27318,
+      "total_beneficiaries": 18772,
+      "avg_submitted": 815.17,
+      "avg_paid": 228.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 2308831.01,
+      "total_services": 16486,
+      "total_beneficiaries": 12007,
+      "avg_submitted": 814.73,
+      "avg_paid": 224.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 22933,
+      "payments": 6953005.45,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3998,
+      "payments": 1020515.24,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 5991,
+      "payments": 939592.34,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1341,
+      "payments": 600287.91,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2595,
+      "payments": 491220.24,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 35543,
+      "payments": 232283.21,
+      "avg_markup": 2.83
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 10236904.39,
+    "total_services": 72401,
+    "total_beneficiaries": 50204,
+    "avg_markup_ratio": 3.39
+  }
+}

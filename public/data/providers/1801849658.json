@@ -1,0 +1,239 @@
+{
+  "name": "Mark Gelfand",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 307000.01,
+      "total_services": 14774,
+      "total_beneficiaries": 6735,
+      "avg_submitted": 87.04,
+      "avg_paid": 46.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 397699.69,
+      "total_services": 18144,
+      "total_beneficiaries": 8286,
+      "avg_submitted": 100.46,
+      "avg_paid": 46.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 421138.25,
+      "total_services": 19050,
+      "total_beneficiaries": 9232,
+      "avg_submitted": 100.68,
+      "avg_paid": 42.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 458853.65,
+      "total_services": 21000,
+      "total_beneficiaries": 10127,
+      "avg_submitted": 102.73,
+      "avg_paid": 41.72
+    },
+    {
+      "year": 2018,
+      "total_payments": 464896.86,
+      "total_services": 22041,
+      "total_beneficiaries": 10735,
+      "avg_submitted": 101.4,
+      "avg_paid": 41.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 540095.8,
+      "total_services": 25335,
+      "total_beneficiaries": 12076,
+      "avg_submitted": 107.51,
+      "avg_paid": 41.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 354702.2,
+      "total_services": 17661,
+      "total_beneficiaries": 10564,
+      "avg_submitted": 107.66,
+      "avg_paid": 40.32
+    },
+    {
+      "year": 2021,
+      "total_payments": 547107.09,
+      "total_services": 24319,
+      "total_beneficiaries": 12160,
+      "avg_submitted": 120.55,
+      "avg_paid": 46.29
+    },
+    {
+      "year": 2022,
+      "total_payments": 541575.42,
+      "total_services": 24279,
+      "total_beneficiaries": 12808,
+      "avg_submitted": 130.97,
+      "avg_paid": 49.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 554304.77,
+      "total_services": 25785,
+      "total_beneficiaries": 13536,
+      "avg_submitted": 130.49,
+      "avg_paid": 47.14
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 16897,
+      "payments": 1074636.28,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2365,
+      "payments": 320016.96,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2188,
+      "payments": 203791.54,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1087,
+      "payments": 198421.34,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1736,
+      "payments": 162475.99,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 4504,
+      "payments": 158634.1,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 6732,
+      "payments": 128201.31,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 1139,
+      "payments": 121109.19,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 7673,
+      "payments": 114103.07,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 6649,
+      "payments": 106722.36,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 6759,
+      "payments": 101858.56,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 911,
+      "payments": 94123.87,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 8960,
+      "payments": 91446.51,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 8122,
+      "payments": 89891.45,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 9679,
+      "payments": 86322.64,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 5083,
+      "payments": 82930.29,
+      "avg_markup": 7.66
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 5037,
+      "payments": 79973.19,
+      "avg_markup": 6.3
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 350,
+      "payments": 79509.53,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 5806,
+      "payments": 76551.98,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 387,
+      "payments": 70544.26,
+      "avg_markup": 1.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4587373.75,
+    "total_services": 212388,
+    "total_beneficiaries": 106259,
+    "avg_markup_ratio": 2.5
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Robert Thompson",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Louisville",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 125887.38,
+      "total_services": 2164,
+      "total_beneficiaries": 1109,
+      "avg_submitted": 129.94,
+      "avg_paid": 71.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 57311.48,
+      "total_services": 971,
+      "total_beneficiaries": 561,
+      "avg_submitted": 130.04,
+      "avg_paid": 72.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 68431.06,
+      "total_services": 1158,
+      "total_beneficiaries": 681,
+      "avg_submitted": 129.9,
+      "avg_paid": 72.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 133111.05,
+      "total_services": 2322,
+      "total_beneficiaries": 1155,
+      "avg_submitted": 131.89,
+      "avg_paid": 76.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 350724.75,
+      "total_services": 8697,
+      "total_beneficiaries": 5479,
+      "avg_submitted": 119.38,
+      "avg_paid": 67.44
+    },
+    {
+      "year": 2019,
+      "total_payments": 324435.69,
+      "total_services": 9158,
+      "total_beneficiaries": 5331,
+      "avg_submitted": 123.67,
+      "avg_paid": 65.33
+    },
+    {
+      "year": 2020,
+      "total_payments": 503549.01,
+      "total_services": 10756,
+      "total_beneficiaries": 5579,
+      "avg_submitted": 142.25,
+      "avg_paid": 70.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 667978.33,
+      "total_services": 12305,
+      "total_beneficiaries": 6476,
+      "avg_submitted": 141.86,
+      "avg_paid": 68.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 696080.58,
+      "total_services": 12902,
+      "total_beneficiaries": 6528,
+      "avg_submitted": 135.05,
+      "avg_paid": 62.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 745494.0,
+      "total_services": 11853,
+      "total_beneficiaries": 6373,
+      "avg_submitted": 139.38,
+      "avg_paid": 64.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4078,
+      "payments": 595873.59,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 6014,
+      "payments": 488997.85,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 15436,
+      "payments": 475421.29,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8240,
+      "payments": 462660.91,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 12198,
+      "payments": 460946.88,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imp",
+      "services": 14335,
+      "payments": 413170.48,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3549,
+      "payments": 291274.35,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional, first 30 minutes",
+      "services": 2847,
+      "payments": 165467.3,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1007,
+      "payments": 125241.27,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 2869,
+      "payments": 94762.99,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1263,
+      "payments": 64454.86,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 425,
+      "payments": 33536.59,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 25,
+      "payments": 1194.97,
+      "avg_markup": 1.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3673003.33,
+    "total_services": 72286,
+    "total_beneficiaries": 39272,
+    "avg_markup_ratio": 2.04
+  }
+}

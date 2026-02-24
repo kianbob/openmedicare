@@ -1,0 +1,239 @@
+{
+  "name": "Neil Mushlin",
+  "credentials": "D.O.",
+  "specialty": "Pulmonary Disease",
+  "city": "Lansdale",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 250942.58,
+      "total_services": 2623,
+      "total_beneficiaries": 1616,
+      "avg_submitted": 217.93,
+      "avg_paid": 98.08
+    },
+    {
+      "year": 2015,
+      "total_payments": 332176.0,
+      "total_services": 3629,
+      "total_beneficiaries": 2178,
+      "avg_submitted": 218.76,
+      "avg_paid": 93.8
+    },
+    {
+      "year": 2016,
+      "total_payments": 330637.41,
+      "total_services": 3372,
+      "total_beneficiaries": 2083,
+      "avg_submitted": 232.04,
+      "avg_paid": 100.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 284685.99,
+      "total_services": 3073,
+      "total_beneficiaries": 2022,
+      "avg_submitted": 270.55,
+      "avg_paid": 120.43
+    },
+    {
+      "year": 2018,
+      "total_payments": 271281.29,
+      "total_services": 2779,
+      "total_beneficiaries": 1989,
+      "avg_submitted": 554.75,
+      "avg_paid": 139.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 475353.05,
+      "total_services": 5760,
+      "total_beneficiaries": 3366,
+      "avg_submitted": 461.23,
+      "avg_paid": 117.87
+    },
+    {
+      "year": 2020,
+      "total_payments": 514182.15,
+      "total_services": 6721,
+      "total_beneficiaries": 3082,
+      "avg_submitted": 352.08,
+      "avg_paid": 90.59
+    },
+    {
+      "year": 2021,
+      "total_payments": 633756.03,
+      "total_services": 8000,
+      "total_beneficiaries": 4137,
+      "avg_submitted": 469.58,
+      "avg_paid": 99.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 623970.93,
+      "total_services": 8582,
+      "total_beneficiaries": 4119,
+      "avg_submitted": 483.68,
+      "avg_paid": 92.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 669744.37,
+      "total_services": 9732,
+      "total_beneficiaries": 4503,
+      "avg_submitted": 556.25,
+      "avg_paid": 113.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9376,
+      "payments": 909869.73,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 2562,
+      "payments": 416845.56,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6044,
+      "payments": 369438.13,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "95800",
+      "description": "Study of sleep patterns, including sleep time",
+      "services": 2711,
+      "payments": 336689.69,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 2359,
+      "payments": 309854.88,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "99457",
+      "description": "Remote monitoring of physiologic parameters management services, 20 minutes or more of qualified health care professional time per calendar month",
+      "services": 7707,
+      "payments": 296776.1,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "99091",
+      "description": "Collection and interpretation of physical parameters stored in computers minimum of 30 minutes",
+      "services": 5824,
+      "payments": 265483.98,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 538,
+      "payments": 249839.2,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2671,
+      "payments": 160151.54,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 259,
+      "payments": 134508.39,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2307,
+      "payments": 106664.12,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "95819",
+      "description": "Measurement and recording of brain wave (eeg) activity, awake and asleep",
+      "services": 272,
+      "payments": 105155.44,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 2128,
+      "payments": 88633.02,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 2307,
+      "payments": 82827.24,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 947,
+      "payments": 81349.54,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 102,
+      "payments": 65203.91,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 347,
+      "payments": 58573.69,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 422,
+      "payments": 47949.85,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "95827",
+      "description": "Measurement and recording of brain wave (EEG) activity, overnight",
+      "services": 74,
+      "payments": 39149.29,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 844,
+      "payments": 38842.84,
+      "avg_markup": 4.69
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4386729.8,
+    "total_services": 54271,
+    "total_beneficiaries": 29095,
+    "avg_markup_ratio": 3.63
+  }
+}

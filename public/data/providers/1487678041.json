@@ -1,0 +1,155 @@
+{
+  "name": "John Li",
+  "credentials": "M.D.",
+  "specialty": "Infectious Disease",
+  "city": "West Hills",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 251584.92,
+      "total_services": 2881,
+      "total_beneficiaries": 1193,
+      "avg_submitted": 201.34,
+      "avg_paid": 111.64
+    },
+    {
+      "year": 2015,
+      "total_payments": 286022.6,
+      "total_services": 3262,
+      "total_beneficiaries": 1152,
+      "avg_submitted": 201.29,
+      "avg_paid": 110.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 264990.03,
+      "total_services": 2970,
+      "total_beneficiaries": 1167,
+      "avg_submitted": 202.42,
+      "avg_paid": 107.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 315146.88,
+      "total_services": 3462,
+      "total_beneficiaries": 1357,
+      "avg_submitted": 201.26,
+      "avg_paid": 105.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 332617.36,
+      "total_services": 3689,
+      "total_beneficiaries": 1449,
+      "avg_submitted": 227.2,
+      "avg_paid": 112.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 342893.08,
+      "total_services": 3469,
+      "total_beneficiaries": 1377,
+      "avg_submitted": 240.56,
+      "avg_paid": 121.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 371476.67,
+      "total_services": 3435,
+      "total_beneficiaries": 1319,
+      "avg_submitted": 222.66,
+      "avg_paid": 111.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 401390.45,
+      "total_services": 3528,
+      "total_beneficiaries": 1199,
+      "avg_submitted": 255.83,
+      "avg_paid": 126.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 441974.07,
+      "total_services": 4101,
+      "total_beneficiaries": 1297,
+      "avg_submitted": 251.67,
+      "avg_paid": 120.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 462082.37,
+      "total_services": 4092,
+      "total_beneficiaries": 1369,
+      "avg_submitted": 254.04,
+      "avg_paid": 122.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 17776,
+      "payments": 1572770.45,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3826,
+      "payments": 627295.49,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2859,
+      "payments": 524333.41,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6549,
+      "payments": 392334.29,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3211,
+      "payments": 292212.85,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 195,
+      "payments": 25379.01,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 159,
+      "payments": 18476.9,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 314,
+      "payments": 17376.03,
+      "avg_markup": 1.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3470178.43,
+    "total_services": 34889,
+    "total_beneficiaries": 12879,
+    "avg_markup_ratio": 1.89
+  }
+}

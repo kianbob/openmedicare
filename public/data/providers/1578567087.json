@@ -1,0 +1,239 @@
+{
+  "name": "John Collins",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Sarasota",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 412533.2,
+      "total_services": 11171,
+      "total_beneficiaries": 8427,
+      "avg_submitted": 122.34,
+      "avg_paid": 45.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 507385.61,
+      "total_services": 13811,
+      "total_beneficiaries": 9066,
+      "avg_submitted": 127.58,
+      "avg_paid": 50.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 748553.4,
+      "total_services": 21696,
+      "total_beneficiaries": 11619,
+      "avg_submitted": 115.44,
+      "avg_paid": 46.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 653748.99,
+      "total_services": 20330,
+      "total_beneficiaries": 11120,
+      "avg_submitted": 103.79,
+      "avg_paid": 41.73
+    },
+    {
+      "year": 2018,
+      "total_payments": 798226.88,
+      "total_services": 28739,
+      "total_beneficiaries": 18848,
+      "avg_submitted": 86.54,
+      "avg_paid": 41.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 837434.63,
+      "total_services": 35975,
+      "total_beneficiaries": 24602,
+      "avg_submitted": 80.14,
+      "avg_paid": 33.76
+    },
+    {
+      "year": 2020,
+      "total_payments": 893511.87,
+      "total_services": 39167,
+      "total_beneficiaries": 25726,
+      "avg_submitted": 79.0,
+      "avg_paid": 34.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 868326.11,
+      "total_services": 36542,
+      "total_beneficiaries": 23237,
+      "avg_submitted": 76.78,
+      "avg_paid": 35.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 971119.8,
+      "total_services": 35045,
+      "total_beneficiaries": 22302,
+      "avg_submitted": 71.32,
+      "avg_paid": 33.24
+    },
+    {
+      "year": 2023,
+      "total_payments": 1042079.81,
+      "total_services": 36508,
+      "total_beneficiaries": 23108,
+      "avg_submitted": 83.37,
+      "avg_paid": 38.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 69122,
+      "payments": 2376565.38,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 13644,
+      "payments": 1117989.94,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 5638,
+      "payments": 690376.61,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7502,
+      "payments": 411483.76,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2479,
+      "payments": 275269.85,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 3053,
+      "payments": 191617.59,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2201,
+      "payments": 169665.48,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 8533,
+      "payments": 160849.73,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 3940,
+      "payments": 121553.17,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 6419,
+      "payments": 110284.74,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 5969,
+      "payments": 104500.72,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 5855,
+      "payments": 98010.43,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 6110,
+      "payments": 94458.18,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 8469,
+      "payments": 85640.02,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "G0442",
+      "description": "Annual alcohol misuse screening, 15 minutes",
+      "services": 4621,
+      "payments": 84490.25,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 7031,
+      "payments": 76807.94,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 4201,
+      "payments": 76560.48,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 6338,
+      "payments": 74483.4,
+      "avg_markup": 7.32
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 1839,
+      "payments": 72868.32,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 6696,
+      "payments": 71517.24,
+      "avg_markup": 4.96
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7732920.29,
+    "total_services": 278984,
+    "total_beneficiaries": 178055,
+    "avg_markup_ratio": 2.14
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Aerocare Medical Transport",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Winslow",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 354456.84,
+      "total_services": 325,
+      "total_beneficiaries": 309,
+      "avg_submitted": 5791.3,
+      "avg_paid": 940.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 1750180.64,
+      "total_services": 1191,
+      "total_beneficiaries": 1105,
+      "avg_submitted": 7487.3,
+      "avg_paid": 1302.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 1794509.07,
+      "total_services": 1194,
+      "total_beneficiaries": 1096,
+      "avg_submitted": 9637.59,
+      "avg_paid": 1169.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 984,
+      "payments": 3400733.99,
+      "avg_markup": 7.03
+    },
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 123,
+      "payments": 431202.22,
+      "avg_markup": 7.59
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 249,
+      "payments": 52677.44,
+      "avg_markup": 6.62
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 983,
+      "payments": 9780.68,
+      "avg_markup": 24.1
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 123,
+      "payments": 2780.67,
+      "avg_markup": 10.94
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 248,
+      "payments": 1971.54,
+      "avg_markup": 2.26
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3899146.55,
+    "total_services": 2710,
+    "total_beneficiaries": 2510,
+    "avg_markup_ratio": 7.13
+  }
+}

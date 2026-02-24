@@ -1,0 +1,239 @@
+{
+  "name": "Warren Buck",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Edison",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 360463.9,
+      "total_services": 5084,
+      "total_beneficiaries": 2942,
+      "avg_submitted": 173.62,
+      "avg_paid": 81.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 375822.58,
+      "total_services": 4888,
+      "total_beneficiaries": 2983,
+      "avg_submitted": 174.67,
+      "avg_paid": 81.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 373776.45,
+      "total_services": 5015,
+      "total_beneficiaries": 3460,
+      "avg_submitted": 181.79,
+      "avg_paid": 79.91
+    },
+    {
+      "year": 2017,
+      "total_payments": 355018.93,
+      "total_services": 4688,
+      "total_beneficiaries": 3092,
+      "avg_submitted": 174.72,
+      "avg_paid": 80.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 327575.02,
+      "total_services": 4300,
+      "total_beneficiaries": 2917,
+      "avg_submitted": 183.85,
+      "avg_paid": 80.67
+    },
+    {
+      "year": 2019,
+      "total_payments": 275910.68,
+      "total_services": 3266,
+      "total_beneficiaries": 2166,
+      "avg_submitted": 180.41,
+      "avg_paid": 87.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 202468.36,
+      "total_services": 2716,
+      "total_beneficiaries": 1951,
+      "avg_submitted": 163.5,
+      "avg_paid": 73.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 285058.59,
+      "total_services": 3869,
+      "total_beneficiaries": 1855,
+      "avg_submitted": 176.12,
+      "avg_paid": 76.85
+    },
+    {
+      "year": 2022,
+      "total_payments": 326514.09,
+      "total_services": 5076,
+      "total_beneficiaries": 2092,
+      "avg_submitted": 163.5,
+      "avg_paid": 79.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 443505.08,
+      "total_services": 6753,
+      "total_beneficiaries": 2585,
+      "avg_submitted": 182.0,
+      "avg_paid": 78.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11012,
+      "payments": 953391.23,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2742,
+      "payments": 361532.99,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1849,
+      "payments": 341506.9,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1490,
+      "payments": 257162.89,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 2351,
+      "payments": 171093.02,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 2645,
+      "payments": 145211.25,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2233,
+      "payments": 134843.64,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 2879,
+      "payments": 127577.52,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 2148,
+      "payments": 116375.74,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1743,
+      "payments": 104540.77,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 347,
+      "payments": 57000.06,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99442",
+      "description": "Telephone medical discussion with physician, 11-20 minutes",
+      "services": 687,
+      "payments": 55044.08,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 490,
+      "payments": 48441.65,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 169,
+      "payments": 37791.67,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1277,
+      "payments": 33613.67,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 693,
+      "payments": 32607.2,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 1369,
+      "payments": 27947.79,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "99498",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 374,
+      "payments": 23183.09,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 150,
+      "payments": 22846.48,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 1589,
+      "payments": 20112.88,
+      "avg_markup": 4.74
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3326113.69,
+    "total_services": 45655,
+    "total_beneficiaries": 26043,
+    "avg_markup_ratio": 2.13
+  }
+}

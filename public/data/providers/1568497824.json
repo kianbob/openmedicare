@@ -1,0 +1,218 @@
+{
+  "name": "William Grella",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Wayne",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 197355.28,
+      "total_services": 2465,
+      "total_beneficiaries": 714,
+      "avg_submitted": 260.72,
+      "avg_paid": 109.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 209531.88,
+      "total_services": 2514,
+      "total_beneficiaries": 854,
+      "avg_submitted": 241.98,
+      "avg_paid": 103.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 261386.07,
+      "total_services": 3167,
+      "total_beneficiaries": 972,
+      "avg_submitted": 217.5,
+      "avg_paid": 85.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 382490.85,
+      "total_services": 5018,
+      "total_beneficiaries": 1717,
+      "avg_submitted": 238.73,
+      "avg_paid": 88.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 297107.86,
+      "total_services": 3771,
+      "total_beneficiaries": 1352,
+      "avg_submitted": 240.0,
+      "avg_paid": 92.97
+    },
+    {
+      "year": 2019,
+      "total_payments": 246069.5,
+      "total_services": 3327,
+      "total_beneficiaries": 876,
+      "avg_submitted": 237.5,
+      "avg_paid": 100.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 238629.9,
+      "total_services": 2941,
+      "total_beneficiaries": 658,
+      "avg_submitted": 242.86,
+      "avg_paid": 98.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 150319.17,
+      "total_services": 1604,
+      "total_beneficiaries": 607,
+      "avg_submitted": 286.96,
+      "avg_paid": 96.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 135061.13,
+      "total_services": 1456,
+      "total_beneficiaries": 462,
+      "avg_submitted": 320.83,
+      "avg_paid": 86.98
+    },
+    {
+      "year": 2023,
+      "total_payments": 664126.61,
+      "total_services": 6636,
+      "total_beneficiaries": 1175,
+      "avg_submitted": 247.22,
+      "avg_paid": 95.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 13198,
+      "payments": 1227375.98,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10631,
+      "payments": 653167.07,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1754,
+      "payments": 246319.55,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1511,
+      "payments": 245735.53,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2698,
+      "payments": 151722.55,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1249,
+      "payments": 97350.17,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 907,
+      "payments": 84168.38,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 180,
+      "payments": 19212.16,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 239,
+      "payments": 15237.23,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 104,
+      "payments": 10966.35,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99183",
+      "description": "Management and supervision of oxygen chamber therapy per session",
+      "services": 105,
+      "payments": 10430.67,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 188,
+      "payments": 6954.14,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 33,
+      "payments": 6284.62,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 34,
+      "payments": 2929.06,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 25,
+      "payments": 1970.55,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 26,
+      "payments": 1597.19,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 17,
+      "payments": 657.05,
+      "avg_markup": 2.59
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2782078.25,
+    "total_services": 32899,
+    "total_beneficiaries": 9387,
+    "avg_markup_ratio": 2.8
+  }
+}

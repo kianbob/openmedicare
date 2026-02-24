@@ -1,0 +1,190 @@
+{
+  "name": "Meer Zonozi",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Washington",
+  "state": "DC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 551092.71,
+      "total_services": 4440,
+      "total_beneficiaries": 1027,
+      "avg_submitted": 383.09,
+      "avg_paid": 119.74
+    },
+    {
+      "year": 2015,
+      "total_payments": 487329.95,
+      "total_services": 3907,
+      "total_beneficiaries": 973,
+      "avg_submitted": 323.0,
+      "avg_paid": 114.95
+    },
+    {
+      "year": 2016,
+      "total_payments": 541176.47,
+      "total_services": 4528,
+      "total_beneficiaries": 951,
+      "avg_submitted": 371.66,
+      "avg_paid": 123.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 486565.5,
+      "total_services": 4531,
+      "total_beneficiaries": 864,
+      "avg_submitted": 419.29,
+      "avg_paid": 124.37
+    },
+    {
+      "year": 2018,
+      "total_payments": 432890.3,
+      "total_services": 3401,
+      "total_beneficiaries": 712,
+      "avg_submitted": 398.12,
+      "avg_paid": 136.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 389962.78,
+      "total_services": 2908,
+      "total_beneficiaries": 601,
+      "avg_submitted": 419.49,
+      "avg_paid": 137.02
+    },
+    {
+      "year": 2020,
+      "total_payments": 365839.18,
+      "total_services": 2634,
+      "total_beneficiaries": 581,
+      "avg_submitted": 409.1,
+      "avg_paid": 147.39
+    },
+    {
+      "year": 2021,
+      "total_payments": 292474.84,
+      "total_services": 1596,
+      "total_beneficiaries": 386,
+      "avg_submitted": 405.0,
+      "avg_paid": 163.22
+    },
+    {
+      "year": 2022,
+      "total_payments": 200799.63,
+      "total_services": 823,
+      "total_beneficiaries": 199,
+      "avg_submitted": 552.5,
+      "avg_paid": 223.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 73743.5,
+      "total_services": 313,
+      "total_beneficiaries": 104,
+      "avg_submitted": 552.5,
+      "avg_paid": 216.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 5643,
+      "payments": 1447985.61,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 5040,
+      "payments": 820926.21,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6957,
+      "payments": 431561.69,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 6081,
+      "payments": 378851.51,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 1655,
+      "payments": 359786.65,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1824,
+      "payments": 214382.45,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1682,
+      "payments": 147669.55,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 31,
+      "payments": 5710.63,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 40,
+      "payments": 5512.96,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 37,
+      "payments": 5238.52,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 41,
+      "payments": 1940.84,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 39,
+      "payments": 1315.38,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "90937",
+      "description": "Hemodialysis procedure with repeated evaluations",
+      "services": 11,
+      "payments": 992.86,
+      "avg_markup": 6.65
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3821874.86,
+    "total_services": 29081,
+    "total_beneficiaries": 6398,
+    "avg_markup_ratio": 3.14
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "name": "City Of Alameda",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Alameda",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 483345.58,
+      "total_services": 3024,
+      "total_beneficiaries": 1767,
+      "avg_submitted": 1255.47,
+      "avg_paid": 295.21
+    },
+    {
+      "year": 2015,
+      "total_payments": 417141.21,
+      "total_services": 2235,
+      "total_beneficiaries": 1580,
+      "avg_submitted": 1272.14,
+      "avg_paid": 301.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 436727.54,
+      "total_services": 2203,
+      "total_beneficiaries": 1526,
+      "avg_submitted": 1474.17,
+      "avg_paid": 321.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 498763.32,
+      "total_services": 2462,
+      "total_beneficiaries": 1629,
+      "avg_submitted": 1469.72,
+      "avg_paid": 335.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 510083.26,
+      "total_services": 2468,
+      "total_beneficiaries": 1726,
+      "avg_submitted": 1632.02,
+      "avg_paid": 344.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 528295.63,
+      "total_services": 2551,
+      "total_beneficiaries": 1772,
+      "avg_submitted": 1907.27,
+      "avg_paid": 351.78
+    },
+    {
+      "year": 2020,
+      "total_payments": 475592.96,
+      "total_services": 2185,
+      "total_beneficiaries": 1533,
+      "avg_submitted": 2034.05,
+      "avg_paid": 358.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 486735.45,
+      "total_services": 2194,
+      "total_beneficiaries": 1553,
+      "avg_submitted": 2042.23,
+      "avg_paid": 362.19
+    },
+    {
+      "year": 2022,
+      "total_payments": 604324.5,
+      "total_services": 2686,
+      "total_beneficiaries": 1746,
+      "avg_submitted": 2062.3,
+      "avg_paid": 378.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 664819.32,
+      "total_services": 2696,
+      "total_beneficiaries": 1738,
+      "avg_submitted": 1811.72,
+      "avg_paid": 311.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 9191,
+      "payments": 3917053.79,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2362,
+      "payments": 862818.81,
+      "avg_markup": 6.57
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 721,
+      "payments": 148502.23,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 174,
+      "payments": 104408.58,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12256,
+      "payments": 73045.36,
+      "avg_markup": 8.17
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5105828.77,
+    "total_services": 24704,
+    "total_beneficiaries": 16570,
+    "avg_markup_ratio": 5.54
+  }
+}

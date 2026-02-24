@@ -1,0 +1,239 @@
+{
+  "name": "Brian Norris",
+  "credentials": "M.D.",
+  "specialty": "Clinical Cardiac Electrophysiology",
+  "city": "Little Rock",
+  "state": "AR",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 315023.76,
+      "total_services": 5061,
+      "total_beneficiaries": 3522,
+      "avg_submitted": 589.12,
+      "avg_paid": 141.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 365026.45,
+      "total_services": 5491,
+      "total_beneficiaries": 3911,
+      "avg_submitted": 509.02,
+      "avg_paid": 135.49
+    },
+    {
+      "year": 2016,
+      "total_payments": 453462.99,
+      "total_services": 6475,
+      "total_beneficiaries": 4806,
+      "avg_submitted": 524.72,
+      "avg_paid": 141.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 503416.37,
+      "total_services": 6866,
+      "total_beneficiaries": 5732,
+      "avg_submitted": 462.04,
+      "avg_paid": 122.56
+    },
+    {
+      "year": 2018,
+      "total_payments": 576045.24,
+      "total_services": 7919,
+      "total_beneficiaries": 6224,
+      "avg_submitted": 505.06,
+      "avg_paid": 126.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 579434.33,
+      "total_services": 8496,
+      "total_beneficiaries": 6012,
+      "avg_submitted": 538.15,
+      "avg_paid": 125.48
+    },
+    {
+      "year": 2020,
+      "total_payments": 579737.62,
+      "total_services": 8890,
+      "total_beneficiaries": 6172,
+      "avg_submitted": 541.25,
+      "avg_paid": 130.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 558729.17,
+      "total_services": 9438,
+      "total_beneficiaries": 6084,
+      "avg_submitted": 585.23,
+      "avg_paid": 135.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 525587.91,
+      "total_services": 9929,
+      "total_beneficiaries": 6182,
+      "avg_submitted": 419.51,
+      "avg_paid": 125.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 435597.53,
+      "total_services": 8892,
+      "total_beneficiaries": 5367,
+      "avg_submitted": 458.58,
+      "avg_paid": 130.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11526,
+      "payments": 672359.09,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "93656",
+      "description": "Evaluation and insertion of catheters for recording, pacing, and treatment of abnormal heart rhythm",
+      "services": 668,
+      "payments": 536574.94,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5165,
+      "payments": 404991.17,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2251,
+      "payments": 331115.56,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "33249",
+      "description": "Insertion or replacement of single or dual chamber pacing defibrillator leads",
+      "services": 425,
+      "payments": 282310.74,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 688,
+      "payments": 247672.21,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "93295",
+      "description": "Remote evaluations of single, dual, or multiple lead cardioverter-defibrillator with physician analysis, review, and report up to 90 days",
+      "services": 6188,
+      "payments": 197061.87,
+      "avg_markup": 5.64
+    },
+    {
+      "code": "93657",
+      "description": "Destruction of tissue of right or left upper heart chamber via catheter for treatment of abnormal heart rhythm",
+      "services": 619,
+      "payments": 181602.52,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "93613",
+      "description": "Insertion of catheters for 3D mapping of electrical impulses to heart muscles",
+      "services": 632,
+      "payments": 159510.78,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "93294",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "services": 7396,
+      "payments": 155652.18,
+      "avg_markup": 6.42
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1158,
+      "payments": 146973.36,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "33340",
+      "description": "Repair of left upper heart",
+      "services": 212,
+      "payments": 120342.67,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "33225",
+      "description": "Insertion of left heart electrode for pacing defibrillator device",
+      "services": 333,
+      "payments": 113411.91,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 3967,
+      "payments": 107871.02,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1593,
+      "payments": 81415.76,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "92960",
+      "description": "External shock to heart to regulate heart beat",
+      "services": 992,
+      "payments": 80656.62,
+      "avg_markup": 6.82
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 13218,
+      "payments": 78546.26,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1374,
+      "payments": 75158.8,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "93297",
+      "description": "Remote evaluations of implantable heart monitoring system with physician analysis, review, and report up to 30 days",
+      "services": 4035,
+      "payments": 74815.24,
+      "avg_markup": 5.06
+    },
+    {
+      "code": "93650",
+      "description": "Insertion of catheters for creation of complete heart block",
+      "services": 163,
+      "payments": 64720.13,
+      "avg_markup": 4.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4892061.36,
+    "total_services": 77457,
+    "total_beneficiaries": 54012,
+    "avg_markup_ratio": 3.64
+  }
+}

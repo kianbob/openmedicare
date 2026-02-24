@@ -1,0 +1,65 @@
+{
+  "name": "Carl Olsson",
+  "credentials": "M.D.",
+  "specialty": "Urology",
+  "city": "New Hyde Park",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1104276.8,
+      "total_services": 82,
+      "total_beneficiaries": 34,
+      "avg_submitted": 46624.1,
+      "avg_paid": 13466.79
+    },
+    {
+      "year": 2015,
+      "total_payments": 1753414.22,
+      "total_services": 124,
+      "total_beneficiaries": 60,
+      "avg_submitted": 46627.04,
+      "avg_paid": 14140.44
+    },
+    {
+      "year": 2016,
+      "total_payments": 1276680.13,
+      "total_services": 86,
+      "total_beneficiaries": 38,
+      "avg_submitted": 48952.55,
+      "avg_paid": 14845.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 965928.46,
+      "total_services": 60,
+      "total_beneficiaries": 24,
+      "avg_submitted": 49999.99,
+      "avg_paid": 16098.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "Q2043",
+      "description": "Sipuleucel-t, minimum of 50 million autologous cd54+ cells activated with pap-gm-csf, including leukapheresis and all other preparatory procedures, per infusion",
+      "services": 176,
+      "payments": 5088644.62,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis up to 1 hour",
+      "services": 176,
+      "payments": 11654.99,
+      "avg_markup": 3.85
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 5100299.61,
+    "total_services": 352,
+    "total_beneficiaries": 156,
+    "avg_markup_ratio": 3.3
+  }
+}

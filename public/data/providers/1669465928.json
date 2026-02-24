@@ -1,0 +1,80 @@
+{
+  "name": "Ronald Weaver",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Inglewood",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2298030.82,
+      "total_services": 24199,
+      "total_beneficiaries": 832,
+      "avg_submitted": 346.67,
+      "avg_paid": 44.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 2089495.64,
+      "total_services": 22666,
+      "total_beneficiaries": 828,
+      "avg_submitted": 346.67,
+      "avg_paid": 44.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 2296953.42,
+      "total_services": 24227,
+      "total_beneficiaries": 877,
+      "avg_submitted": 346.68,
+      "avg_paid": 45.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 2243573.06,
+      "total_services": 23349,
+      "total_beneficiaries": 871,
+      "avg_submitted": 346.65,
+      "avg_paid": 45.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 177055.07,
+      "total_services": 2044,
+      "total_beneficiaries": 270,
+      "avg_submitted": 510.0,
+      "avg_paid": 61.75
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0166",
+      "description": "External counterpulsation, per treatment session",
+      "services": 72511,
+      "payments": 8979658.07,
+      "avg_markup": 8.08
+    },
+    {
+      "code": "82947",
+      "description": "Blood glucose (sugar) level",
+      "services": 23703,
+      "payments": 124025.16,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "85610",
+      "description": "Blood test, clotting time",
+      "services": 271,
+      "payments": 1424.78,
+      "avg_markup": 3.8
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 9105108.0,
+    "total_services": 96485,
+    "total_beneficiaries": 3678,
+    "avg_markup_ratio": 8.02
+  }
+}

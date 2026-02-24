@@ -1,0 +1,56 @@
+{
+  "name": "Saria Saccocio",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Greenville",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3314.07,
+      "total_services": 67,
+      "total_beneficiaries": 51,
+      "avg_submitted": 152.0,
+      "avg_paid": 49.46
+    },
+    {
+      "year": 2021,
+      "total_payments": 3215577.76,
+      "total_services": 117347,
+      "total_beneficiaries": 116901,
+      "avg_submitted": 66.02,
+      "avg_paid": 25.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 78408,
+      "payments": 2376624.0,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 38939,
+      "payments": 838953.76,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 67,
+      "payments": 3314.07,
+      "avg_markup": 3.07
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 3218891.83,
+    "total_services": 117414,
+    "total_beneficiaries": 116952,
+    "avg_markup_ratio": 2.56
+  }
+}

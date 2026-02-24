@@ -1,0 +1,239 @@
+{
+  "name": "Stephen Manghisi",
+  "credentials": "M.D",
+  "specialty": "Diagnostic Radiology",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 51791.58,
+      "total_services": 1359,
+      "total_beneficiaries": 1327,
+      "avg_submitted": 156.25,
+      "avg_paid": 42.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 88065.41,
+      "total_services": 1411,
+      "total_beneficiaries": 1383,
+      "avg_submitted": 190.55,
+      "avg_paid": 51.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 143469.86,
+      "total_services": 1901,
+      "total_beneficiaries": 1883,
+      "avg_submitted": 199.37,
+      "avg_paid": 52.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 161256.24,
+      "total_services": 1070,
+      "total_beneficiaries": 1064,
+      "avg_submitted": 447.69,
+      "avg_paid": 122.06
+    },
+    {
+      "year": 2018,
+      "total_payments": 143198.02,
+      "total_services": 1196,
+      "total_beneficiaries": 1193,
+      "avg_submitted": 276.4,
+      "avg_paid": 106.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 154997.39,
+      "total_services": 1295,
+      "total_beneficiaries": 1278,
+      "avg_submitted": 498.66,
+      "avg_paid": 170.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 491977.21,
+      "total_services": 4580,
+      "total_beneficiaries": 4555,
+      "avg_submitted": 277.67,
+      "avg_paid": 104.31
+    },
+    {
+      "year": 2021,
+      "total_payments": 759837.21,
+      "total_services": 7197,
+      "total_beneficiaries": 7039,
+      "avg_submitted": 498.26,
+      "avg_paid": 156.24
+    },
+    {
+      "year": 2022,
+      "total_payments": 636738.89,
+      "total_services": 6215,
+      "total_beneficiaries": 6105,
+      "avg_submitted": 497.82,
+      "avg_paid": 143.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 593114.21,
+      "total_services": 5895,
+      "total_beneficiaries": 5801,
+      "avg_submitted": 496.77,
+      "avg_paid": 140.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 10322,
+      "payments": 1566086.04,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 10063,
+      "payments": 608463.59,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 2262,
+      "payments": 330269.37,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "76641",
+      "description": "Ultrasound of one breast",
+      "services": 1400,
+      "payments": 168524.39,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "77065",
+      "description": "Mammography of one breast",
+      "services": 1222,
+      "payments": 131398.87,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "76642",
+      "description": "Ultrasound of one breast",
+      "services": 1440,
+      "payments": 115354.03,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "77066",
+      "description": "Mammography of both breasts",
+      "services": 658,
+      "payments": 87226.02,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "G0279",
+      "description": "Diagnostic digital breast tomosynthesis, unilateral or bilateral (list separately in addition to g0204 or g0206)",
+      "services": 1495,
+      "payments": 70969.56,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "19083",
+      "description": "Biopsy of breast accessed through the skin with ultrasound guidance",
+      "services": 134,
+      "payments": 66270.46,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "G0204",
+      "description": "Diagnostic mammography, producing direct digital image, bilateral, all views",
+      "services": 202,
+      "payments": 22173.15,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "G0206",
+      "description": "Diagnostic mammography, producing direct digital image, unilateral, all views",
+      "services": 216,
+      "payments": 19761.94,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "77052",
+      "description": "Computer analysis of screening mammogram to assist detection of cancer",
+      "services": 1373,
+      "payments": 12384.52,
+      "avg_markup": 5.12
+    },
+    {
+      "code": "76645",
+      "description": "Ultrasound of breasts",
+      "services": 120,
+      "payments": 5972.39,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 282,
+      "payments": 4820.46,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "73560",
+      "description": "X-ray of knee, 1 or 2 views",
+      "services": 107,
+      "payments": 2387.62,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "77051",
+      "description": "Computer analysis of diagnostic mammogram",
+      "services": 326,
+      "payments": 2156.49,
+      "avg_markup": 6.29
+    },
+    {
+      "code": "72100",
+      "description": "X-ray of lower and sacral spine, 2 or 3 views",
+      "services": 75,
+      "payments": 1992.31,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "73030",
+      "description": "X-ray of shoulder, minimum of 2 views",
+      "services": 82,
+      "payments": 1666.65,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "72050",
+      "description": "X-ray of upper spine, 4 or 5 views",
+      "services": 40,
+      "payments": 1408.58,
+      "avg_markup": 4.83
+    },
+    {
+      "code": "73562",
+      "description": "X-ray of knee, 3 views",
+      "services": 39,
+      "payments": 1122.01,
+      "avg_markup": 4.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3224446.02,
+    "total_services": 32119,
+    "total_beneficiaries": 31628,
+    "avg_markup_ratio": 2.72
+  }
+}

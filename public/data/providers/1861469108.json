@@ -1,0 +1,239 @@
+{
+  "name": "John Pajka",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Lima",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 332654.16,
+      "total_services": 5397,
+      "total_beneficiaries": 4472,
+      "avg_submitted": 112.85,
+      "avg_paid": 77.21
+    },
+    {
+      "year": 2015,
+      "total_payments": 335389.89,
+      "total_services": 5518,
+      "total_beneficiaries": 4509,
+      "avg_submitted": 110.71,
+      "avg_paid": 72.14
+    },
+    {
+      "year": 2016,
+      "total_payments": 338352.68,
+      "total_services": 5948,
+      "total_beneficiaries": 4797,
+      "avg_submitted": 207.92,
+      "avg_paid": 65.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 346390.34,
+      "total_services": 6083,
+      "total_beneficiaries": 4778,
+      "avg_submitted": 234.06,
+      "avg_paid": 70.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 299939.27,
+      "total_services": 5207,
+      "total_beneficiaries": 4114,
+      "avg_submitted": 290.59,
+      "avg_paid": 105.27
+    },
+    {
+      "year": 2019,
+      "total_payments": 329845.05,
+      "total_services": 4979,
+      "total_beneficiaries": 3878,
+      "avg_submitted": 455.09,
+      "avg_paid": 151.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 247147.24,
+      "total_services": 3663,
+      "total_beneficiaries": 2826,
+      "avg_submitted": 474.26,
+      "avg_paid": 160.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 252057.96,
+      "total_services": 3975,
+      "total_beneficiaries": 3020,
+      "avg_submitted": 478.07,
+      "avg_paid": 172.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 168479.25,
+      "total_services": 3091,
+      "total_beneficiaries": 2338,
+      "avg_submitted": 250.24,
+      "avg_paid": 70.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 144732.95,
+      "total_services": 2372,
+      "total_beneficiaries": 1777,
+      "avg_submitted": 369.47,
+      "avg_paid": 129.52
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 5336,
+      "payments": 564613.29,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 9808,
+      "payments": 388559.21,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 1600,
+      "payments": 375776.4,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 4917,
+      "payments": 368532.37,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4654,
+      "payments": 213855.77,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 9167,
+      "payments": 211279.67,
+      "avg_markup": 5.54
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1866,
+      "payments": 139164.74,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 2259,
+      "payments": 91808.79,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "0191T",
+      "description": "Internal insertion of eye fluid drainage device",
+      "services": 92,
+      "payments": 87630.56,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow, 1 or more sessions",
+      "services": 366,
+      "payments": 62558.88,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 2043,
+      "payments": 59318.49,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 2002,
+      "payments": 52717.29,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "0449T",
+      "description": "Insertion of aqueous fluid drainage device into eye",
+      "services": 58,
+      "payments": 43228.05,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 323,
+      "payments": 29492.78,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 455,
+      "payments": 28984.21,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "65756",
+      "description": "Transplant of outer layer of corneal tissue",
+      "services": 30,
+      "payments": 25931.66,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 650,
+      "payments": 23138.85,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 293,
+      "payments": 15085.78,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "76519",
+      "description": "Ultrasound of eye for determination of lens power",
+      "services": 91,
+      "payments": 5189.45,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "66761",
+      "description": "Creation of eye fluid drainage tracts in iris using laser, per session",
+      "services": 24,
+      "payments": 4325.28,
+      "avg_markup": 4.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2794988.79,
+    "total_services": 46233,
+    "total_beneficiaries": 36509,
+    "avg_markup_ratio": 2.86
+  }
+}

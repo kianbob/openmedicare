@@ -1,0 +1,98 @@
+{
+  "name": "Rafael Mas",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Miami",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 2896224.43,
+      "total_services": 82945,
+      "total_beneficiaries": 82945,
+      "avg_submitted": 101.28,
+      "avg_paid": 67.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 1071.76,
+      "total_services": 26,
+      "total_beneficiaries": 25,
+      "avg_submitted": 62.27,
+      "avg_paid": 41.22
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0012A",
+      "description": "Adm sarscov2 100mcg/0.5ml2nd",
+      "services": 23982,
+      "payments": 966142.1,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "0011A",
+      "description": "Adm sarscov2 100mcg/0.5ml1st",
+      "services": 23991,
+      "payments": 597866.27,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "0004A",
+      "description": "Fee covid-19 vac 1 res",
+      "services": 9234,
+      "payments": 386442.9,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "0064A",
+      "description": "Fee covid-19 vac 7 res",
+      "services": 7459,
+      "payments": 312142.81,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "0013A",
+      "description": "Fee covid-19 vac 2 booster",
+      "services": 7017,
+      "payments": 293661.45,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 4649,
+      "payments": 141211.41,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "0003A",
+      "description": "Fee covid-19 vac 1 booster",
+      "services": 2936,
+      "payments": 122871.6,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 3685,
+      "payments": 71049.69,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "M0239",
+      "description": "Intravenous infusion, bamlanivimab-xxxx, includes infusion and post administration monitoring",
+      "services": 18,
+      "payments": 5907.96,
+      "avg_markup": 1.5
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 2897296.19,
+    "total_services": 82971,
+    "total_beneficiaries": 82970,
+    "avg_markup_ratio": 1.49
+  }
+}

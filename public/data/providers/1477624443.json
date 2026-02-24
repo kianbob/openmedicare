@@ -1,0 +1,142 @@
+{
+  "name": "Jea Lee",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Fontana",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 3243.3,
+      "total_services": 58,
+      "total_beneficiaries": 12,
+      "avg_submitted": 225.0,
+      "avg_paid": 55.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 3228605.88,
+      "total_services": 93581,
+      "total_beneficiaries": 91649,
+      "avg_submitted": 44.66,
+      "avg_paid": 37.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 17968.72,
+      "total_services": 434,
+      "total_beneficiaries": 428,
+      "avg_submitted": 51.0,
+      "avg_paid": 41.51
+    },
+    {
+      "year": 2023,
+      "total_payments": 11797.28,
+      "total_services": 136,
+      "total_beneficiaries": 134,
+      "avg_submitted": 172.5,
+      "avg_paid": 85.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0012A",
+      "description": "Adm sarscov2 100mcg/0.5ml2nd",
+      "services": 16175,
+      "payments": 608296.95,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "0002A",
+      "description": "Adm sarscov2 30mcg/0.3ml 2nd",
+      "services": 15184,
+      "payments": 548820.88,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "0004A",
+      "description": "Fee covid-19 vac 1 res",
+      "services": 12720,
+      "payments": 535380.77,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0064A",
+      "description": "Fee covid-19 vac 7 res",
+      "services": 11797,
+      "payments": 496378.85,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0011A",
+      "description": "Adm sarscov2 100mcg/0.5ml1st",
+      "services": 18024,
+      "payments": 483610.14,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 16180,
+      "payments": 408600.29,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "0003A",
+      "description": "Fee covid-19 vac 1 booster",
+      "services": 2148,
+      "payments": 90409.32,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0031A",
+      "description": "Adm sarscov2 vac ad26 .5ml",
+      "services": 829,
+      "payments": 34892.61,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "0013A",
+      "description": "Fee covid-19 vac 2 booster",
+      "services": 787,
+      "payments": 33124.83,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "91320",
+      "description": "Sarscv2 vac 30mcg trs-suc im",
+      "services": 70,
+      "payments": 8993.6,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "0054A",
+      "description": "Adm sarscv2 30mcg trs-sucr b",
+      "services": 171,
+      "payments": 7059.96,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 58,
+      "payments": 3243.3,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "90480",
+      "description": "Admn sarscov2 vacc 1 dose",
+      "services": 66,
+      "payments": 2803.68,
+      "avg_markup": 2.07
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3261615.18,
+    "total_services": 94209,
+    "total_beneficiaries": 92223,
+    "avg_markup_ratio": 1.19
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Dale Edlin",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Shrewsbury",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 425191.6,
+      "total_services": 7810,
+      "total_beneficiaries": 4675,
+      "avg_submitted": 265.58,
+      "avg_paid": 92.13
+    },
+    {
+      "year": 2015,
+      "total_payments": 427456.74,
+      "total_services": 7825,
+      "total_beneficiaries": 4772,
+      "avg_submitted": 261.94,
+      "avg_paid": 91.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 400882.06,
+      "total_services": 5700,
+      "total_beneficiaries": 3351,
+      "avg_submitted": 280.92,
+      "avg_paid": 96.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 475106.01,
+      "total_services": 5020,
+      "total_beneficiaries": 3051,
+      "avg_submitted": 527.16,
+      "avg_paid": 182.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 510625.4,
+      "total_services": 5712,
+      "total_beneficiaries": 3547,
+      "avg_submitted": 402.48,
+      "avg_paid": 156.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 480054.4,
+      "total_services": 5070,
+      "total_beneficiaries": 3148,
+      "avg_submitted": 410.24,
+      "avg_paid": 161.66
+    },
+    {
+      "year": 2020,
+      "total_payments": 404154.6,
+      "total_services": 3627,
+      "total_beneficiaries": 2732,
+      "avg_submitted": 417.61,
+      "avg_paid": 172.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 368991.08,
+      "total_services": 3649,
+      "total_beneficiaries": 2606,
+      "avg_submitted": 428.54,
+      "avg_paid": 175.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 320545.9,
+      "total_services": 3382,
+      "total_beneficiaries": 2507,
+      "avg_submitted": 452.41,
+      "avg_paid": 183.27
+    },
+    {
+      "year": 2023,
+      "total_payments": 181305.33,
+      "total_services": 1839,
+      "total_beneficiaries": 1664,
+      "avg_submitted": 523.45,
+      "avg_paid": 205.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11263,
+      "payments": 964801.35,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "78492",
+      "description": "Nuclear medicine study heart muscle at rest and/or stress multiple studies",
+      "services": 448,
+      "payments": 598290.56,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3222,
+      "payments": 391620.17,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2077,
+      "payments": 324464.19,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 735,
+      "payments": 303471.36,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A9555",
+      "description": "Rubidium rb-82, diagnostic, per study dose, up to 60 millicuries",
+      "services": 448,
+      "payments": 266530.88,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 10606,
+      "payments": 139655.99,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 607,
+      "payments": 103431.71,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 159,
+      "payments": 97711.92,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 658,
+      "payments": 80370.62,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1375,
+      "payments": 79273.02,
+      "avg_markup": 5.2
+    },
+    {
+      "code": "75574",
+      "description": "CT scan of heart blood vessels and grafts with contrast dye",
+      "services": 722,
+      "payments": 69756.2,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1120,
+      "payments": 66867.01,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 811,
+      "payments": 49123.34,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 250,
+      "payments": 42534.04,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 338,
+      "payments": 42478.38,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 6109,
+      "payments": 41958.92,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 453,
+      "payments": 38781.76,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "78434",
+      "description": "Nuclear medicine absolute quantification of blood flow in heart muscle",
+      "services": 206,
+      "payments": 33794.52,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 758,
+      "payments": 33392.74,
+      "avg_markup": 1.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3994313.13,
+    "total_services": 49634,
+    "total_beneficiaries": 32053,
+    "avg_markup_ratio": 2.57
+  }
+}

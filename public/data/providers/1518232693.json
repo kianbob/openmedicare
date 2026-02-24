@@ -1,0 +1,111 @@
+{
+  "name": "Anna Markh",
+  "credentials": "",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Teaneck",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 224295.01,
+      "total_services": 2694,
+      "total_beneficiaries": 637,
+      "avg_submitted": 153.01,
+      "avg_paid": 109.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 403812.16,
+      "total_services": 5037,
+      "total_beneficiaries": 1233,
+      "avg_submitted": 156.33,
+      "avg_paid": 105.7
+    },
+    {
+      "year": 2018,
+      "total_payments": 348009.09,
+      "total_services": 4311,
+      "total_beneficiaries": 789,
+      "avg_submitted": 143.25,
+      "avg_paid": 105.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 475417.1,
+      "total_services": 5602,
+      "total_beneficiaries": 1050,
+      "avg_submitted": 142.65,
+      "avg_paid": 109.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 558878.51,
+      "total_services": 5353,
+      "total_beneficiaries": 975,
+      "avg_submitted": 143.55,
+      "avg_paid": 133.2
+    },
+    {
+      "year": 2021,
+      "total_payments": 472724.08,
+      "total_services": 4766,
+      "total_beneficiaries": 887,
+      "avg_submitted": 141.42,
+      "avg_paid": 128.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 384502.93,
+      "total_services": 4296,
+      "total_beneficiaries": 1028,
+      "avg_submitted": 141.39,
+      "avg_paid": 113.46
+    },
+    {
+      "year": 2023,
+      "total_payments": 433083.63,
+      "total_services": 4517,
+      "total_beneficiaries": 941,
+      "avg_submitted": 154.76,
+      "avg_paid": 119.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 32660,
+      "payments": 2718826.61,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 3860,
+      "payments": 575685.07,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 30,
+      "payments": 3268.01,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 26,
+      "payments": 2942.82,
+      "avg_markup": 1.3
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3300722.51,
+    "total_services": 36576,
+    "total_beneficiaries": 7540,
+    "avg_markup_ratio": 1.24
+  }
+}

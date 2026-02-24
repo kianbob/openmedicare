@@ -1,0 +1,111 @@
+{
+  "name": "Sun City Fire District",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Sun City",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 81777.4,
+      "total_services": 486,
+      "total_beneficiaries": 451,
+      "avg_submitted": 460.08,
+      "avg_paid": 170.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 606060.87,
+      "total_services": 3552,
+      "total_beneficiaries": 2793,
+      "avg_submitted": 670.91,
+      "avg_paid": 274.93
+    },
+    {
+      "year": 2018,
+      "total_payments": 685693.53,
+      "total_services": 4056,
+      "total_beneficiaries": 3063,
+      "avg_submitted": 600.96,
+      "avg_paid": 204.27
+    },
+    {
+      "year": 2019,
+      "total_payments": 840418.56,
+      "total_services": 4870,
+      "total_beneficiaries": 3478,
+      "avg_submitted": 701.56,
+      "avg_paid": 280.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 774281.64,
+      "total_services": 4433,
+      "total_beneficiaries": 3296,
+      "avg_submitted": 719.94,
+      "avg_paid": 279.02
+    },
+    {
+      "year": 2021,
+      "total_payments": 773087.37,
+      "total_services": 4388,
+      "total_beneficiaries": 3201,
+      "avg_submitted": 725.73,
+      "avg_paid": 282.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 803594.11,
+      "total_services": 4422,
+      "total_beneficiaries": 3226,
+      "avg_submitted": 749.67,
+      "avg_paid": 294.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 879840.04,
+      "total_services": 4473,
+      "total_beneficiaries": 3179,
+      "avg_submitted": 820.18,
+      "avg_paid": 316.31
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 14724,
+      "payments": 5117798.57,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 576,
+      "payments": 169336.79,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 15255,
+      "payments": 93169.31,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 125,
+      "payments": 64448.85,
+      "avg_markup": 2.01
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 5444753.52,
+    "total_services": 30680,
+    "total_beneficiaries": 22687,
+    "avg_markup_ratio": 2.87
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "name": "Priority Patient Transport Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Harrisonburg",
+  "state": "VA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 632598.09,
+      "total_services": 6832,
+      "total_beneficiaries": 3594,
+      "avg_submitted": 331.99,
+      "avg_paid": 192.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 591252.85,
+      "total_services": 6332,
+      "total_beneficiaries": 3910,
+      "avg_submitted": 353.86,
+      "avg_paid": 198.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 585537.79,
+      "total_services": 6447,
+      "total_beneficiaries": 3853,
+      "avg_submitted": 352.0,
+      "avg_paid": 191.79
+    },
+    {
+      "year": 2017,
+      "total_payments": 653273.3,
+      "total_services": 6972,
+      "total_beneficiaries": 4180,
+      "avg_submitted": 352.4,
+      "avg_paid": 196.42
+    },
+    {
+      "year": 2018,
+      "total_payments": 585809.18,
+      "total_services": 6301,
+      "total_beneficiaries": 3646,
+      "avg_submitted": 352.0,
+      "avg_paid": 197.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 624090.1,
+      "total_services": 7077,
+      "total_beneficiaries": 3912,
+      "avg_submitted": 352.5,
+      "avg_paid": 203.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 517597.26,
+      "total_services": 5372,
+      "total_beneficiaries": 3698,
+      "avg_submitted": 352.0,
+      "avg_paid": 211.81
+    },
+    {
+      "year": 2021,
+      "total_payments": 463494.55,
+      "total_services": 4672,
+      "total_beneficiaries": 3438,
+      "avg_submitted": 355.38,
+      "avg_paid": 214.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 400939.78,
+      "total_services": 4062,
+      "total_beneficiaries": 2497,
+      "avg_submitted": 372.4,
+      "avg_paid": 221.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 459220.17,
+      "total_services": 4299,
+      "total_beneficiaries": 2642,
+      "avg_submitted": 372.4,
+      "avg_paid": 239.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 26254,
+      "payments": 4501737.78,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2021,
+      "payments": 566870.64,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 29093,
+      "payments": 171225.83,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 422,
+      "payments": 144408.01,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 576,
+      "payments": 129570.81,
+      "avg_markup": 2.04
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5513813.08,
+    "total_services": 58366,
+    "total_beneficiaries": 35370,
+    "avg_markup_ratio": 1.98
+  }
+}

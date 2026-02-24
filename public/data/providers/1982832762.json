@@ -1,0 +1,203 @@
+{
+  "name": "Egbert Joseph Liquete",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Detroit",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2015,
+      "total_payments": 10831.32,
+      "total_services": 128,
+      "total_beneficiaries": 86,
+      "avg_submitted": 238.4,
+      "avg_paid": 99.26
+    },
+    {
+      "year": 2016,
+      "total_payments": 53827.98,
+      "total_services": 875,
+      "total_beneficiaries": 511,
+      "avg_submitted": 196.7,
+      "avg_paid": 72.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 158924.38,
+      "total_services": 2417,
+      "total_beneficiaries": 979,
+      "avg_submitted": 191.0,
+      "avg_paid": 63.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 245726.17,
+      "total_services": 2909,
+      "total_beneficiaries": 1468,
+      "avg_submitted": 303.0,
+      "avg_paid": 126.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 506245.65,
+      "total_services": 6911,
+      "total_beneficiaries": 2129,
+      "avg_submitted": 303.4,
+      "avg_paid": 117.3
+    },
+    {
+      "year": 2020,
+      "total_payments": 463835.98,
+      "total_services": 6729,
+      "total_beneficiaries": 1672,
+      "avg_submitted": 324.85,
+      "avg_paid": 122.74
+    },
+    {
+      "year": 2021,
+      "total_payments": 505101.3,
+      "total_services": 7310,
+      "total_beneficiaries": 1666,
+      "avg_submitted": 360.83,
+      "avg_paid": 137.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 512864.53,
+      "total_services": 7485,
+      "total_beneficiaries": 1704,
+      "avg_submitted": 361.25,
+      "avg_paid": 132.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 849071.39,
+      "total_services": 11383,
+      "total_beneficiaries": 2221,
+      "avg_submitted": 352.77,
+      "avg_paid": 133.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 35042,
+      "payments": 2064789.37,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4461,
+      "payments": 478591.22,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2330,
+      "payments": 180109.05,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 622,
+      "payments": 157664.99,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 729,
+      "payments": 155079.13,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 616,
+      "payments": 73344.62,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "90937",
+      "description": "Hemodialysis procedure with repeated evaluations",
+      "services": 704,
+      "payments": 58356.98,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 346,
+      "payments": 52151.09,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 379,
+      "payments": 23506.63,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "90947",
+      "description": "Dialysis procedure requiring repeat evaluation",
+      "services": 186,
+      "payments": 18316.14,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 96,
+      "payments": 15017.3,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 319,
+      "payments": 9938.13,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 169,
+      "payments": 8609.46,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "90945",
+      "description": "Dialysis procedure including one evaluation",
+      "services": 71,
+      "payments": 5020.83,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 65,
+      "payments": 4610.45,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 12,
+      "payments": 1323.3,
+      "avg_markup": 2.5
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3306428.69,
+    "total_services": 46147,
+    "total_beneficiaries": 12436,
+    "avg_markup_ratio": 2.56
+  }
+}

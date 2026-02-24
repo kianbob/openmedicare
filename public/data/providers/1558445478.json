@@ -1,0 +1,239 @@
+{
+  "name": "John Celentano",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "East Moriches",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 490749.23,
+      "total_services": 8980,
+      "total_beneficiaries": 4233,
+      "avg_submitted": 101.89,
+      "avg_paid": 59.49
+    },
+    {
+      "year": 2015,
+      "total_payments": 552069.0,
+      "total_services": 10574,
+      "total_beneficiaries": 4388,
+      "avg_submitted": 105.26,
+      "avg_paid": 56.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 458545.28,
+      "total_services": 9393,
+      "total_beneficiaries": 2868,
+      "avg_submitted": 97.35,
+      "avg_paid": 51.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 610532.23,
+      "total_services": 13425,
+      "total_beneficiaries": 2913,
+      "avg_submitted": 99.09,
+      "avg_paid": 52.15
+    },
+    {
+      "year": 2018,
+      "total_payments": 682497.45,
+      "total_services": 12692,
+      "total_beneficiaries": 2697,
+      "avg_submitted": 94.78,
+      "avg_paid": 53.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 583779.1,
+      "total_services": 10181,
+      "total_beneficiaries": 2332,
+      "avg_submitted": 103.43,
+      "avg_paid": 57.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 311446.79,
+      "total_services": 6639,
+      "total_beneficiaries": 1658,
+      "avg_submitted": 110.1,
+      "avg_paid": 65.5
+    },
+    {
+      "year": 2021,
+      "total_payments": 164926.2,
+      "total_services": 2393,
+      "total_beneficiaries": 1363,
+      "avg_submitted": 202.31,
+      "avg_paid": 67.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 172502.47,
+      "total_services": 2244,
+      "total_beneficiaries": 1057,
+      "avg_submitted": 366.14,
+      "avg_paid": 71.06
+    },
+    {
+      "year": 2023,
+      "total_payments": 141822.03,
+      "total_services": 1810,
+      "total_beneficiaries": 868,
+      "avg_submitted": 354.08,
+      "avg_paid": 67.89
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 23236,
+      "payments": 886122.27,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 10327,
+      "payments": 609887.99,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 7065,
+      "payments": 594298.2,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4965,
+      "payments": 468102.55,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 8260,
+      "payments": 424977.32,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5770,
+      "payments": 303890.96,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1611,
+      "payments": 101504.02,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 874,
+      "payments": 99220.19,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 727,
+      "payments": 87876.27,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 947,
+      "payments": 79872.53,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1128,
+      "payments": 72362.9,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 513,
+      "payments": 46512.1,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 956,
+      "payments": 45153.06,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 250,
+      "payments": 33819.7,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 233,
+      "payments": 32213.56,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 137,
+      "payments": 26866.1,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 256,
+      "payments": 23383.83,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 590,
+      "payments": 21373.31,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 104,
+      "payments": 18648.8,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 602,
+      "payments": 16338.7,
+      "avg_markup": 1.95
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4168869.79,
+    "total_services": 78331,
+    "total_beneficiaries": 24377,
+    "avg_markup_ratio": 2.18
+  }
+}

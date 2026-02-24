@@ -1,0 +1,239 @@
+{
+  "name": "Keith Eyre",
+  "credentials": "M.D.",
+  "specialty": "Radiation Oncology",
+  "city": "San Antonio",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1675051.72,
+      "total_services": 8191,
+      "total_beneficiaries": 2389,
+      "avg_submitted": 2413.24,
+      "avg_paid": 288.77
+    },
+    {
+      "year": 2015,
+      "total_payments": 1871752.02,
+      "total_services": 9455,
+      "total_beneficiaries": 2606,
+      "avg_submitted": 2502.74,
+      "avg_paid": 301.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 1537873.11,
+      "total_services": 8688,
+      "total_beneficiaries": 2646,
+      "avg_submitted": 2697.79,
+      "avg_paid": 326.49
+    },
+    {
+      "year": 2017,
+      "total_payments": 1053209.51,
+      "total_services": 5742,
+      "total_beneficiaries": 2266,
+      "avg_submitted": 2704.16,
+      "avg_paid": 326.76
+    },
+    {
+      "year": 2018,
+      "total_payments": 1108209.94,
+      "total_services": 5991,
+      "total_beneficiaries": 2394,
+      "avg_submitted": 2821.63,
+      "avg_paid": 345.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 1218914.28,
+      "total_services": 6584,
+      "total_beneficiaries": 2420,
+      "avg_submitted": 2921.75,
+      "avg_paid": 361.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 1404582.93,
+      "total_services": 7547,
+      "total_beneficiaries": 2491,
+      "avg_submitted": 2509.85,
+      "avg_paid": 316.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 1090980.26,
+      "total_services": 5918,
+      "total_beneficiaries": 1993,
+      "avg_submitted": 2556.01,
+      "avg_paid": 328.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 1085424.84,
+      "total_services": 5937,
+      "total_beneficiaries": 2059,
+      "avg_submitted": 2706.85,
+      "avg_paid": 336.92
+    },
+    {
+      "year": 2023,
+      "total_payments": 1077040.57,
+      "total_services": 5954,
+      "total_beneficiaries": 2007,
+      "avg_submitted": 2784.07,
+      "avg_paid": 343.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 10554,
+      "payments": 2887201.84,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "G6013",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 11-19mev",
+      "services": 6822,
+      "payments": 1316310.79,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 705,
+      "payments": 1017289.44,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "G6012",
+      "description": "Radiation treatment delivery,3 or more separate treatment areas, custom blocking, tangential ports, wedges, rotational beam, compensators, electron beam; 6-10mev",
+      "services": 5275,
+      "payments": 986149.24,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 6538,
+      "payments": 949018.02,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "G0339",
+      "description": "Image-guided robotic linear accelerator-based stereotactic radiosurgery, complete course of therapy in one session or first session of fractionated treatment",
+      "services": 426,
+      "payments": 830420.76,
+      "avg_markup": 15.39
+    },
+    {
+      "code": "G0340",
+      "description": "Image-guided robotic linear accelerator-based stereotactic radiosurgery, delivery including collimator changes and custom plugging, fractionated treatment, all lesions, per session, second through fifth sessions, maximum five sessions per course of treatme",
+      "services": 506,
+      "payments": 743096.74,
+      "avg_markup": 13.6
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 1723,
+      "payments": 640964.48,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "77418",
+      "description": "Intensity modulated radiation treatment delivery per session",
+      "services": 1553,
+      "payments": 429905.21,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 1121,
+      "payments": 418277.67,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 6844,
+      "payments": 404209.51,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 11192,
+      "payments": 403072.35,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "77280",
+      "description": "Management of radiation therapy simulation, simple",
+      "services": 1313,
+      "payments": 269390.88,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 1883,
+      "payments": 241752.68,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 2462,
+      "payments": 240207.06,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "77414",
+      "description": "Radiation treatment delivery, three or more treatment areas",
+      "services": 1346,
+      "payments": 238217.57,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "77295",
+      "description": "Management of radiation therapy, 3D",
+      "services": 587,
+      "payments": 213448.48,
+      "avg_markup": 4.18
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1500,
+      "payments": 184721.73,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "77435",
+      "description": "Stereotactic radiation treatment management of 1 or more lesions using imaging guidance, per treatment course",
+      "services": 332,
+      "payments": 163015.36,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "77307",
+      "description": "Radiation therapy plan",
+      "services": 732,
+      "payments": 160107.49,
+      "avg_markup": 3.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 13123039.18,
+    "total_services": 70007,
+    "total_beneficiaries": 23271,
+    "avg_markup_ratio": 5.2
+  }
+}

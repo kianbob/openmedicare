@@ -1,0 +1,239 @@
+{
+  "name": "Scott Schwarz",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Newton",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 506556.4,
+      "total_services": 8677,
+      "total_beneficiaries": 5562,
+      "avg_submitted": 405.16,
+      "avg_paid": 93.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 491889.2,
+      "total_services": 8481,
+      "total_beneficiaries": 5649,
+      "avg_submitted": 419.81,
+      "avg_paid": 98.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 446393.62,
+      "total_services": 6278,
+      "total_beneficiaries": 4227,
+      "avg_submitted": 431.09,
+      "avg_paid": 92.56
+    },
+    {
+      "year": 2017,
+      "total_payments": 442466.45,
+      "total_services": 6113,
+      "total_beneficiaries": 4055,
+      "avg_submitted": 528.12,
+      "avg_paid": 110.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 466871.86,
+      "total_services": 6637,
+      "total_beneficiaries": 4612,
+      "avg_submitted": 493.59,
+      "avg_paid": 107.95
+    },
+    {
+      "year": 2019,
+      "total_payments": 564337.2,
+      "total_services": 9184,
+      "total_beneficiaries": 6301,
+      "avg_submitted": 495.23,
+      "avg_paid": 114.67
+    },
+    {
+      "year": 2020,
+      "total_payments": 420732.08,
+      "total_services": 6530,
+      "total_beneficiaries": 4687,
+      "avg_submitted": 473.06,
+      "avg_paid": 110.75
+    },
+    {
+      "year": 2021,
+      "total_payments": 496203.91,
+      "total_services": 6749,
+      "total_beneficiaries": 4913,
+      "avg_submitted": 494.38,
+      "avg_paid": 123.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 523500.61,
+      "total_services": 7179,
+      "total_beneficiaries": 4595,
+      "avg_submitted": 544.61,
+      "avg_paid": 113.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 760737.52,
+      "total_services": 12246,
+      "total_beneficiaries": 5262,
+      "avg_submitted": 568.16,
+      "avg_paid": 105.02
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14701,
+      "payments": 1298493.76,
+      "avg_markup": 5.48
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5140,
+      "payments": 632882.95,
+      "avg_markup": 6.36
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1358,
+      "payments": 590091.68,
+      "avg_markup": 4.38
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4499,
+      "payments": 404554.85,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1828,
+      "payments": 309030.77,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 340,
+      "payments": 254524.04,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1573,
+      "payments": 240726.31,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1385,
+      "payments": 160940.39,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 12394,
+      "payments": 160350.77,
+      "avg_markup": 11.71
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2196,
+      "payments": 127634.36,
+      "avg_markup": 12.9
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 1994,
+      "payments": 107746.1,
+      "avg_markup": 5.55
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 723,
+      "payments": 91805.92,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 12310,
+      "payments": 86139.0,
+      "avg_markup": 6.31
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1519,
+      "payments": 72547.73,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 1580,
+      "payments": 69042.58,
+      "avg_markup": 5.13
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 289,
+      "payments": 66039.28,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "78451",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise single study",
+      "services": 159,
+      "payments": 49961.89,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 312,
+      "payments": 48189.54,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 1020,
+      "payments": 44534.39,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 466,
+      "payments": 29181.76,
+      "avg_markup": 5.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5119688.85,
+    "total_services": 78074,
+    "total_beneficiaries": 49863,
+    "avg_markup_ratio": 5.05
+  }
+}

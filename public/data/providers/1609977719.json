@@ -1,0 +1,239 @@
+{
+  "name": "Mary Mattheos",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Lindenhurst",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 208898.19,
+      "total_services": 3751,
+      "total_beneficiaries": 2318,
+      "avg_submitted": 94.26,
+      "avg_paid": 60.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 260969.15,
+      "total_services": 4718,
+      "total_beneficiaries": 2990,
+      "avg_submitted": 125.14,
+      "avg_paid": 57.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 257214.6,
+      "total_services": 4830,
+      "total_beneficiaries": 3207,
+      "avg_submitted": 126.39,
+      "avg_paid": 64.25
+    },
+    {
+      "year": 2017,
+      "total_payments": 245375.09,
+      "total_services": 4514,
+      "total_beneficiaries": 2950,
+      "avg_submitted": 133.91,
+      "avg_paid": 68.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 260379.59,
+      "total_services": 5197,
+      "total_beneficiaries": 3525,
+      "avg_submitted": 133.32,
+      "avg_paid": 64.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 332600.5,
+      "total_services": 5948,
+      "total_beneficiaries": 4232,
+      "avg_submitted": 135.16,
+      "avg_paid": 66.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 247080.1,
+      "total_services": 4103,
+      "total_beneficiaries": 2195,
+      "avg_submitted": 92.86,
+      "avg_paid": 50.17
+    },
+    {
+      "year": 2021,
+      "total_payments": 390720.88,
+      "total_services": 5611,
+      "total_beneficiaries": 2351,
+      "avg_submitted": 127.09,
+      "avg_paid": 68.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 459790.34,
+      "total_services": 7146,
+      "total_beneficiaries": 2827,
+      "avg_submitted": 137.73,
+      "avg_paid": 80.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 417110.64,
+      "total_services": 6647,
+      "total_beneficiaries": 2974,
+      "avg_submitted": 101.08,
+      "avg_paid": 55.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 19014,
+      "payments": 1284141.52,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4435,
+      "payments": 434949.1,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1358,
+      "payments": 192274.38,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1808,
+      "payments": 98556.69,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 707,
+      "payments": 88070.59,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1878,
+      "payments": 87114.37,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1445,
+      "payments": 77875.03,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 393,
+      "payments": 76447.37,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 2016,
+      "payments": 64124.08,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 79,
+      "payments": 53591.97,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "92552",
+      "description": "Pure tone air conduction threshold hearing assessment",
+      "services": 1791,
+      "payments": 53532.51,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2904,
+      "payments": 43380.38,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1479,
+      "payments": 39112.95,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 540,
+      "payments": 38229.9,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 202,
+      "payments": 30516.42,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 714,
+      "payments": 26580.69,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "90694",
+      "description": "Influenza virus vaccine, quadrivalent (aiiv4), inactivated, adjuvanted, preservative free, for injection into muscle, 0.5 ml dosage",
+      "services": 329,
+      "payments": 23209.47,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 524,
+      "payments": 23055.95,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "20611",
+      "description": "Aspiration and/or injection of major joint or joint capsule with recording and reporting using ultrasound guidance",
+      "services": 258,
+      "payments": 22542.52,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 90,
+      "payments": 19717.35,
+      "avg_markup": 1.37
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3080139.07,
+    "total_services": 52465,
+    "total_beneficiaries": 29569,
+    "avg_markup_ratio": 1.81
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Raja Gill",
+  "credentials": "MD",
+  "specialty": "Psychiatry",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 347434.96,
+      "total_services": 3454,
+      "total_beneficiaries": 1375,
+      "avg_submitted": 222.17,
+      "avg_paid": 96.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 292586.11,
+      "total_services": 3003,
+      "total_beneficiaries": 1159,
+      "avg_submitted": 212.5,
+      "avg_paid": 91.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 288401.92,
+      "total_services": 2935,
+      "total_beneficiaries": 1271,
+      "avg_submitted": 241.8,
+      "avg_paid": 104.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 248859.66,
+      "total_services": 2624,
+      "total_beneficiaries": 1057,
+      "avg_submitted": 228.57,
+      "avg_paid": 95.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 242192.14,
+      "total_services": 2557,
+      "total_beneficiaries": 1224,
+      "avg_submitted": 228.57,
+      "avg_paid": 93.02
+    },
+    {
+      "year": 2019,
+      "total_payments": 266274.31,
+      "total_services": 2658,
+      "total_beneficiaries": 1581,
+      "avg_submitted": 228.55,
+      "avg_paid": 94.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 180428.11,
+      "total_services": 2170,
+      "total_beneficiaries": 1241,
+      "avg_submitted": 246.34,
+      "avg_paid": 103.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 164492.26,
+      "total_services": 2053,
+      "total_beneficiaries": 1193,
+      "avg_submitted": 241.67,
+      "avg_paid": 97.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 273849.51,
+      "total_services": 3541,
+      "total_beneficiaries": 1839,
+      "avg_submitted": 259.98,
+      "avg_paid": 99.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 372045.21,
+      "total_services": 4771,
+      "total_beneficiaries": 1925,
+      "avg_submitted": 260.0,
+      "avg_paid": 103.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8812,
+      "payments": 749912.8,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 3671,
+      "payments": 501919.09,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2623,
+      "payments": 431086.12,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6116,
+      "payments": 373471.91,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5557,
+      "payments": 314547.73,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1114,
+      "payments": 115300.03,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "90792",
+      "description": "Psychiatric diagnostic evaluation with medical services",
+      "services": 830,
+      "payments": 115097.72,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 741,
+      "payments": 53049.22,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 118,
+      "payments": 9190.58,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 128,
+      "payments": 6434.52,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 44,
+      "payments": 5184.2,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 12,
+      "payments": 1370.27,
+      "avg_markup": 2.63
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2676564.19,
+    "total_services": 29766,
+    "total_beneficiaries": 13865,
+    "avg_markup_ratio": 2.26
+  }
+}

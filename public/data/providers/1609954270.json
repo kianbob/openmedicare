@@ -1,0 +1,162 @@
+{
+  "name": "John Kennedy",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Torrance",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 446910.85,
+      "total_services": 6889,
+      "total_beneficiaries": 1342,
+      "avg_submitted": 220.83,
+      "avg_paid": 52.62
+    },
+    {
+      "year": 2015,
+      "total_payments": 445490.39,
+      "total_services": 6987,
+      "total_beneficiaries": 1188,
+      "avg_submitted": 203.12,
+      "avg_paid": 53.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 412382.48,
+      "total_services": 6390,
+      "total_beneficiaries": 1040,
+      "avg_submitted": 240.62,
+      "avg_paid": 73.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 311509.85,
+      "total_services": 4345,
+      "total_beneficiaries": 795,
+      "avg_submitted": 236.82,
+      "avg_paid": 73.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 358467.16,
+      "total_services": 4910,
+      "total_beneficiaries": 502,
+      "avg_submitted": 289.42,
+      "avg_paid": 97.09
+    },
+    {
+      "year": 2019,
+      "total_payments": 462373.82,
+      "total_services": 6402,
+      "total_beneficiaries": 550,
+      "avg_submitted": 253.45,
+      "avg_paid": 120.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 563911.98,
+      "total_services": 7873,
+      "total_beneficiaries": 1042,
+      "avg_submitted": 252.28,
+      "avg_paid": 122.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 497771.75,
+      "total_services": 7193,
+      "total_beneficiaries": 943,
+      "avg_submitted": 251.5,
+      "avg_paid": 119.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 437094.83,
+      "total_services": 6575,
+      "total_beneficiaries": 815,
+      "avg_submitted": 251.9,
+      "avg_paid": 116.11
+    },
+    {
+      "year": 2023,
+      "total_payments": 596024.75,
+      "total_services": 8406,
+      "total_beneficiaries": 977,
+      "avg_submitted": 252.41,
+      "avg_paid": 109.58
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 57581,
+      "payments": 3543910.52,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2571,
+      "payments": 425305.5,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2137,
+      "payments": 395929.94,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2563,
+      "payments": 148036.33,
+      "avg_markup": 5.36
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 114,
+      "payments": 9902.77,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 785,
+      "payments": 5449.87,
+      "avg_markup": 7.2
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 100,
+      "payments": 1808.78,
+      "avg_markup": 8.29
+    },
+    {
+      "code": "93018",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician interpretation and report",
+      "services": 103,
+      "payments": 1231.94,
+      "avg_markup": 15.72
+    },
+    {
+      "code": "93227",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 16,
+      "payments": 362.21,
+      "avg_markup": 7.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4531937.86,
+    "total_services": 65970,
+    "total_beneficiaries": 9194,
+    "avg_markup_ratio": 1.86
+  }
+}

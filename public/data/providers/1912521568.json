@@ -1,0 +1,65 @@
+{
+  "name": "Helix, Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 2794500.0,
+      "total_services": 27945,
+      "total_beneficiaries": 25559,
+      "avg_submitted": 101.16,
+      "avg_paid": 100.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 11650606.91,
+      "total_services": 227411,
+      "total_beneficiaries": 188466,
+      "avg_submitted": 74.44,
+      "avg_paid": 49.99
+    },
+    {
+      "year": 2022,
+      "total_payments": 9121295.3,
+      "total_services": 179988,
+      "total_beneficiaries": 146480,
+      "avg_submitted": 75.0,
+      "avg_paid": 49.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 167604.5,
+      "total_services": 3289,
+      "total_beneficiaries": 3121,
+      "avg_submitted": 75.0,
+      "avg_paid": 49.0
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 243456,
+      "payments": 18878171.13,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 195177,
+      "payments": 4855835.58,
+      "avg_markup": 1.0
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 23734006.72,
+    "total_services": 438633,
+    "total_beneficiaries": 363626,
+    "avg_markup_ratio": 1.45
+  }
+}

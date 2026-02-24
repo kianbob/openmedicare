@@ -1,0 +1,141 @@
+{
+  "name": "Starnet Emergency Services",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Mount Kisco",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1413850.03,
+      "total_services": 13256,
+      "total_beneficiaries": 8982,
+      "avg_submitted": 477.21,
+      "avg_paid": 227.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 1520731.23,
+      "total_services": 13895,
+      "total_beneficiaries": 9283,
+      "avg_submitted": 482.42,
+      "avg_paid": 231.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 1685814.77,
+      "total_services": 15072,
+      "total_beneficiaries": 9859,
+      "avg_submitted": 482.4,
+      "avg_paid": 230.18
+    },
+    {
+      "year": 2017,
+      "total_payments": 1738470.64,
+      "total_services": 15320,
+      "total_beneficiaries": 10177,
+      "avg_submitted": 482.4,
+      "avg_paid": 231.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 1714557.94,
+      "total_services": 15032,
+      "total_beneficiaries": 10102,
+      "avg_submitted": 482.4,
+      "avg_paid": 234.07
+    },
+    {
+      "year": 2019,
+      "total_payments": 1675834.91,
+      "total_services": 14053,
+      "total_beneficiaries": 9446,
+      "avg_submitted": 581.1,
+      "avg_paid": 311.48
+    },
+    {
+      "year": 2020,
+      "total_payments": 1724594.63,
+      "total_services": 13562,
+      "total_beneficiaries": 9435,
+      "avg_submitted": 645.34,
+      "avg_paid": 322.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 1924402.56,
+      "total_services": 15141,
+      "total_beneficiaries": 10290,
+      "avg_submitted": 635.18,
+      "avg_paid": 326.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 1963285.91,
+      "total_services": 15202,
+      "total_beneficiaries": 10202,
+      "avg_submitted": 664.81,
+      "avg_paid": 339.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 2367181.37,
+      "total_services": 17137,
+      "total_beneficiaries": 11173,
+      "avg_submitted": 849.18,
+      "avg_paid": 363.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 63582,
+      "payments": 13528388.28,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4573,
+      "payments": 1575046.96,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 3149,
+      "payments": 1275325.67,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 2681,
+      "payments": 667521.42,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 73350,
+      "payments": 438651.19,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 335,
+      "payments": 243790.46,
+      "avg_markup": 2.01
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 17728723.98,
+    "total_services": 147670,
+    "total_beneficiaries": 98949,
+    "avg_markup_ratio": 2.38
+  }
+}

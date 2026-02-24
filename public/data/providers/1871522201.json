@@ -1,0 +1,239 @@
+{
+  "name": "Jesus Ramirez",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Panama City",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 491810.58,
+      "total_services": 6106,
+      "total_beneficiaries": 3526,
+      "avg_submitted": 453.99,
+      "avg_paid": 107.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 463748.03,
+      "total_services": 4865,
+      "total_beneficiaries": 2798,
+      "avg_submitted": 503.21,
+      "avg_paid": 116.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 494217.06,
+      "total_services": 5881,
+      "total_beneficiaries": 2797,
+      "avg_submitted": 341.15,
+      "avg_paid": 120.18
+    },
+    {
+      "year": 2017,
+      "total_payments": 490970.78,
+      "total_services": 6074,
+      "total_beneficiaries": 3101,
+      "avg_submitted": 220.27,
+      "avg_paid": 92.37
+    },
+    {
+      "year": 2018,
+      "total_payments": 547726.17,
+      "total_services": 7088,
+      "total_beneficiaries": 3389,
+      "avg_submitted": 210.51,
+      "avg_paid": 90.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 443639.87,
+      "total_services": 5231,
+      "total_beneficiaries": 3694,
+      "avg_submitted": 213.08,
+      "avg_paid": 96.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 626774.43,
+      "total_services": 7447,
+      "total_beneficiaries": 3826,
+      "avg_submitted": 217.36,
+      "avg_paid": 99.64
+    },
+    {
+      "year": 2021,
+      "total_payments": 786312.43,
+      "total_services": 10250,
+      "total_beneficiaries": 3890,
+      "avg_submitted": 209.36,
+      "avg_paid": 103.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 555420.6,
+      "total_services": 7812,
+      "total_beneficiaries": 3679,
+      "avg_submitted": 239.61,
+      "avg_paid": 93.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 605002.28,
+      "total_services": 8302,
+      "total_beneficiaries": 3874,
+      "avg_submitted": 214.06,
+      "avg_paid": 92.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21450,
+      "payments": 1249579.85,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11797,
+      "payments": 988198.75,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10703,
+      "payments": 882245.09,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 1125,
+      "payments": 551065.35,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 723,
+      "payments": 336065.28,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4537,
+      "payments": 265266.62,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1364,
+      "payments": 239538.08,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1261,
+      "payments": 195547.68,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1216,
+      "payments": 128071.91,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 936,
+      "payments": 114137.4,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 2982,
+      "payments": 107647.67,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2244,
+      "payments": 86908.33,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 2191,
+      "payments": 83043.64,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "94618",
+      "description": "Test for exercise-induced lung stress",
+      "services": 1529,
+      "payments": 38935.44,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 352,
+      "payments": 34746.96,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "94620",
+      "description": "Pulmonary exercise testing",
+      "services": 663,
+      "payments": 27125.88,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 135,
+      "payments": 20556.11,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 540,
+      "payments": 20326.82,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "95807",
+      "description": "Sleep study attended by a technician",
+      "services": 55,
+      "payments": 19614.05,
+      "avg_markup": 4.12
+    },
+    {
+      "code": "31625",
+      "description": "Biopsy of lung airways using an endoscope",
+      "services": 140,
+      "payments": 18346.28,
+      "avg_markup": 2.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5505622.24,
+    "total_services": 69056,
+    "total_beneficiaries": 34574,
+    "avg_markup_ratio": 2.83
+  }
+}

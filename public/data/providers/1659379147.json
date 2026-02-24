@@ -1,0 +1,159 @@
+{
+  "name": "Theodore Allen",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Bronx",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 65050.74,
+      "total_services": 1044,
+      "total_beneficiaries": 203,
+      "avg_submitted": 255.63,
+      "avg_paid": 62.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 80736.64,
+      "total_services": 1395,
+      "total_beneficiaries": 313,
+      "avg_submitted": 239.71,
+      "avg_paid": 81.58
+    },
+    {
+      "year": 2019,
+      "total_payments": 231559.56,
+      "total_services": 3397,
+      "total_beneficiaries": 733,
+      "avg_submitted": 221.96,
+      "avg_paid": 87.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 416613.01,
+      "total_services": 5860,
+      "total_beneficiaries": 787,
+      "avg_submitted": 255.34,
+      "avg_paid": 71.87
+    },
+    {
+      "year": 2021,
+      "total_payments": 1005262.71,
+      "total_services": 13897,
+      "total_beneficiaries": 1476,
+      "avg_submitted": 279.83,
+      "avg_paid": 86.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 1031083.56,
+      "total_services": 14961,
+      "total_beneficiaries": 1363,
+      "avg_submitted": 323.87,
+      "avg_paid": 83.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 76831.81,
+      "total_services": 866,
+      "total_beneficiaries": 382,
+      "avg_submitted": 302.23,
+      "avg_paid": 98.67
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 26439,
+      "payments": 1687158.74,
+      "avg_markup": 5.37
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 13007,
+      "payments": 1095391.11,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1149,
+      "payments": 45466.55,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 340,
+      "payments": 32878.77,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care per day, typically 70 minutes",
+      "services": 78,
+      "payments": 12942.53,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 77,
+      "payments": 11734.44,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 94,
+      "payments": 6950.36,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 122,
+      "payments": 4467.86,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 25,
+      "payments": 3280.75,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 42,
+      "payments": 2894.45,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 22,
+      "payments": 2113.98,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 25,
+      "payments": 1858.5,
+      "avg_markup": 1.35
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2907138.04,
+    "total_services": 41420,
+    "total_beneficiaries": 5257,
+    "avg_markup_ratio": 5.02
+  }
+}

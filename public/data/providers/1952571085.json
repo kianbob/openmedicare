@@ -1,0 +1,190 @@
+{
+  "name": "Leonard Weiner",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Brick",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 239021.81,
+      "total_services": 3093,
+      "total_beneficiaries": 1382,
+      "avg_submitted": 378.68,
+      "avg_paid": 101.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 258206.47,
+      "total_services": 3386,
+      "total_beneficiaries": 1460,
+      "avg_submitted": 359.24,
+      "avg_paid": 94.18
+    },
+    {
+      "year": 2016,
+      "total_payments": 233373.71,
+      "total_services": 3132,
+      "total_beneficiaries": 1438,
+      "avg_submitted": 372.04,
+      "avg_paid": 92.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 237301.45,
+      "total_services": 3056,
+      "total_beneficiaries": 1417,
+      "avg_submitted": 260.68,
+      "avg_paid": 91.01
+    },
+    {
+      "year": 2018,
+      "total_payments": 237744.87,
+      "total_services": 3087,
+      "total_beneficiaries": 1350,
+      "avg_submitted": 213.76,
+      "avg_paid": 99.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 220754.59,
+      "total_services": 2829,
+      "total_beneficiaries": 1264,
+      "avg_submitted": 218.5,
+      "avg_paid": 96.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 227579.32,
+      "total_services": 2398,
+      "total_beneficiaries": 1212,
+      "avg_submitted": 272.79,
+      "avg_paid": 136.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 284088.52,
+      "total_services": 2659,
+      "total_beneficiaries": 1404,
+      "avg_submitted": 270.75,
+      "avg_paid": 137.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 251217.46,
+      "total_services": 2467,
+      "total_beneficiaries": 1288,
+      "avg_submitted": 273.88,
+      "avg_paid": 145.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 274744.99,
+      "total_services": 2551,
+      "total_beneficiaries": 1262,
+      "avg_submitted": 270.0,
+      "avg_paid": 133.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15370,
+      "payments": 930626.53,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5799,
+      "payments": 492239.54,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2353,
+      "payments": 391180.42,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2538,
+      "payments": 229183.53,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 642,
+      "payments": 183136.36,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 639,
+      "payments": 81852.55,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 474,
+      "payments": 54206.3,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 169,
+      "payments": 40333.0,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 191,
+      "payments": 34774.52,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 189,
+      "payments": 10612.44,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 162,
+      "payments": 9787.64,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 114,
+      "payments": 4735.51,
+      "avg_markup": 4.37
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 18,
+      "payments": 1364.85,
+      "avg_markup": 3.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2464033.19,
+    "total_services": 28658,
+    "total_beneficiaries": 13477,
+    "avg_markup_ratio": 2.52
+  }
+}

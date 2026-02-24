@@ -1,0 +1,239 @@
+{
+  "name": "Danny Wang",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Grand Rapids",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 500035.13,
+      "total_services": 6992,
+      "total_beneficiaries": 5156,
+      "avg_submitted": 612.89,
+      "avg_paid": 178.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 608554.39,
+      "total_services": 8333,
+      "total_beneficiaries": 6446,
+      "avg_submitted": 384.25,
+      "avg_paid": 105.98
+    },
+    {
+      "year": 2016,
+      "total_payments": 571439.91,
+      "total_services": 7690,
+      "total_beneficiaries": 6147,
+      "avg_submitted": 502.46,
+      "avg_paid": 155.26
+    },
+    {
+      "year": 2017,
+      "total_payments": 459470.18,
+      "total_services": 6720,
+      "total_beneficiaries": 5362,
+      "avg_submitted": 515.84,
+      "avg_paid": 135.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 360097.79,
+      "total_services": 5539,
+      "total_beneficiaries": 4139,
+      "avg_submitted": 584.48,
+      "avg_paid": 138.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 375768.78,
+      "total_services": 5779,
+      "total_beneficiaries": 4168,
+      "avg_submitted": 833.09,
+      "avg_paid": 168.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 208410.46,
+      "total_services": 3802,
+      "total_beneficiaries": 2826,
+      "avg_submitted": 202.08,
+      "avg_paid": 58.66
+    },
+    {
+      "year": 2021,
+      "total_payments": 194441.19,
+      "total_services": 3570,
+      "total_beneficiaries": 2540,
+      "avg_submitted": 503.89,
+      "avg_paid": 98.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 157573.7,
+      "total_services": 3107,
+      "total_beneficiaries": 2235,
+      "avg_submitted": 202.67,
+      "avg_paid": 57.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 189624.04,
+      "total_services": 2943,
+      "total_beneficiaries": 2124,
+      "avg_submitted": 215.45,
+      "avg_paid": 62.15
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 11772,
+      "payments": 718583.72,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 5350,
+      "payments": 447152.09,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow, 1 or more sessions",
+      "services": 2061,
+      "payments": 418890.68,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 6084,
+      "payments": 261252.44,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 5597,
+      "payments": 248810.8,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "92275",
+      "description": "Recording of retinal electrical responses to external stimuli",
+      "services": 1933,
+      "payments": 203829.62,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 359,
+      "payments": 187346.09,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "95930",
+      "description": "Measurement and recording of nerve conduction patterns using visually-evoked stimulation",
+      "services": 1749,
+      "payments": 161555.19,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1845,
+      "payments": 157251.37,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 2544,
+      "payments": 156592.46,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 5614,
+      "payments": 153956.4,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 4697,
+      "payments": 142161.31,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "0191T",
+      "description": "Internal insertion of eye fluid drainage device",
+      "services": 198,
+      "payments": 100138.22,
+      "avg_markup": 6.37
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 542,
+      "payments": 60228.37,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 2211,
+      "payments": 44344.56,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "92136",
+      "description": "Measurement of corneal curvature and depth of eye",
+      "services": 502,
+      "payments": 27193.83,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 63,
+      "payments": 25779.32,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "66180",
+      "description": "Creation of shunt to improve eye fluid flow",
+      "services": 21,
+      "payments": 18827.2,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 71,
+      "payments": 17521.6,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "65850",
+      "description": "Insertion of eye fluid drainage tube",
+      "services": 24,
+      "payments": 15064.32,
+      "avg_markup": 2.62
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3625415.55,
+    "total_services": 54475,
+    "total_beneficiaries": 41143,
+    "avg_markup_ratio": 3.22
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Ambulance Service, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Steubenville",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 886617.69,
+      "total_services": 8267,
+      "total_beneficiaries": 3456,
+      "avg_submitted": 619.81,
+      "avg_paid": 232.23
+    },
+    {
+      "year": 2015,
+      "total_payments": 847838.89,
+      "total_services": 7722,
+      "total_beneficiaries": 3348,
+      "avg_submitted": 549.02,
+      "avg_paid": 190.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 965650.46,
+      "total_services": 8279,
+      "total_beneficiaries": 4172,
+      "avg_submitted": 647.12,
+      "avg_paid": 234.64
+    },
+    {
+      "year": 2017,
+      "total_payments": 880731.5,
+      "total_services": 7578,
+      "total_beneficiaries": 4128,
+      "avg_submitted": 661.82,
+      "avg_paid": 236.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 817351.3,
+      "total_services": 6891,
+      "total_beneficiaries": 3590,
+      "avg_submitted": 672.74,
+      "avg_paid": 238.45
+    },
+    {
+      "year": 2019,
+      "total_payments": 798944.05,
+      "total_services": 6699,
+      "total_beneficiaries": 3403,
+      "avg_submitted": 672.75,
+      "avg_paid": 242.22
+    },
+    {
+      "year": 2020,
+      "total_payments": 434776.23,
+      "total_services": 3553,
+      "total_beneficiaries": 1935,
+      "avg_submitted": 572.3,
+      "avg_paid": 199.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 120528.33,
+      "total_services": 1155,
+      "total_beneficiaries": 641,
+      "avg_submitted": 551.81,
+      "avg_paid": 197.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 13270,
+      "payments": 2143450.55,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6727,
+      "payments": 1816769.09,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 4029,
+      "payments": 1292647.86,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1600,
+      "payments": 322191.86,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 24445,
+      "payments": 143555.43,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 73,
+      "payments": 33823.66,
+      "avg_markup": 2.43
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 5752438.45,
+    "total_services": 50144,
+    "total_beneficiaries": 24673,
+    "avg_markup_ratio": 2.87
+  }
+}

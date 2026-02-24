@@ -1,0 +1,239 @@
+{
+  "name": "Ferdinand Osuji",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Gadsden",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 333878.01,
+      "total_services": 4935,
+      "total_beneficiaries": 2583,
+      "avg_submitted": 147.8,
+      "avg_paid": 74.0
+    },
+    {
+      "year": 2015,
+      "total_payments": 384034.58,
+      "total_services": 5680,
+      "total_beneficiaries": 2976,
+      "avg_submitted": 147.82,
+      "avg_paid": 73.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 312326.01,
+      "total_services": 4779,
+      "total_beneficiaries": 2776,
+      "avg_submitted": 146.38,
+      "avg_paid": 75.64
+    },
+    {
+      "year": 2017,
+      "total_payments": 260562.57,
+      "total_services": 3989,
+      "total_beneficiaries": 2398,
+      "avg_submitted": 146.59,
+      "avg_paid": 70.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 351494.8,
+      "total_services": 5076,
+      "total_beneficiaries": 2705,
+      "avg_submitted": 133.21,
+      "avg_paid": 69.93
+    },
+    {
+      "year": 2019,
+      "total_payments": 281940.39,
+      "total_services": 4126,
+      "total_beneficiaries": 2343,
+      "avg_submitted": 138.97,
+      "avg_paid": 71.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 278489.38,
+      "total_services": 3886,
+      "total_beneficiaries": 2185,
+      "avg_submitted": 168.9,
+      "avg_paid": 87.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 258581.63,
+      "total_services": 3756,
+      "total_beneficiaries": 1951,
+      "avg_submitted": 159.83,
+      "avg_paid": 81.34
+    },
+    {
+      "year": 2022,
+      "total_payments": 226821.8,
+      "total_services": 3431,
+      "total_beneficiaries": 1816,
+      "avg_submitted": 148.98,
+      "avg_paid": 73.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 310221.53,
+      "total_services": 4234,
+      "total_beneficiaries": 2121,
+      "avg_submitted": 164.09,
+      "avg_paid": 76.19
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15527,
+      "payments": 835483.13,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4999,
+      "payments": 699195.01,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4645,
+      "payments": 367012.36,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2773,
+      "payments": 220695.27,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 6397,
+      "payments": 190027.44,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2937,
+      "payments": 156677.08,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1173,
+      "payments": 147176.57,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1284,
+      "payments": 122441.24,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 917,
+      "payments": 46621.59,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 465,
+      "payments": 45014.42,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 780,
+      "payments": 41036.36,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 159,
+      "payments": 26158.32,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 427,
+      "payments": 23418.26,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 212,
+      "payments": 15124.59,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 160,
+      "payments": 14187.39,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 422,
+      "payments": 13703.06,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 173,
+      "payments": 9591.45,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 173,
+      "payments": 7251.06,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 135,
+      "payments": 5213.82,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 31,
+      "payments": 5006.53,
+      "avg_markup": 1.55
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2998350.7,
+    "total_services": 43892,
+    "total_beneficiaries": 23854,
+    "avg_markup_ratio": 1.7
+  }
+}

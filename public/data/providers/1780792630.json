@@ -1,0 +1,127 @@
+{
+  "name": "Tri-City Ambulance",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "St Charles",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 599921.78,
+      "total_services": 3548,
+      "total_beneficiaries": 2661,
+      "avg_submitted": 560.2,
+      "avg_paid": 284.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 643207.27,
+      "total_services": 3754,
+      "total_beneficiaries": 2719,
+      "avg_submitted": 608.92,
+      "avg_paid": 288.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 631991.12,
+      "total_services": 3738,
+      "total_beneficiaries": 2780,
+      "avg_submitted": 716.95,
+      "avg_paid": 286.04
+    },
+    {
+      "year": 2017,
+      "total_payments": 648595.87,
+      "total_services": 3776,
+      "total_beneficiaries": 2763,
+      "avg_submitted": 784.15,
+      "avg_paid": 288.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 649934.61,
+      "total_services": 3854,
+      "total_beneficiaries": 2839,
+      "avg_submitted": 854.33,
+      "avg_paid": 284.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 667479.6,
+      "total_services": 3777,
+      "total_beneficiaries": 2758,
+      "avg_submitted": 997.34,
+      "avg_paid": 299.01
+    },
+    {
+      "year": 2020,
+      "total_payments": 668033.91,
+      "total_services": 3663,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 1134.31,
+      "avg_paid": 306.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 745780.48,
+      "total_services": 4027,
+      "total_beneficiaries": 2843,
+      "avg_submitted": 1170.96,
+      "avg_paid": 309.55
+    },
+    {
+      "year": 2022,
+      "total_payments": 908452.67,
+      "total_services": 4689,
+      "total_beneficiaries": 3126,
+      "avg_submitted": 1163.58,
+      "avg_paid": 322.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 987008.39,
+      "total_services": 4755,
+      "total_beneficiaries": 3254,
+      "avg_submitted": 1160.61,
+      "avg_paid": 345.74
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 15044,
+      "payments": 5537747.18,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4577,
+      "payments": 1393318.8,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 19769,
+      "payments": 118662.06,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 191,
+      "payments": 100677.65,
+      "avg_markup": 2.52
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7150405.7,
+    "total_services": 39581,
+    "total_beneficiaries": 28436,
+    "avg_markup_ratio": 3.38
+  }
+}

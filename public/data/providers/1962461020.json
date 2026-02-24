@@ -1,0 +1,239 @@
+{
+  "name": "Huy Hoang",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Westminster",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 535463.27,
+      "total_services": 14055,
+      "total_beneficiaries": 2654,
+      "avg_submitted": 67.6,
+      "avg_paid": 41.98
+    },
+    {
+      "year": 2015,
+      "total_payments": 481641.32,
+      "total_services": 13668,
+      "total_beneficiaries": 2328,
+      "avg_submitted": 65.0,
+      "avg_paid": 39.52
+    },
+    {
+      "year": 2016,
+      "total_payments": 461834.63,
+      "total_services": 13146,
+      "total_beneficiaries": 2162,
+      "avg_submitted": 68.94,
+      "avg_paid": 42.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 513386.1,
+      "total_services": 12639,
+      "total_beneficiaries": 2190,
+      "avg_submitted": 73.06,
+      "avg_paid": 52.2
+    },
+    {
+      "year": 2018,
+      "total_payments": 442437.85,
+      "total_services": 13265,
+      "total_beneficiaries": 1950,
+      "avg_submitted": 73.6,
+      "avg_paid": 43.8
+    },
+    {
+      "year": 2019,
+      "total_payments": 448539.07,
+      "total_services": 13005,
+      "total_beneficiaries": 1910,
+      "avg_submitted": 73.6,
+      "avg_paid": 45.48
+    },
+    {
+      "year": 2020,
+      "total_payments": 209213.71,
+      "total_services": 6019,
+      "total_beneficiaries": 1475,
+      "avg_submitted": 63.5,
+      "avg_paid": 35.97
+    },
+    {
+      "year": 2021,
+      "total_payments": 506128.0,
+      "total_services": 13237,
+      "total_beneficiaries": 2217,
+      "avg_submitted": 74.23,
+      "avg_paid": 47.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 440541.62,
+      "total_services": 11454,
+      "total_beneficiaries": 1939,
+      "avg_submitted": 77.61,
+      "avg_paid": 47.32
+    },
+    {
+      "year": 2023,
+      "total_payments": 352784.34,
+      "total_services": 9692,
+      "total_beneficiaries": 1525,
+      "avg_submitted": 77.62,
+      "avg_paid": 46.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 16472,
+      "payments": 1105736.77,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "98928",
+      "description": "Osteopathic manipulative treatment to 7-8 body regions",
+      "services": 17574,
+      "payments": 1099659.38,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "97530",
+      "description": "Therapeutic activities to improve function, with one-on-one contact between patient and provider, each 15 minutes",
+      "services": 13324,
+      "payments": 428756.93,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "97112",
+      "description": "Therapeutic procedure to re-educate brain-to-nerve-to-muscle function, each 15 minutes",
+      "services": 15027,
+      "payments": 347827.74,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "97110",
+      "description": "Therapeutic exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 13862,
+      "payments": 286297.89,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "97124",
+      "description": "Therapeutic massage to 1 or more areas, each 15 minutes",
+      "services": 15060,
+      "payments": 268724.67,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "64566",
+      "description": "Implantation of lower leg neurostimulator electrode, accessed through the skin",
+      "services": 2023,
+      "payments": 232514.08,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "97012",
+      "description": "Application of mechanical traction to 1 or more areas",
+      "services": 14888,
+      "payments": 155200.16,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "97810",
+      "description": "Acupuncture 1 or more needles, first 15 minutes",
+      "services": 4117,
+      "payments": 136598.62,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1655,
+      "payments": 69897.1,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "20550",
+      "description": "Injections of tendon sheath, ligament, or muscle membrane",
+      "services": 1771,
+      "payments": 64465.33,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "20551",
+      "description": "Injections of tendon attachment to bone",
+      "services": 1541,
+      "payments": 57599.75,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 532,
+      "payments": 49371.42,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 535,
+      "payments": 43312.18,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "20552",
+      "description": "Injections of trigger points in 1 or 2 muscles",
+      "services": 285,
+      "payments": 12558.79,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 445,
+      "payments": 10508.57,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "90674",
+      "description": "Vaccine for influenza for administration into muscle, 0.5 ml dosage",
+      "services": 239,
+      "payments": 6124.59,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "97032",
+      "description": "Application of electrical stimulation to 1 or more areas, each 15 minutes",
+      "services": 339,
+      "payments": 4116.08,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "20553",
+      "description": "Injections of trigger points in 3 or more muscles",
+      "services": 82,
+      "payments": 3653.79,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 25,
+      "payments": 3332.0,
+      "avg_markup": 1.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4391969.9,
+    "total_services": 120180,
+    "total_beneficiaries": 20350,
+    "avg_markup_ratio": 1.63
+  }
+}

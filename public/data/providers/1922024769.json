@@ -1,0 +1,239 @@
+{
+  "name": "Johnny Wong",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Mechanicsville",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 246518.52,
+      "total_services": 3194,
+      "total_beneficiaries": 2249,
+      "avg_submitted": 270.82,
+      "avg_paid": 69.02
+    },
+    {
+      "year": 2015,
+      "total_payments": 280175.45,
+      "total_services": 3617,
+      "total_beneficiaries": 2653,
+      "avg_submitted": 274.19,
+      "avg_paid": 76.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 191827.38,
+      "total_services": 2510,
+      "total_beneficiaries": 1963,
+      "avg_submitted": 259.45,
+      "avg_paid": 68.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 221125.72,
+      "total_services": 2752,
+      "total_beneficiaries": 1957,
+      "avg_submitted": 367.16,
+      "avg_paid": 72.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 253826.66,
+      "total_services": 3225,
+      "total_beneficiaries": 2183,
+      "avg_submitted": 339.95,
+      "avg_paid": 65.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 236783.54,
+      "total_services": 3289,
+      "total_beneficiaries": 1968,
+      "avg_submitted": 249.36,
+      "avg_paid": 64.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 239591.78,
+      "total_services": 3526,
+      "total_beneficiaries": 1762,
+      "avg_submitted": 207.32,
+      "avg_paid": 62.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 261976.0,
+      "total_services": 4516,
+      "total_beneficiaries": 2003,
+      "avg_submitted": 198.85,
+      "avg_paid": 62.44
+    },
+    {
+      "year": 2022,
+      "total_payments": 247719.21,
+      "total_services": 4195,
+      "total_beneficiaries": 1983,
+      "avg_submitted": 191.97,
+      "avg_paid": 59.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 266728.74,
+      "total_services": 4147,
+      "total_beneficiaries": 2135,
+      "avg_submitted": 205.9,
+      "avg_paid": 68.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5313,
+      "payments": 447235.74,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4735,
+      "payments": 384224.82,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1989,
+      "payments": 345909.02,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3527,
+      "payments": 196639.81,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 4287,
+      "payments": 159692.41,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1036,
+      "payments": 155936.29,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1290,
+      "payments": 148369.8,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1428,
+      "payments": 81411.79,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 493,
+      "payments": 58495.19,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1296,
+      "payments": 57747.99,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 377,
+      "payments": 57219.88,
+      "avg_markup": 4.01
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1383,
+      "payments": 54045.85,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1247,
+      "payments": 52947.07,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 1250,
+      "payments": 50125.93,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 734,
+      "payments": 28212.01,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 203,
+      "payments": 20245.56,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 799,
+      "payments": 20216.15,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 90,
+      "payments": 14997.48,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 41,
+      "payments": 11574.29,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "J2357",
+      "description": "Injection, omalizumab, 5 mg",
+      "services": 349,
+      "payments": 10367.02,
+      "avg_markup": 2.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2446272.99,
+    "total_services": 34971,
+    "total_beneficiaries": 20856,
+    "avg_markup_ratio": 3.79
+  }
+}

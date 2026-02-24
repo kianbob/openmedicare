@@ -1,0 +1,64 @@
+{
+  "name": "Curative Labs Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Round Rock",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 411600.0,
+      "total_services": 4116,
+      "total_beneficiaries": 3593,
+      "avg_submitted": 249.94,
+      "avg_paid": 100.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 5738862.36,
+      "total_services": 111621,
+      "total_beneficiaries": 63460,
+      "avg_submitted": 132.45,
+      "avg_paid": 47.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 10198921.97,
+      "total_services": 201692,
+      "total_beneficiaries": 90192,
+      "avg_submitted": 133.33,
+      "avg_paid": 46.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 167105,
+      "payments": 12569808.0,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 147712,
+      "payments": 3671698.0,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "87811",
+      "description": "Sars-cov-2 covid19 w/optic",
+      "services": 2612,
+      "payments": 107878.33,
+      "avg_markup": 2.42
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 16349384.33,
+    "total_services": 317429,
+    "total_beneficiaries": 157245,
+    "avg_markup_ratio": 3.01
+  }
+}

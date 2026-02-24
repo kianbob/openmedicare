@@ -1,0 +1,223 @@
+{
+  "name": "Elcin Zan",
+  "credentials": "MD",
+  "specialty": "Nuclear Medicine",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 49661.76,
+      "total_services": 629,
+      "total_beneficiaries": 622,
+      "avg_submitted": 712.46,
+      "avg_paid": 104.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 207017.91,
+      "total_services": 1794,
+      "total_beneficiaries": 1767,
+      "avg_submitted": 968.15,
+      "avg_paid": 99.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 287860.14,
+      "total_services": 1759,
+      "total_beneficiaries": 1720,
+      "avg_submitted": 1191.24,
+      "avg_paid": 135.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 366166.05,
+      "total_services": 2029,
+      "total_beneficiaries": 1989,
+      "avg_submitted": 1350.31,
+      "avg_paid": 143.01
+    },
+    {
+      "year": 2020,
+      "total_payments": 356071.64,
+      "total_services": 1736,
+      "total_beneficiaries": 1704,
+      "avg_submitted": 2145.61,
+      "avg_paid": 166.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 485823.38,
+      "total_services": 1988,
+      "total_beneficiaries": 1935,
+      "avg_submitted": 2279.6,
+      "avg_paid": 300.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 336716.28,
+      "total_services": 1261,
+      "total_beneficiaries": 1248,
+      "avg_submitted": 2864.2,
+      "avg_paid": 318.4
+    },
+    {
+      "year": 2023,
+      "total_payments": 756066.66,
+      "total_services": 1655,
+      "total_beneficiaries": 1607,
+      "avg_submitted": 2743.28,
+      "avg_paid": 455.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78608",
+      "description": "Nuclear medicine study brain with metabolic evaluation",
+      "services": 1167,
+      "payments": 787325.6,
+      "avg_markup": 4.81
+    },
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with CT imaging skull base to mid-thigh",
+      "services": 1568,
+      "payments": 486879.59,
+      "avg_markup": 16.96
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 1352,
+      "payments": 393618.85,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "78812",
+      "description": "Nuclear medicine imaging from skull base to mid-thigh",
+      "services": 356,
+      "payments": 264085.79,
+      "avg_markup": 6.77
+    },
+    {
+      "code": "A9597",
+      "description": "Positron emission tomography radiopharmaceutical, diagnostic, for tumor identification, not otherwise classified",
+      "services": 36,
+      "payments": 134540.97,
+      "avg_markup": 4.42
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 1359,
+      "payments": 131784.42,
+      "avg_markup": 11.24
+    },
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 808,
+      "payments": 120229.45,
+      "avg_markup": 13.28
+    },
+    {
+      "code": "78816",
+      "description": "Nuclear medicine study with CT imaging whole body",
+      "services": 257,
+      "payments": 104482.15,
+      "avg_markup": 15.78
+    },
+    {
+      "code": "70543",
+      "description": "MRI scan bones of the eye, face, and/or neck before and after contrast",
+      "services": 305,
+      "payments": 56275.82,
+      "avg_markup": 11.7
+    },
+    {
+      "code": "A9588",
+      "description": "Fluciclovine f-18, diagnostic, 1 millicurie",
+      "services": 121,
+      "payments": 44390.03,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "70450",
+      "description": "CT scan head or brain",
+      "services": 1056,
+      "payments": 37373.05,
+      "avg_markup": 7.07
+    },
+    {
+      "code": "Q9983",
+      "description": "Florbetaben f18, diagnostic, per study dose, up to 8.1 millicuries",
+      "services": 12,
+      "payments": 35123.2,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "74183",
+      "description": "MRI scan of abdomen before and after contrast",
+      "services": 182,
+      "payments": 33854.65,
+      "avg_markup": 11.86
+    },
+    {
+      "code": "72197",
+      "description": "MRI scan of pelvis before and after contrast",
+      "services": 239,
+      "payments": 31180.56,
+      "avg_markup": 16.86
+    },
+    {
+      "code": "78814",
+      "description": "Nuclear medicine study limited area with ct scan",
+      "services": 20,
+      "payments": 30113.2,
+      "avg_markup": 5.17
+    },
+    {
+      "code": "70491",
+      "description": "CT scan of neck with contrast",
+      "services": 365,
+      "payments": 28667.65,
+      "avg_markup": 10.93
+    },
+    {
+      "code": "76377",
+      "description": "3D radiographic procedure with computerized image postprocessing",
+      "services": 698,
+      "payments": 23295.76,
+      "avg_markup": 11.88
+    },
+    {
+      "code": "70486",
+      "description": "CT scan of face",
+      "services": 296,
+      "payments": 15368.72,
+      "avg_markup": 7.98
+    },
+    {
+      "code": "A9595",
+      "description": "Piflufolastat f-18, diagnostic, 1 millicurie",
+      "services": 23,
+      "payments": 11510.42,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 123,
+      "payments": 10342.97,
+      "avg_markup": 10.83
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 2845383.83,
+    "total_services": 12851,
+    "total_beneficiaries": 12592,
+    "avg_markup_ratio": 8.52
+  }
+}

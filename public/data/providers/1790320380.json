@@ -1,0 +1,72 @@
+{
+  "name": "Strata Oncology, Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 40874.4,
+      "total_services": 14,
+      "total_beneficiaries": 14,
+      "avg_submitted": 4800.0,
+      "avg_paid": 2919.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 1728403.2,
+      "total_services": 592,
+      "total_beneficiaries": 587,
+      "avg_submitted": 4800.0,
+      "avg_paid": 2919.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 1452880.93,
+      "total_services": 504,
+      "total_beneficiaries": 494,
+      "avg_submitted": 4800.0,
+      "avg_paid": 2882.7
+    },
+    {
+      "year": 2023,
+      "total_payments": 1471361.72,
+      "total_services": 555,
+      "total_beneficiaries": 550,
+      "avg_submitted": 3895.83,
+      "avg_paid": 2172.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "81479",
+      "description": "Molecular pathology procedure",
+      "services": 1382,
+      "payments": 4036478.17,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "0391U",
+      "description": "Onc sld tum dna&rna 437 gen",
+      "services": 189,
+      "payments": 648270.0,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "88360",
+      "description": "Microscopic genetic analysis of tumor, manual",
+      "services": 94,
+      "payments": 8772.08,
+      "avg_markup": 2.14
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4693520.25,
+    "total_services": 1665,
+    "total_beneficiaries": 1645,
+    "avg_markup_ratio": 1.69
+  }
+}

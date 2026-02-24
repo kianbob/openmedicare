@@ -1,0 +1,137 @@
+{
+  "name": "William Christie",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Brea",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 681050.29,
+      "total_services": 13069,
+      "total_beneficiaries": 10491,
+      "avg_submitted": 132.5,
+      "avg_paid": 72.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 549742.74,
+      "total_services": 10648,
+      "total_beneficiaries": 8668,
+      "avg_submitted": 100.11,
+      "avg_paid": 64.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 566892.17,
+      "total_services": 9159,
+      "total_beneficiaries": 8423,
+      "avg_submitted": 113.36,
+      "avg_paid": 62.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 636916.93,
+      "total_services": 9372,
+      "total_beneficiaries": 8968,
+      "avg_submitted": 150.75,
+      "avg_paid": 75.88
+    },
+    {
+      "year": 2018,
+      "total_payments": 391822.99,
+      "total_services": 5944,
+      "total_beneficiaries": 5675,
+      "avg_submitted": 160.37,
+      "avg_paid": 70.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 218288.91,
+      "total_services": 3537,
+      "total_beneficiaries": 3497,
+      "avg_submitted": 168.99,
+      "avg_paid": 72.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 7276,
+      "payments": 956862.84,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 6257,
+      "payments": 477508.93,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 4176,
+      "payments": 449599.76,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6489,
+      "payments": 374388.44,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 4040,
+      "payments": 303746.78,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 12420,
+      "payments": 240663.51,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 10474,
+      "payments": 179164.21,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 258,
+      "payments": 28865.72,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 220,
+      "payments": 20479.11,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 119,
+      "payments": 13434.74,
+      "avg_markup": 1.91
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3044714.04,
+    "total_services": 51729,
+    "total_beneficiaries": 45722,
+    "avg_markup_ratio": 1.95
+  }
+}

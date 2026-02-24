@@ -1,0 +1,239 @@
+{
+  "name": "Fred Murphy",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Magnolia",
+  "state": "AR",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 314192.37,
+      "total_services": 6379,
+      "total_beneficiaries": 2701,
+      "avg_submitted": 88.04,
+      "avg_paid": 56.05
+    },
+    {
+      "year": 2015,
+      "total_payments": 161148.02,
+      "total_services": 2630,
+      "total_beneficiaries": 1650,
+      "avg_submitted": 115.26,
+      "avg_paid": 62.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 344812.31,
+      "total_services": 5105,
+      "total_beneficiaries": 1805,
+      "avg_submitted": 123.82,
+      "avg_paid": 63.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 360867.31,
+      "total_services": 4936,
+      "total_beneficiaries": 1532,
+      "avg_submitted": 125.29,
+      "avg_paid": 68.87
+    },
+    {
+      "year": 2018,
+      "total_payments": 377948.63,
+      "total_services": 5099,
+      "total_beneficiaries": 1344,
+      "avg_submitted": 148.22,
+      "avg_paid": 72.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 369900.41,
+      "total_services": 4978,
+      "total_beneficiaries": 1368,
+      "avg_submitted": 161.43,
+      "avg_paid": 75.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 369586.2,
+      "total_services": 4964,
+      "total_beneficiaries": 1231,
+      "avg_submitted": 180.74,
+      "avg_paid": 85.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 354476.4,
+      "total_services": 4592,
+      "total_beneficiaries": 1186,
+      "avg_submitted": 195.99,
+      "avg_paid": 83.32
+    },
+    {
+      "year": 2022,
+      "total_payments": 364256.86,
+      "total_services": 4736,
+      "total_beneficiaries": 1117,
+      "avg_submitted": 203.9,
+      "avg_paid": 81.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 373030.2,
+      "total_services": 4538,
+      "total_beneficiaries": 767,
+      "avg_submitted": 204.34,
+      "avg_paid": 93.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0423",
+      "description": "Intensive cardiac rehabilitation; with or without continuous ecg monitoring; without exercise, per session",
+      "services": 13630,
+      "payments": 1109076.97,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "G0422",
+      "description": "Intensive cardiac rehabilitation; with or without continuous ecg monitoring with exercise, per session",
+      "services": 13655,
+      "payments": 1108267.74,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3977,
+      "payments": 212744.18,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 961,
+      "payments": 129048.77,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 694,
+      "payments": 101604.04,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1683,
+      "payments": 89870.84,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2342,
+      "payments": 79527.14,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 986,
+      "payments": 75928.11,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2559,
+      "payments": 75449.24,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 826,
+      "payments": 65249.13,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 636,
+      "payments": 63268.68,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1121,
+      "payments": 60949.83,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 1066,
+      "payments": 55868.08,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 329,
+      "payments": 37238.41,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 788,
+      "payments": 31183.34,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 121,
+      "payments": 13759.76,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "36558",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 60,
+      "payments": 11462.48,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 203,
+      "payments": 11064.21,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 87,
+      "payments": 8794.05,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 227,
+      "payments": 8683.18,
+      "avg_markup": 2.34
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3390218.72,
+    "total_services": 47957,
+    "total_beneficiaries": 14701,
+    "avg_markup_ratio": 1.88
+  }
+}

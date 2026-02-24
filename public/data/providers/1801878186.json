@@ -1,0 +1,239 @@
+{
+  "name": "Kenneth Santiago",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Myrtle Beach",
+  "state": "SC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 202940.54,
+      "total_services": 2873,
+      "total_beneficiaries": 1613,
+      "avg_submitted": 234.68,
+      "avg_paid": 78.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 256722.38,
+      "total_services": 3755,
+      "total_beneficiaries": 1850,
+      "avg_submitted": 233.37,
+      "avg_paid": 86.02
+    },
+    {
+      "year": 2016,
+      "total_payments": 357195.69,
+      "total_services": 5248,
+      "total_beneficiaries": 2477,
+      "avg_submitted": 205.73,
+      "avg_paid": 89.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 354056.04,
+      "total_services": 5082,
+      "total_beneficiaries": 2778,
+      "avg_submitted": 193.1,
+      "avg_paid": 83.54
+    },
+    {
+      "year": 2018,
+      "total_payments": 433860.42,
+      "total_services": 6167,
+      "total_beneficiaries": 3343,
+      "avg_submitted": 200.06,
+      "avg_paid": 89.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 520310.71,
+      "total_services": 7563,
+      "total_beneficiaries": 3399,
+      "avg_submitted": 145.83,
+      "avg_paid": 81.25
+    },
+    {
+      "year": 2020,
+      "total_payments": 468114.41,
+      "total_services": 6888,
+      "total_beneficiaries": 2477,
+      "avg_submitted": 143.23,
+      "avg_paid": 81.31
+    },
+    {
+      "year": 2021,
+      "total_payments": 445900.05,
+      "total_services": 6767,
+      "total_beneficiaries": 2887,
+      "avg_submitted": 134.32,
+      "avg_paid": 73.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 360941.36,
+      "total_services": 5679,
+      "total_beneficiaries": 2348,
+      "avg_submitted": 135.0,
+      "avg_paid": 72.1
+    },
+    {
+      "year": 2023,
+      "total_payments": 467118.16,
+      "total_services": 8147,
+      "total_beneficiaries": 2824,
+      "avg_submitted": 113.12,
+      "avg_paid": 63.14
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 14209,
+      "payments": 793230.28,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 13512,
+      "payments": 689868.76,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7508,
+      "payments": 511586.8,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 3327,
+      "payments": 408775.3,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3686,
+      "payments": 295996.14,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1698,
+      "payments": 250840.8,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2079,
+      "payments": 169555.55,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1159,
+      "payments": 116855.14,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 1456,
+      "payments": 114424.01,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 2240,
+      "payments": 91792.54,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 1032,
+      "payments": 66908.71,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99491",
+      "description": "Chronic care management services by qualified health care professional, 30 minutes or more per calendar month",
+      "services": 1313,
+      "payments": 66416.41,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 657,
+      "payments": 63048.65,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 1476,
+      "payments": 57547.25,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 1369,
+      "payments": 46221.92,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 129,
+      "payments": 17959.05,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 126,
+      "payments": 16260.76,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 89,
+      "payments": 15088.45,
+      "avg_markup": 5.97
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 137,
+      "payments": 13181.66,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 210,
+      "payments": 11408.26,
+      "avg_markup": 3.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3867159.76,
+    "total_services": 58169,
+    "total_beneficiaries": 25996,
+    "avg_markup_ratio": 1.92
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Sanjeev Mittal",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Memphis",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 405559.96,
+      "total_services": 3964,
+      "total_beneficiaries": 1856,
+      "avg_submitted": 407.08,
+      "avg_paid": 124.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 533823.86,
+      "total_services": 5576,
+      "total_beneficiaries": 1903,
+      "avg_submitted": 444.67,
+      "avg_paid": 120.97
+    },
+    {
+      "year": 2016,
+      "total_payments": 603801.96,
+      "total_services": 6148,
+      "total_beneficiaries": 2031,
+      "avg_submitted": 387.0,
+      "avg_paid": 122.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 685042.98,
+      "total_services": 6730,
+      "total_beneficiaries": 2048,
+      "avg_submitted": 357.86,
+      "avg_paid": 114.35
+    },
+    {
+      "year": 2018,
+      "total_payments": 626554.8,
+      "total_services": 6578,
+      "total_beneficiaries": 2239,
+      "avg_submitted": 362.25,
+      "avg_paid": 108.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 580066.68,
+      "total_services": 6357,
+      "total_beneficiaries": 2259,
+      "avg_submitted": 347.67,
+      "avg_paid": 113.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 633111.16,
+      "total_services": 6730,
+      "total_beneficiaries": 2350,
+      "avg_submitted": 349.73,
+      "avg_paid": 116.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 567899.95,
+      "total_services": 5375,
+      "total_beneficiaries": 2073,
+      "avg_submitted": 373.01,
+      "avg_paid": 129.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 766568.89,
+      "total_services": 13707,
+      "total_beneficiaries": 4153,
+      "avg_submitted": 287.22,
+      "avg_paid": 100.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 1026091.61,
+      "total_services": 21795,
+      "total_beneficiaries": 5074,
+      "avg_submitted": 253.66,
+      "avg_paid": 91.8
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 19720,
+      "payments": 1494593.27,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 5665,
+      "payments": 1263112.99,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 12291,
+      "payments": 960913.96,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8709,
+      "payments": 474843.44,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 1869,
+      "payments": 347858.3,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2008,
+      "payments": 301081.85,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 7702,
+      "payments": 273447.98,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 7769,
+      "payments": 272122.64,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 1369,
+      "payments": 245093.48,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "99458",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, each additional 20 minutes",
+      "services": 6769,
+      "payments": 195344.19,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1533,
+      "payments": 170267.43,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 779,
+      "payments": 106876.06,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 1979,
+      "payments": 90876.95,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99439",
+      "description": "Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 1868,
+      "payments": 64857.69,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "93976",
+      "description": "Ultrasound limited scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 687,
+      "payments": 49007.45,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 400,
+      "payments": 40530.73,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 658,
+      "payments": 33640.86,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 181,
+      "payments": 17603.76,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 196,
+      "payments": 12432.01,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "99453",
+      "description": "Remote monitoring of physiologic parameters, initial set-up and patient education on use of equipment",
+      "services": 750,
+      "payments": 9743.55,
+      "avg_markup": 2.62
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6428521.85,
+    "total_services": 82960,
+    "total_beneficiaries": 25986,
+    "avg_markup_ratio": 2.96
+  }
+}

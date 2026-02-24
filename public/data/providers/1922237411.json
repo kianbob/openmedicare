@@ -1,0 +1,239 @@
+{
+  "name": "Samuel Pierce",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Jackson",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 404482.43,
+      "total_services": 9529,
+      "total_beneficiaries": 5169,
+      "avg_submitted": 189.54,
+      "avg_paid": 42.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 475524.69,
+      "total_services": 11526,
+      "total_beneficiaries": 6349,
+      "avg_submitted": 141.53,
+      "avg_paid": 41.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 624232.42,
+      "total_services": 15619,
+      "total_beneficiaries": 8306,
+      "avg_submitted": 141.1,
+      "avg_paid": 42.89
+    },
+    {
+      "year": 2017,
+      "total_payments": 625937.69,
+      "total_services": 17730,
+      "total_beneficiaries": 9373,
+      "avg_submitted": 147.93,
+      "avg_paid": 45.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 595221.86,
+      "total_services": 16416,
+      "total_beneficiaries": 9220,
+      "avg_submitted": 145.28,
+      "avg_paid": 47.15
+    },
+    {
+      "year": 2019,
+      "total_payments": 549450.38,
+      "total_services": 14216,
+      "total_beneficiaries": 8935,
+      "avg_submitted": 144.59,
+      "avg_paid": 47.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 631623.71,
+      "total_services": 15042,
+      "total_beneficiaries": 8151,
+      "avg_submitted": 134.83,
+      "avg_paid": 45.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 823631.55,
+      "total_services": 19150,
+      "total_beneficiaries": 12094,
+      "avg_submitted": 135.45,
+      "avg_paid": 45.97
+    },
+    {
+      "year": 2022,
+      "total_payments": 901980.89,
+      "total_services": 22381,
+      "total_beneficiaries": 14440,
+      "avg_submitted": 136.34,
+      "avg_paid": 42.46
+    },
+    {
+      "year": 2023,
+      "total_payments": 894654.87,
+      "total_services": 23640,
+      "total_beneficiaries": 16010,
+      "avg_submitted": 147.69,
+      "avg_paid": 43.71
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 18871,
+      "payments": 1334223.78,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21530,
+      "payments": 1159866.5,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3409,
+      "payments": 487747.23,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6982,
+      "payments": 339909.48,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 9481,
+      "payments": 269328.28,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1989,
+      "payments": 158806.07,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1193,
+      "payments": 139552.86,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 714,
+      "payments": 111406.6,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1406,
+      "payments": 110422.34,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1747,
+      "payments": 101486.85,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 1604,
+      "payments": 100238.82,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1270,
+      "payments": 96356.43,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 6343,
+      "payments": 88798.78,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1698,
+      "payments": 82831.77,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "94681",
+      "description": "Collection and analysis of exhaled air and carbon dioxide for evaluation of lung function",
+      "services": 2287,
+      "payments": 75391.0,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 8016,
+      "payments": 69647.3,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 375,
+      "payments": 68625.67,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1270,
+      "payments": 68039.19,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 431,
+      "payments": 66173.55,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 620,
+      "payments": 60001.36,
+      "avg_markup": 3.28
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6526740.5,
+    "total_services": 165249,
+    "total_beneficiaries": 98047,
+    "avg_markup_ratio": 2.85
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "name": "Roman Zabarskiy",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 331436.21,
+      "total_services": 3770,
+      "total_beneficiaries": 1146,
+      "avg_submitted": 84.22,
+      "avg_paid": 50.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 326095.6,
+      "total_services": 3803,
+      "total_beneficiaries": 1224,
+      "avg_submitted": 95.05,
+      "avg_paid": 54.84
+    },
+    {
+      "year": 2016,
+      "total_payments": 329525.64,
+      "total_services": 4073,
+      "total_beneficiaries": 1393,
+      "avg_submitted": 78.23,
+      "avg_paid": 53.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 338841.12,
+      "total_services": 3804,
+      "total_beneficiaries": 1527,
+      "avg_submitted": 80.64,
+      "avg_paid": 56.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 287639.9,
+      "total_services": 2982,
+      "total_beneficiaries": 1425,
+      "avg_submitted": 127.9,
+      "avg_paid": 74.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 303278.23,
+      "total_services": 2891,
+      "total_beneficiaries": 1203,
+      "avg_submitted": 168.46,
+      "avg_paid": 96.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 350481.7,
+      "total_services": 4257,
+      "total_beneficiaries": 2013,
+      "avg_submitted": 118.79,
+      "avg_paid": 72.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 385037.2,
+      "total_services": 4115,
+      "total_beneficiaries": 1607,
+      "avg_submitted": 145.71,
+      "avg_paid": 99.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 364647.29,
+      "total_services": 3918,
+      "total_beneficiaries": 1528,
+      "avg_submitted": 147.71,
+      "avg_paid": 87.77
+    },
+    {
+      "year": 2023,
+      "total_payments": 328175.25,
+      "total_services": 3506,
+      "total_beneficiaries": 1210,
+      "avg_submitted": 169.22,
+      "avg_paid": 87.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 20945,
+      "payments": 2265234.89,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 3709,
+      "payments": 268926.79,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 1350,
+      "payments": 199287.77,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 2151,
+      "payments": 154702.77,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 522,
+      "payments": 122736.6,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1670,
+      "payments": 107723.36,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1657,
+      "payments": 81706.79,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 1713,
+      "payments": 64541.87,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 943,
+      "payments": 25201.64,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 1000,
+      "payments": 22321.97,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "90756",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 473,
+      "payments": 13031.83,
+      "avg_markup": 6.92
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 359,
+      "payments": 5240.93,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 54,
+      "payments": 2837.38,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "Q2038",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluzone)",
+      "services": 193,
+      "payments": 2277.4,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 11,
+      "payments": 2172.06,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 135,
+      "payments": 2136.88,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99441",
+      "description": "Physician telephone patient service, 5-10 minutes of medical discussion",
+      "services": 47,
+      "payments": 1932.32,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "Q2039",
+      "description": "Influenza virus vaccine, not otherwise specified",
+      "services": 76,
+      "payments": 1696.94,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2012",
+      "description": "Brief communication technology-based service, e.g. virtual check-in, by a physician or other qualified health care professional who can report evaluation and management services, provided to an established patient, not originating from a related e/m servic",
+      "services": 111,
+      "payments": 1447.95,
+      "avg_markup": 5.77
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3345158.14,
+    "total_services": 37119,
+    "total_beneficiaries": 14276,
+    "avg_markup_ratio": 1.57
+  }
+}

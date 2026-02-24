@@ -1,0 +1,64 @@
+{
+  "name": "Aegis Ambulance Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Monrovia",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1558382.82,
+      "total_services": 17026,
+      "total_beneficiaries": 3856,
+      "avg_submitted": 309.26,
+      "avg_paid": 91.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 1480439.63,
+      "total_services": 15828,
+      "total_beneficiaries": 4618,
+      "avg_submitted": 309.06,
+      "avg_paid": 93.53
+    },
+    {
+      "year": 2016,
+      "total_payments": 672760.66,
+      "total_services": 6707,
+      "total_beneficiaries": 4058,
+      "avg_submitted": 590.56,
+      "avg_paid": 168.74
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 19557,
+      "payments": 3536449.23,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 19779,
+      "payments": 104423.13,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 225,
+      "payments": 70710.75,
+      "avg_markup": 3.5
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3711583.11,
+    "total_services": 39561,
+    "total_beneficiaries": 12532,
+    "avg_markup_ratio": 3.37
+  }
+}

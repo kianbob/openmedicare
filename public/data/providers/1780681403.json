@@ -1,0 +1,239 @@
+{
+  "name": "Randall Bell",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "San Antonio",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 424686.39,
+      "total_services": 6740,
+      "total_beneficiaries": 3310,
+      "avg_submitted": 202.71,
+      "avg_paid": 53.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 330624.38,
+      "total_services": 4643,
+      "total_beneficiaries": 2793,
+      "avg_submitted": 224.43,
+      "avg_paid": 54.86
+    },
+    {
+      "year": 2016,
+      "total_payments": 315287.65,
+      "total_services": 4196,
+      "total_beneficiaries": 2561,
+      "avg_submitted": 245.62,
+      "avg_paid": 55.14
+    },
+    {
+      "year": 2017,
+      "total_payments": 370323.67,
+      "total_services": 4563,
+      "total_beneficiaries": 2700,
+      "avg_submitted": 237.86,
+      "avg_paid": 53.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 303092.38,
+      "total_services": 3979,
+      "total_beneficiaries": 2135,
+      "avg_submitted": 231.93,
+      "avg_paid": 55.96
+    },
+    {
+      "year": 2019,
+      "total_payments": 285779.45,
+      "total_services": 3856,
+      "total_beneficiaries": 2311,
+      "avg_submitted": 185.47,
+      "avg_paid": 49.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 229126.02,
+      "total_services": 3062,
+      "total_beneficiaries": 1462,
+      "avg_submitted": 199.39,
+      "avg_paid": 57.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 317082.19,
+      "total_services": 3662,
+      "total_beneficiaries": 1570,
+      "avg_submitted": 205.64,
+      "avg_paid": 62.86
+    },
+    {
+      "year": 2022,
+      "total_payments": 278059.82,
+      "total_services": 3350,
+      "total_beneficiaries": 1459,
+      "avg_submitted": 180.41,
+      "avg_paid": 53.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 309107.17,
+      "total_services": 3677,
+      "total_beneficiaries": 1637,
+      "avg_submitted": 188.65,
+      "avg_paid": 54.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 7113,
+      "payments": 1188446.75,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8969,
+      "payments": 726003.96,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7028,
+      "payments": 384632.61,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2371,
+      "payments": 186748.45,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 5932,
+      "payments": 176773.16,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 624,
+      "payments": 92430.77,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 849,
+      "payments": 84510.53,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 698,
+      "payments": 80065.67,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1402,
+      "payments": 38800.78,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 481,
+      "payments": 37643.18,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 579,
+      "payments": 33953.22,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 782,
+      "payments": 26071.54,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 1059,
+      "payments": 17942.48,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 924,
+      "payments": 12645.65,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 548,
+      "payments": 10802.43,
+      "avg_markup": 5.09
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 61,
+      "payments": 10575.84,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 68,
+      "payments": 9420.94,
+      "avg_markup": 6.04
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 95,
+      "payments": 9225.66,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "31624",
+      "description": "Irrigation and suction of lung airways to obtain cells using an endoscope",
+      "services": 178,
+      "payments": 9196.72,
+      "avg_markup": 11.78
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 42,
+      "payments": 4268.11,
+      "avg_markup": 2.43
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3163169.13,
+    "total_services": 41728,
+    "total_beneficiaries": 21938,
+    "avg_markup_ratio": 3.54
+  }
+}

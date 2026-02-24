@@ -1,0 +1,239 @@
+{
+  "name": "Mukesh Shah",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Jackson",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 442535.81,
+      "total_services": 6475,
+      "total_beneficiaries": 3320,
+      "avg_submitted": 129.41,
+      "avg_paid": 73.45
+    },
+    {
+      "year": 2015,
+      "total_payments": 450942.43,
+      "total_services": 6638,
+      "total_beneficiaries": 3226,
+      "avg_submitted": 103.92,
+      "avg_paid": 70.72
+    },
+    {
+      "year": 2016,
+      "total_payments": 441206.42,
+      "total_services": 6595,
+      "total_beneficiaries": 3200,
+      "avg_submitted": 100.5,
+      "avg_paid": 69.24
+    },
+    {
+      "year": 2017,
+      "total_payments": 497919.58,
+      "total_services": 7620,
+      "total_beneficiaries": 4079,
+      "avg_submitted": 103.0,
+      "avg_paid": 67.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 480909.84,
+      "total_services": 7400,
+      "total_beneficiaries": 4155,
+      "avg_submitted": 106.31,
+      "avg_paid": 69.04
+    },
+    {
+      "year": 2019,
+      "total_payments": 426646.68,
+      "total_services": 6501,
+      "total_beneficiaries": 3694,
+      "avg_submitted": 109.27,
+      "avg_paid": 70.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 381528.04,
+      "total_services": 5825,
+      "total_beneficiaries": 3242,
+      "avg_submitted": 110.58,
+      "avg_paid": 72.44
+    },
+    {
+      "year": 2021,
+      "total_payments": 432394.22,
+      "total_services": 6648,
+      "total_beneficiaries": 3637,
+      "avg_submitted": 107.48,
+      "avg_paid": 66.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 364393.64,
+      "total_services": 5946,
+      "total_beneficiaries": 3182,
+      "avg_submitted": 116.67,
+      "avg_paid": 63.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 317287.48,
+      "total_services": 5174,
+      "total_beneficiaries": 2921,
+      "avg_submitted": 107.89,
+      "avg_paid": 58.53
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19430,
+      "payments": 1188403.69,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 10650,
+      "payments": 618253.37,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2810,
+      "payments": 321887.46,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3875,
+      "payments": 317748.13,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2583,
+      "payments": 282856.61,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4087,
+      "payments": 246502.6,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2342,
+      "payments": 213194.3,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1775,
+      "payments": 198398.67,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 764,
+      "payments": 126805.83,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 664,
+      "payments": 75671.5,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1070,
+      "payments": 65933.07,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 524,
+      "payments": 65383.16,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 277,
+      "payments": 50148.47,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 628,
+      "payments": 32449.89,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "G0442",
+      "description": "Annual alcohol misuse screening, 15 minutes",
+      "services": 1586,
+      "payments": 31826.39,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1228,
+      "payments": 30768.16,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 490,
+      "payments": 30004.55,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 695,
+      "payments": 29505.36,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 480,
+      "payments": 29243.94,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 1439,
+      "payments": 28716.94,
+      "avg_markup": 1.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4235764.14,
+    "total_services": 64822,
+    "total_beneficiaries": 34656,
+    "avg_markup_ratio": 1.72
+  }
+}

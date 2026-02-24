@@ -1,0 +1,93 @@
+{
+  "name": "Regional Emergency Medical Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Flint",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 896696.4,
+      "total_services": 9488,
+      "total_beneficiaries": 6020,
+      "avg_submitted": 435.42,
+      "avg_paid": 244.99
+    },
+    {
+      "year": 2015,
+      "total_payments": 787769.87,
+      "total_services": 8370,
+      "total_beneficiaries": 5287,
+      "avg_submitted": 440.0,
+      "avg_paid": 248.68
+    },
+    {
+      "year": 2016,
+      "total_payments": 604799.1,
+      "total_services": 6448,
+      "total_beneficiaries": 4545,
+      "avg_submitted": 468.83,
+      "avg_paid": 244.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 156681.95,
+      "total_services": 1653,
+      "total_beneficiaries": 1305,
+      "avg_submitted": 378.25,
+      "avg_paid": 182.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 10796,
+      "payments": 1735097.63,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 974,
+      "payments": 303886.53,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 876,
+      "payments": 228081.48,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12962,
+      "payments": 72465.8,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 109,
+      "payments": 58727.89,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 242,
+      "payments": 47688.0,
+      "avg_markup": 2.39
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2445947.33,
+    "total_services": 25959,
+    "total_beneficiaries": 17157,
+    "avg_markup_ratio": 2.29
+  }
+}

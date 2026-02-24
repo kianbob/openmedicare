@@ -1,0 +1,239 @@
+{
+  "name": "Thomas Purgason",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Arlington",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 157798.53,
+      "total_services": 2311,
+      "total_beneficiaries": 1530,
+      "avg_submitted": 96.26,
+      "avg_paid": 67.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 171473.55,
+      "total_services": 2415,
+      "total_beneficiaries": 1555,
+      "avg_submitted": 104.12,
+      "avg_paid": 74.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 218107.77,
+      "total_services": 4213,
+      "total_beneficiaries": 1888,
+      "avg_submitted": 97.48,
+      "avg_paid": 69.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 363466.0,
+      "total_services": 6804,
+      "total_beneficiaries": 2510,
+      "avg_submitted": 100.51,
+      "avg_paid": 78.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 348644.94,
+      "total_services": 6267,
+      "total_beneficiaries": 2515,
+      "avg_submitted": 94.46,
+      "avg_paid": 73.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 355355.21,
+      "total_services": 6508,
+      "total_beneficiaries": 2346,
+      "avg_submitted": 93.34,
+      "avg_paid": 71.3
+    },
+    {
+      "year": 2020,
+      "total_payments": 333490.5,
+      "total_services": 5877,
+      "total_beneficiaries": 2119,
+      "avg_submitted": 109.15,
+      "avg_paid": 83.43
+    },
+    {
+      "year": 2021,
+      "total_payments": 333418.04,
+      "total_services": 5786,
+      "total_beneficiaries": 1921,
+      "avg_submitted": 105.63,
+      "avg_paid": 79.73
+    },
+    {
+      "year": 2022,
+      "total_payments": 404981.73,
+      "total_services": 6255,
+      "total_beneficiaries": 1908,
+      "avg_submitted": 111.66,
+      "avg_paid": 83.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 341934.21,
+      "total_services": 5398,
+      "total_beneficiaries": 1723,
+      "avg_submitted": 99.68,
+      "avg_paid": 78.25
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 25361,
+      "payments": 870080.8,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 7111,
+      "payments": 733599.09,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3852,
+      "payments": 286845.49,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2157,
+      "payments": 260194.07,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 3331,
+      "payments": 253774.13,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3420,
+      "payments": 175956.98,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 551,
+      "payments": 102695.26,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1509,
+      "payments": 84784.45,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 807,
+      "payments": 65141.76,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 278,
+      "payments": 46460.21,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 302,
+      "payments": 25140.15,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 222,
+      "payments": 22694.89,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 833,
+      "payments": 19079.82,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 135,
+      "payments": 18101.94,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 315,
+      "payments": 12793.61,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 415,
+      "payments": 12762.18,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 85,
+      "payments": 6941.98,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "90756",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 175,
+      "payments": 4433.94,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services each additional 30 minutes clinical staff time",
+      "services": 122,
+      "payments": 4428.3,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "90674",
+      "description": "Vaccine for influenza for administration into muscle, 0.5 ml dosage",
+      "services": 179,
+      "payments": 4331.43,
+      "avg_markup": 1.02
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3028670.48,
+    "total_services": 51834,
+    "total_beneficiaries": 20015,
+    "avg_markup_ratio": 1.38
+  }
+}

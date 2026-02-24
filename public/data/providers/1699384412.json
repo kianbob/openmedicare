@@ -1,0 +1,64 @@
+{
+  "name": "Cleveland Diagnostics, Inc.",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Cleveland",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 1747.05,
+      "total_services": 95,
+      "total_beneficiaries": 95,
+      "avg_submitted": 75.0,
+      "avg_paid": 18.39
+    },
+    {
+      "year": 2022,
+      "total_payments": 919443.96,
+      "total_services": 2310,
+      "total_beneficiaries": 2255,
+      "avg_submitted": 388.9,
+      "avg_paid": 237.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 1840388.38,
+      "total_services": 3719,
+      "total_beneficiaries": 3657,
+      "avg_submitted": 556.14,
+      "avg_paid": 364.78
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0359U",
+      "description": "Onc prst8 ca alys all psa",
+      "services": 2391,
+      "payments": 1454767.37,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "81599",
+      "description": "Multianalyte assay procedure with algorithmic analysis",
+      "services": 2807,
+      "payments": 1290098.72,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "84153",
+      "description": "Psa (prostate specific antigen) measurement, total",
+      "services": 926,
+      "payments": 16713.3,
+      "avg_markup": 4.16
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2761579.39,
+    "total_services": 6124,
+    "total_beneficiaries": 6007,
+    "avg_markup_ratio": 1.46
+  }
+}

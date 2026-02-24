@@ -1,0 +1,239 @@
+{
+  "name": "Jeffrey Sager",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Santa Barbara",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 272181.79,
+      "total_services": 5536,
+      "total_beneficiaries": 4182,
+      "avg_submitted": 77.88,
+      "avg_paid": 53.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 271323.3,
+      "total_services": 5365,
+      "total_beneficiaries": 3983,
+      "avg_submitted": 79.66,
+      "avg_paid": 55.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 246912.23,
+      "total_services": 5117,
+      "total_beneficiaries": 3819,
+      "avg_submitted": 72.51,
+      "avg_paid": 49.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 280552.37,
+      "total_services": 5933,
+      "total_beneficiaries": 4390,
+      "avg_submitted": 69.49,
+      "avg_paid": 41.01
+    },
+    {
+      "year": 2018,
+      "total_payments": 319054.57,
+      "total_services": 6271,
+      "total_beneficiaries": 4515,
+      "avg_submitted": 94.6,
+      "avg_paid": 50.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 360589.74,
+      "total_services": 7308,
+      "total_beneficiaries": 5410,
+      "avg_submitted": 82.17,
+      "avg_paid": 52.64
+    },
+    {
+      "year": 2020,
+      "total_payments": 354690.65,
+      "total_services": 6475,
+      "total_beneficiaries": 4876,
+      "avg_submitted": 94.46,
+      "avg_paid": 56.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 463092.24,
+      "total_services": 9238,
+      "total_beneficiaries": 7272,
+      "avg_submitted": 92.64,
+      "avg_paid": 58.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 479153.29,
+      "total_services": 9603,
+      "total_beneficiaries": 7492,
+      "avg_submitted": 103.49,
+      "avg_paid": 55.74
+    },
+    {
+      "year": 2023,
+      "total_payments": 462997.71,
+      "total_services": 9906,
+      "total_beneficiaries": 7697,
+      "avg_submitted": 93.59,
+      "avg_paid": 47.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 6219,
+      "payments": 764426.68,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2098,
+      "payments": 372959.59,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1698,
+      "payments": 283785.43,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 4262,
+      "payments": 209727.38,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 4205,
+      "payments": 193908.88,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "94375",
+      "description": "Diagnostic testing in a pulmonary function lab",
+      "services": 5777,
+      "payments": 190593.83,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2206,
+      "payments": 189307.12,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1814,
+      "payments": 164225.57,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 774,
+      "payments": 124898.57,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1891,
+      "payments": 118441.27,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "94681",
+      "description": "Collection and analysis of exhaled air and carbon dioxide for evaluation of lung function",
+      "services": 1849,
+      "payments": 83898.86,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 1891,
+      "payments": 81105.23,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 1617,
+      "payments": 73288.15,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "94200",
+      "description": "Measurement of largest amount of air breathed in an out of lungs over one minute",
+      "services": 3937,
+      "payments": 70622.85,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 734,
+      "payments": 66067.66,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "36600",
+      "description": "Arterial puncture withdrawal of blood for diagnosis",
+      "services": 2316,
+      "payments": 58739.75,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "82803",
+      "description": "Blood gases measurement",
+      "services": 1965,
+      "payments": 50679.34,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "82375",
+      "description": "Carboxyhemoglobin (protein) level",
+      "services": 2291,
+      "payments": 31937.88,
+      "avg_markup": 1.18
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 180,
+      "payments": 31528.4,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "31645",
+      "description": "Aspiration of lung secretions from lung airways using an endoscope",
+      "services": 393,
+      "payments": 30622.05,
+      "avg_markup": 2.19
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3510547.89,
+    "total_services": 70752,
+    "total_beneficiaries": 53636,
+    "avg_markup_ratio": 1.54
+  }
+}

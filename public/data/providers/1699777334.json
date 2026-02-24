@@ -1,0 +1,183 @@
+{
+  "name": "John Fisher",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Palmdale",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 413859.41,
+      "total_services": 3001,
+      "total_beneficiaries": 767,
+      "avg_submitted": 245.95,
+      "avg_paid": 119.14
+    },
+    {
+      "year": 2015,
+      "total_payments": 444093.77,
+      "total_services": 3101,
+      "total_beneficiaries": 805,
+      "avg_submitted": 322.48,
+      "avg_paid": 129.96
+    },
+    {
+      "year": 2016,
+      "total_payments": 378649.37,
+      "total_services": 2550,
+      "total_beneficiaries": 669,
+      "avg_submitted": 319.1,
+      "avg_paid": 126.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 396775.1,
+      "total_services": 2813,
+      "total_beneficiaries": 731,
+      "avg_submitted": 337.0,
+      "avg_paid": 127.21
+    },
+    {
+      "year": 2018,
+      "total_payments": 367860.22,
+      "total_services": 2484,
+      "total_beneficiaries": 641,
+      "avg_submitted": 341.11,
+      "avg_paid": 138.14
+    },
+    {
+      "year": 2019,
+      "total_payments": 359729.38,
+      "total_services": 2377,
+      "total_beneficiaries": 603,
+      "avg_submitted": 363.89,
+      "avg_paid": 147.52
+    },
+    {
+      "year": 2020,
+      "total_payments": 286613.03,
+      "total_services": 1753,
+      "total_beneficiaries": 522,
+      "avg_submitted": 363.89,
+      "avg_paid": 150.23
+    },
+    {
+      "year": 2021,
+      "total_payments": 223046.06,
+      "total_services": 1140,
+      "total_beneficiaries": 388,
+      "avg_submitted": 346.88,
+      "avg_paid": 162.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 191834.22,
+      "total_services": 871,
+      "total_beneficiaries": 274,
+      "avg_submitted": 343.75,
+      "avg_paid": 195.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 174107.0,
+      "total_services": 855,
+      "total_beneficiaries": 266,
+      "avg_submitted": 343.75,
+      "avg_paid": 192.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 6575,
+      "payments": 1644909.96,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5428,
+      "payments": 469511.84,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4086,
+      "payments": 349625.08,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1459,
+      "payments": 267981.63,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 953,
+      "payments": 209566.86,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1184,
+      "payments": 196150.11,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 429,
+      "payments": 53838.48,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 99,
+      "payments": 15887.14,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 230,
+      "payments": 11878.99,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 170,
+      "payments": 10326.04,
+      "avg_markup": 4.94
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 291,
+      "payments": 4436.35,
+      "avg_markup": 5.98
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 41,
+      "payments": 2455.08,
+      "avg_markup": 2.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3236567.56,
+    "total_services": 20945,
+    "total_beneficiaries": 5666,
+    "avg_markup_ratio": 2.29
+  }
+}

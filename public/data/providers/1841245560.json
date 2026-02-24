@@ -1,0 +1,239 @@
+{
+  "name": "John Ferguson",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Middletown",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 342278.8,
+      "total_services": 7821,
+      "total_beneficiaries": 4069,
+      "avg_submitted": 58.31,
+      "avg_paid": 45.64
+    },
+    {
+      "year": 2015,
+      "total_payments": 351566.1,
+      "total_services": 7305,
+      "total_beneficiaries": 4465,
+      "avg_submitted": 57.44,
+      "avg_paid": 46.78
+    },
+    {
+      "year": 2016,
+      "total_payments": 316755.54,
+      "total_services": 7676,
+      "total_beneficiaries": 4668,
+      "avg_submitted": 52.46,
+      "avg_paid": 39.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 322509.18,
+      "total_services": 7560,
+      "total_beneficiaries": 4103,
+      "avg_submitted": 55.49,
+      "avg_paid": 42.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 352578.07,
+      "total_services": 8846,
+      "total_beneficiaries": 4411,
+      "avg_submitted": 50.9,
+      "avg_paid": 39.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 328381.49,
+      "total_services": 9016,
+      "total_beneficiaries": 4679,
+      "avg_submitted": 50.57,
+      "avg_paid": 39.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 265053.51,
+      "total_services": 7044,
+      "total_beneficiaries": 3947,
+      "avg_submitted": 51.03,
+      "avg_paid": 39.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 320787.28,
+      "total_services": 7325,
+      "total_beneficiaries": 4040,
+      "avg_submitted": 63.98,
+      "avg_paid": 50.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 289152.44,
+      "total_services": 7490,
+      "total_beneficiaries": 4512,
+      "avg_submitted": 76.32,
+      "avg_paid": 46.68
+    },
+    {
+      "year": 2023,
+      "total_payments": 338943.52,
+      "total_services": 6792,
+      "total_beneficiaries": 4042,
+      "avg_submitted": 55.12,
+      "avg_paid": 43.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 18368,
+      "payments": 1381544.28,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2728,
+      "payments": 235972.44,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4064,
+      "payments": 219960.66,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 846,
+      "payments": 140455.32,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 1174,
+      "payments": 101300.03,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 604,
+      "payments": 76949.83,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 526,
+      "payments": 62622.23,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 829,
+      "payments": 60737.42,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 248,
+      "payments": 45995.4,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 1316,
+      "payments": 45006.91,
+      "avg_markup": 1.11
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 2207,
+      "payments": 43790.64,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 3777,
+      "payments": 42123.58,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 858,
+      "payments": 40398.65,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4224,
+      "payments": 38693.43,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "99441",
+      "description": "Physician telephone patient service, 5-10 minutes of medical discussion",
+      "services": 853,
+      "payments": 37886.97,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 798,
+      "payments": 37593.49,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 2545,
+      "payments": 36342.84,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 800,
+      "payments": 36101.62,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 798,
+      "payments": 35575.11,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1500,
+      "payments": 35218.92,
+      "avg_markup": 1.24
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3228005.93,
+    "total_services": 76875,
+    "total_beneficiaries": 42936,
+    "avg_markup_ratio": 1.47
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Jack Kanoff",
+  "credentials": "DO",
+  "specialty": "Pulmonary Disease",
+  "city": "Hammonton",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 360837.5,
+      "total_services": 4343,
+      "total_beneficiaries": 3054,
+      "avg_submitted": 147.62,
+      "avg_paid": 74.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 394885.46,
+      "total_services": 4677,
+      "total_beneficiaries": 3093,
+      "avg_submitted": 148.54,
+      "avg_paid": 74.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 354341.73,
+      "total_services": 4507,
+      "total_beneficiaries": 3116,
+      "avg_submitted": 153.79,
+      "avg_paid": 74.49
+    },
+    {
+      "year": 2017,
+      "total_payments": 324308.87,
+      "total_services": 4227,
+      "total_beneficiaries": 2726,
+      "avg_submitted": 175.8,
+      "avg_paid": 77.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 318963.01,
+      "total_services": 4260,
+      "total_beneficiaries": 2827,
+      "avg_submitted": 168.93,
+      "avg_paid": 71.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 298140.04,
+      "total_services": 3623,
+      "total_beneficiaries": 2478,
+      "avg_submitted": 179.86,
+      "avg_paid": 76.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 278501.82,
+      "total_services": 3369,
+      "total_beneficiaries": 2115,
+      "avg_submitted": 186.27,
+      "avg_paid": 81.31
+    },
+    {
+      "year": 2021,
+      "total_payments": 249160.02,
+      "total_services": 2926,
+      "total_beneficiaries": 1866,
+      "avg_submitted": 210.76,
+      "avg_paid": 94.78
+    },
+    {
+      "year": 2022,
+      "total_payments": 222800.59,
+      "total_services": 2968,
+      "total_beneficiaries": 1970,
+      "avg_submitted": 191.85,
+      "avg_paid": 76.92
+    },
+    {
+      "year": 2023,
+      "total_payments": 219093.63,
+      "total_services": 2977,
+      "total_beneficiaries": 2145,
+      "avg_submitted": 203.64,
+      "avg_paid": 75.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7135,
+      "payments": 613013.28,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9548,
+      "payments": 570485.42,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2926,
+      "payments": 476237.42,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1642,
+      "payments": 296741.59,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2181,
+      "payments": 185752.94,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 2861,
+      "payments": 123500.82,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2513,
+      "payments": 107462.36,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 2513,
+      "payments": 101186.94,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 624,
+      "payments": 78448.98,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 424,
+      "payments": 68214.46,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 551,
+      "payments": 55640.16,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 596,
+      "payments": 52178.48,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 679,
+      "payments": 50346.49,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 320,
+      "payments": 31491.17,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 307,
+      "payments": 30929.4,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 495,
+      "payments": 29266.82,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 308,
+      "payments": 28386.92,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care per day, typically 50 minutes",
+      "services": 171,
+      "payments": 18648.45,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 555,
+      "payments": 18152.57,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care, typically 70 minutes",
+      "services": 69,
+      "payments": 10704.64,
+      "avg_markup": 1.93
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3021032.66,
+    "total_services": 37877,
+    "total_beneficiaries": 25390,
+    "avg_markup_ratio": 2.19
+  }
+}

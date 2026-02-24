@@ -1,0 +1,215 @@
+{
+  "name": "Robert Goldberg",
+  "credentials": "M.D.",
+  "specialty": "Hematology",
+  "city": "New City",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 493147.19,
+      "total_services": 19364,
+      "total_beneficiaries": 7661,
+      "avg_submitted": 103.38,
+      "avg_paid": 49.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 406214.82,
+      "total_services": 18152,
+      "total_beneficiaries": 6514,
+      "avg_submitted": 86.89,
+      "avg_paid": 41.49
+    },
+    {
+      "year": 2016,
+      "total_payments": 356680.44,
+      "total_services": 15517,
+      "total_beneficiaries": 5570,
+      "avg_submitted": 85.36,
+      "avg_paid": 41.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 505050.96,
+      "total_services": 18679,
+      "total_beneficiaries": 6525,
+      "avg_submitted": 84.73,
+      "avg_paid": 50.64
+    },
+    {
+      "year": 2018,
+      "total_payments": 365655.27,
+      "total_services": 16207,
+      "total_beneficiaries": 6209,
+      "avg_submitted": 76.14,
+      "avg_paid": 37.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 279468.57,
+      "total_services": 13502,
+      "total_beneficiaries": 6122,
+      "avg_submitted": 84.32,
+      "avg_paid": 39.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 3947.9,
+      "total_services": 335,
+      "total_beneficiaries": 329,
+      "avg_submitted": 32.42,
+      "avg_paid": 13.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7747,
+      "payments": 514960.93,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1773,
+      "payments": 162588.61,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 764,
+      "payments": 160265.99,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "96413",
+      "description": "Infusion of chemotherapy into a vein up to 1 hour",
+      "services": 1114,
+      "payments": 155431.83,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "96365",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis up to 1 hour",
+      "services": 2073,
+      "payments": 145345.95,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 12396,
+      "payments": 123540.33,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2689,
+      "payments": 98449.93,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 508,
+      "payments": 97136.37,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 8706,
+      "payments": 78434.34,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 364,
+      "payments": 69170.27,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 3732,
+      "payments": 64616.82,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "83615",
+      "description": "Lactate dehydrogenase (enzyme) level",
+      "services": 8697,
+      "payments": 49205.47,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 2491,
+      "payments": 47632.45,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 2489,
+      "payments": 46444.19,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "83550",
+      "description": "Iron binding capacity",
+      "services": 3593,
+      "payments": 39823.63,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "96366",
+      "description": "Infusion into a vein for therapy, prevention, or diagnosis",
+      "services": 2052,
+      "payments": 39169.29,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "83090",
+      "description": "Homocysteine (amino acid) level",
+      "services": 1739,
+      "payments": 38289.94,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12602,
+      "payments": 37042.28,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "96401",
+      "description": "Non-hormonal anti-neoplastic chemotherapy beneath the skin or into muscle",
+      "services": 491,
+      "payments": 35838.24,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "96367",
+      "description": "Infusion into a vein for therapy prevention or diagnosis additional sequential infusion up to 1 hour",
+      "services": 1128,
+      "payments": 35099.34,
+      "avg_markup": 4.82
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2410165.15,
+    "total_services": 101756,
+    "total_beneficiaries": 38930,
+    "avg_markup_ratio": 1.91
+  }
+}

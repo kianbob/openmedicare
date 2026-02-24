@@ -1,0 +1,239 @@
+{
+  "name": "Vincent Mustaciuolo",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Staten Island",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 420780.11,
+      "total_services": 6318,
+      "total_beneficiaries": 4113,
+      "avg_submitted": 170.44,
+      "avg_paid": 110.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 575722.61,
+      "total_services": 7510,
+      "total_beneficiaries": 5194,
+      "avg_submitted": 215.82,
+      "avg_paid": 119.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 703616.25,
+      "total_services": 8581,
+      "total_beneficiaries": 5848,
+      "avg_submitted": 248.69,
+      "avg_paid": 122.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 673836.31,
+      "total_services": 8161,
+      "total_beneficiaries": 5894,
+      "avg_submitted": 175.08,
+      "avg_paid": 110.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 648452.62,
+      "total_services": 7941,
+      "total_beneficiaries": 5672,
+      "avg_submitted": 173.91,
+      "avg_paid": 106.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 724715.09,
+      "total_services": 8817,
+      "total_beneficiaries": 6391,
+      "avg_submitted": 187.75,
+      "avg_paid": 114.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 658860.71,
+      "total_services": 7432,
+      "total_beneficiaries": 5477,
+      "avg_submitted": 192.47,
+      "avg_paid": 119.47
+    },
+    {
+      "year": 2021,
+      "total_payments": 970663.14,
+      "total_services": 9617,
+      "total_beneficiaries": 6939,
+      "avg_submitted": 193.61,
+      "avg_paid": 116.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 910099.51,
+      "total_services": 9425,
+      "total_beneficiaries": 6674,
+      "avg_submitted": 188.17,
+      "avg_paid": 105.17
+    },
+    {
+      "year": 2023,
+      "total_payments": 916386.03,
+      "total_services": 9899,
+      "total_beneficiaries": 7073,
+      "avg_submitted": 183.67,
+      "avg_paid": 99.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 22498,
+      "payments": 2169953.76,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5682,
+      "payments": 1069077.11,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2361,
+      "payments": 1040946.05,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 3443,
+      "payments": 620011.85,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 2100,
+      "payments": 463902.15,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 24553,
+      "payments": 342652.96,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5560,
+      "payments": 329129.24,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 2342,
+      "payments": 240570.07,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1332,
+      "payments": 163122.97,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1084,
+      "payments": 150936.83,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2406,
+      "payments": 140990.37,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "93320",
+      "description": "Doppler ultrasound study of heart blood flow, valves, and chambers",
+      "services": 2122,
+      "payments": 104680.91,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1296,
+      "payments": 83428.85,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 277,
+      "payments": 81912.42,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 725,
+      "payments": 64240.04,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "93325",
+      "description": "Doppler ultrasound study of color-directed heart blood flow, rate, and valve function",
+      "services": 2122,
+      "payments": 49611.05,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 553,
+      "payments": 40154.3,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 124,
+      "payments": 18729.91,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 26,
+      "payments": 4814.03,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 104,
+      "payments": 4657.97,
+      "avg_markup": 1.68
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 7203132.37,
+    "total_services": 83701,
+    "total_beneficiaries": 59275,
+    "avg_markup_ratio": 1.72
+  }
+}

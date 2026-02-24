@@ -1,0 +1,161 @@
+{
+  "name": "Xuhan Zhang",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Nashville",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 399985.43,
+      "total_services": 5498,
+      "total_beneficiaries": 660,
+      "avg_submitted": 223.0,
+      "avg_paid": 93.89
+    },
+    {
+      "year": 2015,
+      "total_payments": 360914.15,
+      "total_services": 5053,
+      "total_beneficiaries": 553,
+      "avg_submitted": 223.0,
+      "avg_paid": 92.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 269327.63,
+      "total_services": 3988,
+      "total_beneficiaries": 409,
+      "avg_submitted": 216.18,
+      "avg_paid": 87.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 297567.71,
+      "total_services": 4121,
+      "total_beneficiaries": 558,
+      "avg_submitted": 213.0,
+      "avg_paid": 87.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 255345.46,
+      "total_services": 3461,
+      "total_beneficiaries": 362,
+      "avg_submitted": 216.0,
+      "avg_paid": 88.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 298358.43,
+      "total_services": 4008,
+      "total_beneficiaries": 310,
+      "avg_submitted": 216.03,
+      "avg_paid": 88.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 1552042.84,
+      "total_services": 20362,
+      "total_beneficiaries": 278,
+      "avg_submitted": 217.71,
+      "avg_paid": 89.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 1289341.63,
+      "total_services": 17555,
+      "total_beneficiaries": 166,
+      "avg_submitted": 230.53,
+      "avg_paid": 96.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 940166.04,
+      "total_services": 12856,
+      "total_beneficiaries": 89,
+      "avg_submitted": 230.57,
+      "avg_paid": 93.78
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 23979,
+      "payments": 1662901.51,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 19494,
+      "payments": 1522629.06,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99357",
+      "description": "Prolonged inpatient or observation hospital service each 30 minutes beyond first hour",
+      "services": 18729,
+      "payments": 1304140.5,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9804,
+      "payments": 532777.58,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2066,
+      "payments": 312595.0,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1202,
+      "payments": 201637.82,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 1189,
+      "payments": 100092.16,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 193,
+      "payments": 11466.14,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99498",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 200,
+      "payments": 11121.23,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 46,
+      "payments": 3688.32,
+      "avg_markup": 2.32
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 5663049.32,
+    "total_services": 76902,
+    "total_beneficiaries": 3385,
+    "avg_markup_ratio": 2.35
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Donald Jones",
+  "credentials": "M.D.",
+  "specialty": "Anesthesiology",
+  "city": "Knoxville",
+  "state": "TN",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 630565.91,
+      "total_services": 22414,
+      "total_beneficiaries": 13298,
+      "avg_submitted": 222.92,
+      "avg_paid": 46.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 213542.5,
+      "total_services": 5945,
+      "total_beneficiaries": 3456,
+      "avg_submitted": 287.45,
+      "avg_paid": 58.87
+    },
+    {
+      "year": 2016,
+      "total_payments": 220746.97,
+      "total_services": 2268,
+      "total_beneficiaries": 1748,
+      "avg_submitted": 537.2,
+      "avg_paid": 116.25
+    },
+    {
+      "year": 2017,
+      "total_payments": 55491.53,
+      "total_services": 561,
+      "total_beneficiaries": 480,
+      "avg_submitted": 496.28,
+      "avg_paid": 98.49
+    },
+    {
+      "year": 2018,
+      "total_payments": 64576.88,
+      "total_services": 1023,
+      "total_beneficiaries": 683,
+      "avg_submitted": 194.51,
+      "avg_paid": 65.47
+    },
+    {
+      "year": 2019,
+      "total_payments": 364377.3,
+      "total_services": 3858,
+      "total_beneficiaries": 1755,
+      "avg_submitted": 207.0,
+      "avg_paid": 91.79
+    },
+    {
+      "year": 2020,
+      "total_payments": 455453.17,
+      "total_services": 5575,
+      "total_beneficiaries": 1831,
+      "avg_submitted": 403.41,
+      "avg_paid": 119.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 611871.28,
+      "total_services": 5899,
+      "total_beneficiaries": 1712,
+      "avg_submitted": 479.71,
+      "avg_paid": 131.45
+    },
+    {
+      "year": 2022,
+      "total_payments": 481070.77,
+      "total_services": 4971,
+      "total_beneficiaries": 1472,
+      "avg_submitted": 161.05,
+      "avg_paid": 62.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 608172.55,
+      "total_services": 7052,
+      "total_beneficiaries": 2119,
+      "avg_submitted": 161.73,
+      "avg_paid": 71.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0483",
+      "description": "Drug test def 22+ classes",
+      "services": 4325,
+      "payments": 1033405.16,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9452,
+      "payments": 783892.82,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 8063,
+      "payments": 426087.92,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 4327,
+      "payments": 264814.33,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "63650",
+      "description": "Implantation of spinal neurostimulator electrodes, accessed through the skin",
+      "services": 211,
+      "payments": 162441.83,
+      "avg_markup": 4.92
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 1127,
+      "payments": 109080.59,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "62311",
+      "description": "Injections of substances into lower or sacral spine",
+      "services": 685,
+      "payments": 88784.74,
+      "avg_markup": 5.91
+    },
+    {
+      "code": "96132",
+      "description": "Evaluation of neuropsychological test, first hour",
+      "services": 656,
+      "payments": 63799.86,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "96130",
+      "description": "Evaluation of psychological test, first hour",
+      "services": 660,
+      "payments": 59701.38,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "82649",
+      "description": "Dihydromorphinone (drug) level",
+      "services": 944,
+      "payments": 32024.31,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "83789",
+      "description": "Mass spectrometry (laboratory testing method)",
+      "services": 1276,
+      "payments": 30552.71,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "62323",
+      "description": "Injection of substance into spinal canal of lower back or sacrum using imaging guidance",
+      "services": 176,
+      "payments": 29953.76,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 359,
+      "payments": 27538.23,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "96103",
+      "description": "Psychological testing with interpretation and report by computer",
+      "services": 1301,
+      "payments": 25580.57,
+      "avg_markup": 11.39
+    },
+    {
+      "code": "83992",
+      "description": "PCP drug level",
+      "services": 1276,
+      "payments": 24765.11,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "83925",
+      "description": "Opiates (drug) measurement",
+      "services": 932,
+      "payments": 24157.84,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 205,
+      "payments": 24094.2,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "80154",
+      "description": "Benzodiazepines level",
+      "services": 930,
+      "payments": 22931.78,
+      "avg_markup": 3.16
+    },
+    {
+      "code": "82646",
+      "description": "Dihydrocodeinone (drug) measurement",
+      "services": 944,
+      "payments": 22514.1,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "82542",
+      "description": "Chemical analysis using chromatography technique",
+      "services": 944,
+      "payments": 22509.32,
+      "avg_markup": 3.19
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3705868.86,
+    "total_services": 59566,
+    "total_beneficiaries": 28554,
+    "avg_markup_ratio": 2.99
+  }
+}

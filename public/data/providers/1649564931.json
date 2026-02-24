@@ -1,0 +1,93 @@
+{
+  "name": "Guardian Flight Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Rock Springs",
+  "state": "WY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1009475.87,
+      "total_services": 588,
+      "total_beneficiaries": 554,
+      "avg_submitted": 5668.22,
+      "avg_paid": 1274.01
+    },
+    {
+      "year": 2015,
+      "total_payments": 1301684.2,
+      "total_services": 745,
+      "total_beneficiaries": 667,
+      "avg_submitted": 6322.99,
+      "avg_paid": 1293.23
+    },
+    {
+      "year": 2016,
+      "total_payments": 989330.67,
+      "total_services": 544,
+      "total_beneficiaries": 508,
+      "avg_submitted": 9070.12,
+      "avg_paid": 1883.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 1257730.84,
+      "total_services": 682,
+      "total_beneficiaries": 634,
+      "avg_submitted": 14097.02,
+      "avg_paid": 1911.91
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0430",
+      "description": "Ambulance service, conventional air services, transport, one way (fixed wing)",
+      "services": 896,
+      "payments": 3126187.78,
+      "avg_markup": 5.83
+    },
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 349,
+      "payments": 1408210.65,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 350,
+      "payments": 9314.61,
+      "avg_markup": 9.29
+    },
+    {
+      "code": "A0435",
+      "description": "Fixed wing air mileage, per statute mile",
+      "services": 896,
+      "payments": 8913.12,
+      "avg_markup": 22.84
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 30,
+      "payments": 5356.68,
+      "avg_markup": 7.05
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 38,
+      "payments": 238.74,
+      "avg_markup": 20.77
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4558221.57,
+    "total_services": 2559,
+    "total_beneficiaries": 2363,
+    "avg_markup_ratio": 5.61
+  }
+}

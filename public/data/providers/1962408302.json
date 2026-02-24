@@ -1,0 +1,231 @@
+{
+  "name": "Edward Holmes",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Meridian",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 485456.79,
+      "total_services": 10578,
+      "total_beneficiaries": 4628,
+      "avg_submitted": 66.52,
+      "avg_paid": 48.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 561616.59,
+      "total_services": 11664,
+      "total_beneficiaries": 5058,
+      "avg_submitted": 58.76,
+      "avg_paid": 44.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 486706.54,
+      "total_services": 10389,
+      "total_beneficiaries": 4734,
+      "avg_submitted": 53.39,
+      "avg_paid": 38.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 464315.31,
+      "total_services": 9342,
+      "total_beneficiaries": 4447,
+      "avg_submitted": 54.77,
+      "avg_paid": 41.2
+    },
+    {
+      "year": 2018,
+      "total_payments": 440984.83,
+      "total_services": 8717,
+      "total_beneficiaries": 4085,
+      "avg_submitted": 49.33,
+      "avg_paid": 38.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 3195.76,
+      "total_services": 63,
+      "total_beneficiaries": 41,
+      "avg_submitted": 84.22,
+      "avg_paid": 48.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 22692.76,
+      "total_services": 320,
+      "total_beneficiaries": 110,
+      "avg_submitted": 89.7,
+      "avg_paid": 69.97
+    },
+    {
+      "year": 2021,
+      "total_payments": 9343.64,
+      "total_services": 134,
+      "total_beneficiaries": 47,
+      "avg_submitted": 163.1,
+      "avg_paid": 66.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 1967.63,
+      "total_services": 37,
+      "total_beneficiaries": 12,
+      "avg_submitted": 155.0,
+      "avg_paid": 53.18
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19223,
+      "payments": 1008846.62,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4856,
+      "payments": 374043.38,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4184,
+      "payments": 285399.75,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1494,
+      "payments": 147017.73,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 744,
+      "payments": 110028.13,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "31622",
+      "description": "Diagnostic examination of lung airways using an endoscope",
+      "services": 551,
+      "payments": 57343.68,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 1762,
+      "payments": 56469.97,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1516,
+      "payments": 51729.49,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 1518,
+      "payments": 42598.35,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 796,
+      "payments": 41798.55,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 2173,
+      "payments": 39047.51,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 386,
+      "payments": 27242.32,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 670,
+      "payments": 24862.97,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 127,
+      "payments": 21351.52,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 622,
+      "payments": 19991.28,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 1613,
+      "payments": 16549.87,
+      "avg_markup": 1.16
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 654,
+      "payments": 13913.81,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 307,
+      "payments": 13510.38,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 589,
+      "payments": 11530.51,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "31623",
+      "description": "Examination of lung airways using an endoscope",
+      "services": 103,
+      "payments": 9963.01,
+      "avg_markup": 1.49
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2476279.86,
+    "total_services": 51244,
+    "total_beneficiaries": 23162,
+    "avg_markup_ratio": 1.36
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Medcare Emergency Health, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Greenfield",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1334194.76,
+      "total_services": 10981,
+      "total_beneficiaries": 7460,
+      "avg_submitted": 622.98,
+      "avg_paid": 273.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 2227069.86,
+      "total_services": 18430,
+      "total_beneficiaries": 11777,
+      "avg_submitted": 753.82,
+      "avg_paid": 308.31
+    },
+    {
+      "year": 2016,
+      "total_payments": 2212647.47,
+      "total_services": 18297,
+      "total_beneficiaries": 11542,
+      "avg_submitted": 1126.79,
+      "avg_paid": 306.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 2055337.68,
+      "total_services": 16999,
+      "total_beneficiaries": 10883,
+      "avg_submitted": 1288.55,
+      "avg_paid": 307.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 2009587.21,
+      "total_services": 16394,
+      "total_beneficiaries": 10743,
+      "avg_submitted": 1301.19,
+      "avg_paid": 309.61
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 28581,
+      "payments": 5251775.04,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 6429,
+      "payments": 2250573.98,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3612,
+      "payments": 1062027.72,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1214,
+      "payments": 733283.83,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1161,
+      "payments": 257177.47,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 40029,
+      "payments": 246974.35,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 75,
+      "payments": 37024.6,
+      "avg_markup": 3.61
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 9838836.99,
+    "total_services": 81101,
+    "total_beneficiaries": 52405,
+    "avg_markup_ratio": 3.68
+  }
+}

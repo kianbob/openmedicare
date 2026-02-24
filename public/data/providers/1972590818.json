@@ -1,0 +1,239 @@
+{
+  "name": "Raad Hindosh",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Glendale",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 217595.31,
+      "total_services": 2562,
+      "total_beneficiaries": 1107,
+      "avg_submitted": 307.88,
+      "avg_paid": 93.08
+    },
+    {
+      "year": 2015,
+      "total_payments": 179488.49,
+      "total_services": 2000,
+      "total_beneficiaries": 935,
+      "avg_submitted": 321.44,
+      "avg_paid": 96.14
+    },
+    {
+      "year": 2016,
+      "total_payments": 143501.61,
+      "total_services": 1621,
+      "total_beneficiaries": 834,
+      "avg_submitted": 321.56,
+      "avg_paid": 92.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 161028.2,
+      "total_services": 1804,
+      "total_beneficiaries": 872,
+      "avg_submitted": 328.15,
+      "avg_paid": 96.94
+    },
+    {
+      "year": 2018,
+      "total_payments": 246733.62,
+      "total_services": 2762,
+      "total_beneficiaries": 1368,
+      "avg_submitted": 357.05,
+      "avg_paid": 102.23
+    },
+    {
+      "year": 2019,
+      "total_payments": 616463.47,
+      "total_services": 6863,
+      "total_beneficiaries": 3373,
+      "avg_submitted": 339.26,
+      "avg_paid": 102.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 495744.63,
+      "total_services": 5563,
+      "total_beneficiaries": 2624,
+      "avg_submitted": 337.65,
+      "avg_paid": 99.2
+    },
+    {
+      "year": 2021,
+      "total_payments": 1042569.06,
+      "total_services": 11649,
+      "total_beneficiaries": 5460,
+      "avg_submitted": 346.52,
+      "avg_paid": 101.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 896372.78,
+      "total_services": 10150,
+      "total_beneficiaries": 5155,
+      "avg_submitted": 298.05,
+      "avg_paid": 89.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 147589.19,
+      "total_services": 1860,
+      "total_beneficiaries": 1060,
+      "avg_submitted": 241.6,
+      "avg_paid": 72.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 28076,
+      "payments": 2264007.42,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4910,
+      "payments": 745442.35,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 6641,
+      "payments": 550417.13,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1260,
+      "payments": 172272.48,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1761,
+      "payments": 100671.4,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 1521,
+      "payments": 84283.97,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 577,
+      "payments": 50234.39,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 826,
+      "payments": 49921.56,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 203,
+      "payments": 35001.18,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 413,
+      "payments": 32267.3,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 185,
+      "payments": 18549.4,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 115,
+      "payments": 18103.65,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 106,
+      "payments": 9317.64,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 100,
+      "payments": 7343.84,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 36,
+      "payments": 3434.46,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 34,
+      "payments": 1991.56,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes",
+      "services": 30,
+      "payments": 1149.3,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 14,
+      "payments": 1113.84,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 13,
+      "payments": 902.05,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 13,
+      "payments": 661.44,
+      "avg_markup": 4.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4147086.36,
+    "total_services": 46834,
+    "total_beneficiaries": 22788,
+    "avg_markup_ratio": 2.95
+  }
+}

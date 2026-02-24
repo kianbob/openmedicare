@@ -1,0 +1,79 @@
+{
+  "name": "Riverside Treatment Services Llc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Rosedale",
+  "state": "MD",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 683387.04,
+      "total_services": 4037,
+      "total_beneficiaries": 312,
+      "avg_submitted": 146.56,
+      "avg_paid": 146.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 1140298.33,
+      "total_services": 6320,
+      "total_beneficiaries": 337,
+      "avg_submitted": 150.66,
+      "avg_paid": 147.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 1088206.9,
+      "total_services": 6237,
+      "total_beneficiaries": 366,
+      "avg_submitted": 152.74,
+      "avg_paid": 146.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 963276.1,
+      "total_services": 5765,
+      "total_beneficiaries": 346,
+      "avg_submitted": 176.62,
+      "avg_paid": 169.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 15504,
+      "payments": 3319067.44,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2068",
+      "description": "Medication assisted treatment, buprenorphine (oral); weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opi",
+      "services": 1332,
+      "payments": 345014.87,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 5134,
+      "payments": 180222.63,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "G2079",
+      "description": "Take-home supply of buprenorphine (oral); up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 389,
+      "payments": 30863.42,
+      "avg_markup": 1.04
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3875168.36,
+    "total_services": 22359,
+    "total_beneficiaries": 1361,
+    "avg_markup_ratio": 1.03
+  }
+}

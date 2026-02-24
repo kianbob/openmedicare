@@ -1,0 +1,239 @@
+{
+  "name": "Stephen Dechter",
+  "credentials": "DO",
+  "specialty": "Pain Management",
+  "city": "Pasco",
+  "state": "WA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 127654.78,
+      "total_services": 1897,
+      "total_beneficiaries": 1211,
+      "avg_submitted": 351.04,
+      "avg_paid": 86.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 375416.1,
+      "total_services": 6353,
+      "total_beneficiaries": 4593,
+      "avg_submitted": 383.39,
+      "avg_paid": 81.86
+    },
+    {
+      "year": 2016,
+      "total_payments": 734221.8,
+      "total_services": 7696,
+      "total_beneficiaries": 4179,
+      "avg_submitted": 465.23,
+      "avg_paid": 90.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 388825.67,
+      "total_services": 4184,
+      "total_beneficiaries": 2703,
+      "avg_submitted": 421.72,
+      "avg_paid": 84.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 297236.5,
+      "total_services": 3545,
+      "total_beneficiaries": 2385,
+      "avg_submitted": 466.65,
+      "avg_paid": 84.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 321095.24,
+      "total_services": 3614,
+      "total_beneficiaries": 2495,
+      "avg_submitted": 788.29,
+      "avg_paid": 122.63
+    },
+    {
+      "year": 2020,
+      "total_payments": 116993.14,
+      "total_services": 1391,
+      "total_beneficiaries": 965,
+      "avg_submitted": 373.03,
+      "avg_paid": 75.32
+    },
+    {
+      "year": 2021,
+      "total_payments": 144055.79,
+      "total_services": 1690,
+      "total_beneficiaries": 1243,
+      "avg_submitted": 318.41,
+      "avg_paid": 66.52
+    },
+    {
+      "year": 2022,
+      "total_payments": 140689.04,
+      "total_services": 1658,
+      "total_beneficiaries": 1205,
+      "avg_submitted": 410.38,
+      "avg_paid": 78.64
+    },
+    {
+      "year": 2023,
+      "total_payments": 150200.16,
+      "total_services": 1818,
+      "total_beneficiaries": 1261,
+      "avg_submitted": 375.28,
+      "avg_paid": 73.53
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10736,
+      "payments": 849821.11,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test def 15-21 classes",
+      "services": 1419,
+      "payments": 274087.4,
+      "avg_markup": 5.76
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test def 22+ classes",
+      "services": 1259,
+      "payments": 264037.71,
+      "avg_markup": 5.82
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1717,
+      "payments": 200630.21,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "64635",
+      "description": "Destruction of lower or sacral spinal facet joint nerves using imaging guidance",
+      "services": 488,
+      "payments": 132748.95,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 1454,
+      "payments": 105093.42,
+      "avg_markup": 5.85
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1359,
+      "payments": 104775.16,
+      "avg_markup": 5.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1789,
+      "payments": 101289.05,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "64483",
+      "description": "Injections of anesthetic and/or steroid drug into lower or sacral spine nerve root using imaging guidance",
+      "services": 729,
+      "payments": 93223.95,
+      "avg_markup": 5.32
+    },
+    {
+      "code": "64493",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 656,
+      "payments": 87940.81,
+      "avg_markup": 5.86
+    },
+    {
+      "code": "27096",
+      "description": "Injection procedure into sacroiliac joint for anesthetic or steroid",
+      "services": 476,
+      "payments": 50655.52,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "63650",
+      "description": "Implantation of spinal neurostimulator electrodes, accessed through the skin",
+      "services": 84,
+      "payments": 47204.98,
+      "avg_markup": 6.0
+    },
+    {
+      "code": "64636",
+      "description": "Destruction of lower or sacral spinal facet joint nerves with imaging guidance",
+      "services": 442,
+      "payments": 44968.92,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 414,
+      "payments": 39692.37,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "64494",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 543,
+      "payments": 39542.71,
+      "avg_markup": 5.93
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 690,
+      "payments": 29620.57,
+      "avg_markup": 4.94
+    },
+    {
+      "code": "62323",
+      "description": "Injection of substance into spinal canal of lower back or sacrum using imaging guidance",
+      "services": 258,
+      "payments": 29361.3,
+      "avg_markup": 5.33
+    },
+    {
+      "code": "77002",
+      "description": "Fluoroscopic guidance for insertion of needle",
+      "services": 406,
+      "payments": 19726.71,
+      "avg_markup": 5.75
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 222,
+      "payments": 17650.55,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "64633",
+      "description": "Destruction of upper or middle spinal facet joint nerves using imaging guidance",
+      "services": 66,
+      "payments": 17162.93,
+      "avg_markup": 4.89
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2796388.23,
+    "total_services": 33846,
+    "total_beneficiaries": 22240,
+    "avg_markup_ratio": 4.74
+  }
+}

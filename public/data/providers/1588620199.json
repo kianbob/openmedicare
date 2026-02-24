@@ -1,0 +1,239 @@
+{
+  "name": "John Co",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Ridgewood",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 216330.93,
+      "total_services": 3802,
+      "total_beneficiaries": 2784,
+      "avg_submitted": 712.42,
+      "avg_paid": 101.88
+    },
+    {
+      "year": 2015,
+      "total_payments": 292037.32,
+      "total_services": 3487,
+      "total_beneficiaries": 2458,
+      "avg_submitted": 532.31,
+      "avg_paid": 107.75
+    },
+    {
+      "year": 2016,
+      "total_payments": 260267.9,
+      "total_services": 3768,
+      "total_beneficiaries": 2885,
+      "avg_submitted": 917.14,
+      "avg_paid": 162.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 237407.0,
+      "total_services": 3504,
+      "total_beneficiaries": 2670,
+      "avg_submitted": 976.71,
+      "avg_paid": 128.71
+    },
+    {
+      "year": 2018,
+      "total_payments": 198992.65,
+      "total_services": 3791,
+      "total_beneficiaries": 2727,
+      "avg_submitted": 456.73,
+      "avg_paid": 88.32
+    },
+    {
+      "year": 2019,
+      "total_payments": 250552.92,
+      "total_services": 4130,
+      "total_beneficiaries": 2679,
+      "avg_submitted": 578.07,
+      "avg_paid": 98.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 176347.01,
+      "total_services": 1986,
+      "total_beneficiaries": 1128,
+      "avg_submitted": 594.99,
+      "avg_paid": 97.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 237205.42,
+      "total_services": 2144,
+      "total_beneficiaries": 1139,
+      "avg_submitted": 689.8,
+      "avg_paid": 92.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 205703.23,
+      "total_services": 2234,
+      "total_beneficiaries": 1543,
+      "avg_submitted": 685.47,
+      "avg_paid": 109.01
+    },
+    {
+      "year": 2023,
+      "total_payments": 298365.69,
+      "total_services": 11778,
+      "total_beneficiaries": 7385,
+      "avg_submitted": 702.83,
+      "avg_paid": 100.34
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 3710,
+      "payments": 468632.91,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1662,
+      "payments": 236571.46,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "36478",
+      "description": "Laser destruction of incompetent vein of arm or leg using imaging guidance, accessed through the skin",
+      "services": 183,
+      "payments": 192506.8,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 770,
+      "payments": 166597.36,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1747,
+      "payments": 152583.74,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1425,
+      "payments": 120251.66,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 17182,
+      "payments": 120010.69,
+      "avg_markup": 6.44
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 467,
+      "payments": 77959.44,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 421,
+      "payments": 75996.56,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "36475",
+      "description": "Destruction of insufficient vein of arm or leg, accessed through the skin",
+      "services": 50,
+      "payments": 68635.0,
+      "avg_markup": 6.17
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1034,
+      "payments": 68001.18,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1677,
+      "payments": 58230.28,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 323,
+      "payments": 54992.92,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "93924",
+      "description": "Ultrasound study of arteries of both legs at rest and exercise",
+      "services": 336,
+      "payments": 51781.02,
+      "avg_markup": 5.19
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 213,
+      "payments": 40611.9,
+      "avg_markup": 25.68
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 79,
+      "payments": 38845.57,
+      "avg_markup": 6.51
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 191,
+      "payments": 29583.92,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 216,
+      "payments": 24475.63,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 1532,
+      "payments": 24005.41,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 1805,
+      "payments": 22802.29,
+      "avg_markup": 2.64
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2373210.07,
+    "total_services": 40624,
+    "total_beneficiaries": 27398,
+    "avg_markup_ratio": 4.14
+  }
+}

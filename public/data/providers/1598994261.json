@@ -1,0 +1,231 @@
+{
+  "name": "John Duell",
+  "credentials": "M.D.",
+  "specialty": "Clinical Cardiac Electrophysiology",
+  "city": "Dartmouth",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 994.64,
+      "total_services": 13,
+      "total_beneficiaries": 13,
+      "avg_submitted": 113.38,
+      "avg_paid": 76.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 49449.37,
+      "total_services": 760,
+      "total_beneficiaries": 642,
+      "avg_submitted": 324.09,
+      "avg_paid": 83.25
+    },
+    {
+      "year": 2017,
+      "total_payments": 248466.49,
+      "total_services": 4154,
+      "total_beneficiaries": 2871,
+      "avg_submitted": 411.32,
+      "avg_paid": 98.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 288349.11,
+      "total_services": 5459,
+      "total_beneficiaries": 3549,
+      "avg_submitted": 402.93,
+      "avg_paid": 96.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 312759.36,
+      "total_services": 6289,
+      "total_beneficiaries": 3656,
+      "avg_submitted": 685.64,
+      "avg_paid": 96.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 315694.69,
+      "total_services": 5804,
+      "total_beneficiaries": 3333,
+      "avg_submitted": 703.43,
+      "avg_paid": 168.96
+    },
+    {
+      "year": 2021,
+      "total_payments": 467782.99,
+      "total_services": 7429,
+      "total_beneficiaries": 4117,
+      "avg_submitted": 778.59,
+      "avg_paid": 189.74
+    },
+    {
+      "year": 2022,
+      "total_payments": 364223.58,
+      "total_services": 7132,
+      "total_beneficiaries": 3833,
+      "avg_submitted": 804.51,
+      "avg_paid": 176.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 386835.2,
+      "total_services": 7488,
+      "total_beneficiaries": 4003,
+      "avg_submitted": 888.03,
+      "avg_paid": 192.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4374,
+      "payments": 392181.09,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "33285",
+      "description": "Insertion of heart rhythm monitor under skin",
+      "services": 79,
+      "payments": 277658.61,
+      "avg_markup": 5.16
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1882,
+      "payments": 220753.4,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1131,
+      "payments": 183069.59,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 357,
+      "payments": 114673.74,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 797,
+      "payments": 103160.67,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1038,
+      "payments": 90015.81,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "33249",
+      "description": "Insertion or replacement of single or dual chamber pacing defibrillator leads",
+      "services": 98,
+      "payments": 73887.46,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "93296",
+      "description": "Remote evaluations of defibrillator transmissions, technician review, support and distribution of results up to 90 days",
+      "services": 4100,
+      "payments": 70796.42,
+      "avg_markup": 7.64
+    },
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 1913,
+      "payments": 64972.43,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 563,
+      "payments": 63523.18,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 147,
+      "payments": 59624.55,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "93295",
+      "description": "Remote evaluations of defibrillator up to 90 days with analysis, review and report",
+      "services": 1968,
+      "payments": 57561.17,
+      "avg_markup": 7.9
+    },
+    {
+      "code": "93298",
+      "description": "Remote evaluations of implantable heart recorder system including physician analysis, review, and report up to 30 days",
+      "services": 2806,
+      "payments": 57015.8,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 890,
+      "payments": 52152.96,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "93653",
+      "description": "Evaluation and insertion of catheters for creation of complete heart block",
+      "services": 71,
+      "payments": 48904.37,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3794,
+      "payments": 48230.9,
+      "avg_markup": 5.59
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 773,
+      "payments": 43900.98,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "93294",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "services": 2155,
+      "payments": 43561.94,
+      "avg_markup": 5.84
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 246,
+      "payments": 41026.44,
+      "avg_markup": 3.82
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2434555.43,
+    "total_services": 44528,
+    "total_beneficiaries": 26017,
+    "avg_markup_ratio": 4.48
+  }
+}

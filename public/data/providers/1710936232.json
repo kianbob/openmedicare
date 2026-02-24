@@ -1,0 +1,239 @@
+{
+  "name": "David Tavdy",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Forest Hills",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 399322.87,
+      "total_services": 5814,
+      "total_beneficiaries": 2429,
+      "avg_submitted": 83.69,
+      "avg_paid": 61.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 441714.59,
+      "total_services": 6615,
+      "total_beneficiaries": 2722,
+      "avg_submitted": 139.77,
+      "avg_paid": 59.64
+    },
+    {
+      "year": 2016,
+      "total_payments": 452580.65,
+      "total_services": 7215,
+      "total_beneficiaries": 2746,
+      "avg_submitted": 132.63,
+      "avg_paid": 58.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 437304.08,
+      "total_services": 6757,
+      "total_beneficiaries": 2527,
+      "avg_submitted": 116.48,
+      "avg_paid": 55.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 583950.2,
+      "total_services": 8214,
+      "total_beneficiaries": 3355,
+      "avg_submitted": 136.31,
+      "avg_paid": 63.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 614291.64,
+      "total_services": 8735,
+      "total_beneficiaries": 3619,
+      "avg_submitted": 145.15,
+      "avg_paid": 57.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 591437.87,
+      "total_services": 8528,
+      "total_beneficiaries": 3070,
+      "avg_submitted": 141.29,
+      "avg_paid": 57.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 776703.85,
+      "total_services": 10097,
+      "total_beneficiaries": 3423,
+      "avg_submitted": 144.22,
+      "avg_paid": 69.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 931804.62,
+      "total_services": 12430,
+      "total_beneficiaries": 3486,
+      "avg_submitted": 153.28,
+      "avg_paid": 74.21
+    },
+    {
+      "year": 2023,
+      "total_payments": 965613.02,
+      "total_services": 13326,
+      "total_beneficiaries": 3371,
+      "avg_submitted": 146.84,
+      "avg_paid": 72.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19548,
+      "payments": 1281791.9,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 16699,
+      "payments": 1048995.3,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 8346,
+      "payments": 670371.42,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3656,
+      "payments": 644855.1,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2127,
+      "payments": 426997.6,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3823,
+      "payments": 345231.12,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4111,
+      "payments": 268148.63,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 3131,
+      "payments": 207507.97,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 3678,
+      "payments": 163336.65,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1386,
+      "payments": 158906.49,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1667,
+      "payments": 150386.85,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 878,
+      "payments": 121308.82,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 758,
+      "payments": 119116.63,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 1088,
+      "payments": 105668.16,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "96360",
+      "description": "Hydration infusion into a vein 31 minutes to 1 hour",
+      "services": 970,
+      "payments": 43993.22,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 833,
+      "payments": 38099.69,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 299,
+      "payments": 35040.58,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 636,
+      "payments": 31790.3,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 622,
+      "payments": 27025.04,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 687,
+      "payments": 24667.58,
+      "avg_markup": 2.09
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6194723.4,
+    "total_services": 87731,
+    "total_beneficiaries": 30748,
+    "avg_markup_ratio": 2.09
+  }
+}

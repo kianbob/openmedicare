@@ -1,0 +1,239 @@
+{
+  "name": "Morris Grabie",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Santa Monica",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 773755.78,
+      "total_services": 14041,
+      "total_beneficiaries": 7902,
+      "avg_submitted": 96.16,
+      "avg_paid": 45.22
+    },
+    {
+      "year": 2015,
+      "total_payments": 741340.59,
+      "total_services": 15053,
+      "total_beneficiaries": 8351,
+      "avg_submitted": 96.26,
+      "avg_paid": 45.19
+    },
+    {
+      "year": 2016,
+      "total_payments": 760230.37,
+      "total_services": 15351,
+      "total_beneficiaries": 8115,
+      "avg_submitted": 100.8,
+      "avg_paid": 46.79
+    },
+    {
+      "year": 2017,
+      "total_payments": 808835.2,
+      "total_services": 14461,
+      "total_beneficiaries": 7292,
+      "avg_submitted": 98.58,
+      "avg_paid": 45.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 582817.72,
+      "total_services": 11796,
+      "total_beneficiaries": 6172,
+      "avg_submitted": 113.92,
+      "avg_paid": 45.37
+    },
+    {
+      "year": 2019,
+      "total_payments": 607456.66,
+      "total_services": 12630,
+      "total_beneficiaries": 6250,
+      "avg_submitted": 127.69,
+      "avg_paid": 44.31
+    },
+    {
+      "year": 2020,
+      "total_payments": 700657.01,
+      "total_services": 13448,
+      "total_beneficiaries": 6769,
+      "avg_submitted": 131.97,
+      "avg_paid": 45.17
+    },
+    {
+      "year": 2021,
+      "total_payments": 891871.24,
+      "total_services": 14836,
+      "total_beneficiaries": 7405,
+      "avg_submitted": 123.43,
+      "avg_paid": 45.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 518242.96,
+      "total_services": 10670,
+      "total_beneficiaries": 6319,
+      "avg_submitted": 124.91,
+      "avg_paid": 43.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 5384.62,
+      "total_services": 209,
+      "total_beneficiaries": 198,
+      "avg_submitted": 123.0,
+      "avg_paid": 32.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 30267,
+      "payments": 2603037.97,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 6609,
+      "payments": 1104933.32,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9348,
+      "payments": 570786.94,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6913,
+      "payments": 412918.65,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1522,
+      "payments": 281722.99,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2265,
+      "payments": 271209.19,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1973,
+      "payments": 177435.35,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 2620,
+      "payments": 158308.6,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1727,
+      "payments": 102840.1,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 7193,
+      "payments": 82320.11,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 458,
+      "payments": 79034.65,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3214,
+      "payments": 64478.9,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6897,
+      "payments": 63878.0,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3075,
+      "payments": 42151.02,
+      "avg_markup": 6.75
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 3215,
+      "payments": 34583.49,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 2537,
+      "payments": 31014.09,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 162,
+      "payments": 28769.05,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 8002,
+      "payments": 23937.62,
+      "avg_markup": 5.43
+    },
+    {
+      "code": "82803",
+      "description": "Blood gases measurement",
+      "services": 829,
+      "payments": 20310.5,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 882,
+      "payments": 19343.35,
+      "avg_markup": 2.76
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6390592.15,
+    "total_services": 122495,
+    "total_beneficiaries": 64773,
+    "avg_markup_ratio": 2.64
+  }
+}

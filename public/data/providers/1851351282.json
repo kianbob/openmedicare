@@ -1,0 +1,239 @@
+{
+  "name": "Richard Joo",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Englewood Cliffs",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 300400.22,
+      "total_services": 7068,
+      "total_beneficiaries": 3658,
+      "avg_submitted": 111.06,
+      "avg_paid": 64.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 298771.78,
+      "total_services": 7046,
+      "total_beneficiaries": 4139,
+      "avg_submitted": 110.2,
+      "avg_paid": 65.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 230676.86,
+      "total_services": 5772,
+      "total_beneficiaries": 3738,
+      "avg_submitted": 105.79,
+      "avg_paid": 62.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 287787.92,
+      "total_services": 6577,
+      "total_beneficiaries": 3598,
+      "avg_submitted": 137.47,
+      "avg_paid": 54.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 338988.98,
+      "total_services": 8007,
+      "total_beneficiaries": 4313,
+      "avg_submitted": 128.63,
+      "avg_paid": 63.65
+    },
+    {
+      "year": 2019,
+      "total_payments": 540387.4,
+      "total_services": 9921,
+      "total_beneficiaries": 5063,
+      "avg_submitted": 75.56,
+      "avg_paid": 59.64
+    },
+    {
+      "year": 2020,
+      "total_payments": 429153.95,
+      "total_services": 9098,
+      "total_beneficiaries": 4482,
+      "avg_submitted": 99.25,
+      "avg_paid": 48.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 384840.69,
+      "total_services": 7420,
+      "total_beneficiaries": 3120,
+      "avg_submitted": 113.49,
+      "avg_paid": 49.97
+    },
+    {
+      "year": 2022,
+      "total_payments": 296492.62,
+      "total_services": 5406,
+      "total_beneficiaries": 2704,
+      "avg_submitted": 128.27,
+      "avg_paid": 48.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 238954.37,
+      "total_services": 3958,
+      "total_beneficiaries": 2302,
+      "avg_submitted": 141.13,
+      "avg_paid": 55.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 20277,
+      "payments": 1271582.53,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6087,
+      "payments": 540753.79,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 3019,
+      "payments": 402272.99,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 2775,
+      "payments": 117673.3,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 2917,
+      "payments": 113415.07,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 3159,
+      "payments": 106821.59,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1561,
+      "payments": 89517.8,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2991,
+      "payments": 76675.23,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 356,
+      "payments": 64630.2,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4380,
+      "payments": 58917.96,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "96401",
+      "description": "Non-hormonal anti-neoplastic chemotherapy beneath the skin or into muscle",
+      "services": 873,
+      "payments": 50439.32,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 2382,
+      "payments": 49047.74,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "90694",
+      "description": "Influenza virus vaccine, quadrivalent (aiiv4), inactivated, adjuvanted, preservative free, for injection into muscle, 0.5 ml dosage",
+      "services": 643,
+      "payments": 45587.93,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 548,
+      "payments": 44937.08,
+      "avg_markup": 1.18
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 343,
+      "payments": 42252.85,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12446,
+      "payments": 40969.38,
+      "avg_markup": 7.19
+    },
+    {
+      "code": "90653",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 655,
+      "payments": 38340.03,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "G0506",
+      "description": "Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service)",
+      "services": 677,
+      "payments": 34433.97,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 911,
+      "payments": 34344.35,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 184,
+      "payments": 14778.22,
+      "avg_markup": 2.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3346454.79,
+    "total_services": 70273,
+    "total_beneficiaries": 37117,
+    "avg_markup_ratio": 2.07
+  }
+}

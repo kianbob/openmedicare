@@ -1,0 +1,215 @@
+{
+  "name": "Lee Weitzman",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Long Beach",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 576401.54,
+      "total_services": 22633,
+      "total_beneficiaries": 13413,
+      "avg_submitted": 122.9,
+      "avg_paid": 42.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 534503.32,
+      "total_services": 22286,
+      "total_beneficiaries": 12971,
+      "avg_submitted": 123.13,
+      "avg_paid": 40.74
+    },
+    {
+      "year": 2016,
+      "total_payments": 521703.78,
+      "total_services": 21426,
+      "total_beneficiaries": 12885,
+      "avg_submitted": 117.66,
+      "avg_paid": 39.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 742111.85,
+      "total_services": 30938,
+      "total_beneficiaries": 19565,
+      "avg_submitted": 145.52,
+      "avg_paid": 46.56
+    },
+    {
+      "year": 2018,
+      "total_payments": 288449.72,
+      "total_services": 15981,
+      "total_beneficiaries": 11481,
+      "avg_submitted": 141.76,
+      "avg_paid": 34.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 74716.79,
+      "total_services": 2729,
+      "total_beneficiaries": 1644,
+      "avg_submitted": 186.93,
+      "avg_paid": 41.59
+    },
+    {
+      "year": 2020,
+      "total_payments": 9785.17,
+      "total_services": 506,
+      "total_beneficiaries": 421,
+      "avg_submitted": 128.0,
+      "avg_paid": 18.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9525,
+      "payments": 544683.44,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1671,
+      "payments": 330138.25,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 1052,
+      "payments": 178601.53,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2622,
+      "payments": 102904.95,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 543,
+      "payments": 95245.17,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3181,
+      "payments": 70565.94,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 3072,
+      "payments": 68691.14,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 319,
+      "payments": 66086.54,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4504,
+      "payments": 62010.69,
+      "avg_markup": 6.42
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 139,
+      "payments": 51190.97,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "83090",
+      "description": "Homocysteine (amino acid) level",
+      "services": 2192,
+      "payments": 49018.17,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 560,
+      "payments": 44694.24,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4260,
+      "payments": 43735.4,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 251,
+      "payments": 43558.45,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 4801,
+      "payments": 42427.04,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2268,
+      "payments": 38474.79,
+      "avg_markup": 5.87
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 2186,
+      "payments": 37522.44,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 3150,
+      "payments": 37481.82,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "93923",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 297,
+      "payments": 36734.33,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 2749,
+      "payments": 34849.86,
+      "avg_markup": 2.76
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2747672.16,
+    "total_services": 116499,
+    "total_beneficiaries": 72380,
+    "avg_markup_ratio": 3.12
+  }
+}

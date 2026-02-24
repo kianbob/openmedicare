@@ -1,0 +1,239 @@
+{
+  "name": "Felix Morris",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Florence",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 521127.1,
+      "total_services": 9529,
+      "total_beneficiaries": 5714,
+      "avg_submitted": 105.14,
+      "avg_paid": 47.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 582758.31,
+      "total_services": 10344,
+      "total_beneficiaries": 5862,
+      "avg_submitted": 123.59,
+      "avg_paid": 50.12
+    },
+    {
+      "year": 2016,
+      "total_payments": 529302.08,
+      "total_services": 9738,
+      "total_beneficiaries": 5847,
+      "avg_submitted": 126.22,
+      "avg_paid": 52.02
+    },
+    {
+      "year": 2017,
+      "total_payments": 474638.81,
+      "total_services": 9320,
+      "total_beneficiaries": 5497,
+      "avg_submitted": 103.02,
+      "avg_paid": 44.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 435272.14,
+      "total_services": 8360,
+      "total_beneficiaries": 5029,
+      "avg_submitted": 105.0,
+      "avg_paid": 45.09
+    },
+    {
+      "year": 2019,
+      "total_payments": 387307.37,
+      "total_services": 7745,
+      "total_beneficiaries": 4753,
+      "avg_submitted": 103.73,
+      "avg_paid": 44.18
+    },
+    {
+      "year": 2020,
+      "total_payments": 355101.9,
+      "total_services": 6096,
+      "total_beneficiaries": 3379,
+      "avg_submitted": 105.43,
+      "avg_paid": 48.7
+    },
+    {
+      "year": 2021,
+      "total_payments": 298875.83,
+      "total_services": 5340,
+      "total_beneficiaries": 3141,
+      "avg_submitted": 104.77,
+      "avg_paid": 46.38
+    },
+    {
+      "year": 2022,
+      "total_payments": 272659.81,
+      "total_services": 5255,
+      "total_beneficiaries": 3050,
+      "avg_submitted": 104.77,
+      "avg_paid": 46.06
+    },
+    {
+      "year": 2023,
+      "total_payments": 225235.8,
+      "total_services": 4717,
+      "total_beneficiaries": 2897,
+      "avg_submitted": 106.56,
+      "avg_paid": 44.89
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 17874,
+      "payments": 962049.76,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5557,
+      "payments": 767701.7,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9324,
+      "payments": 724638.23,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 10374,
+      "payments": 504256.54,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 10213,
+      "payments": 296036.08,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1265,
+      "payments": 128267.16,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 5075,
+      "payments": 110175.18,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 910,
+      "payments": 86181.83,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 4372,
+      "payments": 79546.75,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 861,
+      "payments": 78219.82,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 854,
+      "payments": 64340.25,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 1847,
+      "payments": 64179.38,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 788,
+      "payments": 56071.12,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 2536,
+      "payments": 53328.59,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 1852,
+      "payments": 50185.36,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 518,
+      "payments": 27814.93,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 681,
+      "payments": 9667.65,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 61,
+      "payments": 5434.86,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "J1040",
+      "description": "Injection, methylprednisolone acetate, 80 mg",
+      "services": 652,
+      "payments": 4429.59,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "31622",
+      "description": "Diagnostic examination of lung airways using an endoscope",
+      "services": 24,
+      "payments": 2523.59,
+      "avg_markup": 4.72
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4082279.14,
+    "total_services": 76444,
+    "total_beneficiaries": 45169,
+    "avg_markup_ratio": 1.63
+  }
+}

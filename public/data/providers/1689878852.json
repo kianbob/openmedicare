@@ -1,0 +1,232 @@
+{
+  "name": "Jacob Ahdoot",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 756084.66,
+      "total_services": 6289,
+      "total_beneficiaries": 1665,
+      "avg_submitted": 333.64,
+      "avg_paid": 144.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 1074250.34,
+      "total_services": 9983,
+      "total_beneficiaries": 2354,
+      "avg_submitted": 276.54,
+      "avg_paid": 127.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 1483942.82,
+      "total_services": 16284,
+      "total_beneficiaries": 3852,
+      "avg_submitted": 265.41,
+      "avg_paid": 121.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 1474980.17,
+      "total_services": 18971,
+      "total_beneficiaries": 4211,
+      "avg_submitted": 304.99,
+      "avg_paid": 130.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 1330470.71,
+      "total_services": 17099,
+      "total_beneficiaries": 4513,
+      "avg_submitted": 280.62,
+      "avg_paid": 115.29
+    },
+    {
+      "year": 2019,
+      "total_payments": 1268606.86,
+      "total_services": 16657,
+      "total_beneficiaries": 4718,
+      "avg_submitted": 217.24,
+      "avg_paid": 92.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 1999397.09,
+      "total_services": 20799,
+      "total_beneficiaries": 5926,
+      "avg_submitted": 228.49,
+      "avg_paid": 139.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 2677337.56,
+      "total_services": 28079,
+      "total_beneficiaries": 6152,
+      "avg_submitted": 240.82,
+      "avg_paid": 140.26
+    },
+    {
+      "year": 2022,
+      "total_payments": 1889142.73,
+      "total_services": 19079,
+      "total_beneficiaries": 5235,
+      "avg_submitted": 240.72,
+      "avg_paid": 137.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 1663684.85,
+      "total_services": 18156,
+      "total_beneficiaries": 5119,
+      "avg_submitted": 242.04,
+      "avg_paid": 120.36
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 89952,
+      "payments": 6152571.29,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 52250,
+      "payments": 5100455.49,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 14733,
+      "payments": 1875062.11,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 7885,
+      "payments": 1420459.59,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 1395,
+      "payments": 337376.38,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1438,
+      "payments": 275457.24,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 694,
+      "payments": 111694.68,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 495,
+      "payments": 100814.04,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 684,
+      "payments": 61685.19,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 468,
+      "payments": 42370.69,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 330,
+      "payments": 41194.44,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 188,
+      "payments": 26256.75,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 115,
+      "payments": 18047.15,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 128,
+      "payments": 17590.71,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 288,
+      "payments": 17568.89,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 179,
+      "payments": 11197.85,
+      "avg_markup": 6.39
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 109,
+      "payments": 3594.24,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 39,
+      "payments": 2311.53,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 26,
+      "payments": 2189.53,
+      "avg_markup": 2.55
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 15617897.79,
+    "total_services": 171396,
+    "total_beneficiaries": 43745,
+    "avg_markup_ratio": 1.5
+  }
+}

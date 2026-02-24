@@ -1,0 +1,239 @@
+{
+  "name": "Mateen Ahmed",
+  "credentials": "M.D",
+  "specialty": "Pulmonary Disease",
+  "city": "Somerset",
+  "state": "KY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 374277.97,
+      "total_services": 3696,
+      "total_beneficiaries": 2150,
+      "avg_submitted": 316.84,
+      "avg_paid": 83.92
+    },
+    {
+      "year": 2015,
+      "total_payments": 365411.73,
+      "total_services": 3987,
+      "total_beneficiaries": 2480,
+      "avg_submitted": 242.21,
+      "avg_paid": 77.48
+    },
+    {
+      "year": 2016,
+      "total_payments": 324952.83,
+      "total_services": 3980,
+      "total_beneficiaries": 2630,
+      "avg_submitted": 221.8,
+      "avg_paid": 75.88
+    },
+    {
+      "year": 2017,
+      "total_payments": 335633.4,
+      "total_services": 4287,
+      "total_beneficiaries": 2846,
+      "avg_submitted": 235.95,
+      "avg_paid": 75.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 320463.54,
+      "total_services": 3909,
+      "total_beneficiaries": 2737,
+      "avg_submitted": 237.72,
+      "avg_paid": 79.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 296419.35,
+      "total_services": 3731,
+      "total_beneficiaries": 2666,
+      "avg_submitted": 206.7,
+      "avg_paid": 68.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 234629.92,
+      "total_services": 2940,
+      "total_beneficiaries": 1927,
+      "avg_submitted": 210.18,
+      "avg_paid": 66.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 196507.16,
+      "total_services": 2416,
+      "total_beneficiaries": 1703,
+      "avg_submitted": 202.06,
+      "avg_paid": 72.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 140871.14,
+      "total_services": 2055,
+      "total_beneficiaries": 1534,
+      "avg_submitted": 188.73,
+      "avg_paid": 62.85
+    },
+    {
+      "year": 2023,
+      "total_payments": 121124.47,
+      "total_services": 1904,
+      "total_beneficiaries": 1527,
+      "avg_submitted": 198.8,
+      "avg_paid": 63.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4054,
+      "payments": 675234.24,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6985,
+      "payments": 523718.44,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5960,
+      "payments": 464846.9,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1492,
+      "payments": 220570.8,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1949,
+      "payments": 217094.24,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "G0399",
+      "description": "Home sleep test (hst) with type iii portable monitor, unattended; minimum of 4 channels: 2 respiratory movement/airflow, 1 ecg/heart rate and 1 oxygen saturation",
+      "services": 847,
+      "payments": 91854.7,
+      "avg_markup": 4.26
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1618,
+      "payments": 81448.41,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2305,
+      "payments": 74454.46,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 2208,
+      "payments": 70333.62,
+      "avg_markup": 4.62
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 2298,
+      "payments": 59259.76,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 634,
+      "payments": 57978.36,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "95806",
+      "description": "Unattended sleep study with recording of heart rate, oxygen, respiratory airflow and effort",
+      "services": 441,
+      "payments": 50819.35,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 540,
+      "payments": 29369.49,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 303,
+      "payments": 26280.63,
+      "avg_markup": 4.29
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 177,
+      "payments": 23694.84,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 680,
+      "payments": 20587.34,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "31646",
+      "description": "Aspiration of lung secretions from lung airways using an endoscope",
+      "services": 135,
+      "payments": 14302.11,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "31625",
+      "description": "Biopsy of lung airways using an endoscope",
+      "services": 82,
+      "payments": 6871.3,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "94070",
+      "description": "Multiple measurements and graphic recordings of the amount and speed of breathed air, before and following medication administration",
+      "services": 52,
+      "payments": 1029.24,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "31623",
+      "description": "Examination of lung airways using an endoscope",
+      "services": 145,
+      "payments": 543.27,
+      "avg_markup": 102.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2710291.5,
+    "total_services": 32905,
+    "total_beneficiaries": 22200,
+    "avg_markup_ratio": 2.3
+  }
+}

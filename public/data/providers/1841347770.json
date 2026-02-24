@@ -1,0 +1,239 @@
+{
+  "name": "Nurudeen Shekoni",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Jackson",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 714124.38,
+      "total_services": 12746,
+      "total_beneficiaries": 4197,
+      "avg_submitted": 110.8,
+      "avg_paid": 57.63
+    },
+    {
+      "year": 2015,
+      "total_payments": 740398.26,
+      "total_services": 12690,
+      "total_beneficiaries": 4020,
+      "avg_submitted": 123.65,
+      "avg_paid": 55.79
+    },
+    {
+      "year": 2016,
+      "total_payments": 695543.86,
+      "total_services": 12128,
+      "total_beneficiaries": 3529,
+      "avg_submitted": 133.46,
+      "avg_paid": 58.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 354078.94,
+      "total_services": 6461,
+      "total_beneficiaries": 2310,
+      "avg_submitted": 130.63,
+      "avg_paid": 54.42
+    },
+    {
+      "year": 2018,
+      "total_payments": 355068.24,
+      "total_services": 5784,
+      "total_beneficiaries": 1854,
+      "avg_submitted": 153.36,
+      "avg_paid": 71.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 406139.15,
+      "total_services": 6191,
+      "total_beneficiaries": 2590,
+      "avg_submitted": 169.93,
+      "avg_paid": 77.84
+    },
+    {
+      "year": 2020,
+      "total_payments": 354083.63,
+      "total_services": 5607,
+      "total_beneficiaries": 2015,
+      "avg_submitted": 144.2,
+      "avg_paid": 67.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 319701.35,
+      "total_services": 5288,
+      "total_beneficiaries": 1667,
+      "avg_submitted": 141.1,
+      "avg_paid": 69.11
+    },
+    {
+      "year": 2022,
+      "total_payments": 232161.19,
+      "total_services": 3784,
+      "total_beneficiaries": 1221,
+      "avg_submitted": 143.33,
+      "avg_paid": 68.1
+    },
+    {
+      "year": 2023,
+      "total_payments": 196074.5,
+      "total_services": 3031,
+      "total_beneficiaries": 1026,
+      "avg_submitted": 167.45,
+      "avg_paid": 82.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 44545,
+      "payments": 2383787.83,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 5596,
+      "payments": 545529.03,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 5851,
+      "payments": 312831.95,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5814,
+      "payments": 259540.46,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3542,
+      "payments": 239075.44,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 889,
+      "payments": 126356.49,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 1231,
+      "payments": 119585.71,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1535,
+      "payments": 119102.38,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 818,
+      "payments": 108004.22,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 633,
+      "payments": 50608.84,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 395,
+      "payments": 28603.11,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 734,
+      "payments": 21379.72,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 218,
+      "payments": 11588.99,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 324,
+      "payments": 6783.39,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 99,
+      "payments": 5250.6,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 32,
+      "payments": 5221.81,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 38,
+      "payments": 4483.34,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 829,
+      "payments": 3029.58,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 26,
+      "payments": 2997.87,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 45,
+      "payments": 2734.69,
+      "avg_markup": 1.94
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4367373.49,
+    "total_services": 73710,
+    "total_beneficiaries": 24429,
+    "avg_markup_ratio": 2.22
+  }
+}

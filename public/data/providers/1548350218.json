@@ -1,0 +1,108 @@
+{
+  "name": "Sarah Estrada",
+  "credentials": "M.D.",
+  "specialty": "Pathology",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 484272.94,
+      "total_services": 7691,
+      "total_beneficiaries": 6076,
+      "avg_submitted": 127.86,
+      "avg_paid": 66.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 764822.03,
+      "total_services": 12331,
+      "total_beneficiaries": 8394,
+      "avg_submitted": 171.03,
+      "avg_paid": 66.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 725526.66,
+      "total_services": 11913,
+      "total_beneficiaries": 8241,
+      "avg_submitted": 169.1,
+      "avg_paid": 65.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 719845.19,
+      "total_services": 12083,
+      "total_beneficiaries": 8199,
+      "avg_submitted": 176.59,
+      "avg_paid": 68.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 622050.97,
+      "total_services": 10562,
+      "total_beneficiaries": 7471,
+      "avg_submitted": 166.33,
+      "avg_paid": 62.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 34768,
+      "payments": 1862073.4,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "88342",
+      "description": "Tissue or cell analysis by immunologic technique",
+      "services": 12859,
+      "payments": 1023133.58,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "88341",
+      "description": "Special stained specimen slides to examine tissue",
+      "services": 3618,
+      "payments": 253539.95,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "88312",
+      "description": "Special stained specimen slides to identify organisms including interpretation and report",
+      "services": 1332,
+      "payments": 111186.08,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "88304",
+      "description": "Pathology examination of tissue using a microscope, moderately low complexity",
+      "services": 1905,
+      "payments": 59212.55,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "88321",
+      "description": "Surgical pathology consultation and report",
+      "services": 87,
+      "payments": 6341.54,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "88360",
+      "description": "Microscopic genetic analysis of tumor, manual",
+      "services": 11,
+      "payments": 1030.69,
+      "avg_markup": 2.52
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 3316517.79,
+    "total_services": 54580,
+    "total_beneficiaries": 38381,
+    "avg_markup_ratio": 2.48
+  }
+}

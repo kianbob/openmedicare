@@ -1,0 +1,239 @@
+{
+  "name": "Arkadiy Izrailov",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 445255.34,
+      "total_services": 7322,
+      "total_beneficiaries": 2776,
+      "avg_submitted": 180.6,
+      "avg_paid": 79.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 492117.32,
+      "total_services": 8201,
+      "total_beneficiaries": 3213,
+      "avg_submitted": 162.45,
+      "avg_paid": 78.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 526555.77,
+      "total_services": 8235,
+      "total_beneficiaries": 3800,
+      "avg_submitted": 165.33,
+      "avg_paid": 80.96
+    },
+    {
+      "year": 2017,
+      "total_payments": 505462.74,
+      "total_services": 8836,
+      "total_beneficiaries": 4368,
+      "avg_submitted": 121.92,
+      "avg_paid": 61.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 541592.32,
+      "total_services": 8661,
+      "total_beneficiaries": 3780,
+      "avg_submitted": 157.15,
+      "avg_paid": 83.44
+    },
+    {
+      "year": 2019,
+      "total_payments": 751073.22,
+      "total_services": 13203,
+      "total_beneficiaries": 4813,
+      "avg_submitted": 153.91,
+      "avg_paid": 83.28
+    },
+    {
+      "year": 2020,
+      "total_payments": 749288.85,
+      "total_services": 12236,
+      "total_beneficiaries": 4590,
+      "avg_submitted": 165.51,
+      "avg_paid": 86.63
+    },
+    {
+      "year": 2021,
+      "total_payments": 861343.02,
+      "total_services": 12588,
+      "total_beneficiaries": 4470,
+      "avg_submitted": 169.28,
+      "avg_paid": 88.16
+    },
+    {
+      "year": 2022,
+      "total_payments": 827762.27,
+      "total_services": 12094,
+      "total_beneficiaries": 4576,
+      "avg_submitted": 160.28,
+      "avg_paid": 83.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 700502.0,
+      "total_services": 10156,
+      "total_beneficiaries": 4302,
+      "avg_submitted": 153.5,
+      "avg_paid": 89.88
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 16113,
+      "payments": 1539934.35,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 19788,
+      "payments": 1333619.04,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 19243,
+      "payments": 859360.45,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 3065,
+      "payments": 447943.79,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 3503,
+      "payments": 383101.62,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 4286,
+      "payments": 357261.82,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4333,
+      "payments": 283561.84,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1115,
+      "payments": 199400.23,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1898,
+      "payments": 181082.37,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 2376,
+      "payments": 87140.53,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 403,
+      "payments": 78438.49,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1368,
+      "payments": 70941.44,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 300,
+      "payments": 57492.27,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 287,
+      "payments": 54159.24,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1947,
+      "payments": 52677.22,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 474,
+      "payments": 46478.55,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 933,
+      "payments": 37449.63,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 224,
+      "payments": 33909.6,
+      "avg_markup": 2.76
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 155,
+      "payments": 28886.76,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 7199,
+      "payments": 24258.42,
+      "avg_markup": 4.45
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6400952.85,
+    "total_services": 101532,
+    "total_beneficiaries": 40688,
+    "avg_markup_ratio": 1.99
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Tri City Fire District",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Claypool",
+  "state": "AZ",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 375617.9,
+      "total_services": 1870,
+      "total_beneficiaries": 1198,
+      "avg_submitted": 846.13,
+      "avg_paid": 244.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 432006.76,
+      "total_services": 2082,
+      "total_beneficiaries": 1245,
+      "avg_submitted": 848.21,
+      "avg_paid": 253.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 377152.79,
+      "total_services": 1841,
+      "total_beneficiaries": 1160,
+      "avg_submitted": 863.52,
+      "avg_paid": 250.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 378591.07,
+      "total_services": 1830,
+      "total_beneficiaries": 1197,
+      "avg_submitted": 863.52,
+      "avg_paid": 253.05
+    },
+    {
+      "year": 2018,
+      "total_payments": 315230.67,
+      "total_services": 1535,
+      "total_beneficiaries": 986,
+      "avg_submitted": 863.52,
+      "avg_paid": 252.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 343138.36,
+      "total_services": 1611,
+      "total_beneficiaries": 1016,
+      "avg_submitted": 1384.71,
+      "avg_paid": 343.7
+    },
+    {
+      "year": 2020,
+      "total_payments": 307423.59,
+      "total_services": 1414,
+      "total_beneficiaries": 889,
+      "avg_submitted": 1393.74,
+      "avg_paid": 346.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 268984.47,
+      "total_services": 1270,
+      "total_beneficiaries": 828,
+      "avg_submitted": 1240.12,
+      "avg_paid": 343.55
+    },
+    {
+      "year": 2022,
+      "total_payments": 304351.35,
+      "total_services": 1371,
+      "total_beneficiaries": 858,
+      "avg_submitted": 1240.12,
+      "avg_paid": 358.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 309539.83,
+      "total_services": 1265,
+      "total_beneficiaries": 813,
+      "avg_submitted": 1411.23,
+      "avg_paid": 370.8
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 7640,
+      "payments": 3172451.4,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 288,
+      "payments": 97781.35,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 136,
+      "payments": 85085.74,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 8025,
+      "payments": 56718.28,
+      "avg_markup": 1.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3412036.78,
+    "total_services": 16089,
+    "total_beneficiaries": 10190,
+    "avg_markup_ratio": 3.64
+  }
+}

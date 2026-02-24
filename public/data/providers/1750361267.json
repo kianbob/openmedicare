@@ -1,0 +1,204 @@
+{
+  "name": "Adnan Nazir",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Milwaukee",
+  "state": "WI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 404462.17,
+      "total_services": 5904,
+      "total_beneficiaries": 2047,
+      "avg_submitted": 277.47,
+      "avg_paid": 81.04
+    },
+    {
+      "year": 2015,
+      "total_payments": 340509.55,
+      "total_services": 4924,
+      "total_beneficiaries": 1806,
+      "avg_submitted": 258.49,
+      "avg_paid": 75.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 354073.57,
+      "total_services": 5509,
+      "total_beneficiaries": 1588,
+      "avg_submitted": 273.43,
+      "avg_paid": 77.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 371258.62,
+      "total_services": 5661,
+      "total_beneficiaries": 1608,
+      "avg_submitted": 272.2,
+      "avg_paid": 77.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 292575.47,
+      "total_services": 4589,
+      "total_beneficiaries": 1347,
+      "avg_submitted": 271.64,
+      "avg_paid": 77.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 357669.69,
+      "total_services": 5491,
+      "total_beneficiaries": 1611,
+      "avg_submitted": 240.89,
+      "avg_paid": 73.71
+    },
+    {
+      "year": 2020,
+      "total_payments": 493109.35,
+      "total_services": 7697,
+      "total_beneficiaries": 1670,
+      "avg_submitted": 264.99,
+      "avg_paid": 82.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 452503.92,
+      "total_services": 6954,
+      "total_beneficiaries": 1839,
+      "avg_submitted": 259.94,
+      "avg_paid": 76.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 381409.84,
+      "total_services": 6031,
+      "total_beneficiaries": 1633,
+      "avg_submitted": 287.09,
+      "avg_paid": 77.87
+    },
+    {
+      "year": 2023,
+      "total_payments": 344796.73,
+      "total_services": 5273,
+      "total_beneficiaries": 1310,
+      "avg_submitted": 285.75,
+      "avg_paid": 75.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 38727,
+      "payments": 2139868.69,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4736,
+      "payments": 711546.54,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 5592,
+      "payments": 311505.77,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2241,
+      "payments": 178281.8,
+      "avg_markup": 3.79
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 846,
+      "payments": 116485.3,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1423,
+      "payments": 110931.19,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1413,
+      "payments": 70748.97,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 1093,
+      "payments": 59974.97,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1125,
+      "payments": 33943.43,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 493,
+      "payments": 27052.56,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 126,
+      "payments": 12855.72,
+      "avg_markup": 3.87
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 122,
+      "payments": 9044.45,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 60,
+      "payments": 8059.36,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 15,
+      "payments": 1773.41,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 21,
+      "payments": 296.73,
+      "avg_markup": 2.48
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3792368.9,
+    "total_services": 58033,
+    "total_beneficiaries": 16459,
+    "avg_markup_ratio": 3.63
+  }
+}

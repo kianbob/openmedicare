@@ -1,0 +1,239 @@
+{
+  "name": "Robert Ricketts",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Westminster",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 261806.24,
+      "total_services": 4365,
+      "total_beneficiaries": 3175,
+      "avg_submitted": 235.16,
+      "avg_paid": 80.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 312245.8,
+      "total_services": 5038,
+      "total_beneficiaries": 3803,
+      "avg_submitted": 238.76,
+      "avg_paid": 81.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 375379.46,
+      "total_services": 5451,
+      "total_beneficiaries": 3575,
+      "avg_submitted": 262.21,
+      "avg_paid": 78.9
+    },
+    {
+      "year": 2017,
+      "total_payments": 366806.2,
+      "total_services": 5260,
+      "total_beneficiaries": 3569,
+      "avg_submitted": 330.08,
+      "avg_paid": 103.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 356902.67,
+      "total_services": 5714,
+      "total_beneficiaries": 3958,
+      "avg_submitted": 350.88,
+      "avg_paid": 104.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 310900.3,
+      "total_services": 4593,
+      "total_beneficiaries": 3131,
+      "avg_submitted": 368.51,
+      "avg_paid": 107.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 198982.69,
+      "total_services": 2732,
+      "total_beneficiaries": 2077,
+      "avg_submitted": 364.24,
+      "avg_paid": 99.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 262789.63,
+      "total_services": 3337,
+      "total_beneficiaries": 2265,
+      "avg_submitted": 381.46,
+      "avg_paid": 102.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 230913.39,
+      "total_services": 3169,
+      "total_beneficiaries": 2147,
+      "avg_submitted": 389.88,
+      "avg_paid": 98.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 208849.53,
+      "total_services": 3186,
+      "total_beneficiaries": 1975,
+      "avg_submitted": 402.14,
+      "avg_paid": 97.81
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8530,
+      "payments": 741522.66,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1516,
+      "payments": 617976.05,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2892,
+      "payments": 451958.92,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4481,
+      "payments": 288141.83,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 13096,
+      "payments": 171715.75,
+      "avg_markup": 5.72
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 1522,
+      "payments": 97365.63,
+      "avg_markup": 5.33
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1561,
+      "payments": 80721.18,
+      "avg_markup": 6.42
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 599,
+      "payments": 79023.68,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 1146,
+      "payments": 55989.14,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 972,
+      "payments": 43089.15,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 43,
+      "payments": 26507.07,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 400,
+      "payments": 25960.92,
+      "avg_markup": 7.26
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 231,
+      "payments": 25853.26,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 155,
+      "payments": 25650.69,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 3584,
+      "payments": 24874.2,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "93283",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 324,
+      "payments": 21043.82,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 335,
+      "payments": 19752.74,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 193,
+      "payments": 15868.5,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 143,
+      "payments": 15322.34,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 179,
+      "payments": 15017.29,
+      "avg_markup": 2.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2885575.92,
+    "total_services": 42845,
+    "total_beneficiaries": 29675,
+    "avg_markup_ratio": 3.46
+  }
+}

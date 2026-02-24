@@ -1,0 +1,103 @@
+{
+  "name": "Balboa Ambulance Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "San Diego",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2179841.43,
+      "total_services": 19960,
+      "total_beneficiaries": 7741,
+      "avg_submitted": 857.15,
+      "avg_paid": 266.99
+    },
+    {
+      "year": 2015,
+      "total_payments": 1790498.17,
+      "total_services": 16166,
+      "total_beneficiaries": 6662,
+      "avg_submitted": 857.13,
+      "avg_paid": 269.76
+    },
+    {
+      "year": 2016,
+      "total_payments": 1709021.68,
+      "total_services": 15050,
+      "total_beneficiaries": 6896,
+      "avg_submitted": 1392.74,
+      "avg_paid": 269.26
+    },
+    {
+      "year": 2017,
+      "total_payments": 1779463.43,
+      "total_services": 16094,
+      "total_beneficiaries": 6403,
+      "avg_submitted": 1393.12,
+      "avg_paid": 270.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 1390897.65,
+      "total_services": 12020,
+      "total_beneficiaries": 5486,
+      "avg_submitted": 1393.13,
+      "avg_paid": 277.0
+    },
+    {
+      "year": 2019,
+      "total_payments": 877945.43,
+      "total_services": 7054,
+      "total_beneficiaries": 4158,
+      "avg_submitted": 1392.79,
+      "avg_paid": 284.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 39510.93,
+      "total_services": 304,
+      "total_beneficiaries": 273,
+      "avg_submitted": 940.02,
+      "avg_paid": 143.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 31266,
+      "payments": 5427446.43,
+      "avg_markup": 5.53
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 10859,
+      "payments": 3225873.19,
+      "avg_markup": 5.13
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1440,
+      "payments": 878071.11,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 43083,
+      "payments": 235787.99,
+      "avg_markup": 4.55
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 9767178.72,
+    "total_services": 86648,
+    "total_beneficiaries": 37619,
+    "avg_markup_ratio": 5.19
+  }
+}

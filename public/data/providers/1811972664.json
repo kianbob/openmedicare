@@ -1,0 +1,239 @@
+{
+  "name": "Stephen Kremer",
+  "credentials": "M.D.",
+  "specialty": "Diagnostic Radiology",
+  "city": "Lindenhurst",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 439221.44,
+      "total_services": 6357,
+      "total_beneficiaries": 6333,
+      "avg_submitted": 189.05,
+      "avg_paid": 54.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 796304.32,
+      "total_services": 9323,
+      "total_beneficiaries": 9278,
+      "avg_submitted": 223.58,
+      "avg_paid": 87.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 1063410.5,
+      "total_services": 13374,
+      "total_beneficiaries": 13334,
+      "avg_submitted": 195.2,
+      "avg_paid": 76.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 1384103.15,
+      "total_services": 12127,
+      "total_beneficiaries": 12089,
+      "avg_submitted": 244.31,
+      "avg_paid": 99.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 1390660.46,
+      "total_services": 13137,
+      "total_beneficiaries": 13109,
+      "avg_submitted": 255.84,
+      "avg_paid": 94.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 1152520.28,
+      "total_services": 13986,
+      "total_beneficiaries": 13951,
+      "avg_submitted": 193.54,
+      "avg_paid": 76.65
+    },
+    {
+      "year": 2020,
+      "total_payments": 1033985.9,
+      "total_services": 10928,
+      "total_beneficiaries": 10901,
+      "avg_submitted": 207.46,
+      "avg_paid": 88.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 406956.99,
+      "total_services": 6631,
+      "total_beneficiaries": 6607,
+      "avg_submitted": 138.4,
+      "avg_paid": 57.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 585147.19,
+      "total_services": 5098,
+      "total_beneficiaries": 5092,
+      "avg_submitted": 265.88,
+      "avg_paid": 106.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 273899.59,
+      "total_services": 4199,
+      "total_beneficiaries": 4190,
+      "avg_submitted": 159.23,
+      "avg_paid": 62.87
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 21288,
+      "payments": 2763023.34,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 14218,
+      "payments": 2239683.3,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 28124,
+      "payments": 1486285.32,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "76641",
+      "description": "Ultrasound of one breast",
+      "services": 13041,
+      "payments": 1324328.78,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "77066",
+      "description": "Mammography of both breasts",
+      "services": 769,
+      "payments": 94709.76,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "77052",
+      "description": "Computer analysis of screening mammogram to assist detection of cancer",
+      "services": 8583,
+      "payments": 89028.52,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 1692,
+      "payments": 81649.96,
+      "avg_markup": 5.56
+    },
+    {
+      "code": "G0279",
+      "description": "Diagnostic digital breast tomosynthesis, unilateral or bilateral (list separately in addition to g0204 or g0206)",
+      "services": 1831,
+      "payments": 74285.95,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "G0204",
+      "description": "Diagnostic mammography, producing direct digital image, bilateral, all views",
+      "services": 492,
+      "payments": 72026.57,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "77065",
+      "description": "Mammography of one breast",
+      "services": 673,
+      "payments": 61228.99,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "G0206",
+      "description": "Diagnostic mammography, producing direct digital image, unilateral, all views",
+      "services": 502,
+      "payments": 58180.31,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "76645",
+      "description": "Ultrasound of breasts",
+      "services": 588,
+      "payments": 49947.82,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "74220",
+      "description": "X-ray of esophagus",
+      "services": 237,
+      "payments": 19183.91,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 523,
+      "payments": 13561.44,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "74240",
+      "description": "X-ray of upper digestive tract",
+      "services": 125,
+      "payments": 12380.92,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "72110",
+      "description": "X-ray of lower and sacral spine, minimum of 4 views",
+      "services": 204,
+      "payments": 8738.0,
+      "avg_markup": 5.24
+    },
+    {
+      "code": "76642",
+      "description": "Ultrasound of one breast",
+      "services": 113,
+      "payments": 6940.96,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "93971",
+      "description": "Ultrasound scan of veins of one arm or leg or limited including assessment of compression and functional maneuvers",
+      "services": 62,
+      "payments": 6499.2,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "77051",
+      "description": "Computer analysis of diagnostic mammogram",
+      "services": 708,
+      "payments": 5980.62,
+      "avg_markup": 4.54
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 50,
+      "payments": 5918.49,
+      "avg_markup": 2.46
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 8526209.83,
+    "total_services": 95160,
+    "total_beneficiaries": 94884,
+    "avg_markup_ratio": 2.1
+  }
+}

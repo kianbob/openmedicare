@@ -1,0 +1,116 @@
+{
+  "name": "United Medical Response Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Salem",
+  "state": "IL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 52800.59,
+      "total_services": 383,
+      "total_beneficiaries": 329,
+      "avg_submitted": 1190.28,
+      "avg_paid": 196.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 687167.44,
+      "total_services": 4644,
+      "total_beneficiaries": 3234,
+      "avg_submitted": 1410.19,
+      "avg_paid": 246.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 1408489.88,
+      "total_services": 9051,
+      "total_beneficiaries": 5728,
+      "avg_submitted": 1637.91,
+      "avg_paid": 306.46
+    },
+    {
+      "year": 2021,
+      "total_payments": 1563094.8,
+      "total_services": 10144,
+      "total_beneficiaries": 6293,
+      "avg_submitted": 1638.92,
+      "avg_paid": 301.51
+    },
+    {
+      "year": 2022,
+      "total_payments": 1796901.77,
+      "total_services": 11336,
+      "total_beneficiaries": 6924,
+      "avg_submitted": 1514.1,
+      "avg_paid": 260.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 1897673.47,
+      "total_services": 11112,
+      "total_beneficiaries": 6927,
+      "avg_submitted": 1768.67,
+      "avg_paid": 334.19
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 15162,
+      "payments": 5319666.4,
+      "avg_markup": 5.86
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 6715,
+      "payments": 1235451.95,
+      "avg_markup": 5.73
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1094,
+      "payments": 319782.61,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 462,
+      "payments": 233905.6,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 22695,
+      "payments": 160220.09,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 491,
+      "payments": 105389.05,
+      "avg_markup": 6.67
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 51,
+      "payments": 31712.24,
+      "avg_markup": 5.05
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 7406127.94,
+    "total_services": 46670,
+    "total_beneficiaries": 29435,
+    "avg_markup_ratio": 5.74
+  }
+}

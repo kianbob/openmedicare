@@ -1,0 +1,77 @@
+{
+  "name": "Lorain Lifecare Ambulance Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Lorain",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1710571.19,
+      "total_services": 13274,
+      "total_beneficiaries": 6660,
+      "avg_submitted": 510.68,
+      "avg_paid": 232.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 1371133.22,
+      "total_services": 10726,
+      "total_beneficiaries": 5642,
+      "avg_submitted": 523.76,
+      "avg_paid": 235.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 4536,
+      "payments": 1427743.72,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2804,
+      "payments": 742610.45,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 4532,
+      "payments": 735436.42,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 396,
+      "payments": 78926.56,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 11664,
+      "payments": 65971.75,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 68,
+      "payments": 31015.5,
+      "avg_markup": 1.67
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 3081704.41,
+    "total_services": 24000,
+    "total_beneficiaries": 12302,
+    "avg_markup_ratio": 2.22
+  }
+}

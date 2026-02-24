@@ -1,0 +1,123 @@
+{
+  "name": "New Hanover Regional Medical Center",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Wilmington",
+  "state": "NC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 1895908.99,
+      "total_services": 13427,
+      "total_beneficiaries": 9452,
+      "avg_submitted": 1042.61,
+      "avg_paid": 280.68
+    },
+    {
+      "year": 2017,
+      "total_payments": 4599123.4,
+      "total_services": 33678,
+      "total_beneficiaries": 20780,
+      "avg_submitted": 1055.92,
+      "avg_paid": 281.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 4650461.69,
+      "total_services": 33376,
+      "total_beneficiaries": 20482,
+      "avg_submitted": 1067.88,
+      "avg_paid": 284.88
+    },
+    {
+      "year": 2019,
+      "total_payments": 4749903.22,
+      "total_services": 33232,
+      "total_beneficiaries": 20397,
+      "avg_submitted": 1095.17,
+      "avg_paid": 291.51
+    },
+    {
+      "year": 2020,
+      "total_payments": 4222305.68,
+      "total_services": 29192,
+      "total_beneficiaries": 18027,
+      "avg_submitted": 1091.6,
+      "avg_paid": 296.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 343642.13,
+      "total_services": 2560,
+      "total_beneficiaries": 2102,
+      "avg_submitted": 960.19,
+      "avg_paid": 252.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 32200,
+      "payments": 10443239.7,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 21556,
+      "payments": 3680454.95,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 9567,
+      "payments": 2598250.29,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 8668,
+      "payments": 1793878.5,
+      "avg_markup": 5.31
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1563,
+      "payments": 884413.5,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 1358,
+      "payments": 639236.41,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 70531,
+      "payments": 421514.04,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "0001A",
+      "description": "Adm sarscov2 30mcg/0.3ml 1st",
+      "services": 22,
+      "payments": 357.72,
+      "avg_markup": 1.04
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 20461345.11,
+    "total_services": 145465,
+    "total_beneficiaries": 91240,
+    "avg_markup_ratio": 3.8
+  }
+}

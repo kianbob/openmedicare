@@ -1,0 +1,239 @@
+{
+  "name": "Christopher Perez",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Staten Island",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 119889.19,
+      "total_services": 3426,
+      "total_beneficiaries": 660,
+      "avg_submitted": 167.87,
+      "avg_paid": 57.09
+    },
+    {
+      "year": 2015,
+      "total_payments": 121318.87,
+      "total_services": 3490,
+      "total_beneficiaries": 611,
+      "avg_submitted": 180.26,
+      "avg_paid": 60.0
+    },
+    {
+      "year": 2016,
+      "total_payments": 186488.59,
+      "total_services": 6261,
+      "total_beneficiaries": 1107,
+      "avg_submitted": 128.07,
+      "avg_paid": 44.0
+    },
+    {
+      "year": 2017,
+      "total_payments": 176147.95,
+      "total_services": 5557,
+      "total_beneficiaries": 1073,
+      "avg_submitted": 187.34,
+      "avg_paid": 64.94
+    },
+    {
+      "year": 2018,
+      "total_payments": 165648.74,
+      "total_services": 4873,
+      "total_beneficiaries": 1016,
+      "avg_submitted": 150.72,
+      "avg_paid": 58.96
+    },
+    {
+      "year": 2019,
+      "total_payments": 331820.9,
+      "total_services": 10580,
+      "total_beneficiaries": 1775,
+      "avg_submitted": 150.44,
+      "avg_paid": 57.51
+    },
+    {
+      "year": 2020,
+      "total_payments": 254815.77,
+      "total_services": 7577,
+      "total_beneficiaries": 1333,
+      "avg_submitted": 142.05,
+      "avg_paid": 57.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 271178.01,
+      "total_services": 7917,
+      "total_beneficiaries": 1307,
+      "avg_submitted": 146.27,
+      "avg_paid": 59.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 404357.4,
+      "total_services": 9816,
+      "total_beneficiaries": 1623,
+      "avg_submitted": 165.16,
+      "avg_paid": 65.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 337393.38,
+      "total_services": 9563,
+      "total_beneficiaries": 1580,
+      "avg_submitted": 136.11,
+      "avg_paid": 56.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4833,
+      "payments": 444630.19,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5870,
+      "payments": 368164.26,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5011,
+      "payments": 355201.68,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "97140",
+      "description": "Manual (physical) therapy techniques to 1 or more regions, each 15 minutes",
+      "services": 15456,
+      "payments": 327222.89,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "97110",
+      "description": "Therapeutic exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+      "services": 11123,
+      "payments": 291770.77,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "G0283",
+      "description": "Electrical stimulation (unattended), to one or more areas for indication(s) other than wound care, as part of a therapy plan of care",
+      "services": 15342,
+      "payments": 138249.1,
+      "avg_markup": 7.75
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 602,
+      "payments": 84180.46,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 573,
+      "payments": 67971.73,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 1218,
+      "payments": 67889.38,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "97035",
+      "description": "Application of ultrasound to 1 or more areas, each 15 minutes",
+      "services": 5109,
+      "payments": 48648.17,
+      "avg_markup": 7.04
+    },
+    {
+      "code": "J7321",
+      "description": "Hyaluronan or derivative, hyalgan or supartz, for intra-articular injection, per dose",
+      "services": 486,
+      "payments": 31068.47,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "20553",
+      "description": "Injections of trigger points in 3 or more muscles",
+      "services": 538,
+      "payments": 30162.96,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "64615",
+      "description": "Injection of chemical for destruction of facial and neck nerve muscles on both sides of face",
+      "services": 176,
+      "payments": 26557.83,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "97161",
+      "description": "Evaluation of physical therapy, typically 20 minutes",
+      "services": 286,
+      "payments": 20926.77,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "97165",
+      "description": "Evaluation of occupational therapy, typically 30 minutes",
+      "services": 172,
+      "payments": 12849.19,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "97162",
+      "description": "Evaluation of physical therapy, typically 30 minutes",
+      "services": 144,
+      "payments": 11274.78,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "97116",
+      "description": "Walking training to 1 or more areas, each 15 minutes",
+      "services": 528,
+      "payments": 10367.81,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "95886",
+      "description": "Needle measurement and recording of electrical activity of muscles of arm or leg complete study",
+      "services": 107,
+      "payments": 8786.56,
+      "avg_markup": 4.09
+    },
+    {
+      "code": "95911",
+      "description": "Nerve transmission studies, 9-10 studies",
+      "services": 26,
+      "payments": 5463.74,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "95910",
+      "description": "Nerve transmission studies, 7-8 studies",
+      "services": 33,
+      "payments": 5374.65,
+      "avg_markup": 3.24
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2369058.79,
+    "total_services": 69060,
+    "total_beneficiaries": 12085,
+    "avg_markup_ratio": 2.78
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Apt Foundation Inc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "New Haven",
+  "state": "CT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 2263272.29,
+      "total_services": 13663,
+      "total_beneficiaries": 629,
+      "avg_submitted": 189.51,
+      "avg_paid": 141.82
+    },
+    {
+      "year": 2021,
+      "total_payments": 1815490.53,
+      "total_services": 10230,
+      "total_beneficiaries": 532,
+      "avg_submitted": 189.51,
+      "avg_paid": 144.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 1332589.64,
+      "total_services": 7599,
+      "total_beneficiaries": 452,
+      "avg_submitted": 189.63,
+      "avg_paid": 144.25
+    },
+    {
+      "year": 2023,
+      "total_payments": 1172591.15,
+      "total_services": 5827,
+      "total_beneficiaries": 344,
+      "avg_submitted": 200.0,
+      "avg_paid": 157.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 28026,
+      "payments": 6239615.77,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 9209,
+      "payments": 329386.0,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 84,
+      "payments": 14941.83,
+      "avg_markup": 1.41
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 6583943.6,
+    "total_services": 37319,
+    "total_beneficiaries": 1957,
+    "avg_markup_ratio": 1.17
+  }
+}

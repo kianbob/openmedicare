@@ -1,0 +1,92 @@
+{
+  "name": "Healthlink Medical Transportation Services Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Taylor",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 4495520.83,
+      "total_services": 37763,
+      "total_beneficiaries": 19292,
+      "avg_submitted": 471.07,
+      "avg_paid": 291.04
+    },
+    {
+      "year": 2015,
+      "total_payments": 3871247.18,
+      "total_services": 33830,
+      "total_beneficiaries": 17475,
+      "avg_submitted": 476.05,
+      "avg_paid": 291.27
+    },
+    {
+      "year": 2016,
+      "total_payments": 1879814.06,
+      "total_services": 17643,
+      "total_beneficiaries": 10141,
+      "avg_submitted": 514.0,
+      "avg_paid": 285.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 29326,
+      "payments": 4962104.71,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 9167,
+      "payments": 3006758.08,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4701,
+      "payments": 1300165.57,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 813,
+      "payments": 462713.08,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 44164,
+      "payments": 244856.8,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 883,
+      "payments": 183596.63,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 182,
+      "payments": 86387.2,
+      "avg_markup": 1.53
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 10246582.07,
+    "total_services": 89236,
+    "total_beneficiaries": 46908,
+    "avg_markup_ratio": 1.97
+  }
+}

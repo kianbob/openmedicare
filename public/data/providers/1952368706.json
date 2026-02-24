@@ -1,0 +1,239 @@
+{
+  "name": "William Trigoso",
+  "credentials": "MD",
+  "specialty": "Endocrinology",
+  "city": "San Antonio",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 404841.57,
+      "total_services": 22283,
+      "total_beneficiaries": 13307,
+      "avg_submitted": 66.62,
+      "avg_paid": 29.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 424019.2,
+      "total_services": 23417,
+      "total_beneficiaries": 13340,
+      "avg_submitted": 59.21,
+      "avg_paid": 24.58
+    },
+    {
+      "year": 2016,
+      "total_payments": 419122.57,
+      "total_services": 21687,
+      "total_beneficiaries": 11622,
+      "avg_submitted": 60.59,
+      "avg_paid": 24.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 437710.23,
+      "total_services": 21302,
+      "total_beneficiaries": 12105,
+      "avg_submitted": 60.54,
+      "avg_paid": 25.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 410564.3,
+      "total_services": 18791,
+      "total_beneficiaries": 10239,
+      "avg_submitted": 65.83,
+      "avg_paid": 25.6
+    },
+    {
+      "year": 2019,
+      "total_payments": 517899.65,
+      "total_services": 24550,
+      "total_beneficiaries": 14407,
+      "avg_submitted": 66.99,
+      "avg_paid": 24.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 417198.7,
+      "total_services": 20200,
+      "total_beneficiaries": 11357,
+      "avg_submitted": 67.89,
+      "avg_paid": 24.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 484771.46,
+      "total_services": 21072,
+      "total_beneficiaries": 12578,
+      "avg_submitted": 69.17,
+      "avg_paid": 27.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 452078.88,
+      "total_services": 20351,
+      "total_beneficiaries": 11357,
+      "avg_submitted": 81.94,
+      "avg_paid": 31.64
+    },
+    {
+      "year": 2023,
+      "total_payments": 479965.42,
+      "total_services": 21386,
+      "total_beneficiaries": 12245,
+      "avg_submitted": 76.0,
+      "avg_paid": 27.74
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 19351,
+      "payments": 1471202.53,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 14520,
+      "payments": 278781.95,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5516,
+      "payments": 277483.75,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 7960,
+      "payments": 257657.86,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 4302,
+      "payments": 185013.09,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 17140,
+      "payments": 182209.88,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 15344,
+      "payments": 171041.7,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 12826,
+      "payments": 165275.89,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 958,
+      "payments": 107439.89,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "95250",
+      "description": "Ambulatory continuous glucose (sugar) monitoring for a minimum of 72 hours",
+      "services": 960,
+      "payments": 102044.2,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 1256,
+      "payments": 100930.29,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 10603,
+      "payments": 92972.89,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 22505,
+      "payments": 72229.9,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 6673,
+      "payments": 62134.62,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 3491,
+      "payments": 58707.05,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "82985",
+      "description": "Glycated protein level",
+      "services": 3171,
+      "payments": 56861.39,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "95251",
+      "description": "Ambulatory continuous glucose (sugar) including interpretation and report for a minimum of 72 hours",
+      "services": 2077,
+      "payments": 56250.99,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 4376,
+      "payments": 53711.72,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 3170,
+      "payments": 48990.62,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "84436",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 5224,
+      "payments": 44359.63,
+      "avg_markup": 3.03
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4448171.98,
+    "total_services": 215039,
+    "total_beneficiaries": 122557,
+    "avg_markup_ratio": 2.47
+  }
+}

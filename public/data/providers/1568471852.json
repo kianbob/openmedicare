@@ -1,0 +1,123 @@
+{
+  "name": "Kingston Ambulatory Surgical Center",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Kingston",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 419532.94,
+      "total_services": 680,
+      "total_beneficiaries": 521,
+      "avg_submitted": 1475.91,
+      "avg_paid": 544.19
+    },
+    {
+      "year": 2015,
+      "total_payments": 473782.51,
+      "total_services": 783,
+      "total_beneficiaries": 592,
+      "avg_submitted": 1482.42,
+      "avg_paid": 560.72
+    },
+    {
+      "year": 2016,
+      "total_payments": 494463.61,
+      "total_services": 791,
+      "total_beneficiaries": 601,
+      "avg_submitted": 1907.57,
+      "avg_paid": 660.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 606824.4,
+      "total_services": 1079,
+      "total_beneficiaries": 813,
+      "avg_submitted": 1236.37,
+      "avg_paid": 427.94
+    },
+    {
+      "year": 2018,
+      "total_payments": 664560.83,
+      "total_services": 993,
+      "total_beneficiaries": 733,
+      "avg_submitted": 1990.4,
+      "avg_paid": 1113.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 392960.85,
+      "total_services": 736,
+      "total_beneficiaries": 568,
+      "avg_submitted": 1445.83,
+      "avg_paid": 578.11
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 3311,
+      "payments": 2379216.69,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "C9447",
+      "description": "Injection, phenylephrine and ketorolac, 4 ml vial",
+      "services": 592,
+      "payments": 214977.78,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "66982",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 212,
+      "payments": 152511.85,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 651,
+      "payments": 114035.86,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "49505",
+      "description": "Repair of groin hernia patient age 5 years or older",
+      "services": 75,
+      "payments": 75523.91,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "C9740",
+      "description": "Cystourethroscopy, with insertion of transprostatic implant; 4 or more implants",
+      "services": 15,
+      "payments": 70844.85,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "66761",
+      "description": "Creation of eye fluid drainage tracts in iris using laser, per session",
+      "services": 189,
+      "payments": 25246.44,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "50590",
+      "description": "Shock wave crushing of kidney stones",
+      "services": 17,
+      "payments": 19767.75,
+      "avg_markup": 3.46
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3052125.13,
+    "total_services": 5062,
+    "total_beneficiaries": 3828,
+    "avg_markup_ratio": 2.81
+  }
+}

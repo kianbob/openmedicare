@@ -1,0 +1,239 @@
+{
+  "name": "James North",
+  "credentials": "MD",
+  "specialty": "Anesthesiology",
+  "city": "Winston Salem",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 229823.07,
+      "total_services": 3561,
+      "total_beneficiaries": 2154,
+      "avg_submitted": 664.22,
+      "avg_paid": 73.54
+    },
+    {
+      "year": 2015,
+      "total_payments": 292699.25,
+      "total_services": 4670,
+      "total_beneficiaries": 2911,
+      "avg_submitted": 598.17,
+      "avg_paid": 73.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 410472.76,
+      "total_services": 4966,
+      "total_beneficiaries": 2781,
+      "avg_submitted": 868.33,
+      "avg_paid": 100.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 399993.81,
+      "total_services": 4745,
+      "total_beneficiaries": 2660,
+      "avg_submitted": 879.57,
+      "avg_paid": 104.27
+    },
+    {
+      "year": 2018,
+      "total_payments": 395116.31,
+      "total_services": 4680,
+      "total_beneficiaries": 2650,
+      "avg_submitted": 854.25,
+      "avg_paid": 102.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 375773.63,
+      "total_services": 4562,
+      "total_beneficiaries": 2494,
+      "avg_submitted": 798.71,
+      "avg_paid": 92.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 179866.89,
+      "total_services": 2477,
+      "total_beneficiaries": 1711,
+      "avg_submitted": 595.67,
+      "avg_paid": 95.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 523879.34,
+      "total_services": 5604,
+      "total_beneficiaries": 3578,
+      "avg_submitted": 779.91,
+      "avg_paid": 131.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 407200.65,
+      "total_services": 4120,
+      "total_beneficiaries": 2306,
+      "avg_submitted": 695.42,
+      "avg_paid": 116.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 455864.74,
+      "total_services": 4233,
+      "total_beneficiaries": 2302,
+      "avg_submitted": 1038.98,
+      "avg_paid": 172.99
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14655,
+      "payments": 1122340.41,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test def 15-21 classes",
+      "services": 1617,
+      "payments": 299696.27,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 3074,
+      "payments": 193539.07,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 1166,
+      "payments": 179107.99,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "64635",
+      "description": "Destruction of lower or sacral spinal facet joint nerves using imaging guidance",
+      "services": 667,
+      "payments": 158553.58,
+      "avg_markup": 10.62
+    },
+    {
+      "code": "63650",
+      "description": "Implantation of spinal neurostimulator electrodes, accessed through the skin",
+      "services": 294,
+      "payments": 139542.5,
+      "avg_markup": 10.9
+    },
+    {
+      "code": "64483",
+      "description": "Injections of anesthetic and/or steroid drug into lower or sacral spine nerve root using imaging guidance",
+      "services": 758,
+      "payments": 129647.25,
+      "avg_markup": 5.47
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 923,
+      "payments": 109497.54,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1697,
+      "payments": 85573.41,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "64493",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 554,
+      "payments": 85401.94,
+      "avg_markup": 8.59
+    },
+    {
+      "code": "27096",
+      "description": "Injection procedure into sacroiliac joint for anesthetic or steroid",
+      "services": 645,
+      "payments": 85029.91,
+      "avg_markup": 9.73
+    },
+    {
+      "code": "62370",
+      "description": "Electronic analysis reprogramming and refill of spinal canal drug infusion pump by physician",
+      "services": 946,
+      "payments": 72677.43,
+      "avg_markup": 7.81
+    },
+    {
+      "code": "G0480",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 586,
+      "payments": 65620.66,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "64633",
+      "description": "Destruction of upper or middle spinal facet joint nerves using imaging guidance",
+      "services": 279,
+      "payments": 65268.35,
+      "avg_markup": 9.9
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 638,
+      "payments": 65137.99,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "64636",
+      "description": "Destruction of lower or sacral spinal facet joint nerves with imaging guidance",
+      "services": 644,
+      "payments": 58453.99,
+      "avg_markup": 10.33
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 590,
+      "payments": 55956.06,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 406,
+      "payments": 46590.96,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "64494",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 540,
+      "payments": 44887.64,
+      "avg_markup": 9.71
+    },
+    {
+      "code": "64490",
+      "description": "Injections of upper or middle spine facet joint using imaging guidance",
+      "services": 287,
+      "payments": 43249.44,
+      "avg_markup": 8.41
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3670690.45,
+    "total_services": 43618,
+    "total_beneficiaries": 25547,
+    "avg_markup_ratio": 4.21
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "name": "Peter Nguyen",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 260057.62,
+      "total_services": 2931,
+      "total_beneficiaries": 1235,
+      "avg_submitted": 227.81,
+      "avg_paid": 105.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 195053.08,
+      "total_services": 2407,
+      "total_beneficiaries": 1036,
+      "avg_submitted": 319.21,
+      "avg_paid": 123.49
+    },
+    {
+      "year": 2016,
+      "total_payments": 233754.64,
+      "total_services": 2961,
+      "total_beneficiaries": 1091,
+      "avg_submitted": 294.16,
+      "avg_paid": 113.36
+    },
+    {
+      "year": 2017,
+      "total_payments": 352179.64,
+      "total_services": 4729,
+      "total_beneficiaries": 1685,
+      "avg_submitted": 267.82,
+      "avg_paid": 100.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 309814.59,
+      "total_services": 4272,
+      "total_beneficiaries": 1442,
+      "avg_submitted": 150.53,
+      "avg_paid": 105.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 288619.81,
+      "total_services": 3512,
+      "total_beneficiaries": 1308,
+      "avg_submitted": 146.85,
+      "avg_paid": 104.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 303358.33,
+      "total_services": 3608,
+      "total_beneficiaries": 1168,
+      "avg_submitted": 142.64,
+      "avg_paid": 106.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 264416.75,
+      "total_services": 2847,
+      "total_beneficiaries": 1099,
+      "avg_submitted": 241.16,
+      "avg_paid": 115.07
+    },
+    {
+      "year": 2022,
+      "total_payments": 202791.91,
+      "total_services": 2343,
+      "total_beneficiaries": 932,
+      "avg_submitted": 315.7,
+      "avg_paid": 120.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 132887.88,
+      "total_services": 1536,
+      "total_beneficiaries": 639,
+      "avg_submitted": 223.17,
+      "avg_paid": 85.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7713,
+      "payments": 651228.76,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10676,
+      "payments": 614840.85,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5096,
+      "payments": 419079.57,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 900,
+      "payments": 215587.43,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1829,
+      "payments": 195664.97,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 2130,
+      "payments": 123740.9,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 485,
+      "payments": 96554.47,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 355,
+      "payments": 57024.2,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 851,
+      "payments": 56388.97,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 420,
+      "payments": 52783.58,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "90966",
+      "description": "Home dialysis services per month, patient 20 years of age or older",
+      "services": 108,
+      "payments": 19920.51,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "90937",
+      "description": "Hemodialysis procedure with repeated evaluations",
+      "services": 156,
+      "payments": 12960.41,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 137,
+      "payments": 8755.62,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 41,
+      "payments": 5981.89,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 66,
+      "payments": 3756.14,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 105,
+      "payments": 3233.27,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 36,
+      "payments": 3028.57,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "90945",
+      "description": "Dialysis procedure including one evaluation",
+      "services": 28,
+      "payments": 1902.62,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99441",
+      "description": "Physician telephone patient service, 5-10 minutes of medical discussion",
+      "services": 14,
+      "payments": 501.52,
+      "avg_markup": 1.31
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2542934.25,
+    "total_services": 31146,
+    "total_beneficiaries": 11635,
+    "avg_markup_ratio": 2.05
+  }
+}

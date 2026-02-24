@@ -1,0 +1,183 @@
+{
+  "name": "Arnold Feldman",
+  "credentials": "M.D.",
+  "specialty": "Interventional Pain Management",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1642165.14,
+      "total_services": 52719,
+      "total_beneficiaries": 16272,
+      "avg_submitted": 690.61,
+      "avg_paid": 52.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 1817239.39,
+      "total_services": 55710,
+      "total_beneficiaries": 21678,
+      "avg_submitted": 1030.24,
+      "avg_paid": 59.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 891019.63,
+      "total_services": 13928,
+      "total_beneficiaries": 7026,
+      "avg_submitted": 670.85,
+      "avg_paid": 56.71
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 5513,
+      "payments": 533632.77,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6958,
+      "payments": 526539.09,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test def 22+ classes",
+      "services": 1063,
+      "payments": 223753.97,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1854,
+      "payments": 143526.08,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 993,
+      "payments": 103132.63,
+      "avg_markup": 16.94
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1723,
+      "payments": 91875.85,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "82542",
+      "description": "Chemical analysis using chromatography technique",
+      "services": 3633,
+      "payments": 87349.82,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "83789",
+      "description": "Mass spectrometry (laboratory testing method)",
+      "services": 3630,
+      "payments": 87299.69,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "72131",
+      "description": "CT scan of lower spine",
+      "services": 1189,
+      "payments": 80680.93,
+      "avg_markup": 14.65
+    },
+    {
+      "code": "62370",
+      "description": "Electronic analysis reprogramming and refill of spinal canal drug infusion pump by physician",
+      "services": 827,
+      "payments": 72120.05,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "82649",
+      "description": "Dihydromorphinone (drug) level",
+      "services": 1929,
+      "payments": 65988.76,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "G6046",
+      "description": "Dihydromorphinone",
+      "services": 1676,
+      "payments": 57376.99,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "82646",
+      "description": "Dihydrocodeinone (drug) measurement",
+      "services": 1936,
+      "payments": 53195.51,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "73721",
+      "description": "MRI scan of leg joint",
+      "services": 533,
+      "payments": 52988.32,
+      "avg_markup": 10.34
+    },
+    {
+      "code": "83925",
+      "description": "Opiates (drug) measurement",
+      "services": 1955,
+      "payments": 50612.21,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "72195",
+      "description": "MRI scan of pelvis",
+      "services": 243,
+      "payments": 50568.73,
+      "avg_markup": 8.34
+    },
+    {
+      "code": "80154",
+      "description": "Benzodiazepines level",
+      "services": 1937,
+      "payments": 47673.36,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 242,
+      "payments": 47337.26,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "G6045",
+      "description": "Dihydrocodeinone",
+      "services": 1675,
+      "payments": 46068.26,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "80152",
+      "description": "Amitriptyline (antidepressant) level",
+      "services": 1929,
+      "payments": 45959.51,
+      "avg_markup": 2.58
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 4350424.16,
+    "total_services": 122357,
+    "total_beneficiaries": 44976,
+    "avg_markup_ratio": 5.42
+  }
+}

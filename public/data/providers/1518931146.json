@@ -1,0 +1,239 @@
+{
+  "name": "John Wheeler",
+  "credentials": "DO",
+  "specialty": "Family Practice",
+  "city": "Derry",
+  "state": "NH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 233949.46,
+      "total_services": 4056,
+      "total_beneficiaries": 2516,
+      "avg_submitted": 141.44,
+      "avg_paid": 58.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 245285.87,
+      "total_services": 4163,
+      "total_beneficiaries": 2667,
+      "avg_submitted": 139.67,
+      "avg_paid": 58.62
+    },
+    {
+      "year": 2016,
+      "total_payments": 241778.56,
+      "total_services": 4379,
+      "total_beneficiaries": 2639,
+      "avg_submitted": 149.41,
+      "avg_paid": 52.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 234696.58,
+      "total_services": 4221,
+      "total_beneficiaries": 2508,
+      "avg_submitted": 156.62,
+      "avg_paid": 64.82
+    },
+    {
+      "year": 2018,
+      "total_payments": 235419.32,
+      "total_services": 4005,
+      "total_beneficiaries": 2474,
+      "avg_submitted": 151.88,
+      "avg_paid": 60.41
+    },
+    {
+      "year": 2019,
+      "total_payments": 221882.19,
+      "total_services": 3510,
+      "total_beneficiaries": 2351,
+      "avg_submitted": 186.8,
+      "avg_paid": 73.91
+    },
+    {
+      "year": 2020,
+      "total_payments": 211594.19,
+      "total_services": 3088,
+      "total_beneficiaries": 2128,
+      "avg_submitted": 194.49,
+      "avg_paid": 68.94
+    },
+    {
+      "year": 2021,
+      "total_payments": 275384.33,
+      "total_services": 3813,
+      "total_beneficiaries": 2695,
+      "avg_submitted": 178.27,
+      "avg_paid": 61.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 292527.27,
+      "total_services": 3960,
+      "total_beneficiaries": 2845,
+      "avg_submitted": 199.25,
+      "avg_paid": 74.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 315051.77,
+      "total_services": 4011,
+      "total_beneficiaries": 3072,
+      "avg_submitted": 186.93,
+      "avg_paid": 65.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9820,
+      "payments": 774936.12,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 4436,
+      "payments": 233668.49,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1333,
+      "payments": 177330.34,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 1615,
+      "payments": 164705.59,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2801,
+      "payments": 145737.39,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1013,
+      "payments": 124109.11,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1156,
+      "payments": 85228.8,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 606,
+      "payments": 83863.76,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 577,
+      "payments": 62142.86,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 323,
+      "payments": 61908.52,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1020,
+      "payments": 58045.27,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 385,
+      "payments": 53143.11,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 878,
+      "payments": 49195.35,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 219,
+      "payments": 44644.01,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1420,
+      "payments": 33769.03,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 178,
+      "payments": 30361.42,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 1968,
+      "payments": 30204.8,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 239,
+      "payments": 27789.83,
+      "avg_markup": 6.03
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 148,
+      "payments": 22430.93,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 67,
+      "payments": 18919.75,
+      "avg_markup": 1.33
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2507569.55,
+    "total_services": 39206,
+    "total_beneficiaries": 25895,
+    "avg_markup_ratio": 2.45
+  }
+}

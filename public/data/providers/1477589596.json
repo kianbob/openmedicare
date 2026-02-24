@@ -1,0 +1,134 @@
+{
+  "name": "City Of Roseville",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Roseville",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 333324.11,
+      "total_services": 2080,
+      "total_beneficiaries": 1714,
+      "avg_submitted": 440.93,
+      "avg_paid": 275.37
+    },
+    {
+      "year": 2015,
+      "total_payments": 360309.59,
+      "total_services": 2250,
+      "total_beneficiaries": 1733,
+      "avg_submitted": 459.38,
+      "avg_paid": 275.16
+    },
+    {
+      "year": 2016,
+      "total_payments": 363662.83,
+      "total_services": 2265,
+      "total_beneficiaries": 1779,
+      "avg_submitted": 458.58,
+      "avg_paid": 272.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 355488.64,
+      "total_services": 2235,
+      "total_beneficiaries": 1741,
+      "avg_submitted": 504.46,
+      "avg_paid": 277.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 344985.96,
+      "total_services": 2155,
+      "total_beneficiaries": 1657,
+      "avg_submitted": 503.11,
+      "avg_paid": 259.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 352386.22,
+      "total_services": 2169,
+      "total_beneficiaries": 1605,
+      "avg_submitted": 521.14,
+      "avg_paid": 286.17
+    },
+    {
+      "year": 2020,
+      "total_payments": 283485.61,
+      "total_services": 1720,
+      "total_beneficiaries": 1330,
+      "avg_submitted": 522.82,
+      "avg_paid": 293.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 299949.3,
+      "total_services": 1823,
+      "total_beneficiaries": 1319,
+      "avg_submitted": 411.94,
+      "avg_paid": 222.04
+    },
+    {
+      "year": 2022,
+      "total_payments": 297353.79,
+      "total_services": 1736,
+      "total_beneficiaries": 1257,
+      "avg_submitted": 413.97,
+      "avg_paid": 230.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 284083.73,
+      "total_services": 1541,
+      "total_beneficiaries": 1177,
+      "avg_submitted": 421.47,
+      "avg_paid": 247.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 4904,
+      "payments": 1694750.81,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4930,
+      "payments": 1455828.74,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 128,
+      "payments": 62180.53,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 9994,
+      "payments": 59059.59,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 18,
+      "payments": 3210.12,
+      "avg_markup": 2.4
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3275029.79,
+    "total_services": 19974,
+    "total_beneficiaries": 15312,
+    "avg_markup_ratio": 1.8
+  }
+}

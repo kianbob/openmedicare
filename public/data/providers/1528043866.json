@@ -1,0 +1,239 @@
+{
+  "name": "Jose Pinto",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Port St Lucie",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 225374.63,
+      "total_services": 4761,
+      "total_beneficiaries": 2467,
+      "avg_submitted": 151.67,
+      "avg_paid": 57.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 230507.03,
+      "total_services": 4709,
+      "total_beneficiaries": 2527,
+      "avg_submitted": 162.86,
+      "avg_paid": 62.62
+    },
+    {
+      "year": 2016,
+      "total_payments": 222101.98,
+      "total_services": 4907,
+      "total_beneficiaries": 2664,
+      "avg_submitted": 155.61,
+      "avg_paid": 58.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 195700.09,
+      "total_services": 4547,
+      "total_beneficiaries": 2641,
+      "avg_submitted": 124.66,
+      "avg_paid": 51.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 255987.86,
+      "total_services": 5156,
+      "total_beneficiaries": 3194,
+      "avg_submitted": 134.86,
+      "avg_paid": 59.28
+    },
+    {
+      "year": 2019,
+      "total_payments": 257201.41,
+      "total_services": 5082,
+      "total_beneficiaries": 3056,
+      "avg_submitted": 126.47,
+      "avg_paid": 58.55
+    },
+    {
+      "year": 2020,
+      "total_payments": 222556.01,
+      "total_services": 4246,
+      "total_beneficiaries": 2847,
+      "avg_submitted": 106.19,
+      "avg_paid": 61.86
+    },
+    {
+      "year": 2021,
+      "total_payments": 266804.87,
+      "total_services": 4993,
+      "total_beneficiaries": 3734,
+      "avg_submitted": 82.14,
+      "avg_paid": 66.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 233926.88,
+      "total_services": 4181,
+      "total_beneficiaries": 3158,
+      "avg_submitted": 82.62,
+      "avg_paid": 63.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 251227.9,
+      "total_services": 4060,
+      "total_beneficiaries": 2850,
+      "avg_submitted": 110.61,
+      "avg_paid": 60.06
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 11552,
+      "payments": 615339.95,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6702,
+      "payments": 544459.83,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2326,
+      "payments": 282667.15,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1591,
+      "payments": 95756.77,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1371,
+      "payments": 74959.83,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 572,
+      "payments": 65279.11,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 471,
+      "payments": 55376.4,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 2077,
+      "payments": 38602.71,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 361,
+      "payments": 37994.08,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "G0442",
+      "description": "Annual alcohol misuse screening, 15 minutes",
+      "services": 1985,
+      "payments": 36944.23,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 545,
+      "payments": 32893.03,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1355,
+      "payments": 29667.06,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 707,
+      "payments": 28900.16,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 180,
+      "payments": 28390.91,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 214,
+      "payments": 25868.27,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 1489,
+      "payments": 24245.58,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 115,
+      "payments": 23187.67,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 216,
+      "payments": 22667.13,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 181,
+      "payments": 21254.18,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 127,
+      "payments": 19381.42,
+      "avg_markup": 1.44
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2361388.66,
+    "total_services": 46642,
+    "total_beneficiaries": 29138,
+    "avg_markup_ratio": 2.19
+  }
+}

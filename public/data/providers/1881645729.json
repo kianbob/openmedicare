@@ -1,0 +1,134 @@
+{
+  "name": "Jesus Gonzalez",
+  "credentials": "M.D.",
+  "specialty": "Family Practice",
+  "city": "Miami Beach",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 451213.83,
+      "total_services": 4293,
+      "total_beneficiaries": 792,
+      "avg_submitted": 169.29,
+      "avg_paid": 123.28
+    },
+    {
+      "year": 2015,
+      "total_payments": 365845.28,
+      "total_services": 3619,
+      "total_beneficiaries": 625,
+      "avg_submitted": 168.0,
+      "avg_paid": 118.96
+    },
+    {
+      "year": 2016,
+      "total_payments": 335090.37,
+      "total_services": 3179,
+      "total_beneficiaries": 643,
+      "avg_submitted": 168.0,
+      "avg_paid": 119.02
+    },
+    {
+      "year": 2017,
+      "total_payments": 421902.99,
+      "total_services": 4247,
+      "total_beneficiaries": 812,
+      "avg_submitted": 168.08,
+      "avg_paid": 113.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 456786.52,
+      "total_services": 4569,
+      "total_beneficiaries": 887,
+      "avg_submitted": 169.0,
+      "avg_paid": 115.76
+    },
+    {
+      "year": 2019,
+      "total_payments": 386162.57,
+      "total_services": 3902,
+      "total_beneficiaries": 623,
+      "avg_submitted": 169.0,
+      "avg_paid": 116.78
+    },
+    {
+      "year": 2020,
+      "total_payments": 329628.74,
+      "total_services": 3505,
+      "total_beneficiaries": 527,
+      "avg_submitted": 161.25,
+      "avg_paid": 113.18
+    },
+    {
+      "year": 2021,
+      "total_payments": 245012.94,
+      "total_services": 2545,
+      "total_beneficiaries": 324,
+      "avg_submitted": 161.25,
+      "avg_paid": 117.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 189290.07,
+      "total_services": 1967,
+      "total_beneficiaries": 309,
+      "avg_submitted": 161.27,
+      "avg_paid": 115.24
+    },
+    {
+      "year": 2023,
+      "total_payments": 125337.57,
+      "total_services": 1189,
+      "total_beneficiaries": 249,
+      "avg_submitted": 159.63,
+      "avg_paid": 115.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 18131,
+      "payments": 1578994.78,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 10906,
+      "payments": 1210773.3,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1848,
+      "payments": 310929.52,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1748,
+      "payments": 154491.98,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 382,
+      "payments": 51081.3,
+      "avg_markup": 1.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3306270.88,
+    "total_services": 33015,
+    "total_beneficiaries": 5791,
+    "avg_markup_ratio": 1.4
+  }
+}

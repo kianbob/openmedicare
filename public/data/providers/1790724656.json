@@ -1,0 +1,103 @@
+{
+  "name": "City Of Taylor",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Taylor",
+  "state": "MI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 64246.43,
+      "total_services": 403,
+      "total_beneficiaries": 373,
+      "avg_submitted": 449.06,
+      "avg_paid": 207.52
+    },
+    {
+      "year": 2018,
+      "total_payments": 493257.88,
+      "total_services": 3007,
+      "total_beneficiaries": 2156,
+      "avg_submitted": 546.35,
+      "avg_paid": 278.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 491326.98,
+      "total_services": 2924,
+      "total_beneficiaries": 2060,
+      "avg_submitted": 544.08,
+      "avg_paid": 279.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 366781.36,
+      "total_services": 2189,
+      "total_beneficiaries": 1624,
+      "avg_submitted": 444.84,
+      "avg_paid": 217.74
+    },
+    {
+      "year": 2021,
+      "total_payments": 392343.94,
+      "total_services": 2310,
+      "total_beneficiaries": 1644,
+      "avg_submitted": 596.76,
+      "avg_paid": 295.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 389292.86,
+      "total_services": 2212,
+      "total_beneficiaries": 1496,
+      "avg_submitted": 662.34,
+      "avg_paid": 306.14
+    },
+    {
+      "year": 2023,
+      "total_payments": 381084.6,
+      "total_services": 2003,
+      "total_beneficiaries": 1379,
+      "avg_submitted": 678.31,
+      "avg_paid": 330.96
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 4349,
+      "payments": 1543292.13,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3155,
+      "payments": 954827.52,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 7477,
+      "payments": 45601.06,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 67,
+      "payments": 34613.35,
+      "avg_markup": 1.9
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2578334.06,
+    "total_services": 15048,
+    "total_beneficiaries": 10732,
+    "avg_markup_ratio": 2.12
+  }
+}

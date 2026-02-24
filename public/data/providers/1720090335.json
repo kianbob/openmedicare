@@ -1,0 +1,239 @@
+{
+  "name": "David Chesler",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Charlottesville",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 419385.16,
+      "total_services": 8535,
+      "total_beneficiaries": 4770,
+      "avg_submitted": 65.87,
+      "avg_paid": 41.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 511203.8,
+      "total_services": 9256,
+      "total_beneficiaries": 5626,
+      "avg_submitted": 70.94,
+      "avg_paid": 43.36
+    },
+    {
+      "year": 2016,
+      "total_payments": 774119.95,
+      "total_services": 14242,
+      "total_beneficiaries": 6968,
+      "avg_submitted": 173.1,
+      "avg_paid": 52.45
+    },
+    {
+      "year": 2017,
+      "total_payments": 539744.61,
+      "total_services": 10049,
+      "total_beneficiaries": 6295,
+      "avg_submitted": 163.8,
+      "avg_paid": 52.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 482889.15,
+      "total_services": 8079,
+      "total_beneficiaries": 5211,
+      "avg_submitted": 150.14,
+      "avg_paid": 58.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 396231.59,
+      "total_services": 6640,
+      "total_beneficiaries": 4274,
+      "avg_submitted": 152.98,
+      "avg_paid": 63.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 376222.19,
+      "total_services": 5412,
+      "total_beneficiaries": 3337,
+      "avg_submitted": 146.26,
+      "avg_paid": 63.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 426761.69,
+      "total_services": 5694,
+      "total_beneficiaries": 3542,
+      "avg_submitted": 143.74,
+      "avg_paid": 63.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 355168.05,
+      "total_services": 4662,
+      "total_beneficiaries": 2965,
+      "avg_submitted": 169.27,
+      "avg_paid": 73.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 305648.05,
+      "total_services": 4062,
+      "total_beneficiaries": 2469,
+      "avg_submitted": 161.33,
+      "avg_paid": 67.27
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 7215,
+      "payments": 927196.52,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 10368,
+      "payments": 714395.37,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9719,
+      "payments": 703798.84,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 4971,
+      "payments": 492126.7,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 7238,
+      "payments": 368574.32,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1843,
+      "payments": 214034.88,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2419,
+      "payments": 118514.03,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 1761,
+      "payments": 108702.56,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 893,
+      "payments": 83949.45,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 868,
+      "payments": 81130.73,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 1003,
+      "payments": 80096.02,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 444,
+      "payments": 71031.66,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1435,
+      "payments": 64264.9,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 1363,
+      "payments": 52284.86,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 466,
+      "payments": 45514.68,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 984,
+      "payments": 42801.4,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 219,
+      "payments": 42159.19,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1708,
+      "payments": 37027.49,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 223,
+      "payments": 32179.6,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 109,
+      "payments": 30121.18,
+      "avg_markup": 1.75
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4587374.22,
+    "total_services": 76631,
+    "total_beneficiaries": 45457,
+    "avg_markup_ratio": 2.48
+  }
+}

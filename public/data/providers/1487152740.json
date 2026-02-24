@@ -1,0 +1,63 @@
+{
+  "name": "Paramedics Logistics California Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "San Leandro",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 7098282.31,
+      "total_services": 34109,
+      "total_beneficiaries": 20792,
+      "avg_submitted": 1614.07,
+      "avg_paid": 343.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 4878852.59,
+      "total_services": 23398,
+      "total_beneficiaries": 15733,
+      "avg_submitted": 1647.83,
+      "avg_paid": 346.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 23932,
+      "payments": 9995223.28,
+      "avg_markup": 5.15
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4627,
+      "payments": 1610086.09,
+      "avg_markup": 6.19
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 337,
+      "payments": 204992.54,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 28611,
+      "payments": 166832.99,
+      "avg_markup": 8.59
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 11977134.9,
+    "total_services": 57507,
+    "total_beneficiaries": 36525,
+    "avg_markup_ratio": 5.31
+  }
+}

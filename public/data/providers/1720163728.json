@@ -1,0 +1,147 @@
+{
+  "name": "Joseph Hourany",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Pomona",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 300493.51,
+      "total_services": 3342,
+      "total_beneficiaries": 734,
+      "avg_submitted": 229.27,
+      "avg_paid": 99.79
+    },
+    {
+      "year": 2015,
+      "total_payments": 365550.6,
+      "total_services": 3851,
+      "total_beneficiaries": 838,
+      "avg_submitted": 229.27,
+      "avg_paid": 99.32
+    },
+    {
+      "year": 2016,
+      "total_payments": 394756.39,
+      "total_services": 4134,
+      "total_beneficiaries": 792,
+      "avg_submitted": 224.75,
+      "avg_paid": 101.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 350024.03,
+      "total_services": 3881,
+      "total_beneficiaries": 870,
+      "avg_submitted": 178.91,
+      "avg_paid": 94.18
+    },
+    {
+      "year": 2018,
+      "total_payments": 356489.11,
+      "total_services": 4101,
+      "total_beneficiaries": 842,
+      "avg_submitted": 179.44,
+      "avg_paid": 94.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 307582.6,
+      "total_services": 3809,
+      "total_beneficiaries": 719,
+      "avg_submitted": 176.86,
+      "avg_paid": 97.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 279600.56,
+      "total_services": 3680,
+      "total_beneficiaries": 427,
+      "avg_submitted": 142.49,
+      "avg_paid": 101.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 134970.72,
+      "total_services": 1905,
+      "total_beneficiaries": 266,
+      "avg_submitted": 185.38,
+      "avg_paid": 106.09
+    },
+    {
+      "year": 2022,
+      "total_payments": 82723.9,
+      "total_services": 1187,
+      "total_beneficiaries": 167,
+      "avg_submitted": 230.6,
+      "avg_paid": 106.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 4629,
+      "payments": 814415.33,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7518,
+      "payments": 612293.7,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9246,
+      "payments": 542639.9,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6727,
+      "payments": 383041.39,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1072,
+      "payments": 172069.5,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 419,
+      "payments": 24630.47,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 229,
+      "payments": 17321.29,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "31622",
+      "description": "Diagnostic examination of lung airways using an endoscope",
+      "services": 50,
+      "payments": 5779.84,
+      "avg_markup": 2.3
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 2572191.42,
+    "total_services": 29890,
+    "total_beneficiaries": 5655,
+    "avg_markup_ratio": 1.94
+  }
+}

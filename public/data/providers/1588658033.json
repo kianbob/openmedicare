@@ -1,0 +1,239 @@
+{
+  "name": "Simon Brooks",
+  "credentials": "M.D",
+  "specialty": "Interventional Cardiology",
+  "city": "Dothan",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 391770.73,
+      "total_services": 8963,
+      "total_beneficiaries": 6867,
+      "avg_submitted": 393.94,
+      "avg_paid": 109.49
+    },
+    {
+      "year": 2015,
+      "total_payments": 405629.64,
+      "total_services": 7846,
+      "total_beneficiaries": 6244,
+      "avg_submitted": 433.52,
+      "avg_paid": 111.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 447826.79,
+      "total_services": 8396,
+      "total_beneficiaries": 6783,
+      "avg_submitted": 456.89,
+      "avg_paid": 114.35
+    },
+    {
+      "year": 2017,
+      "total_payments": 412308.81,
+      "total_services": 8090,
+      "total_beneficiaries": 6731,
+      "avg_submitted": 472.15,
+      "avg_paid": 118.75
+    },
+    {
+      "year": 2018,
+      "total_payments": 391719.96,
+      "total_services": 8189,
+      "total_beneficiaries": 6307,
+      "avg_submitted": 442.03,
+      "avg_paid": 107.02
+    },
+    {
+      "year": 2019,
+      "total_payments": 431219.0,
+      "total_services": 8407,
+      "total_beneficiaries": 6469,
+      "avg_submitted": 435.08,
+      "avg_paid": 109.52
+    },
+    {
+      "year": 2020,
+      "total_payments": 295689.23,
+      "total_services": 6152,
+      "total_beneficiaries": 4865,
+      "avg_submitted": 315.86,
+      "avg_paid": 88.36
+    },
+    {
+      "year": 2021,
+      "total_payments": 299855.47,
+      "total_services": 5346,
+      "total_beneficiaries": 4111,
+      "avg_submitted": 369.22,
+      "avg_paid": 102.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 303466.06,
+      "total_services": 5686,
+      "total_beneficiaries": 4540,
+      "avg_submitted": 301.77,
+      "avg_paid": 83.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 281705.27,
+      "total_services": 6403,
+      "total_beneficiaries": 5108,
+      "avg_submitted": 280.46,
+      "avg_paid": 72.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 13752,
+      "payments": 651304.76,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2932,
+      "payments": 624387.15,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 968,
+      "payments": 372741.72,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5155,
+      "payments": 277812.31,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 4181,
+      "payments": 275859.16,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 1460,
+      "payments": 226374.51,
+      "avg_markup": 5.16
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2077,
+      "payments": 204037.82,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 20762,
+      "payments": 131651.53,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 923,
+      "payments": 80676.91,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1669,
+      "payments": 77792.22,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 692,
+      "payments": 75668.2,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "A9502",
+      "description": "Technetium tc-99m tetrofosmin, diagnostic, per study dose",
+      "services": 742,
+      "payments": 67358.18,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "93459",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 437,
+      "payments": 66489.84,
+      "avg_markup": 6.57
+    },
+    {
+      "code": "93460",
+      "description": "Insertion of catheter in right and left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 218,
+      "payments": 56584.39,
+      "avg_markup": 4.55
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 1194,
+      "payments": 52043.12,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4696,
+      "payments": 49674.62,
+      "avg_markup": 6.14
+    },
+    {
+      "code": "92941",
+      "description": "Insertion of stent, removal of plaque and/or balloon dilation of coronary vessel during heart attack, accessed through the skin",
+      "services": 81,
+      "payments": 39148.63,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "92937",
+      "description": "Insertion of stent, removal of plaque and/or balloon dilation of coronary vessel, accessed through the skin",
+      "services": 108,
+      "payments": 37078.87,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "92933",
+      "description": "Removal of plaque and insertion of stent in major coronary artery or branch, accessed through the skin",
+      "services": 80,
+      "payments": 35252.68,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "92920",
+      "description": "Balloon dilation of narrowed or blocked major coronary artery or branch (accessed through the skin)",
+      "services": 126,
+      "payments": 34556.59,
+      "avg_markup": 5.05
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3661190.97,
+    "total_services": 73478,
+    "total_beneficiaries": 58025,
+    "avg_markup_ratio": 3.21
+  }
+}

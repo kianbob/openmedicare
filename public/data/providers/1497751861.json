@@ -1,0 +1,239 @@
+{
+  "name": "Richard Pippin",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Farmville",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 438828.35,
+      "total_services": 17865,
+      "total_beneficiaries": 11510,
+      "avg_submitted": 163.69,
+      "avg_paid": 41.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 520054.55,
+      "total_services": 19717,
+      "total_beneficiaries": 13319,
+      "avg_submitted": 127.46,
+      "avg_paid": 35.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 451752.08,
+      "total_services": 18217,
+      "total_beneficiaries": 11764,
+      "avg_submitted": 133.26,
+      "avg_paid": 37.58
+    },
+    {
+      "year": 2017,
+      "total_payments": 477572.24,
+      "total_services": 19267,
+      "total_beneficiaries": 12284,
+      "avg_submitted": 120.48,
+      "avg_paid": 33.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 476536.07,
+      "total_services": 18830,
+      "total_beneficiaries": 11999,
+      "avg_submitted": 105.36,
+      "avg_paid": 30.37
+    },
+    {
+      "year": 2019,
+      "total_payments": 433777.33,
+      "total_services": 17749,
+      "total_beneficiaries": 11347,
+      "avg_submitted": 114.76,
+      "avg_paid": 31.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 421200.35,
+      "total_services": 17113,
+      "total_beneficiaries": 11281,
+      "avg_submitted": 114.42,
+      "avg_paid": 31.62
+    },
+    {
+      "year": 2021,
+      "total_payments": 438858.28,
+      "total_services": 15612,
+      "total_beneficiaries": 10062,
+      "avg_submitted": 132.22,
+      "avg_paid": 37.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 452798.42,
+      "total_services": 14134,
+      "total_beneficiaries": 9667,
+      "avg_submitted": 154.66,
+      "avg_paid": 41.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 399023.56,
+      "total_services": 12130,
+      "total_beneficiaries": 8276,
+      "avg_submitted": 147.79,
+      "avg_paid": 37.55
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 14924,
+      "payments": 1104130.32,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 15777,
+      "payments": 773376.53,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2819,
+      "payments": 324058.89,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 723,
+      "payments": 126297.72,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 820,
+      "payments": 104610.26,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1633,
+      "payments": 98255.74,
+      "avg_markup": 1.24
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 7232,
+      "payments": 95648.08,
+      "avg_markup": 5.37
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2370,
+      "payments": 83159.64,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 3533,
+      "payments": 75549.8,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 8289,
+      "payments": 75199.43,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 6600,
+      "payments": 74178.67,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 579,
+      "payments": 72065.75,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 5994,
+      "payments": 70266.17,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 422,
+      "payments": 68683.63,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3492,
+      "payments": 67873.75,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 7253,
+      "payments": 65222.04,
+      "avg_markup": 5.34
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 2186,
+      "payments": 63792.29,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 17338,
+      "payments": 58072.67,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 1416,
+      "payments": 55819.18,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 3569,
+      "payments": 50780.89,
+      "avg_markup": 2.69
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4510401.23,
+    "total_services": 170634,
+    "total_beneficiaries": 111509,
+    "avg_markup_ratio": 2.87
+  }
+}

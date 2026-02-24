@@ -1,0 +1,232 @@
+{
+  "name": "Jinping Chai",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Arlington",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 342629.15,
+      "total_services": 4481,
+      "total_beneficiaries": 1668,
+      "avg_submitted": 119.8,
+      "avg_paid": 81.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 284874.8,
+      "total_services": 3573,
+      "total_beneficiaries": 1610,
+      "avg_submitted": 123.64,
+      "avg_paid": 85.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 294335.58,
+      "total_services": 3746,
+      "total_beneficiaries": 1728,
+      "avg_submitted": 121.09,
+      "avg_paid": 80.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 278230.83,
+      "total_services": 3689,
+      "total_beneficiaries": 1645,
+      "avg_submitted": 124.81,
+      "avg_paid": 78.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 215018.24,
+      "total_services": 2741,
+      "total_beneficiaries": 1206,
+      "avg_submitted": 279.13,
+      "avg_paid": 89.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 223342.61,
+      "total_services": 2649,
+      "total_beneficiaries": 1208,
+      "avg_submitted": 335.05,
+      "avg_paid": 103.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 172611.82,
+      "total_services": 2158,
+      "total_beneficiaries": 1033,
+      "avg_submitted": 322.29,
+      "avg_paid": 101.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 191603.57,
+      "total_services": 2018,
+      "total_beneficiaries": 892,
+      "avg_submitted": 298.51,
+      "avg_paid": 102.45
+    },
+    {
+      "year": 2022,
+      "total_payments": 182849.49,
+      "total_services": 1987,
+      "total_beneficiaries": 871,
+      "avg_submitted": 298.51,
+      "avg_paid": 94.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 166776.66,
+      "total_services": 1805,
+      "total_beneficiaries": 750,
+      "avg_submitted": 328.41,
+      "avg_paid": 111.75
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 17805,
+      "payments": 1298455.65,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 3500,
+      "payments": 404479.84,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 759,
+      "payments": 139323.72,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1420,
+      "payments": 112432.57,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 680,
+      "payments": 103178.97,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1309,
+      "payments": 72693.43,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 756,
+      "payments": 61013.57,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 336,
+      "payments": 34475.96,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 167,
+      "payments": 22801.97,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 402,
+      "payments": 19452.46,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 477,
+      "payments": 18919.78,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 152,
+      "payments": 16477.3,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 535,
+      "payments": 16135.35,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 89,
+      "payments": 13905.49,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "95921",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 148,
+      "payments": 8515.44,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 49,
+      "payments": 8082.0,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 62,
+      "payments": 758.58,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "81002",
+      "description": "Urinalysis, manual test",
+      "services": 186,
+      "payments": 635.41,
+      "avg_markup": 4.39
+    },
+    {
+      "code": "69210",
+      "description": "Removal of impact ear wax, one ear",
+      "services": 15,
+      "payments": 535.25,
+      "avg_markup": 1.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2352272.75,
+    "total_services": 28847,
+    "total_beneficiaries": 12611,
+    "avg_markup_ratio": 2.38
+  }
+}

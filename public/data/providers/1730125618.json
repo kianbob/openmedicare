@@ -1,0 +1,239 @@
+{
+  "name": "George Gorich",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Carmel",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 254570.28,
+      "total_services": 3326,
+      "total_beneficiaries": 1130,
+      "avg_submitted": 197.27,
+      "avg_paid": 72.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 262604.83,
+      "total_services": 3336,
+      "total_beneficiaries": 1045,
+      "avg_submitted": 160.28,
+      "avg_paid": 61.23
+    },
+    {
+      "year": 2016,
+      "total_payments": 258603.79,
+      "total_services": 2965,
+      "total_beneficiaries": 871,
+      "avg_submitted": 286.7,
+      "avg_paid": 89.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 356467.79,
+      "total_services": 4179,
+      "total_beneficiaries": 1339,
+      "avg_submitted": 285.25,
+      "avg_paid": 84.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 386638.96,
+      "total_services": 4536,
+      "total_beneficiaries": 1311,
+      "avg_submitted": 280.65,
+      "avg_paid": 88.93
+    },
+    {
+      "year": 2019,
+      "total_payments": 381618.79,
+      "total_services": 4307,
+      "total_beneficiaries": 1171,
+      "avg_submitted": 279.99,
+      "avg_paid": 95.94
+    },
+    {
+      "year": 2020,
+      "total_payments": 380265.74,
+      "total_services": 4268,
+      "total_beneficiaries": 1056,
+      "avg_submitted": 245.69,
+      "avg_paid": 83.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 435420.76,
+      "total_services": 4961,
+      "total_beneficiaries": 1115,
+      "avg_submitted": 234.8,
+      "avg_paid": 74.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 375850.36,
+      "total_services": 4746,
+      "total_beneficiaries": 1190,
+      "avg_submitted": 247.0,
+      "avg_paid": 87.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 552752.93,
+      "total_services": 7663,
+      "total_beneficiaries": 1072,
+      "avg_submitted": 232.97,
+      "avg_paid": 94.58
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 14148,
+      "payments": 1013864.73,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10204,
+      "payments": 915735.86,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 4297,
+      "payments": 599085.65,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 7774,
+      "payments": 462938.5,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 4248,
+      "payments": 433206.32,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 434,
+      "payments": 52481.16,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 504,
+      "payments": 28717.8,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 367,
+      "payments": 28204.4,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 689,
+      "payments": 24389.74,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 184,
+      "payments": 17064.33,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 157,
+      "payments": 12782.26,
+      "avg_markup": 3.68
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 99,
+      "payments": 9641.97,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 76,
+      "payments": 8692.24,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 129,
+      "payments": 6685.4,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 148,
+      "payments": 6421.96,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 101,
+      "payments": 6357.45,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 128,
+      "payments": 4462.0,
+      "avg_markup": 5.74
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 45,
+      "payments": 4016.43,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 43,
+      "payments": 3324.14,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 15,
+      "payments": 2233.49,
+      "avg_markup": 3.44
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3644794.23,
+    "total_services": 44287,
+    "total_beneficiaries": 11300,
+    "avg_markup_ratio": 2.76
+  }
+}

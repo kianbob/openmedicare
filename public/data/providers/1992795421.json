@@ -1,0 +1,218 @@
+{
+  "name": "John Weiter",
+  "credentials": "MD PHD",
+  "specialty": "Ophthalmology",
+  "city": "Peabody",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 538644.25,
+      "total_services": 8942,
+      "total_beneficiaries": 4800,
+      "avg_submitted": 260.11,
+      "avg_paid": 82.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 499099.73,
+      "total_services": 8077,
+      "total_beneficiaries": 4365,
+      "avg_submitted": 349.35,
+      "avg_paid": 127.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 479961.42,
+      "total_services": 8260,
+      "total_beneficiaries": 4185,
+      "avg_submitted": 320.4,
+      "avg_paid": 109.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 400568.71,
+      "total_services": 7594,
+      "total_beneficiaries": 3746,
+      "avg_submitted": 203.07,
+      "avg_paid": 54.36
+    },
+    {
+      "year": 2018,
+      "total_payments": 368934.68,
+      "total_services": 6079,
+      "total_beneficiaries": 3235,
+      "avg_submitted": 310.7,
+      "avg_paid": 116.69
+    },
+    {
+      "year": 2019,
+      "total_payments": 302478.3,
+      "total_services": 4810,
+      "total_beneficiaries": 2649,
+      "avg_submitted": 298.91,
+      "avg_paid": 106.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 140447.22,
+      "total_services": 2228,
+      "total_beneficiaries": 1351,
+      "avg_submitted": 298.86,
+      "avg_paid": 108.68
+    },
+    {
+      "year": 2021,
+      "total_payments": 166810.48,
+      "total_services": 2671,
+      "total_beneficiaries": 1329,
+      "avg_submitted": 188.62,
+      "avg_paid": 54.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 121389.79,
+      "total_services": 2009,
+      "total_beneficiaries": 1058,
+      "avg_submitted": 188.73,
+      "avg_paid": 52.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 136819.91,
+      "total_services": 1966,
+      "total_beneficiaries": 1091,
+      "avg_submitted": 291.52,
+      "avg_paid": 106.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 11154,
+      "payments": 1023145.61,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 14958,
+      "payments": 504686.46,
+      "avg_markup": 7.9
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 6041,
+      "payments": 482163.27,
+      "avg_markup": 5.42
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 9137,
+      "payments": 363069.81,
+      "avg_markup": 5.31
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 5602,
+      "payments": 311571.62,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 160,
+      "payments": 112347.11,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1437,
+      "payments": 106478.35,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 614,
+      "payments": 67194.47,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 853,
+      "payments": 43633.87,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 581,
+      "payments": 40849.05,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 118,
+      "payments": 36463.91,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 894,
+      "payments": 26181.18,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 551,
+      "payments": 23448.39,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 173,
+      "payments": 8231.67,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "92201",
+      "description": "Extended examination of eye with drawing of retina",
+      "services": 136,
+      "payments": 2554.1,
+      "avg_markup": 5.43
+    },
+    {
+      "code": "92202",
+      "description": "Extended examination of eye with drawing of optic nerve and surrounding area (macula)",
+      "services": 188,
+      "payments": 2317.4,
+      "avg_markup": 9.04
+    },
+    {
+      "code": "92020",
+      "description": "Examination of cornea and iris using lens device and slit lamp",
+      "services": 39,
+      "payments": 818.22,
+      "avg_markup": 4.77
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3155154.5,
+    "total_services": 52636,
+    "total_beneficiaries": 27809,
+    "avg_markup_ratio": 4.16
+  }
+}

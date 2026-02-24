@@ -1,0 +1,57 @@
+{
+  "name": "Northeastern Vermont Regional Hospital Inc.",
+  "credentials": "",
+  "specialty": "Clinic or Group Practice",
+  "city": "Lyndon",
+  "state": "VT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 5215639.5,
+      "total_services": 791118,
+      "total_beneficiaries": 75103,
+      "avg_submitted": 4.46,
+      "avg_paid": 4.37
+    },
+    {
+      "year": 2015,
+      "total_payments": 5444473.14,
+      "total_services": 825226,
+      "total_beneficiaries": 77968,
+      "avg_submitted": 4.52,
+      "avg_paid": 4.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 5671688.58,
+      "total_services": 859358,
+      "total_beneficiaries": 82946,
+      "avg_submitted": 4.54,
+      "avg_paid": 4.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G9152",
+      "description": "Mapcp demonstration - community health teams",
+      "services": 2414598,
+      "payments": 16201952.58,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "G9008",
+      "description": "Coordinated care fee, physician coordinated care oversight services",
+      "services": 61104,
+      "payments": 129848.64,
+      "avg_markup": 1.02
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 16331801.22,
+    "total_services": 2475702,
+    "total_beneficiaries": 236017,
+    "avg_markup_ratio": 1.02
+  }
+}

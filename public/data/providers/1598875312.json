@@ -1,0 +1,95 @@
+{
+  "name": "City Of Overland Park",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Overland Park",
+  "state": "KS",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 820292.26,
+      "total_services": 5441,
+      "total_beneficiaries": 4227,
+      "avg_submitted": 397.52,
+      "avg_paid": 253.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 815984.99,
+      "total_services": 5327,
+      "total_beneficiaries": 4126,
+      "avg_submitted": 397.52,
+      "avg_paid": 256.51
+    },
+    {
+      "year": 2016,
+      "total_payments": 812269.1,
+      "total_services": 5371,
+      "total_beneficiaries": 4233,
+      "avg_submitted": 397.53,
+      "avg_paid": 256.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 847326.28,
+      "total_services": 5474,
+      "total_beneficiaries": 4254,
+      "avg_submitted": 397.54,
+      "avg_paid": 255.02
+    },
+    {
+      "year": 2018,
+      "total_payments": 596368.33,
+      "total_services": 3782,
+      "total_beneficiaries": 3159,
+      "avg_submitted": 397.51,
+      "avg_paid": 263.72
+    },
+    {
+      "year": 2019,
+      "total_payments": 125250.32,
+      "total_services": 785,
+      "total_beneficiaries": 735,
+      "avg_submitted": 309.01,
+      "avg_paid": 201.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 10087,
+      "payments": 3134269.79,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2876,
+      "payments": 751310.8,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13089,
+      "payments": 74448.25,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 128,
+      "payments": 57462.45,
+      "avg_markup": 1.48
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 4017491.29,
+    "total_services": 26180,
+    "total_beneficiaries": 20734,
+    "avg_markup_ratio": 1.53
+  }
+}

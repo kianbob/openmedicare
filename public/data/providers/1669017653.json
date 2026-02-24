@@ -1,0 +1,72 @@
+{
+  "name": "Behavioral Health Network, Inc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Springfield",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 150093.64,
+      "total_services": 929,
+      "total_beneficiaries": 126,
+      "avg_submitted": 140.74,
+      "avg_paid": 138.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 764409.17,
+      "total_services": 5115,
+      "total_beneficiaries": 345,
+      "avg_submitted": 141.42,
+      "avg_paid": 138.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 1267224.51,
+      "total_services": 7949,
+      "total_beneficiaries": 478,
+      "avg_submitted": 147.59,
+      "avg_paid": 133.46
+    },
+    {
+      "year": 2023,
+      "total_payments": 1299515.1,
+      "total_services": 8330,
+      "total_beneficiaries": 463,
+      "avg_submitted": 150.44,
+      "avg_paid": 142.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 15704,
+      "payments": 3204790.56,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 6285,
+      "payments": 217594.19,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 334,
+      "payments": 58857.67,
+      "avg_markup": 1.1
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3481242.42,
+    "total_services": 22323,
+    "total_beneficiaries": 1412,
+    "avg_markup_ratio": 1.03
+  }
+}

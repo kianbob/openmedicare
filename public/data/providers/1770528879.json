@@ -1,0 +1,49 @@
+{
+  "name": "Phi, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Mckinney",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2787544.92,
+      "total_services": 1671,
+      "total_beneficiaries": 1651,
+      "avg_submitted": 12508.7,
+      "avg_paid": 1659.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 518146.84,
+      "total_services": 302,
+      "total_beneficiaries": 298,
+      "avg_submitted": 13233.5,
+      "avg_paid": 1682.75
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 994,
+      "payments": 3283214.77,
+      "avg_markup": 7.56
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 979,
+      "payments": 22476.99,
+      "avg_markup": 12.52
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 3305691.77,
+    "total_services": 1973,
+    "total_beneficiaries": 1949,
+    "avg_markup_ratio": 7.59
+  }
+}

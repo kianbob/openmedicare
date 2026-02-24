@@ -1,0 +1,239 @@
+{
+  "name": "Sidney Williams",
+  "credentials": "M.D.",
+  "specialty": "Pain Management",
+  "city": "Stillwater",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 328209.99,
+      "total_services": 25645,
+      "total_beneficiaries": 8486,
+      "avg_submitted": 34.52,
+      "avg_paid": 18.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 384605.97,
+      "total_services": 25652,
+      "total_beneficiaries": 8197,
+      "avg_submitted": 39.65,
+      "avg_paid": 20.18
+    },
+    {
+      "year": 2016,
+      "total_payments": 328271.66,
+      "total_services": 20317,
+      "total_beneficiaries": 7323,
+      "avg_submitted": 30.04,
+      "avg_paid": 13.06
+    },
+    {
+      "year": 2017,
+      "total_payments": 371286.66,
+      "total_services": 17635,
+      "total_beneficiaries": 6642,
+      "avg_submitted": 31.66,
+      "avg_paid": 14.67
+    },
+    {
+      "year": 2018,
+      "total_payments": 309149.44,
+      "total_services": 11568,
+      "total_beneficiaries": 4663,
+      "avg_submitted": 41.74,
+      "avg_paid": 19.47
+    },
+    {
+      "year": 2019,
+      "total_payments": 224456.58,
+      "total_services": 7817,
+      "total_beneficiaries": 2268,
+      "avg_submitted": 45.59,
+      "avg_paid": 19.81
+    },
+    {
+      "year": 2020,
+      "total_payments": 172394.76,
+      "total_services": 6014,
+      "total_beneficiaries": 1654,
+      "avg_submitted": 41.51,
+      "avg_paid": 19.07
+    },
+    {
+      "year": 2021,
+      "total_payments": 188924.79,
+      "total_services": 5679,
+      "total_beneficiaries": 1395,
+      "avg_submitted": 42.83,
+      "avg_paid": 21.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 161896.88,
+      "total_services": 4476,
+      "total_beneficiaries": 1047,
+      "avg_submitted": 39.68,
+      "avg_paid": 18.1
+    },
+    {
+      "year": 2023,
+      "total_payments": 141171.82,
+      "total_services": 3398,
+      "total_beneficiaries": 670,
+      "avg_submitted": 43.8,
+      "avg_paid": 20.41
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 17526,
+      "payments": 816233.33,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9009,
+      "payments": 687949.01,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "80305",
+      "description": "Testing for presence of drug",
+      "services": 11978,
+      "payments": 151834.6,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 1981,
+      "payments": 147575.51,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "G0434",
+      "description": "Drug screen, other than chromatographic; any number of drug classes, by clia waived test or moderate complexity test, per patient encounter",
+      "services": 5430,
+      "payments": 102293.55,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "82044",
+      "description": "Urine microalbumin (protein) analysis",
+      "services": 11725,
+      "payments": 69342.33,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 5191,
+      "payments": 68148.14,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1449,
+      "payments": 64729.36,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 6999,
+      "payments": 46748.47,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4638,
+      "payments": 46462.39,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "G0477",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures, (eg immunoassay) capable of being read by direct optical observation only (eg, dipsticks, cups, cards, cartridges), includes sample validation when performed, per",
+      "services": 2855,
+      "payments": 40225.2,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "72100",
+      "description": "X-ray of lower and sacral spine, 2 or 3 views",
+      "services": 1380,
+      "payments": 30766.49,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 2543,
+      "payments": 21952.35,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "81003",
+      "description": "Automated urinalysis test",
+      "services": 7428,
+      "payments": 21467.65,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 7308,
+      "payments": 21301.22,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 663,
+      "payments": 19338.37,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 1381,
+      "payments": 19310.11,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 1577,
+      "payments": 17010.04,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 1392,
+      "payments": 15559.54,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 428,
+      "payments": 11825.95,
+      "avg_markup": 1.81
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2610368.53,
+    "total_services": 128201,
+    "total_beneficiaries": 42345,
+    "avg_markup_ratio": 2.01
+  }
+}

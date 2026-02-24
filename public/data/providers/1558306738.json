@@ -1,0 +1,110 @@
+{
+  "name": "Medresponse Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Torrance",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2219210.95,
+      "total_services": 21188,
+      "total_beneficiaries": 10888,
+      "avg_submitted": 426.7,
+      "avg_paid": 269.49
+    },
+    {
+      "year": 2015,
+      "total_payments": 2315021.77,
+      "total_services": 21399,
+      "total_beneficiaries": 11658,
+      "avg_submitted": 424.16,
+      "avg_paid": 277.37
+    },
+    {
+      "year": 2016,
+      "total_payments": 2108302.62,
+      "total_services": 19397,
+      "total_beneficiaries": 12069,
+      "avg_submitted": 417.93,
+      "avg_paid": 277.04
+    },
+    {
+      "year": 2017,
+      "total_payments": 1597968.09,
+      "total_services": 14453,
+      "total_beneficiaries": 9852,
+      "avg_submitted": 484.33,
+      "avg_paid": 280.54
+    },
+    {
+      "year": 2018,
+      "total_payments": 13208.63,
+      "total_services": 139,
+      "total_beneficiaries": 133,
+      "avg_submitted": 656.31,
+      "avg_paid": 102.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 107707.87,
+      "total_services": 989,
+      "total_beneficiaries": 966,
+      "avg_submitted": 1246.85,
+      "avg_paid": 197.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 15034.92,
+      "total_services": 164,
+      "total_beneficiaries": 162,
+      "avg_submitted": 1277.45,
+      "avg_paid": 133.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 35185,
+      "payments": 6704434.98,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1177,
+      "payments": 750947.73,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1378,
+      "payments": 427844.96,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1163,
+      "payments": 273126.67,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 38826,
+      "payments": 220100.48,
+      "avg_markup": 1.55
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 8376454.83,
+    "total_services": 77729,
+    "total_beneficiaries": 45728,
+    "avg_markup_ratio": 1.65
+  }
+}

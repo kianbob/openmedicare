@@ -1,0 +1,239 @@
+{
+  "name": "Ron Kattoo",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Detroit",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 199994.72,
+      "total_services": 1940,
+      "total_beneficiaries": 658,
+      "avg_submitted": 220.54,
+      "avg_paid": 115.55
+    },
+    {
+      "year": 2015,
+      "total_payments": 455402.41,
+      "total_services": 3665,
+      "total_beneficiaries": 1138,
+      "avg_submitted": 253.46,
+      "avg_paid": 126.92
+    },
+    {
+      "year": 2016,
+      "total_payments": 530406.45,
+      "total_services": 4396,
+      "total_beneficiaries": 1422,
+      "avg_submitted": 337.5,
+      "avg_paid": 125.88
+    },
+    {
+      "year": 2017,
+      "total_payments": 718216.38,
+      "total_services": 5605,
+      "total_beneficiaries": 1836,
+      "avg_submitted": 228.26,
+      "avg_paid": 104.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 571247.55,
+      "total_services": 5017,
+      "total_beneficiaries": 1635,
+      "avg_submitted": 229.0,
+      "avg_paid": 102.71
+    },
+    {
+      "year": 2019,
+      "total_payments": 563160.18,
+      "total_services": 4677,
+      "total_beneficiaries": 1576,
+      "avg_submitted": 224.37,
+      "avg_paid": 98.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 552933.82,
+      "total_services": 4543,
+      "total_beneficiaries": 1712,
+      "avg_submitted": 219.23,
+      "avg_paid": 92.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 416857.92,
+      "total_services": 4488,
+      "total_beneficiaries": 1973,
+      "avg_submitted": 186.55,
+      "avg_paid": 84.62
+    },
+    {
+      "year": 2022,
+      "total_payments": 219875.03,
+      "total_services": 2765,
+      "total_beneficiaries": 1322,
+      "avg_submitted": 183.56,
+      "avg_paid": 93.1
+    },
+    {
+      "year": 2023,
+      "total_payments": 245611.49,
+      "total_services": 2546,
+      "total_beneficiaries": 1142,
+      "avg_submitted": 175.96,
+      "avg_paid": 75.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 10103,
+      "payments": 1832467.86,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 18154,
+      "payments": 1540333.25,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3276,
+      "payments": 525990.43,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1057,
+      "payments": 90896.0,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 602,
+      "payments": 84326.33,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1085,
+      "payments": 83900.73,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 731,
+      "payments": 42755.53,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 747,
+      "payments": 38225.54,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 439,
+      "payments": 32513.7,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 224,
+      "payments": 32045.14,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 330,
+      "payments": 31624.91,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 951,
+      "payments": 21116.09,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "87811",
+      "description": "Sars-cov-2 covid19 w/optic",
+      "services": 384,
+      "payments": 15746.48,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 149,
+      "payments": 12653.24,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 144,
+      "payments": 11032.95,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "M0245",
+      "description": "Intravenous infusion, bamlanivimab and etesevimab, includes infusion and post administration monitoring",
+      "services": 23,
+      "payments": 10470.52,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "86328",
+      "description": "Ia nfct ab sarscov2 covid19",
+      "services": 215,
+      "payments": 9724.45,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 228,
+      "payments": 8061.36,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "31645",
+      "description": "Aspiration of lung secretions from lung airways using an endoscope",
+      "services": 64,
+      "payments": 7861.23,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 57,
+      "payments": 6796.38,
+      "avg_markup": 1.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4473705.95,
+    "total_services": 39642,
+    "total_beneficiaries": 14414,
+    "avg_markup_ratio": 2.57
+  }
+}

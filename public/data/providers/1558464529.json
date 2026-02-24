@@ -1,0 +1,100 @@
+{
+  "name": "Advanced Patient Transportation, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Orange Park",
+  "state": "FL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1384763.31,
+      "total_services": 12462,
+      "total_beneficiaries": 7509,
+      "avg_submitted": 368.29,
+      "avg_paid": 192.41
+    },
+    {
+      "year": 2015,
+      "total_payments": 1193970.43,
+      "total_services": 10701,
+      "total_beneficiaries": 6812,
+      "avg_submitted": 368.38,
+      "avg_paid": 194.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 1280724.82,
+      "total_services": 10995,
+      "total_beneficiaries": 6980,
+      "avg_submitted": 453.65,
+      "avg_paid": 238.7
+    },
+    {
+      "year": 2017,
+      "total_payments": 953361.31,
+      "total_services": 8039,
+      "total_beneficiaries": 5332,
+      "avg_submitted": 538.05,
+      "avg_paid": 285.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 13055,
+      "payments": 2154533.74,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 6628,
+      "payments": 2131520.95,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 987,
+      "payments": 201025.98,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 584,
+      "payments": 157408.24,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 20838,
+      "payments": 116430.06,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 77,
+      "payments": 36222.87,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 28,
+      "payments": 15678.04,
+      "avg_markup": 1.86
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4812819.87,
+    "total_services": 42197,
+    "total_beneficiaries": 26633,
+    "avg_markup_ratio": 1.92
+  }
+}

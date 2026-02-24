@@ -1,0 +1,239 @@
+{
+  "name": "James Gerace",
+  "credentials": "M.D.",
+  "specialty": "Diagnostic Radiology",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 186363.68,
+      "total_services": 4623,
+      "total_beneficiaries": 4462,
+      "avg_submitted": 276.61,
+      "avg_paid": 54.78
+    },
+    {
+      "year": 2015,
+      "total_payments": 340493.14,
+      "total_services": 4870,
+      "total_beneficiaries": 4730,
+      "avg_submitted": 398.92,
+      "avg_paid": 81.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 370140.93,
+      "total_services": 4544,
+      "total_beneficiaries": 4419,
+      "avg_submitted": 408.98,
+      "avg_paid": 86.13
+    },
+    {
+      "year": 2017,
+      "total_payments": 432604.78,
+      "total_services": 4967,
+      "total_beneficiaries": 4913,
+      "avg_submitted": 408.92,
+      "avg_paid": 87.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 492705.75,
+      "total_services": 5009,
+      "total_beneficiaries": 4914,
+      "avg_submitted": 418.02,
+      "avg_paid": 88.81
+    },
+    {
+      "year": 2019,
+      "total_payments": 403220.98,
+      "total_services": 3855,
+      "total_beneficiaries": 3795,
+      "avg_submitted": 479.25,
+      "avg_paid": 103.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 528809.61,
+      "total_services": 3943,
+      "total_beneficiaries": 3817,
+      "avg_submitted": 584.07,
+      "avg_paid": 140.17
+    },
+    {
+      "year": 2021,
+      "total_payments": 649747.62,
+      "total_services": 4159,
+      "total_beneficiaries": 4051,
+      "avg_submitted": 577.1,
+      "avg_paid": 144.61
+    },
+    {
+      "year": 2022,
+      "total_payments": 455760.96,
+      "total_services": 3121,
+      "total_beneficiaries": 3062,
+      "avg_submitted": 537.52,
+      "avg_paid": 117.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 331246.53,
+      "total_services": 3111,
+      "total_beneficiaries": 3090,
+      "avg_submitted": 760.17,
+      "avg_paid": 148.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with CT imaging skull base to mid-thigh",
+      "services": 1795,
+      "payments": 1038191.93,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "74183",
+      "description": "MRI scan of abdomen before and after contrast",
+      "services": 1155,
+      "payments": 354718.48,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "72197",
+      "description": "MRI scan of pelvis before and after contrast",
+      "services": 953,
+      "payments": 268977.05,
+      "avg_markup": 5.56
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 2326,
+      "payments": 224266.69,
+      "avg_markup": 5.88
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 819,
+      "payments": 184425.42,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 1402,
+      "payments": 176408.88,
+      "avg_markup": 8.59
+    },
+    {
+      "code": "74178",
+      "description": "CT scan of abdomen and pelvis before and after contrast",
+      "services": 686,
+      "payments": 174933.6,
+      "avg_markup": 7.2
+    },
+    {
+      "code": "74176",
+      "description": "CT scan of abdomen and pelvis",
+      "services": 1319,
+      "payments": 140541.76,
+      "avg_markup": 8.88
+    },
+    {
+      "code": "78816",
+      "description": "Nuclear medicine study with CT imaging whole body",
+      "services": 170,
+      "payments": 100760.23,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "A9584",
+      "description": "Iodine 1-123 ioflupane, diagnostic, per study dose, up to 5 millicuries",
+      "services": 45,
+      "payments": 100320.64,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "71260",
+      "description": "CT scan chest with contrast",
+      "services": 1245,
+      "payments": 94689.86,
+      "avg_markup": 7.31
+    },
+    {
+      "code": "76700",
+      "description": "Ultrasound of abdomen",
+      "services": 1181,
+      "payments": 94584.62,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 1250,
+      "payments": 90644.19,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "71275",
+      "description": "CT scan of blood vessels in chest with contrast",
+      "services": 554,
+      "payments": 83878.82,
+      "avg_markup": 5.36
+    },
+    {
+      "code": "77080",
+      "description": "Bone density measurement using dedicated X-ray machine",
+      "services": 1949,
+      "payments": 78419.06,
+      "avg_markup": 7.91
+    },
+    {
+      "code": "75574",
+      "description": "CT scan of heart blood vessels and grafts with contrast dye",
+      "services": 314,
+      "payments": 69837.96,
+      "avg_markup": 6.02
+    },
+    {
+      "code": "93970",
+      "description": "Ultrasound scan of veins of both arms or legs including assessment of compression and functional maneuvers",
+      "services": 733,
+      "payments": 57982.51,
+      "avg_markup": 4.2
+    },
+    {
+      "code": "74181",
+      "description": "MRI scan of abdomen",
+      "services": 320,
+      "payments": 56572.07,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "93971",
+      "description": "Ultrasound scan of veins of one arm or leg or limited including assessment of compression and functional maneuvers",
+      "services": 922,
+      "payments": 56206.95,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "75635",
+      "description": "CT scan of abdominal aorta and both leg arteries with contrast",
+      "services": 224,
+      "payments": 54641.31,
+      "avg_markup": 6.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4191093.97,
+    "total_services": 42202,
+    "total_beneficiaries": 41253,
+    "avg_markup_ratio": 4.84
+  }
+}

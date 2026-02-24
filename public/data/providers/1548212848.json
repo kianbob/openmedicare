@@ -1,0 +1,239 @@
+{
+  "name": "Paul Manning",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Clinton",
+  "state": "IA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 321750.87,
+      "total_services": 8210,
+      "total_beneficiaries": 4820,
+      "avg_submitted": 155.98,
+      "avg_paid": 39.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 326538.57,
+      "total_services": 8220,
+      "total_beneficiaries": 4780,
+      "avg_submitted": 148.73,
+      "avg_paid": 40.39
+    },
+    {
+      "year": 2016,
+      "total_payments": 322732.5,
+      "total_services": 7999,
+      "total_beneficiaries": 4401,
+      "avg_submitted": 187.07,
+      "avg_paid": 41.52
+    },
+    {
+      "year": 2017,
+      "total_payments": 290890.23,
+      "total_services": 7574,
+      "total_beneficiaries": 4080,
+      "avg_submitted": 167.28,
+      "avg_paid": 41.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 266537.39,
+      "total_services": 7700,
+      "total_beneficiaries": 4061,
+      "avg_submitted": 141.62,
+      "avg_paid": 35.49
+    },
+    {
+      "year": 2019,
+      "total_payments": 268370.53,
+      "total_services": 8001,
+      "total_beneficiaries": 4003,
+      "avg_submitted": 163.29,
+      "avg_paid": 38.26
+    },
+    {
+      "year": 2020,
+      "total_payments": 193240.94,
+      "total_services": 5131,
+      "total_beneficiaries": 2834,
+      "avg_submitted": 163.29,
+      "avg_paid": 43.26
+    },
+    {
+      "year": 2021,
+      "total_payments": 175951.95,
+      "total_services": 4530,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 158.06,
+      "avg_paid": 39.24
+    },
+    {
+      "year": 2022,
+      "total_payments": 171747.48,
+      "total_services": 3998,
+      "total_beneficiaries": 2413,
+      "avg_submitted": 167.32,
+      "avg_paid": 45.03
+    },
+    {
+      "year": 2023,
+      "total_payments": 137158.71,
+      "total_services": 2534,
+      "total_beneficiaries": 1749,
+      "avg_submitted": 205.47,
+      "avg_paid": 57.13
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9877,
+      "payments": 781526.47,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2326,
+      "payments": 182447.43,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 4869,
+      "payments": 181608.78,
+      "avg_markup": 4.47
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 938,
+      "payments": 154130.36,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1354,
+      "payments": 151472.3,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 751,
+      "payments": 87234.82,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 2631,
+      "payments": 57038.21,
+      "avg_markup": 6.73
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 580,
+      "payments": 52680.53,
+      "avg_markup": 5.6
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 305,
+      "payments": 45431.92,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 2116,
+      "payments": 42593.28,
+      "avg_markup": 7.17
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 858,
+      "payments": 42041.4,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 816,
+      "payments": 39861.27,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 454,
+      "payments": 39730.64,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "U0002",
+      "description": "2019-ncov coronavirus, sars-cov-2/2019-ncov (covid-19), any technique, multiple types or subtypes (includes all targets), non-cdc",
+      "services": 660,
+      "payments": 33422.06,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 3557,
+      "payments": 31993.06,
+      "avg_markup": 6.64
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 467,
+      "payments": 31082.09,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "94250",
+      "description": "Single measurement of remaining air or lung capacity after exhalation",
+      "services": 1710,
+      "payments": 30154.61,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 1920,
+      "payments": 28808.02,
+      "avg_markup": 3.8
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 170,
+      "payments": 27445.51,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 2589,
+      "payments": 25119.96,
+      "avg_markup": 7.66
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2474919.15,
+    "total_services": 63897,
+    "total_beneficiaries": 35834,
+    "avg_markup_ratio": 3.63
+  }
+}

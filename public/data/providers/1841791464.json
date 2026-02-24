@@ -1,0 +1,101 @@
+{
+  "name": "Umpqua Valley Ambulance Service Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Roseburg",
+  "state": "OR",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 6018.76,
+      "total_services": 29,
+      "total_beneficiaries": 25,
+      "avg_submitted": 760.5,
+      "avg_paid": 214.65
+    },
+    {
+      "year": 2020,
+      "total_payments": 933185.73,
+      "total_services": 4285,
+      "total_beneficiaries": 2753,
+      "avg_submitted": 1464.0,
+      "avg_paid": 391.97
+    },
+    {
+      "year": 2021,
+      "total_payments": 1298484.92,
+      "total_services": 6101,
+      "total_beneficiaries": 3705,
+      "avg_submitted": 1463.25,
+      "avg_paid": 389.65
+    },
+    {
+      "year": 2022,
+      "total_payments": 1321058.43,
+      "total_services": 6019,
+      "total_beneficiaries": 3624,
+      "avg_submitted": 1464.62,
+      "avg_paid": 401.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 1370689.32,
+      "total_services": 5721,
+      "total_beneficiaries": 3400,
+      "avg_submitted": 1466.51,
+      "avg_paid": 439.57
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 9174,
+      "payments": 4023132.48,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 976,
+      "payments": 358598.17,
+      "avg_markup": 3.99
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 226,
+      "payments": 171495.24,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 248,
+      "payments": 156662.98,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 566,
+      "payments": 129620.1,
+      "avg_markup": 5.68
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10965,
+      "payments": 89928.19,
+      "avg_markup": 2.56
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4929437.16,
+    "total_services": 22155,
+    "total_beneficiaries": 13507,
+    "avg_markup_ratio": 3.49
+  }
+}

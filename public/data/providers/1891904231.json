@@ -1,0 +1,239 @@
+{
+  "name": "John Miller",
+  "credentials": "MD",
+  "specialty": "Hematology-Oncology",
+  "city": "Williamsburg",
+  "state": "VA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 305209.98,
+      "total_services": 12136,
+      "total_beneficiaries": 4090,
+      "avg_submitted": 125.03,
+      "avg_paid": 37.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 288842.33,
+      "total_services": 11041,
+      "total_beneficiaries": 3938,
+      "avg_submitted": 89.76,
+      "avg_paid": 37.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 301197.07,
+      "total_services": 10415,
+      "total_beneficiaries": 4097,
+      "avg_submitted": 72.5,
+      "avg_paid": 37.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 330655.98,
+      "total_services": 9828,
+      "total_beneficiaries": 4260,
+      "avg_submitted": 72.75,
+      "avg_paid": 39.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 494631.97,
+      "total_services": 12505,
+      "total_beneficiaries": 4676,
+      "avg_submitted": 79.68,
+      "avg_paid": 41.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 503493.31,
+      "total_services": 13549,
+      "total_beneficiaries": 5057,
+      "avg_submitted": 79.3,
+      "avg_paid": 41.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 331593.31,
+      "total_services": 9571,
+      "total_beneficiaries": 4136,
+      "avg_submitted": 77.07,
+      "avg_paid": 37.71
+    },
+    {
+      "year": 2021,
+      "total_payments": 327419.88,
+      "total_services": 2929,
+      "total_beneficiaries": 1224,
+      "avg_submitted": 186.29,
+      "avg_paid": 86.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 183396.82,
+      "total_services": 1929,
+      "total_beneficiaries": 1006,
+      "avg_submitted": 186.59,
+      "avg_paid": 82.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 115752.86,
+      "total_services": 1500,
+      "total_beneficiaries": 838,
+      "avg_submitted": 194.29,
+      "avg_paid": 70.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12457,
+      "payments": 983763.7,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "G9678",
+      "description": "Oncology Care Model service",
+      "services": 5260,
+      "payments": 831034.68,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 2711,
+      "payments": 303532.38,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4218,
+      "payments": 216557.66,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 18656,
+      "payments": 179599.76,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 956,
+      "payments": 147462.73,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 9802,
+      "payments": 122912.55,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 597,
+      "payments": 70031.66,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12300,
+      "payments": 36044.18,
+      "avg_markup": 5.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 227,
+      "payments": 35345.36,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 2921,
+      "payments": 27588.81,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 1633,
+      "payments": 27119.88,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 729,
+      "payments": 16489.31,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 807,
+      "payments": 16206.35,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 274,
+      "payments": 15446.26,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 1743,
+      "payments": 14508.25,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "82378",
+      "description": "Carcinoembryonic antigen (CEA) protein level",
+      "services": 545,
+      "payments": 12754.88,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 383,
+      "payments": 11756.56,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "83615",
+      "description": "Lactate dehydrogenase (enzyme) level",
+      "services": 1940,
+      "payments": 11576.8,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "96523",
+      "description": "Irrigation of implanted venous access drug delivery device",
+      "services": 544,
+      "payments": 9890.83,
+      "avg_markup": 5.19
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3182193.52,
+    "total_services": 85403,
+    "total_beneficiaries": 33322,
+    "avg_markup_ratio": 2.01
+  }
+}

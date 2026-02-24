@@ -1,0 +1,215 @@
+{
+  "name": "John Stoner",
+  "credentials": "MD",
+  "specialty": "Dermatology",
+  "city": "York",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 538936.47,
+      "total_services": 4544,
+      "total_beneficiaries": 3992,
+      "avg_submitted": 323.51,
+      "avg_paid": 164.97
+    },
+    {
+      "year": 2015,
+      "total_payments": 502452.96,
+      "total_services": 4728,
+      "total_beneficiaries": 4167,
+      "avg_submitted": 324.47,
+      "avg_paid": 164.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 387764.34,
+      "total_services": 4883,
+      "total_beneficiaries": 4355,
+      "avg_submitted": 301.81,
+      "avg_paid": 152.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 323845.71,
+      "total_services": 4382,
+      "total_beneficiaries": 3903,
+      "avg_submitted": 255.81,
+      "avg_paid": 126.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 317402.32,
+      "total_services": 4396,
+      "total_beneficiaries": 3878,
+      "avg_submitted": 237.1,
+      "avg_paid": 120.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 287138.47,
+      "total_services": 4087,
+      "total_beneficiaries": 3581,
+      "avg_submitted": 191.03,
+      "avg_paid": 95.6
+    },
+    {
+      "year": 2020,
+      "total_payments": 157348.65,
+      "total_services": 2459,
+      "total_beneficiaries": 2174,
+      "avg_submitted": 214.16,
+      "avg_paid": 95.11
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5226,
+      "payments": 246629.85,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "13132",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 672,
+      "payments": 230066.24,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "17311",
+      "description": "Removal and microscopic examination of growth of the head, neck, hands, feet, or genitals (first stage, up to 5 tissue blocks)",
+      "services": 654,
+      "payments": 196646.41,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 3631,
+      "payments": 122936.56,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "12032",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of the scalp, underarms, trunk, arms, and/or legs",
+      "services": 478,
+      "payments": 109319.97,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1471,
+      "payments": 104759.9,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "17312",
+      "description": "Removal and microscopic examination of growth of the head, neck, hands, feet, or genitals",
+      "services": 343,
+      "payments": 97706.44,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "14060",
+      "description": "Tissue transfer repair of wound (10 sq centimeters or less) of eyelids, nose, ears, and/or lips",
+      "services": 160,
+      "payments": 92742.54,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "15260",
+      "description": "Relocation of patient skin to nose, ears, eyelids, and/or lips (20 sq centimeters or less)",
+      "services": 121,
+      "payments": 91619.11,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 1394,
+      "payments": 90963.89,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "14061",
+      "description": "Tissue transfer repair of wound (10.1 to 30.0 sq centimeters) of eyelids, nose, ears, and/or lips",
+      "services": 107,
+      "payments": 81006.5,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "14041",
+      "description": "Tissue transfer repair of wound (10.1 to 30.0 sq centimeters) of the forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, and/or feet",
+      "services": 100,
+      "payments": 71829.36,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 2346,
+      "payments": 69634.01,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "17262",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of trunk, arms, or legs",
+      "services": 603,
+      "payments": 63241.5,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 515,
+      "payments": 55017.88,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "17282",
+      "description": "Destruction of malignant growth (1.1 to 2.0 centimeters) of face, ears, eyelids, nose, lips, or mouth",
+      "services": 385,
+      "payments": 53035.73,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "11642",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 429,
+      "payments": 47551.52,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "13121",
+      "description": "Repair of wound (2.6 to 7.5 centimeters) of scalp, arms, and/or legs",
+      "services": 142,
+      "payments": 44042.81,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 444,
+      "payments": 41325.11,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 680,
+      "payments": 39007.11,
+      "avg_markup": 2.18
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2514888.93,
+    "total_services": 29479,
+    "total_beneficiaries": 26050,
+    "avg_markup_ratio": 2.06
+  }
+}

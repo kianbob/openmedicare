@@ -1,0 +1,239 @@
+{
+  "name": "Chaim Gitelis",
+  "credentials": "D.O.",
+  "specialty": "Cardiology",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 148610.67,
+      "total_services": 1877,
+      "total_beneficiaries": 810,
+      "avg_submitted": 155.73,
+      "avg_paid": 90.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 200935.78,
+      "total_services": 2409,
+      "total_beneficiaries": 1078,
+      "avg_submitted": 150.01,
+      "avg_paid": 85.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 167887.09,
+      "total_services": 2116,
+      "total_beneficiaries": 921,
+      "avg_submitted": 206.67,
+      "avg_paid": 102.42
+    },
+    {
+      "year": 2017,
+      "total_payments": 168278.58,
+      "total_services": 2134,
+      "total_beneficiaries": 1121,
+      "avg_submitted": 213.33,
+      "avg_paid": 94.7
+    },
+    {
+      "year": 2018,
+      "total_payments": 194836.96,
+      "total_services": 2372,
+      "total_beneficiaries": 1177,
+      "avg_submitted": 210.8,
+      "avg_paid": 94.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 174843.51,
+      "total_services": 2181,
+      "total_beneficiaries": 1104,
+      "avg_submitted": 255.62,
+      "avg_paid": 90.66
+    },
+    {
+      "year": 2020,
+      "total_payments": 200265.64,
+      "total_services": 2386,
+      "total_beneficiaries": 1163,
+      "avg_submitted": 224.13,
+      "avg_paid": 79.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 312642.2,
+      "total_services": 3976,
+      "total_beneficiaries": 1634,
+      "avg_submitted": 285.39,
+      "avg_paid": 77.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 414951.62,
+      "total_services": 8075,
+      "total_beneficiaries": 3185,
+      "avg_submitted": 255.54,
+      "avg_paid": 64.24
+    },
+    {
+      "year": 2023,
+      "total_payments": 850650.16,
+      "total_services": 20994,
+      "total_beneficiaries": 8725,
+      "avg_submitted": 251.47,
+      "avg_paid": 65.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7458,
+      "payments": 486555.91,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 9888,
+      "payments": 425169.05,
+      "avg_markup": 13.15
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 9172,
+      "payments": 424292.26,
+      "avg_markup": 15.62
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1746,
+      "payments": 292383.17,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2714,
+      "payments": 259137.31,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2594,
+      "payments": 252843.43,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1493,
+      "payments": 217385.06,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 593,
+      "payments": 85693.52,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility care with moderate level of medical decision making, per day, if using time, at least 35 minutes",
+      "services": 692,
+      "payments": 73145.74,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 458,
+      "payments": 56500.35,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 516,
+      "payments": 50418.19,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3037,
+      "payments": 43080.14,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 4668,
+      "payments": 34346.19,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "G0506",
+      "description": "Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service)",
+      "services": 692,
+      "payments": 31386.41,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 354,
+      "payments": 24037.58,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 560,
+      "payments": 19922.54,
+      "avg_markup": 15.9
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 203,
+      "payments": 13274.95,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 42,
+      "payments": 8067.36,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 57,
+      "payments": 5649.55,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 100,
+      "payments": 4875.0,
+      "avg_markup": 3.08
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2833902.21,
+    "total_services": 48520,
+    "total_beneficiaries": 20918,
+    "avg_markup_ratio": 6.08
+  }
+}

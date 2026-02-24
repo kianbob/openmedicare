@@ -1,0 +1,239 @@
+{
+  "name": "Bryan Vinik",
+  "credentials": "M.D.",
+  "specialty": "Endocrinology",
+  "city": "Boca Raton",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 726220.29,
+      "total_services": 28601,
+      "total_beneficiaries": 19764,
+      "avg_submitted": 45.88,
+      "avg_paid": 30.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 799083.11,
+      "total_services": 32675,
+      "total_beneficiaries": 21238,
+      "avg_submitted": 45.65,
+      "avg_paid": 30.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 737290.73,
+      "total_services": 30982,
+      "total_beneficiaries": 20360,
+      "avg_submitted": 46.18,
+      "avg_paid": 30.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 733672.41,
+      "total_services": 31239,
+      "total_beneficiaries": 20530,
+      "avg_submitted": 45.53,
+      "avg_paid": 30.12
+    },
+    {
+      "year": 2018,
+      "total_payments": 640520.24,
+      "total_services": 27481,
+      "total_beneficiaries": 17845,
+      "avg_submitted": 47.77,
+      "avg_paid": 30.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 575181.07,
+      "total_services": 25326,
+      "total_beneficiaries": 15437,
+      "avg_submitted": 46.48,
+      "avg_paid": 29.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 450003.61,
+      "total_services": 21396,
+      "total_beneficiaries": 13030,
+      "avg_submitted": 45.5,
+      "avg_paid": 27.87
+    },
+    {
+      "year": 2021,
+      "total_payments": 505689.17,
+      "total_services": 23277,
+      "total_beneficiaries": 13027,
+      "avg_submitted": 43.99,
+      "avg_paid": 26.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 497653.07,
+      "total_services": 24109,
+      "total_beneficiaries": 12656,
+      "avg_submitted": 46.27,
+      "avg_paid": 28.05
+    },
+    {
+      "year": 2023,
+      "total_payments": 505612.94,
+      "total_services": 24496,
+      "total_beneficiaries": 13014,
+      "avg_submitted": 41.42,
+      "avg_paid": 24.73
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 17293,
+      "payments": 1474849.4,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 11651,
+      "payments": 230343.17,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "83970",
+      "description": "Parathormone (parathyroid hormone) level",
+      "services": 4643,
+      "payments": 228199.97,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 6188,
+      "payments": 215929.35,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 10235,
+      "payments": 195458.44,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "82024",
+      "description": "Adrenocorticotropic hormone (ACTH) level",
+      "services": 3824,
+      "payments": 171258.63,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 977,
+      "payments": 156873.22,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2504,
+      "payments": 147534.41,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2366,
+      "payments": 139852.2,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "82088",
+      "description": "Aldosterone hormone level",
+      "services": 2844,
+      "payments": 135097.56,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "82533",
+      "description": "Cortisol (hormone) measurement",
+      "services": 6369,
+      "payments": 121522.42,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "84681",
+      "description": "C-peptide (protein) level",
+      "services": 5095,
+      "payments": 120521.22,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 11485,
+      "payments": 118853.6,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 10870,
+      "payments": 115130.11,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 7531,
+      "payments": 111187.25,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 9637,
+      "payments": 110775.2,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 11505,
+      "payments": 105510.48,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 1234,
+      "payments": 104337.68,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 956,
+      "payments": 95729.07,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 8387,
+      "payments": 95105.72,
+      "avg_markup": 2.64
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6170926.65,
+    "total_services": 269582,
+    "total_beneficiaries": 166901,
+    "avg_markup_ratio": 1.67
+  }
+}

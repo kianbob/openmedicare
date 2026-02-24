@@ -1,0 +1,239 @@
+{
+  "name": "Louis Schneider",
+  "credentials": "D.O.",
+  "specialty": "Internal Medicine",
+  "city": "Des Moines",
+  "state": "IA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 332614.67,
+      "total_services": 14516,
+      "total_beneficiaries": 7583,
+      "avg_submitted": 67.87,
+      "avg_paid": 28.02
+    },
+    {
+      "year": 2015,
+      "total_payments": 318783.32,
+      "total_services": 13712,
+      "total_beneficiaries": 7308,
+      "avg_submitted": 83.65,
+      "avg_paid": 36.74
+    },
+    {
+      "year": 2016,
+      "total_payments": 356524.47,
+      "total_services": 13439,
+      "total_beneficiaries": 7349,
+      "avg_submitted": 93.22,
+      "avg_paid": 43.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 356517.46,
+      "total_services": 13860,
+      "total_beneficiaries": 7935,
+      "avg_submitted": 86.14,
+      "avg_paid": 41.06
+    },
+    {
+      "year": 2018,
+      "total_payments": 334606.56,
+      "total_services": 13031,
+      "total_beneficiaries": 7636,
+      "avg_submitted": 89.82,
+      "avg_paid": 41.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 318146.92,
+      "total_services": 12614,
+      "total_beneficiaries": 7233,
+      "avg_submitted": 101.16,
+      "avg_paid": 46.99
+    },
+    {
+      "year": 2020,
+      "total_payments": 264017.56,
+      "total_services": 10508,
+      "total_beneficiaries": 6503,
+      "avg_submitted": 107.5,
+      "avg_paid": 47.04
+    },
+    {
+      "year": 2021,
+      "total_payments": 332186.58,
+      "total_services": 11511,
+      "total_beneficiaries": 6805,
+      "avg_submitted": 89.55,
+      "avg_paid": 40.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 256966.06,
+      "total_services": 9681,
+      "total_beneficiaries": 5771,
+      "avg_submitted": 77.16,
+      "avg_paid": 31.66
+    },
+    {
+      "year": 2023,
+      "total_payments": 246261.36,
+      "total_services": 8817,
+      "total_beneficiaries": 5253,
+      "avg_submitted": 74.46,
+      "avg_paid": 29.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 17651,
+      "payments": 1188253.73,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5475,
+      "payments": 292551.24,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2284,
+      "payments": 268858.45,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3377,
+      "payments": 161066.29,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 10756,
+      "payments": 153466.27,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 12419,
+      "payments": 136910.6,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 13334,
+      "payments": 122093.25,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 671,
+      "payments": 106697.52,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3106,
+      "payments": 62212.69,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 313,
+      "payments": 60322.85,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 14789,
+      "payments": 50010.33,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 4019,
+      "payments": 46066.82,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 267,
+      "payments": 45106.06,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 3017,
+      "payments": 29490.93,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 178,
+      "payments": 28048.76,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 186,
+      "payments": 27158.36,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "81001",
+      "description": "Manual urinalysis test with examination using microscope",
+      "services": 6846,
+      "payments": 25795.01,
+      "avg_markup": 4.78
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1152,
+      "payments": 23998.77,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 1091,
+      "payments": 22278.55,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "82570",
+      "description": "Creatinine level to test for kidney function or muscle injury",
+      "services": 2971,
+      "payments": 18324.73,
+      "avg_markup": 6.49
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3116624.96,
+    "total_services": 121689,
+    "total_beneficiaries": 69376,
+    "avg_markup_ratio": 2.73
+  }
+}

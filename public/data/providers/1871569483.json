@@ -1,0 +1,239 @@
+{
+  "name": "Jack Flyer",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Chevy Chase",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 444756.27,
+      "total_services": 4306,
+      "total_beneficiaries": 3455,
+      "avg_submitted": 357.58,
+      "avg_paid": 128.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 493405.85,
+      "total_services": 4783,
+      "total_beneficiaries": 4004,
+      "avg_submitted": 384.66,
+      "avg_paid": 137.57
+    },
+    {
+      "year": 2016,
+      "total_payments": 560742.4,
+      "total_services": 5482,
+      "total_beneficiaries": 4517,
+      "avg_submitted": 379.0,
+      "avg_paid": 132.17
+    },
+    {
+      "year": 2017,
+      "total_payments": 602422.76,
+      "total_services": 5874,
+      "total_beneficiaries": 4863,
+      "avg_submitted": 366.55,
+      "avg_paid": 128.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 688164.81,
+      "total_services": 6300,
+      "total_beneficiaries": 5359,
+      "avg_submitted": 352.3,
+      "avg_paid": 133.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 649278.75,
+      "total_services": 6007,
+      "total_beneficiaries": 5157,
+      "avg_submitted": 369.86,
+      "avg_paid": 129.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 657465.42,
+      "total_services": 5877,
+      "total_beneficiaries": 5076,
+      "avg_submitted": 353.23,
+      "avg_paid": 131.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 800016.61,
+      "total_services": 6888,
+      "total_beneficiaries": 5958,
+      "avg_submitted": 337.21,
+      "avg_paid": 115.02
+    },
+    {
+      "year": 2022,
+      "total_payments": 841479.74,
+      "total_services": 7195,
+      "total_beneficiaries": 6382,
+      "avg_submitted": 376.48,
+      "avg_paid": 132.32
+    },
+    {
+      "year": 2023,
+      "total_payments": 894381.78,
+      "total_services": 8132,
+      "total_beneficiaries": 7049,
+      "avg_submitted": 313.97,
+      "avg_paid": 112.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 12750,
+      "payments": 1291797.69,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 6328,
+      "payments": 1102309.83,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 3740,
+      "payments": 799631.83,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 1373,
+      "payments": 612258.47,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 2286,
+      "payments": 391643.91,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 1870,
+      "payments": 344701.13,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 1088,
+      "payments": 175599.33,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 734,
+      "payments": 162502.33,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "0297T",
+      "description": "Analysis and report of external EKG recording for more than 48 hours up to 21 days",
+      "services": 578,
+      "payments": 159414.68,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 10771,
+      "payments": 145112.0,
+      "avg_markup": 6.3
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2218,
+      "payments": 144787.53,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 271,
+      "payments": 137939.23,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 1373,
+      "payments": 134751.5,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 868,
+      "payments": 126866.27,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "93303",
+      "description": "Ultrasound examination of congenital heart defect",
+      "services": 600,
+      "payments": 123670.91,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 1433,
+      "payments": 83982.81,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 697,
+      "payments": 64542.73,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 342,
+      "payments": 59721.42,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 440,
+      "payments": 56847.65,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "93241",
+      "description": "Heart rhythm recording, analysis, report, review, and interpretation of continous external ekg over more than 48 hours up to 7 days",
+      "services": 183,
+      "payments": 44104.17,
+      "avg_markup": 3.11
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6632114.38,
+    "total_services": 60844,
+    "total_beneficiaries": 51820,
+    "avg_markup_ratio": 2.82
+  }
+}

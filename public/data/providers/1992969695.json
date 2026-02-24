@@ -1,0 +1,211 @@
+{
+  "name": "Jason Schemp",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Tucson",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 108283.93,
+      "total_services": 1253,
+      "total_beneficiaries": 687,
+      "avg_submitted": 311.61,
+      "avg_paid": 106.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 188054.28,
+      "total_services": 2274,
+      "total_beneficiaries": 1050,
+      "avg_submitted": 149.75,
+      "avg_paid": 96.76
+    },
+    {
+      "year": 2016,
+      "total_payments": 275523.0,
+      "total_services": 3747,
+      "total_beneficiaries": 1332,
+      "avg_submitted": 137.0,
+      "avg_paid": 88.07
+    },
+    {
+      "year": 2017,
+      "total_payments": 273489.33,
+      "total_services": 3779,
+      "total_beneficiaries": 1242,
+      "avg_submitted": 137.2,
+      "avg_paid": 87.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 278054.86,
+      "total_services": 3739,
+      "total_beneficiaries": 1235,
+      "avg_submitted": 152.98,
+      "avg_paid": 97.77
+    },
+    {
+      "year": 2019,
+      "total_payments": 253995.31,
+      "total_services": 3563,
+      "total_beneficiaries": 1161,
+      "avg_submitted": 141.19,
+      "avg_paid": 91.97
+    },
+    {
+      "year": 2020,
+      "total_payments": 279050.23,
+      "total_services": 3921,
+      "total_beneficiaries": 1049,
+      "avg_submitted": 158.0,
+      "avg_paid": 101.48
+    },
+    {
+      "year": 2021,
+      "total_payments": 293358.66,
+      "total_services": 4243,
+      "total_beneficiaries": 1367,
+      "avg_submitted": 153.15,
+      "avg_paid": 94.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 271318.9,
+      "total_services": 4189,
+      "total_beneficiaries": 1283,
+      "avg_submitted": 141.64,
+      "avg_paid": 84.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 302265.95,
+      "total_services": 4199,
+      "total_beneficiaries": 1305,
+      "avg_submitted": 140.55,
+      "avg_paid": 88.71
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8142,
+      "payments": 667221.89,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 10002,
+      "payments": 542091.5,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8368,
+      "payments": 475224.08,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1743,
+      "payments": 269329.48,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2690,
+      "payments": 195813.73,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 982,
+      "payments": 128661.22,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1165,
+      "payments": 97460.11,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional, first 30 minutes",
+      "services": 744,
+      "payments": 44307.84,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 435,
+      "payments": 35779.83,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 195,
+      "payments": 27168.84,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 106,
+      "payments": 18521.72,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 130,
+      "payments": 7342.36,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service, first hour",
+      "services": 87,
+      "payments": 6210.62,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 67,
+      "payments": 5346.02,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 29,
+      "payments": 1583.89,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 22,
+      "payments": 1331.32,
+      "avg_markup": 1.85
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2523394.45,
+    "total_services": 34907,
+    "total_beneficiaries": 11711,
+    "avg_markup_ratio": 1.52
+  }
+}

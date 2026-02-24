@@ -1,0 +1,239 @@
+{
+  "name": "Thomas Stack",
+  "credentials": "D.O.",
+  "specialty": "Family Practice",
+  "city": "Montville",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 203569.12,
+      "total_services": 3714,
+      "total_beneficiaries": 1428,
+      "avg_submitted": 98.69,
+      "avg_paid": 54.56
+    },
+    {
+      "year": 2015,
+      "total_payments": 308329.47,
+      "total_services": 4936,
+      "total_beneficiaries": 2454,
+      "avg_submitted": 94.68,
+      "avg_paid": 60.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 313207.98,
+      "total_services": 4614,
+      "total_beneficiaries": 2422,
+      "avg_submitted": 105.88,
+      "avg_paid": 65.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 261718.28,
+      "total_services": 4413,
+      "total_beneficiaries": 2530,
+      "avg_submitted": 104.32,
+      "avg_paid": 63.05
+    },
+    {
+      "year": 2018,
+      "total_payments": 240746.9,
+      "total_services": 4727,
+      "total_beneficiaries": 2630,
+      "avg_submitted": 108.96,
+      "avg_paid": 64.65
+    },
+    {
+      "year": 2019,
+      "total_payments": 231121.53,
+      "total_services": 4333,
+      "total_beneficiaries": 2537,
+      "avg_submitted": 97.44,
+      "avg_paid": 58.8
+    },
+    {
+      "year": 2020,
+      "total_payments": 233604.07,
+      "total_services": 4433,
+      "total_beneficiaries": 2706,
+      "avg_submitted": 88.82,
+      "avg_paid": 56.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 246936.49,
+      "total_services": 3901,
+      "total_beneficiaries": 2553,
+      "avg_submitted": 95.4,
+      "avg_paid": 60.18
+    },
+    {
+      "year": 2022,
+      "total_payments": 243085.89,
+      "total_services": 3739,
+      "total_beneficiaries": 2522,
+      "avg_submitted": 117.18,
+      "avg_paid": 74.18
+    },
+    {
+      "year": 2023,
+      "total_payments": 238446.52,
+      "total_services": 3739,
+      "total_beneficiaries": 2528,
+      "avg_submitted": 94.5,
+      "avg_paid": 59.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 10777,
+      "payments": 956565.34,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5480,
+      "payments": 330208.23,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1832,
+      "payments": 245164.42,
+      "avg_markup": 1.15
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1300,
+      "payments": 140130.67,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1597,
+      "payments": 135491.93,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1745,
+      "payments": 90690.23,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 327,
+      "payments": 58478.19,
+      "avg_markup": 1.23
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 250,
+      "payments": 54479.59,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1863,
+      "payments": 48592.72,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 957,
+      "payments": 39596.64,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 506,
+      "payments": 37461.83,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 180,
+      "payments": 33002.73,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 2364,
+      "payments": 31052.47,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "G0447",
+      "description": "Face-to-face behavioral counseling for obesity, 15 minutes",
+      "services": 1092,
+      "payments": 29618.24,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "G0402",
+      "description": "Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",
+      "services": 153,
+      "payments": 27566.48,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "90732",
+      "description": "Vaccine for pneumococcal polysaccharide for injection beneath the skin or into muscle, patient 2 years or older",
+      "services": 292,
+      "payments": 26654.39,
+      "avg_markup": 1.17
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 141,
+      "payments": 22660.65,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "96116",
+      "description": "Neurobehavioral status examination, interpretation, and report by psychologist or physician per hour",
+      "services": 273,
+      "payments": 20600.83,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "G0009",
+      "description": "Administration of pneumococcal vaccine",
+      "services": 699,
+      "payments": 18815.32,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 5410,
+      "payments": 18652.2,
+      "avg_markup": 3.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2520766.24,
+    "total_services": 42549,
+    "total_beneficiaries": 24310,
+    "avg_markup_ratio": 1.69
+  }
+}

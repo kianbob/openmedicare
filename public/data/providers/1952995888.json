@@ -1,0 +1,71 @@
+{
+  "name": "Harris County Esd 11",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Spring",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 621470.19,
+      "total_services": 3389,
+      "total_beneficiaries": 2739,
+      "avg_submitted": 1644.61,
+      "avg_paid": 303.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 2223073.57,
+      "total_services": 11837,
+      "total_beneficiaries": 7791,
+      "avg_submitted": 1858.21,
+      "avg_paid": 312.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 2330045.33,
+      "total_services": 11664,
+      "total_beneficiaries": 7825,
+      "avg_submitted": 1913.99,
+      "avg_paid": 334.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 10392,
+      "payments": 4028046.0,
+      "avg_markup": 6.22
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2948,
+      "payments": 964904.29,
+      "avg_markup": 6.91
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 167,
+      "payments": 94474.54,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13383,
+      "payments": 87164.26,
+      "avg_markup": 4.23
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 5174589.09,
+    "total_services": 26890,
+    "total_beneficiaries": 18355,
+    "avg_markup_ratio": 6.28
+  }
+}

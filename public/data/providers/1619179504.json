@@ -1,0 +1,211 @@
+{
+  "name": "Jevon Tang",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Fremont",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 203182.25,
+      "total_services": 2673,
+      "total_beneficiaries": 701,
+      "avg_submitted": 242.0,
+      "avg_paid": 103.85
+    },
+    {
+      "year": 2015,
+      "total_payments": 222629.64,
+      "total_services": 2863,
+      "total_beneficiaries": 783,
+      "avg_submitted": 254.33,
+      "avg_paid": 111.23
+    },
+    {
+      "year": 2016,
+      "total_payments": 236379.53,
+      "total_services": 3226,
+      "total_beneficiaries": 735,
+      "avg_submitted": 290.29,
+      "avg_paid": 109.86
+    },
+    {
+      "year": 2017,
+      "total_payments": 259489.57,
+      "total_services": 3458,
+      "total_beneficiaries": 787,
+      "avg_submitted": 204.43,
+      "avg_paid": 79.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 275979.04,
+      "total_services": 3503,
+      "total_beneficiaries": 859,
+      "avg_submitted": 286.0,
+      "avg_paid": 105.94
+    },
+    {
+      "year": 2019,
+      "total_payments": 259056.06,
+      "total_services": 3216,
+      "total_beneficiaries": 924,
+      "avg_submitted": 246.25,
+      "avg_paid": 94.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 247032.08,
+      "total_services": 3064,
+      "total_beneficiaries": 845,
+      "avg_submitted": 212.5,
+      "avg_paid": 79.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 213809.87,
+      "total_services": 2420,
+      "total_beneficiaries": 709,
+      "avg_submitted": 296.3,
+      "avg_paid": 125.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 250647.63,
+      "total_services": 2806,
+      "total_beneficiaries": 765,
+      "avg_submitted": 280.49,
+      "avg_paid": 102.02
+    },
+    {
+      "year": 2023,
+      "total_payments": 172395.96,
+      "total_services": 1695,
+      "total_beneficiaries": 660,
+      "avg_submitted": 276.08,
+      "avg_paid": 100.35
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19579,
+      "payments": 1238413.7,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3451,
+      "payments": 581885.41,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 3530,
+      "payments": 330081.22,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1058,
+      "payments": 68265.17,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 491,
+      "payments": 51654.6,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 133,
+      "payments": 17947.47,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 115,
+      "payments": 12699.45,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 67,
+      "payments": 9678.41,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 55,
+      "payments": 8416.67,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "90653",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 90,
+      "payments": 5213.36,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 141,
+      "payments": 4944.89,
+      "avg_markup": 2.54
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 129,
+      "payments": 3053.51,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 26,
+      "payments": 2901.74,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99205",
+      "description": "New patient outpatient visit, total time 60-74 minutes",
+      "services": 11,
+      "payments": 2288.77,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 32,
+      "payments": 2006.38,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "90662",
+      "description": "Influenza vaccine split virus, preservative free",
+      "services": 16,
+      "payments": 1150.88,
+      "avg_markup": 1.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2340601.63,
+    "total_services": 28924,
+    "total_beneficiaries": 7768,
+    "avg_markup_ratio": 2.55
+  }
+}

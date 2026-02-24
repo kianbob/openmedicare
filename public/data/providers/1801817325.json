@@ -1,0 +1,176 @@
+{
+  "name": "James Gallagher",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Agawam",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 311362.9,
+      "total_services": 4218,
+      "total_beneficiaries": 817,
+      "avg_submitted": 138.72,
+      "avg_paid": 82.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 293390.01,
+      "total_services": 3964,
+      "total_beneficiaries": 786,
+      "avg_submitted": 139.61,
+      "avg_paid": 81.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 315285.35,
+      "total_services": 4321,
+      "total_beneficiaries": 1028,
+      "avg_submitted": 137.45,
+      "avg_paid": 81.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 275496.36,
+      "total_services": 3688,
+      "total_beneficiaries": 1072,
+      "avg_submitted": 144.96,
+      "avg_paid": 83.68
+    },
+    {
+      "year": 2018,
+      "total_payments": 266448.71,
+      "total_services": 3227,
+      "total_beneficiaries": 1548,
+      "avg_submitted": 150.36,
+      "avg_paid": 95.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 296385.46,
+      "total_services": 3479,
+      "total_beneficiaries": 1547,
+      "avg_submitted": 167.61,
+      "avg_paid": 105.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 325722.62,
+      "total_services": 3909,
+      "total_beneficiaries": 1010,
+      "avg_submitted": 178.51,
+      "avg_paid": 112.6
+    },
+    {
+      "year": 2021,
+      "total_payments": 288355.99,
+      "total_services": 3387,
+      "total_beneficiaries": 1135,
+      "avg_submitted": 160.81,
+      "avg_paid": 103.24
+    },
+    {
+      "year": 2022,
+      "total_payments": 275124.08,
+      "total_services": 3209,
+      "total_beneficiaries": 1862,
+      "avg_submitted": 165.23,
+      "avg_paid": 104.19
+    },
+    {
+      "year": 2023,
+      "total_payments": 218909.99,
+      "total_services": 2503,
+      "total_beneficiaries": 1341,
+      "avg_submitted": 158.72,
+      "avg_paid": 98.24
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 27077,
+      "payments": 1982869.81,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2951,
+      "payments": 312556.53,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1545,
+      "payments": 220875.35,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1923,
+      "payments": 114357.0,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 916,
+      "payments": 77595.97,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 408,
+      "payments": 54666.09,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99358",
+      "description": "Extended patient service without direct patient contact, first hour",
+      "services": 451,
+      "payments": 41246.52,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99356",
+      "description": "Extended inpatient or observation hospital service, first hour",
+      "services": 448,
+      "payments": 33598.1,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 140,
+      "payments": 25347.05,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 29,
+      "payments": 2378.29,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 17,
+      "payments": 990.76,
+      "avg_markup": 1.66
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2866481.47,
+    "total_services": 35905,
+    "total_beneficiaries": 12146,
+    "avg_markup_ratio": 1.68
+  }
+}

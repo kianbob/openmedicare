@@ -1,0 +1,79 @@
+{
+  "name": "Stanley Street Treatment And Resources, Inc.",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Fall River",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1129245.09,
+      "total_services": 6432,
+      "total_beneficiaries": 381,
+      "avg_submitted": 156.69,
+      "avg_paid": 148.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 1104486.99,
+      "total_services": 6182,
+      "total_beneficiaries": 389,
+      "avg_submitted": 157.59,
+      "avg_paid": 148.14
+    },
+    {
+      "year": 2022,
+      "total_payments": 884717.07,
+      "total_services": 5089,
+      "total_beneficiaries": 355,
+      "avg_submitted": 161.18,
+      "avg_paid": 150.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 665483.71,
+      "total_services": 3266,
+      "total_beneficiaries": 214,
+      "avg_submitted": 181.93,
+      "avg_paid": 165.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 16021,
+      "payments": 3496435.57,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 4130,
+      "payments": 143452.71,
+      "avg_markup": 1.11
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 449,
+      "payments": 75600.12,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "G2076",
+      "description": "Intake activities, including initial medical examination that is a complete, fully documented physical evaluation and initial assessment by a program physician or a primary care physician, or an authorized healthcare professional under the supervision of a",
+      "services": 369,
+      "payments": 68444.45,
+      "avg_markup": 1.08
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3783932.85,
+    "total_services": 20969,
+    "total_beneficiaries": 1339,
+    "avg_markup_ratio": 1.06
+  }
+}

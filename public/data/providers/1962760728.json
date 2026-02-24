@@ -1,0 +1,124 @@
+{
+  "name": "Gina Johnson",
+  "credentials": "M.D.",
+  "specialty": "Pathology",
+  "city": "Birmingham",
+  "state": "AL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 272743.03,
+      "total_services": 5253,
+      "total_beneficiaries": 5019,
+      "avg_submitted": 97.57,
+      "avg_paid": 66.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 663367.81,
+      "total_services": 13607,
+      "total_beneficiaries": 12453,
+      "avg_submitted": 87.42,
+      "avg_paid": 55.98
+    },
+    {
+      "year": 2019,
+      "total_payments": 553537.61,
+      "total_services": 11844,
+      "total_beneficiaries": 10924,
+      "avg_submitted": 86.64,
+      "avg_paid": 54.16
+    },
+    {
+      "year": 2020,
+      "total_payments": 372492.11,
+      "total_services": 7576,
+      "total_beneficiaries": 6998,
+      "avg_submitted": 88.17,
+      "avg_paid": 55.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 544451.59,
+      "total_services": 10123,
+      "total_beneficiaries": 9292,
+      "avg_submitted": 88.17,
+      "avg_paid": 60.51
+    },
+    {
+      "year": 2022,
+      "total_payments": 688976.96,
+      "total_services": 13152,
+      "total_beneficiaries": 11954,
+      "avg_submitted": 104.0,
+      "avg_paid": 71.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 583008.07,
+      "total_services": 12213,
+      "total_beneficiaries": 11050,
+      "avg_submitted": 103.63,
+      "avg_paid": 68.6
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 64688,
+      "payments": 3110092.31,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "88342",
+      "description": "Tissue or cell analysis by immunologic technique",
+      "services": 3755,
+      "payments": 281441.07,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "88312",
+      "description": "Special stained specimen slides to identify organisms including interpretation and report",
+      "services": 2533,
+      "payments": 187833.94,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "88304",
+      "description": "Pathology examination of tissue using a microscope, moderately low complexity",
+      "services": 2274,
+      "payments": 63140.9,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "88341",
+      "description": "Special stained specimen slides to examine tissue",
+      "services": 374,
+      "payments": 24497.69,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "88344",
+      "description": "Special stained specimen slides to examine tissue",
+      "services": 57,
+      "payments": 7091.45,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "88313",
+      "description": "Special stained specimen slides to examine tissue including interpretation and report",
+      "services": 87,
+      "payments": 4479.83,
+      "avg_markup": 1.36
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 3678577.19,
+    "total_services": 73768,
+    "total_beneficiaries": 67690,
+    "avg_markup_ratio": 1.97
+  }
+}

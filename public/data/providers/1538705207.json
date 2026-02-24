@@ -1,0 +1,72 @@
+{
+  "name": "Vital Care Ambulance Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 70427.8,
+      "total_services": 667,
+      "total_beneficiaries": 364,
+      "avg_submitted": 1002.67,
+      "avg_paid": 173.34
+    },
+    {
+      "year": 2021,
+      "total_payments": 821661.96,
+      "total_services": 6240,
+      "total_beneficiaries": 4552,
+      "avg_submitted": 1002.67,
+      "avg_paid": 182.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 1443625.25,
+      "total_services": 8887,
+      "total_beneficiaries": 6616,
+      "avg_submitted": 1002.67,
+      "avg_paid": 192.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 2186522.36,
+      "total_services": 13525,
+      "total_beneficiaries": 10187,
+      "avg_submitted": 1216.69,
+      "avg_paid": 207.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 8175,
+      "payments": 2956218.13,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 6659,
+      "payments": 1473852.87,
+      "avg_markup": 7.39
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 14485,
+      "payments": 92166.37,
+      "avg_markup": 2.05
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4522237.37,
+    "total_services": 29319,
+    "total_beneficiaries": 21719,
+    "avg_markup_ratio": 5.44
+  }
+}

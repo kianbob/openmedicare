@@ -1,0 +1,218 @@
+{
+  "name": "Vinod Goyal",
+  "credentials": "MD",
+  "specialty": "Nephrology",
+  "city": "Detroit",
+  "state": "MI",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 492856.53,
+      "total_services": 6966,
+      "total_beneficiaries": 1672,
+      "avg_submitted": 181.09,
+      "avg_paid": 108.49
+    },
+    {
+      "year": 2015,
+      "total_payments": 471169.49,
+      "total_services": 6528,
+      "total_beneficiaries": 1437,
+      "avg_submitted": 207.34,
+      "avg_paid": 104.43
+    },
+    {
+      "year": 2016,
+      "total_payments": 378016.57,
+      "total_services": 4555,
+      "total_beneficiaries": 1185,
+      "avg_submitted": 234.32,
+      "avg_paid": 112.77
+    },
+    {
+      "year": 2017,
+      "total_payments": 371494.0,
+      "total_services": 4409,
+      "total_beneficiaries": 1088,
+      "avg_submitted": 226.08,
+      "avg_paid": 109.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 315974.28,
+      "total_services": 3529,
+      "total_beneficiaries": 939,
+      "avg_submitted": 222.73,
+      "avg_paid": 105.18
+    },
+    {
+      "year": 2019,
+      "total_payments": 306584.09,
+      "total_services": 3341,
+      "total_beneficiaries": 943,
+      "avg_submitted": 220.33,
+      "avg_paid": 110.21
+    },
+    {
+      "year": 2020,
+      "total_payments": 256568.62,
+      "total_services": 2818,
+      "total_beneficiaries": 674,
+      "avg_submitted": 231.36,
+      "avg_paid": 119.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 183676.13,
+      "total_services": 2143,
+      "total_beneficiaries": 505,
+      "avg_submitted": 242.0,
+      "avg_paid": 132.28
+    },
+    {
+      "year": 2022,
+      "total_payments": 119357.14,
+      "total_services": 1488,
+      "total_beneficiaries": 392,
+      "avg_submitted": 198.14,
+      "avg_paid": 112.6
+    },
+    {
+      "year": 2023,
+      "total_payments": 74585.71,
+      "total_services": 991,
+      "total_beneficiaries": 233,
+      "avg_submitted": 167.57,
+      "avg_paid": 95.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 16259,
+      "payments": 942748.95,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 2108,
+      "payments": 472180.67,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2582,
+      "payments": 415928.26,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 6786,
+      "payments": 396093.75,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 1281,
+      "payments": 193648.83,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1315,
+      "payments": 144769.7,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 713,
+      "payments": 140405.47,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 2764,
+      "payments": 89073.62,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 458,
+      "payments": 66494.74,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 470,
+      "payments": 35605.7,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 307,
+      "payments": 25479.14,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 122,
+      "payments": 15806.36,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 152,
+      "payments": 12781.89,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "90970",
+      "description": "Dialysis services, per day (less than full month service), patient 20 years of age or older",
+      "services": 1299,
+      "payments": 8171.63,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 102,
+      "payments": 6001.01,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 29,
+      "payments": 3682.05,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 21,
+      "payments": 1410.8,
+      "avg_markup": 2.4
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2970282.56,
+    "total_services": 36768,
+    "total_beneficiaries": 9068,
+    "avg_markup_ratio": 1.87
+  }
+}

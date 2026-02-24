@@ -1,0 +1,127 @@
+{
+  "name": "Stat Ambulance Service Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Dartmouth",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 418901.37,
+      "total_services": 2426,
+      "total_beneficiaries": 1771,
+      "avg_submitted": 1258.92,
+      "avg_paid": 285.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 470861.98,
+      "total_services": 2678,
+      "total_beneficiaries": 1982,
+      "avg_submitted": 1366.13,
+      "avg_paid": 290.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 549424.85,
+      "total_services": 3116,
+      "total_beneficiaries": 2264,
+      "avg_submitted": 1507.73,
+      "avg_paid": 289.73
+    },
+    {
+      "year": 2017,
+      "total_payments": 588546.87,
+      "total_services": 3316,
+      "total_beneficiaries": 2348,
+      "avg_submitted": 1515.41,
+      "avg_paid": 291.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 636752.59,
+      "total_services": 3580,
+      "total_beneficiaries": 2510,
+      "avg_submitted": 1519.43,
+      "avg_paid": 293.69
+    },
+    {
+      "year": 2019,
+      "total_payments": 626734.2,
+      "total_services": 3424,
+      "total_beneficiaries": 2430,
+      "avg_submitted": 1617.11,
+      "avg_paid": 300.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 612473.58,
+      "total_services": 3303,
+      "total_beneficiaries": 2275,
+      "avg_submitted": 1635.98,
+      "avg_paid": 304.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 650599.63,
+      "total_services": 3488,
+      "total_beneficiaries": 2404,
+      "avg_submitted": 1635.3,
+      "avg_paid": 309.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 661757.89,
+      "total_services": 3422,
+      "total_beneficiaries": 2367,
+      "avg_submitted": 1634.7,
+      "avg_paid": 319.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 719140.27,
+      "total_services": 3443,
+      "total_beneficiaries": 2371,
+      "avg_submitted": 1633.02,
+      "avg_paid": 345.6
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 13502,
+      "payments": 4984795.43,
+      "avg_markup": 5.25
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2409,
+      "payments": 742511.48,
+      "avg_markup": 4.61
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 212,
+      "payments": 111555.18,
+      "avg_markup": 5.15
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16073,
+      "payments": 96331.16,
+      "avg_markup": 7.06
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5935193.24,
+    "total_services": 32196,
+    "total_beneficiaries": 22722,
+    "avg_markup_ratio": 5.2
+  }
+}

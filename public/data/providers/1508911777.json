@@ -1,0 +1,79 @@
+{
+  "name": "Evergreen Treatment Services",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Seattle",
+  "state": "WA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 2376862.79,
+      "total_services": 13044,
+      "total_beneficiaries": 588,
+      "avg_submitted": 120.02,
+      "avg_paid": 117.11
+    },
+    {
+      "year": 2021,
+      "total_payments": 1042312.71,
+      "total_services": 6221,
+      "total_beneficiaries": 492,
+      "avg_submitted": 125.27,
+      "avg_paid": 92.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 702762.44,
+      "total_services": 4243,
+      "total_beneficiaries": 271,
+      "avg_submitted": 153.35,
+      "avg_paid": 119.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 428155.49,
+      "total_services": 2523,
+      "total_beneficiaries": 168,
+      "avg_submitted": 138.66,
+      "avg_paid": 124.86
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 21379,
+      "payments": 4364056.15,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 2466,
+      "payments": 90348.32,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "G2079",
+      "description": "Take-home supply of buprenorphine (oral); up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 2053,
+      "payments": 81399.41,
+      "avg_markup": 1.08
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 133,
+      "payments": 14289.55,
+      "avg_markup": 1.03
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4550093.43,
+    "total_services": 26031,
+    "total_beneficiaries": 1519,
+    "avg_markup_ratio": 1.06
+  }
+}

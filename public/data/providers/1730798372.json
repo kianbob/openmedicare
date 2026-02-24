@@ -1,0 +1,71 @@
+{
+  "name": "Ihc Health Services Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "St George",
+  "state": "UT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 701927.5,
+      "total_services": 593,
+      "total_beneficiaries": 585,
+      "avg_submitted": 2306.53,
+      "avg_paid": 900.32
+    },
+    {
+      "year": 2022,
+      "total_payments": 1574298.69,
+      "total_services": 1086,
+      "total_beneficiaries": 1079,
+      "avg_submitted": 2833.39,
+      "avg_paid": 1139.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 2429066.9,
+      "total_services": 1489,
+      "total_beneficiaries": 1478,
+      "avg_submitted": 2399.23,
+      "avg_paid": 1083.42
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "81479",
+      "description": "Molecular pathology procedure",
+      "services": 1699,
+      "payments": 4454837.41,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "81450",
+      "description": "Test for detecting genes associated with blood related cancer",
+      "services": 165,
+      "payments": 123864.13,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "88360",
+      "description": "Microscopic genetic analysis of tumor, manual",
+      "services": 1278,
+      "payments": 113851.55,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "81418",
+      "description": "Genomic sequence analysis panel of at least 6 genes associated with drug metabolism",
+      "services": 26,
+      "payments": 12740.0,
+      "avg_markup": 1.02
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 4705293.09,
+    "total_services": 3168,
+    "total_beneficiaries": 3142,
+    "avg_markup_ratio": 2.05
+  }
+}

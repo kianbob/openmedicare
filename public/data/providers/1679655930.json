@@ -1,0 +1,239 @@
+{
+  "name": "Joel Adler",
+  "credentials": "MD",
+  "specialty": "Geriatric Medicine",
+  "city": "Teaneck",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 528469.5,
+      "total_services": 6517,
+      "total_beneficiaries": 1306,
+      "avg_submitted": 109.33,
+      "avg_paid": 82.8
+    },
+    {
+      "year": 2015,
+      "total_payments": 499666.26,
+      "total_services": 6182,
+      "total_beneficiaries": 1239,
+      "avg_submitted": 111.26,
+      "avg_paid": 81.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 439936.73,
+      "total_services": 5753,
+      "total_beneficiaries": 1231,
+      "avg_submitted": 106.72,
+      "avg_paid": 75.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 439193.01,
+      "total_services": 5683,
+      "total_beneficiaries": 1317,
+      "avg_submitted": 128.17,
+      "avg_paid": 90.81
+    },
+    {
+      "year": 2018,
+      "total_payments": 476681.68,
+      "total_services": 5873,
+      "total_beneficiaries": 1551,
+      "avg_submitted": 124.35,
+      "avg_paid": 90.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 430876.7,
+      "total_services": 5141,
+      "total_beneficiaries": 1299,
+      "avg_submitted": 118.44,
+      "avg_paid": 89.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 500474.99,
+      "total_services": 4937,
+      "total_beneficiaries": 976,
+      "avg_submitted": 116.63,
+      "avg_paid": 99.23
+    },
+    {
+      "year": 2021,
+      "total_payments": 434451.84,
+      "total_services": 4385,
+      "total_beneficiaries": 831,
+      "avg_submitted": 112.23,
+      "avg_paid": 94.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 403592.57,
+      "total_services": 4763,
+      "total_beneficiaries": 871,
+      "avg_submitted": 115.04,
+      "avg_paid": 85.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 460178.11,
+      "total_services": 5174,
+      "total_beneficiaries": 1031,
+      "avg_submitted": 122.03,
+      "avg_paid": 94.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 33774,
+      "payments": 2661540.74,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 8127,
+      "payments": 902710.91,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2070,
+      "payments": 299708.47,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3214,
+      "payments": 266702.91,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 738,
+      "payments": 97003.89,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 970,
+      "payments": 89611.52,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 703,
+      "payments": 69772.77,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 270,
+      "payments": 39778.12,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2033,
+      "payments": 31639.31,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 532,
+      "payments": 24224.5,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 199,
+      "payments": 23978.92,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 162,
+      "payments": 17745.86,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 182,
+      "payments": 17516.73,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 99,
+      "payments": 14753.74,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 122,
+      "payments": 10500.53,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 118,
+      "payments": 8027.63,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 51,
+      "payments": 8026.34,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "96116",
+      "description": "Neurobehavioral status examination, interpretation, and report by psychologist or physician per hour",
+      "services": 89,
+      "payments": 6941.18,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 454,
+      "payments": 5840.79,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 124,
+      "payments": 3716.59,
+      "avg_markup": 1.45
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4613521.39,
+    "total_services": 54408,
+    "total_beneficiaries": 11652,
+    "avg_markup_ratio": 1.31
+  }
+}

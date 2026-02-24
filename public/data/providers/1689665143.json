@@ -1,0 +1,98 @@
+{
+  "name": "Platte County Ambulance Company",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Columbus",
+  "state": "NE",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 3189996.65,
+      "total_services": 21497,
+      "total_beneficiaries": 17206,
+      "avg_submitted": 2261.58,
+      "avg_paid": 652.58
+    },
+    {
+      "year": 2015,
+      "total_payments": 494432.08,
+      "total_services": 4104,
+      "total_beneficiaries": 3601,
+      "avg_submitted": 2887.16,
+      "avg_paid": 647.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 3696,
+      "payments": 1179108.21,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 4006,
+      "payments": 818431.46,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 4707,
+      "payments": 762660.32,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 168,
+      "payments": 645746.46,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 371,
+      "payments": 95349.54,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 138,
+      "payments": 75865.67,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 12292,
+      "payments": 75861.22,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 56,
+      "payments": 27023.98,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 167,
+      "payments": 4381.86,
+      "avg_markup": 7.43
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 3684428.73,
+    "total_services": 25601,
+    "total_beneficiaries": 20807,
+    "avg_markup_ratio": 3.45
+  }
+}

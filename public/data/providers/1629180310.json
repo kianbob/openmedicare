@@ -1,0 +1,239 @@
+{
+  "name": "Rabin Khetrapal",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Fremont",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 302810.06,
+      "total_services": 3636,
+      "total_beneficiaries": 1988,
+      "avg_submitted": 123.17,
+      "avg_paid": 77.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 393385.06,
+      "total_services": 4663,
+      "total_beneficiaries": 2379,
+      "avg_submitted": 120.03,
+      "avg_paid": 72.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 316216.24,
+      "total_services": 3731,
+      "total_beneficiaries": 1937,
+      "avg_submitted": 130.8,
+      "avg_paid": 78.25
+    },
+    {
+      "year": 2017,
+      "total_payments": 320185.05,
+      "total_services": 3784,
+      "total_beneficiaries": 1821,
+      "avg_submitted": 138.95,
+      "avg_paid": 86.75
+    },
+    {
+      "year": 2018,
+      "total_payments": 302646.94,
+      "total_services": 3617,
+      "total_beneficiaries": 2000,
+      "avg_submitted": 120.79,
+      "avg_paid": 73.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 413964.33,
+      "total_services": 4802,
+      "total_beneficiaries": 1768,
+      "avg_submitted": 124.66,
+      "avg_paid": 88.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 432622.56,
+      "total_services": 4591,
+      "total_beneficiaries": 1632,
+      "avg_submitted": 131.07,
+      "avg_paid": 88.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 443477.91,
+      "total_services": 4672,
+      "total_beneficiaries": 1733,
+      "avg_submitted": 132.58,
+      "avg_paid": 88.47
+    },
+    {
+      "year": 2022,
+      "total_payments": 455486.97,
+      "total_services": 4933,
+      "total_beneficiaries": 1788,
+      "avg_submitted": 157.35,
+      "avg_paid": 110.44
+    },
+    {
+      "year": 2023,
+      "total_payments": 446619.31,
+      "total_services": 4410,
+      "total_beneficiaries": 1494,
+      "avg_submitted": 142.22,
+      "avg_paid": 102.37
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11086,
+      "payments": 1019152.23,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 6502,
+      "payments": 553719.1,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5294,
+      "payments": 524894.13,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2244,
+      "payments": 392325.61,
+      "avg_markup": 1.46
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4307,
+      "payments": 274452.87,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1134,
+      "payments": 217327.68,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2003,
+      "payments": 191535.25,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 814,
+      "payments": 111385.75,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 573,
+      "payments": 80790.82,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 269,
+      "payments": 46347.25,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 302,
+      "payments": 43997.67,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 492,
+      "payments": 32810.49,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 150,
+      "payments": 31739.94,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 1074,
+      "payments": 29554.99,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 141,
+      "payments": 22495.64,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 314,
+      "payments": 19564.84,
+      "avg_markup": 1.11
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 366,
+      "payments": 18037.09,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 60,
+      "payments": 16692.85,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 1101,
+      "payments": 14892.48,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 193,
+      "payments": 13898.17,
+      "avg_markup": 1.39
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3827414.44,
+    "total_services": 42839,
+    "total_beneficiaries": 18540,
+    "avg_markup_ratio": 1.49
+  }
+}

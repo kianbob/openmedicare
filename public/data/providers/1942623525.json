@@ -1,0 +1,239 @@
+{
+  "name": "Larry Wilkes",
+  "credentials": "FNP",
+  "specialty": "Nurse Practitioner",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 20419.71,
+      "total_services": 397,
+      "total_beneficiaries": 132,
+      "avg_submitted": 156.79,
+      "avg_paid": 56.83
+    },
+    {
+      "year": 2015,
+      "total_payments": 55936.39,
+      "total_services": 837,
+      "total_beneficiaries": 379,
+      "avg_submitted": 162.34,
+      "avg_paid": 71.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 82163.13,
+      "total_services": 888,
+      "total_beneficiaries": 454,
+      "avg_submitted": 195.23,
+      "avg_paid": 105.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 18023.93,
+      "total_services": 195,
+      "total_beneficiaries": 103,
+      "avg_submitted": 217.24,
+      "avg_paid": 100.96
+    },
+    {
+      "year": 2018,
+      "total_payments": 402025.06,
+      "total_services": 4359,
+      "total_beneficiaries": 1936,
+      "avg_submitted": 194.17,
+      "avg_paid": 110.66
+    },
+    {
+      "year": 2019,
+      "total_payments": 292306.93,
+      "total_services": 3357,
+      "total_beneficiaries": 1302,
+      "avg_submitted": 182.16,
+      "avg_paid": 103.84
+    },
+    {
+      "year": 2020,
+      "total_payments": 584930.94,
+      "total_services": 10551,
+      "total_beneficiaries": 2394,
+      "avg_submitted": 130.29,
+      "avg_paid": 69.0
+    },
+    {
+      "year": 2021,
+      "total_payments": 615343.26,
+      "total_services": 9428,
+      "total_beneficiaries": 1962,
+      "avg_submitted": 115.9,
+      "avg_paid": 68.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 618846.16,
+      "total_services": 8088,
+      "total_beneficiaries": 2075,
+      "avg_submitted": 117.82,
+      "avg_paid": 65.79
+    },
+    {
+      "year": 2023,
+      "total_payments": 476021.23,
+      "total_services": 7036,
+      "total_beneficiaries": 1860,
+      "avg_submitted": 135.3,
+      "avg_paid": 68.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 5493,
+      "payments": 684211.67,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99487",
+      "description": "Complex chronic care management services 60 minutes clinical staff time",
+      "services": 9017,
+      "payments": 653523.92,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99489",
+      "description": "Complex chronic care management services each additional 30 minutes clinical staff time",
+      "services": 9005,
+      "payments": 336379.84,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "G0181",
+      "description": "Physician supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of c",
+      "services": 4419,
+      "payments": 333232.99,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 2915,
+      "payments": 257255.87,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99483",
+      "description": "Assessment of and care planning for patient with impaired thought processing, typically 50 minutes",
+      "services": 1120,
+      "payments": 207844.3,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 3046,
+      "payments": 181970.18,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 698,
+      "payments": 77592.81,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 2020,
+      "payments": 70212.98,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1730,
+      "payments": 67965.69,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 2014,
+      "payments": 57561.91,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 411,
+      "payments": 55689.1,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 744,
+      "payments": 47163.06,
+      "avg_markup": 2.8
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 229,
+      "payments": 25076.14,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 159,
+      "payments": 23858.32,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 459,
+      "payments": 21956.71,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imp",
+      "services": 604,
+      "payments": 17118.5,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 451,
+      "payments": 16255.55,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 68,
+      "payments": 11155.65,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 80,
+      "payments": 6371.86,
+      "avg_markup": 1.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3166016.74,
+    "total_services": 45136,
+    "total_beneficiaries": 12597,
+    "avg_markup_ratio": 1.85
+  }
+}

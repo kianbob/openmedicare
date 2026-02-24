@@ -1,0 +1,239 @@
+{
+  "name": "Mohamad Kalou",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "Charleston",
+  "state": "WV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 280423.78,
+      "total_services": 9130,
+      "total_beneficiaries": 2883,
+      "avg_submitted": 126.42,
+      "avg_paid": 31.99
+    },
+    {
+      "year": 2015,
+      "total_payments": 208747.22,
+      "total_services": 6281,
+      "total_beneficiaries": 2128,
+      "avg_submitted": 138.23,
+      "avg_paid": 34.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 195324.24,
+      "total_services": 4091,
+      "total_beneficiaries": 1297,
+      "avg_submitted": 138.26,
+      "avg_paid": 33.74
+    },
+    {
+      "year": 2017,
+      "total_payments": 205436.75,
+      "total_services": 4140,
+      "total_beneficiaries": 1287,
+      "avg_submitted": 144.82,
+      "avg_paid": 41.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 431902.75,
+      "total_services": 5122,
+      "total_beneficiaries": 1166,
+      "avg_submitted": 193.56,
+      "avg_paid": 70.48
+    },
+    {
+      "year": 2019,
+      "total_payments": 318025.51,
+      "total_services": 4195,
+      "total_beneficiaries": 843,
+      "avg_submitted": 196.31,
+      "avg_paid": 70.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 413190.27,
+      "total_services": 5724,
+      "total_beneficiaries": 1426,
+      "avg_submitted": 104.92,
+      "avg_paid": 49.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 451145.03,
+      "total_services": 8154,
+      "total_beneficiaries": 2271,
+      "avg_submitted": 100.24,
+      "avg_paid": 55.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 174871.78,
+      "total_services": 3372,
+      "total_beneficiaries": 1304,
+      "avg_submitted": 95.2,
+      "avg_paid": 45.56
+    },
+    {
+      "year": 2023,
+      "total_payments": 32433.74,
+      "total_services": 531,
+      "total_beneficiaries": 198,
+      "avg_submitted": 118.29,
+      "avg_paid": 67.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 15479,
+      "payments": 780353.93,
+      "avg_markup": 3.51
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 2524,
+      "payments": 496161.56,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 4116,
+      "payments": 251203.31,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2292,
+      "payments": 169720.27,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 2528,
+      "payments": 148273.76,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "82075",
+      "description": "Breath alcohol level",
+      "services": 3514,
+      "payments": 104472.9,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 629,
+      "payments": 96626.76,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 399,
+      "payments": 96546.61,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1485,
+      "payments": 69613.67,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "G0480",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 532,
+      "payments": 60551.14,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 388,
+      "payments": 39695.81,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 583,
+      "payments": 37342.65,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 282,
+      "payments": 30367.12,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 915,
+      "payments": 29308.45,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "76942",
+      "description": "Ultrasonic guidance imaging supervision and interpretation for insertion of needle",
+      "services": 567,
+      "payments": 25325.31,
+      "avg_markup": 10.89
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 462,
+      "payments": 23494.81,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "84311",
+      "description": "Chemical analysis using spectrophotometry (light)",
+      "services": 2435,
+      "payments": 22745.61,
+      "avg_markup": 5.35
+    },
+    {
+      "code": "76881",
+      "description": "Ultrasound of leg or arm",
+      "services": 233,
+      "payments": 18518.77,
+      "avg_markup": 6.46
+    },
+    {
+      "code": "82055",
+      "description": "Alcohol (ethanol) level",
+      "services": 1311,
+      "payments": 17344.53,
+      "avg_markup": 4.54
+    },
+    {
+      "code": "20611",
+      "description": "Aspiration and/or injection of major joint or joint capsule with recording and reporting using ultrasound guidance",
+      "services": 269,
+      "payments": 16934.28,
+      "avg_markup": 4.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2711501.08,
+    "total_services": 50740,
+    "total_beneficiaries": 14803,
+    "avg_markup_ratio": 2.78
+  }
+}

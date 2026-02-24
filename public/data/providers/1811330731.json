@@ -1,0 +1,200 @@
+{
+  "name": "William Stokes",
+  "credentials": "MD",
+  "specialty": "Radiation Oncology",
+  "city": "Atlanta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 22053.27,
+      "total_services": 257,
+      "total_beneficiaries": 115,
+      "avg_submitted": 749.62,
+      "avg_paid": 120.7
+    },
+    {
+      "year": 2019,
+      "total_payments": 491124.85,
+      "total_services": 1751,
+      "total_beneficiaries": 380,
+      "avg_submitted": 1110.36,
+      "avg_paid": 253.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 659941.14,
+      "total_services": 1860,
+      "total_beneficiaries": 493,
+      "avg_submitted": 934.83,
+      "avg_paid": 217.14
+    },
+    {
+      "year": 2021,
+      "total_payments": 627251.82,
+      "total_services": 1682,
+      "total_beneficiaries": 422,
+      "avg_submitted": 960.27,
+      "avg_paid": 223.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 364270.56,
+      "total_services": 874,
+      "total_beneficiaries": 238,
+      "avg_submitted": 1102.86,
+      "avg_paid": 271.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 428085.77,
+      "total_services": 1049,
+      "total_beneficiaries": 311,
+      "avg_submitted": 1114.95,
+      "avg_paid": 243.12
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "77523",
+      "description": "Proton treatment delivery, intermediate",
+      "services": 1960,
+      "payments": 1921612.12,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "77014",
+      "description": "CT scan guidance for insertion of radiation therapy fields",
+      "services": 2938,
+      "payments": 221353.78,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 188,
+      "payments": 185092.29,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 634,
+      "payments": 96105.74,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 199,
+      "payments": 57965.36,
+      "avg_markup": 4.12
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 394,
+      "payments": 25918.23,
+      "avg_markup": 3.73
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 152,
+      "payments": 19325.52,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 177,
+      "payments": 14608.96,
+      "avg_markup": 4.46
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 137,
+      "payments": 10822.34,
+      "avg_markup": 4.13
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 214,
+      "payments": 8581.58,
+      "avg_markup": 4.06
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 64,
+      "payments": 8544.47,
+      "avg_markup": 4.91
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 79,
+      "payments": 8542.85,
+      "avg_markup": 5.1
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 46,
+      "payments": 4553.73,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 52,
+      "payments": 3707.8,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99203",
+      "description": "New patient outpatient visit, total time 30-44 minutes",
+      "services": 41,
+      "payments": 2706.21,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "G6002",
+      "description": "Stereoscopic x-ray guidance for localization of target volume for the delivery of radiation therapy",
+      "services": 107,
+      "payments": 1639.91,
+      "avg_markup": 17.16
+    },
+    {
+      "code": "31575",
+      "description": "Diagnostic exam of voice box using a flexible endoscope",
+      "services": 16,
+      "payments": 1602.05,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "A9578",
+      "description": "Injection, gadobenate dimeglumine (multihance multipack), per ml",
+      "services": 28,
+      "payments": 40.03,
+      "avg_markup": 13.29
+    },
+    {
+      "code": "Q9967",
+      "description": "Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",
+      "services": 47,
+      "payments": 4.43,
+      "avg_markup": 10.6
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 2592727.41,
+    "total_services": 7473,
+    "total_beneficiaries": 1959,
+    "avg_markup_ratio": 3.9
+  }
+}

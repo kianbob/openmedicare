@@ -1,0 +1,127 @@
+{
+  "name": "City Of Salem",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Salem",
+  "state": "VA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 359427.55,
+      "total_services": 2320,
+      "total_beneficiaries": 1725,
+      "avg_submitted": 339.62,
+      "avg_paid": 264.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 383040.96,
+      "total_services": 2472,
+      "total_beneficiaries": 1835,
+      "avg_submitted": 339.75,
+      "avg_paid": 259.64
+    },
+    {
+      "year": 2016,
+      "total_payments": 402653.1,
+      "total_services": 2600,
+      "total_beneficiaries": 1907,
+      "avg_submitted": 339.75,
+      "avg_paid": 261.21
+    },
+    {
+      "year": 2017,
+      "total_payments": 419548.55,
+      "total_services": 2669,
+      "total_beneficiaries": 1899,
+      "avg_submitted": 339.75,
+      "avg_paid": 264.23
+    },
+    {
+      "year": 2018,
+      "total_payments": 454028.14,
+      "total_services": 2757,
+      "total_beneficiaries": 1888,
+      "avg_submitted": 433.44,
+      "avg_paid": 273.59
+    },
+    {
+      "year": 2019,
+      "total_payments": 456591.64,
+      "total_services": 2691,
+      "total_beneficiaries": 1927,
+      "avg_submitted": 454.38,
+      "avg_paid": 283.32
+    },
+    {
+      "year": 2020,
+      "total_payments": 375374.53,
+      "total_services": 2171,
+      "total_beneficiaries": 1612,
+      "avg_submitted": 454.38,
+      "avg_paid": 293.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 371300.01,
+      "total_services": 2126,
+      "total_beneficiaries": 1513,
+      "avg_submitted": 454.46,
+      "avg_paid": 291.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 340112.49,
+      "total_services": 1890,
+      "total_beneficiaries": 1461,
+      "avg_submitted": 454.38,
+      "avg_paid": 302.69
+    },
+    {
+      "year": 2023,
+      "total_payments": 356907.35,
+      "total_services": 1878,
+      "total_beneficiaries": 1400,
+      "avg_submitted": 340.78,
+      "avg_paid": 244.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 8205,
+      "payments": 2778689.02,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3439,
+      "payments": 984567.05,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 180,
+      "payments": 86487.01,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 11750,
+      "payments": 69241.23,
+      "avg_markup": 1.55
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3918984.31,
+    "total_services": 23574,
+    "total_beneficiaries": 17167,
+    "avg_markup_ratio": 1.44
+  }
+}

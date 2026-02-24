@@ -1,0 +1,239 @@
+{
+  "name": "Manamar Singh",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 178267.3,
+      "total_services": 2204,
+      "total_beneficiaries": 1251,
+      "avg_submitted": 221.96,
+      "avg_paid": 102.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 308716.46,
+      "total_services": 3604,
+      "total_beneficiaries": 2079,
+      "avg_submitted": 219.6,
+      "avg_paid": 101.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 335572.94,
+      "total_services": 3954,
+      "total_beneficiaries": 2439,
+      "avg_submitted": 219.65,
+      "avg_paid": 100.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 439991.77,
+      "total_services": 5095,
+      "total_beneficiaries": 2984,
+      "avg_submitted": 238.78,
+      "avg_paid": 103.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 426668.77,
+      "total_services": 5138,
+      "total_beneficiaries": 3096,
+      "avg_submitted": 224.45,
+      "avg_paid": 97.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 427484.46,
+      "total_services": 5297,
+      "total_beneficiaries": 3266,
+      "avg_submitted": 230.63,
+      "avg_paid": 101.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 348041.26,
+      "total_services": 4313,
+      "total_beneficiaries": 2212,
+      "avg_submitted": 235.77,
+      "avg_paid": 102.3
+    },
+    {
+      "year": 2021,
+      "total_payments": 491428.51,
+      "total_services": 6040,
+      "total_beneficiaries": 3075,
+      "avg_submitted": 227.72,
+      "avg_paid": 94.79
+    },
+    {
+      "year": 2022,
+      "total_payments": 559581.34,
+      "total_services": 6767,
+      "total_beneficiaries": 3546,
+      "avg_submitted": 214.71,
+      "avg_paid": 91.64
+    },
+    {
+      "year": 2023,
+      "total_payments": 613343.64,
+      "total_services": 6784,
+      "total_beneficiaries": 3898,
+      "avg_submitted": 203.7,
+      "avg_paid": 92.51
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8819,
+      "payments": 775899.24,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 10565,
+      "payments": 633723.83,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 6423,
+      "payments": 490756.49,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5959,
+      "payments": 343314.01,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2067,
+      "payments": 330599.91,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2765,
+      "payments": 306406.16,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2714,
+      "payments": 292357.84,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1833,
+      "payments": 249742.14,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2008,
+      "payments": 179689.33,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2541,
+      "payments": 152836.72,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 730,
+      "payments": 109737.92,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 337,
+      "payments": 61694.03,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 552,
+      "payments": 48096.69,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 363,
+      "payments": 40324.11,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 394,
+      "payments": 29552.08,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 442,
+      "payments": 26510.77,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 194,
+      "payments": 26274.1,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 373,
+      "payments": 23583.88,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 19,
+      "payments": 3322.91,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 28,
+      "payments": 1731.8,
+      "avg_markup": 2.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4129096.45,
+    "total_services": 49196,
+    "total_beneficiaries": 27846,
+    "avg_markup_ratio": 2.21
+  }
+}

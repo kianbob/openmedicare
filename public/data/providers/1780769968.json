@@ -1,0 +1,239 @@
+{
+  "name": "Leslie Doctor",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Westport",
+  "state": "CT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 375072.59,
+      "total_services": 3440,
+      "total_beneficiaries": 2630,
+      "avg_submitted": 528.75,
+      "avg_paid": 107.59
+    },
+    {
+      "year": 2015,
+      "total_payments": 364475.57,
+      "total_services": 3417,
+      "total_beneficiaries": 2565,
+      "avg_submitted": 523.68,
+      "avg_paid": 103.37
+    },
+    {
+      "year": 2016,
+      "total_payments": 348150.72,
+      "total_services": 3401,
+      "total_beneficiaries": 2641,
+      "avg_submitted": 543.15,
+      "avg_paid": 100.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 410877.55,
+      "total_services": 4206,
+      "total_beneficiaries": 3322,
+      "avg_submitted": 523.21,
+      "avg_paid": 93.76
+    },
+    {
+      "year": 2018,
+      "total_payments": 348727.62,
+      "total_services": 3596,
+      "total_beneficiaries": 2828,
+      "avg_submitted": 565.73,
+      "avg_paid": 100.16
+    },
+    {
+      "year": 2019,
+      "total_payments": 391472.59,
+      "total_services": 4063,
+      "total_beneficiaries": 3278,
+      "avg_submitted": 583.1,
+      "avg_paid": 107.19
+    },
+    {
+      "year": 2020,
+      "total_payments": 324903.38,
+      "total_services": 3669,
+      "total_beneficiaries": 3102,
+      "avg_submitted": 560.67,
+      "avg_paid": 104.04
+    },
+    {
+      "year": 2021,
+      "total_payments": 405672.05,
+      "total_services": 4719,
+      "total_beneficiaries": 3885,
+      "avg_submitted": 583.92,
+      "avg_paid": 117.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 498843.9,
+      "total_services": 6266,
+      "total_beneficiaries": 5073,
+      "avg_submitted": 531.8,
+      "avg_paid": 94.47
+    },
+    {
+      "year": 2023,
+      "total_payments": 481219.67,
+      "total_services": 5918,
+      "total_beneficiaries": 4749,
+      "avg_submitted": 566.9,
+      "avg_paid": 104.37
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 14129,
+      "payments": 1273446.02,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 2213,
+      "payments": 1135127.2,
+      "avg_markup": 6.84
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 8430,
+      "payments": 568286.18,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 2278,
+      "payments": 242855.46,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 6523,
+      "payments": 211862.3,
+      "avg_markup": 4.62
+    },
+    {
+      "code": "66821",
+      "description": "Removal of recurring cataract in lens capsule using laser",
+      "services": 653,
+      "payments": 169877.79,
+      "avg_markup": 5.84
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 2371,
+      "payments": 75614.6,
+      "avg_markup": 9.39
+    },
+    {
+      "code": "76519",
+      "description": "Ultrasound of eye for determination of lens power",
+      "services": 1380,
+      "payments": 62719.72,
+      "avg_markup": 4.4
+    },
+    {
+      "code": "92083",
+      "description": "Measurement of field of vision during daylight conditions",
+      "services": 1179,
+      "payments": 59442.58,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "92133",
+      "description": "Diagnostic imaging of optic nerve of eye",
+      "services": 1598,
+      "payments": 46030.05,
+      "avg_markup": 10.41
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 187,
+      "payments": 22667.97,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "92002",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient",
+      "services": 332,
+      "payments": 21056.46,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "92025",
+      "description": "Computerized mapping of corneal curvature",
+      "services": 448,
+      "payments": 13372.71,
+      "avg_markup": 11.73
+    },
+    {
+      "code": "68761",
+      "description": "Closure of tear duct opening using plug",
+      "services": 66,
+      "payments": 11418.36,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "0356T",
+      "description": "Insertion of drug delivery implant into tear ducts",
+      "services": 130,
+      "payments": 9176.7,
+      "avg_markup": 3.54
+    },
+    {
+      "code": "67840",
+      "description": "Removal of eyelid growth",
+      "services": 24,
+      "payments": 5787.42,
+      "avg_markup": 3.52
+    },
+    {
+      "code": "65855",
+      "description": "Laser repair to improve eye fluid flow",
+      "services": 22,
+      "payments": 4548.75,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "68841",
+      "description": "Insertion of drug delivery implant into tear duct of eye",
+      "services": 288,
+      "payments": 4021.18,
+      "avg_markup": 17.91
+    },
+    {
+      "code": "67820",
+      "description": "Removal of eyelashes by forceps",
+      "services": 110,
+      "payments": 2497.0,
+      "avg_markup": 16.12
+    },
+    {
+      "code": "68840",
+      "description": "Probing of nasal-tear duct",
+      "services": 19,
+      "payments": 2236.8,
+      "avg_markup": 3.02
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3949415.66,
+    "total_services": 42695,
+    "total_beneficiaries": 34073,
+    "avg_markup_ratio": 4.24
+  }
+}

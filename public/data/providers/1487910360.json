@@ -1,0 +1,93 @@
+{
+  "name": "Mercy Health Medical Transportation Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Blue Ash",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1253829.93,
+      "total_services": 14170,
+      "total_beneficiaries": 9233,
+      "avg_submitted": 488.85,
+      "avg_paid": 241.92
+    },
+    {
+      "year": 2015,
+      "total_payments": 1110253.49,
+      "total_services": 12455,
+      "total_beneficiaries": 8637,
+      "avg_submitted": 506.33,
+      "avg_paid": 246.01
+    },
+    {
+      "year": 2016,
+      "total_payments": 767408.89,
+      "total_services": 8765,
+      "total_beneficiaries": 6571,
+      "avg_submitted": 509.99,
+      "avg_paid": 239.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 143210.87,
+      "total_services": 1684,
+      "total_beneficiaries": 1517,
+      "avg_submitted": 321.0,
+      "avg_paid": 123.7
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 16859,
+      "payments": 2731562.33,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 949,
+      "payments": 183901.76,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18510,
+      "payments": 104207.56,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 178,
+      "payments": 94623.77,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 348,
+      "payments": 89488.09,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 230,
+      "payments": 70919.68,
+      "avg_markup": 1.78
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3274703.18,
+    "total_services": 37074,
+    "total_beneficiaries": 25958,
+    "avg_markup_ratio": 2.4
+  }
+}

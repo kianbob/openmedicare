@@ -1,0 +1,239 @@
+{
+  "name": "Juan Calero",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Harlingen",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 353732.59,
+      "total_services": 3622,
+      "total_beneficiaries": 1553,
+      "avg_submitted": 286.37,
+      "avg_paid": 100.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 375920.86,
+      "total_services": 4130,
+      "total_beneficiaries": 1859,
+      "avg_submitted": 352.75,
+      "avg_paid": 119.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 336795.75,
+      "total_services": 4011,
+      "total_beneficiaries": 1743,
+      "avg_submitted": 380.94,
+      "avg_paid": 109.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 392321.51,
+      "total_services": 4814,
+      "total_beneficiaries": 1888,
+      "avg_submitted": 417.01,
+      "avg_paid": 134.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 541445.97,
+      "total_services": 6114,
+      "total_beneficiaries": 2077,
+      "avg_submitted": 449.54,
+      "avg_paid": 141.17
+    },
+    {
+      "year": 2019,
+      "total_payments": 428290.59,
+      "total_services": 3576,
+      "total_beneficiaries": 1446,
+      "avg_submitted": 355.99,
+      "avg_paid": 126.85
+    },
+    {
+      "year": 2020,
+      "total_payments": 399486.07,
+      "total_services": 3096,
+      "total_beneficiaries": 1113,
+      "avg_submitted": 359.61,
+      "avg_paid": 123.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 269446.33,
+      "total_services": 2303,
+      "total_beneficiaries": 898,
+      "avg_submitted": 221.1,
+      "avg_paid": 82.23
+    },
+    {
+      "year": 2022,
+      "total_payments": 211704.85,
+      "total_services": 1900,
+      "total_beneficiaries": 832,
+      "avg_submitted": 232.72,
+      "avg_paid": 86.21
+    },
+    {
+      "year": 2023,
+      "total_payments": 180284.14,
+      "total_services": 1739,
+      "total_beneficiaries": 784,
+      "avg_submitted": 232.66,
+      "avg_paid": 81.45
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 8700,
+      "payments": 1489268.97,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12732,
+      "payments": 707451.22,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5325,
+      "payments": 427950.09,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1626,
+      "payments": 249067.87,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2492,
+      "payments": 203120.38,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1323,
+      "payments": 152113.49,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 87,
+      "payments": 42198.07,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 77,
+      "payments": 35367.23,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 202,
+      "payments": 24437.87,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 139,
+      "payments": 21992.38,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 438,
+      "payments": 17615.87,
+      "avg_markup": 4.97
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 417,
+      "payments": 17403.97,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 423,
+      "payments": 16945.37,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "76604",
+      "description": "Ultrasound of chest",
+      "services": 237,
+      "payments": 15334.42,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 75,
+      "payments": 13143.8,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 138,
+      "payments": 11785.67,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 62,
+      "payments": 7531.34,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 103,
+      "payments": 5613.96,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "87426",
+      "description": "Elisa detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 130,
+      "payments": 5517.41,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "32557",
+      "description": "Removal of fluid from chest cavity with insertion of indwelling catheter and imaging guidance, accessed through the skin",
+      "services": 31,
+      "payments": 3878.93,
+      "avg_markup": 7.01
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3489428.66,
+    "total_services": 35305,
+    "total_beneficiaries": 14193,
+    "avg_markup_ratio": 2.78
+  }
+}

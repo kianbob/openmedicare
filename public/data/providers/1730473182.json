@@ -1,0 +1,239 @@
+{
+  "name": "Musaab Zaid",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Richardson",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 45574.6,
+      "total_services": 582,
+      "total_beneficiaries": 362,
+      "avg_submitted": 287.3,
+      "avg_paid": 87.39
+    },
+    {
+      "year": 2015,
+      "total_payments": 110570.86,
+      "total_services": 1502,
+      "total_beneficiaries": 833,
+      "avg_submitted": 298.61,
+      "avg_paid": 87.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 242017.24,
+      "total_services": 3182,
+      "total_beneficiaries": 1067,
+      "avg_submitted": 280.23,
+      "avg_paid": 86.11
+    },
+    {
+      "year": 2017,
+      "total_payments": 206353.77,
+      "total_services": 2631,
+      "total_beneficiaries": 1194,
+      "avg_submitted": 277.9,
+      "avg_paid": 86.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 318886.55,
+      "total_services": 4059,
+      "total_beneficiaries": 1938,
+      "avg_submitted": 265.03,
+      "avg_paid": 87.28
+    },
+    {
+      "year": 2019,
+      "total_payments": 564272.57,
+      "total_services": 8328,
+      "total_beneficiaries": 2382,
+      "avg_submitted": 280.47,
+      "avg_paid": 87.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 638984.24,
+      "total_services": 9104,
+      "total_beneficiaries": 2319,
+      "avg_submitted": 312.72,
+      "avg_paid": 95.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 582238.24,
+      "total_services": 7543,
+      "total_beneficiaries": 2476,
+      "avg_submitted": 310.92,
+      "avg_paid": 89.75
+    },
+    {
+      "year": 2022,
+      "total_payments": 644281.19,
+      "total_services": 8653,
+      "total_beneficiaries": 2689,
+      "avg_submitted": 314.66,
+      "avg_paid": 90.21
+    },
+    {
+      "year": 2023,
+      "total_payments": 1184257.68,
+      "total_services": 15676,
+      "total_beneficiaries": 3986,
+      "avg_submitted": 315.03,
+      "avg_paid": 92.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 31516,
+      "payments": 1817490.76,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10293,
+      "payments": 845791.34,
+      "avg_markup": 2.91
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2869,
+      "payments": 429481.25,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2650,
+      "payments": 221139.08,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 2073,
+      "payments": 203448.46,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "99214",
+      "description": "Established patient outpatient visit, total time 30-39 minutes",
+      "services": 2659,
+      "payments": 196104.39,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1479,
+      "payments": 153046.74,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 901,
+      "payments": 124958.34,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99358",
+      "description": "Prolonged patient service without direct patient contact first hour",
+      "services": 1188,
+      "payments": 102758.98,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 896,
+      "payments": 71889.98,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 663,
+      "payments": 53669.24,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 750,
+      "payments": 42538.59,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 678,
+      "payments": 42174.23,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 203,
+      "payments": 34207.62,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99350",
+      "description": "Established patient home visit, typically 60 minutes",
+      "services": 192,
+      "payments": 27389.76,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient visit, 40-54 minutes",
+      "services": 245,
+      "payments": 26665.77,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "G0181",
+      "description": "Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow",
+      "services": 330,
+      "payments": 26443.7,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99345",
+      "description": "New patient home visit, typically 75 minutes",
+      "services": 136,
+      "payments": 21522.32,
+      "avg_markup": 4.02
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 353,
+      "payments": 20159.4,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 110,
+      "payments": 14923.23,
+      "avg_markup": 3.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4537436.94,
+    "total_services": 61260,
+    "total_beneficiaries": 19246,
+    "avg_markup_ratio": 3.15
+  }
+}

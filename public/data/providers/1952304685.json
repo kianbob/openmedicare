@@ -1,0 +1,239 @@
+{
+  "name": "Donald Stephens",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Tallmadge",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 412287.97,
+      "total_services": 3680,
+      "total_beneficiaries": 1915,
+      "avg_submitted": 761.82,
+      "avg_paid": 282.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 413863.47,
+      "total_services": 3530,
+      "total_beneficiaries": 1719,
+      "avg_submitted": 523.53,
+      "avg_paid": 188.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 363155.59,
+      "total_services": 3911,
+      "total_beneficiaries": 1770,
+      "avg_submitted": 435.46,
+      "avg_paid": 141.34
+    },
+    {
+      "year": 2017,
+      "total_payments": 373505.76,
+      "total_services": 4214,
+      "total_beneficiaries": 1837,
+      "avg_submitted": 639.25,
+      "avg_paid": 170.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 309059.91,
+      "total_services": 4140,
+      "total_beneficiaries": 1745,
+      "avg_submitted": 430.26,
+      "avg_paid": 136.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 351104.13,
+      "total_services": 4453,
+      "total_beneficiaries": 1892,
+      "avg_submitted": 582.11,
+      "avg_paid": 151.0
+    },
+    {
+      "year": 2020,
+      "total_payments": 326551.36,
+      "total_services": 4240,
+      "total_beneficiaries": 1847,
+      "avg_submitted": 512.09,
+      "avg_paid": 172.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 325211.89,
+      "total_services": 3744,
+      "total_beneficiaries": 1771,
+      "avg_submitted": 496.44,
+      "avg_paid": 140.23
+    },
+    {
+      "year": 2022,
+      "total_payments": 259264.48,
+      "total_services": 3479,
+      "total_beneficiaries": 1428,
+      "avg_submitted": 407.79,
+      "avg_paid": 130.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 263327.17,
+      "total_services": 3268,
+      "total_beneficiaries": 1354,
+      "avg_submitted": 579.26,
+      "avg_paid": 193.39
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 1367,
+      "payments": 1027460.81,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 5726,
+      "payments": 472998.64,
+      "avg_markup": 7.59
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 5498,
+      "payments": 461379.35,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 8779,
+      "payments": 258711.29,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "J3590",
+      "description": "Unclassified biologics",
+      "services": 3724,
+      "payments": 173490.97,
+      "avg_markup": 10.47
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 3094,
+      "payments": 171988.86,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99214",
+      "description": "Established patient outpatient visit, total time 30-39 minutes",
+      "services": 1748,
+      "payments": 156475.21,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "J2778",
+      "description": "Injection, ranibizumab, 0.1 mg",
+      "services": 444,
+      "payments": 104841.2,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 974,
+      "payments": 58527.91,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "67041",
+      "description": "Removal of membrane from the retina",
+      "services": 64,
+      "payments": 53769.56,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 471,
+      "payments": 52490.94,
+      "avg_markup": 2.29
+    },
+    {
+      "code": "67036",
+      "description": "Removal of eye fluid (vitreous) between the lens and retina",
+      "services": 84,
+      "payments": 51361.7,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 1124,
+      "payments": 48600.82,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 117,
+      "payments": 43763.96,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 464,
+      "payments": 33161.84,
+      "avg_markup": 3.06
+    },
+    {
+      "code": "66984",
+      "description": "Removal of cataract with insertion of lens",
+      "services": 88,
+      "payments": 32466.36,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "67042",
+      "description": "Removal of membrane from the retina, pars plana approach",
+      "services": 32,
+      "payments": 30518.45,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "92226",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 1318,
+      "payments": 25655.52,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "67228",
+      "description": "Laser destruction of leaking retinal blood vessels, 1 or more sessions",
+      "services": 58,
+      "payments": 20721.23,
+      "avg_markup": 5.49
+    },
+    {
+      "code": "J3490",
+      "description": "Unclassified drugs",
+      "services": 28,
+      "payments": 18353.7,
+      "avg_markup": 1.31
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3397331.74,
+    "total_services": 38659,
+    "total_beneficiaries": 17278,
+    "avg_markup_ratio": 3.48
+  }
+}

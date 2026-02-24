@@ -1,0 +1,72 @@
+{
+  "name": "Alliance Clinic, Llc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "Minneapolis",
+  "state": "MN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 867356.27,
+      "total_services": 4845,
+      "total_beneficiaries": 193,
+      "avg_submitted": 225.0,
+      "avg_paid": 117.35
+    },
+    {
+      "year": 2021,
+      "total_payments": 646930.31,
+      "total_services": 3585,
+      "total_beneficiaries": 145,
+      "avg_submitted": 225.0,
+      "avg_paid": 120.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 491275.69,
+      "total_services": 2746,
+      "total_beneficiaries": 113,
+      "avg_submitted": 202.92,
+      "avg_paid": 120.08
+    },
+    {
+      "year": 2023,
+      "total_payments": 386942.92,
+      "total_services": 1961,
+      "total_beneficiaries": 144,
+      "avg_submitted": 133.33,
+      "avg_paid": 128.62
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 11250,
+      "payments": 2320219.47,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 1845,
+      "payments": 67505.27,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "G2077",
+      "description": "Periodic assessment; assessing periodically by qualified personnel to determine the most appropriate combination of services and treatment (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for",
+      "services": 42,
+      "payments": 4780.44,
+      "avg_markup": 1.02
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2392505.18,
+    "total_services": 13137,
+    "total_beneficiaries": 595,
+    "avg_markup_ratio": 1.53
+  }
+}

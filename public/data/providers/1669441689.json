@@ -1,0 +1,239 @@
+{
+  "name": "Jung Moon",
+  "credentials": "DPM",
+  "specialty": "Podiatry",
+  "city": "Schaumburg",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 361698.21,
+      "total_services": 8511,
+      "total_beneficiaries": 4334,
+      "avg_submitted": 89.6,
+      "avg_paid": 45.63
+    },
+    {
+      "year": 2015,
+      "total_payments": 200714.78,
+      "total_services": 4103,
+      "total_beneficiaries": 2078,
+      "avg_submitted": 97.37,
+      "avg_paid": 45.81
+    },
+    {
+      "year": 2016,
+      "total_payments": 298262.0,
+      "total_services": 5662,
+      "total_beneficiaries": 3641,
+      "avg_submitted": 120.25,
+      "avg_paid": 59.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 345064.7,
+      "total_services": 6622,
+      "total_beneficiaries": 4409,
+      "avg_submitted": 119.72,
+      "avg_paid": 58.21
+    },
+    {
+      "year": 2018,
+      "total_payments": 312094.97,
+      "total_services": 5970,
+      "total_beneficiaries": 3945,
+      "avg_submitted": 119.41,
+      "avg_paid": 59.28
+    },
+    {
+      "year": 2019,
+      "total_payments": 264033.77,
+      "total_services": 5087,
+      "total_beneficiaries": 3372,
+      "avg_submitted": 120.0,
+      "avg_paid": 58.16
+    },
+    {
+      "year": 2020,
+      "total_payments": 193188.43,
+      "total_services": 3832,
+      "total_beneficiaries": 2421,
+      "avg_submitted": 116.76,
+      "avg_paid": 55.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 187620.03,
+      "total_services": 3529,
+      "total_beneficiaries": 2091,
+      "avg_submitted": 120.88,
+      "avg_paid": 61.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 169636.38,
+      "total_services": 3026,
+      "total_beneficiaries": 2123,
+      "avg_submitted": 122.86,
+      "avg_paid": 58.23
+    },
+    {
+      "year": 2023,
+      "total_payments": 190069.04,
+      "total_services": 3387,
+      "total_beneficiaries": 2430,
+      "avg_submitted": 123.0,
+      "avg_paid": 58.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 22113,
+      "payments": 1242846.8,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 5533,
+      "payments": 399426.41,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 3029,
+      "payments": 319058.86,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1449,
+      "payments": 107054.89,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "29540",
+      "description": "Strapping of ankle and/or foot",
+      "services": 4516,
+      "payments": 84978.08,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "29550",
+      "description": "Strapping of toes",
+      "services": 6286,
+      "payments": 80465.01,
+      "avg_markup": 4.3
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 893,
+      "payments": 67548.75,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 970,
+      "payments": 57813.05,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "11721",
+      "description": "Removal of tissue from 6 or more finger or toe nails",
+      "services": 1979,
+      "payments": 48868.8,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "11730",
+      "description": "Separation of nail plate from nail bed",
+      "services": 501,
+      "payments": 34111.48,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "11056",
+      "description": "Removal of 2 to 4 thickened skin growths",
+      "services": 958,
+      "payments": 24532.35,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 573,
+      "payments": 20551.18,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 100,
+      "payments": 8613.9,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "11055",
+      "description": "Removal of single thickened skin growth",
+      "services": 401,
+      "payments": 6922.39,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 57,
+      "payments": 4961.55,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99325",
+      "description": "New patient assisted living visit, typically 30 minutes",
+      "services": 71,
+      "payments": 4530.95,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "11057",
+      "description": "Removal of more than 4 thickened skin growths",
+      "services": 120,
+      "payments": 4444.16,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 69,
+      "payments": 3425.85,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "20550",
+      "description": "Injections of tendon sheath, ligament, or muscle membrane",
+      "services": 39,
+      "payments": 1325.57,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "11720",
+      "description": "Removal of tissue from 1 to 5 finger or toe nails",
+      "services": 37,
+      "payments": 478.6,
+      "avg_markup": 3.09
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2522382.3,
+    "total_services": 49729,
+    "total_beneficiaries": 30844,
+    "avg_markup_ratio": 2.49
+  }
+}

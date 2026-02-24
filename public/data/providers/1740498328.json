@@ -1,0 +1,239 @@
+{
+  "name": "Shadi Qasqas",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Rancho Cucamonga",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 345008.48,
+      "total_services": 4152,
+      "total_beneficiaries": 2272,
+      "avg_submitted": 270.17,
+      "avg_paid": 112.31
+    },
+    {
+      "year": 2015,
+      "total_payments": 499117.83,
+      "total_services": 5715,
+      "total_beneficiaries": 2676,
+      "avg_submitted": 280.37,
+      "avg_paid": 111.74
+    },
+    {
+      "year": 2016,
+      "total_payments": 428959.06,
+      "total_services": 5005,
+      "total_beneficiaries": 2444,
+      "avg_submitted": 382.96,
+      "avg_paid": 117.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 519811.84,
+      "total_services": 5996,
+      "total_beneficiaries": 3045,
+      "avg_submitted": 340.6,
+      "avg_paid": 113.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 415309.39,
+      "total_services": 5110,
+      "total_beneficiaries": 2576,
+      "avg_submitted": 363.75,
+      "avg_paid": 121.99
+    },
+    {
+      "year": 2019,
+      "total_payments": 509946.77,
+      "total_services": 6402,
+      "total_beneficiaries": 2712,
+      "avg_submitted": 330.76,
+      "avg_paid": 120.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 546050.9,
+      "total_services": 7010,
+      "total_beneficiaries": 2717,
+      "avg_submitted": 472.73,
+      "avg_paid": 113.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 494861.9,
+      "total_services": 5963,
+      "total_beneficiaries": 2638,
+      "avg_submitted": 844.34,
+      "avg_paid": 117.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 479440.6,
+      "total_services": 6198,
+      "total_beneficiaries": 2644,
+      "avg_submitted": 824.38,
+      "avg_paid": 128.64
+    },
+    {
+      "year": 2023,
+      "total_payments": 646542.35,
+      "total_services": 8339,
+      "total_beneficiaries": 3083,
+      "avg_submitted": 698.4,
+      "avg_paid": 100.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 15765,
+      "payments": 1343878.58,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 15479,
+      "payments": 917940.98,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3831,
+      "payments": 594114.2,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 6370,
+      "payments": 478583.6,
+      "avg_markup": 4.59
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4281,
+      "payments": 359838.61,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 2010,
+      "payments": 355560.74,
+      "avg_markup": 5.59
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 230,
+      "payments": 145180.11,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 262,
+      "payments": 113826.63,
+      "avg_markup": 4.8
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 458,
+      "payments": 87643.06,
+      "avg_markup": 5.88
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 701,
+      "payments": 82988.38,
+      "avg_markup": 5.15
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 559,
+      "payments": 65418.38,
+      "avg_markup": 3.92
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 144,
+      "payments": 57821.17,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 4222,
+      "payments": 51135.88,
+      "avg_markup": 6.02
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 434,
+      "payments": 35798.19,
+      "avg_markup": 10.48
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 146,
+      "payments": 22460.35,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 298,
+      "payments": 18154.08,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 288,
+      "payments": 14491.87,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "J2785",
+      "description": "Injection, regadenoson, 0.1 mg",
+      "services": 290,
+      "payments": 12861.87,
+      "avg_markup": 7.6
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 679,
+      "payments": 12139.15,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 87,
+      "payments": 11551.42,
+      "avg_markup": 3.33
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4885049.11,
+    "total_services": 59890,
+    "total_beneficiaries": 26807,
+    "avg_markup_ratio": 4.14
+  }
+}

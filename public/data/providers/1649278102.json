@@ -1,0 +1,132 @@
+{
+  "name": "Empire State Ambulance Corp",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Poughkeepsie",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1495095.13,
+      "total_services": 10427,
+      "total_beneficiaries": 6556,
+      "avg_submitted": 898.72,
+      "avg_paid": 291.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 1294133.98,
+      "total_services": 9508,
+      "total_beneficiaries": 5999,
+      "avg_submitted": 758.2,
+      "avg_paid": 223.8
+    },
+    {
+      "year": 2016,
+      "total_payments": 2519563.69,
+      "total_services": 19457,
+      "total_beneficiaries": 11538,
+      "avg_submitted": 798.4,
+      "avg_paid": 234.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 2781554.66,
+      "total_services": 21478,
+      "total_beneficiaries": 12509,
+      "avg_submitted": 898.67,
+      "avg_paid": 288.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 2342930.83,
+      "total_services": 18256,
+      "total_beneficiaries": 11315,
+      "avg_submitted": 798.16,
+      "avg_paid": 233.04
+    },
+    {
+      "year": 2019,
+      "total_payments": 2249453.23,
+      "total_services": 17015,
+      "total_beneficiaries": 10769,
+      "avg_submitted": 798.5,
+      "avg_paid": 239.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 1753024.22,
+      "total_services": 12753,
+      "total_beneficiaries": 8228,
+      "avg_submitted": 798.44,
+      "avg_paid": 244.46
+    },
+    {
+      "year": 2021,
+      "total_payments": 1177871.69,
+      "total_services": 8407,
+      "total_beneficiaries": 5870,
+      "avg_submitted": 798.5,
+      "avg_paid": 250.06
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 32696,
+      "payments": 6177437.78,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 14492,
+      "payments": 4507887.39,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 10243,
+      "payments": 3732938.23,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "A0432",
+      "description": "Paramedic intercept (pi), rural area, transport furnished by a volunteer ambulance company which is prohibited by state law from billing third party payers",
+      "services": 1611,
+      "payments": 524409.05,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 56860,
+      "payments": 328848.07,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1342,
+      "payments": 306268.99,
+      "avg_markup": 4.77
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 57,
+      "payments": 35837.92,
+      "avg_markup": 2.39
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 15613627.42,
+    "total_services": 117301,
+    "total_beneficiaries": 72784,
+    "avg_markup_ratio": 3.39
+  }
+}

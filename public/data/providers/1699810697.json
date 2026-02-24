@@ -1,0 +1,239 @@
+{
+  "name": "Jay Johnson",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 523849.97,
+      "total_services": 5110,
+      "total_beneficiaries": 3805,
+      "avg_submitted": 447.3,
+      "avg_paid": 110.23
+    },
+    {
+      "year": 2015,
+      "total_payments": 537633.39,
+      "total_services": 5517,
+      "total_beneficiaries": 3993,
+      "avg_submitted": 480.75,
+      "avg_paid": 119.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 435417.74,
+      "total_services": 4609,
+      "total_beneficiaries": 3534,
+      "avg_submitted": 400.98,
+      "avg_paid": 97.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 459885.88,
+      "total_services": 5155,
+      "total_beneficiaries": 3808,
+      "avg_submitted": 444.41,
+      "avg_paid": 107.07
+    },
+    {
+      "year": 2018,
+      "total_payments": 549217.2,
+      "total_services": 5875,
+      "total_beneficiaries": 4263,
+      "avg_submitted": 445.69,
+      "avg_paid": 117.98
+    },
+    {
+      "year": 2019,
+      "total_payments": 559477.31,
+      "total_services": 5972,
+      "total_beneficiaries": 4155,
+      "avg_submitted": 385.74,
+      "avg_paid": 105.39
+    },
+    {
+      "year": 2020,
+      "total_payments": 592766.73,
+      "total_services": 6295,
+      "total_beneficiaries": 4285,
+      "avg_submitted": 447.43,
+      "avg_paid": 116.56
+    },
+    {
+      "year": 2021,
+      "total_payments": 757068.41,
+      "total_services": 7586,
+      "total_beneficiaries": 5047,
+      "avg_submitted": 346.84,
+      "avg_paid": 107.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 713546.26,
+      "total_services": 7202,
+      "total_beneficiaries": 4366,
+      "avg_submitted": 362.9,
+      "avg_paid": 112.58
+    },
+    {
+      "year": 2023,
+      "total_payments": 710085.64,
+      "total_services": 7287,
+      "total_beneficiaries": 4480,
+      "avg_submitted": 375.09,
+      "avg_paid": 100.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11735,
+      "payments": 997371.34,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 2329,
+      "payments": 941897.37,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5615,
+      "payments": 697329.2,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 892,
+      "payments": 641552.57,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 2280,
+      "payments": 223048.46,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1368,
+      "payments": 215356.68,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1746,
+      "payments": 211847.08,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1720,
+      "payments": 211569.61,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3179,
+      "payments": 185244.29,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 913,
+      "payments": 150168.8,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 2250,
+      "payments": 137770.59,
+      "avg_markup": 7.74
+    },
+    {
+      "code": "93224",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 1472,
+      "payments": 100457.57,
+      "avg_markup": 3.66
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 236,
+      "payments": 94500.41,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 420,
+      "payments": 87073.45,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1676,
+      "payments": 86048.37,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 857,
+      "payments": 72470.97,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 257,
+      "payments": 58677.79,
+      "avg_markup": 8.76
+    },
+    {
+      "code": "93460",
+      "description": "Insertion of catheter in right and left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 177,
+      "payments": 52044.12,
+      "avg_markup": 6.8
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 1306,
+      "payments": 48728.66,
+      "avg_markup": 4.82
+    },
+    {
+      "code": "93297",
+      "description": "Remote evaluations of implantable heart monitoring system with physician analysis, review, and report up to 30 days",
+      "services": 2106,
+      "payments": 45070.6,
+      "avg_markup": 4.67
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5838948.53,
+    "total_services": 60608,
+    "total_beneficiaries": 41736,
+    "avg_markup_ratio": 2.96
+  }
+}

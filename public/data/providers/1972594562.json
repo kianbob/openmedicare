@@ -1,0 +1,239 @@
+{
+  "name": "Donald Love",
+  "credentials": "MD",
+  "specialty": "Cardiology",
+  "city": "Framingham",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 230420.41,
+      "total_services": 7904,
+      "total_beneficiaries": 5006,
+      "avg_submitted": 257.48,
+      "avg_paid": 65.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 259902.93,
+      "total_services": 5621,
+      "total_beneficiaries": 4349,
+      "avg_submitted": 351.42,
+      "avg_paid": 79.83
+    },
+    {
+      "year": 2016,
+      "total_payments": 270902.99,
+      "total_services": 6661,
+      "total_beneficiaries": 4557,
+      "avg_submitted": 308.49,
+      "avg_paid": 71.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 267690.96,
+      "total_services": 6533,
+      "total_beneficiaries": 4436,
+      "avg_submitted": 352.95,
+      "avg_paid": 81.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 275768.31,
+      "total_services": 6572,
+      "total_beneficiaries": 4473,
+      "avg_submitted": 278.9,
+      "avg_paid": 68.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 279402.26,
+      "total_services": 6409,
+      "total_beneficiaries": 4400,
+      "avg_submitted": 314.14,
+      "avg_paid": 73.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 289133.03,
+      "total_services": 6772,
+      "total_beneficiaries": 4365,
+      "avg_submitted": 279.4,
+      "avg_paid": 69.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 428430.06,
+      "total_services": 7109,
+      "total_beneficiaries": 4792,
+      "avg_submitted": 719.75,
+      "avg_paid": 186.92
+    },
+    {
+      "year": 2022,
+      "total_payments": 412354.01,
+      "total_services": 6152,
+      "total_beneficiaries": 4151,
+      "avg_submitted": 701.55,
+      "avg_paid": 184.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 418803.78,
+      "total_services": 5653,
+      "total_beneficiaries": 3738,
+      "avg_submitted": 832.82,
+      "avg_paid": 189.23
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 7610,
+      "payments": 678311.68,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "33285",
+      "description": "Insertion of heart rhythm monitor under skin",
+      "services": 97,
+      "payments": 316704.31,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 2155,
+      "payments": 316619.82,
+      "avg_markup": 6.59
+    },
+    {
+      "code": "93280",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead pacemaker system with physician analysis, review, and report",
+      "services": 3328,
+      "payments": 179451.51,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2894,
+      "payments": 165652.79,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 10156,
+      "payments": 134189.2,
+      "avg_markup": 5.97
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 295,
+      "payments": 130290.46,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2103,
+      "payments": 128811.24,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "93296",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker or cardioverter-defibrillator transmissions, technician review, support, and distribution of results up to 90 days",
+      "services": 4199,
+      "payments": 86783.05,
+      "avg_markup": 5.98
+    },
+    {
+      "code": "99215",
+      "description": "Established patient outpatient visit, total time 40-54 minutes",
+      "services": 597,
+      "payments": 83118.11,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 732,
+      "payments": 81699.43,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "93294",
+      "description": "Remote evaluations of single, dual, or multiple lead pacemaker with physician analysis, review, and report up to 90 days",
+      "services": 2911,
+      "payments": 68100.72,
+      "avg_markup": 4.21
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 8092,
+      "payments": 56652.34,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 1626,
+      "payments": 55221.36,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "93298",
+      "description": "Remote evaluations of implantable heart recorder system including physician analysis, review, and report up to 30 days",
+      "services": 2262,
+      "payments": 48374.82,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "93295",
+      "description": "Remote evaluations of single, dual, or multiple lead cardioverter-defibrillator with physician analysis, review, and report up to 90 days",
+      "services": 1315,
+      "payments": 47835.16,
+      "avg_markup": 5.33
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 363,
+      "payments": 47052.4,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 446,
+      "payments": 42279.22,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "93283",
+      "description": "Evaluation, testing, and programming adjustment of permanent dual lead cardioverter-defibrillator including physician analysis, review, and report",
+      "services": 611,
+      "payments": 38263.71,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office or other outpatient visit, typically 5 minutes",
+      "services": 2541,
+      "payments": 36953.42,
+      "avg_markup": 3.56
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3132808.75,
+    "total_services": 65386,
+    "total_beneficiaries": 44267,
+    "avg_markup_ratio": 4.02
+  }
+}

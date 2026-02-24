@@ -1,0 +1,239 @@
+{
+  "name": "Nelson Aweh",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Cambridge",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 240041.47,
+      "total_services": 2412,
+      "total_beneficiaries": 1440,
+      "avg_submitted": 268.86,
+      "avg_paid": 107.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 211602.83,
+      "total_services": 1866,
+      "total_beneficiaries": 1424,
+      "avg_submitted": 253.52,
+      "avg_paid": 96.89
+    },
+    {
+      "year": 2016,
+      "total_payments": 323055.65,
+      "total_services": 2828,
+      "total_beneficiaries": 2073,
+      "avg_submitted": 305.83,
+      "avg_paid": 113.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 250180.12,
+      "total_services": 2788,
+      "total_beneficiaries": 1349,
+      "avg_submitted": 292.62,
+      "avg_paid": 97.32
+    },
+    {
+      "year": 2018,
+      "total_payments": 207023.96,
+      "total_services": 2105,
+      "total_beneficiaries": 1230,
+      "avg_submitted": 311.2,
+      "avg_paid": 113.48
+    },
+    {
+      "year": 2019,
+      "total_payments": 179122.98,
+      "total_services": 1817,
+      "total_beneficiaries": 923,
+      "avg_submitted": 361.18,
+      "avg_paid": 111.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 607922.78,
+      "total_services": 6109,
+      "total_beneficiaries": 2682,
+      "avg_submitted": 365.06,
+      "avg_paid": 116.44
+    },
+    {
+      "year": 2021,
+      "total_payments": 515109.39,
+      "total_services": 5382,
+      "total_beneficiaries": 2497,
+      "avg_submitted": 384.19,
+      "avg_paid": 119.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 286302.23,
+      "total_services": 3156,
+      "total_beneficiaries": 1820,
+      "avg_submitted": 281.15,
+      "avg_paid": 98.94
+    },
+    {
+      "year": 2023,
+      "total_payments": 425323.64,
+      "total_services": 4206,
+      "total_beneficiaries": 1825,
+      "avg_submitted": 289.95,
+      "avg_paid": 117.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 15286,
+      "payments": 1182623.04,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 4897,
+      "payments": 674355.54,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3265,
+      "payments": 533312.63,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 2471,
+      "payments": 279164.69,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2842,
+      "payments": 159281.68,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1058,
+      "payments": 119065.56,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 662,
+      "payments": 57139.77,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 372,
+      "payments": 55935.44,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 370,
+      "payments": 40266.22,
+      "avg_markup": 3.03
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 332,
+      "payments": 36747.93,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 333,
+      "payments": 27288.63,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 205,
+      "payments": 17788.17,
+      "avg_markup": 2.87
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 91,
+      "payments": 16013.67,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 74,
+      "payments": 11055.37,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 142,
+      "payments": 8323.28,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 65,
+      "payments": 6776.6,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99328",
+      "description": "New patient assisted living visit, typically 75 minutes",
+      "services": 35,
+      "payments": 5457.59,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 71,
+      "payments": 5095.43,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 19,
+      "payments": 3358.14,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 38,
+      "payments": 3351.76,
+      "avg_markup": 2.59
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3245685.05,
+    "total_services": 32669,
+    "total_beneficiaries": 17263,
+    "avg_markup_ratio": 2.95
+  }
+}

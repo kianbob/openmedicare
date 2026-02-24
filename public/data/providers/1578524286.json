@@ -1,0 +1,176 @@
+{
+  "name": "John Miller",
+  "credentials": "M.D.",
+  "specialty": "Ophthalmology",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 341449.45,
+      "total_services": 4350,
+      "total_beneficiaries": 1405,
+      "avg_submitted": 639.67,
+      "avg_paid": 179.6
+    },
+    {
+      "year": 2015,
+      "total_payments": 393545.84,
+      "total_services": 4526,
+      "total_beneficiaries": 1409,
+      "avg_submitted": 631.05,
+      "avg_paid": 176.45
+    },
+    {
+      "year": 2016,
+      "total_payments": 426992.2,
+      "total_services": 4805,
+      "total_beneficiaries": 1454,
+      "avg_submitted": 618.33,
+      "avg_paid": 172.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 426115.0,
+      "total_services": 4316,
+      "total_beneficiaries": 1235,
+      "avg_submitted": 532.4,
+      "avg_paid": 154.14
+    },
+    {
+      "year": 2018,
+      "total_payments": 395867.56,
+      "total_services": 4003,
+      "total_beneficiaries": 1155,
+      "avg_submitted": 550.06,
+      "avg_paid": 169.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 414828.79,
+      "total_services": 3983,
+      "total_beneficiaries": 1126,
+      "avg_submitted": 556.64,
+      "avg_paid": 176.1
+    },
+    {
+      "year": 2020,
+      "total_payments": 332696.39,
+      "total_services": 3352,
+      "total_beneficiaries": 1116,
+      "avg_submitted": 494.3,
+      "avg_paid": 158.07
+    },
+    {
+      "year": 2021,
+      "total_payments": 342269.31,
+      "total_services": 2847,
+      "total_beneficiaries": 846,
+      "avg_submitted": 554.89,
+      "avg_paid": 180.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 354977.15,
+      "total_services": 2841,
+      "total_beneficiaries": 877,
+      "avg_submitted": 488.2,
+      "avg_paid": 160.92
+    },
+    {
+      "year": 2023,
+      "total_payments": 293885.73,
+      "total_services": 2508,
+      "total_beneficiaries": 801,
+      "avg_submitted": 546.38,
+      "avg_paid": 168.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 2277,
+      "payments": 1661042.0,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 11792,
+      "payments": 890202.33,
+      "avg_markup": 11.6
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 6918,
+      "payments": 371407.5,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 8842,
+      "payments": 262297.09,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 3597,
+      "payments": 212946.74,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "J7999",
+      "description": "Compounded drug, not otherwise classified",
+      "services": 2477,
+      "payments": 168824.17,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 1388,
+      "payments": 117103.01,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "67210",
+      "description": "Laser destruction of retinal growth, 1 or more sessions",
+      "services": 66,
+      "payments": 24259.24,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 101,
+      "payments": 7520.4,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 57,
+      "payments": 5883.88,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, 20-29 minutes",
+      "services": 16,
+      "payments": 1141.04,
+      "avg_markup": 1.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3722627.4,
+    "total_services": 37531,
+    "total_beneficiaries": 11424,
+    "avg_markup_ratio": 4.73
+  }
+}

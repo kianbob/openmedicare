@@ -1,0 +1,232 @@
+{
+  "name": "Giao Duong",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Houston",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 388678.02,
+      "total_services": 4457,
+      "total_beneficiaries": 1320,
+      "avg_submitted": 161.11,
+      "avg_paid": 108.63
+    },
+    {
+      "year": 2015,
+      "total_payments": 488790.01,
+      "total_services": 5527,
+      "total_beneficiaries": 1081,
+      "avg_submitted": 149.09,
+      "avg_paid": 97.19
+    },
+    {
+      "year": 2016,
+      "total_payments": 409661.41,
+      "total_services": 5118,
+      "total_beneficiaries": 892,
+      "avg_submitted": 148.64,
+      "avg_paid": 97.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 490156.43,
+      "total_services": 6227,
+      "total_beneficiaries": 998,
+      "avg_submitted": 158.7,
+      "avg_paid": 103.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 301687.28,
+      "total_services": 3939,
+      "total_beneficiaries": 781,
+      "avg_submitted": 158.06,
+      "avg_paid": 99.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 333697.02,
+      "total_services": 4197,
+      "total_beneficiaries": 1013,
+      "avg_submitted": 159.92,
+      "avg_paid": 104.29
+    },
+    {
+      "year": 2020,
+      "total_payments": 199047.24,
+      "total_services": 2485,
+      "total_beneficiaries": 786,
+      "avg_submitted": 161.09,
+      "avg_paid": 100.34
+    },
+    {
+      "year": 2021,
+      "total_payments": 109755.24,
+      "total_services": 1221,
+      "total_beneficiaries": 522,
+      "avg_submitted": 193.42,
+      "avg_paid": 106.93
+    },
+    {
+      "year": 2022,
+      "total_payments": 120101.14,
+      "total_services": 1356,
+      "total_beneficiaries": 559,
+      "avg_submitted": 225.48,
+      "avg_paid": 102.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 144699.22,
+      "total_services": 1647,
+      "total_beneficiaries": 446,
+      "avg_submitted": 195.75,
+      "avg_paid": 87.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 17956,
+      "payments": 1295938.9,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4110,
+      "payments": 340078.36,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 5766,
+      "payments": 331668.06,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2013,
+      "payments": 319306.73,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1497,
+      "payments": 264611.16,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2085,
+      "payments": 177677.47,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 534,
+      "payments": 70830.49,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 615,
+      "payments": 65600.1,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 825,
+      "payments": 44605.42,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient visit, 30-39 minutes",
+      "services": 223,
+      "payments": 21691.84,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 142,
+      "payments": 20512.72,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 164,
+      "payments": 13608.43,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 37,
+      "payments": 6269.14,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 98,
+      "payments": 5644.59,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 32,
+      "payments": 3172.65,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 22,
+      "payments": 2977.66,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care per day, typically 50 minutes",
+      "services": 12,
+      "payments": 1245.09,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 12,
+      "payments": 512.8,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "93000",
+      "description": "Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report",
+      "services": 31,
+      "payments": 321.41,
+      "avg_markup": 4.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2986273.01,
+    "total_services": 36174,
+    "total_beneficiaries": 8398,
+    "avg_markup_ratio": 1.61
+  }
+}

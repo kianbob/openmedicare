@@ -1,0 +1,141 @@
+{
+  "name": "Rex Hospital, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Raleigh",
+  "state": "NC",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 360601.57,
+      "total_services": 3526,
+      "total_beneficiaries": 3027,
+      "avg_submitted": 557.1,
+      "avg_paid": 279.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 382884.07,
+      "total_services": 3530,
+      "total_beneficiaries": 3005,
+      "avg_submitted": 600.58,
+      "avg_paid": 285.93
+    },
+    {
+      "year": 2016,
+      "total_payments": 509224.29,
+      "total_services": 4523,
+      "total_beneficiaries": 3718,
+      "avg_submitted": 603.75,
+      "avg_paid": 284.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 547572.1,
+      "total_services": 5044,
+      "total_beneficiaries": 4158,
+      "avg_submitted": 603.59,
+      "avg_paid": 287.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 547415.05,
+      "total_services": 4816,
+      "total_beneficiaries": 4064,
+      "avg_submitted": 603.59,
+      "avg_paid": 288.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 667154.39,
+      "total_services": 5058,
+      "total_beneficiaries": 4242,
+      "avg_submitted": 602.06,
+      "avg_paid": 289.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 589089.82,
+      "total_services": 4535,
+      "total_beneficiaries": 3808,
+      "avg_submitted": 603.48,
+      "avg_paid": 303.37
+    },
+    {
+      "year": 2021,
+      "total_payments": 561700.43,
+      "total_services": 4131,
+      "total_beneficiaries": 3452,
+      "avg_submitted": 603.63,
+      "avg_paid": 305.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 680594.26,
+      "total_services": 4625,
+      "total_beneficiaries": 3881,
+      "avg_submitted": 610.01,
+      "avg_paid": 314.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 638391.56,
+      "total_services": 4236,
+      "total_beneficiaries": 3651,
+      "avg_submitted": 659.18,
+      "avg_paid": 340.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12957,
+      "payments": 2270673.25,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 2430,
+      "payments": 1437236.99,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 5386,
+      "payments": 1152874.02,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 533,
+      "payments": 252703.73,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 707,
+      "payments": 228890.53,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 22011,
+      "payments": 142249.04,
+      "avg_markup": 1.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5484627.55,
+    "total_services": 44024,
+    "total_beneficiaries": 37006,
+    "avg_markup_ratio": 2.12
+  }
+}

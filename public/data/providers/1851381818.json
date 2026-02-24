@@ -1,0 +1,239 @@
+{
+  "name": "Sandford Schocket",
+  "credentials": "M.D.",
+  "specialty": "Pain Management",
+  "city": "Austin",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 772146.06,
+      "total_services": 20268,
+      "total_beneficiaries": 9954,
+      "avg_submitted": 750.1,
+      "avg_paid": 74.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 601076.72,
+      "total_services": 13225,
+      "total_beneficiaries": 7747,
+      "avg_submitted": 725.9,
+      "avg_paid": 96.91
+    },
+    {
+      "year": 2016,
+      "total_payments": 709856.08,
+      "total_services": 7316,
+      "total_beneficiaries": 3593,
+      "avg_submitted": 1150.04,
+      "avg_paid": 75.41
+    },
+    {
+      "year": 2017,
+      "total_payments": 449555.68,
+      "total_services": 5134,
+      "total_beneficiaries": 2952,
+      "avg_submitted": 1167.28,
+      "avg_paid": 89.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 255683.39,
+      "total_services": 2856,
+      "total_beneficiaries": 2002,
+      "avg_submitted": 1135.73,
+      "avg_paid": 95.71
+    },
+    {
+      "year": 2019,
+      "total_payments": 98409.95,
+      "total_services": 993,
+      "total_beneficiaries": 741,
+      "avg_submitted": 1099.43,
+      "avg_paid": 119.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 182579.01,
+      "total_services": 1848,
+      "total_beneficiaries": 1584,
+      "avg_submitted": 1064.54,
+      "avg_paid": 119.5
+    },
+    {
+      "year": 2021,
+      "total_payments": 154086.38,
+      "total_services": 1206,
+      "total_beneficiaries": 1010,
+      "avg_submitted": 1170.95,
+      "avg_paid": 141.13
+    },
+    {
+      "year": 2022,
+      "total_payments": 65135.3,
+      "total_services": 569,
+      "total_beneficiaries": 478,
+      "avg_submitted": 1117.11,
+      "avg_paid": 124.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 57187.75,
+      "total_services": 606,
+      "total_beneficiaries": 502,
+      "avg_submitted": 779.69,
+      "avg_paid": 104.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6857,
+      "payments": 549476.06,
+      "avg_markup": 4.95
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test def 22+ classes",
+      "services": 2201,
+      "payments": 483323.49,
+      "avg_markup": 5.92
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6176,
+      "payments": 332546.02,
+      "avg_markup": 5.05
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 2350,
+      "payments": 172618.09,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms (an",
+      "services": 758,
+      "payments": 147172.18,
+      "avg_markup": 6.7
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 2078,
+      "payments": 129923.67,
+      "avg_markup": 9.59
+    },
+    {
+      "code": "64635",
+      "description": "Destruction of lower or sacral spinal facet joint nerves using imaging guidance",
+      "services": 538,
+      "payments": 128546.98,
+      "avg_markup": 7.91
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms (an",
+      "services": 727,
+      "payments": 110770.62,
+      "avg_markup": 8.53
+    },
+    {
+      "code": "64493",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 716,
+      "payments": 93661.87,
+      "avg_markup": 10.75
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1547,
+      "payments": 91707.39,
+      "avg_markup": 10.12
+    },
+    {
+      "code": "64483",
+      "description": "Injections of anesthetic and/or steroid drug into lower or sacral spine nerve root using imaging guidance",
+      "services": 611,
+      "payments": 90176.53,
+      "avg_markup": 11.53
+    },
+    {
+      "code": "63650",
+      "description": "Implantation of spinal neurostimulator electrodes, accessed through the skin",
+      "services": 278,
+      "payments": 76014.98,
+      "avg_markup": 11.95
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 875,
+      "payments": 68697.18,
+      "avg_markup": 6.01
+    },
+    {
+      "code": "64490",
+      "description": "Injections of upper or middle spine facet joint using imaging guidance",
+      "services": 336,
+      "payments": 51793.11,
+      "avg_markup": 10.08
+    },
+    {
+      "code": "64494",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 709,
+      "payments": 50031.53,
+      "avg_markup": 9.25
+    },
+    {
+      "code": "64633",
+      "description": "Destruction of upper or middle spinal facet joint nerves using imaging guidance",
+      "services": 176,
+      "payments": 44368.82,
+      "avg_markup": 7.48
+    },
+    {
+      "code": "64636",
+      "description": "Destruction of lower or sacral spinal facet joint nerves with imaging guidance",
+      "services": 539,
+      "payments": 42787.67,
+      "avg_markup": 14.29
+    },
+    {
+      "code": "64495",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 585,
+      "payments": 42619.94,
+      "avg_markup": 9.76
+    },
+    {
+      "code": "63685",
+      "description": "Insertion of spinal neurostimulator pulse generator or receiver",
+      "services": 259,
+      "payments": 38521.22,
+      "avg_markup": 24.46
+    },
+    {
+      "code": "83925",
+      "description": "Opiates (drug) measurement",
+      "services": 1233,
+      "payments": 31809.57,
+      "avg_markup": 3.88
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3345716.32,
+    "total_services": 54021,
+    "total_beneficiaries": 30563,
+    "avg_markup_ratio": 7.62
+  }
+}

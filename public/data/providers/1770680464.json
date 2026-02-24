@@ -1,0 +1,239 @@
+{
+  "name": "Mark Shif",
+  "credentials": "M.D.",
+  "specialty": "Psychiatry",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 452765.88,
+      "total_services": 7835,
+      "total_beneficiaries": 4126,
+      "avg_submitted": 191.31,
+      "avg_paid": 65.89
+    },
+    {
+      "year": 2015,
+      "total_payments": 366753.78,
+      "total_services": 5165,
+      "total_beneficiaries": 3619,
+      "avg_submitted": 196.96,
+      "avg_paid": 65.68
+    },
+    {
+      "year": 2016,
+      "total_payments": 271191.28,
+      "total_services": 3732,
+      "total_beneficiaries": 2542,
+      "avg_submitted": 145.77,
+      "avg_paid": 67.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 329800.98,
+      "total_services": 4604,
+      "total_beneficiaries": 3453,
+      "avg_submitted": 109.27,
+      "avg_paid": 78.95
+    },
+    {
+      "year": 2018,
+      "total_payments": 391644.78,
+      "total_services": 5376,
+      "total_beneficiaries": 4483,
+      "avg_submitted": 120.72,
+      "avg_paid": 91.05
+    },
+    {
+      "year": 2019,
+      "total_payments": 417301.89,
+      "total_services": 4320,
+      "total_beneficiaries": 3481,
+      "avg_submitted": 144.89,
+      "avg_paid": 106.28
+    },
+    {
+      "year": 2020,
+      "total_payments": 330621.86,
+      "total_services": 3425,
+      "total_beneficiaries": 2502,
+      "avg_submitted": 135.23,
+      "avg_paid": 98.91
+    },
+    {
+      "year": 2021,
+      "total_payments": 428591.18,
+      "total_services": 4088,
+      "total_beneficiaries": 2963,
+      "avg_submitted": 153.57,
+      "avg_paid": 105.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 404792.15,
+      "total_services": 3743,
+      "total_beneficiaries": 2686,
+      "avg_submitted": 165.35,
+      "avg_paid": 103.39
+    },
+    {
+      "year": 2023,
+      "total_payments": 389122.76,
+      "total_services": 3735,
+      "total_beneficiaries": 2678,
+      "avg_submitted": 148.74,
+      "avg_paid": 87.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 6116,
+      "payments": 715901.71,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "90833",
+      "description": "Psychotherapy, 30 minutes with patient and/or family member",
+      "services": 10097,
+      "payments": 596618.16,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99483",
+      "description": "Assessment of and care planning for patient with impaired thought processing, typically 50 minutes",
+      "services": 2228,
+      "payments": 527979.35,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "96130",
+      "description": "Psychological testing evaluation by qualified health care professional, first 60 minutes",
+      "services": 3747,
+      "payments": 397009.36,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "96101",
+      "description": "Psychological testing with interpretation and report by psychologist or physician per hour",
+      "services": 4218,
+      "payments": 290618.81,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2825,
+      "payments": 230154.25,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3030,
+      "payments": 204869.58,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 2973,
+      "payments": 181934.94,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "90846",
+      "description": "Family psychotherapy",
+      "services": 1547,
+      "payments": 133499.4,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1025,
+      "payments": 127032.14,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "90847",
+      "description": "Family psychotherapy including patient",
+      "services": 840,
+      "payments": 78135.55,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 453,
+      "payments": 76640.04,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "90785",
+      "description": "Interactive complexity",
+      "services": 4373,
+      "payments": 54661.38,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "96116",
+      "description": "Neurobehavioral status examination, interpretation, and report by psychologist or physician per hour",
+      "services": 446,
+      "payments": 34651.32,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 416,
+      "payments": 28357.07,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "G0505",
+      "description": "Cognition and functional assessment using standardized instruments with development of recorded care plan for the patient with cognitive impairment, history obtained from patient and/or caregiver, in office or other outpatient setting or home or domiciliar",
+      "services": 133,
+      "payments": 21033.95,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99349",
+      "description": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",
+      "services": 168,
+      "payments": 19473.08,
+      "avg_markup": 1.66
+    },
+    {
+      "code": "90853",
+      "description": "Group psychotherapy",
+      "services": 743,
+      "payments": 16914.96,
+      "avg_markup": 4.48
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 364,
+      "payments": 14416.06,
+      "avg_markup": 3.39
+    },
+    {
+      "code": "99344",
+      "description": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",
+      "services": 89,
+      "payments": 10348.8,
+      "avg_markup": 1.29
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3782586.54,
+    "total_services": 46023,
+    "total_beneficiaries": 32533,
+    "avg_markup_ratio": 1.82
+  }
+}

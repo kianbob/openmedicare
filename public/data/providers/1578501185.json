@@ -1,0 +1,239 @@
+{
+  "name": "Brian Gelbman",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 248488.95,
+      "total_services": 5408,
+      "total_beneficiaries": 3696,
+      "avg_submitted": 66.53,
+      "avg_paid": 49.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 266573.06,
+      "total_services": 5900,
+      "total_beneficiaries": 4162,
+      "avg_submitted": 69.78,
+      "avg_paid": 52.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 291468.68,
+      "total_services": 6606,
+      "total_beneficiaries": 4484,
+      "avg_submitted": 63.95,
+      "avg_paid": 46.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 318601.91,
+      "total_services": 7063,
+      "total_beneficiaries": 4819,
+      "avg_submitted": 64.44,
+      "avg_paid": 49.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 313454.69,
+      "total_services": 6570,
+      "total_beneficiaries": 4444,
+      "avg_submitted": 64.95,
+      "avg_paid": 50.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 381824.91,
+      "total_services": 6873,
+      "total_beneficiaries": 4918,
+      "avg_submitted": 68.52,
+      "avg_paid": 50.37
+    },
+    {
+      "year": 2020,
+      "total_payments": 264542.58,
+      "total_services": 5202,
+      "total_beneficiaries": 4009,
+      "avg_submitted": 84.08,
+      "avg_paid": 58.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 440830.19,
+      "total_services": 8771,
+      "total_beneficiaries": 5999,
+      "avg_submitted": 102.65,
+      "avg_paid": 62.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 404400.63,
+      "total_services": 8622,
+      "total_beneficiaries": 5940,
+      "avg_submitted": 86.28,
+      "avg_paid": 55.88
+    },
+    {
+      "year": 2023,
+      "total_payments": 412788.73,
+      "total_services": 8781,
+      "total_beneficiaries": 6405,
+      "avg_submitted": 71.83,
+      "avg_paid": 48.5
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 10729,
+      "payments": 1310650.78,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1626,
+      "payments": 214543.04,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 3989,
+      "payments": 194849.4,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 4024,
+      "payments": 189308.79,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 3999,
+      "payments": 151192.0,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "87633",
+      "description": "Detection test for multiple types of respiratory virus",
+      "services": 311,
+      "payments": 141213.28,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 1185,
+      "payments": 122466.5,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "83880",
+      "description": "Natriuretic peptide (heart and blood vessel protein) level",
+      "services": 2950,
+      "payments": 118909.8,
+      "avg_markup": 1.19
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1373,
+      "payments": 82236.94,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 5910,
+      "payments": 68406.33,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "0202U",
+      "description": "Nfct ds 22 trgt sars-cov-2",
+      "services": 190,
+      "payments": 67015.66,
+      "avg_markup": 1.55
+    },
+    {
+      "code": "71046",
+      "description": "X-ray of chest, 2 views",
+      "services": 2213,
+      "payments": 61761.65,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 444,
+      "payments": 38077.23,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 221,
+      "payments": 36175.13,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "86141",
+      "description": "Measurement C-reactive protein for detection of infection or inflammation",
+      "services": 2565,
+      "payments": 35038.13,
+      "avg_markup": 1.3
+    },
+    {
+      "code": "82785",
+      "description": "IgE (immune system protein) level",
+      "services": 1971,
+      "payments": 34856.83,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 294,
+      "payments": 34183.52,
+      "avg_markup": 1.33
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 127,
+      "payments": 32824.57,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "71020",
+      "description": "X-ray of chest, 2 views, front and side",
+      "services": 1306,
+      "payments": 31246.39,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 1680,
+      "payments": 31225.06,
+      "avg_markup": 1.24
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3342974.32,
+    "total_services": 69796,
+    "total_beneficiaries": 48876,
+    "avg_markup_ratio": 1.43
+  }
+}

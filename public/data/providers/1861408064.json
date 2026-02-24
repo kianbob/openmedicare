@@ -1,0 +1,141 @@
+{
+  "name": "Collins Fitzpatrick",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Hinsdale",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 456820.68,
+      "total_services": 6085,
+      "total_beneficiaries": 1089,
+      "avg_submitted": 307.34,
+      "avg_paid": 96.69
+    },
+    {
+      "year": 2015,
+      "total_payments": 414782.46,
+      "total_services": 5623,
+      "total_beneficiaries": 854,
+      "avg_submitted": 318.33,
+      "avg_paid": 97.77
+    },
+    {
+      "year": 2016,
+      "total_payments": 435501.67,
+      "total_services": 6235,
+      "total_beneficiaries": 722,
+      "avg_submitted": 329.7,
+      "avg_paid": 102.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 408842.05,
+      "total_services": 6013,
+      "total_beneficiaries": 689,
+      "avg_submitted": 342.51,
+      "avg_paid": 100.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 410561.71,
+      "total_services": 5967,
+      "total_beneficiaries": 639,
+      "avg_submitted": 357.8,
+      "avg_paid": 101.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 377287.72,
+      "total_services": 5452,
+      "total_beneficiaries": 568,
+      "avg_submitted": 374.09,
+      "avg_paid": 103.72
+    },
+    {
+      "year": 2020,
+      "total_payments": 441078.37,
+      "total_services": 6220,
+      "total_beneficiaries": 558,
+      "avg_submitted": 385.78,
+      "avg_paid": 105.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 306564.63,
+      "total_services": 4644,
+      "total_beneficiaries": 398,
+      "avg_submitted": 384.22,
+      "avg_paid": 101.8
+    },
+    {
+      "year": 2022,
+      "total_payments": 276501.3,
+      "total_services": 4249,
+      "total_beneficiaries": 356,
+      "avg_submitted": 215.32,
+      "avg_paid": 104.65
+    },
+    {
+      "year": 2023,
+      "total_payments": 280251.29,
+      "total_services": 3994,
+      "total_beneficiaries": 396,
+      "avg_submitted": 243.21,
+      "avg_paid": 107.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 43220,
+      "payments": 2657820.59,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8345,
+      "payments": 733477.0,
+      "avg_markup": 3.37
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1881,
+      "payments": 320388.63,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 823,
+      "payments": 73665.67,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital care with straightforward or low-level medical decision making, if using time, at least 55 minutes",
+      "services": 184,
+      "payments": 20589.6,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99356",
+      "description": "Prolonged inpatient or observation hospital service first hour",
+      "services": 29,
+      "payments": 2250.39,
+      "avg_markup": 4.1
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3808191.88,
+    "total_services": 54482,
+    "total_beneficiaries": 6269,
+    "avg_markup_ratio": 3.32
+  }
+}

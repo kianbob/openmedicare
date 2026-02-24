@@ -1,0 +1,123 @@
+{
+  "name": "Geeta Bisht",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Bakersfield",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 640762.93,
+      "total_services": 8148,
+      "total_beneficiaries": 4095,
+      "avg_submitted": 170.0,
+      "avg_paid": 91.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 764319.49,
+      "total_services": 9679,
+      "total_beneficiaries": 4805,
+      "avg_submitted": 170.08,
+      "avg_paid": 92.76
+    },
+    {
+      "year": 2016,
+      "total_payments": 707738.93,
+      "total_services": 8727,
+      "total_beneficiaries": 4766,
+      "avg_submitted": 170.03,
+      "avg_paid": 91.9
+    },
+    {
+      "year": 2017,
+      "total_payments": 763092.67,
+      "total_services": 9585,
+      "total_beneficiaries": 5358,
+      "avg_submitted": 180.06,
+      "avg_paid": 88.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 812448.94,
+      "total_services": 10234,
+      "total_beneficiaries": 5782,
+      "avg_submitted": 170.02,
+      "avg_paid": 91.31
+    },
+    {
+      "year": 2019,
+      "total_payments": 9172.36,
+      "total_services": 146,
+      "total_beneficiaries": 81,
+      "avg_submitted": 141.67,
+      "avg_paid": 76.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 21813,
+      "payments": 1248117.51,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 6572,
+      "payments": 1049876.12,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 7962,
+      "payments": 459536.74,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 3887,
+      "payments": 418232.35,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4815,
+      "payments": 395637.28,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1322,
+      "payments": 113027.65,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 123,
+      "payments": 11146.92,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 25,
+      "payments": 1960.75,
+      "avg_markup": 3.19
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3697535.32,
+    "total_services": 46519,
+    "total_beneficiaries": 24887,
+    "avg_markup_ratio": 1.76
+  }
+}

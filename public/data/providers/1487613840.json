@@ -1,0 +1,239 @@
+{
+  "name": "Benedict Okwara",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Monroe",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 322637.8,
+      "total_services": 9203,
+      "total_beneficiaries": 6863,
+      "avg_submitted": 111.31,
+      "avg_paid": 42.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 537388.65,
+      "total_services": 13550,
+      "total_beneficiaries": 9369,
+      "avg_submitted": 107.05,
+      "avg_paid": 41.62
+    },
+    {
+      "year": 2016,
+      "total_payments": 735000.27,
+      "total_services": 19299,
+      "total_beneficiaries": 13457,
+      "avg_submitted": 101.49,
+      "avg_paid": 39.76
+    },
+    {
+      "year": 2017,
+      "total_payments": 462400.17,
+      "total_services": 12120,
+      "total_beneficiaries": 9344,
+      "avg_submitted": 119.76,
+      "avg_paid": 43.74
+    },
+    {
+      "year": 2018,
+      "total_payments": 304565.67,
+      "total_services": 8081,
+      "total_beneficiaries": 4943,
+      "avg_submitted": 130.22,
+      "avg_paid": 47.93
+    },
+    {
+      "year": 2019,
+      "total_payments": 332527.22,
+      "total_services": 9062,
+      "total_beneficiaries": 5693,
+      "avg_submitted": 127.79,
+      "avg_paid": 47.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 516328.27,
+      "total_services": 13777,
+      "total_beneficiaries": 7315,
+      "avg_submitted": 124.15,
+      "avg_paid": 44.29
+    },
+    {
+      "year": 2021,
+      "total_payments": 333591.89,
+      "total_services": 8669,
+      "total_beneficiaries": 5364,
+      "avg_submitted": 127.07,
+      "avg_paid": 42.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 300757.29,
+      "total_services": 8074,
+      "total_beneficiaries": 4294,
+      "avg_submitted": 143.32,
+      "avg_paid": 45.29
+    },
+    {
+      "year": 2023,
+      "total_payments": 270857.96,
+      "total_services": 7458,
+      "total_beneficiaries": 3932,
+      "avg_submitted": 146.95,
+      "avg_paid": 41.96
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9741,
+      "payments": 721029.56,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services at least 20 minutes per calendar month",
+      "services": 10042,
+      "payments": 344041.95,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3607,
+      "payments": 189271.68,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 1201,
+      "payments": 172088.92,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 4044,
+      "payments": 146687.02,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 3202,
+      "payments": 134397.97,
+      "avg_markup": 3.29
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 1162,
+      "payments": 126542.03,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1003,
+      "payments": 115544.33,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 815,
+      "payments": 110266.77,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1653,
+      "payments": 107436.61,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 821,
+      "payments": 105331.9,
+      "avg_markup": 2.55
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 1152,
+      "payments": 88636.65,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "95921",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 1207,
+      "payments": 75951.61,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 777,
+      "payments": 73889.93,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 462,
+      "payments": 72554.03,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 1055,
+      "payments": 69900.6,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 648,
+      "payments": 64229.98,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "93975",
+      "description": "Ultrasound scan of abdominal, pelvic, and/or scrotal arterial inflow and venous outflow",
+      "services": 339,
+      "payments": 61776.72,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "83013",
+      "description": "Breath test analysis for helicobacter pylori",
+      "services": 750,
+      "payments": 60827.43,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 668,
+      "payments": 53877.88,
+      "avg_markup": 3.13
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4116055.18,
+    "total_services": 109293,
+    "total_beneficiaries": 70574,
+    "avg_markup_ratio": 2.82
+  }
+}

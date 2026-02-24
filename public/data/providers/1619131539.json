@@ -1,0 +1,148 @@
+{
+  "name": "Jason Grunes",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Braintree",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 282844.97,
+      "total_services": 3902,
+      "total_beneficiaries": 1431,
+      "avg_submitted": 300.0,
+      "avg_paid": 90.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 254954.25,
+      "total_services": 3488,
+      "total_beneficiaries": 1293,
+      "avg_submitted": 303.35,
+      "avg_paid": 94.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 351474.03,
+      "total_services": 4863,
+      "total_beneficiaries": 1546,
+      "avg_submitted": 249.17,
+      "avg_paid": 94.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 376190.59,
+      "total_services": 5002,
+      "total_beneficiaries": 1640,
+      "avg_submitted": 167.94,
+      "avg_paid": 92.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 404288.59,
+      "total_services": 5377,
+      "total_beneficiaries": 1745,
+      "avg_submitted": 167.5,
+      "avg_paid": 92.94
+    },
+    {
+      "year": 2019,
+      "total_payments": 383101.12,
+      "total_services": 4894,
+      "total_beneficiaries": 1691,
+      "avg_submitted": 193.27,
+      "avg_paid": 106.46
+    },
+    {
+      "year": 2020,
+      "total_payments": 362175.21,
+      "total_services": 4500,
+      "total_beneficiaries": 1656,
+      "avg_submitted": 277.17,
+      "avg_paid": 108.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 383094.14,
+      "total_services": 4810,
+      "total_beneficiaries": 1653,
+      "avg_submitted": 274.25,
+      "avg_paid": 107.06
+    },
+    {
+      "year": 2022,
+      "total_payments": 461545.84,
+      "total_services": 5856,
+      "total_beneficiaries": 1969,
+      "avg_submitted": 275.79,
+      "avg_paid": 104.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 357482.94,
+      "total_services": 3940,
+      "total_beneficiaries": 1971,
+      "avg_submitted": 267.22,
+      "avg_paid": 103.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 31211,
+      "payments": 1905757.6,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4250,
+      "payments": 706804.15,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5803,
+      "payments": 520713.43,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4404,
+      "payments": 404891.5,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 408,
+      "payments": 47303.19,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 501,
+      "payments": 29871.36,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 55,
+      "payments": 1810.43,
+      "avg_markup": 3.04
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3617151.66,
+    "total_services": 46632,
+    "total_beneficiaries": 16595,
+    "avg_markup_ratio": 2.5
+  }
+}

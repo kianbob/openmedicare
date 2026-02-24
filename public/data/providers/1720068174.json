@@ -1,0 +1,239 @@
+{
+  "name": "Loc Trieu",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Dallas",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 114100.2,
+      "total_services": 1810,
+      "total_beneficiaries": 645,
+      "avg_submitted": 134.33,
+      "avg_paid": 72.1
+    },
+    {
+      "year": 2015,
+      "total_payments": 182317.35,
+      "total_services": 2876,
+      "total_beneficiaries": 921,
+      "avg_submitted": 135.61,
+      "avg_paid": 65.64
+    },
+    {
+      "year": 2016,
+      "total_payments": 138994.73,
+      "total_services": 2120,
+      "total_beneficiaries": 694,
+      "avg_submitted": 135.24,
+      "avg_paid": 70.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 284729.0,
+      "total_services": 4150,
+      "total_beneficiaries": 1314,
+      "avg_submitted": 145.39,
+      "avg_paid": 74.0
+    },
+    {
+      "year": 2018,
+      "total_payments": 350322.95,
+      "total_services": 4826,
+      "total_beneficiaries": 1793,
+      "avg_submitted": 164.75,
+      "avg_paid": 73.17
+    },
+    {
+      "year": 2019,
+      "total_payments": 326307.1,
+      "total_services": 4152,
+      "total_beneficiaries": 1765,
+      "avg_submitted": 153.67,
+      "avg_paid": 72.25
+    },
+    {
+      "year": 2020,
+      "total_payments": 396376.66,
+      "total_services": 5137,
+      "total_beneficiaries": 2174,
+      "avg_submitted": 163.12,
+      "avg_paid": 74.89
+    },
+    {
+      "year": 2021,
+      "total_payments": 345870.5,
+      "total_services": 4573,
+      "total_beneficiaries": 1583,
+      "avg_submitted": 156.31,
+      "avg_paid": 69.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 237676.52,
+      "total_services": 3417,
+      "total_beneficiaries": 1151,
+      "avg_submitted": 150.83,
+      "avg_paid": 69.61
+    },
+    {
+      "year": 2023,
+      "total_payments": 299359.78,
+      "total_services": 4020,
+      "total_beneficiaries": 1270,
+      "avg_submitted": 138.43,
+      "avg_paid": 66.2
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 11837,
+      "payments": 818674.91,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5129,
+      "payments": 413552.53,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6744,
+      "payments": 353170.42,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2164,
+      "payments": 310921.03,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3548,
+      "payments": 197640.18,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1191,
+      "payments": 151724.3,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 835,
+      "payments": 81983.75,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 958,
+      "payments": 64759.43,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 529,
+      "payments": 54040.3,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 587,
+      "payments": 43360.56,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 406,
+      "payments": 37420.5,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 293,
+      "payments": 29761.77,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 551,
+      "payments": 29074.25,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 192,
+      "payments": 19059.92,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99326",
+      "description": "New patient assisted living visit, typically 45 minutes",
+      "services": 122,
+      "payments": 12755.12,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 394,
+      "payments": 12599.56,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial implem",
+      "services": 267,
+      "payments": 10586.82,
+      "avg_markup": 3.78
+    },
+    {
+      "code": "99337",
+      "description": "Established patient assisted living visit, typically 60 minutes",
+      "services": 50,
+      "payments": 7357.85,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 143,
+      "payments": 6276.65,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 43,
+      "payments": 4893.51,
+      "avg_markup": 1.69
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2676054.79,
+    "total_services": 37081,
+    "total_beneficiaries": 13310,
+    "avg_markup_ratio": 2.04
+  }
+}

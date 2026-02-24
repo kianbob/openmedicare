@@ -1,0 +1,183 @@
+{
+  "name": "Precheck Health Services Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Miami",
+  "state": "FL",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2021,
+      "total_payments": 795767.45,
+      "total_services": 19895,
+      "total_beneficiaries": 16545,
+      "avg_submitted": 80.6,
+      "avg_paid": 26.91
+    },
+    {
+      "year": 2022,
+      "total_payments": 701094.11,
+      "total_services": 17048,
+      "total_beneficiaries": 10457,
+      "avg_submitted": 123.33,
+      "avg_paid": 40.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 1773801.76,
+      "total_services": 6089,
+      "total_beneficiaries": 5318,
+      "avg_submitted": 540.06,
+      "avg_paid": 515.05
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 13253,
+      "payments": 987865.58,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 13184,
+      "payments": 327574.5,
+      "avg_markup": 3.02
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 12622,
+      "payments": 294279.95,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "81351",
+      "description": "Gene analysis (tumor protein 53) full sequence analysis",
+      "services": 229,
+      "payments": 144043.29,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "81440",
+      "description": "Test for detecting genes",
+      "services": 39,
+      "payments": 127043.28,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "81471",
+      "description": "Test for detecting genes associated with intellectual disability, duplication/deletion gene analysis, at least 60 genes",
+      "services": 118,
+      "payments": 105694.96,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "81321",
+      "description": "Gene analysis (phosphatase and tensin homolog), full sequence analysis",
+      "services": 179,
+      "payments": 105252.0,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "81307",
+      "description": "Gene analysis (partner and localizer of brca2) full sequence analysis",
+      "services": 150,
+      "payments": 99445.5,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "81490",
+      "description": "Test for detecting genes associated with rheumatoid arthritis using immunoassay technique",
+      "services": 119,
+      "payments": 98036.96,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "81443",
+      "description": "Genomic sequence analysis panel for severe inherited conditions with sequencing of 15 or more genes",
+      "services": 39,
+      "payments": 93584.01,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "81162",
+      "description": "Gene analysis (breast cancer 1 and 2) of full sequence and analysis for duplication or deletion variants",
+      "services": 52,
+      "payments": 92995.76,
+      "avg_markup": 1.07
+    },
+    {
+      "code": "81201",
+      "description": "Gene analysis (adenomatous polyposis coli), full gene sequence",
+      "services": 98,
+      "payments": 74911.2,
+      "avg_markup": 1.04
+    },
+    {
+      "code": "81249",
+      "description": "Gene analysis (glucose-6-phosphate dehydrogenase) full sequence analysis",
+      "services": 123,
+      "payments": 72324.0,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "81223",
+      "description": "Gene analysis (cystic fibrosis transmembrane conductance regular) full gene sequence",
+      "services": 140,
+      "payments": 68462.8,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "81465",
+      "description": "Test for detecting genes associated with disease, whole mitochondrial genome",
+      "services": 71,
+      "payments": 65126.88,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "81238",
+      "description": "Gene analysis (coagulation factor ix) full sequence analysis",
+      "services": 96,
+      "payments": 56448.0,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "81320",
+      "description": "Gene analysis (phospholipase c gamma 2) for common variants",
+      "services": 158,
+      "payments": 45113.74,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "81460",
+      "description": "Test for detecting genes associated with disease, genomic sequence, must include sequence analysis of entire mitochondrial genome",
+      "services": 33,
+      "payments": 41621.58,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "81302",
+      "description": "Gene analysis (methyl cpg binding protein 2) full sequence analysis",
+      "services": 71,
+      "payments": 36729.01,
+      "avg_markup": 1.02
+    },
+    {
+      "code": "81334",
+      "description": "Gene analysis (runt related transcription factor 1) targeted sequence analysis",
+      "services": 111,
+      "payments": 35844.12,
+      "avg_markup": 1.04
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 3270663.32,
+    "total_services": 43032,
+    "total_beneficiaries": 32320,
+    "avg_markup_ratio": 2.02
+  }
+}

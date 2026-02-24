@@ -1,0 +1,239 @@
+{
+  "name": "Anuj Sharma",
+  "credentials": "DO",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Ocala",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 598372.41,
+      "total_services": 21580,
+      "total_beneficiaries": 8343,
+      "avg_submitted": 111.68,
+      "avg_paid": 42.48
+    },
+    {
+      "year": 2015,
+      "total_payments": 745325.24,
+      "total_services": 9636,
+      "total_beneficiaries": 2905,
+      "avg_submitted": 210.62,
+      "avg_paid": 71.56
+    },
+    {
+      "year": 2016,
+      "total_payments": 672756.62,
+      "total_services": 9226,
+      "total_beneficiaries": 2215,
+      "avg_submitted": 190.22,
+      "avg_paid": 56.34
+    },
+    {
+      "year": 2017,
+      "total_payments": 656405.56,
+      "total_services": 9269,
+      "total_beneficiaries": 2297,
+      "avg_submitted": 214.75,
+      "avg_paid": 65.69
+    },
+    {
+      "year": 2018,
+      "total_payments": 641408.3,
+      "total_services": 9033,
+      "total_beneficiaries": 2352,
+      "avg_submitted": 202.82,
+      "avg_paid": 58.32
+    },
+    {
+      "year": 2019,
+      "total_payments": 618087.6,
+      "total_services": 8699,
+      "total_beneficiaries": 2303,
+      "avg_submitted": 295.19,
+      "avg_paid": 76.36
+    },
+    {
+      "year": 2020,
+      "total_payments": 1087756.23,
+      "total_services": 8577,
+      "total_beneficiaries": 2747,
+      "avg_submitted": 283.93,
+      "avg_paid": 86.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 1246136.88,
+      "total_services": 8596,
+      "total_beneficiaries": 2644,
+      "avg_submitted": 276.42,
+      "avg_paid": 91.59
+    },
+    {
+      "year": 2022,
+      "total_payments": 1135383.21,
+      "total_services": 7544,
+      "total_beneficiaries": 1973,
+      "avg_submitted": 266.41,
+      "avg_paid": 83.54
+    },
+    {
+      "year": 2023,
+      "total_payments": 991145.78,
+      "total_services": 7184,
+      "total_beneficiaries": 1964,
+      "avg_submitted": 271.89,
+      "avg_paid": 85.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 35808,
+      "payments": 2929332.03,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 11930,
+      "payments": 2916176.4,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 8651,
+      "payments": 615921.43,
+      "avg_markup": 6.18
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 6883,
+      "payments": 390060.59,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "G0431",
+      "description": "Drug screen, qualitative; multiple drug classes by high complexity test method (e.g., immunoassay, enzyme assay), per patient encounter",
+      "services": 3149,
+      "payments": 303514.38,
+      "avg_markup": 4.57
+    },
+    {
+      "code": "G0479",
+      "description": "Drug tests(s), presumptive, any number of drug classes; any number of devices or procedures by instrumented chemistry analyzers utilizing immunoassay, enzyme assay, TOF, MALDI, LDTD, DESI, DART, GHPC, GC mass spectrometry), includes sample validation when",
+      "services": 3462,
+      "payments": 268636.88,
+      "avg_markup": 5.67
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1980,
+      "payments": 242642.76,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "64445",
+      "description": "Injection of anesthetic agent, sciatic nerve",
+      "services": 1135,
+      "payments": 131658.61,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 1481,
+      "payments": 70670.24,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "20552",
+      "description": "Injections of trigger points in 1 or 2 muscles",
+      "services": 1428,
+      "payments": 59676.19,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "83925",
+      "description": "Opiates (drug) measurement",
+      "services": 1358,
+      "payments": 35280.05,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "95911",
+      "description": "Nerve transmission studies, 9-10 studies",
+      "services": 190,
+      "payments": 33763.33,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "80154",
+      "description": "Benzodiazepines level",
+      "services": 1349,
+      "payments": 33272.98,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1018,
+      "payments": 31485.04,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "83840",
+      "description": "Methadone level",
+      "services": 1350,
+      "payments": 29414.59,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 503,
+      "payments": 28746.46,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "82145",
+      "description": "Amphetamine or methamphetamine level",
+      "services": 1361,
+      "payments": 28233.81,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "82520",
+      "description": "Cocaine (drug) level",
+      "services": 1355,
+      "payments": 27416.02,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 166,
+      "payments": 26874.21,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "80299",
+      "description": "Quantitation of drug",
+      "services": 1358,
+      "payments": 24840.18,
+      "avg_markup": 2.08
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 8392777.83,
+    "total_services": 99344,
+    "total_beneficiaries": 29743,
+    "avg_markup_ratio": 3.44
+  }
+}

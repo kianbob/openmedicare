@@ -1,0 +1,239 @@
+{
+  "name": "Scott Maurer",
+  "credentials": "M.D.",
+  "specialty": "Geriatric Medicine",
+  "city": "Glenwood",
+  "state": "MD",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 263115.75,
+      "total_services": 4520,
+      "total_beneficiaries": 2978,
+      "avg_submitted": 91.7,
+      "avg_paid": 55.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 378513.91,
+      "total_services": 5797,
+      "total_beneficiaries": 4072,
+      "avg_submitted": 99.0,
+      "avg_paid": 60.65
+    },
+    {
+      "year": 2016,
+      "total_payments": 317997.85,
+      "total_services": 5223,
+      "total_beneficiaries": 3385,
+      "avg_submitted": 104.26,
+      "avg_paid": 66.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 317181.87,
+      "total_services": 5110,
+      "total_beneficiaries": 3414,
+      "avg_submitted": 100.82,
+      "avg_paid": 62.61
+    },
+    {
+      "year": 2018,
+      "total_payments": 465936.59,
+      "total_services": 5804,
+      "total_beneficiaries": 4262,
+      "avg_submitted": 110.26,
+      "avg_paid": 72.03
+    },
+    {
+      "year": 2019,
+      "total_payments": 371543.04,
+      "total_services": 5037,
+      "total_beneficiaries": 3508,
+      "avg_submitted": 106.12,
+      "avg_paid": 68.43
+    },
+    {
+      "year": 2020,
+      "total_payments": 400066.83,
+      "total_services": 5319,
+      "total_beneficiaries": 3748,
+      "avg_submitted": 109.8,
+      "avg_paid": 57.45
+    },
+    {
+      "year": 2021,
+      "total_payments": 513728.19,
+      "total_services": 7044,
+      "total_beneficiaries": 3771,
+      "avg_submitted": 114.92,
+      "avg_paid": 69.05
+    },
+    {
+      "year": 2022,
+      "total_payments": 566634.49,
+      "total_services": 8339,
+      "total_beneficiaries": 4656,
+      "avg_submitted": 114.87,
+      "avg_paid": 67.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 478860.72,
+      "total_services": 7694,
+      "total_beneficiaries": 4696,
+      "avg_submitted": 113.32,
+      "avg_paid": 67.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 21249,
+      "payments": 1580032.7,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 4624,
+      "payments": 509985.23,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 3634,
+      "payments": 421316.47,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 1137,
+      "payments": 237444.91,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4319,
+      "payments": 222979.68,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 800,
+      "payments": 145314.11,
+      "avg_markup": 1.1
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 813,
+      "payments": 137865.2,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 1393,
+      "payments": 119301.22,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 3457,
+      "payments": 78973.46,
+      "avg_markup": 1.09
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 1436,
+      "payments": 59255.69,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1230,
+      "payments": 51050.61,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 650,
+      "payments": 37341.75,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 1094,
+      "payments": 37020.66,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 250,
+      "payments": 33865.3,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 1650,
+      "payments": 32594.14,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 554,
+      "payments": 30253.59,
+      "avg_markup": 1.14
+    },
+    {
+      "code": "G0009",
+      "description": "Administration of pneumococcal vaccine",
+      "services": 1169,
+      "payments": 27749.26,
+      "avg_markup": 1.05
+    },
+    {
+      "code": "90682",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 436,
+      "payments": 24221.49,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "90653",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 453,
+      "payments": 23974.0,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 1788,
+      "payments": 23641.28,
+      "avg_markup": 4.23
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4073579.24,
+    "total_services": 59887,
+    "total_beneficiaries": 38490,
+    "avg_markup_ratio": 1.93
+  }
+}

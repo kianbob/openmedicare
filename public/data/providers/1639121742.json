@@ -1,0 +1,79 @@
+{
+  "name": "Snohomish County Fire Protection District 1",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Everett",
+  "state": "WA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 833499.0,
+      "total_services": 5342,
+      "total_beneficiaries": 3896,
+      "avg_submitted": 603.88,
+      "avg_paid": 274.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 933704.34,
+      "total_services": 5983,
+      "total_beneficiaries": 4293,
+      "avg_submitted": 603.87,
+      "avg_paid": 279.26
+    },
+    {
+      "year": 2016,
+      "total_payments": 953558.49,
+      "total_services": 6064,
+      "total_beneficiaries": 4431,
+      "avg_submitted": 679.5,
+      "avg_paid": 278.68
+    },
+    {
+      "year": 2017,
+      "total_payments": 743072.43,
+      "total_services": 4682,
+      "total_beneficiaries": 3597,
+      "avg_submitted": 679.5,
+      "avg_paid": 277.75
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6555,
+      "payments": 1855979.72,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 4256,
+      "payments": 1432863.21,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 232,
+      "payments": 112661.27,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 11028,
+      "payments": 62330.06,
+      "avg_markup": 2.96
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3463834.26,
+    "total_services": 22071,
+    "total_beneficiaries": 16217,
+    "avg_markup_ratio": 2.39
+  }
+}

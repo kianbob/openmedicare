@@ -1,0 +1,94 @@
+{
+  "name": "Central Valley Ambulance Authority",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Sedro Woolley",
+  "state": "WA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 884040.77,
+      "total_services": 5403,
+      "total_beneficiaries": 3517,
+      "avg_submitted": 594.07,
+      "avg_paid": 261.63
+    },
+    {
+      "year": 2015,
+      "total_payments": 902751.24,
+      "total_services": 5509,
+      "total_beneficiaries": 3645,
+      "avg_submitted": 635.28,
+      "avg_paid": 263.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 888557.74,
+      "total_services": 5394,
+      "total_beneficiaries": 3705,
+      "avg_submitted": 658.31,
+      "avg_paid": 263.54
+    },
+    {
+      "year": 2017,
+      "total_payments": 923689.02,
+      "total_services": 5543,
+      "total_beneficiaries": 3840,
+      "avg_submitted": 677.06,
+      "avg_paid": 266.72
+    },
+    {
+      "year": 2018,
+      "total_payments": 864798.46,
+      "total_services": 5081,
+      "total_beneficiaries": 3501,
+      "avg_submitted": 696.16,
+      "avg_paid": 269.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 9346,
+      "payments": 3135220.91,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 3369,
+      "payments": 951306.44,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 454,
+      "payments": 221601.78,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 373,
+      "payments": 79599.34,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13388,
+      "payments": 76108.77,
+      "avg_markup": 2.78
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4463837.24,
+    "total_services": 26930,
+    "total_beneficiaries": 18208,
+    "avg_markup_ratio": 2.45
+  }
+}

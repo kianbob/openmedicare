@@ -1,0 +1,88 @@
+{
+  "name": "Rescue One Ambulance Corporation",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Paramount",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 542352.34,
+      "total_services": 6047,
+      "total_beneficiaries": 291,
+      "avg_submitted": 508.34,
+      "avg_paid": 90.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 952999.7,
+      "total_services": 10394,
+      "total_beneficiaries": 246,
+      "avg_submitted": 697.63,
+      "avg_paid": 166.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 809416.12,
+      "total_services": 8880,
+      "total_beneficiaries": 130,
+      "avg_submitted": 723.58,
+      "avg_paid": 165.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 632977.86,
+      "total_services": 6824,
+      "total_beneficiaries": 161,
+      "avg_submitted": 723.58,
+      "avg_paid": 164.03
+    },
+    {
+      "year": 2018,
+      "total_payments": 678038.35,
+      "total_services": 7473,
+      "total_beneficiaries": 128,
+      "avg_submitted": 723.58,
+      "avg_paid": 165.67
+    },
+    {
+      "year": 2019,
+      "total_payments": 229243.88,
+      "total_services": 2821,
+      "total_beneficiaries": 72,
+      "avg_submitted": 515.62,
+      "avg_paid": 81.34
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 21102,
+      "payments": 3704215.86,
+      "avg_markup": 5.65
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 21232,
+      "payments": 107948.3,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 105,
+      "payments": 32864.1,
+      "avg_markup": 3.64
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3845028.26,
+    "total_services": 42439,
+    "total_beneficiaries": 1028,
+    "avg_markup_ratio": 5.58
+  }
+}

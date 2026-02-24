@@ -1,0 +1,127 @@
+{
+  "name": "City Of Madison",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Madison",
+  "state": "WI",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1340350.09,
+      "total_services": 9013,
+      "total_beneficiaries": 6939,
+      "avg_submitted": 727.33,
+      "avg_paid": 258.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 1536796.05,
+      "total_services": 9905,
+      "total_beneficiaries": 7279,
+      "avg_submitted": 689.64,
+      "avg_paid": 263.84
+    },
+    {
+      "year": 2016,
+      "total_payments": 1527513.66,
+      "total_services": 10014,
+      "total_beneficiaries": 7370,
+      "avg_submitted": 754.36,
+      "avg_paid": 258.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 1612388.2,
+      "total_services": 10459,
+      "total_beneficiaries": 7553,
+      "avg_submitted": 810.49,
+      "avg_paid": 267.66
+    },
+    {
+      "year": 2018,
+      "total_payments": 1617876.36,
+      "total_services": 10460,
+      "total_beneficiaries": 7440,
+      "avg_submitted": 810.22,
+      "avg_paid": 272.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 1705234.88,
+      "total_services": 10852,
+      "total_beneficiaries": 7545,
+      "avg_submitted": 810.25,
+      "avg_paid": 275.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 1503829.92,
+      "total_services": 9355,
+      "total_beneficiaries": 6433,
+      "avg_submitted": 810.25,
+      "avg_paid": 280.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 1683618.13,
+      "total_services": 10376,
+      "total_beneficiaries": 7063,
+      "avg_submitted": 960.01,
+      "avg_paid": 282.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 1816092.98,
+      "total_services": 10789,
+      "total_beneficiaries": 7151,
+      "avg_submitted": 1061.19,
+      "avg_paid": 292.69
+    },
+    {
+      "year": 2023,
+      "total_payments": 1841495.41,
+      "total_services": 10117,
+      "total_beneficiaries": 6778,
+      "avg_submitted": 1061.37,
+      "avg_paid": 320.29
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 26770,
+      "payments": 8969302.23,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 23352,
+      "payments": 6610209.07,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 631,
+      "payments": 305425.58,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 50587,
+      "payments": 300258.79,
+      "avg_markup": 2.8
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 16185195.68,
+    "total_services": 101340,
+    "total_beneficiaries": 71551,
+    "avg_markup_ratio": 3.6
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Vincent Rappa",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Forest Hills",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 309460.17,
+      "total_services": 4875,
+      "total_beneficiaries": 2140,
+      "avg_submitted": 169.0,
+      "avg_paid": 72.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 313600.35,
+      "total_services": 4905,
+      "total_beneficiaries": 2017,
+      "avg_submitted": 174.74,
+      "avg_paid": 79.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 301473.44,
+      "total_services": 4883,
+      "total_beneficiaries": 1894,
+      "avg_submitted": 177.6,
+      "avg_paid": 76.23
+    },
+    {
+      "year": 2017,
+      "total_payments": 322277.81,
+      "total_services": 5049,
+      "total_beneficiaries": 1879,
+      "avg_submitted": 176.9,
+      "avg_paid": 74.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 351414.27,
+      "total_services": 5437,
+      "total_beneficiaries": 2100,
+      "avg_submitted": 177.72,
+      "avg_paid": 76.19
+    },
+    {
+      "year": 2019,
+      "total_payments": 350286.99,
+      "total_services": 5306,
+      "total_beneficiaries": 2059,
+      "avg_submitted": 179.0,
+      "avg_paid": 77.2
+    },
+    {
+      "year": 2020,
+      "total_payments": 296075.15,
+      "total_services": 4319,
+      "total_beneficiaries": 1696,
+      "avg_submitted": 185.29,
+      "avg_paid": 79.98
+    },
+    {
+      "year": 2021,
+      "total_payments": 360226.53,
+      "total_services": 4777,
+      "total_beneficiaries": 1741,
+      "avg_submitted": 190.39,
+      "avg_paid": 89.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 454931.52,
+      "total_services": 5900,
+      "total_beneficiaries": 1524,
+      "avg_submitted": 194.59,
+      "avg_paid": 91.43
+    },
+    {
+      "year": 2023,
+      "total_payments": 453883.77,
+      "total_services": 5411,
+      "total_beneficiaries": 1410,
+      "avg_submitted": 199.86,
+      "avg_paid": 96.36
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 16427,
+      "payments": 1012055.53,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 6490,
+      "payments": 543506.02,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6406,
+      "payments": 419285.59,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1765,
+      "payments": 261943.93,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2587,
+      "payments": 229792.02,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2096,
+      "payments": 200071.4,
+      "avg_markup": 2.09
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 5161,
+      "payments": 198621.56,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1032,
+      "payments": 181897.09,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1283,
+      "payments": 79958.91,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 1101,
+      "payments": 70645.28,
+      "avg_markup": 3.12
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 607,
+      "payments": 70593.66,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 954,
+      "payments": 63084.53,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional, first 30 minutes",
+      "services": 754,
+      "payments": 54718.06,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 794,
+      "payments": 37681.31,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 236,
+      "payments": 31696.49,
+      "avg_markup": 2.63
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 134,
+      "payments": 17980.22,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 148,
+      "payments": 14679.06,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 258,
+      "payments": 6586.27,
+      "avg_markup": 2.95
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 2133,
+      "payments": 6289.98,
+      "avg_markup": 25.43
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 14,
+      "payments": 2663.49,
+      "avg_markup": 1.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3513630.0,
+    "total_services": 50862,
+    "total_beneficiaries": 18460,
+    "avg_markup_ratio": 2.35
+  }
+}

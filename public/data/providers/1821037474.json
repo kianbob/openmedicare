@@ -1,0 +1,239 @@
+{
+  "name": "Alan Rogers",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Tucson",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 324935.18,
+      "total_services": 13375,
+      "total_beneficiaries": 9570,
+      "avg_submitted": 84.13,
+      "avg_paid": 34.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 375311.72,
+      "total_services": 12756,
+      "total_beneficiaries": 9626,
+      "avg_submitted": 96.18,
+      "avg_paid": 38.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 356551.26,
+      "total_services": 13594,
+      "total_beneficiaries": 10130,
+      "avg_submitted": 99.31,
+      "avg_paid": 37.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 380950.05,
+      "total_services": 14441,
+      "total_beneficiaries": 10557,
+      "avg_submitted": 90.04,
+      "avg_paid": 34.28
+    },
+    {
+      "year": 2018,
+      "total_payments": 312633.87,
+      "total_services": 12007,
+      "total_beneficiaries": 9416,
+      "avg_submitted": 103.71,
+      "avg_paid": 35.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 300987.72,
+      "total_services": 11942,
+      "total_beneficiaries": 9482,
+      "avg_submitted": 95.32,
+      "avg_paid": 33.2
+    },
+    {
+      "year": 2020,
+      "total_payments": 231984.78,
+      "total_services": 10061,
+      "total_beneficiaries": 8175,
+      "avg_submitted": 92.51,
+      "avg_paid": 31.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 243164.3,
+      "total_services": 9704,
+      "total_beneficiaries": 7630,
+      "avg_submitted": 83.02,
+      "avg_paid": 27.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 255663.74,
+      "total_services": 10129,
+      "total_beneficiaries": 7865,
+      "avg_submitted": 84.79,
+      "avg_paid": 28.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 246816.07,
+      "total_services": 9867,
+      "total_beneficiaries": 7264,
+      "avg_submitted": 71.69,
+      "avg_paid": 31.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 11859,
+      "payments": 588946.01,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 4386,
+      "payments": 526299.24,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3604,
+      "payments": 273130.92,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 7083,
+      "payments": 137840.59,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 10209,
+      "payments": 128847.21,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 712,
+      "payments": 124101.78,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 8096,
+      "payments": 101965.71,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "G0438",
+      "description": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+      "services": 457,
+      "payments": 76660.14,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "84439",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 6892,
+      "payments": 71889.18,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2004,
+      "payments": 61439.94,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 456,
+      "payments": 60555.37,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "84153",
+      "description": "PSA (prostate specific antigen) measurement",
+      "services": 2837,
+      "payments": 60038.72,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 361,
+      "payments": 47961.43,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 361,
+      "payments": 47733.8,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "85027",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 6055,
+      "payments": 43522.39,
+      "avg_markup": 3.34
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 12067,
+      "payments": 41387.44,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 622,
+      "payments": 33712.15,
+      "avg_markup": 1.26
+    },
+    {
+      "code": "G0328",
+      "description": "Colorectal cancer screening; fecal occult blood test, immunoassay, 1-3 simultaneous",
+      "services": 1762,
+      "payments": 31518.55,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "87086",
+      "description": "Bacterial colony count, urine",
+      "services": 3056,
+      "payments": 29264.06,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 3391,
+      "payments": 28746.65,
+      "avg_markup": 2.83
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3028998.69,
+    "total_services": 117876,
+    "total_beneficiaries": 89715,
+    "avg_markup_ratio": 2.48
+  }
+}

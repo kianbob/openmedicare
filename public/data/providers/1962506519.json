@@ -1,0 +1,87 @@
+{
+  "name": "City Of Littleton",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Littleton",
+  "state": "CO",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 574433.88,
+      "total_services": 3396,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 787.45,
+      "avg_paid": 274.17
+    },
+    {
+      "year": 2015,
+      "total_payments": 666273.67,
+      "total_services": 3885,
+      "total_beneficiaries": 3037,
+      "avg_submitted": 806.49,
+      "avg_paid": 279.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 647616.41,
+      "total_services": 3797,
+      "total_beneficiaries": 2929,
+      "avg_submitted": 836.78,
+      "avg_paid": 279.07
+    },
+    {
+      "year": 2017,
+      "total_payments": 703039.85,
+      "total_services": 4088,
+      "total_beneficiaries": 3169,
+      "avg_submitted": 836.82,
+      "avg_paid": 281.8
+    },
+    {
+      "year": 2018,
+      "total_payments": 663004.23,
+      "total_services": 3767,
+      "total_beneficiaries": 2937,
+      "avg_submitted": 836.8,
+      "avg_paid": 285.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 8424,
+      "payments": 2852712.3,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 808,
+      "payments": 230456.38,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 238,
+      "payments": 117367.19,
+      "avg_markup": 2.53
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 9463,
+      "payments": 53832.17,
+      "avg_markup": 2.98
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 3254368.04,
+    "total_services": 18933,
+    "total_beneficiaries": 14765,
+    "avg_markup_ratio": 3.17
+  }
+}

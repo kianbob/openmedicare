@@ -1,0 +1,81 @@
+{
+  "name": "Patient Home Monitoring Inc.",
+  "credentials": "",
+  "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+  "city": "San Francisco",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 2254319.79,
+      "total_services": 19052,
+      "total_beneficiaries": 2166,
+      "avg_submitted": 299.97,
+      "avg_paid": 118.32
+    },
+    {
+      "year": 2015,
+      "total_payments": 2451002.1,
+      "total_services": 20223,
+      "total_beneficiaries": 2324,
+      "avg_submitted": 300.01,
+      "avg_paid": 121.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 2887987.67,
+      "total_services": 23864,
+      "total_beneficiaries": 3719,
+      "avg_submitted": 349.0,
+      "avg_paid": 121.38
+    },
+    {
+      "year": 2017,
+      "total_payments": 2817533.38,
+      "total_services": 24471,
+      "total_beneficiaries": 3556,
+      "avg_submitted": 348.91,
+      "avg_paid": 114.57
+    },
+    {
+      "year": 2018,
+      "total_payments": 2082736.98,
+      "total_services": 22764,
+      "total_beneficiaries": 3141,
+      "avg_submitted": 349.0,
+      "avg_paid": 90.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 770970.44,
+      "total_services": 10714,
+      "total_beneficiaries": 2280,
+      "avg_submitted": 349.0,
+      "avg_paid": 69.53
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0249",
+      "description": "Provision of test materials and equipment for home inr monitoring of patient with either mechanical heart valve(s), chronic atrial fibrillation, or venous thromboembolism who meets medicare coverage criteria; includes: provision of materials for use in the",
+      "services": 119248,
+      "payments": 13064189.77,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "G0248",
+      "description": "Demonstration, prior to initiation of home inr monitoring, for patient with either mechanical heart valve(s), chronic atrial fibrillation, or venous thromboembolism who meets medicare coverage criteria, under the direction of a physician; includes: face-to",
+      "services": 1840,
+      "payments": 200360.59,
+      "avg_markup": 3.65
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 13264550.36,
+    "total_services": 121088,
+    "total_beneficiaries": 17186,
+    "avg_markup_ratio": 2.75
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Phi Health, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Jackson",
+  "state": "MS",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 728752.74,
+      "total_services": 361,
+      "total_beneficiaries": 355,
+      "avg_submitted": 20123.29,
+      "avg_paid": 2013.21
+    },
+    {
+      "year": 2021,
+      "total_payments": 1200421.58,
+      "total_services": 605,
+      "total_beneficiaries": 593,
+      "avg_submitted": 20486.89,
+      "avg_paid": 1980.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 1180626.73,
+      "total_services": 565,
+      "total_beneficiaries": 565,
+      "avg_submitted": 20657.5,
+      "avg_paid": 2078.72
+    },
+    {
+      "year": 2023,
+      "total_payments": 1133782.53,
+      "total_services": 499,
+      "total_beneficiaries": 497,
+      "avg_submitted": 22849.18,
+      "avg_paid": 2267.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 1018,
+      "payments": 4214021.45,
+      "avg_markup": 10.08
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 1012,
+      "payments": 29562.13,
+      "avg_markup": 12.59
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4243583.58,
+    "total_services": 2030,
+    "total_beneficiaries": 2010,
+    "avg_markup_ratio": 10.1
+  }
+}

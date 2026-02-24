@@ -1,0 +1,197 @@
+{
+  "name": "Nisha Sethi",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Hempstead",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 234582.38,
+      "total_services": 3410,
+      "total_beneficiaries": 1446,
+      "avg_submitted": 211.82,
+      "avg_paid": 89.45
+    },
+    {
+      "year": 2015,
+      "total_payments": 264512.51,
+      "total_services": 3831,
+      "total_beneficiaries": 1579,
+      "avg_submitted": 194.0,
+      "avg_paid": 82.54
+    },
+    {
+      "year": 2016,
+      "total_payments": 390298.54,
+      "total_services": 5419,
+      "total_beneficiaries": 2029,
+      "avg_submitted": 215.04,
+      "avg_paid": 91.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 342477.75,
+      "total_services": 5032,
+      "total_beneficiaries": 1782,
+      "avg_submitted": 211.5,
+      "avg_paid": 86.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 535777.64,
+      "total_services": 7717,
+      "total_beneficiaries": 2634,
+      "avg_submitted": 222.5,
+      "avg_paid": 96.8
+    },
+    {
+      "year": 2019,
+      "total_payments": 634179.55,
+      "total_services": 8881,
+      "total_beneficiaries": 2818,
+      "avg_submitted": 215.0,
+      "avg_paid": 94.73
+    },
+    {
+      "year": 2020,
+      "total_payments": 571284.29,
+      "total_services": 7338,
+      "total_beneficiaries": 2249,
+      "avg_submitted": 214.96,
+      "avg_paid": 94.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 309534.21,
+      "total_services": 3942,
+      "total_beneficiaries": 1304,
+      "avg_submitted": 241.67,
+      "avg_paid": 114.5
+    },
+    {
+      "year": 2022,
+      "total_payments": 504024.09,
+      "total_services": 6613,
+      "total_beneficiaries": 1906,
+      "avg_submitted": 233.57,
+      "avg_paid": 109.4
+    },
+    {
+      "year": 2023,
+      "total_payments": 555438.2,
+      "total_services": 6939,
+      "total_beneficiaries": 1756,
+      "avg_submitted": 267.53,
+      "avg_paid": 114.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 47044,
+      "payments": 3117508.15,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4429,
+      "payments": 556231.87,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 4803,
+      "payments": 442256.89,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 674,
+      "payments": 64597.81,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 311,
+      "payments": 56234.09,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 663,
+      "payments": 42609.93,
+      "avg_markup": 2.33
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 718,
+      "payments": 25189.97,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 181,
+      "payments": 17734.83,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 78,
+      "payments": 5119.92,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 83,
+      "payments": 5083.58,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 68,
+      "payments": 4981.0,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 48,
+      "payments": 1836.63,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 11,
+      "payments": 1655.5,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 11,
+      "payments": 1068.98,
+      "avg_markup": 2.83
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4342109.16,
+    "total_services": 59122,
+    "total_beneficiaries": 19503,
+    "avg_markup_ratio": 2.26
+  }
+}

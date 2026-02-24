@@ -1,0 +1,239 @@
+{
+  "name": "John King",
+  "credentials": "MD",
+  "specialty": "Interventional Cardiology",
+  "city": "Columbus",
+  "state": "MS",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 103670.49,
+      "total_services": 1329,
+      "total_beneficiaries": 952,
+      "avg_submitted": 420.23,
+      "avg_paid": 133.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 132413.06,
+      "total_services": 2034,
+      "total_beneficiaries": 1407,
+      "avg_submitted": 346.87,
+      "avg_paid": 102.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 186200.08,
+      "total_services": 3188,
+      "total_beneficiaries": 2315,
+      "avg_submitted": 424.07,
+      "avg_paid": 109.94
+    },
+    {
+      "year": 2017,
+      "total_payments": 210925.06,
+      "total_services": 2655,
+      "total_beneficiaries": 2203,
+      "avg_submitted": 500.34,
+      "avg_paid": 110.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 273843.06,
+      "total_services": 3783,
+      "total_beneficiaries": 2980,
+      "avg_submitted": 579.39,
+      "avg_paid": 131.82
+    },
+    {
+      "year": 2019,
+      "total_payments": 313934.8,
+      "total_services": 6553,
+      "total_beneficiaries": 5131,
+      "avg_submitted": 322.15,
+      "avg_paid": 91.49
+    },
+    {
+      "year": 2020,
+      "total_payments": 497750.62,
+      "total_services": 9478,
+      "total_beneficiaries": 6880,
+      "avg_submitted": 211.52,
+      "avg_paid": 90.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 453169.0,
+      "total_services": 8869,
+      "total_beneficiaries": 5979,
+      "avg_submitted": 340.6,
+      "avg_paid": 162.72
+    },
+    {
+      "year": 2022,
+      "total_payments": 1477269.2,
+      "total_services": 10609,
+      "total_beneficiaries": 7651,
+      "avg_submitted": 1801.52,
+      "avg_paid": 402.45
+    },
+    {
+      "year": 2023,
+      "total_payments": 1524770.5,
+      "total_services": 8811,
+      "total_beneficiaries": 6073,
+      "avg_submitted": 2100.07,
+      "avg_paid": 387.98
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "37225",
+      "description": "Removal of plaque in arteries in one leg, endovascular, accessed through the skin or open procedure",
+      "services": 173,
+      "payments": 760427.2,
+      "avg_markup": 6.0
+    },
+    {
+      "code": "37229",
+      "description": "Removal of plaque in artery of leg, initial vessel",
+      "services": 102,
+      "payments": 636622.2,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 5961,
+      "payments": 488965.2,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 5052,
+      "payments": 382641.15,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "92928",
+      "description": "Catheter insertion of stents in major coronary artery or branch, accessed through the skin",
+      "services": 752,
+      "payments": 289817.79,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "36482",
+      "description": "Chemical destruction of first incompetent vein of arm or leg using imaging guidance",
+      "services": 167,
+      "payments": 200362.33,
+      "avg_markup": 4.78
+    },
+    {
+      "code": "93458",
+      "description": "Insertion of catheter in left heart for imaging of blood vessels or grafts and left lower heart",
+      "services": 942,
+      "payments": 168162.61,
+      "avg_markup": 3.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 3195,
+      "payments": 157578.31,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "93351",
+      "description": "Ultrasound examination and continuous monitoring of the heart performed during rest, exercise, and/or drug-induced stress with interpretation and report",
+      "services": 934,
+      "payments": 147213.05,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "36465",
+      "description": "Injection of chemical agent into single incompetent vein of leg using ultrasound guidance",
+      "services": 157,
+      "payments": 143803.96,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 801,
+      "payments": 100439.54,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "33285",
+      "description": "Insertion of heart rhythm monitor under skin",
+      "services": 28,
+      "payments": 93662.69,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "37228",
+      "description": "Balloon dilation of artery of leg, initial vessel",
+      "services": 32,
+      "payments": 87408.74,
+      "avg_markup": 5.46
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 669,
+      "payments": 74468.21,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 160,
+      "payments": 60578.43,
+      "avg_markup": 4.6
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 409,
+      "payments": 59810.01,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "37252",
+      "description": "Ultrasound evaluation of blood vessel with review by radiologist, initial vessel",
+      "services": 87,
+      "payments": 59472.5,
+      "avg_markup": 4.63
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 578,
+      "payments": 56508.33,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 348,
+      "payments": 56336.78,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 351,
+      "payments": 48618.88,
+      "avg_markup": 2.2
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 5173945.87,
+    "total_services": 57309,
+    "total_beneficiaries": 41571,
+    "avg_markup_ratio": 4.32
+  }
+}

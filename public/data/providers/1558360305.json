@@ -1,0 +1,239 @@
+{
+  "name": "Jonathan Levine",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "Tulsa",
+  "state": "OK",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 249873.01,
+      "total_services": 3789,
+      "total_beneficiaries": 1708,
+      "avg_submitted": 203.84,
+      "avg_paid": 80.46
+    },
+    {
+      "year": 2015,
+      "total_payments": 333117.44,
+      "total_services": 5078,
+      "total_beneficiaries": 1844,
+      "avg_submitted": 233.42,
+      "avg_paid": 88.41
+    },
+    {
+      "year": 2016,
+      "total_payments": 327237.37,
+      "total_services": 4973,
+      "total_beneficiaries": 1733,
+      "avg_submitted": 228.23,
+      "avg_paid": 79.87
+    },
+    {
+      "year": 2017,
+      "total_payments": 375842.77,
+      "total_services": 5529,
+      "total_beneficiaries": 1937,
+      "avg_submitted": 222.38,
+      "avg_paid": 76.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 350415.02,
+      "total_services": 4867,
+      "total_beneficiaries": 1797,
+      "avg_submitted": 218.15,
+      "avg_paid": 75.09
+    },
+    {
+      "year": 2019,
+      "total_payments": 343303.14,
+      "total_services": 4718,
+      "total_beneficiaries": 1804,
+      "avg_submitted": 266.56,
+      "avg_paid": 91.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 404278.51,
+      "total_services": 6058,
+      "total_beneficiaries": 1726,
+      "avg_submitted": 236.49,
+      "avg_paid": 80.12
+    },
+    {
+      "year": 2021,
+      "total_payments": 377402.92,
+      "total_services": 5740,
+      "total_beneficiaries": 1460,
+      "avg_submitted": 222.33,
+      "avg_paid": 74.53
+    },
+    {
+      "year": 2022,
+      "total_payments": 362959.82,
+      "total_services": 5629,
+      "total_beneficiaries": 1411,
+      "avg_submitted": 246.5,
+      "avg_paid": 80.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 312025.8,
+      "total_services": 4155,
+      "total_beneficiaries": 1299,
+      "avg_submitted": 247.8,
+      "avg_paid": 85.53
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 32490,
+      "payments": 1801160.45,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4585,
+      "payments": 670470.65,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 4270,
+      "payments": 347748.2,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2295,
+      "payments": 188276.9,
+      "avg_markup": 2.83
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2616,
+      "payments": 141765.82,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 577,
+      "payments": 76362.15,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 433,
+      "payments": 67607.34,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1460,
+      "payments": 42407.59,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 680,
+      "payments": 34686.63,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 490,
+      "payments": 26736.51,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 130,
+      "payments": 7188.01,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 69,
+      "payments": 7136.17,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 54,
+      "payments": 6778.08,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 96,
+      "payments": 6337.84,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 101,
+      "payments": 3307.88,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 65,
+      "payments": 2928.15,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 39,
+      "payments": 2627.87,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 44,
+      "payments": 2347.74,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "96372",
+      "description": "Injection beneath the skin or into muscle for therapy, diagnosis, or prevention",
+      "services": 29,
+      "payments": 424.0,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "99406",
+      "description": "Smoking and tobacco use intermediate counseling, greater than 3 minutes up to 10 minutes",
+      "services": 13,
+      "payments": 157.82,
+      "avg_markup": 2.39
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3436455.79,
+    "total_services": 50536,
+    "total_beneficiaries": 16719,
+    "avg_markup_ratio": 2.82
+  }
+}

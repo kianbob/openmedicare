@@ -1,0 +1,101 @@
+{
+  "name": "Trinity Health Of New England Emergency Medical Services, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Waterbury",
+  "state": "CT",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 331936.92,
+      "total_services": 2143,
+      "total_beneficiaries": 1669,
+      "avg_submitted": 669.77,
+      "avg_paid": 221.13
+    },
+    {
+      "year": 2020,
+      "total_payments": 2177505.59,
+      "total_services": 14051,
+      "total_beneficiaries": 7500,
+      "avg_submitted": 794.02,
+      "avg_paid": 282.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 2171547.78,
+      "total_services": 13855,
+      "total_beneficiaries": 7503,
+      "avg_submitted": 818.49,
+      "avg_paid": 286.77
+    },
+    {
+      "year": 2022,
+      "total_payments": 2248842.84,
+      "total_services": 13662,
+      "total_beneficiaries": 7872,
+      "avg_submitted": 852.09,
+      "avg_paid": 298.13
+    },
+    {
+      "year": 2023,
+      "total_payments": 2256665.1,
+      "total_services": 12847,
+      "total_beneficiaries": 7524,
+      "avg_submitted": 968.2,
+      "avg_paid": 320.8
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 11730,
+      "payments": 3930163.23,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 8022,
+      "payments": 3215250.68,
+      "avg_markup": 3.21
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 8666,
+      "payments": 1750294.5,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 27867,
+      "payments": 183180.16,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 116,
+      "payments": 66562.79,
+      "avg_markup": 2.35
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 157,
+      "payments": 41046.87,
+      "avg_markup": 3.39
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 9186498.23,
+    "total_services": 56558,
+    "total_beneficiaries": 32068,
+    "avg_markup_ratio": 3.02
+  }
+}

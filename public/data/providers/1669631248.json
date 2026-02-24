@@ -1,0 +1,239 @@
+{
+  "name": "Ramdas Kumar",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Thousand Oaks",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 157923.02,
+      "total_services": 1935,
+      "total_beneficiaries": 666,
+      "avg_submitted": 198.85,
+      "avg_paid": 111.55
+    },
+    {
+      "year": 2015,
+      "total_payments": 147243.04,
+      "total_services": 1787,
+      "total_beneficiaries": 533,
+      "avg_submitted": 477.59,
+      "avg_paid": 108.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 185022.44,
+      "total_services": 2240,
+      "total_beneficiaries": 857,
+      "avg_submitted": 559.32,
+      "avg_paid": 107.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 195086.36,
+      "total_services": 2302,
+      "total_beneficiaries": 901,
+      "avg_submitted": 536.75,
+      "avg_paid": 104.22
+    },
+    {
+      "year": 2018,
+      "total_payments": 305254.81,
+      "total_services": 3109,
+      "total_beneficiaries": 1154,
+      "avg_submitted": 471.92,
+      "avg_paid": 131.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 407658.45,
+      "total_services": 3986,
+      "total_beneficiaries": 1360,
+      "avg_submitted": 480.06,
+      "avg_paid": 132.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 420792.66,
+      "total_services": 3937,
+      "total_beneficiaries": 1379,
+      "avg_submitted": 453.47,
+      "avg_paid": 132.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 486704.01,
+      "total_services": 4656,
+      "total_beneficiaries": 1510,
+      "avg_submitted": 399.57,
+      "avg_paid": 125.36
+    },
+    {
+      "year": 2022,
+      "total_payments": 491877.24,
+      "total_services": 4983,
+      "total_beneficiaries": 1711,
+      "avg_submitted": 396.13,
+      "avg_paid": 116.67
+    },
+    {
+      "year": 2023,
+      "total_payments": 489460.74,
+      "total_services": 5058,
+      "total_beneficiaries": 1902,
+      "avg_submitted": 450.5,
+      "avg_paid": 118.31
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11282,
+      "payments": 1014976.73,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 9491,
+      "payments": 565424.32,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2827,
+      "payments": 470660.98,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 1458,
+      "payments": 376270.78,
+      "avg_markup": 4.4
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2229,
+      "payments": 212915.55,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 726,
+      "payments": 147513.12,
+      "avg_markup": 4.74
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1135,
+      "payments": 138309.48,
+      "avg_markup": 2.22
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 461,
+      "payments": 85794.76,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1006,
+      "payments": 43805.64,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 267,
+      "payments": 36344.58,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 709,
+      "payments": 36253.59,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 326,
+      "payments": 35706.27,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 112,
+      "payments": 20319.08,
+      "avg_markup": 2.51
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 546,
+      "payments": 19039.71,
+      "avg_markup": 5.74
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services (1 physician visit per month), patient 20 years of age and older",
+      "services": 111,
+      "payments": 17135.95,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 268,
+      "payments": 15502.95,
+      "avg_markup": 4.62
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 146,
+      "payments": 14690.9,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 240,
+      "payments": 13376.18,
+      "avg_markup": 3.23
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 377,
+      "payments": 11746.23,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "76856",
+      "description": "Ultrasound of pelvis",
+      "services": 144,
+      "payments": 8961.45,
+      "avg_markup": 4.42
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3287022.78,
+    "total_services": 33993,
+    "total_beneficiaries": 11973,
+    "avg_markup_ratio": 3.29
+  }
+}

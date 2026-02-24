@@ -1,0 +1,49 @@
+{
+  "name": "Vali Medical, Llc",
+  "credentials": "",
+  "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 4792799.21,
+      "total_services": 28420,
+      "total_beneficiaries": 7002,
+      "avg_submitted": 317.73,
+      "avg_paid": 123.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 1131860.09,
+      "total_services": 25374,
+      "total_beneficiaries": 5967,
+      "avg_submitted": 84.49,
+      "avg_paid": 40.76
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2066",
+      "description": "Interrogation device evaluation(s), (remote) up to 30 days; implantable cardiovascular physiologic monitor system, implantable loop recorder system, or subcutaneous cardiac rhythm monitor system, remote data acquisition(s), receipt of transmissions and tec",
+      "services": 35769,
+      "payments": 5522796.94,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "93296",
+      "description": "Evaluation of single, dual, multiple lead or leadless pacemaker system or implantable defibrillator system, remote up to 90 days",
+      "services": 18025,
+      "payments": 401862.36,
+      "avg_markup": 2.78
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 5924659.3,
+    "total_services": 53794,
+    "total_beneficiaries": 12969,
+    "avg_markup_ratio": 2.45
+  }
+}

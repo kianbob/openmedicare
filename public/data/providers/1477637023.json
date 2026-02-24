@@ -1,0 +1,182 @@
+{
+  "name": "Samir Saxena",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 309230.81,
+      "total_services": 4392,
+      "total_beneficiaries": 1093,
+      "avg_submitted": 233.86,
+      "avg_paid": 84.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 294728.44,
+      "total_services": 4431,
+      "total_beneficiaries": 869,
+      "avg_submitted": 232.0,
+      "avg_paid": 93.07
+    },
+    {
+      "year": 2016,
+      "total_payments": 533445.89,
+      "total_services": 6912,
+      "total_beneficiaries": 2209,
+      "avg_submitted": 247.56,
+      "avg_paid": 88.98
+    },
+    {
+      "year": 2017,
+      "total_payments": 500480.86,
+      "total_services": 6978,
+      "total_beneficiaries": 2580,
+      "avg_submitted": 303.44,
+      "avg_paid": 82.63
+    },
+    {
+      "year": 2018,
+      "total_payments": 424966.86,
+      "total_services": 5899,
+      "total_beneficiaries": 2019,
+      "avg_submitted": 322.97,
+      "avg_paid": 89.63
+    },
+    {
+      "year": 2019,
+      "total_payments": 456508.05,
+      "total_services": 6670,
+      "total_beneficiaries": 1840,
+      "avg_submitted": 341.77,
+      "avg_paid": 90.23
+    },
+    {
+      "year": 2020,
+      "total_payments": 434375.3,
+      "total_services": 5880,
+      "total_beneficiaries": 1963,
+      "avg_submitted": 342.47,
+      "avg_paid": 88.02
+    },
+    {
+      "year": 2021,
+      "total_payments": 456496.74,
+      "total_services": 6550,
+      "total_beneficiaries": 1717,
+      "avg_submitted": 379.96,
+      "avg_paid": 92.01
+    },
+    {
+      "year": 2022,
+      "total_payments": 352166.79,
+      "total_services": 5036,
+      "total_beneficiaries": 1571,
+      "avg_submitted": 417.57,
+      "avg_paid": 94.74
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 38766,
+      "payments": 2248532.0,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4048,
+      "payments": 650024.94,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2915,
+      "payments": 382970.08,
+      "avg_markup": 3.04
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 4355,
+      "payments": 275027.57,
+      "avg_markup": 4.68
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 1689,
+      "payments": 139383.42,
+      "avg_markup": 2.92
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 253,
+      "payments": 21709.41,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 308,
+      "payments": 13213.14,
+      "avg_markup": 4.76
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 131,
+      "payments": 8223.3,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 73,
+      "payments": 7908.13,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 61,
+      "payments": 6328.95,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 44,
+      "payments": 3743.48,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99318",
+      "description": "Nursing facility annual assessment, typically 30 minutes",
+      "services": 52,
+      "payments": 3616.94,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 53,
+      "payments": 1718.38,
+      "avg_markup": 3.58
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3762399.74,
+    "total_services": 52748,
+    "total_beneficiaries": 15861,
+    "avg_markup_ratio": 3.41
+  }
+}

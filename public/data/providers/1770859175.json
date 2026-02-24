@@ -1,0 +1,108 @@
+{
+  "name": "Prompt Ambulance Central, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Lafayette",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 821977.34,
+      "total_services": 8060,
+      "total_beneficiaries": 5347,
+      "avg_submitted": 735.63,
+      "avg_paid": 234.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 1291583.11,
+      "total_services": 11067,
+      "total_beneficiaries": 7219,
+      "avg_submitted": 885.81,
+      "avg_paid": 283.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 1275492.41,
+      "total_services": 11027,
+      "total_beneficiaries": 7310,
+      "avg_submitted": 883.72,
+      "avg_paid": 281.1
+    },
+    {
+      "year": 2017,
+      "total_payments": 888265.64,
+      "total_services": 7486,
+      "total_beneficiaries": 5133,
+      "avg_submitted": 752.66,
+      "avg_paid": 233.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 68034.08,
+      "total_services": 563,
+      "total_beneficiaries": 493,
+      "avg_submitted": 643.2,
+      "avg_paid": 189.08
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 11085,
+      "payments": 1836114.07,
+      "avg_markup": 3.61
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 3352,
+      "payments": 1064972.62,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2922,
+      "payments": 779068.14,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1872,
+      "payments": 377387.48,
+      "avg_markup": 3.97
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18639,
+      "payments": 119865.9,
+      "avg_markup": 2.15
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 169,
+      "payments": 92506.33,
+      "avg_markup": 3.25
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 164,
+      "payments": 75438.04,
+      "avg_markup": 2.82
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4345352.58,
+    "total_services": 38203,
+    "total_beneficiaries": 25502,
+    "avg_markup_ratio": 3.33
+  }
+}

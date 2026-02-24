@@ -1,0 +1,80 @@
+{
+  "name": "Albert Cohen",
+  "credentials": "MD",
+  "specialty": "Pathology",
+  "city": "Delray Beach",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1078236.04,
+      "total_services": 18469,
+      "total_beneficiaries": 17692,
+      "avg_submitted": 251.96,
+      "avg_paid": 60.2
+    },
+    {
+      "year": 2015,
+      "total_payments": 1061825.98,
+      "total_services": 17926,
+      "total_beneficiaries": 17240,
+      "avg_submitted": 255.68,
+      "avg_paid": 61.15
+    },
+    {
+      "year": 2016,
+      "total_payments": 1037053.56,
+      "total_services": 18316,
+      "total_beneficiaries": 17491,
+      "avg_submitted": 260.89,
+      "avg_paid": 58.03
+    },
+    {
+      "year": 2017,
+      "total_payments": 840034.28,
+      "total_services": 14822,
+      "total_beneficiaries": 14283,
+      "avg_submitted": 261.01,
+      "avg_paid": 59.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 265712.35,
+      "total_services": 4620,
+      "total_beneficiaries": 4558,
+      "avg_submitted": 263.47,
+      "avg_paid": 61.49
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "88305",
+      "description": "Pathology examination of tissue using a microscope, intermediate complexity",
+      "services": 42768,
+      "payments": 2306636.79,
+      "avg_markup": 5.54
+    },
+    {
+      "code": "88312",
+      "description": "Special stained specimen slides to identify organisms including interpretation and report",
+      "services": 16027,
+      "payments": 1183278.02,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "88313",
+      "description": "Special stained specimen slides to examine tissue including interpretation and report",
+      "services": 15358,
+      "payments": 792947.41,
+      "avg_markup": 3.87
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4282862.22,
+    "total_services": 74153,
+    "total_beneficiaries": 71264,
+    "avg_markup_ratio": 4.73
+  }
+}

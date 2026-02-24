@@ -1,0 +1,218 @@
+{
+  "name": "Elena Schmuter",
+  "credentials": "D.O.",
+  "specialty": "Internal Medicine",
+  "city": "Amityville",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 195606.38,
+      "total_services": 2304,
+      "total_beneficiaries": 1012,
+      "avg_submitted": 189.29,
+      "avg_paid": 100.28
+    },
+    {
+      "year": 2015,
+      "total_payments": 201634.03,
+      "total_services": 2461,
+      "total_beneficiaries": 926,
+      "avg_submitted": 200.36,
+      "avg_paid": 116.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 174570.66,
+      "total_services": 2247,
+      "total_beneficiaries": 752,
+      "avg_submitted": 216.67,
+      "avg_paid": 112.95
+    },
+    {
+      "year": 2017,
+      "total_payments": 228127.35,
+      "total_services": 2743,
+      "total_beneficiaries": 993,
+      "avg_submitted": 949.4,
+      "avg_paid": 100.64
+    },
+    {
+      "year": 2018,
+      "total_payments": 263472.19,
+      "total_services": 2881,
+      "total_beneficiaries": 1133,
+      "avg_submitted": 674.32,
+      "avg_paid": 97.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 331828.37,
+      "total_services": 3581,
+      "total_beneficiaries": 1390,
+      "avg_submitted": 725.64,
+      "avg_paid": 99.56
+    },
+    {
+      "year": 2020,
+      "total_payments": 326837.43,
+      "total_services": 3277,
+      "total_beneficiaries": 1227,
+      "avg_submitted": 694.11,
+      "avg_paid": 93.46
+    },
+    {
+      "year": 2021,
+      "total_payments": 362978.28,
+      "total_services": 3817,
+      "total_beneficiaries": 1465,
+      "avg_submitted": 1090.19,
+      "avg_paid": 102.49
+    },
+    {
+      "year": 2022,
+      "total_payments": 436582.47,
+      "total_services": 4979,
+      "total_beneficiaries": 1947,
+      "avg_submitted": 920.77,
+      "avg_paid": 95.73
+    },
+    {
+      "year": 2023,
+      "total_payments": 425015.84,
+      "total_services": 4691,
+      "total_beneficiaries": 1612,
+      "avg_submitted": 1174.68,
+      "avg_paid": 101.82
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 12973,
+      "payments": 857836.38,
+      "avg_markup": 11.32
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 5849,
+      "payments": 559199.88,
+      "avg_markup": 10.15
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2881,
+      "payments": 520515.09,
+      "avg_markup": 8.79
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 3837,
+      "payments": 327551.24,
+      "avg_markup": 4.85
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3350,
+      "payments": 326064.13,
+      "avg_markup": 8.1
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 755,
+      "payments": 115090.96,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1141,
+      "payments": 80776.59,
+      "avg_markup": 8.0
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 941,
+      "payments": 57636.87,
+      "avg_markup": 5.68
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 222,
+      "payments": 27475.74,
+      "avg_markup": 19.18
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 334,
+      "payments": 23387.6,
+      "avg_markup": 15.73
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 175,
+      "payments": 16562.99,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit per day, typically 35 minutes",
+      "services": 113,
+      "payments": 13523.38,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99424",
+      "description": "Principal care management services for a single high-risk disease, first 30 minutes provided personally by qualified health care professional, per calendar month.",
+      "services": 115,
+      "payments": 8024.14,
+      "avg_markup": 1.45
+    },
+    {
+      "code": "99426",
+      "description": "Principal care management services for a single high-risk disease, first 30 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 115,
+      "payments": 5418.47,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 93,
+      "payments": 3322.67,
+      "avg_markup": 17.49
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 59,
+      "payments": 2352.85,
+      "avg_markup": 7.52
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 28,
+      "payments": 1914.02,
+      "avg_markup": 6.58
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2946653.0,
+    "total_services": 32981,
+    "total_beneficiaries": 12457,
+    "avg_markup_ratio": 9.05
+  }
+}

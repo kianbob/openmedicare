@@ -1,0 +1,223 @@
+{
+  "name": "Michael Chen",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "Edison",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 854675.65,
+      "total_services": 10877,
+      "total_beneficiaries": 5907,
+      "avg_submitted": 127.81,
+      "avg_paid": 89.68
+    },
+    {
+      "year": 2015,
+      "total_payments": 798804.03,
+      "total_services": 10193,
+      "total_beneficiaries": 5361,
+      "avg_submitted": 132.21,
+      "avg_paid": 86.05
+    },
+    {
+      "year": 2016,
+      "total_payments": 723233.23,
+      "total_services": 9590,
+      "total_beneficiaries": 5442,
+      "avg_submitted": 169.29,
+      "avg_paid": 80.71
+    },
+    {
+      "year": 2017,
+      "total_payments": 449582.55,
+      "total_services": 6192,
+      "total_beneficiaries": 3338,
+      "avg_submitted": 246.97,
+      "avg_paid": 82.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 417057.49,
+      "total_services": 6266,
+      "total_beneficiaries": 3151,
+      "avg_submitted": 249.39,
+      "avg_paid": 86.46
+    },
+    {
+      "year": 2019,
+      "total_payments": 271070.88,
+      "total_services": 4469,
+      "total_beneficiaries": 2394,
+      "avg_submitted": 149.55,
+      "avg_paid": 54.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 209390.27,
+      "total_services": 3204,
+      "total_beneficiaries": 1964,
+      "avg_submitted": 199.24,
+      "avg_paid": 71.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 41109.57,
+      "total_services": 633,
+      "total_beneficiaries": 498,
+      "avg_submitted": 783.31,
+      "avg_paid": 99.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 10259,
+      "payments": 568256.62,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8431,
+      "payments": 515034.57,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "93306",
+      "description": "Ultrasound examination of heart including color-depicted blood flow rate, direction, and valve function",
+      "services": 3200,
+      "payments": 503075.1,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "78452",
+      "description": "Nuclear medicine study of vessels of heart using drugs or exercise multiple studies",
+      "services": 884,
+      "payments": 384945.85,
+      "avg_markup": 1.86
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2096,
+      "payments": 355514.97,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2321,
+      "payments": 204715.47,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2114,
+      "payments": 181239.06,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 875,
+      "payments": 152769.66,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "93978",
+      "description": "Ultrasound scan of vena cava or groin graft or vessel blood flow",
+      "services": 808,
+      "payments": 145989.51,
+      "avg_markup": 1.85
+    },
+    {
+      "code": "A9500",
+      "description": "Technetium tc-99m sestamibi, diagnostic, per study dose",
+      "services": 898,
+      "payments": 131070.15,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1793,
+      "payments": 105327.58,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "G0166",
+      "description": "External counterpulsation, per treatment session",
+      "services": 769,
+      "payments": 96293.32,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 419,
+      "payments": 66541.06,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "93015",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician supervision, interpretation, and report",
+      "services": 901,
+      "payments": 55114.58,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 3468,
+      "payments": 45898.9,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1199,
+      "payments": 42564.23,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 345,
+      "payments": 27548.48,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 227,
+      "payments": 26935.22,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "93010",
+      "description": "Routine electrocardiogram (EKG) using at least 12 leads with interpretation and report",
+      "services": 2785,
+      "payments": 19668.15,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 138,
+      "payments": 19481.93,
+      "avg_markup": 1.58
+    }
+  ],
+  "overall": {
+    "years_active": 8,
+    "total_payments": 3764923.66,
+    "total_services": 51424,
+    "total_beneficiaries": 28055,
+    "avg_markup_ratio": 2.1
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Michael Kamiel",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 438517.73,
+      "total_services": 6471,
+      "total_beneficiaries": 930,
+      "avg_submitted": 203.28,
+      "avg_paid": 82.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 538984.35,
+      "total_services": 7698,
+      "total_beneficiaries": 950,
+      "avg_submitted": 173.33,
+      "avg_paid": 67.0
+    },
+    {
+      "year": 2016,
+      "total_payments": 549134.84,
+      "total_services": 8142,
+      "total_beneficiaries": 1072,
+      "avg_submitted": 204.88,
+      "avg_paid": 78.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 619844.92,
+      "total_services": 8568,
+      "total_beneficiaries": 959,
+      "avg_submitted": 219.17,
+      "avg_paid": 87.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 601783.81,
+      "total_services": 8009,
+      "total_beneficiaries": 957,
+      "avg_submitted": 203.0,
+      "avg_paid": 80.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 628010.92,
+      "total_services": 8223,
+      "total_beneficiaries": 1093,
+      "avg_submitted": 203.0,
+      "avg_paid": 79.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 330789.25,
+      "total_services": 4650,
+      "total_beneficiaries": 741,
+      "avg_submitted": 178.76,
+      "avg_paid": 71.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 316837.58,
+      "total_services": 4491,
+      "total_beneficiaries": 715,
+      "avg_submitted": 210.63,
+      "avg_paid": 97.24
+    },
+    {
+      "year": 2022,
+      "total_payments": 246405.87,
+      "total_services": 3493,
+      "total_beneficiaries": 621,
+      "avg_submitted": 241.67,
+      "avg_paid": 96.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 257278.85,
+      "total_services": 3524,
+      "total_beneficiaries": 609,
+      "avg_submitted": 241.37,
+      "avg_paid": 91.01
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 53615,
+      "payments": 3289611.8,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4455,
+      "payments": 735850.9,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 3842,
+      "payments": 446017.79,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 833,
+      "payments": 44359.26,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 69,
+      "payments": 7742.26,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99214",
+      "description": "Established patient outpatient visit, total time 30-39 minutes",
+      "services": 31,
+      "payments": 2691.35,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "82962",
+      "description": "Blood glucose (sugar) test performed by hand-held instrument",
+      "services": 289,
+      "payments": 917.86,
+      "avg_markup": 7.87
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 135,
+      "payments": 396.9,
+      "avg_markup": 8.5
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4527588.12,
+    "total_services": 63269,
+    "total_beneficiaries": 8647,
+    "avg_markup_ratio": 2.49
+  }
+}

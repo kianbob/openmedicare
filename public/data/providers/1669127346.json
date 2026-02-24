@@ -1,0 +1,98 @@
+{
+  "name": "Illuminate Diagnostics Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Santa Ana",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2022,
+      "total_payments": 1542121.57,
+      "total_services": 34188,
+      "total_beneficiaries": 5899,
+      "avg_submitted": 135.8,
+      "avg_paid": 54.07
+    },
+    {
+      "year": 2023,
+      "total_payments": 1540408.72,
+      "total_services": 27874,
+      "total_beneficiaries": 5718,
+      "avg_submitted": 104.04,
+      "avg_paid": 60.96
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "U0003",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",
+      "services": 15825,
+      "payments": 1164488.25,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "87502",
+      "description": "Detection test by nucleic acid for multiple types influenza virus",
+      "services": 5943,
+      "payments": 557928.84,
+      "avg_markup": 1.21
+    },
+    {
+      "code": "87634",
+      "description": "Detection test by nucleic acid for respiratory syncytial virus, amplified probe technique",
+      "services": 5943,
+      "payments": 408878.4,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "U0005",
+      "description": "Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",
+      "services": 15769,
+      "payments": 386790.75,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "G2023",
+      "description": "Specimen collection for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), any specimen source",
+      "services": 15836,
+      "payments": 364501.63,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "87637",
+      "description": "Detection test by multiplex amplified probe technique for severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (covid-19), influenza virus types a and b, and respiratory syncytial virus",
+      "services": 703,
+      "payments": 98265.34,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "87635",
+      "description": "Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen",
+      "services": 1947,
+      "payments": 97895.16,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "87811",
+      "description": "Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19)",
+      "services": 78,
+      "payments": 3162.9,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "87481",
+      "description": "Detection test for candida species (yeast), amplified probe technique",
+      "services": 18,
+      "payments": 619.02,
+      "avg_markup": 1.44
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 3082530.29,
+    "total_services": 62062,
+    "total_beneficiaries": 11617,
+    "avg_markup_ratio": 2.78
+  }
+}

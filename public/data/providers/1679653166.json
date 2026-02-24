@@ -1,0 +1,128 @@
+{
+  "name": "Adir Ludin",
+  "credentials": "M.D.",
+  "specialty": "Radiation Oncology",
+  "city": "Cleveland",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 1194255.43,
+      "total_services": 6656,
+      "total_beneficiaries": 893,
+      "avg_submitted": 1245.28,
+      "avg_paid": 289.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 1448228.69,
+      "total_services": 7750,
+      "total_beneficiaries": 956,
+      "avg_submitted": 2082.7,
+      "avg_paid": 286.27
+    },
+    {
+      "year": 2022,
+      "total_payments": 1845976.26,
+      "total_services": 10322,
+      "total_beneficiaries": 1172,
+      "avg_submitted": 2059.83,
+      "avg_paid": 269.76
+    },
+    {
+      "year": 2023,
+      "total_payments": 1538142.4,
+      "total_services": 8983,
+      "total_beneficiaries": 966,
+      "avg_submitted": 2059.83,
+      "avg_paid": 266.68
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G6015",
+      "description": "Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",
+      "services": 12855,
+      "payments": 3474510.37,
+      "avg_markup": 10.72
+    },
+    {
+      "code": "77014",
+      "description": "Ct scan guidance for insertion of radiation therapy fields",
+      "services": 12689,
+      "payments": 1168041.67,
+      "avg_markup": 6.45
+    },
+    {
+      "code": "77427",
+      "description": "Radiation treatment management, 5 treatments",
+      "services": 3029,
+      "payments": 450653.91,
+      "avg_markup": 10.7
+    },
+    {
+      "code": "77301",
+      "description": "Management of modulation radiotherapy planning",
+      "services": 311,
+      "payments": 432599.22,
+      "avg_markup": 7.08
+    },
+    {
+      "code": "77336",
+      "description": "Radiation therapy consultation per week",
+      "services": 3033,
+      "payments": 185458.04,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "77338",
+      "description": "Design and construction of device for radiation therapy",
+      "services": 385,
+      "payments": 136039.63,
+      "avg_markup": 6.84
+    },
+    {
+      "code": "77290",
+      "description": "Management of radiation therapy, simulation, complex",
+      "services": 168,
+      "payments": 49134.18,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 283,
+      "payments": 46570.83,
+      "avg_markup": 4.69
+    },
+    {
+      "code": "77263",
+      "description": "Management of radiation therapy, complex",
+      "services": 326,
+      "payments": 42901.85,
+      "avg_markup": 6.59
+    },
+    {
+      "code": "77334",
+      "description": "Radiation treatment devices, design and construction, complex",
+      "services": 239,
+      "payments": 21080.9,
+      "avg_markup": 8.68
+    },
+    {
+      "code": "77300",
+      "description": "Calculation of radiation therapy dose",
+      "services": 393,
+      "payments": 19612.17,
+      "avg_markup": 7.06
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 6026602.78,
+    "total_services": 33711,
+    "total_beneficiaries": 3987,
+    "avg_markup_ratio": 9.18
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "name": "Mario Littman",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Philadelphia",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 229069.93,
+      "total_services": 3201,
+      "total_beneficiaries": 619,
+      "avg_submitted": 171.36,
+      "avg_paid": 88.52
+    },
+    {
+      "year": 2015,
+      "total_payments": 357712.46,
+      "total_services": 5168,
+      "total_beneficiaries": 633,
+      "avg_submitted": 156.07,
+      "avg_paid": 72.82
+    },
+    {
+      "year": 2016,
+      "total_payments": 266603.66,
+      "total_services": 5016,
+      "total_beneficiaries": 590,
+      "avg_submitted": 146.43,
+      "avg_paid": 67.8
+    },
+    {
+      "year": 2017,
+      "total_payments": 129498.91,
+      "total_services": 2108,
+      "total_beneficiaries": 445,
+      "avg_submitted": 180.18,
+      "avg_paid": 76.17
+    },
+    {
+      "year": 2018,
+      "total_payments": 208859.86,
+      "total_services": 3190,
+      "total_beneficiaries": 458,
+      "avg_submitted": 214.58,
+      "avg_paid": 84.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 343264.35,
+      "total_services": 4555,
+      "total_beneficiaries": 474,
+      "avg_submitted": 202.27,
+      "avg_paid": 81.96
+    },
+    {
+      "year": 2020,
+      "total_payments": 456670.58,
+      "total_services": 6410,
+      "total_beneficiaries": 465,
+      "avg_submitted": 190.0,
+      "avg_paid": 83.02
+    },
+    {
+      "year": 2021,
+      "total_payments": 588953.06,
+      "total_services": 7920,
+      "total_beneficiaries": 647,
+      "avg_submitted": 190.0,
+      "avg_paid": 86.85
+    },
+    {
+      "year": 2022,
+      "total_payments": 683048.79,
+      "total_services": 9459,
+      "total_beneficiaries": 574,
+      "avg_submitted": 182.5,
+      "avg_paid": 78.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 726188.3,
+      "total_services": 8454,
+      "total_beneficiaries": 422,
+      "avg_submitted": 185.71,
+      "avg_paid": 91.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 33488,
+      "payments": 2581649.37,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 11748,
+      "payments": 659906.74,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 1542,
+      "payments": 173559.35,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 2148,
+      "payments": 115345.46,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 818,
+      "payments": 112426.03,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1868,
+      "payments": 108977.65,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1908,
+      "payments": 67794.8,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 299,
+      "payments": 49085.01,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 483,
+      "payments": 40421.83,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 472,
+      "payments": 28326.25,
+      "avg_markup": 2.72
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 123,
+      "payments": 12838.91,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 144,
+      "payments": 10840.88,
+      "avg_markup": 2.0
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 165,
+      "payments": 9689.25,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 158,
+      "payments": 6885.74,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 66,
+      "payments": 5198.8,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 25,
+      "payments": 4636.0,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 13,
+      "payments": 1847.41,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "G0179",
+      "description": "Physician re-certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial im",
+      "services": 13,
+      "payments": 440.42,
+      "avg_markup": 3.78
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3989869.9,
+    "total_services": 55481,
+    "total_beneficiaries": 5327,
+    "avg_markup_ratio": 2.21
+  }
+}

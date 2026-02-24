@@ -1,0 +1,109 @@
+{
+  "name": "Howard Community Ambulance Service",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Kokomo",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 283397.62,
+      "total_services": 1837,
+      "total_beneficiaries": 1451,
+      "avg_submitted": 1096.67,
+      "avg_paid": 239.54
+    },
+    {
+      "year": 2019,
+      "total_payments": 475789.5,
+      "total_services": 3276,
+      "total_beneficiaries": 2410,
+      "avg_submitted": 1097.09,
+      "avg_paid": 244.54
+    },
+    {
+      "year": 2020,
+      "total_payments": 484433.51,
+      "total_services": 3299,
+      "total_beneficiaries": 2389,
+      "avg_submitted": 1098.96,
+      "avg_paid": 246.53
+    },
+    {
+      "year": 2021,
+      "total_payments": 465569.49,
+      "total_services": 3211,
+      "total_beneficiaries": 2277,
+      "avg_submitted": 1096.67,
+      "avg_paid": 248.56
+    },
+    {
+      "year": 2022,
+      "total_payments": 475545.27,
+      "total_services": 3243,
+      "total_beneficiaries": 2274,
+      "avg_submitted": 916.18,
+      "avg_paid": 209.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 506083.09,
+      "total_services": 3146,
+      "total_beneficiaries": 2231,
+      "avg_submitted": 1114.0,
+      "avg_paid": 281.21
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 4208,
+      "payments": 1431533.6,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2390,
+      "payments": 688851.09,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 2137,
+      "payments": 387427.5,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 316,
+      "payments": 68138.54,
+      "avg_markup": 7.51
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 124,
+      "payments": 59621.03,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 8837,
+      "payments": 55246.73,
+      "avg_markup": 4.8
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 2690818.5,
+    "total_services": 18012,
+    "total_beneficiaries": 13032,
+    "avg_markup_ratio": 3.91
+  }
+}

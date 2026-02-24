@@ -1,0 +1,239 @@
+{
+  "name": "Albert Aura",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Bossier City",
+  "state": "LA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 188490.35,
+      "total_services": 2646,
+      "total_beneficiaries": 1185,
+      "avg_submitted": 194.63,
+      "avg_paid": 88.38
+    },
+    {
+      "year": 2015,
+      "total_payments": 200608.39,
+      "total_services": 2929,
+      "total_beneficiaries": 1047,
+      "avg_submitted": 185.05,
+      "avg_paid": 84.95
+    },
+    {
+      "year": 2016,
+      "total_payments": 245370.03,
+      "total_services": 3253,
+      "total_beneficiaries": 1209,
+      "avg_submitted": 164.77,
+      "avg_paid": 78.47
+    },
+    {
+      "year": 2017,
+      "total_payments": 342477.84,
+      "total_services": 5209,
+      "total_beneficiaries": 1128,
+      "avg_submitted": 179.25,
+      "avg_paid": 82.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 297939.54,
+      "total_services": 4786,
+      "total_beneficiaries": 1281,
+      "avg_submitted": 152.19,
+      "avg_paid": 78.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 316551.6,
+      "total_services": 5480,
+      "total_beneficiaries": 1581,
+      "avg_submitted": 173.91,
+      "avg_paid": 78.12
+    },
+    {
+      "year": 2020,
+      "total_payments": 261827.73,
+      "total_services": 4402,
+      "total_beneficiaries": 1353,
+      "avg_submitted": 158.0,
+      "avg_paid": 74.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 221944.2,
+      "total_services": 3564,
+      "total_beneficiaries": 1078,
+      "avg_submitted": 188.55,
+      "avg_paid": 76.08
+    },
+    {
+      "year": 2022,
+      "total_payments": 271054.64,
+      "total_services": 4362,
+      "total_beneficiaries": 997,
+      "avg_submitted": 245.89,
+      "avg_paid": 84.89
+    },
+    {
+      "year": 2023,
+      "total_payments": 346369.75,
+      "total_services": 5167,
+      "total_beneficiaries": 1175,
+      "avg_submitted": 213.71,
+      "avg_paid": 89.38
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19938,
+      "payments": 1106631.8,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 5752,
+      "payments": 391755.54,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1860,
+      "payments": 271603.74,
+      "avg_markup": 2.84
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 5113,
+      "payments": 241024.63,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2703,
+      "payments": 212595.56,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2389,
+      "payments": 194341.26,
+      "avg_markup": 2.34
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 488,
+      "payments": 67383.52,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1433,
+      "payments": 44101.72,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 642,
+      "payments": 34935.27,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 272,
+      "payments": 27835.46,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 278,
+      "payments": 26148.95,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 201,
+      "payments": 24518.05,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 185,
+      "payments": 14175.33,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 134,
+      "payments": 8925.37,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care, typically 50 minutes",
+      "services": 81,
+      "payments": 8013.06,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 110,
+      "payments": 6097.58,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 23,
+      "payments": 2936.91,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 52,
+      "payments": 2844.4,
+      "avg_markup": 2.27
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 17,
+      "payments": 1732.64,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 29,
+      "payments": 1585.43,
+      "avg_markup": 1.46
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2692634.07,
+    "total_services": 41798,
+    "total_beneficiaries": 12034,
+    "avg_markup_ratio": 1.97
+  }
+}

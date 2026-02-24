@@ -1,0 +1,57 @@
+{
+  "name": "Razor Genomics, Inc",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Nashville",
+  "state": "TN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 484947.69,
+      "total_services": 154,
+      "total_beneficiaries": 152,
+      "avg_submitted": 5000.0,
+      "avg_paid": 3149.01
+    },
+    {
+      "year": 2021,
+      "total_payments": 270850.12,
+      "total_services": 86,
+      "total_beneficiaries": 86,
+      "avg_submitted": 5000.0,
+      "avg_paid": 3149.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 1882587.84,
+      "total_services": 496,
+      "total_beneficiaries": 491,
+      "avg_submitted": 6500.0,
+      "avg_paid": 3795.54
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "0288U",
+      "description": "Pcr measurement of 11 genes (bag1, brca1, cdc6, cdk2ap1, erbb3, fut3, il11, lck, rnd3, sh3bgr, wnt3a) and 3 reference genes (esd, tbp, yap1), in tumor tissue, with algorithmic interpretation reported as a recurrence risk score",
+      "services": 496,
+      "payments": 1882587.84,
+      "avg_markup": 1.71
+    },
+    {
+      "code": "81479",
+      "description": "Molecular pathology procedure",
+      "services": 240,
+      "payments": 755797.81,
+      "avg_markup": 1.59
+    }
+  ],
+  "overall": {
+    "years_active": 3,
+    "total_payments": 2638385.65,
+    "total_services": 736,
+    "total_beneficiaries": 729,
+    "avg_markup_ratio": 1.68
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Jeffrey Ogden",
+  "credentials": "M.D",
+  "specialty": "Internal Medicine",
+  "city": "Orem",
+  "state": "UT",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 186462.63,
+      "total_services": 14293,
+      "total_beneficiaries": 7034,
+      "avg_submitted": 34.8,
+      "avg_paid": 22.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 229290.58,
+      "total_services": 15221,
+      "total_beneficiaries": 7627,
+      "avg_submitted": 52.84,
+      "avg_paid": 24.69
+    },
+    {
+      "year": 2016,
+      "total_payments": 253384.64,
+      "total_services": 16723,
+      "total_beneficiaries": 8022,
+      "avg_submitted": 61.69,
+      "avg_paid": 24.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 307563.79,
+      "total_services": 17336,
+      "total_beneficiaries": 9076,
+      "avg_submitted": 80.91,
+      "avg_paid": 33.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 339740.68,
+      "total_services": 16719,
+      "total_beneficiaries": 8594,
+      "avg_submitted": 81.03,
+      "avg_paid": 33.58
+    },
+    {
+      "year": 2019,
+      "total_payments": 378171.55,
+      "total_services": 18808,
+      "total_beneficiaries": 9947,
+      "avg_submitted": 74.22,
+      "avg_paid": 32.36
+    },
+    {
+      "year": 2020,
+      "total_payments": 352344.25,
+      "total_services": 18210,
+      "total_beneficiaries": 9704,
+      "avg_submitted": 73.94,
+      "avg_paid": 30.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 398386.88,
+      "total_services": 19750,
+      "total_beneficiaries": 10733,
+      "avg_submitted": 75.17,
+      "avg_paid": 32.0
+    },
+    {
+      "year": 2022,
+      "total_payments": 361246.32,
+      "total_services": 18782,
+      "total_beneficiaries": 10695,
+      "avg_submitted": 67.62,
+      "avg_paid": 30.52
+    },
+    {
+      "year": 2023,
+      "total_payments": 266029.99,
+      "total_services": 13647,
+      "total_beneficiaries": 7833,
+      "avg_submitted": 68.62,
+      "avg_paid": 29.96
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 4378,
+      "payments": 463705.14,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 3577,
+      "payments": 259290.45,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 1521,
+      "payments": 172436.65,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "95923",
+      "description": "Testing of autonomic (sympathetic) nervous system function",
+      "services": 1022,
+      "payments": 94515.37,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "95943",
+      "description": "Testing of autonomic (parasympathetic and sympathetic) nervous system function",
+      "services": 749,
+      "payments": 89973.61,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3909,
+      "payments": 74031.0,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "84481",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 3853,
+      "payments": 73758.34,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 6481,
+      "payments": 72639.25,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 6507,
+      "payments": 69635.59,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "99354",
+      "description": "Prolonged office or other outpatient service first hour",
+      "services": 694,
+      "payments": 66534.15,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "84403",
+      "description": "Testosterone (hormone) level",
+      "services": 2197,
+      "payments": 63191.09,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "93922",
+      "description": "Ultrasound study of arteries of both arms and legs",
+      "services": 1013,
+      "payments": 61703.64,
+      "avg_markup": 3.24
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 7611,
+      "payments": 58381.79,
+      "avg_markup": 1.56
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 1734,
+      "payments": 57524.18,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "82150",
+      "description": "Amylase (enzyme) level",
+      "services": 7528,
+      "payments": 55760.84,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 905,
+      "payments": 49414.02,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "96132",
+      "description": "Neuropsychological testing evaluation by qualified health care professional, first 60 minutes",
+      "services": 490,
+      "payments": 48548.79,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 6637,
+      "payments": 48488.34,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "84146",
+      "description": "Prolactin (milk producing hormone) level",
+      "services": 2188,
+      "payments": 47202.06,
+      "avg_markup": 1.48
+    },
+    {
+      "code": "80076",
+      "description": "Liver function blood test panel",
+      "services": 6637,
+      "payments": 45482.03,
+      "avg_markup": 2.91
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3072621.31,
+    "total_services": 169489,
+    "total_beneficiaries": 89265,
+    "avg_markup_ratio": 2.23
+  }
+}

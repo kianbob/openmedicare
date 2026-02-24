@@ -1,0 +1,127 @@
+{
+  "name": "City Of New Bedford",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "New Bedford",
+  "state": "MA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1234379.68,
+      "total_services": 7195,
+      "total_beneficiaries": 4661,
+      "avg_submitted": 1278.15,
+      "avg_paid": 285.35
+    },
+    {
+      "year": 2015,
+      "total_payments": 1370902.42,
+      "total_services": 7824,
+      "total_beneficiaries": 5009,
+      "avg_submitted": 1286.95,
+      "avg_paid": 291.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 1311935.98,
+      "total_services": 7572,
+      "total_beneficiaries": 4822,
+      "avg_submitted": 1446.35,
+      "avg_paid": 289.05
+    },
+    {
+      "year": 2017,
+      "total_payments": 1452856.07,
+      "total_services": 8370,
+      "total_beneficiaries": 5260,
+      "avg_submitted": 1573.06,
+      "avg_paid": 290.55
+    },
+    {
+      "year": 2018,
+      "total_payments": 1401402.67,
+      "total_services": 8019,
+      "total_beneficiaries": 4934,
+      "avg_submitted": 1573.06,
+      "avg_paid": 295.26
+    },
+    {
+      "year": 2019,
+      "total_payments": 1335095.97,
+      "total_services": 7451,
+      "total_beneficiaries": 4734,
+      "avg_submitted": 1573.06,
+      "avg_paid": 302.11
+    },
+    {
+      "year": 2020,
+      "total_payments": 1323557.33,
+      "total_services": 7387,
+      "total_beneficiaries": 4484,
+      "avg_submitted": 1573.07,
+      "avg_paid": 306.99
+    },
+    {
+      "year": 2021,
+      "total_payments": 1472427.09,
+      "total_services": 8208,
+      "total_beneficiaries": 5064,
+      "avg_submitted": 1845.42,
+      "avg_paid": 309.41
+    },
+    {
+      "year": 2022,
+      "total_payments": 1433542.77,
+      "total_services": 7770,
+      "total_beneficiaries": 4891,
+      "avg_submitted": 1895.33,
+      "avg_paid": 320.82
+    },
+    {
+      "year": 2023,
+      "total_payments": 1596962.86,
+      "total_services": 7703,
+      "total_beneficiaries": 4538,
+      "avg_submitted": 1895.59,
+      "avg_paid": 346.52
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 27146,
+      "payments": 9955389.97,
+      "avg_markup": 5.44
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 11125,
+      "payments": 3462509.13,
+      "avg_markup": 4.19
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 534,
+      "payments": 284123.24,
+      "avg_markup": 5.8
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 38694,
+      "payments": 231040.5,
+      "avg_markup": 5.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 13933062.84,
+    "total_services": 77499,
+    "total_beneficiaries": 48397,
+    "avg_markup_ratio": 5.14
+  }
+}

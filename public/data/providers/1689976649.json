@@ -1,0 +1,239 @@
+{
+  "name": "Chool Liyanapatabendi",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Park Ridge",
+  "state": "IL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 365281.07,
+      "total_services": 4440,
+      "total_beneficiaries": 1933,
+      "avg_submitted": 110.13,
+      "avg_paid": 84.01
+    },
+    {
+      "year": 2015,
+      "total_payments": 448704.57,
+      "total_services": 6063,
+      "total_beneficiaries": 2511,
+      "avg_submitted": 114.55,
+      "avg_paid": 88.12
+    },
+    {
+      "year": 2016,
+      "total_payments": 356989.98,
+      "total_services": 4602,
+      "total_beneficiaries": 1850,
+      "avg_submitted": 201.01,
+      "avg_paid": 82.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 487899.02,
+      "total_services": 5952,
+      "total_beneficiaries": 1694,
+      "avg_submitted": 229.3,
+      "avg_paid": 93.02
+    },
+    {
+      "year": 2018,
+      "total_payments": 463313.5,
+      "total_services": 6138,
+      "total_beneficiaries": 1552,
+      "avg_submitted": 230.37,
+      "avg_paid": 91.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 302064.23,
+      "total_services": 3921,
+      "total_beneficiaries": 1181,
+      "avg_submitted": 246.84,
+      "avg_paid": 90.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 417578.12,
+      "total_services": 5421,
+      "total_beneficiaries": 1468,
+      "avg_submitted": 215.71,
+      "avg_paid": 87.06
+    },
+    {
+      "year": 2021,
+      "total_payments": 187696.95,
+      "total_services": 2384,
+      "total_beneficiaries": 794,
+      "avg_submitted": 268.44,
+      "avg_paid": 100.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 151497.94,
+      "total_services": 1905,
+      "total_beneficiaries": 751,
+      "avg_submitted": 195.69,
+      "avg_paid": 77.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 228344.65,
+      "total_services": 2757,
+      "total_beneficiaries": 789,
+      "avg_submitted": 231.3,
+      "avg_paid": 96.97
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 8116,
+      "payments": 711862.93,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 8790,
+      "payments": 671266.92,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 9123,
+      "payments": 516884.71,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2726,
+      "payments": 461105.16,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6616,
+      "payments": 401429.4,
+      "avg_markup": 2.13
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1625,
+      "payments": 224574.27,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2488,
+      "payments": 223590.18,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "93227",
+      "description": "Heart rhythm tracing, analysis, and interpretation of 48-hour EKG",
+      "services": 2341,
+      "payments": 51570.87,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 560,
+      "payments": 47778.0,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 166,
+      "payments": 18854.35,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 55,
+      "payments": 8577.41,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 88,
+      "payments": 7803.93,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 50,
+      "payments": 6684.74,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "99218",
+      "description": "Hospital observation care typically 30 minutes",
+      "services": 78,
+      "payments": 6562.62,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 105,
+      "payments": 6391.91,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 85,
+      "payments": 5979.28,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 56,
+      "payments": 5790.84,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility care with moderate level of medical decision making, per day, if using time, at least 35 minutes",
+      "services": 49,
+      "payments": 5414.64,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 75,
+      "payments": 4553.16,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 36,
+      "payments": 4159.5,
+      "avg_markup": 2.36
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3409370.03,
+    "total_services": 43583,
+    "total_beneficiaries": 14523,
+    "avg_markup_ratio": 2.22
+  }
+}

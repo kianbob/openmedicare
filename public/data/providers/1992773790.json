@@ -1,0 +1,127 @@
+{
+  "name": "City Of Pittsburgh",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1502556.72,
+      "total_services": 9655,
+      "total_beneficiaries": 6305,
+      "avg_submitted": 652.31,
+      "avg_paid": 256.76
+    },
+    {
+      "year": 2015,
+      "total_payments": 1457374.81,
+      "total_services": 9245,
+      "total_beneficiaries": 5906,
+      "avg_submitted": 675.17,
+      "avg_paid": 258.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 1098321.24,
+      "total_services": 7311,
+      "total_beneficiaries": 4599,
+      "avg_submitted": 615.86,
+      "avg_paid": 260.55
+    },
+    {
+      "year": 2017,
+      "total_payments": 1319910.83,
+      "total_services": 8438,
+      "total_beneficiaries": 5480,
+      "avg_submitted": 805.17,
+      "avg_paid": 261.44
+    },
+    {
+      "year": 2018,
+      "total_payments": 1371266.44,
+      "total_services": 8792,
+      "total_beneficiaries": 5747,
+      "avg_submitted": 839.52,
+      "avg_paid": 261.56
+    },
+    {
+      "year": 2019,
+      "total_payments": 1573985.84,
+      "total_services": 9793,
+      "total_beneficiaries": 6106,
+      "avg_submitted": 843.18,
+      "avg_paid": 273.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 1359844.26,
+      "total_services": 8260,
+      "total_beneficiaries": 5065,
+      "avg_submitted": 1005.56,
+      "avg_paid": 279.23
+    },
+    {
+      "year": 2021,
+      "total_payments": 1382012.95,
+      "total_services": 8241,
+      "total_beneficiaries": 5149,
+      "avg_submitted": 1037.39,
+      "avg_paid": 280.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 1331322.73,
+      "total_services": 7787,
+      "total_beneficiaries": 4990,
+      "avg_submitted": 1077.45,
+      "avg_paid": 286.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 1283562.58,
+      "total_services": 7005,
+      "total_beneficiaries": 4336,
+      "avg_submitted": 1140.44,
+      "avg_paid": 308.92
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 28394,
+      "payments": 9354086.03,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 13934,
+      "payments": 3862542.45,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 41747,
+      "payments": 248199.2,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 452,
+      "payments": 215330.71,
+      "avg_markup": 2.87
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 13680158.4,
+    "total_services": 84527,
+    "total_beneficiaries": 53683,
+    "avg_markup_ratio": 3.43
+  }
+}

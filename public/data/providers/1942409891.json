@@ -1,0 +1,239 @@
+{
+  "name": "Michael Bishai",
+  "credentials": "MD",
+  "specialty": "Hospitalist",
+  "city": "Smithtown",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 176446.04,
+      "total_services": 1633,
+      "total_beneficiaries": 1018,
+      "avg_submitted": 317.09,
+      "avg_paid": 106.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 278149.47,
+      "total_services": 2256,
+      "total_beneficiaries": 1426,
+      "avg_submitted": 504.47,
+      "avg_paid": 123.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 292489.1,
+      "total_services": 2510,
+      "total_beneficiaries": 1587,
+      "avg_submitted": 487.97,
+      "avg_paid": 122.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 429493.89,
+      "total_services": 4454,
+      "total_beneficiaries": 1572,
+      "avg_submitted": 611.45,
+      "avg_paid": 119.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 438585.33,
+      "total_services": 4649,
+      "total_beneficiaries": 1621,
+      "avg_submitted": 377.48,
+      "avg_paid": 112.13
+    },
+    {
+      "year": 2019,
+      "total_payments": 482425.67,
+      "total_services": 5365,
+      "total_beneficiaries": 2293,
+      "avg_submitted": 322.08,
+      "avg_paid": 100.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 478706.74,
+      "total_services": 6267,
+      "total_beneficiaries": 2367,
+      "avg_submitted": 327.75,
+      "avg_paid": 97.36
+    },
+    {
+      "year": 2021,
+      "total_payments": 451992.36,
+      "total_services": 5104,
+      "total_beneficiaries": 2485,
+      "avg_submitted": 397.56,
+      "avg_paid": 99.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 357269.24,
+      "total_services": 3935,
+      "total_beneficiaries": 2119,
+      "avg_submitted": 242.01,
+      "avg_paid": 98.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 297728.43,
+      "total_services": 3090,
+      "total_beneficiaries": 1786,
+      "avg_submitted": 219.08,
+      "avg_paid": 103.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 10508,
+      "payments": 850324.68,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2779,
+      "payments": 504166.0,
+      "avg_markup": 5.27
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 6006,
+      "payments": 372435.07,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 2502,
+      "payments": 368962.08,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 4269,
+      "payments": 358720.79,
+      "avg_markup": 2.44
+    },
+    {
+      "code": "99349",
+      "description": "Established patient home visit, typically 40 minutes",
+      "services": 1997,
+      "payments": 223887.89,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99336",
+      "description": "Established patient assisted living visit, typically 40 minutes",
+      "services": 1784,
+      "payments": 214963.51,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning by the physician or other qualified health care professional",
+      "services": 1324,
+      "payments": 95390.25,
+      "avg_markup": 3.35
+    },
+    {
+      "code": "99491",
+      "description": "Chronic care management services by qualified health care professional, 30 minutes or more per calendar month",
+      "services": 1168,
+      "payments": 86197.85,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 644,
+      "payments": 81006.98,
+      "avg_markup": 6.21
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 1841,
+      "payments": 73150.75,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99348",
+      "description": "Established patient home visit, typically 25 minutes",
+      "services": 852,
+      "payments": 58857.44,
+      "avg_markup": 3.08
+    },
+    {
+      "code": "99483",
+      "description": "Assessment of and care planning for patient with impaired thought processing, typically 50 minutes",
+      "services": 196,
+      "payments": 48775.22,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 195,
+      "payments": 39445.97,
+      "avg_markup": 6.3
+    },
+    {
+      "code": "99327",
+      "description": "New patient assisted living visit, typically 60 minutes",
+      "services": 203,
+      "payments": 33208.27,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 343,
+      "payments": 32133.78,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 230,
+      "payments": 28335.23,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "99334",
+      "description": "Established patient assisted living visit, typically 15 minutes",
+      "services": 504,
+      "payments": 25287.42,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 146,
+      "payments": 24450.89,
+      "avg_markup": 5.96
+    },
+    {
+      "code": "99344",
+      "description": "New patient home visit, typically 60 minutes",
+      "services": 161,
+      "payments": 23266.25,
+      "avg_markup": 2.27
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3683286.27,
+    "total_services": 39263,
+    "total_beneficiaries": 18274,
+    "avg_markup_ratio": 2.89
+  }
+}

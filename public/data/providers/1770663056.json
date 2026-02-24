@@ -1,0 +1,73 @@
+{
+  "name": "East Texas Flight Ambulance",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Tyler",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1657478.36,
+      "total_services": 857,
+      "total_beneficiaries": 835,
+      "avg_submitted": 6462.45,
+      "avg_paid": 1931.82
+    },
+    {
+      "year": 2015,
+      "total_payments": 1423291.74,
+      "total_services": 734,
+      "total_beneficiaries": 714,
+      "avg_submitted": 8360.75,
+      "avg_paid": 1939.09
+    },
+    {
+      "year": 2016,
+      "total_payments": 1400627.22,
+      "total_services": 722,
+      "total_beneficiaries": 702,
+      "avg_submitted": 9270.06,
+      "avg_paid": 1939.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 1303761.51,
+      "total_services": 664,
+      "total_beneficiaries": 648,
+      "avg_submitted": 10088.26,
+      "avg_paid": 1957.68
+    },
+    {
+      "year": 2018,
+      "total_payments": 162292.3,
+      "total_services": 82,
+      "total_beneficiaries": 82,
+      "avg_submitted": 10534.41,
+      "avg_paid": 1979.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0431",
+      "description": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+      "services": 1531,
+      "payments": 5907524.15,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "A0436",
+      "description": "Rotary wing air mileage, per statute mile",
+      "services": 1528,
+      "payments": 39926.97,
+      "avg_markup": 6.61
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 5947451.13,
+    "total_services": 3059,
+    "total_beneficiaries": 2981,
+    "avg_markup_ratio": 4.36
+  }
+}

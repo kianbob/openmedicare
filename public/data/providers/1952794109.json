@@ -1,0 +1,124 @@
+{
+  "name": "San Jose Ambulatory Surgery Center,lp",
+  "credentials": "",
+  "specialty": "Ambulatory Surgical Center",
+  "city": "Mountain View",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2016,
+      "total_payments": 1979984.63,
+      "total_services": 142,
+      "total_beneficiaries": 142,
+      "avg_submitted": 68112.46,
+      "avg_paid": 16209.69
+    },
+    {
+      "year": 2017,
+      "total_payments": 1617939.96,
+      "total_services": 123,
+      "total_beneficiaries": 123,
+      "avg_submitted": 68642.65,
+      "avg_paid": 16439.62
+    },
+    {
+      "year": 2018,
+      "total_payments": 629396.7,
+      "total_services": 79,
+      "total_beneficiaries": 79,
+      "avg_submitted": 51214.33,
+      "avg_paid": 8095.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 454198.3,
+      "total_services": 55,
+      "total_beneficiaries": 55,
+      "avg_submitted": 45474.5,
+      "avg_paid": 8034.44
+    },
+    {
+      "year": 2020,
+      "total_payments": 851626.56,
+      "total_services": 87,
+      "total_beneficiaries": 87,
+      "avg_submitted": 50531.36,
+      "avg_paid": 10832.07
+    },
+    {
+      "year": 2021,
+      "total_payments": 424593.26,
+      "total_services": 49,
+      "total_beneficiaries": 49,
+      "avg_submitted": 51214.33,
+      "avg_paid": 8607.95
+    },
+    {
+      "year": 2022,
+      "total_payments": 236159.5,
+      "total_services": 41,
+      "total_beneficiaries": 41,
+      "avg_submitted": 18282.0,
+      "avg_paid": 4316.34
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "33208",
+      "description": "Insertion of new or replacement of permanent pacemaker including upper and lower chamber electrodes",
+      "services": 191,
+      "payments": 1663956.03,
+      "avg_markup": 7.12
+    },
+    {
+      "code": "33249",
+      "description": "Insertion or replacement of single or dual chamber pacing defibrillator leads",
+      "services": 51,
+      "payments": 1475411.91,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "33228",
+      "description": "Removal and replacement of dual lead permanent pacemaker pulse generator",
+      "services": 113,
+      "payments": 959013.67,
+      "avg_markup": 7.28
+    },
+    {
+      "code": "33264",
+      "description": "Removal and replacement of defibrillator pulse generator",
+      "services": 30,
+      "payments": 874996.21,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "33285",
+      "description": "Insertion of heart rhythm monitor under skin",
+      "services": 92,
+      "payments": 716136.06,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "33282",
+      "description": "Implantation patient-activated heart monitoring device",
+      "services": 74,
+      "payments": 495444.87,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "33286",
+      "description": "Removal of heart rhythm monitor from under skin",
+      "services": 25,
+      "payments": 8940.16,
+      "avg_markup": 23.24
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 6193898.91,
+    "total_services": 576,
+    "total_beneficiaries": 576,
+    "avg_markup_ratio": 5.07
+  }
+}

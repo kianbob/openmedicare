@@ -1,0 +1,79 @@
+{
+  "name": "1st Medi-Star Transport, Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 1251449.89,
+      "total_services": 11945,
+      "total_beneficiaries": 4070,
+      "avg_submitted": 534.52,
+      "avg_paid": 281.28
+    },
+    {
+      "year": 2015,
+      "total_payments": 1407287.04,
+      "total_services": 12447,
+      "total_beneficiaries": 5667,
+      "avg_submitted": 330.68,
+      "avg_paid": 167.65
+    },
+    {
+      "year": 2016,
+      "total_payments": 1261792.71,
+      "total_services": 9438,
+      "total_beneficiaries": 6868,
+      "avg_submitted": 330.75,
+      "avg_paid": 170.16
+    },
+    {
+      "year": 2017,
+      "total_payments": 383866.43,
+      "total_services": 2907,
+      "total_beneficiaries": 2381,
+      "avg_submitted": 330.67,
+      "avg_paid": 170.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12120,
+      "payments": 2220077.97,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 6300,
+      "payments": 1977185.13,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 18306,
+      "payments": 100200.23,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 11,
+      "payments": 6932.75,
+      "avg_markup": 1.82
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 4304396.08,
+    "total_services": 36737,
+    "total_beneficiaries": 18986,
+    "avg_markup_ratio": 1.98
+  }
+}

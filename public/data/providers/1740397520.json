@@ -1,0 +1,204 @@
+{
+  "name": "George Hubbard",
+  "credentials": "MD",
+  "specialty": "Ophthalmology",
+  "city": "Atlanta",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 561732.79,
+      "total_services": 4551,
+      "total_beneficiaries": 1877,
+      "avg_submitted": 550.72,
+      "avg_paid": 142.7
+    },
+    {
+      "year": 2015,
+      "total_payments": 495790.34,
+      "total_services": 3947,
+      "total_beneficiaries": 1743,
+      "avg_submitted": 478.81,
+      "avg_paid": 121.35
+    },
+    {
+      "year": 2016,
+      "total_payments": 447259.57,
+      "total_services": 3743,
+      "total_beneficiaries": 1455,
+      "avg_submitted": 617.16,
+      "avg_paid": 154.67
+    },
+    {
+      "year": 2017,
+      "total_payments": 425124.45,
+      "total_services": 3300,
+      "total_beneficiaries": 1447,
+      "avg_submitted": 541.67,
+      "avg_paid": 125.21
+    },
+    {
+      "year": 2018,
+      "total_payments": 395082.14,
+      "total_services": 2851,
+      "total_beneficiaries": 1260,
+      "avg_submitted": 594.74,
+      "avg_paid": 135.43
+    },
+    {
+      "year": 2019,
+      "total_payments": 408511.08,
+      "total_services": 3130,
+      "total_beneficiaries": 1334,
+      "avg_submitted": 604.71,
+      "avg_paid": 132.28
+    },
+    {
+      "year": 2020,
+      "total_payments": 368700.09,
+      "total_services": 2396,
+      "total_beneficiaries": 1027,
+      "avg_submitted": 717.07,
+      "avg_paid": 150.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 411498.98,
+      "total_services": 2491,
+      "total_beneficiaries": 1129,
+      "avg_submitted": 518.56,
+      "avg_paid": 122.15
+    },
+    {
+      "year": 2022,
+      "total_payments": 368587.15,
+      "total_services": 2329,
+      "total_beneficiaries": 1057,
+      "avg_submitted": 419.62,
+      "avg_paid": 140.78
+    },
+    {
+      "year": 2023,
+      "total_payments": 275793.15,
+      "total_services": 2018,
+      "total_beneficiaries": 857,
+      "avg_submitted": 472.78,
+      "avg_paid": 158.69
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "J0178",
+      "description": "Injection, aflibercept, 1 mg",
+      "services": 3128,
+      "payments": 2331084.41,
+      "avg_markup": 3.57
+    },
+    {
+      "code": "92014",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient, 1 or more visits",
+      "services": 7324,
+      "payments": 630487.05,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "67028",
+      "description": "Injection of drug into eye",
+      "services": 6896,
+      "payments": 593438.49,
+      "avg_markup": 5.41
+    },
+    {
+      "code": "92134",
+      "description": "Diagnostic imaging of retina",
+      "services": 7157,
+      "payments": 220853.02,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "J9035",
+      "description": "Injection, bevacizumab, 10 mg",
+      "services": 3559,
+      "payments": 196026.03,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "92004",
+      "description": "Eye and medical examination for diagnosis and treatment, new patient, 1 or more visits",
+      "services": 677,
+      "payments": 69717.08,
+      "avg_markup": 4.35
+    },
+    {
+      "code": "92012",
+      "description": "Eye and medical examination for diagnosis and treatment, established patient",
+      "services": 1098,
+      "payments": 62767.63,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 210,
+      "payments": 16779.95,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "92250",
+      "description": "Photography of the retina",
+      "services": 379,
+      "payments": 15121.28,
+      "avg_markup": 4.17
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 117,
+      "payments": 6822.52,
+      "avg_markup": 4.23
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, 45-59 minutes",
+      "services": 50,
+      "payments": 6145.47,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "76512",
+      "description": "Ultrasound of eye disease, growth, or structure",
+      "services": 102,
+      "payments": 5428.02,
+      "avg_markup": 6.62
+    },
+    {
+      "code": "92235",
+      "description": "Examination of retinal blood vessels by ophthalmoscope",
+      "services": 15,
+      "payments": 2312.47,
+      "avg_markup": 4.71
+    },
+    {
+      "code": "92225",
+      "description": "Examination of eye by ophthalmoscope with retinal drawing",
+      "services": 28,
+      "payments": 777.64,
+      "avg_markup": 6.1
+    },
+    {
+      "code": "92201",
+      "description": "Extended examination of eye with drawing of retina",
+      "services": 16,
+      "payments": 318.68,
+      "avg_markup": 5.59
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4158079.74,
+    "total_services": 30756,
+    "total_beneficiaries": 13186,
+    "avg_markup_ratio": 4.04
+  }
+}

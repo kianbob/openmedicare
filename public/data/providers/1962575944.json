@@ -1,0 +1,225 @@
+{
+  "name": "Andrew Newman",
+  "credentials": "M.D.",
+  "specialty": "Pulmonary Disease",
+  "city": "Atherton",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 338143.68,
+      "total_services": 4709,
+      "total_beneficiaries": 2572,
+      "avg_submitted": 121.81,
+      "avg_paid": 78.18
+    },
+    {
+      "year": 2015,
+      "total_payments": 365592.26,
+      "total_services": 5001,
+      "total_beneficiaries": 2752,
+      "avg_submitted": 120.35,
+      "avg_paid": 78.46
+    },
+    {
+      "year": 2016,
+      "total_payments": 399484.69,
+      "total_services": 5001,
+      "total_beneficiaries": 2811,
+      "avg_submitted": 120.58,
+      "avg_paid": 85.49
+    },
+    {
+      "year": 2017,
+      "total_payments": 373141.54,
+      "total_services": 4538,
+      "total_beneficiaries": 2735,
+      "avg_submitted": 112.71,
+      "avg_paid": 86.13
+    },
+    {
+      "year": 2018,
+      "total_payments": 405981.5,
+      "total_services": 4965,
+      "total_beneficiaries": 2795,
+      "avg_submitted": 243.26,
+      "avg_paid": 85.71
+    },
+    {
+      "year": 2019,
+      "total_payments": 373174.75,
+      "total_services": 4911,
+      "total_beneficiaries": 2880,
+      "avg_submitted": 243.26,
+      "avg_paid": 79.71
+    },
+    {
+      "year": 2020,
+      "total_payments": 235649.95,
+      "total_services": 2627,
+      "total_beneficiaries": 1228,
+      "avg_submitted": 236.64,
+      "avg_paid": 76.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 383022.71,
+      "total_services": 3844,
+      "total_beneficiaries": 2302,
+      "avg_submitted": 258.48,
+      "avg_paid": 88.82
+    },
+    {
+      "year": 2022,
+      "total_payments": 332825.17,
+      "total_services": 3721,
+      "total_beneficiaries": 2495,
+      "avg_submitted": 256.48,
+      "avg_paid": 84.31
+    },
+    {
+      "year": 2023,
+      "total_payments": 327187.37,
+      "total_services": 3674,
+      "total_beneficiaries": 2527,
+      "avg_submitted": 256.47,
+      "avg_paid": 83.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11725,
+      "payments": 1151398.54,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 6377,
+      "payments": 904113.03,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "31231",
+      "description": "Diagnostic examination of nasal passages using an endoscope",
+      "services": 1602,
+      "payments": 331171.75,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "93308",
+      "description": "Follow-up or limited ultrasound examination of heart",
+      "services": 1837,
+      "payments": 210343.68,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "76604",
+      "description": "Ultrasound of chest",
+      "services": 1860,
+      "payments": 151402.17,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "94010",
+      "description": "Measurement and graphic recording of total and timed exhaled air capacity",
+      "services": 4188,
+      "payments": 139785.79,
+      "avg_markup": 2.31
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 2055,
+      "payments": 116160.44,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 2045,
+      "payments": 113793.53,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "94727",
+      "description": "Determination of lung volumes using gas dilution or washout",
+      "services": 1597,
+      "payments": 69497.66,
+      "avg_markup": 2.21
+    },
+    {
+      "code": "95012",
+      "description": "Measurement of inhaled nitric oxide gas",
+      "services": 3439,
+      "payments": 69414.71,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 339,
+      "payments": 62190.88,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "76536",
+      "description": "Ultrasound of head and neck",
+      "services": 465,
+      "payments": 55134.32,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "93321",
+      "description": "Follow-up or limited heart doppler ultrasound study of heart blood flow, valves, and chambers",
+      "services": 1837,
+      "payments": 51122.86,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "93325",
+      "description": "Doppler ultrasound study of color-directed heart blood flow, rate, and valve function",
+      "services": 1835,
+      "payments": 48597.3,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "94726",
+      "description": "Test to determine lung volumes using sensors",
+      "services": 435,
+      "payments": 24450.21,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "94640",
+      "description": "Respiratory inhaled pressure or nonpressure treatment to relieve airway obstruction or for sputum specimen",
+      "services": 1133,
+      "payments": 17614.79,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 155,
+      "payments": 14043.58,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 67,
+      "payments": 3968.38,
+      "avg_markup": 2.06
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3534203.62,
+    "total_services": 42991,
+    "total_beneficiaries": 25097,
+    "avg_markup_ratio": 2.29
+  }
+}

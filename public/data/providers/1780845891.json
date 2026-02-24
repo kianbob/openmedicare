@@ -1,0 +1,239 @@
+{
+  "name": "Karishma Khan",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Dallas",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 213934.21,
+      "total_services": 3388,
+      "total_beneficiaries": 1535,
+      "avg_submitted": 215.12,
+      "avg_paid": 77.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 207142.62,
+      "total_services": 3223,
+      "total_beneficiaries": 1620,
+      "avg_submitted": 204.04,
+      "avg_paid": 78.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 216780.37,
+      "total_services": 3554,
+      "total_beneficiaries": 1265,
+      "avg_submitted": 191.1,
+      "avg_paid": 67.59
+    },
+    {
+      "year": 2017,
+      "total_payments": 244740.36,
+      "total_services": 3792,
+      "total_beneficiaries": 1271,
+      "avg_submitted": 262.36,
+      "avg_paid": 71.25
+    },
+    {
+      "year": 2018,
+      "total_payments": 208330.32,
+      "total_services": 3238,
+      "total_beneficiaries": 1088,
+      "avg_submitted": 257.49,
+      "avg_paid": 70.95
+    },
+    {
+      "year": 2019,
+      "total_payments": 210164.13,
+      "total_services": 3081,
+      "total_beneficiaries": 987,
+      "avg_submitted": 300.96,
+      "avg_paid": 81.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 278902.71,
+      "total_services": 3660,
+      "total_beneficiaries": 989,
+      "avg_submitted": 316.17,
+      "avg_paid": 84.51
+    },
+    {
+      "year": 2021,
+      "total_payments": 380068.88,
+      "total_services": 5147,
+      "total_beneficiaries": 1792,
+      "avg_submitted": 281.8,
+      "avg_paid": 73.37
+    },
+    {
+      "year": 2022,
+      "total_payments": 327300.98,
+      "total_services": 4558,
+      "total_beneficiaries": 1817,
+      "avg_submitted": 276.94,
+      "avg_paid": 70.34
+    },
+    {
+      "year": 2023,
+      "total_payments": 342052.65,
+      "total_services": 4852,
+      "total_beneficiaries": 2060,
+      "avg_submitted": 269.58,
+      "avg_paid": 68.91
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 12714,
+      "payments": 934616.15,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 14144,
+      "payments": 771453.62,
+      "avg_markup": 3.41
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2718,
+      "payments": 278050.38,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1675,
+      "payments": 220846.84,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3760,
+      "payments": 211371.53,
+      "avg_markup": 3.11
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 547,
+      "payments": 57397.74,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 537,
+      "payments": 46631.65,
+      "avg_markup": 3.09
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 1204,
+      "payments": 41216.76,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "99315",
+      "description": "Nursing facility discharge day management, 30 minutes or less",
+      "services": 183,
+      "payments": 11292.13,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "99335",
+      "description": "Established patient assisted living visit, typically 25 minutes",
+      "services": 159,
+      "payments": 10993.98,
+      "avg_markup": 4.14
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 90,
+      "payments": 10736.23,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 119,
+      "payments": 8041.86,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "G0180",
+      "description": "Physician or allowed practitioner certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians and",
+      "services": 175,
+      "payments": 7397.01,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 41,
+      "payments": 4525.47,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99348",
+      "description": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",
+      "services": 56,
+      "payments": 3176.1,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 172,
+      "payments": 2194.37,
+      "avg_markup": 8.23
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 29,
+      "payments": 2126.83,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 49,
+      "payments": 1943.9,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit per day, typically 25 minutes",
+      "services": 27,
+      "payments": 1496.1,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "G0179",
+      "description": "Physician or allowed practitioner re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians a",
+      "services": 36,
+      "payments": 1187.99,
+      "avg_markup": 3.88
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2629417.23,
+    "total_services": 38493,
+    "total_beneficiaries": 14424,
+    "avg_markup_ratio": 3.45
+  }
+}

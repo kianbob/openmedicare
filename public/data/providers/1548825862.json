@@ -1,0 +1,86 @@
+{
+  "name": "Ambulnz Nj, Llc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 228737.41,
+      "total_services": 2150,
+      "total_beneficiaries": 1744,
+      "avg_submitted": 667.0,
+      "avg_paid": 106.39
+    },
+    {
+      "year": 2021,
+      "total_payments": 679597.61,
+      "total_services": 6124,
+      "total_beneficiaries": 4187,
+      "avg_submitted": 913.67,
+      "avg_paid": 182.48
+    },
+    {
+      "year": 2022,
+      "total_payments": 727119.51,
+      "total_services": 6521,
+      "total_beneficiaries": 4395,
+      "avg_submitted": 697.53,
+      "avg_paid": 151.81
+    },
+    {
+      "year": 2023,
+      "total_payments": 853342.98,
+      "total_services": 6621,
+      "total_beneficiaries": 4515,
+      "avg_submitted": 1277.78,
+      "avg_paid": 337.66
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 10108,
+      "payments": 2184710.2,
+      "avg_markup": 6.07
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 537,
+      "payments": 189751.25,
+      "avg_markup": 3.98
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10699,
+      "payments": 68391.13,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 61,
+      "payments": 45466.52,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "0001A",
+      "description": "Intramuscular administration of single severe acute respiratory syndrome coronavirus 2 (covid-19) vaccine, mrna-lnp, spike protein, preservative free, 30 mcg/0.3ml dosage, diluent reconstituted; first dose",
+      "services": 11,
+      "payments": 478.4,
+      "avg_markup": 1.13
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 2488797.5,
+    "total_services": 21416,
+    "total_beneficiaries": 14841,
+    "avg_markup_ratio": 5.79
+  }
+}

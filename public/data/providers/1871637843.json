@@ -1,0 +1,155 @@
+{
+  "name": "Arun Jaiswal",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Massapequa",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 507955.12,
+      "total_services": 5243,
+      "total_beneficiaries": 1765,
+      "avg_submitted": 411.33,
+      "avg_paid": 123.14
+    },
+    {
+      "year": 2015,
+      "total_payments": 461682.22,
+      "total_services": 4765,
+      "total_beneficiaries": 1339,
+      "avg_submitted": 440.0,
+      "avg_paid": 134.71
+    },
+    {
+      "year": 2016,
+      "total_payments": 456851.4,
+      "total_services": 4430,
+      "total_beneficiaries": 1321,
+      "avg_submitted": 481.56,
+      "avg_paid": 134.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 502013.6,
+      "total_services": 5152,
+      "total_beneficiaries": 1400,
+      "avg_submitted": 533.75,
+      "avg_paid": 129.52
+    },
+    {
+      "year": 2018,
+      "total_payments": 394403.17,
+      "total_services": 4392,
+      "total_beneficiaries": 1345,
+      "avg_submitted": 540.21,
+      "avg_paid": 130.78
+    },
+    {
+      "year": 2019,
+      "total_payments": 373547.7,
+      "total_services": 4615,
+      "total_beneficiaries": 1213,
+      "avg_submitted": 540.0,
+      "avg_paid": 129.06
+    },
+    {
+      "year": 2020,
+      "total_payments": 393709.6,
+      "total_services": 4167,
+      "total_beneficiaries": 1200,
+      "avg_submitted": 540.0,
+      "avg_paid": 131.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 457717.61,
+      "total_services": 4215,
+      "total_beneficiaries": 1109,
+      "avg_submitted": 540.0,
+      "avg_paid": 138.09
+    },
+    {
+      "year": 2022,
+      "total_payments": 303192.25,
+      "total_services": 2966,
+      "total_beneficiaries": 931,
+      "avg_submitted": 533.33,
+      "avg_paid": 132.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 333196.48,
+      "total_services": 3039,
+      "total_beneficiaries": 1012,
+      "avg_submitted": 540.0,
+      "avg_paid": 131.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 14888,
+      "payments": 1411659.91,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 19217,
+      "payments": 1245284.61,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3542,
+      "payments": 714724.74,
+      "avg_markup": 4.07
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2794,
+      "payments": 501473.8,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 2103,
+      "payments": 257117.13,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 221,
+      "payments": 25806.19,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 166,
+      "payments": 24012.06,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 53,
+      "payments": 4190.71,
+      "avg_markup": 3.16
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4184269.15,
+    "total_services": 42984,
+    "total_beneficiaries": 12635,
+    "avg_markup_ratio": 3.96
+  }
+}

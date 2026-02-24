@@ -1,0 +1,239 @@
+{
+  "name": "Edward Scanlon",
+  "credentials": "MD",
+  "specialty": "Pulmonary Disease",
+  "city": "Orange City",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 392432.77,
+      "total_services": 4510,
+      "total_beneficiaries": 2471,
+      "avg_submitted": 223.2,
+      "avg_paid": 123.71
+    },
+    {
+      "year": 2015,
+      "total_payments": 356285.05,
+      "total_services": 4085,
+      "total_beneficiaries": 2286,
+      "avg_submitted": 227.58,
+      "avg_paid": 125.88
+    },
+    {
+      "year": 2016,
+      "total_payments": 337038.93,
+      "total_services": 3773,
+      "total_beneficiaries": 2191,
+      "avg_submitted": 206.58,
+      "avg_paid": 110.08
+    },
+    {
+      "year": 2017,
+      "total_payments": 312639.13,
+      "total_services": 3229,
+      "total_beneficiaries": 1816,
+      "avg_submitted": 192.85,
+      "avg_paid": 99.98
+    },
+    {
+      "year": 2018,
+      "total_payments": 289968.09,
+      "total_services": 2870,
+      "total_beneficiaries": 1687,
+      "avg_submitted": 222.94,
+      "avg_paid": 104.74
+    },
+    {
+      "year": 2019,
+      "total_payments": 266409.27,
+      "total_services": 2793,
+      "total_beneficiaries": 1775,
+      "avg_submitted": 155.4,
+      "avg_paid": 64.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 276483.92,
+      "total_services": 2608,
+      "total_beneficiaries": 1494,
+      "avg_submitted": 159.7,
+      "avg_paid": 75.58
+    },
+    {
+      "year": 2021,
+      "total_payments": 264738.32,
+      "total_services": 2290,
+      "total_beneficiaries": 1228,
+      "avg_submitted": 178.35,
+      "avg_paid": 81.67
+    },
+    {
+      "year": 2022,
+      "total_payments": 73214.04,
+      "total_services": 872,
+      "total_beneficiaries": 642,
+      "avg_submitted": 193.54,
+      "avg_paid": 84.92
+    },
+    {
+      "year": 2023,
+      "total_payments": 104206.03,
+      "total_services": 1028,
+      "total_beneficiaries": 810,
+      "avg_submitted": 314.25,
+      "avg_paid": 150.14
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7869,
+      "payments": 651358.68,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3495,
+      "payments": 624216.13,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3022,
+      "payments": 482093.42,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4185,
+      "payments": 342170.11,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 4804,
+      "payments": 275181.74,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "95811",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab with continued pressured respiratory assistance by mask or breathing tube",
+      "services": 92,
+      "payments": 44985.71,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 345,
+      "payments": 42506.01,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 655,
+      "payments": 34284.46,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "95810",
+      "description": "Sleep monitoring of patient (6 years or older) in sleep lab",
+      "services": 61,
+      "payments": 28475.43,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "94060",
+      "description": "Measurement and graphic recording of the amount and speed of breathed air, before and following medication administration",
+      "services": 948,
+      "payments": 22903.34,
+      "avg_markup": 4.08
+    },
+    {
+      "code": "94729",
+      "description": "Measurement of lung diffusing capacity",
+      "services": 886,
+      "payments": 22241.26,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "94726",
+      "description": "Determination of lung volumes using plethysmography",
+      "services": 635,
+      "payments": 18870.53,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "32555",
+      "description": "Removal of fluid from chest cavity with imaging guidance",
+      "services": 208,
+      "payments": 18367.99,
+      "avg_markup": 1.64
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 202,
+      "payments": 17965.86,
+      "avg_markup": 3.42
+    },
+    {
+      "code": "99215",
+      "description": "Established patient outpatient visit, total time 40-54 minutes",
+      "services": 129,
+      "payments": 17199.0,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 87,
+      "payments": 13192.85,
+      "avg_markup": 1.92
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 50,
+      "payments": 4595.04,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "31628",
+      "description": "Biopsy of one lobe of lung using an endoscope",
+      "services": 27,
+      "payments": 4205.52,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "G0296",
+      "description": "Counseling visit to discuss need for lung cancer screening using low dose ct scan (ldct) (service is for eligibility determination and shared decision making)",
+      "services": 95,
+      "payments": 2790.52,
+      "avg_markup": 1.67
+    },
+    {
+      "code": "31500",
+      "description": "Emergent insertion of breathing tube into windpipe cartilage using an endoscope",
+      "services": 20,
+      "payments": 2421.16,
+      "avg_markup": 1.26
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2673415.55,
+    "total_services": 28058,
+    "total_beneficiaries": 16400,
+    "avg_markup_ratio": 1.81
+  }
+}

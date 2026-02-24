@@ -1,0 +1,239 @@
+{
+  "name": "Mohammed Jaleel",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Winchester",
+  "state": "MA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 199051.45,
+      "total_services": 2165,
+      "total_beneficiaries": 1672,
+      "avg_submitted": 243.95,
+      "avg_paid": 95.66
+    },
+    {
+      "year": 2015,
+      "total_payments": 181907.57,
+      "total_services": 1876,
+      "total_beneficiaries": 1445,
+      "avg_submitted": 290.45,
+      "avg_paid": 112.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 44926.27,
+      "total_services": 485,
+      "total_beneficiaries": 409,
+      "avg_submitted": 234.33,
+      "avg_paid": 90.97
+    },
+    {
+      "year": 2017,
+      "total_payments": 179836.06,
+      "total_services": 1891,
+      "total_beneficiaries": 1502,
+      "avg_submitted": 239.98,
+      "avg_paid": 98.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 251128.55,
+      "total_services": 2388,
+      "total_beneficiaries": 1865,
+      "avg_submitted": 223.79,
+      "avg_paid": 88.87
+    },
+    {
+      "year": 2019,
+      "total_payments": 188684.3,
+      "total_services": 2173,
+      "total_beneficiaries": 1718,
+      "avg_submitted": 288.16,
+      "avg_paid": 86.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 262856.33,
+      "total_services": 2879,
+      "total_beneficiaries": 2108,
+      "avg_submitted": 315.82,
+      "avg_paid": 101.8
+    },
+    {
+      "year": 2021,
+      "total_payments": 306348.88,
+      "total_services": 3500,
+      "total_beneficiaries": 2589,
+      "avg_submitted": 264.98,
+      "avg_paid": 95.31
+    },
+    {
+      "year": 2022,
+      "total_payments": 398691.58,
+      "total_services": 4730,
+      "total_beneficiaries": 3346,
+      "avg_submitted": 289.52,
+      "avg_paid": 89.96
+    },
+    {
+      "year": 2023,
+      "total_payments": 449392.81,
+      "total_services": 4828,
+      "total_beneficiaries": 3185,
+      "avg_submitted": 215.61,
+      "avg_paid": 81.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 9168,
+      "payments": 810883.07,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 4787,
+      "payments": 436376.06,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1907,
+      "payments": 315112.71,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3709,
+      "payments": 220778.67,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1000,
+      "payments": 140404.56,
+      "avg_markup": 2.03
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1163,
+      "payments": 110001.3,
+      "avg_markup": 2.79
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1155,
+      "payments": 70957.35,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 368,
+      "payments": 41282.41,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 284,
+      "payments": 40045.02,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 215,
+      "payments": 39079.63,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 618,
+      "payments": 36537.54,
+      "avg_markup": 4.33
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 306,
+      "payments": 33425.45,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 212,
+      "payments": 31307.81,
+      "avg_markup": 2.73
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 277,
+      "payments": 19473.91,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 305,
+      "payments": 18915.13,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "99215",
+      "description": "Established patient outpatient visit, total time 40-54 minutes",
+      "services": 126,
+      "payments": 18428.8,
+      "avg_markup": 2.08
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 135,
+      "payments": 11215.72,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 186,
+      "payments": 10667.99,
+      "avg_markup": 4.03
+    },
+    {
+      "code": "11042",
+      "description": "Removal of skin and tissue first 20 sq cm or less",
+      "services": 187,
+      "payments": 9656.65,
+      "avg_markup": 5.84
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 148,
+      "payments": 8222.84,
+      "avg_markup": 2.2
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2462823.8,
+    "total_services": 26915,
+    "total_beneficiaries": 19839,
+    "avg_markup_ratio": 2.94
+  }
+}

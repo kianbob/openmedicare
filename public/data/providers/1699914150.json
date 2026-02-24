@@ -1,0 +1,73 @@
+{
+  "name": "Medtronic Monitoring, Inc",
+  "credentials": "",
+  "specialty": "Independent Diagnostic Testing Facility (IDTF)",
+  "city": "Bala Cynwyd",
+  "state": "PA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 597557.16,
+      "total_services": 1062,
+      "total_beneficiaries": 1062,
+      "avg_submitted": 2707.31,
+      "avg_paid": 562.67
+    },
+    {
+      "year": 2015,
+      "total_payments": 2560794.44,
+      "total_services": 4411,
+      "total_beneficiaries": 4411,
+      "avg_submitted": 2500.82,
+      "avg_paid": 580.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 1589631.36,
+      "total_services": 2833,
+      "total_beneficiaries": 2636,
+      "avg_submitted": 1399.0,
+      "avg_paid": 330.81
+    },
+    {
+      "year": 2017,
+      "total_payments": 102151.48,
+      "total_services": 2738,
+      "total_beneficiaries": 471,
+      "avg_submitted": 299.0,
+      "avg_paid": 37.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 83649.91,
+      "total_services": 2458,
+      "total_beneficiaries": 461,
+      "avg_submitted": 299.0,
+      "avg_paid": 34.03
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "93229",
+      "description": "Heart rhythm tracing, computer analysis, physician prescribed transmission of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 8005,
+      "payments": 4736436.6,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "93299",
+      "description": "Remote evaluations of implantable heart recorder system including transmissions, technician review, support, and distribution of results up to 30 days",
+      "services": 5497,
+      "payments": 197347.75,
+      "avg_markup": 8.33
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 4933784.35,
+    "total_services": 13502,
+    "total_beneficiaries": 9041,
+    "avg_markup_ratio": 4.43
+  }
+}

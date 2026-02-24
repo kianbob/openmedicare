@@ -1,0 +1,197 @@
+{
+  "name": "Nagwa Hafez",
+  "credentials": "MD",
+  "specialty": "Geriatric Medicine",
+  "city": "Wayne",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 392461.44,
+      "total_services": 5846,
+      "total_beneficiaries": 1678,
+      "avg_submitted": 174.61,
+      "avg_paid": 78.34
+    },
+    {
+      "year": 2015,
+      "total_payments": 389368.02,
+      "total_services": 5874,
+      "total_beneficiaries": 1623,
+      "avg_submitted": 179.44,
+      "avg_paid": 86.96
+    },
+    {
+      "year": 2016,
+      "total_payments": 307172.62,
+      "total_services": 4537,
+      "total_beneficiaries": 1420,
+      "avg_submitted": 141.5,
+      "avg_paid": 81.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 252967.41,
+      "total_services": 3744,
+      "total_beneficiaries": 1285,
+      "avg_submitted": 136.5,
+      "avg_paid": 81.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 234542.18,
+      "total_services": 3450,
+      "total_beneficiaries": 1143,
+      "avg_submitted": 103.82,
+      "avg_paid": 63.06
+    },
+    {
+      "year": 2019,
+      "total_payments": 173687.49,
+      "total_services": 2619,
+      "total_beneficiaries": 971,
+      "avg_submitted": 117.12,
+      "avg_paid": 67.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 142695.3,
+      "total_services": 2173,
+      "total_beneficiaries": 700,
+      "avg_submitted": 125.06,
+      "avg_paid": 76.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 168932.06,
+      "total_services": 2450,
+      "total_beneficiaries": 723,
+      "avg_submitted": 140.67,
+      "avg_paid": 72.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 136392.46,
+      "total_services": 1981,
+      "total_beneficiaries": 648,
+      "avg_submitted": 161.29,
+      "avg_paid": 75.91
+    },
+    {
+      "year": 2023,
+      "total_payments": 148924.55,
+      "total_services": 1996,
+      "total_beneficiaries": 769,
+      "avg_submitted": 190.8,
+      "avg_paid": 84.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 23939,
+      "payments": 1438492.65,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 4334,
+      "payments": 487865.05,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 3840,
+      "payments": 235870.96,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 1245,
+      "payments": 99516.49,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 777,
+      "payments": 39625.83,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 200,
+      "payments": 21636.02,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99213",
+      "description": "Established patient outpatient visit, total time 20-29 minutes",
+      "services": 137,
+      "payments": 9574.24,
+      "avg_markup": 2.43
+    },
+    {
+      "code": "99234",
+      "description": "Hospital observation or inpatient care low severity, 40 minutes per day",
+      "services": 43,
+      "payments": 4550.43,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 33,
+      "payments": 4084.8,
+      "avg_markup": 2.97
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 34,
+      "payments": 2542.53,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 48,
+      "payments": 1548.96,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 16,
+      "payments": 1359.35,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 12,
+      "payments": 261.64,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "Q2035",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (afluria)",
+      "services": 12,
+      "payments": 214.56,
+      "avg_markup": 1.96
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2347143.51,
+    "total_services": 34670,
+    "total_beneficiaries": 10960,
+    "avg_markup_ratio": 1.88
+  }
+}

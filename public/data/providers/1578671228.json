@@ -1,0 +1,109 @@
+{
+  "name": "Best Care Ambulance, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Trappe",
+  "state": "MD",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 674929.26,
+      "total_services": 6615,
+      "total_beneficiaries": 4420,
+      "avg_submitted": 398.5,
+      "avg_paid": 261.29
+    },
+    {
+      "year": 2015,
+      "total_payments": 731791.89,
+      "total_services": 7190,
+      "total_beneficiaries": 4629,
+      "avg_submitted": 408.2,
+      "avg_paid": 265.59
+    },
+    {
+      "year": 2016,
+      "total_payments": 609428.49,
+      "total_services": 6074,
+      "total_beneficiaries": 4201,
+      "avg_submitted": 408.2,
+      "avg_paid": 261.12
+    },
+    {
+      "year": 2017,
+      "total_payments": 641514.62,
+      "total_services": 6190,
+      "total_beneficiaries": 4043,
+      "avg_submitted": 397.86,
+      "avg_paid": 265.24
+    },
+    {
+      "year": 2018,
+      "total_payments": 648424.6,
+      "total_services": 6205,
+      "total_beneficiaries": 4157,
+      "avg_submitted": 409.2,
+      "avg_paid": 266.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 167694.8,
+      "total_services": 1601,
+      "total_beneficiaries": 1293,
+      "avg_submitted": 386.6,
+      "avg_paid": 244.47
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 12886,
+      "payments": 2257031.04,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 3285,
+      "payments": 689857.53,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 586,
+      "payments": 343719.47,
+      "avg_markup": 1.36
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 16916,
+      "payments": 118095.12,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 152,
+      "payments": 51607.6,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 50,
+      "payments": 13472.91,
+      "avg_markup": 1.29
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 3473783.67,
+    "total_services": 33875,
+    "total_beneficiaries": 22743,
+    "avg_markup_ratio": 1.55
+  }
+}

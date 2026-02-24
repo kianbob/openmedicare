@@ -1,0 +1,124 @@
+{
+  "name": "Michael Cantor",
+  "credentials": "D.O.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Rye",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2017,
+      "total_payments": 124073.67,
+      "total_services": 1389,
+      "total_beneficiaries": 669,
+      "avg_submitted": 262.54,
+      "avg_paid": 79.64
+    },
+    {
+      "year": 2018,
+      "total_payments": 291113.2,
+      "total_services": 3627,
+      "total_beneficiaries": 1688,
+      "avg_submitted": 249.11,
+      "avg_paid": 86.46
+    },
+    {
+      "year": 2019,
+      "total_payments": 496491.84,
+      "total_services": 6417,
+      "total_beneficiaries": 2693,
+      "avg_submitted": 178.29,
+      "avg_paid": 92.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 410878.64,
+      "total_services": 5409,
+      "total_beneficiaries": 2325,
+      "avg_submitted": 283.88,
+      "avg_paid": 79.92
+    },
+    {
+      "year": 2021,
+      "total_payments": 420958.35,
+      "total_services": 5378,
+      "total_beneficiaries": 2200,
+      "avg_submitted": 329.17,
+      "avg_paid": 80.42
+    },
+    {
+      "year": 2022,
+      "total_payments": 315282.14,
+      "total_services": 3832,
+      "total_beneficiaries": 2106,
+      "avg_submitted": 365.4,
+      "avg_paid": 87.37
+    },
+    {
+      "year": 2023,
+      "total_payments": 440439.55,
+      "total_services": 4860,
+      "total_beneficiaries": 2901,
+      "avg_submitted": 365.4,
+      "avg_paid": 93.77
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 18221,
+      "payments": 1096530.27,
+      "avg_markup": 3.07
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 5032,
+      "payments": 726887.41,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 4562,
+      "payments": 378484.51,
+      "avg_markup": 2.99
+    },
+    {
+      "code": "99305",
+      "description": "Initial nursing facility visit, typically 35 minutes per day",
+      "services": 2263,
+      "payments": 254168.2,
+      "avg_markup": 3.2
+    },
+    {
+      "code": "20610",
+      "description": "Aspiration and/or injection of large joint or joint capsule",
+      "services": 557,
+      "payments": 23348.02,
+      "avg_markup": 5.97
+    },
+    {
+      "code": "99304",
+      "description": "Initial nursing facility visit, typically 25 minutes per day",
+      "services": 199,
+      "payments": 16623.88,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 78,
+      "payments": 3195.1,
+      "avg_markup": 3.76
+    }
+  ],
+  "overall": {
+    "years_active": 7,
+    "total_payments": 2499237.39,
+    "total_services": 30912,
+    "total_beneficiaries": 14582,
+    "avg_markup_ratio": 3.08
+  }
+}

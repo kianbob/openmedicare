@@ -1,0 +1,239 @@
+{
+  "name": "Christian Gonzalez",
+  "credentials": "M.D.",
+  "specialty": "Anesthesiology",
+  "city": "Aventura",
+  "state": "FL",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 450551.92,
+      "total_services": 4965,
+      "total_beneficiaries": 2373,
+      "avg_submitted": 692.75,
+      "avg_paid": 124.92
+    },
+    {
+      "year": 2015,
+      "total_payments": 823641.86,
+      "total_services": 8277,
+      "total_beneficiaries": 3552,
+      "avg_submitted": 892.76,
+      "avg_paid": 131.0
+    },
+    {
+      "year": 2016,
+      "total_payments": 746051.41,
+      "total_services": 8625,
+      "total_beneficiaries": 4338,
+      "avg_submitted": 786.59,
+      "avg_paid": 120.93
+    },
+    {
+      "year": 2017,
+      "total_payments": 506021.07,
+      "total_services": 6249,
+      "total_beneficiaries": 3433,
+      "avg_submitted": 751.96,
+      "avg_paid": 130.97
+    },
+    {
+      "year": 2018,
+      "total_payments": 512014.61,
+      "total_services": 6244,
+      "total_beneficiaries": 3192,
+      "avg_submitted": 870.12,
+      "avg_paid": 162.89
+    },
+    {
+      "year": 2019,
+      "total_payments": 603605.53,
+      "total_services": 6677,
+      "total_beneficiaries": 3498,
+      "avg_submitted": 789.24,
+      "avg_paid": 134.35
+    },
+    {
+      "year": 2020,
+      "total_payments": 617542.52,
+      "total_services": 5854,
+      "total_beneficiaries": 2798,
+      "avg_submitted": 1026.86,
+      "avg_paid": 198.28
+    },
+    {
+      "year": 2021,
+      "total_payments": 691605.45,
+      "total_services": 5955,
+      "total_beneficiaries": 2567,
+      "avg_submitted": 1071.88,
+      "avg_paid": 195.69
+    },
+    {
+      "year": 2022,
+      "total_payments": 744124.92,
+      "total_services": 7062,
+      "total_beneficiaries": 3068,
+      "avg_submitted": 1153.71,
+      "avg_paid": 166.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 788726.78,
+      "total_services": 8242,
+      "total_beneficiaries": 4099,
+      "avg_submitted": 953.89,
+      "avg_paid": 123.59
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 13228,
+      "payments": 1173782.66,
+      "avg_markup": 8.76
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 9967,
+      "payments": 903998.8,
+      "avg_markup": 7.32
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 4125,
+      "payments": 693917.75,
+      "avg_markup": 7.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7248,
+      "payments": 482048.53,
+      "avg_markup": 7.45
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 6140,
+      "payments": 371528.88,
+      "avg_markup": 8.88
+    },
+    {
+      "code": "62323",
+      "description": "Injection of substance into spinal canal of lower back or sacrum using imaging guidance",
+      "services": 1384,
+      "payments": 288516.97,
+      "avg_markup": 7.16
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 921,
+      "payments": 224814.88,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 1386,
+      "payments": 186058.88,
+      "avg_markup": 6.89
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 750,
+      "payments": 145051.02,
+      "avg_markup": 9.0
+    },
+    {
+      "code": "62311",
+      "description": "Injections of substances into lower or sacral spine",
+      "services": 959,
+      "payments": 141156.64,
+      "avg_markup": 4.05
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 2280,
+      "payments": 140681.3,
+      "avg_markup": 3.74
+    },
+    {
+      "code": "Q4206",
+      "description": "Fluid flow or fluid gf, 1 cc",
+      "services": 83,
+      "payments": 136773.51,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 649,
+      "payments": 127890.22,
+      "avg_markup": 3.56
+    },
+    {
+      "code": "27096",
+      "description": "Injection procedure into sacroiliac joint for anesthetic or steroid",
+      "services": 858,
+      "payments": 125571.41,
+      "avg_markup": 6.46
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 982,
+      "payments": 110923.29,
+      "avg_markup": 6.88
+    },
+    {
+      "code": "77002",
+      "description": "Fluoroscopic guidance for insertion of needle",
+      "services": 1247,
+      "payments": 109221.29,
+      "avg_markup": 8.22
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 708,
+      "payments": 109200.22,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "64493",
+      "description": "Injections of lower or sacral spine facet joint using imaging guidance",
+      "services": 488,
+      "payments": 84511.71,
+      "avg_markup": 5.55
+    },
+    {
+      "code": "62321",
+      "description": "Injection of substance into spinal canal of upper or middle back using imaging guidance",
+      "services": 381,
+      "payments": 81455.7,
+      "avg_markup": 7.28
+    },
+    {
+      "code": "64635",
+      "description": "Destruction of lower or sacral spinal facet joint nerves using imaging guidance",
+      "services": 204,
+      "payments": 74777.99,
+      "avg_markup": 5.2
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6483886.07,
+    "total_services": 68150,
+    "total_beneficiaries": 32918,
+    "avg_markup_ratio": 7.03
+  }
+}

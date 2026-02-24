@@ -1,0 +1,127 @@
+{
+  "name": "Salam Alkasspooles",
+  "credentials": "MD",
+  "specialty": "Infectious Disease",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 337444.72,
+      "total_services": 3676,
+      "total_beneficiaries": 1899,
+      "avg_submitted": 293.75,
+      "avg_paid": 108.03
+    },
+    {
+      "year": 2015,
+      "total_payments": 330110.79,
+      "total_services": 3635,
+      "total_beneficiaries": 1733,
+      "avg_submitted": 293.75,
+      "avg_paid": 108.04
+    },
+    {
+      "year": 2016,
+      "total_payments": 338276.95,
+      "total_services": 3817,
+      "total_beneficiaries": 1669,
+      "avg_submitted": 293.75,
+      "avg_paid": 107.01
+    },
+    {
+      "year": 2017,
+      "total_payments": 393683.42,
+      "total_services": 4366,
+      "total_beneficiaries": 1943,
+      "avg_submitted": 291.67,
+      "avg_paid": 103.19
+    },
+    {
+      "year": 2018,
+      "total_payments": 392135.38,
+      "total_services": 4253,
+      "total_beneficiaries": 2011,
+      "avg_submitted": 291.67,
+      "avg_paid": 104.49
+    },
+    {
+      "year": 2019,
+      "total_payments": 335141.27,
+      "total_services": 3561,
+      "total_beneficiaries": 1832,
+      "avg_submitted": 291.67,
+      "avg_paid": 102.74
+    },
+    {
+      "year": 2020,
+      "total_payments": 456122.05,
+      "total_services": 4689,
+      "total_beneficiaries": 2240,
+      "avg_submitted": 291.67,
+      "avg_paid": 109.18
+    },
+    {
+      "year": 2021,
+      "total_payments": 363779.61,
+      "total_services": 4059,
+      "total_beneficiaries": 1604,
+      "avg_submitted": 291.67,
+      "avg_paid": 108.51
+    },
+    {
+      "year": 2022,
+      "total_payments": 391285.98,
+      "total_services": 4651,
+      "total_beneficiaries": 1696,
+      "avg_submitted": 291.67,
+      "avg_paid": 105.2
+    },
+    {
+      "year": 2023,
+      "total_payments": 438496.91,
+      "total_services": 5185,
+      "total_beneficiaries": 1881,
+      "avg_submitted": 291.67,
+      "avg_paid": 104.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 8744,
+      "payments": 1455743.43,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 22662,
+      "payments": 1395661.37,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10220,
+      "payments": 894546.16,
+      "avg_markup": 2.86
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 266,
+      "payments": 30526.12,
+      "avg_markup": 2.61
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3776477.08,
+    "total_services": 41892,
+    "total_beneficiaries": 18508,
+    "avg_markup_ratio": 2.97
+  }
+}

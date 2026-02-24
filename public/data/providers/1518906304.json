@@ -1,0 +1,225 @@
+{
+  "name": "Robert Weinberg",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Southampton",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 378358.51,
+      "total_services": 6541,
+      "total_beneficiaries": 3330,
+      "avg_submitted": 168.67,
+      "avg_paid": 120.89
+    },
+    {
+      "year": 2015,
+      "total_payments": 435133.42,
+      "total_services": 5148,
+      "total_beneficiaries": 2990,
+      "avg_submitted": 176.53,
+      "avg_paid": 121.85
+    },
+    {
+      "year": 2016,
+      "total_payments": 432463.41,
+      "total_services": 5116,
+      "total_beneficiaries": 2907,
+      "avg_submitted": 189.91,
+      "avg_paid": 125.37
+    },
+    {
+      "year": 2017,
+      "total_payments": 418078.72,
+      "total_services": 4632,
+      "total_beneficiaries": 2564,
+      "avg_submitted": 178.41,
+      "avg_paid": 122.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 422613.44,
+      "total_services": 4784,
+      "total_beneficiaries": 2621,
+      "avg_submitted": 178.6,
+      "avg_paid": 117.32
+    },
+    {
+      "year": 2019,
+      "total_payments": 460393.32,
+      "total_services": 4655,
+      "total_beneficiaries": 2550,
+      "avg_submitted": 181.77,
+      "avg_paid": 123.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 401068.8,
+      "total_services": 3756,
+      "total_beneficiaries": 2126,
+      "avg_submitted": 177.45,
+      "avg_paid": 125.05
+    },
+    {
+      "year": 2021,
+      "total_payments": 431555.27,
+      "total_services": 3731,
+      "total_beneficiaries": 1974,
+      "avg_submitted": 189.52,
+      "avg_paid": 133.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 398312.28,
+      "total_services": 3453,
+      "total_beneficiaries": 1876,
+      "avg_submitted": 192.95,
+      "avg_paid": 131.79
+    },
+    {
+      "year": 2023,
+      "total_payments": 389502.6,
+      "total_services": 3503,
+      "total_beneficiaries": 1856,
+      "avg_submitted": 193.32,
+      "avg_paid": 129.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 11729,
+      "payments": 1710074.17,
+      "avg_markup": 1.37
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 7851,
+      "payments": 511635.79,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 7616,
+      "payments": 317146.9,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "11106",
+      "description": "Incisional biopsy of single skin lesion",
+      "services": 2062,
+      "payments": 286701.16,
+      "avg_markup": 1.44
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 4855,
+      "payments": 258498.12,
+      "avg_markup": 1.88
+    },
+    {
+      "code": "11643",
+      "description": "Removal of malignant growth (2.1 to 3.0 centimeters) of the face, ears, eyelids, nose, or lips",
+      "services": 807,
+      "payments": 241096.63,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 2408,
+      "payments": 223070.16,
+      "avg_markup": 1.51
+    },
+    {
+      "code": "11603",
+      "description": "Removal of malignant growth (2.1 to 3.0 centimeters) of the trunk, arms, or legs",
+      "services": 816,
+      "payments": 212650.27,
+      "avg_markup": 1.35
+    },
+    {
+      "code": "11623",
+      "description": "Removal of malignant growth (2.1 to 3.0 centimeters) of the scalp, neck, hands, feet, or genitals",
+      "services": 493,
+      "payments": 136963.05,
+      "avg_markup": 1.32
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1008,
+      "payments": 89488.39,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 733,
+      "payments": 66389.0,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 200,
+      "payments": 27012.41,
+      "avg_markup": 1.43
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 3601,
+      "payments": 26500.63,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "11103",
+      "description": "Tangential biopsy of additional skin lesion",
+      "services": 432,
+      "payments": 22111.83,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 215,
+      "payments": 18467.22,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "11101",
+      "description": "Biopsy of each additional growth of skin and/or tissue",
+      "services": 448,
+      "payments": 13705.67,
+      "avg_markup": 2.3
+    },
+    {
+      "code": "11602",
+      "description": "Removal of malignant growth (1.1 to 2.0 centimeters) of the trunk, arms, or legs",
+      "services": 34,
+      "payments": 3975.15,
+      "avg_markup": 1.57
+    },
+    {
+      "code": "11403",
+      "description": "Removal of growth (2.1 to 3.0 centimeters) of the trunk, arms, or legs",
+      "services": 11,
+      "payments": 1993.2,
+      "avg_markup": 1.82
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4167479.76,
+    "total_services": 45319,
+    "total_beneficiaries": 24794,
+    "avg_markup_ratio": 1.46
+  }
+}

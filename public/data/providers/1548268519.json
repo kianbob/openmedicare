@@ -1,0 +1,109 @@
+{
+  "name": "City Ambulance Of Eureka Inc",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Eureka",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 416743.47,
+      "total_services": 2309,
+      "total_beneficiaries": 1543,
+      "avg_submitted": 693.65,
+      "avg_paid": 327.81
+    },
+    {
+      "year": 2015,
+      "total_payments": 436087.94,
+      "total_services": 2445,
+      "total_beneficiaries": 1613,
+      "avg_submitted": 682.34,
+      "avg_paid": 275.06
+    },
+    {
+      "year": 2016,
+      "total_payments": 419747.07,
+      "total_services": 2372,
+      "total_beneficiaries": 1588,
+      "avg_submitted": 789.25,
+      "avg_paid": 272.62
+    },
+    {
+      "year": 2017,
+      "total_payments": 444843.06,
+      "total_services": 2508,
+      "total_beneficiaries": 1684,
+      "avg_submitted": 934.76,
+      "avg_paid": 276.08
+    },
+    {
+      "year": 2018,
+      "total_payments": 485496.34,
+      "total_services": 2544,
+      "total_beneficiaries": 1686,
+      "avg_submitted": 1526.02,
+      "avg_paid": 333.53
+    },
+    {
+      "year": 2019,
+      "total_payments": 402474.75,
+      "total_services": 2067,
+      "total_beneficiaries": 1467,
+      "avg_submitted": 1733.92,
+      "avg_paid": 342.43
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 5410,
+      "payments": 1949157.23,
+      "avg_markup": 4.43
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 1263,
+      "payments": 382529.63,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 188,
+      "payments": 117497.46,
+      "avg_markup": 5.03
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 7011,
+      "payments": 54056.42,
+      "avg_markup": 2.78
+    },
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 277,
+      "payments": 52129.27,
+      "avg_markup": 3.01
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 96,
+      "payments": 50022.61,
+      "avg_markup": 3.66
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 2605392.62,
+    "total_services": 14245,
+    "total_beneficiaries": 9581,
+    "avg_markup_ratio": 4.05
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "name": "Hai Nguyen",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Santa Ana",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 158512.45,
+      "total_services": 1779,
+      "total_beneficiaries": 813,
+      "avg_submitted": 339.0,
+      "avg_paid": 97.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 275553.96,
+      "total_services": 3399,
+      "total_beneficiaries": 1423,
+      "avg_submitted": 335.88,
+      "avg_paid": 86.27
+    },
+    {
+      "year": 2016,
+      "total_payments": 283460.1,
+      "total_services": 3753,
+      "total_beneficiaries": 1507,
+      "avg_submitted": 391.53,
+      "avg_paid": 95.66
+    },
+    {
+      "year": 2017,
+      "total_payments": 294292.82,
+      "total_services": 3895,
+      "total_beneficiaries": 1557,
+      "avg_submitted": 398.73,
+      "avg_paid": 92.65
+    },
+    {
+      "year": 2018,
+      "total_payments": 376166.0,
+      "total_services": 4724,
+      "total_beneficiaries": 1815,
+      "avg_submitted": 423.95,
+      "avg_paid": 102.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 328767.27,
+      "total_services": 4436,
+      "total_beneficiaries": 992,
+      "avg_submitted": 383.85,
+      "avg_paid": 102.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 333213.22,
+      "total_services": 4158,
+      "total_beneficiaries": 855,
+      "avg_submitted": 453.27,
+      "avg_paid": 117.69
+    },
+    {
+      "year": 2021,
+      "total_payments": 223635.08,
+      "total_services": 2925,
+      "total_beneficiaries": 563,
+      "avg_submitted": 452.04,
+      "avg_paid": 115.86
+    },
+    {
+      "year": 2022,
+      "total_payments": 248383.4,
+      "total_services": 3232,
+      "total_beneficiaries": 700,
+      "avg_submitted": 416.56,
+      "avg_paid": 108.62
+    },
+    {
+      "year": 2023,
+      "total_payments": 230393.85,
+      "total_services": 2778,
+      "total_beneficiaries": 576,
+      "avg_submitted": 449.75,
+      "avg_paid": 113.32
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 18511,
+      "payments": 1083498.22,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 7244,
+      "payments": 616088.4,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2921,
+      "payments": 469044.71,
+      "avg_markup": 3.71
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3532,
+      "payments": 305654.9,
+      "avg_markup": 4.41
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 944,
+      "payments": 167012.0,
+      "avg_markup": 3.6
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1028,
+      "payments": 56681.6,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 105,
+      "payments": 15231.85,
+      "avg_markup": 5.59
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 460,
+      "payments": 14390.34,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 125,
+      "payments": 7259.06,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 44,
+      "payments": 5821.12,
+      "avg_markup": 3.27
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 79,
+      "payments": 4579.47,
+      "avg_markup": 4.16
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 27,
+      "payments": 2947.1,
+      "avg_markup": 4.0
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 34,
+      "payments": 2438.14,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 11,
+      "payments": 904.31,
+      "avg_markup": 5.02
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 14,
+      "payments": 826.92,
+      "avg_markup": 2.99
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2752378.15,
+    "total_services": 35079,
+    "total_beneficiaries": 10801,
+    "avg_markup_ratio": 3.65
+  }
+}

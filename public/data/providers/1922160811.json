@@ -1,0 +1,232 @@
+{
+  "name": "Jennifer Allen",
+  "credentials": "M.D.",
+  "specialty": "Dermatology",
+  "city": "Macon",
+  "state": "GA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 274792.34,
+      "total_services": 5803,
+      "total_beneficiaries": 3687,
+      "avg_submitted": 155.65,
+      "avg_paid": 51.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 270892.18,
+      "total_services": 5845,
+      "total_beneficiaries": 3673,
+      "avg_submitted": 152.31,
+      "avg_paid": 48.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 287051.62,
+      "total_services": 6265,
+      "total_beneficiaries": 3894,
+      "avg_submitted": 159.26,
+      "avg_paid": 50.0
+    },
+    {
+      "year": 2017,
+      "total_payments": 288742.24,
+      "total_services": 6264,
+      "total_beneficiaries": 4011,
+      "avg_submitted": 159.06,
+      "avg_paid": 50.47
+    },
+    {
+      "year": 2018,
+      "total_payments": 297511.82,
+      "total_services": 6386,
+      "total_beneficiaries": 4129,
+      "avg_submitted": 159.35,
+      "avg_paid": 50.52
+    },
+    {
+      "year": 2019,
+      "total_payments": 299051.97,
+      "total_services": 6259,
+      "total_beneficiaries": 4123,
+      "avg_submitted": 159.35,
+      "avg_paid": 52.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 229760.23,
+      "total_services": 4715,
+      "total_beneficiaries": 3256,
+      "avg_submitted": 137.0,
+      "avg_paid": 47.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 318234.07,
+      "total_services": 5609,
+      "total_beneficiaries": 3586,
+      "avg_submitted": 137.0,
+      "avg_paid": 52.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 294372.47,
+      "total_services": 5175,
+      "total_beneficiaries": 3415,
+      "avg_submitted": 137.0,
+      "avg_paid": 52.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 282639.98,
+      "total_services": 5280,
+      "total_beneficiaries": 3555,
+      "avg_submitted": 137.0,
+      "avg_paid": 49.75
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 16712,
+      "payments": 861131.89,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6008,
+      "payments": 458523.21,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "17000",
+      "description": "Destruction of skin growth",
+      "services": 8052,
+      "payments": 288564.92,
+      "avg_markup": 3.76
+    },
+    {
+      "code": "11100",
+      "description": "Biopsy of single growth of skin and/or tissue",
+      "services": 4343,
+      "payments": 285555.51,
+      "avg_markup": 2.77
+    },
+    {
+      "code": "11102",
+      "description": "Tangential biopsy of single skin lesion",
+      "services": 4356,
+      "payments": 278045.22,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "17110",
+      "description": "Destruction of up to 14 skin growths",
+      "services": 3310,
+      "payments": 249436.47,
+      "avg_markup": 2.19
+    },
+    {
+      "code": "11103",
+      "description": "Tangential biopsy of additional skin lesion",
+      "services": 2085,
+      "payments": 79704.53,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 1010,
+      "payments": 69641.16,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "10060",
+      "description": "Drainage of abscess",
+      "services": 708,
+      "payments": 59555.75,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "11101",
+      "description": "Biopsy of each additional growth of skin and/or tissue",
+      "services": 1847,
+      "payments": 44822.0,
+      "avg_markup": 3.91
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 1334,
+      "payments": 40825.62,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99202",
+      "description": "New patient office or other outpatient visit, typically 20 minutes",
+      "services": 667,
+      "payments": 29813.69,
+      "avg_markup": 3.47
+    },
+    {
+      "code": "17003",
+      "description": "Destruction of 2-14 skin growths",
+      "services": 5434,
+      "payments": 24584.34,
+      "avg_markup": 9.95
+    },
+    {
+      "code": "17111",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 250,
+      "payments": 22190.99,
+      "avg_markup": 2.98
+    },
+    {
+      "code": "69100",
+      "description": "Biopsy of ear",
+      "services": 294,
+      "payments": 14885.08,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "17004",
+      "description": "Destruction of 15 or more skin growths",
+      "services": 131,
+      "payments": 13758.97,
+      "avg_markup": 4.92
+    },
+    {
+      "code": "11900",
+      "description": "Injection of up to 7 skin growths",
+      "services": 376,
+      "payments": 11479.81,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "11200",
+      "description": "Removal of up to and including 15 skin tags",
+      "services": 245,
+      "payments": 10031.84,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "J3301",
+      "description": "Injection, triamcinolone  acetonide, not otherwise specified, 10 mg",
+      "services": 439,
+      "payments": 497.93,
+      "avg_markup": 4.37
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2843048.93,
+    "total_services": 57601,
+    "total_beneficiaries": 37329,
+    "avg_markup_ratio": 2.59
+  }
+}

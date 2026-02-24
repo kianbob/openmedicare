@@ -1,0 +1,239 @@
+{
+  "name": "Erik Johnson",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 490039.69,
+      "total_services": 7481,
+      "total_beneficiaries": 3603,
+      "avg_submitted": 140.52,
+      "avg_paid": 78.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 576632.07,
+      "total_services": 8576,
+      "total_beneficiaries": 3995,
+      "avg_submitted": 170.27,
+      "avg_paid": 72.11
+    },
+    {
+      "year": 2016,
+      "total_payments": 608699.41,
+      "total_services": 9368,
+      "total_beneficiaries": 4462,
+      "avg_submitted": 168.28,
+      "avg_paid": 80.13
+    },
+    {
+      "year": 2017,
+      "total_payments": 682135.05,
+      "total_services": 10160,
+      "total_beneficiaries": 4437,
+      "avg_submitted": 165.87,
+      "avg_paid": 83.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 682601.32,
+      "total_services": 10673,
+      "total_beneficiaries": 4799,
+      "avg_submitted": 175.91,
+      "avg_paid": 83.91
+    },
+    {
+      "year": 2019,
+      "total_payments": 746938.43,
+      "total_services": 11887,
+      "total_beneficiaries": 4410,
+      "avg_submitted": 202.07,
+      "avg_paid": 85.5
+    },
+    {
+      "year": 2020,
+      "total_payments": 709722.61,
+      "total_services": 11348,
+      "total_beneficiaries": 4134,
+      "avg_submitted": 241.53,
+      "avg_paid": 79.88
+    },
+    {
+      "year": 2021,
+      "total_payments": 711784.37,
+      "total_services": 10660,
+      "total_beneficiaries": 4362,
+      "avg_submitted": 254.25,
+      "avg_paid": 89.87
+    },
+    {
+      "year": 2022,
+      "total_payments": 685523.9,
+      "total_services": 9990,
+      "total_beneficiaries": 4498,
+      "avg_submitted": 261.05,
+      "avg_paid": 87.26
+    },
+    {
+      "year": 2023,
+      "total_payments": 744209.06,
+      "total_services": 10091,
+      "total_beneficiaries": 4755,
+      "avg_submitted": 266.26,
+      "avg_paid": 90.74
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 32080,
+      "payments": 2043746.84,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 8086,
+      "payments": 786214.64,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99307",
+      "description": "Subsequent nursing facility visit, typically 10 minutes per day",
+      "services": 16064,
+      "payments": 635642.48,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 7567,
+      "payments": 628043.46,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit, problem with significant threat to life or function",
+      "services": 3545,
+      "payments": 579478.06,
+      "avg_markup": 4.66
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2824,
+      "payments": 396579.86,
+      "avg_markup": 1.38
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1692,
+      "payments": 260698.71,
+      "avg_markup": 1.58
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3283,
+      "payments": 220235.1,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1674,
+      "payments": 117876.73,
+      "avg_markup": 1.69
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 881,
+      "payments": 96762.42,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 469,
+      "payments": 84807.62,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 390,
+      "payments": 68907.73,
+      "avg_markup": 1.13
+    },
+    {
+      "code": "90677",
+      "description": "Pneumococcal conjugate vaccine, 20 valent (pcv20), for intramuscular use",
+      "services": 242,
+      "payments": 67867.45,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 2030,
+      "payments": 55185.26,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "90662",
+      "description": "Vaccine for influenza for injection into muscle",
+      "services": 1207,
+      "payments": 54304.15,
+      "avg_markup": 1.47
+    },
+    {
+      "code": "G0444",
+      "description": "Annual depression screening, 15 minutes",
+      "services": 2403,
+      "payments": 51345.86,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 260,
+      "payments": 45141.77,
+      "avg_markup": 4.67
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 346,
+      "payments": 44355.25,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "90694",
+      "description": "Influenza virus vaccine, quadrivalent (aiiv4), inactivated, adjuvanted, preservative free, for injection into muscle, 0.5 ml dosage",
+      "services": 549,
+      "payments": 38723.75,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 182,
+      "payments": 37688.5,
+      "avg_markup": 5.73
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 6638285.9,
+    "total_services": 100234,
+    "total_beneficiaries": 43455,
+    "avg_markup_ratio": 2.2
+  }
+}

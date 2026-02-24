@@ -1,0 +1,176 @@
+{
+  "name": "Robert Yang",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "San Bernardino",
+  "state": "CA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 364494.26,
+      "total_services": 4041,
+      "total_beneficiaries": 1068,
+      "avg_submitted": 210.88,
+      "avg_paid": 98.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 487329.98,
+      "total_services": 5023,
+      "total_beneficiaries": 1332,
+      "avg_submitted": 205.86,
+      "avg_paid": 105.84
+    },
+    {
+      "year": 2016,
+      "total_payments": 508077.82,
+      "total_services": 5042,
+      "total_beneficiaries": 1689,
+      "avg_submitted": 215.0,
+      "avg_paid": 105.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 527444.51,
+      "total_services": 5144,
+      "total_beneficiaries": 1658,
+      "avg_submitted": 245.0,
+      "avg_paid": 112.41
+    },
+    {
+      "year": 2018,
+      "total_payments": 333067.18,
+      "total_services": 3360,
+      "total_beneficiaries": 1254,
+      "avg_submitted": 218.33,
+      "avg_paid": 101.08
+    },
+    {
+      "year": 2019,
+      "total_payments": 342002.7,
+      "total_services": 3464,
+      "total_beneficiaries": 1268,
+      "avg_submitted": 218.33,
+      "avg_paid": 103.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 255099.58,
+      "total_services": 2533,
+      "total_beneficiaries": 949,
+      "avg_submitted": 218.33,
+      "avg_paid": 103.61
+    },
+    {
+      "year": 2021,
+      "total_payments": 212118.44,
+      "total_services": 2028,
+      "total_beneficiaries": 739,
+      "avg_submitted": 218.33,
+      "avg_paid": 108.12
+    },
+    {
+      "year": 2022,
+      "total_payments": 158915.81,
+      "total_services": 1575,
+      "total_beneficiaries": 617,
+      "avg_submitted": 218.33,
+      "avg_paid": 106.7
+    },
+    {
+      "year": 2023,
+      "total_payments": 216807.29,
+      "total_services": 2183,
+      "total_beneficiaries": 785,
+      "avg_submitted": 218.33,
+      "avg_paid": 106.79
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 14768,
+      "payments": 1236095.53,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 3798,
+      "payments": 664720.18,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3779,
+      "payments": 580721.87,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 4756,
+      "payments": 375075.59,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3715,
+      "payments": 320462.26,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2760,
+      "payments": 160355.86,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 343,
+      "payments": 30715.7,
+      "avg_markup": 1.95
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 234,
+      "payments": 19936.25,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 206,
+      "payments": 11805.95,
+      "avg_markup": 2.62
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 19,
+      "payments": 2990.34,
+      "avg_markup": 1.75
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 15,
+      "payments": 2478.04,
+      "avg_markup": 2.88
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3405357.57,
+    "total_services": 34393,
+    "total_beneficiaries": 11359,
+    "avg_markup_ratio": 2.3
+  }
+}

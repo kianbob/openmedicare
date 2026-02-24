@@ -1,0 +1,127 @@
+{
+  "name": "City Auditor",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Lancaster",
+  "state": "OH",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 457913.32,
+      "total_services": 2886,
+      "total_beneficiaries": 1902,
+      "avg_submitted": 612.87,
+      "avg_paid": 262.01
+    },
+    {
+      "year": 2015,
+      "total_payments": 428459.25,
+      "total_services": 2705,
+      "total_beneficiaries": 1812,
+      "avg_submitted": 621.45,
+      "avg_paid": 265.37
+    },
+    {
+      "year": 2016,
+      "total_payments": 457090.04,
+      "total_services": 2900,
+      "total_beneficiaries": 1975,
+      "avg_submitted": 621.45,
+      "avg_paid": 263.92
+    },
+    {
+      "year": 2017,
+      "total_payments": 482330.23,
+      "total_services": 3031,
+      "total_beneficiaries": 1969,
+      "avg_submitted": 621.45,
+      "avg_paid": 255.6
+    },
+    {
+      "year": 2018,
+      "total_payments": 471910.19,
+      "total_services": 2967,
+      "total_beneficiaries": 1932,
+      "avg_submitted": 621.45,
+      "avg_paid": 265.39
+    },
+    {
+      "year": 2019,
+      "total_payments": 432931.18,
+      "total_services": 2704,
+      "total_beneficiaries": 1810,
+      "avg_submitted": 635.08,
+      "avg_paid": 273.07
+    },
+    {
+      "year": 2020,
+      "total_payments": 364931.96,
+      "total_services": 2254,
+      "total_beneficiaries": 1522,
+      "avg_submitted": 635.75,
+      "avg_paid": 276.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 399253.44,
+      "total_services": 2494,
+      "total_beneficiaries": 1606,
+      "avg_submitted": 635.75,
+      "avg_paid": 274.03
+    },
+    {
+      "year": 2022,
+      "total_payments": 446283.34,
+      "total_services": 2669,
+      "total_beneficiaries": 1699,
+      "avg_submitted": 637.37,
+      "avg_paid": 281.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 403214.19,
+      "total_services": 2207,
+      "total_beneficiaries": 1456,
+      "avg_submitted": 635.75,
+      "avg_paid": 310.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als1-emergency)",
+      "services": 9075,
+      "payments": 2980964.88,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 4174,
+      "payments": 1164183.87,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 13399,
+      "payments": 119726.26,
+      "avg_markup": 1.41
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 169,
+      "payments": 79442.13,
+      "avg_markup": 2.34
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4344317.14,
+    "total_services": 26817,
+    "total_beneficiaries": 17683,
+    "avg_markup_ratio": 2.34
+  }
+}

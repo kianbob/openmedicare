@@ -1,0 +1,87 @@
+{
+  "name": "City Of Muncie",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Muncie",
+  "state": "IN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2019,
+      "total_payments": 143347.62,
+      "total_services": 942,
+      "total_beneficiaries": 756,
+      "avg_submitted": 506.2,
+      "avg_paid": 204.05
+    },
+    {
+      "year": 2020,
+      "total_payments": 774918.17,
+      "total_services": 4976,
+      "total_beneficiaries": 3176,
+      "avg_submitted": 678.46,
+      "avg_paid": 271.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 845862.2,
+      "total_services": 5498,
+      "total_beneficiaries": 3228,
+      "avg_submitted": 684.31,
+      "avg_paid": 270.85
+    },
+    {
+      "year": 2022,
+      "total_payments": 744934.08,
+      "total_services": 4674,
+      "total_beneficiaries": 3032,
+      "avg_submitted": 683.04,
+      "avg_paid": 279.26
+    },
+    {
+      "year": 2023,
+      "total_payments": 754375.69,
+      "total_services": 4269,
+      "total_beneficiaries": 2795,
+      "avg_submitted": 684.88,
+      "avg_paid": 305.44
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 4619,
+      "payments": 1568534.92,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 5368,
+      "payments": 1519858.51,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "A0433",
+      "description": "Advanced life support, level 2 (als 2)",
+      "services": 223,
+      "payments": 111311.43,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 10149,
+      "payments": 63732.88,
+      "avg_markup": 2.39
+    }
+  ],
+  "overall": {
+    "years_active": 5,
+    "total_payments": 3263437.75,
+    "total_services": 20359,
+    "total_beneficiaries": 12987,
+    "avg_markup_ratio": 2.39
+  }
+}

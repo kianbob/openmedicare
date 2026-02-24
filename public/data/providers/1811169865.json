@@ -1,0 +1,70 @@
+{
+  "name": "Elite Ambulance, Inc.",
+  "credentials": "",
+  "specialty": "Ambulance Service Supplier",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 5595429.15,
+      "total_services": 54374,
+      "total_beneficiaries": 15402,
+      "avg_submitted": 688.77,
+      "avg_paid": 269.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 2402465.26,
+      "total_services": 23084,
+      "total_beneficiaries": 8696,
+      "avg_submitted": 699.39,
+      "avg_paid": 269.12
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 34785,
+      "payments": 6204225.48,
+      "avg_markup": 3.9
+    },
+    {
+      "code": "A0429",
+      "description": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+      "services": 2757,
+      "payments": 827396.74,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 1202,
+      "payments": 753173.51,
+      "avg_markup": 1.54
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 38678,
+      "payments": 204607.42,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 36,
+      "payments": 8491.26,
+      "avg_markup": 4.15
+    }
+  ],
+  "overall": {
+    "years_active": 2,
+    "total_payments": 7997894.41,
+    "total_services": 77458,
+    "total_beneficiaries": 24098,
+    "avg_markup_ratio": 3.53
+  }
+}

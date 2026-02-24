@@ -1,0 +1,161 @@
+{
+  "name": "Ronald Ambrosia",
+  "credentials": "DO",
+  "specialty": "Emergency Medicine",
+  "city": "Columbus",
+  "state": "OH",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 66798.9,
+      "total_services": 537,
+      "total_beneficiaries": 531,
+      "avg_submitted": 1014.82,
+      "avg_paid": 111.44
+    },
+    {
+      "year": 2015,
+      "total_payments": 56599.13,
+      "total_services": 435,
+      "total_beneficiaries": 434,
+      "avg_submitted": 1112.4,
+      "avg_paid": 112.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 238888.51,
+      "total_services": 554,
+      "total_beneficiaries": 532,
+      "avg_submitted": 2916.18,
+      "avg_paid": 1372.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 1638189.41,
+      "total_services": 897,
+      "total_beneficiaries": 710,
+      "avg_submitted": 1876.27,
+      "avg_paid": 857.34
+    },
+    {
+      "year": 2018,
+      "total_payments": 1450556.73,
+      "total_services": 537,
+      "total_beneficiaries": 441,
+      "avg_submitted": 1830.43,
+      "avg_paid": 930.24
+    },
+    {
+      "year": 2019,
+      "total_payments": 12646.56,
+      "total_services": 106,
+      "total_beneficiaries": 101,
+      "avg_submitted": 1358.58,
+      "avg_paid": 109.2
+    },
+    {
+      "year": 2020,
+      "total_payments": 9430.78,
+      "total_services": 70,
+      "total_beneficiaries": 68,
+      "avg_submitted": 1423.67,
+      "avg_paid": 123.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 11545.86,
+      "total_services": 95,
+      "total_beneficiaries": 95,
+      "avg_submitted": 1285.99,
+      "avg_paid": 99.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 10701.39,
+      "total_services": 86,
+      "total_beneficiaries": 86,
+      "avg_submitted": 1582.5,
+      "avg_paid": 116.07
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "L8679",
+      "description": "Implantable neurostimulator, pulse generator, any type",
+      "services": 480,
+      "payments": 3110329.57,
+      "avg_markup": 1.49
+    },
+    {
+      "code": "99285",
+      "description": "Emergency department visit, problem with significant threat to life or function",
+      "services": 1817,
+      "payments": 246682.4,
+      "avg_markup": 10.4
+    },
+    {
+      "code": "99284",
+      "description": "Emergency department visit, problem of high severity",
+      "services": 421,
+      "payments": 38076.6,
+      "avg_markup": 11.17
+    },
+    {
+      "code": "64553",
+      "description": "Implantation of cranial nerve neurostimulator electrodes, accessed through the skin",
+      "services": 98,
+      "payments": 34008.42,
+      "avg_markup": 2.37
+    },
+    {
+      "code": "63663",
+      "description": "Revision and replacement of spinal neurostimulator electrodes",
+      "services": 47,
+      "payments": 27646.06,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 110,
+      "payments": 18937.0,
+      "avg_markup": 9.21
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 147,
+      "payments": 7953.82,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "99283",
+      "description": "Emergency department visit, moderately severe problem",
+      "services": 120,
+      "payments": 5757.56,
+      "avg_markup": 14.21
+    },
+    {
+      "code": "64585",
+      "description": "Revision or removal of peripheral neurostimulator electrode array",
+      "services": 23,
+      "payments": 4276.78,
+      "avg_markup": 2.69
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 54,
+      "payments": 1689.06,
+      "avg_markup": 2.13
+    }
+  ],
+  "overall": {
+    "years_active": 9,
+    "total_payments": 3495357.27,
+    "total_services": 3317,
+    "total_beneficiaries": 2998,
+    "avg_markup_ratio": 2.3
+  }
+}

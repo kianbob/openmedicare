@@ -1,0 +1,239 @@
+{
+  "name": "Jay Stambler",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "East Islip",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 226611.59,
+      "total_services": 8329,
+      "total_beneficiaries": 4673,
+      "avg_submitted": 147.94,
+      "avg_paid": 45.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 260278.32,
+      "total_services": 8992,
+      "total_beneficiaries": 5253,
+      "avg_submitted": 149.8,
+      "avg_paid": 46.14
+    },
+    {
+      "year": 2016,
+      "total_payments": 284477.36,
+      "total_services": 9189,
+      "total_beneficiaries": 5217,
+      "avg_submitted": 149.22,
+      "avg_paid": 48.72
+    },
+    {
+      "year": 2017,
+      "total_payments": 299321.75,
+      "total_services": 9439,
+      "total_beneficiaries": 5309,
+      "avg_submitted": 172.53,
+      "avg_paid": 57.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 308841.18,
+      "total_services": 9476,
+      "total_beneficiaries": 5679,
+      "avg_submitted": 168.43,
+      "avg_paid": 58.5
+    },
+    {
+      "year": 2019,
+      "total_payments": 433140.05,
+      "total_services": 11369,
+      "total_beneficiaries": 6250,
+      "avg_submitted": 168.88,
+      "avg_paid": 59.62
+    },
+    {
+      "year": 2020,
+      "total_payments": 412578.67,
+      "total_services": 8919,
+      "total_beneficiaries": 4381,
+      "avg_submitted": 146.75,
+      "avg_paid": 47.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 561828.39,
+      "total_services": 7933,
+      "total_beneficiaries": 1909,
+      "avg_submitted": 131.86,
+      "avg_paid": 65.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 728465.54,
+      "total_services": 10100,
+      "total_beneficiaries": 2173,
+      "avg_submitted": 143.46,
+      "avg_paid": 69.99
+    },
+    {
+      "year": 2023,
+      "total_payments": 855195.43,
+      "total_services": 10262,
+      "total_beneficiaries": 1894,
+      "avg_submitted": 139.14,
+      "avg_paid": 70.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 17824,
+      "payments": 1156641.05,
+      "avg_markup": 2.7
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 8008,
+      "payments": 711379.2,
+      "avg_markup": 2.14
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 6548,
+      "payments": 585490.76,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 5049,
+      "payments": 304975.0,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1126,
+      "payments": 170828.98,
+      "avg_markup": 1.65
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office or other outpatient, visit typically 40 minutes",
+      "services": 1145,
+      "payments": 150088.62,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 736,
+      "payments": 98727.69,
+      "avg_markup": 1.22
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 2387,
+      "payments": 89534.1,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 744,
+      "payments": 77946.23,
+      "avg_markup": 2.38
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 3147,
+      "payments": 66262.55,
+      "avg_markup": 4.27
+    },
+    {
+      "code": "45378",
+      "description": "Diagnostic examination of large bowel using an endoscope",
+      "services": 360,
+      "payments": 64816.51,
+      "avg_markup": 4.86
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 3142,
+      "payments": 55796.19,
+      "avg_markup": 2.82
+    },
+    {
+      "code": "80061",
+      "description": "Blood test, lipids (cholesterol and triglycerides)",
+      "services": 3155,
+      "payments": 45573.86,
+      "avg_markup": 4.5
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 325,
+      "payments": 44486.01,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "93880",
+      "description": "Ultrasound scanning of blood flow (outside the brain) on both sides of head and neck",
+      "services": 268,
+      "payments": 40547.74,
+      "avg_markup": 3.3
+    },
+    {
+      "code": "90670",
+      "description": "Pneumococcal vaccine for injection into muscle",
+      "services": 225,
+      "payments": 39639.27,
+      "avg_markup": 1.06
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 4029,
+      "payments": 39223.97,
+      "avg_markup": 2.57
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 3102,
+      "payments": 37654.4,
+      "avg_markup": 4.28
+    },
+    {
+      "code": "99205",
+      "description": "New patient office or other outpatient visit, typically 60 minutes",
+      "services": 219,
+      "payments": 37494.66,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "80053",
+      "description": "Blood test, comprehensive group of blood chemicals",
+      "services": 3798,
+      "payments": 37468.74,
+      "avg_markup": 3.8
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4370738.28,
+    "total_services": 94008,
+    "total_beneficiaries": 42738,
+    "avg_markup_ratio": 2.48
+  }
+}

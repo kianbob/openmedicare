@@ -1,0 +1,134 @@
+{
+  "name": "Saint Thomas Health",
+  "credentials": "",
+  "specialty": "Ambulance Service Provider",
+  "city": "Nashville",
+  "state": "TN",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 332538.67,
+      "total_services": 3965,
+      "total_beneficiaries": 3308,
+      "avg_submitted": 343.34,
+      "avg_paid": 120.36
+    },
+    {
+      "year": 2015,
+      "total_payments": 406852.36,
+      "total_services": 4681,
+      "total_beneficiaries": 3817,
+      "avg_submitted": 508.6,
+      "avg_paid": 225.08
+    },
+    {
+      "year": 2016,
+      "total_payments": 295377.13,
+      "total_services": 3488,
+      "total_beneficiaries": 2965,
+      "avg_submitted": 343.34,
+      "avg_paid": 121.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 251008.58,
+      "total_services": 2840,
+      "total_beneficiaries": 2490,
+      "avg_submitted": 508.57,
+      "avg_paid": 226.16
+    },
+    {
+      "year": 2018,
+      "total_payments": 268370.98,
+      "total_services": 2967,
+      "total_beneficiaries": 2607,
+      "avg_submitted": 508.59,
+      "avg_paid": 229.12
+    },
+    {
+      "year": 2019,
+      "total_payments": 323730.33,
+      "total_services": 3330,
+      "total_beneficiaries": 2863,
+      "avg_submitted": 600.58,
+      "avg_paid": 252.75
+    },
+    {
+      "year": 2020,
+      "total_payments": 514760.71,
+      "total_services": 5051,
+      "total_beneficiaries": 4210,
+      "avg_submitted": 616.01,
+      "avg_paid": 255.63
+    },
+    {
+      "year": 2021,
+      "total_payments": 478309.51,
+      "total_services": 4718,
+      "total_beneficiaries": 4037,
+      "avg_submitted": 616.0,
+      "avg_paid": 256.46
+    },
+    {
+      "year": 2022,
+      "total_payments": 538486.62,
+      "total_services": 5054,
+      "total_beneficiaries": 4274,
+      "avg_submitted": 616.0,
+      "avg_paid": 268.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 617146.29,
+      "total_services": 5400,
+      "total_beneficiaries": 4556,
+      "avg_submitted": 616.0,
+      "avg_paid": 290.93
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "A0428",
+      "description": "Ambulance service, basic life support, non-emergency transport, (bls)",
+      "services": 17766,
+      "payments": 3053234.08,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "A0426",
+      "description": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+      "services": 1974,
+      "payments": 422401.64,
+      "avg_markup": 3.14
+    },
+    {
+      "code": "A0427",
+      "description": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+      "services": 636,
+      "payments": 219428.08,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "A0434",
+      "description": "Specialty care transport (sct)",
+      "services": 356,
+      "payments": 204265.46,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "A0425",
+      "description": "Ground mileage, per statute mile",
+      "services": 20762,
+      "payments": 127251.91,
+      "avg_markup": 2.45
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4026581.18,
+    "total_services": 41494,
+    "total_beneficiaries": 35127,
+    "avg_markup_ratio": 2.57
+  }
+}

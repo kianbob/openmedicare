@@ -1,0 +1,72 @@
+{
+  "name": "Addiction Research And Treatment, Inc",
+  "credentials": "",
+  "specialty": "Opioid Treatment Program",
+  "city": "San Francisco",
+  "state": "CA",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 882270.73,
+      "total_services": 4653,
+      "total_beneficiaries": 153,
+      "avg_submitted": 121.6,
+      "avg_paid": 120.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 981438.1,
+      "total_services": 4566,
+      "total_beneficiaries": 158,
+      "avg_submitted": 141.81,
+      "avg_paid": 136.98
+    },
+    {
+      "year": 2022,
+      "total_payments": 767279.63,
+      "total_services": 3562,
+      "total_beneficiaries": 156,
+      "avg_submitted": 157.58,
+      "avg_paid": 153.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 833097.45,
+      "total_services": 3263,
+      "total_beneficiaries": 175,
+      "avg_submitted": 172.76,
+      "avg_paid": 167.46
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G2067",
+      "description": "Medication assisted treatment, methadone; weekly bundle including dispensing and/or administration, substance use counseling, individual and group therapy, and toxicology testing, if performed (provision of the services by a medicare-enrolled opioid treatm",
+      "services": 14298,
+      "payments": 3368530.72,
+      "avg_markup": 1.03
+    },
+    {
+      "code": "G2078",
+      "description": "Take-home supply of methadone; up to 7 additional day supply (provision of the services by a medicare-enrolled opioid treatment program); list separately in addition to code for primary procedure",
+      "services": 1538,
+      "payments": 56641.35,
+      "avg_markup": 1.01
+    },
+    {
+      "code": "G2074",
+      "description": "Medication assisted treatment, weekly bundle not including the drug, including substance use counseling, individual and group therapy, and toxicology testing if performed (provision of the services by a medicare-enrolled opioid treatment program)",
+      "services": 208,
+      "payments": 38913.84,
+      "avg_markup": 1.02
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 3464085.91,
+    "total_services": 16044,
+    "total_beneficiaries": 642,
+    "avg_markup_ratio": 1.03
+  }
+}

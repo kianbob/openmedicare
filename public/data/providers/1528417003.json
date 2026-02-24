@@ -1,0 +1,95 @@
+{
+  "name": "Liberty Diagnostics",
+  "credentials": "",
+  "specialty": "Clinical Laboratory",
+  "city": "Fort Worth",
+  "state": "TX",
+  "entity_type": "Organization",
+  "yearly_payments": [
+    {
+      "year": 2018,
+      "total_payments": 1311812.05,
+      "total_services": 8434,
+      "total_beneficiaries": 3567,
+      "avg_submitted": 475.88,
+      "avg_paid": 147.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 1526053.26,
+      "total_services": 10050,
+      "total_beneficiaries": 3590,
+      "avg_submitted": 279.48,
+      "avg_paid": 149.77
+    },
+    {
+      "year": 2020,
+      "total_payments": 1243811.23,
+      "total_services": 9132,
+      "total_beneficiaries": 4106,
+      "avg_submitted": 179.33,
+      "avg_paid": 167.03
+    },
+    {
+      "year": 2021,
+      "total_payments": 1101518.88,
+      "total_services": 8446,
+      "total_beneficiaries": 2882,
+      "avg_submitted": 179.33,
+      "avg_paid": 167.6
+    },
+    {
+      "year": 2022,
+      "total_payments": 957296.8,
+      "total_services": 7548,
+      "total_beneficiaries": 2535,
+      "avg_submitted": 179.33,
+      "avg_paid": 160.75
+    },
+    {
+      "year": 2023,
+      "total_payments": 834447.11,
+      "total_services": 6653,
+      "total_beneficiaries": 2307,
+      "avg_submitted": 179.39,
+      "avg_paid": 162.09
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "G0482",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 14178,
+      "payments": 2760740.94,
+      "avg_markup": 1.12
+    },
+    {
+      "code": "G0483",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 10906,
+      "payments": 2629791.8,
+      "avg_markup": 2.26
+    },
+    {
+      "code": "80307",
+      "description": "Testing for presence of drug",
+      "services": 25139,
+      "payments": 1578832.91,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "G0481",
+      "description": "Drug test(s), definitive, utilizing (1) drug identification methods able to identify individual drugs and distinguish between structural isomers (but not necessarily stereoisomers), including, but not limited to gc/ms (any type, single or tandem) and lc/ms",
+      "services": 40,
+      "payments": 5573.68,
+      "avg_markup": 2.6
+    }
+  ],
+  "overall": {
+    "years_active": 6,
+    "total_payments": 6974939.33,
+    "total_services": 50263,
+    "total_beneficiaries": 18987,
+    "avg_markup_ratio": 1.64
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Jonathan Lozevski",
+  "credentials": "M.D.",
+  "specialty": "Diagnostic Radiology",
+  "city": "Goldsboro",
+  "state": "NC",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 329416.73,
+      "total_services": 14042,
+      "total_beneficiaries": 12830,
+      "avg_submitted": 170.78,
+      "avg_paid": 33.86
+    },
+    {
+      "year": 2015,
+      "total_payments": 361770.67,
+      "total_services": 15328,
+      "total_beneficiaries": 13944,
+      "avg_submitted": 182.56,
+      "avg_paid": 37.37
+    },
+    {
+      "year": 2016,
+      "total_payments": 417644.13,
+      "total_services": 16545,
+      "total_beneficiaries": 15201,
+      "avg_submitted": 196.72,
+      "avg_paid": 37.03
+    },
+    {
+      "year": 2017,
+      "total_payments": 439644.37,
+      "total_services": 16454,
+      "total_beneficiaries": 15143,
+      "avg_submitted": 194.44,
+      "avg_paid": 34.38
+    },
+    {
+      "year": 2018,
+      "total_payments": 406355.69,
+      "total_services": 15350,
+      "total_beneficiaries": 14196,
+      "avg_submitted": 199.54,
+      "avg_paid": 35.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 505883.48,
+      "total_services": 14809,
+      "total_beneficiaries": 13903,
+      "avg_submitted": 201.01,
+      "avg_paid": 42.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 488128.35,
+      "total_services": 11613,
+      "total_beneficiaries": 11139,
+      "avg_submitted": 283.53,
+      "avg_paid": 52.65
+    },
+    {
+      "year": 2021,
+      "total_payments": 275528.3,
+      "total_services": 6595,
+      "total_beneficiaries": 6165,
+      "avg_submitted": 301.72,
+      "avg_paid": 47.32
+    },
+    {
+      "year": 2022,
+      "total_payments": 205744.07,
+      "total_services": 4905,
+      "total_beneficiaries": 4620,
+      "avg_submitted": 303.95,
+      "avg_paid": 46.34
+    },
+    {
+      "year": 2023,
+      "total_payments": 250219.41,
+      "total_services": 5555,
+      "total_beneficiaries": 5321,
+      "avg_submitted": 312.06,
+      "avg_paid": 48.63
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "74177",
+      "description": "CT scan of abdomen and pelvis with contrast",
+      "services": 4790,
+      "payments": 384634.4,
+      "avg_markup": 6.58
+    },
+    {
+      "code": "77067",
+      "description": "Mammography of both breasts",
+      "services": 3881,
+      "payments": 260163.49,
+      "avg_markup": 3.33
+    },
+    {
+      "code": "70450",
+      "description": "CT scan head or brain",
+      "services": 7933,
+      "payments": 236877.71,
+      "avg_markup": 6.53
+    },
+    {
+      "code": "77063",
+      "description": "Screening digital tomography of both breasts",
+      "services": 6413,
+      "payments": 215569.84,
+      "avg_markup": 1.68
+    },
+    {
+      "code": "74176",
+      "description": "CT scan of abdomen and pelvis",
+      "services": 2976,
+      "payments": 194880.43,
+      "avg_markup": 5.98
+    },
+    {
+      "code": "71260",
+      "description": "CT scan chest with contrast",
+      "services": 3251,
+      "payments": 164783.18,
+      "avg_markup": 6.9
+    },
+    {
+      "code": "G0202",
+      "description": "Screening mammography, producing direct digital image, bilateral, all views",
+      "services": 3925,
+      "payments": 133707.7,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 2419,
+      "payments": 111091.44,
+      "avg_markup": 1.31
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 2419,
+      "payments": 94567.68,
+      "avg_markup": 1.28
+    },
+    {
+      "code": "72148",
+      "description": "MRI scan of lower spinal canal",
+      "services": 1354,
+      "payments": 72314.99,
+      "avg_markup": 6.04
+    },
+    {
+      "code": "71010",
+      "description": "X-ray of chest, 1 view, front",
+      "services": 10580,
+      "payments": 70938.05,
+      "avg_markup": 5.22
+    },
+    {
+      "code": "70551",
+      "description": "MRI scan brain",
+      "services": 1191,
+      "payments": 63648.54,
+      "avg_markup": 6.15
+    },
+    {
+      "code": "70553",
+      "description": "MRI scan of brain before and after contrast",
+      "services": 708,
+      "payments": 59648.32,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "71250",
+      "description": "CT scan chest",
+      "services": 1318,
+      "payments": 57444.3,
+      "avg_markup": 6.68
+    },
+    {
+      "code": "72125",
+      "description": "CT scan of upper spine",
+      "services": 1547,
+      "payments": 57435.96,
+      "avg_markup": 6.09
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 640,
+      "payments": 53868.28,
+      "avg_markup": 6.77
+    },
+    {
+      "code": "71045",
+      "description": "X-ray of chest, 1 view",
+      "services": 8100,
+      "payments": 53485.15,
+      "avg_markup": 6.16
+    },
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with CT imaging skull base to mid-thigh",
+      "services": 584,
+      "payments": 51869.88,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "93925",
+      "description": "Ultrasound study of arteries and arterial grafts of both legs",
+      "services": 323,
+      "payments": 49940.77,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "76770",
+      "description": "Ultrasound behind abdominal cavity",
+      "services": 1412,
+      "payments": 49284.58,
+      "avg_markup": 5.13
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3680335.2,
+    "total_services": 121196,
+    "total_beneficiaries": 112462,
+    "avg_markup_ratio": 4.98
+  }
+}

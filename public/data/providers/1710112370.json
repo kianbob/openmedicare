@@ -1,0 +1,211 @@
+{
+  "name": "Vidya Amaraneni",
+  "credentials": "MD",
+  "specialty": "Family Practice",
+  "city": "San Antonio",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 263027.72,
+      "total_services": 3594,
+      "total_beneficiaries": 1613,
+      "avg_submitted": 283.43,
+      "avg_paid": 99.72
+    },
+    {
+      "year": 2015,
+      "total_payments": 278166.43,
+      "total_services": 3933,
+      "total_beneficiaries": 1622,
+      "avg_submitted": 257.34,
+      "avg_paid": 87.94
+    },
+    {
+      "year": 2016,
+      "total_payments": 201903.39,
+      "total_services": 2957,
+      "total_beneficiaries": 1295,
+      "avg_submitted": 259.08,
+      "avg_paid": 85.63
+    },
+    {
+      "year": 2017,
+      "total_payments": 91039.65,
+      "total_services": 1200,
+      "total_beneficiaries": 615,
+      "avg_submitted": 297.19,
+      "avg_paid": 79.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 174581.79,
+      "total_services": 2434,
+      "total_beneficiaries": 1006,
+      "avg_submitted": 471.71,
+      "avg_paid": 87.23
+    },
+    {
+      "year": 2019,
+      "total_payments": 200247.04,
+      "total_services": 2875,
+      "total_beneficiaries": 1154,
+      "avg_submitted": 348.35,
+      "avg_paid": 84.38
+    },
+    {
+      "year": 2020,
+      "total_payments": 354706.68,
+      "total_services": 4942,
+      "total_beneficiaries": 1671,
+      "avg_submitted": 346.15,
+      "avg_paid": 93.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 438913.03,
+      "total_services": 5825,
+      "total_beneficiaries": 1707,
+      "avg_submitted": 321.6,
+      "avg_paid": 85.76
+    },
+    {
+      "year": 2022,
+      "total_payments": 425233.71,
+      "total_services": 5782,
+      "total_beneficiaries": 1849,
+      "avg_submitted": 320.92,
+      "avg_paid": 83.98
+    },
+    {
+      "year": 2023,
+      "total_payments": 350138.02,
+      "total_services": 4414,
+      "total_beneficiaries": 1673,
+      "avg_submitted": 410.79,
+      "avg_paid": 88.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 12164,
+      "payments": 987705.01,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 16217,
+      "payments": 907277.89,
+      "avg_markup": 3.4
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2428,
+      "payments": 367988.46,
+      "avg_markup": 3.46
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 1762,
+      "payments": 144949.63,
+      "avg_markup": 3.31
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 1657,
+      "payments": 93577.67,
+      "avg_markup": 5.49
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 1346,
+      "payments": 91630.61,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1229,
+      "payments": 64357.47,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 364,
+      "payments": 37326.6,
+      "avg_markup": 4.54
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 244,
+      "payments": 30547.95,
+      "avg_markup": 2.58
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 287,
+      "payments": 28897.27,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 73,
+      "payments": 5727.63,
+      "avg_markup": 5.18
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 37,
+      "payments": 4873.26,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 25,
+      "payments": 4274.75,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 74,
+      "payments": 3980.67,
+      "avg_markup": 5.18
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 25,
+      "payments": 3909.44,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 24,
+      "payments": 933.15,
+      "avg_markup": 3.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2777957.46,
+    "total_services": 37956,
+    "total_beneficiaries": 14205,
+    "avg_markup_ratio": 3.55
+  }
+}

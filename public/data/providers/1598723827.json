@@ -1,0 +1,239 @@
+{
+  "name": "Eric Comsti",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Lakehurst",
+  "state": "NJ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 248487.08,
+      "total_services": 4154,
+      "total_beneficiaries": 1761,
+      "avg_submitted": 115.66,
+      "avg_paid": 77.47
+    },
+    {
+      "year": 2015,
+      "total_payments": 228233.51,
+      "total_services": 3785,
+      "total_beneficiaries": 1649,
+      "avg_submitted": 124.39,
+      "avg_paid": 79.22
+    },
+    {
+      "year": 2016,
+      "total_payments": 250727.54,
+      "total_services": 3948,
+      "total_beneficiaries": 1831,
+      "avg_submitted": 137.61,
+      "avg_paid": 87.15
+    },
+    {
+      "year": 2017,
+      "total_payments": 257433.8,
+      "total_services": 3946,
+      "total_beneficiaries": 1768,
+      "avg_submitted": 149.04,
+      "avg_paid": 86.5
+    },
+    {
+      "year": 2018,
+      "total_payments": 264629.79,
+      "total_services": 3906,
+      "total_beneficiaries": 1858,
+      "avg_submitted": 149.85,
+      "avg_paid": 89.79
+    },
+    {
+      "year": 2019,
+      "total_payments": 225883.4,
+      "total_services": 3216,
+      "total_beneficiaries": 1554,
+      "avg_submitted": 159.44,
+      "avg_paid": 88.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 213025.94,
+      "total_services": 2942,
+      "total_beneficiaries": 1344,
+      "avg_submitted": 145.34,
+      "avg_paid": 89.25
+    },
+    {
+      "year": 2021,
+      "total_payments": 254547.94,
+      "total_services": 3254,
+      "total_beneficiaries": 1551,
+      "avg_submitted": 153.15,
+      "avg_paid": 98.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 237780.77,
+      "total_services": 3160,
+      "total_beneficiaries": 1462,
+      "avg_submitted": 178.23,
+      "avg_paid": 101.32
+    },
+    {
+      "year": 2023,
+      "total_payments": 261619.52,
+      "total_services": 3754,
+      "total_beneficiaries": 1573,
+      "avg_submitted": 154.03,
+      "avg_paid": 88.94
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 11747,
+      "payments": 662983.26,
+      "avg_markup": 1.6
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 9294,
+      "payments": 527479.51,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 2283,
+      "payments": 296610.0,
+      "avg_markup": 1.34
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 2001,
+      "payments": 171390.25,
+      "avg_markup": 1.93
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 969,
+      "payments": 157559.22,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 1033,
+      "payments": 143832.71,
+      "avg_markup": 1.42
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 2052,
+      "payments": 124678.12,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 936,
+      "payments": 84246.73,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 559,
+      "payments": 67829.91,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99496",
+      "description": "Transitional care management services, highly complexity, requiring face-to-face visits within 7 days of discharge",
+      "services": 221,
+      "payments": 46996.22,
+      "avg_markup": 1.62
+    },
+    {
+      "code": "99495",
+      "description": "Transitional care management services, moderately complexity, requiring face-to-face visits within 14 days of discharge",
+      "services": 167,
+      "payments": 25522.54,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99316",
+      "description": "Nursing facility discharge management, more than 30 minutes",
+      "services": 271,
+      "payments": 24409.43,
+      "avg_markup": 1.5
+    },
+    {
+      "code": "99457",
+      "description": "Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",
+      "services": 477,
+      "payments": 19774.34,
+      "avg_markup": 1.98
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 589,
+      "payments": 14730.39,
+      "avg_markup": 1.29
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 264,
+      "payments": 11658.24,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 63,
+      "payments": 9204.17,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 75,
+      "payments": 6486.08,
+      "avg_markup": 1.4
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 576,
+      "payments": 6307.3,
+      "avg_markup": 4.44
+    },
+    {
+      "code": "Q2037",
+      "description": "Influenza virus vaccine, split virus, when administered to individuals 3 years of age and older, for intramuscular use (fluvirin)",
+      "services": 322,
+      "payments": 4968.9,
+      "avg_markup": 1.25
+    },
+    {
+      "code": "36415",
+      "description": "Insertion of needle into vein for collection of blood sample",
+      "services": 1530,
+      "payments": 4947.83,
+      "avg_markup": 6.12
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2442369.3,
+    "total_services": 36065,
+    "total_beneficiaries": 16351,
+    "avg_markup_ratio": 1.74
+  }
+}

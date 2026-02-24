@@ -1,0 +1,239 @@
+{
+  "name": "Omair Hasan",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Phoenix",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 187110.81,
+      "total_services": 1682,
+      "total_beneficiaries": 1296,
+      "avg_submitted": 312.4,
+      "avg_paid": 99.73
+    },
+    {
+      "year": 2015,
+      "total_payments": 116792.45,
+      "total_services": 1141,
+      "total_beneficiaries": 880,
+      "avg_submitted": 253.2,
+      "avg_paid": 94.61
+    },
+    {
+      "year": 2016,
+      "total_payments": 255681.73,
+      "total_services": 2758,
+      "total_beneficiaries": 1760,
+      "avg_submitted": 364.22,
+      "avg_paid": 102.91
+    },
+    {
+      "year": 2017,
+      "total_payments": 285325.84,
+      "total_services": 3082,
+      "total_beneficiaries": 1945,
+      "avg_submitted": 414.64,
+      "avg_paid": 105.79
+    },
+    {
+      "year": 2018,
+      "total_payments": 246856.13,
+      "total_services": 2755,
+      "total_beneficiaries": 1707,
+      "avg_submitted": 404.65,
+      "avg_paid": 91.22
+    },
+    {
+      "year": 2019,
+      "total_payments": 302370.37,
+      "total_services": 3588,
+      "total_beneficiaries": 1715,
+      "avg_submitted": 313.97,
+      "avg_paid": 93.93
+    },
+    {
+      "year": 2020,
+      "total_payments": 309593.93,
+      "total_services": 3825,
+      "total_beneficiaries": 1697,
+      "avg_submitted": 301.46,
+      "avg_paid": 93.38
+    },
+    {
+      "year": 2021,
+      "total_payments": 311626.0,
+      "total_services": 3469,
+      "total_beneficiaries": 1826,
+      "avg_submitted": 317.22,
+      "avg_paid": 99.35
+    },
+    {
+      "year": 2022,
+      "total_payments": 272186.14,
+      "total_services": 3053,
+      "total_beneficiaries": 1595,
+      "avg_submitted": 328.52,
+      "avg_paid": 94.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 216176.33,
+      "total_services": 2303,
+      "total_beneficiaries": 955,
+      "avg_submitted": 323.97,
+      "avg_paid": 107.57
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 10556,
+      "payments": 850304.51,
+      "avg_markup": 3.59
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3128,
+      "payments": 479412.0,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 3803,
+      "payments": 314351.79,
+      "avg_markup": 3.72
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 2922,
+      "payments": 218258.94,
+      "avg_markup": 1.8
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1493,
+      "payments": 210553.08,
+      "avg_markup": 3.62
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1605,
+      "payments": 86918.1,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 1465,
+      "payments": 81107.8,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 676,
+      "payments": 69824.36,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 386,
+      "payments": 50356.59,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 422,
+      "payments": 44379.37,
+      "avg_markup": 3.82
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 558,
+      "payments": 31443.03,
+      "avg_markup": 4.15
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 118,
+      "payments": 21158.75,
+      "avg_markup": 3.58
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 63,
+      "payments": 10469.99,
+      "avg_markup": 3.77
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 183,
+      "payments": 10271.56,
+      "avg_markup": 3.63
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 87,
+      "payments": 6960.29,
+      "avg_markup": 2.46
+    },
+    {
+      "code": "99235",
+      "description": "Hospital observation or inpatient care moderate severity, 50 minutes per day'",
+      "services": 40,
+      "payments": 5070.09,
+      "avg_markup": 3.84
+    },
+    {
+      "code": "99310",
+      "description": "Subsequent nursing facility visit, typically 35 minutes per day",
+      "services": 47,
+      "payments": 5006.4,
+      "avg_markup": 1.89
+    },
+    {
+      "code": "99497",
+      "description": "Advance care planning, first 30 minutes",
+      "services": 48,
+      "payments": 2795.52,
+      "avg_markup": 2.2
+    },
+    {
+      "code": "36556",
+      "description": "Insertion of central venous catheter for infusion, patient 5 years or older",
+      "services": 23,
+      "payments": 2314.95,
+      "avg_markup": 5.69
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 16,
+      "payments": 1435.76,
+      "avg_markup": 3.18
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2503719.73,
+    "total_services": 27656,
+    "total_beneficiaries": 15376,
+    "avg_markup_ratio": 3.39
+  }
+}

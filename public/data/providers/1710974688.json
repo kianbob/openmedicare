@@ -1,0 +1,239 @@
+{
+  "name": "Stuart Dickerman",
+  "credentials": "M.D.",
+  "specialty": "Cardiology",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 310289.74,
+      "total_services": 5486,
+      "total_beneficiaries": 1545,
+      "avg_submitted": 266.54,
+      "avg_paid": 60.23
+    },
+    {
+      "year": 2015,
+      "total_payments": 325025.63,
+      "total_services": 5775,
+      "total_beneficiaries": 1817,
+      "avg_submitted": 236.74,
+      "avg_paid": 55.66
+    },
+    {
+      "year": 2016,
+      "total_payments": 375830.26,
+      "total_services": 6800,
+      "total_beneficiaries": 2070,
+      "avg_submitted": 237.16,
+      "avg_paid": 55.27
+    },
+    {
+      "year": 2017,
+      "total_payments": 366913.87,
+      "total_services": 6629,
+      "total_beneficiaries": 1880,
+      "avg_submitted": 251.29,
+      "avg_paid": 55.77
+    },
+    {
+      "year": 2018,
+      "total_payments": 335845.71,
+      "total_services": 5988,
+      "total_beneficiaries": 1727,
+      "avg_submitted": 269.51,
+      "avg_paid": 55.76
+    },
+    {
+      "year": 2019,
+      "total_payments": 344931.26,
+      "total_services": 5861,
+      "total_beneficiaries": 1817,
+      "avg_submitted": 244.25,
+      "avg_paid": 48.68
+    },
+    {
+      "year": 2020,
+      "total_payments": 272059.95,
+      "total_services": 4089,
+      "total_beneficiaries": 1582,
+      "avg_submitted": 488.25,
+      "avg_paid": 85.67
+    },
+    {
+      "year": 2021,
+      "total_payments": 362995.29,
+      "total_services": 5287,
+      "total_beneficiaries": 1817,
+      "avg_submitted": 456.32,
+      "avg_paid": 73.24
+    },
+    {
+      "year": 2022,
+      "total_payments": 361532.46,
+      "total_services": 5360,
+      "total_beneficiaries": 1827,
+      "avg_submitted": 439.73,
+      "avg_paid": 72.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 367536.68,
+      "total_services": 5360,
+      "total_beneficiaries": 2027,
+      "avg_submitted": 439.73,
+      "avg_paid": 70.16
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 25674,
+      "payments": 1663824.83,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 11128,
+      "payments": 1041085.0,
+      "avg_markup": 4.7
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1828,
+      "payments": 221983.77,
+      "avg_markup": 4.9
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 10545,
+      "payments": 147281.03,
+      "avg_markup": 7.88
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 541,
+      "payments": 94344.33,
+      "avg_markup": 3.55
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 673,
+      "payments": 93371.61,
+      "avg_markup": 4.99
+    },
+    {
+      "code": "93798",
+      "description": "Physician services for outpatient heart rehabilitation with continuous EKG monitoring per session",
+      "services": 3727,
+      "payments": 43573.99,
+      "avg_markup": 14.87
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 261,
+      "payments": 23878.06,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 345,
+      "payments": 21764.06,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 565,
+      "payments": 20262.16,
+      "avg_markup": 3.94
+    },
+    {
+      "code": "94621",
+      "description": "Pulmonary exercise testing",
+      "services": 181,
+      "payments": 10660.34,
+      "avg_markup": 5.26
+    },
+    {
+      "code": "99443",
+      "description": "Physician telephone patient service, 21-30 minutes of medical discussion",
+      "services": 75,
+      "payments": 7457.07,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care per day, typically 30 minutes",
+      "services": 61,
+      "payments": 4817.61,
+      "avg_markup": 6.65
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 50,
+      "payments": 4815.96,
+      "avg_markup": 5.07
+    },
+    {
+      "code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "services": 118,
+      "payments": 3142.16,
+      "avg_markup": 2.1
+    },
+    {
+      "code": "99442",
+      "description": "Physician telephone patient service, 11-20 minutes of medical discussion",
+      "services": 45,
+      "payments": 3043.75,
+      "avg_markup": 2.07
+    },
+    {
+      "code": "93228",
+      "description": "Heart rhythm tracing, computer analysis, and interpretation of patient-triggered events greater than 24-hour EKG up to 30 days",
+      "services": 120,
+      "payments": 2682.9,
+      "avg_markup": 14.21
+    },
+    {
+      "code": "93016",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring and physician supervision",
+      "services": 132,
+      "payments": 2288.0,
+      "avg_markup": 6.27
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 30,
+      "payments": 1856.05,
+      "avg_markup": 4.89
+    },
+    {
+      "code": "93018",
+      "description": "Exercise or drug-induced heart and blood vessel stress test with EKG monitoring, physician interpretation and report",
+      "services": 132,
+      "payments": 1507.56,
+      "avg_markup": 7.34
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3422960.85,
+    "total_services": 56635,
+    "total_beneficiaries": 18109,
+    "avg_markup_ratio": 5.11
+  }
+}

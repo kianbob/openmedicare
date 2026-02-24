@@ -1,0 +1,239 @@
+{
+  "name": "Anthony Bertelle",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "Brooklyn",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 380026.36,
+      "total_services": 26087,
+      "total_beneficiaries": 12532,
+      "avg_submitted": 76.17,
+      "avg_paid": 21.15
+    },
+    {
+      "year": 2015,
+      "total_payments": 365950.88,
+      "total_services": 24109,
+      "total_beneficiaries": 12130,
+      "avg_submitted": 75.64,
+      "avg_paid": 24.03
+    },
+    {
+      "year": 2016,
+      "total_payments": 385221.46,
+      "total_services": 25963,
+      "total_beneficiaries": 12161,
+      "avg_submitted": 60.69,
+      "avg_paid": 21.07
+    },
+    {
+      "year": 2017,
+      "total_payments": 363490.77,
+      "total_services": 23348,
+      "total_beneficiaries": 11514,
+      "avg_submitted": 62.0,
+      "avg_paid": 21.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 401789.81,
+      "total_services": 24163,
+      "total_beneficiaries": 12485,
+      "avg_submitted": 66.65,
+      "avg_paid": 25.62
+    },
+    {
+      "year": 2019,
+      "total_payments": 344687.46,
+      "total_services": 22694,
+      "total_beneficiaries": 11795,
+      "avg_submitted": 64.57,
+      "avg_paid": 26.95
+    },
+    {
+      "year": 2020,
+      "total_payments": 244675.04,
+      "total_services": 16850,
+      "total_beneficiaries": 9001,
+      "avg_submitted": 62.94,
+      "avg_paid": 23.08
+    },
+    {
+      "year": 2021,
+      "total_payments": 357824.5,
+      "total_services": 21454,
+      "total_beneficiaries": 11560,
+      "avg_submitted": 64.52,
+      "avg_paid": 25.94
+    },
+    {
+      "year": 2022,
+      "total_payments": 520664.85,
+      "total_services": 26745,
+      "total_beneficiaries": 13643,
+      "avg_submitted": 71.85,
+      "avg_paid": 29.63
+    },
+    {
+      "year": 2023,
+      "total_payments": 565766.25,
+      "total_services": 29351,
+      "total_beneficiaries": 13638,
+      "avg_submitted": 66.78,
+      "avg_paid": 30.04
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 19408,
+      "payments": 729413.74,
+      "avg_markup": 2.12
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 4300,
+      "payments": 258817.74,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "82306",
+      "description": "Vitamin D-3 level",
+      "services": 5176,
+      "payments": 184222.31,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "84443",
+      "description": "Blood test, thyroid stimulating hormone (TSH)",
+      "services": 8869,
+      "payments": 172497.77,
+      "avg_markup": 3.81
+    },
+    {
+      "code": "G0439",
+      "description": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+      "services": 967,
+      "payments": 142295.57,
+      "avg_markup": 1.2
+    },
+    {
+      "code": "84480",
+      "description": "Thyroid hormone, T3 measurement",
+      "services": 8215,
+      "payments": 135260.68,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99490",
+      "description": "Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",
+      "services": 2238,
+      "payments": 129804.54,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "82607",
+      "description": "Cyanocobalamin (vitamin B-12) level",
+      "services": 6359,
+      "payments": 113388.46,
+      "avg_markup": 3.22
+    },
+    {
+      "code": "82728",
+      "description": "Ferritin (blood protein) level",
+      "services": 7102,
+      "payments": 111148.83,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "82746",
+      "description": "Folic acid level",
+      "services": 6351,
+      "payments": 110461.53,
+      "avg_markup": 2.61
+    },
+    {
+      "code": "93000",
+      "description": "Routine EKG using at least 12 leads including interpretation and report",
+      "services": 7943,
+      "payments": 102006.36,
+      "avg_markup": 6.63
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1596,
+      "payments": 100323.32,
+      "avg_markup": 1.59
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood cell count (red cells, white blood cell, platelets), automated test",
+      "services": 10882,
+      "payments": 98726.66,
+      "avg_markup": 5.28
+    },
+    {
+      "code": "83721",
+      "description": "LDL cholesterol level",
+      "services": 8201,
+      "payments": 94032.77,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "83036",
+      "description": "Hemoglobin A1C level",
+      "services": 7745,
+      "payments": 87212.43,
+      "avg_markup": 4.04
+    },
+    {
+      "code": "83718",
+      "description": "HDL cholesterol level",
+      "services": 8211,
+      "payments": 78313.99,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "83735",
+      "description": "Magnesium level",
+      "services": 9195,
+      "payments": 71420.67,
+      "avg_markup": 4.51
+    },
+    {
+      "code": "80048",
+      "description": "Blood test, basic group of blood chemicals",
+      "services": 8654,
+      "payments": 66120.44,
+      "avg_markup": 13.09
+    },
+    {
+      "code": "84436",
+      "description": "Thyroxine (thyroid chemical) measurement",
+      "services": 8213,
+      "payments": 65525.42,
+      "avg_markup": 6.43
+    },
+    {
+      "code": "82150",
+      "description": "Amylase (enzyme) level",
+      "services": 8235,
+      "payments": 61761.01,
+      "avg_markup": 5.7
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3930097.38,
+    "total_services": 240764,
+    "total_beneficiaries": 120459,
+    "avg_markup_ratio": 3.32
+  }
+}

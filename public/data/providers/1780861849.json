@@ -1,0 +1,232 @@
+{
+  "name": "George Baramidze",
+  "credentials": "M.D.",
+  "specialty": "Nephrology",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 345769.41,
+      "total_services": 3798,
+      "total_beneficiaries": 1287,
+      "avg_submitted": 272.14,
+      "avg_paid": 112.43
+    },
+    {
+      "year": 2015,
+      "total_payments": 432904.68,
+      "total_services": 4643,
+      "total_beneficiaries": 1524,
+      "avg_submitted": 279.48,
+      "avg_paid": 109.21
+    },
+    {
+      "year": 2016,
+      "total_payments": 506163.52,
+      "total_services": 5320,
+      "total_beneficiaries": 1717,
+      "avg_submitted": 288.21,
+      "avg_paid": 115.69
+    },
+    {
+      "year": 2017,
+      "total_payments": 427890.87,
+      "total_services": 4353,
+      "total_beneficiaries": 1627,
+      "avg_submitted": 289.39,
+      "avg_paid": 115.32
+    },
+    {
+      "year": 2018,
+      "total_payments": 410579.59,
+      "total_services": 3809,
+      "total_beneficiaries": 1466,
+      "avg_submitted": 297.78,
+      "avg_paid": 113.21
+    },
+    {
+      "year": 2019,
+      "total_payments": 406904.13,
+      "total_services": 3706,
+      "total_beneficiaries": 1295,
+      "avg_submitted": 310.36,
+      "avg_paid": 121.09
+    },
+    {
+      "year": 2020,
+      "total_payments": 351501.4,
+      "total_services": 3195,
+      "total_beneficiaries": 1213,
+      "avg_submitted": 290.11,
+      "avg_paid": 115.78
+    },
+    {
+      "year": 2021,
+      "total_payments": 348308.04,
+      "total_services": 3308,
+      "total_beneficiaries": 1299,
+      "avg_submitted": 235.86,
+      "avg_paid": 107.09
+    },
+    {
+      "year": 2022,
+      "total_payments": 371284.19,
+      "total_services": 4327,
+      "total_beneficiaries": 1410,
+      "avg_submitted": 253.96,
+      "avg_paid": 106.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 287525.23,
+      "total_services": 3543,
+      "total_beneficiaries": 1042,
+      "avg_submitted": 240.08,
+      "avg_paid": 99.54
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 22078,
+      "payments": 1845808.19,
+      "avg_markup": 1.97
+    },
+    {
+      "code": "90960",
+      "description": "Dialysis services (4 or more physician visits per month), patient 20 years of age and older",
+      "services": 2994,
+      "payments": 715409.53,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 3012,
+      "payments": 476789.09,
+      "avg_markup": 1.52
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 3716,
+      "payments": 215018.26,
+      "avg_markup": 1.81
+    },
+    {
+      "code": "90961",
+      "description": "Dialysis services (2-3 physician visits per month), patient 20 years of age and older",
+      "services": 785,
+      "payments": 159449.91,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 1357,
+      "payments": 146971.64,
+      "avg_markup": 1.9
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 769,
+      "payments": 65711.63,
+      "avg_markup": 1.96
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 1089,
+      "payments": 62829.36,
+      "avg_markup": 1.83
+    },
+    {
+      "code": "90935",
+      "description": "Hemodialysis procedure with one physician evaluation",
+      "services": 697,
+      "payments": 40471.41,
+      "avg_markup": 5.08
+    },
+    {
+      "code": "99457",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; first 20 minutes",
+      "services": 1016,
+      "payments": 38669.51,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "99454",
+      "description": "Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",
+      "services": 908,
+      "payments": 37456.05,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "99458",
+      "description": "Remote physiologic monitoring treatment management services, health care professional time in a calendar month requiring interactive communication with the patient/caregiver; each additional 20 minute",
+      "services": 1006,
+      "payments": 31328.84,
+      "avg_markup": 2.25
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 129,
+      "payments": 23119.94,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 89,
+      "payments": 11364.81,
+      "avg_markup": 2.11
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 93,
+      "payments": 7487.76,
+      "avg_markup": 2.36
+    },
+    {
+      "code": "90945",
+      "description": "Dialysis procedure including one evaluation",
+      "services": 70,
+      "payments": 4814.12,
+      "avg_markup": 4.36
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 93,
+      "payments": 2926.99,
+      "avg_markup": 2.48
+    },
+    {
+      "code": "90962",
+      "description": "Dialysis services, 1 physician visit per month (20 years or older)",
+      "services": 13,
+      "payments": 1924.63,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "99453",
+      "description": "Remote monitoring of physiologic parameters, initial set-up and patient education on use of equipment",
+      "services": 88,
+      "payments": 1279.39,
+      "avg_markup": 2.38
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 3888831.06,
+    "total_services": 40002,
+    "total_beneficiaries": 13880,
+    "avg_markup_ratio": 2.18
+  }
+}

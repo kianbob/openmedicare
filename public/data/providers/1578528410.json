@@ -1,0 +1,239 @@
+{
+  "name": "Mark Radziewicz",
+  "credentials": "D.O.",
+  "specialty": "Hospitalist",
+  "city": "Wilkes Barre",
+  "state": "PA",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 209229.85,
+      "total_services": 2522,
+      "total_beneficiaries": 1716,
+      "avg_submitted": 184.76,
+      "avg_paid": 84.02
+    },
+    {
+      "year": 2015,
+      "total_payments": 290293.11,
+      "total_services": 3513,
+      "total_beneficiaries": 2090,
+      "avg_submitted": 188.0,
+      "avg_paid": 87.55
+    },
+    {
+      "year": 2016,
+      "total_payments": 275220.91,
+      "total_services": 3366,
+      "total_beneficiaries": 2290,
+      "avg_submitted": 178.76,
+      "avg_paid": 77.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 354402.11,
+      "total_services": 3950,
+      "total_beneficiaries": 2653,
+      "avg_submitted": 160.26,
+      "avg_paid": 74.45
+    },
+    {
+      "year": 2018,
+      "total_payments": 195698.63,
+      "total_services": 2549,
+      "total_beneficiaries": 1509,
+      "avg_submitted": 294.0,
+      "avg_paid": 70.73
+    },
+    {
+      "year": 2019,
+      "total_payments": 280642.93,
+      "total_services": 3283,
+      "total_beneficiaries": 1819,
+      "avg_submitted": 428.68,
+      "avg_paid": 99.98
+    },
+    {
+      "year": 2020,
+      "total_payments": 268668.65,
+      "total_services": 3232,
+      "total_beneficiaries": 1557,
+      "avg_submitted": 410.48,
+      "avg_paid": 101.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 250832.33,
+      "total_services": 2972,
+      "total_beneficiaries": 1275,
+      "avg_submitted": 410.33,
+      "avg_paid": 101.22
+    },
+    {
+      "year": 2022,
+      "total_payments": 202293.91,
+      "total_services": 2661,
+      "total_beneficiaries": 1063,
+      "avg_submitted": 375.43,
+      "avg_paid": 96.21
+    },
+    {
+      "year": 2023,
+      "total_payments": 267533.09,
+      "total_services": 3126,
+      "total_beneficiaries": 1105,
+      "avg_submitted": 371.88,
+      "avg_paid": 92.52
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 11559,
+      "payments": 963731.39,
+      "avg_markup": 3.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 2832,
+      "payments": 451556.1,
+      "avg_markup": 2.66
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 7402,
+      "payments": 432425.96,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2386,
+      "payments": 201610.21,
+      "avg_markup": 3.26
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 2044,
+      "payments": 121139.76,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 626,
+      "payments": 106570.52,
+      "avg_markup": 3.86
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 518,
+      "payments": 76074.31,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office or other outpatient, visit typically 25 minutes",
+      "services": 720,
+      "payments": 47430.74,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 636,
+      "payments": 38107.52,
+      "avg_markup": 3.0
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 258,
+      "payments": 26159.51,
+      "avg_markup": 3.32
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office or other outpatient visit, typically 15 minutes",
+      "services": 487,
+      "payments": 22991.23,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 171,
+      "payments": 21815.57,
+      "avg_markup": 1.87
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 162,
+      "payments": 14297.62,
+      "avg_markup": 2.42
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 200,
+      "payments": 12449.29,
+      "avg_markup": 2.23
+    },
+    {
+      "code": "99204",
+      "description": "New patient office or other outpatient visit, typically 45 minutes",
+      "services": 107,
+      "payments": 9876.45,
+      "avg_markup": 3.17
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 129,
+      "payments": 6719.48,
+      "avg_markup": 1.61
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 35,
+      "payments": 6524.79,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 36,
+      "payments": 4491.27,
+      "avg_markup": 2.9
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office or other outpatient visit, typically 10 minutes",
+      "services": 144,
+      "payments": 4031.83,
+      "avg_markup": 2.96
+    },
+    {
+      "code": "99203",
+      "description": "New patient office or other outpatient visit, typically 30 minutes",
+      "services": 53,
+      "payments": 3837.71,
+      "avg_markup": 2.64
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 2594815.53,
+    "total_services": 31174,
+    "total_beneficiaries": 17077,
+    "avg_markup_ratio": 3.12
+  }
+}

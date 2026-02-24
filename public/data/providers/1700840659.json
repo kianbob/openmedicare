@@ -1,0 +1,155 @@
+{
+  "name": "Mark Steinhauer",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Las Vegas",
+  "state": "NV",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 466033.3,
+      "total_services": 6807,
+      "total_beneficiaries": 1973,
+      "avg_submitted": 210.65,
+      "avg_paid": 81.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 440108.03,
+      "total_services": 6392,
+      "total_beneficiaries": 2000,
+      "avg_submitted": 212.2,
+      "avg_paid": 77.73
+    },
+    {
+      "year": 2016,
+      "total_payments": 460189.59,
+      "total_services": 6701,
+      "total_beneficiaries": 2063,
+      "avg_submitted": 225.44,
+      "avg_paid": 84.32
+    },
+    {
+      "year": 2017,
+      "total_payments": 451875.22,
+      "total_services": 6561,
+      "total_beneficiaries": 2053,
+      "avg_submitted": 225.44,
+      "avg_paid": 82.91
+    },
+    {
+      "year": 2018,
+      "total_payments": 470181.18,
+      "total_services": 6689,
+      "total_beneficiaries": 2221,
+      "avg_submitted": 230.43,
+      "avg_paid": 83.75
+    },
+    {
+      "year": 2019,
+      "total_payments": 458821.38,
+      "total_services": 6445,
+      "total_beneficiaries": 2107,
+      "avg_submitted": 235.44,
+      "avg_paid": 85.45
+    },
+    {
+      "year": 2020,
+      "total_payments": 460536.55,
+      "total_services": 6454,
+      "total_beneficiaries": 1864,
+      "avg_submitted": 253.25,
+      "avg_paid": 98.13
+    },
+    {
+      "year": 2021,
+      "total_payments": 419129.75,
+      "total_services": 5950,
+      "total_beneficiaries": 1727,
+      "avg_submitted": 253.25,
+      "avg_paid": 96.88
+    },
+    {
+      "year": 2022,
+      "total_payments": 352285.4,
+      "total_services": 5149,
+      "total_beneficiaries": 1460,
+      "avg_submitted": 235.44,
+      "avg_paid": 84.97
+    },
+    {
+      "year": 2023,
+      "total_payments": 348078.22,
+      "total_services": 4823,
+      "total_beneficiaries": 1420,
+      "avg_submitted": 253.25,
+      "avg_paid": 95.48
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 47323,
+      "payments": 2721941.01,
+      "avg_markup": 2.52
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5438,
+      "payments": 854565.12,
+      "avg_markup": 2.71
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 5500,
+      "payments": 468403.7,
+      "avg_markup": 2.5
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 2945,
+      "payments": 244699.97,
+      "avg_markup": 2.47
+    },
+    {
+      "code": "G0180",
+      "description": "Physician certification for medicare-covered home health  services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians to affirm the initial imple",
+      "services": 437,
+      "payments": 18166.92,
+      "avg_markup": 3.95
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 259,
+      "payments": 13823.58,
+      "avg_markup": 2.74
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 34,
+      "payments": 4598.16,
+      "avg_markup": 2.45
+    },
+    {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, typically 15 minutes per day",
+      "services": 35,
+      "payments": 1040.16,
+      "avg_markup": 2.69
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4327238.62,
+    "total_services": 61971,
+    "total_beneficiaries": 18888,
+    "avg_markup_ratio": 2.56
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "name": "Ron Rosen",
+  "credentials": "M.D.",
+  "specialty": "Nuclear Medicine",
+  "city": "New York",
+  "state": "NY",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2020,
+      "total_payments": 544581.33,
+      "total_services": 697,
+      "total_beneficiaries": 679,
+      "avg_submitted": 1514.47,
+      "avg_paid": 443.77
+    },
+    {
+      "year": 2021,
+      "total_payments": 1399332.2,
+      "total_services": 1535,
+      "total_beneficiaries": 1406,
+      "avg_submitted": 2000.47,
+      "avg_paid": 808.7
+    },
+    {
+      "year": 2022,
+      "total_payments": 1610920.29,
+      "total_services": 1903,
+      "total_beneficiaries": 1769,
+      "avg_submitted": 1402.16,
+      "avg_paid": 429.15
+    },
+    {
+      "year": 2023,
+      "total_payments": 1494716.26,
+      "total_services": 1696,
+      "total_beneficiaries": 1614,
+      "avg_submitted": 1779.52,
+      "avg_paid": 523.26
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "78815",
+      "description": "Nuclear medicine study with ct imaging skull base to mid-thigh",
+      "services": 2090,
+      "payments": 3156155.2,
+      "avg_markup": 3.44
+    },
+    {
+      "code": "78816",
+      "description": "Nuclear medicine study with ct imaging whole body",
+      "services": 644,
+      "payments": 970710.6,
+      "avg_markup": 3.43
+    },
+    {
+      "code": "A9552",
+      "description": "Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",
+      "services": 1967,
+      "payments": 480514.63,
+      "avg_markup": 1.63
+    },
+    {
+      "code": "A9595",
+      "description": "Piflufolastat f-18, diagnostic, 1 millicurie",
+      "services": 448,
+      "payments": 202794.94,
+      "avg_markup": 1.39
+    },
+    {
+      "code": "A9597",
+      "description": "Positron emission tomography radiopharmaceutical, diagnostic, for tumor identification, not otherwise classified",
+      "services": 32,
+      "payments": 115609.87,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "A9588",
+      "description": "Fluciclovine f-18, diagnostic, 1 millicurie",
+      "services": 114,
+      "payments": 42588.67,
+      "avg_markup": 1.7
+    },
+    {
+      "code": "74177",
+      "description": "Ct scan of abdomen and pelvis with contrast",
+      "services": 85,
+      "payments": 26828.1,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "78306",
+      "description": "Bone and/or joint imaging, whole body",
+      "services": 58,
+      "payments": 17660.4,
+      "avg_markup": 4.1
+    },
+    {
+      "code": "A9596",
+      "description": "Gallium ga-68 gozetotide, diagnostic, (illuccix), 1 millicurie",
+      "services": 17,
+      "payments": 14282.28,
+      "avg_markup": 3.83
+    },
+    {
+      "code": "71260",
+      "description": "Ct scan chest with contrast",
+      "services": 103,
+      "payments": 12605.29,
+      "avg_markup": 6.01
+    },
+    {
+      "code": "A9587",
+      "description": "Gallium ga-68, dotatate, diagnostic, 0.1 millicurie",
+      "services": 128,
+      "payments": 6038.51,
+      "avg_markup": 1.27
+    },
+    {
+      "code": "71250",
+      "description": "Ct scan of chest without contrast",
+      "services": 23,
+      "payments": 2921.78,
+      "avg_markup": 5.7
+    },
+    {
+      "code": "A9503",
+      "description": "Technetium tc-99m medronate, diagnostic, per study dose, up to 30 millicuries",
+      "services": 64,
+      "payments": 749.01,
+      "avg_markup": 30.1
+    },
+    {
+      "code": "82565",
+      "description": "Blood creatinine level",
+      "services": 17,
+      "payments": 87.04,
+      "avg_markup": 61.52
+    },
+    {
+      "code": "Q9967",
+      "description": "Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",
+      "services": 41,
+      "payments": 3.76,
+      "avg_markup": 10.89
+    }
+  ],
+  "overall": {
+    "years_active": 4,
+    "total_payments": 5049550.08,
+    "total_services": 5831,
+    "total_beneficiaries": 5468,
+    "avg_markup_ratio": 3.14
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "name": "Mohammed Ur Rehman",
+  "credentials": "M.D",
+  "specialty": "Emergency Medicine",
+  "city": "Allen",
+  "state": "TX",
+  "entity_type": "Individual",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 758883.18,
+      "total_services": 9582,
+      "total_beneficiaries": 3343,
+      "avg_submitted": 207.84,
+      "avg_paid": 94.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 670980.09,
+      "total_services": 7928,
+      "total_beneficiaries": 3685,
+      "avg_submitted": 352.16,
+      "avg_paid": 96.2
+    },
+    {
+      "year": 2016,
+      "total_payments": 782415.25,
+      "total_services": 8689,
+      "total_beneficiaries": 4144,
+      "avg_submitted": 400.92,
+      "avg_paid": 92.44
+    },
+    {
+      "year": 2017,
+      "total_payments": 520672.4,
+      "total_services": 6185,
+      "total_beneficiaries": 2910,
+      "avg_submitted": 433.94,
+      "avg_paid": 90.39
+    },
+    {
+      "year": 2018,
+      "total_payments": 508610.95,
+      "total_services": 6027,
+      "total_beneficiaries": 2386,
+      "avg_submitted": 245.08,
+      "avg_paid": 91.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 451522.74,
+      "total_services": 5729,
+      "total_beneficiaries": 2284,
+      "avg_submitted": 291.09,
+      "avg_paid": 91.82
+    },
+    {
+      "year": 2020,
+      "total_payments": 228475.59,
+      "total_services": 2568,
+      "total_beneficiaries": 1790,
+      "avg_submitted": 180.94,
+      "avg_paid": 85.22
+    },
+    {
+      "year": 2021,
+      "total_payments": 208085.75,
+      "total_services": 2367,
+      "total_beneficiaries": 1552,
+      "avg_submitted": 193.23,
+      "avg_paid": 91.21
+    },
+    {
+      "year": 2022,
+      "total_payments": 22649.74,
+      "total_services": 294,
+      "total_beneficiaries": 227,
+      "avg_submitted": 172.75,
+      "avg_paid": 79.85
+    },
+    {
+      "year": 2023,
+      "total_payments": 55184.81,
+      "total_services": 614,
+      "total_beneficiaries": 422,
+      "avg_submitted": 225.07,
+      "avg_paid": 96.94
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 25834,
+      "payments": 1973861.46,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 5798,
+      "payments": 845701.91,
+      "avg_markup": 2.59
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 8899,
+      "payments": 469249.03,
+      "avg_markup": 2.89
+    },
+    {
+      "code": "99291",
+      "description": "Critical care delivery critically ill or injured patient, first 30-74 minutes",
+      "services": 1930,
+      "payments": 313792.11,
+      "avg_markup": 2.39
+    },
+    {
+      "code": "99239",
+      "description": "Hospital discharge day management, more than 30 minutes",
+      "services": 2574,
+      "payments": 202179.98,
+      "avg_markup": 2.64
+    },
+    {
+      "code": "99220",
+      "description": "Hospital observation care typically 70 minutes per day",
+      "services": 1041,
+      "payments": 139430.54,
+      "avg_markup": 5.01
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 723,
+      "payments": 70504.3,
+      "avg_markup": 2.94
+    },
+    {
+      "code": "99308",
+      "description": "Subsequent nursing facility visit, typically 15 minutes per day",
+      "services": 1264,
+      "payments": 59481.51,
+      "avg_markup": 1.78
+    },
+    {
+      "code": "99309",
+      "description": "Subsequent nursing facility visit, typically 25 minutes per day",
+      "services": 465,
+      "payments": 30474.71,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99217",
+      "description": "Hospital observation care discharge",
+      "services": 481,
+      "payments": 25157.57,
+      "avg_markup": 5.56
+    },
+    {
+      "code": "99226",
+      "description": "Subsequent observation care, typically 35 minutes per day",
+      "services": 325,
+      "payments": 24674.86,
+      "avg_markup": 3.67
+    },
+    {
+      "code": "99306",
+      "description": "Initial nursing facility visit, typically 45 minutes per day",
+      "services": 108,
+      "payments": 12938.65,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99238",
+      "description": "Hospital discharge day management, 30 minutes or less",
+      "services": 230,
+      "payments": 12309.15,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "99236",
+      "description": "Hospital observation or inpatient care high severity, 55 minutes per day",
+      "services": 66,
+      "payments": 10674.48,
+      "avg_markup": 4.94
+    },
+    {
+      "code": "99219",
+      "description": "Hospital observation care typically 50 minutes",
+      "services": 64,
+      "payments": 6362.57,
+      "avg_markup": 3.45
+    },
+    {
+      "code": "99225",
+      "description": "Subsequent observation care, typically 25 minutes per day",
+      "services": 114,
+      "payments": 6171.14,
+      "avg_markup": 4.65
+    },
+    {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, typically 30 minutes per day",
+      "services": 44,
+      "payments": 3262.09,
+      "avg_markup": 3.48
+    },
+    {
+      "code": "99292",
+      "description": "Critical care delivery critically ill or injured patient",
+      "services": 11,
+      "payments": 913.55,
+      "avg_markup": 2.41
+    },
+    {
+      "code": "99231",
+      "description": "Follow-up hospital inpatient care per day, typically 15 minutes",
+      "services": 12,
+      "payments": 340.89,
+      "avg_markup": 2.54
+    }
+  ],
+  "overall": {
+    "years_active": 10,
+    "total_payments": 4207480.5,
+    "total_services": 49983,
+    "total_beneficiaries": 22743,
+    "avg_markup_ratio": 2.62
+  }
+}
