@@ -312,7 +312,7 @@ export default function HomePage() {
               {
                 stat: '3.77×',
                 description: 'On average, doctors charge nearly 4 times what Medicare actually pays them',
-                href: '/markup',
+                href: '/trends',
               },
             ].map((finding) => (
               <Link
