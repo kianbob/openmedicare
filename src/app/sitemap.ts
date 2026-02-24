@@ -195,7 +195,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const allProviders = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'all-providers.json'), 'utf-8'))
     // All fraud and watchlist NPIs first (high priority)
     const fraudNPIs = new Set(allProviders.filter((p: { fraud_probability?: number; watchlist?: boolean }) => (p.fraud_probability && p.fraud_probability > 0) || p.watchlist).map((p: { npi: string }) => p.npi))
-    fraudNPIs.forEach((npi: string) => {
+    ;(fraudNPIs as Set<string>).forEach((npi: string) => {
       dynamicRoutes.push({ url: `${baseUrl}/providers/${npi}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
     })
     // Then top providers by payment (first 2000 minus fraud ones already added)
