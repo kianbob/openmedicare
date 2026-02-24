@@ -70,6 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'your-doctor-vs-the-algorithm',
     'the-markup-game',
     'wound-care-americas-billion-dollar-bandage',
+    'fraud-enforcement-roundup',
   ]
 
   const staticPages = [

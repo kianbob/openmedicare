@@ -109,7 +109,7 @@ export default function CovidTests() {
           biggest fraud vectors in Medicare history. One Tampa pharmacy alone billed <strong>$75.8 million</strong>.
         </p>
 
-        <ShareFinding stat="$75.8M" description="One pharmacy billed Medicare $75.8 million for COVID tests" url="/fraud/covid-tests" />
+        <ShareFinding stat="$75.8M" description="One pharmacy billed Medicare $75.8 million for COVID tests" url="https://www.openmedicare.us/fraud/covid-tests" />
 
         {/* Key Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">

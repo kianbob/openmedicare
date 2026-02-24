@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: '2024–2025 Medicare Fraud Enforcement Roundup | OpenMedicare',
+  title: '2024–2025 Medicare Fraud Enforcement Roundup',
   description: 'A comprehensive look at the biggest Medicare fraud enforcement actions of 2024–2025, from the record-breaking $14.6B DOJ takedown to individual state-level prosecutions.',
   alternates: { canonical: '/investigations/fraud-enforcement-roundup' },
   openGraph: {

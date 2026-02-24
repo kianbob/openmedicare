@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const specs = loadSpecialties()
   const pair = parsePairSlug(slug)
-  if (!pair) return { title: 'Specialty Comparison | OpenMedicare' }
+  if (!pair) return { title: 'Specialty Comparison' }
   const s1 = specs[pair[0]]
   const s2 = specs[pair[1]]
   const n1 = s1?.specialty || pair[0]

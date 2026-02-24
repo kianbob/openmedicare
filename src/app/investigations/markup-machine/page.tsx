@@ -280,7 +280,7 @@ export default function MarkupMachinePage() {
                   <p className="text-sm text-gray-600">Help spread awareness about Medicare markup practices</p>
                 </div>
                 <ShareButtons
-                  url="/investigations/markup-machine"
+                  url="https://www.openmedicare.us/investigations/markup-machine"
                   title="The Medicare Markup Machine"
                   description="How doctors charge $100 billion more than Medicare actually pays them"
                 />

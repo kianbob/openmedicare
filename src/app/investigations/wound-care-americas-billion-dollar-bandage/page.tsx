@@ -65,7 +65,7 @@ export default function WoundCareAmericasBillionDollarBandagePage() {
       <ArticleJsonLd
         title="Wound Care: America's Billion-Dollar Bandage"
         description="$5.5 billion in Medicare wound care — skin substitutes, debridement, and hyperbaric oxygen"
-        url="/investigations/wound-care-americas-billion-dollar-bandage"
+        url="https://www.openmedicare.us/investigations/wound-care-americas-billion-dollar-bandage"
         publishedDate="2026-02-21"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
@@ -98,7 +98,7 @@ export default function WoundCareAmericasBillionDollarBandagePage() {
                 </span>
               </div>
               <div className="mt-4">
-                <ShareButtons url="/investigations/wound-care-americas-billion-dollar-bandage" title="Wound Care: America's Billion-Dollar Bandage" />
+                <ShareButtons url="https://www.openmedicare.us/investigations/wound-care-americas-billion-dollar-bandage" title="Wound Care: America's Billion-Dollar Bandage" />
               </div>
             </div>
 

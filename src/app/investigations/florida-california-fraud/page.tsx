@@ -87,7 +87,7 @@ export default function FloridaCaliforniaFraudPage() {
               </div>
               <span>By OpenMedicare Investigative Team</span>
               <div className="ml-auto">
-                <ShareButtons title="The Fraud Belt: Why CA and FL Lead Medicare Fraud" url="/investigations/florida-california-fraud" />
+                <ShareButtons title="The Fraud Belt: Why CA and FL Lead Medicare Fraud" url="https://www.openmedicare.us/investigations/florida-california-fraud" />
               </div>
             </div>
 

@@ -90,7 +90,7 @@ export default function AlgorithmKnowsPage() {
               </div>
               <span>By OpenMedicare Investigative Team</span>
               <div className="ml-auto">
-                <ShareButtons title="The Algorithm Knows" url="/investigations/algorithm-knows" />
+                <ShareButtons title="The Algorithm Knows" url="https://www.openmedicare.us/investigations/algorithm-knows" />
               </div>
             </div>
 

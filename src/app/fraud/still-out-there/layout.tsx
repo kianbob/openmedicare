@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     'Our ML model trained on 2,198 convicted fraudsters found 500 providers nobody flagged. Their billing mirrors known criminals — see who made the list.',
   openGraph: {
-    title: '500 Unflagged Providers Exposed by AI | OpenMedicare',
+    title: '500 Unflagged Providers Exposed by AI',
     description:
       'Our ML model trained on 2,198 convicted fraudsters found 500 providers nobody flagged. Their billing mirrors known criminals — see who made the list.',
     url: 'https://www.openmedicare.us/fraud/still-out-there',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '500 Unflagged Providers Exposed by AI | OpenMedicare',
+    title: '500 Unflagged Providers Exposed by AI',
     description:
       'Our ML model trained on 2,198 convicted fraudsters found 500 providers nobody flagged. Their billing mirrors known criminals — see who made the list.',
   },

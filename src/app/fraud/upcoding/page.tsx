@@ -108,7 +108,7 @@ export default function Upcoding() {
           office visits at the higher-paying level — every single visit, every single patient.
         </p>
 
-        <ShareFinding stat="100%" description="Some doctors code every single office visit at the higher rate" url="/fraud/upcoding" />
+        <ShareFinding stat="100%" description="Some doctors code every single office visit at the higher rate" url="https://www.openmedicare.us/fraud/upcoding" />
 
         {/* Key Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">

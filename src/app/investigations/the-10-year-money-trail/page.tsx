@@ -37,7 +37,7 @@ export default function The10YearMoneyTrailPage() {
       <ArticleJsonLd
         title="The 10-Year Money Trail: $78B to $94B"
         description="A decade of Medicare Part B spending from 2014 to 2023"
-        url="/investigations/the-10-year-money-trail"
+        url="https://www.openmedicare.us/investigations/the-10-year-money-trail"
         publishedDate="2026-02-21"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">

@@ -111,7 +111,7 @@ export default function WoundCare() {
           One nurse practitioner billed <strong>$135.2 million</strong> for just <strong>90 patients</strong> — that&apos;s $1.5 million per patient.
         </p>
 
-        <ShareFinding stat="$1.5M per patient" description="One nurse practitioner billed $135M for 90 patients" url="/fraud/wound-care" />
+        <ShareFinding stat="$1.5M per patient" description="One nurse practitioner billed $135M for 90 patients" url="https://www.openmedicare.us/fraud/wound-care" />
 
         {/* Key Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">

@@ -19,7 +19,7 @@ export default function GeneticTestingFraud() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <ArticleJsonLd title="The $328M Genetic Testing Scam" description="Former NFL player convicted in genetic testing fraud scheme" url="/investigations/genetic-testing-fraud" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="The $328M Genetic Testing Scam" description="Former NFL player convicted in genetic testing fraud scheme" url="https://www.openmedicare.us/investigations/genetic-testing-fraud" publishedDate="2026-02-21" />
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: 'Genetic Testing Fraud' }]} />
 
         <article className="prose prose-lg max-w-none">

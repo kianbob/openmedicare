@@ -230,7 +230,7 @@ export default function MostExpensiveProceduresPage() {
 
         <div className="mt-8">
           <ShareButtons
-            url="/investigations/most-expensive-medicare-procedures"
+            url="https://www.openmedicare.us/investigations/most-expensive-medicare-procedures"
             title="The Most Expensive Medicare Procedures in 2023"
             description="Office visits dominate by volume, but drug injections cost thousands per service."
           />

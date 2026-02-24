@@ -82,7 +82,7 @@ export default function InternalMedicineCrisisPage() {
               </div>
               <span>By OpenMedicare Investigative Team</span>
               <div className="ml-auto">
-                <ShareButtons title="Why Internal Medicine Is Ground Zero for Medicare Fraud" url="/investigations/internal-medicine-crisis" />
+                <ShareButtons title="Why Internal Medicine Is Ground Zero for Medicare Fraud" url="https://www.openmedicare.us/investigations/internal-medicine-crisis" />
               </div>
             </div>
 

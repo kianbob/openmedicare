@@ -299,7 +299,7 @@ export default function BeverlyHillsWoundCarePage() {
         </div>
 
               <ShareButtons
-                url="/investigations/beverly-hills-wound-care"
+                url="https://www.openmedicare.us/investigations/beverly-hills-wound-care"
                 title="Beverly Hills Plastic Surgeons Billing Medicare for Wound Care"
                 description="3 plastic surgeons in Beverly Hills billed Medicare $45.6M — 83-95% in wound care, not cosmetic surgery."
               />

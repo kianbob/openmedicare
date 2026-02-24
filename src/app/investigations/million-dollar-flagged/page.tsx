@@ -84,7 +84,7 @@ export default function MillionDollarFlaggedPage() {
               </div>
               <span>By OpenMedicare Investigative Team</span>
               <div className="ml-auto">
-                <ShareButtons title="The Million-Dollar Club: 47 AI-Flagged $1M+ Providers" url="/investigations/million-dollar-flagged" />
+                <ShareButtons title="The Million-Dollar Club: 47 AI-Flagged $1M+ Providers" url="https://www.openmedicare.us/investigations/million-dollar-flagged" />
               </div>
             </div>
 

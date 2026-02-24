@@ -52,7 +52,7 @@ export default function The4636ImpossibleDoctorsPage() {
       <ArticleJsonLd
         title="4,636 Doctors Billing the Impossible: Medicare's Phantom Workforce"
         description="4,636 Medicare providers billed more services per day than humanly possible — but the truth involves J-codes, drug units, and billing mechanics."
-        url="/investigations/the-4636-impossible-doctors"
+        url="https://www.openmedicare.us/investigations/the-4636-impossible-doctors"
         publishedDate="2026-02-21"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">

@@ -74,7 +74,7 @@ export default function NewYorkMedicareFraudPage() {
               </div>
               <span>By OpenMedicare Investigative Team</span>
               <div className="ml-auto">
-                <ShareButtons title="New York's Hidden Medicare Fraud: 39 AI-Flagged Providers" url="/investigations/new-york-medicare-fraud" />
+                <ShareButtons title="New York's Hidden Medicare Fraud: 39 AI-Flagged Providers" url="https://www.openmedicare.us/investigations/new-york-medicare-fraud" />
               </div>
             </div>
 

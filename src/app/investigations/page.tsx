@@ -788,7 +788,7 @@ export default function InvestigationsPage() {
               Share Our Investigations
             </h3>
             <ShareButtons
-              url="/investigations"
+              url="https://www.openmedicare.us/investigations"
               title="OpenMedicare Investigations"
               description="Data-driven investigative reporting on Medicare spending and healthcare transparency"
               className="justify-center"

@@ -195,7 +195,7 @@ export default function MedicareByTheNumbers() {
           </div>
         </div>
 
-        <ShareButtons url="/investigations/medicare-by-the-numbers" title="$854.8B in 10 Years: Medicare By The Numbers" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/medicare-by-the-numbers" title="$854.8B in 10 Years: Medicare By The Numbers" />
         <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500 text-center">
           <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2023.</p>
         </div>

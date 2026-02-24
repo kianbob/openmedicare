@@ -75,7 +75,7 @@ export default function CaliforniaMedicareFraudPage() {
               </div>
               <span>By OpenMedicare Investigative Team</span>
               <div className="ml-auto">
-                <ShareButtons title="California's Medicare Fraud Problem: 56 AI-Flagged Providers" url="/investigations/california-medicare-fraud" />
+                <ShareButtons title="California's Medicare Fraud Problem: 56 AI-Flagged Providers" url="https://www.openmedicare.us/investigations/california-medicare-fraud" />
               </div>
             </div>
 

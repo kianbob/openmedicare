@@ -23,7 +23,7 @@ export default function DogeMedicareFraudPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="What DOGE Should Know About Medicare Fraud" description="$854B in data, 500 AI flags, and the patterns DOGE should target" url="/investigations/doge-medicare-fraud" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="What DOGE Should Know About Medicare Fraud" description="$854B in data, 500 AI flags, and the patterns DOGE should target" url="https://www.openmedicare.us/investigations/doge-medicare-fraud" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'DOGE & Medicare Fraud' }
@@ -46,7 +46,7 @@ export default function DogeMedicareFraudPage() {
             </p>
           </div>
 
-          <ShareButtons title="What DOGE Should Know About Medicare Fraud" url="/investigations/doge-medicare-fraud" />
+          <ShareButtons title="What DOGE Should Know About Medicare Fraud" url="https://www.openmedicare.us/investigations/doge-medicare-fraud" />
 
           <InvestigationDisclaimer />
 
@@ -288,7 +288,7 @@ export default function DogeMedicareFraudPage() {
             </div>
           </div>
 
-          <ShareButtons title="What DOGE Should Know About Medicare Fraud" url="/investigations/doge-medicare-fraud" />
+          <ShareButtons title="What DOGE Should Know About Medicare Fraud" url="https://www.openmedicare.us/investigations/doge-medicare-fraud" />
         </article>
       </div>
     </main>

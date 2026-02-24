@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'Medicare Utilization Breakdown',
   description: 'Explore which Medicare services are surging, shrinking, or shifting. 96M+ claims reveal hidden patterns in how care is actually delivered.',
   openGraph: {
-    title: 'Medicare Utilization Breakdown | OpenMedicare',
+    title: 'Medicare Utilization Breakdown',
     description: 'Explore which Medicare services are surging, shrinking, or shifting. 96M+ claims reveal hidden patterns in how care is actually delivered.',
   },
 }

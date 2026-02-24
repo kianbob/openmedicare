@@ -274,7 +274,7 @@ export default function MedicareSpendingByStatePage() {
 
         <div className="mt-8">
           <ShareButtons
-            url="/investigations/medicare-spending-by-state"
+            url="https://www.openmedicare.us/investigations/medicare-spending-by-state"
             title="Medicare Spending by State: A Complete Breakdown"
             description="Every state ranked by Medicare spending, providers, and per-provider payments."
           />

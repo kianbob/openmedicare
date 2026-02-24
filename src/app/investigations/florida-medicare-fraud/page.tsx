@@ -74,7 +74,7 @@ export default function FloridaMedicareFraudPage() {
               </div>
               <span>By OpenMedicare Investigative Team</span>
               <div className="ml-auto">
-                <ShareButtons title="Florida's Medicare Fraud Epidemic: 56 AI-Flagged Providers" url="/investigations/florida-medicare-fraud" />
+                <ShareButtons title="Florida's Medicare Fraud Epidemic: 56 AI-Flagged Providers" url="https://www.openmedicare.us/investigations/florida-medicare-fraud" />
               </div>
             </div>
 

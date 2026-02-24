@@ -22,7 +22,7 @@ export default function MedicareFraud2025Page() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="Medicare Fraud in 2025" description="The state of Medicare fraud enforcement and what the data reveals" url="/investigations/medicare-fraud-2025" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="Medicare Fraud in 2025" description="The state of Medicare fraud enforcement and what the data reveals" url="https://www.openmedicare.us/investigations/medicare-fraud-2025" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'Medicare Fraud in 2025' }
@@ -199,7 +199,7 @@ export default function MedicareFraud2025Page() {
 
         <div className="mt-8">
           <ShareButtons
-            url="/investigations/medicare-fraud-2025"
+            url="https://www.openmedicare.us/investigations/medicare-fraud-2025"
             title="Medicare Fraud in 2025: The Biggest Cases and What's Changed"
             description="DOJ's $14.6B takedown, 324 defendants, and $6.8B in False Claims Act recoveries."
           />

@@ -242,7 +242,7 @@ export default function MedicareProviderLookupGuidePage() {
 
         <div className="mt-8">
           <ShareButtons
-            url="/investigations/medicare-provider-lookup-guide"
+            url="https://www.openmedicare.us/investigations/medicare-provider-lookup-guide"
             title="How to Look Up Your Doctor's Medicare Billing"
             description="A step-by-step guide to searching Medicare provider data."
           />

@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Is Your Doctor Flagged? Free Medicare Provider Lookup | OpenMedicare',
+  title: 'Is Your Doctor Flagged? Free Medicare Provider Lookup',
   description: 'Search by name or NPI to check if your doctor appears on our AI-flagged fraud risk list, statistical watchlist, or federal exclusion list. Free, instant, anonymous.',
   alternates: { canonical: '/lookup' },
   openGraph: {

@@ -432,7 +432,7 @@ export default function ProvidersPage() {
                       {provider.specialty}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {provider.city}, {provider.state}
+                      {provider.city ? `${provider.city}, ${provider.state}` : provider.state}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-right">
                       {formatCurrency(provider.totalPayments)}

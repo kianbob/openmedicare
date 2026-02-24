@@ -22,7 +22,7 @@ export default function MedicareCostsByStatePage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="How Much Does Medicare Cost by State? The Complete 2024 Guide" description="State-by-state breakdown of Medicare costs from $854.8B in CMS data" url="/investigations/medicare-costs-by-state-2024" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="How Much Does Medicare Cost by State? The Complete 2024 Guide" description="State-by-state breakdown of Medicare costs from $854.8B in CMS data" url="https://www.openmedicare.us/investigations/medicare-costs-by-state-2024" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'Medicare Costs by State 2024' }
@@ -44,7 +44,7 @@ export default function MedicareCostsByStatePage() {
             </p>
           </div>
 
-          <ShareButtons title="Medicare Costs by State — Complete 2024 Guide" url="/investigations/medicare-costs-by-state-2024" />
+          <ShareButtons title="Medicare Costs by State — Complete 2024 Guide" url="https://www.openmedicare.us/investigations/medicare-costs-by-state-2024" />
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Why Medicare Costs Vary So Much by State</h2>
           <p className="text-gray-700 mb-4">
@@ -238,7 +238,7 @@ export default function MedicareCostsByStatePage() {
             </div>
           </div>
 
-          <ShareButtons title="Medicare Costs by State — Complete 2024 Guide" url="/investigations/medicare-costs-by-state-2024" />
+          <ShareButtons title="Medicare Costs by State — Complete 2024 Guide" url="https://www.openmedicare.us/investigations/medicare-costs-by-state-2024" />
         </article>
       </div>
     </main>

@@ -259,7 +259,7 @@ export default function AboutPage() {
           {/* Share */}
           <div className="border-t border-gray-200 pt-6">
             <ShareButtons
-              url="/about"
+              url="https://www.openmedicare.us/about"
               title="About OpenMedicare"
               description="Learn about our methodology and commitment to Medicare transparency"
             />

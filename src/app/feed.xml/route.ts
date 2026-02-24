@@ -448,6 +448,12 @@ const items = [
     link: '/fraud/report',
     pubDate: '2026-02-01T00:00:00.000Z',
   },
+  {
+    title: '2024–2025 Medicare Fraud Enforcement Roundup',
+    description: 'The DOJ recovered $14.6 billion in healthcare fraud in its largest-ever takedown. We break down the numbers and what it means for Medicare oversight.',
+    link: '/investigations/fraud-enforcement-roundup',
+    pubDate: '2026-02-23T00:00:00.000Z',
+  },
 ]
 
 export async function GET() {

@@ -98,7 +98,7 @@ export default function ImpossibleNumbers() {
         <ShareFinding
           stat="9,862 services/day"
           description="One doctor averaged a service every 2.9 seconds"
-          url="/fraud/impossible-numbers"
+          url="https://www.openmedicare.us/fraud/impossible-numbers"
         />
 
         {/* Featured Case */}

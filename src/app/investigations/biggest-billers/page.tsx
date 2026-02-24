@@ -27,7 +27,7 @@ export default function BiggestBillersPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="The Biggest Billers in Medicare" description="The top 100 highest-paid Medicare providers and what they bill for" url="/investigations/biggest-billers" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="The Biggest Billers in Medicare" description="The top 100 highest-paid Medicare providers and what they bill for" url="https://www.openmedicare.us/investigations/biggest-billers" publishedDate="2026-02-21" />
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: "Medicare's Biggest Billers", href: '/investigations/biggest-billers' }]} />
 
         <article className="prose prose-lg max-w-none">

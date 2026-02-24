@@ -23,7 +23,7 @@ export default function HighestPaidDoctorsMedicarePage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="The Highest-Paid Doctors in Medicare" description="Who earns the most from taxpayers? Data analysis of $854.8B in CMS payments." url="/investigations/highest-paid-doctors-medicare" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="The Highest-Paid Doctors in Medicare" description="Who earns the most from taxpayers? Data analysis of $854.8B in CMS payments." url="https://www.openmedicare.us/investigations/highest-paid-doctors-medicare" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'Highest-Paid Doctors in Medicare' }
@@ -47,7 +47,7 @@ export default function HighestPaidDoctorsMedicarePage() {
             </p>
           </div>
 
-          <ShareButtons title="Highest-Paid Doctors in Medicare" url="/investigations/highest-paid-doctors-medicare" />
+          <ShareButtons title="Highest-Paid Doctors in Medicare" url="https://www.openmedicare.us/investigations/highest-paid-doctors-medicare" />
 
           <InvestigationDisclaimer />
 
@@ -242,7 +242,7 @@ export default function HighestPaidDoctorsMedicarePage() {
             </div>
           </div>
 
-          <ShareButtons title="Highest-Paid Doctors in Medicare" url="/investigations/highest-paid-doctors-medicare" />
+          <ShareButtons title="Highest-Paid Doctors in Medicare" url="https://www.openmedicare.us/investigations/highest-paid-doctors-medicare" />
         </article>
       </div>
     </main>

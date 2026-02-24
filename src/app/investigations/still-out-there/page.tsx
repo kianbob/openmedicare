@@ -19,7 +19,7 @@ export default function StillOutThereArticle() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <ArticleJsonLd title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" description="ML model trained on 2,198 confirmed fraudsters flags 500 active providers matching fraud patterns" url="/investigations/still-out-there" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" description="ML model trained on 2,198 confirmed fraudsters flags 500 active providers matching fraud patterns" url="https://www.openmedicare.us/investigations/still-out-there" publishedDate="2026-02-21" />
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: 'Still Out There' }]} />
 
         <article className="prose prose-lg max-w-none">

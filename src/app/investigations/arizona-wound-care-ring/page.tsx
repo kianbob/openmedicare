@@ -84,7 +84,7 @@ export default function ArizonaWoundCareRingPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <ArticleJsonLd title="The Arizona Wound Care Ring" description="$514M billed by 23 nurse practitioners for 2,974 patients" url="/investigations/arizona-wound-care-ring" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="The Arizona Wound Care Ring" description="$514M billed by 23 nurse practitioners for 2,974 patients" url="https://www.openmedicare.us/investigations/arizona-wound-care-ring" publishedDate="2026-02-21" />
         <Breadcrumbs
           items={[
             { name: 'Investigations', href: '/investigations' },
@@ -440,7 +440,7 @@ export default function ArizonaWoundCareRingPage() {
             {/* Share */}
             <div className="mt-10 pt-8 border-t border-gray-200">
               <ShareButtons
-                url="/investigations/arizona-wound-care-ring"
+                url="https://www.openmedicare.us/investigations/arizona-wound-care-ring"
                 title="The Arizona Wound Care Ring: $514 Million Billed by 23 NPs"
                 description="23 nurse practitioners in Phoenix billed $514M for skin substitutes — for just 2,974 patients."
               />

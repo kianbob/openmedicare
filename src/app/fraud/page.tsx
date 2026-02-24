@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: '$854.8B in payments. 1.72M providers scanned. 500 flagged. Exposed upcoding, COVID test schemes, wound care fraud, and impossible billing volumes.',
   alternates: { canonical: '/fraud' },
   openGraph: {
-    title: 'AI Flagged 500 Medicare Providers for Fraud | OpenMedicare',
+    title: 'AI Flagged 500 Medicare Providers for Fraud',
     description: '$854.8B in payments. 1.72M providers scanned. 500 flagged. Exposed upcoding, COVID test schemes, wound care fraud, and impossible billing volumes.',
     url: 'https://www.openmedicare.us/fraud',
   },

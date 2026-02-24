@@ -73,7 +73,7 @@ export default function MedicareMillionairesPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="Medicare Millionaires" description="Providers who received over $10M from Medicare in a single year" url="/investigations/medicare-millionaires" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="Medicare Millionaires" description="Providers who received over $10M from Medicare in a single year" url="https://www.openmedicare.us/investigations/medicare-millionaires" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: "Medicare's Millionaire Club", href: '/investigations/medicare-millionaires' }

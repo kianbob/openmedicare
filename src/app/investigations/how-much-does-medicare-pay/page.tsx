@@ -232,7 +232,7 @@ export default function HowMuchDoesMedicarePayPage() {
 
         <div className="mt-8">
           <ShareButtons
-            url="/investigations/how-much-does-medicare-pay"
+            url="https://www.openmedicare.us/investigations/how-much-does-medicare-pay"
             title="How Much Does Medicare Actually Pay Doctors?"
             description="From $26K for NPs to $384K for ophthalmology — the real numbers."
           />
