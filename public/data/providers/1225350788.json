@@ -1,0 +1,194 @@
+{
+  "name": "Allan Espinosa Morazan",
+  "credentials": "M.D.",
+  "specialty": "Medical Oncology",
+  "city": "Prescott",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 2235087.78,
+    "total_services": 145760,
+    "total_beneficiaries": 3936,
+    "avg_markup_ratio": 28.77,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 145159.53,
+      "total_services": 9466,
+      "total_beneficiaries": 256,
+      "avg_submitted": 41.57,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 133695.37,
+      "total_services": 8719,
+      "total_beneficiaries": 235,
+      "avg_submitted": 54.93,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2016,
+      "total_payments": 174824.84,
+      "total_services": 11401,
+      "total_beneficiaries": 308,
+      "avg_submitted": 60.89,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2017,
+      "total_payments": 161404.25,
+      "total_services": 10526,
+      "total_beneficiaries": 284,
+      "avg_submitted": 55.95,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2018,
+      "total_payments": 183280.47,
+      "total_services": 11953,
+      "total_beneficiaries": 323,
+      "avg_submitted": 55.21,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2019,
+      "total_payments": 176293.57,
+      "total_services": 11497,
+      "total_beneficiaries": 310,
+      "avg_submitted": 32.67,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2020,
+      "total_payments": 178169.26,
+      "total_services": 11619,
+      "total_beneficiaries": 314,
+      "avg_submitted": 52.76,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2021,
+      "total_payments": 229507.26,
+      "total_services": 14967,
+      "total_beneficiaries": 404,
+      "avg_submitted": 56.68,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2022,
+      "total_payments": 217514.78,
+      "total_services": 14185,
+      "total_beneficiaries": 383,
+      "avg_submitted": 37.33,
+      "avg_paid": 15.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 192515.25,
+      "total_services": 12555,
+      "total_beneficiaries": 339,
+      "avg_submitted": 27.31,
+      "avg_paid": 15.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 48756,
+      "payments": 747632.54,
+      "avg_markup": 3.13
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 7544,
+      "payments": 115684.87,
+      "avg_markup": 5.14
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 3432,
+      "payments": 52633.13,
+      "avg_markup": 3.53
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 6838,
+      "payments": 104858.5,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 9385,
+      "payments": 143902.74,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 5608,
+      "payments": 85989.02,
+      "avg_markup": 5.73
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 6115,
+      "payments": 93765.33,
+      "avg_markup": 3.36
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 6569,
+      "payments": 100728.05,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 3824,
+      "payments": 58642.87,
+      "avg_markup": 1.99
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 5841,
+      "payments": 89563.99,
+      "avg_markup": 4.24
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 73,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "49x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 28.8x (specialty median: 4.3x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "14x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "273x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

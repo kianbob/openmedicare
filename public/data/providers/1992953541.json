@@ -1,0 +1,194 @@
+{
+  "name": "Ahmed Akl",
+  "credentials": "M.D.",
+  "specialty": "Obstetrics & Gynecology",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 321240.46,
+    "total_services": 2820,
+    "total_beneficiaries": 1686,
+    "avg_markup_ratio": 27.75,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 17997.82,
+      "total_services": 158,
+      "total_beneficiaries": 94,
+      "avg_submitted": 173.47,
+      "avg_paid": 113.91
+    },
+    {
+      "year": 2015,
+      "total_payments": 22091.58,
+      "total_services": 194,
+      "total_beneficiaries": 116,
+      "avg_submitted": 180.75,
+      "avg_paid": 113.87
+    },
+    {
+      "year": 2016,
+      "total_payments": 23295.05,
+      "total_services": 204,
+      "total_beneficiaries": 122,
+      "avg_submitted": 327.49,
+      "avg_paid": 114.19
+    },
+    {
+      "year": 2017,
+      "total_payments": 24705.23,
+      "total_services": 217,
+      "total_beneficiaries": 130,
+      "avg_submitted": 238.45,
+      "avg_paid": 113.85
+    },
+    {
+      "year": 2018,
+      "total_payments": 28561.19,
+      "total_services": 251,
+      "total_beneficiaries": 150,
+      "avg_submitted": 206.85,
+      "avg_paid": 113.79
+    },
+    {
+      "year": 2019,
+      "total_payments": 26333.88,
+      "total_services": 231,
+      "total_beneficiaries": 138,
+      "avg_submitted": 171.81,
+      "avg_paid": 114
+    },
+    {
+      "year": 2020,
+      "total_payments": 25839.7,
+      "total_services": 227,
+      "total_beneficiaries": 136,
+      "avg_submitted": 334.44,
+      "avg_paid": 113.83
+    },
+    {
+      "year": 2021,
+      "total_payments": 32804.51,
+      "total_services": 288,
+      "total_beneficiaries": 172,
+      "avg_submitted": 282.13,
+      "avg_paid": 113.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 29475.39,
+      "total_services": 259,
+      "total_beneficiaries": 155,
+      "avg_submitted": 202.79,
+      "avg_paid": 113.8
+    },
+    {
+      "year": 2023,
+      "total_payments": 34799.77,
+      "total_services": 305,
+      "total_beneficiaries": 183,
+      "avg_submitted": 196.25,
+      "avg_paid": 114.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 590,
+      "payments": 67200.78,
+      "avg_markup": 3.65
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 284,
+      "payments": 32305.75,
+      "avg_markup": 3.05
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 222,
+      "payments": 25246.8,
+      "avg_markup": 5.56
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 125,
+      "payments": 14199.25,
+      "avg_markup": 5.13
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 180,
+      "payments": 20534.25,
+      "avg_markup": 2.88
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 77,
+      "payments": 8770.29,
+      "avg_markup": 5.96
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 69,
+      "payments": 7898.93,
+      "avg_markup": 4.79
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 83,
+      "payments": 9463.66,
+      "avg_markup": 2.4
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 146,
+      "payments": 16627.14,
+      "avg_markup": 3.15
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 136,
+      "payments": 15458.81,
+      "avg_markup": 5.06
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 74,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "68x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 27.8x (specialty median: 3.1x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "22x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "33x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

@@ -310,9 +310,9 @@ export default function HomePage() {
                 href: '/drug-spending',
               },
               {
-                stat: '3.77×',
-                description: 'On average, doctors charge nearly 4 times what Medicare actually pays them',
-                href: '/trends',
+                stat: '$94B in drugs',
+                description: 'Physician-administered drugs are Medicare\'s fastest-growing expense category',
+                href: '/drug-spending',
               },
             ].map((finding) => (
               <Link
@@ -435,7 +435,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 64 data-driven investigations
+              Deep-dive analysis from our library of 65 data-driven investigations
             </p>
           </div>
           
@@ -476,7 +476,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 64 Investigations
+              View All 65 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>
@@ -546,57 +546,6 @@ export default function HomePage() {
               <p className="text-sm text-gray-600">Calculator, comparisons, downloads, and more</p>
             </Link>
           </div>
-        </div>
-      </div>
-
-      {/* Fraud Analysis CTA */}
-      <div className="py-16 bg-gradient-to-b from-red-50 to-indigo-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900 font-playfair mb-4">
-              Go Deeper Into the Data
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              From AI-powered fraud detection to state-level spending breakdowns — every corner of Medicare, analyzed.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <Link href="/fraud" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-              <div className="text-red-600 text-2xl mb-3">🚨</div>
-              <h3 className="font-semibold text-gray-900 mb-2">Fraud Analysis Hub</h3>
-              <p className="text-sm text-gray-600">Watchlist, deep dives, impossible billing, wound care schemes</p>
-            </Link>
-            <Link href="/fraud/still-out-there" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-              <div className="text-indigo-600 text-2xl mb-3">🤖</div>
-              <h3 className="font-semibold text-gray-900 mb-2">500 AI-Flagged</h3>
-              <p className="text-sm text-gray-600">ML model trained on convicted fraudsters flagged 500 active providers</p>
-            </Link>
-            <Link href="/providers" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-              <div className="text-blue-600 text-2xl mb-3">👤</div>
-              <h3 className="font-semibold text-gray-900 mb-2">Provider Directory</h3>
-              <p className="text-sm text-gray-600">Browse 30,000+ detailed provider profiles with payment histories</p>
-            </Link>
-            <Link href="/investigations" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-              <div className="text-purple-600 text-2xl mb-3">📰</div>
-              <h3 className="font-semibold text-gray-900 mb-2">64 Investigations</h3>
-              <p className="text-sm text-gray-600">Data-driven stories exposing patterns in Medicare spending</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Open Data Network */}
-      <div className="py-8 bg-gray-100 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm text-gray-500">
-            Part of the Open Data Network:{' '}
-            <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">OpenMedicaid</a>
-            {' · '}
-            <a href="https://www.openfeds.org" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">OpenFeds</a>
-            {' · '}
-            <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline font-medium">OpenSpending</a>
-          </p>
         </div>
       </div>
 

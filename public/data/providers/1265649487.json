@@ -1,0 +1,194 @@
+{
+  "name": "Cristiano Boneti",
+  "credentials": "MD",
+  "specialty": "Plastic and Reconstructive Surgery",
+  "city": "Beverly Hills",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 494676.47,
+    "total_services": 6016,
+    "total_beneficiaries": 854,
+    "avg_markup_ratio": 33.21,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 33721.54,
+      "total_services": 410,
+      "total_beneficiaries": 58,
+      "avg_submitted": 162.25,
+      "avg_paid": 82.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 32726.02,
+      "total_services": 398,
+      "total_beneficiaries": 56,
+      "avg_submitted": 210.92,
+      "avg_paid": 82.23
+    },
+    {
+      "year": 2016,
+      "total_payments": 30988.31,
+      "total_services": 377,
+      "total_beneficiaries": 53,
+      "avg_submitted": 314.99,
+      "avg_paid": 82.2
+    },
+    {
+      "year": 2017,
+      "total_payments": 38309.3,
+      "total_services": 466,
+      "total_beneficiaries": 66,
+      "avg_submitted": 236.1,
+      "avg_paid": 82.21
+    },
+    {
+      "year": 2018,
+      "total_payments": 42891.04,
+      "total_services": 522,
+      "total_beneficiaries": 74,
+      "avg_submitted": 208.32,
+      "avg_paid": 82.17
+    },
+    {
+      "year": 2019,
+      "total_payments": 35651.83,
+      "total_services": 434,
+      "total_beneficiaries": 62,
+      "avg_submitted": 180.78,
+      "avg_paid": 82.15
+    },
+    {
+      "year": 2020,
+      "total_payments": 43586.78,
+      "total_services": 530,
+      "total_beneficiaries": 75,
+      "avg_submitted": 254.2,
+      "avg_paid": 82.24
+    },
+    {
+      "year": 2021,
+      "total_payments": 41333.48,
+      "total_services": 503,
+      "total_beneficiaries": 71,
+      "avg_submitted": 213.11,
+      "avg_paid": 82.17
+    },
+    {
+      "year": 2022,
+      "total_payments": 53019.13,
+      "total_services": 645,
+      "total_beneficiaries": 92,
+      "avg_submitted": 273.1,
+      "avg_paid": 82.2
+    },
+    {
+      "year": 2023,
+      "total_payments": 56615.58,
+      "total_services": 689,
+      "total_beneficiaries": 98,
+      "avg_submitted": 182.58,
+      "avg_paid": 82.17
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 1395,
+      "payments": 114746.51,
+      "avg_markup": 2.6
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 229,
+      "payments": 18824.06,
+      "avg_markup": 5.61
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 171,
+      "payments": 14037.96,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 378,
+      "payments": 31077.36,
+      "avg_markup": 4.38
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 208,
+      "payments": 17113.38,
+      "avg_markup": 5.98
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 380,
+      "payments": 31279.38,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 104,
+      "payments": 8529.75,
+      "avg_markup": 5.57
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 260,
+      "payments": 21409.87,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 129,
+      "payments": 10575.97,
+      "avg_markup": 1.53
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 348,
+      "payments": 28641.65,
+      "avg_markup": 2.72
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 74,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "58x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 33.2x (specialty median: 3.7x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "12x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "64x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

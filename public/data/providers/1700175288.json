@@ -1,0 +1,188 @@
+{
+  "npi": "1700175288",
+  "name": "Ayham Deeb",
+  "credentials": "M.D.",
+  "specialty": "Medical Oncology",
+  "city": "Suffolk",
+  "state": "VA",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 1879449.82,
+    "total_services": 141298,
+    "total_beneficiaries": 7162,
+    "avg_markup_ratio": 13.69,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 131561.49,
+      "total_services": 9891,
+      "total_beneficiaries": 501,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2015,
+      "total_payments": 142838.19,
+      "total_services": 10739,
+      "total_beneficiaries": 544,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 154114.89,
+      "total_services": 11586,
+      "total_beneficiaries": 587,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2017,
+      "total_payments": 165391.58,
+      "total_services": 12434,
+      "total_beneficiaries": 630,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2018,
+      "total_payments": 176668.28,
+      "total_services": 13282,
+      "total_beneficiaries": 673,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 187944.98,
+      "total_services": 14130,
+      "total_beneficiaries": 716,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2020,
+      "total_payments": 199221.68,
+      "total_services": 14978,
+      "total_beneficiaries": 759,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2021,
+      "total_payments": 210498.38,
+      "total_services": 15825,
+      "total_beneficiaries": 802,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 221775.08,
+      "total_services": 16673,
+      "total_beneficiaries": 845,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    },
+    {
+      "year": 2023,
+      "total_payments": 233051.78,
+      "total_services": 17521,
+      "total_beneficiaries": 888,
+      "avg_submitted": 182.08,
+      "avg_paid": 13.3
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 48242,
+      "payments": 641676.41,
+      "avg_markup": 11.63
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 24121,
+      "payments": 320838.2,
+      "avg_markup": 11.93
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 16081,
+      "payments": 213892.14,
+      "avg_markup": 11.26
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 12060,
+      "payments": 160419.1,
+      "avg_markup": 13.75
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 9648,
+      "payments": 128335.28,
+      "avg_markup": 14.76
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 8040,
+      "payments": 106946.07,
+      "avg_markup": 14.26
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 6892,
+      "payments": 91668.06,
+      "avg_markup": 15.67
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 6030,
+      "payments": 80209.55,
+      "avg_markup": 15.78
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 5360,
+      "payments": 71297.38,
+      "avg_markup": 11.27
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 4824,
+      "payments": 64167.64,
+      "avg_markup": 11.34
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "41x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 13.7x (specialty median: 4.3x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "26x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "265x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

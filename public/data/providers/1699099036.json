@@ -1,0 +1,188 @@
+{
+  "npi": "1699099036",
+  "name": "Trusha Shah",
+  "credentials": "M.D.",
+  "specialty": "Anesthesiology",
+  "city": "Lake Success",
+  "state": "NY",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 683028.4,
+    "total_services": 8727,
+    "total_beneficiaries": 3082,
+    "avg_markup_ratio": 37.14,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 47811.99,
+      "total_services": 611,
+      "total_beneficiaries": 216,
+      "avg_submitted": 2906.21,
+      "avg_paid": 78.25
+    },
+    {
+      "year": 2015,
+      "total_payments": 51910.16,
+      "total_services": 663,
+      "total_beneficiaries": 234,
+      "avg_submitted": 2908.06,
+      "avg_paid": 78.3
+    },
+    {
+      "year": 2016,
+      "total_payments": 56008.33,
+      "total_services": 716,
+      "total_beneficiaries": 253,
+      "avg_submitted": 2905.09,
+      "avg_paid": 78.22
+    },
+    {
+      "year": 2017,
+      "total_payments": 60106.5,
+      "total_services": 768,
+      "total_beneficiaries": 271,
+      "avg_submitted": 2906.58,
+      "avg_paid": 78.26
+    },
+    {
+      "year": 2018,
+      "total_payments": 64204.67,
+      "total_services": 820,
+      "total_beneficiaries": 290,
+      "avg_submitted": 2908.06,
+      "avg_paid": 78.3
+    },
+    {
+      "year": 2019,
+      "total_payments": 68302.84,
+      "total_services": 873,
+      "total_beneficiaries": 308,
+      "avg_submitted": 2905.83,
+      "avg_paid": 78.24
+    },
+    {
+      "year": 2020,
+      "total_payments": 72401.01,
+      "total_services": 925,
+      "total_beneficiaries": 327,
+      "avg_submitted": 2906.95,
+      "avg_paid": 78.27
+    },
+    {
+      "year": 2021,
+      "total_payments": 76499.18,
+      "total_services": 977,
+      "total_beneficiaries": 345,
+      "avg_submitted": 2908.06,
+      "avg_paid": 78.3
+    },
+    {
+      "year": 2022,
+      "total_payments": 80597.35,
+      "total_services": 1030,
+      "total_beneficiaries": 364,
+      "avg_submitted": 2906.21,
+      "avg_paid": 78.25
+    },
+    {
+      "year": 2023,
+      "total_payments": 84695.52,
+      "total_services": 1082,
+      "total_beneficiaries": 382,
+      "avg_submitted": 2907.32,
+      "avg_paid": 78.28
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 2980,
+      "payments": 233197.61,
+      "avg_markup": 44.56
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 1490,
+      "payments": 116598.81,
+      "avg_markup": 31.32
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 993,
+      "payments": 77732.54,
+      "avg_markup": 39.52
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 745,
+      "payments": 58299.4,
+      "avg_markup": 42.16
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 596,
+      "payments": 46639.52,
+      "avg_markup": 31.37
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 497,
+      "payments": 38866.27,
+      "avg_markup": 33.38
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 426,
+      "payments": 33313.94,
+      "avg_markup": 42.12
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 372,
+      "payments": 29149.7,
+      "avg_markup": 42.19
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 331,
+      "payments": 25910.85,
+      "avg_markup": 33.67
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 298,
+      "payments": 23319.76,
+      "avg_markup": 37.35
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "64x specialty median spending",
+      "severity": "high"
+    },
+    "high_markup": {
+      "description": "Markup 37.1x (specialty median: 12.0x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "29x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "77x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "npi": "1568701100",
+  "name": "Tracie Woodward",
+  "credentials": "NP",
+  "specialty": "Nurse Practitioner",
+  "city": "Hartsville",
+  "state": "SC",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 162523.29,
+    "total_services": 8621,
+    "total_beneficiaries": 4500,
+    "avg_markup_ratio": 38.45,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 11376.63,
+      "total_services": 603,
+      "total_beneficiaries": 315,
+      "avg_submitted": 725.55,
+      "avg_paid": 18.87
+    },
+    {
+      "year": 2015,
+      "total_payments": 12351.77,
+      "total_services": 655,
+      "total_beneficiaries": 342,
+      "avg_submitted": 725.17,
+      "avg_paid": 18.86
+    },
+    {
+      "year": 2016,
+      "total_payments": 13326.91,
+      "total_services": 707,
+      "total_beneficiaries": 369,
+      "avg_submitted": 724.78,
+      "avg_paid": 18.85
+    },
+    {
+      "year": 2017,
+      "total_payments": 14302.05,
+      "total_services": 759,
+      "total_beneficiaries": 396,
+      "avg_submitted": 724.4,
+      "avg_paid": 18.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 15277.19,
+      "total_services": 810,
+      "total_beneficiaries": 423,
+      "avg_submitted": 725.17,
+      "avg_paid": 18.86
+    },
+    {
+      "year": 2019,
+      "total_payments": 16252.33,
+      "total_services": 862,
+      "total_beneficiaries": 450,
+      "avg_submitted": 724.78,
+      "avg_paid": 18.85
+    },
+    {
+      "year": 2020,
+      "total_payments": 17227.47,
+      "total_services": 914,
+      "total_beneficiaries": 477,
+      "avg_submitted": 724.78,
+      "avg_paid": 18.85
+    },
+    {
+      "year": 2021,
+      "total_payments": 18202.61,
+      "total_services": 966,
+      "total_beneficiaries": 504,
+      "avg_submitted": 724.4,
+      "avg_paid": 18.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 19177.75,
+      "total_services": 1017,
+      "total_beneficiaries": 531,
+      "avg_submitted": 725.17,
+      "avg_paid": 18.86
+    },
+    {
+      "year": 2023,
+      "total_payments": 20152.89,
+      "total_services": 1069,
+      "total_beneficiaries": 558,
+      "avg_submitted": 724.78,
+      "avg_paid": 18.85
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 2943,
+      "payments": 55488.24,
+      "avg_markup": 44.39
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 1472,
+      "payments": 27744.12,
+      "avg_markup": 37.77
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 981,
+      "payments": 18496.08,
+      "avg_markup": 32.88
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 736,
+      "payments": 13872.06,
+      "avg_markup": 33.85
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 589,
+      "payments": 11097.65,
+      "avg_markup": 39.96
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 491,
+      "payments": 9248.04,
+      "avg_markup": 39
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 420,
+      "payments": 7926.89,
+      "avg_markup": 42.36
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 368,
+      "payments": 6936.03,
+      "avg_markup": 36.53
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 327,
+      "payments": 6165.36,
+      "avg_markup": 31.82
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 294,
+      "payments": 5548.82,
+      "avg_markup": 37.11
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "13x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 38.4x (specialty median: 3.7x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "30x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "40x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Vincent Bennett",
+  "credentials": "MD",
+  "specialty": "Emergency Medicine",
+  "city": "Los Angeles",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1196308.63,
+    "total_services": 22964,
+    "total_beneficiaries": 4959,
+    "avg_markup_ratio": 196.13,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 70092.6,
+      "total_services": 1345,
+      "total_beneficiaries": 291,
+      "avg_submitted": 189.53,
+      "avg_paid": 52.11
+    },
+    {
+      "year": 2015,
+      "total_payments": 71479.66,
+      "total_services": 1372,
+      "total_beneficiaries": 296,
+      "avg_submitted": 187.96,
+      "avg_paid": 52.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 91516.6,
+      "total_services": 1757,
+      "total_beneficiaries": 379,
+      "avg_submitted": 94.22,
+      "avg_paid": 52.09
+    },
+    {
+      "year": 2017,
+      "total_payments": 98761.65,
+      "total_services": 1896,
+      "total_beneficiaries": 409,
+      "avg_submitted": 177.41,
+      "avg_paid": 52.09
+    },
+    {
+      "year": 2018,
+      "total_payments": 92740.49,
+      "total_services": 1780,
+      "total_beneficiaries": 384,
+      "avg_submitted": 82.78,
+      "avg_paid": 52.1
+    },
+    {
+      "year": 2019,
+      "total_payments": 91616.9,
+      "total_services": 1759,
+      "total_beneficiaries": 380,
+      "avg_submitted": 155.36,
+      "avg_paid": 52.08
+    },
+    {
+      "year": 2020,
+      "total_payments": 111712.3,
+      "total_services": 2144,
+      "total_beneficiaries": 463,
+      "avg_submitted": 118.66,
+      "avg_paid": 52.1
+    },
+    {
+      "year": 2021,
+      "total_payments": 108477.26,
+      "total_services": 2082,
+      "total_beneficiaries": 450,
+      "avg_submitted": 141.73,
+      "avg_paid": 52.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 112825.32,
+      "total_services": 2166,
+      "total_beneficiaries": 468,
+      "avg_submitted": 207.46,
+      "avg_paid": 52.09
+    },
+    {
+      "year": 2023,
+      "total_payments": 129887.24,
+      "total_services": 2493,
+      "total_beneficiaries": 538,
+      "avg_submitted": 99.62,
+      "avg_paid": 52.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 5427,
+      "payments": 282738.55,
+      "avg_markup": 2.01
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 1039,
+      "payments": 54116.41,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 1575,
+      "payments": 82044.38,
+      "avg_markup": 2.93
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 1380,
+      "payments": 71916.35,
+      "avg_markup": 1.91
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 437,
+      "payments": 22764.73,
+      "avg_markup": 3.89
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 1562,
+      "payments": 81376.21,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 474,
+      "payments": 24716.54,
+      "avg_markup": 5.84
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 742,
+      "payments": 38666.22,
+      "avg_markup": 3.64
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 1179,
+      "payments": 61434.09,
+      "avg_markup": 4.11
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 716,
+      "payments": 37276.11,
+      "avg_markup": 5.27
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 73,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "37x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 196.1x (specialty median: 8.0x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "16x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "71x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

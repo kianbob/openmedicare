@@ -1,0 +1,178 @@
+{
+  "name": "Michael Cozzi",
+  "credentials": "MD",
+  "specialty": "Anesthesiology",
+  "city": "Indianapolis",
+  "state": "IN",
+  "entity_type": "I",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 99770.14,
+      "total_services": 1532,
+      "total_beneficiaries": 479,
+      "avg_submitted": 188.39,
+      "avg_paid": 65.12
+    },
+    {
+      "year": 2015,
+      "total_payments": 116398.5,
+      "total_services": 1788,
+      "total_beneficiaries": 558,
+      "avg_submitted": 188.33,
+      "avg_paid": 65.1
+    },
+    {
+      "year": 2016,
+      "total_payments": 133026.85,
+      "total_services": 2043,
+      "total_beneficiaries": 638,
+      "avg_submitted": 188.36,
+      "avg_paid": 65.11
+    },
+    {
+      "year": 2017,
+      "total_payments": 149655.21,
+      "total_services": 2299,
+      "total_beneficiaries": 718,
+      "avg_submitted": 188.33,
+      "avg_paid": 65.1
+    },
+    {
+      "year": 2018,
+      "total_payments": 166283.57,
+      "total_services": 2554,
+      "total_beneficiaries": 798,
+      "avg_submitted": 188.36,
+      "avg_paid": 65.11
+    },
+    {
+      "year": 2019,
+      "total_payments": 166283.57,
+      "total_services": 2554,
+      "total_beneficiaries": 798,
+      "avg_submitted": 188.36,
+      "avg_paid": 65.11
+    },
+    {
+      "year": 2020,
+      "total_payments": 182911.92,
+      "total_services": 2810,
+      "total_beneficiaries": 878,
+      "avg_submitted": 188.31,
+      "avg_paid": 65.09
+    },
+    {
+      "year": 2021,
+      "total_payments": 199540.28,
+      "total_services": 3065,
+      "total_beneficiaries": 957,
+      "avg_submitted": 188.33,
+      "avg_paid": 65.1
+    },
+    {
+      "year": 2022,
+      "total_payments": 216168.64,
+      "total_services": 3320,
+      "total_beneficiaries": 1037,
+      "avg_submitted": 188.36,
+      "avg_paid": 65.11
+    },
+    {
+      "year": 2023,
+      "total_payments": 232796.99,
+      "total_services": 3576,
+      "total_beneficiaries": 1117,
+      "avg_submitted": 188.33,
+      "avg_paid": 65.1
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "00810",
+      "description": "Anesthesia for lower intestinal endoscopic procedures",
+      "services": 5619,
+      "payments": 365823.85,
+      "avg_markup": 2.56
+    },
+    {
+      "code": "00100",
+      "description": "Anesthesia for salivary gland procedures",
+      "services": 4597,
+      "payments": 299310.42,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "01996",
+      "description": "Daily hospital management of epidural or subarachnoid drug administration",
+      "services": 3576,
+      "payments": 232796.99,
+      "avg_markup": 2.75
+    },
+    {
+      "code": "00300",
+      "description": "Anesthesia for procedures on the head",
+      "services": 2554,
+      "payments": 166283.57,
+      "avg_markup": 2.81
+    },
+    {
+      "code": "00400",
+      "description": "Anesthesia for integumentary system procedures on extremities",
+      "services": 2043,
+      "payments": 133026.85,
+      "avg_markup": 2.65
+    },
+    {
+      "code": "00740",
+      "description": "Anesthesia for upper gastrointestinal endoscopic procedures",
+      "services": 1788,
+      "payments": 116398.5,
+      "avg_markup": 2.49
+    },
+    {
+      "code": "01961",
+      "description": "Anesthesia for cardiac catheterization procedures",
+      "services": 1532,
+      "payments": 99770.14,
+      "avg_markup": 2.85
+    },
+    {
+      "code": "00142",
+      "description": "Anesthesia for procedures on eye; lens surgery",
+      "services": 1277,
+      "payments": 83141.78,
+      "avg_markup": 3.19
+    },
+    {
+      "code": "01630",
+      "description": "Anesthesia for open procedures on humeral head",
+      "services": 1277,
+      "payments": 83141.78,
+      "avg_markup": 2.67
+    },
+    {
+      "code": "00920",
+      "description": "Anesthesia for procedures on male genitalia",
+      "services": 1277,
+      "payments": 83141.78,
+      "avg_markup": 2.96
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9429,
+    "ml_v2_rank": 3,
+    "risk_factors": [
+      "High markup ratio",
+      "7-figure billing"
+    ]
+  },
+  "overall": {
+    "total_payments": 1662836,
+    "total_services": 25541,
+    "total_beneficiaries": 7978,
+    "avg_markup_ratio": 2.89,
+    "years_active": 10
+  },
+  "npi": "1194756411"
+}

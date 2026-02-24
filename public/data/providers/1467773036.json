@@ -1,0 +1,194 @@
+{
+  "name": "Michael Tallarico",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Dyer",
+  "state": "IN",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 2678748.97,
+    "total_services": 161681,
+    "total_beneficiaries": 9680,
+    "avg_markup_ratio": 22.85,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 145354.69,
+      "total_services": 8773,
+      "total_beneficiaries": 525,
+      "avg_submitted": 35.71,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2015,
+      "total_payments": 182722.11,
+      "total_services": 11029,
+      "total_beneficiaries": 660,
+      "avg_submitted": 36.87,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2016,
+      "total_payments": 185757.38,
+      "total_services": 11212,
+      "total_beneficiaries": 671,
+      "avg_submitted": 65.3,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2017,
+      "total_payments": 183987.4,
+      "total_services": 11105,
+      "total_beneficiaries": 665,
+      "avg_submitted": 47.26,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2018,
+      "total_payments": 213683.72,
+      "total_services": 12897,
+      "total_beneficiaries": 772,
+      "avg_submitted": 46.11,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2019,
+      "total_payments": 220363.39,
+      "total_services": 13300,
+      "total_beneficiaries": 796,
+      "avg_submitted": 30.54,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2020,
+      "total_payments": 231084.02,
+      "total_services": 13948,
+      "total_beneficiaries": 835,
+      "avg_submitted": 47.7,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 272858.96,
+      "total_services": 16469,
+      "total_beneficiaries": 986,
+      "avg_submitted": 46.48,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 224333.51,
+      "total_services": 13540,
+      "total_beneficiaries": 811,
+      "avg_submitted": 44.66,
+      "avg_paid": 16.57
+    },
+    {
+      "year": 2023,
+      "total_payments": 298995.44,
+      "total_services": 18046,
+      "total_beneficiaries": 1080,
+      "avg_submitted": 60.81,
+      "avg_paid": 16.57
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 52719,
+      "payments": 873450.7,
+      "avg_markup": 2.18
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 13553,
+      "payments": 224553.86,
+      "avg_markup": 5.31
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 5171,
+      "payments": 85675.91,
+      "avg_markup": 5.48
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 10569,
+      "payments": 175101.58,
+      "avg_markup": 2.04
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 7853,
+      "payments": 130104.91,
+      "avg_markup": 3.49
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 6588,
+      "payments": 109153.7,
+      "avg_markup": 6
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 5974,
+      "payments": 98981.7,
+      "avg_markup": 4.83
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 3921,
+      "payments": 64967.57,
+      "avg_markup": 3.69
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 4406,
+      "payments": 73006.76,
+      "avg_markup": 4.25
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 1976,
+      "payments": 32733.36,
+      "avg_markup": 5.58
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 76,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "60x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 22.8x (specialty median: 3.3x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "26x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "271x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

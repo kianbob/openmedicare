@@ -1,0 +1,188 @@
+{
+  "npi": "1558523084",
+  "name": "Nicholas Manolitsis",
+  "credentials": "MD",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Chicago",
+  "state": "IL",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 1776413,
+    "total_services": 155585,
+    "total_beneficiaries": 10421,
+    "avg_markup_ratio": 19.03,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 124348.91,
+      "total_services": 10891,
+      "total_beneficiaries": 729,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2015,
+      "total_payments": 135007.39,
+      "total_services": 11824,
+      "total_beneficiaries": 792,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2016,
+      "total_payments": 145665.87,
+      "total_services": 12758,
+      "total_beneficiaries": 855,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2017,
+      "total_payments": 156324.34,
+      "total_services": 13691,
+      "total_beneficiaries": 917,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2018,
+      "total_payments": 166982.82,
+      "total_services": 14625,
+      "total_beneficiaries": 980,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2019,
+      "total_payments": 177641.3,
+      "total_services": 15559,
+      "total_beneficiaries": 1042,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2020,
+      "total_payments": 188299.78,
+      "total_services": 16492,
+      "total_beneficiaries": 1105,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2021,
+      "total_payments": 198958.26,
+      "total_services": 17426,
+      "total_beneficiaries": 1167,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2022,
+      "total_payments": 209616.73,
+      "total_services": 18359,
+      "total_beneficiaries": 1230,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    },
+    {
+      "year": 2023,
+      "total_payments": 220275.21,
+      "total_services": 19293,
+      "total_beneficiaries": 1292,
+      "avg_submitted": 217.32,
+      "avg_paid": 11.42
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 53119,
+      "payments": 606497.87,
+      "avg_markup": 22.19
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 26560,
+      "payments": 303248.93,
+      "avg_markup": 21.24
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 17706,
+      "payments": 202165.96,
+      "avg_markup": 21.7
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 13280,
+      "payments": 151624.47,
+      "avg_markup": 16.52
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 10624,
+      "payments": 121299.57,
+      "avg_markup": 21.9
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 8853,
+      "payments": 101082.98,
+      "avg_markup": 21.34
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 7588,
+      "payments": 86642.55,
+      "avg_markup": 17.59
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 6640,
+      "payments": 75812.23,
+      "avg_markup": 22.54
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 5902,
+      "payments": 67388.65,
+      "avg_markup": 20.43
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 5312,
+      "payments": 60649.79,
+      "avg_markup": 18.57
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "26x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 19.0x (specialty median: 3.8x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "23x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "152x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

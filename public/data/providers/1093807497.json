@@ -1,0 +1,177 @@
+{
+  "name": "Sudhirkumar Shah",
+  "credentials": "MD",
+  "specialty": "Internal Medicine",
+  "city": "St. Louis",
+  "state": "MO",
+  "entity_type": "I",
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 43482.98,
+      "total_services": 783,
+      "total_beneficiaries": 244,
+      "avg_submitted": 110.23,
+      "avg_paid": 55.53
+    },
+    {
+      "year": 2015,
+      "total_payments": 50730.14,
+      "total_services": 913,
+      "total_beneficiaries": 285,
+      "avg_submitted": 110.29,
+      "avg_paid": 55.56
+    },
+    {
+      "year": 2016,
+      "total_payments": 57977.31,
+      "total_services": 1044,
+      "total_beneficiaries": 325,
+      "avg_submitted": 110.23,
+      "avg_paid": 55.53
+    },
+    {
+      "year": 2017,
+      "total_payments": 65224.47,
+      "total_services": 1174,
+      "total_beneficiaries": 366,
+      "avg_submitted": 110.29,
+      "avg_paid": 55.56
+    },
+    {
+      "year": 2018,
+      "total_payments": 72471.63,
+      "total_services": 1304,
+      "total_beneficiaries": 407,
+      "avg_submitted": 110.33,
+      "avg_paid": 55.58
+    },
+    {
+      "year": 2019,
+      "total_payments": 72471.63,
+      "total_services": 1304,
+      "total_beneficiaries": 407,
+      "avg_submitted": 110.33,
+      "avg_paid": 55.58
+    },
+    {
+      "year": 2020,
+      "total_payments": 79718.8,
+      "total_services": 1435,
+      "total_beneficiaries": 447,
+      "avg_submitted": 110.27,
+      "avg_paid": 55.55
+    },
+    {
+      "year": 2021,
+      "total_payments": 86965.96,
+      "total_services": 1565,
+      "total_beneficiaries": 488,
+      "avg_submitted": 110.31,
+      "avg_paid": 55.57
+    },
+    {
+      "year": 2022,
+      "total_payments": 94213.12,
+      "total_services": 1696,
+      "total_beneficiaries": 529,
+      "avg_submitted": 110.27,
+      "avg_paid": 55.55
+    },
+    {
+      "year": 2023,
+      "total_payments": 101460.29,
+      "total_services": 1826,
+      "total_beneficiaries": 569,
+      "avg_submitted": 110.29,
+      "avg_paid": 55.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 minutes",
+      "services": 2870,
+      "payments": 159437.59,
+      "avg_markup": 1.84
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 minutes",
+      "services": 2348,
+      "payments": 130448.94,
+      "avg_markup": 2.28
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 minutes",
+      "services": 1826,
+      "payments": 101460.29,
+      "avg_markup": 2.06
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, typically 25 minutes per day",
+      "services": 1304,
+      "payments": 72471.63,
+      "avg_markup": 1.94
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, typically 70 minutes per day",
+      "services": 1044,
+      "payments": 57977.31,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, typically 35 minutes per day",
+      "services": 913,
+      "payments": 50730.14,
+      "avg_markup": 2.16
+    },
+    {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, typically 50 minutes per day",
+      "services": 783,
+      "payments": 43482.98,
+      "avg_markup": 2.05
+    },
+    {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "services": 652,
+      "payments": 36235.82,
+      "avg_markup": 2.24
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 652,
+      "payments": 36235.82,
+      "avg_markup": 1.72
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 minutes",
+      "services": 652,
+      "payments": 36235.82,
+      "avg_markup": 1.92
+    }
+  ],
+  "fraud_flags": {
+    "ml_v2_probability": 0.9532,
+    "ml_v2_rank": 8,
+    "risk_factors": [
+      "Volume-driven pattern"
+    ]
+  },
+  "overall": {
+    "total_payments": 724716,
+    "total_services": 13044,
+    "total_beneficiaries": 4067,
+    "avg_markup_ratio": 1.99,
+    "years_active": 10
+  },
+  "npi": "1093807497"
+}

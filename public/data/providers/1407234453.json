@@ -1,0 +1,188 @@
+{
+  "npi": "1407234453",
+  "name": "James Osteen",
+  "credentials": "M.D.",
+  "specialty": "Internal Medicine",
+  "city": "Amarillo",
+  "state": "TX",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 1675910.46,
+    "total_services": 242954,
+    "total_beneficiaries": 5324,
+    "avg_markup_ratio": 21.11,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 117313.73,
+      "total_services": 17007,
+      "total_beneficiaries": 373,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2015,
+      "total_payments": 127369.19,
+      "total_services": 18465,
+      "total_beneficiaries": 405,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2016,
+      "total_payments": 137424.66,
+      "total_services": 19922,
+      "total_beneficiaries": 437,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2017,
+      "total_payments": 147480.12,
+      "total_services": 21380,
+      "total_beneficiaries": 469,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2018,
+      "total_payments": 157535.58,
+      "total_services": 22838,
+      "total_beneficiaries": 500,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2019,
+      "total_payments": 167591.05,
+      "total_services": 24295,
+      "total_beneficiaries": 532,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2020,
+      "total_payments": 177646.51,
+      "total_services": 25753,
+      "total_beneficiaries": 564,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2021,
+      "total_payments": 187701.97,
+      "total_services": 27211,
+      "total_beneficiaries": 596,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2022,
+      "total_payments": 197757.43,
+      "total_services": 28669,
+      "total_beneficiaries": 628,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    },
+    {
+      "year": 2023,
+      "total_payments": 207812.9,
+      "total_services": 30126,
+      "total_beneficiaries": 660,
+      "avg_submitted": 145.66,
+      "avg_paid": 6.9
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office visit, est patient, low complexity",
+      "services": 82949,
+      "payments": 572184.58,
+      "avg_markup": 17.83
+    },
+    {
+      "code": "99214",
+      "description": "Office visit, est patient, moderate complexity",
+      "services": 41474,
+      "payments": 286092.29,
+      "avg_markup": 18.65
+    },
+    {
+      "code": "99215",
+      "description": "Office visit, est patient, high complexity",
+      "services": 27650,
+      "payments": 190728.19,
+      "avg_markup": 18.86
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 20737,
+      "payments": 143046.14,
+      "avg_markup": 21.88
+    },
+    {
+      "code": "99233",
+      "description": "Subsequent hospital care, high complexity",
+      "services": 16590,
+      "payments": 114436.92,
+      "avg_markup": 17.99
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 13825,
+      "payments": 95364.1,
+      "avg_markup": 24.16
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 11850,
+      "payments": 81740.65,
+      "avg_markup": 23.79
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 10369,
+      "payments": 71523.07,
+      "avg_markup": 23.46
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 9217,
+      "payments": 63576.06,
+      "avg_markup": 24.43
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 8295,
+      "payments": 57218.46,
+      "avg_markup": 17.17
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "37x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 21.1x (specialty median: 3.3x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "14x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "407x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

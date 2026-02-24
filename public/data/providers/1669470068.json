@@ -1,0 +1,194 @@
+{
+  "name": "Pejman Shirazy",
+  "credentials": "M.D.",
+  "specialty": "Physical Medicine and Rehabilitation",
+  "city": "Encino",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1947613.95,
+    "total_services": 117065,
+    "total_beneficiaries": 5647,
+    "avg_markup_ratio": 47.09,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 104310.78,
+      "total_services": 6270,
+      "total_beneficiaries": 302,
+      "avg_submitted": 61.3,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2015,
+      "total_payments": 115868.6,
+      "total_services": 6965,
+      "total_beneficiaries": 336,
+      "avg_submitted": 37.37,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2016,
+      "total_payments": 134951.69,
+      "total_services": 8112,
+      "total_beneficiaries": 391,
+      "avg_submitted": 60.13,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2017,
+      "total_payments": 132304.58,
+      "total_services": 7952,
+      "total_beneficiaries": 384,
+      "avg_submitted": 57.94,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2018,
+      "total_payments": 138006.71,
+      "total_services": 8295,
+      "total_beneficiaries": 400,
+      "avg_submitted": 65.52,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2019,
+      "total_payments": 182446.4,
+      "total_services": 10966,
+      "total_beneficiaries": 529,
+      "avg_submitted": 32.46,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2020,
+      "total_payments": 169112.32,
+      "total_services": 10165,
+      "total_beneficiaries": 490,
+      "avg_submitted": 38.32,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2021,
+      "total_payments": 176044.89,
+      "total_services": 10582,
+      "total_beneficiaries": 510,
+      "avg_submitted": 45.34,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2022,
+      "total_payments": 179775.72,
+      "total_services": 10806,
+      "total_beneficiaries": 521,
+      "avg_submitted": 53.47,
+      "avg_paid": 16.64
+    },
+    {
+      "year": 2023,
+      "total_payments": 210492.41,
+      "total_services": 12652,
+      "total_beneficiaries": 610,
+      "avg_submitted": 54.94,
+      "avg_paid": 16.64
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 36034,
+      "payments": 599501.55,
+      "avg_markup": 5.45
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 8453,
+      "payments": 140628.58,
+      "avg_markup": 3.85
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 2896,
+      "payments": 48177.08,
+      "avg_markup": 2.68
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 3776,
+      "payments": 62829.32,
+      "avg_markup": 5.73
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 3207,
+      "payments": 53358.86,
+      "avg_markup": 3.28
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 3651,
+      "payments": 60747.79,
+      "avg_markup": 2.02
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 3559,
+      "payments": 59203.77,
+      "avg_markup": 5.53
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 3654,
+      "payments": 60783.73,
+      "avg_markup": 1.74
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 5575,
+      "payments": 92747.85,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 3186,
+      "payments": 53005.78,
+      "avg_markup": 2.08
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 72,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "29x specialty median spending",
+        "severity": "medium"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 47.1x (specialty median: 3.8x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "12x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "114x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

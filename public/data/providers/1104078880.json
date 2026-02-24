@@ -1,0 +1,194 @@
+{
+  "name": "Kevin Do",
+  "credentials": "M.D.",
+  "specialty": "General Practice",
+  "city": "Tustin",
+  "state": "CA",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1356485.53,
+    "total_services": 85617,
+    "total_beneficiaries": 9027,
+    "avg_markup_ratio": 10.68,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 87024.84,
+      "total_services": 5493,
+      "total_beneficiaries": 579,
+      "avg_submitted": 34.91,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2015,
+      "total_payments": 95583.74,
+      "total_services": 6033,
+      "total_beneficiaries": 636,
+      "avg_submitted": 25.62,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2016,
+      "total_payments": 81748.05,
+      "total_services": 5160,
+      "total_beneficiaries": 544,
+      "avg_submitted": 59.32,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2017,
+      "total_payments": 101530.45,
+      "total_services": 6408,
+      "total_beneficiaries": 676,
+      "avg_submitted": 32.46,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2018,
+      "total_payments": 110017.37,
+      "total_services": 6944,
+      "total_beneficiaries": 732,
+      "avg_submitted": 63.3,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2019,
+      "total_payments": 117416.28,
+      "total_services": 7411,
+      "total_beneficiaries": 781,
+      "avg_submitted": 63.03,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2020,
+      "total_payments": 114365.14,
+      "total_services": 7218,
+      "total_beneficiaries": 761,
+      "avg_submitted": 49.85,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2021,
+      "total_payments": 121650.86,
+      "total_services": 7678,
+      "total_beneficiaries": 810,
+      "avg_submitted": 63.2,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2022,
+      "total_payments": 133393.25,
+      "total_services": 8419,
+      "total_beneficiaries": 888,
+      "avg_submitted": 33.48,
+      "avg_paid": 15.84
+    },
+    {
+      "year": 2023,
+      "total_payments": 124318.93,
+      "total_services": 7847,
+      "total_beneficiaries": 827,
+      "avg_submitted": 35.28,
+      "avg_paid": 15.84
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 17996,
+      "payments": 285129.5,
+      "avg_markup": 3.93
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 8008,
+      "payments": 126868.48,
+      "avg_markup": 3.88
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 4212,
+      "payments": 66732.32,
+      "avg_markup": 4.49
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 2693,
+      "payments": 42661.51,
+      "avg_markup": 4.72
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 1629,
+      "payments": 25816.05,
+      "avg_markup": 5.58
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 1565,
+      "payments": 24795.38,
+      "avg_markup": 5.77
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 6087,
+      "payments": 96441.68,
+      "avg_markup": 1.82
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 1539,
+      "payments": 24383.51,
+      "avg_markup": 1.76
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 5085,
+      "payments": 80559.8,
+      "avg_markup": 5.81
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 2092,
+      "payments": 33139.08,
+      "avg_markup": 5.82
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 75,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "75x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 10.7x (specialty median: 2.6x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "58x specialty median beneficiaries",
+        "severity": "high"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "305x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

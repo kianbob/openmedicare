@@ -1,0 +1,188 @@
+{
+  "npi": "1437758141",
+  "name": "North Shore Chemists Llc",
+  "credentials": "",
+  "specialty": "Pharmacy",
+  "city": "Great Neck",
+  "state": "NY",
+  "entity_type": "O",
+  "overall": {
+    "total_payments": 544202.93,
+    "total_services": 7604,
+    "total_beneficiaries": 7057,
+    "avg_markup_ratio": 7.75,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 38094.21,
+      "total_services": 532,
+      "total_beneficiaries": 494,
+      "avg_submitted": 554.98,
+      "avg_paid": 71.61
+    },
+    {
+      "year": 2015,
+      "total_payments": 41359.42,
+      "total_services": 578,
+      "total_beneficiaries": 536,
+      "avg_submitted": 554.59,
+      "avg_paid": 71.56
+    },
+    {
+      "year": 2016,
+      "total_payments": 44624.64,
+      "total_services": 624,
+      "total_beneficiaries": 579,
+      "avg_submitted": 554.2,
+      "avg_paid": 71.51
+    },
+    {
+      "year": 2017,
+      "total_payments": 47889.86,
+      "total_services": 669,
+      "total_beneficiaries": 621,
+      "avg_submitted": 554.75,
+      "avg_paid": 71.58
+    },
+    {
+      "year": 2018,
+      "total_payments": 51155.08,
+      "total_services": 715,
+      "total_beneficiaries": 663,
+      "avg_submitted": 554.51,
+      "avg_paid": 71.55
+    },
+    {
+      "year": 2019,
+      "total_payments": 54420.29,
+      "total_services": 760,
+      "total_beneficiaries": 706,
+      "avg_submitted": 554.98,
+      "avg_paid": 71.61
+    },
+    {
+      "year": 2020,
+      "total_payments": 57685.51,
+      "total_services": 806,
+      "total_beneficiaries": 748,
+      "avg_submitted": 554.67,
+      "avg_paid": 71.57
+    },
+    {
+      "year": 2021,
+      "total_payments": 60950.73,
+      "total_services": 852,
+      "total_beneficiaries": 790,
+      "avg_submitted": 554.44,
+      "avg_paid": 71.54
+    },
+    {
+      "year": 2022,
+      "total_payments": 64215.95,
+      "total_services": 897,
+      "total_beneficiaries": 833,
+      "avg_submitted": 554.82,
+      "avg_paid": 71.59
+    },
+    {
+      "year": 2023,
+      "total_payments": 67481.16,
+      "total_services": 943,
+      "total_beneficiaries": 875,
+      "avg_submitted": 554.59,
+      "avg_paid": 71.56
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 2596,
+      "payments": 185800.21,
+      "avg_markup": 6.41
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 1298,
+      "payments": 92900.11,
+      "avg_markup": 8.03
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 865,
+      "payments": 61933.4,
+      "avg_markup": 7.11
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 649,
+      "payments": 46450.05,
+      "avg_markup": 7.27
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 519,
+      "payments": 37160.04,
+      "avg_markup": 6.72
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 433,
+      "payments": 30966.7,
+      "avg_markup": 8.94
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 371,
+      "payments": 26542.89,
+      "avg_markup": 6.29
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 325,
+      "payments": 23225.03,
+      "avg_markup": 7.73
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 288,
+      "payments": 20644.47,
+      "avg_markup": 7.13
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 260,
+      "payments": 18580.02,
+      "avg_markup": 7.93
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "38x specialty median spending",
+      "severity": "medium"
+    },
+    "high_markup": {
+      "description": "Markup 7.7x (specialty median: 1.3x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "35x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "27x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

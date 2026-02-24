@@ -1,0 +1,188 @@
+{
+  "npi": "1255568135",
+  "name": "Allison Rosenthal",
+  "credentials": "DO",
+  "specialty": "Hematology",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "entity_type": "I",
+  "overall": {
+    "total_payments": 1898775.35,
+    "total_services": 100824,
+    "total_beneficiaries": 2705,
+    "avg_markup_ratio": 13.21,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 132914.27,
+      "total_services": 7058,
+      "total_beneficiaries": 189,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2015,
+      "total_payments": 144306.93,
+      "total_services": 7663,
+      "total_beneficiaries": 206,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2016,
+      "total_payments": 155699.58,
+      "total_services": 8268,
+      "total_beneficiaries": 222,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2017,
+      "total_payments": 167092.23,
+      "total_services": 8873,
+      "total_beneficiaries": 238,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2018,
+      "total_payments": 178484.88,
+      "total_services": 9477,
+      "total_beneficiaries": 254,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2019,
+      "total_payments": 189877.54,
+      "total_services": 10082,
+      "total_beneficiaries": 271,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2020,
+      "total_payments": 201270.19,
+      "total_services": 10687,
+      "total_beneficiaries": 287,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2021,
+      "total_payments": 212662.84,
+      "total_services": 11292,
+      "total_beneficiaries": 303,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2022,
+      "total_payments": 224055.49,
+      "total_services": 11897,
+      "total_beneficiaries": 319,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    },
+    {
+      "year": 2023,
+      "total_payments": 235448.14,
+      "total_services": 12502,
+      "total_beneficiaries": 335,
+      "avg_submitted": 248.74,
+      "avg_paid": 18.83
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99213",
+      "description": "Office/outpatient visit, est patient, low",
+      "services": 34423,
+      "payments": 648274.47,
+      "avg_markup": 14.97
+    },
+    {
+      "code": "99214",
+      "description": "Office/outpatient visit, est patient, moderate",
+      "services": 17212,
+      "payments": 324137.24,
+      "avg_markup": 10.87
+    },
+    {
+      "code": "99215",
+      "description": "Office/outpatient visit, est patient, high",
+      "services": 11474,
+      "payments": 216091.49,
+      "avg_markup": 14.64
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 8606,
+      "payments": 162068.62,
+      "avg_markup": 10.69
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate",
+      "services": 6885,
+      "payments": 129654.89,
+      "avg_markup": 13.24
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 5737,
+      "payments": 108045.75,
+      "avg_markup": 14.55
+    },
+    {
+      "code": "71046",
+      "description": "Chest X-ray, 2 views",
+      "services": 4918,
+      "payments": 92610.64,
+      "avg_markup": 11.34
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel",
+      "services": 4303,
+      "payments": 81034.31,
+      "avg_markup": 14.09
+    },
+    {
+      "code": "85025",
+      "description": "Complete blood count (CBC)",
+      "services": 3825,
+      "payments": 72030.5,
+      "avg_markup": 11.66
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 3442,
+      "payments": 64827.45,
+      "avg_markup": 13.48
+    }
+  ],
+  "fraud_flags": {
+    "outlier_spending": {
+      "description": "61x specialty median spending",
+      "severity": "high"
+    },
+    "high_markup": {
+      "description": "Markup 13.2x (specialty median: 3.8x)",
+      "severity": "high"
+    },
+    "beneficiary_stuffing": {
+      "description": "15x specialty median beneficiaries",
+      "severity": "medium"
+    },
+    "volume_anomaly": {
+      "description": "266x specialty median services",
+      "severity": "medium"
+    }
+  }
+}

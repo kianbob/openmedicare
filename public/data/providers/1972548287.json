@@ -1,0 +1,194 @@
+{
+  "name": "Udaya Liyanage",
+  "credentials": "MD",
+  "specialty": "General Surgery",
+  "city": "Mount Vernon",
+  "state": "IL",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 1044681.92,
+    "total_services": 13005,
+    "total_beneficiaries": 2745,
+    "avg_markup_ratio": 116.53,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 67312.64,
+      "total_services": 838,
+      "total_beneficiaries": 177,
+      "avg_submitted": 192.33,
+      "avg_paid": 80.33
+    },
+    {
+      "year": 2015,
+      "total_payments": 74555.96,
+      "total_services": 928,
+      "total_beneficiaries": 196,
+      "avg_submitted": 309,
+      "avg_paid": 80.34
+    },
+    {
+      "year": 2016,
+      "total_payments": 64566.91,
+      "total_services": 804,
+      "total_beneficiaries": 170,
+      "avg_submitted": 310.44,
+      "avg_paid": 80.31
+    },
+    {
+      "year": 2017,
+      "total_payments": 69063.72,
+      "total_services": 860,
+      "total_beneficiaries": 181,
+      "avg_submitted": 127.76,
+      "avg_paid": 80.31
+    },
+    {
+      "year": 2018,
+      "total_payments": 74968.16,
+      "total_services": 933,
+      "total_beneficiaries": 197,
+      "avg_submitted": 310.21,
+      "avg_paid": 80.35
+    },
+    {
+      "year": 2019,
+      "total_payments": 80176.45,
+      "total_services": 998,
+      "total_beneficiaries": 211,
+      "avg_submitted": 246.99,
+      "avg_paid": 80.34
+    },
+    {
+      "year": 2020,
+      "total_payments": 92905.08,
+      "total_services": 1157,
+      "total_beneficiaries": 244,
+      "avg_submitted": 206.52,
+      "avg_paid": 80.3
+    },
+    {
+      "year": 2021,
+      "total_payments": 99698.46,
+      "total_services": 1241,
+      "total_beneficiaries": 262,
+      "avg_submitted": 134.23,
+      "avg_paid": 80.34
+    },
+    {
+      "year": 2022,
+      "total_payments": 109655.98,
+      "total_services": 1365,
+      "total_beneficiaries": 288,
+      "avg_submitted": 207.91,
+      "avg_paid": 80.33
+    },
+    {
+      "year": 2023,
+      "total_payments": 110212.54,
+      "total_services": 1372,
+      "total_beneficiaries": 290,
+      "avg_submitted": 307.29,
+      "avg_paid": 80.33
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 2988,
+      "payments": 240056.37,
+      "avg_markup": 4.29
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 837,
+      "payments": 67270.05,
+      "avg_markup": 1.77
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 708,
+      "payments": 56895.84,
+      "avg_markup": 3.7
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 938,
+      "payments": 75346.93,
+      "avg_markup": 4.96
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 310,
+      "payments": 24905.99,
+      "avg_markup": 3.1
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 666,
+      "payments": 53455.24,
+      "avg_markup": 5.5
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 524,
+      "payments": 42067.67,
+      "avg_markup": 2.32
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 395,
+      "payments": 31730.42,
+      "avg_markup": 5.39
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 474,
+      "payments": 38035.84,
+      "avg_markup": 3.18
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 384,
+      "payments": 30820.18,
+      "avg_markup": 5.83
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 75,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "53x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 116.5x (specialty median: 3.8x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "18x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "68x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}

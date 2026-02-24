@@ -1,0 +1,194 @@
+{
+  "name": "Thomas Gregory",
+  "credentials": "M.D.",
+  "specialty": "Medical Oncology",
+  "city": "Tyler",
+  "state": "TX",
+  "entity_type": "Individual",
+  "overall": {
+    "total_payments": 2437619.69,
+    "total_services": 140067,
+    "total_beneficiaries": 4911,
+    "avg_markup_ratio": 24.86,
+    "years_active": 10
+  },
+  "yearly_payments": [
+    {
+      "year": 2014,
+      "total_payments": 146556.89,
+      "total_services": 8421,
+      "total_beneficiaries": 295,
+      "avg_submitted": 34.91,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2015,
+      "total_payments": 179713.36,
+      "total_services": 10326,
+      "total_beneficiaries": 362,
+      "avg_submitted": 28.66,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2016,
+      "total_payments": 180262.29,
+      "total_services": 10358,
+      "total_beneficiaries": 363,
+      "avg_submitted": 26.54,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2017,
+      "total_payments": 189323.81,
+      "total_services": 10879,
+      "total_beneficiaries": 381,
+      "avg_submitted": 48.56,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2018,
+      "total_payments": 162190.17,
+      "total_services": 9320,
+      "total_beneficiaries": 327,
+      "avg_submitted": 26.63,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2019,
+      "total_payments": 230005.77,
+      "total_services": 13216,
+      "total_beneficiaries": 463,
+      "avg_submitted": 48.97,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2020,
+      "total_payments": 207246.39,
+      "total_services": 11908,
+      "total_beneficiaries": 418,
+      "avg_submitted": 39.55,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2021,
+      "total_payments": 211211.84,
+      "total_services": 12136,
+      "total_beneficiaries": 426,
+      "avg_submitted": 31.96,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2022,
+      "total_payments": 215743.84,
+      "total_services": 12397,
+      "total_beneficiaries": 435,
+      "avg_submitted": 60.77,
+      "avg_paid": 17.4
+    },
+    {
+      "year": 2023,
+      "total_payments": 219111.69,
+      "total_services": 12590,
+      "total_beneficiaries": 441,
+      "avg_submitted": 43.99,
+      "avg_paid": 17.4
+    }
+  ],
+  "top_procedures": [
+    {
+      "code": "99214",
+      "description": "Established patient office visit, 30-39 min",
+      "services": 29228,
+      "payments": 508654.17,
+      "avg_markup": 2.17
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit, 20-29 min",
+      "services": 8899,
+      "payments": 154879.67,
+      "avg_markup": 5.39
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit, 40-54 min",
+      "services": 6545,
+      "payments": 113911.18,
+      "avg_markup": 1.79
+    },
+    {
+      "code": "99232",
+      "description": "Subsequent hospital care, moderate complexity",
+      "services": 12008,
+      "payments": 208972.25,
+      "avg_markup": 1.73
+    },
+    {
+      "code": "99223",
+      "description": "Initial hospital care, high complexity",
+      "services": 6968,
+      "payments": 121265.24,
+      "avg_markup": 4.52
+    },
+    {
+      "code": "G0463",
+      "description": "Hospital outpatient clinic visit",
+      "services": 6976,
+      "payments": 121410.06,
+      "avg_markup": 4.34
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit, 10-19 min",
+      "services": 4337,
+      "payments": 75478.25,
+      "avg_markup": 3.5
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, complete",
+      "services": 4762,
+      "payments": 82869.15,
+      "avg_markup": 4.31
+    },
+    {
+      "code": "36415",
+      "description": "Venipuncture",
+      "services": 5052,
+      "payments": 87915.25,
+      "avg_markup": 4.58
+    },
+    {
+      "code": "96372",
+      "description": "Therapeutic injection, subcutaneous or IM",
+      "services": 2798,
+      "payments": 48697.26,
+      "avg_markup": 3.57
+    }
+  ],
+  "fraud_flags": {
+    "risk_score": 72,
+    "flags": [
+      {
+        "type": "outlier_spending",
+        "description": "53x specialty median spending",
+        "severity": "high"
+      },
+      {
+        "type": "high_markup",
+        "description": "Markup 24.9x (specialty median: 4.3x)",
+        "severity": "high"
+      },
+      {
+        "type": "beneficiary_stuffing",
+        "description": "18x specialty median beneficiaries",
+        "severity": "medium"
+      },
+      {
+        "type": "volume_anomaly",
+        "description": "262x specialty median services",
+        "severity": "medium"
+      }
+    ]
+  }
+}
