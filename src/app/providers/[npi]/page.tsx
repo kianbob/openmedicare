@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
@@ -260,68 +261,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
   const raw = loadProviderFile(npi)
 
   if (!raw) {
-    return (
-      <div className="min-h-screen bg-gray-50">
-        <div className="bg-gradient-to-r from-teal-600 to-teal-800 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full -translate-y-1/2 translate-x-1/3" />
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-white rounded-full translate-y-1/2 -translate-x-1/3" />
-          </div>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 relative">
-            <Breadcrumbs
-              items={[
-                { name: 'Providers', href: '/providers' },
-                { name: `NPI ${npi}` }
-              ]}
-              className="mb-6 [&_a]:text-white/70 [&_a:hover]:text-white [&_span]:text-white/50 [&_li]:text-white/90"
-            />
-            <h1 className="text-3xl lg:text-4xl font-bold text-white font-serif mb-3">
-              Provider Not in Database
-            </h1>
-            <p className="text-white/80 text-lg max-w-2xl">
-              NPI {npi}
-            </p>
-          </div>
-        </div>
-
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
-            <p className="text-gray-700 text-lg leading-relaxed mb-8">
-              We don&apos;t have a detailed profile for NPI {npi} yet. Our database includes detailed pages for 2,900+ of the highest-billing Medicare providers.
-            </p>
-
-            <h2 className="text-lg font-semibold text-gray-900 mb-4">Try these instead</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/providers" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors border border-gray-200">
-                <div className="text-sm text-gray-500">Directory</div>
-                <div className="font-medium text-blue-600">Browse All Providers</div>
-              </Link>
-              <Link href="/lookup" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors border border-gray-200">
-                <div className="text-sm text-gray-500">Lookup</div>
-                <div className="font-medium text-blue-600">Provider Lookup</div>
-              </Link>
-              <Link href="/search" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors border border-gray-200">
-                <div className="text-sm text-gray-500">Search</div>
-                <div className="font-medium text-blue-600">Search OpenMedicare</div>
-              </Link>
-              <Link href="/fraud/still-out-there" className="bg-gray-50 hover:bg-blue-50 rounded-lg p-4 transition-colors border border-gray-200">
-                <div className="text-sm text-gray-500">Analysis</div>
-                <div className="font-medium text-blue-600">AI-Flagged Providers</div>
-              </Link>
-            </div>
-          </div>
-
-          <SourceCitation
-            lastUpdated="February 2026 (data through 2023, the latest CMS release)"
-            sources={[
-              'Centers for Medicare & Medicaid Services (CMS)',
-              'Medicare Provider Utilization and Payment Data (2014-2023)',
-              'National Plan and Provider Enumeration System (NPPES)'
-            ]}
-          />
-        </div>
-      </div>
-    )
+    notFound()
   }
 
   const overall = raw.overall

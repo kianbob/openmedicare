@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
@@ -61,15 +62,7 @@ export default async function StateComparePage({ params }: { params: Promise<{ c
   const state = states.find(s => s.state === code)
 
   if (!state) {
-    return (
-      <div className="min-h-screen bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-16">
-          <h1 className="font-serif text-3xl font-bold text-gray-900">State not found</h1>
-          <p className="mt-4 text-gray-600">No data available for state code &quot;{code}&quot;.</p>
-          <Link href="/states" className="mt-4 inline-block text-blue-600 hover:underline">← Back to States</Link>
-        </div>
-      </div>
-    )
+    notFound()
   }
 
   // National averages
