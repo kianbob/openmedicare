@@ -4,6 +4,7 @@ const sisterSites = [
   { name: 'OpenMedicaid', href: 'https://www.openmedicaid.org', description: 'Medicaid Spending Tracker' },
   { name: 'OpenFeds', href: 'https://www.openfeds.org', description: 'Federal Workforce Tracker' },
   { name: 'OpenSpending', href: 'https://www.openspending.us', description: 'Federal Spending Tracker' },
+  { name: 'OpenLobby', href: 'https://www.openlobby.us', description: 'Federal Lobbying Tracker' },
 ]
 
 const navigation = [
