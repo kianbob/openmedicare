@@ -29,7 +29,9 @@ export const metadata: Metadata = {
   creator: 'OpenMedicare',
   publisher: 'OpenMedicare',
   metadataBase: new URL('https://www.openmedicare.us'),
-  alternates: {},
+  alternates: {
+    canonical: './',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
