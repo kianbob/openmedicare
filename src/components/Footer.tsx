@@ -5,6 +5,7 @@ const sisterSites = [
   { name: 'OpenFeds', href: 'https://www.openfeds.org', description: 'Federal Workforce Tracker' },
   { name: 'OpenSpending', href: 'https://www.openspending.us', description: 'Federal Spending Tracker' },
   { name: 'OpenLobby', href: 'https://www.openlobby.us', description: 'Federal Lobbying Tracker' },
+  { name: 'VaccineWatch', href: 'https://www.vaccinewatch.org', description: 'Vaccine Safety Data' },
 ]
 
 const navigation = [
