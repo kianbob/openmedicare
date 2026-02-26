@@ -4,6 +4,7 @@ const sisterSites = [
   { name: 'OpenMedicaid', href: 'https://www.openmedicaid.org', description: 'Medicaid Spending Tracker' },
   { name: 'OpenFeds', href: 'https://www.openfeds.org', description: 'Federal Workforce Tracker' },
   { name: 'OpenSpending', href: 'https://www.openspending.us', description: 'Federal Spending Tracker' },
+  { name: 'OpenImmigration', href: 'https://www.openimmigration.us', description: 'Immigration Court Tracker' },
   { name: 'OpenLobby', href: 'https://www.openlobby.us', description: 'Federal Lobbying Tracker' },
   { name: 'VaccineWatch', href: 'https://www.vaccinewatch.org', description: 'Vaccine Safety Data' },
 ]
@@ -124,6 +125,8 @@ export default function Footer() {
               <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenMedicaid</a>
               {' · '}
               <a href="https://www.openfeds.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenFeds</a>
+              {' · '}
+              <a href="https://www.openimmigration.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenImmigration</a>
               {' · '}
               <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSpending</a>
             </div>
