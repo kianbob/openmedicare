@@ -126,9 +126,13 @@ export default function Footer() {
               {' · '}
               <a href="https://www.openfeds.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenFeds</a>
               {' · '}
+              <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSpending</a>
+              {' · '}
               <a href="https://www.openimmigration.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenImmigration</a>
               {' · '}
-              <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSpending</a>
+              <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenLobby</a>
+              {' · '}
+              <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">VaccineWatch</a>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
               <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
