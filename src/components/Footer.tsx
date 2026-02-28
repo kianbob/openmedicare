@@ -7,6 +7,7 @@ const sisterSites = [
   { name: 'OpenImmigration', href: 'https://www.openimmigration.us', description: 'Immigration Court Tracker' },
   { name: 'OpenLobby', href: 'https://www.openlobby.us', description: 'Federal Lobbying Tracker' },
   { name: 'VaccineWatch', href: 'https://www.vaccinewatch.org', description: 'Vaccine Safety Data' },
+  { name: 'OpenSubsidies', href: 'https://www.opensubsidies.org', description: 'Farm Subsidy Tracker' },
 ]
 
 const navigation = [
@@ -133,6 +134,8 @@ export default function Footer() {
               <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenLobby</a>
               {' · '}
               <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">VaccineWatch</a>
+              {' · '}
+              <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSubsidies</a>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
               <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
