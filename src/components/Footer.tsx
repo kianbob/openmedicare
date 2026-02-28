@@ -138,7 +138,7 @@ export default function Footer() {
               <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSubsidies</a>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
-            <li><a href="https://openprescriber.vercel.app" className="hover:text-white">OpenPrescriber</a></li>              <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
+              <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
               <div className="mt-2 sm:mt-0">
                 <Link href="/about" className="hover:text-white">Methodology</Link>
                 <span className="mx-2">•</span>
