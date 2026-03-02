@@ -9,6 +9,7 @@ const sisterSites = [
   { name: 'VaccineWatch', href: 'https://www.vaccinewatch.org', description: 'Vaccine Safety Data' },
   { name: 'OpenSubsidies', href: 'https://www.opensubsidies.org', description: 'Farm Subsidy Tracker' },
   { name: 'WarCosts', href: 'https://www.warcosts.org', description: 'War Spending Tracker' },
+  { name: 'OpenPrescriber', href: 'https://www.openprescriber.org', description: 'Medicare Part D Prescribing' },
 ]
 
 const navigation = [
