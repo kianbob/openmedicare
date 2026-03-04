@@ -26,7 +26,7 @@ export default function Image() {
           500 Providers Our AI Says Look Like Convicted Criminals
         </div>
         <div style={{ display: 'flex', fontSize: 26, color: '#b0bec5', lineHeight: 1.5 }}>
-          Trained on 8,300+ confirmed fraudsters. AUC: 0.83
+          Trained on 2,198 confirmed fraudsters. AUC: 0.83
         </div>
         <div style={{ display: 'flex', position: 'absolute', bottom: 40, right: 60, fontSize: 18, color: '#455a64' }}>
           openmedicare.com

@@ -86,7 +86,7 @@ const featuredInvestigations = [
   },
   {
     title: 'Still Out There',
-    description: 'Our AI trained on 8,300+ confirmed fraudsters found 500 providers with identical billing patterns still collecting from Medicare',
+    description: 'Our AI trained on 2,198 confirmed fraudsters found 500 providers with identical billing patterns still collecting from Medicare',
     href: '/investigations/still-out-there',
     category: '🚨 ML Investigation',
     readTime: '18 min read',
@@ -197,7 +197,7 @@ export default function HomePage() {
             </p>
             <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
               Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2023). 
-              Our ML model, trained on 8,300+ convicted fraudsters, flagged 500 providers who bill like criminals.
+              Our ML model, trained on 2,198 convicted fraudsters, flagged 500 providers who bill like criminals.
             </p>
             
             {/* Search CTA */}
@@ -245,7 +245,7 @@ export default function HomePage() {
 
             {/* Hook line */}
             <p className="mt-8 text-sm text-blue-200 max-w-2xl mx-auto">
-              Our AI, trained on 8,300+ confirmed fraudsters, found 500 providers who bill like convicted criminals but haven&apos;t been caught.{' '}
+              Our AI, trained on 2,198 confirmed fraudsters, found 500 providers who bill like convicted criminals but haven&apos;t been caught.{' '}
               {formatCurrency(2840000000)} in COVID test billing. {formatCurrency(5530000000)} in wound care. {formatNumber(4636)} providers with impossible volumes.{' '}
               <Link href="/fraud" className="underline text-white hover:text-blue-100">See the fraud analysis →</Link>
             </p>
@@ -435,7 +435,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 59 data-driven investigations
+              Deep-dive analysis from our library of 68 data-driven investigations
             </p>
           </div>
           
@@ -476,7 +476,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 59 Investigations
+              View All 68 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>

@@ -8,11 +8,11 @@ import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 
 export const metadata: Metadata = {
   title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
-  description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
+  description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data (2014–2023) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   keywords: ['DOGE medicare', 'DOGE medicare fraud', 'department of government efficiency medicare', 'DOGE healthcare waste', 'elon musk medicare', 'government efficiency medicare'],
   openGraph: {
     title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
-    description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
+    description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data (2014–2023) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   },
   alternates: {
     canonical: '/investigations/doge-medicare-fraud',
@@ -23,7 +23,7 @@ export default function DogeMedicareFraudPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="What DOGE Should Know About Medicare Fraud" description="$854B in data, 500 AI flags, and the patterns DOGE should target" url="https://www.openmedicare.us/investigations/doge-medicare-fraud" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="What DOGE Should Know About Medicare Fraud" description="$854B in decade-long data, 500 AI flags, and the patterns DOGE should target" url="https://www.openmedicare.us/investigations/doge-medicare-fraud" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'DOGE & Medicare Fraud' }
@@ -32,7 +32,7 @@ export default function DogeMedicareFraudPage() {
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Analysis</span>
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
-            What DOGE Should Know About Medicare Fraud: $854B in Data, 500 AI Flags
+            What DOGE Should Know About Medicare Fraud: $854B in Decade-Long Data, 500 AI Flags
           </h1>
           <p className="text-gray-500 text-sm mb-8">Published February 2026 · 15 min read</p>
 
@@ -40,7 +40,7 @@ export default function DogeMedicareFraudPage() {
             <p className="text-yellow-900 font-medium text-lg">The Bottom Line</p>
             <p className="text-yellow-800 mt-2">
               The Department of Government Efficiency (DOGE) is looking for waste. Medicare is the biggest target:
-              <strong> $854.8 billion</strong> in physician payments alone, an estimated <strong>$60+ billion</strong> lost
+              <strong>$854.8 billion</strong> in physician payments over the past decade, an estimated <strong>$60+ billion</strong> lost
               to fraud annually, and <strong>1.72 million providers</strong> billing the system. We built an AI model that
               flagged <strong>500 providers</strong> matching convicted fraudster patterns. Here&apos;s the roadmap DOGE needs.
             </p>
@@ -87,7 +87,7 @@ export default function DogeMedicareFraudPage() {
                 { label: 'Est. Annual Fraud', value: '$60B+', color: 'text-red-700' },
                 { label: 'Billed Charges', value: '$3.22T', color: 'text-gray-700' },
                 { label: 'Written Off', value: '$2.14T', color: 'text-amber-700' },
-                { label: 'Confirmed Fraudsters', value: '8,300+', color: 'text-gray-700' },
+                { label: 'Confirmed Fraudsters', value: '2,198', color: 'text-gray-700' },
                 { label: 'Active Investigations', value: '53', color: 'text-red-700' },
               ].map((item) => (
                 <div key={item.label} className="text-center p-3 bg-gray-50 rounded-lg">

@@ -123,7 +123,7 @@ export default function CheckDoctorMedicarePage() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-500 font-bold mr-2">✓</span>
-                    <span><strong>AI fraud risk score</strong> — our machine learning model compares their billing to 8,300+ confirmed fraudsters</span>
+                    <span><strong>AI fraud risk score</strong> — our machine learning model compares their billing to 2,198 confirmed fraudsters</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-500 font-bold mr-2">✓</span>

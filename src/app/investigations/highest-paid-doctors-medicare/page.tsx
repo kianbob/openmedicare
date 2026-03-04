@@ -8,11 +8,11 @@ import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 
 export const metadata: Metadata = {
   title: 'Top 1% of Medicare Doctors Earn $5M+ Per Year',
-  description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full $854.8B breakdown by specialty.',
+  description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full breakdown by specialty.',
   keywords: ['highest paid doctors medicare', 'top medicare earners', 'doctors who bill medicare the most', 'medicare highest paid physicians', 'medicare top billers'],
   openGraph: {
     title: 'Top 1% of Medicare Doctors Earn $5M+ Per Year',
-    description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full $854.8B breakdown by specialty.',
+    description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full breakdown by specialty.',
   },
   alternates: {
     canonical: '/investigations/highest-paid-doctors-medicare',
@@ -23,7 +23,7 @@ export default function HighestPaidDoctorsMedicarePage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="The Highest-Paid Doctors in Medicare" description="Who earns the most from taxpayers? Data analysis of $854.8B in CMS payments." url="https://www.openmedicare.us/investigations/highest-paid-doctors-medicare" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="The Highest-Paid Doctors in Medicare" description="Who earns the most from taxpayers? Data analysis of CMS payments across the past decade." url="https://www.openmedicare.us/investigations/highest-paid-doctors-medicare" publishedDate="2026-02-21" />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'Highest-Paid Doctors in Medicare' }
@@ -43,7 +43,7 @@ export default function HighestPaidDoctorsMedicarePage() {
               <strong> $10 million to $20 million+ individually</strong>. The highest-paid specialty —
               ophthalmology — averages <strong>$384,000 per provider</strong>, while nurse practitioners average
               just <strong>$26,000</strong>. The top 1% of providers collect a disproportionate share of the
-              $854.8 billion Medicare pays annually.
+              $93.7 billion Medicare paid to physicians and suppliers in 2023.
             </p>
           </div>
 
@@ -148,7 +148,7 @@ export default function HighestPaidDoctorsMedicarePage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">When High Billing Becomes Suspicious</h2>
           <p className="text-gray-700 mb-4">
             High Medicare billing isn&apos;t inherently wrong — busy specialists in high-cost fields legitimately earn large sums.
-            But our <strong>machine learning fraud detection model</strong>, trained on 8,300+ confirmed fraud cases, found that
+            But our <strong>machine learning fraud detection model</strong>, trained on 2,198 confirmed fraud cases, found that
             billing amount is one of the strongest predictors of fraud risk.
           </p>
           <p className="text-gray-700 mb-4">

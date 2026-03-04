@@ -133,7 +133,7 @@ const items = [
   },
   {
     title: 'Still Out There: The Providers Who Bill Like Criminals',
-    description: 'Our AI model trained on 8,300+ confirmed Medicare fraudsters found hundreds of providers with identical billing patterns who haven\'t been caught yet.',
+    description: 'Our AI model trained on 2,198 confirmed Medicare fraudsters found hundreds of providers with identical billing patterns who haven\'t been caught yet.',
     link: '/investigations/still-out-there',
     pubDate: '2026-02-21T00:00:00.000Z',
   },

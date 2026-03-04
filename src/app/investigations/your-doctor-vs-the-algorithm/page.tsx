@@ -183,7 +183,7 @@ export default function DoctorVsAlgorithmPage() {
         <div className="bg-white rounded-xl shadow-sm border overflow-hidden my-8">
           <div className="p-4 bg-purple-50 border-b">
             <h3 className="text-lg font-bold text-purple-900">Top 10 Features — What the Model Weighs Most</h3>
-            <p className="text-sm text-purple-700">Feature importance scores from our gradient-boosted classifier</p>
+            <p className="text-sm text-purple-700">Feature importance scores from our Random Forest classifier</p>
           </div>
           <div className="divide-y">
             {features.map((f, i) => (
@@ -363,7 +363,7 @@ export default function DoctorVsAlgorithmPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Methodology</h2>
 
           <p className="text-gray-700 mb-4">
-            Our model (v{data.model_version}) is a gradient-boosted decision tree (XGBoost) trained on {data.trained_on.toLocaleString()} confirmed fraud cases from the HHS-OIG LEIE database, matched against Medicare Part B billing features. The model was validated using 5-fold cross-validation with stratified sampling. Features are computed from the most recent available Medicare Part B Public Use File. AUC is reported on held-out test data.
+            Our model (v{data.model_version}) is a Random Forest ensemble trained on {data.trained_on.toLocaleString()} confirmed fraud cases from the HHS-OIG LEIE database, matched against Medicare Part B billing features. The model was validated using 5-fold cross-validation with stratified sampling. Features are computed from the most recent available Medicare Part B Public Use File. AUC is reported on held-out test data.
           </p>
         </article>
 

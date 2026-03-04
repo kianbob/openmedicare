@@ -508,7 +508,7 @@ export default function PainManagementFraudPage() {
               <SourceCitation
                 sources={[
                   'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2023)',
-                  'OpenMedicare ML Fraud Detection Model v2.0 — Trained on 8,300+ LEIE/DOJ confirmed fraud cases',
+                  'OpenMedicare ML Fraud Detection Model v2.0 — Trained on 2,198 LEIE/DOJ confirmed fraud cases',
                   'U.S. Department of Justice — Healthcare Fraud Unit Annual Reports (2019–2024)',
                   'DEA Diversion Control Division — Pain Clinic Enforcement Actions',
                   'HHS Office of Inspector General — Pain Management Billing Audits',

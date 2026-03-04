@@ -100,7 +100,7 @@ export default function InternalMedicineCrisisPage() {
             <div className="prose prose-lg max-w-none">
               {/* The Hook */}
               <p className="text-xl text-gray-700 leading-relaxed mb-8 font-medium">
-                When we trained a machine learning model on 8,300+ convicted Medicare fraudsters and asked it to find
+                When we trained a machine learning model on 2,198 confirmed Medicare fraudsters and asked it to find
                 500 active providers with matching billing patterns, we expected the results to span dozens of specialties.
                 Instead, one specialty dominated everything: <strong><Link href="/specialties/internal-medicine" className="text-medicare-primary hover:underline">Internal Medicine</Link></strong>.
               </p>
@@ -387,7 +387,7 @@ export default function InternalMedicineCrisisPage() {
                   >
                     <div className="text-sm font-bold text-gray-900 mb-1">The Algorithm Knows</div>
                     <p className="text-xs text-gray-600">
-                      How AI trained on 8,300 convicted fraudsters found 500 providers who bill just like them.
+                      How AI trained on 2,198 convicted fraudsters found 500 providers who bill just like them.
                     </p>
                   </Link>
                   <Link

@@ -7,7 +7,7 @@ import NewsletterCTA from '@/components/NewsletterCTA'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: '59 Medicare Investigations Exposed',
+  title: '68 Medicare Investigations Exposed',
   description: 'Data-driven investigations uncovering $14.6B in Medicare fraud, impossible billing, and suspicious providers. AI-powered analysis of 1.7M+ providers.',
   alternates: {
     canonical: '/investigations',
@@ -77,14 +77,14 @@ const featuredInvestigations = [
   },
   {
     title: 'Still Out There: The Providers Who Bill Like Criminals',
-    description: 'Our AI trained on 8,300+ confirmed fraudsters found providers with identical billing patterns still collecting from Medicare.',
+    description: 'Our AI trained on 2,198 confirmed fraudsters found providers with identical billing patterns still collecting from Medicare.',
     href: '/investigations/still-out-there',
     category: '🤖 ML Investigation',
     readTime: '10 min read',
     publishedAt: '2026-02-21',
     excerpt: 'We trained a machine learning model on every confirmed Medicare fraudster — DOJ indictments, HHS OIG exclusions, FCA settlements. Then we ran it on 1.7 million active providers. The results were sobering.',
     keyFindings: [
-      'Model trained on 8,300+ confirmed fraudsters from LEIE + DOJ + FCA',
+      'Model trained on 2,198 confirmed fraudsters from LEIE + DOJ + FCA',
       'Hundreds of providers match convicted criminal billing patterns',
       'Previously validated: our algorithm flagged providers before DOJ charged them',
       'Key features: services-per-day, code concentration, specialty deviation',
@@ -497,7 +497,7 @@ const investigations = [
     category: 'Deep Dive',
     readTime: '20 min read',
     publishedAt: '2026-02-21',
-    excerpt: 'A technical deep-dive into building a supervised Random Forest model trained on 96M rows of Medicare billing data and 8,300+ confirmed fraud labels from LEIE/DOJ. AUC 0.83, feature engineering, and lessons learned.'
+    excerpt: 'A technical deep-dive into building a supervised Random Forest model trained on 96M rows of Medicare billing data and 8,300+ LEIE fraud records cross-referenced from LEIE/DOJ. AUC 0.83, feature engineering, and lessons learned.'
   },
   {
     title: 'Why Internal Medicine Is Ground Zero for Medicare Fraud',

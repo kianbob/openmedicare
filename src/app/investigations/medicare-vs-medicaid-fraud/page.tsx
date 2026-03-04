@@ -252,7 +252,7 @@ export default function MedicareVsMedicaidFraudPage() {
                 <div className="border rounded-lg p-4">
                   <h3 className="font-bold text-gray-900 mb-2">🟢 OpenMedicaid</h3>
                   <p className="text-sm text-gray-600 mb-2">Coming soon: state-by-state Medicaid spending analysis, provider data, and fraud detection.</p>
-                  <a href="https://www.openmedicaid.com" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline text-sm font-medium">Visit OpenMedicaid →</a>
+                  <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline text-sm font-medium">Visit OpenMedicaid →</a>
                 </div>
               </div>
             </section>

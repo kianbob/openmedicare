@@ -203,7 +203,7 @@ export default function SearchPage() {
         <Breadcrumbs items={[{ name: 'Search' }]} />
 
         <h1 className="text-4xl font-serif font-bold text-gray-900 mb-2">Search OpenMedicare</h1>
-        <p className="text-gray-500 mb-6">Search 30,000+ profiled providers, 50 states, 130+ specialties, and 59 investigations</p>
+        <p className="text-gray-500 mb-6">Search 30,000+ profiled providers, 50 states, 130+ specialties, and 68 investigations</p>
 
         <div className="relative mb-6">
           <MagnifyingGlassIcon className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
@@ -349,7 +349,7 @@ export default function SearchPage() {
                   <span className="text-3xl">🔍</span>
                   <div>
                     <h3 className="font-semibold text-gray-900 group-hover:text-rose-700">Investigations</h3>
-                    <p className="text-sm text-gray-600 mt-1">59 data-driven investigations into Medicare spending</p>
+                    <p className="text-sm text-gray-600 mt-1">68 data-driven investigations into Medicare spending</p>
                   </div>
                 </Link>
               </div>

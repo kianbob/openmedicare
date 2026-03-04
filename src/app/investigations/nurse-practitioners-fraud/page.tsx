@@ -149,7 +149,7 @@ export default function NursePractitionersFraudPage() {
 
               <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The AI-Flagged NPs</h2>
               <p>
-                Our machine learning model — trained on 8,300+ confirmed Medicare fraudsters from LEIE and DOJ
+                Our machine learning model — trained on 2,198 confirmed Medicare fraudsters from LEIE and DOJ
                 data — flagged two nurse practitioners with billing patterns that closely match convicted
                 criminals. Both are billing in the <strong>seven-figure range</strong>, far above the NP specialty average.
               </p>
@@ -403,7 +403,7 @@ export default function NursePractitionersFraudPage() {
               <SourceCitation
                 sources={[
                   'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2023)',
-                  'OpenMedicare ML Fraud Detection Model v2.0 — Trained on 8,300+ LEIE/DOJ confirmed fraud cases',
+                  'OpenMedicare ML Fraud Detection Model v2.0 — Trained on 2,198 LEIE/DOJ confirmed fraud cases',
                   'American Association of Nurse Practitioners — State Practice Environment Map (2025)',
                   'U.S. Department of Health and Human Services — Office of Inspector General Reports',
                   'Bureau of Labor Statistics — Nurse Practitioner Employment Projections',

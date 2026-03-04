@@ -10,12 +10,12 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'AI Trained on 8,300 Fraudsters Found 500 Matches',
-  description: 'We trained a model on 8,300+ convicted Medicare fraudsters. It flagged 500 active doctors with identical billing patterns — and $400M in payments.',
+  title: 'AI Trained on 2,198 Fraudsters Found 500 Matches',
+  description: 'We trained a model on 2,198 confirmed Medicare fraudsters. It flagged 500 active doctors with identical billing patterns — and $400M in payments.',
   alternates: { canonical: '/investigations/algorithm-knows' },
   openGraph: {
-    title: 'AI Trained on 8,300 Fraudsters Found 500 Matches',
-    description: 'We trained a model on 8,300+ convicted Medicare fraudsters. It flagged 500 active doctors with identical billing patterns — and $400M in payments.',
+    title: 'AI Trained on 2,198 Fraudsters Found 500 Matches',
+    description: 'We trained a model on 2,198 confirmed Medicare fraudsters. It flagged 500 active doctors with identical billing patterns — and $400M in payments.',
     url: 'https://www.openmedicare.us/investigations/algorithm-knows',
   },
 }
@@ -50,8 +50,8 @@ export default function AlgorithmKnowsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <ArticleJsonLd
-        title="The Algorithm Knows: How AI Trained on 8,300 Convicted Fraudsters Found 500 Doctors Who Look Just Like Them"
-        description="A machine learning model trained on 8,300+ convicted Medicare fraudsters flagged 500 active providers with matching billing patterns."
+        title="The Algorithm Knows: How AI Trained on 2,198 Convicted Fraudsters Found 500 Doctors Who Look Just Like Them"
+        description="A machine learning model trained on 2,198 convicted Medicare fraudsters flagged 500 active providers with matching billing patterns."
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/algorithm-knows"
       />
@@ -76,7 +76,7 @@ export default function AlgorithmKnowsPage() {
                 The Algorithm Knows
               </h1>
               <p className="text-2xl text-gray-600 font-light leading-relaxed">
-                How AI Trained on 8,300 Convicted Fraudsters Found 500 Doctors Who Look Just Like Them
+                How AI Trained on 2,198 Convicted Fraudsters Found 500 Doctors Who Look Just Like Them
               </p>
             </div>
 
@@ -112,7 +112,7 @@ export default function AlgorithmKnowsPage() {
               {/* The Hook */}
               <p className="text-xl text-gray-700 leading-relaxed mb-8 font-medium">
                 We fed 10 years of Medicare billing data — every claim, every dollar, every provider — into a machine
-                learning model trained on 8,300+ confirmed fraud convictions. Then we asked it a simple question:
+                learning model trained on 2,198 confirmed fraud convictions. Then we asked it a simple question:
                 <em> Who else bills like a criminal?</em>
               </p>
               <p>

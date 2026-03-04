@@ -98,7 +98,7 @@ export default function MedicareFraudStatisticsPage() {
             <section className="mb-10">
               <h2 className="text-3xl font-bold text-gray-900 font-serif mb-4">How Much Does Medicare Fraud Cost Taxpayers?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Medicare is the largest healthcare program in the United States, covering over 65 million Americans. In 2023 alone, Medicare Part B paid out approximately <strong>$94.4 billion</strong> to healthcare providers. Our analysis of 10 years of CMS data totals <strong>$854.8 billion</strong> in Medicare Part B payments.
+                Medicare is the largest healthcare program in the United States, covering over 65 million Americans. In 2023 alone, Medicare Part B paid out approximately <strong>$93.7 billion</strong> to healthcare providers. Our analysis of 10 years of CMS data totals <strong>$854.8 billion</strong> in Medicare Part B payments.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The exact amount lost to fraud is impossible to know precisely — by definition, successful fraud goes undetected. But federal estimates paint a stark picture:
@@ -121,7 +121,7 @@ export default function MedicareFraudStatisticsPage() {
             <section className="mb-10">
               <h2 className="text-3xl font-bold text-gray-900 font-serif mb-4">What Our AI Analysis Found</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                OpenMedicare trained a machine learning model on <strong>8,300+ confirmed fraud cases</strong> from the OIG&apos;s List of Excluded Individuals/Entities (LEIE) and DOJ prosecution records. We then scored all 1.7 million active Medicare providers. The results:
+                OpenMedicare trained a machine learning model on <strong>2,198 confirmed fraud cases</strong> matched from the OIG&apos;s List of Excluded Individuals/Entities (LEIE) and DOJ prosecution records. We then scored all 1.7 million active Medicare providers. The results:
               </p>
               <div className="bg-gray-50 rounded-lg p-6 mb-4">
                 <ul className="space-y-3 text-gray-700">

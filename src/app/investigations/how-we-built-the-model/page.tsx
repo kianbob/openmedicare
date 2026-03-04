@@ -9,11 +9,11 @@ import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'How We Detect Medicare Fraud With ML',
-  description: 'Inside our fraud detection model: 96M rows, 1.7M providers, 8,300+ confirmed fraud labels. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
+  description: 'Inside our fraud detection model: 96M rows, 1.7M providers, 8,300+ LEIE fraud records cross-referenced. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
   alternates: { canonical: '/investigations/how-we-built-the-model' },
   openGraph: {
     title: 'How We Detect Medicare Fraud With ML',
-    description: 'Inside our fraud detection model: 96M rows, 1.7M providers, 8,300+ confirmed fraud labels. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
+    description: 'Inside our fraud detection model: 96M rows, 1.7M providers, 8,300+ LEIE fraud records cross-referenced. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
     url: 'https://www.openmedicare.us/investigations/how-we-built-the-model',
   },
 }
@@ -41,7 +41,7 @@ export default function HowWeBuiltTheModelPage() {
     <div className="min-h-screen bg-gray-50">
       <ArticleJsonLd
         title="How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers"
-        description="A technical deep-dive into building a supervised Random Forest model trained on 96M rows of Medicare billing data and 8,300+ confirmed fraud labels."
+        description="A technical deep-dive into building a supervised Random Forest model trained on 96M rows of Medicare billing data and 8,300+ LEIE fraud records cross-referenced."
         url="https://www.openmedicare.us/investigations/how-we-built-the-model"
         publishedDate={publishedDate}
         modifiedDate={publishedDate}
@@ -111,7 +111,7 @@ export default function HowWeBuiltTheModelPage() {
               {/* 1. The Problem */}
               <h2 id="the-problem" className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. The Problem</h2>
               <p>
-                Medicare pays over <strong>$854 billion per year</strong> to healthcare providers. The Government Accountability
+                Medicare pays over <strong>$854.8 billion over the past decade</strong> to healthcare providers. The Government Accountability
                 Office estimates that <strong>$60–90 billion</strong> of that is lost to fraud, waste, and abuse annually — roughly
                 7–10% of total spending. That&apos;s more than the entire budget of the Department of Homeland Security.
               </p>

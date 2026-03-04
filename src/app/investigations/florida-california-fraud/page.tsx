@@ -114,7 +114,7 @@ export default function FloridaCaliforniaFraudPage() {
               <p>
                 This isn&apos;t new. The DOJ&apos;s largest Medicare fraud takedowns have consistently centered on
                 South Florida, Los Angeles, Houston, and the New York metro area. Our machine learning model,
-                trained on 8,300+ convicted fraudsters, independently arrived at the same conclusion: fraud
+                trained on 2,198 convicted fraudsters, independently arrived at the same conclusion: fraud
                 follows the sun — and the elderly population.
               </p>
 
@@ -352,7 +352,7 @@ export default function FloridaCaliforniaFraudPage() {
                   >
                     <div className="text-sm font-bold text-gray-900 mb-1">The Algorithm Knows</div>
                     <p className="text-xs text-gray-600">
-                      How AI trained on 8,300 convicted fraudsters found 500 providers who bill just like them.
+                      How AI trained on 2,198 convicted fraudsters found 500 providers who bill just like them.
                     </p>
                   </Link>
                   <Link
