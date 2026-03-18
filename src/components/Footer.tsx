@@ -11,6 +11,7 @@ const sisterSites = [
   { name: 'OpenSubsidies', href: 'https://www.opensubsidies.org', description: 'Farm Subsidy Tracker' },
   { name: 'WarCosts', href: 'https://www.warcosts.org', description: 'War Spending Tracker' },
   { name: 'OpenPrescriber', href: 'https://www.openprescriber.org', description: 'Medicare Part D Prescribing' },
+  { name: 'GiveScope', href: 'https://www.givescope.com', description: 'Nonprofit Spending Tracker' },
 ]
 
 const navigation = [
