@@ -134,7 +134,9 @@ export default function Footer() {
               <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSpending</a>
               {' · '}
               <a href="https://www.openimmigration.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenImmigration</a>
-            <li><a href="https://www.opencrime.us" className="hover:text-white">OpenCrime</a></li>              {' · '}
+              {' · '}
+              <a href="https://www.opencrime.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenCrime</a>
+              {' · '}
               <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenLobby</a>
               {' · '}
               <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">VaccineWatch</a>
