@@ -12,7 +12,7 @@ const sisterSites = [
   { name: 'WarCosts', href: 'https://www.warcosts.org', description: 'War Spending Tracker' },
   { name: 'OpenPrescriber', href: 'https://www.openprescriber.org', description: 'Medicare Part D Prescribing' },
   { name: 'GiveScope', href: 'https://www.givescope.com', description: 'Nonprofit Spending Tracker' },
-]
+              <a href="https://www.spacgraveyard.com" target="_blank" rel="noopener noreferrer" className="block text-gray-500 hover:text-teal-700 text-sm transition-colors">SPACGraveyard</a>]
 
 const navigation = [
   {
