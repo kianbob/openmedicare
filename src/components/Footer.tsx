@@ -15,8 +15,6 @@ const sisterSites = [
     { name: 'SPACGraveyard', href: 'https://www.spacgraveyard.com', description: 'SPAC Bubble Investigation' },
     { name: 'AI Exposure', href: 'https://www.aiexposure.org', description: 'AI Job Displacement Tracker' },
     { name: 'TariffTax', href: 'https://www.tarifftax.org', description: 'Tariff Impact Tracker' },
-    { name: 'PowerMap', href: 'https://powermap-app.vercel.app', description: 'Political Money Tracker' },
-    { name: 'OpenHousing', href: 'https://openhousing-app.vercel.app', description: 'Housing Data Tracker' },
   ]
 
 const navigation = [
@@ -154,9 +152,7 @@ export default function Footer() {
               {' · '}
               <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">TariffTax</a>
               {' · '}
-              <a href="https://powermap-app.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-white">PowerMap</a>
               {' · '}
-              <a href="https://openhousing-app.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenHousing</a>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
               <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
