@@ -13,6 +13,10 @@ const sisterSites = [
   { name: 'OpenPrescriber', href: 'https://www.openprescriber.org', description: 'Medicare Part D Prescribing' },
   { name: 'GiveScope', href: 'https://www.givescope.com', description: 'Nonprofit Spending Tracker' },
     { name: 'SPACGraveyard', href: 'https://www.spacgraveyard.com', description: 'SPAC Bubble Investigation' },
+    { name: 'AI Exposure', href: 'https://www.aiexposure.org', description: 'AI Job Displacement Tracker' },
+    { name: 'TariffTax', href: 'https://www.tarifftax.org', description: 'Tariff Impact Tracker' },
+    { name: 'PowerMap', href: 'https://powermap-app.vercel.app', description: 'Political Money Tracker' },
+    { name: 'OpenHousing', href: 'https://openhousing-app.vercel.app', description: 'Housing Data Tracker' },
   ]
 
 const navigation = [
@@ -145,6 +149,14 @@ export default function Footer() {
               <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSubsidies</a>
               {' · '}
               <a href="https://www.warcosts.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">WarCosts</a>
+              {' · '}
+              <a href="https://www.aiexposure.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">AI Exposure</a>
+              {' · '}
+              <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">TariffTax</a>
+              {' · '}
+              <a href="https://powermap-app.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-white">PowerMap</a>
+              {' · '}
+              <a href="https://openhousing-app.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenHousing</a>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
               <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
