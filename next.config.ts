@@ -1,6 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  outputFileTracingExcludes: {
+    '*': [
+      './public/data/providers/**',
+      './public/data/fraud-features.json',
+      './public/data/covid-test-billing.json',
+      './public/data/wound-care.json',
+    ],
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
   },
