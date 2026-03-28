@@ -16,7 +16,6 @@ const sisterSites = [
   { name: 'AI Exposure', href: 'https://www.aiexposure.org', description: 'AI Job Displacement Tracker' },
   { name: 'TariffTax', href: 'https://www.tarifftax.org', description: 'Tariff Impact Tracker' },
   { name: 'ShelterScope', href: 'https://www.shelterscope.com', description: 'Housing Crisis Tracker' },
-  { name: 'OpenMedicare', href: 'https://www.openmedicare.us', description: 'Medicare Data Tracker' },
 ]
 
 const navigation = [
@@ -159,8 +158,6 @@ export default function Footer() {
               <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">TariffTax</a>
               {' · '}
               <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">ShelterScope</a>
-              {' · '}
-              <a href="https://www.openmedicare.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenMedicare</a>
               {' · '}
               <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white">TheDataProject.ai</a>
             </div>
