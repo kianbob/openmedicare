@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 const sisterSites = [
+  { name: 'TheDataProject.ai', href: 'https://thedataproject.ai', description: 'Data-Driven Transparency' },
   { name: 'OpenMedicaid', href: 'https://www.openmedicaid.org', description: 'Medicaid Spending Tracker' },
   { name: 'OpenFeds', href: 'https://www.openfeds.org', description: 'Federal Workforce Tracker' },
   { name: 'OpenSpending', href: 'https://www.openspending.us', description: 'Federal Spending Tracker' },
@@ -8,14 +9,15 @@ const sisterSites = [
   { name: 'OpenCrime', href: 'https://www.opencrime.us', description: 'Crime Data Tracker' },
   { name: 'OpenLobby', href: 'https://www.openlobby.us', description: 'Federal Lobbying Tracker' },
   { name: 'VaccineWatch', href: 'https://www.vaccinewatch.org', description: 'Vaccine Safety Data' },
-  { name: 'OpenSubsidies', href: 'https://www.opensubsidies.org', description: 'Farm Subsidy Tracker' },
   { name: 'WarCosts', href: 'https://www.warcosts.org', description: 'War Spending Tracker' },
   { name: 'OpenPrescriber', href: 'https://www.openprescriber.org', description: 'Medicare Part D Prescribing' },
   { name: 'GiveScope', href: 'https://www.givescope.com', description: 'Nonprofit Spending Tracker' },
-    { name: 'SPACGraveyard', href: 'https://www.spacgraveyard.com', description: 'SPAC Bubble Investigation' },
-    { name: 'AI Exposure', href: 'https://www.aiexposure.org', description: 'AI Job Displacement Tracker' },
-    { name: 'TariffTax', href: 'https://www.tarifftax.org', description: 'Tariff Impact Tracker' },
-  ]
+  { name: 'SPACGraveyard', href: 'https://www.spacgraveyard.com', description: 'SPAC Bubble Investigation' },
+  { name: 'AI Exposure', href: 'https://www.aiexposure.org', description: 'AI Job Displacement Tracker' },
+  { name: 'TariffTax', href: 'https://www.tarifftax.org', description: 'Tariff Impact Tracker' },
+  { name: 'ShelterScope', href: 'https://www.shelterscope.com', description: 'Housing Crisis Tracker' },
+  { name: 'OpenMedicare', href: 'https://www.openmedicare.us', description: 'Medicare Data Tracker' },
+]
 
 const navigation = [
   {
@@ -144,15 +146,23 @@ export default function Footer() {
               {' · '}
               <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">VaccineWatch</a>
               {' · '}
-              <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenSubsidies</a>
-              {' · '}
               <a href="https://www.warcosts.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">WarCosts</a>
+              {' · '}
+              <a href="https://www.openprescriber.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenPrescriber</a>
+              {' · '}
+              <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">GiveScope</a>
+              {' · '}
+              <a href="https://www.spacgraveyard.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">SPACGraveyard</a>
               {' · '}
               <a href="https://www.aiexposure.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">AI Exposure</a>
               {' · '}
               <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">TariffTax</a>
               {' · '}
+              <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">ShelterScope</a>
               {' · '}
+              <a href="https://www.openmedicare.us" target="_blank" rel="noopener noreferrer" className="hover:text-white">OpenMedicare</a>
+              {' · '}
+              <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white">TheDataProject.ai</a>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
               <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
