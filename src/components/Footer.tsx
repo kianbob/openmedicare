@@ -122,6 +122,14 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+          <div className="text-center mb-8">
+            <h3 className="text-sm font-semibold leading-6 text-white uppercase tracking-wider mb-3">Explore More Data</h3>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+              <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">GiveScope — Search 1.9M nonprofits & their finances</a>
+              <a href="https://www.howisamerica.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">How Is America — Census data on AI, food, housing & trust</a>
+              <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">ShelterScope — Housing & shelter data across the U.S.</a>
+            </div>
+          </div>
           <div className="text-xs leading-5 text-gray-400">
             <div className="mb-4">
               <strong>Data Sources:</strong> Centers for Medicare & Medicaid Services (CMS), Medicare Provider Utilization and Payment Data
