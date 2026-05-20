@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
-  title: '5 Data Sources Behind 96M+ Medicare Claims',
+  title: 'Data Sources — 96M+ Medicare Claims',
   description: 'Every number verified from public CMS claims, OIG exclusion lists, and DOJ fraud cases. See exactly where our data comes from, how fresh it is, and what it covers.',
 }
 

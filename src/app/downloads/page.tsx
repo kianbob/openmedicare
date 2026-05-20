@@ -5,7 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Medicare Data Downloads',
+  title: 'Download Medicare Data — Free CSV & JSON',
   description: 'Download 19 Medicare datasets in JSON and CSV. Provider payments, fraud watchlists, ML risk scores, and 10 years of spending trends. CC BY 4.0.',
 }
 

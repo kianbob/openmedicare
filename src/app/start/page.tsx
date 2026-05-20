@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
 
 export const metadata: Metadata = {
-  title: 'Start Here: Your 8-Step Guide',
+  title: 'Start Here — Guide to OpenMedicare',
   description: 'New to OpenMedicare? Follow 8 steps to explore $854B in Medicare data, check your doctor, uncover fraud flags, and use free interactive tools.',
 }
 

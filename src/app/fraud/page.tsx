@@ -11,7 +11,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'AI Flagged 500 Medicare Providers for Fraud',
+  title: '500 Medicare Providers Flagged for Fraud by AI',
   description: '$854.8B in payments. 1.72M providers scanned. 500 flagged. Exposed upcoding, COVID test schemes, wound care fraud, and impossible billing volumes.',
   alternates: { canonical: '/fraud' },
   openGraph: {

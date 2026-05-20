@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: '9 Deep Dives Into $854B of Spending',
+  title: 'Medicare Analysis — $854B in Spending',
   description: 'We analyzed 96M rows of CMS data to uncover hidden patterns in Medicare spending. Explore drug costs, geographic gaps, markups, and 10-year trends.',
 }
 
