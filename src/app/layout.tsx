@@ -20,10 +20,10 @@ const GA_ID = 'G-8VXQC61QX1'
 
 export const metadata: Metadata = {
   title: {
-    default: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
+    default: 'Medicare Spending Data: $854B Exposed | OpenMedicare',
     template: '%s | OpenMedicare'
   },
-  description: 'We analyzed 1.72M Medicare providers and 10 years of payment data. AI flagged 500 for potential fraud. Search any doctor, see every dollar.',
+  description: 'Search 1.72M Medicare providers and $854B in payments (2014-2023). AI fraud detection flagged 500 providers. Free provider lookup, drug costs, and spending by state.',
   keywords: ['Medicare', 'healthcare spending', 'physician payments', 'data journalism', 'healthcare transparency'],
   authors: [{ name: 'OpenMedicare Team' }],
   creator: 'OpenMedicare',
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.openmedicare.us',
-    title: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
-    description: 'AI scanned 1.72M providers and flagged 500 for fraud patterns. 10 years of CMS data exposed. Search any doctor free.',
+    title: 'Medicare Spending Data: $854B Exposed | OpenMedicare',
+    description: 'Search 1.72M Medicare providers and $854B in payments. AI fraud detection flagged 500 providers. Free provider lookup and spending data.',
     siteName: 'OpenMedicare',
     images: [
       {
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@thedataproject0',
     creator: '@thedataproject0',
-    title: 'OpenMedicare — Where $854B in Medicare Money Really Goes',
-    description: 'AI scanned 1.72M providers and flagged 500 for fraud patterns. 10 years of data. Search any doctor free.',
+    title: 'Medicare Spending Data: $854B Exposed | OpenMedicare',
+    description: 'Search 1.72M Medicare providers and $854B in payments. AI fraud detection flagged 500 providers. Free lookup tool.',
     images: ['/og-image.png'],
   },
   robots: {

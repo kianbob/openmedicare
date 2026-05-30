@@ -549,6 +549,40 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* Explore Medicare Data */}
+      <div className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold font-playfair text-center mb-4">Explore Medicare Spending Data</h2>
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">Dive into $854 billion in Medicare payments across providers, drugs, specialties, states, and procedures.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link href="/providers" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">🏥 Medicare Providers</h3>
+              <p className="text-sm text-gray-600">Search 1.72M providers. See payments, services, and AI fraud flags for any doctor.</p>
+            </Link>
+            <Link href="/drugs" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">💊 Drug Spending</h3>
+              <p className="text-sm text-gray-600">Track $94B+ in Medicare drug costs. See which drugs cost the most and spending trends.</p>
+            </Link>
+            <Link href="/specialties" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">⚕️ By Specialty</h3>
+              <p className="text-sm text-gray-600">Compare Medicare payments across medical specialties. See markup ratios and fraud hotspots.</p>
+            </Link>
+            <Link href="/states" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">🗺️ By State</h3>
+              <p className="text-sm text-gray-600">Interactive map of Medicare spending by state. Find which states spend the most per beneficiary.</p>
+            </Link>
+            <Link href="/procedures" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">📋 Procedures</h3>
+              <p className="text-sm text-gray-600">Look up any CPT code. See what Medicare pays, what providers charge, and markup ratios.</p>
+            </Link>
+            <Link href="/fraud" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">🤖 AI Fraud Detection</h3>
+              <p className="text-sm text-gray-600">500 providers flagged by our ML model trained on 2,198 confirmed fraudsters. See the data.</p>
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* Newsletter CTA */}
       <div className="py-16 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

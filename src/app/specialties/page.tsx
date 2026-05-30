@@ -5,7 +5,14 @@ import Link from 'next/link'
 import { MagnifyingGlassIcon, ExclamationTriangleIcon, FireIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
+import FAQSchema from '@/components/FAQSchema'
 import { formatCurrency, formatNumber } from '@/lib/format'
+
+const specialtyFaqs = [
+  { question: 'Which medical specialty receives the most Medicare payments?', answer: 'Internal Medicine and Family Practice typically receive the highest total Medicare payments due to the large number of providers in these specialties. However, specialties like Ophthalmology and Cardiology often have higher per-provider payments.' },
+  { question: 'What is the Medicare markup ratio by specialty?', answer: 'The markup ratio shows how much providers charge versus what Medicare actually pays. Some specialties have markup ratios of 4x or higher, meaning doctors charge four times what Medicare reimburses.' },
+  { question: 'Which specialties have the most fraud flags?', answer: 'Our AI model flagged Internal Medicine and Family Practice as having the most providers with billing patterns similar to confirmed fraudsters, partly because these are the largest specialties by provider count.' },
+]
 
 interface SpecialtyData {
   specialty: string
@@ -71,6 +78,8 @@ export default function SpecialtiesPage() {
   )
 
   return (
+    <>
+    <FAQSchema faqs={specialtyFaqs} />
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ name: 'Specialties', href: '/specialties' }]} />
@@ -228,5 +237,6 @@ export default function SpecialtiesPage() {
         <SourceCitation />
       </div>
     </main>
+    </>
   )
 }

@@ -6,7 +6,14 @@ import { MapPinIcon, MagnifyingGlassIcon, ExclamationTriangleIcon } from '@heroi
 import Breadcrumbs from '@/components/Breadcrumbs'
 import StateHeatmap from '@/components/StateHeatmap'
 import SourceCitation from '@/components/SourceCitation'
+import FAQSchema from '@/components/FAQSchema'
 import { formatCurrency, formatNumber } from '@/lib/format'
+
+const stateFaqs = [
+  { question: 'Which state has the highest Medicare spending?', answer: 'California, Florida, Texas, and New York consistently rank as the top Medicare spending states, driven by large elderly populations and high provider counts. Our interactive map shows total payments by state from 2014-2023.' },
+  { question: 'How does Medicare spending vary by state?', answer: 'Medicare spending per beneficiary varies significantly by state due to differences in cost of living, provider density, practice patterns, and population health. Some states spend 2-3x more per beneficiary than others.' },
+  { question: 'Which states have the most Medicare fraud?', answer: 'Florida, California, Texas, and New York have historically had the highest concentrations of Medicare fraud cases. Our AI model also flagged disproportionate numbers of suspicious providers in these states.' },
+]
 
 interface StateData {
   state: string
@@ -82,6 +89,8 @@ export default function StatesPage() {
   )
 
   return (
+    <>
+    <FAQSchema faqs={stateFaqs} />
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ name: 'States', href: '/states' }]} />
@@ -248,5 +257,6 @@ export default function StatesPage() {
         <SourceCitation />
       </div>
     </main>
+    </>
   )
 }

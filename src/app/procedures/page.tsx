@@ -5,7 +5,14 @@ import Link from 'next/link'
 import { MagnifyingGlassIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
+import FAQSchema from '@/components/FAQSchema'
 import { formatCurrency, formatNumber } from '@/lib/format'
+
+const procedureFaqs = [
+  { question: 'What are the most common Medicare procedures?', answer: 'Office visits (CPT 99213, 99214) are the most common Medicare procedures by volume. Other frequently billed procedures include blood tests, imaging studies, and vaccinations.' },
+  { question: 'How much does Medicare pay for common procedures?', answer: 'Medicare reimbursement varies by procedure, location, and provider type. For example, a standard office visit (99213) typically reimburses around $75-95, while complex procedures can reimburse thousands of dollars.' },
+  { question: 'What is the Medicare markup ratio for procedures?', answer: 'The markup ratio compares what providers charge versus what Medicare pays. Some procedures have markup ratios exceeding 5x, meaning the billed amount is five times the Medicare-allowed amount.' },
+]
 
 interface ProcedureData {
   code: string
@@ -65,6 +72,8 @@ export default function ProceduresPage() {
   )
 
   return (
+    <>
+    <FAQSchema faqs={procedureFaqs} />
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ name: 'Procedures', href: '/procedures' }]} />
@@ -352,5 +361,6 @@ export default function ProceduresPage() {
         <SourceCitation />
       </div>
     </main>
+    </>
   )
 }

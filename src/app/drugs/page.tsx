@@ -5,7 +5,14 @@ import Link from 'next/link'
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
+import FAQSchema from '@/components/FAQSchema'
 import { formatCurrency, formatNumber } from '@/lib/format'
+
+const drugFaqs = [
+  { question: 'What are the most expensive Medicare drugs?', answer: 'The most expensive Medicare Part B drugs include cancer treatments, immunotherapies, and specialty biologics. OpenMedicare tracks spending on all physician-administered drugs, totaling over $94 billion across our dataset.' },
+  { question: 'How much does Medicare spend on prescription drugs?', answer: 'Medicare Part B drug spending (physician-administered drugs) accounts for a significant portion of the $854 billion in total Medicare payments in our database. Drug costs have grown substantially over the 2014-2023 period we cover.' },
+  { question: 'Why are Medicare drug costs rising?', answer: 'Key drivers include the shift toward expensive specialty biologics and cancer treatments, increased utilization of physician-administered drugs, and limited price negotiation power. Our data shows year-over-year trends in drug spending growth.' },
+]
 
 interface ProcedureData {
   code: string
@@ -82,6 +89,8 @@ export default function DrugsPage() {
   )
 
   return (
+    <>
+    <FAQSchema faqs={drugFaqs} />
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ name: 'Drugs', href: '/drugs' }]} />
@@ -226,5 +235,6 @@ export default function DrugsPage() {
         <SourceCitation />
       </div>
     </main>
+    </>
   )
 }

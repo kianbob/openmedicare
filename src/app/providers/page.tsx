@@ -6,6 +6,14 @@ import { MagnifyingGlassIcon, ExclamationTriangleIcon } from '@heroicons/react/2
 import { formatCurrency, formatNumber, toTitleCase } from '@/lib/format'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
+import FAQSchema from '@/components/FAQSchema'
+
+const providerFaqs = [
+  { question: 'How do I look up a Medicare provider?', answer: 'Use the search bar on this page to find any of the 1.72 million Medicare providers by name, NPI number, specialty, or location. Each provider profile shows total payments, services, and beneficiaries served.' },
+  { question: 'What data does OpenMedicare use for provider payments?', answer: 'OpenMedicare uses CMS Medicare Provider Utilization and Payment Data from 2014-2023, covering over $854 billion in total payments to 1.72 million providers.' },
+  { question: 'How does the AI fraud detection work?', answer: 'Our machine learning model was trained on billing patterns of 2,198 confirmed Medicare fraudsters. It identifies active providers with statistically similar billing patterns, flagging 500 providers for further review.' },
+  { question: 'Can I see how much my doctor received from Medicare?', answer: 'Yes. Search for any provider to see their total Medicare payments, number of services, beneficiaries, top procedures, and how they compare to peers in their specialty.' },
+]
 
 interface Provider {
   npi: string
@@ -214,6 +222,8 @@ export default function ProvidersPage() {
   }
 
   return (
+    <>
+    <FAQSchema faqs={providerFaqs} />
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs 
@@ -587,5 +597,6 @@ export default function ProvidersPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }
