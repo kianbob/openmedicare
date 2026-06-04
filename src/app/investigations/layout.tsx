@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '64 Medicare Investigations Exposed',
+  title: '70 Medicare Investigations Exposed',
   description: 'Data-driven investigations uncovering $14.6B in Medicare fraud, impossible billing, and suspicious providers. AI-powered analysis of 1.7M+ providers.',
 }
 

@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
@@ -19,12 +20,32 @@ export const metadata: Metadata = {
   },
 }
 
+const fraudStatsFaqs = [
+  {
+    question: 'How much money does Medicare lose to fraud each year?',
+    answer: 'The estimated annual loss to Medicare fraud ranges from $60 billion to over $100 billion. CMS reports a 3-10% improper payment rate. The National Health Care Anti-Fraud Association estimates $68 billion annually, with some estimates as high as $230 billion across all healthcare fraud.',
+  },
+  {
+    question: 'What is the most common type of Medicare fraud?',
+    answer: 'The most common types include phantom billing (billing for services never provided), upcoding (billing for more expensive services than delivered), kickback schemes, and unbundling. Wound care fraud and genetic testing fraud have become particularly prevalent in recent years.',
+  },
+  {
+    question: 'How do I report Medicare fraud?',
+    answer: 'You can report suspected Medicare fraud by calling the HHS OIG hotline at 1-800-HHS-TIPS (1-800-447-8477), visiting oig.hhs.gov, or contacting your local Medicare Administrative Contractor. Whistleblowers may be eligible for rewards under the False Claims Act.',
+  },
+  {
+    question: 'Which states have the most Medicare fraud?',
+    answer: 'California, Florida, New York, Texas, and New Jersey consistently lead in Medicare fraud cases. South Florida (Miami-Dade) is historically known as the Medicare fraud capital. Our AI analysis flagged 56 providers each in California and Florida.',
+  },
+]
+
 export default function MedicareFraudStatisticsPage() {
   const publishedDate = '2026-02-23'
   const readTime = '12 min read'
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <FAQSchema faqs={fraudStatsFaqs} />
       <ArticleJsonLd
         title="Medicare Fraud Statistics 2025: How Much Is Lost Each Year?"
         description="Medicare fraud costs taxpayers $60–100 billion annually. Complete breakdown of fraud statistics, types, enforcement, and AI detection findings."

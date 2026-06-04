@@ -5,11 +5,27 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
+import FAQSchema from '@/components/FAQSchema'
+
+const highestPaidFaqs = [
+  {
+    question: 'Who is the highest-paid doctor on Medicare?',
+    answer: 'Individual ophthalmologists billing expensive drug injections (like Eylea for macular degeneration) can bill Medicare $20 million or more per year. The highest individual billers are typically ophthalmologists, radiation oncologists, and cardiac surgeons.',
+  },
+  {
+    question: 'How much do the top 1% of Medicare doctors earn?',
+    answer: 'The top 1% of Medicare providers earn $5 million or more per year from Medicare alone. This is driven by high-cost drug administration, surgical procedures, and high patient volumes. The average provider receives about $49,700.',
+  },
+  {
+    question: 'Which medical specialty earns the most from Medicare?',
+    answer: 'Ophthalmology earns the most on average ($384,000 per provider per year) due to expensive drug injections. Radiation oncology, cardiac surgery, and interventional cardiology also rank among the highest-paid specialties.',
+  },
+]
 
 export const metadata: Metadata = {
-  title: 'Top 1% of Medicare Doctors Earn $5M+ Per Year',
-  description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full breakdown by specialty.',
-  keywords: ['highest paid doctors medicare', 'top medicare earners', 'doctors who bill medicare the most', 'medicare highest paid physicians', 'medicare top billers'],
+  title: 'Highest-Paid Doctors on Medicare: Top 1% Earn $5M+ (2025 Data)',
+  description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full breakdown by specialty with real CMS data.',
+  keywords: ['highest paid doctors medicare', 'top medicare earners', 'doctors who bill medicare the most', 'medicare highest paid physicians', 'medicare top billers', 'highest paid medical specialties medicare'],
   openGraph: {
     title: 'Top 1% of Medicare Doctors Earn $5M+ Per Year',
     description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full breakdown by specialty.',
@@ -30,6 +46,7 @@ export default function HighestPaidDoctorsMedicarePage() {
         ]} />
 
         <article className="prose prose-lg max-w-none">
+          <FAQSchema faqs={highestPaidFaqs} />
           <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Investigation</span>
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
             The Highest-Paid Doctors in Medicare: Who Earns the Most from Taxpayers?

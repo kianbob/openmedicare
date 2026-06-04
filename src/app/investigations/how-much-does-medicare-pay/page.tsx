@@ -7,11 +7,31 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
+
+const medicarePayFaqs = [
+  {
+    question: 'How much does Medicare pay doctors per visit?',
+    answer: 'Medicare pays doctors based on the Medicare Physician Fee Schedule. A typical office visit (CPT 99213) pays approximately $75-$110. More complex visits (99214-99215) pay $110-$180. Specialists performing procedures earn significantly more per encounter.',
+  },
+  {
+    question: 'What is the highest-paid medical specialty under Medicare?',
+    answer: 'Ophthalmology is the highest-paid Medicare specialty, averaging approximately $384,000 per provider per year, largely due to expensive drug injections for macular degeneration. Radiation oncology, cardiac surgery, and interventional cardiology also rank among the top earners.',
+  },
+  {
+    question: 'Do doctors lose money on Medicare patients?',
+    answer: 'Medicare typically pays about 80% of what private insurance pays for the same service. While most providers do not lose money on Medicare, the lower reimbursement rates mean tighter margins, which is why some practices limit the number of Medicare patients they accept.',
+  },
+  {
+    question: 'How much does Medicare pay nurse practitioners?',
+    answer: 'Nurse practitioners receive an average of approximately $26,000 per year from Medicare — the lowest among major provider categories. NPs are reimbursed at 85% of the physician fee schedule rate for the same services.',
+  },
+]
 
 export const metadata: Metadata = {
-  title: 'Medicare Pays Doctors $26K to $384K — Full Breakdown',
-  description: 'We analyzed 1.72M providers to reveal what Medicare actually pays each specialty. The 15x gap between the top and bottom will surprise you.',
-  keywords: ['how much does medicare pay doctors', 'medicare reimbursement rates', 'medicare payment by specialty', 'medicare fee schedule', 'doctor medicare pay'],
+  title: 'How Much Does Medicare Pay Doctors? $26K to $384K by Specialty (2025 Data)',
+  description: 'We analyzed 1.72M providers to reveal what Medicare actually pays each specialty. Ophthalmologists average $384K while NPs get $26K. Full breakdown with real CMS data.',
+  keywords: ['how much does medicare pay doctors', 'medicare reimbursement rates', 'medicare payment by specialty', 'medicare fee schedule', 'doctor medicare pay', 'medicare pay per visit', 'medicare physician payment 2025'],
   openGraph: {
     title: 'Medicare Pays Doctors $26K to $384K — Full Breakdown',
     description: 'We analyzed 1.72M providers to reveal what Medicare actually pays each specialty. The 15x gap between the top and bottom will surprise you.',
@@ -56,6 +76,7 @@ export default function HowMuchDoesMedicarePayPage() {
         ]} />
 
         <article className="prose prose-lg max-w-none">
+          <FAQSchema faqs={medicarePayFaqs} />
           <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Analysis</span>
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
             How Much Does Medicare Actually Pay Doctors?

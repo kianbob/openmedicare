@@ -7,7 +7,7 @@ import NewsletterCTA from '@/components/NewsletterCTA'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Medicare Fraud Investigations — 68 Exposed',
+  title: 'Medicare Fraud Investigations — 70 Exposed',
   description: 'Data-driven investigations uncovering $14.6B in Medicare fraud, impossible billing, and suspicious providers. AI-powered analysis of 1.7M+ providers.',
   alternates: {
     canonical: '/investigations',
@@ -93,6 +93,24 @@ const featuredInvestigations = [
 ]
 
 const investigations = [
+  {
+    title: 'Medicare Spending Trends 2025: Where $854 Billion Goes',
+    description: 'A decade of Medicare data reveals who\'s getting paid, how spending is shifting, and what it means for taxpayers.',
+    href: '/investigations/medicare-spending-trends-2025',
+    category: '📈 Trend Analysis',
+    readTime: '14 min read',
+    publishedAt: '2026-06-03',
+    excerpt: 'Medicare Part B spending grew 20% from $78B to $93.7B over 10 years. Telehealth surged 3,000%+. Drug costs are the biggest driver. Here\'s where $854.8 billion actually went.'
+  },
+  {
+    title: 'Medicare Advantage vs Traditional Medicare: Follow the Money',
+    description: 'Over half of beneficiaries have switched to Advantage plans. The data shows why that\'s both a win and a warning.',
+    href: '/investigations/medicare-advantage-vs-traditional',
+    category: '⚖️ Comparative Analysis',
+    readTime: '16 min read',
+    publishedAt: '2026-06-03',
+    excerpt: '54% of beneficiaries now use Medicare Advantage. MA costs the government 6–25% more per beneficiary. Diagnosis upcoding may add $12–25B/year in overpayments. Two systems, two kinds of fraud.'
+  },
   {
     title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
     description: 'Complete breakdown of Medicare fraud costs, types, enforcement data, and AI findings.',

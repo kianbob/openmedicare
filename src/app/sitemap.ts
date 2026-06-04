@@ -74,6 +74,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'medicare-fraud-statistics',
     'check-doctor-medicare',
     'medicare-vs-medicaid-fraud',
+    'medicare-spending-trends-2025',
+    'medicare-advantage-vs-traditional',
   ]
 
   const staticPages = [
