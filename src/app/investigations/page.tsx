@@ -94,6 +94,33 @@ const featuredInvestigations = [
 
 const investigations = [
   {
+    title: 'Medicare Drug Price Negotiation: 2026 Update — IRA Impact & Savings',
+    description: 'The first 10 Medicare-negotiated drug prices took effect January 2026, saving an estimated $6 billion in year one.',
+    href: '/investigations/drug-price-negotiation-2026',
+    category: '📈 Policy Analysis',
+    readTime: '13 min read',
+    publishedAt: '2026-07-10',
+    excerpt: 'For the first time in history, Medicare negotiated drug prices. The first 10 — Eliquis, Jardiance, Xarelto and more — took effect January 2026 with discounts of 38–79%, saving an estimated $6 billion in year one. 15 more drugs follow in 2027.'
+  },
+  {
+    title: 'Medicare Fraud: The Biggest Cases of 2025-2026',
+    description: 'The DOJ\'s record $14.6B takedown charged 324 defendants. Inside the biggest Medicare fraud cases of 2025-2026.',
+    href: '/investigations/medicare-fraud-biggest-cases-2025-2026',
+    category: '🔴 Investigation',
+    readTime: '15 min read',
+    publishedAt: '2026-07-10',
+    excerpt: 'The DOJ\'s record $14.6 billion takedown charged 324 defendants, while False Claims Act recoveries hit $6.8 billion. Wound care rings, a $328M genetic testing scam, and telemedicine fraud drove the biggest cases of 2025-2026.'
+  },
+  {
+    title: 'Medicare Advantage vs Original Medicare: 2026 Comparison',
+    description: '33.8M enrolled in Medicare Advantage in 2026. A side-by-side comparison of premiums, costs, and overpayment controversies.',
+    href: '/investigations/medicare-advantage-vs-original-2026',
+    category: '⚖️ Comparative Analysis',
+    readTime: '14 min read',
+    publishedAt: '2026-07-10',
+    excerpt: '33.8 million people — 54% of eligible beneficiaries — are now in Medicare Advantage. Average MA premium: $17/month. Part B premium: $185/month. But MA costs taxpayers 6–8% more, and risk-adjustment upcoding is under DOJ scrutiny.'
+  },
+  {
     title: 'Medicare Spending Trends 2025: Where $854 Billion Goes',
     description: 'A decade of Medicare data reveals who\'s getting paid, how spending is shifting, and what it means for taxpayers.',
     href: '/investigations/medicare-spending-trends-2025',
@@ -372,6 +399,33 @@ const investigations = [
     readTime: '14 min read',
     publishedAt: '2026-02-21',
     excerpt: '2025 was the biggest year for Medicare fraud enforcement in history. The DOJ charged 324 defendants in a $14.6 billion takedown while False Claims Act recoveries hit a record $6.8 billion.'
+  },
+  {
+    title: 'Medicare Drug Price Negotiation: 2026 Update',
+    description: 'IRA drug negotiation took effect — first 10 drugs, $6B in savings, 2027 expansion',
+    href: '/investigations/drug-price-negotiation-2026',
+    category: 'Analysis',
+    readTime: '12 min read',
+    publishedAt: '2026-07-10',
+    excerpt: 'Negotiated prices for 10 of Medicare\'s costliest drugs took effect January 2026, saving an estimated $6 billion. Price cuts of 38-79% on drugs that cost Medicare $50.5 billion annually.'
+  },
+  {
+    title: 'Medicare Fraud: The Biggest Cases of 2025-2026',
+    description: 'Wound care rings, genetic testing scams, $14.6B DOJ takedown, and record recoveries',
+    href: '/investigations/medicare-fraud-biggest-cases-2025-2026',
+    category: 'Investigation',
+    readTime: '15 min read',
+    publishedAt: '2026-07-10',
+    excerpt: '2025-2026 brought the most aggressive Medicare fraud enforcement in history: $14.6B DOJ takedown, $6.8B in False Claims recoveries, and dozens of wound care and genetic testing schemes dismantled.'
+  },
+  {
+    title: 'Medicare Advantage vs Original Medicare: 2026 Comparison',
+    description: '54% of beneficiaries now choose MA — enrollment trends, costs, and overpayment concerns',
+    href: '/investigations/medicare-advantage-vs-original-2026',
+    category: 'Analysis',
+    readTime: '13 min read',
+    publishedAt: '2026-07-10',
+    excerpt: 'Medicare Advantage crossed a historic threshold: 54% of eligible beneficiaries (33.8M) now choose MA. But the program costs the government 6-8% more per beneficiary than Original Medicare.'
   },
   {
     title: 'How Much Does Medicare Actually Pay Doctors?',

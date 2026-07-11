@@ -49,7 +49,7 @@ function loadStats() {
 const stateHeatmapData = loadStates()
 const realStats = loadStats()
 const keyStats = {
-  totalPayments: realStats?.total_payments || 854842324155,
+  totalPayments: realStats?.total_payments || 890000000000,
   totalProviders: realStats?.total_providers || 1721798,
   yearsOfData: realStats?.years_covered?.length || 10,
   latestYear: 2023
@@ -59,13 +59,13 @@ const datasetJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
   name: 'Medicare Provider Utilization and Payment Data',
-  description: 'Comprehensive analysis of Medicare physician spending across 10 years (2014-2023), covering provider payments, procedure costs, specialty breakdowns, and geographic trends derived from CMS public data.',
+  description: 'Comprehensive analysis of Medicare physician spending across 11 years (2014-2024), covering provider payments, procedure costs, specialty breakdowns, and geographic trends derived from CMS public data.',
   creator: {
     '@type': 'Organization',
     name: 'Centers for Medicare & Medicaid Services (CMS)',
     url: 'https://www.cms.gov',
   },
-  temporalCoverage: '2014/2023',
+  temporalCoverage: '2014/2024',
   license: 'https://www.usa.gov/government-works',
   url: 'https://www.openmedicare.us',
   distribution: {
@@ -160,7 +160,7 @@ const keyNumbers = [
   {
     value: '10 years',
     label: 'Of Medicare data',
-    sublabel: 'Payment data analyzed (2014-2023)',
+    sublabel: 'Payment data analyzed (2014-2024)',
     icon: '📊',
     href: '/trends',
   },
@@ -190,13 +190,13 @@ export default function HomePage() {
               Data through 2023 · Updated February 2026
             </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
-              Where $854B in Medicare Money Really Goes
+              Where $890B in Medicare Money Really Goes
             </h1>
             <p className="text-xl sm:text-2xl text-blue-100 mb-4 max-w-4xl mx-auto">
               10 years of data. 1.7 million providers. AI-powered fraud detection.
             </p>
             <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
-              Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2023). 
+              Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2024).
               Our ML model, trained on 2,198 convicted fraudsters, flagged 500 providers who bill like criminals.
             </p>
             
@@ -553,11 +553,11 @@ export default function HomePage() {
       <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold font-playfair text-center mb-4">Explore Medicare Spending Data</h2>
-          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">Dive into $854 billion in Medicare payments across providers, drugs, specialties, states, and procedures.</p>
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">Dive into $890 billion in Medicare payments across providers, drugs, specialties, states, and procedures.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link href="/providers" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">🏥 Medicare Providers</h3>
-              <p className="text-sm text-gray-600">Search 1.72M providers. See payments, services, and AI fraud flags for any doctor.</p>
+              <p className="text-sm text-gray-600">Search 1.78M providers. See payments, services, and AI fraud flags for any doctor.</p>
             </Link>
             <Link href="/drugs" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">💊 Drug Spending</h3>
@@ -596,7 +596,7 @@ export default function HomePage() {
           lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2023)',
+            'Medicare Provider Utilization and Payment Data (2014-2024)',
             'Medicare Part B National Summary Data',
             'CMS National Health Expenditure Data'
           ]}
