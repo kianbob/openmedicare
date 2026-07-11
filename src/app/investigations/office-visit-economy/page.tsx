@@ -5,6 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '2 Billing Codes, $117B: The Office Visit Problem',
@@ -22,6 +23,22 @@ const officeVisitCodes = [
   { code: '99202', description: 'New patient, ~20 min (straightforward)', payments: 876018804, services: 18445533, providers: 414812, avgPayment: 46.63 },
 ]
 
+
+const faqs = [
+  {
+    "question": "How much does Medicare spend on office visits?",
+    "answer": "Office visits (evaluation and management codes) represent the single largest category of Medicare spending by claim volume, with billions paid annually across millions of providers."
+  },
+  {
+    "question": "What are the different levels of Medicare office visit codes?",
+    "answer": "Medicare office visits are coded from Level 1 (99211, simplest) to Level 5 (99215, most complex), with each level paying progressively more. The distribution of coding levels varies significantly between providers."
+  },
+  {
+    "question": "Why do some doctors bill mostly high-level office visits?",
+    "answer": "Providers who predominantly bill Level 4-5 visits may treat genuinely complex patients, but consistent high-level coding can also indicate upcoding — billing for more complex visits than actually provided."
+  }
+]
+
 export default function OfficeVisitEconomyPage() {
   const combined99213_99214 = 73279290511 + 44366912284
   const totalOfficeVisit = officeVisitCodes.reduce((s, c) => s + c.payments, 0)
@@ -35,6 +52,7 @@ export default function OfficeVisitEconomyPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'The $117 Billion Office Visit Economy' },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -79,7 +97,7 @@ export default function OfficeVisitEconomyPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Office Visit Codes by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">Evaluation & Management codes, 2014–2023 cumulative</p>
+            <p className="text-sm text-gray-500">Evaluation & Management codes, 2014–2024 cumulative</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -281,7 +299,7 @@ export default function OfficeVisitEconomyPage() {
           <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">The full breakdown of $854.8B in spending</p>
+              <p className="text-sm text-gray-500 mt-1">The full breakdown of $940B in spending</p>
             </Link>
             <Link href="/investigations/specialty-pay-gap" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Specialty Pay Gap</h4>

@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'NPs Flagged for Fraud: $1.6M Billed, 94% Match',
@@ -60,6 +61,22 @@ const npVsMdComparison = {
   statesRestricted: 11,
 }
 
+
+const faqs = [
+  {
+    "question": "Are nurse practitioners involved in Medicare fraud?",
+    "answer": "As NP billing volume has grown, so has their presence in fraud cases. Some schemes involve physicians using NPs to bill under their NPI, while others involve NPs operating independently in fraudulent clinics."
+  },
+  {
+    "question": "What are common fraud schemes involving nurse practitioners?",
+    "answer": "Common schemes include \"incident-to\" billing abuse (billing NP services under a physician's NPI at higher rates), signing orders for unnecessary services, and operating as the billing provider for fraudulent telehealth companies."
+  },
+  {
+    "question": "How does NP fraud detection differ from physician fraud detection?",
+    "answer": "NP fraud detection is complicated by \"incident-to\" billing, which can hide NP services under physician NPIs. Analyzing billing patterns requires examining both the rendering and billing provider to identify anomalies."
+  }
+]
+
 export default function NursePractitionersFraudPage() {
   const publishedDate = '2026-02-21'
   const readTime = '13 min read'
@@ -72,6 +89,7 @@ export default function NursePractitionersFraudPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/nurse-practitioners-fraud"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -376,7 +394,7 @@ export default function NursePractitionersFraudPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data (2014–2023) and our machine learning model trained on confirmed fraud cases. Being flagged
+                and Payment Data (2014–2024) and our machine learning model trained on confirmed fraud cases. Being flagged
                 by an AI model does not constitute an accusation of fraud. Named providers have not been charged with any crime.
                 All data is from public sources.
               </p>
@@ -402,7 +420,7 @@ export default function NursePractitionersFraudPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2024)',
                   'OpenMedicare ML Fraud Detection Model v2.0 — Trained on 2,198 LEIE/DOJ confirmed fraud cases',
                   'American Association of Nurse Practitioners — State Practice Environment Map (2025)',
                   'U.S. Department of Health and Human Services — Office of Inspector General Reports',

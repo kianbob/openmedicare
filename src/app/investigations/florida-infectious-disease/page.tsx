@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '185 Florida Providers Bill 400+ Services Per Day',
@@ -55,6 +56,22 @@ const stateRankings = [
   { state: 'Arkansas', count: 39 },
 ]
 
+
+const faqs = [
+  {
+    "question": "What infectious disease billing issues exist in Florida Medicare?",
+    "answer": "Florida has seen a concentration of infectious disease providers with unusually high billing patterns, particularly around HIV/AIDS treatments and expensive antimicrobial infusions."
+  },
+  {
+    "question": "Why does Florida have so many infectious disease Medicare claims?",
+    "answer": "Florida's large elderly and immunocompromised population, combined with high HIV prevalence rates in certain metro areas, drives significant legitimate infectious disease billing — but also creates opportunities for fraud."
+  },
+  {
+    "question": "How do infectious disease billing patterns differ from other specialties?",
+    "answer": "Infectious disease providers often have high per-patient costs due to expensive drug therapies, long treatment durations, and complex cases — making it harder to distinguish legitimate high billing from fraud."
+  }
+]
+
 export default function FloridaInfectiousDiseasePage() {
   const publishedDate = '2026-02-21'
   const readTime = '13 min read'
@@ -69,6 +86,7 @@ export default function FloridaInfectiousDiseasePage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -307,7 +325,7 @@ export default function FloridaInfectiousDiseasePage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'Department of Justice — 2024 National Health Care Fraud Enforcement Action',
                   'HHS Office of Inspector General (OIG)',
                   'U.S. Census Bureau — Population Estimates',

@@ -10,7 +10,7 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 
 const drugFaqs = [
   { question: 'What are the most expensive Medicare drugs?', answer: 'The most expensive Medicare Part B drugs include cancer treatments, immunotherapies, and specialty biologics. OpenMedicare tracks spending on all physician-administered drugs, totaling over $94 billion across our dataset.' },
-  { question: 'How much does Medicare spend on prescription drugs?', answer: 'Medicare Part B drug spending (physician-administered drugs) accounts for a significant portion of the $854 billion in total Medicare payments in our database. Drug costs have grown substantially over the 2014-2023 period we cover.' },
+  { question: 'How much does Medicare spend on prescription drugs?', answer: 'Medicare Part B drug spending (physician-administered drugs) accounts for a significant portion of the $940 billion in total Medicare payments in our database. Drug costs have grown substantially over the 2014-2024 period we cover.' },
   { question: 'Why are Medicare drug costs rising?', answer: 'Key drivers include the shift toward expensive specialty biologics and cancer treatments, increased utilization of physician-administered drugs, and limited price negotiation power. Our data shows year-over-year trends in drug spending growth.' },
 ]
 

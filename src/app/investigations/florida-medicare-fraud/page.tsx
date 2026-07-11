@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: "56 Providers Flagged for Fraud in Florida's $52M Crisis",
@@ -28,6 +29,22 @@ const flaggedProviders = [
   { npi: '1345678901', name: 'Lionel Gatien', specialty: 'Family Practice', city: 'Miami', prob: 0.933, pay: 523167, note: 'Another Miami-area provider flagged. The mix of Internal Medicine and Family Practice distinguishes Florida from California\'s IM-dominated flags.' },
 ]
 
+
+const faqs = [
+  {
+    "question": "How much Medicare fraud occurs in Florida?",
+    "answer": "Florida consistently ranks first or second nationally for Medicare fraud, with the South Florida region alone accounting for billions in fraudulent claims over the past decade."
+  },
+  {
+    "question": "What types of Medicare fraud are most common in Florida?",
+    "answer": "Florida sees high rates of home health fraud, durable medical equipment schemes, phantom clinics, patient recruitment (patient brokering), and organized fraud rings operating across Miami-Dade and surrounding counties."
+  },
+  {
+    "question": "Why is South Florida called the Medicare fraud capital?",
+    "answer": "The Miami area has the highest concentration of Medicare fraud prosecutions in the country, driven by a large elderly population, high provider density, and organized criminal networks that have historically exploited the system."
+  }
+]
+
 export default function FloridaMedicareFraudPage() {
   const publishedDate = '2026-02-21'
   const readTime = '14 min read'
@@ -40,6 +57,7 @@ export default function FloridaMedicareFraudPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/florida-medicare-fraud"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -239,7 +257,7 @@ export default function FloridaMedicareFraudPage() {
 
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'DOJ Medicare Fraud Strike Force — South Florida Operations (2007–2025)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',
@@ -275,6 +293,15 @@ export default function FloridaMedicareFraudPage() {
                     <div className="text-sm font-bold text-gray-900 mb-1">New York&apos;s Hidden Medicare Fraud</div>
                     <p className="text-xs text-gray-600">
                       39 AI-flagged providers in the #3 state for suspicious Medicare billing.
+                    </p>
+                  </Link>
+                  <Link
+                    href="/investigations/medicare-fraud-biggest-cases-2025-2026"
+                    className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
+                  >
+                    <div className="text-sm font-bold text-gray-900 mb-1">Biggest Medicare Fraud Cases 2025-2026</div>
+                    <p className="text-xs text-gray-600">
+                      The DOJ&apos;s record $14.6B takedown and the biggest cases nationwide.
                     </p>
                   </Link>
                 </div>

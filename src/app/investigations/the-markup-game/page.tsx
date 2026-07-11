@@ -7,13 +7,14 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'The Markup Game: $100 for a $3 Test',
-  description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $855B. The $2.1T gap reveals a broken pricing system getting worse every year.',
+  description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $940B. The $2.1T gap reveals a broken pricing system getting worse every year.',
   openGraph: {
     title: 'The Markup Game: $100 for a $3 Test',
-    description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $855B. The $2.1T gap reveals a broken pricing system getting worse every year.',
+    description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $940B. The $2.1T gap reveals a broken pricing system getting worse every year.',
   },
 }
 
@@ -100,6 +101,22 @@ function loadAllowedData(): AllowedData {
   }
 }
 
+
+const faqs = [
+  {
+    "question": "What is the Medicare markup game?",
+    "answer": "The \"markup game\" refers to the practice of providers submitting charges far above what Medicare allows, creating a gap between billed and paid amounts that varies dramatically by provider and specialty."
+  },
+  {
+    "question": "Why do submitted Medicare charges differ so much from payments?",
+    "answer": "Providers set their own charge rates while Medicare pays according to fee schedules. Some providers charge 1.5x the allowed amount; others charge 10x. The gap reveals billing practices and, in extreme cases, potential fraud."
+  },
+  {
+    "question": "How do you identify suspicious markup patterns?",
+    "answer": "By comparing a provider's charge-to-payment ratio against specialty and geographic averages, extreme outliers become visible — particularly when combined with other red flags like high volume and unusual service mix."
+  }
+]
+
 export default function MarkupGamePage() {
   const markup = loadMarkupData()
   const allowed = loadAllowedData()
@@ -131,6 +148,7 @@ export default function MarkupGamePage() {
         publishedDate="2026-02-21"
         url="https://www.openmedicare.us/investigations/the-markup-game"
       />
+      <FAQSchema faqs={faqs} />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
@@ -327,7 +345,7 @@ export default function MarkupGamePage() {
         </article>
 
         <div className="bg-white rounded-xl shadow-sm border p-8 my-8">
-          <h3 className="text-lg font-bold text-gray-900 mb-6">Markup Ratio Trend (2014–2023)</h3>
+          <h3 className="text-lg font-bold text-gray-900 mb-6">Markup Ratio Trend (2014–2024)</h3>
           <div className="space-y-4">
             {trends.map((t) => (
               <div key={t.year} className="flex items-center gap-4">
@@ -418,7 +436,7 @@ export default function MarkupGamePage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Methodology</h2>
 
           <p className="text-gray-700 mb-4">
-            Markup ratios are calculated as submitted charges divided by actual Medicare payments, aggregated across all HCPCS codes for each provider/specialty/state. The &quot;allowed amount&quot; represents Medicare&apos;s fee schedule price; actual payment is typically 80% of allowed (with the beneficiary responsible for the remaining 20%). All data is from CMS Medicare Part B Public Use Files, 2014-2023. Writeoff percentages represent the share of submitted charges that Medicare does not pay.
+            Markup ratios are calculated as submitted charges divided by actual Medicare payments, aggregated across all HCPCS codes for each provider/specialty/state. The &quot;allowed amount&quot; represents Medicare&apos;s fee schedule price; actual payment is typically 80% of allowed (with the beneficiary responsible for the remaining 20%). All data is from CMS Medicare Part B Public Use Files, 2014-2024. Writeoff percentages represent the share of submitted charges that Medicare does not pay.
           </p>
         </article>
 

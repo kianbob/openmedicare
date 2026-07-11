@@ -9,6 +9,7 @@ import { formatCurrency, formatPercent } from '@/lib/format'
 import fs from 'fs'
 import path from 'path'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '$45M in Wound Care from Beverly Hills Plastic Surgeons',
@@ -45,6 +46,22 @@ function loadBeverlyHillsData() {
     .sort((a, b) => b.total_payments - a.total_payments)
 }
 
+
+const faqs = [
+  {
+    "question": "What wound care fraud was found in Beverly Hills?",
+    "answer": "Investigations revealed Beverly Hills wound care clinics billing Medicare for expensive skin substitute grafts and debridements at rates far exceeding medical norms, often on patients who did not need the procedures."
+  },
+  {
+    "question": "How much does wound care fraud cost Medicare nationally?",
+    "answer": "Wound care fraud is estimated to cost Medicare hundreds of millions annually, with skin substitute grafts alone seeing billing increases of over 1,000% in some regions."
+  },
+  {
+    "question": "Why are skin substitute grafts a target for Medicare fraud?",
+    "answer": "Skin substitute grafts reimburse at very high rates — sometimes thousands per application — making them lucrative targets for providers willing to apply them to patients with minor or fabricated wounds."
+  }
+]
+
 export default function BeverlyHillsWoundCarePage() {
   const publishedDate = '2026-02-21'
   const readTime = '14 min read'
@@ -63,6 +80,7 @@ export default function BeverlyHillsWoundCarePage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">

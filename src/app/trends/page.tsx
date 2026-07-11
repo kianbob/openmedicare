@@ -93,8 +93,8 @@ export default function TrendsPage() {
         <Breadcrumbs items={[{ name: 'Spending Trends', href: '/trends' }]} />
 
         <div className="mb-8">
-          <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">A Decade of Medicare Spending: 2014–2023</h1>
-          <p className="text-lg text-gray-600">$854.8 billion in provider payments. Ten years of data. One story of relentless growth, a pandemic shock, and a system under pressure.</p>
+          <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">A Decade of Medicare Spending: 2014–2024</h1>
+          <p className="text-lg text-gray-600">$940 billion in provider payments. Ten years of data. One story of relentless growth, a pandemic shock, and a system under pressure.</p>
         </div>
 
         {/* Hero Stats */}

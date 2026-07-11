@@ -23,7 +23,7 @@ export default function Image() {
           OpenMedicare
         </div>
         <div style={{ display: 'flex', fontSize: 56, fontWeight: 800, color: 'white', lineHeight: 1.15, marginBottom: 24 }}>
-          Where $854B in Medicare Money Really Goes
+          Where $940B in Medicare Money Really Goes
         </div>
         <div style={{ display: 'flex', fontSize: 26, color: '#b0bec5', lineHeight: 1.5 }}>
           10 Years of Data. 1.7M Providers. AI-Powered Fraud Detection.

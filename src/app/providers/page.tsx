@@ -10,7 +10,7 @@ import FAQSchema from '@/components/FAQSchema'
 
 const providerFaqs = [
   { question: 'How do I look up a Medicare provider?', answer: 'Use the search bar on this page to find any of the 1.72 million Medicare providers by name, NPI number, specialty, or location. Each provider profile shows total payments, services, and beneficiaries served.' },
-  { question: 'What data does OpenMedicare use for provider payments?', answer: 'OpenMedicare uses CMS Medicare Provider Utilization and Payment Data from 2014-2023, covering over $854 billion in total payments to 1.72 million providers.' },
+  { question: 'What data does OpenMedicare use for provider payments?', answer: 'OpenMedicare uses CMS Medicare Provider Utilization and Payment Data from 2014-2024, covering over $940 billion in total payments to 1.82 million providers.' },
   { question: 'How does the AI fraud detection work?', answer: 'Our machine learning model was trained on billing patterns of 2,198 confirmed Medicare fraudsters. It identifies active providers with statistically similar billing patterns, flagging 500 providers for further review.' },
   { question: 'Can I see how much my doctor received from Medicare?', answer: 'Yes. Search for any provider to see their total Medicare payments, number of services, beneficiaries, top procedures, and how they compare to peers in their specialty.' },
 ]
@@ -239,7 +239,7 @@ export default function ProvidersPage() {
             Medicare Providers
           </h1>
           <p className="text-xl text-gray-600">
-            Explore {formatNumber(providers.length)} healthcare providers and their Medicare payments from 2014-2023. Our dataset covers 1.72M providers and $854.8B in total payments — these are the providers we&apos;ve profiled in detail. Includes all watchlisted and AI-flagged providers.
+            Explore {formatNumber(providers.length)} healthcare providers and their Medicare payments from 2014-2024. Our dataset covers 1.82M providers and $940B in total payments — these are the providers we&apos;ve profiled in detail. Includes all watchlisted and AI-flagged providers.
           </p>
         </div>
 

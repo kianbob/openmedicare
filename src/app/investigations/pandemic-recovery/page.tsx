@@ -5,6 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'How $9B Vanished From Medicare in 2020',
@@ -18,6 +19,22 @@ const yearlyData = [
   { year: 2021, payments: 91535062398, providers: 1123589, services: 2499901028, markup: 3.74 },
   { year: 2022, payments: 89042856516, providers: 1148873, services: 2519061084, markup: 3.94 },
   { year: 2023, payments: 93721075813, providers: 1175281, services: 2645589817, markup: 3.96 },
+]
+
+
+const faqs = [
+  {
+    "question": "How did COVID-19 affect Medicare spending?",
+    "answer": "Medicare spending initially dropped about 10% in 2020 as patients avoided care, then surged past pre-pandemic levels by 2022 as deferred care, new COVID treatments, and telehealth expansion drove increased utilization."
+  },
+  {
+    "question": "Has Medicare spending recovered from the pandemic?",
+    "answer": "Medicare spending has not just recovered but exceeded pre-pandemic projections, driven by deferred care catch-up, permanent telehealth expansion, new treatment modalities, and increased chronic disease management needs."
+  },
+  {
+    "question": "How did the pandemic change Medicare provider billing patterns?",
+    "answer": "The pandemic accelerated telehealth adoption, shifted care settings, increased mental health service utilization, and created new billing categories — permanently altering how providers interact with the Medicare system."
+  }
 ]
 
 export default function PandemicRecoveryPage() {
@@ -35,6 +52,7 @@ export default function PandemicRecoveryPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: "Medicare's Pandemic Recovery" },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -262,7 +280,7 @@ export default function PandemicRecoveryPage() {
             </Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">Breaking down $854.8B across categories</p>
+              <p className="text-sm text-gray-500 mt-1">Breaking down $940B across categories</p>
             </Link>
             <Link href="/investigations/specialty-gap" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Specialty Gap</h4>

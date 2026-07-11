@@ -2,10 +2,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Medicare By The Numbers: A Visual Data Story',
-  description: '$854.8 billion in payments. 1.7 million providers. 24.5 billion services. The most striking facts from a decade of Medicare data.',
+  description: '$940 billion in payments. 1.82 million providers. 24.5 billion services. The most striking facts from a decade of Medicare data.',
   openGraph: {
     title: 'Medicare By The Numbers: A Visual Data Story',
-    description: '$854.8B spent. 4,636 impossible providers. 500 flagged for fraud. The numbers that tell the story of American healthcare.',
+    description: '$940B spent. 4,636 impossible providers. 500 flagged for fraud. The numbers that tell the story of American healthcare.',
     url: 'https://www.openmedicare.us/investigations/medicare-by-the-numbers',
   },
 }

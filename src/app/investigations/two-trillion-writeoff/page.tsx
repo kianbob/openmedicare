@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'The $2.1 Trillion Writeoff Nobody Talks About',
@@ -24,6 +25,22 @@ function loadData() {
   } catch { return { summary: {}, yearly_trends: [], specialties: [], top_procedures: [] } }
 }
 
+
+const faqs = [
+  {
+    "question": "What is the $2 trillion Medicare write-off?",
+    "answer": "Over the past decade, the gap between what providers charge Medicare and what Medicare actually pays totals over $2 trillion in \"written off\" charges — money that was billed but never collected."
+  },
+  {
+    "question": "Why does Medicare write off trillions in charges?",
+    "answer": "Medicare pays according to its fee schedule regardless of what providers charge. The difference between submitted charges and allowed amounts is written off — providers cannot bill patients for this difference on assigned claims."
+  },
+  {
+    "question": "Does the write-off amount mean Medicare is saving money?",
+    "answer": "The write-off represents charges that were never expected to be paid in full. While it demonstrates Medicare's purchasing power, it also reveals how disconnected provider charge rates are from actual reimbursement."
+  }
+]
+
 export default function TwoTrillionWriteoffPage() {
   const data = loadData()
   const { summary, yearly_trends, specialties } = data
@@ -35,6 +52,7 @@ export default function TwoTrillionWriteoffPage() {
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: 'The $2.1 Trillion Writeoff', href: '/investigations/two-trillion-writeoff' }]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Investigation</span>

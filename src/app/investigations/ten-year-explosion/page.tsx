@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare\u2019s $15B Spending Surge in 10 Years',
@@ -30,6 +31,22 @@ function loadDrugSpending() {
     return JSON.parse(raw)
   } catch { return { yearly_trends: [], overall_statistics: {} } }
 }
+
+
+const faqs = [
+  {
+    "question": "How much has Medicare spending grown over the past decade?",
+    "answer": "Medicare spending has grown by hundreds of billions over the past 10 years, driven by enrollment growth, medical inflation, new treatments, and expanded coverage — outpacing general inflation and GDP growth."
+  },
+  {
+    "question": "What is driving the decade-long explosion in Medicare costs?",
+    "answer": "Key drivers include an aging population (Baby Boomers entering Medicare), rising drug costs, new expensive medical technologies, expanded service coverage, and increased utilization across most specialties."
+  },
+  {
+    "question": "Is Medicare spending growth sustainable?",
+    "answer": "At current growth rates, Medicare faces significant financial challenges. The Hospital Insurance Trust Fund faces projected insolvency within the next decade without reforms to revenue, spending, or both."
+  }
+]
 
 export default function TenYearExplosionPage() {
   const trends = loadTrends()
@@ -74,6 +91,7 @@ export default function TenYearExplosionPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'The 10-Year Explosion', href: '/investigations/ten-year-explosion' }
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Analysis</span>
@@ -188,7 +206,7 @@ export default function TenYearExplosionPage() {
             And that&apos;s just physician payments. Total Medicare spending (Parts A, B, C, and D combined)
             is projected to exceed $1 trillion by 2030. The question isn&apos;t whether Medicare spending
             will keep growing — it&apos;s whether the growth is delivering better outcomes for the
-            68 million Americans who depend on it.
+            68.5 million Americans who depend on it.
           </p>
         </article>
 

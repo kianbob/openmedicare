@@ -93,7 +93,7 @@ export default async function ProcedureDetailPage({ params }: { params: Promise<
         {/* Yearly Trends Chart */}
         {yearly.length > 1 && (
           <div className="mb-8">
-            <TrendChart title="Spending Trends (2014-2023)" xDataKey="year" yDataKey="value" data={yearly.map((y: { year: number; payments: number }) => ({ year: y.year, value: y.payments }))} />
+            <TrendChart title="Spending Trends (2014-2024)" xDataKey="year" yDataKey="value" data={yearly.map((y: { year: number; payments: number }) => ({ year: y.year, value: y.payments }))} />
           </div>
         )}
 

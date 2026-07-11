@@ -7,8 +7,8 @@ import NewsletterCTA from '@/components/NewsletterCTA'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Medicare Fraud Investigations — 70 Exposed',
-  description: 'Data-driven investigations uncovering $14.6B in Medicare fraud, impossible billing, and suspicious providers. AI-powered analysis of 1.7M+ providers.',
+  title: 'Medicare Fraud Investigations — 74 Exposed',
+  description: 'Data-driven investigations uncovering $14.6B+ in Medicare fraud from $940B+ in payments (2014-2024). AI-powered analysis of 1.82M+ providers serving 68.5M beneficiaries — 74 investigations updated for 2026.',
   alternates: {
     canonical: '/investigations',
   },
@@ -94,6 +94,42 @@ const featuredInvestigations = [
 
 const investigations = [
   {
+    title: 'Medicare Advantage Star Ratings 2026: Winners, Losers & What Changed',
+    description: 'CMS star ratings dropped to 3.92 average. Which insurers improved, which declined, and how it affects your premiums.',
+    href: '/investigations/medicare-advantage-star-ratings-2026',
+    category: '⭐ Analysis',
+    readTime: '14 min read',
+    publishedAt: '2026-07-11',
+    excerpt: 'Average Medicare Advantage star ratings dropped to 3.92 in 2026. Kaiser Permanente leads at 4.5+ stars while Humana and Centene declined. $12.8 billion in quality bonus payments are at stake.'
+  },
+  {
+    title: 'Medicare Part D Redesign: The $2,000 Cap Six Months In',
+    description: '18 months after the $2,000 out-of-pocket cap took effect, here\'s what the data shows about costs, premiums, and savings.',
+    href: '/investigations/part-d-redesign-impact-2026',
+    category: '💊 Policy Analysis',
+    readTime: '15 min read',
+    publishedAt: '2026-07-11',
+    excerpt: 'The IRA\'s $2,000 annual out-of-pocket cap has saved 1.5 million beneficiaries an average of $1,500/year. But Part D premiums rose 7%, and the cost shift to taxpayers raises sustainability questions.'
+  },
+  {
+    title: 'Medicare Fraud Detection 2026: AI, Investigations & Recovery Data',
+    description: 'From the $14.6B DOJ takedown to AI-powered detection: the state of Medicare fraud enforcement in 2026.',
+    href: '/investigations/medicare-fraud-detection-2026',
+    category: '🔍 Enforcement',
+    readTime: '16 min read',
+    publishedAt: '2026-07-11',
+    excerpt: 'The DOJ recovered $14.6 billion in healthcare fraud. HHS OIG pursued 739 criminal actions. CMS\'s AI systems saved an estimated $2.1 billion. Here\'s the complete fraud enforcement picture for 2026.'
+  },
+  {
+    title: 'Medicare Enrollment Trends & Projections: 2026 and Beyond',
+    description: '67.8 million enrollees and growing. Medicare Advantage now covers 54%. Projections to 2040 and trust fund solvency.',
+    href: '/investigations/medicare-enrollment-trends-2026',
+    category: '📊 Demographics',
+    readTime: '14 min read',
+    publishedAt: '2026-07-11',
+    excerpt: 'Medicare enrollment hit 67.8 million in 2026 with 10,000 baby boomers turning 65 daily. Medicare Advantage penetration reached 54%. The Part A Trust Fund is projected for depletion by 2036.'
+  },
+  {
     title: 'Medicare Drug Price Negotiation: 2026 Update — IRA Impact & Savings',
     description: 'The first 10 Medicare-negotiated drug prices took effect January 2026, saving an estimated $6 billion in year one.',
     href: '/investigations/drug-price-negotiation-2026',
@@ -121,13 +157,13 @@ const investigations = [
     excerpt: '33.8 million people — 54% of eligible beneficiaries — are now in Medicare Advantage. Average MA premium: $17/month. Part B premium: $185/month. But MA costs taxpayers 6–8% more, and risk-adjustment upcoding is under DOJ scrutiny.'
   },
   {
-    title: 'Medicare Spending Trends 2025: Where $854 Billion Goes',
+    title: 'Medicare Spending Trends 2025: Where $940 Billion Goes',
     description: 'A decade of Medicare data reveals who\'s getting paid, how spending is shifting, and what it means for taxpayers.',
     href: '/investigations/medicare-spending-trends-2025',
     category: '📈 Trend Analysis',
     readTime: '14 min read',
     publishedAt: '2026-06-03',
-    excerpt: 'Medicare Part B spending grew 20% from $78B to $93.7B over 10 years. Telehealth surged 3,000%+. Drug costs are the biggest driver. Here\'s where $854.8 billion actually went.'
+    excerpt: 'Medicare Part B spending grew 20% from $78B to $93.7B over 10 years. Telehealth surged 3,000%+. Drug costs are the biggest driver. Here\'s where $940 billion actually went.'
   },
   {
     title: 'Medicare Advantage vs Traditional Medicare: Follow the Money',
@@ -145,7 +181,7 @@ const investigations = [
     category: '📊 Evergreen Reference',
     readTime: '12 min read',
     publishedAt: '2026-02-23',
-    excerpt: 'Medicare fraud costs taxpayers an estimated $60–100 billion annually from $854.8B in total payments. We break down the latest statistics, historical context, types of fraud, enforcement data, and what our AI found when it scored 1.7 million providers.'
+    excerpt: 'Medicare fraud costs taxpayers an estimated $60–100 billion annually from $940B in total payments. We break down the latest statistics, historical context, types of fraud, enforcement data, and what our AI found when it scored 1.82 million providers.'
   },
   {
     title: 'How to Check if Your Doctor Has Medicare Fraud Flags',
@@ -181,7 +217,7 @@ const investigations = [
     category: 'Investigation',
     readTime: '15 min read',
     publishedAt: '2026-02-25',
-    excerpt: 'Over 10 years, providers submitted $3.22 trillion in charges to Medicare. Medicare paid $854.8 billion. The other $2.14 trillion — 66.3% — was written off. This is the biggest hidden number in healthcare.'
+    excerpt: 'Over 10 years, providers submitted $3.22 trillion in charges to Medicare. Medicare paid $940 billion. The other $2.14 trillion — 66.3% — was written off. This is the biggest hidden number in healthcare.'
   },
   {
     title: '9,862 Services Per Day: The Most Impossible Doctor in America',
@@ -641,7 +677,7 @@ const investigations = [
     category: 'Analysis',
     readTime: '8 min read',
     publishedAt: '2026-02-21',
-    excerpt: 'From $854.8 billion in total spending to 1.7 million providers, the essential statistics that define Medicare Part B over the last decade.'
+    excerpt: 'From $940 billion in total spending to 1.82 million providers, the essential statistics that define Medicare Part B over the last decade.'
   },
   {
     title: 'The 10-Year Money Trail: How Medicare Spending Grew from $78B to $94B',
@@ -672,12 +708,12 @@ const investigations = [
   },
   {
     title: 'Your Doctor vs. The Algorithm: What AI Found That Humans Missed',
-    description: 'We trained a machine learning model on 2,198 confirmed fraud cases and scored 1.7 million providers.',
+    description: 'We trained a machine learning model on 2,198 confirmed fraud cases and scored 1.82 million providers.',
     href: '/investigations/your-doctor-vs-the-algorithm',
     category: 'Deep Dive',
     readTime: '14 min read',
     publishedAt: '2026-02-21',
-    excerpt: 'We trained a machine learning model on 2,198 confirmed fraud cases. It scored 1.7 million providers. Here\'s what it looks for — and what it found.'
+    excerpt: 'We trained a machine learning model on 2,198 confirmed fraud cases. It scored 1.82 million providers. Here\'s what it looks for — and what it found.'
   },
 ]
 
@@ -900,7 +936,7 @@ export default function InvestigationsPage() {
           lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2023)',
+            'Medicare Provider Utilization and Payment Data (2014-2024)',
             'Medicare Part B National Summary Data',
             'CMS National Health Expenditure Data'
           ]}

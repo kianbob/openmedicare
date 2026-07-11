@@ -10,7 +10,7 @@ import FAQSchema from '@/components/FAQSchema'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 const stateFaqs = [
-  { question: 'Which state has the highest Medicare spending?', answer: 'California, Florida, Texas, and New York consistently rank as the top Medicare spending states, driven by large elderly populations and high provider counts. Our interactive map shows total payments by state from 2014-2023.' },
+  { question: 'Which state has the highest Medicare spending?', answer: 'California, Florida, Texas, and New York consistently rank as the top Medicare spending states, driven by large elderly populations and high provider counts. Our interactive map shows total payments by state from 2014-2024.' },
   { question: 'How does Medicare spending vary by state?', answer: 'Medicare spending per beneficiary varies significantly by state due to differences in cost of living, provider density, practice patterns, and population health. Some states spend 2-3x more per beneficiary than others.' },
   { question: 'Which states have the most Medicare fraud?', answer: 'Florida, California, Texas, and New York have historically had the highest concentrations of Medicare fraud cases. Our AI model also flagged disproportionate numbers of suspicious providers in these states.' },
 ]
@@ -96,7 +96,7 @@ export default function StatesPage() {
         <Breadcrumbs items={[{ name: 'States', href: '/states' }]} />
         <div className="mb-8">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-3">Medicare Spending by State</h1>
-          <p className="text-lg text-gray-600">Explore Medicare provider payments across all 50 states and territories. Data covers 2014-2023.</p>
+          <p className="text-lg text-gray-600">Explore Medicare provider payments across all 50 states and territories. Data covers 2014-2024.</p>
         </div>
 
         {states.length > 0 && (

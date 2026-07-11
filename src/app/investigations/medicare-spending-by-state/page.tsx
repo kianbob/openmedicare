@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Spending by State: All 54 Ranked',
@@ -28,6 +29,22 @@ function loadStates() {
   } catch { return { states: [] } }
 }
 
+
+const faqs = [
+  {
+    "question": "Which states spend the most on Medicare overall?",
+    "answer": "California, Florida, Texas, New York, and Pennsylvania have the highest total Medicare spending, reflecting their large elderly populations and high provider counts."
+  },
+  {
+    "question": "How does Medicare spending per capita vary by state?",
+    "answer": "Per-capita Medicare spending varies by nearly 2x between the lowest and highest-spending states, with Northeast and Southern states generally spending more than Midwest and Western states."
+  },
+  {
+    "question": "What drives differences in state Medicare spending?",
+    "answer": "Key drivers include provider density, local practice patterns, population health and chronic disease prevalence, cost of living adjustments, and the mix of services utilized in each state."
+  }
+]
+
 export default function MedicareSpendingByStatePage() {
   const data = loadStates()
   const allStates = (data.states || [])
@@ -48,6 +65,7 @@ export default function MedicareSpendingByStatePage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'Medicare Spending by State' }
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Analysis</span>
@@ -283,7 +301,7 @@ export default function MedicareSpendingByStatePage() {
         <SourceCitation
           lastUpdated="February 2026 (data through 2023)"
           sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
             'CMS Geographic Variation Public Use File',
           ]}
         />

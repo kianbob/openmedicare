@@ -9,6 +9,7 @@ import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import fs from 'fs'
 import path from 'path'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '23 Nurse Practitioners Billed $514M for 2,974 Patients',
@@ -72,6 +73,26 @@ function loadArizonaData() {
   return { azNPs, azAll, stateComparison }
 }
 
+
+const faqs = [
+  {
+    "question": "What is the Arizona wound care fraud scheme?",
+    "answer": "Federal investigators uncovered a network of providers in Arizona billing Medicare for wound care services that were medically unnecessary, part of a broader pattern of wound care fraud across the country."
+  },
+  {
+    "question": "How does wound care fraud work in Medicare?",
+    "answer": "Fraudulent wound care providers bill for expensive treatments like skin grafts and debridements on patients with minor or non-existent wounds, exploiting high reimbursement rates for these procedures."
+  },
+  {
+    "question": "How much did the Arizona wound care ring cost Medicare?",
+    "answer": "Wound care fraud rings typically involve millions to tens of millions in fraudulent billing, with the Arizona case being part of a nationwide pattern of wound care exploitation."
+  },
+  {
+    "question": "How can patients protect themselves from wound care fraud?",
+    "answer": "Patients should review their Medicare Summary Notices for services they did not receive, verify that treatments are medically necessary with a second opinion, and report suspicious billing to the OIG hotline."
+  }
+]
+
 export default function ArizonaWoundCareRingPage() {
   const publishedDate = '2026-02-21'
   const readTime = '18 min read'
@@ -85,6 +106,7 @@ export default function ArizonaWoundCareRingPage() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <ArticleJsonLd title="The Arizona Wound Care Ring" description="$514M billed by 23 nurse practitioners for 2,974 patients" url="https://www.openmedicare.us/investigations/arizona-wound-care-ring" publishedDate="2026-02-21" />
+      <FAQSchema faqs={faqs} />
         <Breadcrumbs
           items={[
             { name: 'Investigations', href: '/investigations' },

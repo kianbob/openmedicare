@@ -12,11 +12,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
   title: '500 Medicare Providers Flagged for Fraud by AI',
-  description: '$854.8B in payments. 1.72M providers scanned. 500 flagged. Exposed upcoding, COVID test schemes, wound care fraud, and impossible billing volumes.',
+  description: '$940B+ in Medicare payments (2014-2024). 1.82M providers scanned by AI. 500 flagged for fraud. Upcoding, COVID test schemes, wound care fraud, and impossible billing exposed — serving 68.5M beneficiaries.',
   alternates: { canonical: '/fraud' },
   openGraph: {
     title: 'AI Flagged 500 Medicare Providers for Fraud',
-    description: '$854.8B in payments. 1.72M providers scanned. 500 flagged. Exposed upcoding, COVID test schemes, wound care fraud, and impossible billing volumes.',
+    description: '$940B+ in Medicare payments (2014-2024). 1.82M providers scanned by AI. 500 flagged for fraud. Upcoding, COVID schemes, wound care fraud exposed — updated 2026.',
     url: 'https://www.openmedicare.us/fraud',
   },
 }
@@ -87,7 +87,7 @@ const fraudPages = [
   },
   {
     title: 'Still Out There',
-    description: 'Our ML model scored 1.7M providers against 2,198 confirmed fraudsters. 500 scored above 86% match. AUC: 0.83.',
+    description: 'Our ML model scored 1.82M providers against 2,198 confirmed fraudsters. 500 scored above 86% match. AUC: 0.83.',
     href: '/fraud/still-out-there',
     icon: '🤖',
     color: 'indigo',
@@ -159,7 +159,7 @@ const jsonLd = [
     '@context': 'https://schema.org',
     '@type': 'Dataset',
     name: 'Medicare Provider Utilization and Payment Data',
-    description: 'CMS Medicare physician payment data from 2014-2023, covering $854.8 billion in spending across 1.2 million providers',
+    description: 'CMS Medicare physician payment data from 2014-2024, covering $940 billion in spending across 1.2 million providers',
     url: 'https://www.openmedicare.us/fraud',
     license: 'https://www.usa.gov/government-works',
     creator: { '@type': 'Organization', name: 'Centers for Medicare & Medicaid Services (CMS)' },
@@ -175,7 +175,7 @@ const jsonLd = [
     '@type': 'WebPage',
     name: 'Medicare Fraud Analysis Hub',
     url: 'https://www.openmedicare.us/fraud',
-    description: 'Data-driven fraud detection across $854.8B in Medicare spending. 500 flagged providers, deep-dive profiles, COVID test billing analysis, wound care fraud tracking, and more.',
+    description: 'Data-driven fraud detection across $940B in Medicare spending. 500 flagged providers, deep-dive profiles, COVID test billing analysis, wound care fraud tracking, and more.',
     isPartOf: { '@type': 'WebSite', name: 'OpenMedicare', url: 'https://www.openmedicare.us' },
   },
 ]
@@ -245,7 +245,7 @@ export default function FraudHub() {
           <div className="relative z-10">
             <div className="text-sm font-medium tracking-widest uppercase text-indigo-300 mb-4">OpenMedicare Fraud Analysis</div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-serif mb-6 leading-tight">
-              $854.8 Billion in Medicare Payments.<br />
+              $940 Billion in Medicare Payments.<br />
               <span className="text-red-400">Our AI Flagged $400M of It.</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mb-8">
@@ -288,9 +288,9 @@ export default function FraudHub() {
           <h2 className="text-2xl sm:text-3xl font-bold font-serif text-gray-900 mb-8 text-center">By the Numbers</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             <div className="relative bg-white rounded-xl border border-gray-200 p-6 text-center group hover:shadow-lg hover:border-red-200 transition-all">
-              <div className="text-3xl sm:text-4xl font-bold text-red-600 mb-1">$854.8B</div>
+              <div className="text-3xl sm:text-4xl font-bold text-red-600 mb-1">$940B</div>
               <div className="text-sm font-medium text-gray-700">Total Medicare Payments</div>
-              <div className="text-xs text-gray-400 mt-1">2014–2023</div>
+              <div className="text-xs text-gray-400 mt-1">2014–2024</div>
             </div>
             <div className="relative bg-white rounded-xl border border-gray-200 p-6 text-center group hover:shadow-lg hover:border-orange-200 transition-all">
               <div className="text-3xl sm:text-4xl font-bold text-orange-600 mb-1">{formatCurrency(totalCovidPayments)}</div>
@@ -406,6 +406,10 @@ export default function FraudHub() {
               <div className="font-medium text-blue-600">🧬 Genetic Testing Fraud</div>
               <div className="text-sm text-gray-500">Telehealth-driven testing schemes</div>
             </Link>
+            <Link href="/investigations/medicare-fraud-biggest-cases-2025-2026" className="block p-3 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100">
+              <div className="font-medium text-blue-600">📖 Biggest Fraud Cases 2025-2026</div>
+              <div className="text-sm text-gray-500">The record $14.6B takedown and more</div>
+            </Link>
           </div>
           <div className="mt-4 pt-3 border-t border-gray-100">
             <Link href="/investigations" className="text-sm font-medium text-blue-600 hover:text-blue-800">
@@ -465,7 +469,7 @@ export default function FraudHub() {
         <SourceCitation
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2023)',
+            'Medicare Provider Utilization and Payment Data (2014-2024)',
             'National Health Care Anti-Fraud Association (NHCAA)',
             'HHS Office of Inspector General (OIG)',
           ]}

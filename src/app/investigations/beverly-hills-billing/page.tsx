@@ -9,6 +9,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Beverly Hills: Medicare\'s Most Expensive ZIP Code',
@@ -43,6 +44,22 @@ interface YearlyTrend {
   avg_payment_per_provider: number
 }
 
+
+const faqs = [
+  {
+    "question": "Why is Beverly Hills a hotspot for Medicare billing anomalies?",
+    "answer": "Beverly Hills has an unusually high concentration of providers billing Medicare at rates far above national averages, driven by luxury-market pricing, high charge-to-payment ratios, and specialty clustering."
+  },
+  {
+    "question": "How much more do Beverly Hills doctors charge Medicare?",
+    "answer": "Some Beverly Hills providers submit charges 5-10x above what Medicare allows, creating some of the highest markup ratios in the country across specialties like dermatology and plastic surgery."
+  },
+  {
+    "question": "What specialties have the highest Medicare billing in Beverly Hills?",
+    "answer": "Dermatology, ophthalmology, and surgical specialties in Beverly Hills show the most extreme billing patterns, with per-provider payments significantly exceeding national specialty averages."
+  }
+]
+
 export default function BeverlyHillsBillingPage() {
   const publishedDate = '2026-02-21'
   const readTime = '13 min read'
@@ -76,6 +93,7 @@ export default function BeverlyHillsBillingPage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -333,7 +351,7 @@ export default function BeverlyHillsBillingPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'DOJ Medicare Fraud Strike Force — Annual Reports',
                   'HHS Office of Inspector General — Geographic Variation in Medicare Spending',
                 ]}

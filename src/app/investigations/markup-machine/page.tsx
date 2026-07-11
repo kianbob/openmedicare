@@ -7,10 +7,11 @@ import { BarChart, LineChart } from '@/components/Charts'
 import { formatCurrency, formatPercent } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '$2.1 Trillion in Phantom Charges: Inside the Markup',
-  description: 'Providers charged Medicare $3.2T but got paid $855B — a 66% write-off rate. See which specialties mark up the most and why the gap keeps widening.',
+  description: 'Providers charged Medicare $3.2T but got paid $940B — a 66% write-off rate. See which specialties mark up the most and why the gap keeps widening.',
   alternates: {
     canonical: '/investigations/markup-machine',
   },
@@ -41,6 +42,26 @@ const markupTrends = [
   { year: 2023, markup: 2.8 },
 ]
 
+
+const faqs = [
+  {
+    "question": "What is the Medicare markup ratio?",
+    "answer": "The markup ratio is the difference between what providers charge Medicare (submitted charges) and what Medicare actually pays (allowed amounts). A ratio of 2.0 means the provider charges twice what Medicare allows."
+  },
+  {
+    "question": "Why do doctors charge more than Medicare pays?",
+    "answer": "Providers set their own charge rates independent of Medicare fee schedules. Higher charges can capture more from private insurers, serve as negotiating positions, and in some cases indicate billing patterns associated with fraud."
+  },
+  {
+    "question": "Which specialties have the highest Medicare markup ratios?",
+    "answer": "Anesthesiology, pathology, and certain surgical specialties tend to have the highest markup ratios, with some providers charging 5-10x what Medicare allows for the same services."
+  },
+  {
+    "question": "Does a high markup ratio mean a doctor is committing fraud?",
+    "answer": "Not necessarily. High markups can reflect regional pricing norms, private payer rate negotiations, or simply aggressive billing practices. However, extremely high ratios combined with other anomalies are a statistical red flag."
+  }
+]
+
 export default function MarkupMachinePage() {
   const publishedDate = '2024-02-15'
   const readTime = '15 min read'
@@ -56,6 +77,7 @@ export default function MarkupMachinePage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         {/* Article Header */}
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
@@ -175,7 +197,7 @@ export default function MarkupMachinePage() {
                 }))}
                 xDataKey="year"
                 yDataKey="markup"
-                title="National Average Markup Ratio Trends (2014-2023)"
+                title="National Average Markup Ratio Trends (2014-2024)"
                 height={350}
               />
               <p className="text-sm text-gray-500 mt-2">
@@ -265,7 +287,7 @@ export default function MarkupMachinePage() {
               <h3>Methodology</h3>
 
               <p className="text-sm bg-gray-50 p-4 rounded-lg">
-                This analysis is based on Medicare Provider Utilization and Payment Data from 2014-2023, 
+                This analysis is based on Medicare Provider Utilization and Payment Data from 2014-2024, 
                 covering over 1.2 million healthcare providers. Markup ratios were calculated by dividing 
                 total submitted charges by total Medicare payments for each provider and specialty. 
                 Geographic classifications use Rural Health Research Center definitions. All data is 
@@ -322,7 +344,7 @@ export default function MarkupMachinePage() {
             lastUpdated="February 2024"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
-              'Medicare Provider Utilization and Payment Data (2014-2023)',
+              'Medicare Provider Utilization and Payment Data (2014-2024)',
               'Rural Health Research Center Geographic Classifications',
               'CMS National Health Expenditure Data'
             ]}

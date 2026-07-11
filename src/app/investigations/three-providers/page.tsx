@@ -9,6 +9,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '3 Providers, 3 Red Flags: $55M in Suspicious Bills',
@@ -35,6 +36,22 @@ function loadFraudFeatures() {
   return all
 }
 
+
+const faqs = [
+  {
+    "question": "What is the three providers investigation about?",
+    "answer": "This investigation examines how a small number of individual providers can account for outsized Medicare payments, highlighting the concentration of spending among top-billing doctors in specific specialties and regions."
+  },
+  {
+    "question": "How can just three providers receive so much from Medicare?",
+    "answer": "High-volume specialists administering expensive drugs or performing costly procedures can individually bill Medicare for millions annually — with some single providers receiving more than entire medical groups."
+  },
+  {
+    "question": "What does provider concentration mean for Medicare spending?",
+    "answer": "When a handful of providers dominate Medicare spending in a specialty or region, it raises questions about market concentration, pricing power, and whether the volume of services is medically necessary."
+  }
+]
+
 export default function ThreeProvidersPage() {
   const publishedDate = '2026-02-21'
   const readTime = '20 min read'
@@ -59,6 +76,7 @@ export default function ThreeProvidersPage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -111,7 +129,7 @@ export default function ThreeProvidersPage() {
               </p>
               <p>
                 These three providers were flagged by our statistical analysis of CMS Medicare Provider Utilization and Payment Data
-                spanning 2014–2023. Each sits atop our{' '}
+                spanning 2014–2024. Each sits atop our{' '}
                 <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline">risk-scored watchlist</Link>,
                 scoring 96, 92, and 88 out of 100 respectively. Each exhibits billing volumes or patterns that fall far
                 outside the statistical norms for their specialties.
@@ -124,7 +142,7 @@ export default function ThreeProvidersPage() {
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
                 <h3 className="text-lg font-semibold text-blue-900 mb-3">📊 How We Identified These Providers</h3>
                 <p className="text-blue-800 text-sm mb-3">
-                  Our analysis processes 10 years of CMS Medicare Provider Utilization and Payment Data (2014–2023), covering
+                  Our analysis processes 10 years of CMS Medicare Provider Utilization and Payment Data (2014–2024), covering
                   over 1.1 million providers. For each provider, we calculate:
                 </p>
                 <ul className="text-blue-800 text-sm space-y-1">
@@ -653,7 +671,7 @@ export default function ThreeProvidersPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General (OIG) — Fraud Enforcement Reports',
                   'Department of Justice — Healthcare Fraud Enforcement Actions (2023–2025)',
                   'Provider websites and publicly available campaign information',

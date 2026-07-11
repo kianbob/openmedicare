@@ -10,12 +10,12 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
-  description: 'Medicare fraud costs taxpayers $60–100 billion annually from $854.8B in total payments. See the latest fraud statistics, enforcement data, and AI findings.',
+  description: 'Medicare fraud costs taxpayers $60–100 billion annually from $940B in total payments. See the latest fraud statistics, enforcement data, and AI findings.',
   keywords: ['medicare fraud statistics', 'how much medicare fraud', 'medicare fraud cost', 'medicare fraud 2025', 'medicare fraud losses'],
   alternates: { canonical: '/investigations/medicare-fraud-statistics' },
   openGraph: {
     title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
-    description: 'Medicare fraud costs taxpayers $60–100 billion annually from $854.8B in total payments. See the latest fraud statistics, enforcement data, and AI findings.',
+    description: 'Medicare fraud costs taxpayers $60–100 billion annually from $940B in total payments. See the latest fraud statistics, enforcement data, and AI findings.',
     url: 'https://www.openmedicare.us/investigations/medicare-fraud-statistics',
   },
 }
@@ -97,8 +97,8 @@ export default function MedicareFraudStatisticsPage() {
               <h2 className="text-lg font-bold text-red-900 mb-4">Key Medicare Fraud Statistics at a Glance</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-white rounded-lg p-4 text-center">
-                  <div className="text-3xl font-bold text-red-700">$854.8B</div>
-                  <div className="text-sm text-gray-600">Total Medicare Part B Payments (2014–2023)</div>
+                  <div className="text-3xl font-bold text-red-700">$940B</div>
+                  <div className="text-sm text-gray-600">Total Medicare Part B Payments (2014–2024)</div>
                 </div>
                 <div className="bg-white rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-red-700">$60–100B+</div>
@@ -119,7 +119,7 @@ export default function MedicareFraudStatisticsPage() {
             <section className="mb-10">
               <h2 className="text-3xl font-bold text-gray-900 font-serif mb-4">How Much Does Medicare Fraud Cost Taxpayers?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Medicare is the largest healthcare program in the United States, covering over 65 million Americans. In 2023 alone, Medicare Part B paid out approximately <strong>$93.7 billion</strong> to healthcare providers. Our analysis of 10 years of CMS data totals <strong>$854.8 billion</strong> in Medicare Part B payments.
+                Medicare is the largest healthcare program in the United States, covering over 68.5 million Americans. In 2023 alone, Medicare Part B paid out approximately <strong>$93.7 billion</strong> to healthcare providers. Our analysis of 10 years of CMS data totals <strong>$940 billion</strong> in Medicare Part B payments.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The exact amount lost to fraud is impossible to know precisely — by definition, successful fraud goes undetected. But federal estimates paint a stark picture:
@@ -302,11 +302,20 @@ export default function MedicareFraudStatisticsPage() {
               </ul>
             </section>
 
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8 not-prose">
+              <h3 className="font-bold text-gray-900 mb-3">Related Investigations</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/investigations/medicare-fraud-biggest-cases-2025-2026" className="text-blue-600 hover:underline">Medicare Fraud: The Biggest Cases of 2025-2026</Link></li>
+                <li><Link href="/investigations/medicare-fraud-2025" className="text-blue-600 hover:underline">Medicare Fraud in 2025: $14.6B in Cases Exposed</Link></li>
+                <li><Link href="/investigations/medicare-fraud-detection-2026" className="text-blue-600 hover:underline">Medicare Fraud Detection 2026: AI &amp; Recovery Data</Link></li>
+              </ul>
+            </div>
+
             {/* Methodology Note */}
             <section className="mb-8 bg-gray-50 rounded-lg p-6">
               <h2 className="text-xl font-bold text-gray-900 mb-2">About This Data</h2>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Statistics in this article come from CMS Medicare Provider Utilization and Payment Data (2014–2023), HHS-OIG reports, DOJ press releases, and our own machine learning analysis. Our AI model was trained on confirmed fraud cases from the LEIE and DOJ prosecution records. Being flagged by our model does not mean a provider has committed fraud — it means their billing patterns statistically resemble those of convicted fraudsters. See our <Link href="/methodology" className="text-blue-600 hover:underline">full methodology</Link>.
+                Statistics in this article come from CMS Medicare Provider Utilization and Payment Data (2014–2024), HHS-OIG reports, DOJ press releases, and our own machine learning analysis. Our AI model was trained on confirmed fraud cases from the LEIE and DOJ prosecution records. Being flagged by our model does not mean a provider has committed fraud — it means their billing patterns statistically resemble those of convicted fraudsters. See our <Link href="/methodology" className="text-blue-600 hover:underline">full methodology</Link>.
               </p>
             </section>
 
@@ -317,7 +326,7 @@ export default function MedicareFraudStatisticsPage() {
           <SourceCitation
             lastUpdated="February 2026 (data through 2023)"
             sources={[
-              'Centers for Medicare & Medicaid Services (CMS) — Provider Utilization and Payment Data (2014–2023)',
+              'Centers for Medicare & Medicaid Services (CMS) — Provider Utilization and Payment Data (2014–2024)',
               'HHS Office of Inspector General (OIG) — Fraud Statistics and LEIE Data',
               'U.S. Department of Justice — Healthcare Fraud Enforcement Actions',
               'National Health Care Anti-Fraud Association (NHCAA)',

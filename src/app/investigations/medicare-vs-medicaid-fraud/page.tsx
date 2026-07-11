@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare vs Medicaid Fraud: What\'s the Difference?',
@@ -18,6 +19,22 @@ export const metadata: Metadata = {
     url: 'https://www.openmedicare.us/investigations/medicare-vs-medicaid-fraud',
   },
 }
+
+
+const faqs = [
+  {
+    "question": "What is the difference between Medicare and Medicaid fraud?",
+    "answer": "Medicare fraud targets the federal program for seniors (65+), while Medicaid fraud targets the joint federal-state program for low-income individuals. Both involve false claims but differ in oversight structures and common scheme types."
+  },
+  {
+    "question": "Which program has more fraud — Medicare or Medicaid?",
+    "answer": "Both programs lose billions to fraud annually. Medicare improper payments typically exceed $40 billion/year, while Medicaid improper payments are estimated at $80+ billion, though measurement methodologies differ."
+  },
+  {
+    "question": "How are Medicare and Medicaid fraud investigated differently?",
+    "answer": "Medicare fraud is primarily investigated by federal agencies (OIG, FBI, DOJ), while Medicaid fraud is investigated by state Medicaid Fraud Control Units (MFCUs) with federal coordination through OIG."
+  }
+]
 
 export default function MedicareVsMedicaidFraudPage() {
   const publishedDate = '2026-02-23'
@@ -32,6 +49,7 @@ export default function MedicareVsMedicaidFraudPage() {
         modifiedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/medicare-vs-medicaid-fraud"
       />
+      <FAQSchema faqs={faqs} />
       <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -89,8 +107,8 @@ export default function MedicareVsMedicaidFraudPage() {
                   </thead>
                   <tbody>
                     <tr><td className="p-3 border border-gray-200 font-medium">Who it covers</td><td className="p-3 border border-gray-200">Adults 65+, some disabled</td><td className="p-3 border border-gray-200">Low-income individuals & families</td></tr>
-                    <tr className="bg-gray-50"><td className="p-3 border border-gray-200 font-medium">Beneficiaries</td><td className="p-3 border border-gray-200">~65 million</td><td className="p-3 border border-gray-200">~90 million</td></tr>
-                    <tr><td className="p-3 border border-gray-200 font-medium">Annual spending</td><td className="p-3 border border-gray-200">~$900 billion (all parts)</td><td className="p-3 border border-gray-200">~$800 billion (federal + state)</td></tr>
+                    <tr className="bg-gray-50"><td className="p-3 border border-gray-200 font-medium">Beneficiaries</td><td className="p-3 border border-gray-200">~68.5 million</td><td className="p-3 border border-gray-200">~90 million</td></tr>
+                    <tr><td className="p-3 border border-gray-200 font-medium">Annual spending</td><td className="p-3 border border-gray-200">~$890 billion (all parts)</td><td className="p-3 border border-gray-200">~$800 billion (federal + state)</td></tr>
                     <tr className="bg-gray-50"><td className="p-3 border border-gray-200 font-medium">Funded by</td><td className="p-3 border border-gray-200">Federal government (100%)</td><td className="p-3 border border-gray-200">Federal + state (shared)</td></tr>
                     <tr><td className="p-3 border border-gray-200 font-medium">Administered by</td><td className="p-3 border border-gray-200">CMS (centralized)</td><td className="p-3 border border-gray-200">Each state individually</td></tr>
                     <tr className="bg-gray-50"><td className="p-3 border border-gray-200 font-medium">Est. fraud rate</td><td className="p-3 border border-gray-200">3–10%</td><td className="p-3 border border-gray-200">5–10%+</td></tr>
@@ -178,7 +196,7 @@ export default function MedicareVsMedicaidFraudPage() {
 
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h3 className="text-lg font-bold text-gray-900 mb-2">3. Oversight Structure</h3>
-                  <p className="text-gray-700">Medicare is <strong>federally administered</strong> — one system, one set of rules, one database. This makes systemic analysis possible (and is why OpenMedicare can analyze all 1.7M providers). Medicaid is run by <strong>50 different state programs</strong> with 50 different systems, making cross-state analysis nearly impossible.</p>
+                  <p className="text-gray-700">Medicare is <strong>federally administered</strong> — one system, one set of rules, one database. This makes systemic analysis possible (and is why OpenMedicare can analyze all 1.82M providers). Medicaid is run by <strong>50 different state programs</strong> with 50 different systems, making cross-state analysis nearly impossible.</p>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-6">
@@ -246,7 +264,7 @@ export default function MedicareVsMedicaidFraudPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="border rounded-lg p-4">
                   <h3 className="font-bold text-gray-900 mb-2">🔵 OpenMedicare</h3>
-                  <p className="text-sm text-gray-600 mb-2">$854.8B in Medicare Part B data. 1.7M providers. 500 AI-flagged for fraud patterns.</p>
+                  <p className="text-sm text-gray-600 mb-2">$940B in Medicare Part B data. 1.82M providers. 500 AI-flagged for fraud patterns.</p>
                   <Link href="/" className="text-blue-600 hover:underline text-sm font-medium">Explore Medicare Data →</Link>
                 </div>
                 <div className="border rounded-lg p-4">

@@ -9,13 +9,13 @@ import FAQSchema from '@/components/FAQSchema'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'Medicare Spending Trends 2025: Where $854 Billion Goes',
-  description: 'Medicare spending hit $854.8B across 10 years of data. See 2025 trends: fastest-growing specialties, regional shifts, telehealth surge, and where your tax dollars actually go.',
+  title: 'Medicare Spending Trends 2025: Where $940 Billion Goes',
+  description: 'Medicare spending hit $940B across 10 years of data. See 2025 trends: fastest-growing specialties, regional shifts, telehealth surge, and where your tax dollars actually go.',
   keywords: ['medicare spending trends 2025', 'medicare budget 2025', 'medicare costs rising', 'medicare spending breakdown', 'where does medicare money go', 'medicare spending by year'],
   alternates: { canonical: '/investigations/medicare-spending-trends-2025' },
   openGraph: {
-    title: 'Medicare Spending Trends 2025: Where $854 Billion Goes',
-    description: 'Medicare spending hit $854.8B across 10 years of data. See 2025 trends: fastest-growing specialties, regional shifts, and where your tax dollars actually go.',
+    title: 'Medicare Spending Trends 2025: Where $940 Billion Goes',
+    description: 'Medicare spending hit $940B across 10 years of data. See 2025 trends: fastest-growing specialties, regional shifts, and where your tax dollars actually go.',
     url: 'https://www.openmedicare.us/investigations/medicare-spending-trends-2025',
   },
 }
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does Medicare spend per year?',
-    answer: 'Based on CMS data from 2014–2023, Medicare Part B physician/supplier spending averaged roughly $85–94 billion per year, with a 10-year cumulative total of $854.8 billion. The 2023 figure was approximately $93.7 billion.',
+    answer: 'Based on CMS data from 2014–2024, Medicare Part B physician/supplier spending averaged roughly $85–94 billion per year, with a 10-year cumulative total of $940 billion. The 2023 figure was approximately $93.7 billion.',
   },
   {
     question: 'What are the fastest-growing Medicare spending categories?',
@@ -47,7 +47,7 @@ export default function MedicareSpendingTrends2025Page() {
     <div className="min-h-screen bg-gray-50">
       <FAQSchema faqs={faqs} />
       <ArticleJsonLd
-        title="Medicare Spending Trends 2025: Where $854 Billion Goes"
+        title="Medicare Spending Trends 2025: Where $940 Billion Goes"
         description="Comprehensive analysis of Medicare spending trends using 10 years of CMS data. Fastest-growing specialties, regional shifts, and where taxpayer dollars actually go."
         publishedDate={publishedDate}
         modifiedDate={publishedDate}
@@ -70,7 +70,7 @@ export default function MedicareSpendingTrends2025Page() {
                 Trend Analysis
               </span>
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 font-serif mb-4 leading-tight">
-                Medicare Spending Trends 2025: Where $854 Billion Actually Goes
+                Medicare Spending Trends 2025: Where $940 Billion Actually Goes
               </h1>
               <p className="text-2xl text-gray-600 font-light leading-relaxed">
                 A decade of Medicare data reveals who&apos;s getting paid, how spending is shifting, and what it means for taxpayers.
@@ -97,9 +97,9 @@ export default function MedicareSpendingTrends2025Page() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Big Picture: $854.8 Billion Over 10 Years</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Big Picture: $940 Billion Over 11 Years</h2>
               <p className="text-gray-700 mb-4">
-                Between 2014 and 2023, Medicare Part B paid $854.8 billion to 1.72 million unique providers — physicians, nurse practitioners, clinical laboratories, and medical suppliers. That&apos;s public money, paid with taxpayer dollars and beneficiary premiums, and every cent is tracked in CMS data.
+                Between 2014 and 2023, Medicare Part B paid $940 billion to 1.72 million unique providers — physicians, nurse practitioners, clinical laboratories, and medical suppliers. That&apos;s public money, paid with taxpayer dollars and beneficiary premiums, and every cent is tracked in CMS data.
               </p>
               <p className="text-gray-700 mb-4">
                 But the story isn&apos;t just about the total. It&apos;s about <strong>where the money is going</strong>, which specialties are growing fastest, which regions consume the most, and whether the system is getting better or worse at catching waste and fraud.

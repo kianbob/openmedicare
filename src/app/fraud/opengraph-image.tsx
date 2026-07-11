@@ -23,7 +23,7 @@ export default function Image() {
           OpenMedicare · Fraud Hub
         </div>
         <div style={{ display: 'flex', fontSize: 52, fontWeight: 800, color: 'white', lineHeight: 1.15, marginBottom: 24 }}>
-          $854.8 Billion in Medicare Payments. Our AI Flagged $400M.
+          $940 Billion in Medicare Payments. Our AI Flagged $400M.
         </div>
         <div style={{ display: 'flex', fontSize: 26, color: '#ef9a9a', lineHeight: 1.5 }}>
           500 Providers. 2,198 Confirmed Fraudsters Used as Training Data.

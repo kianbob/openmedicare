@@ -126,6 +126,67 @@ export default function DrugSpendingPage() {
           </div>
         </div>
 
+        {/* Drug Price Negotiation Impact */}
+        <div className="bg-blue-50 rounded-xl p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">🏛️ 2026 Drug Price Negotiation Impact</h2>
+          <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
+            <p>
+              The Inflation Reduction Act gave Medicare the power to negotiate drug prices for the first time. In January 2026,
+              negotiated prices took effect for <strong>10 of the costliest Part D drugs</strong>, including Eliquis, Jardiance, Xarelto,
+              and Januvia. CMS estimates <strong>$6 billion in first-year savings</strong>, with discounts ranging from 38% to 79%.
+            </p>
+            <p>
+              Combined with the <strong>$2,000 annual out-of-pocket cap</strong> on Part D spending (effective 2025), seniors are seeing
+              dramatically lower drug costs. The program expands to 15 more drugs in 2027 and will eventually include Part B
+              physician-administered drugs — the most expensive category in our dataset.
+            </p>
+          </div>
+          <a href="/investigations/drug-price-negotiation-2026" className="inline-block mt-3 text-sm font-medium text-blue-700 hover:text-blue-900">
+            Read our full Drug Price Negotiation analysis →
+          </a>
+        </div>
+
+        {/* Why Drug Spending Matters */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Drug Spending Matters</h2>
+          <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
+            <p>
+              Drug spending is the fastest-growing component of Medicare Part B. While office visits and procedures grow at
+              2-3% annually, drug costs have surged 8-12% per year for the past decade. This is driven by two factors:
+              the introduction of expensive new biologics (especially in oncology and ophthalmology) and steady price
+              increases on existing drugs that far outpace inflation.
+            </p>
+            <p>
+              The concentration is remarkable: just 20 drug codes account for over 40% of all Medicare drug spending.
+              Eylea (aflibercept) alone has cost Medicare more than many federal agencies&apos; entire annual budgets.
+              Understanding where drug dollars flow is essential for any serious conversation about Medicare sustainability.
+            </p>
+          </div>
+        </div>
+
+        {/* Drug Spending by Category */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Drug Spending by Category</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="bg-red-50 rounded-lg p-4">
+              <h4 className="font-semibold text-red-800">🎯 Oncology Drugs</h4>
+              <p className="text-sm text-gray-700 mt-1">Cancer drugs are the largest single category. Immunotherapies like Keytruda and targeted therapies like Imbruvica cost $10,000-$30,000+ per month. As cancer screening improves and more Medicare beneficiaries receive treatment, this category continues to surge.</p>
+            </div>
+            <div className="bg-blue-50 rounded-lg p-4">
+              <h4 className="font-semibold text-blue-800">👁️ Ophthalmology Drugs</h4>
+              <p className="text-sm text-gray-700 mt-1">Anti-VEGF injections for macular degeneration (Eylea, Lucentis, Avastin) are administered in doctors&apos; offices and billed under Part B. Each injection costs $1,000-$2,000, and patients need them every 4-8 weeks indefinitely.</p>
+            </div>
+            <div className="bg-purple-50 rounded-lg p-4">
+              <h4 className="font-semibold text-purple-800">🧬 Autoimmune & Biologic Drugs</h4>
+              <p className="text-sm text-gray-700 mt-1">Biologics like Enbrel, Humira, and Stelara for rheumatoid arthritis, psoriasis, and Crohn&apos;s disease cost $3,000-$7,000+ per month. Biosimilar competition is beginning to lower some prices.</p>
+            </div>
+            <div className="bg-green-50 rounded-lg p-4">
+              <h4 className="font-semibold text-green-800">❤️ Cardiovascular Drugs</h4>
+              <p className="text-sm text-gray-700 mt-1">Blood thinners (Eliquis, Xarelto), heart failure drugs (Entresto), and cholesterol medications are high-volume, driving massive total spending even with lower per-unit costs.</p>
+            </div>
+          </div>
+        </div>
+
         {/* Explore More */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
@@ -146,6 +207,89 @@ export default function DrugSpendingPage() {
               <h4 className="font-semibold text-blue-600">Follow the Drug Money</h4>
               <p className="text-sm text-gray-500 mt-1">The oncology drug pipeline reshaping Medicare spending</p>
             </Link>
+          </div>
+        </div>
+
+        {/* Biosimilar Competition */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Biosimilars: The Promise and the Reality</h2>
+          <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
+            <p>
+              Biosimilars — near-identical copies of expensive biologic drugs — were supposed to bring competition and lower prices,
+              similar to how generic drugs reduced costs for traditional pharmaceuticals. The reality has been more complicated.
+            </p>
+            <p>
+              While biosimilars for drugs like Avastin (bevacizumab), Herceptin (trastuzumab), and Remicade (infliximab) are now
+              available and have reduced some costs, adoption has been slower than expected. Brand-name manufacturers have used
+              patent thickets, rebate strategies, and physician relationships to maintain market share. In Medicare Part B,
+              biosimilar uptake varies enormously by region — some states have 40%+ biosimilar use for eligible drugs while
+              others remain under 10%.
+            </p>
+            <p>
+              The 2024 data shows biosimilar competition is gradually intensifying, particularly for older biologics. But for the
+              newest and most expensive drugs — checkpoint inhibitors like Keytruda, which won&apos;t face biosimilar competition until
+              the 2030s — prices continue to climb unchecked.
+            </p>
+          </div>
+        </div>
+
+        {/* The $2,000 Cap Impact */}
+        <div className="bg-green-50 rounded-xl p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">💰 The $2,000 Out-of-Pocket Cap</h2>
+          <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
+            <p>
+              Starting in 2025, Medicare Part D beneficiaries pay no more than <strong>$2,000 per year</strong> in out-of-pocket
+              drug costs. This is a game-changer for patients on expensive specialty medications who previously faced
+              costs of $5,000, $10,000, or more per year in the coverage gap (&quot;donut hole&quot;).
+            </p>
+            <p>
+              Combined with IRA-negotiated drug prices taking effect in 2026, the financial burden on seniors with chronic
+              conditions has been substantially reduced. However, the cap only applies to Part D (pharmacy drugs) —
+              Part B drugs administered in doctors&apos; offices still have 20% coinsurance with no annual cap.
+            </p>
+          </div>
+        </div>
+
+        {/* Year-over-Year Growth */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Drug Spending Growth vs Overall Medicare</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="bg-gray-50 border-b">
+                <tr>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-700">Metric</th>
+                  <th className="px-4 py-3 text-right font-semibold text-gray-700">Annual Growth</th>
+                  <th className="px-4 py-3 text-right font-semibold text-gray-700">10-Year Change</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                <tr><td className="px-4 py-2">Drug spending (Part B)</td><td className="px-4 py-2 text-right font-medium text-red-600">8-12%</td><td className="px-4 py-2 text-right">+120%+</td></tr>
+                <tr><td className="px-4 py-2">Overall Medicare Part B</td><td className="px-4 py-2 text-right font-medium text-orange-600">3-4%</td><td className="px-4 py-2 text-right">+35%</td></tr>
+                <tr><td className="px-4 py-2">Office visits</td><td className="px-4 py-2 text-right font-medium text-green-600">2-3%</td><td className="px-4 py-2 text-right">+25%</td></tr>
+                <tr><td className="px-4 py-2">Lab services</td><td className="px-4 py-2 text-right font-medium text-green-600">1-2%</td><td className="px-4 py-2 text-right">+15%</td></tr>
+                <tr><td className="px-4 py-2">General inflation (CPI)</td><td className="px-4 py-2 text-right font-medium text-gray-600">2-3%</td><td className="px-4 py-2 text-right">+28%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">Drug spending growth far outpaces overall Medicare and general inflation, driven by high-cost biologics and specialty pharmaceuticals.</p>
+        </div>
+
+        {/* Key Questions */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Questions About Medicare Drug Spending</h2>
+          <div className="space-y-4">
+            <div>
+              <h4 className="font-semibold text-gray-900">Why are Part B drugs so expensive?</h4>
+              <p className="text-sm text-gray-600 mt-1">Part B covers drugs administered by physicians — infusions, injections, and other treatments given in medical settings. These are often biologics for cancer, autoimmune conditions, and eye diseases that cost thousands per dose. Unlike Part D (pharmacy) drugs, Part B drugs historically had no negotiation or out-of-pocket cap.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-900">How does Medicare pay for Part B drugs?</h4>
+              <p className="text-sm text-gray-600 mt-1">Medicare pays providers the Average Sales Price (ASP) plus 6% for most Part B drugs. This &quot;buy and bill&quot; model gives providers a financial incentive to use more expensive drugs, since 6% of a $10,000 drug ($600) is more than 6% of a $100 drug ($6) — even if the cheaper drug works just as well.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-900">Will drug negotiation affect Part B drugs?</h4>
+              <p className="text-sm text-gray-600 mt-1">Yes. Starting with the 2027 round, the IRA drug negotiation program will include Part B drugs for the first time. This is expected to have a major impact on the most expensive physician-administered drugs in our dataset.</p>
+            </div>
           </div>
         </div>
 

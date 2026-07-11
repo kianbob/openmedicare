@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '1 Eye Drug Costs Medicare $19.7B: Follow the Money',
@@ -30,6 +31,26 @@ function loadStats() {
     return JSON.parse(raw)
   } catch { return {} }
 }
+
+
+const faqs = [
+  {
+    "question": "How much does Medicare spend on prescription drugs?",
+    "answer": "Medicare Part B drug spending has grown dramatically, with individual drugs like Aflibercept (for eye conditions) costing the program nearly $20 billion over the past decade."
+  },
+  {
+    "question": "What are the most expensive drugs in Medicare?",
+    "answer": "The most expensive Medicare drugs include Aflibercept (eye injections), cancer immunotherapies, and specialty biologics, with the top 20 drugs accounting for a disproportionate share of total Part B spending."
+  },
+  {
+    "question": "Why are Medicare drug costs rising so fast?",
+    "answer": "Drug spending as a share of Medicare has nearly doubled from 8% to 15% in a decade, driven by new specialty biologics, price increases on existing drugs, and expanded indications for expensive treatments."
+  },
+  {
+    "question": "What is Medicare Part B drug spending?",
+    "answer": "Part B covers drugs administered by physicians (injections, infusions) rather than pharmacy prescriptions (Part D). These physician-administered drugs tend to be the most expensive per-dose medications in Medicare."
+  }
+]
 
 export default function DrugMoneyPage() {
   const data = loadDrugSpending()
@@ -56,6 +77,7 @@ export default function DrugMoneyPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'Follow the Drug Money', href: '/investigations/drug-money' }
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Investigation</span>
@@ -240,6 +262,7 @@ export default function DrugMoneyPage() {
             <Link href="/investigations/drug-pipeline" className="text-medicare-primary hover:underline text-sm">💊 The Drug Pipeline</Link>
             <Link href="/investigations/oncology-drug-pipeline" className="text-medicare-primary hover:underline text-sm">🔬 Oncology Drug Pipeline</Link>
             <Link href="/investigations/eye-care-billions" className="text-medicare-primary hover:underline text-sm">👁️ Eye Care Billions</Link>
+            <Link href="/investigations/part-d-redesign-impact-2026" className="text-medicare-primary hover:underline text-sm">📊 Part D Redesign: The $2,000 Cap</Link>
             <Link href="/drug-spending" className="text-medicare-primary hover:underline text-sm">📊 Drug Spending Data</Link>
           </div>
         </div>

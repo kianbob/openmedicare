@@ -49,8 +49,8 @@ function loadStats() {
 const stateHeatmapData = loadStates()
 const realStats = loadStats()
 const keyStats = {
-  totalPayments: realStats?.total_payments || 890000000000,
-  totalProviders: realStats?.total_providers || 1721798,
+  totalPayments: realStats?.total_payments || 940000000000,
+  totalProviders: realStats?.total_providers || 1820000,
   yearsOfData: realStats?.years_covered?.length || 10,
   latestYear: 2023
 }
@@ -190,10 +190,10 @@ export default function HomePage() {
               Data through 2023 · Updated February 2026
             </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
-              Where $890B in Medicare Money Really Goes
+              Where $940B in Medicare Money Really Goes
             </h1>
             <p className="text-xl sm:text-2xl text-blue-100 mb-4 max-w-4xl mx-auto">
-              10 years of data. 1.7 million providers. AI-powered fraud detection.
+              10 years of data. 1.82 million providers. AI-powered fraud detection.
             </p>
             <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
               Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2024).
@@ -435,7 +435,7 @@ export default function HomePage() {
               Featured Investigations
             </h2>
             <p className="text-lg text-gray-600">
-              Deep-dive analysis from our library of 68 data-driven investigations
+              Deep-dive analysis from our library of 74 data-driven investigations
             </p>
           </div>
           
@@ -476,7 +476,7 @@ export default function HomePage() {
               href="/investigations"
               className="inline-flex items-center px-6 py-3 border border-medicare-primary text-medicare-primary hover:bg-medicare-primary hover:text-white font-medium rounded-md transition-colors"
             >
-              View All 68 Investigations
+              View All 74 Investigations
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>
@@ -553,11 +553,11 @@ export default function HomePage() {
       <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold font-playfair text-center mb-4">Explore Medicare Spending Data</h2>
-          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">Dive into $890 billion in Medicare payments across providers, drugs, specialties, states, and procedures.</p>
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">Dive into $940 billion in Medicare payments across providers, drugs, specialties, states, and procedures.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link href="/providers" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">🏥 Medicare Providers</h3>
-              <p className="text-sm text-gray-600">Search 1.78M providers. See payments, services, and AI fraud flags for any doctor.</p>
+              <p className="text-sm text-gray-600">Search 1.82M providers. See payments, services, and AI fraud flags for any doctor.</p>
             </Link>
             <Link href="/drugs" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">💊 Drug Spending</h3>

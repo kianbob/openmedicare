@@ -121,6 +121,97 @@ export default function RuralUrbanPage() {
           </div>
         </div>
 
+        {/* The Rural Hospital Crisis */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">🏥 The Rural Hospital Crisis</h2>
+          <div className="prose max-w-none text-gray-700 space-y-4">
+            <p>
+              Since 2010, over 150 rural hospitals have closed across the United States. Another 600+ are considered
+              vulnerable to closure based on financial indicators. When a rural hospital closes, the nearest emergency
+              room may be 30, 50, or even 100 miles away — a life-or-death distance for heart attacks, strokes, and trauma.
+            </p>
+            <p>
+              The closures are concentrated in states that did not expand Medicaid under the Affordable Care Act.
+              Texas, Tennessee, Georgia, and Alabama have seen the most closures. Rural hospitals in these states
+              face a double burden: uncompensated care for uninsured patients and Medicare reimbursement rates that
+              don&apos;t cover operating costs.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+            <div className="bg-red-50 rounded-lg p-4 text-center">
+              <div className="text-2xl font-bold text-red-700">150+</div>
+              <div className="text-sm text-red-600">Rural Hospitals Closed Since 2010</div>
+            </div>
+            <div className="bg-orange-50 rounded-lg p-4 text-center">
+              <div className="text-2xl font-bold text-orange-700">600+</div>
+              <div className="text-sm text-orange-600">Vulnerable to Closure</div>
+            </div>
+            <div className="bg-yellow-50 rounded-lg p-4 text-center">
+              <div className="text-2xl font-bold text-yellow-700">46M</div>
+              <div className="text-sm text-yellow-600">Rural Americans Affected</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Telehealth: A Lifeline for Rural Areas */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">📱 Telehealth: A Lifeline for Rural Areas</h2>
+          <div className="prose max-w-none text-gray-700 space-y-4">
+            <p>
+              The COVID-19 pandemic accelerated telehealth adoption, and rural areas benefited disproportionately.
+              Medicare telehealth visits surged from virtually zero in 2019 to millions per year, and many of these
+              flexibilities have been made permanent. For rural beneficiaries, telehealth means access to specialists
+              — cardiologists, endocrinologists, psychiatrists — who may not exist within a 100-mile radius.
+            </p>
+            <p>
+              However, telehealth isn&apos;t a complete solution. Many rural areas lack reliable broadband internet,
+              and some conditions require in-person examination. The data shows telehealth adoption in rural areas
+              still lags urban areas by 15-20%, partly due to connectivity issues and partly due to demographic
+              factors — rural Medicare beneficiaries tend to be older and less comfortable with technology.
+            </p>
+          </div>
+        </div>
+
+        {/* Specialist Access Gap */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">The Specialist Access Gap</h2>
+          <div className="prose max-w-none text-gray-700 space-y-4">
+            <p>
+              The urban-rural divide is starkest in specialty care. While primary care providers are distributed
+              relatively evenly (though still favoring urban areas), specialists concentrate overwhelmingly in
+              metropolitan areas. Cardiology, oncology, neurology, and orthopedic surgery are particularly
+              scarce in rural communities.
+            </p>
+            <p>
+              This creates a measurable health outcome gap. Rural Medicare beneficiaries have higher rates of
+              preventable hospitalizations, later-stage cancer diagnoses, and worse outcomes for time-sensitive
+              conditions like heart attacks and strokes — all directly linked to delayed access to specialist care.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="font-semibold text-gray-900">Most Scarce in Rural Areas</h4>
+              <ul className="text-sm text-gray-600 mt-2 space-y-1">
+                <li>• Psychiatry & Mental Health</li>
+                <li>• Oncology / Hematology</li>
+                <li>• Neurology</li>
+                <li>• Dermatology</li>
+                <li>• Endocrinology</li>
+              </ul>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="font-semibold text-gray-900">Better Distributed</h4>
+              <ul className="text-sm text-gray-600 mt-2 space-y-1">
+                <li>• Family Medicine</li>
+                <li>• Internal Medicine</li>
+                <li>• General Surgery</li>
+                <li>• Emergency Medicine</li>
+                <li>• Physical Therapy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         {/* Explore More */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore More</h2>
@@ -141,6 +232,69 @@ export default function RuralUrbanPage() {
               <h4 className="font-semibold text-blue-600">The State Spending Divide</h4>
               <p className="text-sm text-gray-500 mt-1">Why some states get far more Medicare dollars than others</p>
             </Link>
+          </div>
+        </div>
+
+        {/* Policy Solutions */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Policy Approaches to the Rural Gap</h2>
+          <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
+            <p>
+              Several policy mechanisms attempt to address the rural-urban gap in Medicare. The <strong>Rural Health Clinic (RHC)</strong> program
+              provides enhanced reimbursement to qualifying clinics. <strong>Critical Access Hospitals (CAHs)</strong> receive cost-based
+              reimbursement rather than standard prospective payment. And <strong>Geographic Practice Cost Indices (GPCIs)</strong>
+              are supposed to adjust Medicare payments for regional cost differences.
+            </p>
+            <p>
+              However, critics argue these programs are insufficient. The GPCI adjustment often reduces rural payments
+              because rural areas have lower costs of living — but this ignores the higher per-patient costs of serving
+              sparse populations. A rural doctor who drives 50 miles between patients incurs costs that no fee schedule captures.
+            </p>
+            <p>
+              The fundamental tension: Medicare is a national program with uniform benefit structures, but healthcare delivery
+              is intensely local. A payment system designed around urban medical centers doesn&apos;t naturally serve communities
+              where the nearest specialist is a two-hour drive away.
+            </p>
+          </div>
+        </div>
+
+        {/* Rural Health by the Numbers */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Rural Health by the Numbers</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="text-2xl font-bold text-blue-700">20%</div>
+              <div className="text-sm text-gray-600">of Americans live in rural areas, but only 11% of physicians practice there</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="text-2xl font-bold text-blue-700">65+ years</div>
+              <div className="text-sm text-gray-600">Rural populations skew older — 18% of rural residents are 65+ vs 15% in urban areas</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="text-2xl font-bold text-blue-700">30+ miles</div>
+              <div className="text-sm text-gray-600">Average distance to nearest specialist in rural counties</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="text-2xl font-bold text-blue-700">3,000+</div>
+              <div className="text-sm text-gray-600">Health Professional Shortage Areas (HPSAs) designated in rural regions</div>
+            </div>
+          </div>
+        </div>
+
+        {/* The Mental Health Gap */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">🧠 The Mental Health Gap</h2>
+          <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
+            <p>
+              Perhaps the most acute rural-urban gap is in mental health. Rural areas have <strong>less than half</strong> the
+              psychiatrists per capita compared to urban areas. Over 60% of rural counties have no practicing psychiatrist at all.
+              This contributes to higher rates of suicide, substance abuse, and untreated depression among rural Medicare beneficiaries.
+            </p>
+            <p>
+              Telehealth has been particularly impactful here — telepsychiatry is one of the fastest-growing telehealth
+              specialties in Medicare. But demand far outstrips supply, and many rural beneficiaries still lack the broadband
+              access needed for effective video appointments.
+            </p>
           </div>
         </div>
 

@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: "56 AI-Flagged Providers in California ($47M)",
@@ -28,6 +29,26 @@ const flaggedProviders = [
   { npi: '1356789012', name: 'Mahesh Shah', specialty: 'Internal Medicine', city: 'San Jose', prob: 0.934, pay: 487652, note: 'One of the few NorCal providers flagged — Bay Area fraud patterns are less common but still present.' },
 ]
 
+
+const faqs = [
+  {
+    "question": "How much Medicare fraud occurs in California?",
+    "answer": "California consistently ranks as one of the top states for Medicare fraud prosecutions and flagged providers, with billions in suspicious billing patterns identified across the state."
+  },
+  {
+    "question": "What types of Medicare fraud are most common in California?",
+    "answer": "Common schemes include phantom billing, upcoding office visits, unnecessary diagnostic testing, durable medical equipment fraud, and organized fraud rings operating across multiple clinics."
+  },
+  {
+    "question": "Which California cities have the most Medicare fraud?",
+    "answer": "Los Angeles, the Inland Empire, and parts of the San Fernando Valley consistently show the highest concentrations of flagged providers and fraud prosecutions in California."
+  },
+  {
+    "question": "How does California compare to other states for Medicare fraud?",
+    "answer": "California and Florida typically lead the nation in both total Medicare fraud cases and total dollars involved, largely due to their large Medicare populations and high provider density."
+  }
+]
+
 export default function CaliforniaMedicareFraudPage() {
   const publishedDate = '2026-02-21'
   const readTime = '14 min read'
@@ -40,6 +61,7 @@ export default function CaliforniaMedicareFraudPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/california-medicare-fraud"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -264,7 +286,7 @@ export default function CaliforniaMedicareFraudPage() {
 
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'DOJ Healthcare Fraud Enforcement Actions — California (2016–2025)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',
@@ -301,6 +323,15 @@ export default function CaliforniaMedicareFraudPage() {
                     <div className="text-sm font-bold text-gray-900 mb-1">Internal Medicine Crisis</div>
                     <p className="text-xs text-gray-600">
                       Why 53% of all flagged providers are Internal Medicine specialists.
+                    </p>
+                  </Link>
+                  <Link
+                    href="/investigations/medicare-fraud-biggest-cases-2025-2026"
+                    className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
+                  >
+                    <div className="text-sm font-bold text-gray-900 mb-1">Biggest Medicare Fraud Cases 2025-2026</div>
+                    <p className="text-xs text-gray-600">
+                      The DOJ&apos;s record $14.6B takedown and the biggest cases nationwide.
                     </p>
                   </Link>
                 </div>

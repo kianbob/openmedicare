@@ -168,7 +168,7 @@ export default function MedicareAdvantageVsTraditionalPage() {
                 Here&apos;s something important to understand about OpenMedicare&apos;s data: <strong>we only track Traditional Medicare (fee-for-service) claims</strong>. Medicare Advantage claims data is held by private insurers, not published by CMS in the same way.
               </p>
               <p className="text-gray-700 mb-4">
-                This means that as more beneficiaries shift to MA, the Traditional Medicare dataset we analyze represents a shrinking share of total Medicare spending. Our 1.72 million providers and $854.8 billion in payments reflect Part B fee-for-service billing only.
+                This means that as more beneficiaries shift to MA, the Traditional Medicare dataset we analyze represents a shrinking share of total Medicare spending. Our 1.82 million providers and $940 billion in payments reflect Part B fee-for-service billing only.
               </p>
               <p className="text-gray-700 mb-4">
                 This data gap itself is a transparency problem. The public can see exactly how much every doctor bills Traditional Medicare, down to the procedure level. But the same transparency doesn&apos;t exist for Medicare Advantage — a system that now covers the majority of beneficiaries and spends hundreds of billions per year.
@@ -205,9 +205,10 @@ export default function MedicareAdvantageVsTraditionalPage() {
             </div>
 
             <RelatedArticles articles={[
+              { slug: 'medicare-advantage-star-ratings-2026', title: 'MA Star Ratings 2026: Winners & Losers', description: 'Average star rating dropped to 3.92 — who gained and who lost.' },
               { slug: 'medicare-fraud-statistics', title: 'Medicare Fraud Statistics 2025', description: 'How much money does Medicare lose to fraud each year?' },
               { slug: 'doge-medicare-fraud', title: 'DOGE and Medicare Fraud', description: 'Can government efficiency efforts reduce Medicare waste?' },
-              { slug: 'medicare-spending-trends-2025', title: 'Medicare Spending Trends 2025', description: 'Where $854 billion in Medicare spending actually goes.' },
+              { slug: 'medicare-spending-trends-2025', title: 'Medicare Spending Trends 2025', description: 'Where $940 billion in Medicare spending actually goes.' },
               { slug: 'data-predicted-fraud', title: 'Our Data Predicted It', description: 'How our algorithm flagged providers before the DOJ did.' },
             ]} />
           </div>

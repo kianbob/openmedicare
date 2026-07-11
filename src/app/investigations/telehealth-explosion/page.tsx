@@ -8,6 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'How Telehealth Broke Medicare Wide Open',
@@ -34,6 +35,22 @@ interface YearlyTrend {
   total_services_change: number
   total_providers_change: number
 }
+
+
+const faqs = [
+  {
+    "question": "How much has telehealth grown in Medicare since COVID?",
+    "answer": "Medicare telehealth utilization exploded from minimal pre-pandemic levels to over 40% of certain visit types during COVID, with significant permanent adoption even as in-person care resumed."
+  },
+  {
+    "question": "Is telehealth fraud a growing problem in Medicare?",
+    "answer": "Yes. The rapid expansion of telehealth created new fraud opportunities, including billing for services never rendered, brief phone calls billed as comprehensive visits, and fraudulent telehealth companies used to order unnecessary tests and equipment."
+  },
+  {
+    "question": "Will Medicare continue covering telehealth permanently?",
+    "answer": "Congress has repeatedly extended pandemic-era telehealth flexibilities, and CMS has made some expansions permanent. Full permanent coverage remains under legislative debate, with fraud concerns balanced against access benefits."
+  }
+]
 
 export default function TelehealthExplosionPage() {
   const publishedDate = '2026-02-21'
@@ -65,6 +82,7 @@ export default function TelehealthExplosionPage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -269,7 +287,7 @@ export default function TelehealthExplosionPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data (2014-2023). Telehealth-specific billing breakdowns are based on CMS reporting and published
+                and Payment Data (2014-2024). Telehealth-specific billing breakdowns are based on CMS reporting and published
                 research, as modifier-level detail is not included in our aggregate trends data.
               </p>
             </div>
@@ -298,7 +316,7 @@ export default function TelehealthExplosionPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'CMS COVID-19 Emergency Declaration Blanket Waivers for Health Care Providers',
                   'HHS Office of Inspector General — Telehealth Fraud Reports (2021-2025)',
                   'Department of Justice — Healthcare Fraud Enforcement Actions (2025)',

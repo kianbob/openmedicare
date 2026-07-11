@@ -5,10 +5,11 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Where Your $854B Medicare Dollar Goes',
-  description: 'Every cent of $854.8B in Medicare Part B spending, mapped. Office visits take 18 cents, drugs 11 cents. See the full breakdown by category.',
+  title: 'Where Your $940B Medicare Dollar Goes',
+  description: 'Every cent of $940B in Medicare Part B spending, mapped. Office visits take 18 cents, drugs 11 cents. See the full breakdown by category.',
 }
 
 const categories = [
@@ -126,6 +127,22 @@ const categories = [
   },
 ]
 
+
+const faqs = [
+  {
+    "question": "Where does each Medicare dollar go?",
+    "answer": "Medicare dollars are distributed across hospital services (the largest share), physician services, prescription drugs, skilled nursing facilities, home health, and administrative costs — with the exact breakdown varying by year."
+  },
+  {
+    "question": "What percentage of Medicare spending goes to doctors?",
+    "answer": "Physician and clinical services account for approximately 15-20% of total Medicare spending, with the remainder going to hospitals, drugs, post-acute care, and other services."
+  },
+  {
+    "question": "How has the distribution of Medicare spending changed?",
+    "answer": "Over the past decade, drug spending has grown as a share of total Medicare costs, outpatient services have gained share from inpatient, and post-acute care spending has been targeted for reduction through payment reforms."
+  }
+]
+
 export default function WhereMedicareDollarGoesPage() {
   const totalSpending = 854842324155
 
@@ -136,6 +153,7 @@ export default function WhereMedicareDollarGoesPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'Where Your Medicare Dollar Goes' },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -214,7 +232,7 @@ export default function WhereMedicareDollarGoesPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Medicare Part B Spending by Category</h3>
-            <p className="text-sm text-gray-500">Estimated from procedure-level data, 2014–2023</p>
+            <p className="text-sm text-gray-500">Estimated from procedure-level data, 2014–2024</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -376,7 +394,7 @@ export default function WhereMedicareDollarGoesPage() {
             <li><strong>Administrative costs</strong> — CMS operations, fraud detection, enrollment</li>
           </ul>
           <p className="text-gray-700 mb-4">
-            Total Medicare spending (all parts) exceeds $900 billion annually. The {formatCurrency(93721075813)} in
+            Total Medicare spending (all parts) exceeds $890 billion annually. The {formatCurrency(93721075813)} in
             Part B payments in 2023 represents roughly 10% of the total — but it&apos;s the most
             transparent portion, with detailed procedure-level data available for public analysis.
           </p>
@@ -392,7 +410,7 @@ export default function WhereMedicareDollarGoesPage() {
           <p className="text-gray-700 mb-4">
             Medicare&apos;s financial sustainability depends on making every dollar count. With an
             aging population pushing enrollment higher and per-beneficiary costs climbing, the
-            $854.8 billion question isn&apos;t just academic — it&apos;s the defining fiscal challenge
+            $940 billion question isn&apos;t just academic — it&apos;s the defining fiscal challenge
             of the next generation.
           </p>
 

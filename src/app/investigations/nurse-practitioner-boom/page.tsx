@@ -8,6 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Nurse Practitioner Boom: 11% of Medicare, $26K Avg',
@@ -35,6 +36,26 @@ interface Specialty {
   payment_share: number
   provider_share: number
 }
+
+
+const faqs = [
+  {
+    "question": "How much has nurse practitioner billing grown in Medicare?",
+    "answer": "Nurse practitioner Medicare billing has exploded over the past decade, with NPs now representing one of the fastest-growing provider categories in terms of both claim volume and total payments."
+  },
+  {
+    "question": "Why are more nurse practitioners billing Medicare?",
+    "answer": "Growth is driven by expanded scope-of-practice laws, physician shortages in rural areas, lower salary costs for health systems, and CMS policy changes allowing NPs to bill Medicare independently."
+  },
+  {
+    "question": "Do nurse practitioners bill differently than doctors in Medicare?",
+    "answer": "NPs typically bill at 85% of physician rates for the same services. Their billing profiles tend to focus more on evaluation and management visits, with less procedural billing compared to physicians."
+  },
+  {
+    "question": "Are nurse practitioners replacing doctors in Medicare?",
+    "answer": "In many settings, NPs are supplementing or replacing physicians for primary care services. States with full practice authority for NPs show the highest growth in NP Medicare billing."
+  }
+]
 
 export default function NursePractitionerBoomPage() {
   const publishedDate = '2026-02-21'
@@ -64,6 +85,7 @@ export default function NursePractitionerBoomPage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -304,7 +326,7 @@ export default function NursePractitionerBoomPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data (2014-2023). Provider counts represent unique NPI-year combinations over the decade.
+                and Payment Data (2014-2024). Provider counts represent unique NPI-year combinations over the decade.
                 Individual cases cited are based on public billing data and do not constitute accusations of fraud.
               </p>
             </div>
@@ -327,7 +349,7 @@ export default function NursePractitionerBoomPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'American Association of Nurse Practitioners — State Practice Environment Map (2025)',
                   'American Medical Association — Scope of Practice Policy',
                   'Bureau of Labor Statistics — Nurse Practitioner Employment Data',

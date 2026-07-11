@@ -8,6 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'AI Trained on 2,198 Fraudsters Found 500 Matches',
@@ -43,6 +44,26 @@ const featureImportance = [
   { feature: 'Geographic Concentration', importance: 5.1, explanation: 'Fraud clusters geographically. South Florida, Houston, Los Angeles, and Detroit are historical hotspots.' },
 ]
 
+
+const faqs = [
+  {
+    "question": "How does AI detect Medicare fraud?",
+    "answer": "Machine learning models analyze billing patterns from confirmed fraud cases — including markup ratios, services per patient, and billing volume — to identify active providers with statistically similar behavior."
+  },
+  {
+    "question": "What data is used to train Medicare fraud detection models?",
+    "answer": "Models are trained on CMS Medicare Provider Utilization and Payment Data combined with OIG exclusion records of confirmed fraudsters, covering billing patterns across specialties and states."
+  },
+  {
+    "question": "Can an algorithm really predict which doctors are committing fraud?",
+    "answer": "Algorithms identify providers whose billing patterns closely match those of convicted fraudsters. A high-probability flag does not prove fraud, but it highlights providers warranting further investigation."
+  },
+  {
+    "question": "What billing red flags does the fraud model look for?",
+    "answer": "Key indicators include unusually high services per beneficiary, inflated markup ratios (charges vs. allowed amounts), abnormally high billing volume, and short career duration — all patterns common among convicted Medicare fraudsters."
+  }
+]
+
 export default function AlgorithmKnowsPage() {
   const publishedDate = '2026-02-21'
   const readTime = '15 min read'
@@ -55,6 +76,7 @@ export default function AlgorithmKnowsPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/algorithm-knows"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -165,7 +187,7 @@ export default function AlgorithmKnowsPage() {
                   </div>
                 </div>
                 <p className="text-blue-700 text-sm mt-4">
-                  <strong>Data source:</strong> CMS Medicare Provider Utilization and Payment Data (2014–2023),
+                  <strong>Data source:</strong> CMS Medicare Provider Utilization and Payment Data (2014–2024),
                   1.7M+ providers scored. HHS OIG LEIE database. DOJ press releases and case records.
                 </p>
               </div>
@@ -480,7 +502,7 @@ export default function AlgorithmKnowsPage() {
               {/* Source Citation */}
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'Department of Justice — Healthcare Fraud Prosecution Records',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',

@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: "39 AI-Flagged Providers: NY's Hidden Fraud Problem",
@@ -28,6 +29,22 @@ const flaggedProviders = [
   { npi: '1225126279', name: 'Dunstan Pulle', specialty: 'Internal Medicine', city: 'Queens', prob: 0.930, pay: 272786, note: 'Queens internist with lower payment volume but billing patterns that still match convicted fraudsters — proof that fraud detection isn\'t just about dollar amounts.' },
 ]
 
+
+const faqs = [
+  {
+    "question": "How prevalent is Medicare fraud in New York?",
+    "answer": "New York ranks among the top states for Medicare fraud prosecutions, with the New York City metro area being one of the original Medicare Fraud Strike Force target cities due to high rates of fraudulent billing."
+  },
+  {
+    "question": "What types of Medicare fraud are common in New York?",
+    "answer": "New York sees significant fraud in home health services, physical therapy mills, no-fault insurance schemes that overlap with Medicare, and organized billing fraud in clinics across Brooklyn, Queens, and the Bronx."
+  },
+  {
+    "question": "How much has Medicare fraud cost New York taxpayers?",
+    "answer": "DOJ prosecutions in New York have recovered hundreds of millions in Medicare fraud settlements, with individual cases sometimes involving tens of millions in fraudulent billing by single provider networks."
+  }
+]
+
 export default function NewYorkMedicareFraudPage() {
   const publishedDate = '2026-02-21'
   const readTime = '13 min read'
@@ -40,6 +57,7 @@ export default function NewYorkMedicareFraudPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/new-york-medicare-fraud"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -243,7 +261,7 @@ export default function NewYorkMedicareFraudPage() {
 
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'DOJ Eastern District of New York — Healthcare Fraud Prosecutions (2012–2025)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',

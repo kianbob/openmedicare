@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Fraud in 2025: $14.6B in Cases Exposed',
@@ -18,11 +19,28 @@ export const metadata: Metadata = {
   },
 }
 
+
+const faqs = [
+  {
+    "question": "What are the biggest Medicare fraud trends in 2025?",
+    "answer": "Key 2025 trends include continued growth in telehealth fraud, genetic testing schemes, wound care billing exploitation, and increasingly sophisticated use of AI and automation to generate fraudulent claims at scale."
+  },
+  {
+    "question": "How much does Medicare fraud cost taxpayers in 2025?",
+    "answer": "Medicare fraud and improper payments are estimated to exceed $50-100 billion annually, representing one of the largest sources of government waste and a significant threat to the program's financial sustainability."
+  },
+  {
+    "question": "What is CMS doing to combat Medicare fraud in 2025?",
+    "answer": "CMS has expanded its use of AI and predictive analytics, implemented enhanced prior authorization requirements, increased provider enrollment screening, and expanded the Medicare Fraud Strike Force operations."
+  }
+]
+
 export default function MedicareFraud2025Page() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <ArticleJsonLd title="Medicare Fraud in 2025" description="The state of Medicare fraud enforcement and what the data reveals" url="https://www.openmedicare.us/investigations/medicare-fraud-2025" publishedDate="2026-02-21" />
+      <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'Medicare Fraud in 2025' }
@@ -193,6 +211,10 @@ export default function MedicareFraud2025Page() {
                 <div className="font-semibold text-gray-900">Medicare&apos;s Millionaire Club</div>
                 <div className="text-sm text-gray-500">The 1% who bill the most</div>
               </Link>
+              <Link href="/investigations/medicare-fraud-biggest-cases-2025-2026" className="block bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                <div className="font-semibold text-gray-900">Biggest Medicare Fraud Cases 2025-2026</div>
+                <div className="text-sm text-gray-500">The record takedown and beyond</div>
+              </Link>
             </div>
           </div>
         </article>
@@ -211,7 +233,7 @@ export default function MedicareFraud2025Page() {
             'U.S. Department of Justice Healthcare Fraud Enforcement Actions (2025)',
             'HHS Office of Inspector General Reports',
             'False Claims Act Statistics (DOJ Civil Division)',
-            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
           ]}
         />
       </div>

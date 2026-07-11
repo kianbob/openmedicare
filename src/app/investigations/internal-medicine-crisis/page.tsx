@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '53% of AI-Flagged Medicare Providers Share 1 Specialty',
@@ -34,6 +35,22 @@ const specialtyComparison = [
   { specialty: 'All Others', flagged: 56, pct: 11.2, color: 'bg-gray-400' },
 ]
 
+
+const faqs = [
+  {
+    "question": "Why is internal medicine over-represented in Medicare fraud?",
+    "answer": "Internal medicine is the most common specialty among Medicare providers, handles the broadest range of services, and has the most billing flexibility — making it both the largest specialty by volume and the most common among convicted fraudsters."
+  },
+  {
+    "question": "How much does Medicare pay internal medicine doctors?",
+    "answer": "Internal medicine providers collectively receive more Medicare payments than any other specialty, though individual payments vary widely from under $50,000 to over $1 million annually depending on practice patterns."
+  },
+  {
+    "question": "What billing red flags exist in internal medicine?",
+    "answer": "Red flags include unusually high evaluation and management (E&M) coding levels, excessive services per beneficiary, high markup ratios, and billing patterns that cluster around the highest-paying office visit codes."
+  }
+]
+
 export default function InternalMedicineCrisisPage() {
   const publishedDate = '2026-02-21'
   const readTime = '10 min read'
@@ -46,6 +63,7 @@ export default function InternalMedicineCrisisPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/internal-medicine-crisis"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -370,7 +388,7 @@ export default function InternalMedicineCrisisPage() {
               {/* Source Citation */}
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',
                   'DOJ Healthcare Fraud Prosecution Records by Specialty',

@@ -9,6 +9,7 @@ import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'The COVID Gold Rush: $2.8B in Test Billing',
@@ -62,6 +63,22 @@ function loadData(): CovidData {
   }
 }
 
+
+const faqs = [
+  {
+    "question": "How did providers exploit COVID-19 through Medicare?",
+    "answer": "The \"COVID gold rush\" saw providers exploit pandemic emergency flexibilities — billing for unnecessary COVID tests, fraudulent telehealth visits, and pandemic-related treatments on patients who never received care."
+  },
+  {
+    "question": "How much Medicare money was lost to COVID-related fraud?",
+    "answer": "DOJ has charged hundreds of defendants with COVID-related healthcare fraud totaling billions in false claims, making it one of the largest categories of pandemic-era fraud."
+  },
+  {
+    "question": "What pandemic flexibilities were exploited for Medicare fraud?",
+    "answer": "Fraudsters exploited relaxed telehealth rules, waived in-person visit requirements, expanded coverage for COVID testing, reduced oversight and auditing, and accelerated payment processes designed to speed care delivery."
+  }
+]
+
 export default function CovidGoldRushPage() {
   const data = loadData()
   const totalPayments = data.total_covid_payments
@@ -99,6 +116,7 @@ export default function CovidGoldRushPage() {
         publishedDate="2026-02-21"
         url="https://www.openmedicare.us/investigations/the-covid-gold-rush"
       />
+      <FAQSchema faqs={faqs} />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },

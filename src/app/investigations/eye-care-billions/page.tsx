@@ -6,6 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Eye Care Costs Medicare $73B — One Drug Is $19.7B',
@@ -35,6 +36,22 @@ const eyeCareProcedures = [
   { code: 'J7312', description: 'Dexamethasone intravitreal implant', payments: 229081906, services: 1471417, isDrug: true },
 ]
 
+
+const faqs = [
+  {
+    "question": "How much does Medicare spend on eye care?",
+    "answer": "Medicare spends billions annually on ophthalmology services, with eye drug injections alone accounting for the single most expensive drug category in the entire Medicare Part B program."
+  },
+  {
+    "question": "Why is eye care so expensive in Medicare?",
+    "answer": "The high cost is driven primarily by expensive biologic drugs like Aflibercept and Ranibizumab used to treat macular degeneration, combined with the frequency of injections required (often monthly)."
+  },
+  {
+    "question": "What are the most common expensive eye procedures in Medicare?",
+    "answer": "Intravitreal injections for macular degeneration, cataract surgery, and retinal procedures are the highest-cost eye care services, with drug injections dominating total ophthalmology spending."
+  }
+]
+
 export default function EyeCareBillionsPage() {
   const totalEyeCare = eyeCareProcedures.reduce((s, p) => s + p.payments, 0)
   const drugTotal = eyeCareProcedures.filter(p => p.isDrug).reduce((s, p) => s + p.payments, 0)
@@ -48,6 +65,7 @@ export default function EyeCareBillionsPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'The Billion-Dollar Eye Care Industry' },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -147,7 +165,7 @@ export default function EyeCareBillionsPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 20 Eye Care Codes by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">2014–2023 cumulative</p>
+            <p className="text-sm text-gray-500">2014–2024 cumulative</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -298,7 +316,7 @@ export default function EyeCareBillionsPage() {
             </Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">The full breakdown of $854.8B in spending</p>
+              <p className="text-sm text-gray-500 mt-1">The full breakdown of $940B in spending</p>
             </Link>
             <Link href="/investigations/anesthesia-markup" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Anesthesia Markup Scandal</h4>

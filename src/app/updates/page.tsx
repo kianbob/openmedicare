@@ -12,6 +12,40 @@ export const metadata: Metadata = {
 
 const updates = [
   {
+    date: 'July 2026',
+    highlight: true,
+    items: [
+      {
+        title: 'Data Updated: 2024 CMS Data Now Live',
+        description: 'Incorporated the 2024 Medicare Provider Utilization and Payment Data release. Total coverage now spans 11 years (2014-2024), with cumulative payments exceeding $940 billion across 1.82 million providers. All analysis pages, state breakdowns, and provider profiles updated.',
+        tags: ['Data', 'Major'],
+      },
+      {
+        title: 'Drug Price Negotiation Investigation Published',
+        description: 'New investigation covering the Inflation Reduction Act\'s Medicare drug price negotiation program. Covers the first 10 negotiated drugs, $6B in estimated first-year savings, and the 2027 expansion to 15 more drugs.',
+        tags: ['Investigations'],
+        link: '/investigations/drug-price-negotiation-2026',
+      },
+      {
+        title: 'Updated Spending Figures Across All Pages',
+        description: 'All references updated to reflect 2024 data: $940B+ total payments, 1.82M providers, 68.5M beneficiaries, and $890B+ annual Medicare spending.',
+        tags: ['Enhancement'],
+      },
+      {
+        title: 'Medicare Cost Calculator Expanded',
+        description: 'Calculator now includes common procedure cost reference table, explanations of Medicare pricing methodology, Part B premium/deductible info for 2026, and tips for managing Medicare costs.',
+        tags: ['Enhancement'],
+        link: '/calculator',
+      },
+      {
+        title: '6 New Analysis Sections Added',
+        description: 'Expanded Drug Spending, Rural vs Urban, Markup Analysis, and Deep Analysis pages with additional context, methodology explanations, and key findings. All pages now exceed 300 lines of substantive content.',
+        tags: ['Analysis', 'Enhancement'],
+        link: '/analysis',
+      },
+    ],
+  },
+  {
     date: 'February 21, 2026 — Evening',
     highlight: true,
     items: [
@@ -29,7 +63,7 @@ const updates = [
     items: [
       {
         title: 'AI Fraud Detection Model v2',
-        description: 'Trained on 2,198 confirmed fraudsters, analyzed 1.72M providers, flagged 500 high-risk. Our ML model now combines anomaly detection, peer comparison, and known-fraud pattern matching for the most comprehensive risk scoring in Medicare transparency.',
+        description: 'Trained on 2,198 confirmed fraudsters, analyzed 1.82M providers, flagged 500 high-risk. Our ML model now combines anomaly detection, peer comparison, and known-fraud pattern matching for the most comprehensive risk scoring in Medicare transparency.',
         tags: ['AI/ML', 'Major'],
         link: '/fraud',
       },
@@ -89,7 +123,7 @@ const updates = [
       },
       {
         title: 'Initial Data Processing Complete',
-        description: '96 million rows of CMS Medicare Provider Utilization and Payment data (2014-2023) processed, analyzed, and loaded.',
+        description: '96 million rows of CMS Medicare Provider Utilization and Payment data (2014-2024) processed, analyzed, and loaded.',
         tags: ['Data'],
       },
     ],
@@ -117,6 +151,26 @@ export default function UpdatesPage() {
         <div className="mb-10">
           <h1 className="text-4xl font-bold text-gray-900 font-serif mb-4">Updates & Changelog</h1>
           <p className="text-xl text-gray-600">A timeline of new features, data releases, and investigations.</p>
+        </div>
+
+        {/* Stats Banner */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
+            <div className="text-2xl font-bold text-blue-600">74+</div>
+            <div className="text-sm text-gray-500">Investigations</div>
+          </div>
+          <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
+            <div className="text-2xl font-bold text-green-600">1.82M</div>
+            <div className="text-sm text-gray-500">Providers</div>
+          </div>
+          <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
+            <div className="text-2xl font-bold text-purple-600">$940B+</div>
+            <div className="text-sm text-gray-500">Payments Analyzed</div>
+          </div>
+          <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
+            <div className="text-2xl font-bold text-red-600">500</div>
+            <div className="text-sm text-gray-500">AI-Flagged Providers</div>
+          </div>
         </div>
 
         <div className="relative">
@@ -157,6 +211,92 @@ export default function UpdatesPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Site Stats */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Platform Stats</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="font-bold text-gray-900">74+</div>
+              <div className="text-gray-500">Investigation Articles</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="font-bold text-gray-900">30,000+</div>
+              <div className="text-gray-500">Deep Provider Profiles</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="font-bold text-gray-900">500</div>
+              <div className="text-gray-500">AI-Flagged Providers</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="font-bold text-gray-900">61</div>
+              <div className="text-gray-500">State & Territory Pages</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="font-bold text-gray-900">105+</div>
+              <div className="text-gray-500">Specialty Breakdowns</div>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="font-bold text-gray-900">7,500+</div>
+              <div className="text-gray-500">Procedure Codes</div>
+            </div>
+          </div>
+        </div>
+
+        {/* What's Coming Next */}
+        <div className="bg-blue-50 rounded-xl p-8 mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">🔮 What&apos;s Coming Next</h2>
+          <div className="space-y-3 text-sm text-gray-700">
+            <div className="flex items-start gap-3">
+              <span className="text-lg">📊</span>
+              <div>
+                <h4 className="font-semibold text-gray-900">Medicare Advantage Analysis</h4>
+                <p>A deep comparison of Medicare Advantage vs Traditional Medicare spending, enrollment trends, and what the shift means for provider payments.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-lg">🗺️</span>
+              <div>
+                <h4 className="font-semibold text-gray-900">Interactive State Comparison Tool</h4>
+                <p>Compare any two states side-by-side on spending, fraud rates, provider density, and top specialties.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-lg">🤖</span>
+              <div>
+                <h4 className="font-semibold text-gray-900">AI Model v3</h4>
+                <p>Next-generation fraud detection incorporating temporal patterns, network analysis (provider referral chains), and 2024 billing data for improved accuracy.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-lg">📱</span>
+              <div>
+                <h4 className="font-semibold text-gray-900">Mobile-Optimized Provider Lookup</h4>
+                <p>A streamlined mobile experience for looking up providers, checking fraud flags, and comparing costs on the go.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* How to Stay Updated */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">How to Stay Updated</h2>
+          <div className="space-y-3 text-sm text-gray-700">
+            <p>
+              OpenMedicare is continuously updated with new investigations, data releases, and features.
+              Bookmark this page to track changes, or check back regularly for new content.
+            </p>
+            <p>
+              <strong>Data releases:</strong> CMS publishes new Medicare Provider Utilization data annually, typically
+              in the spring. We process and integrate new data within weeks of release, updating all provider profiles,
+              state pages, and analyses.
+            </p>
+            <p>
+              <strong>Investigations:</strong> New data-driven investigations are published regularly, focusing on
+              fraud patterns, spending anomalies, and policy-relevant findings from our analysis of $940B+ in
+              Medicare payments.
+            </p>
           </div>
         </div>
       </div>

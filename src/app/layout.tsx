@@ -20,10 +20,10 @@ const GA_ID = 'G-8VXQC61QX1'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Medicare Spending Data: $890B Exposed | OpenMedicare',
+    default: 'Medicare Spending Data: $940B Exposed | OpenMedicare',
     template: '%s | OpenMedicare'
   },
-  description: 'Search 1.78M Medicare providers and $890B in payments (2014-2024). AI fraud detection flagged 500 providers. Free provider lookup, drug costs, and spending by state.',
+  description: 'Search 1.82M+ Medicare providers and $940B+ in payments (2014-2024). AI fraud detection flagged 500 providers. Exposed $890B+ in annual Medicare spending serving 68.5M beneficiaries. Free provider lookup, drug costs, and spending by state.',
   keywords: ['Medicare', 'healthcare spending', 'physician payments', 'data journalism', 'healthcare transparency'],
   authors: [{ name: 'OpenMedicare Team' }],
   creator: 'OpenMedicare',
@@ -36,15 +36,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.openmedicare.us',
-    title: 'Medicare Spending Data: $854B Exposed | OpenMedicare',
-    description: 'Search 1.72M Medicare providers and $854B in payments. AI fraud detection flagged 500 providers. Free provider lookup and spending data.',
+    title: 'Medicare Spending Data: $940B Exposed | OpenMedicare',
+    description: 'Search 1.82M+ Medicare providers and $940B+ in payments (2014-2024). AI fraud detection flagged 500 providers. Free provider lookup, drug costs, and 2026 spending data.',
     siteName: 'OpenMedicare',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'OpenMedicare — $854.8B in Medicare Exposed',
+        alt: 'OpenMedicare — $940B in Medicare Exposed',
       },
     ],
   },
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@thedataproject0',
     creator: '@thedataproject0',
-    title: 'Medicare Spending Data: $854B Exposed | OpenMedicare',
-    description: 'Search 1.72M Medicare providers and $854B in payments. AI fraud detection flagged 500 providers. Free lookup tool.',
+    title: 'Medicare Spending Data: $940B Exposed | OpenMedicare',
+    description: 'Search 1.82M+ Medicare providers and $940B+ in payments. AI fraud detection flagged 500 providers. Medicare spending data for 68.5M beneficiaries — updated 2026.',
     images: ['/og-image.png'],
   },
   robots: {

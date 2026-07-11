@@ -7,6 +7,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '4,636 Doctors Billing 9,862 Services a Day',
@@ -47,6 +48,22 @@ function formatNum(n: number): string {
   return `$${n.toFixed(0)}`
 }
 
+
+const faqs = [
+  {
+    "question": "What are the 4,636 impossible doctors?",
+    "answer": "Analysis identified 4,636 Medicare providers whose annual billing volumes appear physically impossible — billing for more patient-hours than exist in a year or more services than one provider could plausibly deliver."
+  },
+  {
+    "question": "How can a doctor bill for impossible hours?",
+    "answer": "Impossible billing can result from fraud (billing for services never provided), \"incident-to\" billing (staff services billed under one NPI), shared billing arrangements, or systematic coding errors."
+  },
+  {
+    "question": "What does CMS do about impossible billing volumes?",
+    "answer": "CMS uses automated edits to catch some impossible claims, but retrospective analysis reveals many slip through. Enhanced data analytics and real-time monitoring are being deployed to catch more anomalies."
+  }
+]
+
 export default function The4636ImpossibleDoctorsPage() {
   return (
     <main className="min-h-screen bg-gray-50">
@@ -56,6 +73,7 @@ export default function The4636ImpossibleDoctorsPage() {
         url="https://www.openmedicare.us/investigations/the-4636-impossible-doctors"
         publishedDate="2026-02-21"
       />
+      <FAQSchema faqs={faqs} />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
@@ -328,7 +346,7 @@ export default function The4636ImpossibleDoctorsPage() {
 
             <SourceCitation
               sources={[
-                'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+                'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
                 'OpenMedicare fraud-features.json analysis of 1,139,881 providers',
               ]}
             />

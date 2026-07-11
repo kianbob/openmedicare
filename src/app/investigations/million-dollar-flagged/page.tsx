@@ -8,6 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '47 AI-Flagged Providers Who Billed $93M+',
@@ -37,6 +38,22 @@ const millionDollarStats = {
   avgSPB: 3.64,
 }
 
+
+const faqs = [
+  {
+    "question": "What does it mean when a Medicare provider is \"flagged\"?",
+    "answer": "A flagged provider has billing patterns that statistically match those of convicted Medicare fraudsters. Flags are based on data analysis — they indicate risk patterns, not confirmed fraud."
+  },
+  {
+    "question": "How many million-dollar Medicare providers are flagged for fraud risk?",
+    "answer": "Among providers receiving over $1 million from Medicare, a significant percentage show billing patterns consistent with convicted fraudsters, particularly in high-risk specialties and geographic hotspots."
+  },
+  {
+    "question": "What happens when a Medicare provider is flagged?",
+    "answer": "Data-driven flags can trigger enhanced scrutiny from CMS, OIG investigation, claims audits, or referral to the Medicare Fraud Strike Force. Not all flagged providers are investigated, and flags do not constitute accusations."
+  }
+]
+
 export default function MillionDollarFlaggedPage() {
   const publishedDate = '2026-02-21'
   const readTime = '11 min read'
@@ -49,6 +66,7 @@ export default function MillionDollarFlaggedPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/million-dollar-flagged"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -304,7 +322,7 @@ export default function MillionDollarFlaggedPage() {
               {/* Source Citation */}
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',
                   'Provider-level billing aggregates from public CMS data',

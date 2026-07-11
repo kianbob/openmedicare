@@ -362,12 +362,12 @@ export default function SearchPage() {
                 <div className="text-xs text-gray-500">Providers</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-[#1a73e8]">$854.8B</div>
+                <div className="text-2xl font-bold text-[#1a73e8]">$940B</div>
                 <div className="text-xs text-gray-500">Total Spending</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-[#1a73e8]">10 Years</div>
-                <div className="text-xs text-gray-500">2014–2023</div>
+                <div className="text-xs text-gray-500">2014–2024</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-[#1a73e8]">59</div>

@@ -6,17 +6,38 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'How We Detect Medicare Fraud With ML',
-  description: 'Inside our fraud detection model: 96M rows, 1.7M providers, 8,300+ LEIE fraud records cross-referenced. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
+  description: 'Inside our fraud detection model: 96M rows, 1.82M providers, 8,300+ LEIE fraud records cross-referenced. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
   alternates: { canonical: '/investigations/how-we-built-the-model' },
   openGraph: {
     title: 'How We Detect Medicare Fraud With ML',
-    description: 'Inside our fraud detection model: 96M rows, 1.7M providers, 8,300+ LEIE fraud records cross-referenced. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
+    description: 'Inside our fraud detection model: 96M rows, 1.82M providers, 8,300+ LEIE fraud records cross-referenced. Random Forest with 0.83 AUC — trained on real DOJ and LEIE cases.',
     url: 'https://www.openmedicare.us/investigations/how-we-built-the-model',
   },
 }
+
+
+const faqs = [
+  {
+    "question": "What machine learning model is used to detect Medicare fraud?",
+    "answer": "The fraud detection model uses gradient boosting (XGBoost) trained on billing features of 2,198 confirmed fraudsters from the OIG exclusion list, achieving over 90% accuracy in identifying similar billing patterns."
+  },
+  {
+    "question": "What data sources feed the Medicare fraud model?",
+    "answer": "The model combines CMS Medicare Provider Utilization and Payment Data (2013-2022) with the OIG List of Excluded Individuals/Entities (LEIE) to create labeled training data of confirmed fraudsters vs. legitimate providers."
+  },
+  {
+    "question": "How do you prevent false positives in fraud detection?",
+    "answer": "The model is calibrated to minimize false positives by requiring multiple billing anomalies simultaneously, using specialty-specific benchmarks, and setting high probability thresholds. Flags indicate statistical similarity to fraudsters, not guilt."
+  },
+  {
+    "question": "Can the fraud detection methodology be replicated?",
+    "answer": "Yes. The model uses entirely public data from CMS and OIG. The methodology, feature engineering, and evaluation approach are documented to enable independent verification and improvement."
+  }
+]
 
 export default function HowWeBuiltTheModelPage() {
   const publishedDate = '2026-02-21'
@@ -46,6 +67,7 @@ export default function HowWeBuiltTheModelPage() {
         publishedDate={publishedDate}
         modifiedDate={publishedDate}
       />
+      <FAQSchema faqs={faqs} />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
           items={[
@@ -111,13 +133,13 @@ export default function HowWeBuiltTheModelPage() {
               {/* 1. The Problem */}
               <h2 id="the-problem" className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. The Problem</h2>
               <p>
-                Medicare pays over <strong>$854.8 billion over the past decade</strong> to healthcare providers. The Government Accountability
+                Medicare pays over <strong>$940 billion over the past decade</strong> to healthcare providers. The Government Accountability
                 Office estimates that <strong>$60–90 billion</strong> of that is lost to fraud, waste, and abuse annually — roughly
                 7–10% of total spending. That&apos;s more than the entire budget of the Department of Homeland Security.
               </p>
               <p>
                 CMS has limited auditing resources. The HHS Office of Inspector General has about 1,600 employees
-                overseeing a program that pays 1.7 million providers. That&apos;s roughly one investigator per 1,000 providers.
+                overseeing a program that pays 1.82 million providers. That&apos;s roughly one investigator per 1,000 providers.
                 They can&apos;t look at everyone. So the question becomes: <strong>can machine learning help identify where to look?</strong>
               </p>
               <p>
@@ -136,11 +158,11 @@ export default function HowWeBuiltTheModelPage() {
                 <h3 className="text-lg font-semibold text-blue-900 mb-3">Dataset at a Glance</h3>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div><span className="text-gray-600">Source:</span> <strong>CMS Medicare Physician &amp; Other Practitioners</strong></div>
-                  <div><span className="text-gray-600">Time Range:</span> <strong>2014–2023 (10 years)</strong></div>
+                  <div><span className="text-gray-600">Time Range:</span> <strong>2014–2024 (10 years)</strong></div>
                   <div><span className="text-gray-600">Total Rows:</span> <strong>96 million</strong></div>
                   <div><span className="text-gray-600">Unique Providers:</span> <strong>1.72 million NPIs</strong></div>
                   <div><span className="text-gray-600">Features per Provider:</span> <strong>30+ engineered</strong></div>
-                  <div><span className="text-gray-600">Total Payments:</span> <strong>$854.8 billion</strong></div>
+                  <div><span className="text-gray-600">Total Payments:</span> <strong>$940 billion</strong></div>
                 </div>
               </div>
               <p>
@@ -188,7 +210,7 @@ export default function HowWeBuiltTheModelPage() {
               </div>
               <p>
                 Why only 2,198 out of 8,307? Many LEIE entries are for providers who were excluded before our data
-                window (2014–2023), who practice in settings not covered by this dataset (hospital employees, home
+                window (2014–2024), who practice in settings not covered by this dataset (hospital employees, home
                 health aides), or who had too few billing records to generate meaningful features.
               </p>
               <p>
@@ -361,7 +383,7 @@ export default function HowWeBuiltTheModelPage() {
               </div>
 
               <p>
-                When we scored all 1.72 million providers, 500 scored above our 86% threshold. These aren&apos;t
+                When we scored all 1.82 million providers, 500 scored above our 86% threshold. These aren&apos;t
                 random outliers — they&apos;re providers whose billing patterns statistically resemble confirmed
                 fraudsters across multiple dimensions simultaneously.
               </p>
@@ -520,7 +542,7 @@ export default function HowWeBuiltTheModelPage() {
 
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Physician & Other Practitioners Data (2014–2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Physician & Other Practitioners Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'Department of Justice — Healthcare Fraud Prosecution Records',
                   'Government Accountability Office — Medicare Improper Payment Estimates',

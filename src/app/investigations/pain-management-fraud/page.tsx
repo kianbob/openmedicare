@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '7 Pain Clinics Flagged: The Opioid-Fraud Link',
@@ -125,6 +126,22 @@ const totalFlaggedPayments = flaggedProviders.reduce((sum, p) => sum + p.totalPa
 const totalFlaggedServices = flaggedProviders.reduce((sum, p) => sum + p.services, 0)
 const avgMarkup = flaggedProviders.reduce((sum, p) => sum + p.markupRatio, 0) / flaggedProviders.length
 
+
+const faqs = [
+  {
+    "question": "How does pain management fraud work in Medicare?",
+    "answer": "Common schemes include billing for unnecessary urine drug tests, performing excessive interventional procedures, prescribing unnecessary medications to generate office visits, and billing for services not rendered."
+  },
+  {
+    "question": "Why is pain management a high-risk specialty for Medicare fraud?",
+    "answer": "Pain management involves subjective diagnoses, expensive procedures, frequent office visits, and lucrative ancillary services like drug testing — all creating opportunities for billing abuse."
+  },
+  {
+    "question": "How much does pain management fraud cost Medicare?",
+    "answer": "Pain management fraud costs Medicare hundreds of millions annually, with some individual providers billing for millions in questionable services including excessive drug testing and unnecessary procedures."
+  }
+]
+
 export default function PainManagementFraudPage() {
   const publishedDate = '2026-02-21'
   const readTime = '14 min read'
@@ -137,6 +154,7 @@ export default function PainManagementFraudPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/pain-management-fraud"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -481,7 +499,7 @@ export default function PainManagementFraudPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data (2014–2023) and our machine learning model trained on confirmed fraud cases. Being flagged
+                and Payment Data (2014–2024) and our machine learning model trained on confirmed fraud cases. Being flagged
                 by an AI model does not constitute an accusation of fraud. Named providers have not been charged with any crime.
                 All data is from public sources.
               </p>
@@ -507,7 +525,7 @@ export default function PainManagementFraudPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2024)',
                   'OpenMedicare ML Fraud Detection Model v2.0 — Trained on 2,198 LEIE/DOJ confirmed fraud cases',
                   'U.S. Department of Justice — Healthcare Fraud Unit Annual Reports (2019–2024)',
                   'DEA Diversion Control Division — Pain Clinic Enforcement Actions',

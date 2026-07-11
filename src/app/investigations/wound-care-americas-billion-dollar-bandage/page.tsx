@@ -7,6 +7,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Wound Care: America\'s $5.5B Bandage Scheme',
@@ -60,6 +61,22 @@ function formatMoney(n: number): string {
   return `$${n.toFixed(0)}`
 }
 
+
+const faqs = [
+  {
+    "question": "How much does Medicare spend on wound care?",
+    "answer": "Medicare wound care spending has ballooned to billions annually, driven largely by expensive skin substitute grafts, hyperbaric oxygen therapy, and debridement services — with some wound care clinics billing millions per year."
+  },
+  {
+    "question": "Why is wound care called America's billion-dollar bandage?",
+    "answer": "The term reflects the explosive growth in wound care billing, particularly for skin substitute products that can cost thousands per application and are applied repeatedly — making wound care one of Medicare's fastest-growing expense categories."
+  },
+  {
+    "question": "What is driving the growth in Medicare wound care costs?",
+    "answer": "Growth is driven by new expensive skin substitute products, expansion of wound care clinics, aging population with diabetes and vascular disease, and financial incentives that reward frequent treatments over outcomes."
+  }
+]
+
 export default function WoundCareAmericasBillionDollarBandagePage() {
   return (
     <main className="min-h-screen bg-gray-50">
@@ -69,6 +86,7 @@ export default function WoundCareAmericasBillionDollarBandagePage() {
         url="https://www.openmedicare.us/investigations/wound-care-americas-billion-dollar-bandage"
         publishedDate="2026-02-21"
       />
+      <FAQSchema faqs={faqs} />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
@@ -364,7 +382,7 @@ export default function WoundCareAmericasBillionDollarBandagePage() {
 
             <SourceCitation
               sources={[
-                'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+                'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
                 'OpenMedicare wound-care.json — 500 top wound care providers, top codes, yearly trends',
               ]}
             />

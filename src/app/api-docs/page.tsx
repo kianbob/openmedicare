@@ -17,7 +17,7 @@ const endpoints = [
   { path: '/data/states.json', description: 'State-level Medicare spending data' },
   { path: '/data/specialties.json', description: 'Specialty-level spending data' },
   { path: '/data/procedures.json', description: 'Procedure-level spending data' },
-  { path: '/data/trends.json', description: '10-year spending trends (2014–2023)' },
+  { path: '/data/trends.json', description: '10-year spending trends (2014–2024)' },
   { path: '/data/fraud-features.json', description: 'Fraud feature matrix for 1.14M providers' },
   { path: '/data/covid-test-billing.json', description: '$2.84B COVID test billing analysis' },
   { path: '/data/wound-care.json', description: '$5.53B wound care billing analysis' },
@@ -203,7 +203,7 @@ console.log(data.providers.length) // 500 flagged providers`}</pre>
           <div className="mt-4 text-sm text-gray-600 space-y-1">
             <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">total_providers</code> — Total unique Medicare providers in dataset (1.72M)</p>
             <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">flagged_providers</code> — Providers flagged by ML model for billing anomalies</p>
-            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">total_payments</code> — Total Medicare payments in dollars (2014–2023)</p>
+            <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">total_payments</code> — Total Medicare payments in dollars (2014–2024)</p>
             <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">flagged_payments</code> — Payments associated with flagged providers</p>
             <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">model_auc</code> — Area Under ROC Curve for the fraud detection model</p>
             <p><code className="bg-gray-100 px-1 py-0.5 rounded text-xs">articles</code> — Number of investigative articles published</p>
@@ -239,11 +239,11 @@ console.log(data.providers.length) // 500 flagged providers`}</pre>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-1">Data Source</h3>
-              <p>Original data from <a href="https://data.cms.gov" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline">CMS (Centers for Medicare & Medicaid Services)</a>. Medicare Provider Utilization and Payment Data, 2014–2023.</p>
+              <p>Original data from <a href="https://data.cms.gov" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline">CMS (Centers for Medicare & Medicaid Services)</a>. Medicare Provider Utilization and Payment Data, 2014–2024.</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-1">Update Frequency</h3>
-              <p>Datasets are refreshed periodically as CMS publishes new annual releases. Current data covers 2014–2023 (the latest available release).</p>
+              <p>Datasets are refreshed periodically as CMS publishes new annual releases. Current data covers 2014–2024 (the latest available release).</p>
             </div>
           </div>
         </div>

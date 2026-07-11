@@ -5,6 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare by State: An 82x Spending Gap',
@@ -45,6 +46,22 @@ const topMarkupStates = [
   { state: 'Arizona', abbr: 'AZ', markup: 6.40, payments: 21757533553 },
 ]
 
+
+const faqs = [
+  {
+    "question": "Why is there a spending divide between states in Medicare?",
+    "answer": "The divide reflects fundamental differences in healthcare delivery, provider practice patterns, population demographics, chronic disease prevalence, and historical spending patterns that compound over time."
+  },
+  {
+    "question": "Which states have the biggest Medicare spending gaps?",
+    "answer": "The gap between highest and lowest-spending states can exceed 70% per beneficiary, with wealthy Northeastern states and parts of the South spending significantly more than upper Midwest and Mountain West states."
+  },
+  {
+    "question": "Does the state spending divide affect patient care?",
+    "answer": "Research shows higher spending does not consistently produce better outcomes. Many lower-spending states achieve equal or better quality metrics, suggesting the spending divide reflects overutilization rather than better care in high-spending states."
+  }
+]
+
 export default function StateSpendingDividePage() {
   const totalPayments = 854842324155
   const caPayments = 93195368563
@@ -58,6 +75,7 @@ export default function StateSpendingDividePage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'The State Spending Divide' },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -104,7 +122,7 @@ export default function StateSpendingDividePage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 10 States by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">Cumulative 2014–2023</p>
+            <p className="text-sm text-gray-500">Cumulative 2014–2024</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -275,7 +293,7 @@ export default function StateSpendingDividePage() {
             </Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">Breaking down the $854.8B across categories</p>
+              <p className="text-sm text-gray-500 mt-1">Breaking down the $940B across categories</p>
             </Link>
             <Link href="/investigations/anesthesia-markup" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Anesthesia Markup Scandal</h4>

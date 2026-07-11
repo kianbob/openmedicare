@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'How to Check if Your Doctor Has Medicare Fraud Flags',
@@ -18,6 +19,26 @@ export const metadata: Metadata = {
     url: 'https://www.openmedicare.us/investigations/check-doctor-medicare',
   },
 }
+
+
+const faqs = [
+  {
+    "question": "How can I check how much Medicare pays my doctor?",
+    "answer": "You can search the CMS Medicare Provider Utilization and Payment database or use tools like OpenMedicare to look up any provider by name or NPI number and see their total Medicare payments, services, and billing patterns."
+  },
+  {
+    "question": "What is an NPI number and how do I find my doctor's?",
+    "answer": "An NPI (National Provider Identifier) is a unique 10-digit number assigned to every healthcare provider. You can search for any provider's NPI at the NPPES NPI Registry or through Medicare provider lookup tools."
+  },
+  {
+    "question": "What should I look for when checking my doctor's Medicare billing?",
+    "answer": "Key things to check include total payments received, number of patients served, services per beneficiary (higher than peers may indicate overbilling), and how their billing compares to specialty averages."
+  },
+  {
+    "question": "Is my doctor's Medicare billing information public?",
+    "answer": "Yes. Since 2014, CMS publishes annual data on what Medicare pays every provider, including services rendered, charges submitted, and payments received. This is public record available to anyone."
+  }
+]
 
 export default function CheckDoctorMedicarePage() {
   const publishedDate = '2026-02-23'
@@ -32,6 +53,7 @@ export default function CheckDoctorMedicarePage() {
         modifiedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/check-doctor-medicare"
       />
+      <FAQSchema faqs={faqs} />
       <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -277,7 +299,7 @@ export default function CheckDoctorMedicarePage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">How often is this data updated?</h3>
-                  <p className="text-gray-700 text-sm">CMS releases new Medicare payment data annually, typically with a 1–2 year lag. Our database currently covers 2014–2023. AI fraud scores are recalculated with each data release.</p>
+                  <p className="text-gray-700 text-sm">CMS releases new Medicare payment data annually, typically with a 1–2 year lag. Our database currently covers 2014–2024. AI fraud scores are recalculated with each data release.</p>
                 </div>
               </div>
             </section>

@@ -117,7 +117,7 @@ export default function DownloadsPage() {
               <div>
                 <h3 className="text-sm font-medium text-medicare-dark">Open Data — Free to Use</h3>
                 <p className="text-sm text-gray-700 mt-1">
-                  All data is sourced from public CMS records (2014–2023). Licensed under{' '}
+                  All data is sourced from public CMS records (2014–2024). Licensed under{' '}
                   <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" className="text-medicare-primary hover:underline">CC BY 4.0</a>.
                   Please cite OpenMedicare when using our datasets. See our{' '}
                   <Link href="/api-docs" className="text-medicare-primary hover:underline">API documentation</Link> for programmatic access.
@@ -141,7 +141,7 @@ export default function DownloadsPage() {
           </div>
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
             <div className="text-sm text-gray-500">Coverage</div>
-            <div className="text-2xl font-bold text-gray-900">2014–2023</div>
+            <div className="text-2xl font-bold text-gray-900">2014–2024</div>
             <div className="text-xs text-gray-400">10 years of CMS Medicare data</div>
           </div>
         </div>

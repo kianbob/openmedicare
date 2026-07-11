@@ -5,6 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: "Top 20 Highest-Paid Medicare Doctors Exposed",
@@ -29,6 +30,22 @@ const topSpecialtyCounts = [
   { specialty: 'Cardiology', count: 1, totalPayments: 78000000 },
 ]
 
+
+const faqs = [
+  {
+    "question": "Which doctors receive the most money from Medicare?",
+    "answer": "The top Medicare earners include ophthalmologists administering expensive eye drugs, oncologists prescribing costly cancer treatments, and high-volume proceduralists — with some individual providers receiving over $10 million annually."
+  },
+  {
+    "question": "What specialties dominate Medicare spending?",
+    "answer": "Ophthalmology, cardiology, oncology, and orthopedic surgery account for a disproportionate share of total Medicare provider payments, driven by expensive drugs and high-reimbursement procedures."
+  },
+  {
+    "question": "How much does the top 1% of providers receive from Medicare?",
+    "answer": "The top 1% of Medicare providers receive a vastly disproportionate share of total payments, with a small number of high-billing providers accounting for billions in annual Medicare spending."
+  }
+]
+
 export default function MedicareBiggestSpendersPage() {
   return (
     <main className="min-h-screen bg-gray-50">
@@ -37,6 +54,7 @@ export default function MedicareBiggestSpendersPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: "Medicare's Most Expensive Doctors" },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -119,7 +137,7 @@ export default function MedicareBiggestSpendersPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top Named Individual Medicare Providers</h3>
-            <p className="text-sm text-gray-500">Cumulative Medicare payments, 2014–2023</p>
+            <p className="text-sm text-gray-500">Cumulative Medicare payments, 2014–2024</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">

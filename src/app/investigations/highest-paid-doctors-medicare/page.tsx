@@ -71,7 +71,7 @@ export default function HighestPaidDoctorsMedicarePage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Medicare Millionaire Club</h2>
           <p className="text-gray-700 mb-4">
             When people think of Medicare payments, they imagine modest reimbursements to family doctors. The reality is far
-            more concentrated. Among 1.72 million providers who billed Medicare in 2023, a small elite collected
+            more concentrated. Among 1.82 million providers who billed Medicare in 2023, a small elite collected
             extraordinary sums.
           </p>
           <p className="text-gray-700 mb-4">

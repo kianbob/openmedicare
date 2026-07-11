@@ -58,7 +58,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg text-gray-700 max-w-none">
               <p>
-                OpenMedicare is an independent data journalism project dedicated to making Medicare physician spending transparent and accessible. We analyze over a decade of Medicare payment data (2014-2023) to help patients, policymakers, and researchers understand how taxpayer dollars flow through the healthcare system.
+                OpenMedicare is an independent data journalism project dedicated to making Medicare physician spending transparent and accessible. We analyze over a decade of Medicare payment data (2014-2024) to help patients, policymakers, and researchers understand how taxpayer dollars flow through the healthcare system.
               </p>
               <p>
                 Our goal is simple: shine light on Medicare spending patterns to promote accountability, identify potential fraud, and help Americans make informed healthcare decisions.
@@ -90,7 +90,7 @@ export default function AboutPage() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-medicare-primary">10 years</div>
-                <div className="text-sm text-gray-600">2014–2023</div>
+                <div className="text-sm text-gray-600">2014–2024</div>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-medicare-primary">1.72M</div>
@@ -272,7 +272,7 @@ export default function AboutPage() {
             Explore the Data
           </h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Search 1.72 million providers, investigate billing patterns, and explore Medicare spending across all 50 states.
+            Search 1.82 million providers, investigate billing patterns, and explore Medicare spending across all 50 states.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -299,7 +299,7 @@ export default function AboutPage() {
             lastUpdated="February 2026 (data through 2023, the latest CMS release)"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
-              'Medicare Provider Utilization and Payment Data (2014-2023)',
+              'Medicare Provider Utilization and Payment Data (2014-2024)',
               'CMS Provider Enrollment Files',
               'Rural Health Research Center Classifications'
             ]}

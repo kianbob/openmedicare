@@ -121,7 +121,7 @@ export default function WoundCare() {
           </div>
           <div className="bg-orange-50 rounded-lg p-5 text-center">
             <div className="text-2xl font-bold text-orange-700">10 Years</div>
-            <div className="text-sm text-gray-600">2014–2023</div>
+            <div className="text-sm text-gray-600">2014–2024</div>
           </div>
           <div className="bg-blue-50 rounded-lg p-5 text-center">
             <div className="text-2xl font-bold text-blue-700">{data.top_codes.length}</div>
@@ -308,7 +308,7 @@ export default function WoundCare() {
 
         <ShareButtons url="https://www.openmedicare.us/fraud/wound-care" title="Wound Care Fraud Watchlist" />
         <div className="mt-6">
-          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'DOJ Healthcare Fraud Enforcement Action (June 2025)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
+          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2024)', 'DOJ Healthcare Fraud Enforcement Action (June 2025)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>
       </div>
     </div>

@@ -7,13 +7,14 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '5 Specialties Control 33% of Medicare Spending',
-  description: 'Just 5 medical specialties absorb one-third of $854B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
+  description: 'Just 5 medical specialties absorb one-third of $940B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
   openGraph: {
     title: '5 Specialties Control 33% of Medicare Spending',
-    description: 'Just 5 medical specialties absorb one-third of $854B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
+    description: 'Just 5 medical specialties absorb one-third of $940B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
   },
 }
 
@@ -23,6 +24,22 @@ function loadSpecialties() {
     return JSON.parse(raw)
   } catch { return { specialties: [] } }
 }
+
+
+const faqs = [
+  {
+    "question": "Which medical specialties dominate Medicare spending?",
+    "answer": "A small number of specialties — ophthalmology, cardiology, oncology, and orthopedics — account for a disproportionate share of total Medicare payments, creating effective spending monopolies within their clinical areas."
+  },
+  {
+    "question": "How concentrated is Medicare spending by specialty?",
+    "answer": "The top 10 specialties by Medicare payments account for the majority of total provider spending, with significant variation in per-provider payments between high-billing and low-billing specialties."
+  },
+  {
+    "question": "Why do some specialties receive so much more from Medicare?",
+    "answer": "High-payment specialties typically involve expensive procedures, costly drugs, high patient volumes, or a combination — with fee schedules that disproportionately reward procedural and drug-based services over cognitive care."
+  }
+]
 
 export default function SpecialtyMonopolyPage() {
   const data = loadSpecialties()
@@ -49,6 +66,7 @@ export default function SpecialtyMonopolyPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'The Specialty Monopoly', href: '/investigations/specialty-monopoly' }
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Deep Dive</span>
@@ -82,7 +100,7 @@ export default function SpecialtyMonopolyPage() {
         {/* Top 10 table */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden my-8">
           <div className="p-4 bg-gray-50 border-b">
-            <h3 className="font-semibold text-gray-900">Top 10 Specialties by Total Medicare Payments (2014–2023)</h3>
+            <h3 className="font-semibold text-gray-900">Top 10 Specialties by Total Medicare Payments (2014–2024)</h3>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">

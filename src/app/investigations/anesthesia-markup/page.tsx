@@ -5,6 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Anesthesiologists Charge 15.6x What Medicare Pays',
@@ -35,6 +36,26 @@ const anesthesiaCodes = [
   { code: '00813', description: 'Anesthesia for GI endoscopy (combined)', payments: 260856099, services: 2527713 },
 ]
 
+
+const faqs = [
+  {
+    "question": "Why is anesthesia so expensive in Medicare?",
+    "answer": "Anesthesia providers routinely charge 3-5x what Medicare allows, creating one of the largest gaps between submitted charges and actual payments in the entire Medicare system."
+  },
+  {
+    "question": "What is the markup ratio in anesthesia billing?",
+    "answer": "The markup ratio compares what anesthesiologists submit to Medicare versus what Medicare actually pays. Ratios of 3x or higher are common in anesthesia, far exceeding most other specialties."
+  },
+  {
+    "question": "How much does Medicare spend on anesthesia services?",
+    "answer": "Medicare spends billions annually on anesthesia services, with significant variation in per-procedure costs depending on the provider, facility, and geographic region."
+  },
+  {
+    "question": "Why do anesthesia charges vary so much between providers?",
+    "answer": "Variation comes from differences in billing practices, case complexity, geographic cost adjustments, and whether the provider is an anesthesiologist, CRNA, or anesthesia assistant."
+  }
+]
+
 export default function AnesthesiaMarkupPage() {
   const totalAnesthesiaCharges = 8176931596
   const totalAnesthesiaPayments = 787765511
@@ -51,6 +72,7 @@ export default function AnesthesiaMarkupPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'The Anesthesia Markup Scandal' },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -113,7 +135,7 @@ export default function AnesthesiaMarkupPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 10 Highest-Markup Medical Specialties</h3>
-            <p className="text-sm text-gray-500">Ratio of submitted charges to Medicare payments (2014–2023 cumulative)</p>
+            <p className="text-sm text-gray-500">Ratio of submitted charges to Medicare payments (2014–2024 cumulative)</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -255,7 +277,7 @@ export default function AnesthesiaMarkupPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top Anesthesia Procedure Codes by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">2014–2023 cumulative</p>
+            <p className="text-sm text-gray-500">2014–2024 cumulative</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -375,7 +397,7 @@ export default function AnesthesiaMarkupPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Methodology</h2>
           <p className="text-gray-700 mb-4 text-sm">
             This analysis uses the CMS Medicare Provider Utilization and Payment Data for
-            2014–2023. Markup ratios are calculated as the average ratio of submitted charges to
+            2014–2024. Markup ratios are calculated as the average ratio of submitted charges to
             Medicare allowed amounts across all providers within each specialty. Only specialties
             with meaningful provider counts are highlighted. Individual provider-level data is
             aggregated from the public use files available at data.cms.gov.

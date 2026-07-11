@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '24 Oncologists Billed $171M in Drug Costs',
@@ -42,6 +43,22 @@ const topOncologists = [
   { npi: '1598747164', name: 'Kamal Patel', city: 'Little Rock', state: 'AR', total: 5689504, drug_share: 85.1, svc_day: 1815.1 },
 ]
 
+
+const faqs = [
+  {
+    "question": "How much does Medicare spend on cancer drugs?",
+    "answer": "Medicare spends tens of billions annually on oncology drugs through Part B (physician-administered) and Part D (oral medications), with cancer drug costs growing faster than nearly any other Medicare category."
+  },
+  {
+    "question": "What are the most expensive cancer drugs in Medicare?",
+    "answer": "The most expensive cancer drugs include immunotherapies like pembrolizumab (Keytruda) and nivolumab (Opdivo), which can cost over $100,000 per year per patient and represent billions in annual Medicare spending."
+  },
+  {
+    "question": "Why are cancer drugs so expensive in Medicare?",
+    "answer": "High costs reflect drug development expenses, limited competition for biologics, lack of Medicare price negotiation (changing with the Inflation Reduction Act), and the expanding use of combination therapies."
+  }
+]
+
 export default function OncologyDrugPipelinePage() {
   const publishedDate = '2026-02-21'
   const readTime = '14 min read'
@@ -56,6 +73,7 @@ export default function OncologyDrugPipelinePage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -260,6 +278,7 @@ export default function OncologyDrugPipelinePage() {
                 <Link href="/investigations/drug-money" className="text-medicare-primary hover:underline text-sm">💊 Follow the Drug Money</Link>
                 <Link href="/investigations/impossible-doctors" className="text-medicare-primary hover:underline text-sm">🧮 The Impossible Doctors</Link>
                 <Link href="/investigations/drug-pipeline" className="text-medicare-primary hover:underline text-sm">💉 The Drug Money Pipeline</Link>
+                <Link href="/investigations/part-d-redesign-impact-2026" className="text-medicare-primary hover:underline text-sm">💰 Part D Redesign: The $2,000 Cap</Link>
                 <Link href="/fraud" className="text-medicare-primary hover:underline text-sm">🏠 Fraud Analysis Hub</Link>
               </div>
             </div>
@@ -272,7 +291,7 @@ export default function OncologyDrugPipelinePage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'Medicare Payment Advisory Commission (MedPAC) — Report to Congress, March 2024',
                   'HHS Office of Inspector General (OIG) — Part B Drug Payment Reports',
                   'CMS ASP Drug Pricing Files',

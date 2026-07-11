@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Top 100 Riskiest Medicare Providers',
   description:
-    'AI ranked 1.7M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers and their red flags.',
+    'AI ranked 1.82M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers and their red flags.',
   keywords: [
     'top medicare fraud providers',
     'medicare fraud list',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Top 100 Riskiest Medicare Providers',
     description:
-      'AI ranked 1.7M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers and their red flags.',
+      'AI ranked 1.82M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers and their red flags.',
     url: 'https://www.openmedicare.us/fraud/top-100',
     siteName: 'OpenMedicare',
     type: 'article',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Top 100 Riskiest Medicare Providers',
     description:
-      'AI ranked 1.7M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers.',
+      'AI ranked 1.82M providers using 2,198 convicted fraudsters. See the 100 most suspicious Medicare billers.',
   },
 }
 

@@ -9,6 +9,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '2 Companies, $14B: The Lab Testing Duopoly',
@@ -37,6 +38,22 @@ interface Provider {
   last_year: number
   avg_payment_per_service: number
 }
+
+
+const faqs = [
+  {
+    "question": "How much do LabCorp and Quest receive from Medicare?",
+    "answer": "LabCorp and Quest Diagnostics together receive billions in Medicare payments annually, dominating the clinical laboratory market with combined market share exceeding 50% of all Medicare lab spending."
+  },
+  {
+    "question": "Do LabCorp and Quest have a monopoly on Medicare lab testing?",
+    "answer": "While not a technical monopoly, the two companies form a dominant duopoly in clinical laboratory services, controlling pricing power and market access that significantly impacts Medicare lab spending."
+  },
+  {
+    "question": "How do lab test costs vary between providers in Medicare?",
+    "answer": "The same lab test can vary significantly in cost depending on the provider, with independent labs sometimes charging several times what LabCorp or Quest charge for identical tests."
+  }
+]
 
 export default function LabCorpQuestDuopolyPage() {
   const publishedDate = '2026-02-21'
@@ -78,6 +95,7 @@ export default function LabCorpQuestDuopolyPage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -298,7 +316,7 @@ export default function LabCorpQuestDuopolyPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data. Payment figures represent 10-year totals (2014-2023) for Medicare Part B fee-for-service
+                and Payment Data. Payment figures represent 10-year totals (2014-2024) for Medicare Part B fee-for-service
                 claims only.
               </p>
             </div>
@@ -321,7 +339,7 @@ export default function LabCorpQuestDuopolyPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'American Clinical Laboratory Association — PAMA Impact Analysis',
                   'LabCorp and Quest Diagnostics Annual Reports',
                 ]}

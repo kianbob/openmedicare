@@ -1100,7 +1100,7 @@ export default async function ProviderDetailPage({ params }: PageProps) {
           lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2023)',
+            'Medicare Provider Utilization and Payment Data (2014-2024)',
             'National Plan and Provider Enumeration System (NPPES)'
           ]}
         />

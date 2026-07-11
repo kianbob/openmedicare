@@ -6,6 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '$2.8B in COVID Test Fraud, Exposed',
@@ -17,6 +18,22 @@ export const metadata: Metadata = {
     url: 'https://www.openmedicare.us/investigations/covid-test-scheme',
   },
 }
+
+
+const faqs = [
+  {
+    "question": "What was the COVID testing Medicare fraud scheme?",
+    "answer": "During the pandemic, fraudulent providers billed Medicare for unnecessary or fabricated COVID tests, often bundled with other expensive lab work, exploiting emergency flexibilities that reduced oversight."
+  },
+  {
+    "question": "How much did COVID testing fraud cost Medicare?",
+    "answer": "DOJ and OIG investigations have identified billions in fraudulent COVID-related billing, with testing schemes representing one of the largest categories of pandemic Medicare fraud."
+  },
+  {
+    "question": "How did fraudsters exploit COVID testing through Medicare?",
+    "answer": "Schemes included billing for tests never performed, using patient information harvested at pop-up testing sites to bill for additional unnecessary services, and operating mobile testing sites solely to generate fraudulent claims."
+  }
+]
 
 export default function CovidTestSchemePage() {
   const publishedDate = '2026-02-20'
@@ -32,6 +49,7 @@ export default function CovidTestSchemePage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -229,7 +247,7 @@ export default function CovidTestSchemePage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'HHS Office of Inspector General (OIG)',
                   'NPR — COVID Test Fraud Reporting',
                   'Department of Justice — 2023 COVID Healthcare Fraud Enforcement Action',

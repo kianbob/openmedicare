@@ -317,7 +317,7 @@ export default function DeepDives() {
         {/* AI Model Callout */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-10 mb-8">
           <h2 className="text-lg font-semibold text-gray-900 mb-2">🤖 See Also: AI-Powered Analysis</h2>
-          <p className="text-sm text-gray-600 mb-3">Our machine learning model scored 1.72M providers using patterns from 2,198 convicted fraudsters. It flagged 500 with 86%+ match probability.</p>
+          <p className="text-sm text-gray-600 mb-3">Our machine learning model scored 1.82M providers using patterns from 2,198 convicted fraudsters. It flagged 500 with 86%+ match probability.</p>
           <div className="flex flex-wrap gap-3">
             <Link href="/fraud/still-out-there" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
               500 AI-Flagged Providers →
@@ -351,7 +351,7 @@ export default function DeepDives() {
 
         <ShareButtons url="https://www.openmedicare.us/fraud/deep-dives" title="The 20 Most Suspicious Medicare Providers" />
         <div className="mt-6">
-          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
+          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2024)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>
       </div>
     </div>

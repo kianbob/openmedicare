@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Look Up Any Doctor\'s Medicare Payments (Free)',
@@ -18,6 +19,26 @@ export const metadata: Metadata = {
   },
 }
 
+
+const faqs = [
+  {
+    "question": "How do I look up a Medicare provider?",
+    "answer": "You can search for any Medicare provider using the CMS Medicare Provider Utilization and Payment Data, the NPPES NPI Registry, or tools like OpenMedicare that combine multiple data sources for comprehensive provider profiles."
+  },
+  {
+    "question": "What information is available about Medicare providers?",
+    "answer": "Public records include provider name, NPI, specialty, practice location, total Medicare payments received, number of services and beneficiaries, specific procedure codes billed, and year-over-year billing trends."
+  },
+  {
+    "question": "Can I see what specific services my doctor bills Medicare for?",
+    "answer": "Yes. CMS publishes procedure-level data showing every HCPCS code a provider bills, including the number of services, average charge, average Medicare payment, and total payments for each code."
+  },
+  {
+    "question": "Is Medicare provider payment data reliable?",
+    "answer": "Yes. The data comes directly from CMS claims processing systems and is published annually after verification. It represents actual payments made, though it may not capture all revenue sources or adjustments."
+  }
+]
+
 export default function MedicareProviderLookupGuidePage() {
   return (
     <main className="min-h-screen bg-gray-50">
@@ -26,6 +47,7 @@ export default function MedicareProviderLookupGuidePage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'Medicare Provider Lookup Guide' }
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Guide</span>
@@ -77,7 +99,7 @@ export default function MedicareProviderLookupGuidePage() {
 
           <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">Payment Summary</h3>
           <ul className="text-gray-700 mb-4">
-            <li><strong>Total Payments:</strong> How much Medicare has paid this provider over the data period (2014-2023).</li>
+            <li><strong>Total Payments:</strong> How much Medicare has paid this provider over the data period (2014-2024).</li>
             <li><strong>Total Services:</strong> The number of individual services billed.</li>
             <li><strong>Total Beneficiaries:</strong> How many unique Medicare patients they&apos;ve treated.</li>
             <li><strong>Submitted Charges:</strong> What the provider billed (before Medicare&apos;s fee schedule adjustments).</li>
@@ -251,7 +273,7 @@ export default function MedicareProviderLookupGuidePage() {
         <SourceCitation
           lastUpdated="February 2026 (data through 2023)"
           sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
             'CMS National Plan and Provider Enumeration System (NPPES)',
           ]}
         />

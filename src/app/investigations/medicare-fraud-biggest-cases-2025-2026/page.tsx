@@ -67,7 +67,7 @@ export default function MedicareFraudBiggestCases2025Page() {
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
             Medicare Fraud: The Biggest Cases of 2025–2026
           </h1>
-          <p className="text-gray-500 text-sm mb-8">Published July 2026 · 15 min read</p>
+          <p className="text-gray-500 text-sm mb-8">Published July 2026 · 18 min read</p>
 
           <ShareButtons url="https://www.openmedicare.us/investigations/medicare-fraud-biggest-cases-2025-2026" title="Medicare Fraud: The Biggest Cases of 2025-2026" />
 
@@ -80,12 +80,36 @@ export default function MedicareFraudBiggestCases2025Page() {
             </p>
           </div>
 
+          <div className="not-prose grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div className="bg-red-50 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-red-900">$14.6B</p>
+              <p className="text-xs text-red-700">DOJ takedown (June 2025)</p>
+            </div>
+            <div className="bg-orange-50 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-orange-900">324</p>
+              <p className="text-xs text-orange-700">defendants charged</p>
+            </div>
+            <div className="bg-blue-50 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-blue-900">$6.8B</p>
+              <p className="text-xs text-blue-700">FCA recoveries (FY2025)</p>
+            </div>
+            <div className="bg-green-50 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-green-900">69%</p>
+              <p className="text-xs text-green-700">of cases initiated by whistleblowers</p>
+            </div>
+          </div>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The $14.6 Billion Takedown</h2>
           <p className="text-gray-700 mb-4">
             In June 2025, the Department of Justice announced the largest healthcare fraud enforcement action in American history.
             The coordinated strike charged <strong>324 defendants</strong> across the country for schemes totaling approximately
             $14.6 billion in alleged fraudulent billing. Every U.S. Attorney&apos;s Office participated, working alongside the
             HHS Office of Inspector General, FBI, DEA, and state Medicaid Fraud Control Units.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The takedown spanned the full spectrum of healthcare fraud: wound care schemes, genetic testing scams, telehealth
+            kickbacks, opioid distribution rings, durable medical equipment fraud, and Medicare Advantage upcoding. Some defendants
+            were physicians; others were lab owners, marketers, and professional fraudsters with no clinical background.
           </p>
           <p className="text-gray-700 mb-4">
             For a deep dive into this action, see our{' '}
@@ -116,6 +140,17 @@ export default function MedicareFraudBiggestCases2025Page() {
               </div>
             </div>
           </div>
+
+          <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg mb-8 not-prose">
+            <p className="text-orange-900 font-medium text-lg">Why Wound Care?</p>
+            <p className="text-orange-800 mt-2">
+              Wound care fraud is attractive because <strong>skin substitute products can bill $3,000-$8,000 per application</strong>, 
+              treatments can be repeated weekly for months, and the clinical documentation needed to justify treatment is 
+              subjective and hard to audit remotely. A single patient can generate <strong>$50,000-$100,000</strong> in 
+              fraudulent billing.
+            </p>
+          </div>
+
           <p className="text-gray-700 mb-4">
             Explore our wound care fraud data: <Link href="/fraud/wound-care" className="text-blue-600 hover:underline">Wound Care Fraud Dashboard</Link>.
           </p>
@@ -131,6 +166,9 @@ export default function MedicareFraudBiggestCases2025Page() {
             Texas, Florida, and California. The scheme allegedly targeted Medicare beneficiaries through social media ads
             promising &quot;free DNA health screenings.&quot;
           </p>
+          <p className="text-gray-700 mb-4">
+            See our detailed investigation: <Link href="/investigations/genetic-testing-fraud" className="text-blue-600 hover:underline">The $328M Genetic Testing Scam</Link>.
+          </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Telemedicine Fraud: The Post-COVID Wave</h2>
           <p className="text-gray-700 mb-4">
@@ -145,6 +183,18 @@ export default function MedicareFraudBiggestCases2025Page() {
             <Link href="/fraud/impossible-numbers" className="text-blue-600 hover:underline">Impossible Numbers</Link> analysis.
           </p>
 
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Opioid and Substance Abuse Schemes</h2>
+          <p className="text-gray-700 mb-4">
+            The 2025 takedown also targeted opioid distribution and substance abuse treatment fraud. Several &quot;sober homes&quot; 
+            in Florida and California were charged with recruiting patients from homeless populations, enrolling them in 
+            substance abuse programs, billing Medicare for intensive treatment while providing little or no actual care, 
+            and distributing controlled substances as part of kickback arrangements.
+          </p>
+          <p className="text-gray-700 mb-4">
+            One particularly egregious scheme involved a network of sober homes in South Florida that billed Medicare 
+            $67 million for urine drug tests — performing as many as 40 drug tests per patient per month at $500+ per test.
+          </p>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">False Claims Act: Record Recoveries</h2>
           <p className="text-gray-700 mb-4">
             The False Claims Act remains the government&apos;s most powerful tool against Medicare fraud. In fiscal year 2025,
@@ -155,6 +205,27 @@ export default function MedicareFraudBiggestCases2025Page() {
             Whistleblowers (qui tam relators) played a critical role, initiating 69% of healthcare FCA cases and receiving
             $1.1 billion in whistleblower rewards.
           </p>
+
+          <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-8 not-prose">
+            <p className="text-green-900 font-medium text-lg">Whistleblower Impact</p>
+            <p className="text-green-800 mt-2">
+              Since 1986, whistleblowers have helped the government recover over <strong>$72 billion</strong> through the 
+              False Claims Act, earning <strong>$14 billion</strong> in rewards. In healthcare alone, whistleblower cases 
+              have exposed fraud at hospitals, pharmaceutical companies, laboratories, and physician practices nationwide.
+            </p>
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Geographic Pattern</h2>
+          <p className="text-gray-700 mb-4">
+            Medicare fraud isn&apos;t evenly distributed. The 2025-2026 enforcement actions concentrated in familiar hotspots (see our state-level investigations for <Link href="/investigations/florida-medicare-fraud" className="text-blue-600 hover:underline">Florida</Link> and <Link href="/investigations/california-medicare-fraud" className="text-blue-600 hover:underline">California</Link>):
+          </p>
+          <ul className="text-gray-700 mb-4">
+            <li><strong>South Florida (Miami-Dade, Broward, Palm Beach)</strong> — the nation&apos;s undisputed Medicare fraud capital, with wound care, home health, and DME schemes</li>
+            <li><strong>Texas (Houston, Dallas, San Antonio)</strong> — genetic testing, pain management, and home health fraud</li>
+            <li><strong>Southern California (Los Angeles, Orange County)</strong> — laboratory and telehealth fraud</li>
+            <li><strong>Michigan (Detroit metro)</strong> — home health and physical therapy fraud</li>
+            <li><strong>New York (NYC metro)</strong> — telemedicine and pharmacy fraud</li>
+          </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What Our Data Reveals</h2>
           <p className="text-gray-700 mb-4">
@@ -172,14 +243,49 @@ export default function MedicareFraudBiggestCases2025Page() {
             <li><Link href="/fraud/watchlist" className="text-blue-600 hover:underline">Fraud Watchlist</Link></li>
           </ul>
 
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Technology Arms Race</h2>
+          <p className="text-gray-700 mb-4">
+            Both fraudsters and enforcement agencies are increasingly using technology. AI-powered fraud detection 
+            at CMS can now identify suspicious billing patterns in near-real-time, while our own machine learning 
+            models have successfully predicted fraud prosecutions before they were announced. But fraudsters are 
+            adapting too — using shell companies, rotating NPIs, and sophisticated billing patterns designed to 
+            evade automated detection.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The next frontier is synthetic identity fraud — using fabricated patient identities to bill Medicare 
+            for services to people who don&apos;t exist. This type of fraud is particularly difficult to detect because 
+            there&apos;s no real patient to complain about services they didn&apos;t receive.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">How to Report Medicare Fraud</h2>
+          <p className="text-gray-700 mb-4">
+            If you suspect Medicare fraud, you can report it through several channels:
+          </p>
+          <div className="not-prose bg-yellow-50 rounded-lg p-6 mb-8">
+            <h3 className="font-bold text-yellow-900 mb-3">📞 Reporting Channels</h3>
+            <ul className="space-y-2 text-sm text-yellow-800">
+              <li>• <strong>HHS OIG Hotline:</strong> <a href="tel:1-800-447-8477" className="underline">1-800-HHS-TIPS (1-800-447-8477)</a></li>
+              <li>• <strong>Senior Medicare Patrol:</strong> 1-877-808-2468</li>
+              <li>• <strong>Online:</strong> <a href="https://oig.hhs.gov" className="underline">oig.hhs.gov</a></li>
+              <li>• <strong>False Claims Act:</strong> Consult a qui tam attorney for potential whistleblower rewards</li>
+              <li>• <strong>OpenMedicare:</strong> Check provider billing patterns at <a href="/search" className="underline">our provider search</a></li>
+            </ul>
+          </div>
+
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8 not-prose">
             <h3 className="font-bold text-gray-900 mb-3">Related Investigations</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/investigations/medicare-fraud-2025" className="text-blue-600 hover:underline">Medicare Fraud in 2025: $14.6B in Cases Exposed</Link></li>
-              <li><Link href="/investigations/genetic-testing-fraud" className="text-blue-600 hover:underline">Genetic Testing Fraud: The Billion-Dollar Scam</Link></li>
+              <li><Link href="/investigations/genetic-testing-fraud" className="text-blue-600 hover:underline">Genetic Testing Fraud: The $328M Scam</Link></li>
               <li><Link href="/investigations/wound-care-crisis" className="text-blue-600 hover:underline">The Wound Care Crisis</Link></li>
               <li><Link href="/investigations/florida-medicare-fraud" className="text-blue-600 hover:underline">Florida: Medicare Fraud Capital</Link></li>
               <li><Link href="/investigations/medicare-fraud-statistics" className="text-blue-600 hover:underline">Medicare Fraud Statistics</Link></li>
+              <li><Link href="/investigations/data-predicted-fraud" className="text-blue-600 hover:underline">Our Data Predicted It: Algorithm vs DOJ</Link></li>
+              <li><Link href="/investigations/9862-services-per-day" className="text-blue-600 hover:underline">9,862 Services Per Day: Impossible Billing</Link></li>
+              <li><Link href="/investigations/medicare-fraud-detection-2026" className="text-blue-600 hover:underline">Medicare Fraud Detection 2026: AI &amp; Recovery Data</Link></li>
+              <li><Link href="/investigations/medicare-advantage-star-ratings-2026" className="text-blue-600 hover:underline">MA Star Ratings 2026: Winners &amp; Losers</Link></li>
+              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">Part D Redesign: The $2,000 Cap Six Months In</Link></li>
+              <li><Link href="/investigations/biggest-billers" className="text-blue-600 hover:underline">Medicare&apos;s Biggest Billers</Link></li>
             </ul>
           </div>
 
@@ -188,6 +294,7 @@ export default function MedicareFraudBiggestCases2025Page() {
             'HHS Office of Inspector General Annual Reports',
             'False Claims Act Statistics, DOJ Civil Division (FY 2025)',
             'OpenMedicare AI Fraud Detection Model v2 (2014-2024 data)',
+            'GAO Reports on Medicare Program Integrity',
           ]} />
         </article>
       </div>

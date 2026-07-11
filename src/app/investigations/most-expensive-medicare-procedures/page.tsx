@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '20 Most Expensive Medicare Procedures (2023)',
@@ -27,6 +28,22 @@ function loadProcedures() {
     return JSON.parse(raw)
   } catch { return { procedures: [] } }
 }
+
+
+const faqs = [
+  {
+    "question": "What are the most expensive procedures in Medicare?",
+    "answer": "The most expensive Medicare procedures include intravitreal eye injections, cardiac catheterizations, joint replacements, cancer drug infusions, and complex spinal surgeries — with some individual procedures costing tens of thousands of dollars."
+  },
+  {
+    "question": "How much does a single Medicare procedure cost?",
+    "answer": "Costs range from under $20 for a basic office visit to over $30,000 for complex surgeries. Drug administration procedures can cost thousands per session, especially for oncology and ophthalmology treatments."
+  },
+  {
+    "question": "Which procedures drive the most total Medicare spending?",
+    "answer": "Office visits (E&M codes) drive the most total spending by volume, while eye drug injections, chemotherapy administration, and cardiac procedures drive the most spending per procedure due to high per-unit costs."
+  }
+]
 
 export default function MostExpensiveProceduresPage() {
   const data = loadProcedures()
@@ -56,6 +73,7 @@ export default function MostExpensiveProceduresPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'Most Expensive Medicare Procedures' }
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Analysis</span>
@@ -75,7 +93,7 @@ export default function MostExpensiveProceduresPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Top 20 by Total Medicare Payments</h2>
           <p className="text-gray-700 mb-4">
-            These are the 20 procedure codes that have cost Medicare the most over the past decade (2014-2023).
+            These are the 20 procedure codes that have cost Medicare the most over the past decade (2014-2024).
             Volume matters: a $73 office visit performed nearly a billion times outspends a $1,800 injection.
           </p>
 
@@ -239,7 +257,7 @@ export default function MostExpensiveProceduresPage() {
         <SourceCitation
           lastUpdated="February 2026 (data through 2023)"
           sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
             'Medicare Physician Fee Schedule (MPFS)',
             'CMS Part B Drug Spending Dashboard',
           ]}

@@ -4,10 +4,11 @@ import fs from 'fs'
 import path from 'path'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: '$854.8B in 10 Years: Medicare By The Numbers',
-  description: '10 stunning stats that reveal where Medicare money really goes. From 1.7M providers to 4,636 impossible billers, explore the data behind the spending.',
+  title: '$940B in 10 Years: Medicare By The Numbers',
+  description: '10 stunning stats that reveal where Medicare money really goes. From 1.82M providers to 4,636 impossible billers, explore the data behind the spending.',
 }
 
 function loadJson(filePath: string) {
@@ -63,6 +64,26 @@ function StatCard({ number, label, description, href, color, align }: StatCardPr
   )
 }
 
+
+const faqs = [
+  {
+    "question": "How big is the Medicare program?",
+    "answer": "Medicare covers over 65 million Americans, processes more than 1 billion claims annually, and spends over $890 billion per year, making it one of the largest health insurance programs in the world."
+  },
+  {
+    "question": "How many providers participate in Medicare?",
+    "answer": "Over 1.2 million healthcare providers bill Medicare annually, ranging from individual physicians to large hospital systems, across every medical specialty and all 50 states."
+  },
+  {
+    "question": "What are the key Medicare spending statistics?",
+    "answer": "Medicare spending has grown from under $500 billion a decade ago to over $890 billion today, with hospital services, physician services, and prescription drugs comprising the largest spending categories."
+  },
+  {
+    "question": "How is Medicare funded?",
+    "answer": "Medicare is funded through payroll taxes (Part A), monthly premiums and general revenue (Parts B and D), and beneficiary cost-sharing. The Hospital Insurance Trust Fund faces projected shortfalls within the next decade."
+  }
+]
+
 export default function MedicareByTheNumbers() {
   const statesData = loadJson(path.join(process.cwd(), 'public/data/states.json'))
   const proceduresData = loadJson(path.join(process.cwd(), 'public/data/procedures.json'))
@@ -75,9 +96,9 @@ export default function MedicareByTheNumbers() {
 
   const stats: StatCardProps[] = [
     {
-      number: '$854.8B',
+      number: '$940B',
       label: 'Total Medicare Payments Over 10 Years',
-      description: 'From 2014 to 2023, Medicare paid out $854.8 billion to providers across America — nearly a trillion dollars flowing through a single program.',
+      description: 'From 2014 to 2023, Medicare paid out $940 billion to providers across America — nearly a trillion dollars flowing through a single program.',
       href: '/investigations/ten-year-explosion',
       color: 'blue',
       align: 'left',
@@ -163,6 +184,7 @@ export default function MedicareByTheNumbers() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'Medicare By The Numbers', href: '/investigations/medicare-by-the-numbers' },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <div className="text-center mb-16 mt-4">
           <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Visual Data Story</span>
@@ -195,9 +217,9 @@ export default function MedicareByTheNumbers() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.us/investigations/medicare-by-the-numbers" title="$854.8B in 10 Years: Medicare By The Numbers" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/medicare-by-the-numbers" title="$940B in 10 Years: Medicare By The Numbers" />
         <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500 text-center">
-          <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2023.</p>
+          <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2024.</p>
         </div>
       </div>
     </main>

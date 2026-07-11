@@ -6,6 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatCurrency } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'The $14.6B Wound Care Fraud Crisis',
@@ -17,6 +18,22 @@ export const metadata: Metadata = {
     url: 'https://www.openmedicare.us/investigations/wound-care-crisis',
   },
 }
+
+
+const faqs = [
+  {
+    "question": "What is the wound care crisis in Medicare?",
+    "answer": "Medicare is experiencing a wound care crisis driven by skyrocketing costs, widespread fraud in wound care clinics, overuse of expensive skin substitutes, and inadequate oversight of a rapidly growing specialty."
+  },
+  {
+    "question": "How is wound care fraud impacting Medicare?",
+    "answer": "Wound care fraud involves billing for unnecessary treatments, using expensive skin substitutes on minor wounds, fabricating wound diagnoses, and operating clinics designed primarily to generate Medicare revenue rather than heal patients."
+  },
+  {
+    "question": "What is being done about the Medicare wound care crisis?",
+    "answer": "CMS has increased prior authorization requirements for some wound care products, OIG has targeted wound care fraud in enforcement actions, and Congress is examining payment reforms to align wound care incentives with outcomes."
+  }
+]
 
 export default function WoundCareCrisisPage() {
   const publishedDate = '2026-02-19'
@@ -32,6 +49,7 @@ export default function WoundCareCrisisPage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -252,7 +270,7 @@ export default function WoundCareCrisisPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                   'HHS Office of Inspector General — Skin Substitute Vulnerability Report (September 2025)',
                   'Department of Justice — Operation Wound Shield (June 2025)',
                   'Vohra Wound Physicians Settlement',

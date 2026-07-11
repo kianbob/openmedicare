@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'The Fraud Belt: 5 States Hold 44% of All Flags',
@@ -39,6 +40,22 @@ const flProviders = [
   { npi: '1952487530', name: 'Mario De La Osa', specialty: 'Internal Medicine', city: 'Miami', prob: 0.939, pay: 745893, note: 'South Florida clustering — 3 of top 5 FL flags within 10 miles of each other' },
 ]
 
+
+const faqs = [
+  {
+    "question": "Why do Florida and California lead in Medicare fraud?",
+    "answer": "Both states have large elderly populations, high provider density, and historically have been targets for organized fraud rings. Together they account for a disproportionate share of national Medicare fraud prosecutions."
+  },
+  {
+    "question": "How does Medicare fraud differ between Florida and California?",
+    "answer": "Florida tends to see more durable medical equipment and home health fraud, while California has more clinic-based schemes. Both states see significant billing fraud across multiple specialties."
+  },
+  {
+    "question": "What is being done about Medicare fraud in Florida and California?",
+    "answer": "Both states have dedicated Medicare Fraud Strike Forces, enhanced data analytics programs, and inter-agency task forces. Despite these efforts, the scale of Medicare spending in both states continues to attract fraudulent schemes."
+  }
+]
+
 export default function FloridaCaliforniaFraudPage() {
   const publishedDate = '2026-02-21'
   const readTime = '12 min read'
@@ -52,6 +69,7 @@ export default function FloridaCaliforniaFraudPage() {
         publishedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/florida-california-fraud"
       />
+      <FAQSchema faqs={faqs} />
             <InvestigationDisclaimer />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
@@ -334,7 +352,7 @@ export default function FloridaCaliforniaFraudPage() {
               {/* Source Citation */}
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'DOJ Healthcare Fraud Enforcement Actions (2020–2025)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',

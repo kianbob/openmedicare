@@ -10,6 +10,7 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 import fs from 'fs'
 import path from 'path'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'We Flagged 500 Providers. The DOJ Agreed.',
@@ -90,6 +91,22 @@ const dojSources = {
   kingSentencing: 'https://eu.azcentral.com/story/news/local/arizona-health/2025/10/11/jeffrey-amos-king-sentenced-1-2-billion-medicare-fraud-scheme/86625932007/',
 }
 
+
+const faqs = [
+  {
+    "question": "Can data analytics predict Medicare fraud before it happens?",
+    "answer": "Yes. By analyzing historical billing patterns of convicted fraudsters, predictive models can identify active providers exhibiting the same statistical signatures — potentially catching fraud years before traditional investigations."
+  },
+  {
+    "question": "What data does CMS use to detect Medicare fraud?",
+    "answer": "CMS uses provider billing data including payment amounts, service volumes, beneficiary counts, charge-to-payment ratios, specialty benchmarks, and geographic patterns to identify anomalous billing behavior."
+  },
+  {
+    "question": "How accurate are predictive fraud models for Medicare?",
+    "answer": "Well-trained models can achieve accuracy rates above 90% in identifying providers whose billing patterns match convicted fraudsters, though high probability scores indicate risk patterns rather than confirmed fraud."
+  }
+]
+
 export default function DataPredictedFraudPage() {
   const publishedDate = '2026-02-21'
   const readTime = '22 min read'
@@ -99,6 +116,7 @@ export default function DataPredictedFraudPage() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <ArticleJsonLd title="Our Data Predicted It" description="Our fraud detection algorithm flagged providers before the DOJ charged them" url="https://www.openmedicare.us/investigations/data-predicted-fraud" publishedDate="2026-02-21" />
+      <FAQSchema faqs={faqs} />
         <Breadcrumbs
           items={[
             { name: 'Investigations', href: '/investigations' },
@@ -156,7 +174,7 @@ export default function DataPredictedFraudPage() {
                 <li>• Providers listed as &ldquo;not yet charged&rdquo; have <strong>NOT</strong> been accused of fraud by any authority.</li>
                 <li>• Statistical flags indicate unusual patterns that may have legitimate explanations.</li>
                 <li>• This analysis is journalism, not law enforcement.</li>
-                <li>• Our data covers 2014–2023. Enforcement actions occurred in 2025.</li>
+                <li>• Our data covers 2014–2024. Enforcement actions occurred in 2025.</li>
               </ul>
             </div>
 

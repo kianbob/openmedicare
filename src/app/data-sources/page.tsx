@@ -13,7 +13,7 @@ const dataSources = [
     provider: 'Centers for Medicare & Medicaid Services (CMS)',
     url: 'https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service',
     description: 'The primary dataset powering OpenMedicare. Contains every Medicare Part B claim at the provider-service level, including services rendered, beneficiaries served, submitted charges, allowed amounts, and Medicare payments.',
-    years: '2014–2023',
+    years: '2014–2024',
     records: '~96 million rows (all years combined)',
     freshness: 'Updated annually by CMS, typically with a 2-year lag. Most recent data: Calendar year 2023.',
     lastUpdated: 'December 2024',

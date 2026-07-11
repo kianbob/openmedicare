@@ -5,25 +5,47 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
-  description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data (2014–2023) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
+  description: 'DOGE wants to cut waste. We analyzed $940B in Medicare data (2014–2024) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   keywords: ['DOGE medicare', 'DOGE medicare fraud', 'department of government efficiency medicare', 'DOGE healthcare waste', 'elon musk medicare', 'government efficiency medicare'],
   openGraph: {
     title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
-    description: 'DOGE wants to cut waste. We analyzed $854B in Medicare data (2014–2023) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
+    description: 'DOGE wants to cut waste. We analyzed $940B in Medicare data (2014–2024) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   },
   alternates: {
     canonical: '/investigations/doge-medicare-fraud',
   },
 }
 
+
+const faqs = [
+  {
+    "question": "What is DOGE's role in fighting Medicare fraud?",
+    "answer": "The Department of Government Efficiency (DOGE) has highlighted Medicare fraud as a major target for waste reduction, pointing to billions in improper payments and recommending data-driven approaches to identify and prevent fraud."
+  },
+  {
+    "question": "How much Medicare fraud could DOGE help eliminate?",
+    "answer": "Medicare improper payments exceed $50 billion annually according to CMS estimates. DOGE has identified Medicare fraud as one of the largest opportunities for government spending reduction."
+  },
+  {
+    "question": "What reforms has DOGE proposed for Medicare?",
+    "answer": "DOGE proposals include enhanced data analytics for fraud detection, faster provider exclusion processes, real-time claims monitoring, and leveraging AI to flag suspicious billing patterns before payments are made."
+  },
+  {
+    "question": "Is Medicare fraud really a significant government waste problem?",
+    "answer": "Medicare fraud and improper payments represent one of the largest categories of government waste, with estimates ranging from $60-100 billion annually lost to fraud, abuse, and billing errors."
+  }
+]
+
 export default function DogeMedicareFraudPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="What DOGE Should Know About Medicare Fraud" description="$854B in decade-long data, 500 AI flags, and the patterns DOGE should target" url="https://www.openmedicare.us/investigations/doge-medicare-fraud" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="What DOGE Should Know About Medicare Fraud" description="$940B in decade-long data, 500 AI flags, and the patterns DOGE should target" url="https://www.openmedicare.us/investigations/doge-medicare-fraud" publishedDate="2026-02-21" />
+      <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: 'DOGE & Medicare Fraud' }
@@ -32,7 +54,7 @@ export default function DogeMedicareFraudPage() {
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Analysis</span>
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
-            What DOGE Should Know About Medicare Fraud: $854B in Decade-Long Data, 500 AI Flags
+            What DOGE Should Know About Medicare Fraud: $940B in Decade-Long Data, 500 AI Flags
           </h1>
           <p className="text-gray-500 text-sm mb-8">Published February 2026 · 15 min read</p>
 
@@ -40,8 +62,8 @@ export default function DogeMedicareFraudPage() {
             <p className="text-yellow-900 font-medium text-lg">The Bottom Line</p>
             <p className="text-yellow-800 mt-2">
               The Department of Government Efficiency (DOGE) is looking for waste. Medicare is the biggest target:
-              <strong>$854.8 billion</strong> in physician payments over the past decade, an estimated <strong>$60+ billion</strong> lost
-              to fraud annually, and <strong>1.72 million providers</strong> billing the system. We built an AI model that
+              <strong>$940 billion</strong> in physician payments over the past decade, an estimated <strong>$60+ billion</strong> lost
+              to fraud annually, and <strong>1.82 million providers</strong> billing the system. We built an AI model that
               flagged <strong>500 providers</strong> matching convicted fraudster patterns. Here&apos;s the roadmap DOGE needs.
             </p>
           </div>
@@ -53,7 +75,7 @@ export default function DogeMedicareFraudPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Medicare Is the Biggest Efficiency Problem in Government</h2>
           <p className="text-gray-700 mb-4">
             Forget the $400 hammers. Medicare is where the real money is. The program spent approximately <strong>$1 trillion</strong> in
-            total in 2023 — with $854.8 billion going to physician and supplier payments alone. The HHS Office of Inspector General
+            total in 2023 — with $940 billion going to physician and supplier payments alone. The HHS Office of Inspector General
             estimates that <strong>$60 billion or more</strong> is lost to fraud, waste, and abuse every year. Some estimates run
             as high as $100 billion.
           </p>
@@ -65,7 +87,7 @@ export default function DogeMedicareFraudPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What the Data Actually Shows</h2>
           <p className="text-gray-700 mb-4">
             We analyzed every line of the CMS Medicare Physician and Other Supplier Payment dataset — <strong>96 million rows</strong> of
-            billing data covering <strong>1.72 million providers</strong>. We then trained a machine learning model on{' '}
+            billing data covering <strong>1.82 million providers</strong>. We then trained a machine learning model on{' '}
             <strong>8,300+ confirmed fraud cases</strong> from the LEIE (List of Excluded Individuals/Entities) and DOJ prosecution records.
           </p>
           <p className="text-gray-700 mb-4">
@@ -81,7 +103,7 @@ export default function DogeMedicareFraudPage() {
             <h3 className="font-bold text-gray-900 mb-4">DOGE Dashboard: Medicare by the Numbers</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { label: 'Total Payments', value: '$854.8B', color: 'text-blue-700' },
+                { label: 'Total Payments', value: '$940B', color: 'text-blue-700' },
                 { label: 'Providers', value: '1.72M', color: 'text-gray-700' },
                 { label: 'AI Fraud Flags', value: '500', color: 'text-red-700' },
                 { label: 'Est. Annual Fraud', value: '$60B+', color: 'text-red-700' },
@@ -233,7 +255,7 @@ export default function DogeMedicareFraudPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The $2.14 Trillion Nobody Talks About</h2>
           <p className="text-gray-700 mb-4">
             Here&apos;s a number DOGE should know: providers submitted <strong>$3.22 trillion</strong> in charges to Medicare in 2023.
-            Medicare paid $854.8 billion. The other <strong>$2.14 trillion</strong> was simply written off. This 3.8x markup
+            Medicare paid $940 billion. The other <strong>$2.14 trillion</strong> was simply written off. This 3.8x markup
             ratio — providers charging nearly 4x what they get paid — is the biggest hidden number in American healthcare.
           </p>
           <p className="text-gray-700 mb-4">
@@ -284,6 +306,9 @@ export default function DogeMedicareFraudPage() {
               </Link>
               <Link href="/investigations/algorithm-knows" className="text-blue-600 hover:text-blue-800 text-sm">
                 🧠 How AI Detects Fraud Before Humans
+              </Link>
+              <Link href="/investigations/medicare-fraud-biggest-cases-2025-2026" className="text-blue-600 hover:text-blue-800 text-sm">
+                📖 Biggest Medicare Fraud Cases 2025-2026
               </Link>
             </div>
           </div>

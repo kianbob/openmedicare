@@ -7,6 +7,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import { formatNumber } from '@/lib/format'
+import FAQSchema from '@/components/FAQSchema'
 
 const WORKING_DAYS = 250
 const HOURS_PER_DAY = 8
@@ -81,6 +82,22 @@ function Calculator() {
   )
 }
 
+
+const faqs = [
+  {
+    "question": "What is an \"impossible doctor\" in Medicare billing?",
+    "answer": "Impossible doctors are providers whose billing patterns defy physical possibility — such as billing for more hours of services than exist in a day, or seeing more patients than humanly possible in a given timeframe."
+  },
+  {
+    "question": "How many impossible doctors does Medicare pay?",
+    "answer": "Analysis of CMS data reveals thousands of providers billing for service volumes that appear physically impossible, suggesting either fraudulent billing, improper use of billing codes, or \"incident-to\" billing practices."
+  },
+  {
+    "question": "Why does Medicare pay doctors who bill impossible hours?",
+    "answer": "Medicare processes over 1 billion claims annually using automated systems. Volume-based anomalies are often caught only through retrospective data analysis rather than real-time claim review."
+  }
+]
+
 export default function ImpossibleDoctorsPage() {
   const publishedDate = '2026-02-18'
   const readTime = '12 min read'
@@ -95,6 +112,7 @@ export default function ImpossibleDoctorsPage() {
           ]}
           className="mb-8"
         />
+      <FAQSchema faqs={faqs} />
 
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="p-8 lg:p-12">
@@ -303,7 +321,7 @@ export default function ImpossibleDoctorsPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
                 ]}
                 lastUpdated="February 2026"
               />

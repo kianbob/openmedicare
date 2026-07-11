@@ -108,7 +108,7 @@ export default function YourMedicareDollarPage() {
           </h1>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl">
             For every dollar Medicare spends, here&apos;s how it breaks down across medical specialties.
-            Based on {formatCurrency(stats.total_payments)} in total Medicare Part B payments (2014–2023).
+            Based on {formatCurrency(stats.total_payments)} in total Medicare Part B payments (2014–2024).
           </p>
         </div>
 
@@ -266,7 +266,7 @@ export default function YourMedicareDollarPage() {
           <p className="mt-2 opacity-80">
             {yourFraudShare ? `$${yourFraudShare.toFixed(2)} of that goes to providers flagged by AI for potential fraud` : `${flaggedCentsPerDollar}¢ of every dollar goes to AI-flagged providers`}
           </p>
-          <p className="mt-4 text-xs opacity-60">Source: OpenMedicare analysis of CMS data (2014–2023)</p>
+          <p className="mt-4 text-xs opacity-60">Source: OpenMedicare analysis of CMS data (2014–2024)</p>
         </div>
 
         {/* Key stats */}
@@ -285,7 +285,7 @@ export default function YourMedicareDollarPage() {
           </div>
           <div className="rounded-xl bg-gray-50 p-6 text-center">
             <p className="text-3xl font-bold text-gray-900">10</p>
-            <p className="mt-1 text-sm text-gray-500">Years of Data (2014–2023)</p>
+            <p className="mt-1 text-sm text-gray-500">Years of Data (2014–2024)</p>
           </div>
         </div>
 

@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '500 Providers Still Billing Like Fraudsters',
@@ -16,11 +17,28 @@ export const metadata: Metadata = {
   },
 }
 
+
+const faqs = [
+  {
+    "question": "Are known Medicare fraudsters still practicing?",
+    "answer": "Analysis reveals that some providers flagged with billing patterns matching convicted fraudsters continue to actively bill Medicare, raising questions about the speed and effectiveness of enforcement actions."
+  },
+  {
+    "question": "Why do some fraudulent providers continue billing Medicare?",
+    "answer": "Investigations take years, providers can bill during appeals, enforcement resources are limited relative to the number of suspicious providers, and some providers modify their schemes to avoid detection."
+  },
+  {
+    "question": "How long does a Medicare fraud investigation take?",
+    "answer": "Medicare fraud investigations typically take 2-5 years from initial detection to prosecution, during which time the provider may continue billing. Complex cases involving multiple defendants can take even longer."
+  }
+]
+
 export default function StillOutThereArticle() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <ArticleJsonLd title="Still Out There: 500 Providers Who Bill Like Convicted Fraudsters" description="ML model trained on 2,198 confirmed fraudsters flags 500 active providers matching fraud patterns" url="https://www.openmedicare.us/investigations/still-out-there" publishedDate="2026-02-21" />
+      <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[{ name: 'Investigations', href: '/investigations' }, { name: 'Still Out There' }]} />
 
         <article className="prose prose-lg max-w-none">
@@ -377,7 +395,7 @@ export default function StillOutThereArticle() {
               <RelatedArticles articles={[{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"How we trained AI on 2,198 convicted fraudsters and found 500 matches."},{"slug":"data-predicted-fraud","title":"The Data Predicted Their Fraud","description":"When our model flagged providers before the DOJ did."},{"slug":"million-dollar-flagged","title":"Million-Dollar Flagged","description":"The highest-paid providers flagged for fraud-like billing patterns."}]} />
 
           <SourceCitation sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
             'HHS OIG List of Excluded Individuals/Entities (LEIE)',
             'DOJ Healthcare Fraud Enforcement Actions (2020-2025)',
           ]} lastUpdated="February 2026" />

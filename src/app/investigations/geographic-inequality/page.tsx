@@ -7,6 +7,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: "Medicare's 7x Cost Gap: Your ZIP Code Changes Everything",
@@ -30,6 +31,22 @@ function loadRuralUrban() {
     return JSON.parse(raw)
   } catch { return { rural_urban_summary: [] } }
 }
+
+
+const faqs = [
+  {
+    "question": "Why does Medicare spending vary so much by region?",
+    "answer": "Geographic variation in Medicare spending is driven by differences in provider density, practice patterns, cost of living, population health, and local medical culture — with some regions spending 2-3x more per beneficiary than others."
+  },
+  {
+    "question": "Which states spend the most on Medicare per beneficiary?",
+    "answer": "States like New Jersey, Connecticut, and parts of the Northeast tend to have the highest per-beneficiary Medicare spending, while states in the upper Midwest and Northwest tend to spend less."
+  },
+  {
+    "question": "Does higher Medicare spending lead to better health outcomes?",
+    "answer": "Research consistently shows that higher Medicare spending does not correlate with better outcomes. Many high-spending regions actually have worse quality metrics, suggesting overutilization rather than better care."
+  }
+]
 
 export default function GeographicInequalityPage() {
   const statesData = loadStates()
@@ -58,6 +75,7 @@ export default function GeographicInequalityPage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'ZIP Code Lottery', href: '/investigations/geographic-inequality' }
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Investigation</span>

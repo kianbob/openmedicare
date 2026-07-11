@@ -5,13 +5,14 @@ import { CalendarDaysIcon, ClockIcon } from '@heroicons/react/24/outline'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'The 10-Year Money Trail: $854B in Medicare',
-  description: 'We tracked every dollar Medicare Part B spent from 2014–2023. $854 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
+  title: 'The 10-Year Money Trail: $940B in Medicare',
+  description: 'We tracked every dollar Medicare Part B spent from 2014–2024. $940 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
   openGraph: {
-    title: 'The 10-Year Money Trail: $854B in Medicare',
-    description: 'We tracked every dollar Medicare Part B spent from 2014–2023. $854 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
+    title: 'The 10-Year Money Trail: $940B in Medicare',
+    description: 'We tracked every dollar Medicare Part B spent from 2014–2024. $940 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
     type: 'article',
   },
 }
@@ -29,6 +30,22 @@ const YEARLY_DATA = [
   { year: 2023, payments: 93.7, providers: 1175, services: 2.65, beneficiaries: 853, markup: 3.45, avgPerProvider: 79720 },
 ]
 
+
+const faqs = [
+  {
+    "question": "Where does Medicare money go over a decade?",
+    "answer": "Over 10 years, Medicare spending reveals clear patterns: certain providers, specialties, and regions consistently capture disproportionate shares, while drug and procedure costs compound at rates exceeding general inflation."
+  },
+  {
+    "question": "How do you follow the money in Medicare?",
+    "answer": "By analyzing CMS provider payment data across multiple years, you can track spending trends by specialty, geography, provider type, and procedure — revealing where growth is fastest and where anomalies persist."
+  },
+  {
+    "question": "What does a decade of Medicare data reveal?",
+    "answer": "Ten years of data shows structural spending patterns: which specialties are growing fastest, which providers consistently receive the most, and how policy changes like the ACA and pandemic affected spending distribution."
+  }
+]
+
 export default function The10YearMoneyTrailPage() {
   const totalDecadePayments = YEARLY_DATA.reduce((sum, y) => sum + y.payments, 0)
 
@@ -40,6 +57,7 @@ export default function The10YearMoneyTrailPage() {
         url="https://www.openmedicare.us/investigations/the-10-year-money-trail"
         publishedDate="2026-02-21"
       />
+      <FAQSchema faqs={faqs} />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
@@ -216,7 +234,7 @@ export default function The10YearMoneyTrailPage() {
                 the mix of services is shifting toward lower-markup procedures.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What $854 Billion Buys</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What $940 Billion Buys</h2>
 
               <p>
                 Over ten years, Medicare Part B paid out <strong>${totalDecadePayments.toFixed(0)} billion</strong> for
@@ -250,7 +268,7 @@ export default function The10YearMoneyTrailPage() {
 
             <SourceCitation
               sources={[
-                'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+                'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
                 'OpenMedicare trends.json — compiled from 10 years of annual releases',
               ]}
             />

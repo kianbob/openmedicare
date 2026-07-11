@@ -30,11 +30,11 @@ const medicarePayFaqs = [
 
 export const metadata: Metadata = {
   title: 'How Much Does Medicare Pay Doctors? $26K to $384K by Specialty (2025 Data)',
-  description: 'We analyzed 1.72M providers to reveal what Medicare actually pays each specialty. Ophthalmologists average $384K while NPs get $26K. Full breakdown with real CMS data.',
+  description: 'We analyzed 1.82M providers to reveal what Medicare actually pays each specialty. Ophthalmologists average $384K while NPs get $26K. Full breakdown with real CMS data.',
   keywords: ['how much does medicare pay doctors', 'medicare reimbursement rates', 'medicare payment by specialty', 'medicare fee schedule', 'doctor medicare pay', 'medicare pay per visit', 'medicare physician payment 2025'],
   openGraph: {
     title: 'Medicare Pays Doctors $26K to $384K — Full Breakdown',
-    description: 'We analyzed 1.72M providers to reveal what Medicare actually pays each specialty. The 15x gap between the top and bottom will surprise you.',
+    description: 'We analyzed 1.82M providers to reveal what Medicare actually pays each specialty. The 15x gap between the top and bottom will surprise you.',
   },
   alternates: {
     canonical: '/investigations/how-much-does-medicare-pay',
@@ -110,7 +110,7 @@ export default function HowMuchDoesMedicarePayPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Top 20 Specialties by Average Medicare Payment</h2>
           <p className="text-gray-700 mb-4">
             This table shows the average annual Medicare payment per provider for the top 20 highest-paid specialties
-            (minimum 100 providers). These figures represent 10 years of cumulative data (2014-2023), divided by provider count.
+            (minimum 100 providers). These figures represent 10 years of cumulative data (2014-2024), divided by provider count.
           </p>
 
           <div className="overflow-x-auto not-prose mb-8">
@@ -262,7 +262,7 @@ export default function HowMuchDoesMedicarePayPage() {
         <SourceCitation
           lastUpdated="February 2026 (data through 2023)"
           sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
             'Medicare Physician Fee Schedule',
             'MedPAC Report to the Congress (2024)',
           ]}

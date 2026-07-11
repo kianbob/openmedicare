@@ -9,6 +9,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: "Medicare's Top 1%: Who Bills Millions per Year",
@@ -32,6 +33,22 @@ function loadSpecialties() {
     return JSON.parse(raw)
   } catch { return { specialties: [] } }
 }
+
+
+const faqs = [
+  {
+    "question": "How many doctors receive over $1 million from Medicare?",
+    "answer": "Thousands of providers receive over $1 million annually from Medicare, with the highest earners concentrated in ophthalmology, oncology, and other specialties that involve expensive drugs or high-volume procedures."
+  },
+  {
+    "question": "Is it normal for a doctor to receive millions from Medicare?",
+    "answer": "While unusual, million-dollar Medicare payments can be legitimate — particularly for providers administering expensive drugs (like cancer or eye treatments) or operating high-volume practices. Context matters more than the raw number."
+  },
+  {
+    "question": "Which specialties have the most Medicare millionaires?",
+    "answer": "Ophthalmology leads by a wide margin due to expensive eye drug injections, followed by oncology (cancer drugs), cardiology (interventional procedures), and radiation oncology."
+  }
+]
 
 export default function MedicareMillionairesPage() {
   const data = loadData()
@@ -75,6 +92,7 @@ export default function MedicareMillionairesPage() {
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <ArticleJsonLd title="Medicare Millionaires" description="Providers who received over $10M from Medicare in a single year" url="https://www.openmedicare.us/investigations/medicare-millionaires" publishedDate="2026-02-21" />
+      <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
           { name: "Medicare's Millionaire Club", href: '/investigations/medicare-millionaires' }

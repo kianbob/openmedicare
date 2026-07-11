@@ -5,6 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: "Corporate Medicine: 545 of Top 1,000 Billers",
@@ -29,6 +30,22 @@ const orgVsIndividual = [
   { category: 'Individuals', count: 455, totalPayments: 28000000000, avgPayment: 61538462 },
 ]
 
+
+const faqs = [
+  {
+    "question": "What is corporate medicine in Medicare?",
+    "answer": "Corporate medicine refers to the growing trend of private equity firms, hospital systems, and large corporations acquiring physician practices and clinics, often changing billing patterns to maximize revenue from Medicare."
+  },
+  {
+    "question": "How does corporate ownership affect Medicare billing?",
+    "answer": "Studies show that corporate-owned practices tend to bill Medicare at higher rates, order more tests, and see more patients per provider than independent practices, raising concerns about quality and overutilization."
+  },
+  {
+    "question": "Is private equity in healthcare increasing Medicare costs?",
+    "answer": "Research indicates that private equity acquisitions of healthcare practices often lead to increased Medicare billing, higher charges, and more aggressive coding — contributing to overall Medicare spending growth."
+  }
+]
+
 export default function CorporateMedicinePage() {
   const labCorpTotal = 2203741737 + 1249488503 + 692687546 + 659229855 // NC + NJ + AL + OH
   const questTotal = 1046178856 + 927210476 + 599206542 // FL + NJ + GA
@@ -40,6 +57,7 @@ export default function CorporateMedicinePage() {
           { name: 'Investigations', href: '/investigations' },
           { name: 'The Rise of Corporate Medicine' },
         ]} />
+      <FAQSchema faqs={faqs} />
 
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -145,7 +163,7 @@ export default function CorporateMedicinePage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 10 Organizations by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">Cumulative 2014–2023</p>
+            <p className="text-sm text-gray-500">Cumulative 2014–2024</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -303,7 +321,7 @@ export default function CorporateMedicinePage() {
             </Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">Breaking down the $854.8B spending pie</p>
+              <p className="text-sm text-gray-500 mt-1">Breaking down the $940B spending pie</p>
             </Link>
           </div>
         </article>

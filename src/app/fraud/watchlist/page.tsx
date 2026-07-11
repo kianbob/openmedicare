@@ -334,7 +334,7 @@ export default function FraudWatchlist() {
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-1">🤖 Looking for AI-flagged providers?</h3>
               <p className="text-sm text-gray-600">
-                Our ML model scored 1.72M providers against 2,198 confirmed fraudsters.
+                Our ML model scored 1.82M providers against 2,198 confirmed fraudsters.
                 {aiFlaggedCount > 0 && <span className="font-medium text-purple-700"> {aiFlaggedCount} providers appear on both lists.</span>}
               </p>
             </div>
@@ -368,7 +368,7 @@ export default function FraudWatchlist() {
 
         <ShareButtons url="https://www.openmedicare.us/fraud/watchlist" title="Medicare Fraud Watchlist" />
         <div className="mt-6">
-          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
+          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2024)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
         </div>
       </div>
     </div>

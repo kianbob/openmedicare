@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import SourceCitation from '@/components/SourceCitation'
 import RelatedArticles from '@/components/RelatedArticles'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '2024–2025 Medicare Fraud Enforcement Roundup',
@@ -18,6 +19,26 @@ export const metadata: Metadata = {
   },
 }
 
+
+const faqs = [
+  {
+    "question": "How many Medicare fraud cases are prosecuted each year?",
+    "answer": "The DOJ and HHS-OIG prosecute hundreds of Medicare fraud cases annually through the Medicare Fraud Strike Force and other enforcement initiatives, recovering billions in settlements and judgments."
+  },
+  {
+    "question": "What agencies investigate Medicare fraud?",
+    "answer": "Medicare fraud is investigated by the HHS Office of Inspector General (OIG), FBI, DOJ, CMS, and state Medicaid Fraud Control Units, often working together through the Medicare Fraud Strike Force."
+  },
+  {
+    "question": "What are the penalties for Medicare fraud?",
+    "answer": "Penalties include criminal prosecution with prison sentences up to 10+ years, civil monetary penalties up to $50,000 per false claim, treble damages, and exclusion from all federal healthcare programs."
+  },
+  {
+    "question": "What is the Medicare Fraud Strike Force?",
+    "answer": "The Strike Force is a joint DOJ-HHS initiative operating in major metro areas that uses data analytics to identify and prosecute Medicare fraud schemes, recovering billions since its creation in 2007."
+  }
+]
+
 export default function FraudEnforcementRoundup() {
   return (
     <main className="min-h-screen bg-gray-50">
@@ -28,6 +49,7 @@ export default function FraudEnforcementRoundup() {
         publishedDate="2025-02-23"
         modifiedDate="2025-02-23"
       />
+      <FAQSchema faqs={faqs} />
 
       <div className="bg-gray-900 text-white py-12">
         <div className="max-w-3xl mx-auto px-4">

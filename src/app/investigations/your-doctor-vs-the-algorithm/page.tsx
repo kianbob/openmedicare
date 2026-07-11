@@ -8,13 +8,14 @@ import ShareButtons from '@/components/ShareButtons'
 import InvestigationDisclaimer from '@/components/InvestigationDisclaimer'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Your Doctor vs. the Algorithm: What AI Exposed',
-  description: 'Our ML model trained on 2,198 fraud cases scored 1.7M providers. See the 10 red flags it weighs most and the doctors it flagged.',
+  description: 'Our ML model trained on 2,198 fraud cases scored 1.82M providers. See the 10 red flags it weighs most and the doctors it flagged.',
   openGraph: {
     title: 'Your Doctor vs. the Algorithm: What AI Exposed',
-    description: 'Our ML model trained on 2,198 fraud cases scored 1.7M providers. See the 10 red flags it weighs most and the doctors it flagged.',
+    description: 'Our ML model trained on 2,198 fraud cases scored 1.82M providers. See the 10 red flags it weighs most and the doctors it flagged.',
   },
 }
 
@@ -101,6 +102,22 @@ function featureExplainer(f: string): string {
   return explanations[f] || ''
 }
 
+
+const faqs = [
+  {
+    "question": "How does the algorithm compare to your doctor's billing?",
+    "answer": "The fraud detection algorithm compares each provider's billing patterns against those of 2,198 convicted fraudsters, scoring providers on how closely their patterns match across multiple statistical dimensions."
+  },
+  {
+    "question": "Should I be worried if my doctor is flagged by the algorithm?",
+    "answer": "A flag does not mean your doctor is committing fraud. It means their billing pattern statistically resembles those of convicted fraudsters. Many flagged providers have legitimate explanations for unusual billing patterns."
+  },
+  {
+    "question": "What can patients do with Medicare billing transparency data?",
+    "answer": "Patients can look up their provider's billing patterns, compare them to specialty averages, review their own Medicare Summary Notices for accuracy, and report suspicious billing to the OIG hotline at 1-800-HHS-TIPS."
+  }
+]
+
 export default function DoctorVsAlgorithmPage() {
   const data = loadData()
   const features = data.top_features
@@ -118,6 +135,7 @@ export default function DoctorVsAlgorithmPage() {
         publishedDate="2026-02-21"
         url="https://www.openmedicare.us/investigations/your-doctor-vs-the-algorithm"
       />
+      <FAQSchema faqs={faqs} />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
@@ -349,7 +367,7 @@ export default function DoctorVsAlgorithmPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Why This Matters</h2>
 
           <p className="text-gray-700 mb-4">
-            Medicare loses an estimated $60 billion per year to fraud. The federal government has about 1,500 investigators at HHS-OIG responsible for overseeing a program that pays 1.7 million providers. The math doesn&apos;t work.
+            Medicare loses an estimated $60 billion per year to fraud. The federal government has about 1,500 investigators at HHS-OIG responsible for overseeing a program that pays 1.82 million providers. The math doesn&apos;t work.
           </p>
 
           <p className="text-gray-700 mb-4">
