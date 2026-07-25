@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'Will more drugs be added to Medicare price negotiation?',
-    answer: 'Yes. CMS will select 15 additional drugs for negotiation in 2027, another 15 in 2028, and 20 more each year after that. The program will eventually cover all high-cost Part D and Part B drugs that meet eligibility criteria.',
+    answer: 'Yes. CMS has already selected 15 additional drugs for 2027 (second cycle) and released third-cycle guidance for another 15 in 2028. Starting in 2029, 20 drugs will be added each year. The Medicare Transaction Facilitator (MTF) was created to handle implementation. The program will eventually cover all high-cost Part D and Part B drugs that meet eligibility criteria.',
   },
   {
     question: 'How does the $2,000 out-of-pocket cap work with drug negotiation?',
@@ -114,20 +114,23 @@ export default function DrugPriceNegotiation2026Page() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Numbers: What&apos;s Actually Changed</h2>
           <p className="text-gray-700 mb-4">
-            Six months into 2026, the early data is striking. These 10 drugs accounted for <strong>$50.5 billion</strong> in
-            Medicare Part D spending in 2023 — roughly 20% of all Part D drug costs. The negotiated Maximum Fair Prices
+            Six months into 2026, the early data is striking. These 10 drugs accounted for <strong>$56.2 billion</strong> in
+            Medicare Part D spending — roughly 20% of all Part D drug costs. The negotiated Maximum Fair Prices
             represent discounts ranging from 38% to 79% off previous prices.
           </p>
           <p className="text-gray-700 mb-4">
-            CMS projects first-year savings of approximately <strong>$6 billion</strong> for Medicare and significantly lower
-            out-of-pocket costs for the 9 million beneficiaries who use these drugs. Combined with the <strong>$2,000 annual
+            CMS projects first-year savings of approximately <strong>$6 billion</strong> net for the program and <strong>$1.5 billion in out-of-pocket savings</strong> for the <strong>8.8 million</strong> of 54 million Part D enrollees who use these drugs. Combined with the <strong>$2,000 annual
             out-of-pocket cap</strong> that took effect in 2025, many seniors are seeing their drug costs drop by thousands per year.
+          </p>
+          <p className="text-gray-700 mb-4">
+            To implement the new prices across the complex Part D ecosystem, CMS created the <strong>Medicare Transaction Facilitator (MTF)</strong> — a new entity that serves as the intermediary between manufacturers, pharmacies, and Part D plans to ensure negotiated prices are correctly applied at the point of sale. The MTF represents a significant new layer of infrastructure in Medicare&apos;s drug benefit.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What Comes Next: 2027 Expansion</h2>
           <p className="text-gray-700 mb-4">
-            The program is expanding rapidly. CMS has already selected <strong>15 additional drugs</strong> for negotiation,
-            with new prices taking effect January 1, 2027. Another 15 drugs will be added in 2028, and starting in 2029,
+            The program is expanding rapidly. CMS has selected <strong>15 additional drugs</strong> for the second negotiation cycle,
+            with new prices taking effect January 1, 2027. CMS has also released <strong>third-cycle guidance</strong> (September 2025) outlining
+            the framework for another 15 drugs in 2028, and starting in 2029,
             20 drugs will be added each year.
           </p>
           <p className="text-gray-700 mb-4">
@@ -239,7 +242,8 @@ export default function DrugPriceNegotiation2026Page() {
               { date: 'August 2024', event: 'Negotiated Maximum Fair Prices finalized and published' },
               { date: 'January 2025', event: '$2,000 annual Part D out-of-pocket cap takes effect' },
               { date: 'January 2026', event: 'Negotiated prices take effect for first 10 drugs' },
-              { date: 'February 2026', event: 'CMS announces 15 additional drugs selected for 2027 negotiation' },
+              { date: 'February 2026', event: 'CMS announces 15 additional drugs selected for 2027 negotiation (second cycle)' },
+              { date: 'September 2025', event: 'Third-cycle guidance released for 2028 negotiation round' },
               { date: 'January 2027', event: 'Second round of negotiated prices takes effect (15 drugs, including Part B)' },
               { date: 'January 2028', event: 'Third round: 15 more drugs' },
               { date: '2029+', event: '20 drugs added per year going forward' },
