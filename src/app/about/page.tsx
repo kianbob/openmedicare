@@ -26,6 +26,11 @@ const sisterSites = [
     name: 'OpenSpending', 
     url: 'https://www.openspending.us', 
     description: 'Government spending data across all levels' 
+  },
+  { 
+    name: 'PermitCore', 
+    url: 'https://permitcore.io', 
+    description: 'Construction permit intelligence and analytics' 
   }
 ]
 
