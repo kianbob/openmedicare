@@ -17,6 +17,7 @@ const sisterSites = [
   { name: 'AutoPilotWatch', href: 'https://www.autopilotwatch.com', description: 'Autonomous Vehicle Safety Tracker' },  { name: 'TariffTax', href: 'https://www.tarifftax.org', description: 'Tariff Impact Tracker' },
   { name: 'ShelterScope', href: 'https://www.shelterscope.com', description: 'Housing Crisis Tracker' },
   { name: 'PermitCore', href: 'https://permitcore.io', description: 'Construction Permit Intelligence' },
+  { name: 'American Factbook', href: 'https://americanfactbook.org', description: 'Data-Driven American Facts' },
 ]
 
 const navigation = [
@@ -171,6 +172,8 @@ export default function Footer() {
               <a href="https://permitcore.io" target="_blank" rel="noopener noreferrer" className="hover:text-white">PermitCore</a>
               {' · '}
               <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white">TheDataProject.ai</a>
+              {' · '}
+              <a href="https://americanfactbook.org" target="_blank" rel="noopener noreferrer" className="hover:text-white">American Factbook</a>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
               <p>&copy; {new Date().getFullYear()} OpenMedicare. Independent data journalism. Built by <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">TheDataProject.ai</a></p>
