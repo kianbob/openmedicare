@@ -198,6 +198,8 @@ export default function HomePage() {
             <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
               Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2024).
               Our ML model, trained on 2,198 convicted fraudsters, flagged 500 providers who bill like criminals.
+              For Open Payments data and broader health industry transparency, see{' '}
+              <a href="https://americanfactbook.org/health" className="text-blue-200 underline hover:text-white">American Factbook&apos;s health data hub</a>.
             </p>
             
             {/* Search CTA */}
