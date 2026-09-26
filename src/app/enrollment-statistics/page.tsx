@@ -22,6 +22,8 @@ const ENROLLMENT_HISTORY = [
   { year: 2022, total: 65.0 },
   { year: 2023, total: 66.7 },
   { year: 2024, total: 67.4 },
+  { year: 2025, total: 69.0 },
+  { year: 2026, total: 70.6 },
 ]
 
 const STATE_ENROLLMENT = [
@@ -45,12 +47,12 @@ const DEMOGRAPHICS = [
 
 const FAQ_ITEMS = [
   {
-    q: 'How many people are on Medicare in 2024?',
-    a: 'As of 2024, approximately 67.4 million Americans are enrolled in Medicare, including those with Original Medicare and Medicare Advantage plans.',
+    q: 'How many people are on Medicare in 2026?',
+    a: 'As of mid-2026, approximately 70.6 million Americans are enrolled in Medicare, including those with Original Medicare and Medicare Advantage plans.',
   },
   {
     q: 'What is the fastest-growing Medicare population?',
-    a: 'Medicare Advantage enrollment is the fastest-growing segment, now covering over 51% of all Medicare beneficiaries — up from just 13% in 2004.',
+    a: 'Medicare Advantage enrollment is the fastest-growing segment, now covering over 55% of all Medicare beneficiaries — up from just 13% in 2004.',
   },
   {
     q: 'At what age do you qualify for Medicare?',

@@ -71,7 +71,7 @@ export default function PartDRedesignImpact2026Page() {
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
             Medicare Part D Redesign: The $2,000 Cap Six Months In
           </h1>
-          <p className="text-gray-500 text-sm mb-8">Published July 2026 · 15 min read</p>
+          <p className="text-gray-500 text-sm mb-8">Updated September 2026 · 15 min read</p>
 
           <ShareButtons url="https://www.openmedicare.us/investigations/part-d-redesign-impact-2026" title="Medicare Part D Redesign: The $2,000 Cap Six Months In" />
 

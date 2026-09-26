@@ -8,11 +8,11 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Enrollment Trends & Projections: 2026 and Beyond',
-  description: 'Medicare enrollment hit 67.8M in 2026. Medicare Advantage now covers 55% of beneficiaries (~35M). UnitedHealth dropped to 26% market share. C-SNP enrollment surged 45%. Projections show 80M+ by 2035.',
+  description: 'Medicare enrollment hit 70.6M by mid-2026. Medicare Advantage now covers 55% of beneficiaries (~38.8M). UnitedHealth dropped to 26% market share. C-SNP enrollment surged 45%. Projections show 80M+ by 2035.',
   keywords: ['medicare enrollment 2026', 'medicare advantage enrollment', 'medicare beneficiaries', 'medicare growth projections', 'medicare trust fund solvency', 'baby boomer medicare', 'medicare advantage penetration rate'],
   openGraph: {
     title: 'Medicare Enrollment Trends & Projections: 2026 and Beyond',
-    description: 'Medicare enrollment hit 67.8M in 2026. Medicare Advantage now covers 55% of beneficiaries (~35M). Projections show 80M+ by 2035.',
+    description: 'Medicare enrollment hit 70.6M by mid-2026. Medicare Advantage now covers 55% of beneficiaries (~38.8M). Projections show 80M+ by 2035.',
   },
   alternates: {
     canonical: '/investigations/medicare-enrollment-trends-2026',
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How many people are enrolled in Medicare in 2026?',
-    answer: 'Total Medicare enrollment reached approximately 67.8 million in 2026, up from 65.7 million in 2024 and 63.8 million in 2022. This includes beneficiaries in both Original Medicare (fee-for-service) and Medicare Advantage plans. Enrollment is growing by approximately 1 million per year as baby boomers continue to age into the program.',
+    answer: 'Total Medicare enrollment reached approximately 70.6 million by mid-2026, up from 67.4 million in 2024 and 65.0 million in 2022. This includes beneficiaries in both Original Medicare (fee-for-service) and Medicare Advantage plans. Enrollment is growing by approximately 1 million per year as baby boomers continue to age into the program.',
   },
   {
     question: 'What percentage of Medicare beneficiaries are in Medicare Advantage?',
-    answer: 'In 2026, approximately 35 million beneficiaries — 55% of all Medicare enrollees — are in Medicare Advantage plans. This is up from 51% in 2024 and 42% in 2020. UnitedHealth Group holds 26% market share (down from 29%), while Humana has risen to 20% (up from 17%). MA enrollment has grown steadily as plans offer supplemental benefits like dental, vision, and hearing coverage that Original Medicare does not include. If current trends continue, MA could cover 60%+ of beneficiaries by 2030.',
+    answer: 'In 2026, approximately 38.8 million beneficiaries — 55% of all Medicare enrollees — are in Medicare Advantage plans. This is up from 51% in 2024 and 42% in 2020. UnitedHealth Group holds 26% market share (down from 29%), while Humana has risen to 20% (up from 17%). MA enrollment has grown steadily as plans offer supplemental benefits like dental, vision, and hearing coverage that Original Medicare does not include. If current trends continue, MA could cover 60%+ of beneficiaries by 2030.',
   },
   {
     question: 'When will the Medicare trust fund run out?',
@@ -78,13 +78,13 @@ export default function MedicareEnrollmentTrends2026Page() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-blue-900 font-medium text-lg">Key Finding</p>
             <p className="text-blue-800 mt-2">
-              Medicare enrollment hit <strong>67.8 million</strong> in 2026, with <strong>10,000 Americans turning 65 daily</strong>. Medicare Advantage now covers <strong>55% of beneficiaries</strong> (~35M) — up from 54% last year. UnitedHealth Group&apos;s market share dropped to <strong>26%</strong> while Humana rose to <strong>20%</strong>. Chronic-condition Special Needs Plan (C-SNP) enrollment surged <strong>45%</strong> in a single year. At current growth rates, Medicare will serve <strong>80M+ by 2035</strong> — straining a trust fund projected to deplete by <strong>2036</strong>.
+              Medicare enrollment hit <strong>70.6 million</strong> by mid-2026, with <strong>10,000 Americans turning 65 daily</strong>. Medicare Advantage now covers <strong>55% of beneficiaries</strong> (~38.8M) — up from 54% in 2025. UnitedHealth Group&apos;s market share dropped to <strong>26%</strong> while Humana rose to <strong>20%</strong>. Chronic-condition Special Needs Plan (C-SNP) enrollment surged <strong>45%</strong> in a single year. At current growth rates, Medicare will serve <strong>80M+ by 2035</strong> — straining a trust fund projected to deplete by <strong>2036</strong>.
             </p>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Big Picture: 67.8 Million and Growing</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Big Picture: 70.6 Million and Growing</h2>
           <p className="text-gray-700 mb-4">
-            Medicare is the largest health insurance program in the United States, covering <strong>67.8 million Americans</strong> in 2026 — roughly one in five U.S. residents. Enrollment has grown steadily from 47.7 million in 2010, 62.0 million in 2020, and 65.7 million in 2024, driven primarily by the baby boomer generation aging into eligibility.
+            Medicare is the largest health insurance program in the United States, covering <strong>70.6 million Americans</strong> as of mid-2026 — more than one in five U.S. residents. Enrollment has grown steadily from 47.7 million in 2010, 62.0 million in 2020, and 67.4 million in 2024, driven primarily by the baby boomer generation aging into eligibility.
           </p>
           <p className="text-gray-700 mb-4">
             The program is adding approximately <strong>1 million new beneficiaries per year</strong>, net of deaths and other exits. This growth is structural and predictable — it&apos;s driven by demographics, not policy changes — which makes the fiscal implications equally predictable and equally urgent to address.

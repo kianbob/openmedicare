@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'Will more drugs be added to Medicare price negotiation?',
-    answer: 'Yes. CMS has already selected 15 additional drugs for 2027 (second cycle) and released third-cycle guidance for another 15 in 2028. Starting in 2029, 20 drugs will be added each year. The Medicare Transaction Facilitator (MTF) was created to handle implementation. The program will eventually cover all high-cost Part D and Part B drugs that meet eligibility criteria.',
+    answer: 'Yes. CMS selected 15 additional drugs for 2027 (second cycle), and in March 2026 announced that all 15 manufacturers in the third cycle have agreed to participate — covering both Part B and Part D drugs with prices taking effect in 2028. In June 2026, CMS published a proposed rule codifying the negotiation framework for 2029 and beyond, when 20 drugs will be added each year.',
   },
   {
     question: 'How does the $2,000 out-of-pocket cap work with drug negotiation?',
@@ -54,7 +54,7 @@ export default function DrugPriceNegotiation2026Page() {
           title="Medicare Drug Price Negotiation: 2026 Update"
           description="The Inflation Reduction Act's Medicare drug price negotiation program: first 10 drugs, savings estimates, and 2027 expansion."
           url="https://www.openmedicare.us/investigations/drug-price-negotiation-2026"
-          publishedDate="2026-07-10"
+          publishedDate="2026-09-26"
         />
         <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[
@@ -67,7 +67,7 @@ export default function DrugPriceNegotiation2026Page() {
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
             Medicare Drug Price Negotiation: The 2026 Update
           </h1>
-          <p className="text-gray-500 text-sm mb-8">Published July 2026 · 12 min read</p>
+          <p className="text-gray-500 text-sm mb-8">Updated September 2026 · 12 min read</p>
 
           <ShareButtons url="https://www.openmedicare.us/investigations/drug-price-negotiation-2026" title="Medicare Drug Price Negotiation: 2026 Update" />
 
@@ -129,9 +129,10 @@ export default function DrugPriceNegotiation2026Page() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What Comes Next: 2027 Expansion</h2>
           <p className="text-gray-700 mb-4">
             The program is expanding rapidly. CMS has selected <strong>15 additional drugs</strong> for the second negotiation cycle,
-            with new prices taking effect January 1, 2027. CMS has also released <strong>third-cycle guidance</strong> (September 2025) outlining
-            the framework for another 15 drugs in 2028, and starting in 2029,
-            20 drugs will be added each year.
+            with new prices taking effect January 1, 2027. In <strong>March 2026</strong>, CMS announced that all 15 drug manufacturers
+            in the <strong>third cycle</strong> have agreed to participate — covering both Part B and Part D drugs, with negotiated prices
+            taking effect in 2028. In <strong>June 2026</strong>, CMS published a proposed rule in the Federal Register codifying the
+            negotiation framework for 2029 and beyond, when 20 drugs will be added each year. The final rule is expected in Fall 2026.
           </p>
           <p className="text-gray-700 mb-4">
             The 2027 round includes both Part D and Part B drugs (physician-administered drugs like infusions and injections),
@@ -243,7 +244,8 @@ export default function DrugPriceNegotiation2026Page() {
               { date: 'January 2025', event: '$2,000 annual Part D out-of-pocket cap takes effect' },
               { date: 'January 2026', event: 'Negotiated prices take effect for first 10 drugs' },
               { date: 'February 2026', event: 'CMS announces 15 additional drugs selected for 2027 negotiation (second cycle)' },
-              { date: 'September 2025', event: 'Third-cycle guidance released for 2028 negotiation round' },
+              { date: 'March 2026', event: 'All 15 third-cycle manufacturers confirm participation (Part B & Part D drugs, prices effective 2028)' },
+              { date: 'June 2026', event: 'CMS publishes proposed rule codifying negotiation framework for 2029+ (final rule expected Fall 2026)' },
               { date: 'January 2027', event: 'Second round of negotiated prices takes effect (15 drugs, including Part B)' },
               { date: 'January 2028', event: 'Third round: 15 more drugs' },
               { date: '2029+', event: '20 drugs added per year going forward' },
@@ -298,6 +300,8 @@ export default function DrugPriceNegotiation2026Page() {
             'Congressional Budget Office, Inflation Reduction Act Savings Estimates',
             'HHS Office of the Assistant Secretary for Planning and Evaluation (ASPE)',
             'OpenMedicare Drug Spending Analysis (2014-2024 data)',
+            'CMS Third Cycle Manufacturer Participation Announcement (March 2026)',
+            'Federal Register: Medicare Drug Price Negotiation Program Proposed Rule (June 2026)',
           ]} />
         </article>
       </div>
