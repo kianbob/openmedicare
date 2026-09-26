@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Methodology — How We Analyze 96M Medicare Claims',
-  description: 'How we turn 96 million Medicare claims into fraud risk scores. Data sources, ML model details, limitations, and responsible disclosure — fully transparent.',
+  description: 'How we turn 105 million Medicare claims into fraud risk scores. Data sources, ML model details, limitations, and responsible disclosure — fully transparent.',
 }
 
 export default function MethodologyPage() {
@@ -32,8 +32,8 @@ export default function MethodologyPage() {
             </p>
             <ul>
               <li><strong>Dataset:</strong> Medicare Physician &amp; Other Practitioners — by Provider and Service</li>
-              <li><strong>Years covered:</strong> 2014–2024 (10 years)</li>
-              <li><strong>Scale:</strong> ~96 million rows of physician/supplier claims for Medicare Part B</li>
+              <li><strong>Years covered:</strong> 2014–2025 (10 years)</li>
+              <li><strong>Scale:</strong> ~105 million rows of physician/supplier claims for Medicare Part B</li>
               <li><strong>Scope:</strong> Every physician, nurse practitioner, and clinical supplier who billed Medicare</li>
             </ul>
           </section>

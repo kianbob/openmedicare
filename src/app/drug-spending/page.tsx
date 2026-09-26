@@ -226,7 +226,7 @@ export default function DrugSpendingPage() {
               others remain under 10%.
             </p>
             <p>
-              The 2024 data shows biosimilar competition is gradually intensifying, particularly for older biologics. But for the
+              The 2025 data shows biosimilar competition is gradually intensifying, particularly for older biologics. But for the
               newest and most expensive drugs — checkpoint inhibitors like Keytruda, which won&apos;t face biosimilar competition until
               the 2030s — prices continue to climb unchecked.
             </p>

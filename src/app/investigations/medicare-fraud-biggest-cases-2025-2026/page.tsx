@@ -293,7 +293,7 @@ export default function MedicareFraudBiggestCases2025Page() {
             'U.S. Department of Justice, Healthcare Fraud Enforcement Actions (2025-2026)',
             'HHS Office of Inspector General Annual Reports',
             'False Claims Act Statistics, DOJ Civil Division (FY 2025)',
-            'OpenMedicare AI Fraud Detection Model v2 (2014-2024 data)',
+            'OpenMedicare AI Fraud Detection Model v2 (2014-2025 data)',
             'GAO Reports on Medicare Program Integrity',
           ]} />
         </article>

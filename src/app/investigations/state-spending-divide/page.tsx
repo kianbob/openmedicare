@@ -122,7 +122,7 @@ export default function StateSpendingDividePage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 10 States by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">Cumulative 2014–2024</p>
+            <p className="text-sm text-gray-500">Cumulative 2014–2025</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -293,7 +293,7 @@ export default function StateSpendingDividePage() {
             </Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">Breaking down the $940B across categories</p>
+              <p className="text-sm text-gray-500 mt-1">Breaking down the $1.05T across categories</p>
             </Link>
             <Link href="/investigations/anesthesia-markup" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Anesthesia Markup Scandal</h4>

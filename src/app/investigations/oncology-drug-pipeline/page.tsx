@@ -291,12 +291,12 @@ export default function OncologyDrugPipelinePage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
                   'Medicare Payment Advisory Commission (MedPAC) — Report to Congress, March 2024',
                   'HHS Office of Inspector General (OIG) — Part B Drug Payment Reports',
                   'CMS ASP Drug Pricing Files',
                 ]}
-                lastUpdated="February 2026"
+                lastUpdated="September 2026"
               />
             </div>
           </div>

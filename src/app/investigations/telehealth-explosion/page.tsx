@@ -287,7 +287,7 @@ export default function TelehealthExplosionPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data (2014-2024). Telehealth-specific billing breakdowns are based on CMS reporting and published
+                and Payment Data (2014-2025). Telehealth-specific billing breakdowns are based on CMS reporting and published
                 research, as modifier-level detail is not included in our aggregate trends data.
               </p>
             </div>
@@ -316,12 +316,12 @@ export default function TelehealthExplosionPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
                   'CMS COVID-19 Emergency Declaration Blanket Waivers for Health Care Providers',
                   'HHS Office of Inspector General — Telehealth Fraud Reports (2021-2025)',
                   'Department of Justice — Healthcare Fraud Enforcement Actions (2025)',
                 ]}
-                lastUpdated="February 2026"
+                lastUpdated="September 2026"
               />
             </div>
           </div>

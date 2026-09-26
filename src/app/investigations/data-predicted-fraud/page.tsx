@@ -174,7 +174,7 @@ export default function DataPredictedFraudPage() {
                 <li>• Providers listed as &ldquo;not yet charged&rdquo; have <strong>NOT</strong> been accused of fraud by any authority.</li>
                 <li>• Statistical flags indicate unusual patterns that may have legitimate explanations.</li>
                 <li>• This analysis is journalism, not law enforcement.</li>
-                <li>• Our data covers 2014–2024. Enforcement actions occurred in 2025.</li>
+                <li>• Our data covers 2014–2025. Enforcement actions occurred in 2025.</li>
               </ul>
             </div>
 

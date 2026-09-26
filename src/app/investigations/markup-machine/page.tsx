@@ -11,7 +11,7 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '$2.1 Trillion in Phantom Charges: Inside the Markup',
-  description: 'Providers charged Medicare $3.2T but got paid $940B — a 66% write-off rate. See which specialties mark up the most and why the gap keeps widening.',
+  description: 'Providers charged Medicare $3.2T but got paid $1.05T — a 66% write-off rate. See which specialties mark up the most and why the gap keeps widening.',
   alternates: {
     canonical: '/investigations/markup-machine',
   },
@@ -197,7 +197,7 @@ export default function MarkupMachinePage() {
                 }))}
                 xDataKey="year"
                 yDataKey="markup"
-                title="National Average Markup Ratio Trends (2014-2024)"
+                title="National Average Markup Ratio Trends (2014-2025)"
                 height={350}
               />
               <p className="text-sm text-gray-500 mt-2">
@@ -287,7 +287,7 @@ export default function MarkupMachinePage() {
               <h3>Methodology</h3>
 
               <p className="text-sm bg-gray-50 p-4 rounded-lg">
-                This analysis is based on Medicare Provider Utilization and Payment Data from 2014-2024, 
+                This analysis is based on Medicare Provider Utilization and Payment Data from 2014-2025, 
                 covering over 1.2 million healthcare providers. Markup ratios were calculated by dividing 
                 total submitted charges by total Medicare payments for each provider and specialty. 
                 Geographic classifications use Rural Health Research Center definitions. All data is 
@@ -344,7 +344,7 @@ export default function MarkupMachinePage() {
             lastUpdated="February 2024"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
-              'Medicare Provider Utilization and Payment Data (2014-2024)',
+              'Medicare Provider Utilization and Payment Data (2014-2025)',
               'Rural Health Research Center Geographic Classifications',
               'CMS National Health Expenditure Data'
             ]}

@@ -8,8 +8,8 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Where Your $940B Medicare Dollar Goes',
-  description: 'Every cent of $940B in Medicare Part B spending, mapped. Office visits take 18 cents, drugs 11 cents. See the full breakdown by category.',
+  title: 'Where Your $1.05T Medicare Dollar Goes',
+  description: 'Every cent of $1.05T in Medicare Part B spending, mapped. Office visits take 18 cents, drugs 11 cents. See the full breakdown by category.',
 }
 
 const categories = [
@@ -232,7 +232,7 @@ export default function WhereMedicareDollarGoesPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Medicare Part B Spending by Category</h3>
-            <p className="text-sm text-gray-500">Estimated from procedure-level data, 2014–2024</p>
+            <p className="text-sm text-gray-500">Estimated from procedure-level data, 2014–2025</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -410,7 +410,7 @@ export default function WhereMedicareDollarGoesPage() {
           <p className="text-gray-700 mb-4">
             Medicare&apos;s financial sustainability depends on making every dollar count. With an
             aging population pushing enrollment higher and per-beneficiary costs climbing, the
-            $940 billion question isn&apos;t just academic — it&apos;s the defining fiscal challenge
+            $1.05 trillion question isn&apos;t just academic — it&apos;s the defining fiscal challenge
             of the next generation.
           </p>
 

@@ -394,7 +394,7 @@ export default function NursePractitionersFraudPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data (2014–2024) and our machine learning model trained on confirmed fraud cases. Being flagged
+                and Payment Data (2014–2025) and our machine learning model trained on confirmed fraud cases. Being flagged
                 by an AI model does not constitute an accusation of fraud. Named providers have not been charged with any crime.
                 All data is from public sources.
               </p>
@@ -420,13 +420,13 @@ export default function NursePractitionersFraudPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2024)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2025)',
                   'OpenMedicare ML Fraud Detection Model v2.0 — Trained on 2,198 LEIE/DOJ confirmed fraud cases',
                   'American Association of Nurse Practitioners — State Practice Environment Map (2025)',
                   'U.S. Department of Health and Human Services — Office of Inspector General Reports',
                   'Bureau of Labor Statistics — Nurse Practitioner Employment Projections',
                 ]}
-                lastUpdated="February 2026"
+                lastUpdated="September 2026"
               />
             </div>
           </div>

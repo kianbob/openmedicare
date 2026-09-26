@@ -321,9 +321,9 @@ export default function ImpossibleDoctorsPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
                 ]}
-                lastUpdated="February 2026"
+                lastUpdated="September 2026"
               />
             </div>
           </div>

@@ -139,7 +139,7 @@ export default function CalculatorPage() {
 
         {/* Common Procedure Costs */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Common Medicare Procedure Costs (2024 Averages)</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Common Medicare Procedure Costs (2025 Averages)</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-gray-50 border-b">
@@ -236,7 +236,7 @@ export default function CalculatorPage() {
             <p>
               This is why provider &quot;charges&quot; (list prices) are so much higher than Medicare payments — providers
               set charges to maximize private insurance reimbursement, while Medicare applies its own fee schedule
-              regardless. The result: providers charge $3.5T+ to Medicare but receive $940B.
+              regardless. The result: providers charge $3.5T+ to Medicare but receive $1.05T.
             </p>
           </div>
         </div>
@@ -283,7 +283,7 @@ export default function CalculatorPage() {
               Hospital inpatient costs (Part A) and pharmacy drugs (Part D) use different payment systems not included here.
             </p>
             <p>
-              <strong>Data vintage.</strong> Costs are based on 2024 CMS data — the most recent available. Medicare
+              <strong>Data vintage.</strong> Costs are based on 2025 CMS data — the most recent available. Medicare
               fee schedules are updated annually, so current-year payments may differ slightly.
             </p>
           </div>

@@ -199,7 +199,7 @@ export default function CovidImpactPage() {
             </p>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Spending Trends 2014-2024</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Spending Trends 2014-2025</h2>
         </article>
 
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mt-6 mb-8">
@@ -259,7 +259,7 @@ export default function CovidImpactPage() {
           <p className="text-gray-700 mb-4">COVID hit provider finances unevenly. Large health systems with diverse revenue streams weathered the storm, aided by $178 billion in Provider Relief Fund distributions. Small independent practices were less fortunate — an estimated 16,000 physician practices closed permanently during 2020-2021, accelerating the trend toward corporate medicine and consolidation.</p>
           <p className="text-gray-700 mb-4">The financial stress also accelerated physician retirement. Many physicians near retirement age chose to leave the profession rather than face the risks and burnout of pandemic practice. The resulting supply crunch contributed to longer wait times and higher labor costs that persist into 2026.</p>
 
-          <p className="text-gray-700 mb-8">The pandemic was a stress test for Medicare. The system bent but didn&apos;t break — and the lessons learned are reshaping how healthcare is delivered to 68.5 million Americans.</p>
+          <p className="text-gray-700 mb-8">The pandemic was a stress test for Medicare. The system bent but didn&apos;t break — and the lessons learned are reshaping how healthcare is delivered to 70.6 million Americans.</p>
         </article>
 
         {/* Related */}
@@ -291,7 +291,7 @@ export default function CovidImpactPage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
           'CMS COVID-19 Telehealth Utilization Reports',
           'JAMA: Impact of COVID-19 on Cancer Screening (2022)',
           'MedPAC Report to Congress, March 2026',

@@ -8,11 +8,11 @@ import SourceCitation from '@/components/SourceCitation'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'The 10-Year Money Trail: $940B in Medicare',
-  description: 'We tracked every dollar Medicare Part B spent from 2014–2024. $940 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
+  title: 'The 10-Year Money Trail: $1.05T in Medicare',
+  description: 'We tracked every dollar Medicare Part B spent from 2014–2025. $1.05 trillion, 1.17M providers, and a pandemic crater that vanished in one year.',
   openGraph: {
-    title: 'The 10-Year Money Trail: $940B in Medicare',
-    description: 'We tracked every dollar Medicare Part B spent from 2014–2024. $940 billion, 1.17M providers, and a pandemic crater that vanished in one year.',
+    title: 'The 10-Year Money Trail: $1.05T in Medicare',
+    description: 'We tracked every dollar Medicare Part B spent from 2014–2025. $1.05 trillion, 1.17M providers, and a pandemic crater that vanished in one year.',
     type: 'article',
   },
 }
@@ -268,7 +268,7 @@ export default function The10YearMoneyTrailPage() {
 
             <SourceCitation
               sources={[
-                'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+                'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
                 'OpenMedicare trends.json — compiled from 10 years of annual releases',
               ]}
             />

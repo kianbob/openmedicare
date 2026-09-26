@@ -39,7 +39,7 @@ export default function MedicareCostsByStatePage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="How Much Does Medicare Cost by State? The Complete 2024 Guide" description="State-by-state breakdown of Medicare costs from CMS data (2014–2024)" url="https://www.openmedicare.us/investigations/medicare-costs-by-state-2024" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="How Much Does Medicare Cost by State? The Complete 2024 Guide" description="State-by-state breakdown of Medicare costs from CMS data (2014–2025)" url="https://www.openmedicare.us/investigations/medicare-costs-by-state-2024" publishedDate="2026-02-21" />
       <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },
@@ -56,7 +56,7 @@ export default function MedicareCostsByStatePage() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-blue-900 font-medium text-lg">Key Finding</p>
             <p className="text-blue-800 mt-2">
-              Medicare paid <strong>$93.7 billion</strong> to <strong>1.82 million providers</strong> in 2023 alone — part of $940 billion over the past decade. But costs vary dramatically by state:
+              Medicare paid <strong>$93.7 billion</strong> to <strong>1.82 million providers</strong> in 2023 alone — part of $1.05 trillion over the past decade. But costs vary dramatically by state:
               California leads at <strong>$81.6 billion</strong>, while Wyoming received just <strong>$813 million</strong> — a 100x gap.
               Per-provider payments range from <strong>$18K in Puerto Rico</strong> to <strong>$121K in Florida</strong>.
             </p>
@@ -191,7 +191,7 @@ export default function MedicareCostsByStatePage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Markup Problem</h2>
           <p className="text-gray-700 mb-4">
-            Providers submitted <strong>$3.22 trillion</strong> in charges to Medicare in 2023. Medicare actually paid $940 billion over the past decade.
+            Providers submitted <strong>$3.22 trillion</strong> in charges to Medicare in 2023. Medicare actually paid $1.05 trillion over the past decade.
             The other <strong>$2.14 trillion</strong> was written off — a markup ratio of roughly 3.8x nationally. But some states
             see markups of 5x or more, particularly in wound care and drug administration codes.
           </p>

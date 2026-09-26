@@ -338,11 +338,11 @@ export default function PartDRedesignImpact2026Page() {
 
           <SourceCitation sources={[
             'CMS Part D Redesign Implementation Data (2025-2026)',
-            'Congressional Budget Office, Inflation Reduction Act Cost Estimates (Updated 2026)',
+            'Congressional Budget Office, Inflation Reduction Act Cost Estimates (Updated September 2026)',
             'HHS ASPE, Impact of the Part D Redesign on Beneficiary Out-of-Pocket Costs',
             'KFF Medicare Part D Enrollment and Spending Analysis (2026)',
             'Medicare Trustees Report, 2026',
-            'OpenMedicare Drug Spending Analysis (2014-2024 data)',
+            'OpenMedicare Drug Spending Analysis (2014-2025 data)',
           ]} />
         </article>
       </div>

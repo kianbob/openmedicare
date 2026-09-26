@@ -166,7 +166,7 @@ export default function DrugPipelinePage() {
           <p className="text-gray-700 mb-4">Several states have passed anti-white-bagging legislation, and the debate has implications for Medicare Part B drug spending: if white bagging becomes standard, it could change how ASP is calculated and how physicians are compensated for drug administration.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Our Analysis</h2>
-          <p className="text-gray-700 mb-4">OpenMedicare tracks every Part B drug code in CMS&apos;s dataset — over 500 unique drug codes billed by hundreds of thousands of providers. Our drug spending analysis aggregates 10 years of data to show which drugs cost the most, which providers bill the most drug codes, and how drug spending has shifted over time.</p>
+          <p className="text-gray-700 mb-4">OpenMedicare tracks every Part B drug code in CMS&apos;s dataset — over 500 unique drug codes billed by hundreds of thousands of providers. Our drug spending analysis aggregates 12 years of data to show which drugs cost the most, which providers bill the most drug codes, and how drug spending has shifted over time.</p>
           <p className="text-gray-700 mb-4">Explore the full dataset on our <Link href="/drug-spending" className="text-blue-600 hover:underline">drug spending dashboard</Link>, or search for any specific drug by HCPCS code to see which providers bill it most and how spending has trended over time.</p>
           <p className="text-gray-700 mb-4">Want to see how your doctor&apos;s drug prescribing compares to peers? Our <Link href="/search" className="text-blue-600 hover:underline">provider search</Link> shows drug vs. non-drug billing breakdown for every Medicare provider.</p>
           <p className="text-gray-700 mb-4">The drug pipeline isn&apos;t just a policy issue — it&apos;s personal for the millions of Medicare beneficiaries who depend on these medications. Understanding where the money goes is the first step toward ensuring it goes where it should.</p>
@@ -289,7 +289,7 @@ export default function DrugPipelinePage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
           'CMS Medicare Part B Drug Spending Dashboard',
           'Inflation Reduction Act Drug Negotiation Program (2026)',
           'MedPAC Report to Congress, March 2026',

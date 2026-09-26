@@ -325,12 +325,12 @@ export default function FloridaInfectiousDiseasePage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
                   'Department of Justice — 2024 National Health Care Fraud Enforcement Action',
                   'HHS Office of Inspector General (OIG)',
                   'U.S. Census Bureau — Population Estimates',
                 ]}
-                lastUpdated="February 2026"
+                lastUpdated="September 2026"
               />
             </div>
           </div>

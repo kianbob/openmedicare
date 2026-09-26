@@ -264,7 +264,7 @@ export default function MedicareVsMedicaidFraudPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="border rounded-lg p-4">
                   <h3 className="font-bold text-gray-900 mb-2">🔵 OpenMedicare</h3>
-                  <p className="text-sm text-gray-600 mb-2">$940B in Medicare Part B data. 1.82M providers. 500 AI-flagged for fraud patterns.</p>
+                  <p className="text-sm text-gray-600 mb-2">$1.05T in Medicare Part B data. 1.82M providers. 500 AI-flagged for fraud patterns.</p>
                   <Link href="/" className="text-blue-600 hover:underline text-sm font-medium">Explore Medicare Data →</Link>
                 </div>
                 <div className="border rounded-lg p-4">
@@ -288,7 +288,7 @@ export default function MedicareVsMedicaidFraudPage() {
 
         <div className="mt-8">
           <SourceCitation
-            lastUpdated="February 2026"
+            lastUpdated="September 2026"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
               'HHS Office of Inspector General (OIG)',

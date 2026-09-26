@@ -42,7 +42,7 @@ const items = [
   },
   // New SEO articles - Feb 2026
   {
-    title: 'How Much Does Medicare Cost by State? The Complete 2024 Guide',
+    title: 'How Much Does Medicare Cost by State? The Complete 2026 Guide',
     description: 'State-by-state breakdown of Medicare costs from $854.8B in CMS data. California leads at $81.6B, Wyoming at $813M. Per-provider payments range from $18K to $121K.',
     link: '/investigations/medicare-costs-by-state-2024',
     pubDate: '2026-02-21T00:00:00.000Z',
@@ -194,7 +194,7 @@ const items = [
     pubDate: '2026-02-23T00:00:00.000Z',
   },
   {
-    title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
+    title: 'Medicare Fraud Statistics 2026: How Much Is Lost Each Year?',
     description: 'Medicare fraud costs taxpayers $60–100 billion annually from $854.8B in total payments. Complete breakdown of fraud statistics, types, enforcement, and AI findings.',
     link: '/investigations/medicare-fraud-statistics',
     pubDate: '2026-02-23T00:00:00.000Z',

@@ -6,9 +6,9 @@ import SourceCitation from '@/components/SourceCitation'
 import ShareButtons from '@/components/ShareButtons'
 
 const COMPARISON_ROWS = [
-  { feature: 'Monthly Premium (Part B)', original: '$174.70 (2024)', advantage: '$0–$200+/mo (varies by plan)' },
+  { feature: 'Monthly Premium (Part B)', original: '$185.00 (2026)', advantage: '$0–$200+/mo (varies by plan)' },
   { feature: 'Annual Deductible', original: '$240 (Part B)', advantage: 'Varies; some plans $0' },
-  { feature: 'Out-of-Pocket Maximum', original: 'No cap', advantage: '$8,850 max (2024)' },
+  { feature: 'Out-of-Pocket Maximum', original: 'No cap', advantage: '$9,100 max (2026)' },
   { feature: 'Provider Choice', original: 'Any doctor that accepts Medicare', advantage: 'Plan network only (HMO/PPO)' },
   { feature: 'Referrals Needed', original: 'No', advantage: 'Yes (HMO); No (PPO)' },
   { feature: 'Drug Coverage (Part D)', original: 'Separate plan required', advantage: 'Usually included' },
@@ -49,7 +49,7 @@ const PROS_CONS = {
   },
   advantage: {
     pros: [
-      'Out-of-pocket maximum caps your costs ($8,850 in 2024)',
+      'Out-of-pocket maximum caps your costs ($9,100 in 2026)',
       'Often includes dental, vision, and hearing',
       'Drug coverage usually bundled in',
       'Many plans have $0 premiums beyond Part B',
@@ -207,7 +207,7 @@ export default function MedicareAdvantageVsOriginalPage() {
 
         {/* Market Share Trend */}
         <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900">Medicare Advantage Market Share: 2004–2024</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Medicare Advantage Market Share: 2004–2026</h2>
           <p className="mt-2 text-gray-600">
             The shift from Original Medicare to Medicare Advantage has been dramatic — crossing the 50% threshold in 2024.
           </p>
@@ -242,7 +242,7 @@ export default function MedicareAdvantageVsOriginalPage() {
             Medicare Advantage plans often advertise $0 premiums and lower out-of-pocket costs for enrollees.
             But the government pays MA insurers a capitated rate that&apos;s been found to be 6% higher per
             enrollee than traditional Medicare would have cost — adding an estimated $83 billion in extra
-            spending from 2024–2031 according to MedPAC.
+            spending from 2026–2033 according to MedPAC.
           </p>
           <p className="mt-3 opacity-90">
             The tradeoff: enrollees get capped costs and extra benefits, but taxpayers pay more per person,
@@ -255,7 +255,7 @@ export default function MedicareAdvantageVsOriginalPage() {
             </div>
             <div>
               <p className="text-3xl font-bold">$83B</p>
-              <p className="text-sm opacity-80">Estimated extra cost (2024–2031)</p>
+              <p className="text-sm opacity-80">Estimated extra cost (2026–2033)</p>
             </div>
           </div>
         </div>

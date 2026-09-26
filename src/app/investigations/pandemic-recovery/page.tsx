@@ -280,7 +280,7 @@ export default function PandemicRecoveryPage() {
             </Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">Breaking down $940B across categories</p>
+              <p className="text-sm text-gray-500 mt-1">Breaking down $1.05T across categories</p>
             </Link>
             <Link href="/investigations/specialty-gap" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Specialty Gap</h4>

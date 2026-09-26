@@ -282,7 +282,7 @@ export default function ReportFraud() {
         <div className="mt-6">
           <SourceCitation
             sources={['HHS Office of Inspector General', 'Department of Justice, Civil Division', 'False Claims Act (31 U.S.C. §§ 3729–3733)']}
-            lastUpdated="February 2026"
+            lastUpdated="September 2026"
           />
         </div>
       </div>

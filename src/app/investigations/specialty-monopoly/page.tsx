@@ -11,10 +11,10 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: '5 Specialties Control 33% of Medicare Spending',
-  description: 'Just 5 medical specialties absorb one-third of $940B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
+  description: 'Just 5 medical specialties absorb one-third of $1.05T in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
   openGraph: {
     title: '5 Specialties Control 33% of Medicare Spending',
-    description: 'Just 5 medical specialties absorb one-third of $940B in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
+    description: 'Just 5 medical specialties absorb one-third of $1.05T in Medicare payments. See which ones dominate, what they earn per provider, and why it matters.',
   },
 }
 
@@ -100,7 +100,7 @@ export default function SpecialtyMonopolyPage() {
         {/* Top 10 table */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden my-8">
           <div className="p-4 bg-gray-50 border-b">
-            <h3 className="font-semibold text-gray-900">Top 10 Specialties by Total Medicare Payments (2014–2024)</h3>
+            <h3 className="font-semibold text-gray-900">Top 10 Specialties by Total Medicare Payments (2014–2025)</h3>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">

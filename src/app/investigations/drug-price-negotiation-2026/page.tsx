@@ -291,7 +291,7 @@ export default function DrugPriceNegotiation2026Page() {
           </p>
           <p className="text-gray-700 mb-4">
             In practice, every manufacturer in the first round reached agreement rather than face the tax or lose access
-            to Medicare&apos;s 68.5 million beneficiaries. The negotiated &quot;Maximum Fair Prices&quot; are confidential during the
+            to Medicare&apos;s 70.6 million beneficiaries. The negotiated &quot;Maximum Fair Prices&quot; are confidential during the
             negotiation process but published before they take effect, allowing beneficiaries and plans to see the new prices.
           </p>
 
@@ -299,7 +299,7 @@ export default function DrugPriceNegotiation2026Page() {
             'CMS Medicare Drug Price Negotiation Program (2026)',
             'Congressional Budget Office, Inflation Reduction Act Savings Estimates',
             'HHS Office of the Assistant Secretary for Planning and Evaluation (ASPE)',
-            'OpenMedicare Drug Spending Analysis (2014-2024 data)',
+            'OpenMedicare Drug Spending Analysis (2014-2025 data)',
             'CMS Third Cycle Manufacturer Participation Announcement (March 2026)',
             'Federal Register: Medicare Drug Price Negotiation Program Proposed Rule (June 2026)',
           ]} />

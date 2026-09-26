@@ -326,7 +326,7 @@ export default function NursePractitionerBoomPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data (2014-2024). Provider counts represent unique NPI-year combinations over the decade.
+                and Payment Data (2014-2025). Provider counts represent unique NPI-year combinations over the decade.
                 Individual cases cited are based on public billing data and do not constitute accusations of fraud.
               </p>
             </div>
@@ -349,12 +349,12 @@ export default function NursePractitionerBoomPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2024)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
                   'American Association of Nurse Practitioners — State Practice Environment Map (2025)',
                   'American Medical Association — Scope of Practice Policy',
                   'Bureau of Labor Statistics — Nurse Practitioner Employment Data',
                 ]}
-                lastUpdated="February 2026"
+                lastUpdated="September 2026"
               />
             </div>
           </div>

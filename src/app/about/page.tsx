@@ -5,7 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'About OpenMedicare — Mission & Methodology',
-  description: 'How we analyze 96M+ rows of raw CMS data to expose Medicare fraud and billing anomalies. Independent, open-source data journalism.',
+  description: 'How we analyze 105M+ rows of raw CMS data to expose Medicare fraud and billing anomalies. Independent, open-source data journalism.',
   alternates: {
     canonical: '/about',
   },
@@ -68,7 +68,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg text-gray-700 max-w-none">
               <p>
-                OpenMedicare is an independent data journalism project dedicated to making Medicare physician spending transparent and accessible. We analyze over a decade of Medicare payment data (2014-2024) to help patients, policymakers, and researchers understand how taxpayer dollars flow through the healthcare system.
+                OpenMedicare is an independent data journalism project dedicated to making Medicare physician spending transparent and accessible. We analyze over a decade of Medicare payment data (2014-2025) to help patients, policymakers, and researchers understand how taxpayer dollars flow through the healthcare system.
               </p>
               <p>
                 Our goal is simple: shine light on Medicare spending patterns to promote accountability, identify potential fraud, and help Americans make informed healthcare decisions.
@@ -83,7 +83,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg text-gray-700 max-w-none">
               <p>
-                Most Medicare transparency sites rely on pre-aggregated summaries or filtered snapshots. We analyze the <strong>raw CMS provider-level data</strong> — over 96 million rows spanning 10 years — to build our own indexes, risk scores, and trend analysis from the ground up. This means we catch patterns that summary data obscures: billing anomalies within specialties, geographic outliers, providers whose volumes defy mathematical possibility, and markup patterns that only emerge when you compare individual providers against their peers.
+                Most Medicare transparency sites rely on pre-aggregated summaries or filtered snapshots. We analyze the <strong>raw CMS provider-level data</strong> — over 105 million rows spanning 10 years — to build our own indexes, risk scores, and trend analysis from the ground up. This means we catch patterns that summary data obscures: billing anomalies within specialties, geographic outliers, providers whose volumes defy mathematical possibility, and markup patterns that only emerge when you compare individual providers against their peers.
               </p>
             </div>
           </section>
@@ -95,12 +95,12 @@ export default function AboutPage() {
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-gray-50 rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold text-medicare-primary">96M+</div>
+                <div className="text-2xl font-bold text-medicare-primary">105M+</div>
                 <div className="text-sm text-gray-600">Data rows analyzed</div>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-medicare-primary">10 years</div>
-                <div className="text-sm text-gray-600">2014–2024</div>
+                <div className="text-sm text-gray-600">2014–2025</div>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-medicare-primary">1.72M</div>
@@ -309,7 +309,7 @@ export default function AboutPage() {
             lastUpdated="February 2026 (data through 2023, the latest CMS release)"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
-              'Medicare Provider Utilization and Payment Data (2014-2024)',
+              'Medicare Provider Utilization and Payment Data (2014-2025)',
               'CMS Provider Enrollment Files',
               'Rural Health Research Center Classifications'
             ]}

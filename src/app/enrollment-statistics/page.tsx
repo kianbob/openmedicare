@@ -24,6 +24,7 @@ const ENROLLMENT_HISTORY = [
   { year: 2024, total: 67.4 },
   { year: 2025, total: 69.0 },
   { year: 2026, total: 70.6 },
+  { year: 2027, total: 72.3 },
 ]
 
 const STATE_ENROLLMENT = [
@@ -81,7 +82,7 @@ export default function EnrollmentStatisticsPage() {
             Medicare Enrollment Statistics
           </h1>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl">
-            From 19.1 million in 1966 to 67.4 million in 2024 — Medicare now covers 1 in 5 Americans.
+            From 19.1 million in 1966 to 70.6 million in 2026 — Medicare now covers 1 in 5 Americans.
             Explore enrollment growth, demographics, and state-by-state data.
           </p>
         </div>
@@ -89,8 +90,8 @@ export default function EnrollmentStatisticsPage() {
         {/* Key Stats */}
         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="rounded-xl bg-blue-50 border border-blue-200 p-6 text-center">
-            <p className="text-3xl font-bold text-blue-700">67.4M</p>
-            <p className="mt-1 text-sm text-gray-500">Total Enrollees (2024)</p>
+            <p className="text-3xl font-bold text-blue-700">70.6M</p>
+            <p className="mt-1 text-sm text-gray-500">Total Enrollees (2026)</p>
           </div>
           <div className="rounded-xl bg-green-50 border border-green-200 p-6 text-center">
             <p className="text-3xl font-bold text-green-700">51%+</p>
@@ -108,7 +109,7 @@ export default function EnrollmentStatisticsPage() {
 
         {/* Enrollment Growth Chart */}
         <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900">Enrollment Growth: 1966–2024</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Enrollment Growth: 1966–2026</h2>
           <p className="mt-2 text-gray-600">
             Medicare enrollment has more than tripled since the program began, driven by population growth,
             the aging Baby Boomer generation, and expanded eligibility for disabled Americans.
@@ -210,7 +211,7 @@ export default function EnrollmentStatisticsPage() {
           <h2 className="text-2xl font-bold text-gray-900">The Rise of Medicare Advantage</h2>
           <p className="mt-2 text-gray-600">
             Medicare Advantage (Part C) — private plans that replace Original Medicare — has surged from
-            covering 13% of beneficiaries in 2004 to over 51% in 2024. This shift has fundamentally changed
+            covering 13% of beneficiaries in 2004 to over 54% in 2026. This shift has fundamentally changed
             how Medicare works for most enrollees.
           </p>
 
@@ -225,6 +226,8 @@ export default function EnrollmentStatisticsPage() {
                 { year: 2020, pct: 42 },
                 { year: 2022, pct: 48 },
                 { year: 2024, pct: 51 },
+                  { year: 2025, pct: 52 },
+                  { year: 2026, pct: 54 },
               ].map((d) => (
                 <div key={d.year} className="flex items-center gap-3">
                   <span className="w-10 text-xs text-gray-500 text-right">{d.year}</span>
@@ -284,7 +287,7 @@ export default function EnrollmentStatisticsPage() {
           <ShareButtons
             url="https://www.openmedicare.us/enrollment-statistics"
             title="Medicare Enrollment Statistics: 67M+ Beneficiaries"
-            description="From 19.1M in 1966 to 67.4M in 2024 — Medicare now covers 1 in 5 Americans. Explore the data."
+            description="From 19.1M in 1966 to 70.6M in 2024 — Medicare now covers 1 in 5 Americans. Explore the data."
           />
         </div>
 

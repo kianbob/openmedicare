@@ -163,7 +163,7 @@ export default function CorporateMedicinePage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 10 Organizations by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">Cumulative 2014–2024</p>
+            <p className="text-sm text-gray-500">Cumulative 2014–2025</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -321,7 +321,7 @@ export default function CorporateMedicinePage() {
             </Link>
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">Breaking down the $940B spending pie</p>
+              <p className="text-sm text-gray-500 mt-1">Breaking down the $1.05T spending pie</p>
             </Link>
           </div>
         </article>

@@ -110,7 +110,7 @@ export default function HowMuchDoesMedicarePayPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Top 20 Specialties by Average Medicare Payment</h2>
           <p className="text-gray-700 mb-4">
             This table shows the average annual Medicare payment per provider for the top 20 highest-paid specialties
-            (minimum 100 providers). These figures represent 10 years of cumulative data (2014-2024), divided by provider count.
+            (minimum 100 providers). These figures represent 10 years of cumulative data (2014-2025), divided by provider count.
           </p>
 
           <div className="overflow-x-auto not-prose mb-8">
@@ -262,7 +262,7 @@ export default function HowMuchDoesMedicarePayPage() {
         <SourceCitation
           lastUpdated="February 2026 (data through 2023)"
           sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
             'Medicare Physician Fee Schedule',
             'MedPAC Report to the Congress (2024)',
           ]}

@@ -97,7 +97,7 @@ export default function OfficeVisitEconomyPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Office Visit Codes by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">Evaluation & Management codes, 2014–2024 cumulative</p>
+            <p className="text-sm text-gray-500">Evaluation & Management codes, 2014–2025 cumulative</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -299,7 +299,7 @@ export default function OfficeVisitEconomyPage() {
           <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <Link href="/investigations/where-medicare-dollar-goes" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">Where Your Medicare Dollar Goes</h4>
-              <p className="text-sm text-gray-500 mt-1">The full breakdown of $940B in spending</p>
+              <p className="text-sm text-gray-500 mt-1">The full breakdown of $1.05T in spending</p>
             </Link>
             <Link href="/investigations/specialty-pay-gap" className="block bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Specialty Pay Gap</h4>

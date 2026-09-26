@@ -59,13 +59,13 @@ const datasetJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
   name: 'Medicare Provider Utilization and Payment Data',
-  description: 'Comprehensive analysis of Medicare physician spending across 11 years (2014-2024), covering provider payments, procedure costs, specialty breakdowns, and geographic trends derived from CMS public data.',
+  description: 'Comprehensive analysis of Medicare physician spending across 12 years (2014-2025), covering provider payments, procedure costs, specialty breakdowns, and geographic trends derived from CMS public data.',
   creator: {
     '@type': 'Organization',
     name: 'Centers for Medicare & Medicaid Services (CMS)',
     url: 'https://www.cms.gov',
   },
-  temporalCoverage: '2014/2024',
+  temporalCoverage: '2014/2025',
   license: 'https://www.usa.gov/government-works',
   url: 'https://www.openmedicare.us',
   distribution: {
@@ -82,7 +82,7 @@ const featuredInvestigations = [
     href: '/investigations/algorithm-knows',
     category: '🤖 AI Analysis',
     readTime: '15 min read',
-    date: 'Feb 2026'
+    date: 'Sep 2026'
   },
   {
     title: 'Still Out There',
@@ -90,7 +90,7 @@ const featuredInvestigations = [
     href: '/investigations/still-out-there',
     category: '🚨 ML Investigation',
     readTime: '18 min read',
-    date: 'Feb 2026'
+    date: 'Sep 2026'
   },
   {
     title: 'The Florida Infectious Disease Ring',
@@ -98,7 +98,7 @@ const featuredInvestigations = [
     href: '/investigations/florida-infectious-disease',
     category: 'Investigation',
     readTime: '16 min read',
-    date: 'Jan 2026'
+    date: 'Sep 2026'
   },
   {
     title: 'Three Providers, One Pattern',
@@ -106,7 +106,7 @@ const featuredInvestigations = [
     href: '/investigations/three-providers',
     category: 'Investigation',
     readTime: '14 min read',
-    date: 'Jan 2026'
+    date: 'Sep 2026'
   },
   {
     title: 'The Biggest Billers',
@@ -114,7 +114,7 @@ const featuredInvestigations = [
     href: '/investigations/biggest-billers',
     category: 'Deep Dive',
     readTime: '15 min read',
-    date: 'Jan 2026'
+    date: 'Sep 2026'
   },
   {
     title: 'COVID\'s Impact on Medicare',
@@ -122,7 +122,7 @@ const featuredInvestigations = [
     href: '/investigations/covid-impact',
     category: 'Analysis',
     readTime: '12 min read',
-    date: 'Dec 2025'
+    date: 'Sep 2026'
   },
   {
     title: 'The Impossible Doctors',
@@ -130,7 +130,7 @@ const featuredInvestigations = [
     href: '/investigations/impossible-doctors',
     category: '🔍 Investigation',
     readTime: '14 min read',
-    date: 'Dec 2025'
+    date: 'Sep 2026'
   },
   {
     title: 'The Oncology Drug Pipeline',
@@ -138,7 +138,7 @@ const featuredInvestigations = [
     href: '/investigations/oncology-drug-pipeline',
     category: 'Deep Dive',
     readTime: '16 min read',
-    date: 'Nov 2025'
+    date: 'Sep 2026'
   }
 ]
 
@@ -160,7 +160,7 @@ const keyNumbers = [
   {
     value: '10 years',
     label: 'Of Medicare data',
-    sublabel: 'Payment data analyzed (2014-2024)',
+    sublabel: 'Payment data analyzed (2014-2025)',
     icon: '📊',
     href: '/trends',
   },
@@ -190,13 +190,13 @@ export default function HomePage() {
               Data through 2023 · Updated February 2026
             </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
-              Where $940B in Medicare Money Really Goes
+              Where $1.05T in Medicare Money Really Goes
             </h1>
             <p className="text-xl sm:text-2xl text-blue-100 mb-4 max-w-4xl mx-auto">
-              10 years of data. 1.82 million providers. AI-powered fraud detection.
+              12 years of data. 1.82 million providers. AI-powered fraud detection.
             </p>
             <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
-              Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2024).
+              Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2025).
               Our ML model, trained on 2,198 convicted fraudsters, flagged 500 providers who bill like criminals.
               For Open Payments data and broader health industry transparency, see{' '}
               <a href="https://americanfactbook.org/health" className="text-blue-200 underline hover:text-white">American Factbook&apos;s health data hub</a>.
@@ -555,7 +555,7 @@ export default function HomePage() {
       <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold font-playfair text-center mb-4">Explore Medicare Spending Data</h2>
-          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">Dive into $940 billion in Medicare payments across providers, drugs, specialties, states, and procedures.</p>
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">Dive into $1.05 trillion in Medicare payments across providers, drugs, specialties, states, and procedures.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link href="/providers" className="group border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-lg text-gray-900 group-hover:text-blue-700 mb-2">🏥 Medicare Providers</h3>
@@ -598,7 +598,7 @@ export default function HomePage() {
           lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2024)',
+            'Medicare Provider Utilization and Payment Data (2014-2025)',
             'Medicare Part B National Summary Data',
             'CMS National Health Expenditure Data'
           ]}

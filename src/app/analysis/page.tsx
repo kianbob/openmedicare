@@ -4,8 +4,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
-  title: 'Medicare Analysis — $940B+ in Spending',
-  description: 'We analyzed 96M+ rows of CMS data (2014-2024) to uncover hidden patterns in $940B+ of Medicare spending. Explore drug costs, geographic gaps, markups, and 11-year trends serving 68.5M beneficiaries.',
+  title: 'Medicare Analysis — $1.05T+ in Spending',
+  description: 'We analyzed 105M+ rows of CMS data (2014-2025) to uncover hidden patterns in $1.05T+ of Medicare spending. Explore drug costs, geographic gaps, markups, and 12-year trends serving 70.6M beneficiaries.',
 }
 
 const analyses = [
@@ -74,18 +74,18 @@ export default function AnalysisPage() {
         {/* Hero */}
         <div className="mb-12">
           <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-900 mb-4">
-            Deep Analysis — Exploring $940B+ in Medicare Data
+            Deep Analysis — Exploring $1.05T+ in Medicare Data
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl">
             Go beyond the headlines. These analyses dig into specific aspects of Medicare spending
-            using 96 million rows of CMS physician payment data spanning 11 years (2014-2024).
+            using 105 million rows of CMS physician payment data spanning 12 years (2014-2025).
           </p>
         </div>
 
         {/* Key Stats Banner */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
-            <div className="text-2xl font-bold text-blue-600">$940B+</div>
+            <div className="text-2xl font-bold text-blue-600">$1.05T+</div>
             <div className="text-sm text-gray-500">Total Payments</div>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
@@ -94,10 +94,10 @@ export default function AnalysisPage() {
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
             <div className="text-2xl font-bold text-purple-600">11 Years</div>
-            <div className="text-sm text-gray-500">2014-2024 Data</div>
+            <div className="text-sm text-gray-500">2014-2025 Data</div>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
-            <div className="text-2xl font-bold text-red-600">96M+</div>
+            <div className="text-2xl font-bold text-red-600">105M+</div>
             <div className="text-sm text-gray-500">Rows of CMS Data</div>
           </div>
         </div>
@@ -162,10 +162,10 @@ export default function AnalysisPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
-                <tr><td className="px-4 py-2">Time Period</td><td className="px-4 py-2 text-right font-medium">2014-2024 (11 years)</td></tr>
-                <tr><td className="px-4 py-2">Total Payments</td><td className="px-4 py-2 text-right font-medium">$940B+</td></tr>
+                <tr><td className="px-4 py-2">Time Period</td><td className="px-4 py-2 text-right font-medium">2014-2025 (12 years)</td></tr>
+                <tr><td className="px-4 py-2">Total Payments</td><td className="px-4 py-2 text-right font-medium">$1.05T+</td></tr>
                 <tr><td className="px-4 py-2">Unique Providers</td><td className="px-4 py-2 text-right font-medium">1.82 million</td></tr>
-                <tr><td className="px-4 py-2">Total Rows</td><td className="px-4 py-2 text-right font-medium">96 million+</td></tr>
+                <tr><td className="px-4 py-2">Total Rows</td><td className="px-4 py-2 text-right font-medium">105 million+</td></tr>
                 <tr><td className="px-4 py-2">States & Territories</td><td className="px-4 py-2 text-right font-medium">61</td></tr>
                 <tr><td className="px-4 py-2">Medical Specialties</td><td className="px-4 py-2 text-right font-medium">105+</td></tr>
                 <tr><td className="px-4 py-2">Procedure Codes (HCPCS)</td><td className="px-4 py-2 text-right font-medium">7,500+</td></tr>
@@ -183,8 +183,8 @@ export default function AnalysisPage() {
           <div className="prose max-w-none text-gray-700 space-y-4">
             <p>
               Every analysis on OpenMedicare starts with the same foundation: CMS Medicare Provider Utilization and Payment Data,
-              covering 11 years from 2014 through 2024. This dataset includes every payment Medicare Part B made to every physician
-              and supplier in the United States — over 96 million individual rows of billing data.
+              covering 12 years from 2014 through 2024. This dataset includes every payment Medicare Part B made to every physician
+              and supplier in the United States — over 105 million individual rows of billing data.
             </p>
             <p>
               We process this data to calculate aggregate statistics at the provider, specialty, state, and procedure level.
@@ -206,11 +206,11 @@ export default function AnalysisPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">📊 Comprehensive Coverage</h3>
-              <p className="text-sm text-gray-700">We don&apos;t sample — we analyze every row. All 1.82 million providers, all 96 million+ billing records, across all 50 states and territories.</p>
+              <p className="text-sm text-gray-700">We don&apos;t sample — we analyze every row. All 1.82 million providers, all 105 million+ billing records, across all 50 states and territories.</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">📅 11-Year Longitudinal View</h3>
-              <p className="text-sm text-gray-700">Most Medicare analyses look at a single year. Ours spans 2014-2024, revealing trends that only emerge over time — like the slow rise of telehealth or the steady concentration of spending.</p>
+              <p className="text-sm text-gray-700">Most Medicare analyses look at a single year. Ours spans 2014-2025, revealing trends that only emerge over time — like the slow rise of telehealth or the steady concentration of spending.</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">🤖 AI-Powered Insights</h3>
@@ -238,7 +238,7 @@ export default function AnalysisPage() {
               <span className="text-xl">📈</span>
               <div>
                 <h4 className="font-semibold text-gray-900">Markups Are Getting Worse</h4>
-                <p className="text-sm text-gray-600">Providers submitted $3.5T+ in charges but Medicare paid $940B. The 3.7x average markup ratio has been climbing every year since 2014.</p>
+                <p className="text-sm text-gray-600">Providers submitted $3.5T+ in charges but Medicare paid $1.05T. The 3.7x average markup ratio has been climbing every year since 2014.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
@@ -269,7 +269,7 @@ export default function AnalysisPage() {
         <div className="bg-gray-50 rounded-xl p-8 mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Where to Start</h2>
           <div className="space-y-3 text-sm text-gray-700">
-            <p><strong>New here?</strong> Start with the <a href="/trends" className="text-blue-600 hover:underline">Spending Trends</a> page for the big picture — how Medicare spending has changed over 11 years.</p>
+            <p><strong>New here?</strong> Start with the <a href="/trends" className="text-blue-600 hover:underline">Spending Trends</a> page for the big picture — how Medicare spending has changed over 12 years.</p>
             <p><strong>Interested in fraud?</strong> Head to the <a href="/fraud" className="text-blue-600 hover:underline">Fraud Hub</a> to see which providers our AI flagged and why.</p>
             <p><strong>Curious about your state?</strong> Browse <a href="/states" className="text-blue-600 hover:underline">State Pages</a> for detailed breakdowns of Medicare spending in your state.</p>
             <p><strong>Want to look up a doctor?</strong> Use the <a href="/lookup" className="text-blue-600 hover:underline">Provider Lookup</a> to search any of 1.82 million Medicare providers.</p>

@@ -223,7 +223,7 @@ export default function HoustonMedicareCapitalPage() {
           <p className="text-gray-700 mb-4">Houston is also home to the Michael E. DeBakey VA Medical Center, one of the largest VA hospitals in the country. While VA spending is separate from Medicare, many Houston veterans are eligible for both VA and Medicare benefits. The co-location of world-class VA and civilian medical facilities creates unique care coordination challenges and opportunities — and contributes to Houston&apos;s overall healthcare spending footprint.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Methodology</h2>
-          <p className="text-gray-700 mb-4">This analysis uses CMS Medicare Provider Utilization and Payment Data (2014-2024) aggregated by provider city. We rank cities by total Medicare payments received by providers listing that city as their practice location. Provider counts, per-provider averages, and markup ratios are calculated from the same dataset.</p>
+          <p className="text-gray-700 mb-4">This analysis uses CMS Medicare Provider Utilization and Payment Data (2014-2025) aggregated by provider city. We rank cities by total Medicare payments received by providers listing that city as their practice location. Provider counts, per-provider averages, and markup ratios are calculated from the same dataset.</p>
           <p className="text-gray-700 mb-4">For a complete geographic breakdown by city, state, and ZIP code, see our <Link href="/geographic" className="text-blue-600 hover:underline">geographic analysis page</Link>.</p>
           <p className="text-gray-700 mb-4">
             To explore Texas specifically, visit our <Link href="/states/TX" className="text-blue-600 hover:underline">Texas state page</Link> for provider,
@@ -291,7 +291,7 @@ export default function HoustonMedicareCapitalPage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
           'Texas Medical Center Annual Report (2025)',
           'Harris County Medicare Enrollment Data',
           'DOJ Healthcare Fraud Enforcement Actions — Southern District of Texas',

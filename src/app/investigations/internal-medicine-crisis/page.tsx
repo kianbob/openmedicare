@@ -388,7 +388,7 @@ export default function InternalMedicineCrisisPage() {
               {/* Source Citation */}
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2024)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2025)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',
                   'DOJ Healthcare Fraud Prosecution Records by Specialty',

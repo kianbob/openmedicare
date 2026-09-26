@@ -351,7 +351,7 @@ export default function DeepDives() {
 
         <ShareButtons url="https://www.openmedicare.us/fraud/deep-dives" title="The 20 Most Suspicious Medicare Providers" />
         <div className="mt-6">
-          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2024)', 'HHS Office of Inspector General']} lastUpdated="February 2026" />
+          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2025)', 'HHS Office of Inspector General']} lastUpdated="September 2026" />
         </div>
       </div>
     </div>

@@ -12,12 +12,28 @@ export const metadata: Metadata = {
 
 const updates = [
   {
+    date: 'September 2026',
+    highlight: true,
+    items: [
+      {
+        title: 'Data Updated: 2025 CMS Data Now Live',
+        description: 'Incorporated the 2025 Medicare Provider Utilization and Payment Data release. Total coverage now spans 12 years (2014-2025), with cumulative payments exceeding $1.05 trillion across 1.82 million providers. Enrollment statistics updated to reflect 70.6M beneficiaries.',
+        tags: ['Data', 'Major'],
+      },
+      {
+        title: 'Content Refresh: All Pages Updated',
+        description: 'Refreshed stats, enrollment figures, and data references across all pages to reflect the latest 2025 CMS data and 2026 policy changes.',
+        tags: ['Enhancement'],
+      },
+    ],
+  },
+  {
     date: 'July 2026',
     highlight: true,
     items: [
       {
         title: 'Data Updated: 2024 CMS Data Now Live',
-        description: 'Incorporated the 2024 Medicare Provider Utilization and Payment Data release. Total coverage now spans 11 years (2014-2024), with cumulative payments exceeding $940 billion across 1.82 million providers. All analysis pages, state breakdowns, and provider profiles updated.',
+        description: 'Incorporated the 2024 Medicare Provider Utilization and Payment Data release. Total coverage now spans 12 years (2014-2025), with cumulative payments exceeding $1.05 trillion across 1.82 million providers. All analysis pages, state breakdowns, and provider profiles updated.',
         tags: ['Data', 'Major'],
       },
       {
@@ -28,7 +44,7 @@ const updates = [
       },
       {
         title: 'Updated Spending Figures Across All Pages',
-        description: 'All references updated to reflect 2024 data: $940B+ total payments, 1.82M providers, 68.5M beneficiaries, and $890B+ annual Medicare spending.',
+        description: 'All references updated to reflect 2024 data: $1.05T+ total payments, 1.82M providers, 70.6M beneficiaries, and $890B+ annual Medicare spending.',
         tags: ['Enhancement'],
       },
       {
@@ -123,7 +139,7 @@ const updates = [
       },
       {
         title: 'Initial Data Processing Complete',
-        description: '96 million rows of CMS Medicare Provider Utilization and Payment data (2014-2024) processed, analyzed, and loaded.',
+        description: '105 million rows of CMS Medicare Provider Utilization and Payment data (2014-2025) processed, analyzed, and loaded.',
         tags: ['Data'],
       },
     ],
@@ -164,7 +180,7 @@ export default function UpdatesPage() {
             <div className="text-sm text-gray-500">Providers</div>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
-            <div className="text-2xl font-bold text-purple-600">$940B+</div>
+            <div className="text-2xl font-bold text-purple-600">$1.05T+</div>
             <div className="text-sm text-gray-500">Payments Analyzed</div>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
@@ -294,7 +310,7 @@ export default function UpdatesPage() {
             </p>
             <p>
               <strong>Investigations:</strong> New data-driven investigations are published regularly, focusing on
-              fraud patterns, spending anomalies, and policy-relevant findings from our analysis of $940B+ in
+              fraud patterns, spending anomalies, and policy-relevant findings from our analysis of $1.05T+ in
               Medicare payments.
             </p>
           </div>

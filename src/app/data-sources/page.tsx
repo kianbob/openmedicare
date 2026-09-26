@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
-  title: 'Data Sources — 96M+ Medicare Claims',
+  title: 'Data Sources — 105M+ Medicare Claims',
   description: 'Every number verified from public CMS claims, OIG exclusion lists, and DOJ fraud cases. See exactly where our data comes from, how fresh it is, and what it covers.',
 }
 
@@ -13,8 +13,8 @@ const dataSources = [
     provider: 'Centers for Medicare & Medicaid Services (CMS)',
     url: 'https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service',
     description: 'The primary dataset powering OpenMedicare. Contains every Medicare Part B claim at the provider-service level, including services rendered, beneficiaries served, submitted charges, allowed amounts, and Medicare payments.',
-    years: '2014–2024',
-    records: '~96 million rows (all years combined)',
+    years: '2014–2025',
+    records: '~105 million rows (all years combined)',
     freshness: 'Updated annually by CMS, typically with a 2-year lag. Most recent data: Calendar year 2023.',
     lastUpdated: 'December 2024',
     fields: [
@@ -124,7 +124,7 @@ export default function DataSourcesPage() {
             <div className="text-xs text-gray-500 mt-1">Data Sources</div>
           </div>
           <div className="rounded-lg bg-gray-50 p-4 text-center">
-            <div className="text-2xl font-bold text-medicare-primary">96M+</div>
+            <div className="text-2xl font-bold text-medicare-primary">105M+</div>
             <div className="text-xs text-gray-500 mt-1">Claims Records</div>
           </div>
           <div className="rounded-lg bg-gray-50 p-4 text-center">

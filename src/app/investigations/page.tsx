@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Medicare Fraud Investigations — 74 Exposed',
-  description: 'Data-driven investigations uncovering $14.6B+ in Medicare fraud from $940B+ in payments (2014-2024). AI-powered analysis of 1.82M+ providers serving 68.5M beneficiaries — 74 investigations updated for 2026.',
+  description: 'Data-driven investigations uncovering $14.6B+ in Medicare fraud from $1.05T+ in payments (2014-2025). AI-powered analysis of 1.82M+ providers serving 70.6M beneficiaries — 74 investigations updated for 2026.',
   alternates: {
     canonical: '/investigations',
   },
@@ -163,7 +163,7 @@ const investigations = [
     category: '📈 Trend Analysis',
     readTime: '14 min read',
     publishedAt: '2026-06-03',
-    excerpt: 'Medicare Part B spending grew 20% from $78B to $93.7B over 10 years. Telehealth surged 3,000%+. Drug costs are the biggest driver. Here\'s where $940 billion actually went.'
+    excerpt: 'Medicare Part B spending grew 20% from $78B to $93.7B over 10 years. Telehealth surged 3,000%+. Drug costs are the biggest driver. Here\'s where $1.05 trillion actually went.'
   },
   {
     title: 'Medicare Advantage vs Traditional Medicare: Follow the Money',
@@ -181,7 +181,7 @@ const investigations = [
     category: '📊 Evergreen Reference',
     readTime: '12 min read',
     publishedAt: '2026-02-23',
-    excerpt: 'Medicare fraud costs taxpayers an estimated $60–100 billion annually from $940B in total payments. We break down the latest statistics, historical context, types of fraud, enforcement data, and what our AI found when it scored 1.82 million providers.'
+    excerpt: 'Medicare fraud costs taxpayers an estimated $60–100 billion annually from $1.05T in total payments. We break down the latest statistics, historical context, types of fraud, enforcement data, and what our AI found when it scored 1.82 million providers.'
   },
   {
     title: 'How to Check if Your Doctor Has Medicare Fraud Flags',
@@ -217,7 +217,7 @@ const investigations = [
     category: 'Investigation',
     readTime: '15 min read',
     publishedAt: '2026-02-25',
-    excerpt: 'Over 10 years, providers submitted $3.22 trillion in charges to Medicare. Medicare paid $940 billion. The other $2.14 trillion — 66.3% — was written off. This is the biggest hidden number in healthcare.'
+    excerpt: 'Over 10 years, providers submitted $3.22 trillion in charges to Medicare. Medicare paid $1.05 trillion. The other $2.14 trillion — 66.3% — was written off. This is the biggest hidden number in healthcare.'
   },
   {
     title: '9,862 Services Per Day: The Most Impossible Doctor in America',
@@ -677,7 +677,7 @@ const investigations = [
     category: 'Analysis',
     readTime: '8 min read',
     publishedAt: '2026-02-21',
-    excerpt: 'From $940 billion in total spending to 1.82 million providers, the essential statistics that define Medicare Part B over the last decade.'
+    excerpt: 'From $1.05 trillion in total spending to 1.82 million providers, the essential statistics that define Medicare Part B over the last decade.'
   },
   {
     title: 'The 10-Year Money Trail: How Medicare Spending Grew from $78B to $94B',
@@ -936,7 +936,7 @@ export default function InvestigationsPage() {
           lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2024)',
+            'Medicare Provider Utilization and Payment Data (2014-2025)',
             'Medicare Part B National Summary Data',
             'CMS National Health Expenditure Data'
           ]}

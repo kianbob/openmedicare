@@ -193,8 +193,8 @@ export default function MarkupAnalysisPage() {
               providers charge and what Medicare pays is the &quot;markup&quot; or &quot;write-off.&quot;
             </p>
             <p>
-              Over 11 years (2014-2024), providers submitted over <strong>$3.5 trillion</strong> in charges to Medicare Part B.
-              Medicare actually paid about <strong>$940 billion</strong> — meaning roughly 73% of all submitted charges were written off.
+              Over 12 years (2014-2025), providers submitted over <strong>$3.5 trillion</strong> in charges to Medicare Part B.
+              Medicare actually paid about <strong>$1.05 trillion</strong> — meaning roughly 73% of all submitted charges were written off.
               This isn&apos;t fraud; it&apos;s how the system works. But the ratio has been climbing every year, raising questions about
               whether provider charge structures serve any real purpose.
             </p>
@@ -257,7 +257,7 @@ export default function MarkupAnalysisPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <a href="/investigations/the-markup-game" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Markup Game</h4>
-              <p className="text-sm text-gray-500 mt-1">$3.2T charged, $940B paid. The gap reveals a broken pricing system getting worse every year.</p>
+              <p className="text-sm text-gray-500 mt-1">$3.2T charged, $1.05T paid. The gap reveals a broken pricing system getting worse every year.</p>
             </a>
             <a href="/investigations/markup-machine" className="block bg-gray-50 border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-blue-600">The Markup Machine</h4>

@@ -162,7 +162,7 @@ export default function BiggestBillersPage() {
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">How We Built This Analysis</h2>
-          <p className="text-gray-700 mb-4">OpenMedicare&apos;s biggest billers analysis aggregates 10 years of CMS Medicare Provider Utilization and Payment Data (2014-2024), covering over 10 billion individual service line items across 1.3 million unique providers. We rank providers by total Medicare payments received, then analyze specialty distribution, geographic concentration, and billing patterns to provide context for the raw numbers.</p>
+          <p className="text-gray-700 mb-4">OpenMedicare&apos;s biggest billers analysis aggregates 10 years of CMS Medicare Provider Utilization and Payment Data (2014-2025), covering over 10 billion individual service line items across 1.3 million unique providers. We rank providers by total Medicare payments received, then analyze specialty distribution, geographic concentration, and billing patterns to provide context for the raw numbers.</p>
           <p className="text-gray-700 mb-4">The data tells a story of concentration, scale, and the tension between efficiency and accountability. Whether these big billers represent the best of modern healthcare or a system ripe for reform depends on the questions you ask.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Ambulatory Surgery Center Boom</h2>
@@ -184,7 +184,7 @@ export default function BiggestBillersPage() {
           <p className="text-gray-700 mb-4">The biggest billers list is a mirror of American healthcare&apos;s evolution — reflecting consolidation, specialization, and the growing dominance of high-cost drugs and diagnostics.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Methodology</h2>
-          <p className="text-gray-700 mb-4">This analysis aggregates CMS Medicare Provider Utilization and Payment Data from 2014-2024. We rank all providers by total Medicare payments received (the &quot;allowed amount&quot; — what Medicare actually paid, not what was charged). The list includes both individual providers (Type 1 NPIs) and organizational providers (Type 2 NPIs). For individual providers who appear on this list, we flag potential anomalies using our fraud detection methodology.</p>
+          <p className="text-gray-700 mb-4">This analysis aggregates CMS Medicare Provider Utilization and Payment Data from 2014-2025. We rank all providers by total Medicare payments received (the &quot;allowed amount&quot; — what Medicare actually paid, not what was charged). The list includes both individual providers (Type 1 NPIs) and organizational providers (Type 2 NPIs). For individual providers who appear on this list, we flag potential anomalies using our fraud detection methodology.</p>
           <p className="text-gray-700 mb-4">Data is updated annually when CMS releases new payment files, typically 18-24 months after the service year. The most recent data covers services provided through 2023.</p>
           <p className="text-gray-700 mb-4">Every provider on this list has a detailed profile page on OpenMedicare. Click any provider name to see their full billing history, specialty breakdown, geographic information, and peer comparison data.</p>
 
@@ -290,7 +290,7 @@ export default function BiggestBillersPage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
           'Physicians Advocacy Institute: Physician Practice Ownership Trends (2024)',
           'HHS OIG Reports on Laboratory Billing',
           'MedPAC Report to Congress, March 2026',

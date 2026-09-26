@@ -182,7 +182,7 @@ export default function SpecialtyGapPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Numbers</h2>
           <p className="text-gray-700 mb-4">
-            Below are the highest-paid and lowest-paid specialties by average Medicare payment per provider, based on our analysis of 10 years of CMS data.
+            Below are the highest-paid and lowest-paid specialties by average Medicare payment per provider, based on our analysis of 12 years of CMS data.
           </p>
         </article>
 
@@ -295,7 +295,7 @@ export default function SpecialtyGapPage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
           'AAMC Physician Workforce Projections (2021-2034)',
           'AMA RUC Membership and Voting Records',
           'MedPAC Report to Congress, March 2026',

@@ -11,10 +11,10 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'The Markup Game: $100 for a $3 Test',
-  description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $940B. The $2.1T gap reveals a broken pricing system getting worse every year.',
+  description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $1.05T. The $2.1T gap reveals a broken pricing system getting worse every year.',
   openGraph: {
     title: 'The Markup Game: $100 for a $3 Test',
-    description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $940B. The $2.1T gap reveals a broken pricing system getting worse every year.',
+    description: 'Providers charged Medicare $3.2T over 10 years. Medicare paid $1.05T. The $2.1T gap reveals a broken pricing system getting worse every year.',
   },
 }
 
@@ -345,7 +345,7 @@ export default function MarkupGamePage() {
         </article>
 
         <div className="bg-white rounded-xl shadow-sm border p-8 my-8">
-          <h3 className="text-lg font-bold text-gray-900 mb-6">Markup Ratio Trend (2014–2024)</h3>
+          <h3 className="text-lg font-bold text-gray-900 mb-6">Markup Ratio Trend (2014–2025)</h3>
           <div className="space-y-4">
             {trends.map((t) => (
               <div key={t.year} className="flex items-center gap-4">
@@ -436,7 +436,7 @@ export default function MarkupGamePage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Methodology</h2>
 
           <p className="text-gray-700 mb-4">
-            Markup ratios are calculated as submitted charges divided by actual Medicare payments, aggregated across all HCPCS codes for each provider/specialty/state. The &quot;allowed amount&quot; represents Medicare&apos;s fee schedule price; actual payment is typically 80% of allowed (with the beneficiary responsible for the remaining 20%). All data is from CMS Medicare Part B Public Use Files, 2014-2024. Writeoff percentages represent the share of submitted charges that Medicare does not pay.
+            Markup ratios are calculated as submitted charges divided by actual Medicare payments, aggregated across all HCPCS codes for each provider/specialty/state. The &quot;allowed amount&quot; represents Medicare&apos;s fee schedule price; actual payment is typically 80% of allowed (with the beneficiary responsible for the remaining 20%). All data is from CMS Medicare Part B Public Use Files, 2014-2025. Writeoff percentages represent the share of submitted charges that Medicare does not pay.
           </p>
         </article>
 

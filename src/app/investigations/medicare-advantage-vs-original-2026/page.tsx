@@ -300,7 +300,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
             'KFF Medicare Advantage in 2026: Enrollment Update and Key Trends',
             'HHS OIG: Medicare Advantage Prior Authorization Denials (2024)',
             'GAO: Medicare Advantage Network Adequacy (2025)',
-            'OpenMedicare Provider Payment Analysis (2014-2024 data)',
+            'OpenMedicare Provider Payment Analysis (2014-2025 data)',
           ]} />
         </article>
       </div>

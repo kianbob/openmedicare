@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: '$940B in 10 Years: Medicare By The Numbers',
+  title: '$1.05T in 10 Years: Medicare By The Numbers',
   description: '10 stunning stats that reveal where Medicare money really goes. From 1.82M providers to 4,636 impossible billers, explore the data behind the spending.',
 }
 
@@ -96,9 +96,9 @@ export default function MedicareByTheNumbers() {
 
   const stats: StatCardProps[] = [
     {
-      number: '$940B',
+      number: '$1.05T',
       label: 'Total Medicare Payments Over 10 Years',
-      description: 'From 2014 to 2023, Medicare paid out $940 billion to providers across America — nearly a trillion dollars flowing through a single program.',
+      description: 'From 2014 to 2023, Medicare paid out $1.05 trillion to providers across America — nearly a trillion dollars flowing through a single program.',
       href: '/investigations/ten-year-explosion',
       color: 'blue',
       align: 'left',
@@ -217,9 +217,9 @@ export default function MedicareByTheNumbers() {
           </div>
         </div>
 
-        <ShareButtons url="https://www.openmedicare.us/investigations/medicare-by-the-numbers" title="$940B in 10 Years: Medicare By The Numbers" />
+        <ShareButtons url="https://www.openmedicare.us/investigations/medicare-by-the-numbers" title="$1.05T in 10 Years: Medicare By The Numbers" />
         <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500 text-center">
-          <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2024.</p>
+          <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2025.</p>
         </div>
       </div>
     </main>

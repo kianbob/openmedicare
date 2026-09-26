@@ -88,7 +88,7 @@ export default function HowWeBuiltTheModelPage() {
                 How We Built an ML Fraud Detection Model for 1.7 Million Medicare Providers
               </h1>
               <p className="text-2xl text-gray-600 font-light">
-                Supervised learning, 96 million rows, and the difference between anomaly detection and actual fraud labels
+                Supervised learning, 105 million rows, and the difference between anomaly detection and actual fraud labels
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export default function HowWeBuiltTheModelPage() {
               {/* 1. The Problem */}
               <h2 id="the-problem" className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. The Problem</h2>
               <p>
-                Medicare pays over <strong>$940 billion over the past decade</strong> to healthcare providers. The Government Accountability
+                Medicare pays over <strong>$1.05 trillion over the past decade</strong> to healthcare providers. The Government Accountability
                 Office estimates that <strong>$60–90 billion</strong> of that is lost to fraud, waste, and abuse annually — roughly
                 7–10% of total spending. That&apos;s more than the entire budget of the Department of Homeland Security.
               </p>
@@ -158,11 +158,11 @@ export default function HowWeBuiltTheModelPage() {
                 <h3 className="text-lg font-semibold text-blue-900 mb-3">Dataset at a Glance</h3>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div><span className="text-gray-600">Source:</span> <strong>CMS Medicare Physician &amp; Other Practitioners</strong></div>
-                  <div><span className="text-gray-600">Time Range:</span> <strong>2014–2024 (10 years)</strong></div>
-                  <div><span className="text-gray-600">Total Rows:</span> <strong>96 million</strong></div>
+                  <div><span className="text-gray-600">Time Range:</span> <strong>2014–2025 (10 years)</strong></div>
+                  <div><span className="text-gray-600">Total Rows:</span> <strong>105 million</strong></div>
                   <div><span className="text-gray-600">Unique Providers:</span> <strong>1.72 million NPIs</strong></div>
                   <div><span className="text-gray-600">Features per Provider:</span> <strong>30+ engineered</strong></div>
-                  <div><span className="text-gray-600">Total Payments:</span> <strong>$940 billion</strong></div>
+                  <div><span className="text-gray-600">Total Payments:</span> <strong>$1.05 trillion</strong></div>
                 </div>
               </div>
               <p>
@@ -171,7 +171,7 @@ export default function HowWeBuiltTheModelPage() {
                 doctor might have hundreds of rows across codes and years.
               </p>
               <p>
-                We aggregated these 96 million rows into provider-level features: total payments, total services,
+                We aggregated these 105 million rows into provider-level features: total payments, total services,
                 unique beneficiaries, submitted charges (what they billed), allowed amounts (what Medicare approved),
                 and the actual payment. We also preserved procedure-level detail for feature engineering.
               </p>
@@ -210,7 +210,7 @@ export default function HowWeBuiltTheModelPage() {
               </div>
               <p>
                 Why only 2,198 out of 8,307? Many LEIE entries are for providers who were excluded before our data
-                window (2014–2024), who practice in settings not covered by this dataset (hospital employees, home
+                window (2014–2025), who practice in settings not covered by this dataset (hospital employees, home
                 health aides), or who had too few billing records to generate meaningful features.
               </p>
               <p>
@@ -453,7 +453,7 @@ export default function HowWeBuiltTheModelPage() {
                 <li>
                   <strong>Temporal models</strong> — Year-over-year changes in billing patterns. A provider whose
                   billing doubles overnight is more suspicious than one who&apos;s always billed at high volume.
-                  We have 10 years of data; we should use the time dimension.
+                  We have 12 years of data; we should use the time dimension.
                 </li>
                 <li>
                   <strong>Network analysis</strong> — Provider referral patterns. Fraud rings often involve multiple
@@ -542,12 +542,12 @@ export default function HowWeBuiltTheModelPage() {
 
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Physician & Other Practitioners Data (2014–2024)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Physician & Other Practitioners Data (2014–2025)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'Department of Justice — Healthcare Fraud Prosecution Records',
                   'Government Accountability Office — Medicare Improper Payment Estimates',
                 ]}
-                lastUpdated="February 2026"
+                lastUpdated="September 2026"
               />
             </div>
           </div>

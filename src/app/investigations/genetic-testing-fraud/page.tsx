@@ -169,7 +169,7 @@ export default function GeneticTestingFraud() {
           <h2>What the Data Shows</h2>
 
           <p>
-            In our Medicare data (2014-2024), laboratory billing shows some of the most extreme outliers 
+            In our Medicare data (2014-2025), laboratory billing shows some of the most extreme outliers 
             in the entire dataset. Clinical laboratories consistently appear on our{' '}
             <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline">Enhanced Watchlist</Link>,
             often with:
@@ -272,7 +272,7 @@ export default function GeneticTestingFraud() {
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 not-prose">
             <p className="text-sm text-yellow-800">
               <strong>Sources:</strong> DOJ press release (Feb 21, 2026), Fox News, USA Herald. 
-              Medicare billing data from CMS Provider Utilization and Payment Data (2014-2024).
+              Medicare billing data from CMS Provider Utilization and Payment Data (2014-2025).
               Report suspected fraud: <a href="tel:1-800-447-8477" className="underline font-medium">1-800-HHS-TIPS</a>.
             </p>
           </div>
@@ -299,11 +299,11 @@ export default function GeneticTestingFraud() {
 
           <SourceCitation sources={[
             'DOJ Press Release: Former NFL Player Convicted (Feb 21, 2026)',
-            'CMS Medicare Provider Utilization and Payment Data (2014-2024)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
             'HHS OIG Semiannual Reports to Congress',
             'DOJ Operation Double Helix (2019)',
             'DOJ National Healthcare Fraud Takedown (June 2025)',
-          ]} lastUpdated="February 2026" />
+          ]} lastUpdated="September 2026" />
         </div>
       </div>
     </div>
