@@ -187,7 +187,7 @@ export default function CalculatorPage() {
               <span className="text-lg">💊</span>
               <div>
                 <h4 className="font-semibold text-gray-900">Part D Drug Cap</h4>
-                <p>Starting in 2025, Part D out-of-pocket costs are capped at $2,000/year. Combined with IRA-negotiated drug prices in 2026, many beneficiaries are seeing significant savings.</p>
+                <p>Part D out-of-pocket costs have been capped since 2025 ($2,000 in 2025, indexed to $2,100 in 2026). Combined with IRA-negotiated prices, now in effect for 10 drugs with 15 more coming in January 2027, many beneficiaries are seeing significant savings.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
@@ -218,7 +218,7 @@ export default function CalculatorPage() {
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
               <h4 className="font-semibold text-gray-900">✅ Know Your Drug Costs</h4>
-              <p className="mt-1">With the new $2,000 annual cap on Part D out-of-pocket spending and IRA-negotiated prices, check if your medications are among the drugs with reduced costs in 2026.</p>
+              <p className="mt-1">With the Part D out-of-pocket cap ($2,000 in 2025, $2,100 in 2026) and IRA-negotiated prices now in effect, check if your medications are among the drugs with reduced costs in 2026.</p>
             </div>
           </div>
         </div>
@@ -283,8 +283,8 @@ export default function CalculatorPage() {
               Hospital inpatient costs (Part A) and pharmacy drugs (Part D) use different payment systems not included here.
             </p>
             <p>
-              <strong>Data vintage.</strong> Costs are based on 2025 CMS data — the most recent available. Medicare
-              fee schedules are updated annually, so current-year payments may differ slightly.
+              <strong>Data vintage.</strong> Costs are based on 2025 CMS data. Medicare
+              fee schedules are updated annually, so 2026 payments may differ slightly.
             </p>
           </div>
         </div>

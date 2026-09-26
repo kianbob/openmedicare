@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'How much have MA overpayments grown over time?',
-    answer: 'MA excess payments have grown dramatically: roughly $24 billion a decade ago when about one-third of beneficiaries were in MA, to $76 billion in 2026 with 55% enrollment. The increase reflects both higher per-person overpayment rates and the massive growth in MA enrollment. If MA reaches 60%+ penetration by 2030 as projected, annual overpayments could exceed $100 billion.',
+    answer: 'MA excess payments have grown dramatically: roughly $24 billion a decade ago when about one-third of beneficiaries were in MA, to $76 billion in 2026 with 52% enrollment (~35.7 million people). The increase reflects both higher per-person overpayment rates and the massive growth in MA enrollment. If MA reaches 60%+ penetration by 2030 as projected, annual overpayments could exceed $100 billion.',
   },
 ]
 
@@ -74,7 +74,7 @@ export default function MedicareAdvantageOverpayment2026Page() {
           <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-red-900 font-medium text-lg">Key Finding</p>
             <p className="text-red-800 mt-2">
-              Medicare Advantage plans are paid <strong>14% more per person</strong> than Traditional Medicare would spend on the same beneficiaries — costing taxpayers an estimated <strong>$76 billion in excess federal spending</strong> in 2026 alone. With <strong>55% of beneficiaries</strong> now in MA and two companies controlling <strong>46% of the market</strong>, the program that was supposed to save money through private-sector competition has become one of the largest drains on the federal budget.
+              Medicare Advantage plans are paid <strong>14% more per person</strong> than Traditional Medicare would spend on the same beneficiaries — costing taxpayers an estimated <strong>$76 billion in excess federal spending</strong> in 2026 alone. With <strong>52% of beneficiaries</strong> (35.7M) now in MA and two companies controlling <strong>46% of the market</strong>, the program that was supposed to save money through private-sector competition has become one of the largest drains on the federal budget.
             </p>
           </div>
 
@@ -101,7 +101,7 @@ export default function MedicareAdvantageOverpayment2026Page() {
                 <p className="text-blue-700 text-sm">Excess federal spending (2026)</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-blue-900">55%</p>
+                <p className="text-3xl font-bold text-blue-900">52%</p>
                 <p className="text-blue-700 text-sm">Of beneficiaries now in MA</p>
               </div>
               <div>
@@ -132,7 +132,7 @@ export default function MedicareAdvantageOverpayment2026Page() {
                 <tr><td className="px-4 py-2 text-gray-800">2020</td><td className="px-4 py-2 text-right">24.1M</td><td className="px-4 py-2 text-right">39%</td><td className="px-4 py-2 text-right text-red-600 font-medium">~$40B</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800">2022</td><td className="px-4 py-2 text-right">28.6M</td><td className="px-4 py-2 text-right">45%</td><td className="px-4 py-2 text-right text-red-600 font-medium">~$50B</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800">2024</td><td className="px-4 py-2 text-right">33.5M</td><td className="px-4 py-2 text-right">51%</td><td className="px-4 py-2 text-right text-red-600 font-medium">~$65B</td></tr>
-                <tr className="bg-red-50"><td className="px-4 py-2 text-gray-800 font-bold">2026</td><td className="px-4 py-2 text-right font-bold">~35M</td><td className="px-4 py-2 text-right font-bold">55%</td><td className="px-4 py-2 text-right text-red-700 font-bold">~$76B</td></tr>
+                <tr className="bg-red-50"><td className="px-4 py-2 text-gray-800 font-bold">2026</td><td className="px-4 py-2 text-right font-bold">35.7M</td><td className="px-4 py-2 text-right font-bold">52%</td><td className="px-4 py-2 text-right text-red-700 font-bold">~$76B</td></tr>
                 <tr className="bg-gray-50"><td className="px-4 py-2 text-gray-500 italic">2030 (proj.)</td><td className="px-4 py-2 text-right text-gray-500">42M</td><td className="px-4 py-2 text-right text-gray-500">57%</td><td className="px-4 py-2 text-right text-gray-500">~$100B+</td></tr>
               </tbody>
             </table>

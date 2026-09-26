@@ -197,7 +197,7 @@ export default function MarkupMachinePage() {
                 }))}
                 xDataKey="year"
                 yDataKey="markup"
-                title="National Average Markup Ratio Trends (2014-2025)"
+                title="National Average Markup Ratio Trends (2014-2023)"
                 height={350}
               />
               <p className="text-sm text-gray-500 mt-2">
@@ -287,7 +287,7 @@ export default function MarkupMachinePage() {
               <h3>Methodology</h3>
 
               <p className="text-sm bg-gray-50 p-4 rounded-lg">
-                This analysis is based on Medicare Provider Utilization and Payment Data from 2014-2025, 
+                This analysis is based on Medicare Provider Utilization and Payment Data from 2014-2023, 
                 covering over 1.2 million healthcare providers. Markup ratios were calculated by dividing 
                 total submitted charges by total Medicare payments for each provider and specialty. 
                 Geographic classifications use Rural Health Research Center definitions. All data is 
@@ -341,10 +341,10 @@ export default function MarkupMachinePage() {
         {/* Source Citation */}
         <div className="mt-12">
           <SourceCitation 
-            lastUpdated="February 2024"
+            lastUpdated="September 2026"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
-              'Medicare Provider Utilization and Payment Data (2014-2025)',
+              'Medicare Provider Utilization and Payment Data (2014-2023)',
               'Rural Health Research Center Geographic Classifications',
               'CMS National Health Expenditure Data'
             ]}

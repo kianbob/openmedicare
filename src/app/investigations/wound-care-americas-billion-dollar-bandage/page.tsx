@@ -382,7 +382,7 @@ export default function WoundCareAmericasBillionDollarBandagePage() {
 
             <SourceCitation
               sources={[
-                'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+                'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
                 'OpenMedicare wound-care.json — 500 top wound care providers, top codes, yearly trends',
               ]}
             />

@@ -10,8 +10,9 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 
 const drugFaqs = [
   { question: 'What are the most expensive Medicare drugs?', answer: 'The most expensive Medicare Part B drugs include cancer treatments, immunotherapies, and specialty biologics. OpenMedicare tracks spending on all physician-administered drugs, totaling over $94 billion across our dataset.' },
-  { question: 'How much does Medicare spend on prescription drugs?', answer: 'Medicare Part B drug spending (physician-administered drugs) accounts for a significant portion of the $1.05 trillion in total Medicare payments in our database. Drug costs have grown substantially over the 2014-2025 period we cover.' },
-  { question: 'Why are Medicare drug costs rising?', answer: 'Key drivers include the shift toward expensive specialty biologics and cancer treatments, increased utilization of physician-administered drugs, and limited price negotiation power. Our data shows year-over-year trends in drug spending growth.' },
+  { question: 'How much does Medicare spend on prescription drugs?', answer: 'Medicare Part B drug spending (physician-administered drugs) accounts for a significant portion of the $1.05 trillion in total Medicare payments in our database. Drug costs have grown substantially over the 2014-2023 period we cover.' },
+  { question: 'Why are Medicare drug costs rising?', answer: 'Key drivers include the shift toward expensive specialty biologics and cancer treatments, increased utilization of physician-administered drugs, and, until recently, no Medicare power to negotiate prices. Our data shows year-over-year trends in drug spending growth.' },
+  { question: 'Are Medicare negotiated drug prices in effect?', answer: 'Yes. Under the Inflation Reduction Act, negotiated prices for the first 10 Part D drugs (including Eliquis, Jardiance, and Xarelto) have been in effect since January 1, 2026, and negotiated prices for 15 more Part D drugs take effect January 1, 2027 — 25 drugs in total. Physician-administered Part B drugs, the focus of this page, join the program with negotiated prices effective in 2028. The $2,000 Part D out-of-pocket cap has been in effect since 2025. Negotiated prices are published on CMS.gov.' },
 ]
 
 interface ProcedureData {

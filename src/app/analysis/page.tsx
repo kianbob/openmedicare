@@ -5,7 +5,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Medicare Analysis — $1.05T+ in Spending',
-  description: 'We analyzed 105M+ rows of CMS data (2014-2025) to uncover hidden patterns in $1.05T+ of Medicare spending. Explore drug costs, geographic gaps, markups, and 12-year trends serving 70.6M beneficiaries.',
+  description: 'We analyzed 105M+ rows of CMS data (2014-2023) to uncover hidden patterns in $1.05T+ of Medicare spending. Explore drug costs, geographic gaps, markups, and 10-year trends serving 68.5M beneficiaries.',
 }
 
 const analyses = [
@@ -78,7 +78,7 @@ export default function AnalysisPage() {
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl">
             Go beyond the headlines. These analyses dig into specific aspects of Medicare spending
-            using 105 million rows of CMS physician payment data spanning 12 years (2014-2025).
+            using 105 million rows of CMS physician payment data spanning 10 years (2014-2023).
           </p>
         </div>
 
@@ -94,7 +94,7 @@ export default function AnalysisPage() {
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
             <div className="text-2xl font-bold text-purple-600">11 Years</div>
-            <div className="text-sm text-gray-500">2014-2025 Data</div>
+            <div className="text-sm text-gray-500">2014-2023 Data</div>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
             <div className="text-2xl font-bold text-red-600">105M+</div>
@@ -162,7 +162,7 @@ export default function AnalysisPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
-                <tr><td className="px-4 py-2">Time Period</td><td className="px-4 py-2 text-right font-medium">2014-2025 (12 years)</td></tr>
+                <tr><td className="px-4 py-2">Time Period</td><td className="px-4 py-2 text-right font-medium">2014-2023 (10 years)</td></tr>
                 <tr><td className="px-4 py-2">Total Payments</td><td className="px-4 py-2 text-right font-medium">$1.05T+</td></tr>
                 <tr><td className="px-4 py-2">Unique Providers</td><td className="px-4 py-2 text-right font-medium">1.82 million</td></tr>
                 <tr><td className="px-4 py-2">Total Rows</td><td className="px-4 py-2 text-right font-medium">105 million+</td></tr>
@@ -183,7 +183,7 @@ export default function AnalysisPage() {
           <div className="prose max-w-none text-gray-700 space-y-4">
             <p>
               Every analysis on OpenMedicare starts with the same foundation: CMS Medicare Provider Utilization and Payment Data,
-              covering 12 years from 2014 through 2024. This dataset includes every payment Medicare Part B made to every physician
+              covering 10 years from 2014 through 2023. This dataset includes every payment Medicare Part B made to every physician
               and supplier in the United States — over 105 million individual rows of billing data.
             </p>
             <p>
@@ -210,7 +210,7 @@ export default function AnalysisPage() {
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">📅 11-Year Longitudinal View</h3>
-              <p className="text-sm text-gray-700">Most Medicare analyses look at a single year. Ours spans 2014-2025, revealing trends that only emerge over time — like the slow rise of telehealth or the steady concentration of spending.</p>
+              <p className="text-sm text-gray-700">Most Medicare analyses look at a single year. Ours spans 2014-2023, revealing trends that only emerge over time — like the slow rise of telehealth or the steady concentration of spending.</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">🤖 AI-Powered Insights</h3>

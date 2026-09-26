@@ -299,7 +299,7 @@ export default function CheckDoctorMedicarePage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">How often is this data updated?</h3>
-                  <p className="text-gray-700 text-sm">CMS releases new Medicare payment data annually, typically with a 1–2 year lag. Our database currently covers 2014–2025. AI fraud scores are recalculated with each data release.</p>
+                  <p className="text-gray-700 text-sm">CMS releases new Medicare payment data annually, typically with a 1–2 year lag. Our database currently covers 2014–2023. AI fraud scores are recalculated with each data release.</p>
                 </div>
               </div>
             </section>

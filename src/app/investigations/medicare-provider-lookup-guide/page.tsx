@@ -99,7 +99,7 @@ export default function MedicareProviderLookupGuidePage() {
 
           <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">Payment Summary</h3>
           <ul className="text-gray-700 mb-4">
-            <li><strong>Total Payments:</strong> How much Medicare has paid this provider over the data period (2014-2025).</li>
+            <li><strong>Total Payments:</strong> How much Medicare has paid this provider over the data period (2014-2023).</li>
             <li><strong>Total Services:</strong> The number of individual services billed.</li>
             <li><strong>Total Beneficiaries:</strong> How many unique Medicare patients they&apos;ve treated.</li>
             <li><strong>Submitted Charges:</strong> What the provider billed (before Medicare&apos;s fee schedule adjustments).</li>
@@ -273,7 +273,7 @@ export default function MedicareProviderLookupGuidePage() {
         <SourceCitation
           lastUpdated="February 2026 (data through 2023)"
           sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
             'CMS National Plan and Provider Enumeration System (NPPES)',
           ]}
         />

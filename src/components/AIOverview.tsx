@@ -96,7 +96,7 @@ function generateStateNarrative(data: any): string[] {
 
   if (totalPayments > 0) {
     sentences.push(
-      `${stateName} received ${formatCurrency(totalPayments)} in total Medicare provider payments across 12 years of data.`
+      `${stateName} received ${formatCurrency(totalPayments)} in total Medicare provider payments across 10 years of data.`
     )
   }
 

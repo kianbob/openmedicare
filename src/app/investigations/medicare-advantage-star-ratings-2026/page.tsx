@@ -326,7 +326,7 @@ export default function MedicareAdvantageStarRatings2026Page() {
               <li><Link href="/investigations/medicare-advantage-vs-traditional" className="text-blue-600 hover:underline">Medicare Advantage vs. Traditional Medicare: The Complete Guide</Link></li>
               <li><Link href="/investigations/medicare-enrollment-trends-2026" className="text-blue-600 hover:underline">Medicare Enrollment Trends & Projections: 2026 and Beyond</Link></li>
               <li><Link href="/investigations/medicare-fraud-biggest-cases-2025-2026" className="text-blue-600 hover:underline">Medicare Fraud: The Biggest Cases of 2025-2026</Link></li>
-              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">Part D Redesign: The $2,000 Cap Six Months In</Link></li>
+              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">The $2,000 Part D Cap in Year Two</Link></li>
               <li><Link href="/investigations/medicare-by-the-numbers" className="text-blue-600 hover:underline">Medicare By the Numbers →</Link></li>
             </ul>
           </div>

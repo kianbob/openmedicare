@@ -228,8 +228,8 @@ export default function DrugMoneyPage() {
             (Ozempic and its successors) are poised to accelerate this trend.
           </p>
           <p className="text-gray-700 mb-4">
-            The Inflation Reduction Act gave Medicare some price negotiation power starting in 2026, but
-            it covers only a handful of drugs initially. For the vast majority of Part B drugs, the
+            The Inflation Reduction Act&apos;s negotiated prices have been in effect since January 2026, but
+            they cover only 10 Part D drugs today (25 by 2027), and Part B drugs are not included until 2028. For the vast majority of Part B drugs, the
             ASP + 6% model remains — and the pharmaceutical pipeline keeps flowing.
           </p>
           <p className="text-gray-700 mb-4">

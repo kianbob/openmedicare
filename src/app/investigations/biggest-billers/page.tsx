@@ -11,7 +11,7 @@ import RelatedArticles from '@/components/RelatedArticles'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: "Top 100 Medicare Billers Exposed (2024 Data)",
+  title: "Top 100 Medicare Billers Exposed (2014–2023 CMS Data)",
   description: 'These 100 providers collected more Medicare money than anyone else. Lab corporations dominate the list — see who topped it and how much they got.',
   keywords: ['top medicare billers', 'biggest medicare providers', 'medicare spending by provider', 'labcorp medicare', 'quest diagnostics medicare'],
   openGraph: {
@@ -162,7 +162,7 @@ export default function BiggestBillersPage() {
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">How We Built This Analysis</h2>
-          <p className="text-gray-700 mb-4">OpenMedicare&apos;s biggest billers analysis aggregates 10 years of CMS Medicare Provider Utilization and Payment Data (2014-2025), covering over 10 billion individual service line items across 1.3 million unique providers. We rank providers by total Medicare payments received, then analyze specialty distribution, geographic concentration, and billing patterns to provide context for the raw numbers.</p>
+          <p className="text-gray-700 mb-4">OpenMedicare&apos;s biggest billers analysis aggregates 10 years of CMS Medicare Provider Utilization and Payment Data (2014-2023), covering over 10 billion individual service line items across 1.3 million unique providers. We rank providers by total Medicare payments received, then analyze specialty distribution, geographic concentration, and billing patterns to provide context for the raw numbers.</p>
           <p className="text-gray-700 mb-4">The data tells a story of concentration, scale, and the tension between efficiency and accountability. Whether these big billers represent the best of modern healthcare or a system ripe for reform depends on the questions you ask.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Ambulatory Surgery Center Boom</h2>
@@ -170,7 +170,7 @@ export default function BiggestBillersPage() {
           <p className="text-gray-700 mb-4">The ASC boom reflects a broader shift in healthcare delivery: procedures that once required hospital admission are now performed outpatient, driving down facility costs while creating new billing entities that contribute to the concentration of Medicare spending.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Medicare Advantage Blind Spot</h2>
-          <p className="text-gray-700 mb-4">An important caveat: this analysis covers only fee-for-service (Original) Medicare billing. Medicare Advantage plans pay providers through private contracts, and those payments are not publicly reported. As MA enrollment grows (now 54% of beneficiaries), the universe of transparent billing data shrinks. Some of the &quot;biggest billers&quot; may actually bill more through MA contracts than they do through fee-for-service — but we can&apos;t see that data. This is a significant blind spot in Medicare transparency.</p>
+          <p className="text-gray-700 mb-4">An important caveat: this analysis covers only fee-for-service (Original) Medicare billing. Medicare Advantage plans pay providers through private contracts, and those payments are not publicly reported. As MA enrollment grows (now about 52% of beneficiaries), the universe of transparent billing data shrinks. Some of the &quot;biggest billers&quot; may actually bill more through MA contracts than they do through fee-for-service — but we can&apos;t see that data. This is a significant blind spot in Medicare transparency.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Year-over-Year Trends</h2>
           <p className="text-gray-700 mb-4">The composition of the top 100 billers has shifted over our 10-year dataset. Key trends include:</p>
@@ -184,7 +184,7 @@ export default function BiggestBillersPage() {
           <p className="text-gray-700 mb-4">The biggest billers list is a mirror of American healthcare&apos;s evolution — reflecting consolidation, specialization, and the growing dominance of high-cost drugs and diagnostics.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Methodology</h2>
-          <p className="text-gray-700 mb-4">This analysis aggregates CMS Medicare Provider Utilization and Payment Data from 2014-2025. We rank all providers by total Medicare payments received (the &quot;allowed amount&quot; — what Medicare actually paid, not what was charged). The list includes both individual providers (Type 1 NPIs) and organizational providers (Type 2 NPIs). For individual providers who appear on this list, we flag potential anomalies using our fraud detection methodology.</p>
+          <p className="text-gray-700 mb-4">This analysis aggregates CMS Medicare Provider Utilization and Payment Data from 2014-2023. We rank all providers by total Medicare payments received (the &quot;allowed amount&quot; — what Medicare actually paid, not what was charged). The list includes both individual providers (Type 1 NPIs) and organizational providers (Type 2 NPIs). For individual providers who appear on this list, we flag potential anomalies using our fraud detection methodology.</p>
           <p className="text-gray-700 mb-4">Data is updated annually when CMS releases new payment files, typically 18-24 months after the service year. The most recent data covers services provided through 2023.</p>
           <p className="text-gray-700 mb-4">Every provider on this list has a detailed profile page on OpenMedicare. Click any provider name to see their full billing history, specialty breakdown, geographic information, and peer comparison data.</p>
 
@@ -290,7 +290,7 @@ export default function BiggestBillersPage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
           'Physicians Advocacy Institute: Physician Practice Ownership Trends (2024)',
           'HHS OIG Reports on Laboratory Billing',
           'MedPAC Report to Congress, March 2026',

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: 'Medicare Spending Data: $1.05T Exposed | OpenMedicare',
     template: '%s | OpenMedicare'
   },
-  description: 'Search 1.82M+ Medicare providers and $1.05T+ in payments (2014-2025). AI fraud detection flagged 500 providers. Exposed $890B+ in annual Medicare spending serving 70.6M beneficiaries. Free provider lookup, drug costs, and spending by state.',
+  description: 'Search 1.82M+ Medicare providers and $1.05T+ in payments (2014-2023). AI fraud detection flagged 500 providers. Covering Medicare\'s ~$1.1T in annual spending and 68.5M beneficiaries. Free provider lookup, drug costs, and spending by state.',
   keywords: ['Medicare', 'healthcare spending', 'physician payments', 'data journalism', 'healthcare transparency'],
   authors: [{ name: 'OpenMedicare Team' }],
   creator: 'OpenMedicare',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://www.openmedicare.us',
     title: 'Medicare Spending Data: $1.05T Exposed | OpenMedicare',
-    description: 'Search 1.82M+ Medicare providers and $1.05T+ in payments (2014-2025). AI fraud detection flagged 500 providers. Free provider lookup, drug costs, and 2026 spending data.',
+    description: 'Search 1.82M+ Medicare providers and $1.05T+ in payments (2014-2023). AI fraud detection flagged 500 providers. Free provider lookup, drug costs, and 2026 spending data.',
     siteName: 'OpenMedicare',
     images: [
       {
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     site: '@thedataproject0',
     creator: '@thedataproject0',
     title: 'Medicare Spending Data: $1.05T Exposed | OpenMedicare',
-    description: 'Search 1.82M+ Medicare providers and $1.05T+ in payments. AI fraud detection flagged 500 providers. Medicare spending data for 70.6M beneficiaries — updated 2026.',
+    description: 'Search 1.82M+ Medicare providers and $1.05T+ in payments. AI fraud detection flagged 500 providers. Medicare spending data for 68.5M beneficiaries — updated 2026.',
     images: ['/og-image.png'],
   },
   robots: {

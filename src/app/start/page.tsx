@@ -4,7 +4,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline'
 
 export const metadata: Metadata = {
   title: 'Start Here — Guide to OpenMedicare',
-  description: 'New to OpenMedicare? Follow 8 steps to explore $1.05T+ in Medicare data (2014-2025), check your doctor among 1.82M providers, uncover AI fraud flags, and use free interactive tools. 70.6M beneficiaries.',
+  description: 'New to OpenMedicare? Follow 8 steps to explore $1.05T+ in Medicare data (2014-2023), check your doctor among 1.82M providers, uncover AI fraud flags, and use free interactive tools. 68.5M beneficiaries.',
 }
 
 const sections = [
@@ -159,7 +159,7 @@ export default function StartHerePage() {
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-5 text-center">
             <div className="text-2xl font-bold text-purple-600">11 Years</div>
-            <div className="text-sm text-gray-500">of Data (2014-2025)</div>
+            <div className="text-sm text-gray-500">of Data (2014-2023)</div>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-5 text-center">
             <div className="text-2xl font-bold text-red-600">500</div>
@@ -174,7 +174,7 @@ export default function StartHerePage() {
             <p>
               Every number on OpenMedicare comes from <strong>official CMS data</strong> — the Centers for Medicare & Medicaid Services
               Medicare Provider Utilization and Payment Data. This covers every payment Medicare Part B made to every physician
-              and supplier in the United States from 2014 through 2024.
+              and supplier in the United States from 2014 through 2023.
             </p>
             <p>
               We process over <strong>105 million rows</strong> of billing data to calculate provider-level statistics, specialty
@@ -194,7 +194,7 @@ export default function StartHerePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-lg border border-gray-200 p-5">
               <h3 className="font-semibold text-gray-900 mb-2">💰 $1.05T+ in Payments</h3>
-              <p className="text-sm text-gray-600">Every dollar Medicare Part B has paid to every provider from 2014 through 2024 — fully searchable and analyzed. See where your tax dollars and premiums actually go.</p>
+              <p className="text-sm text-gray-600">Every dollar Medicare Part B has paid to every provider from 2014 through 2023 — fully searchable and analyzed. See where your tax dollars and premiums actually go.</p>
             </div>
             <div className="bg-white rounded-lg border border-gray-200 p-5">
               <h3 className="font-semibold text-gray-900 mb-2">🤖 AI Fraud Detection</h3>
@@ -206,7 +206,7 @@ export default function StartHerePage() {
             </div>
             <div className="bg-white rounded-lg border border-gray-200 p-5">
               <h3 className="font-semibold text-gray-900 mb-2">📊 Interactive Analysis</h3>
-              <p className="text-sm text-gray-600">Drug spending trends, markup ratios, rural vs urban breakdowns, state-by-state comparisons, and 12-year trend lines — all interactive.</p>
+              <p className="text-sm text-gray-600">Drug spending trends, markup ratios, rural vs urban breakdowns, state-by-state comparisons, and 10-year trend lines — all interactive.</p>
             </div>
           </div>
         </div>
@@ -225,11 +225,11 @@ export default function StartHerePage() {
             </div>
             <div className="bg-white rounded-lg border border-gray-200 p-5">
               <h3 className="font-semibold text-gray-900">How current is the data?</h3>
-              <p className="text-sm text-gray-600 mt-1">Our dataset covers 2014-2025 (12 years). CMS releases data with approximately a 1-2 year lag. The most recent complete year in our dataset is 2024.</p>
+              <p className="text-sm text-gray-600 mt-1">Our dataset covers 2014-2023 (10 years). CMS releases data with approximately a 1-2 year lag. The most recent complete year in our dataset is 2023.</p>
             </div>
             <div className="bg-white rounded-lg border border-gray-200 p-5">
               <h3 className="font-semibold text-gray-900">Why does this matter?</h3>
-              <p className="text-sm text-gray-600 mt-1">Medicare spends $890B+ annually serving 70.6 million Americans. Fraud wastes an estimated $60-100 billion per year. Transparency — knowing where the money goes and who&apos;s getting it — is the first step toward accountability.</p>
+              <p className="text-sm text-gray-600 mt-1">Medicare spends ~$1.1 trillion annually serving 68.5 million Americans. Fraud wastes an estimated $60-100 billion per year. Transparency — knowing where the money goes and who&apos;s getting it — is the first step toward accountability.</p>
             </div>
           </div>
         </div>
@@ -263,7 +263,7 @@ export default function StartHerePage() {
           <div className="space-y-3 text-gray-700">
             <p>
               Medicare is the largest healthcare payer in the United States, spending over <strong>$890 billion annually</strong> to
-              serve <strong>70.6 million Americans</strong>. That&apos;s public money — funded by payroll taxes, premiums, and general revenue.
+              serve <strong>68.5 million Americans</strong>. That&apos;s public money — funded by payroll taxes, premiums, and general revenue.
               Every taxpayer has a stake in how it&apos;s spent.
             </p>
             <p>
@@ -293,7 +293,7 @@ export default function StartHerePage() {
         {/* Data Source */}
         <div className="text-center mt-8 text-sm text-gray-500">
           <p>All data sourced from <strong>Centers for Medicare & Medicaid Services (CMS)</strong></p>
-          <p>Medicare Provider Utilization and Payment Data, 2014-2025</p>
+          <p>Medicare Provider Utilization and Payment Data, 2014-2023</p>
           <p className="mt-2">
             <a href="/about" className="text-blue-600 hover:underline">About OpenMedicare</a>
             {' · '}

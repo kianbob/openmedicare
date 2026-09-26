@@ -59,13 +59,13 @@ const datasetJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
   name: 'Medicare Provider Utilization and Payment Data',
-  description: 'Comprehensive analysis of Medicare physician spending across 12 years (2014-2025), covering provider payments, procedure costs, specialty breakdowns, and geographic trends derived from CMS public data.',
+  description: 'Comprehensive analysis of Medicare physician spending across 10 years (2014-2023), covering provider payments, procedure costs, specialty breakdowns, and geographic trends derived from CMS public data.',
   creator: {
     '@type': 'Organization',
     name: 'Centers for Medicare & Medicaid Services (CMS)',
     url: 'https://www.cms.gov',
   },
-  temporalCoverage: '2014/2025',
+  temporalCoverage: '2014/2023',
   license: 'https://www.usa.gov/government-works',
   url: 'https://www.openmedicare.us',
   distribution: {
@@ -160,7 +160,7 @@ const keyNumbers = [
   {
     value: '10 years',
     label: 'Of Medicare data',
-    sublabel: 'Payment data analyzed (2014-2025)',
+    sublabel: 'Payment data analyzed (2014-2023)',
     icon: '📊',
     href: '/trends',
   },
@@ -187,16 +187,16 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center">
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/20 text-blue-100 mb-6">
-              Data through 2023 · Updated February 2026
+              Data through 2023 · Updated September 2026
             </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-playfair mb-6">
               Where $1.05T in Medicare Money Really Goes
             </h1>
             <p className="text-xl sm:text-2xl text-blue-100 mb-4 max-w-4xl mx-auto">
-              12 years of data. 1.82 million providers. AI-powered fraud detection.
+              10 years of data. 1.82 million providers. AI-powered fraud detection.
             </p>
             <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
-              Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2025).
+              Explore {formatCurrency(keyStats.totalPayments)} in Medicare payments (2014-2023).
               Our ML model, trained on 2,198 convicted fraudsters, flagged 500 providers who bill like criminals.
               For Open Payments data and broader health industry transparency, see{' '}
               <a href="https://americanfactbook.org/health" className="text-blue-200 underline hover:text-white">American Factbook&apos;s health data hub</a>.
@@ -595,10 +595,10 @@ export default function HomePage() {
       {/* Source Citation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <SourceCitation 
-          lastUpdated="February 2026 (data through 2023, the latest CMS release)"
+          lastUpdated="September 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2025)',
+            'Medicare Provider Utilization and Payment Data (2014-2023)',
             'Medicare Part B National Summary Data',
             'CMS National Health Expenditure Data'
           ]}

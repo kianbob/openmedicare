@@ -29,6 +29,7 @@ const MARKET_SHARE_DATA = [
   { year: 2020, maPct: 42 },
   { year: 2022, maPct: 48 },
   { year: 2024, maPct: 51 },
+  { year: 2026, maPct: 52 },
 ]
 
 const PROS_CONS = {
@@ -108,12 +109,12 @@ export default function MedicareAdvantageVsOriginalPage() {
         {/* Key Stats */}
         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="rounded-xl bg-blue-50 border border-blue-200 p-6 text-center">
-            <p className="text-3xl font-bold text-blue-700">51%</p>
+            <p className="text-3xl font-bold text-blue-700">52%</p>
             <p className="mt-1 text-sm text-gray-500">Now in Medicare Advantage</p>
           </div>
           <div className="rounded-xl bg-green-50 border border-green-200 p-6 text-center">
-            <p className="text-3xl font-bold text-green-700">34.3M</p>
-            <p className="mt-1 text-sm text-gray-500">MA Enrollees (2024)</p>
+            <p className="text-3xl font-bold text-green-700">35.7M</p>
+            <p className="mt-1 text-sm text-gray-500">MA Enrollees (2026)</p>
           </div>
           <div className="rounded-xl bg-orange-50 border border-orange-200 p-6 text-center">
             <p className="text-3xl font-bold text-orange-700">$8,850</p>

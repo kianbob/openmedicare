@@ -367,7 +367,7 @@ export default function SearchPage() {
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-[#1a73e8]">10 Years</div>
-                <div className="text-xs text-gray-500">2014–2025</div>
+                <div className="text-xs text-gray-500">2014–2023</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-[#1a73e8]">59</div>

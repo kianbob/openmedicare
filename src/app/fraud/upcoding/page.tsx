@@ -275,7 +275,7 @@ export default function Upcoding() {
 
         <ShareButtons url="https://www.openmedicare.us/fraud/upcoding" title="Upcoding Detector" />
         <div className="mt-6">
-          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2025)', 'HHS Office of Inspector General']} lastUpdated="September 2026" />
+          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)', 'HHS Office of Inspector General']} lastUpdated="September 2026" />
         </div>
       </div>
     </div>

@@ -346,7 +346,7 @@ export default function MedicareFraudDetection2026Page() {
             'CMS Fraud Prevention System Annual Report (2025)',
             'Government Accountability Office, Medicare Improper Payment Estimates',
             'National Health Care Anti-Fraud Association (NHCAA)',
-            'OpenMedicare AI Fraud Detection Analysis (2014-2025 claims data)',
+            'OpenMedicare AI Fraud Detection Analysis (2014-2023 claims data)',
           ]} />
         </article>
       </div>

@@ -286,7 +286,7 @@ export default function CaliforniaMedicareFraudPage() {
 
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2025)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'DOJ Healthcare Fraud Enforcement Actions — California (2016–2025)',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',

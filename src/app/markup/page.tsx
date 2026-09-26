@@ -193,7 +193,7 @@ export default function MarkupAnalysisPage() {
               providers charge and what Medicare pays is the &quot;markup&quot; or &quot;write-off.&quot;
             </p>
             <p>
-              Over 12 years (2014-2025), providers submitted over <strong>$3.5 trillion</strong> in charges to Medicare Part B.
+              Over 10 years (2014-2023), providers submitted over <strong>$3.5 trillion</strong> in charges to Medicare Part B.
               Medicare actually paid about <strong>$1.05 trillion</strong> — meaning roughly 73% of all submitted charges were written off.
               This isn&apos;t fraud; it&apos;s how the system works. But the ratio has been climbing every year, raising questions about
               whether provider charge structures serve any real purpose.

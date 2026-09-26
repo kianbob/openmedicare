@@ -8,11 +8,11 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Enrollment Trends & Projections: 2026 and Beyond',
-  description: 'Medicare enrollment hit 70.6M by mid-2026. Medicare Advantage now covers 55% of beneficiaries (~38.8M). UnitedHealth dropped to 26% market share. C-SNP enrollment surged 45%. Projections show 80M+ by 2035.',
+  description: 'Medicare enrollment hit 68.5M in 2026. Medicare Advantage now covers 52% of beneficiaries (~35.7M). UnitedHealth dropped to 26% market share. C-SNP enrollment surged 45%. Projections show 80M+ by 2035.',
   keywords: ['medicare enrollment 2026', 'medicare advantage enrollment', 'medicare beneficiaries', 'medicare growth projections', 'medicare trust fund solvency', 'baby boomer medicare', 'medicare advantage penetration rate'],
   openGraph: {
     title: 'Medicare Enrollment Trends & Projections: 2026 and Beyond',
-    description: 'Medicare enrollment hit 70.6M by mid-2026. Medicare Advantage now covers 55% of beneficiaries (~38.8M). Projections show 80M+ by 2035.',
+    description: 'Medicare enrollment hit 68.5M in 2026. Medicare Advantage now covers 52% of beneficiaries (~35.7M). Projections show 80M+ by 2035.',
   },
   alternates: {
     canonical: '/investigations/medicare-enrollment-trends-2026',
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How many people are enrolled in Medicare in 2026?',
-    answer: 'Total Medicare enrollment reached approximately 70.6 million by mid-2026, up from 67.4 million in 2024 and 65.0 million in 2022. This includes beneficiaries in both Original Medicare (fee-for-service) and Medicare Advantage plans. Enrollment is growing by approximately 1 million per year as baby boomers continue to age into the program.',
+    answer: 'Total Medicare enrollment reached approximately 68.5 million in 2026, up from roughly 67 million in 2025 and 65.0 million in 2022. This includes beneficiaries in both Original Medicare (fee-for-service) and Medicare Advantage plans. Enrollment is growing by roughly 1 to 1.5 million per year as baby boomers continue to age into the program.',
   },
   {
     question: 'What percentage of Medicare beneficiaries are in Medicare Advantage?',
-    answer: 'In 2026, approximately 38.8 million beneficiaries — 55% of all Medicare enrollees — are in Medicare Advantage plans. This is up from 51% in 2024 and 42% in 2020. UnitedHealth Group holds 26% market share (down from 29%), while Humana has risen to 20% (up from 17%). MA enrollment has grown steadily as plans offer supplemental benefits like dental, vision, and hearing coverage that Original Medicare does not include. If current trends continue, MA could cover 60%+ of beneficiaries by 2030.',
+    answer: 'In 2026, approximately 35.7 million beneficiaries — 52% of all Medicare enrollees — are in Medicare Advantage plans, while about 32.8 million remain in Traditional Medicare. This is up from 51% in 2024 and 42% in 2020. UnitedHealth Group holds 26% market share (down from 29%), while Humana has risen to 20% (up from 17%). MA enrollment has grown steadily as plans offer supplemental benefits like dental, vision, and hearing coverage that Original Medicare does not include. If current trends continue, MA could cover 60%+ of beneficiaries by 2030.',
   },
   {
     question: 'When will the Medicare trust fund run out?',
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question: 'How much does Medicare spend per beneficiary?',
-    answer: 'Average per-beneficiary spending in Medicare was approximately $15,800 in 2026. This varies significantly by geography, health status, and coverage type. Beneficiaries in Original Medicare average slightly higher per-capita costs than those in Medicare Advantage, though comparisons are complicated by differences in health status and risk adjustment. Total Medicare spending exceeded $1.07 trillion in 2026.',
+    answer: 'Average per-beneficiary spending in Medicare was approximately $15,800 in 2026. This varies significantly by geography, health status, and coverage type. Beneficiaries in Original Medicare average slightly higher per-capita costs than those in Medicare Advantage, though comparisons are complicated by differences in health status and risk adjustment. Total Medicare spending is roughly $1.1 trillion annually.',
   },
   {
     question: 'Which states have the most Medicare enrollees?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'Is Medicare Advantage replacing Original Medicare?',
-    answer: 'Medicare Advantage is steadily growing as a share of total enrollment, reaching 55% in 2026. Traditional Original Medicare enrollment has been declining — from 33.4M in 2022 to ~30M in 2026. However, Original Medicare is not being eliminated; beneficiaries still have the right to choose fee-for-service coverage. The shift is driven by MA plans offering additional benefits (dental, vision, hearing) and often lower out-of-pocket costs, though critics note that MA plans restrict provider networks and use prior authorization.',
+    answer: 'Medicare Advantage is steadily growing as a share of total enrollment, reaching 52% in 2026. Traditional Medicare has been losing ground — from 39.4M beneficiaries in 2018 to about 32.8M in 2026. However, Original Medicare is not being eliminated; beneficiaries still have the right to choose fee-for-service coverage. The shift is driven by MA plans offering additional benefits (dental, vision, hearing) and often lower out-of-pocket costs, though critics note that MA plans restrict provider networks and use prior authorization.',
   },
 ]
 
@@ -56,7 +56,7 @@ export default function MedicareEnrollmentTrends2026Page() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <ArticleJsonLd
           title="Medicare Enrollment Trends & Projections: 2026 and Beyond"
-          description="Medicare enrollment hit 67.8M in 2026. Medicare Advantage covers 54% of beneficiaries. Projections, trust fund solvency, and demographic analysis."
+          description="Medicare enrollment hit 68.5M in 2026. Medicare Advantage covers 52% of beneficiaries (35.7M). Projections, trust fund solvency, and demographic analysis."
           url="https://www.openmedicare.us/investigations/medicare-enrollment-trends-2026"
           publishedDate="2026-07-11"
         />
@@ -78,13 +78,13 @@ export default function MedicareEnrollmentTrends2026Page() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-blue-900 font-medium text-lg">Key Finding</p>
             <p className="text-blue-800 mt-2">
-              Medicare enrollment hit <strong>70.6 million</strong> by mid-2026, with <strong>10,000 Americans turning 65 daily</strong>. Medicare Advantage now covers <strong>55% of beneficiaries</strong> (~38.8M) — up from 54% in 2025. UnitedHealth Group&apos;s market share dropped to <strong>26%</strong> while Humana rose to <strong>20%</strong>. Chronic-condition Special Needs Plan (C-SNP) enrollment surged <strong>45%</strong> in a single year. At current growth rates, Medicare will serve <strong>80M+ by 2035</strong> — straining a trust fund projected to deplete by <strong>2036</strong>.
+              Medicare enrollment hit <strong>68.5 million</strong> in 2026, with <strong>10,000 Americans turning 65 daily</strong>. Medicare Advantage now covers <strong>52% of beneficiaries</strong> (~35.7M) — up from 51% in 2025. UnitedHealth Group&apos;s market share dropped to <strong>26%</strong> while Humana rose to <strong>20%</strong>. Chronic-condition Special Needs Plan (C-SNP) enrollment surged <strong>45%</strong> in a single year. At current growth rates, Medicare will serve <strong>80M+ by 2035</strong> — straining a trust fund projected to deplete by <strong>2036</strong>.
             </p>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Big Picture: 70.6 Million and Growing</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Big Picture: 68.5 Million and Growing</h2>
           <p className="text-gray-700 mb-4">
-            Medicare is the largest health insurance program in the United States, covering <strong>70.6 million Americans</strong> as of mid-2026 — more than one in five U.S. residents. Enrollment has grown steadily from 47.7 million in 2010, 62.0 million in 2020, and 67.4 million in 2024, driven primarily by the baby boomer generation aging into eligibility.
+            Medicare is the largest health insurance program in the United States, covering <strong>68.5 million Americans</strong> as of 2026 — roughly one in five U.S. residents. Enrollment has grown steadily from 47.7 million in 2010, 62.0 million in 2020, and roughly 67 million in 2025, driven primarily by the baby boomer generation aging into eligibility.
           </p>
           <p className="text-gray-700 mb-4">
             The program is adding approximately <strong>1 million new beneficiaries per year</strong>, net of deaths and other exits. This growth is structural and predictable — it&apos;s driven by demographics, not policy changes — which makes the fiscal implications equally predictable and equally urgent to address.
@@ -94,15 +94,15 @@ export default function MedicareEnrollmentTrends2026Page() {
             <p className="text-blue-900 font-medium text-lg">2026 Enrollment Snapshot</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3">
               <div>
-                <p className="text-3xl font-bold text-blue-900">67.8M</p>
+                <p className="text-3xl font-bold text-blue-900">68.5M</p>
                 <p className="text-blue-700 text-sm">Total enrollment</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-blue-900">~35M</p>
+                <p className="text-3xl font-bold text-blue-900">35.7M</p>
                 <p className="text-blue-700 text-sm">Medicare Advantage</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-blue-900">~30M</p>
+                <p className="text-3xl font-bold text-blue-900">32.8M</p>
                 <p className="text-blue-700 text-sm">Original Medicare</p>
               </div>
               <div>
@@ -123,9 +123,9 @@ export default function MedicareEnrollmentTrends2026Page() {
             Not all 65-year-olds enroll in Medicare immediately. About <strong>8%</strong> of newly eligible individuals delay enrollment, usually because they have employer-sponsored coverage. But the vast majority enroll within a year of turning 65, and virtually all Americans are enrolled by age 67.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Medicare Advantage: The 54% Milestone</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Medicare Advantage: The 52% Milestone</h2>
           <p className="text-gray-700 mb-4">
-            The most significant trend in Medicare over the past decade is the rapid growth of <strong>Medicare Advantage (MA)</strong> — private insurance plans that contract with CMS to provide Medicare benefits. In 2026, MA enrollment reached <strong>~35 million</strong>, representing <strong>55% of all Medicare beneficiaries</strong>.
+            The most significant trend in Medicare over the past decade is the rapid growth of <strong>Medicare Advantage (MA)</strong> — private insurance plans that contract with CMS to provide Medicare benefits. In 2026, MA enrollment reached <strong>~35.7 million</strong>, representing <strong>52% of all Medicare beneficiaries</strong>.
           </p>
 
           <p className="text-gray-700 mb-4">
@@ -148,7 +148,7 @@ export default function MedicareEnrollmentTrends2026Page() {
                 <tr><td className="px-4 py-2 text-gray-800">2020</td><td className="px-4 py-2 text-right">62.0M</td><td className="px-4 py-2 text-right">24.1M</td><td className="px-4 py-2 text-right">37.9M</td><td className="px-4 py-2 text-right font-medium">39%</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800">2022</td><td className="px-4 py-2 text-right">63.8M</td><td className="px-4 py-2 text-right">28.6M</td><td className="px-4 py-2 text-right">33.4M</td><td className="px-4 py-2 text-right font-medium">45%</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800">2024</td><td className="px-4 py-2 text-right">65.7M</td><td className="px-4 py-2 text-right">33.5M</td><td className="px-4 py-2 text-right">32.2M</td><td className="px-4 py-2 text-right font-medium">51%</td></tr>
-                <tr className="bg-blue-50"><td className="px-4 py-2 text-gray-800 font-bold">2026</td><td className="px-4 py-2 text-right font-bold">67.8M</td><td className="px-4 py-2 text-right font-bold">~35M</td><td className="px-4 py-2 text-right font-bold">~30M</td><td className="px-4 py-2 text-right font-bold">55%</td></tr>
+                <tr className="bg-blue-50"><td className="px-4 py-2 text-gray-800 font-bold">2026</td><td className="px-4 py-2 text-right font-bold">68.5M</td><td className="px-4 py-2 text-right font-bold">35.7M</td><td className="px-4 py-2 text-right font-bold">32.8M</td><td className="px-4 py-2 text-right font-bold">52%</td></tr>
                 <tr className="bg-gray-50"><td className="px-4 py-2 text-gray-500 italic">2030 (proj.)</td><td className="px-4 py-2 text-right text-gray-500">74.0M</td><td className="px-4 py-2 text-right text-gray-500">42.0M</td><td className="px-4 py-2 text-right text-gray-500">28.5M</td><td className="px-4 py-2 text-right text-gray-500">57%</td></tr>
                 <tr className="bg-gray-50"><td className="px-4 py-2 text-gray-500 italic">2035 (proj.)</td><td className="px-4 py-2 text-right text-gray-500">80.5M</td><td className="px-4 py-2 text-right text-gray-500">50.0M</td><td className="px-4 py-2 text-right text-gray-500">26.0M</td><td className="px-4 py-2 text-right text-gray-500">62%</td></tr>
                 <tr className="bg-gray-50"><td className="px-4 py-2 text-gray-500 italic">2040 (proj.)</td><td className="px-4 py-2 text-right text-gray-500">90.2M</td><td className="px-4 py-2 text-right text-gray-500">59.0M</td><td className="px-4 py-2 text-right text-gray-500">25.5M</td><td className="px-4 py-2 text-right text-gray-500">65%</td></tr>
@@ -165,7 +165,7 @@ export default function MedicareEnrollmentTrends2026Page() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Traditional Medicare: The Decline</h2>
           <p className="text-gray-700 mb-4">
-            As Medicare Advantage grows, Traditional (Original) Medicare is shrinking — not just as a percentage, but in absolute numbers. Original Medicare enrollment has declined from <strong>39.4 million in 2018</strong> to <strong>~30 million in 2026</strong>, a drop of nearly 10 million beneficiaries in eight years.
+            As Medicare Advantage grows, Traditional (Original) Medicare is shrinking — not just as a percentage, but in absolute numbers. Original Medicare enrollment has declined from <strong>39.4 million in 2018</strong> to <strong>~32.8 million in 2026</strong>, a drop of more than 6 million beneficiaries in eight years.
           </p>
           <p className="text-gray-700 mb-4">
             This creates a potential sustainability challenge. Original Medicare&apos;s provider network — the doctors, hospitals, and specialists who accept Medicare fee-for-service — depends on a sufficient volume of patients. As more beneficiaries shift to MA plans with narrower networks, some providers may reduce their acceptance of Original Medicare, potentially limiting access for the remaining beneficiaries.
@@ -217,7 +217,7 @@ export default function MedicareEnrollmentTrends2026Page() {
             <p className="text-red-900 font-medium text-lg">Growth Projections</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3">
               <div>
-                <p className="text-3xl font-bold text-red-900">67.8M</p>
+                <p className="text-3xl font-bold text-red-900">68.5M</p>
                 <p className="text-red-700 text-sm">2026 (current)</p>
               </div>
               <div>
@@ -255,7 +255,7 @@ export default function MedicareEnrollmentTrends2026Page() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Per-Beneficiary Spending</h2>
           <p className="text-gray-700 mb-4">
-            Average per-beneficiary spending reached approximately <strong>$15,800 in 2026</strong>, up from $14,500 in 2024. Total Medicare spending exceeded <strong>$1.07 trillion</strong>, making it the single largest line item in the federal budget after Social Security and defense.
+            Average per-beneficiary spending reached approximately <strong>$15,800 in 2026</strong>, up from $14,500 in 2024. Total Medicare spending now runs roughly <strong>$1.1 trillion</strong> a year, making it the single largest line item in the federal budget after Social Security and defense.
           </p>
 
           <div className="not-prose overflow-x-auto mb-8">
@@ -270,7 +270,7 @@ export default function MedicareEnrollmentTrends2026Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr><td className="px-4 py-2 text-gray-800 font-medium">Total spending</td><td className="px-4 py-2 text-right">$953B</td><td className="px-4 py-2 text-right">$1.07T</td><td className="px-4 py-2 text-right">$1.38T</td><td className="px-4 py-2 text-right">$1.82T</td></tr>
+                <tr><td className="px-4 py-2 text-gray-800 font-medium">Total spending</td><td className="px-4 py-2 text-right">$953B</td><td className="px-4 py-2 text-right">$1.1T</td><td className="px-4 py-2 text-right">$1.38T</td><td className="px-4 py-2 text-right">$1.82T</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800 font-medium">Per beneficiary</td><td className="px-4 py-2 text-right">$14,500</td><td className="px-4 py-2 text-right">$15,800</td><td className="px-4 py-2 text-right">$18,600</td><td className="px-4 py-2 text-right">$22,600</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800 font-medium">Part A (hospital)</td><td className="px-4 py-2 text-right">$382B</td><td className="px-4 py-2 text-right">$418B</td><td className="px-4 py-2 text-right">$530B</td><td className="px-4 py-2 text-right">$690B</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800 font-medium">Part B (physician)</td><td className="px-4 py-2 text-right">$335B</td><td className="px-4 py-2 text-right">$378B</td><td className="px-4 py-2 text-right">$490B</td><td className="px-4 py-2 text-right">$650B</td></tr>
@@ -302,7 +302,7 @@ export default function MedicareEnrollmentTrends2026Page() {
             MedPAC&apos;s 2026 analysis found that <strong>MA plans are paid 114% of what Original Medicare would spend</strong> on the same beneficiaries — meaning taxpayers are paying a <strong>14% premium</strong> for MA coverage, amounting to <strong>$76 billion in additional federal spending</strong> in 2026 alone. This &quot;excess payment&quot; has been a persistent concern, though the industry argues it funds the supplemental benefits that attract and retain enrollees.
           </p>
           <p className="text-gray-700 mb-4">
-            The debate will only intensify as MA approaches 60%+ of enrollment. With 55% penetration and $76 billion in annual overpayments, the scale of taxpayer subsidy to private insurers is now impossible to ignore. At some point, MA effectively <em>becomes</em> Medicare for the majority of beneficiaries — raising fundamental questions about whether a program designed as social insurance should be primarily administered by for-profit corporations. (See our <Link href="/investigations/medicare-advantage-overpayment-2026" className="text-blue-600 hover:underline">full investigation into MA overpayments</Link>.)
+            The debate will only intensify as MA approaches 60%+ of enrollment. With 52% penetration and $76 billion in annual overpayments, the scale of taxpayer subsidy to private insurers is now impossible to ignore. At some point, MA effectively <em>becomes</em> Medicare for the majority of beneficiaries — raising fundamental questions about whether a program designed as social insurance should be primarily administered by for-profit corporations. (See our <Link href="/investigations/medicare-advantage-overpayment-2026" className="text-blue-600 hover:underline">full investigation into MA overpayments</Link>.)
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Technology and Enrollment: The Digital Divide</h2>
@@ -317,7 +317,7 @@ export default function MedicareEnrollmentTrends2026Page() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Sustainability Question</h2>
           <p className="text-gray-700 mb-4">
-            Medicare&apos;s fiscal trajectory is unsustainable without reform. Total spending is projected to nearly double from $1.07 trillion in 2026 to $1.82 trillion by 2035. The Part A trust fund faces depletion in 2036. And the program&apos;s share of GDP is growing — from <strong>3.7% in 2026</strong> to a projected <strong>5.3% by 2040</strong>.
+            Medicare&apos;s fiscal trajectory is unsustainable without reform. Total spending is projected to nearly double from roughly $1.1 trillion in 2026 to $1.82 trillion by 2035. The Part A trust fund faces depletion in 2036. And the program&apos;s share of GDP is growing — from <strong>3.7% in 2026</strong> to a projected <strong>5.3% by 2040</strong>.
           </p>
           <p className="text-gray-700 mb-4">
             The options for addressing Medicare&apos;s fiscal challenges are well-known but politically difficult: raising the payroll tax, increasing the eligibility age, means-testing premiums more aggressively, reducing provider payment rates, or shifting more beneficiaries into managed care (MA) models that can potentially deliver care more efficiently. Each option has trade-offs, and none alone is sufficient.
@@ -336,7 +336,7 @@ export default function MedicareEnrollmentTrends2026Page() {
               <li><Link href="/investigations/medicare-spending-trends-2025" className="text-blue-600 hover:underline">Medicare Spending Trends 2025</Link></li>
               <li><Link href="/investigations/medicare-advantage-vs-original-2026" className="text-blue-600 hover:underline">Medicare Advantage vs. Original Medicare: 2026 Comparison</Link></li>
               <li><Link href="/investigations/medicare-advantage-star-ratings-2026" className="text-blue-600 hover:underline">Medicare Advantage Star Ratings 2026</Link></li>
-              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">Part D Redesign: The $2,000 Cap Six Months In</Link></li>
+              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">The $2,000 Part D Cap in Year Two</Link></li>
             </ul>
           </div>
 

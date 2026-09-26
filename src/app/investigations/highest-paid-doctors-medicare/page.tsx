@@ -23,7 +23,7 @@ const highestPaidFaqs = [
 ]
 
 export const metadata: Metadata = {
-  title: 'Highest-Paid Doctors on Medicare: Top 1% Earn $5M+ (2025 Data)',
+  title: 'Highest-Paid Doctors on Medicare: Top 1% Earn $5M+ (2023 CMS Data)',
   description: 'We ranked every doctor by Medicare earnings. Ophthalmologists bill $20M+, while family docs average $55K. See the full breakdown by specialty with real CMS data.',
   keywords: ['highest paid doctors medicare', 'top medicare earners', 'doctors who bill medicare the most', 'medicare highest paid physicians', 'medicare top billers', 'highest paid medical specialties medicare'],
   openGraph: {

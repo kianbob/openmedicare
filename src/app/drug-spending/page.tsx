@@ -131,14 +131,14 @@ export default function DrugSpendingPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">🏛️ 2026 Drug Price Negotiation Impact</h2>
           <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
             <p>
-              The Inflation Reduction Act gave Medicare the power to negotiate drug prices for the first time. In January 2026,
-              negotiated prices took effect for <strong>10 of the costliest Part D drugs</strong>, including Eliquis, Jardiance, Xarelto,
-              and Januvia. CMS estimates <strong>$6 billion in first-year savings</strong>, with discounts ranging from 38% to 79%.
+              The Inflation Reduction Act gave Medicare the power to negotiate drug prices for the first time. Since January 1, 2026,
+              negotiated prices have been in effect for <strong>10 of the costliest Part D drugs</strong>, including Eliquis, Jardiance, Xarelto,
+              and Januvia, with discounts of 38% to 79% off list prices. CMS estimated roughly <strong>$6 billion in annual savings</strong> (see negotiated prices on CMS.gov).
             </p>
             <p>
-              Combined with the <strong>$2,000 annual out-of-pocket cap</strong> on Part D spending (effective 2025), seniors are seeing
-              dramatically lower drug costs. The program expands to 15 more drugs in 2027 and will eventually include Part B
-              physician-administered drugs — the most expensive category in our dataset.
+              Combined with the <strong>$2,000 annual out-of-pocket cap</strong> on Part D spending (in effect since 2025, now in its second year), seniors are seeing
+              dramatically lower drug costs. Prices for 15 more Part D drugs are already negotiated and take effect in January 2027 (25 drugs in total), and
+              Part B physician-administered drugs — the most expensive category in our dataset — join the program with prices effective in 2028.
             </p>
           </div>
           <a href="/investigations/drug-price-negotiation-2026" className="inline-block mt-3 text-sm font-medium text-blue-700 hover:text-blue-900">
@@ -226,7 +226,7 @@ export default function DrugSpendingPage() {
               others remain under 10%.
             </p>
             <p>
-              The 2025 data shows biosimilar competition is gradually intensifying, particularly for older biologics. But for the
+              The 2023 data shows biosimilar competition is gradually intensifying, particularly for older biologics. But for the
               newest and most expensive drugs — checkpoint inhibitors like Keytruda, which won&apos;t face biosimilar competition until
               the 2030s — prices continue to climb unchecked.
             </p>
@@ -238,12 +238,12 @@ export default function DrugSpendingPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">💰 The $2,000 Out-of-Pocket Cap</h2>
           <div className="prose max-w-none text-gray-700 space-y-3 text-sm">
             <p>
-              Starting in 2025, Medicare Part D beneficiaries pay no more than <strong>$2,000 per year</strong> in out-of-pocket
-              drug costs. This is a game-changer for patients on expensive specialty medications who previously faced
+              Since January 2025, Medicare Part D beneficiaries have paid no more than <strong>$2,000 per year</strong> in out-of-pocket
+              drug costs (indexed to $2,100 in 2026, the cap&apos;s second year). This is a game-changer for patients on expensive specialty medications who previously faced
               costs of $5,000, $10,000, or more per year in the coverage gap (&quot;donut hole&quot;).
             </p>
             <p>
-              Combined with IRA-negotiated drug prices taking effect in 2026, the financial burden on seniors with chronic
+              Combined with IRA-negotiated drug prices, in effect since January 2026, the financial burden on seniors with chronic
               conditions has been substantially reduced. However, the cap only applies to Part D (pharmacy drugs) —
               Part B drugs administered in doctors&apos; offices still have 20% coinsurance with no annual cap.
             </p>
@@ -288,7 +288,7 @@ export default function DrugSpendingPage() {
             </div>
             <div>
               <h4 className="font-semibold text-gray-900">Will drug negotiation affect Part B drugs?</h4>
-              <p className="text-sm text-gray-600 mt-1">Yes. Starting with the 2027 round, the IRA drug negotiation program will include Part B drugs for the first time. This is expected to have a major impact on the most expensive physician-administered drugs in our dataset.</p>
+              <p className="text-sm text-gray-600 mt-1">Yes. Starting with the third negotiation cycle (prices effective 2028), the IRA drug negotiation program includes Part B drugs for the first time. The first two cycles (2026 and 2027) cover 25 Part D drugs. This is expected to have a major impact on the most expensive physician-administered drugs in our dataset.</p>
             </div>
           </div>
         </div>

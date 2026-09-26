@@ -316,7 +316,7 @@ export default function LabCorpQuestDuopolyPage() {
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 mb-6">
               <p className="text-sm text-yellow-800">
                 <strong>Disclaimer:</strong> This analysis is based on publicly available CMS Medicare Provider Utilization
-                and Payment Data. Payment figures represent 10-year totals (2014-2025) for Medicare Part B fee-for-service
+                and Payment Data. Payment figures represent 10-year totals (2014-2023) for Medicare Part B fee-for-service
                 claims only.
               </p>
             </div>
@@ -339,7 +339,7 @@ export default function LabCorpQuestDuopolyPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
                   'American Clinical Laboratory Association — PAMA Impact Analysis',
                   'LabCorp and Quest Diagnostics Annual Reports',
                 ]}

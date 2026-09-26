@@ -288,7 +288,7 @@ export default function RuralPriceTagPage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
           'CMS Geographic Practice Cost Indices (GPCIs)',
           'The Chartis Center for Rural Health: Rural Hospital Closures (2026)',
           'HRSA National Health Service Corps data',

@@ -247,7 +247,7 @@ export default function CovidTestSchemePage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
                   'HHS Office of Inspector General (OIG)',
                   'NPR — COVID Test Fraud Reporting',
                   'Department of Justice — 2023 COVID Healthcare Fraud Enforcement Action',

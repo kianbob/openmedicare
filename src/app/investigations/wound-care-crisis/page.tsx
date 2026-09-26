@@ -270,7 +270,7 @@ export default function WoundCareCrisisPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
                   'HHS Office of Inspector General — Skin Substitute Vulnerability Report (September 2025)',
                   'Department of Justice — Operation Wound Shield (June 2025)',
                   'Vohra Wound Physicians Settlement',

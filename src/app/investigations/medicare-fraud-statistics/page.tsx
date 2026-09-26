@@ -98,7 +98,7 @@ export default function MedicareFraudStatisticsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-white rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-red-700">$1.05T</div>
-                  <div className="text-sm text-gray-600">Total Medicare Part B Payments (2014–2025)</div>
+                  <div className="text-sm text-gray-600">Total Medicare Part B Payments (2014–2023)</div>
                 </div>
                 <div className="bg-white rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-red-700">$60–100B+</div>
@@ -119,7 +119,7 @@ export default function MedicareFraudStatisticsPage() {
             <section className="mb-10">
               <h2 className="text-3xl font-bold text-gray-900 font-serif mb-4">How Much Does Medicare Fraud Cost Taxpayers?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Medicare is the largest healthcare program in the United States, covering over 70.6 million Americans. In 2023 alone, Medicare Part B paid out approximately <strong>$93.7 billion</strong> to healthcare providers. Our analysis of 12 years of CMS data totals <strong>$1.05 trillion</strong> in Medicare Part B payments.
+                Medicare is the largest healthcare program in the United States, covering over 68.5 million Americans. In 2023 alone, Medicare Part B paid out approximately <strong>$93.7 billion</strong> to healthcare providers. Our analysis of 10 years of CMS data totals <strong>$1.05 trillion</strong> in Medicare Part B payments.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The exact amount lost to fraud is impossible to know precisely — by definition, successful fraud goes undetected. But federal estimates paint a stark picture:
@@ -315,7 +315,7 @@ export default function MedicareFraudStatisticsPage() {
             <section className="mb-8 bg-gray-50 rounded-lg p-6">
               <h2 className="text-xl font-bold text-gray-900 mb-2">About This Data</h2>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Statistics in this article come from CMS Medicare Provider Utilization and Payment Data (2014–2025), HHS-OIG reports, DOJ press releases, and our own machine learning analysis. Our AI model was trained on confirmed fraud cases from the LEIE and DOJ prosecution records. Being flagged by our model does not mean a provider has committed fraud — it means their billing patterns statistically resemble those of convicted fraudsters. See our <Link href="/methodology" className="text-blue-600 hover:underline">full methodology</Link>.
+                Statistics in this article come from CMS Medicare Provider Utilization and Payment Data (2014–2023), HHS-OIG reports, DOJ press releases, and our own machine learning analysis. Our AI model was trained on confirmed fraud cases from the LEIE and DOJ prosecution records. Being flagged by our model does not mean a provider has committed fraud — it means their billing patterns statistically resemble those of convicted fraudsters. See our <Link href="/methodology" className="text-blue-600 hover:underline">full methodology</Link>.
               </p>
             </section>
 
@@ -326,7 +326,7 @@ export default function MedicareFraudStatisticsPage() {
           <SourceCitation
             lastUpdated="February 2026 (data through 2023)"
             sources={[
-              'Centers for Medicare & Medicaid Services (CMS) — Provider Utilization and Payment Data (2014–2025)',
+              'Centers for Medicare & Medicaid Services (CMS) — Provider Utilization and Payment Data (2014–2023)',
               'HHS Office of Inspector General (OIG) — Fraud Statistics and LEIE Data',
               'U.S. Department of Justice — Healthcare Fraud Enforcement Actions',
               'National Health Care Anti-Fraud Association (NHCAA)',

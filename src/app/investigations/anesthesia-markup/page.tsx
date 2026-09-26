@@ -135,7 +135,7 @@ export default function AnesthesiaMarkupPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 10 Highest-Markup Medical Specialties</h3>
-            <p className="text-sm text-gray-500">Ratio of submitted charges to Medicare payments (2014–2025 cumulative)</p>
+            <p className="text-sm text-gray-500">Ratio of submitted charges to Medicare payments (2014–2023 cumulative)</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -277,7 +277,7 @@ export default function AnesthesiaMarkupPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top Anesthesia Procedure Codes by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">2014–2025 cumulative</p>
+            <p className="text-sm text-gray-500">2014–2023 cumulative</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -397,7 +397,7 @@ export default function AnesthesiaMarkupPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Methodology</h2>
           <p className="text-gray-700 mb-4 text-sm">
             This analysis uses the CMS Medicare Provider Utilization and Payment Data for
-            2014–2025. Markup ratios are calculated as the average ratio of submitted charges to
+            2014–2023. Markup ratios are calculated as the average ratio of submitted charges to
             Medicare allowed amounts across all providers within each specialty. Only specialties
             with meaningful provider counts are highlighted. Individual provider-level data is
             aggregated from the public use files available at data.cms.gov.

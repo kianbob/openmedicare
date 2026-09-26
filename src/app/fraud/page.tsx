@@ -12,11 +12,11 @@ import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
   title: '500 Medicare Providers Flagged for Fraud by AI',
-  description: '$1.05T+ in Medicare payments (2014-2025). 1.82M providers scanned by AI. 500 flagged for fraud. Upcoding, COVID test schemes, wound care fraud, and impossible billing exposed — serving 70.6M beneficiaries.',
+  description: '$1.05T+ in Medicare payments (2014-2023). 1.82M providers scanned by AI. 500 flagged for fraud. Upcoding, COVID test schemes, wound care fraud, and impossible billing exposed — serving 68.5M beneficiaries.',
   alternates: { canonical: '/fraud' },
   openGraph: {
     title: 'AI Flagged 500 Medicare Providers for Fraud',
-    description: '$1.05T+ in Medicare payments (2014-2025). 1.82M providers scanned by AI. 500 flagged for fraud. Upcoding, COVID schemes, wound care fraud exposed — updated 2026.',
+    description: '$1.05T+ in Medicare payments (2014-2023). 1.82M providers scanned by AI. 500 flagged for fraud. Upcoding, COVID schemes, wound care fraud exposed — updated 2026.',
     url: 'https://www.openmedicare.us/fraud',
   },
 }
@@ -159,7 +159,7 @@ const jsonLd = [
     '@context': 'https://schema.org',
     '@type': 'Dataset',
     name: 'Medicare Provider Utilization and Payment Data',
-    description: 'CMS Medicare physician payment data from 2014-2025, covering $1.05 trillion in spending across 1.2 million providers',
+    description: 'CMS Medicare physician payment data from 2014-2023, covering $1.05 trillion in spending across 1.2 million providers',
     url: 'https://www.openmedicare.us/fraud',
     license: 'https://www.usa.gov/government-works',
     creator: { '@type': 'Organization', name: 'Centers for Medicare & Medicaid Services (CMS)' },
@@ -270,7 +270,7 @@ export default function FraudHub() {
           <p className="text-gray-500 text-center mb-8 max-w-2xl mx-auto">How we go from raw CMS data to actionable fraud flags</p>
           <div className="bg-gradient-to-r from-gray-50 to-indigo-50 rounded-2xl p-6 sm:p-10 border border-gray-200">
             <div className="flex items-center justify-between overflow-x-auto pb-4">
-              <PipelineStep number="96M" label="Payment Rows" sublabel="12 years of CMS data" />
+              <PipelineStep number="96M" label="Payment Rows" sublabel="10 years of CMS data" />
               <PipelineStep number="1.72M" label="Providers Scored" sublabel="ML model v2" />
               <PipelineStep number="2,198" label="Training Labels" sublabel="Confirmed fraudsters" />
               <PipelineStep number="500" label="Flagged" sublabel="86%+ fraud match" isLast />
@@ -290,7 +290,7 @@ export default function FraudHub() {
             <div className="relative bg-white rounded-xl border border-gray-200 p-6 text-center group hover:shadow-lg hover:border-red-200 transition-all">
               <div className="text-3xl sm:text-4xl font-bold text-red-600 mb-1">$1.05T</div>
               <div className="text-sm font-medium text-gray-700">Total Medicare Payments</div>
-              <div className="text-xs text-gray-400 mt-1">2014–2025</div>
+              <div className="text-xs text-gray-400 mt-1">2014–2023</div>
             </div>
             <div className="relative bg-white rounded-xl border border-gray-200 p-6 text-center group hover:shadow-lg hover:border-orange-200 transition-all">
               <div className="text-3xl sm:text-4xl font-bold text-orange-600 mb-1">{formatCurrency(totalCovidPayments)}</div>
@@ -469,7 +469,7 @@ export default function FraudHub() {
         <SourceCitation
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2025)',
+            'Medicare Provider Utilization and Payment Data (2014-2023)',
             'National Health Care Anti-Fraud Association (NHCAA)',
             'HHS Office of Inspector General (OIG)',
           ]}

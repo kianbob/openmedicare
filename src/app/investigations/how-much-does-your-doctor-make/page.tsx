@@ -160,7 +160,7 @@ export default function DoctorPayPage() {
                 <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-5">
                   <p className="text-sm font-medium text-purple-600 uppercase tracking-wide">Total Medicare Payments</p>
                   <p className="text-3xl font-bold text-purple-900 mt-1">{fmt(spec.total_payments)}</p>
-                  <p className="text-xs text-purple-600 mt-1">2014–2025</p>
+                  <p className="text-xs text-purple-600 mt-1">2014–2023</p>
                 </div>
 
                 <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl p-5">
@@ -311,7 +311,7 @@ export default function DoctorPayPage() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500">
-          <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2025. Payments reflect total Medicare allowed amounts over 10 years.</p>
+          <p>Data source: CMS Medicare Provider Utilization and Payment Data, 2014–2023. Payments reflect total Medicare allowed amounts over 10 years.</p>
           <div className="mt-4 flex gap-4">
             <Link href="/investigations" className="text-blue-600 hover:underline">← All Investigations</Link>
             <Link href="/investigations/specialty-pay-gap" className="text-blue-600 hover:underline">Specialty Pay Gap →</Link>

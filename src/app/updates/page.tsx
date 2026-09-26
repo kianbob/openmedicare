@@ -16,14 +16,20 @@ const updates = [
     highlight: true,
     items: [
       {
-        title: 'Data Updated: 2025 CMS Data Now Live',
-        description: 'Incorporated the 2025 Medicare Provider Utilization and Payment Data release. Total coverage now spans 12 years (2014-2025), with cumulative payments exceeding $1.05 trillion across 1.82 million providers. Enrollment statistics updated to reflect 70.6M beneficiaries.',
-        tags: ['Data', 'Major'],
+        title: 'Content Refresh: 2026 Enrollment & Spending Figures',
+        description: 'Enrollment and spending figures updated across the site for 2026: 68.5M Medicare beneficiaries, 35.7M (52%) in Medicare Advantage, 32.8M in Traditional Medicare, and ~$1.1 trillion in annual Medicare spending.',
+        tags: ['Data', 'Enhancement'],
       },
       {
-        title: 'Content Refresh: All Pages Updated',
-        description: 'Refreshed stats, enrollment figures, and data references across all pages to reflect the latest 2025 CMS data and 2026 policy changes.',
-        tags: ['Enhancement'],
+        title: 'Drug Pricing & Part D Cap Coverage Refreshed',
+        description: 'Drug price negotiation and drug spending pages updated to reflect that negotiated prices are now in effect (10 drugs since January 2026, 15 more in January 2027, 25 total), and the Part D out-of-pocket cap investigation refreshed for its second year.',
+        tags: ['Investigations'],
+        link: '/investigations/part-d-redesign-impact-2026',
+      },
+      {
+        title: 'Data Coverage Labels Corrected',
+        description: 'Corrected data-range labels site-wide to 2014–2023, matching the CMS Medicare Provider Utilization and Payment Data releases in our dataset (2023 is the latest year loaded).',
+        tags: ['Data'],
       },
     ],
   },
@@ -33,7 +39,7 @@ const updates = [
     items: [
       {
         title: 'Data Updated: 2024 CMS Data Now Live',
-        description: 'Incorporated the 2024 Medicare Provider Utilization and Payment Data release. Total coverage now spans 12 years (2014-2025), with cumulative payments exceeding $1.05 trillion across 1.82 million providers. All analysis pages, state breakdowns, and provider profiles updated.',
+        description: 'Incorporated the 2024 Medicare Provider Utilization and Payment Data release. Total coverage now spans 10 years (2014-2023), with cumulative payments exceeding $1.05 trillion across 1.82 million providers. All analysis pages, state breakdowns, and provider profiles updated.',
         tags: ['Data', 'Major'],
       },
       {
@@ -139,7 +145,7 @@ const updates = [
       },
       {
         title: 'Initial Data Processing Complete',
-        description: '105 million rows of CMS Medicare Provider Utilization and Payment data (2014-2025) processed, analyzed, and loaded.',
+        description: '105 million rows of CMS Medicare Provider Utilization and Payment data (2014-2023) processed, analyzed, and loaded.',
         tags: ['Data'],
       },
     ],

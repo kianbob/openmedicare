@@ -39,7 +39,7 @@ export default function MedicareCostsByStatePage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <ArticleJsonLd title="How Much Does Medicare Cost by State? The Complete 2024 Guide" description="State-by-state breakdown of Medicare costs from CMS data (2014–2025)" url="https://www.openmedicare.us/investigations/medicare-costs-by-state-2024" publishedDate="2026-02-21" />
+        <ArticleJsonLd title="How Much Does Medicare Cost by State? The Complete 2024 Guide" description="State-by-state breakdown of Medicare costs from CMS data (2014–2023)" url="https://www.openmedicare.us/investigations/medicare-costs-by-state-2024" publishedDate="2026-02-21" />
       <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[
           { name: 'Investigations', href: '/investigations' },

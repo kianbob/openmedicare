@@ -206,7 +206,7 @@ export default function TenYearExplosionPage() {
             And that&apos;s just physician payments. Total Medicare spending (Parts A, B, C, and D combined)
             is projected to exceed $1 trillion by 2030. The question isn&apos;t whether Medicare spending
             will keep growing — it&apos;s whether the growth is delivering better outcomes for the
-            70.6 million Americans who depend on it.
+            68.5 million Americans who depend on it.
           </p>
         </article>
 

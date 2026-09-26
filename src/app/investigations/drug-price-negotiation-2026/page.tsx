@@ -8,11 +8,11 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Drug Price Negotiation: 2026 Update — IRA Impact & Savings',
-  description: 'The Inflation Reduction Act\'s Medicare drug price negotiation program took effect in 2026. First 10 drugs negotiated, $6B in estimated savings, and what comes next.',
-  keywords: ['medicare drug price negotiation', 'inflation reduction act medicare', 'IRA drug prices', 'medicare part d negotiation', 'negotiated drug prices 2026'],
+  description: 'Medicare negotiated prices are now in effect. 25 drugs have negotiated prices — 10 in effect since January 2026, 15 more starting January 2027 — plus the $2,000 Part D out-of-pocket cap.',
+  keywords: ['medicare drug price negotiation', 'inflation reduction act medicare', 'IRA drug prices', 'medicare part d negotiation', 'negotiated drug prices 2026', 'maximum fair price', 'medicare negotiated drug list'],
   openGraph: {
     title: 'Medicare Drug Price Negotiation: 2026 Update — IRA Impact & Savings',
-    description: 'The Inflation Reduction Act\'s Medicare drug price negotiation program took effect in 2026. First 10 drugs negotiated, $6B in estimated savings, and what comes next.',
+    description: 'Medicare negotiated prices are now in effect. 25 drugs have negotiated prices — 10 in effect since January 2026, 15 more starting January 2027 — plus the $2,000 Part D out-of-pocket cap.',
   },
   alternates: {
     canonical: '/investigations/drug-price-negotiation-2026',
@@ -22,23 +22,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What drugs were included in the first round of Medicare price negotiation?',
-    answer: 'The first 10 drugs negotiated under the Inflation Reduction Act were: Eliquis (blood clots), Jardiance (diabetes), Xarelto (blood clots), Januvia (diabetes), Farxiga (diabetes/heart failure), Entresto (heart failure), Enbrel (autoimmune conditions), Imbruvica (blood cancers), Stelara (autoimmune conditions), and Fiasp/NovoLog Mix (insulin).',
+    answer: 'The first 10 drugs negotiated under the Inflation Reduction Act were: Eliquis (blood clots), Jardiance (diabetes), Xarelto (blood clots), Januvia (diabetes), Farxiga (diabetes/heart failure), Entresto (heart failure), Enbrel (autoimmune conditions), Imbruvica (blood cancers), Stelara (autoimmune conditions), and NovoLog/Fiasp (insulin). Their negotiated prices have been in effect since January 1, 2026.',
   },
   {
-    question: 'How much will Medicare save from drug price negotiation?',
-    answer: 'CMS estimates the first 10 negotiated drug prices will save Medicare approximately $6 billion in the first year (2026) and up to $98.5 billion over 10 years. Beneficiaries will also see lower out-of-pocket costs, with some drugs seeing price reductions of 38% to 79%.',
+    question: 'How much is Medicare saving from drug price negotiation?',
+    answer: 'CMS estimated that the first 10 negotiated prices would have saved Medicare about $6 billion had they been in effect in 2023, and projected about $1.5 billion in out-of-pocket savings for beneficiaries in 2026, the first year the prices are in effect. Negotiated prices are 38% to 79% below list prices. CBO projects roughly $98.5 billion in savings over 10 years.',
   },
   {
     question: 'When did negotiated Medicare drug prices take effect?',
-    answer: 'The negotiated Maximum Fair Prices for the first 10 drugs took effect on January 1, 2026, for Medicare Part D.',
+    answer: 'The negotiated Maximum Fair Prices for the first 10 drugs are in effect now: they took effect on January 1, 2026, for Medicare Part D. Negotiated prices for 15 more Part D drugs, published by CMS in November 2025, take effect on January 1, 2027, bringing the program to 25 drugs.',
   },
   {
     question: 'Will more drugs be added to Medicare price negotiation?',
-    answer: 'Yes. CMS selected 15 additional drugs for 2027 (second cycle), and in March 2026 announced that all 15 manufacturers in the third cycle have agreed to participate — covering both Part B and Part D drugs with prices taking effect in 2028. In June 2026, CMS published a proposed rule codifying the negotiation framework for 2029 and beyond, when 20 drugs will be added each year.',
+    answer: 'Yes. 25 drugs now have negotiated prices: the first 10 (in effect since 2026) and 15 Part D drugs from the second cycle, including Ozempic/Wegovy, whose prices take effect in 2027. The third cycle adds up to 15 more drugs — including Part B physician-administered drugs for the first time — with prices taking effect in 2028. From 2029 on, up to 20 drugs will be added each year.',
   },
   {
     question: 'How does the $2,000 out-of-pocket cap work with drug negotiation?',
-    answer: 'Starting in 2025, the IRA capped Medicare Part D out-of-pocket spending at $2,000 per year. Combined with negotiated lower prices in 2026, beneficiaries see dramatically reduced drug costs — especially for expensive specialty medications.',
+    answer: 'The IRA capped Medicare Part D out-of-pocket spending at $2,000 in 2025. The cap is fully in effect and indexed to growth in drug costs ($2,100 in 2026). Combined with the negotiated prices now in effect, beneficiaries see dramatically reduced drug costs — especially for expensive specialty medications.',
   },
   {
     question: 'Which drug saw the biggest price reduction from negotiation?',
@@ -52,7 +52,7 @@ export default function DrugPriceNegotiation2026Page() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <ArticleJsonLd
           title="Medicare Drug Price Negotiation: 2026 Update"
-          description="The Inflation Reduction Act's Medicare drug price negotiation program: first 10 drugs, savings estimates, and 2027 expansion."
+          description="Medicare negotiated drug prices are now in effect: 10 drugs since January 2026, 15 more in January 2027 (25 total), plus the $2,000 Part D out-of-pocket cap."
           url="https://www.openmedicare.us/investigations/drug-price-negotiation-2026"
           publishedDate="2026-09-26"
         />
@@ -74,8 +74,10 @@ export default function DrugPriceNegotiation2026Page() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-blue-900 font-medium text-lg">Key Finding</p>
             <p className="text-blue-800 mt-2">
-              Negotiated prices for 10 of Medicare&apos;s costliest drugs took effect January 1, 2026, saving an estimated <strong>$6 billion</strong> in
-              the first year. Beneficiaries are seeing price cuts of <strong>38% to 79%</strong> on drugs that previously cost Medicare $50.5 billion annually.
+              Negotiated prices for 10 of Medicare&apos;s costliest drugs have been in effect since January 1, 2026. CMS estimated they would have
+              saved <strong>$6 billion</strong> had they applied in 2023. Beneficiaries are seeing price cuts of <strong>38% to 79%</strong> on drugs that
+              previously cost Medicare $50.5 billion annually. With 15 more drugs already negotiated for January 2027, the program now covers
+              <strong> 25 drugs</strong>. The <strong>$2,000 Part D out-of-pocket cap</strong> is also fully in effect, now in its second year.
             </p>
           </div>
 
@@ -107,36 +109,60 @@ export default function DrugPriceNegotiation2026Page() {
                 <tr><td className="px-4 py-2 text-gray-800">Enbrel</td><td className="px-4 py-2 text-gray-600">Rheumatoid arthritis / psoriasis</td><td className="px-4 py-2 text-right text-green-700 font-medium">~67% reduction</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800">Imbruvica</td><td className="px-4 py-2 text-gray-600">Blood cancers</td><td className="px-4 py-2 text-right text-green-700 font-medium">~38% reduction</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800">Stelara</td><td className="px-4 py-2 text-gray-600">Psoriasis / Crohn&apos;s disease</td><td className="px-4 py-2 text-right text-green-700 font-medium">~66% reduction</td></tr>
-                <tr><td className="px-4 py-2 text-gray-800">Fiasp / NovoLog Mix</td><td className="px-4 py-2 text-gray-600">Insulin</td><td className="px-4 py-2 text-right text-green-700 font-medium">~76% reduction</td></tr>
+                <tr><td className="px-4 py-2 text-gray-800">NovoLog / Fiasp</td><td className="px-4 py-2 text-gray-600">Insulin</td><td className="px-4 py-2 text-right text-green-700 font-medium">~76% reduction</td></tr>
               </tbody>
             </table>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Numbers: What&apos;s Actually Changed</h2>
           <p className="text-gray-700 mb-4">
-            Six months into 2026, the early data is striking. These 10 drugs accounted for <strong>$56.2 billion</strong> in
+            Nine months into 2026, the early data is striking. These 10 drugs accounted for <strong>$56.2 billion</strong> in
             Medicare Part D spending — roughly 20% of all Part D drug costs. The negotiated Maximum Fair Prices
             represent discounts ranging from 38% to 79% off previous prices.
           </p>
           <p className="text-gray-700 mb-4">
-            CMS projects first-year savings of approximately <strong>$6 billion</strong> net for the program and <strong>$1.5 billion in out-of-pocket savings</strong> for the <strong>8.8 million</strong> of 54 million Part D enrollees who use these drugs. Combined with the <strong>$2,000 annual
-            out-of-pocket cap</strong> that took effect in 2025, many seniors are seeing their drug costs drop by thousands per year.
+            CMS projects roughly <strong>$6 billion</strong> in net program savings and <strong>$1.5 billion in out-of-pocket savings</strong> for the <strong>8.8 million</strong> of 54 million Part D enrollees who use these drugs. Combined with the <strong>$2,000 annual
+            out-of-pocket cap</strong>, in effect since January 2025 and indexed to $2,100 for 2026, many seniors are seeing their drug costs drop by thousands per year.
+            The negotiated Maximum Fair Price for each drug is published on{' '}
+            <a href="https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CMS.gov</a>.
           </p>
           <p className="text-gray-700 mb-4">
             To implement the new prices across the complex Part D ecosystem, CMS created the <strong>Medicare Transaction Facilitator (MTF)</strong> — a new entity that serves as the intermediary between manufacturers, pharmacies, and Part D plans to ensure negotiated prices are correctly applied at the point of sale. The MTF represents a significant new layer of infrastructure in Medicare&apos;s drug benefit.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What Comes Next: 2027 Expansion</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">25 Drugs and Counting: The 2027 Expansion</h2>
           <p className="text-gray-700 mb-4">
-            The program is expanding rapidly. CMS has selected <strong>15 additional drugs</strong> for the second negotiation cycle,
-            with new prices taking effect January 1, 2027. In <strong>March 2026</strong>, CMS announced that all 15 drug manufacturers
-            in the <strong>third cycle</strong> have agreed to participate — covering both Part B and Part D drugs, with negotiated prices
-            taking effect in 2028. In <strong>June 2026</strong>, CMS published a proposed rule in the Federal Register codifying the
-            negotiation framework for 2029 and beyond, when 20 drugs will be added each year. The final rule is expected in Fall 2026.
+            The second negotiation cycle is already complete. CMS selected <strong>15 additional Part D drugs</strong> in January 2025
+            and published their negotiated prices in November 2025. Those prices take effect January 1, 2027, bringing the program to
+            <strong> 25 drugs</strong> with negotiated Medicare prices:
+          </p>
+
+          <div className="not-prose overflow-x-auto mb-8">
+            <table className="min-w-full bg-white rounded-lg shadow text-sm">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="px-4 py-3 text-left font-medium text-gray-700">Cycle</th>
+                  <th className="px-4 py-3 text-left font-medium text-gray-700">Drugs</th>
+                  <th className="px-4 py-3 text-left font-medium text-gray-700">Prices in Effect</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                <tr><td className="px-4 py-2 text-gray-800 font-medium">Cycle 1 (10 Part D drugs)</td><td className="px-4 py-2 text-gray-600">Eliquis, Jardiance, Xarelto, Januvia, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, NovoLog/Fiasp</td><td className="px-4 py-2 text-green-700 font-medium">Now — since Jan 1, 2026</td></tr>
+                <tr><td className="px-4 py-2 text-gray-800 font-medium">Cycle 2 (15 Part D drugs)</td><td className="px-4 py-2 text-gray-600">Ozempic/Rybelsus/Wegovy, Trelegy Ellipta, Xtandi, Pomalyst, Ibrance, Ofev, Linzess, Calquence, Austedo, Breo Ellipta, Tradjenta, Xifaxan, Vraylar, Janumet, Otezla</td><td className="px-4 py-2 text-gray-800">Jan 1, 2027</td></tr>
+                <tr><td className="px-4 py-2 text-gray-800 font-medium">Cycle 3 (up to 15 Part B &amp; D drugs)</td><td className="px-4 py-2 text-gray-600">Negotiation underway in 2026</td><td className="px-4 py-2 text-gray-800">Jan 1, 2028</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p className="text-gray-700 mb-4">
+            In <strong>March 2026</strong>, CMS announced that all 15 drug manufacturers in the <strong>third cycle</strong> have agreed
+            to participate, with negotiated prices taking effect in 2028. In <strong>June 2026</strong>, CMS published a proposed rule in
+            the Federal Register codifying the negotiation framework for 2029 and beyond, when up to 20 drugs will be added each year.
+            The final rule is expected in Fall 2026.
           </p>
           <p className="text-gray-700 mb-4">
-            The 2027 round includes both Part D and Part B drugs (physician-administered drugs like infusions and injections),
-            expanding negotiation beyond the pharmacy counter for the first time. This is significant because Part B drugs
+            The third cycle is the first to include Part B drugs (physician-administered drugs like infusions and injections),
+            expanding negotiation beyond the pharmacy counter. This is significant because Part B drugs
             tend to be the most expensive — biologics for cancer, autoimmune conditions, and rare diseases that can cost
             tens of thousands per treatment.
           </p>
@@ -242,11 +268,12 @@ export default function DrugPriceNegotiation2026Page() {
               { date: 'February 2024', event: 'Initial price offers sent to manufacturers; counter-offer period begins' },
               { date: 'August 2024', event: 'Negotiated Maximum Fair Prices finalized and published' },
               { date: 'January 2025', event: '$2,000 annual Part D out-of-pocket cap takes effect' },
-              { date: 'January 2026', event: 'Negotiated prices take effect for first 10 drugs' },
-              { date: 'February 2026', event: 'CMS announces 15 additional drugs selected for 2027 negotiation (second cycle)' },
+              { date: 'January 2025', event: 'CMS announces 15 additional Part D drugs selected for the second negotiation cycle' },
+              { date: 'November 2025', event: 'CMS publishes negotiated prices for the 15 second-cycle drugs' },
+              { date: 'January 2026', event: 'Negotiated prices take effect for first 10 drugs; Part D cap indexed to $2,100' },
               { date: 'March 2026', event: 'All 15 third-cycle manufacturers confirm participation (Part B & Part D drugs, prices effective 2028)' },
               { date: 'June 2026', event: 'CMS publishes proposed rule codifying negotiation framework for 2029+ (final rule expected Fall 2026)' },
-              { date: 'January 2027', event: 'Second round of negotiated prices takes effect (15 drugs, including Part B)' },
+              { date: 'January 2027', event: 'Second round of negotiated prices takes effect (15 Part D drugs; 25 drugs total)' },
               { date: 'January 2028', event: 'Third round: 15 more drugs' },
               { date: '2029+', event: '20 drugs added per year going forward' },
             ].map((m, i) => (
@@ -277,7 +304,7 @@ export default function DrugPriceNegotiation2026Page() {
               <li><Link href="/investigations/drug-money" className="text-blue-600 hover:underline">Drug Money: Where Medicare&apos;s Drug Dollars Go</Link></li>
               <li><Link href="/investigations/drug-pipeline" className="text-blue-600 hover:underline">The Drug Pipeline: What&apos;s Coming Next</Link></li>
               <li><Link href="/investigations/oncology-drug-pipeline" className="text-blue-600 hover:underline">Oncology Drug Pipeline: Cancer Drug Costs</Link></li>
-              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">Part D Redesign: The $2,000 Cap Six Months In</Link></li>
+              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">The $2,000 Part D Cap in Year Two</Link></li>
               <li><Link href="/drug-spending" className="text-blue-600 hover:underline">Drug Spending Explorer →</Link></li>
             </ul>
           </div>
@@ -291,15 +318,16 @@ export default function DrugPriceNegotiation2026Page() {
           </p>
           <p className="text-gray-700 mb-4">
             In practice, every manufacturer in the first round reached agreement rather than face the tax or lose access
-            to Medicare&apos;s 70.6 million beneficiaries. The negotiated &quot;Maximum Fair Prices&quot; are confidential during the
+            to Medicare&apos;s 68.5 million beneficiaries. The negotiated &quot;Maximum Fair Prices&quot; are confidential during the
             negotiation process but published before they take effect, allowing beneficiaries and plans to see the new prices.
           </p>
 
           <SourceCitation sources={[
             'CMS Medicare Drug Price Negotiation Program (2026)',
+            'CMS.gov: Negotiated Maximum Fair Prices for Initial Price Applicability Years 2026 and 2027',
             'Congressional Budget Office, Inflation Reduction Act Savings Estimates',
             'HHS Office of the Assistant Secretary for Planning and Evaluation (ASPE)',
-            'OpenMedicare Drug Spending Analysis (2014-2025 data)',
+            'OpenMedicare Drug Spending Analysis (2014-2023 data)',
             'CMS Third Cycle Manufacturer Participation Announcement (March 2026)',
             'Federal Register: Medicare Drug Price Negotiation Program Proposed Rule (June 2026)',
           ]} />

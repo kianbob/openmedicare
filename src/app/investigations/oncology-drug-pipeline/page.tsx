@@ -247,9 +247,9 @@ export default function OncologyDrugPipelinePage() {
                 would eliminate the incentive to choose expensive drugs. Congress has not acted.
               </p>
               <p>
-                The Inflation Reduction Act of 2022 began Medicare drug price negotiations for Part D drugs,
-                but Part B drugs — the physician-administered drugs that drive oncology billing — remain
-                largely untouched. As long as the financial incentive favors expensive drugs, oncology will
+                Under the Inflation Reduction Act of 2022, negotiated prices for the first 10 Part D drugs took effect in January 2026,
+                but Part B drugs — the physician-administered drugs that drive oncology billing — won&apos;t see
+                negotiated prices until 2028. As long as the financial incentive favors expensive drugs, oncology will
                 continue to dominate Medicare&apos;s high-billing landscape.
               </p>
               <p>
@@ -291,7 +291,7 @@ export default function OncologyDrugPipelinePage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2025)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014-2023)',
                   'Medicare Payment Advisory Commission (MedPAC) — Report to Congress, March 2024',
                   'HHS Office of Inspector General (OIG) — Part B Drug Payment Reports',
                   'CMS ASP Drug Pricing Files',

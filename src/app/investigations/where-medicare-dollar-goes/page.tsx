@@ -232,7 +232,7 @@ export default function WhereMedicareDollarGoesPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Medicare Part B Spending by Category</h3>
-            <p className="text-sm text-gray-500">Estimated from procedure-level data, 2014–2025</p>
+            <p className="text-sm text-gray-500">Estimated from procedure-level data, 2014–2023</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">

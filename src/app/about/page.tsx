@@ -68,7 +68,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg text-gray-700 max-w-none">
               <p>
-                OpenMedicare is an independent data journalism project dedicated to making Medicare physician spending transparent and accessible. We analyze over a decade of Medicare payment data (2014-2025) to help patients, policymakers, and researchers understand how taxpayer dollars flow through the healthcare system.
+                OpenMedicare is an independent data journalism project dedicated to making Medicare physician spending transparent and accessible. We analyze a full decade of Medicare payment data (2014-2023) to help patients, policymakers, and researchers understand how taxpayer dollars flow through the healthcare system.
               </p>
               <p>
                 Our goal is simple: shine light on Medicare spending patterns to promote accountability, identify potential fraud, and help Americans make informed healthcare decisions.
@@ -100,7 +100,7 @@ export default function AboutPage() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-medicare-primary">10 years</div>
-                <div className="text-sm text-gray-600">2014–2025</div>
+                <div className="text-sm text-gray-600">2014–2023</div>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-medicare-primary">1.72M</div>
@@ -306,10 +306,10 @@ export default function AboutPage() {
         {/* Source Citation */}
         <div className="mt-8">
           <SourceCitation 
-            lastUpdated="February 2026 (data through 2023, the latest CMS release)"
+            lastUpdated="September 2026 (data through 2023, the latest CMS release)"
             sources={[
               'Centers for Medicare & Medicaid Services (CMS)',
-              'Medicare Provider Utilization and Payment Data (2014-2025)',
+              'Medicare Provider Utilization and Payment Data (2014-2023)',
               'CMS Provider Enrollment Files',
               'Rural Health Research Center Classifications'
             ]}

@@ -395,7 +395,7 @@ export default function StillOutThereArticle() {
               <RelatedArticles articles={[{"slug":"algorithm-knows","title":"The Algorithm Knows","description":"How we trained AI on 2,198 convicted fraudsters and found 500 matches."},{"slug":"data-predicted-fraud","title":"The Data Predicted Their Fraud","description":"When our model flagged providers before the DOJ did."},{"slug":"million-dollar-flagged","title":"Million-Dollar Flagged","description":"The highest-paid providers flagged for fraud-like billing patterns."}]} />
 
           <SourceCitation sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
             'HHS OIG List of Excluded Individuals/Entities (LEIE)',
             'DOJ Healthcare Fraud Enforcement Actions (2020-2025)',
           ]} lastUpdated="September 2026" />

@@ -288,7 +288,7 @@ export default function SpecialtyPayGapPage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
           'CMS Medicare Physician Fee Schedule (MPFS)',
           'ASA Relative Value Guide (2024)',
           'Hospital Price Transparency Compliance Reports (2024)',

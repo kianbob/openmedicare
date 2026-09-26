@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'What is the Inflation Reduction Act doing about Medicare drug prices?',
-    answer: 'The Inflation Reduction Act of 2022 allows Medicare to negotiate prices on a limited number of high-spend drugs. The first 10 drugs were selected in 2023, with negotiated prices taking effect in 2026. By 2029, Medicare will negotiate prices for up to 20 drugs per year. However, this still covers a small fraction of total drug spending.',
+    answer: 'The Inflation Reduction Act of 2022 allows Medicare to negotiate prices on a limited number of high-spend drugs. The first 10 drugs were selected in 2023, and their negotiated prices have been in effect since January 2026. Prices for 15 more drugs take effect in January 2027 (25 total), Part B drugs join with prices effective 2028, and from 2029 Medicare will negotiate prices for up to 20 drugs per year. However, this still covers a small fraction of total drug spending.',
   },
   {
     question: 'Why are specialty drugs so expensive in Medicare?',
@@ -128,19 +128,19 @@ export default function DrugPipelinePage() {
           <p className="text-gray-700 mb-4">As drug costs grow faster than overall Medicare spending, they consume an ever-larger share of the program&apos;s budget. The Inflation Reduction Act&apos;s drug price negotiation provisions were designed to address this — but they only apply to a small number of drugs initially. The broader trend of specialty drug dominance shows no signs of slowing.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The IRA&apos;s Impact: Early Results</h2>
-          <p className="text-gray-700 mb-4">The Inflation Reduction Act&apos;s Medicare drug negotiation provisions took effect in 2026, with the first 10 negotiated prices now in place. Early data suggests savings of 20-60% on the targeted drugs — representing estimated savings of $6 billion in the first year alone. However, critics point out that these 10 drugs represent a fraction of total Medicare drug spending, and pharmaceutical companies have filed legal challenges that could limit the program&apos;s scope.</p>
+          <p className="text-gray-700 mb-4">The Inflation Reduction Act&apos;s Medicare drug negotiation provisions are now in effect: the first 10 negotiated prices have applied since January 1, 2026, with discounts of 38–79% off list prices. CMS estimated roughly $6 billion in annual savings. However, critics point out that these 10 drugs represent a fraction of total Medicare drug spending. Pharmaceutical companies challenged the program in court, but federal courts have so far rejected those challenges.</p>
 
           <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-green-900 font-medium text-lg">IRA Drug Negotiation: First Results</p>
             <p className="text-green-800 mt-2">
-              <strong>10 drugs</strong> negotiated in first round (2026 prices)<br />
-              <strong>20-60%</strong> estimated price reductions on targeted drugs<br />
-              <strong>15 more drugs</strong> selected for 2027 negotiations<br />
-              <strong>$2,000</strong> annual Part D out-of-pocket cap (effective 2025)<br />
+              <strong>10 drugs</strong> with negotiated prices in effect since January 2026<br />
+              <strong>38–79%</strong> discounts off list prices on targeted drugs<br />
+              <strong>15 more drugs</strong> already negotiated, prices effective January 2027 (25 total)<br />
+              <strong>$2,000</strong> annual Part D out-of-pocket cap (in effect since 2025; $2,100 in 2026)<br />
               <strong>No cap</strong> on Part B drug coinsurance (the drugs on this list)
             </p>
           </div>
-          <p className="text-gray-700 mb-4">The second round of 15 drugs was selected in early 2026, with negotiated prices to take effect in 2027. Notable inclusions: several high-cost cancer immunotherapies and diabetes treatments.</p>
+          <p className="text-gray-700 mb-4">The second round of 15 Part D drugs was selected in January 2025, and CMS published their negotiated prices in November 2025; they take effect in January 2027. Notable inclusions: the GLP-1 drugs Ozempic, Rybelsus, and Wegovy, oral cancer drugs such as Xtandi, Ibrance, Pomalyst, and Calquence, and the diabetes drugs Tradjenta and Janumet. Part B drugs — the physician-administered drugs on this list — enter negotiation in the third cycle, with prices effective 2028.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The 340B Controversy</h2>
           <p className="text-gray-700 mb-4">The 340B Drug Pricing Program allows certain hospitals and clinics to purchase drugs at deeply discounted prices (typically 25-50% off) while billing Medicare at the standard ASP+6% rate. This spread generates significant revenue for 340B-eligible entities — but critics argue the savings often aren&apos;t passed on to patients. The program has grown from $12 billion in discounted purchases in 2015 to over $44 billion in 2023, with ongoing debate about whether it achieves its original goal of supporting safety-net providers.</p>
@@ -166,7 +166,7 @@ export default function DrugPipelinePage() {
           <p className="text-gray-700 mb-4">Several states have passed anti-white-bagging legislation, and the debate has implications for Medicare Part B drug spending: if white bagging becomes standard, it could change how ASP is calculated and how physicians are compensated for drug administration.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Our Analysis</h2>
-          <p className="text-gray-700 mb-4">OpenMedicare tracks every Part B drug code in CMS&apos;s dataset — over 500 unique drug codes billed by hundreds of thousands of providers. Our drug spending analysis aggregates 12 years of data to show which drugs cost the most, which providers bill the most drug codes, and how drug spending has shifted over time.</p>
+          <p className="text-gray-700 mb-4">OpenMedicare tracks every Part B drug code in CMS&apos;s dataset — over 500 unique drug codes billed by hundreds of thousands of providers. Our drug spending analysis aggregates 10 years of data to show which drugs cost the most, which providers bill the most drug codes, and how drug spending has shifted over time.</p>
           <p className="text-gray-700 mb-4">Explore the full dataset on our <Link href="/drug-spending" className="text-blue-600 hover:underline">drug spending dashboard</Link>, or search for any specific drug by HCPCS code to see which providers bill it most and how spending has trended over time.</p>
           <p className="text-gray-700 mb-4">Want to see how your doctor&apos;s drug prescribing compares to peers? Our <Link href="/search" className="text-blue-600 hover:underline">provider search</Link> shows drug vs. non-drug billing breakdown for every Medicare provider.</p>
           <p className="text-gray-700 mb-4">The drug pipeline isn&apos;t just a policy issue — it&apos;s personal for the millions of Medicare beneficiaries who depend on these medications. Understanding where the money goes is the first step toward ensuring it goes where it should.</p>
@@ -253,7 +253,7 @@ export default function DrugPipelinePage() {
               <p className="text-xs text-blue-700">Annual patient cost for Keytruda (20%)</p>
             </div>
           </div>
-          <p className="text-gray-700 mb-4">The Inflation Reduction Act capped Part D (pharmacy) out-of-pocket costs at $2,000 starting in 2025. But Part B drugs — the physician-administered drugs on this list — have no similar cap, leaving beneficiaries exposed to uncapped 20% coinsurance on the most expensive treatments.</p>
+          <p className="text-gray-700 mb-4">The Inflation Reduction Act capped Part D (pharmacy) out-of-pocket costs at $2,000 starting in 2025 ($2,100 in 2026). But Part B drugs — the physician-administered drugs on this list — have no similar cap, leaving beneficiaries exposed to uncapped 20% coinsurance on the most expensive treatments.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Bottom Line</h2>
           <p className="text-gray-700 mb-8">Medicare&apos;s drug spending trajectory is unsustainable without structural reform. The IRA&apos;s negotiation provisions are a start, but they address only a fraction of the problem. Biosimilar adoption, international reference pricing, ASP reform, and new payment models for gene therapies will all be needed to bend the curve. Until then, the 30 drugs on this list will continue to consume an ever-larger share of the Medicare budget.</p>
@@ -289,7 +289,7 @@ export default function DrugPipelinePage() {
         </div>
 
         <SourceCitation sources={[
-          'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+          'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
           'CMS Medicare Part B Drug Spending Dashboard',
           'Inflation Reduction Act Drug Negotiation Program (2026)',
           'MedPAC Report to Congress, March 2026',

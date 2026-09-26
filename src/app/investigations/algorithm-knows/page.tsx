@@ -187,7 +187,7 @@ export default function AlgorithmKnowsPage() {
                   </div>
                 </div>
                 <p className="text-blue-700 text-sm mt-4">
-                  <strong>Data source:</strong> CMS Medicare Provider Utilization and Payment Data (2014–2025),
+                  <strong>Data source:</strong> CMS Medicare Provider Utilization and Payment Data (2014–2023),
                   1.7M+ providers scored. HHS OIG LEIE database. DOJ press releases and case records.
                 </p>
               </div>
@@ -502,7 +502,7 @@ export default function AlgorithmKnowsPage() {
               {/* Source Citation */}
               <SourceCitation
                 sources={[
-                  'CMS Medicare Provider Utilization and Payment Data (2014–2025)',
+                  'CMS Medicare Provider Utilization and Payment Data (2014–2023)',
                   'HHS Office of Inspector General — List of Excluded Individuals/Entities (LEIE)',
                   'Department of Justice — Healthcare Fraud Prosecution Records',
                   'OpenMedicare ML Model v2.0 (Random Forest, AUC 0.83)',

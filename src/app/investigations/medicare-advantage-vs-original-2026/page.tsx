@@ -8,11 +8,11 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Medicare Advantage vs Original Medicare: 2026 Comparison',
-  description: '54% of Medicare beneficiaries now choose Medicare Advantage. Compare costs, coverage, enrollment trends, and the overpayment controversy in 2026.',
+  description: '52% of Medicare beneficiaries now choose Medicare Advantage. Compare costs, coverage, enrollment trends, and the overpayment controversy in 2026.',
   keywords: ['medicare advantage vs original medicare', 'medicare advantage 2026', 'medicare comparison', 'MA vs traditional medicare', 'medicare advantage enrollment'],
   openGraph: {
     title: 'Medicare Advantage vs Original Medicare: 2026 Comparison',
-    description: '54% of Medicare beneficiaries now choose Medicare Advantage. Compare costs, coverage, enrollment trends, and the overpayment controversy.',
+    description: '52% of Medicare beneficiaries now choose Medicare Advantage. Compare costs, coverage, enrollment trends, and the overpayment controversy.',
   },
   alternates: {
     canonical: '/investigations/medicare-advantage-vs-original-2026',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What percentage of Medicare beneficiaries are enrolled in Medicare Advantage in 2026?',
-    answer: 'As of 2026, approximately 33.8 million beneficiaries — 54% of all eligible Medicare beneficiaries — are enrolled in Medicare Advantage plans, up from 51% in 2024. This marks the first time a clear majority of Medicare beneficiaries have chosen MA over Original Medicare.',
+    answer: 'As of 2026, approximately 35.7 million beneficiaries — 52% of all eligible Medicare beneficiaries — are enrolled in Medicare Advantage plans, up from 51% in 2024. This marks the first time a clear majority of Medicare beneficiaries have chosen MA over Original Medicare.',
   },
   {
     question: 'What is the average Medicare Advantage premium in 2026?',
@@ -52,7 +52,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <ArticleJsonLd
           title="Medicare Advantage vs Original Medicare: 2026 Comparison"
-          description="54% of beneficiaries now choose Medicare Advantage. Enrollment trends, costs, overpayment concerns, and what the data reveals."
+          description="52% of beneficiaries now choose Medicare Advantage. Enrollment trends, costs, overpayment concerns, and what the data reveals."
           url="https://www.openmedicare.us/investigations/medicare-advantage-vs-original-2026"
           publishedDate="2026-07-10"
         />
@@ -74,7 +74,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
           <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-purple-900 font-medium text-lg">Key Finding</p>
             <p className="text-purple-800 mt-2">
-              Medicare Advantage has crossed a historic threshold: <strong>54% of eligible beneficiaries</strong> (33.8 million people)
+              Medicare Advantage has crossed a historic threshold: <strong>52% of eligible beneficiaries</strong> (35.7 million people)
               now choose MA plans over Original Medicare in 2026. But the program costs the government an estimated <strong>6-8% more
               per beneficiary</strong> than traditional Medicare — raising questions about whether the extra spending delivers better outcomes.
             </p>
@@ -85,7 +85,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
             <div className="bg-white rounded-lg shadow p-6">
               <h3 className="font-bold text-purple-800 mb-3">Medicare Advantage</h3>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li><strong>Enrollment:</strong> 33.8M (54% of beneficiaries)</li>
+                <li><strong>Enrollment:</strong> 35.7M (52% of beneficiaries)</li>
                 <li><strong>Avg. Premium:</strong> $17.00/month (+ Part B)</li>
                 <li><strong>Network:</strong> Restricted (HMO/PPO)</li>
                 <li><strong>Extra Benefits:</strong> Dental, vision, hearing, fitness</li>
@@ -108,7 +108,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
 
           <div className="not-prose grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
             <div className="bg-purple-50 rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-purple-900">54%</p>
+              <p className="text-2xl font-bold text-purple-900">52%</p>
               <p className="text-xs text-purple-700">choose MA in 2026</p>
             </div>
             <div className="bg-red-50 rounded-lg p-4 text-center">
@@ -129,7 +129,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
           <p className="text-gray-700 mb-4">
             Medicare Advantage enrollment has grown explosively over the past two decades. In 2006, just 16% of Medicare
             beneficiaries chose MA plans. By 2020, it was 39%. In 2024, it crossed the 50% mark for the first time, and
-            in 2026, 54% of all eligible beneficiaries are enrolled in MA.
+            in 2026, 52% of all eligible beneficiaries (about 35.7 million people) are enrolled in MA, versus 32.8 million in Traditional Medicare.
           </p>
           <p className="text-gray-700 mb-4">
             The growth has been driven by aggressive marketing (Medicare Advantage plans spend over $3 billion annually on
@@ -141,7 +141,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
             <p className="text-blue-900 font-medium text-lg">Enrollment Timeline</p>
             <p className="text-blue-800 mt-2">
               <strong>2006:</strong> 16% of beneficiaries · <strong>2010:</strong> 24% · <strong>2015:</strong> 31% · 
-              <strong>2020:</strong> 39% · <strong>2024:</strong> 51% · <strong>2026:</strong> 54%
+              <strong>2020:</strong> 39% · <strong>2024:</strong> 51% · <strong>2026:</strong> 52%
             </p>
           </div>
 
@@ -300,7 +300,7 @@ export default function MedicareAdvantageVsOriginal2026Page() {
             'KFF Medicare Advantage in 2026: Enrollment Update and Key Trends',
             'HHS OIG: Medicare Advantage Prior Authorization Denials (2024)',
             'GAO: Medicare Advantage Network Adequacy (2025)',
-            'OpenMedicare Provider Payment Analysis (2014-2025 data)',
+            'OpenMedicare Provider Payment Analysis (2014-2023 data)',
           ]} />
         </article>
       </div>

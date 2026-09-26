@@ -10,12 +10,12 @@ import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Medicare Spending Trends 2025: Where $940 Billion Goes',
-  description: 'Medicare spending hit $1.05T across 12 years of data. See 2025 trends: fastest-growing specialties, regional shifts, telehealth surge, and where your tax dollars actually go.',
+  description: 'Medicare spending hit $1.05T across 10 years of data. See 2025 trends: fastest-growing specialties, regional shifts, telehealth surge, and where your tax dollars actually go.',
   keywords: ['medicare spending trends 2025', 'medicare budget 2025', 'medicare costs rising', 'medicare spending breakdown', 'where does medicare money go', 'medicare spending by year'],
   alternates: { canonical: '/investigations/medicare-spending-trends-2025' },
   openGraph: {
     title: 'Medicare Spending Trends 2025: Where $940 Billion Goes',
-    description: 'Medicare spending hit $1.05T across 12 years of data. See 2025 trends: fastest-growing specialties, regional shifts, and where your tax dollars actually go.',
+    description: 'Medicare spending hit $1.05T across 10 years of data. See 2025 trends: fastest-growing specialties, regional shifts, and where your tax dollars actually go.',
     url: 'https://www.openmedicare.us/investigations/medicare-spending-trends-2025',
   },
 }
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does Medicare spend per year?',
-    answer: 'Based on CMS data from 2014–2025, Medicare Part B physician/supplier spending averaged roughly $85–94 billion per year, with a 10-year cumulative total of $1.05 trillion. The 2023 figure was approximately $93.7 billion.',
+    answer: 'Based on CMS data from 2014–2023, Medicare Part B physician/supplier spending averaged roughly $85–94 billion per year, with a 10-year cumulative total of $1.05 trillion. The 2023 figure was approximately $93.7 billion.',
   },
   {
     question: 'What are the fastest-growing Medicare spending categories?',
@@ -48,7 +48,7 @@ export default function MedicareSpendingTrends2025Page() {
       <FAQSchema faqs={faqs} />
       <ArticleJsonLd
         title="Medicare Spending Trends 2025: Where $940 Billion Goes"
-        description="Comprehensive analysis of Medicare spending trends using 12 years of CMS data. Fastest-growing specialties, regional shifts, and where taxpayer dollars actually go."
+        description="Comprehensive analysis of Medicare spending trends using 10 years of CMS data. Fastest-growing specialties, regional shifts, and where taxpayer dollars actually go."
         publishedDate={publishedDate}
         modifiedDate={publishedDate}
         url="https://www.openmedicare.us/investigations/medicare-spending-trends-2025"

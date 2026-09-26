@@ -251,7 +251,7 @@ export default function ImpossibleNumbers() {
 
         <ShareButtons url="https://www.openmedicare.us/fraud/impossible-numbers" title="Impossible Numbers" />
         <div className="mt-6">
-          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2025)']} lastUpdated="September 2026" />
+          <SourceCitation sources={['CMS Medicare Provider Utilization and Payment Data (2014-2023)']} lastUpdated="September 2026" />
         </div>
       </div>
     </div>

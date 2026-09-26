@@ -284,7 +284,7 @@ export default function MedicareFraudBiggestCases2025Page() {
               <li><Link href="/investigations/9862-services-per-day" className="text-blue-600 hover:underline">9,862 Services Per Day: Impossible Billing</Link></li>
               <li><Link href="/investigations/medicare-fraud-detection-2026" className="text-blue-600 hover:underline">Medicare Fraud Detection 2026: AI &amp; Recovery Data</Link></li>
               <li><Link href="/investigations/medicare-advantage-star-ratings-2026" className="text-blue-600 hover:underline">MA Star Ratings 2026: Winners &amp; Losers</Link></li>
-              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">Part D Redesign: The $2,000 Cap Six Months In</Link></li>
+              <li><Link href="/investigations/part-d-redesign-impact-2026" className="text-blue-600 hover:underline">The $2,000 Part D Cap in Year Two</Link></li>
               <li><Link href="/investigations/biggest-billers" className="text-blue-600 hover:underline">Medicare&apos;s Biggest Billers</Link></li>
             </ul>
           </div>
@@ -293,7 +293,7 @@ export default function MedicareFraudBiggestCases2025Page() {
             'U.S. Department of Justice, Healthcare Fraud Enforcement Actions (2025-2026)',
             'HHS Office of Inspector General Annual Reports',
             'False Claims Act Statistics, DOJ Civil Division (FY 2025)',
-            'OpenMedicare AI Fraud Detection Model v2 (2014-2025 data)',
+            'OpenMedicare AI Fraud Detection Model v2 (2014-2023 data)',
             'GAO Reports on Medicare Program Integrity',
           ]} />
         </article>

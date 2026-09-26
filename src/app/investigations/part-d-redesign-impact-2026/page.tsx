@@ -7,12 +7,12 @@ import ShareButtons from '@/components/ShareButtons'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Medicare Part D Redesign: The $2,000 Cap Six Months In — Impact & Data',
-  description: 'The IRA\'s Part D redesign capped out-of-pocket drug costs at $2,000. Eighteen months in, 1.5M beneficiaries have saved an average $1,500/year. Full impact analysis.',
-  keywords: ['medicare part d redesign', '$2000 out of pocket cap', 'inflation reduction act part d', 'medicare drug costs 2026', 'part d donut hole', 'medicare prescription payment plan', 'part d premium increase'],
+  title: 'The $2,000 Part D Cap in Year Two: Who Is Saving and Who Is Paying',
+  description: 'The IRA\'s Part D out-of-pocket cap is in its second year. An estimated 18.7M beneficiaries are saving money, and those who used to exceed the cap save ~$1,500/year. Premiums, the drug industry\'s response, and the full data.',
+  keywords: ['medicare part d redesign', '$2000 out of pocket cap', 'part d cap 2026', '$2100 part d cap', 'inflation reduction act part d', 'medicare drug costs 2026', 'part d donut hole', 'medicare prescription payment plan', 'part d premium increase'],
   openGraph: {
-    title: 'Medicare Part D Redesign: The $2,000 Cap Six Months In — Impact & Data',
-    description: 'The IRA\'s Part D redesign capped out-of-pocket drug costs at $2,000. Eighteen months in, 1.5M beneficiaries have saved an average $1,500/year.',
+    title: 'The $2,000 Part D Cap in Year Two: Who Is Saving and Who Is Paying',
+    description: 'The IRA\'s Part D out-of-pocket cap is in its second year. An estimated 18.7M beneficiaries are saving money, and those who used to exceed the cap save ~$1,500/year.',
   },
   alternates: {
     canonical: '/investigations/part-d-redesign-impact-2026',
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the Medicare Part D $2,000 out-of-pocket cap?',
-    answer: 'Starting January 1, 2025, the Inflation Reduction Act capped annual out-of-pocket spending on Medicare Part D prescription drugs at $2,000. Once a beneficiary reaches $2,000 in out-of-pocket costs for the year, they pay nothing for the rest of the year. This replaced the previous structure where beneficiaries paid 5% coinsurance in the catastrophic phase with no annual limit.',
+    answer: 'Since January 1, 2025, the Inflation Reduction Act has capped annual out-of-pocket spending on Medicare Part D prescription drugs. The cap was $2,000 in 2025 and is indexed to growth in Part D costs, rising to $2,100 in 2026. Once a beneficiary reaches the cap, they pay nothing more for covered drugs for the rest of the year. Before the redesign, there was no hard annual limit on what beneficiaries could pay.',
   },
   {
     question: 'How many Medicare beneficiaries benefit from the $2,000 cap?',
-    answer: 'Approximately 1.5 million Medicare beneficiaries hit the $2,000 cap in the first 18 months, saving an average of $1,500 per year compared to what they would have paid under the old structure. An additional 3.4 million beneficiaries benefit from the restructured coverage phases even if they don\'t reach the cap. The beneficiaries who benefit most are those on expensive specialty drugs for cancer, autoimmune conditions, and rare diseases.',
+    answer: 'An estimated 18.7 million Medicare beneficiaries are saving money under the redesigned Part D benefit in 2026, its second year. Roughly 1.5 million of them previously paid more than the cap each year, and they save an average of about $1,500 per year compared with the old structure. The biggest winners are people on expensive specialty drugs for cancer, autoimmune conditions, and rare diseases.',
   },
   {
     question: 'What was the Medicare Part D "donut hole"?',
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'How does the Part D redesign connect to drug price negotiation?',
-    answer: 'The Part D redesign and drug price negotiation are both provisions of the Inflation Reduction Act. While the $2,000 cap limits what beneficiaries pay out of pocket, drug price negotiation reduces the actual prices Medicare pays for select drugs. Together, they work to lower costs for both beneficiaries and the program. The first 10 negotiated drug prices took effect in 2026, with 15 more drugs to be negotiated in 2027.',
+    answer: 'The Part D redesign and drug price negotiation are both provisions of the Inflation Reduction Act. While the $2,000 cap limits what beneficiaries pay out of pocket, drug price negotiation reduces the actual prices Medicare pays for select drugs. Together, they work to lower costs for both beneficiaries and the program. The first 10 negotiated drug prices have been in effect since January 2026, and negotiated prices for 15 more Part D drugs take effect in January 2027, for 25 drugs in total.',
   },
   {
     question: 'Which beneficiaries benefit most from the Part D redesign?',
@@ -55,10 +55,11 @@ export default function PartDRedesignImpact2026Page() {
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <ArticleJsonLd
-          title="Medicare Part D Redesign: The $2,000 Cap Six Months In"
-          description="Eighteen months after the IRA's Part D redesign took effect, 1.5M beneficiaries have saved an average $1,500/year. Full impact analysis with data."
+          title="The $2,000 Part D Cap in Year Two"
+          description="In its second year, the IRA's Part D out-of-pocket cap is saving an estimated 18.7M beneficiaries money, and those who used to exceed the cap save ~$1,500/year. Full impact analysis with data."
           url="https://www.openmedicare.us/investigations/part-d-redesign-impact-2026"
           publishedDate="2026-07-11"
+          modifiedDate="2026-09-26"
         />
         <FAQSchema faqs={faqs} />
         <Breadcrumbs items={[
@@ -69,16 +70,16 @@ export default function PartDRedesignImpact2026Page() {
         <article className="prose prose-lg max-w-none">
           <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">Analysis</span>
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
-            Medicare Part D Redesign: The $2,000 Cap Six Months In
+            The $2,000 Part D Cap in Year Two
           </h1>
           <p className="text-gray-500 text-sm mb-8">Updated September 2026 · 15 min read</p>
 
-          <ShareButtons url="https://www.openmedicare.us/investigations/part-d-redesign-impact-2026" title="Medicare Part D Redesign: The $2,000 Cap Six Months In" />
+          <ShareButtons url="https://www.openmedicare.us/investigations/part-d-redesign-impact-2026" title="The $2,000 Part D Cap in Year Two" />
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-blue-900 font-medium text-lg">Key Finding</p>
             <p className="text-blue-800 mt-2">
-              Eighteen months after the Inflation Reduction Act&apos;s Part D redesign took effect, <strong>1.5 million beneficiaries</strong> have hit the $2,000 out-of-pocket cap, saving an average of <strong>$1,500 per year</strong>. But premiums rose 7%, and the cost shift has taxpayers and insurers footing a larger bill — raising questions about long-term sustainability.
+              Now in its second year, the Inflation Reduction Act&apos;s Part D out-of-pocket cap is lowering drug costs for an estimated <strong>18.7 million Medicare beneficiaries</strong>. The roughly 1.5 million who used to pay more than the cap save an average of <strong>$1,500 per year</strong>. But premiums rose 7%, and the cost shift has insurers, drugmakers, and taxpayers footing a larger bill — raising questions about long-term sustainability.
             </p>
           </div>
 
@@ -97,10 +98,10 @@ export default function PartDRedesignImpact2026Page() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr><td className="px-4 py-2 text-gray-800 font-medium">Deductible</td><td className="px-4 py-2 text-gray-600">$545 annual deductible</td><td className="px-4 py-2 text-gray-600">$590 annual deductible (2026)</td></tr>
-                <tr><td className="px-4 py-2 text-gray-800 font-medium">Initial Coverage</td><td className="px-4 py-2 text-gray-600">25% coinsurance up to $4,660</td><td className="px-4 py-2 text-gray-600">25% coinsurance until $2,000 OOP</td></tr>
+                <tr><td className="px-4 py-2 text-gray-800 font-medium">Initial Coverage</td><td className="px-4 py-2 text-gray-600">25% coinsurance up to $4,660</td><td className="px-4 py-2 text-gray-600">25% coinsurance until the OOP cap</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800 font-medium">Coverage Gap</td><td className="px-4 py-2 text-gray-600">25% coinsurance (donut hole)</td><td className="px-4 py-2 text-gray-600">Eliminated — counts toward $2,000 cap</td></tr>
                 <tr><td className="px-4 py-2 text-gray-800 font-medium">Catastrophic</td><td className="px-4 py-2 text-gray-600">5% coinsurance — no cap</td><td className="px-4 py-2 text-gray-600">$0 — plan and Medicare pay 100%</td></tr>
-                <tr className="bg-yellow-50"><td className="px-4 py-2 text-gray-800 font-bold">Maximum OOP</td><td className="px-4 py-2 text-red-700 font-bold">No limit (unlimited exposure)</td><td className="px-4 py-2 text-green-700 font-bold">$2,000 per year</td></tr>
+                <tr className="bg-yellow-50"><td className="px-4 py-2 text-gray-800 font-bold">Maximum OOP</td><td className="px-4 py-2 text-red-700 font-bold">No limit (unlimited exposure)</td><td className="px-4 py-2 text-green-700 font-bold">$2,000 (2025) · $2,100 (2026)</td></tr>
               </tbody>
             </table>
           </div>
@@ -117,24 +118,24 @@ export default function PartDRedesignImpact2026Page() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The New Structure: What Changed</h2>
           <p className="text-gray-700 mb-4">
-            The Inflation Reduction Act of 2022 overhauled Part D&apos;s benefit structure effective January 1, 2025. The centerpiece: a hard <strong>$2,000 annual cap</strong> on out-of-pocket prescription drug spending. Once a beneficiary hits $2,000, their plan and Medicare cover 100% of remaining drug costs for the year.
+            The Inflation Reduction Act of 2022 overhauled Part D&apos;s benefit structure effective January 1, 2025. The centerpiece: a hard <strong>$2,000 annual cap</strong> on out-of-pocket prescription drug spending. Once a beneficiary hits the cap, their plan, the manufacturer, and Medicare cover 100% of remaining drug costs for the year. The cap is indexed to Part D cost growth, so it rose to <strong>$2,100 in 2026</strong>, the cap&apos;s second full year in effect.
           </p>
           <p className="text-gray-700 mb-4">
             The redesign also restructured who pays what across the coverage phases. In the catastrophic phase, <strong>plans now bear 60% of costs</strong> (up from 15%) and <strong>Medicare covers 20%</strong> (down from 80%). Manufacturer discounts in the coverage gap shifted from 70% to 20%. These changes shifted billions in costs from beneficiaries and the government onto plans and manufacturers — a structural change with significant market implications.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">18 Months of Data: The Impact</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Year Two: The Impact by the Numbers</h2>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8 not-prose">
             <p className="text-blue-900 font-medium text-lg">Impact by the Numbers</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-3">
               <div>
-                <p className="text-3xl font-bold text-blue-900">1.5M</p>
-                <p className="text-blue-700 text-sm">Beneficiaries hit $2K cap</p>
+                <p className="text-3xl font-bold text-blue-900">18.7M</p>
+                <p className="text-blue-700 text-sm">Beneficiaries saving money</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-blue-900">$1,500</p>
-                <p className="text-blue-700 text-sm">Avg. annual savings per person</p>
+                <p className="text-blue-700 text-sm">Avg. annual savings for those who previously exceeded the cap</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-blue-900">$2.25B</p>
@@ -145,8 +146,8 @@ export default function PartDRedesignImpact2026Page() {
                 <p className="text-blue-700 text-sm">Avg. premium increase</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-blue-900">3.4M</p>
-                <p className="text-blue-700 text-sm">Additional beneficiaries with lower costs</p>
+                <p className="text-3xl font-bold text-blue-900">1.5M</p>
+                <p className="text-blue-700 text-sm">Previously paid more than the cap</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-blue-900">12%</p>
@@ -156,10 +157,10 @@ export default function PartDRedesignImpact2026Page() {
           </div>
 
           <p className="text-gray-700 mb-4">
-            Through the first 18 months of the redesign, approximately <strong>1.5 million beneficiaries</strong> have reached the $2,000 out-of-pocket cap — meaning they paid nothing for prescription drugs for the remainder of their plan year. These beneficiaries saved an average of <strong>$1,500 per year</strong> compared to what they would have paid under the old structure, for an estimated total savings of <strong>$2.25 billion</strong>.
+            In 2026, the redesign&apos;s second year, an estimated <strong>18.7 million Medicare beneficiaries</strong> are paying less for prescription drugs than they would have under the old Part D structure. Most of them never come close to the cap. They save because the coverage gap is gone and the benefit is simpler and more predictable, which also lets more people spread costs through the Medicare Prescription Payment Plan.
           </p>
           <p className="text-gray-700 mb-4">
-            Beyond those who hit the cap, an additional <strong>3.4 million beneficiaries</strong> benefit from the restructured coverage phases, even though they don&apos;t reach $2,000 in annual spending. The elimination of the coverage gap and the simplified benefit structure have reduced confusion and improved overall cost predictability.
+            The largest savings go to a much smaller group. About <strong>1.5 million beneficiaries</strong> used to pay more than the cap each year, and they now stop paying for covered drugs once they reach it. Those beneficiaries save an average of <strong>$1,500 per year</strong> compared with the old structure, or an estimated <strong>$2.25 billion</strong> a year in total.
           </p>
           <p className="text-gray-700 mb-4">
             One of the most significant findings: <strong>medication adherence improved by 12%</strong> among beneficiaries who previously faced high out-of-pocket costs. When people know their drug costs are capped, they&apos;re more likely to fill prescriptions and take medications as directed — leading to better health outcomes and potentially lower overall healthcare spending.
@@ -170,7 +171,8 @@ export default function PartDRedesignImpact2026Page() {
             The $2,000 cap limits what beneficiaries pay, but the IRA&apos;s drug price negotiation program reduces what Medicare pays. The first <strong>10 negotiated drug prices</strong> took effect January 1, 2026, with discounts of 38% to 79% on drugs that previously cost Medicare $50.5 billion annually. See our full analysis: <Link href="/investigations/drug-price-negotiation-2026" className="text-blue-600 hover:underline">Drug Price Negotiation 2026</Link>.
           </p>
           <p className="text-gray-700 mb-4">
-            Together, the cap and negotiation work synergistically. Lower negotiated prices mean beneficiaries reach the $2,000 cap more slowly (spending less total before hitting it), and the program saves money on the back end by paying less for the drugs themselves. CMS estimates the combined effect will save Medicare <strong>$6 billion in 2026</strong> and nearly <strong>$100 billion over 10 years</strong>.
+            Together, the cap and negotiation work synergistically. Lower negotiated prices mean beneficiaries reach the cap more slowly (spending less total before hitting it), and the program saves money on the back end by paying less for the drugs themselves. CMS estimated the first 10 negotiated prices would save Medicare about <strong>$6 billion</strong> a year, and CBO projects negotiation will save nearly <strong>$100 billion over 10 years</strong>. Negotiated prices for 15 more Part D drugs, including Ozempic and Wegovy, take effect in January 2027, bringing the program to 25 drugs. The negotiated prices are published on{' '}
+            <a href="https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CMS.gov</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Premium Impact: What Beneficiaries Are Paying</h2>
@@ -178,7 +180,7 @@ export default function PartDRedesignImpact2026Page() {
             The redesign isn&apos;t free. Average Part D premiums rose approximately <strong>7% in 2026</strong>, from $34.70 to $37.13 per month. This increase reflects the new cost structure: plans now bear significantly more financial risk in the catastrophic phase, and they&apos;re passing some of that cost through to beneficiaries via higher premiums.
           </p>
           <p className="text-gray-700 mb-4">
-            However, context matters. A $2.43/month premium increase translates to about <strong>$29 more per year</strong>. For the 1.5 million beneficiaries who saved an average of $1,500, that&apos;s an extraordinary return. Even for beneficiaries with low drug costs, the premium increase provides insurance against catastrophic drug expenses — a protection that didn&apos;t exist before.
+            However, context matters. A $2.43/month premium increase translates to about <strong>$29 more per year</strong>. For the 1.5 million beneficiaries who save an average of $1,500, that&apos;s an extraordinary return. Even for beneficiaries with low drug costs, the premium increase provides insurance against catastrophic drug expenses — a protection that didn&apos;t exist before.
           </p>
           <p className="text-gray-700 mb-4">
             That said, the premium trajectory bears watching. Industry analysts project Part D premiums could rise another 5-8% in 2027 as plans fully absorb the new cost structure. Congress also allocated <strong>$47 billion in subsidies</strong> over 10 years to limit premium increases — but those subsidies are time-limited, and there&apos;s no guarantee they&apos;ll be extended.
@@ -186,10 +188,10 @@ export default function PartDRedesignImpact2026Page() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Medicare Prescription Payment Plan</h2>
           <p className="text-gray-700 mb-4">
-            Another IRA provision that took effect in 2025: the <strong>Medicare Prescription Payment Plan</strong>, which allows beneficiaries to spread their out-of-pocket drug costs into predictable monthly installments. Instead of facing a $2,000 bill at the pharmacy in January, beneficiaries can opt to pay roughly $167/month throughout the year.
+            Another IRA provision that took effect in 2025: the <strong>Medicare Prescription Payment Plan</strong>, which allows beneficiaries to spread their out-of-pocket drug costs into predictable monthly installments. Instead of facing a bill for the full cap at the pharmacy in January, beneficiaries can opt to pay roughly $167–$175/month throughout the year.
           </p>
           <p className="text-gray-700 mb-4">
-            Early data shows strong uptake: approximately <strong>820,000 beneficiaries</strong> enrolled in the payment plan in its first 18 months. The program has been particularly popular among beneficiaries on fixed incomes who take expensive medications early in the year — cancer patients starting a new treatment regimen, for example, or those with autoimmune conditions whose biologics cost thousands per dose.
+            Early data shows strong uptake: approximately <strong>820,000 beneficiaries</strong> have enrolled in the payment plan since it launched. The program has been particularly popular among beneficiaries on fixed incomes who take expensive medications early in the year — cancer patients starting a new treatment regimen, for example, or those with autoimmune conditions whose biologics cost thousands per dose.
           </p>
           <p className="text-gray-700 mb-4">
             The payment plan addresses a critical behavioral barrier: <strong>cost-related non-adherence</strong>. Research consistently shows that high upfront costs at the pharmacy counter cause many beneficiaries to abandon prescriptions or skip doses. By smoothing costs into predictable monthly amounts, the payment plan reduces this barrier and improves medication adherence — which in turn reduces hospitalizations and emergency visits.
@@ -228,7 +230,7 @@ export default function PartDRedesignImpact2026Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-green-50"><td className="px-4 py-2 text-gray-800 font-medium">Cancer patients</td><td className="px-4 py-2 text-green-700 font-bold">Big winner</td><td className="px-4 py-2 text-gray-600">Oral chemo drugs capped at $2K vs. $8K-$15K previously</td></tr>
+                <tr className="bg-green-50"><td className="px-4 py-2 text-gray-800 font-medium">Cancer patients</td><td className="px-4 py-2 text-green-700 font-bold">Big winner</td><td className="px-4 py-2 text-gray-600">Oral chemo drugs capped at $2K–$2.1K vs. $8K-$15K previously</td></tr>
                 <tr className="bg-green-50"><td className="px-4 py-2 text-gray-800 font-medium">Autoimmune patients</td><td className="px-4 py-2 text-green-700 font-bold">Big winner</td><td className="px-4 py-2 text-gray-600">Biologics (Humira, Enbrel, Stelara) savings of $3K-$8K/year</td></tr>
                 <tr className="bg-green-50"><td className="px-4 py-2 text-gray-800 font-medium">Rare disease patients</td><td className="px-4 py-2 text-green-700 font-bold">Big winner</td><td className="px-4 py-2 text-gray-600">Specialty drugs often $10K+/month now capped</td></tr>
                 <tr className="bg-green-50"><td className="px-4 py-2 text-gray-800 font-medium">Diabetes patients</td><td className="px-4 py-2 text-green-700 font-bold">Winner</td><td className="px-4 py-2 text-gray-600">Insulin already capped at $35/month (2023), plus $2K cap on other drugs</td></tr>
@@ -269,9 +271,26 @@ export default function PartDRedesignImpact2026Page() {
             <li><strong>Specialty pharmacy partnerships:</strong> Plans are increasingly steering beneficiaries toward specialty pharmacies and mail-order options to control costs</li>
           </ul>
 
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">How the Pharmaceutical Industry Has Responded</h2>
+          <p className="text-gray-700 mb-4">
+            Drugmakers now pay directly for the cap. In 2025, the IRA replaced the old Coverage Gap Discount Program with a new <strong>Manufacturer Discount Program</strong>. Manufacturers owe a <strong>10% discount</strong> on brand-name drugs in the initial coverage phase and a <strong>20% discount</strong> in the catastrophic phase. Under the old design, manufacturer discounts applied only in the coverage gap, so drugmakers had little exposure once a patient reached catastrophic coverage. Now they share in the cost of every high-spending beneficiary, which gives them a direct financial stake in the cap.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The industry has responded on several fronts:
+          </p>
+          <ul className="text-gray-700 mb-4 list-disc pl-6">
+            <li><strong>Litigation:</strong> Manufacturers and trade groups filed a series of lawsuits against the IRA&apos;s drug provisions. Federal courts have so far rejected every challenge, and both the negotiated prices and the redesigned benefit remain in effect.</li>
+            <li><strong>Launch pricing:</strong> Analysts have documented higher list prices for newly launched drugs. Because manufacturers can&apos;t easily raise prices on existing drugs in Medicare (the IRA&apos;s inflation rebates penalize increases above inflation), launch prices are where they have the most room.</li>
+            <li><strong>Lobbying to narrow the law:</strong> The industry has pushed Congress to change how negotiation applies to small-molecule drugs (the so-called &quot;pill penalty&quot;) and to orphan drugs. In 2025, Congress broadened the orphan-drug exclusion from negotiation.</li>
+            <li><strong>R&amp;D messaging:</strong> Drugmakers argue that the cap and negotiation together will reduce investment in new therapies. So far, industry R&amp;D spending has stayed high, but it&apos;s too early to measure effects on the long-run drug pipeline.</li>
+          </ul>
+          <p className="text-gray-700 mb-4">
+            The net effect on premiums runs through the plans. Insurers now carry 60% of catastrophic-phase costs (up from 15%) and have raised premiums and tightened formularies in response. Manufacturer discounts and CMS premium subsidies have limited those increases so far. How long that holds depends on whether federal subsidies continue after the transition period.
+          </p>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Concerns and Criticisms</h2>
           <p className="text-gray-700 mb-4">
-            The redesign isn&apos;t without critics. Several legitimate concerns have emerged in the first 18 months that deserve attention:
+            The redesign isn&apos;t without critics. Several legitimate concerns have emerged in its first two years that deserve attention:
           </p>
           <p className="text-gray-700 mb-4">
             While the benefits for high-cost beneficiaries are clear, the broader systemic effects are more nuanced — and some may take years to fully materialize.
@@ -305,7 +324,7 @@ export default function PartDRedesignImpact2026Page() {
             Several developments will shape the Part D landscape in 2027 and beyond:
           </p>
           <ul className="text-gray-700 mb-4 list-disc pl-6">
-            <li><strong>15 more drugs negotiated:</strong> The second round of Medicare drug price negotiations will bring 15 additional drugs to negotiated prices in 2027, including Part B drugs for the first time</li>
+            <li><strong>25 negotiated drugs:</strong> Negotiated prices for 15 more Part D drugs, including Ozempic, Wegovy, Ibrance, and Xtandi, take effect January 1, 2027, joining the 10 already in effect. Part B drugs join the program with the third cycle, with prices effective 2028</li>
             <li><strong>Premium stabilization:</strong> Congress must decide whether to extend the transition subsidies that have limited premium increases; failure to act could result in 15-20% premium spikes</li>
             <li><strong>Biosimilar competition:</strong> Several major biologics face biosimilar competition in 2027-2028, which could reduce costs across the Part D program</li>
             <li><strong>GLP-1 coverage question:</strong> Whether Medicare will cover GLP-1 drugs (Ozempic, Wegovy) for obesity — at an estimated cost of $35-50 billion annually — could reshape Part D economics entirely</li>
@@ -315,7 +334,7 @@ export default function PartDRedesignImpact2026Page() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Bottom Line</h2>
           <p className="text-gray-700 mb-4">
-            After 18 months, the data paints a clear picture: the Part D redesign has delivered meaningful financial relief to the beneficiaries who needed it most, while creating new cost pressures that will require ongoing attention.
+            Nearly two years in, the data paints a clear picture: the Part D redesign has delivered meaningful financial relief to the beneficiaries who needed it most, while creating new cost pressures that will require ongoing attention.
           </p>
           <p className="text-gray-700 mb-4">
             The Part D redesign is working as intended for its primary target: beneficiaries with high drug costs. For someone who previously paid $10,000+ per year out of pocket on medications, the $2,000 cap is transformative. Medication adherence is up, financial stress is down, and health outcomes are improving.
@@ -338,11 +357,13 @@ export default function PartDRedesignImpact2026Page() {
 
           <SourceCitation sources={[
             'CMS Part D Redesign Implementation Data (2025-2026)',
+            'CMS Medicare Part D Manufacturer Discount Program Guidance',
+            'CMS.gov: Negotiated Maximum Fair Prices for Initial Price Applicability Years 2026 and 2027',
             'Congressional Budget Office, Inflation Reduction Act Cost Estimates (Updated September 2026)',
             'HHS ASPE, Impact of the Part D Redesign on Beneficiary Out-of-Pocket Costs',
             'KFF Medicare Part D Enrollment and Spending Analysis (2026)',
             'Medicare Trustees Report, 2026',
-            'OpenMedicare Drug Spending Analysis (2014-2025 data)',
+            'OpenMedicare Drug Spending Analysis (2014-2023 data)',
           ]} />
         </article>
       </div>

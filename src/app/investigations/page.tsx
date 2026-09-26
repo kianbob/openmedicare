@@ -8,7 +8,7 @@ import SourceCitation from '@/components/SourceCitation'
 
 export const metadata: Metadata = {
   title: 'Medicare Fraud Investigations — 74 Exposed',
-  description: 'Data-driven investigations uncovering $14.6B+ in Medicare fraud from $1.05T+ in payments (2014-2025). AI-powered analysis of 1.82M+ providers serving 70.6M beneficiaries — 74 investigations updated for 2026.',
+  description: 'Data-driven investigations uncovering $14.6B+ in Medicare fraud from $1.05T+ in payments (2014-2023). AI-powered analysis of 1.82M+ providers serving 68.5M beneficiaries — 74 investigations updated for 2026.',
   alternates: {
     canonical: '/investigations',
   },
@@ -103,13 +103,13 @@ const investigations = [
     excerpt: 'Average Medicare Advantage star ratings dropped to 3.92 in 2026. Kaiser Permanente leads at 4.5+ stars while Humana and Centene declined. $12.8 billion in quality bonus payments are at stake.'
   },
   {
-    title: 'Medicare Part D Redesign: The $2,000 Cap Six Months In',
-    description: '18 months after the $2,000 out-of-pocket cap took effect, here\'s what the data shows about costs, premiums, and savings.',
+    title: 'The $2,000 Part D Cap in Year Two: Who Is Saving and Who Is Paying',
+    description: 'In its second year, the $2,000 out-of-pocket cap is saving an estimated 18.7 million beneficiaries money. What the data shows about costs, premiums, and the drug industry.',
     href: '/investigations/part-d-redesign-impact-2026',
     category: '💊 Policy Analysis',
     readTime: '15 min read',
     publishedAt: '2026-07-11',
-    excerpt: 'The IRA\'s $2,000 annual out-of-pocket cap has saved 1.5 million beneficiaries an average of $1,500/year. But Part D premiums rose 7%, and the cost shift to taxpayers raises sustainability questions.'
+    excerpt: 'Now in its second year, the IRA\'s Part D out-of-pocket cap is lowering costs for an estimated 18.7 million beneficiaries, and those who used to exceed the cap save about $1,500 a year. But Part D premiums rose 7%, and the cost shift to plans, manufacturers, and taxpayers raises sustainability questions.'
   },
   {
     title: 'Medicare Fraud Detection 2026: AI, Investigations & Recovery Data',
@@ -122,12 +122,12 @@ const investigations = [
   },
   {
     title: 'Medicare Enrollment Trends & Projections: 2026 and Beyond',
-    description: '67.8 million enrollees and growing. Medicare Advantage now covers 54%. Projections to 2040 and trust fund solvency.',
+    description: '68.5 million enrollees and growing. Medicare Advantage now covers 52%. Projections to 2040 and trust fund solvency.',
     href: '/investigations/medicare-enrollment-trends-2026',
     category: '📊 Demographics',
     readTime: '14 min read',
     publishedAt: '2026-07-11',
-    excerpt: 'Medicare enrollment hit 67.8 million in 2026 with 10,000 baby boomers turning 65 daily. Medicare Advantage penetration reached 54%. The Part A Trust Fund is projected for depletion by 2036.'
+    excerpt: 'Medicare enrollment hit 68.5 million in 2026 with 10,000 baby boomers turning 65 daily. Medicare Advantage penetration reached 52% (35.7M). The Part A Trust Fund is projected for depletion by 2036.'
   },
   {
     title: 'Medicare Drug Price Negotiation: 2026 Update — IRA Impact & Savings',
@@ -149,12 +149,12 @@ const investigations = [
   },
   {
     title: 'Medicare Advantage vs Original Medicare: 2026 Comparison',
-    description: '33.8M enrolled in Medicare Advantage in 2026. A side-by-side comparison of premiums, costs, and overpayment controversies.',
+    description: '35.7M enrolled in Medicare Advantage in 2026. A side-by-side comparison of premiums, costs, and overpayment controversies.',
     href: '/investigations/medicare-advantage-vs-original-2026',
     category: '⚖️ Comparative Analysis',
     readTime: '14 min read',
     publishedAt: '2026-07-10',
-    excerpt: '33.8 million people — 54% of eligible beneficiaries — are now in Medicare Advantage. Average MA premium: $17/month. Part B premium: $185/month. But MA costs taxpayers 6–8% more, and risk-adjustment upcoding is under DOJ scrutiny.'
+    excerpt: '35.7 million people — 52% of eligible beneficiaries — are now in Medicare Advantage. Average MA premium: $17/month. Part B premium: $185/month. But MA costs taxpayers 6–8% more, and risk-adjustment upcoding is under DOJ scrutiny.'
   },
   {
     title: 'Medicare Spending Trends 2025: Where $940 Billion Goes',
@@ -172,7 +172,7 @@ const investigations = [
     category: '⚖️ Comparative Analysis',
     readTime: '16 min read',
     publishedAt: '2026-06-03',
-    excerpt: '54% of beneficiaries now use Medicare Advantage. MA costs the government 6–25% more per beneficiary. Diagnosis upcoding may add $12–25B/year in overpayments. Two systems, two kinds of fraud.'
+    excerpt: '52% of beneficiaries now use Medicare Advantage. MA costs the government 6–25% more per beneficiary. Diagnosis upcoding may add $12–25B/year in overpayments. Two systems, two kinds of fraud.'
   },
   {
     title: 'Medicare Fraud Statistics 2025: How Much Is Lost Each Year?',
@@ -456,12 +456,12 @@ const investigations = [
   },
   {
     title: 'Medicare Advantage vs Original Medicare: 2026 Comparison',
-    description: '54% of beneficiaries now choose MA — enrollment trends, costs, and overpayment concerns',
+    description: '52% of beneficiaries now choose MA — enrollment trends, costs, and overpayment concerns',
     href: '/investigations/medicare-advantage-vs-original-2026',
     category: 'Analysis',
     readTime: '13 min read',
     publishedAt: '2026-07-10',
-    excerpt: 'Medicare Advantage crossed a historic threshold: 54% of eligible beneficiaries (33.8M) now choose MA. But the program costs the government 6-8% more per beneficiary than Original Medicare.'
+    excerpt: 'Medicare Advantage crossed a historic threshold: 52% of eligible beneficiaries (35.7M) now choose MA. But the program costs the government 6-8% more per beneficiary than Original Medicare.'
   },
   {
     title: 'How Much Does Medicare Actually Pay Doctors?',
@@ -936,7 +936,7 @@ export default function InvestigationsPage() {
           lastUpdated="February 2026 (data through 2023, the latest CMS release)"
           sources={[
             'Centers for Medicare & Medicaid Services (CMS)',
-            'Medicare Provider Utilization and Payment Data (2014-2025)',
+            'Medicare Provider Utilization and Payment Data (2014-2023)',
             'Medicare Part B National Summary Data',
             'CMS National Health Expenditure Data'
           ]}

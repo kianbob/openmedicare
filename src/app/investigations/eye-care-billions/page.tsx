@@ -165,7 +165,7 @@ export default function EyeCareBillionsPage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mt-6 mb-8">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">Top 20 Eye Care Codes by Medicare Payments</h3>
-            <p className="text-sm text-gray-500">2014–2025 cumulative</p>
+            <p className="text-sm text-gray-500">2014–2023 cumulative</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full">

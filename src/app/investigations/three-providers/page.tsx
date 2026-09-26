@@ -129,7 +129,7 @@ export default function ThreeProvidersPage() {
               </p>
               <p>
                 These three providers were flagged by our statistical analysis of CMS Medicare Provider Utilization and Payment Data
-                spanning 2014–2025. Each sits atop our{' '}
+                spanning 2014–2023. Each sits atop our{' '}
                 <Link href="/fraud/watchlist" className="text-medicare-primary hover:underline">risk-scored watchlist</Link>,
                 scoring 96, 92, and 88 out of 100 respectively. Each exhibits billing volumes or patterns that fall far
                 outside the statistical norms for their specialties.
@@ -142,7 +142,7 @@ export default function ThreeProvidersPage() {
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
                 <h3 className="text-lg font-semibold text-blue-900 mb-3">📊 How We Identified These Providers</h3>
                 <p className="text-blue-800 text-sm mb-3">
-                  Our analysis processes 10 years of CMS Medicare Provider Utilization and Payment Data (2014–2025), covering
+                  Our analysis processes 10 years of CMS Medicare Provider Utilization and Payment Data (2014–2023), covering
                   over 1.1 million providers. For each provider, we calculate:
                 </p>
                 <ul className="text-blue-800 text-sm space-y-1">
@@ -671,7 +671,7 @@ export default function ThreeProvidersPage() {
             <div className="mt-6">
               <SourceCitation
                 sources={[
-                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2025)',
+                  'Centers for Medicare & Medicaid Services (CMS) — Medicare Provider Utilization and Payment Data (2014–2023)',
                   'HHS Office of Inspector General (OIG) — Fraud Enforcement Reports',
                   'Department of Justice — Healthcare Fraud Enforcement Actions (2023–2025)',
                   'Provider websites and publicly available campaign information',

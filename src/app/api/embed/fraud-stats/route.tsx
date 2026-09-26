@@ -69,7 +69,7 @@ export async function GET() {
     </div>
   </div>
   <div class="footer">
-    <span>1.82M providers analyzed · 2014–2025</span>
+    <span>1.82M providers analyzed · 2014–2023</span>
     <a href="https://www.openmedicare.us" target="_blank">www.openmedicare.us</a>
   </div>
 </div>

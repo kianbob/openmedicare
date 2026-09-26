@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What percentage of Medicare beneficiaries are on Medicare Advantage?',
-    answer: 'As of 2025, over 54% of Medicare beneficiaries are enrolled in Medicare Advantage plans, up from about 30% in 2015. This rapid growth has major implications for how Medicare dollars are spent.',
+    answer: 'As of 2026, about 52% of Medicare beneficiaries (~35.7 million people) are enrolled in Medicare Advantage plans, up from about 30% in 2015. This rapid growth has major implications for how Medicare dollars are spent.',
   },
   {
     question: 'Why does Medicare Advantage cost the government more?',
@@ -88,7 +88,7 @@ export default function MedicareAdvantageVsTraditionalPage() {
             <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg mb-8">
               <p className="text-purple-900 font-medium text-lg">Key Findings</p>
               <ul className="text-purple-800 mt-2 space-y-1">
-                <li>• 54%+ of beneficiaries now enrolled in Medicare Advantage (up from 30% in 2015)</li>
+                <li>• 52% of beneficiaries (35.7M) now enrolled in Medicare Advantage (up from 30% in 2015)</li>
                 <li>• MA plans cost the government an estimated 6–25% more per beneficiary</li>
                 <li>• Diagnosis upcoding by insurers may add $12–25B/year in overpayments</li>
                 <li>• Traditional Medicare fraud is provider-side; MA fraud is insurer-side</li>
@@ -99,7 +99,7 @@ export default function MedicareAdvantageVsTraditionalPage() {
             <div className="prose prose-lg max-w-none">
               <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Great Migration</h2>
               <p className="text-gray-700 mb-4">
-                Something remarkable has happened to Medicare over the past decade: more than half of all beneficiaries have abandoned Traditional Medicare in favor of private Medicare Advantage (MA) plans. In 2015, about 30% of beneficiaries were in MA. By 2025, that number exceeded 54%.
+                Something remarkable has happened to Medicare over the past decade: more than half of all beneficiaries have abandoned Traditional Medicare in favor of private Medicare Advantage (MA) plans. In 2015, about 30% of beneficiaries were in MA. By 2026, that number reached about 52% — roughly 35.7 million people.
               </p>
               <p className="text-gray-700 mb-4">
                 The appeal is obvious. MA plans typically offer lower premiums, dental and vision coverage, and out-of-pocket caps that Traditional Medicare lacks. For beneficiaries, it often feels like a better deal.

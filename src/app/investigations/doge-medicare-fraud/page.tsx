@@ -9,11 +9,11 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
-  description: 'DOGE wants to cut waste. We analyzed $1.05T in Medicare data (2014–2025) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
+  description: 'DOGE wants to cut waste. We analyzed $1.05T in Medicare data (2014–2023) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   keywords: ['DOGE medicare', 'DOGE medicare fraud', 'department of government efficiency medicare', 'DOGE healthcare waste', 'elon musk medicare', 'government efficiency medicare'],
   openGraph: {
     title: 'DOGE vs. Medicare Fraud: $60B Lost, 500 AI Flags',
-    description: 'DOGE wants to cut waste. We analyzed $1.05T in Medicare data (2014–2025) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
+    description: 'DOGE wants to cut waste. We analyzed $1.05T in Medicare data (2014–2023) and flagged 500 providers matching convicted fraudsters. Here\'s the roadmap they need.',
   },
   alternates: {
     canonical: '/investigations/doge-medicare-fraud',

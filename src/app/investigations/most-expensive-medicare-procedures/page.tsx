@@ -93,7 +93,7 @@ export default function MostExpensiveProceduresPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Top 20 by Total Medicare Payments</h2>
           <p className="text-gray-700 mb-4">
-            These are the 20 procedure codes that have cost Medicare the most over the past decade (2014-2025).
+            These are the 20 procedure codes that have cost Medicare the most over the past decade (2014-2023).
             Volume matters: a $73 office visit performed nearly a billion times outspends a $1,800 injection.
           </p>
 
@@ -257,7 +257,7 @@ export default function MostExpensiveProceduresPage() {
         <SourceCitation
           lastUpdated="February 2026 (data through 2023)"
           sources={[
-            'CMS Medicare Provider Utilization and Payment Data (2014-2025)',
+            'CMS Medicare Provider Utilization and Payment Data (2014-2023)',
             'Medicare Physician Fee Schedule (MPFS)',
             'CMS Part B Drug Spending Dashboard',
           ]}
