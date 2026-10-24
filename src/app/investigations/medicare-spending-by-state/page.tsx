@@ -87,7 +87,7 @@ export default function MedicareSpendingByStatePage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Big Picture</h2>
           <p className="text-gray-700 mb-4">
             Across all {formatNumber(allStates.length)} states and territories, Medicare paid a total of <strong>{formatCurrency(totalPayments)}</strong> to <strong>{formatNumber(totalProviders)}</strong> providers
-            between 2014 and 2023. But that spending is far from evenly distributed.
+            between 2014 and 2023. But that spending is far from evenly distributed. The <a href="https://americanfactbook.org/health" className="text-blue-600 underline hover:text-blue-800">American Factbook health dashboard</a> tracks how these state-level patterns connect to broader U.S. health outcomes.
           </p>
 
           <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">Top 5 States by Total Spending</h3>

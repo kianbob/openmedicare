@@ -86,7 +86,7 @@ export default function MedicareBiggestSpendersPage() {
           </p>
           <p className="text-gray-700 mb-4">
             Among the providers we <em>can</em> identify, the specialties that dominate tell a story about
-            where Medicare money flows — and it&apos;s not always where you&apos;d expect.
+            where Medicare money flows — and it&apos;s not always where you&apos;d expect. For a comprehensive ranking of doctors by total Medicare payments, see the <a href="https://americanfactbook.org/health/rankings/doctors-by-payments" className="text-blue-600 underline hover:text-blue-800">American Factbook doctor payment rankings</a>.
           </p>
 
           {/* The Redaction Problem */}

@@ -81,7 +81,7 @@ export default function BiggestBillersPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Lab Corporations Rule Medicare</h2>
           <p className="text-gray-700 mb-4">When most people think of healthcare spending, they picture hospitals and doctors. But the biggest recipients of Medicare payments are often clinical laboratories — massive corporations processing millions of tests annually.</p>
-          <p className="text-gray-700 mb-4">Laboratory Corporation of America (LabCorp) and Quest Diagnostics consistently rank among the top Medicare billers, each collecting hundreds of millions annually. These aren&apos;t fraudulent charges — they reflect the sheer volume of diagnostic testing in modern medicine.</p>
+          <p className="text-gray-700 mb-4">Laboratory Corporation of America (LabCorp) and Quest Diagnostics consistently rank among the top Medicare billers, each collecting hundreds of millions annually. These aren&apos;t fraudulent charges — they reflect the sheer volume of diagnostic testing in modern medicine. You can explore the full provider payment rankings at the <a href="https://americanfactbook.org/health/rankings/doctors-by-payments" className="text-blue-600 underline hover:text-blue-800">American Factbook doctors-by-payments tracker</a>.</p>
 
           <div className="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
             <div className="bg-blue-50 rounded-lg p-5 text-center">
